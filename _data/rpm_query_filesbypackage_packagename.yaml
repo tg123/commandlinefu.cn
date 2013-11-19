@@ -1,0 +1,8 @@
+commandlinefu_id: 187
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm --query --filesbypackage [packagename]
+summary: |-
+  List files in an RPM package

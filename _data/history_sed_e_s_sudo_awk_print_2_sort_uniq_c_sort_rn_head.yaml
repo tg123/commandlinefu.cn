@@ -1,0 +1,8 @@
+commandlinefu_id: 10016
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | sed -e 's/^sudo //' | awk '{print $2}' | sort | uniq -c | sort -rn | head
+summary: |-
+  Rank top 10 most frequently used commands

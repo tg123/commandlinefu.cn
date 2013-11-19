@@ -1,0 +1,8 @@
+commandlinefu_id: 5420
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /bin/grep - ipranges.txt | while read line; do ipcalc $line ; done  | grep -v deag
+summary: |-
+  deaggregate ip ranges

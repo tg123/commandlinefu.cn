@@ -1,0 +1,8 @@
+commandlinefu_id: 12409
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stat -f -L -c %T YOUR_FILE_OR_DIRECTORY
+summary: |-
+  Display the format of a directory or file

@@ -1,0 +1,8 @@
+commandlinefu_id: 6865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -trim *png
+summary: |-
+  Trim png files in a folder

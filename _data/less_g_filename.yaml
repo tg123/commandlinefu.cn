@@ -1,0 +1,8 @@
+commandlinefu_id: 1323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  less +G <filename>
+summary: |-
+  View a file with less, starting at the end of the file

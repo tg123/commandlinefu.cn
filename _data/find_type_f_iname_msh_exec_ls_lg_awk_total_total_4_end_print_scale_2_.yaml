@@ -1,0 +1,8 @@
+commandlinefu_id: 5222
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname '*.msh' -exec ls -lG {} \; | awk '{total = total + $4}END{print "scale=2;" total "/2^20"}' | bc
+summary: |-
+  Calculate the size in MB of all files of a certain extension

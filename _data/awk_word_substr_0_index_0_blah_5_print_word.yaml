@@ -1,0 +1,8 @@
+commandlinefu_id: 11425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{word=(substr($0,index($0,"blah"),5));print word}'
+summary: |-
+  AWK example of using substr + index to print strings in an unknown position.

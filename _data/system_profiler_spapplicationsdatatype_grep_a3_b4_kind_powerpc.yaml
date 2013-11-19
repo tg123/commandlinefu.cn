@@ -1,0 +1,8 @@
+commandlinefu_id: 9047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  system_profiler SPApplicationsDataType | grep -A3 -B4 "Kind: PowerPC"
+summary: |-
+  Find all PowerPC applications on OS X

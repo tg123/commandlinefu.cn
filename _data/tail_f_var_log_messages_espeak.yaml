@@ -1,0 +1,8 @@
+commandlinefu_id: 8261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f /var/log/messages | espeak
+summary: |-
+  make computer speaking to you :)

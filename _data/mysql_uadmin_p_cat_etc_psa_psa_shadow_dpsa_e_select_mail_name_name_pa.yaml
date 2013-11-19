@@ -1,0 +1,8 @@
+commandlinefu_id: 2419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -uadmin -p` cat /etc/psa/.psa.shadow` -Dpsa -e"select mail_name,name,password from mail left join domains on mail.dom_id = domains.id inner join accounts where mail.account_id = accounts.id;"
+summary: |-
+  Show all usernames and passwords for Plesk email addresses

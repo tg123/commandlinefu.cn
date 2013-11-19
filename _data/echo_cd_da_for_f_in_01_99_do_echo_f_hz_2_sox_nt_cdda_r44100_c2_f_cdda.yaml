@@ -1,0 +1,8 @@
+commandlinefu_id: 4079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (echo CD_DA; for f in {01..99}; do echo "$f Hz">&2; sox -nt cdda -r44100 -c2 $f.cdda synth 30 sine $f; echo TRACK AUDIO; echo FILE \"$f.cdda\" 0; done) > cdrdao.toc && cdrdao write cdrdao.toc && rm ??.cdda cdrdao.toc
+summary: |-
+  Create an audio test CD of sine waves from 1 to 99 Hz

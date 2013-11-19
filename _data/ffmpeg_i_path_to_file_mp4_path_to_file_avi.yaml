@@ -1,0 +1,8 @@
+commandlinefu_id: 1720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i "/path/to/file.mp4" "/path/to/file.avi"
+summary: |-
+  convert a .mp4 to a .avi

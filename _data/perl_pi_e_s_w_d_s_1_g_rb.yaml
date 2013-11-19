@@ -1,0 +1,8 @@
+commandlinefu_id: 11392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi -e 's/:([\w\d_]+)(\s*)=>/\1:/g' **/*.rb
+summary: |-
+  Convert Ruby 1.8 to 1.9 hash syntax

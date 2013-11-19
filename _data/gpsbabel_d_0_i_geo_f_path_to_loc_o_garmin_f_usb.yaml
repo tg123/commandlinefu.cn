@@ -1,0 +1,8 @@
+commandlinefu_id: 2006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpsbabel -D 0 -i geo -f "/path/to/.loc" -o garmin -F usb:
+summary: |-
+  send a .loc file to a garmin gps over usb

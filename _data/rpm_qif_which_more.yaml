@@ -1,0 +1,8 @@
+commandlinefu_id: 1252
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qif `which more`
+summary: |-
+  Find out what package some command belongs to (on RPM systems)

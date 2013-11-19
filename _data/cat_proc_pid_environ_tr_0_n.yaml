@@ -1,0 +1,8 @@
+commandlinefu_id: 9278
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/PID/environ | tr '\0' '\n'
+summary: |-
+  Given process ID print its environment variables

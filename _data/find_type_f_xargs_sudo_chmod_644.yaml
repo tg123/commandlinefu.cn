@@ -1,0 +1,8 @@
+commandlinefu_id: 11320
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f | xargs sudo chmod 644
+summary: |-
+  Change permissions for all files in the current directory

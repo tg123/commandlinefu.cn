@@ -1,0 +1,8 @@
+commandlinefu_id: 2893
+translator:
+  weibo: ''
+hide: true
+command: |-
+  schedtool 1
+summary: |-
+  command to display info about the core specified

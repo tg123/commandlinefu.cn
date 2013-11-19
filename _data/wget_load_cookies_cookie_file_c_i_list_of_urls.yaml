@@ -1,0 +1,8 @@
+commandlinefu_id: 6059
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  wget --load-cookies <cookie-file> -c -i <list-of-urls>
+summary: |-
+  使用cooke 的 wget

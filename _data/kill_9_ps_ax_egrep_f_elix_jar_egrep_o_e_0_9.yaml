@@ -1,0 +1,8 @@
+commandlinefu_id: 6700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 `ps ax | egrep [f]elix.jar | egrep -o -e '^ *[0-9]+'`
+summary: |-
+  Kill any process with one command using program name

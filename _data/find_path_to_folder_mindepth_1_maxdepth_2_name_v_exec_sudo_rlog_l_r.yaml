@@ -1,0 +1,8 @@
+commandlinefu_id: 7650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/folder/ -mindepth 1 -maxdepth 2 -name "*,v" -exec sudo rlog -L -R {} \;
+summary: |-
+  find rcs locked file in a given folder

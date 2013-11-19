@@ -1,0 +1,8 @@
+commandlinefu_id: 5600
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cobbler repo edit --name=Epel-i386 --environment="http_proxy=http://100.100.100.100:3128"
+summary: |-
+  Configuring a proxy for a cobbler repo

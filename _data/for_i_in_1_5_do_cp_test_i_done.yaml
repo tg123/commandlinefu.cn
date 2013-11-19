@@ -1,0 +1,8 @@
+commandlinefu_id: 2111
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {1..5}; do cp test{,$i};done
+summary: |-
+  Create several copies of a file

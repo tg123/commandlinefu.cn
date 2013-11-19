@@ -1,0 +1,8 @@
+commandlinefu_id: 8742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd $(ls -1t --color=never | head -1)
+summary: |-
+  open the last folder created

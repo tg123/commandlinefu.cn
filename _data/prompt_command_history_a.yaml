@@ -1,0 +1,8 @@
+commandlinefu_id: 3858
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PROMPT_COMMAND="history -a"
+summary: |-
+  Commit command to history file immedeately after execution

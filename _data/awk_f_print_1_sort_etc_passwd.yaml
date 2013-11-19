@@ -1,0 +1,8 @@
+commandlinefu_id: 9929
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F ':' '{print $1 | "sort";}' /etc/passwd
+summary: |-
+  Lists all usernames in alphabetical order

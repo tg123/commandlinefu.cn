@@ -1,0 +1,8 @@
+commandlinefu_id: 7204
+translator:
+  weibo: ''
+hide: true
+command: |-
+  supportsWrap(){ ldd `which ${1}` | grep "libwrap" &>/dev/null && return 0 || return 1; }
+summary: |-
+  Check tcp-wrapping support

@@ -1,0 +1,8 @@
+commandlinefu_id: 5954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps auxwww | grep outofcontrolprocess | awk '{print $2}' | xargs kill -9
+summary: |-
+  kill all instances of an annoying or endless, thread-spawning process

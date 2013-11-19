@@ -1,0 +1,8 @@
+commandlinefu_id: 11380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -lir 'aMethodName' * | grep -v 'target'
+summary: |-
+  Find text in all files, except in files matching a pattern

@@ -1,0 +1,8 @@
+commandlinefu_id: 12678
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat part1.avi part2.avi part3.avi > tmp.avi && mencoder -forceidx -oac copy -ovc copy tmp.avi -o output.avi && rm -f tmp.avi
+summary: |-
+  Merge AVI-files without recoding

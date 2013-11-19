@@ -1,0 +1,8 @@
+commandlinefu_id: 8681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F: 'BEGIN{a[NULL]=0;dupli[NULL]=0;}{if($3 in a){print a[$3];print ;}else a[$3]=$0;} ' /etc/passwd | sort -t: -k3 -n | sed -e 's/^/'$(hostname)':/g'
+summary: |-
+  Print all /etc/passwd lines with duplicated uid

@@ -1,0 +1,8 @@
+commandlinefu_id: 1130
+translator:
+  weibo: ''
+hide: true
+command: |-
+  doloop() { DONT=/tmp/do-run-run-run; while true; do touch $DONT; (sleep 30; rm $DONT;) & $1 ; if [ -e $DONT ]; then echo restarting too fast; return ; fi ; done }
+summary: |-
+  run a command repeatedly

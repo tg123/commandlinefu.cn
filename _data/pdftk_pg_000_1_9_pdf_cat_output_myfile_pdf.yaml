@@ -1,0 +1,8 @@
+commandlinefu_id: 11201
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk  pg_000{1..9}.pdf  cat output MyFile.pdf
+summary: |-
+  merge pdf using  bash brace exansion

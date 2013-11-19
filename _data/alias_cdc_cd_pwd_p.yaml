@@ -1,0 +1,8 @@
+commandlinefu_id: 57
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cdc='cd `pwd -P`'
+summary: |-
+  cd canonical (resolve any symlinks)

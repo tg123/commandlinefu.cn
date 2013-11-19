@@ -1,0 +1,8 @@
+commandlinefu_id: 4263
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -u twitter-username -d status="Hello World, Twitter!" -d source="cURL" http://twitter.com/statuses/update.xml
+summary: |-
+  Update twitter via curl (and also set the "from" bit)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -aP --no-whole-file --inplace
+summary: |-
+  copy with progress bar - rsync

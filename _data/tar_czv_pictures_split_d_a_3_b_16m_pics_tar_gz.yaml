@@ -1,0 +1,8 @@
+commandlinefu_id: 2394
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar czv Pictures | split -d -a 3 -b 16M - pics.tar.gz.
+summary: |-
+  Create a Multi-Part Archive Without Proprietary Junkware

@@ -1,0 +1,8 @@
+commandlinefu_id: 4996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -d */* | sed -e 's/^/\"/g' -e 's/$/\"/g' | xargs mv -t $(pwd)
+summary: |-
+  Move itens from subdirectories to current directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 3682
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (crontab -l; echo '* * * * * dmesg -c'; ) | crontab -
+summary: |-
+  send kernel log (dmesg) notifications to root via cron

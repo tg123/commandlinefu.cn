@@ -1,0 +1,8 @@
+commandlinefu_id: 10144
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sed -i <start>,<end>d <filename>
+summary: |-
+  从一个文件删除一个范围内的行

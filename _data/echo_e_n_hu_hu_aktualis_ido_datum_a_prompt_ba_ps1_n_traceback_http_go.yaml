@@ -1,0 +1,8 @@
+commandlinefu_id: 10076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ echo -e '\n## [hu_HU]Aktualis ido/datum a prompt-ba (PS1)\n# TraceBack: http://goo.gl/MlkcQ\nPS1="@\$(date +%H:%M:%S) $PS1"\n' >>~/.bashrc
+summary: |-
+  bash: display CURRENT time in prompt, when entering a command

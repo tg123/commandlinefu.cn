@@ -1,0 +1,8 @@
+commandlinefu_id: 6143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" -exec grep -i -H "search pharse" {} \;
+summary: |-
+  Find PHP files

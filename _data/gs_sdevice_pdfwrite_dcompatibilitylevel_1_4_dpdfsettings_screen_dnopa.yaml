@@ -1,0 +1,8 @@
+commandlinefu_id: 4675
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+summary: |-
+  Optimize PDF documents

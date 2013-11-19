@@ -1,0 +1,8 @@
+commandlinefu_id: 8062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  type -a python
+summary: |-
+  Show all "python" executables

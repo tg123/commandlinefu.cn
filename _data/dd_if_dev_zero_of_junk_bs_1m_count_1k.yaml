@@ -1,0 +1,8 @@
+commandlinefu_id: 3951
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero of=junk bs=1M count=1K
+summary: |-
+  Free unused memory currently unavailable

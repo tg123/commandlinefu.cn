@@ -1,0 +1,8 @@
+commandlinefu_id: 3810
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -ovc lavc -lavcopts vcodec=mpeg4:vbitrate=1000:vhq -oac mp3lame -lameopts br=98 -o output.wmv input.mpg
+summary: |-
+  Convert video type from mpg to wmv

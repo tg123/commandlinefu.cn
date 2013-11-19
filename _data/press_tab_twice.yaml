@@ -1,0 +1,8 @@
+commandlinefu_id: 2160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ~<press tab twice>
+summary: |-
+  List all system users

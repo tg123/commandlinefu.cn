@@ -1,0 +1,8 @@
+commandlinefu_id: 363
+translator:
+  weibo: ''
+hide: true
+command: |-
+  split -b 1k file ; cat x* > file
+summary: |-
+  Split and join with split and cat.

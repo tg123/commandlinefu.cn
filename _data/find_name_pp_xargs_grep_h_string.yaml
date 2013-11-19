@@ -1,0 +1,8 @@
+commandlinefu_id: 6076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.?pp' | xargs grep -H "string"
+summary: |-
+  Recursive grep of all c++ source under the current directory

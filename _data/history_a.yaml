@@ -1,0 +1,8 @@
+commandlinefu_id: 11047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history -a
+summary: |-
+  Save history without logout

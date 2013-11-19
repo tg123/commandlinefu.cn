@@ -1,0 +1,8 @@
+commandlinefu_id: 12790
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in .; do awk 'BEGIN {sum=0;flag=0} {sum=sum+$1; if (flag == 0) { print $1"\t"sum > "cumulative.'$f'" } if (sum > 100) flag=1 }' $f; done
+summary: |-
+  Add another column printing cumulative sum of entries in first column, sum being less than or equal to 100

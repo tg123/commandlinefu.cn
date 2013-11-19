@@ -1,0 +1,8 @@
+commandlinefu_id: 12881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "rootgot" | awk 'BEGIN{FIELDWIDTHS="4 3"}{print $2$1}'
+summary: |-
+  Use awk's FIELDWIDTHS function to manipulate a string.

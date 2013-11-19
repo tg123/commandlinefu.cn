@@ -1,0 +1,8 @@
+commandlinefu_id: 10855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mosh myLogin@myHost
+summary: |-
+  connecting to your server using the the mobile shell

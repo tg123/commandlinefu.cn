@@ -1,0 +1,8 @@
+commandlinefu_id: 10877
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ $V ] || : $((V++)) && echo $V
+summary: |-
+  Use the builtin ':' bash command to increment variables

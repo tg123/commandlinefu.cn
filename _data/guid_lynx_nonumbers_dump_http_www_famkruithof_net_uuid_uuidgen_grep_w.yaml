@@ -1,0 +1,8 @@
+commandlinefu_id: 268
+translator:
+  weibo: ''
+hide: true
+command: |-
+  guid(){ lynx -nonumbers -dump http://www.famkruithof.net/uuid/uuidgen | grep "\w\{8\}-" | tr -d ' '; }
+summary: |-
+  GUID generator

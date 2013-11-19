@@ -1,0 +1,8 @@
+commandlinefu_id: 3004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -F' ' -MDate::Format -pale 'substr($_, index($_, $F[1]), length($F[1]), time2str("%C", $F[1]))' file.log
+summary: |-
+  show the real times iso of epochs for a given column

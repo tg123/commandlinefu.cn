@@ -1,0 +1,8 @@
+commandlinefu_id: 12405
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/cdrom of=cd.iso
+summary: |-
+  Make ISO images on Linux

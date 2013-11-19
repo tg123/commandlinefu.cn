@@ -1,0 +1,8 @@
+commandlinefu_id: 8562
+translator:
+  weibo: ''
+hide: true
+command: |-
+  complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;)" ssh
+summary: |-
+  Enable tab completion for known SSH hosts

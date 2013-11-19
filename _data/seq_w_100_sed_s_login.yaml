@@ -1,0 +1,8 @@
+commandlinefu_id: 3805
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq -w 100 | sed 's/^/login/'
+summary: |-
+  Create a list of sequential logins

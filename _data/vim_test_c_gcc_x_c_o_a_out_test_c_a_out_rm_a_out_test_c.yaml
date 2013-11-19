@@ -1,0 +1,8 @@
+commandlinefu_id: 12698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim test.c && gcc -x c -o a.out test.c && ./a.out && rm a.out test.c
+summary: |-
+  Quickly write and run a C program.

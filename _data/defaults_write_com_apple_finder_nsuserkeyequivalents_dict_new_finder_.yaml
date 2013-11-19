@@ -1,0 +1,8 @@
+commandlinefu_id: 904
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write com.apple.finder NSUserKeyEquivalents -dict 'New Finder Window' '@$N' 'New Folder' '@N'; killall Finder
+summary: |-
+  Remap "New Folder" to Command+N, "New Finder Window" to Cmd+Shift+N in Mac OS X

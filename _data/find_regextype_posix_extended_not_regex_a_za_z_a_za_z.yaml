@@ -1,0 +1,8 @@
+commandlinefu_id: 5909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -regextype posix-extended -not -regex '.*/[A-Za-z_]*([.][A-Za-z_]*)?'
+summary: |-
+  find filenames and directory names that doesn't conform ISO 9660 level 2

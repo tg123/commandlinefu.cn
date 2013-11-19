@@ -1,0 +1,8 @@
+commandlinefu_id: 6703
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -a --max-depth=1 | sort -n
+summary: |-
+  List the size of all sub folders and files from the current location, with sorting

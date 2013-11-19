@@ -1,0 +1,8 @@
+commandlinefu_id: 5858
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/Music/iTunes/iTunes\ Media/. -name \*.ipa -exec basename {} \; | cut -d \. -f 1 > ~/Desktop/MyAppList`date +%s.txt`
+summary: |-
+  print your iTunes App for iPhone/iTouch/iPad to show your friends which ones you have

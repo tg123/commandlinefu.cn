@@ -1,0 +1,8 @@
+commandlinefu_id: 9467
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for each in /usr/bin/*; do echo $each | sed 's/\/usr\/bin\///' | xargs touch; done
+summary: |-
+  Create a false directory structure for testing your commands

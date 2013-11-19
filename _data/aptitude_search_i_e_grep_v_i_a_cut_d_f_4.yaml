@@ -1,0 +1,8 @@
+commandlinefu_id: 5149
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude search '~i!~E' | grep -v "i A" | cut -d " " -f 4
+summary: |-
+  List manually installed packages (excluding Essentials)

@@ -1,0 +1,8 @@
+commandlinefu_id: 7313
+translator:
+  weibo: ''
+hide: true
+command: |-
+  buf() { f=${1%%.*};e=${1/$f/};cp -v $1 $f-$(date +"%Y%m%d_%H%M%S")$e;}
+summary: |-
+  Backup a file with a date-time stamp

@@ -1,0 +1,8 @@
+commandlinefu_id: 2064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /mnt/old && tar cvf - . | ( cd /mnt/new && tar xvf - )
+summary: |-
+  Backup of a partition

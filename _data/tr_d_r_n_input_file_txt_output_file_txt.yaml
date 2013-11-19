@@ -1,0 +1,8 @@
+commandlinefu_id: 3901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -d '\r\n' < input_file.txt > output_file.txt
+summary: |-
+  Remove CR LF from a text file

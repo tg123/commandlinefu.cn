@@ -1,0 +1,8 @@
+commandlinefu_id: 3170
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sniff_host:  tcpdump -nn -i eth1 -w - | nc 192.168.0.2 666
+summary: |-
+  Remotely sniff traffic and pass to snort

@@ -1,0 +1,8 @@
+commandlinefu_id: 10375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hexdump -C -n 20 filename
+summary: |-
+  print first n characters of any file in human readble form using hexdump

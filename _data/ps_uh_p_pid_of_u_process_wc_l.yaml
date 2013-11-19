@@ -1,0 +1,8 @@
+commandlinefu_id: 5130
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps uH p <PID_OF_U_PROCESS> | wc -l
+summary: |-
+  Count threads of a jvm process

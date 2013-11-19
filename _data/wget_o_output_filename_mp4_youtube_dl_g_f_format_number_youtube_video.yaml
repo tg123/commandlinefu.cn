@@ -1,0 +1,8 @@
+commandlinefu_id: 12351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O "output-filename.mp4" $( youtube-dl -g -f "format-number" "youtube-video-link" )
+summary: |-
+  Download YouTube Videos using wget and youtube-dl and just using the video link

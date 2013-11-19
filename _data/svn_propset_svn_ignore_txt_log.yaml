@@ -1,0 +1,8 @@
+commandlinefu_id: 1852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn propset svn:ignore "*txt" log/
+summary: |-
+  Have subversion ignore a file pattern in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 8719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables -A OUTPUT www.baidu.com -p tcp -j REJECT --reject-with tcp-reset
+summary: |-
+  stop children visiting sex sites:www.baidu.com

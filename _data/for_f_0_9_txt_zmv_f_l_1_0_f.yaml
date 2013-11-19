@@ -1,0 +1,8 @@
+commandlinefu_id: 12068
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f ([0-9].txt) zmv $f '${(l:1::0:)}'$f
+summary: |-
+  convert single digit to double digits

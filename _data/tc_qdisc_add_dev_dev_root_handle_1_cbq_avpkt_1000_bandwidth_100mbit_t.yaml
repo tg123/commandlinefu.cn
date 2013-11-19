@@ -1,0 +1,8 @@
+commandlinefu_id: 4865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tc qdisc add dev <dev> root handle 1: cbq avpkt 1000 bandwidth 100mbit;tc class add dev <dev> parent 1: classid 1:1 cbq rate 300kbit allot 1500 prio 5 bounded isolated;tc filter add dev <dev> parent 1: protocol ip prio 16 u32 match ip dst <ip> flowid 1:1
+summary: |-
+  Limit the rate of traffic to a particular address with tc.

@@ -1,0 +1,8 @@
+commandlinefu_id: 811
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero of=/swapfile bs=1M count=64; chmod 600 /swapfile; mkswap /swapfile; swapon /swapfile
+summary: |-
+  Add temporary swap space

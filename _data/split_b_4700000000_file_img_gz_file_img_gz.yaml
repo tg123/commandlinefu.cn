@@ -1,0 +1,8 @@
+commandlinefu_id: 5086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  split -b 4700000000 file.img.gz file.img.gz.
+summary: |-
+  Split huge file into DVD+R size chunks for burning

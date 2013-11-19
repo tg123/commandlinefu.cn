@@ -1,0 +1,8 @@
+commandlinefu_id: 5614
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -s * | sort -nr | head
+summary: |-
+  identify big file

@@ -1,0 +1,8 @@
+commandlinefu_id: 3958
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for c in `seq 0 255`;do t=5;[[ $c -lt 108 ]]&&t=0;for i in `seq $t 5`;do echo -e "\e[0;48;$i;${c}m|| $i:$c `seq -s+0 $(($COLUMNS/2))|tr -d '[0-9]'`\e[0m";done;done
+summary: |-
+  Unbelievable Shell Colors, Shading, Backgrounds, Effects for Non-X

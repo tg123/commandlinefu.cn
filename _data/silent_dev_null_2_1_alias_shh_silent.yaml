@@ -1,0 +1,8 @@
+commandlinefu_id: 4478
+translator:
+  weibo: ''
+hide: true
+command: |-
+  silent(){ $@ > /dev/null 2>&1; }; alias shh=silent
+summary: |-
+  silent/shh - shorthand to make commands really quiet

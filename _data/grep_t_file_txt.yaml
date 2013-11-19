@@ -1,0 +1,8 @@
+commandlinefu_id: 3741
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep $'\t' file.txt
+summary: |-
+  Grep for a TAB

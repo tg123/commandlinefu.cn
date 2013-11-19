@@ -1,0 +1,8 @@
+commandlinefu_id: 6811
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(ssh user@host1 cat /path/to/file) <(ssh user@host2 cat /path/to/file2)
+summary: |-
+  diff 2 remote files

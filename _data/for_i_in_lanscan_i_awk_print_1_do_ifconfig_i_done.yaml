@@ -1,0 +1,8 @@
+commandlinefu_id: 4717
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `lanscan -i | awk '{print $1}'` ; do ifconfig $i ; done
+summary: |-
+  Equivalent to ifconfig -a in HPUX

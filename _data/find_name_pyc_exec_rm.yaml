@@ -1,0 +1,8 @@
+commandlinefu_id: 802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.pyc" -exec rm {} \;
+summary: |-
+  Clean all .pyc files from current project. It cleans all the files recursively.

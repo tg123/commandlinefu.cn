@@ -1,0 +1,8 @@
+commandlinefu_id: 5355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf -v row "%${COLUMNS}s"; echo ${row// /#}
+summary: |-
+  Print a row of characters across the terminal

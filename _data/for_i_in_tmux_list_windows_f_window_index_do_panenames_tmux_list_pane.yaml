@@ -1,0 +1,8 @@
+commandlinefu_id: 11077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(tmux list-windows -F '#{window_index}'); do panenames=$(tmux list-panes -t $i -F '#{pane_title}' | sed -e 's/:.*$//' -e 's/^.*@//' | uniq); windowname=$(echo ${panenames} | sed -e 's/ /|/g'); tmux rename-window -t $i $windowname; done
+summary: |-
+  Set name of windows in tmux/byobu to hostnames of servers you're connected to

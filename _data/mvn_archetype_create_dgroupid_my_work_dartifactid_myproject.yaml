@@ -1,0 +1,8 @@
+commandlinefu_id: 2233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mvn archetype:create -DgroupId=my.work -DartifactId=MyProject
+summary: |-
+  Creating a Maven project

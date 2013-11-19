@@ -1,0 +1,8 @@
+commandlinefu_id: 3048
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ntop
+summary: |-
+  Network Information

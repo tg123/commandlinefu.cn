@@ -1,0 +1,8 @@
+commandlinefu_id: 12822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  _autoOptions() {     local cur=${COMP_WORDS[COMP_CWORD]}     COMPREPLY=( $(compgen -W "--fooOption --barOption -f -b" -- $cur) ) ;}; complete -F _autoOptions autoOptions
+summary: |-
+  Auto complete options of a script, on tab press

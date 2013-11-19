@@ -1,0 +1,8 @@
+commandlinefu_id: 6234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname \*${MYVAR}\* -print
+summary: |-
+  Use a variable in a find command.  Useful in scripting.

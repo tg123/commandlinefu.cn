@@ -1,0 +1,8 @@
+commandlinefu_id: 3447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo arp -s 192.168.1.200  00:35:cf:56:b2:2g temp && ssh root@192.168.1.200
+summary: |-
+  connect via ssh using mac address

@@ -1,0 +1,8 @@
+commandlinefu_id: 5848
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rcsdiff -y myfile
+summary: |-
+  rcsdiff: Output the differences side-by-side

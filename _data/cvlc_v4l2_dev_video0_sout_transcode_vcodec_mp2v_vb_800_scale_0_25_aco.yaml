@@ -1,0 +1,8 @@
+commandlinefu_id: 9085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvlc "v4l2:///dev/video0" --sout "#transcode{vcodec=mp2v,vb=800,scale=0.25,acodec=none}:file{mux=mpeg1,dst=/PATH/TO/OUTPUT/FILE}"
+summary: |-
+  Save your webcam to file

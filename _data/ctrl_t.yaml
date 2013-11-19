@@ -1,0 +1,8 @@
+commandlinefu_id: 11666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  CTRL + T
+summary: |-
+  check the status of 'dd' in progress (OS X)

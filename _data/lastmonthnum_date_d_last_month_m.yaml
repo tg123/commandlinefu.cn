@@ -1,0 +1,8 @@
+commandlinefu_id: 6622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LASTMONTHNUM=`date -d "last month" +%m`
+summary: |-
+  Work out numerical last month

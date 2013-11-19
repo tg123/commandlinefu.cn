@@ -1,0 +1,8 @@
+commandlinefu_id: 10892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  can(){ shift 2; sudo "$@"; }
+summary: |-
+  Sudo like a sir

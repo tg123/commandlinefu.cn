@@ -1,0 +1,8 @@
+commandlinefu_id: 719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in `ls *.pdf`; do convert -verbose -colorspace RGB -resize 800 -interlace none -density 300 -quality 80 $file `echo $file | sed 's/\.pdf$/\.jpg/'`; done
+summary: |-
+  Convert PDF to JPG

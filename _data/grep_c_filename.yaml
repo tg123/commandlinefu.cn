@@ -1,0 +1,8 @@
+commandlinefu_id: 10913
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -c "^$" filename
+summary: |-
+  Count empty lines using grep

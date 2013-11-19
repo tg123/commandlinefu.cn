@@ -1,0 +1,8 @@
+commandlinefu_id: 12856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do echo "message here" | mutt something@something.com ; done
+summary: |-
+  Command line email/SMS Bomber

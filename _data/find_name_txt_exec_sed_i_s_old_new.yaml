@@ -1,0 +1,8 @@
+commandlinefu_id: 3621
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.txt" -exec sed -i "s/old/new/" {} \;
+summary: |-
+  find . -name

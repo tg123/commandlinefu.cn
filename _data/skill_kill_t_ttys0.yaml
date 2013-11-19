@@ -1,0 +1,8 @@
+commandlinefu_id: 2296
+translator:
+  weibo: ''
+hide: true
+command: |-
+  skill -KILL -t ttyS0
+summary: |-
+  Kill an orphan console

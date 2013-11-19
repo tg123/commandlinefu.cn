@@ -1,0 +1,8 @@
+commandlinefu_id: 3204
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /service/solr/log/main/current | tai64nlocal | grep "\(`date '+%F %H'`\|`date '+%F %H %M' | awk '{print $1" 0"$2-1":"$3}'`\)" | grep QTime | awk '{print $NF}' | awk -F\= '{ s += $2} END {print s/NR}'
+summary: |-
+  Find the average QTime for all queries ran within the last hour for solr

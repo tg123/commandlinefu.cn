@@ -1,0 +1,8 @@
+commandlinefu_id: 11528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for host in $HOSTNAMES; do ping -q -c3 $host && ssh $host 'command' & for count in {1..15}; do sleep 1; jobs | wc -l | grep -q ^0\$ && continue; done; kill %1; done &>/dev/null
+summary: |-
+  avoid ssh hangs using jobs

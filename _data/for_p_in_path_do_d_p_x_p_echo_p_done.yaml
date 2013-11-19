@@ -1,0 +1,8 @@
+commandlinefu_id: 3535
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for p in ${PATH//:/ }; do [[ -d $p && -x $p ]] && echo $p; done
+summary: |-
+  Show only existing executable dirs in PATH using only builtin bash commands

@@ -1,0 +1,8 @@
+commandlinefu_id: 11424
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(ps -eo pid|grep -v PID);do echo ""; echo -n "==$i== ";awk '/^read|^write/{ORS=" "; print}' /proc/$i/io 2>/dev/null; echo -n " ==$i=="; done|sort -nrk5|awk '{printf "%s\n%s %s\n%s %s\n%s\n\n",$1,$2,$3,$4,$5,$6}'
+summary: |-
+  Sort I/O activity by PID number.

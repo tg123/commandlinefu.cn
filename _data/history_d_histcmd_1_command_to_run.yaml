@@ -1,0 +1,8 @@
+commandlinefu_id: 11838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history -d $((HISTCMD-1)) && command_to_run
+summary: |-
+  Write on the console without being registered

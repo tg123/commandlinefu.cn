@@ -1,0 +1,8 @@
+commandlinefu_id: 6583
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fname=$1;f=$(ls -la $fname);fsz=$(echo $f|awk '{ print $5 }');nrrec=$(wc -l $fname|awk '{ print $1 }');recsz=$(expr $fsz / $nrrec);echo "$recsz"
+summary: |-
+  give record size of given record-structured file

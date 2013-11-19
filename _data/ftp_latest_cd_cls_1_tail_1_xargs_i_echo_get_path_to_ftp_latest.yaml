@@ -1,0 +1,8 @@
+commandlinefu_id: 6759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ftp-latest <<< "cd /; cls -1 | tail -1 | xargs -I% echo get % | /PATH/TO/ftp-latest"
+summary: |-
+  Get the latest ftp file from ftp server on local machine with lftp and bash. (Piped commands inside lftp).

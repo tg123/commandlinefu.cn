@@ -1,0 +1,8 @@
+commandlinefu_id: 2097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for %f in (c) do dir %f:\*.jpg /s /p
+summary: |-
+  Find all jpgs on the PC (DOS command)

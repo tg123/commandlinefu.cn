@@ -1,0 +1,8 @@
+commandlinefu_id: 2460
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :r! echo %
+summary: |-
+  vim insert current filename

@@ -1,0 +1,8 @@
+commandlinefu_id: 2786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*filename*.doc' | { while read line; do antiword "$line"; done; } | grep -C4 search_term;
+summary: |-
+  find and grep Word docs

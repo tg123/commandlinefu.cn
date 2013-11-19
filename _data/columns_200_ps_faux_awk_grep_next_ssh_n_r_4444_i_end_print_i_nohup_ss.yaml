@@ -1,0 +1,8 @@
+commandlinefu_id: 1797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [[ $(COLUMNS=200 ps faux | awk '/grep/ {next} /ssh -N -R 4444/ {i++} END {print i}') ]] || nohup ssh -N -R 4444:localhost:22 user@relay &
+summary: |-
+  ensure your ssh tunnel will always be up (add in crontab)

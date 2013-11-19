@@ -1,0 +1,8 @@
+commandlinefu_id: 351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e "''=~('(?{'.('-^@.]|(;,@/{}/),[\\\$['^'],)@)[\`^@,@[*@[@?}.|').'})')"
+summary: |-
+  hello, world

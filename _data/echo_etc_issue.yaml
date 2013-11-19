@@ -1,0 +1,8 @@
+commandlinefu_id: 3473
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "$(</etc/issue)"
+summary: |-
+  view file content with echo

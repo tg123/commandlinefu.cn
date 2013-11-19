@@ -1,0 +1,8 @@
+commandlinefu_id: 8556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir save && for f in *.mp3; do lame -b xxx "$f" ./save/"${f%.mp3}.mp3"; done
+summary: |-
+  Batch Convert MP3 Bitrate

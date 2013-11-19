@@ -1,0 +1,8 @@
+commandlinefu_id: 5318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export FIGNORE=.svn
+summary: |-
+  ignore the .svn directory in filename completion

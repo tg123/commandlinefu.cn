@@ -1,0 +1,8 @@
+commandlinefu_id: 5620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(lsdev -Cc disk | grep EMC | cut -f 1 -d " " ); do  if lsattr -a reserve_lock -El $i | grep -q "reserve_lock yes"; then chdev -a reserve_lock=no -l $i; fi; done
+summary: |-
+  AIX: Set reserve lock=no in EMC disks that have reserve_lock=yes

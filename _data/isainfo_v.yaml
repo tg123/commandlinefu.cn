@@ -1,0 +1,8 @@
+commandlinefu_id: 11714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  isainfo -v
+summary: |-
+  Check if x86 Solaris based system is 32bit or 64bit

@@ -1,0 +1,8 @@
+commandlinefu_id: 10196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  10,30,50 * * * * ping -c1 -w3 192.168.0.14 >/dev/null
+summary: |-
+  Send e-mail if host is 'dead' or not reachable

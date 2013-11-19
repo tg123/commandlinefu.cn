@@ -1,0 +1,8 @@
+commandlinefu_id: 9302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l
+summary: |-
+  To display a listing of files and directory

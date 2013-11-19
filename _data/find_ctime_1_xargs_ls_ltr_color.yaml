@@ -1,0 +1,8 @@
+commandlinefu_id: 2361
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./* -ctime -1 | xargs ls -ltr --color
+summary: |-
+  files and directories in the last 1 hour

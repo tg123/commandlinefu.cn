@@ -1,0 +1,8 @@
+commandlinefu_id: 8699
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/\r\n//' file.txt
+summary: |-
+  Remove CR LF from a text file

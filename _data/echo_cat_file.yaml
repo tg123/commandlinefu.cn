@@ -1,0 +1,8 @@
+commandlinefu_id: 9941
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(cat file)
+summary: |-
+  print a file on a single line

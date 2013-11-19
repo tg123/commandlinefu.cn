@@ -1,0 +1,8 @@
+commandlinefu_id: 5672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -i "$(date +%b\ %d\ %H)" syslog
+summary: |-
+  Grep syslog today last hour

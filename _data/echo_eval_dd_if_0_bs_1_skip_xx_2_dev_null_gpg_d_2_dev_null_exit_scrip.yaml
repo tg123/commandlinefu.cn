@@ -1,0 +1,8 @@
+commandlinefu_id: 11985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "eval \"\$(dd if=\$0 bs=1 skip=XX 2>/dev/null|gpg -d 2>/dev/null)\"; exit" > script.secure; sed -i s:XX:$(stat -c%s script.secure): script.secure; gpg -c < script.bash >> script.secure; chmod +x script.secure
+summary: |-
+  Encrypt and password-protect execution of any bash script

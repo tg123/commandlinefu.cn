@@ -1,0 +1,8 @@
+commandlinefu_id: 7187
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat video.ogg | nc -l -p 4232 & wget http://users.bshellz.net/~bazza/?nombre=name -O - & sleep 10; mplayer http://users.bshellz.net/~bazza/datos/name.ogg
+summary: |-
+  Send and streamming video to web

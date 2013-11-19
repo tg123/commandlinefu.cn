@@ -1,0 +1,8 @@
+commandlinefu_id: 3298
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo sortmeplease | awk '{l=split($1,a,"");asort(a);while(x<=l){printf "%s",a[x];x++ }print "";}'
+summary: |-
+  Sort a character string

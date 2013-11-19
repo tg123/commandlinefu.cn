@@ -1,0 +1,8 @@
+commandlinefu_id: 12639
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s poncho.is/forecast/new_york/today/ | grep -E 'og:title|og:description' | cut -d\" -f4 | awk '{print $0,"<p>"}' | lynx -stdin -dump
+summary: |-
+  get the current weather in NYC, in human readable form

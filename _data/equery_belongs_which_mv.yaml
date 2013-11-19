@@ -1,0 +1,8 @@
+commandlinefu_id: 7859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  equery belongs $( which mv )
+summary: |-
+  Find the package a command belongs to on Gentoo

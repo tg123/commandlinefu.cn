@@ -1,0 +1,8 @@
+commandlinefu_id: 3289
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo sortmeplease | grep -o . | sort | tr -d '\n'; echo
+summary: |-
+  Sort a character string

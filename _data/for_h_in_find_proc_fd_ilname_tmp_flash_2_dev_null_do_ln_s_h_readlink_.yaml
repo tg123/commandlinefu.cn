@@ -1,0 +1,8 @@
+commandlinefu_id: 7991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for h in `find /proc/*/fd -ilname "/tmp/Flash*" 2>/dev/null`; do ln -s "$h" `readlink "$h" | cut -d' ' -f1`; done
+summary: |-
+  Recover tmp flash videos (deleted immediately by the browser plugin)

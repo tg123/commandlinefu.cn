@@ -1,0 +1,8 @@
+commandlinefu_id: 7098
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TIME=$( { time YOUR_COMMAND_HERE; } 2>&1 ) ; echo $TIME
+summary: |-
+  Redirect bash built-in output to stdout

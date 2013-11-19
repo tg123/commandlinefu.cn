@@ -1,0 +1,8 @@
+commandlinefu_id: 5485
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv ubuntu-10.04-rc-desktop-amd64.iso ubuntu-10.04-desktop-amd64.iso; i=http://releases.ubuntu.com/10.04/ubuntu-10.04-desktop-amd64.iso.zsync; while true; do if wget $i; then zsync $i; date; break; else sleep 30; fi; done
+summary: |-
+  Auto download Ubuntu 10.04 LTS with super fast zsync

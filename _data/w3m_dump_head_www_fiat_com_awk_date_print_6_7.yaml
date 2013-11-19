@@ -1,0 +1,8 @@
+commandlinefu_id: 2379
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w3m -dump_head www.fiat.com | awk '/Date+/{print $6, $7}'
+summary: |-
+  retrieve GMT time from websites ( generally accruate )

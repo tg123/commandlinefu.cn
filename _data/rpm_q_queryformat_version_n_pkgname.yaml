@@ -1,0 +1,8 @@
+commandlinefu_id: 5749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -q --queryformat %{VERSION}\\n pkgname
+summary: |-
+  Show a Package Version on RPM based distributions

@@ -1,0 +1,8 @@
+commandlinefu_id: 9104
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | convert label:@- ip.png
+summary: |-
+  save command output to image

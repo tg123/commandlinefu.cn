@@ -1,0 +1,8 @@
+commandlinefu_id: 10013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -vE '^$|^[\s]*[;#]'
+summary: |-
+  strip config files of comments

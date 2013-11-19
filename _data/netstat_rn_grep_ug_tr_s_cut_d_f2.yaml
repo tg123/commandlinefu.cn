@@ -1,0 +1,8 @@
+commandlinefu_id: 6289
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -rn | grep UG | tr -s " " | cut -d" " -f2
+summary: |-
+  Find default gateway

@@ -1,0 +1,8 @@
+commandlinefu_id: 1979
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smbclient -U userbob //10.1.1.75/Shared
+summary: |-
+  Browse shared folder when you're the only Linux user

@@ -1,0 +1,8 @@
+commandlinefu_id: 10958
+translator:
+  weibo: ''
+hide: true
+command: |-
+  umount -a -t cifs
+summary: |-
+  Unmount all CIFS drives

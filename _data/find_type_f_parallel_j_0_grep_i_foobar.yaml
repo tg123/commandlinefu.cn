@@ -1,0 +1,8 @@
+commandlinefu_id: 4738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | parallel -j+0 grep -i foobar
+summary: |-
+  grep (or anything else) many files with multiprocessor power

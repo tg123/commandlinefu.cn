@@ -1,0 +1,8 @@
+commandlinefu_id: 10159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/sbin/asterisk -rx 'core show channels' | grep -m1 "call" | cut -d' ' -f1
+summary: |-
+  Watch active calls on an Asterisk PBX

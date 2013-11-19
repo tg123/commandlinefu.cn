@@ -1,0 +1,8 @@
+commandlinefu_id: 7558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune | pv -qL 10
+summary: |-
+  type fortune in real time

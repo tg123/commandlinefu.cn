@@ -1,0 +1,8 @@
+commandlinefu_id: 816
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smbcacls //server/sharename file -U username
+summary: |-
+  read Windows ACLs from Linux

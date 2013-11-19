@@ -1,0 +1,8 @@
+commandlinefu_id: 10730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -i tcp:22 | grep 192.168.10.10 | awk "{print $2}" |xargs kill
+summary: |-
+  This will kill all ssh connections from a given host it does give some errors but it does work

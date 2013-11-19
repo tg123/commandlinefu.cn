@@ -1,0 +1,8 @@
+commandlinefu_id: 905
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write com.apple.dashboard mcx-disabled -boolean YES; killall Dock
+summary: |-
+  Disable Mac OS X Dashboard

@@ -1,0 +1,8 @@
+commandlinefu_id: 7064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'import datetime; print(datetime.date.today().isocalendar()[1])'
+summary: |-
+  python one-liner to get the current week number

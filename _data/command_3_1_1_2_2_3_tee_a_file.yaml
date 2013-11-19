@@ -1,0 +1,8 @@
+commandlinefu_id: 11451
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command 3>&1 1>&2 2>&3 | tee -a file
+summary: |-
+  save stderr only to a file

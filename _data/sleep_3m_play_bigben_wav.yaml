@@ -1,0 +1,8 @@
+commandlinefu_id: 648
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 3m; play bigben.wav
+summary: |-
+  teatimer

@@ -1,0 +1,8 @@
+commandlinefu_id: 3611
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat ~/SortedFile.txt | perl -wnl -e '@f=<>; END{ foreach $i (reverse 0 .. $#f) { $r=int rand ($i+1); @f[$i, $r]=@f[$r,$i] unless ($i==$r); }  chomp @f; foreach $line (@f){ print $line; }}'
+summary: |-
+  Randomize lines (opposite of | sort)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10583
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias html2ascii='lynx -force_html -stdin -dump -nolist'
+summary: |-
+  parse html/stdin with lynx

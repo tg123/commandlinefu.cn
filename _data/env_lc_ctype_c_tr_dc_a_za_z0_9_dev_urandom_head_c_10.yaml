@@ -1,0 +1,8 @@
+commandlinefu_id: 7949
+translator:
+  weibo: ''
+hide: true
+command: |-
+  env LC_CTYPE=C tr -dc "a-zA-Z0-9-_\$\?" < /dev/urandom | head -c 10
+summary: |-
+  generate random password (works on Mac OS X)

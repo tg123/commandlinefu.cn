@@ -1,0 +1,8 @@
+commandlinefu_id: 1637
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat -v -t -e
+summary: |-
+  View non-printing characters with cat

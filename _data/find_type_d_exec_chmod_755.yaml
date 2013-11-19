@@ -1,0 +1,8 @@
+commandlinefu_id: 2371
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -exec chmod 755 {} \;
+summary: |-
+  Change permissions of every directory in current directory

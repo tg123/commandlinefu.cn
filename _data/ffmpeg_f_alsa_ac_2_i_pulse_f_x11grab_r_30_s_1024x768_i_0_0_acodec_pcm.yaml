@@ -1,0 +1,8 @@
+commandlinefu_id: 9375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -f alsa -ac 2 -i pulse -f x11grab -r 30 -s 1024x768 -i :0.0 -acodec pcm_s16le -vcodec libx264 -vpre lossless_ultrafast -threads 0 ./Desktop/mydesktop.mkv
+summary: |-
+  Recording the desktop and an application audio source for webcast

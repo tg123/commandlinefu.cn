@@ -1,0 +1,8 @@
+commandlinefu_id: 10297
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/\r//' <filename>
+summary: |-
+  Convert Windows/DOS Text Files to Unix

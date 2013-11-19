@@ -1,0 +1,8 @@
+commandlinefu_id: 7790
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Command in description (Your command is too long - please keep it to less than 255 characters)
+summary: |-
+  YouTube Convert and Download All User's Videos to MP3s on the fly

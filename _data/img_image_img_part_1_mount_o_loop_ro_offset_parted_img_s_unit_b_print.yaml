@@ -1,0 +1,8 @@
+commandlinefu_id: 9974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IMG="image.img";PART=1;mount -o loop,ro,offset=$(parted $IMG -s unit b print|awk '$1=='$PART' {sub(/B/,"",$2);print $2}') $IMG /mnt/whatever
+summary: |-
+  Mount a partitoned disk-image file

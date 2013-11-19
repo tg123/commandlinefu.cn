@@ -1,0 +1,8 @@
+commandlinefu_id: 10834
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ltr |grep 'May 12'|awk '{print $9;}'|xargs rm -v
+summary: |-
+  grep files by date and delete

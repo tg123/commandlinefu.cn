@@ -1,0 +1,8 @@
+commandlinefu_id: 11479
+translator:
+  weibo: ''
+hide: true
+command: |-
+  knife ec2 server create -r role[base],role[webserver] -E development -I ami-2a31bf1a -i ~/.ssh/aws-west.pem -x ec2-user --region us-west-2 -Z us-west-2b -G lamp --flavor t1.micro -N chef-client1 --no-host-key-verify
+summary: |-
+  create ec2 chef client

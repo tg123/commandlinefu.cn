@@ -1,0 +1,8 @@
+commandlinefu_id: 12156
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat .bash_history | tail -100 | grep {command}
+summary: |-
+  Easily find an old command you run

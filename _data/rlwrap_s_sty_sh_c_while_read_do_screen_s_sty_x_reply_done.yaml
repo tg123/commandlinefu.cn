@@ -1,0 +1,8 @@
+commandlinefu_id: 10618
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rlwrap -S "$STY> " sh -c 'while read; do screen -S "'"$STY"'" -X $REPLY; done'
+summary: |-
+  GNU screen internal console

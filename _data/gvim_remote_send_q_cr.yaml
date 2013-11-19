@@ -1,0 +1,8 @@
+commandlinefu_id: 10662
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gvim --remote-send ":q!<CR>"
+summary: |-
+  quit gvim remotely

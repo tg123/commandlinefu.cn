@@ -1,0 +1,8 @@
+commandlinefu_id: 11913
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -T4 --script broadcast-pppoe-discover 192.168.122.0/24
+summary: |-
+  script broadcast-pppoe-discover

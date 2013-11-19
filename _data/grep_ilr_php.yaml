@@ -1,0 +1,8 @@
+commandlinefu_id: 9551
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Ilr "<?php" .
+summary: |-
+  find php files even without extension

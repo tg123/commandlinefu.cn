@@ -1,0 +1,8 @@
+commandlinefu_id: 276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cvzf - /source/path | ssh <targethostname> -l <username> dd of=/destination/path/backupfile.tgz
+summary: |-
+  Adhoc tar backup

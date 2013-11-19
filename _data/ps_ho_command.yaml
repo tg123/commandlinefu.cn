@@ -1,0 +1,8 @@
+commandlinefu_id: 7802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps ho command $$
+summary: |-
+  Figure out what shell you're running

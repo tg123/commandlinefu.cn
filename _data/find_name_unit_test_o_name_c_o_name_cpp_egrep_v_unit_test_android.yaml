@@ -1,0 +1,8 @@
+commandlinefu_id: 10664
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name unit-test -o -name '*.c'  -o -name '*.cpp' | egrep -v "unit-test|android"
+summary: |-
+  find all c and cpp files except the ones in the unit-test and android subdirectories

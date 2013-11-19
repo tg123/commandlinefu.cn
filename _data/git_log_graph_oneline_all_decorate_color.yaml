@@ -1,0 +1,8 @@
+commandlinefu_id: 10830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --graph --oneline --all --decorate --color
+summary: |-
+  Git Tree Command with color and tag/branch name

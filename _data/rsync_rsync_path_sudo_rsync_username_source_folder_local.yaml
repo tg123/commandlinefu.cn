@@ -1,0 +1,8 @@
+commandlinefu_id: 1692
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync --rsync-path 'sudo rsync' username@source:/folder/ /local/
+summary: |-
+  Rsync remote data as root using sudo

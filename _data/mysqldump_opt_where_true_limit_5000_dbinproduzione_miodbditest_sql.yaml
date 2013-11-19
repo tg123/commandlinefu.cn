@@ -1,0 +1,8 @@
+commandlinefu_id: 10161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump --opt --where="true LIMIT 5000" dbinproduzione > miodbditest.sql
+summary: |-
+  How to extract 5000 records from each table in MySQL

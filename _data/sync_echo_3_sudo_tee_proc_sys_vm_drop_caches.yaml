@@ -1,0 +1,8 @@
+commandlinefu_id: 9509
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
+summary: |-
+  Clear filesystem memory cache

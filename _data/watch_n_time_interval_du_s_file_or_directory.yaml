@@ -1,0 +1,8 @@
+commandlinefu_id: 6436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n <time_interval> "du -s <file_or_directory>"
+summary: |-
+  continuously check size of files or directories

@@ -1,0 +1,8 @@
+commandlinefu_id: 9371
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  for i in `seq 100`; do mkdir f${i}; touch ./f${i}/myfile$i ;done
+summary: |-
+  生成一些有文件的目录

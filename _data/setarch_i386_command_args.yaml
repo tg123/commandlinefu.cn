@@ -1,0 +1,8 @@
+commandlinefu_id: 1728
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  setarch i386 [command [args]]
+summary: |-
+  强制在amd64上执行i386命令

@@ -1,0 +1,8 @@
+commandlinefu_id: 12118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep [process] | awk '{print $2}' | xargs -I % ls /proc/%/fd | wc -l
+summary: |-
+  Get the number of open sockets for a process

@@ -1,0 +1,8 @@
+commandlinefu_id: 1330
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emacs +400 code.py
+summary: |-
+  Open a file at the specified line

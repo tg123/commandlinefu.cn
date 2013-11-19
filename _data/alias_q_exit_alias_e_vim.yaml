@@ -1,0 +1,8 @@
+commandlinefu_id: 11122
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ':q'='exit'; alias ':e'='vim';
+summary: |-
+  Alias nasty quick vim habits

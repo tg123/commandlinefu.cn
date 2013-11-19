@@ -1,0 +1,8 @@
+commandlinefu_id: 10158
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -colorspace Gray -rotate '-90>' -resize 600x800 -dither FloydSteinberg -colors 16 -format png *
+summary: |-
+  Format images for Kindle

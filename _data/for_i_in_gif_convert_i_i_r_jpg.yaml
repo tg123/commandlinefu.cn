@@ -1,0 +1,8 @@
+commandlinefu_id: 992
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in **/*.gif; convert $i $i:r.jpg
+summary: |-
+  Convert images (foo.gif => foo.jpg)

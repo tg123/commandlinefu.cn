@@ -1,0 +1,8 @@
+commandlinefu_id: 6640
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file=orig.ps; for i in $(seq `grep "Pages:" $file | sed 's/%%Pages: //g'`); do psselect $i $file $i\_$file; done
+summary: |-
+  split a postscript file

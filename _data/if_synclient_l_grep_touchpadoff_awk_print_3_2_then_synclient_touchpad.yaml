@@ -1,0 +1,8 @@
+commandlinefu_id: 4663
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ $(synclient -l | grep TouchpadOff | awk '{print $3}') = "2" ]; then synclient TouchpadOff=1; elif [ $(synclient -l | grep TouchpadOff | awk '{print $3}') == "1" ]; then synclient TouchpadOff=2; else synclient TouchpadOff=2; fi
+summary: |-
+  Toggle the Touchpad on or off

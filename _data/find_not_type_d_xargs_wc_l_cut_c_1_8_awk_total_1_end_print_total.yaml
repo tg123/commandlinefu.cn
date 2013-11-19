@@ -1,0 +1,8 @@
+commandlinefu_id: 1823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -not -type d | xargs wc -l | cut -c 1-8 | awk '{total += $1} END {print total}'
+summary: |-
+  Recursive Line Count

@@ -1,0 +1,8 @@
+commandlinefu_id: 10239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshpass -p 't@uyM59bQ' ssh username@server.example.com
+summary: |-
+  Login To SSH Server / Provide SSH Password Using A Shell Script

@@ -1,0 +1,8 @@
+commandlinefu_id: 12884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --no-check-certificate https://www.kernel.org/$(wget -qO- --no-check-certificate https://www.kernel.org | grep tar | head -n1 | cut -d\" -f2)
+summary: |-
+  Download current stable kernel version from kernel.org

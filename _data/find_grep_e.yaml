@@ -1,0 +1,8 @@
+commandlinefu_id: 10087
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | grep -E "(\||\\|\?|\*|<|\"|:|>)"
+summary: |-
+  Find all NTFS-invalid filenames in "."

@@ -1,0 +1,8 @@
+commandlinefu_id: 729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dpkg --purge `dpkg -l | awk '/^r/{print $2}'`
+summary: |-
+  purge all packages marked with 'rc'

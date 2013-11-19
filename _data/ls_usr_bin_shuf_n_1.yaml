@@ -1,0 +1,8 @@
+commandlinefu_id: 7615
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /usr/bin | shuf -n 1
+summary: |-
+  get a random command

@@ -1,0 +1,8 @@
+commandlinefu_id: 4784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s https://www.google.com/accounts/ClientLogin -d Email=$email -d Passwd=$password -d service=lh2 | grep Auth | sed 's/Auth=\(.*\)/\1/'
+summary: |-
+  Get an authorization code from Google

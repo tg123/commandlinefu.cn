@@ -1,0 +1,8 @@
+commandlinefu_id: 5736
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes|for x in one two three; do echo result - $x; done
+summary: |-
+  iiterate through argument list and pass to command

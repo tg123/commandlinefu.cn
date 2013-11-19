@@ -1,0 +1,8 @@
+commandlinefu_id: 12159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig -a | awk '/Bcast/{print $2}' | cut -c 5-19
+summary: |-
+  Get the IP address of a machine. Just the IP, no junk.

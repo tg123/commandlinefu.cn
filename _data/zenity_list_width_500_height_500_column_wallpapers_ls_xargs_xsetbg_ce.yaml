@@ -1,0 +1,8 @@
+commandlinefu_id: 9692
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zenity --list --width 500 --height 500 --column 'Wallpapers'  $(ls) | xargs xsetbg  -center -smooth -fullscreen
+summary: |-
+  sets desktop background using zenity

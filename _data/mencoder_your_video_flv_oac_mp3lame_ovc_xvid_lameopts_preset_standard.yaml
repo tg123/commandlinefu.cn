@@ -1,0 +1,8 @@
+commandlinefu_id: 2067
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder your_video.flv -oac mp3lame -ovc xvid -lameopts preset=standard:fast -xvidencopts pass=1 -o your_video.avi
+summary: |-
+  Convert a flv video file to avi using mencoder

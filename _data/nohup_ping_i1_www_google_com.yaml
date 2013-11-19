@@ -1,0 +1,8 @@
+commandlinefu_id: 6996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup ping -i1 www.google.com &
+summary: |-
+  Detach a process from the current shell

@@ -1,0 +1,8 @@
+commandlinefu_id: 5693
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat > <file_name> << "EOF"
+summary: |-
+  如果cat出一个多行文件 （再次输入 "EOF" 文件就生成了）

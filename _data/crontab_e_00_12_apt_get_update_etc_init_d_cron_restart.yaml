@@ -1,0 +1,8 @@
+commandlinefu_id: 3921
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (crontab -e) 00 12 * * * apt-get update (/etc/init.d/cron restart)
+summary: |-
+  Update your system every day at the lunch time (12:00)

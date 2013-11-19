@@ -1,0 +1,8 @@
+commandlinefu_id: 4621
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (IFS=; sed 's/^[]0;[^^G]*^G/^M/g' <SessionLog> | while read -n 1 ITEM; do [ "$ITEM" = "^M" ] && ITEM=$'\n'; echo -ne "$ITEM"; sleep 0.05; done; echo)
+summary: |-
+  Play back shell session recorded using the

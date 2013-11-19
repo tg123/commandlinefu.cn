@@ -1,0 +1,8 @@
+commandlinefu_id: 9679
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for line in `cat $file`; do firefox -new-tab "$line" & 2>/dev/null; sleep 1; done
+summary: |-
+  Open multiple tabs in Firefox from a file containing urls

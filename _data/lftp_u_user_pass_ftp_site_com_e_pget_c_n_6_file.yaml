@@ -1,0 +1,8 @@
+commandlinefu_id: 11644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lftp -u user,pass ftp://site.com -e 'pget -c -n 6 file'
+summary: |-
+  Multi-segment file downloading with lftp

@@ -1,0 +1,8 @@
+commandlinefu_id: 9803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rlpr -h -Plp -HIP_LPD_SERVER_HERE file.ps
+summary: |-
+  Print a file to a LPD server

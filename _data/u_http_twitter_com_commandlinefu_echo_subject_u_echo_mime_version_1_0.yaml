@@ -1,0 +1,8 @@
+commandlinefu_id: 4924
+translator:
+  weibo: ''
+hide: true
+command: |-
+  { u="http://twitter.com/commandlinefu"; echo "Subject: $u"; echo "Mime-Version: 1.0"; echo -e "Content-Type: text/html; charset=utf-8\n\n"; curl $u ; } | sendmail recipient@example.com
+summary: |-
+  Send web page by e-mail

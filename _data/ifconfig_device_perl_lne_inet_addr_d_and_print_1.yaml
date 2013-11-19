@@ -1,0 +1,8 @@
+commandlinefu_id: 2714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig $DEVICE | perl -lne '/inet addr:([\d.]+)/ and print $1'
+summary: |-
+  Read just the IP address of a device

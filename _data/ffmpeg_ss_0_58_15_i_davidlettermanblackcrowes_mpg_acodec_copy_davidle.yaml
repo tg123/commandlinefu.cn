@@ -1,0 +1,8 @@
+commandlinefu_id: 3470
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -ss 0:58:15 -i DavidLettermanBlackCrowes.mpg -acodec copy DavidLettermanBlackCrowes.ac3
+summary: |-
+  Extract audio from Mythtv recording to Rockbox iPod using ffmpeg

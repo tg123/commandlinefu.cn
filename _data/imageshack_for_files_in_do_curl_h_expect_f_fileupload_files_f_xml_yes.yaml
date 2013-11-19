@@ -1,0 +1,8 @@
+commandlinefu_id: 6705
+translator:
+  weibo: ''
+hide: true
+command: |-
+  imageshack() { for files in *; do curl -H Expect: -F fileupload="@$files" -F xml=yes -# "http://www.imageshack.us/index.php" | grep image_link | sed -e 's/<image_link>/[IMG]/g' -e 's/<\/image_link>/[\/IMG]/g'; done; }
+summary: |-
+  Upload folder to imageshack.us (forum)

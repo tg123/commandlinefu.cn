@@ -1,0 +1,8 @@
+commandlinefu_id: 12452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  f=220;echo "int s=16e3/$f;main(i){unsigned char v[s];read(0,v,s);for(;;)putchar(v[i%s]=(v[i%s]+v[++i%s])/2);}"|gcc -x c -&&./a.out</dev/urandom|aplay -d 2
+summary: |-
+  guitar synthesizer in one line of C

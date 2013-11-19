@@ -1,0 +1,8 @@
+commandlinefu_id: 2828
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o rss -C httpd | tail -n +2 | (sed 's/^/x+=/'; echo x) | bc
+summary: |-
+  How much RAM is Apache using?

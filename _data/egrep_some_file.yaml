@@ -1,0 +1,8 @@
+commandlinefu_id: 1041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep '^[^#]' some_file
+summary: |-
+  display contents of a file w/o any comments or blank lines

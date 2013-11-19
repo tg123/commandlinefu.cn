@@ -1,0 +1,8 @@
+commandlinefu_id: 8496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sdiff <(ls /) <(ls /usr)
+summary: |-
+  compare the contents of two directories

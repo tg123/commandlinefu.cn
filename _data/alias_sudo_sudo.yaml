@@ -1,0 +1,8 @@
+commandlinefu_id: 10368
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias sudo='sudo '
+summary: |-
+  Preserve existing aliases on sudo commands

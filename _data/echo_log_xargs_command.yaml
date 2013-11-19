@@ -1,0 +1,8 @@
+commandlinefu_id: 1156
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo *.log | xargs <command>
+summary: |-
+  for too many arguments by *

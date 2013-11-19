@@ -1,0 +1,8 @@
+commandlinefu_id: 1065
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -b -n 1 | awk '{if (NR <=7) print; else if ($8 == "D") {print; count++} } END {print "Total status D: "count}'
+summary: |-
+  count processes with status "D" uninterruptible sleep

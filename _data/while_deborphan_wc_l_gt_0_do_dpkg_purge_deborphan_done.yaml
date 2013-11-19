@@ -1,0 +1,8 @@
+commandlinefu_id: 994
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [ $(deborphan | wc -l) -gt 0 ]; do dpkg --purge $(deborphan); done
+summary: |-
+  Repeatedly purge orphaned packages on Debian-like Linuxes

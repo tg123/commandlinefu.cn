@@ -1,0 +1,8 @@
+commandlinefu_id: 7539
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  curl -I http://localhost
+summary: |-
+  发送HEAD请求

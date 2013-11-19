@@ -1,0 +1,8 @@
+commandlinefu_id: 10113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vi +START,ENDd +wq sample.txt
+summary: |-
+  Remove a range of lines from a file

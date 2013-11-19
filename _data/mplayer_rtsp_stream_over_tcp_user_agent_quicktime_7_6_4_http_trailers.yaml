@@ -1,0 +1,8 @@
+commandlinefu_id: 9564
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -rtsp-stream-over-tcp -user-agent QuickTime/7.6.4 http://trailers.apple.com/movies/HDmovie-h720p.mov
+summary: |-
+  use mplayer to watch Apple Movie Trailer instead of quicktime player

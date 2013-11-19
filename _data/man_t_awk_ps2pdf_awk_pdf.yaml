@@ -1,0 +1,8 @@
+commandlinefu_id: 9751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -t awk | ps2pdf - awk.pdf
+summary: |-
+  save man-page as pdf

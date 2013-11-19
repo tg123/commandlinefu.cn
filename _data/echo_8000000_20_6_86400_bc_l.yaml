@@ -1,0 +1,8 @@
+commandlinefu_id: 1036
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "8000000/(20*6*86400)" | bc -l
+summary: |-
+  doing some floating point math

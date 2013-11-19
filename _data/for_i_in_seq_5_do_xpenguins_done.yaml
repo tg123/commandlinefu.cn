@@ -1,0 +1,8 @@
+commandlinefu_id: 4438
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(seq 5); do xpenguins & done
+summary: |-
+  oneliner to open several times same application

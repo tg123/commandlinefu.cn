@@ -1,0 +1,8 @@
+commandlinefu_id: 1278
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  taskset -c 0 your_command
+summary: |-
+  使用 一个cpu core 启动 command

@@ -1,0 +1,8 @@
+commandlinefu_id: 10779
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 1 5 | xargs -I"#" date --date="today -# days" +'%Y-%m-%d'
+summary: |-
+  List the most recent dates in reverse-chronological order

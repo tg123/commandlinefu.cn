@@ -1,0 +1,8 @@
+commandlinefu_id: 4869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias info='info --vi-keys'
+summary: |-
+  shell function to make gnu info act like man.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  GREP_OPTIONS='-D skip --binary-files=without-match --ignore-case'
+summary: |-
+  Most Commonly Used Grep Options

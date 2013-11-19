@@ -1,0 +1,8 @@
+commandlinefu_id: 6785
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert *.jpg output.pdf
+summary: |-
+  Create a single PDF from multiple images with ImageMagick

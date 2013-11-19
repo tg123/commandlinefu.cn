@@ -1,0 +1,8 @@
+commandlinefu_id: 7897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while sleep 1; do echo -n "\r`date`"; done
+summary: |-
+  Console clock

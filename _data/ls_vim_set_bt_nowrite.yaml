@@ -1,0 +1,8 @@
+commandlinefu_id: 9945
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | vim +'set bt=nowrite' -
+summary: |-
+  vim read stdin

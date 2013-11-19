@@ -1,0 +1,8 @@
+commandlinefu_id: 4386
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parse_rpm() { RPM=$1;B=${RPM##*/};B=${B%.rpm};A=${B##*.};B=${B%.*};R=${B##*-};B=${B%-*};V=${B##*-};B=${B%-*};N=$B;echo "$N $V $R $A"; }
+summary: |-
+  Parse an RPM name into its components - fast

@@ -1,0 +1,8 @@
+commandlinefu_id: 4991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip link show
+summary: |-
+  Get all mac address

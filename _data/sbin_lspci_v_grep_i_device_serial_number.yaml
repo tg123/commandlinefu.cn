@@ -1,0 +1,8 @@
+commandlinefu_id: 12559
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/lspci -v | grep -i "Device Serial Number"
+summary: |-
+  Find all Mac Address

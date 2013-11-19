@@ -1,0 +1,8 @@
+commandlinefu_id: 2568
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e " 3.times { system 'pdflatex mydoc.tex' } "
+summary: |-
+  Compile a latex doc to generate index

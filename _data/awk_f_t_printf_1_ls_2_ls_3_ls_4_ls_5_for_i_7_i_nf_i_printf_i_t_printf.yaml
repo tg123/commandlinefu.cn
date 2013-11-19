@@ -1,0 +1,8 @@
+commandlinefu_id: 7975
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F $'\t' '{printf $1 LS $2 LS $3 LS $4 LS $5; for (i = 7; i < NF; i++) printf $i "\t"; printf "\n--\n";}' LS=$'\n' 'Ad report.tsv' | column -t -s $'\t'
+summary: |-
+  collapse first five fields of Google Adwords export .tsv file into a single field

@@ -1,0 +1,8 @@
+commandlinefu_id: 9008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | grep '^?' | sed -e 's/\?[[:space:]]*//' | tr '\n' '\0' | xargs -0 svn add
+summary: |-
+  add all files not under version control to repository

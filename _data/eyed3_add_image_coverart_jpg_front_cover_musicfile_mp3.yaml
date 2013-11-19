@@ -1,0 +1,8 @@
+commandlinefu_id: 12619
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eyeD3 --add-image=coverart.jpg:FRONT_COVER musicfile.mp3
+summary: |-
+  Add cover-art to mp3 tags

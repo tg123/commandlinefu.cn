@@ -1,0 +1,8 @@
+commandlinefu_id: 11296
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat log | perl -ne 'use POSIX; s/([\d.]+)/strftime "%y-%m-%d %H:%M:%S", localtime $1/e,print if /./'
+summary: |-
+  convert unixtime to human-readable

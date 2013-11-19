@@ -1,0 +1,8 @@
+commandlinefu_id: 9066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fileName()  { echo "$1" | grep -o "[^/]*$"; }
+summary: |-
+  Alternative for basename using grep to extract file name

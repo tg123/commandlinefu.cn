@@ -1,0 +1,8 @@
+commandlinefu_id: 9115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -d -n 5 df
+summary: |-
+  Watch the disk fill up with change highlighting

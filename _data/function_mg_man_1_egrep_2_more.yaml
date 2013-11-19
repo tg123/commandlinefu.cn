@@ -1,0 +1,8 @@
+commandlinefu_id: 5971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function mg(){ man ${1} | egrep ${2} | more; }
+summary: |-
+  Fewer keystrokes to search man page of command

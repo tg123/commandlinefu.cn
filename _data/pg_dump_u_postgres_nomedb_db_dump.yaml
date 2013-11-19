@@ -1,0 +1,8 @@
+commandlinefu_id: 274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pg_dump -U postgres [nomeDB] > db.dump
+summary: |-
+  Export/Backup a PostgreSQL database

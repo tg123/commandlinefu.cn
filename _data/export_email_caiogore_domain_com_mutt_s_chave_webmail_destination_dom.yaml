@@ -1,0 +1,8 @@
+commandlinefu_id: 8004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export EMAIL=caiogore@domain.com && mutt -s "chave webmail" destination@domain.com < /dev/null
+summary: |-
+  Mutt - Change mail sender.

@@ -1,0 +1,8 @@
+commandlinefu_id: 5652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e '@F = `ls -1`;while (<@F>){@T = stat($_);print "$_ = " . localtime($T[8]) . "\n";}'
+summary: |-
+  Print time and year of file in Solaris (or other Unix ls command that does not have a simple "--full-list")

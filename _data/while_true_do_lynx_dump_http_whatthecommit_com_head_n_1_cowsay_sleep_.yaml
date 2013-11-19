@@ -1,0 +1,8 @@
+commandlinefu_id: 7739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do lynx --dump http://whatthecommit.com/ | head -n 1 | cowsay; sleep 2; done
+summary: |-
+  let the cow suggest some commit messages for you

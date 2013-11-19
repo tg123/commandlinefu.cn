@@ -1,0 +1,8 @@
+commandlinefu_id: 5780
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - "http://ajax.googleapis.com/ajax/services/language/translate?langpair=|zh-cn&v=1.0&q=`xsel`" |cut -d \" -f 6
+summary: |-
+  translate what is in the clipboard in english and write it to the terminal

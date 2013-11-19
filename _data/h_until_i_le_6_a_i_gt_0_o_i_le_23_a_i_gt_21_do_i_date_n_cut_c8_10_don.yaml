@@ -1,0 +1,8 @@
+commandlinefu_id: 5719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  H=$(until ([ $i -le 6 -a $i -gt 0  -o $i -le 23 -a $i -gt 21 ] ); do i=$(date +%N | cut -c8-10); done ; echo $i) ; M=$(until [ $i -le 59 ]; do i=$(date +%N | cut -c8-10); done ; echo $i) ; echo $M $H \* \* \* backup-rsync-push.sh
+summary: |-
+  create random numbers within range for conjob usage

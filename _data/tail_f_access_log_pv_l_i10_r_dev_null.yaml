@@ -1,0 +1,8 @@
+commandlinefu_id: 5489
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f access.log | pv -l -i10 -r >/dev/null
+summary: |-
+  Realtime lines per second in a log file

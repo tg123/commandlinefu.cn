@@ -1,0 +1,8 @@
+commandlinefu_id: 1880
+translator:
+  weibo: ''
+hide: true
+command: |-
+  disown -a && exit
+summary: |-
+  Close shell keeping all subprocess running

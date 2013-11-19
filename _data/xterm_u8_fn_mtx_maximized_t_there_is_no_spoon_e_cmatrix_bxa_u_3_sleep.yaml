@@ -1,0 +1,8 @@
+commandlinefu_id: 11328
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xterm +u8 -fn mtx -maximized -T "There is no spoon!" -e cmatrix -bxa -u 3 & sleep .1s && wmctrl -r :ACTIVE: -b add,fullscreen && transset-df -a &
+summary: |-
+  cmatrix

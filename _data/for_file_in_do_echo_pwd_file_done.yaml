@@ -1,0 +1,8 @@
+commandlinefu_id: 9908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in * .*; do echo $PWD/$file; done
+summary: |-
+  list with full path

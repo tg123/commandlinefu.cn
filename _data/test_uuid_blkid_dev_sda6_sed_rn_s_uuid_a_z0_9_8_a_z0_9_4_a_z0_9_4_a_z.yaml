@@ -1,0 +1,8 @@
+commandlinefu_id: 9187
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TEST_UUID=$(blkid /dev/sda6 | sed -rn "s/^.*UUID=\"([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\".*/\1/p")
+summary: |-
+  Put uuid of disk into variable

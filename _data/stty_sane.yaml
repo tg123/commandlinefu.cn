@@ -1,0 +1,8 @@
+commandlinefu_id: 4019
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stty sane
+summary: |-
+  Clean your broken terminal

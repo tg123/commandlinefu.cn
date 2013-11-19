@@ -1,0 +1,8 @@
+commandlinefu_id: 8720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec touch "{}" \;
+summary: |-
+  touch every file in current folder and subfolder

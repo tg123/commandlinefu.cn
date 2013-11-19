@@ -1,0 +1,8 @@
+commandlinefu_id: 9222
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -resize 600x800! *.jpg
+summary: |-
+  Batch resize image to exact given resolution ignoring aspect ratio

@@ -1,0 +1,8 @@
+commandlinefu_id: 8353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sync; echo 3 > /proc/sys/vm/drop_caches
+summary: |-
+  clean up memory on linux (fedora)

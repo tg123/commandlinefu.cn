@@ -1,0 +1,8 @@
+commandlinefu_id: 4748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo alias xkcd="gwenview `w3m -dump http://xkcd.com/|grep png | awk '{print $5}'` 2> /dev/null" >> .bashrc
+summary: |-
+  View the newest xkcd comic.

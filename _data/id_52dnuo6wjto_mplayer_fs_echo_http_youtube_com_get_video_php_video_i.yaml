@@ -1,0 +1,8 @@
+commandlinefu_id: 6596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ID=52DnUo6wJto;mplayer -fs $(echo "http://youtube.com/get_video.php?&video_id=$ID$(wget -qO - 'http://youtube.com/watch?v='$ID | perl -ne 'print $1."&asv=" if /^.*(&t=.*?)&.*$/; print "&fmt=".$1 if /^.*&fmt_map=(22).*$/')")
+summary: |-
+  Stream YouTube URL directly to mplayer.

@@ -1,0 +1,8 @@
+commandlinefu_id: 9555
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{a[i++]=$0} END {for (j=i-1; j>=0;) print a[j--] }'
+summary: |-
+  reverse order of file

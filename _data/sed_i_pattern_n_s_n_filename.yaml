@@ -1,0 +1,8 @@
+commandlinefu_id: 7649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '/pattern/N; s/\n//' filename
+summary: |-
+  remove newlines from specific lines in a file using sed

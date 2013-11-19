@@ -1,0 +1,8 @@
+commandlinefu_id: 681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gconftool-2 --set "/system/http_proxy/use_http_proxy" --type boolean true
+summary: |-
+  Activate the mandatory proxy under ubuntu

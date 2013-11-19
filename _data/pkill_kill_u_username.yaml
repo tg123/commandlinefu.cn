@@ -1,0 +1,8 @@
+commandlinefu_id: 8654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill -KILL -u username
+summary: |-
+  all out

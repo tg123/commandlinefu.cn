@@ -1,0 +1,8 @@
+commandlinefu_id: 4314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '/./=' infile | sed '/^/N; s/\n/ /'
+summary: |-
+  prints line numbers

@@ -1,0 +1,8 @@
+commandlinefu_id: 602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero bs=1M | ssh somesite dd of=/dev/null
+summary: |-
+  dd and ssh

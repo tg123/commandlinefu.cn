@@ -1,0 +1,8 @@
+commandlinefu_id: 5513
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ubuntu-bug
+summary: |-
+  Report bugs in Ubuntu

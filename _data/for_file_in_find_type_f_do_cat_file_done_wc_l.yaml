@@ -1,0 +1,8 @@
+commandlinefu_id: 1524
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in `find . -type f`; do cat $file; done | wc -l
+summary: |-
+  Count number of Line for all the files in a directory recursively

@@ -1,0 +1,8 @@
+commandlinefu_id: 2889
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s:/old/direcory/:/new/directory/:" <file>
+summary: |-
+  sed : using colons as separators instead of forward slashes

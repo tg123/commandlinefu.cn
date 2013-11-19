@@ -1,0 +1,8 @@
+commandlinefu_id: 10839
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -HBrowser manpage
+summary: |-
+  open manpage in browser

@@ -1,0 +1,8 @@
+commandlinefu_id: 2911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig $devices | grep "inet addr" | sed 's/.*inet addr:\([0-9\.]*\).*/\1/g'
+summary: |-
+  Get your internal IP address and nothing but your internal IP address

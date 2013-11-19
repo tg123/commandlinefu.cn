@@ -1,0 +1,8 @@
+commandlinefu_id: 6512
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%s/\([^\"]\)\(\n\)/\1 /g
+summary: |-
+  VIM subst any char different from literal " + EOL with searched string + white space

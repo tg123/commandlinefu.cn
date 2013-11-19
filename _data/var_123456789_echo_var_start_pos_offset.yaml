@@ -1,0 +1,8 @@
+commandlinefu_id: 9268
+translator:
+  weibo: ''
+hide: true
+command: |-
+  var='123456789'; echo ${var:<start_pos>:<offset>}
+summary: |-
+  Substrings a variable

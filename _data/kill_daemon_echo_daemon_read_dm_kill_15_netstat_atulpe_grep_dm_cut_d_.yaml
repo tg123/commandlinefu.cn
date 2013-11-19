@@ -1,0 +1,8 @@
+commandlinefu_id: 2294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill_daemon() { echo "Daemon?"; read dm;  kill -15 $(netstat -atulpe | grep $dm | cut -d '/' -f1 | awk '{print $9}') }; alias kd='kill_daemon
+summary: |-
+  Kill a daemon by name, not by PID

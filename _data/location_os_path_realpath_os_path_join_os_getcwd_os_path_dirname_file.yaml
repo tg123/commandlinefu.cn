@@ -1,0 +1,8 @@
+commandlinefu_id: 11365
+translator:
+  weibo: ''
+hide: true
+command: |-
+  __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+summary: |-
+  How to reliably open a file in the same directory as a Python script

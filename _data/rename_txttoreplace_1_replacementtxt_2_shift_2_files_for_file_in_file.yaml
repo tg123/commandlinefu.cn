@@ -1,0 +1,8 @@
+commandlinefu_id: 11350
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  rename(){ txtToReplace=${1} ; replacementTxt=${2} ; shift 2 ; files=${@} ; for file in $files ; do mv ${file} ${file/${txtToReplace}/${repla
+summary: |-
+  又一个rename

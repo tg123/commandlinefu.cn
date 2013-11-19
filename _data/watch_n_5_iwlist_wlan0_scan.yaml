@@ -1,0 +1,8 @@
+commandlinefu_id: 3121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n .5 "iwlist wlan0 scan"
+summary: |-
+  Not a kismet replacement...

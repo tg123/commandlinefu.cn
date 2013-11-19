@@ -1,0 +1,8 @@
+commandlinefu_id: 4197
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ruby -e 'require "date"; puts DateTime.now.cweek'
+summary: |-
+  今天是第几周

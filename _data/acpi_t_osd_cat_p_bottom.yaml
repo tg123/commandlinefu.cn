@@ -1,0 +1,8 @@
+commandlinefu_id: 3870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  acpi -t | osd_cat -p bottom
+summary: |-
+  On Screen micro display for battery and CPU temperature. nifty, small, omnipresent

@@ -1,0 +1,8 @@
+commandlinefu_id: 10947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -fu $USER | awk {'print $2'} | xargs kill [-9]
+summary: |-
+  Kill all processes belonging to a user

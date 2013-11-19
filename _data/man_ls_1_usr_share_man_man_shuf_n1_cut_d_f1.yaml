@@ -1,0 +1,8 @@
+commandlinefu_id: 6399
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  man $(ls -1 /usr/share/man/man?/ | shuf -n1 | cut -d. -f1)
+summary: |-
+  随机来一个man

@@ -1,0 +1,8 @@
+commandlinefu_id: 8161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [[ 1 ]] ; do clear; banner `date +%H:%M:%S` ; sleep 1; done
+summary: |-
+  Console clock

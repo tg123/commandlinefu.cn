@@ -1,0 +1,8 @@
+commandlinefu_id: 3902
+translator:
+  weibo: ''
+hide: true
+command: |-
+  flip -u $FILE
+summary: |-
+  Remove CR LF from a text file

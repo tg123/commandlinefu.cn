@@ -1,0 +1,8 @@
+commandlinefu_id: 1824
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do ifconfig eth0 | grep "inet addr:"; sleep 60; done;
+summary: |-
+  Periodically loop a command

@@ -1,0 +1,8 @@
+commandlinefu_id: 4190
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pwgen -Bs 10 1
+summary: |-
+  generate random password

@@ -1,0 +1,8 @@
+commandlinefu_id: 8753
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ntfsclone
+summary: |-
+  to clone an NTFS partition

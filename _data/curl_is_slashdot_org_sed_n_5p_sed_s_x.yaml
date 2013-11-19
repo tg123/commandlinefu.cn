@@ -1,0 +1,8 @@
+commandlinefu_id: 6656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -Is slashdot.org | sed -n '5p' | sed 's/^X-//'
+summary: |-
+  Get Futurama quotations from slashdot.org servers

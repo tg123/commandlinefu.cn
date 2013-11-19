@@ -1,0 +1,8 @@
+commandlinefu_id: 2048
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ac -p
+summary: |-
+  Display time of accounts connection on a system

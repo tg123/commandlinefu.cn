@@ -1,0 +1,8 @@
+commandlinefu_id: 6639
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo du -sm * | sort -n
+summary: |-
+  list files/directories in current directory -- sorted by file size in MB

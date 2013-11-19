@@ -1,0 +1,8 @@
+commandlinefu_id: 1644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta' filename
+summary: |-
+  Add thousand separator with sed, in a file or within pipe

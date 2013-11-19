@@ -1,0 +1,8 @@
+commandlinefu_id: 6854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsb_release -a
+summary: |-
+  Find out my Linux distribution name and version

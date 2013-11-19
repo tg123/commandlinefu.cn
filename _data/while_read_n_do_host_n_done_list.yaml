@@ -1,0 +1,8 @@
+commandlinefu_id: 4252
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read n; do host $n; done < list
+summary: |-
+  Ruby - nslookup against a list of IP`s or FQDN`s

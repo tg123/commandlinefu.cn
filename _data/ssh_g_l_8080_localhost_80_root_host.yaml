@@ -1,0 +1,8 @@
+commandlinefu_id: 3888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -g -L 8080:localhost:80 root@$HOST
+summary: |-
+  Forward connections

@@ -1,0 +1,8 @@
+commandlinefu_id: 12602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rngd -f -r /dev/urandom
+summary: |-
+  Generate entropy

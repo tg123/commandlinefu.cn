@@ -1,0 +1,8 @@
+commandlinefu_id: 9449
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch -t [[CC]AA]MMJJhhmm[.ss]
+summary: |-
+  Change file time stamp

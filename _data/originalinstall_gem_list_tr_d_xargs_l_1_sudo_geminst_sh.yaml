@@ -1,0 +1,8 @@
+commandlinefu_id: 2613
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /originalInstall/gem list | tr -d '(),' | xargs -L 1 sudo ./gemInst.sh
+summary: |-
+  Migrate gems from one ruby installation to another

@@ -1,0 +1,8 @@
+commandlinefu_id: 4264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for /L %%x in (1,1,16) do mkdir %%x & curl -R -e http://www.kirtu.com -o %%x/#1.jpg http://www.kirtu.com/toon/content/sb%x/english/sb%x_en_[001-070].jpg
+summary: |-
+  Use curl on Windows to bulk-download the Savitabhabhi Comic Strip (for Adults)

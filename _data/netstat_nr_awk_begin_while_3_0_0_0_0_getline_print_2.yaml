@@ -1,0 +1,8 @@
+commandlinefu_id: 5025
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -nr | awk 'BEGIN {while ($3!="0.0.0.0") getline; print $2}'
+summary: |-
+  Fetch the Gateway Ip Address

@@ -1,0 +1,8 @@
+commandlinefu_id: 11660
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps axu | grep [a]pache2
+summary: |-
+  grep processes list avoiding the grep itself

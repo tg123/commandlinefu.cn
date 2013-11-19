@@ -1,0 +1,8 @@
+commandlinefu_id: 11387
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export proc=chrome && ps aux | grep $proc | grep -v grep |awk '{print $2}'
+summary: |-
+  List process ids (including parent and child process) of a process given its name. Similar to pgrep

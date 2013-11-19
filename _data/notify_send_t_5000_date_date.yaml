@@ -1,0 +1,8 @@
+commandlinefu_id: 12657
+translator:
+  weibo: ''
+hide: true
+command: |-
+  notify-send -t 5000 "date" "$(date)"
+summary: |-
+  pipe output to notify-send

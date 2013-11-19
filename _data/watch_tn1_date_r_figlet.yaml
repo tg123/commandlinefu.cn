@@ -1,0 +1,8 @@
+commandlinefu_id: 5893
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -tn1 'date +%r | figlet'
+summary: |-
+  Big Countdown Clock with hours, minutes and seconds

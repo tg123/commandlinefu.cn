@@ -1,0 +1,8 @@
+commandlinefu_id: 12581
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psgrep() { ps aux | tee >(head -1>&2) | grep -v " grep $@" | grep "$@" -i --color=auto; }
+summary: |-
+  psgrep(command)

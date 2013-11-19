@@ -1,0 +1,8 @@
+commandlinefu_id: 3552
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg --allow-multiple-messages --decrypt-files *
+summary: |-
+  gpg decrypt several files

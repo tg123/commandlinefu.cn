@@ -1,0 +1,8 @@
+commandlinefu_id: 7935
+translator:
+  weibo: ''
+hide: true
+command: |-
+  files=(/usr/share/cowsay/cows/*); cowsay -f `echo ${files[$((RANDOM%${#files}))]}` <TEXT>
+summary: |-
+  Cowsay Random Cowfile

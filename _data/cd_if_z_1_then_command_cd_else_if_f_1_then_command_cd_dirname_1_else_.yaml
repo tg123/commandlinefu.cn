@@ -1,0 +1,8 @@
+commandlinefu_id: 5452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd() { if [ -z "$1" ]; then command cd; else if [ -f "$1" ]; then command cd $(dirname "$1"); else command cd "$1"; fi; fi; }
+summary: |-
+  Smart `cd`.. cd to the file directory if you try to cd to a file

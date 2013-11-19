@@ -1,0 +1,8 @@
+commandlinefu_id: 609
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias dir="ls -al"
+summary: |-
+  alias dir to ls -al

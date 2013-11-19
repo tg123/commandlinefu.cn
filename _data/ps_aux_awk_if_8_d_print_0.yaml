@@ -1,0 +1,8 @@
+commandlinefu_id: 10792
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | awk '{if ($8 ~ "D") print $0}'
+summary: |-
+  Find processes stuck in dreaded "D" state aka IO Wait

@@ -1,0 +1,8 @@
+commandlinefu_id: 7408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias kfire='for i in `ps aux | grep [F]irefox `; do echo $i; kill $(($i)); done; '
+summary: |-
+  alias  ps | grep

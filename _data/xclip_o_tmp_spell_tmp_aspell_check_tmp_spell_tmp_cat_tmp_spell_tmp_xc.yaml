@@ -1,0 +1,8 @@
+commandlinefu_id: 1701
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xclip -o > /tmp/spell.tmp; aspell check /tmp/spell.tmp ; cat /tmp/spell.tmp | xclip
+summary: |-
+  Spell check the text in clipboard (paste the corrected clipboard if you like)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10736
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat urls.txt | xargs -n1 curl -O --max-time 10 --retry 3 --retry-delay 1
+summary: |-
+  download a list of urls

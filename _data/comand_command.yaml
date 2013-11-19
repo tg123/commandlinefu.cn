@@ -1,0 +1,8 @@
+commandlinefu_id: 8598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <comand> && !<command>
+summary: |-
+  Run previous same command in history

@@ -1,0 +1,8 @@
+commandlinefu_id: 11430
+translator:
+  weibo: ''
+hide: true
+command: |-
+  colortest-python
+summary: |-
+  ANSI Terminal Color Test using python

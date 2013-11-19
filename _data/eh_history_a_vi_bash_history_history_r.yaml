@@ -1,0 +1,8 @@
+commandlinefu_id: 8155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eh () { history -a ; vi ~/.bash_history ; history -r ; }
+summary: |-
+  function to edit your history file

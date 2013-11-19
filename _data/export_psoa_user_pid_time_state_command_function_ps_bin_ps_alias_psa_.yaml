@@ -1,0 +1,8 @@
+commandlinefu_id: 5692
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PSOA='user,pid,time,state,command' ; function _ps { /bin/ps $@ ; } ; alias psa='_ps ax -o $PSOA'
+summary: |-
+  Better PS aliases

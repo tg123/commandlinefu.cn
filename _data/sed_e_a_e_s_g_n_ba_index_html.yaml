@@ -1,0 +1,8 @@
+commandlinefu_id: 3014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e :a -e 's/<[^>]*>//g;/</N;//ba' index.html
+summary: |-
+  Regex to remove HTML-Tags from a file

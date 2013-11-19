@@ -1,0 +1,8 @@
+commandlinefu_id: 5507
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill -x firefox
+summary: |-
+  kill process by name

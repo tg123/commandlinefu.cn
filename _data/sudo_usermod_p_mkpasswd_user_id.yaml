@@ -1,0 +1,8 @@
+commandlinefu_id: 5574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo usermod -p $(mkpasswd '') user_id
+summary: |-
+  Enable passwordless login

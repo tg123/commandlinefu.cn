@@ -1,0 +1,8 @@
+commandlinefu_id: 5226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while $8;do read n;[ $n = "$l" ]&&c=$(($c+1))||c=0;echo $c;l=$n;done
+summary: |-
+  Simple addicting bash game.

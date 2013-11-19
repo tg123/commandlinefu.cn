@@ -1,0 +1,8 @@
+commandlinefu_id: 6901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo rm *.txt
+summary: |-
+  prevent accidents and test your command with echo

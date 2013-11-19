@@ -1,0 +1,8 @@
+commandlinefu_id: 2849
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tmpfile=$(mktemp) && echo -e 'startup_message off\nscreen -t top htop\nsplit\nfocus\nscreen -t nethogs nethogs wlan0\nsplit\nfocus\nscreen -t iotop iotop' > $tmpfile && sudo screen -c $tmpfile
+summary: |-
+  Triple monitoring in screen

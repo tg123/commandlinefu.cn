@@ -1,0 +1,8 @@
+commandlinefu_id: 7097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls --[TAB][TAB]
+summary: |-
+  auto complete arguments

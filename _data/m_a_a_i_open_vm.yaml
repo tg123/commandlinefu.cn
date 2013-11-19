@@ -1,0 +1,8 @@
+commandlinefu_id: 1980
+translator:
+  weibo: ''
+hide: true
+command: |-
+  m-a a-i open-vm
+summary: |-
+  compile openvm-tools

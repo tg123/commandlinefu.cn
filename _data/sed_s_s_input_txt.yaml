@@ -1,0 +1,8 @@
+commandlinefu_id: 5269
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/^\s*//' input.txt
+summary: |-
+  Delete leading whitespace from the start of each line

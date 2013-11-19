@@ -1,0 +1,8 @@
+commandlinefu_id: 4984
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exp="(2+3.0)/7.0*2^2"; val=$(awk "BEGIN {print $exp}" /dev/null)
+summary: |-
+  floating point operations in shell scripts

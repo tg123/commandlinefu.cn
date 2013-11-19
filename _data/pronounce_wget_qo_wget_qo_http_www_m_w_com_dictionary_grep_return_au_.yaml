@@ -1,0 +1,8 @@
+commandlinefu_id: 5056
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pronounce(){ wget -qO- $(wget -qO- "http://www.m-w.com/dictionary/$@" | grep 'return au' | sed -r "s|.*return au\('([^']*)', '([^'])[^']*'\).*|http://cougar.eb.com/soundc11/\2/\1|") | aplay -q; }
+summary: |-
+  Pronounce an English word using Merriam-Webster.com

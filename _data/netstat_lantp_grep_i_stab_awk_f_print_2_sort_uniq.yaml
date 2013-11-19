@@ -1,0 +1,8 @@
+commandlinefu_id: 3539
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq
+summary: |-
+  Show apps that use internet connection at the moment. (Multi-Language)

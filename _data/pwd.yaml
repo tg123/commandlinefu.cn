@@ -1,0 +1,8 @@
+commandlinefu_id: 639
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pwd
+summary: |-
+  Display your current working directory.

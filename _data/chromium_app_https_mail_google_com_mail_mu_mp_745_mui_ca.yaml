@@ -1,0 +1,8 @@
+commandlinefu_id: 12004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chromium --app="https://mail.google.com/mail/mu/mp/745/?mui=ca"
+summary: |-
+  mailwatcher on-click command

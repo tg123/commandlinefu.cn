@@ -1,0 +1,8 @@
+commandlinefu_id: 737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmidecode | more
+summary: |-
+  print indepth hardware info

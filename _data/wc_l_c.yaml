@@ -1,0 +1,8 @@
+commandlinefu_id: 12784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wc -l *c
+summary: |-
+  How many lines in your c project?

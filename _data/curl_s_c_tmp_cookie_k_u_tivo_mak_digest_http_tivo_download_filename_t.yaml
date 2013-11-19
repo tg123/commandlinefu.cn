@@ -1,0 +1,8 @@
+commandlinefu_id: 4050
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s -c /tmp/cookie -k -u tivo:$MAK --digest http://$tivo/download/$filename | tivodecode -m $MAK -- - | mplayer - -cache-min 50 -cache 65536
+summary: |-
+  Watch a TiVo File On Your Computer

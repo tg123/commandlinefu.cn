@@ -1,0 +1,8 @@
+commandlinefu_id: 10885
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -type f -print0 | xargs -0 grep -l "foo"
+summary: |-
+  List files containing given search string recursively

@@ -1,0 +1,8 @@
+commandlinefu_id: 1558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stty -F "/dev/ttyUSB0" 9600 ignbrk -brkint -icrnl -imaxbel -opost -onlcr -isig -icanon -iexten -echo -echoe -echok -echoctl -echoke time 5 min 1 line 0
+summary: |-
+  Configure a serial line device so you can evaluate it with a shell script

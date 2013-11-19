@@ -1,0 +1,8 @@
+commandlinefu_id: 12855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (sed 's/#.*//g'|sed '/^ *$/d'|tr '\n' ';'|xargs echo) < script.sh
+summary: |-
+  Convert a script to one-liner

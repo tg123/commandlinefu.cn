@@ -1,0 +1,8 @@
+commandlinefu_id: 3550
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Ctrl-R <search-text>
+summary: |-
+  Search back through previous commands

@@ -1,0 +1,8 @@
+commandlinefu_id: 5017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -R .
+summary: |-
+  Read directory contents recursively

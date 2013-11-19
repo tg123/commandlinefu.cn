@@ -1,0 +1,8 @@
+commandlinefu_id: 9364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wgetall () { wget -r -l2 -nd -Nc -A.$@ $@ }
+summary: |-
+  Download all files of a certain type with wget.

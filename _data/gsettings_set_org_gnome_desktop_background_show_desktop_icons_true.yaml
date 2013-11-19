@@ -1,0 +1,8 @@
+commandlinefu_id: 10036
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gsettings set org.gnome.desktop.background show-desktop-icons true
+summary: |-
+  Display icons in Desktop Gnome 3 of Fedora

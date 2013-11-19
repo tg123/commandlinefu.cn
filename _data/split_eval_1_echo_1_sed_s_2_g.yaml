@@ -1,0 +1,8 @@
+commandlinefu_id: 4816
+translator:
+  weibo: ''
+hide: true
+command: "Split()\t{ eval \"$1=( \\\"$(echo \"${!1}\" | sed \"s/$2/\\\" \\\"/g\")\\\
+  \" )\"; }"
+summary: |-
+  Function to split a string into an array

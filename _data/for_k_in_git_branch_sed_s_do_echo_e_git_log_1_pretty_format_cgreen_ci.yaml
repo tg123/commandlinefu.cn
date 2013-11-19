@@ -1,0 +1,8 @@
+commandlinefu_id: 9623
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for k in `git branch|sed s/^..//`;do echo -e `git log -1 --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" "$k" --`\\t"$k";done|sort
+summary: |-
+  Show git branches by date - useful for showing active branches

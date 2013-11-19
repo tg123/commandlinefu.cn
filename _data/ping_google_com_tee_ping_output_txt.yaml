@@ -1,0 +1,8 @@
+commandlinefu_id: 35
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping google.com | tee ping-output.txt
+summary: |-
+  Ping a URL sending output to file and STDOUT

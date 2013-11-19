@@ -1,0 +1,8 @@
+commandlinefu_id: 9334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  who -m | sed 's/.*(\(.*\)).*/\1/'
+summary: |-
+  Get the host from where you logged in

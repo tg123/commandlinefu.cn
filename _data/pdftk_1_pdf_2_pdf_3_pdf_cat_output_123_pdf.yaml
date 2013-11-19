@@ -1,0 +1,8 @@
+commandlinefu_id: 4026
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk 1.pdf 2.pdf 3.pdf cat output 123.pdf
+summary: |-
+  Merge Two or More PDFs into a New Document

@@ -1,0 +1,8 @@
+commandlinefu_id: 782
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*" -mtime +10 -print -exec gzip {} \;
+summary: |-
+  Gzip files older than 10 days matching *

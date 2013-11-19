@@ -1,0 +1,8 @@
+commandlinefu_id: 7637
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo ${SSH_CLIENT%% *}
+summary: |-
+  Get the IP of the host your coming from when logged in remotely

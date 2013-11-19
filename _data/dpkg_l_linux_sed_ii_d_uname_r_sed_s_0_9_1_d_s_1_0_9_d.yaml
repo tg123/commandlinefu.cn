@@ -1,0 +1,8 @@
+commandlinefu_id: 2457
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d'
+summary: |-
+  show installed but unused linux headers, image, or modules

@@ -1,0 +1,8 @@
+commandlinefu_id: 8301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink /proc/self/cwd
+summary: |-
+  Find out current working directory of a process

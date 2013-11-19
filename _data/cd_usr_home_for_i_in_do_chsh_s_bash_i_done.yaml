@@ -1,0 +1,8 @@
+commandlinefu_id: 4461
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /usr/home && for i in *;do chsh -s bash $i;done
+summary: |-
+  Chage default shell for all users [FreeBSD]

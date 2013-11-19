@@ -1,0 +1,8 @@
+commandlinefu_id: 9939
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pastebinit [file]
+summary: |-
+  pastebinit - command-line pastebin client

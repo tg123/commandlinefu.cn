@@ -1,0 +1,8 @@
+commandlinefu_id: 8434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nice -n -20 ssh SOURCE_SERVER  "tail -f /var/log/httpd/access.log " | awk '{print $7}' | grep jsp | parallel 'curl TARGET_SERVER{} 2>&1 /dev/null'
+summary: |-
+  Real time duplication of Apache app traffic to a second server

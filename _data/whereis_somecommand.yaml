@@ -1,0 +1,8 @@
+commandlinefu_id: 61
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whereis somecommand
+summary: |-
+  locate bin, src, and man file for a command

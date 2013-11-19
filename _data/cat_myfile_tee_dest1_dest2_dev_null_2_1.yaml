@@ -1,0 +1,8 @@
+commandlinefu_id: 11590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat myfile | tee dest1 dest2 > /dev/null 2>&1
+summary: |-
+  Copy file to multiple destinations

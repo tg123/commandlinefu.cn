@@ -1,0 +1,8 @@
+commandlinefu_id: 8143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f ! -iwholename \*.svn\* -print0 [ | xargs -0 ]
+summary: |-
+  find files ignoring .svn and its decendents

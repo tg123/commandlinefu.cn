@@ -1,0 +1,8 @@
+commandlinefu_id: 3337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  badblocks -vfw /dev/fd0 10000 ; reboot
+summary: |-
+  A DESTRUCTIVE command to render a drive unbootable

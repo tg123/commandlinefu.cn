@@ -1,0 +1,8 @@
+commandlinefu_id: 7836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  complete -W "$(while IFS=' ,' read host t; do echo $host; done < ~/.ssh/known_hosts)" ssh
+summary: |-
+  ssh autocomplete

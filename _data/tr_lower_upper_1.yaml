@@ -1,0 +1,8 @@
+commandlinefu_id: 3730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr '[:lower:]' '[:upper:]' <"$1"
+summary: |-
+  Transforms a file to all uppercase.

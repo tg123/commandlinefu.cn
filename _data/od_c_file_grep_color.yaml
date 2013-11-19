@@ -1,0 +1,8 @@
+commandlinefu_id: 4318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  od -c <FILE> | grep --color '\\.'
+summary: |-
+  See non printable caracters like tabulations, CRLF, LF line terminators ( colored )

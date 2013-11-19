@@ -1,0 +1,8 @@
+commandlinefu_id: 12268
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iwlist ath0 scanning |egrep '(ESSID|Signal|Address)'| \sed -e 's/Cell  - Address:*//g'  -e 's/ESSID://g' \-e 's/Noise level=-//g' -e 's/dBm//g' \-e 's/Quality=*//g'  -e 's/Signal level=-//g' \-e 's/"//g'
+summary: |-
+  UBNT device

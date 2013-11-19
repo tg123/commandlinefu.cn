@@ -1,0 +1,8 @@
+commandlinefu_id: 4925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function skreemplay() { lynx -dump "http://skreemr.com/results.jsp?q=$*" | grep mp3$ | sed 's/^.* //' | xargs mplayer }
+summary: |-
+  Search and play MP3 from Skreemr

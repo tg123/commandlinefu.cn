@@ -1,0 +1,8 @@
+commandlinefu_id: 12208
+translator:
+  weibo: ''
+hide: true
+command: |-
+  logout
+summary: |-
+  Logout from ubuntu

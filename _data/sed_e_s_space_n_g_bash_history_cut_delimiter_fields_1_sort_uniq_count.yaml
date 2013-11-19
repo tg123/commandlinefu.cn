@@ -1,0 +1,8 @@
+commandlinefu_id: 10261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e 's/[;|][[:space:]]*/\n/g' .bash_history | cut --delimiter=' ' --fields=1 | sort | uniq --count | sort --numeric-sort --reverse | head --lines=20
+summary: |-
+  Top 20 commands in your bash history

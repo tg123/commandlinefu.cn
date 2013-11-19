@@ -1,0 +1,8 @@
+commandlinefu_id: 7106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -rv --include '*/' --include '*.jar' --exclude '*' srcDir desDir
+summary: |-
+  Copy files based on extension with recursive and keeping directory structure

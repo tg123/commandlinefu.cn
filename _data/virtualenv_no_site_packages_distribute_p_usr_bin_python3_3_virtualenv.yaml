@@ -1,0 +1,8 @@
+commandlinefu_id: 12720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  virtualenv --no-site-packages --distribute -p /usr/bin/python3.3 ~/.virtualenvs/pywork3
+summary: |-
+  [Ubuntu] Create a Python virtualenv

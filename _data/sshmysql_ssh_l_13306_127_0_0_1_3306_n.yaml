@@ -1,0 +1,8 @@
+commandlinefu_id: 9172
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshmysql() { ssh -L 13306:127.0.0.1:3306 -N $* & }
+summary: |-
+  Function to bind MySQL hostport to forward remote MySQL connection to localhost.

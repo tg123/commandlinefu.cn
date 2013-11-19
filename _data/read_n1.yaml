@@ -1,0 +1,8 @@
+commandlinefu_id: 12820
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -N1
+summary: |-
+  Read choice from user instantaneously

@@ -1,0 +1,8 @@
+commandlinefu_id: 4644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setxkbmap dvorak '' ctrl:nocaps
+summary: |-
+  Set X keymap to dvorak and fix the Ctrl key.

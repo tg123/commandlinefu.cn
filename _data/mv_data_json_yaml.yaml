@@ -1,0 +1,8 @@
+commandlinefu_id: 12229
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv data.{json,yaml}
+summary: |-
+  Convert JSON to YAML

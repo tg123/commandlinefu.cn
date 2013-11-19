@@ -1,0 +1,8 @@
+commandlinefu_id: 11473
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ -n "$SSH_CONNECTION" ]; then export TMOUT=300; fi
+summary: |-
+  Logout ssh user automatically after specified time

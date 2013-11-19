@@ -1,0 +1,8 @@
+commandlinefu_id: 9714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar xfz filename.tar.gz -C PathToDirectory
+summary: |-
+  Redirect  tar extract to another directory

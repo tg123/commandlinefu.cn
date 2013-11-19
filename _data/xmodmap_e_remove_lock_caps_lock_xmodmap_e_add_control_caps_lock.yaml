@@ -1,0 +1,8 @@
+commandlinefu_id: 4388
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmodmap -e 'remove Lock = Caps_Lock' && xmodmap -e 'add control = Caps_Lock'
+summary: |-
+  Replace Caps-lock with Control-key

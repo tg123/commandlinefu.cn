@@ -1,0 +1,8 @@
+commandlinefu_id: 9955
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for FILE in $(svn status | grep ? | grep .php); do svn add $FILE; done
+summary: |-
+  recursively add all new PHP files in a folder to SVN

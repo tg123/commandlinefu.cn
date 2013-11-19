@@ -1,0 +1,8 @@
+commandlinefu_id: 3125
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uptime
+summary: |-
+  how long system has been running

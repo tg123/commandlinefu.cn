@@ -1,0 +1,8 @@
+commandlinefu_id: 8964
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://somesite.com/somestream.pls; cvlc somestream.pls&sleep 5; rm somestream.pls*
+summary: |-
+  Play a stream and give back the shell

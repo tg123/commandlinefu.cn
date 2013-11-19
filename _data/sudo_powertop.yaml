@@ -1,0 +1,8 @@
+commandlinefu_id: 5408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo powertop
+summary: |-
+  Measure, explain and minimize a computer's electrical power consumption

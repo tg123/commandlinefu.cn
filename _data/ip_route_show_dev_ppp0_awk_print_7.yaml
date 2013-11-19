@@ -1,0 +1,8 @@
+commandlinefu_id: 2102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip route show dev ppp0 | awk '{ print $7 }'
+summary: |-
+  Print IP of any interface. Useful for scripts.

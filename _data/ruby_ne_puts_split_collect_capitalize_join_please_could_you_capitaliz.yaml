@@ -1,0 +1,8 @@
+commandlinefu_id: 9273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -ne 'puts $_.split.collect(&:capitalize).join(" ")' <<< "pleAse cOuld YOu capiTalizE Me"
+summary: |-
+  Capitalize first letter of each word in a string - A ruby alternative

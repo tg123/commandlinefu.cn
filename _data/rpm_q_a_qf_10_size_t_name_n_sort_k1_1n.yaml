@@ -1,0 +1,8 @@
+commandlinefu_id: 5404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -q -a --qf '%10{SIZE}\t%{NAME}\n' | sort -k1,1n
+summary: |-
+  List all packages by installed size (Bytes) on rpm distros

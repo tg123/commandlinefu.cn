@@ -1,0 +1,8 @@
+commandlinefu_id: 12483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | awk '{$1="";print substr($0,2)}'
+summary: |-
+  display bash history without line numbers

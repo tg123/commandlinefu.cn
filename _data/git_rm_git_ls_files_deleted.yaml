@@ -1,0 +1,8 @@
+commandlinefu_id: 1246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git rm $(git ls-files --deleted)
+summary: |-
+  git remove files which have been deleted

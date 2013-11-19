@@ -1,0 +1,8 @@
+commandlinefu_id: 9352
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -u +%W$(uname)|sha256sum|sed 's/\W//g'
+summary: |-
+  anti-spam

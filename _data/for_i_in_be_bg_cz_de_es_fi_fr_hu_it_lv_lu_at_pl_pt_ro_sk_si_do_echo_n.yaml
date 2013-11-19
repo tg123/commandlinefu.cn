@@ -1,0 +1,8 @@
+commandlinefu_id: 5085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in be bg cz de es fi fr hu it lv lu at pl pt ro sk si  ; do echo -n "$i " ; wget -q -O - http://www.expansys.$i/d.aspx?i=196165 | grep price | sed "s/.*<p id='price'><strong>&euro; \([0-9]*[,.][0-9]*\).*/\1/g"; done
+summary: |-
+  Compare prices in euro of the HTC Desire on all the european websites of Expansys.

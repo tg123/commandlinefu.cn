@@ -1,0 +1,8 @@
+commandlinefu_id: 11483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "your string here" | tr '\!-~' 'P-~\!-O'
+summary: |-
+  Encode a string using ROT47

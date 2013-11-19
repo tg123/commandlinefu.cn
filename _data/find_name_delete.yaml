@@ -1,0 +1,8 @@
+commandlinefu_id: 1085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name *~ -delete
+summary: |-
+  Remove Backup Files

@@ -1,0 +1,8 @@
+commandlinefu_id: 9440
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dpkg -i `ls -tr *.deb | tail -n4`
+summary: |-
+  Install 4 new package files

@@ -1,0 +1,8 @@
+commandlinefu_id: 12026
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --output-document=/dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip
+summary: |-
+  speedtest

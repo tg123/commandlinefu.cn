@@ -1,0 +1,8 @@
+commandlinefu_id: 7948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -af pan=1:0.5:0.5 -channels 1 radiostream.pls
+summary: |-
+  Downmix from stereo to mono and play radio stream with mplayer

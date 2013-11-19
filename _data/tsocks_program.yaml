@@ -1,0 +1,8 @@
+commandlinefu_id: 6050
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tsocks <program>
+summary: |-
+  Socksify any program to avoid restrictive firwalls

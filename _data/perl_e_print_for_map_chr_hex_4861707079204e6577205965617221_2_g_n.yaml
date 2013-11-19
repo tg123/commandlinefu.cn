@@ -1,0 +1,8 @@
+commandlinefu_id: 7591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'print for(map{chr(hex)}("4861707079204E6577205965617221"=~/(.{2})/g)),"\n";'
+summary: |-
+  Happy New Year!

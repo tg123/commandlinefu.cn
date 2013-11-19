@@ -1,0 +1,8 @@
+commandlinefu_id: 8194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkfs.ext3 -T largefile4
+summary: |-
+  Ext3 format Terabytes in Seconds

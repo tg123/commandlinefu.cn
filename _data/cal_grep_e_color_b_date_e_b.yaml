@@ -1,0 +1,8 @@
+commandlinefu_id: 10933
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cal | grep -E --color "\b`date +%e`\b|$"
+summary: |-
+  Print a monthly calendar with today's date highlighted

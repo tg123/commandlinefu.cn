@@ -1,0 +1,8 @@
+commandlinefu_id: 6869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  inotifywait -mrq -e CREATE --format %w%f /path/to/dir | while read FILE; do chmod g=u "$FILE"; done
+summary: |-
+  Trigger a command each time a file is created in a directory (inotify)

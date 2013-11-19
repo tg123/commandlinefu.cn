@@ -1,0 +1,8 @@
+commandlinefu_id: 5816
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'chomp($k=`uname -r`); for (</boot/vm*>) {s/^.*vmlinuz-($k)?//; $l.="linux-image-$_ ";} system "aptitude remove $l";'
+summary: |-
+  Remove all unused kernels with apt-get

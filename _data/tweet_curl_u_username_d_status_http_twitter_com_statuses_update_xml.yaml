@@ -1,0 +1,8 @@
+commandlinefu_id: 4001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tweet () { curl -u UserName -d status="$*" http://twitter.com/statuses/update.xml; }
+summary: |-
+  another tweet function

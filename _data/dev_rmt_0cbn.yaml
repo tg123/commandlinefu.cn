@@ -1,0 +1,8 @@
+commandlinefu_id: 4659
+translator:
+  weibo: ''
+hide: true
+command: |-
+  < /dev/rmt/0cbn
+summary: |-
+  Fast tape rewind

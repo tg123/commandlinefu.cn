@@ -1,0 +1,8 @@
+commandlinefu_id: 9455
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - --post-data "data[Row][clear]=text" http://md5-encryption.com | grep -A1 "Md5 encrypted state" | tail -n1  | cut -d '"' -f3 | sed 's/>//g; s/<\/b//g'
+summary: |-
+  Encrypt text to md5

@@ -1,0 +1,8 @@
+commandlinefu_id: 2962
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*'.tiff -exec bash -c "mogrify -format jpg -quality 85 -resize 75% {} && rm {}" \;
+summary: |-
+  Recursively Find Images, Convert to JPEGS and Delete

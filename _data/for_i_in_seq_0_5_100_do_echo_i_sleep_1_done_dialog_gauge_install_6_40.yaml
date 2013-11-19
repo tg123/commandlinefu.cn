@@ -1,0 +1,8 @@
+commandlinefu_id: 6765
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(seq 0 5 100); do echo $i; sleep 1; done | dialog --gauge "Install..." 6 40
+summary: |-
+  pretend to be busy in office to enjoy a cup of coffee

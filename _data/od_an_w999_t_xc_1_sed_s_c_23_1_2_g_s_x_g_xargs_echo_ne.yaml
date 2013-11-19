@@ -1,0 +1,8 @@
+commandlinefu_id: 5732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  od -An -w999 -t xC <<< "$1" | sed 's/[ ]\?\(c[23]\) \(..\)/%\1%\2/g;s/ /\\\\\x/g' | xargs echo -ne
+summary: |-
+  Url Encode

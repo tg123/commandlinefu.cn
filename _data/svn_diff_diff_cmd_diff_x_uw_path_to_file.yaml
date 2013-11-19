@@ -1,0 +1,8 @@
+commandlinefu_id: 417
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff --diff-cmd diff -x -uw /path/to/file
+summary: |-
+  svn diff ignore whitespace

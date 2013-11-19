@@ -1,0 +1,8 @@
+commandlinefu_id: 6055
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ping -f -c 999 -s 4500 target.com
+summary: |-
+  Send packet by ping

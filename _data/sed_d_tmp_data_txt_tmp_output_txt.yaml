@@ -1,0 +1,8 @@
+commandlinefu_id: 8524
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sed '/^$/d' /tmp/data.txt > /tmp/output.txt
+summary: |-
+  清理空行

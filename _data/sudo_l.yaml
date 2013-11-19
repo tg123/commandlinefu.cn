@@ -1,0 +1,8 @@
+commandlinefu_id: 934
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo -l
+summary: |-
+  List your sudo rights

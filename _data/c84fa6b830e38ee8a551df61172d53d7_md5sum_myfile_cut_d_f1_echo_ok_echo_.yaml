@@ -1,0 +1,8 @@
+commandlinefu_id: 4735
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ "c84fa6b830e38ee8a551df61172d53d7" = "$(md5sum myfile | cut -d' ' -f1)" ] && echo OK || echo FAIL
+summary: |-
+  Validating a file with checksum

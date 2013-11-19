@@ -1,0 +1,8 @@
+commandlinefu_id: 4194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | perl -lne 'print if -T;' | xargs egrep "somepattern"
+summary: |-
+  search for a pattern (regex) in all text files (ignoring binary files) in a directory tree

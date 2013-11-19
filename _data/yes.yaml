@@ -1,0 +1,8 @@
+commandlinefu_id: 11351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes | !!
+summary: |-
+  Do the last command, but say 'y' to everything

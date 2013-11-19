@@ -1,0 +1,8 @@
+commandlinefu_id: 11191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git checkout $(git rev-list -n 1 HEAD -- "$file")^ -- "$file"
+summary: |-
+  Restore deleted file from GIT repository

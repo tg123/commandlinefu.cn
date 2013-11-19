@@ -1,0 +1,8 @@
+commandlinefu_id: 2153
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fold -s -w 90 file.txt
+summary: |-
+  wrap long lines of a text

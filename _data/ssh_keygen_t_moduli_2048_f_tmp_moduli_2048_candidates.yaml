@@ -1,0 +1,8 @@
+commandlinefu_id: 4732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -T moduli-2048 -f /tmp/moduli-2048.candidates
+summary: |-
+  test moduli file  generated  for openssh

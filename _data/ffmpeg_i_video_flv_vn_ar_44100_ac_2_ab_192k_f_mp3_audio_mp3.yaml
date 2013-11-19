@@ -1,0 +1,8 @@
+commandlinefu_id: 10044
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i video.flv -vn -ar 44100 -ac 2 -ab 192k -f mp3 audio.mp3
+summary: |-
+  Extract audio from Flash video (*.flv) as mp3 file

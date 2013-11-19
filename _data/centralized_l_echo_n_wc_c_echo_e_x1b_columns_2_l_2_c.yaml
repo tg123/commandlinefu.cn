@@ -1,0 +1,8 @@
+commandlinefu_id: 11150
+translator:
+  weibo: ''
+hide: true
+command: |-
+  centralized(){ L=`echo -n $*|wc -c`; echo -e "\x1b[$[ ($COLUMNS / 2) - ($L / 2) ]C$*"; }
+summary: |-
+  Output centralized text on command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 9185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx --dump "http://www.google.com.br" | egrep -o "http:.*"
+summary: |-
+  Get all URLs from webpage via Regular Expression

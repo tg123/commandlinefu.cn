@@ -1,0 +1,8 @@
+commandlinefu_id: 9176
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl pagerank.bz/yourdomain.com
+summary: |-
+  Get Google PageRank

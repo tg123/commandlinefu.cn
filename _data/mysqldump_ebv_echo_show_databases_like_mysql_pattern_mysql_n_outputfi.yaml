@@ -1,0 +1,8 @@
+commandlinefu_id: 10318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump -eBv `echo "show databases like 'MYSQL_PATTERN'"|mysql -N`> OUTPUTFILE
+summary: |-
+  Back up only databases matching PATTERN

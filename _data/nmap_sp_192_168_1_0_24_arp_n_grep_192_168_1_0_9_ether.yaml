@@ -1,0 +1,8 @@
+commandlinefu_id: 5340
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sP 192.168.1.0/24; arp -n  | grep "192.168.1.[0-9]* *ether"
+summary: |-
+  find all active IP addresses in a network

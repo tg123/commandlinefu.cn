@@ -1,0 +1,8 @@
+commandlinefu_id: 6820
+translator:
+  weibo: ''
+hide: true
+command: |-
+  to() { eval dir=\$$1; cd "$dir"; }
+summary: |-
+  Quick directory bookmarks

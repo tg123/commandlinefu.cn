@@ -1,0 +1,8 @@
+commandlinefu_id: 3500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find repMainPath -maxdepth 1 -mindepth 1 -type d | while read dir; do echo processing $dir; sudo svnadmin dump --deltas $dir >dumpPath/`basename $dir`; done
+summary: |-
+  Archive all SVN repositories in platform indepenent form

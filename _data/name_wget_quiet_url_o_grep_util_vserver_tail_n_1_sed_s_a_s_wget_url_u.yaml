@@ -1,0 +1,8 @@
+commandlinefu_id: 8850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  NAME=`wget --quiet URL -O - | grep util-vserver | tail -n 1 | sed 's|</a>.*||;s/.*>//'`; wget URL$UTILVSERVER;
+summary: |-
+  Download last file from index of

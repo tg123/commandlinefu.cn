@@ -1,0 +1,8 @@
+commandlinefu_id: 7253
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sitepass2() {salt="this_salt";pass=`echo -n "$@"`;for i in {1..500};do pass=`echo -n $pass$salt|sha512sum`;done;echo$pass|gzip -|strings -n 1|tr -d "[:space:]"|tr -s '[:print:]' |tr '!-~' 'P-~!-O'|rev|cut -b 2-15;history -d $(($HISTCMD-1));}
+summary: |-
+  This generates a unique and secure password with SALT for every website that you login to

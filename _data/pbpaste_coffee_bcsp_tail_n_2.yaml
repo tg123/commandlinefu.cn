@@ -1,0 +1,8 @@
+commandlinefu_id: 12716
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste | coffee -bcsp | tail -n +2
+summary: |-
+  Compile CoffeeScript on Mac clipboard to JavaScript and print it

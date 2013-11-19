@@ -1,0 +1,8 @@
+commandlinefu_id: 10570
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep "([_a-zA-Z][_a-zA-Z0-9]*) *= *\1 *[*/+-] *[0-9]+ *;"
+summary: |-
+  Search for java explicit incrementation

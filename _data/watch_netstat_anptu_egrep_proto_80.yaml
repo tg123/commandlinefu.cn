@@ -1,0 +1,8 @@
+commandlinefu_id: 8478
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch 'netstat -anptu |egrep "^Proto|:80 "'
+summary: |-
+  Cheap iftop

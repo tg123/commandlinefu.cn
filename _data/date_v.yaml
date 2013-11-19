@@ -1,0 +1,8 @@
+commandlinefu_id: 7066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date +"%V"
+summary: |-
+  BASH one-liner to get the current week number

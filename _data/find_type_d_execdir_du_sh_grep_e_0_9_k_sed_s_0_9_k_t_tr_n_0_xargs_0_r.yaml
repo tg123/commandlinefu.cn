@@ -1,0 +1,8 @@
+commandlinefu_id: 1096
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -execdir du -sh '{}' ';' | grep -E "[0-9]+K" | sed 's/^[0-9\.]\+K[\t ]\+//' | tr "\n" "\0" | xargs -0 rm -rf
+summary: |-
+  Remove all directories less than 1 MB in size in or below current directory

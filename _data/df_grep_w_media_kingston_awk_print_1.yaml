@@ -1,0 +1,8 @@
+commandlinefu_id: 7695
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df | grep -w /media/KINGSTON | awk {'print $1'}
+summary: |-
+  find the device when you only know the mount point

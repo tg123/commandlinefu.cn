@@ -1,0 +1,8 @@
+commandlinefu_id: 10745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo killall -HUP mDNSResponder
+summary: |-
+  OS X: flush DNS cache

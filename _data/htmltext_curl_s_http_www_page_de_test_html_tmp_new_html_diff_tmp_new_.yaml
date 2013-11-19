@@ -1,0 +1,8 @@
+commandlinefu_id: 5989
+translator:
+  weibo: ''
+hide: true
+command: |-
+  HTMLTEXT=$( curl -s http://www.page.de/test.html > /tmp/new.html ; diff /tmp/new.html /tmp/old.html ); if [ "x$HTMLTEXT" != x ] ; then echo $HTMLTEXT | mail -s "Page has changed." mail@mail.de ; fi ; mv /tmp/new.html /tmp/old.html
+summary: |-
+  Check if a web page has changed last time checked.

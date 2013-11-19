@@ -1,0 +1,8 @@
+commandlinefu_id: 9446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tshark -r data.pcap -zio,phs
+summary: |-
+  Extract infomation form pcap

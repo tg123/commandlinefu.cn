@@ -1,0 +1,8 @@
+commandlinefu_id: 12121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lad
+summary: |-
+  Find out the permissions of the current directory

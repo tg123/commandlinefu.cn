@@ -1,0 +1,8 @@
+commandlinefu_id: 10819
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tune2fs -l $(df -P / | awk 'NR==2 {print $1}') | sed -n 's/^.*created: *//p'
+summary: |-
+  Find out the installation time of a linux system (when installed in a ext2/3/4 file system)

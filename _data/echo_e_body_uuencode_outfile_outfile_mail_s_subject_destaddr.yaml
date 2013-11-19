@@ -1,0 +1,8 @@
+commandlinefu_id: 4315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  { echo -e "$body"; uuencode "$outfile" "$outfile"; } | mail -s "$subject" "$destaddr" ;
+summary: |-
+  Send a local file via email

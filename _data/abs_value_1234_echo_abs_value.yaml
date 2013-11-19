@@ -1,0 +1,8 @@
+commandlinefu_id: 5793
+translator:
+  weibo: ''
+hide: true
+command: |-
+  abs_value=-1234; echo ${abs_value#-}
+summary: |-
+  How to get an absolute value

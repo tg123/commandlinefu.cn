@@ -1,0 +1,8 @@
+commandlinefu_id: 1216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :split <file>
+summary: |-
+  Load another file in vim

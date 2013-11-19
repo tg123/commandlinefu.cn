@@ -1,0 +1,8 @@
+commandlinefu_id: 10547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ldapsearch -xLLL -b "cn=schema" "(objectclass=*)" \  \* objectclasses attributetypes | perl -p0e 's/\n //g'
+summary: |-
+  Dump 389ds schema

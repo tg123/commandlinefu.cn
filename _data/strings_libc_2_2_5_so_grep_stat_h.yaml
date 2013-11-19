@@ -1,0 +1,8 @@
+commandlinefu_id: 80
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strings libc-2.2.5.so | grep stat.h
+summary: |-
+  look for a header reference in a shared library

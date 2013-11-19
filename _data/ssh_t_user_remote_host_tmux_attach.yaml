@@ -1,0 +1,8 @@
+commandlinefu_id: 11371
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -t user@remote_host tmux attach
+summary: |-
+  immediatly attach to previous tmux session when connecting through ssh

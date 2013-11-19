@@ -1,0 +1,8 @@
+commandlinefu_id: 4101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <dir> -printf '%p : %A@\n' | awk '{FS=" : " ; if($2 < <time in epoc> ) print $1 ;}' | xargs rm --verbose -fr ;
+summary: |-
+  remove files and directories with acces time older than a given date

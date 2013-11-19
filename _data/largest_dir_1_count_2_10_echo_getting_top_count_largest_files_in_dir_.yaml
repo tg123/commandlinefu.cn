@@ -1,0 +1,8 @@
+commandlinefu_id: 11785
+translator:
+  weibo: ''
+hide: true
+command: |-
+  largest() { dir=${1:-"./"}; count=${2:-"10"}; echo "Getting top $count largest files in $dir"; du -sx "$dir/"* | sort -nk 1 | tail -n $count | cut -f2 | xargs -I file du -shx file; }
+summary: |-
+  Get top N files in X directory

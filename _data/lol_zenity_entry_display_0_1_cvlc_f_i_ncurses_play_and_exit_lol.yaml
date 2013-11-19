@@ -1,0 +1,8 @@
+commandlinefu_id: 6567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lol=`zenity --entry` && DISPLAY=:0.1 cvlc -f -I ncurses --play-and-exit "$lol"
+summary: |-
+  run zenity object on local machine for to insert video stream url to play on remote machine

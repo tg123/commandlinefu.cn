@@ -1,0 +1,8 @@
+commandlinefu_id: 4091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sync; time `dd if=/dev/cciss/c0d1p1 of=/dev/null bs=1M count=10240`
+summary: |-
+  Testing reading speed with dd

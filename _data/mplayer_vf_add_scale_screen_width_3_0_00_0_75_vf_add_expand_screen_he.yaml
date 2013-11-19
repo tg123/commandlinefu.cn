@@ -1,0 +1,8 @@
+commandlinefu_id: 10043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vf-add scale=<SCREEN_WIDTH>:-3:::0.00:0.75 -vf-add expand=:<SCREEN_HEIGHT> -sub <SUBTITLE> <MOVIE>
+summary: |-
+  Put subtitles on black band in Mplayer

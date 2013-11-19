@@ -1,0 +1,8 @@
+commandlinefu_id: 3716
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvs -n update 2>null | grep -i "M " | sed s/"M "//
+summary: |-
+  List only locally modified files with CVS

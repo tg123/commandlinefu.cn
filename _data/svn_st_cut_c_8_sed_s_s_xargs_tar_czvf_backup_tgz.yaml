@@ -1,0 +1,8 @@
+commandlinefu_id: 373
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | cut -c 8- | sed 's/^/\"/;s/$/\"/' | xargs tar -czvf ../backup.tgz
+summary: |-
+  archive all files containing local changes (svn)

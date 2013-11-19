@@ -1,0 +1,8 @@
+commandlinefu_id: 3733
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTFILE=/dev/null && kill -9 $$
+summary: |-
+  Sneaky logout

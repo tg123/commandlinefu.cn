@@ -1,0 +1,8 @@
+commandlinefu_id: 4589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias PS1="man bash | sed -n '/ASCII bell/,/end a sequence/p'"
+summary: |-
+  Command to Show a List of Special Characters for bash prompt (PS1)

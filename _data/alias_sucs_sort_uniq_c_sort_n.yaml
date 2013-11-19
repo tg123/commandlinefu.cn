@@ -1,0 +1,8 @@
+commandlinefu_id: 2712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias sucs="sort | uniq -c | sort -n"
+summary: |-
+  Print sorted count of lines

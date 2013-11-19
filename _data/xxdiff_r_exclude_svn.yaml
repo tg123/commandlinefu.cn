@@ -1,0 +1,8 @@
+commandlinefu_id: 401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xxdiff -r --exclude=.svn
+summary: |-
+  Graphically compare two directory hierarchies without Subversion metadata

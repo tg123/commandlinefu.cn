@@ -1,0 +1,8 @@
+commandlinefu_id: 3174
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mirror=ftp://somemirror.com/with/alot/versions/but/no/latest/link; latest=$(curl -l $mirror/ 2>/dev/null | grep util | tail -1); wget $mirror/$latest
+summary: |-
+  get the latest version

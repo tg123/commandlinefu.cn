@@ -1,0 +1,8 @@
+commandlinefu_id: 12765
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert multi_layer.tif -compress jpg multi_page.pdf
+summary: |-
+  Convert multi layered TIFF file to multi page PDF document

@@ -1,0 +1,8 @@
+commandlinefu_id: 8280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  { command1 args1 ; command2 args2 ; ... }
+summary: |-
+  redirecting stdout of multiple commands

@@ -1,0 +1,8 @@
+commandlinefu_id: 5219
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  hdiutil convert /path/imagefile.iso -format UDRW -o /path/convertedimage.dmg
+summary: |-
+  转换iso为dmg

@@ -1,0 +1,8 @@
+commandlinefu_id: 10647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump http://www.cooks4arab.com | awk '/http/{print $2}' | egrep "^https{0,1}"
+summary: |-
+  Get all links of a website

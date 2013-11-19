@@ -1,0 +1,8 @@
+commandlinefu_id: 8868
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s/\s\+/;/g;s/^ //;s/ $//" filename.csv
+summary: |-
+  Replace multiple spaces with semicolon

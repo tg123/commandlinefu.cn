@@ -1,0 +1,8 @@
+commandlinefu_id: 2854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias z='zenity --info --text="You will not believe it, but your command has finished now! :-)" --display :0.0'
+summary: |-
+  get a desktop notification from the terminal

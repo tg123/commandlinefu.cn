@@ -1,0 +1,8 @@
+commandlinefu_id: 9862
+translator:
+  weibo: ''
+hide: true
+command: |-
+  check(){ power=$(acpi -a) ; if [[ $power == *on-line* ]] ; then echo "supply is on"; else echo "somebody is steeling your laptop"; amixer -c0 set Master 100+ unmute ; mpg123 nuclear-alarm.mp3 ; fi } ;while true; do check ; sleep 2 ; done
+summary: |-
+  Power Supply Triggered Alert

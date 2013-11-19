@@ -1,0 +1,8 @@
+commandlinefu_id: 1932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -c dhcpd
+summary: |-
+  List all files opened by a particular command

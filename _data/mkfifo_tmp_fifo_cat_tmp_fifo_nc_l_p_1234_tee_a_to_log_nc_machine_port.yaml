@@ -1,0 +1,8 @@
+commandlinefu_id: 1077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkfifo /tmp/fifo; cat /tmp/fifo | nc -l -p 1234 | tee -a to.log | nc machine port | tee -a from.log > /tmp/fifo
+summary: |-
+  Intercept, monitor and manipulate a TCP connection.

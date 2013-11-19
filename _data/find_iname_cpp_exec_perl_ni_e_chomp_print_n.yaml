@@ -1,0 +1,8 @@
+commandlinefu_id: 933
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -iname "*.cpp" -exec perl -ni -e 'chomp; print "$_\n"' {} \;
+summary: |-
+  给cpp文件加个空行

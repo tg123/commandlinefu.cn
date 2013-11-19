@@ -1,0 +1,8 @@
+commandlinefu_id: 7197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hashalot -s salt -x sha256 <<<"test"
+summary: |-
+  Generate hash( of some types) from string

@@ -1,0 +1,8 @@
+commandlinefu_id: 5851
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -vf file1 file2
+summary: |-
+  find the difference in 2 files with grep (diff alternative)

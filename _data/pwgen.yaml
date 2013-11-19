@@ -1,0 +1,8 @@
+commandlinefu_id: 1761
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pwgen
+summary: |-
+  Generate random passwords (from which you may select "memorable" ones)

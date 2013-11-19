@@ -1,0 +1,8 @@
+commandlinefu_id: 12547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function 4chandl () { wget -e robots=off -nvcdp -t 0 -Hkrl 0 -I \*/src/ -P . "$1" }
+summary: |-
+  Download all images from a 4chan thread

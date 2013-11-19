@@ -1,0 +1,8 @@
+commandlinefu_id: 10695
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.jpg; do dst=$(exif -t 0x9003 -m $i ) && dst_esc=$(echo $dst | sed 's/ /-/g' ) && echo mv $i $dst_esc.jpg ; done
+summary: |-
+  rename files according to date created

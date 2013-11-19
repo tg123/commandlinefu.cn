@@ -1,0 +1,8 @@
+commandlinefu_id: 1470
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert image123.png -colors 14 -resize 640x480 grubimg.xpm
+summary: |-
+  Convert your favorite image in xpm for using in grub

@@ -1,0 +1,8 @@
+commandlinefu_id: 10309
+translator:
+  weibo: ''
+hide: true
+command: |-
+  redshiftgui -o -b 0.5
+summary: |-
+  Protect your eye

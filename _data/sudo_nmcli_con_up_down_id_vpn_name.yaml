@@ -1,0 +1,8 @@
+commandlinefu_id: 11334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo nmcli con up/down id vpn-name
+summary: |-
+  Startup a VPN connection through command line

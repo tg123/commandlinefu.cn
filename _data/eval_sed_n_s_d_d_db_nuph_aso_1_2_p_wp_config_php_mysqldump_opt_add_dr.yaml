@@ -1,0 +1,8 @@
+commandlinefu_id: 3077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eval $(sed -n "s/^d[^D]*DB_\([NUPH]\)[ASO].*',[^']*'\([^']*\)'.*/_\1='\2'/p" wp-config.php) && mysqldump --opt --add-drop-table -u$_U -p$_P -h$_H $_N | gpg -er AskApache >`date +%m%d%y-%H%M.$_N.sqls`
+summary: |-
+  Create Encrypted WordPress MySQL Backup without any DB details, just the wp-config.php

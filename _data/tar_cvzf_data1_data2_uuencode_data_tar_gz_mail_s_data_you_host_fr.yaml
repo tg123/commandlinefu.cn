@@ -1,0 +1,8 @@
+commandlinefu_id: 2070
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvzf - data1 data2 | uuencode data.tar.gz | mail -s 'data' you@host.fr
+summary: |-
+  mail with attachment

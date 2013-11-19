@@ -1,0 +1,8 @@
+commandlinefu_id: 2392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i [source].avi -f mp4 -vcodec mpeg4 -b 250000 -s 480?320 -acodec aac -ar 24000 -ab 64 -ac 2 [destination].mp4
+summary: |-
+  Convert AVI to iPhone MP4

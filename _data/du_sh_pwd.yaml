@@ -1,0 +1,8 @@
+commandlinefu_id: 9601
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh `pwd`
+summary: |-
+  Show size of in MB of the current directory.

@@ -1,0 +1,8 @@
+commandlinefu_id: 11178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://boards.4chan.org/---/res/nnnnnn | grep -o -i 'File: <a href="//images.4chan.org\/[a-z]*\/src\/[0-9]*\.[a-z]\{3\}' | sed -r 's/File: <a href="\/\///' |xargs wget
+summary: |-
+  Download all images from a 4chan thread

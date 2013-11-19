@@ -1,0 +1,8 @@
+commandlinefu_id: 6815
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  lsof -c <process name> -r
+summary: |-
+  查看指定进程的打开的文件描述符

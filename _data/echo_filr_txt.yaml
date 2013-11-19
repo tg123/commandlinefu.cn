@@ -1,0 +1,8 @@
+commandlinefu_id: 11194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "" > filr.txt
+summary: |-
+  Empty a file

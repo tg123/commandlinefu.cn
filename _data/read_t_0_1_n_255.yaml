@@ -1,0 +1,8 @@
+commandlinefu_id: 8488
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -t 0.1 -N 255
+summary: |-
+  flush stdin in bash

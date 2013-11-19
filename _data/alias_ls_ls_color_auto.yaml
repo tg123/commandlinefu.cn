@@ -1,0 +1,8 @@
+commandlinefu_id: 11307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ls='ls --color=auto'
+summary: |-
+  color ls

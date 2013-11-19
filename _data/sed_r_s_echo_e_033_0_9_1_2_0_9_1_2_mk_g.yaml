@@ -1,0 +1,8 @@
+commandlinefu_id: 9995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g'
+summary: |-
+  Remove color codes (special characters) with sed

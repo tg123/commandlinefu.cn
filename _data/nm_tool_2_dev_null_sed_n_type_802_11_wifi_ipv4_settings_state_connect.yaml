@@ -1,0 +1,8 @@
+commandlinefu_id: 4771
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nm-tool 2>/dev/null|sed -n '/Type:[ ]*802.11 WiFi/,/IPv4 Settings/{ /State:[ ]*connected/,/IPv4 Settings/{ s/^[ ]*//;/^\*.*Infra/ { s/^*//;s/:.*//;p }}}'
+summary: |-
+  Get current connected wireless network with nm-tools

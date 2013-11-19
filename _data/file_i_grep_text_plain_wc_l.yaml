@@ -1,0 +1,8 @@
+commandlinefu_id: 3058
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  file -i * | grep 'text/plain' | wc -l
+summary: |-
+  当前目录里边文本文件的个数

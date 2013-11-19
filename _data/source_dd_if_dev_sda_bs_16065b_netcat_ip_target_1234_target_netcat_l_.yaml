@@ -1,0 +1,8 @@
+commandlinefu_id: 4357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  SOURCE: dd if=/dev/sda bs=16065b | netcat ip-target 1234 TARGET: netcat -l -p 1234 | dd of=/dev/mapper/laptop bs=16065b STATS on target: watch -n60 -- kill -USR1 $(pgrep dd)
+summary: |-
+  create disk copy over the net without temp files

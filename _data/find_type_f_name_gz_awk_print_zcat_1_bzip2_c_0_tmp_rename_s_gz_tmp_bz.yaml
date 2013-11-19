@@ -1,0 +1,8 @@
+commandlinefu_id: 12163
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*.gz'|awk '{print "zcat", $1, "| bzip2 -c >", $0.".tmp", "&& rename", "s/.gz.tmp/.bz2/", "*.gz.tmp", "&& rm", $0}'|bash
+summary: |-
+  Recompress all files in current directory from gzip to bzip2

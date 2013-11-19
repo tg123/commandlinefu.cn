@@ -1,0 +1,8 @@
+commandlinefu_id: 7213
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ls -1t --group-directories-first /path/to/dir/ | tail -n 1
+summary: |-
+  寻找目录中最旧的文件

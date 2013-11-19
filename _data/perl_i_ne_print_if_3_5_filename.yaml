@@ -1,0 +1,8 @@
+commandlinefu_id: 10131
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -i -ne 'print if $. == 3..5' <filename>
+summary: |-
+  Remove a range of lines from a file

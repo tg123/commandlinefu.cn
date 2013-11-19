@@ -1,0 +1,8 @@
+commandlinefu_id: 7242
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e 'puts (1..6).map{"%0.2X"%rand(256)}.join(":")'
+summary: |-
+  Generate random valid mac addresses

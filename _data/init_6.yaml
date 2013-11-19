@@ -1,0 +1,8 @@
+commandlinefu_id: 2321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  init 6
+summary: |-
+  sun solaris 9 complete restart

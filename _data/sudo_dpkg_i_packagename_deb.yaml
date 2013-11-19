@@ -1,0 +1,8 @@
+commandlinefu_id: 3633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dpkg -i packagename.deb
+summary: |-
+  Install a deb package

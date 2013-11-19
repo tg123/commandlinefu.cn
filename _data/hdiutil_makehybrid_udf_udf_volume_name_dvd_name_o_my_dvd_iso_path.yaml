@@ -1,0 +1,8 @@
+commandlinefu_id: 1370
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdiutil makehybrid -udf -udf-volume-name DVD_NAME -o MY_DVD.iso /path/
+summary: |-
+  Make a DVD ISO Image from a VIDEO_TS folder on MacOSX

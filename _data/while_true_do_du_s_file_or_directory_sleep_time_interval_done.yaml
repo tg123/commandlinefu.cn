@@ -1,0 +1,8 @@
+commandlinefu_id: 6433
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  while true; do du -s <file_or_directory>; sleep <time_interval>; done
+summary: |-
+  监控文件大小

@@ -1,0 +1,8 @@
+commandlinefu_id: 11136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff -U10|dwdiff --diff-input -c|less -R
+summary: |-
+  Better git diff, word delimited and colorized

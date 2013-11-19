@@ -1,0 +1,8 @@
+commandlinefu_id: 11198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimdiff file1 file2
+summary: |-
+  use vim to get colorful diff output

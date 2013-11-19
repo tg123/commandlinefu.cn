@@ -1,0 +1,8 @@
+commandlinefu_id: 6052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/acpi/thermal_zone/THRM/temperature
+summary: |-
+  Displaying system temperature

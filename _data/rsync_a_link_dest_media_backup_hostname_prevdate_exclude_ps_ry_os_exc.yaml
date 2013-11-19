@@ -1,0 +1,8 @@
+commandlinefu_id: 4741
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -a --link-dest=/media/backup/$HOSTNAME/$PREVDATE '--exclude=/[ps][ry][os]' --exclude=/media/backup/$HOSTNAME / /media/backup/$HOSTNAME/$DATE/
+summary: |-
+  How to backup hard disk timely?

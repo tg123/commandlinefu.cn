@@ -1,0 +1,8 @@
+commandlinefu_id: 129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  units "2048 bytes" "kibibytes"
+summary: |-
+  easily convert one unit to another

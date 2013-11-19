@@ -1,0 +1,8 @@
+commandlinefu_id: 8678
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -d */* | wc -l
+summary: |-
+  Count all the files in the directory and child directories

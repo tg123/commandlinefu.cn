@@ -1,0 +1,8 @@
+commandlinefu_id: 12797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :set number
+summary: |-
+  vi show line numbers

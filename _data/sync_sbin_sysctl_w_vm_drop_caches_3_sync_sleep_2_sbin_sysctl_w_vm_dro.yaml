@@ -1,0 +1,8 @@
+commandlinefu_id: 11943
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sync ; /sbin/sysctl -w vm.drop_caches=3 ; sync ; sleep 2 ; /sbin/sysctl -w vm.drop_caches=0 ;/sbin/swapoff -a ; sleep 2 ;/sbin/swapon -a
+summary: |-
+  清理so缓存

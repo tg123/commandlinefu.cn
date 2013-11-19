@@ -1,0 +1,8 @@
+commandlinefu_id: 10622
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  dd if=/dev/zero bs=64K count=1 | tr "\0" "\377" > all_ones
+summary: |-
+  创建一个非全0的文件

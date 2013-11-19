@@ -1,0 +1,8 @@
+commandlinefu_id: 6663
+translator:
+  weibo: tgic
+hide: false
+command: |
+  cat /dev/urandom | hexdump -C | grep "ca fe"
+summary: |-
+  假装自己很忙的方法……

@@ -1,0 +1,8 @@
+commandlinefu_id: 8967
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -rv <src> <dst> --progress
+summary: |-
+  copy with progress bar - rsync

@@ -1,0 +1,8 @@
+commandlinefu_id: 2538
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kpartx -a /dev/mapper/space-foobar
+summary: |-
+  Access partitions inside a LVM volume

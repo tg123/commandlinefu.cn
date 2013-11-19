@@ -1,0 +1,8 @@
+commandlinefu_id: 9553
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -rv --include '*/' --include '*.txt' --exclude '*' srcDir/ desDir/
+summary: |-
+  Rsync two directories with filtered extensions

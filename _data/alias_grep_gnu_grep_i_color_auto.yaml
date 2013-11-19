@@ -1,0 +1,8 @@
+commandlinefu_id: 325
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias grep 'gnu grep -i --color=auto'
+summary: |-
+  Use color grep by default

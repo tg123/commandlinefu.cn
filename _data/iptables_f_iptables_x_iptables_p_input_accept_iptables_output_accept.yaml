@@ -1,0 +1,8 @@
+commandlinefu_id: 1739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables -F && iptables -X && iptables -P INPUT ACCEPT && iptables -OUTPUT ACCEPT
+summary: |-
+  Disable all iptables rules without disconnecting yourself

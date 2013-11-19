@@ -1,0 +1,8 @@
+commandlinefu_id: 6527
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -n <src> <dst>
+summary: |-
+  Copy without overwriting

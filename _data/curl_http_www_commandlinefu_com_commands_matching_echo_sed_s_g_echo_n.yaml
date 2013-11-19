@@ -1,0 +1,8 @@
+commandlinefu_id: 9239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl "http://www.commandlinefu.com/commands/matching/$(echo "$@" | sed 's/ /-/g')/$(echo -n $@ | base64)/plaintext"
+summary: |-
+  Get Stuff.

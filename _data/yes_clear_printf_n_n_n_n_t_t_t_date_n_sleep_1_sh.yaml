@@ -1,0 +1,8 @@
+commandlinefu_id: 7900
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes 'clear;printf "\n\n\n\n\t\t\t`date`\n";sleep 1' | sh
+summary: |-
+  Console clock -- Revised

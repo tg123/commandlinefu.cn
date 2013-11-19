@@ -1,0 +1,8 @@
+commandlinefu_id: 6569
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias alert='notify-send -i /usr/share/icons/gnome/32x32/apps/gnome-terminal.png "[$?] $(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/;\s*alert$//'\'')"'
+summary: |-
+  Get notified when a job you run in a terminal is done, using NotifyOSD

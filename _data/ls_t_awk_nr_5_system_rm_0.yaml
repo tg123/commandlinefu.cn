@@ -1,0 +1,8 @@
+commandlinefu_id: 3505
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ls -t | awk 'NR>5 {system("rm \"" $0 "\"")}'
+summary: |-
+  只保留最新的5个文件 其余删除

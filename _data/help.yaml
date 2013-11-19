@@ -1,0 +1,8 @@
+commandlinefu_id: 3419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  help
+summary: |-
+  Bash help

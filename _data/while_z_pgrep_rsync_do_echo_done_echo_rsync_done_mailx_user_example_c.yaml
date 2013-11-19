@@ -1,0 +1,8 @@
+commandlinefu_id: 3028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $(while [ ! -z "$(pgrep rsync)" ]; do echo; done; echo "rsync done" | mailx user@example.com) > /dev/null &
+summary: |-
+  Will email user@example.com when all Rsync processes have finished.

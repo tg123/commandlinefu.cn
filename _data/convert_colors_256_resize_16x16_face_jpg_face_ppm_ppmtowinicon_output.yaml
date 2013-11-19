@@ -1,0 +1,8 @@
+commandlinefu_id: 1597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -colors 256 -resize 16x16 face.jpg face.ppm && ppmtowinicon -output favicon.ico face.ppm
+summary: |-
+  Create a favicon

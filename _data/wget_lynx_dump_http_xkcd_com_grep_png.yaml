@@ -1,0 +1,8 @@
+commandlinefu_id: 4216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget `lynx --dump http://xkcd.com/|grep png`
+summary: |-
+  View the newest xkcd comic.

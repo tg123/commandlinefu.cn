@@ -1,0 +1,8 @@
+commandlinefu_id: 2591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -r 's/[ \t\r\n\v\f]+/\^J/g' INFILE > OUTFILE
+summary: |-
+  Puts every word from a file into a new line

@@ -1,0 +1,8 @@
+commandlinefu_id: 2707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat `whereis mysqlbug | awk '{print $2}'` | grep 'CONFIGURE_LINE='
+summary: |-
+  Determine configure options used for MySQL binary builds

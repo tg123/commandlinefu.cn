@@ -1,0 +1,8 @@
+commandlinefu_id: 5331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.flac; do flac -cd "$file" | lame -q 0 --vbr-new -V 0 - "${file%.flac}.mp3"; done
+summary: |-
+  Convert all Flac in a directory to Mp3 using maximum quality variable bitrate

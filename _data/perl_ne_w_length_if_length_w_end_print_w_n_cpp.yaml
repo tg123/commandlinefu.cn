@@ -1,0 +1,8 @@
+commandlinefu_id: 5605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne '$w = length if (length > $w);  END {print "$w\n"}' *.cpp
+summary: |-
+  Length of longest line of code

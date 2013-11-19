@@ -1,0 +1,8 @@
+commandlinefu_id: 10249
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -size +10240k -exec stat -c%s" "%n {} \; | sort -rn
+summary: |-
+  Find files of particular size in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git daemon --reuseaddr --verbose --export-all --base-path=/parent/of/bare/git/repos
+summary: |-
+  Serve one or more git repositories

@@ -1,0 +1,8 @@
+commandlinefu_id: 8801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /myfs -size +209715200c -exec du -m {} \; |sort -nr |head -10
+summary: |-
+  List top 10 files in filesystem or mount point bigger than 200MB

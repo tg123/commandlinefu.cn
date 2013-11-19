@@ -1,0 +1,8 @@
+commandlinefu_id: 9215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo netstat|head -n2|tail -n1 && sudo netstat -a|grep udp && echo && sudo netstat|head -n2|tail -n1 && sudo netstat -a|grep tcp
+summary: |-
+  Displays All TCP and UDP Connections

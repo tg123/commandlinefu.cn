@@ -1,0 +1,8 @@
+commandlinefu_id: 3388
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -name \*.c | xargs wc -l | tail -1 | awk '{print $1}'
+summary: |-
+  统计代码行数

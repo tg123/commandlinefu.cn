@@ -1,0 +1,8 @@
+commandlinefu_id: 1300
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vlc $(curl -s http://twitter.com/statuses/user_timeline/18855500.rss|grep play|sed -ne '/<title>/s/^.*\(http.*\)<\/title/\1/gp'|awk '{print $1}')
+summary: |-
+  PlayTweets from the command line

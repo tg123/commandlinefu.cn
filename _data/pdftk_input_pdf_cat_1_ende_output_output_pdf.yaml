@@ -1,0 +1,8 @@
+commandlinefu_id: 6616
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk input.pdf cat 1-endE output output.pdf
+summary: |-
+  Rotate a pdf by 90 degrees CW

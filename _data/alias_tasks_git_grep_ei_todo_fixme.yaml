@@ -1,0 +1,8 @@
+commandlinefu_id: 12842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias tasks='git grep -EI "TODO|FIXME"'
+summary: |-
+  Get a list of all TODO/FIXME tasks left to be done in your GIT project

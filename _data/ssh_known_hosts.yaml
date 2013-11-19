@@ -1,0 +1,8 @@
+commandlinefu_id: 6235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  > ~/.ssh/known_hosts
+summary: |-
+  Remove everyting in a text file. Useful to fix ssh host key warnings

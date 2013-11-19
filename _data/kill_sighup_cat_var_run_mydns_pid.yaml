@@ -1,0 +1,8 @@
+commandlinefu_id: 9543
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -SIGHUP `cat /var/run/mydns.pid`
+summary: |-
+  clear MyDNS-ng cache

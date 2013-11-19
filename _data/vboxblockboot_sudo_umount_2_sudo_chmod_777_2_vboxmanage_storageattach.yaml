@@ -1,0 +1,8 @@
+commandlinefu_id: 8936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VBoxBlockBoot()  { sudo umount "$2"*; sudo chmod 777 "$2"; VBoxManage storageattach "$1" --medium ~/.rawHD4VB_`basename "$2"`.vmdk --type hdd --storagectl "IDE Controller" --device 0 --port 0 ; VBoxManage startvm "$1";}
+summary: |-
+  Boot from a block device without giving root privilege to Virtual Box

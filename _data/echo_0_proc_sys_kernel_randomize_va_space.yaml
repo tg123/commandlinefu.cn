@@ -1,0 +1,8 @@
+commandlinefu_id: 6056
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 0 > /proc/sys/kernel/randomize_va_space
+summary: |-
+  Disable ASLR

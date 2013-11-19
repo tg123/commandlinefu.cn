@@ -1,0 +1,8 @@
+commandlinefu_id: 4009
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 10 killall -USR1 dd
+summary: |-
+  check the status of 'dd' in progress

@@ -1,0 +1,8 @@
+commandlinefu_id: 7261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mmv "*.txt" "#1.md"
+summary: |-
+  Batch rename extension of all files in a folder, in the example from .txt to .md

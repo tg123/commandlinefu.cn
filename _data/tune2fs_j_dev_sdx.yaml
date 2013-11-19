@@ -1,0 +1,8 @@
+commandlinefu_id: 3677
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tune2fs -j /dev/sdX
+summary: |-
+  Converts ext2 to ext3

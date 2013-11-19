@@ -1,0 +1,8 @@
+commandlinefu_id: 3558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleeper(){ while `ps -p $1 &>/dev/null`; do echo -n "${2:-.}"; sleep ${3:-1}; done; }; export -f sleeper
+summary: |-
+  Function that outputs dots every second until command completes

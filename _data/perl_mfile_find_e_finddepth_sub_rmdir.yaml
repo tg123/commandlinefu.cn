@@ -1,0 +1,8 @@
+commandlinefu_id: 8505
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MFile::Find -e"finddepth(sub{rmdir},'.')"
+summary: |-
+  find and delete empty directories recursively

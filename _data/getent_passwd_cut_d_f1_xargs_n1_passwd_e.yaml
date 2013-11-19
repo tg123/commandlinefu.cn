@@ -1,0 +1,8 @@
+commandlinefu_id: 4084
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent passwd|cut -d: -f1|xargs -n1 passwd -e
+summary: |-
+  force change password for all user

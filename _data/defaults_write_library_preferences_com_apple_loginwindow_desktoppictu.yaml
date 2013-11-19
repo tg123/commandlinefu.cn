@@ -1,0 +1,8 @@
+commandlinefu_id: 5224
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write /Library/Preferences/com.apple.loginwindow DesktopPicture "/System/Library/CoreServices/Finder.app/Contents/Resources/vortex.png"
+summary: |-
+  Change Mac OS X Login Picture

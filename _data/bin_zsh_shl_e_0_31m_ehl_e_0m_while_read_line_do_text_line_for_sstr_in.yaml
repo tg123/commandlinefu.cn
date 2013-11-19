@@ -1,0 +1,8 @@
+commandlinefu_id: 10846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  #!/bin/zsh SHL='\\e[0;31m' EHL='\\e[0m' while read line; do   TEXT=$line   for SSTR in $*; do     TEXT=$(echo $TEXT | sed -e "s:$SSTR:${SHL}${SSTR}${EHL}:g")   done   echo -e $TEXT done
+summary: |-
+  highlight chars or words in program output

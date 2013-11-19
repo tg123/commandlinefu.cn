@@ -1,0 +1,8 @@
+commandlinefu_id: 12396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wlanconfig <wireless_device> list sta
+summary: |-
+  List wireless clients connected to an access point

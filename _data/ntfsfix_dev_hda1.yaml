@@ -1,0 +1,8 @@
+commandlinefu_id: 8756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ntfsfix /dev/hda1
+summary: |-
+  forcing Windows to do the scandisk during boot

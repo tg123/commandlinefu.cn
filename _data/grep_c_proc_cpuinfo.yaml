@@ -1,0 +1,8 @@
+commandlinefu_id: 9439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -c '^$' /proc/cpuinfo
+summary: |-
+  Number of CPU's in a system

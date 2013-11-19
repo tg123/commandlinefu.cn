@@ -1,0 +1,8 @@
+commandlinefu_id: 151
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcc -Wall -Werror -o prog prog.c || rm -f prog.c
+summary: |-
+  Klingon programming; weak code must die

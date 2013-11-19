@@ -1,0 +1,8 @@
+commandlinefu_id: 5832
+translator:
+  weibo: ''
+hide: true
+command: |-
+  !:n
+summary: |-
+  Copy an element from the previous command

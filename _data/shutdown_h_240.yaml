@@ -1,0 +1,8 @@
+commandlinefu_id: 8392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shutdown -h +240
+summary: |-
+  shutdown pc in a 4 hours

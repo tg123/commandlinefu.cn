@@ -1,0 +1,8 @@
+commandlinefu_id: 6483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr '\000' '\377' < /dev/zero | dd bs=512 count=200000 status=noxfer | pipebench | sudo dd of=/dev/sdx
+summary: |-
+  Fill a hard drive with ones - like zero-fill, but the opposite :)

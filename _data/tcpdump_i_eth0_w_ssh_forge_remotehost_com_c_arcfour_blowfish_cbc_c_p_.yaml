@@ -1,0 +1,8 @@
+commandlinefu_id: 12380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -i eth0 -w - | ssh forge.remotehost.com -c arcfour,blowfish-cbc -C -p 50005 "cat - | gzip > /tmp/eth0.pcap.gz"
+summary: |-
+  TCPDUMP & Save Capture to Remote Server w/ GZIP

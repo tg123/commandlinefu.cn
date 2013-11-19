@@ -1,0 +1,8 @@
+commandlinefu_id: 11373
+translator:
+  weibo: ''
+hide: true
+command: |-
+  . ~/.bashrc
+summary: |-
+  Make changes in .bashrc immediately available

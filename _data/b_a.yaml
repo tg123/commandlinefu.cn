@@ -1,0 +1,8 @@
+commandlinefu_id: 3264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  B <<< $(A)
+summary: |-
+  Who needs pipes?

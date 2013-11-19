@@ -1,0 +1,8 @@
+commandlinefu_id: 9358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strings ~/.mozilla/firefox/*/webappsstore.sqlite|grep -Eo "^.+\.:" |rev
+summary: |-
+  see who's using DOM storage a/k/a Web Storage, super cookies

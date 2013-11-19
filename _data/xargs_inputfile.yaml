@@ -1,0 +1,8 @@
+commandlinefu_id: 7986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xargs < [inputfile]
+summary: |-
+  Remove new lines

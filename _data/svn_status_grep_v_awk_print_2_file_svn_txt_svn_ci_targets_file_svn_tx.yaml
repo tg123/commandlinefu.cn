@@ -1,0 +1,8 @@
+commandlinefu_id: 4970
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn status | grep -v ? | awk '{print $2}' > file.svn.txt && svn ci --targets file.svn.txt -m "[your commit message here]"
+summary: |-
+  Commit current modified or added files in current svn repository

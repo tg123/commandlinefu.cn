@@ -1,0 +1,8 @@
+commandlinefu_id: 4198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -perm +200 -print
+summary: |-
+  find all writable (by user) files in a directory tree (use 4 for readable, 1 for executable)

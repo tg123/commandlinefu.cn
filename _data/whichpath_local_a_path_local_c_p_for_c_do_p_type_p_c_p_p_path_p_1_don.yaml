@@ -1,0 +1,8 @@
+commandlinefu_id: 9303
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whichpath() { local -A path; local c p; for c; do p=$(type -P "$c"); p=${p%/*}; path[${p:-/}]=1; done; local IFS=:; printf '%s\n' "${!path[*]}"; }
+summary: |-
+  Which PATH variable should I use for this scirpt?

@@ -1,0 +1,8 @@
+commandlinefu_id: 195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export SSH_AUTH_SOCK=`find /tmp/ssh* -type s -user [user] -mtime -1 | head -1`
+summary: |-
+  Ride another SSH agent

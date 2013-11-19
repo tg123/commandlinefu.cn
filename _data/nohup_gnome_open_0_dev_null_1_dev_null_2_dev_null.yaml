@@ -1,0 +1,8 @@
+commandlinefu_id: 5113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup gnome-open .  0</dev/null 1>/dev/null 2>/dev/null&
+summary: |-
+  forking a process from gnome-terminal detached from the terminal.

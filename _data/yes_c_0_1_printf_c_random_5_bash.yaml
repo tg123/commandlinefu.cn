@@ -1,0 +1,8 @@
+commandlinefu_id: 12892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes 'c=(" " "  " "   " 0 1); printf "${c[RANDOM%5]}"' | bash
+summary: |-
+  Binary digits Matrix effect

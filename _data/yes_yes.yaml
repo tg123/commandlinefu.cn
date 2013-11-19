@@ -1,0 +1,8 @@
+commandlinefu_id: 2412
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes `yes`
+summary: |-
+  fork bomb

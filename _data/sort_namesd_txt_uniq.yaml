@@ -1,0 +1,8 @@
+commandlinefu_id: 10919
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort namesd.txt | uniq
+summary: |-
+  Unique sort

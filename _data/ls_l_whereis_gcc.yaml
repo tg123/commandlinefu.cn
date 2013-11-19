@@ -1,0 +1,8 @@
+commandlinefu_id: 9698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l `whereis gcc`
+summary: |-
+  Get the dir listing of an executable without knowing its location

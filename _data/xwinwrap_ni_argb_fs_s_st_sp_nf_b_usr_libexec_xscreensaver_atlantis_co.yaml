@@ -1,0 +1,8 @@
+commandlinefu_id: 3580
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xwinwrap -ni -argb -fs -s -st -sp -nf -b -- /usr/libexec/xscreensaver/atlantis -count 20 -window-id WID &
+summary: |-
+  dolphins on the desktop (compiz)

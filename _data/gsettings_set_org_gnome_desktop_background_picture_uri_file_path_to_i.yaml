@@ -1,0 +1,8 @@
+commandlinefu_id: 8591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gsettings set org.gnome.desktop.background picture-uri 'file://<path-to-image>'
+summary: |-
+  Change gnome-shell wallpaper

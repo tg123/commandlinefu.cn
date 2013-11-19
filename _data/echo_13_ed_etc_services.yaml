@@ -1,0 +1,8 @@
+commandlinefu_id: 9287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "13" | ed /etc/services
+summary: |-
+  Go to the Nth line of file

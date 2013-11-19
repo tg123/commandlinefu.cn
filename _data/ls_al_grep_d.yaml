@@ -1,0 +1,8 @@
+commandlinefu_id: 10775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -al | grep ^d
+summary: |-
+  Get ls to only show directories under .

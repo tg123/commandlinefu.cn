@@ -1,0 +1,8 @@
+commandlinefu_id: 4835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i /var/lib/mythtv/pretty/Chuck20100208800PMChuckVersustheMask.mpg -s 800x480 -vcodec mpeg4 -acodec libfaac -ac 2 -ar 16000 -r 13 -ab 32000 -aspect 16:9 Chuck20100208800PMChuckVersustheMask.mp4
+summary: |-
+  ffmpeg command that transcodes a MythTV recording for Google Nexus One mobile phone

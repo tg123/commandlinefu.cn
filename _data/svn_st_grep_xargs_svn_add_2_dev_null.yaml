@@ -1,0 +1,8 @@
+commandlinefu_id: 1198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | grep ^? | xargs svn add 2> /dev/null
+summary: |-
+  Add all not commited files to svn

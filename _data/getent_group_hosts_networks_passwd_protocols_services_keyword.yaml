@@ -1,0 +1,8 @@
+commandlinefu_id: 794
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent [group|hosts|networks|passwd|protocols|services] [keyword]
+summary: |-
+  Get contents from hosts, passwd, groups even if they're in DB/LDAP/other

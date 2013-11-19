@@ -1,0 +1,8 @@
+commandlinefu_id: 10603
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Shift + PgUp
+summary: |-
+  Scroll up (or Down (PgDn)) in any terminal session (except KDE)

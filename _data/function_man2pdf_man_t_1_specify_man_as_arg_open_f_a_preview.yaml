@@ -1,0 +1,8 @@
+commandlinefu_id: 808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function man2pdf(){ man -t ${1:?Specify man as arg} | open -f -a preview; }
+summary: |-
+  Open up a man page as PDF (#OSX)

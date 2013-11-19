@@ -1,0 +1,8 @@
+commandlinefu_id: 8907
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xargs -P 3 -n 1 <COMMAND> < <FILE_LIST>
+summary: |-
+  Multi-thread any command

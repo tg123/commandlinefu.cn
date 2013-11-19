@@ -1,0 +1,8 @@
+commandlinefu_id: 3220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -t hostA ssh hostB
+summary: |-
+  directly ssh to host B that is only accessible through host A

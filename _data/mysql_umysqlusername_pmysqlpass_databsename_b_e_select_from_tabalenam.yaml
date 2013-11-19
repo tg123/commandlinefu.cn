@@ -1,0 +1,8 @@
+commandlinefu_id: 8532
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -umysqlusername -pmysqlpass databsename -B -e "select * from \`tabalename\`;" | sed 's/\t/","/g;s/^/"/;s/$/"/;s/\n//g' > mysql_exported_table.csv
+summary: |-
+  Execute MySQL query send results from stdout to CSV

@@ -1,0 +1,8 @@
+commandlinefu_id: 8364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Diff files over SSH: ssh [login]@[host] "cat [remote file]" | diff - "[local file]"
+summary: |-
+  Diff files over SSH

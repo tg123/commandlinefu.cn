@@ -1,0 +1,8 @@
+commandlinefu_id: 11145
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod +x ini.sh #./ini.sh
+summary: |-
+  grant executability

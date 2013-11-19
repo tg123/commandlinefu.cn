@@ -1,0 +1,8 @@
+commandlinefu_id: 9853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall -9 <processname>
+summary: |-
+  kill process by name

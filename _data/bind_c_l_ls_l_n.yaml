@@ -1,0 +1,8 @@
+commandlinefu_id: 7107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind '"\C-l":"ls -l\n"'
+summary: |-
+  Bind a key with a command

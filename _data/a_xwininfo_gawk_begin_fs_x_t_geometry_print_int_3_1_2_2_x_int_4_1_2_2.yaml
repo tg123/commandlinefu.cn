@@ -1,0 +1,8 @@
+commandlinefu_id: 11222
+translator:
+  weibo: ''
+hide: true
+command: |-
+  a=$(xwininfo |gawk 'BEGIN {FS="[x+ \t]*"} /-geometry/ {print int(($3+1)/2)*2"x"int(($4+1)/2)*2"+"$5"+"$6}') ; echo ${a} ; ffmpeg -f x11grab -s ${a} -r 10 -i :0.0 -sameq -f mp4 -s wvga -y /tmp/out.mpg
+summary: |-
+  Capture screen and mic input using FFmpeg and ALSA

@@ -1,0 +1,8 @@
+commandlinefu_id: 11453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  edit-notime () { FILE=$1; TMP=`mktemp /tmp/file-XXXXXX`; cp -p $FILE $TMP; $EDITOR $TMP; touch -r $FILE $TMP; cp -p $TMP $FILE; rm -f $TMP; }
+summary: |-
+  Edit file without changing the timestamp

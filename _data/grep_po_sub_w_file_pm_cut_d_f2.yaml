@@ -1,0 +1,8 @@
+commandlinefu_id: 11974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Po '^sub (\w+)' file.pm | cut -d' ' -f2
+summary: |-
+  extract only the subroutine names from a perl script

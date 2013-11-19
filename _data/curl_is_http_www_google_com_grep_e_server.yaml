@@ -1,0 +1,8 @@
+commandlinefu_id: 8982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -Is http://www.google.com | grep -E '^Server'
+summary: |-
+  Check remote hosts server

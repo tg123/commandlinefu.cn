@@ -1,0 +1,8 @@
+commandlinefu_id: 1215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmidecode | grep -i prod
+summary: |-
+  Getting information about model no. of computer

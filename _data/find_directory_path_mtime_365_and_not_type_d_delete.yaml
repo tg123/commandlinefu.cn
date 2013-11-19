@@ -1,0 +1,8 @@
+commandlinefu_id: 2314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <directory path> -mtime +365 -and -not -type d -delete
+summary: |-
+  List and delete files older than one year

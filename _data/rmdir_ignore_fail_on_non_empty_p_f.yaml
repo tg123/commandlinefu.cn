@@ -1,0 +1,8 @@
+commandlinefu_id: 11294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rmdir --ignore-fail-on-non-empty -p **/*(/^F)
+summary: |-
+  Recursively remove all empty directories

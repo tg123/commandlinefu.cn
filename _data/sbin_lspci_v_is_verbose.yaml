@@ -1,0 +1,8 @@
+commandlinefu_id: 5980
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/lspci (-v is verbose)
+summary: |-
+  FINDING PCI DEVICES

@@ -1,0 +1,8 @@
+commandlinefu_id: 10713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls "~/Music/iTunes/iTunes Media/Mobile Applications" > filepath
+summary: |-
+  export iPad App list to txt file

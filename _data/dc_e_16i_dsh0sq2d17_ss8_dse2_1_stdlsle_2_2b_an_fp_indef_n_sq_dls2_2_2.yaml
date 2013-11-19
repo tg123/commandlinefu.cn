@@ -1,0 +1,8 @@
+commandlinefu_id: 8925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dc -e"16i?dsH0sq2d17^ss8^dse2/1-stdlsle*/2*2B+an[[ FP Indef.]n]sQ[dls2//2%_2*53+an[NaN]ndle4*1-ls2/*=Q2Q]sN[1sqdls%0<N[oo]n]sMdls/le%dsdle1-=M[[]pq]sPlq1=P[r+0]s0ldd1r0=0lHls%rls*+sS2r^Alt4*^*lS*2lt^/ls/dsSZlt4*-1-sFlsZ1+klSdArZ1-^/dn0=P[e]nlFp"
+summary: |-
+  Tell what is encoded in a float, given its HEX bytes

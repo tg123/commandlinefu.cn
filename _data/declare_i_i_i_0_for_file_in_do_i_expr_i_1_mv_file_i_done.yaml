@@ -1,0 +1,8 @@
+commandlinefu_id: 6453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  declare -i i; i=0; for file in *; do i=`expr $i+1`; mv "$file" $i; done;
+summary: |-
+  Numerate files, rename files in a directory by incremental number

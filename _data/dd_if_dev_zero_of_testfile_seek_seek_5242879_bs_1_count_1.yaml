@@ -1,0 +1,8 @@
+commandlinefu_id: 8229
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  dd if=/dev/zero of=testfile.seek seek=5242879 bs=1 count=1
+summary: |-
+  创建一个5m的文件

@@ -1,0 +1,8 @@
+commandlinefu_id: 6564
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :g/\n"/jo
+summary: |-
+  VIM subst any char different from literal

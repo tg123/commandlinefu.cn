@@ -1,0 +1,8 @@
+commandlinefu_id: 9752
+translator:
+  weibo: ''
+hide: true
+command: |-
+  import -window `xwininfo | awk '/Window id/{print $4; exit}'` `uuidgen`.png
+summary: |-
+  capture selected window

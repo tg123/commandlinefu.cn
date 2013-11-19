@@ -1,0 +1,8 @@
+commandlinefu_id: 8825
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -mText::Highlight -E 'say Text::Highlight->new(ansi => 1)->highlight(Perl => do { local (@ARGV,$/) = shift; <> }) ' path/to/perl-file.pl
+summary: |-
+  Syntax Highlight your Perl code

@@ -1,0 +1,8 @@
+commandlinefu_id: 7205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  functions(){ read -p "File name> "; sort -d $REPLY | grep "(){" | sed -e 's/(){//g' | less; }
+summary: |-
+  Find all bash functions in a file

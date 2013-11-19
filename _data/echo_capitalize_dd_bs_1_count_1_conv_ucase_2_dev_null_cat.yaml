@@ -1,0 +1,8 @@
+commandlinefu_id: 3347
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo capitalize | { dd bs=1 count=1 conv=ucase 2> /dev/null; cat ;}
+summary: |-
+  使用dd来将首字母变大写

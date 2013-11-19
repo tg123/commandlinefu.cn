@@ -1,0 +1,8 @@
+commandlinefu_id: 6807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s $dellurl$1 | tr "\"" "\n" | grep "</td></tr><tr><td class=" -m 2 | grep -v "Service Tag" | sed 's/>//g' | sed 's/<\/td<\/tr<tr<td class=//g'
+summary: |-
+  Use Dell Service Tag $1 to Find Machine Model [Model Name and Model Number]

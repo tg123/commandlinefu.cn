@@ -1,0 +1,8 @@
+commandlinefu_id: 996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *(m-1)
+summary: |-
+  Files modified today

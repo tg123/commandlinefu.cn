@@ -1,0 +1,8 @@
+commandlinefu_id: 9331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MPOSIX -e 'print strerror($ARGV[0])."\n";' ERRNO
+summary: |-
+  Lookup errno defintions

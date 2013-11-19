@@ -1,0 +1,8 @@
+commandlinefu_id: 10393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall "Google Chrome"
+summary: |-
+  Kill google chrome process

@@ -1,0 +1,8 @@
+commandlinefu_id: 7319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm !(file_to_keep_undeleted)
+summary: |-
+  Takes all file except file between !()

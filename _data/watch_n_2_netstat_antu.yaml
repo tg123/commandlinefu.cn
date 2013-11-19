@@ -1,0 +1,8 @@
+commandlinefu_id: 8574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 2 netstat -antu
+summary: |-
+  Watch netstat output every 2 seconds

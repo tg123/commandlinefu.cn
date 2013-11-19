@@ -1,0 +1,8 @@
+commandlinefu_id: 12235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  groups $(cut -f1 -d":" /etc/passwd) | sort
+summary: |-
+  List all users and groups

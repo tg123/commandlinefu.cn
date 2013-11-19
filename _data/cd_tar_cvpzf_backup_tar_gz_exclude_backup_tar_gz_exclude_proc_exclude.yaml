@@ -1,0 +1,8 @@
+commandlinefu_id: 8870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd / ; tar -cvpzf backup.tar.gz --exclude=/backup.tar.gz --exclude=/proc --exclude=/lost+found --exclude=/sys --exclude=/mnt --exclude=/media --exclude=/dev /
+summary: |-
+  Backup entire system

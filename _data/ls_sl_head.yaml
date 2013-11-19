@@ -1,0 +1,8 @@
+commandlinefu_id: 1750
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Sl * | head
+summary: |-
+  Print the ten largest files

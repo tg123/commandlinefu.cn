@@ -1,0 +1,8 @@
+commandlinefu_id: 318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  prtvtoc /dev/rdsk/c0t0d0s2 | fmthard -s - /dev/rdsk/c0t1d0s2
+summary: |-
+  cloning partition tables under Solaris

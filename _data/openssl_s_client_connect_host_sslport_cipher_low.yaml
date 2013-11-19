@@ -1,0 +1,8 @@
+commandlinefu_id: 178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl s_client -connect [host]:[sslport] -cipher LOW
+summary: |-
+  Test for Weak SSL Ciphers

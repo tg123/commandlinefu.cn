@@ -1,0 +1,8 @@
+commandlinefu_id: 7675
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -le '$,=".";print map int rand 256,1..4'
+summary: |-
+  Random IPv4 address

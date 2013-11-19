@@ -1,0 +1,8 @@
+commandlinefu_id: 2370
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0|xargs -0 md5sum|sort|perl -ne 'chomp;$ph=$h;($h,$f)=split(/\s+/,$_,2);print "$f"."\x00" if ($h eq $ph)'|xargs -0 rm -v --
+summary: |-
+  DELETE all those duplicate files but one based on md5 hash comparision in the current directory tree

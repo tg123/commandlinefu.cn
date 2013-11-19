@@ -1,0 +1,8 @@
+commandlinefu_id: 10400
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(seq 1 20); do while read line; do echo "$i: $line"; done<$i.py; done
+summary: |-
+  Prefix file contents with filename

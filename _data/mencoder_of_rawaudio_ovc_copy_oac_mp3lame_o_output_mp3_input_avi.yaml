@@ -1,0 +1,8 @@
+commandlinefu_id: 3492
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -of rawaudio -ovc copy -oac mp3lame -o output.mp3 input.avi
+summary: |-
+  Extract audio track from a video file using mencoder

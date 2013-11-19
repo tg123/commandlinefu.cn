@@ -1,0 +1,8 @@
+commandlinefu_id: 9166
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  uptime | awk -F ',' ' {print $1} ' | awk ' {print $3} ' | awk -F ':' ' {hrs=$1; min=$2; print hrs*60 + min} '
+summary: |-
+  开机时间（分钟）

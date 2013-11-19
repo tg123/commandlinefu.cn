@@ -1,0 +1,8 @@
+commandlinefu_id: 106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep $USER
+summary: |-
+  Find all processes running under your username.

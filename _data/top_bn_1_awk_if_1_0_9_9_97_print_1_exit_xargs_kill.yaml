@@ -1,0 +1,8 @@
+commandlinefu_id: 5742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -bn 1 |  awk '{if($1 ~ /^[0-9]+$/ && $9 > 97) {print $1;exit}}'|xargs kill
+summary: |-
+  Kill processes hogging up CPU (Flash after resume)

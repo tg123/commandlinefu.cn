@@ -1,0 +1,8 @@
+commandlinefu_id: 1595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.mp3 ; do lame --mp3input -b 128 "$f" ./resamp/"$f" ; done
+summary: |-
+  Downsample mp3s to 128K

@@ -1,0 +1,8 @@
+commandlinefu_id: 4762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'import sys,csv; c = csv.reader(sys.stdin); [sys.stdout.write("^M".join(map(repr,r))+"\n") for r in c];' <tmp/test.csv | column -s '^M' -t
+summary: |-
+  Pretty Print a simple csv in the command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 4182
+translator:
+  weibo: ''
+hide: true
+command: |-
+  path_stripped_programname="${0##*/}"
+summary: |-
+  quickest (i blv) way to get the current program name minus the path (BASH)

@@ -1,0 +1,8 @@
+commandlinefu_id: 2764
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  g~w
+summary: |-
+  切换一个单词的大小写

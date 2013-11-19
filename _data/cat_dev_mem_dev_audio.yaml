@@ -1,0 +1,8 @@
+commandlinefu_id: 965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/mem > /dev/audio
+summary: |-
+  listen to ram

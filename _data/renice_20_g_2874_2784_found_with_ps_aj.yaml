@@ -1,0 +1,8 @@
+commandlinefu_id: 12280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  renice -20 -g 2874 (2784 found with ps -Aj)
+summary: |-
+  Renice a group of threads

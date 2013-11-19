@@ -1,0 +1,8 @@
+commandlinefu_id: 4013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | while read f; do chmod -x "$f"; done
+summary: |-
+  Remove executable bit from all files in the current directory recursively, excluding other directories

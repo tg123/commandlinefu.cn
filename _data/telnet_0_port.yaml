@@ -1,0 +1,8 @@
+commandlinefu_id: 11533
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet 0 <port>
+summary: |-
+  Test against loopback address with the 0.0.0.0 default route.

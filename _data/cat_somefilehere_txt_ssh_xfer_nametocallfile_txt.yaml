@@ -1,0 +1,8 @@
+commandlinefu_id: 1047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat somefilehere.txt | ssh-xfer nametocallfile.txt -
+summary: |-
+  send files via ssh-xfer

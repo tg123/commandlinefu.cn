@@ -1,0 +1,8 @@
+commandlinefu_id: 8010
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `svn log -r{2011-02-01}:HEAD | awk '$3 == "user" {print $1}'`; do svn log -v -$i;done
+summary: |-
+  LIst svn commits by user for a date range

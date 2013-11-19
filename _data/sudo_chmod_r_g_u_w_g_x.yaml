@@ -1,0 +1,8 @@
+commandlinefu_id: 1751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo chmod -R g=u-w,g+X *
+summary: |-
+  Chmod directories to add executable & read permission to the group safely

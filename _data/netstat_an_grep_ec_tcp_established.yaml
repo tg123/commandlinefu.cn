@@ -1,0 +1,8 @@
+commandlinefu_id: 3566
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -an | grep -Ec '^tcp.+ESTABLISHED$'
+summary: |-
+  calulate established tcp connection of local machine

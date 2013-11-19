@@ -1,0 +1,8 @@
+commandlinefu_id: 7827
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 100000 | paste -sd+ | bc
+summary: |-
+  Calculate sum of N numbers (Thanks to flatcap)

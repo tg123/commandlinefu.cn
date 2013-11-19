@@ -1,0 +1,8 @@
+commandlinefu_id: 822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg --encrypt --recipient 'Foo Bar' foo.txt
+summary: |-
+  gpg encrypt a file

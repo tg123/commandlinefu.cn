@@ -1,0 +1,8 @@
+commandlinefu_id: 10032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name '*android*' 2>errors.txt
+summary: |-
+  Simple find

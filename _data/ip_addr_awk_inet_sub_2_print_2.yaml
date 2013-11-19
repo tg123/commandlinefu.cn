@@ -1,0 +1,8 @@
+commandlinefu_id: 5014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr | awk '/inet / {sub(/\/.*/, "", $2); print $2}'
+summary: |-
+  simple echo of IPv4 IP addresses assigned to a machine

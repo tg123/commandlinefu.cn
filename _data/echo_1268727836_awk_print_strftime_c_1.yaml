@@ -1,0 +1,8 @@
+commandlinefu_id: 11416
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 1268727836 | awk '{print strftime("%c",$1)}'
+summary: |-
+  Display EPOCH time in human readable format using AWK.

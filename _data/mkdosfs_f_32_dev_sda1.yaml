@@ -1,0 +1,8 @@
+commandlinefu_id: 8596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdosfs -F 32 /dev/sda1
+summary: |-
+  Format partition as FAT32

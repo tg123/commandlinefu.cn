@@ -1,0 +1,8 @@
+commandlinefu_id: 5653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ctrl+z> fg; notify_me
+summary: |-
+  notify yourself when a long-running command which has ALREADY STARTED is finished

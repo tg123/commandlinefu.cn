@@ -1,0 +1,8 @@
+commandlinefu_id: 9155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/passwd | column -nts:
+summary: |-
+  format txt as table

@@ -1,0 +1,8 @@
+commandlinefu_id: 6042
+translator:
+  weibo: ''
+hide: true
+command: |-
+  variable="foo" && sed 's/bar/'$variable'/g' $variable.conf >> $variable.temp && sed '1,5d' $variable.temp && mv $variable.temp $variable.conf
+summary: |-
+  Find, Replace, Write & Remove First 5 Lines

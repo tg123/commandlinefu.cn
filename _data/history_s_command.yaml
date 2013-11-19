@@ -1,0 +1,8 @@
+commandlinefu_id: 9993
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history -s command
+summary: |-
+  Add command to bash history without executing it

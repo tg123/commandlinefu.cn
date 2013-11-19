@@ -1,0 +1,8 @@
+commandlinefu_id: 4301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - http://cfaj.freeshell.org/ipaddr.cgi
+summary: |-
+  Get your public ip

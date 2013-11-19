@@ -1,0 +1,8 @@
+commandlinefu_id: 9276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MTerm::ReadLine -wde'print "TheAnswer=42\n"'
+summary: |-
+  oneline REPL for perl with warnings and readline support

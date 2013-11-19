@@ -1,0 +1,8 @@
+commandlinefu_id: 10531
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="\[\e[01;32m\]\u@\h \[\e[01;34m\]\W \`if [ \$? = 0 ]; then echo -e '\[\e[01;32m\]:)'; else echo -e '\[\e[01;31m\]:('; fi\` \[\e[01;34m\]$\[\e[00m\]"
+summary: |-
+  Smiley prompt based on command exit status

@@ -1,0 +1,8 @@
+commandlinefu_id: 10265
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  identify image.jpg |grep -o "[[:digit:]]*x[[:digit:]]*" |tail -1
+summary: |-
+  查看图片的分辨率

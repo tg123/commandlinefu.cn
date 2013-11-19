@@ -1,0 +1,8 @@
+commandlinefu_id: 7011
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN {FS=","} { print $1 " " $2 " " $NF}' foo.txt
+summary: |-
+  AWK: Set Field Separator from command line

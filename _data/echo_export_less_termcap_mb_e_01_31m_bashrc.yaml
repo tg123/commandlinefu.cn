@@ -1,0 +1,8 @@
+commandlinefu_id: 9530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "export LESS_TERMCAP_mb=$'\E[01;31m'" >> ~/.bashrc
+summary: |-
+  Color man pages

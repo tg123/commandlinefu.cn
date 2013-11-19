@@ -1,0 +1,8 @@
+commandlinefu_id: 6019
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune | cowsay -f $(ls /usr/share/cowsay/cows/ | shuf -n1)
+summary: |-
+  Have a random "cow" say a random thing

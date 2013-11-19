@@ -1,0 +1,8 @@
+commandlinefu_id: 1984
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/\o0/\n/g' /proc/INSERT_PID_HERE/environ
+summary: |-
+  Given process ID print its environment variables

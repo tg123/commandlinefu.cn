@@ -1,0 +1,8 @@
+commandlinefu_id: 4753
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shred -u -z -n 17 rubricasegreta.txt
+summary: |-
+  How to secure delete a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 3455
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 ! -name '.'  -execdir du -0 -s {} + | sort -znr | gawk 'BEGIN{ORS=RS="\0";} {sub($1 "\t", ""); print $0;}' | xargs -0 du -hs
+summary: |-
+  Ultimate current directory usage command

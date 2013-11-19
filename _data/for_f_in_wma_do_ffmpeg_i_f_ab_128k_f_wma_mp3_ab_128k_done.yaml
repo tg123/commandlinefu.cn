@@ -1,0 +1,8 @@
+commandlinefu_id: 9769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.wma; do ffmpeg -i "$f" -ab 128k "${f%.wma}.mp3" -ab 128K; done
+summary: |-
+  Convert wma to mp3@128k

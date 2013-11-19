@@ -1,0 +1,8 @@
+commandlinefu_id: 739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bzr init .;for file in `ls *.bz2`; do bzr import $file; bzr ci -m $file; done
+summary: |-
+  converts a directory full of source tarballs into a bzr repository so you can compare different versions easily

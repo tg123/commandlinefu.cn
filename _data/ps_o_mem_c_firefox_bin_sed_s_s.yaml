@@ -1,0 +1,8 @@
+commandlinefu_id: 1380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o %mem= -C firefox-bin | sed -s 's/\..*/%/'
+summary: |-
+  See how many % of your memory firefox is using

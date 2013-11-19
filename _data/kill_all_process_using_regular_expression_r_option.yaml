@@ -1,0 +1,8 @@
+commandlinefu_id: 5622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Kill all process using regular expression (-r option)
+summary: |-
+  killall -r ".*my-process.*"

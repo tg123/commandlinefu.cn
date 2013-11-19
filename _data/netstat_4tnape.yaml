@@ -1,0 +1,8 @@
+commandlinefu_id: 2290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -4tnape
+summary: |-
+  display only tcp

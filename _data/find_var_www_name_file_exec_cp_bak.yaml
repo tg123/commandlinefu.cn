@@ -1,0 +1,8 @@
+commandlinefu_id: 11811
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /var/www/ -name file -exec cp {}{,.bak} \;
+summary: |-
+  Recursively backup files

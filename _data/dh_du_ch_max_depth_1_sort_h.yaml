@@ -1,0 +1,8 @@
+commandlinefu_id: 3942
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dh() { du -ch --max-depth=1 "${@-.}"|sort -h }
+summary: |-
+  Sort the size usage of a directory tree by gigabytes, kilobytes, megabytes, then bytes.

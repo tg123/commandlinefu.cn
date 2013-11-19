@@ -1,0 +1,8 @@
+commandlinefu_id: 12209
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim ~/.inputrc
+summary: |-
+  The single most useful thing in bash

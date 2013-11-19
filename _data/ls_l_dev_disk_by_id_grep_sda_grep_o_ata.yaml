@@ -1,0 +1,8 @@
+commandlinefu_id: 11773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l /dev/disk/by-id/ | grep '/sda$' | grep -o 'ata[^ ]*'
+summary: |-
+  Get the /dev/disk/by-id fragment for a physical drive

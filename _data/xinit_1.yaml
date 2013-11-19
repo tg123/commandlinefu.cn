@@ -1,0 +1,8 @@
+commandlinefu_id: 2836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xinit -- :1
+summary: |-
+  from the console, start a second X server

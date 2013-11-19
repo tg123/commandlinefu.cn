@@ -1,0 +1,8 @@
+commandlinefu_id: 6621
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LASTMONTH=`date -d "last month" +%B`
+summary: |-
+  Last month

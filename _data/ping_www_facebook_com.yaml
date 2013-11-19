@@ -1,0 +1,8 @@
+commandlinefu_id: 4023
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping www.facebook.com
+summary: |-
+  facebook

@@ -1,0 +1,8 @@
+commandlinefu_id: 185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -type f -mtime +[#] -exec rm -f {} \;
+summary: |-
+  Periodic Log Deletion

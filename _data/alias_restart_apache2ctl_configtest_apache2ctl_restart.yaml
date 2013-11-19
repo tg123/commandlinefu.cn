@@ -1,0 +1,8 @@
+commandlinefu_id: 2716
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  alias restart='apache2ctl configtest && apache2ctl restart'
+summary: |-
+  先配置检查成功再重启apache

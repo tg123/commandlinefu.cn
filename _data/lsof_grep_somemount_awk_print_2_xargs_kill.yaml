@@ -1,0 +1,8 @@
+commandlinefu_id: 1468
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof|grep /somemount/| awk '{print $2}'|xargs kill
+summary: |-
+  kill all processes using a directory/file/etc

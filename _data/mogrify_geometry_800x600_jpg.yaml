@@ -1,0 +1,8 @@
+commandlinefu_id: 4272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -geometry 800x600 *.jpg
+summary: |-
+  Quickly batch resize images

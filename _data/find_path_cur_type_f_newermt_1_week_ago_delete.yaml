@@ -1,0 +1,8 @@
+commandlinefu_id: 10374
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -path ".*/cur/*" -type f ! -newermt "1 week ago" -delete
+summary: |-
+  Delete/Archive easily old mails using find.

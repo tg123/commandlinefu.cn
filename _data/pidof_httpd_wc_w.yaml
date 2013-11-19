@@ -1,0 +1,8 @@
+commandlinefu_id: 7956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pidof httpd | wc -w
+summary: |-
+  Count httpd processes

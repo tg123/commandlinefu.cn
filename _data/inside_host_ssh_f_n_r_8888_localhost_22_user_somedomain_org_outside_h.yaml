@@ -1,0 +1,8 @@
+commandlinefu_id: 4854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  #INSIDE-host# ssh -f -N -R 8888:localhost:22 user@somedomain.org # #OUTSIDE-host#ssh user@localhost -p 8888#
+summary: |-
+  Reverse ssh

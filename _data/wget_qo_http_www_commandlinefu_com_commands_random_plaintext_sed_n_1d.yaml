@@ -1,0 +1,8 @@
+commandlinefu_id: 7227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - http://www.commandlinefu.com/commands/random/plaintext | sed -n '1d; /./p'
+summary: |-
+  Retrieve a random command from the commandlinefu.com API

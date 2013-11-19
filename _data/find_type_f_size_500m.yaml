@@ -1,0 +1,8 @@
+commandlinefu_id: 6984
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -type f -size +500M
+summary: |-
+  find all file larger than 500M

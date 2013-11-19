@@ -1,0 +1,8 @@
+commandlinefu_id: 1547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias pst='pstree -Alpha'
+summary: |-
+  Alias for displaying a process tree nicely

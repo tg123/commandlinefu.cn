@@ -1,0 +1,8 @@
+commandlinefu_id: 3761
+translator:
+  weibo: ''
+hide: true
+command: |-
+  AUTOSSH_POLL=1 autossh -M 21010 hostname -t 'screen -Dr'
+summary: |-
+  autossh + ssh + screen = super rad perma-sessions

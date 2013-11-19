@@ -1,0 +1,8 @@
+commandlinefu_id: 3155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -pr olddirectory newdirectory
+summary: |-
+  Copy via tar pipe while preserving file permissions (cp does not!; run this command with root!)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  avconv -v warning -f alsa -i default -f x11grab -r 15 -s wxga -i :0.0 -vcodec libx264 -preset ultrafast -threads auto -y -metadata title="Title here" ~/Video/AVCONV_REG.mp4
+summary: |-
+  Screencast of your PC Display with mp4 output

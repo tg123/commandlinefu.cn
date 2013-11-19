@@ -1,0 +1,8 @@
+commandlinefu_id: 6654
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  macchanger --random interface
+summary: |-
+  随机mac地址

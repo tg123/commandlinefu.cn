@@ -1,0 +1,8 @@
+commandlinefu_id: 5828
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tw translate.google.com.de-en `xsel`
+summary: |-
+  translate what is in the clipboard in english and write it to the terminal

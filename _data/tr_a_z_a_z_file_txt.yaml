@@ -1,0 +1,8 @@
+commandlinefu_id: 10916
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr a-z A-Z < file.txt
+summary: |-
+  Change a file to upper case

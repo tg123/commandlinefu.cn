@@ -1,0 +1,8 @@
+commandlinefu_id: 3773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VBoxManage internalcommands converttoraw winxp.vdi winxp.raw && qemu-img convert -O vmdk winxp.raw winxp.vmdk && rm winxp.raw
+summary: |-
+  convert vdi to vmdk (virtualbox hard disk conversion to vmware hard disk format)

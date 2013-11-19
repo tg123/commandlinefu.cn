@@ -1,0 +1,8 @@
+commandlinefu_id: 1688
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -depth -3 -mtime -5
+summary: |-
+  Find files modified in the last 5 days, no more than 2 levels deep in the current directory.

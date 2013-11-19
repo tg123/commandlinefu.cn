@@ -1,0 +1,8 @@
+commandlinefu_id: 2611
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export IFS=$(echo -e "\n")
+summary: |-
+  IFS - use entire lines in your for cycles

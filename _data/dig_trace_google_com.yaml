@@ -1,0 +1,8 @@
+commandlinefu_id: 6516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +trace google.com
+summary: |-
+  Trace a DNS query from root to the authoritive servers.

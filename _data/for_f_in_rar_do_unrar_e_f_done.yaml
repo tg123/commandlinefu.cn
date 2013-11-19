@@ -1,0 +1,8 @@
+commandlinefu_id: 2773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.rar;do unrar e ?$f?;done
+summary: |-
+  Unrar all files in a directory

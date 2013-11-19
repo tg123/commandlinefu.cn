@@ -1,0 +1,8 @@
+commandlinefu_id: 4989
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vsqlplus "SELECT * FROM TABLE_NAME;"
+summary: |-
+  get the result of database query in vertical way (Column=Value)

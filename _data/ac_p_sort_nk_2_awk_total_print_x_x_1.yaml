@@ -1,0 +1,8 @@
+commandlinefu_id: 9891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ac -p | sort -nk 2 | awk '/total/{print x};{x=$1}'
+summary: |-
+  Show which user has the most accumulated login time

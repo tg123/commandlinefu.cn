@@ -1,0 +1,8 @@
+commandlinefu_id: 775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables -F
+summary: |-
+  Delete all firewall rules in a chain or all chains

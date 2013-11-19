@@ -1,0 +1,8 @@
+commandlinefu_id: 9103
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x=(*.001); cat "${x%.001}."* > "${x%.001}" #unsafe; does not check that all the parts are there, or that the file-sizes make sense!
+summary: |-
+  Join all sequentially named files in the directory

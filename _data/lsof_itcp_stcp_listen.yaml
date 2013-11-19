@@ -1,0 +1,8 @@
+commandlinefu_id: 8981
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -iTCP -sTCP:LISTEN
+summary: |-
+  lsof - cleaned up for just open listening ports, the process, and the owner of the process

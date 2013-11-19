@@ -1,0 +1,8 @@
+commandlinefu_id: 2425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall -2 mpg321
+summary: |-
+  Skip to next selection in playlist

@@ -1,0 +1,8 @@
+commandlinefu_id: 4222
+translator:
+  weibo: tgic
+hide: false
+command: |
+  ifconfig -a|grep Bcast:|cut -d\: -f2|awk '{print $1}'
+summary: |-
+  显示IP地址

@@ -1,0 +1,8 @@
+commandlinefu_id: 9616
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cls='printf %b '\''\033c'\'''
+summary: |-
+  Clear scrollback on all participating terminals.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6981
+translator:
+  weibo: ''
+hide: true
+command: |-
+  od -N 4 -t uL -An /dev/random | tr -d " "
+summary: |-
+  Random unsigned integer

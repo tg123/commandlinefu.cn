@@ -1,0 +1,8 @@
+commandlinefu_id: 5099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /dev/ -name random -exec bash -c '[ -r $0 -a -w $0 ] && dd if=$0 | sort | dd of=$0' {} \;
+summary: |-
+  sorts /dev/random

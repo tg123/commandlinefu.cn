@@ -1,0 +1,8 @@
+commandlinefu_id: 7069
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <alt+.>
+summary: |-
+  prints the parameter you used on the previous command

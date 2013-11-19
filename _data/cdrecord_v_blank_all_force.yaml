@@ -1,0 +1,8 @@
+commandlinefu_id: 3480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cdrecord -v -blank=all -force
+summary: |-
+  erase content from a cdrw

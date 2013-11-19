@@ -1,0 +1,8 @@
+commandlinefu_id: 4203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -rdate -e 'p DateTime.now.cweek'
+summary: |-
+  ruby one-liner to get the current week number

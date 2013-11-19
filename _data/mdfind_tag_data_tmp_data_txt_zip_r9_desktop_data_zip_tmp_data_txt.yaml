@@ -1,0 +1,8 @@
+commandlinefu_id: 1186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mdfind "tag:data" > /tmp/data.txt ; zip -r9@ ~/Desktop/data.zip < /tmp/data.txt
+summary: |-
+  make a zip file containing all files with the openmeta tag "data"

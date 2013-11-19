@@ -1,0 +1,8 @@
+commandlinefu_id: 5801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gophpdoc() { if [ $# -lt 2 ]; then echo $0 '< file > < title > [ pdf ]'; return; fi; if [ "$3" == 'pdf' ]; then ot=PDF:default:default; else ot=HTML:frames:earthli; fi; phpdoc -o $ot -f "$1" -t docs -ti "$2" }
+summary: |-
+  phpdoc shortcut

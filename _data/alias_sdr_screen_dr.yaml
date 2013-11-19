@@ -1,0 +1,8 @@
+commandlinefu_id: 11409
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias sdr="screen -dR"
+summary: |-
+  creates or attachs to screen

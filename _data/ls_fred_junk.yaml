@@ -1,0 +1,8 @@
+commandlinefu_id: 995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls **/fred*~*junk*/*
+summary: |-
+  List all files fred* unless in a junk directory

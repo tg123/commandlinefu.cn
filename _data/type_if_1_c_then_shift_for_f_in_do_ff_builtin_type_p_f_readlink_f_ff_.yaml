@@ -1,0 +1,8 @@
+commandlinefu_id: 8255
+translator:
+  weibo: ''
+hide: true
+command: |-
+  type () { if [ "$1" = "-c" ]; then shift; for f in "$@"; do ff=$(builtin type -p "$f"); readlink -f "$ff"; done; else builtin type $typeopts "$@"; fi; }
+summary: |-
+  Adds "-c" canonical option to bash "type" builtin command to follow symbolic links

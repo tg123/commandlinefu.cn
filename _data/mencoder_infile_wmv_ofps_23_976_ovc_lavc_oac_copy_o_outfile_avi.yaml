@@ -1,0 +1,8 @@
+commandlinefu_id: 4276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder infile.wmv -ofps 23.976 -ovc lavc -oac copy -o outfile.avi
+summary: |-
+  Convert wmv into avi

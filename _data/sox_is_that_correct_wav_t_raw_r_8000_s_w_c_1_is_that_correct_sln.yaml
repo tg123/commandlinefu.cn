@@ -1,0 +1,8 @@
+commandlinefu_id: 9162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sox is_that_correct.wav -t raw -r 8000 -s -w -c 1 is_that_correct.sln
+summary: |-
+  Convert a .wav file to .sln file

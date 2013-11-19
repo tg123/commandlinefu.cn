@@ -1,0 +1,8 @@
+commandlinefu_id: 2884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  colormake, colorgcc, colordiff
+summary: |-
+  Colorize make, gcc, and diff output

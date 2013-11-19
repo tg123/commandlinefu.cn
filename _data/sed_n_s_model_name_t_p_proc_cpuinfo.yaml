@@ -1,0 +1,8 @@
+commandlinefu_id: 3986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n 's/^model name[ \t]*: *//p' /proc/cpuinfo
+summary: |-
+  List the CPU model name

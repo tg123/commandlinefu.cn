@@ -1,0 +1,8 @@
+commandlinefu_id: 10574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo usermod -a -G vboxusers <username>
+summary: |-
+  Fix VirtualBox error

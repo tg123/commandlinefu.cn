@@ -1,0 +1,8 @@
+commandlinefu_id: 12127
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function :h { vim +":h $1" +'wincmd o' +'nnoremap q :q!<CR>' ;}
+summary: |-
+  call vim help page from shell prompt

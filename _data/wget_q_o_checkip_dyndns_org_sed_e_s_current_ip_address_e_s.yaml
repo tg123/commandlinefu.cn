@@ -1,0 +1,8 @@
+commandlinefu_id: 3995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
+summary: |-
+  Get your external IP address

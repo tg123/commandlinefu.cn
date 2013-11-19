@@ -1,0 +1,8 @@
+commandlinefu_id: 3705
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [[ "x$TERM" == "xrxvt" || "x$XTERM_VERSION" == xXTerm* || "x$COLORTERM" == 'gnome-terminal' && "x$SHELL" == */bin/zsh ]] && preexec () { print -Pn "\e]0;$1\a" }
+summary: |-
+  Changing the terminal title to the last shell command

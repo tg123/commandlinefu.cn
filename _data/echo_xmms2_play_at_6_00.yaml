@@ -1,0 +1,8 @@
+commandlinefu_id: 3200
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "xmms2 play" | at 6:00
+summary: |-
+  An alarm clock using xmms2 and at

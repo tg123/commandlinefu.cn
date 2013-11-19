@@ -1,0 +1,8 @@
+commandlinefu_id: 10571
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for a in $(find . -xdev -type f -printf '%i\n'|sort|uniq -d);do find . -xdev -inum $a -printf '%s %i %m %n %U %G %AD %Ar %p\n';done|sort -n|awk '{if(x!=$2){print "---"};x=$2;print $0}'
+summary: |-
+  Sort by size all hardlinked files in the current directory (and subdirectories)

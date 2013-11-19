@@ -1,0 +1,8 @@
+commandlinefu_id: 744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uuencode $file $file | /usr/bin/mailx -s "$file" ${USER}
+summary: |-
+  Email a file to yourself

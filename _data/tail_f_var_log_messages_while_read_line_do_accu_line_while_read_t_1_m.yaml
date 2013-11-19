@@ -1,0 +1,8 @@
+commandlinefu_id: 6786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f /var/log/messages | while read line; do accu="$line"; while read -t 1 more; do accu=`echo -e "$accu\n$more"`; done; notify-send "Syslog" "$accu"; done
+summary: |-
+  Run a command for blocks of output of another command

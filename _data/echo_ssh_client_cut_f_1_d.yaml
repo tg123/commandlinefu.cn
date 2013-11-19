@@ -1,0 +1,8 @@
+commandlinefu_id: 7635
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $SSH_CLIENT | cut -f 1 -d ' '
+summary: |-
+  Get the IP of the host your coming from when logged in remotely

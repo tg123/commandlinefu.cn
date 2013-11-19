@@ -1,0 +1,8 @@
+commandlinefu_id: 7797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  geoip() { lynx -dump "http://www.geoiptool.com/en/?IP=$1" | sed -n '/Host Name/,/Postal code/p' ; }
+summary: |-
+  geoip information

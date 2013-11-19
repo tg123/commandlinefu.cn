@@ -1,0 +1,8 @@
+commandlinefu_id: 3742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for USER in `ls /var/spool/cron`; do echo "=== crontab for $USER ==="; echo $USER; done
+summary: |-
+  print crontab entries for all the users that actually have a crontab

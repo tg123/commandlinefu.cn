@@ -1,0 +1,8 @@
+commandlinefu_id: 9263
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # dmidecode --type 0
+summary: |-
+  Find out Information about BIOS

@@ -1,0 +1,8 @@
+commandlinefu_id: 8896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jpegtran -optimize -outfile temp.jpg <JPEG> && mv temp.jpg "$_"
+summary: |-
+  Losslessly optimize JPEG files for file size

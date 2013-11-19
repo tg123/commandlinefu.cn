@@ -1,0 +1,8 @@
+commandlinefu_id: 11789
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $folder -name "[1-9]*" -type f -print|while read file; do echo $file $(sed -e '/^$/Q;:a;$!N;s/\n //;ta;s/ /_/g;P;D' $file|awk '/^Received:/&&!r{r=$0}/^From:/&&!f{f=$0}r&&f{printf "%s%s",r,f;exit(0)}');done|sort -k 2|uniq -d -f 1
+summary: |-
+  find duplicate messages in a Maildir

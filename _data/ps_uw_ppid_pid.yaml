@@ -1,0 +1,8 @@
+commandlinefu_id: 7017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps uw --ppid $PID
+summary: |-
+  Given $PID, print all child processes on stdout

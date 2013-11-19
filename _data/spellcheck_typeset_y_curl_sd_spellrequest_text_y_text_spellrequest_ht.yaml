@@ -1,0 +1,8 @@
+commandlinefu_id: 4873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  spellcheck(){ typeset y=$@;curl -sd "<spellrequest><text>$y</text></spellrequest>" https://www.google.com/tbproxy/spell|sed -n '/s="[0-9]"/{s/<[^>]*>/ /g;s/\t/ /g;s/ *\(.*\)/Suggestions: \1\n/g;p}'|tee >(grep -Eq '.*'||echo -e "OK");}
+summary: |-
+  Google Spell Checker

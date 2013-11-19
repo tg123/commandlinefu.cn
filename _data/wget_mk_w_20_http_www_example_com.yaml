@@ -1,0 +1,8 @@
+commandlinefu_id: 11203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -mk -w 20 http://www.example.com/
+summary: |-
+  Mirror site with rel-links, 20s delay via Wget

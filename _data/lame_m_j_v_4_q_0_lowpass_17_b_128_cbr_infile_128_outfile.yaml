@@ -1,0 +1,8 @@
+commandlinefu_id: 9935
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lame -m j -V 4 -q 0 --lowpass 17 -b 128 --cbr "infile" "128/outfile"
+summary: |-
+  Convert a mp3 file to CBR 128 kbps high quality

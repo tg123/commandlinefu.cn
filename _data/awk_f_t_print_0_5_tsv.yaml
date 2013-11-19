@@ -1,0 +1,8 @@
+commandlinefu_id: 10754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F'\t' '{print $0 >>$5.tsv}'
+summary: |-
+  Split tsv file by fifth column ... or any column

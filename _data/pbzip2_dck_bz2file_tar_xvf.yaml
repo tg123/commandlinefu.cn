@@ -1,0 +1,8 @@
+commandlinefu_id: 6344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbzip2 -dck <bz2file> | tar xvf -
+summary: |-
+  pbzip2 tar pipe to untar

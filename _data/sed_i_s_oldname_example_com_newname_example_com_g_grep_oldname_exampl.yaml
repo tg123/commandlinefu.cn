@@ -1,0 +1,8 @@
+commandlinefu_id: 4895
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/oldname@example.com/newname@example.com/g' `grep oldname@example.com -rl .`
+summary: |-
+  Change your e-mail address in multiple files

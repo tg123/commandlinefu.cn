@@ -1,0 +1,8 @@
+commandlinefu_id: 10982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find / \( -nouser -o -nogroup \)
+summary: |-
+  list any Linux files without users or groups

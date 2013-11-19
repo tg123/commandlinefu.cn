@@ -1,0 +1,8 @@
+commandlinefu_id: 10987
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | awk -F"[: ]+" '/inet addr/ {print $4}'
+summary: |-
+  Get the IP address

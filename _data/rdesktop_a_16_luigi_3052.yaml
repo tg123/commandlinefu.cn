@@ -1,0 +1,8 @@
+commandlinefu_id: 4362
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rdesktop -a 16 luigi:3052
+summary: |-
+  Open a RemoteDesktop from terminal

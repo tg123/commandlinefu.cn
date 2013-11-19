@@ -1,0 +1,8 @@
+commandlinefu_id: 1027
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -p $(netstat -ltpn|awk '$4 ~ /:80$/ {print substr($7,1,index($7,"/")-1)}')| awk '$9 ~ /access.log$/ {print $9| "sort -u"}'
+summary: |-
+  List all active access_logs for currently running Apache or Lighttpd process

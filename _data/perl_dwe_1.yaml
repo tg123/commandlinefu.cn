@@ -1,0 +1,8 @@
+commandlinefu_id: 8415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -dwe 1
+summary: |-
+  Perl Command Line Interpreter

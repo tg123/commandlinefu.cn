@@ -1,0 +1,8 @@
+commandlinefu_id: 10091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | awk '{$1=""; print $0}' > install_pkg.sh
+summary: |-
+  Create a shell script from history of commands

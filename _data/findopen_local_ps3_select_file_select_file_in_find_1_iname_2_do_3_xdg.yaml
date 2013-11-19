@@ -1,0 +1,8 @@
+commandlinefu_id: 4978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  findopen() { local PS3="select file: "; select file in $(find "$1" -iname "$2"); do ${3:-xdg-open} $file; break; done }
+summary: |-
+  search for a file (with regex), choose one then open it

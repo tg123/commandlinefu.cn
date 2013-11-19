@@ -1,0 +1,8 @@
+commandlinefu_id: 7287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MMIME::Base64 -ne 'print decode_base64($_)' < file.txt > out
+summary: |-
+  Decode base64-encoded file in one line of Perl

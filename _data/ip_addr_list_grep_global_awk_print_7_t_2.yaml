@@ -1,0 +1,8 @@
+commandlinefu_id: 12587
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr list | grep global | awk '{print $7"\t"$2}'
+summary: |-
+  List you configure's ip address in your system

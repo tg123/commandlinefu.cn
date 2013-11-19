@@ -1,0 +1,8 @@
+commandlinefu_id: 9608
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -ss 5 -i video.avi -vframes 1 -s 320x240 thumb.jpg
+summary: |-
+  Video thumbnail

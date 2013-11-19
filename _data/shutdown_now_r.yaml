@@ -1,0 +1,8 @@
+commandlinefu_id: 12129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shutdown now -r
+summary: |-
+  Reboot

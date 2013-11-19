@@ -1,0 +1,8 @@
+commandlinefu_id: 10899
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s 'http://www.google.com/ig/api?weather=santa+monica,ca'| sed -ne "s/.*temp_c data..//;s/....humidity data.*//;p" | figlet
+summary: |-
+  Display current temperature anywhere in the world in Celcius

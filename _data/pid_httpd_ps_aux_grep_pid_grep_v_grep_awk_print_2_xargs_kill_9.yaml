@@ -1,0 +1,8 @@
+commandlinefu_id: 10285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PID=httpd ; ps aux | grep $PID | grep -v grep | awk '{print $2}'  | xargs kill -9
+summary: |-
+  kill all pids from $PID

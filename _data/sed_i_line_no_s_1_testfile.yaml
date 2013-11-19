@@ -1,0 +1,8 @@
+commandlinefu_id: 5995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '<line_no>s/\(.*\)/#\1/' <testfile>
+summary: |-
+  commentate specified line of a file

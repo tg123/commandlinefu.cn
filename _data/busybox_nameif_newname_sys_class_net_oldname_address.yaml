@@ -1,0 +1,8 @@
+commandlinefu_id: 5627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  busybox nameif newname $(</sys/class/net/oldname/address)
+summary: |-
+  ifrename

@@ -1,0 +1,8 @@
+commandlinefu_id: 3911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias clear='( for ((i=1;i<$LINES;i++)) ; do echo "" ; done ) ; clear'
+summary: |-
+  Useful if you need to see compiler errors while edit a code

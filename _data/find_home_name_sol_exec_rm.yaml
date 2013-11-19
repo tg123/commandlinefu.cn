@@ -1,0 +1,8 @@
+commandlinefu_id: 6459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $HOME -name '*.sol' -exec rm {} \;
+summary: |-
+  Delete all flash cookies.

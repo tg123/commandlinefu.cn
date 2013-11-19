@@ -1,0 +1,8 @@
+commandlinefu_id: 9003
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 "/usr/sbin/lsof -p PID |awk '/TCP/{split(\$8,A,\":\"); split(A[2],B,\">\") ; split(B[1],C,\"-\"); print A[1],C[1],B[2], \$9}' | sort | uniq -c"
+summary: |-
+  Monitor incoming connections of proxies and balancers.

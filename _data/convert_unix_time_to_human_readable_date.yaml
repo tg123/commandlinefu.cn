@@ -1,0 +1,8 @@
+commandlinefu_id: 1783
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Convert UNIX time to human readable date
+summary: |-
+  awk 'BEGIN{print strftime("%c",1238387636)}'

@@ -1,0 +1,8 @@
+commandlinefu_id: 415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename .oldextension .newextension *.oldextension
+summary: |-
+  Files extension change

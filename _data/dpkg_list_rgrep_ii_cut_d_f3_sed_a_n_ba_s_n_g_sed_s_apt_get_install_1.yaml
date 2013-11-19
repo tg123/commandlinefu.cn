@@ -1,0 +1,8 @@
+commandlinefu_id: 11388
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg --list | rgrep ii | cut -d" " -f3 | sed ':a;N;$!ba;s/\n/ /g' | sed 's/^\(.\)/apt-get install \1/'
+summary: |-
+  Extract list of packages installed on one server and generate 'apt' command to install them on a new server

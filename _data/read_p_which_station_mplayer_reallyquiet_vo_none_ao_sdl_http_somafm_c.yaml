@@ -1,0 +1,8 @@
+commandlinefu_id: 2080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -p "Which station? "; mplayer --reallyquiet -vo none -ao sdl http://somafm.com/startstream=${REPLY}.pls
+summary: |-
+  Plays Music from SomaFM

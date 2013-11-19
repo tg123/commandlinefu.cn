@@ -1,0 +1,8 @@
+commandlinefu_id: 3453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(ssh server01 'cd config; find . -type f -exec md5sum {} \;| sort -k 2') <(ssh server02 'cd config;find . -type f -exec md5sum {} \;| sort -k 2')
+summary: |-
+  Identify differences between directories (possibly on different servers)

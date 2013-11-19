@@ -1,0 +1,8 @@
+commandlinefu_id: 10152
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VBoxManage closemedium dvd "/sicuramente/mipaghi/tutto.iso
+summary: |-
+  How to remove an ISO image from media database

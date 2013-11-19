@@ -1,0 +1,8 @@
+commandlinefu_id: 10901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -rf srcdir/* destdir
+summary: |-
+  Copies files from a directory to another, overwriting only existing files with same name

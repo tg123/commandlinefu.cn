@@ -1,0 +1,8 @@
+commandlinefu_id: 6960
+translator:
+  weibo: ''
+hide: true
+command: |-
+  set $(ps -e o command= | grep "^/usr/bin/X "); while [ x"$1" != x"-auth" ]; do shift; done; sudo x11vnc -display :0 -auth "$2"
+summary: |-
+  start a vnc server session to connect to a gdm login screen

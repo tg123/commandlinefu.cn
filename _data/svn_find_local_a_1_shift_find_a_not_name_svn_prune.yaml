@@ -1,0 +1,8 @@
+commandlinefu_id: 9043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn_find () { local a=$1; shift; find $a -not \( -name .svn -prune \) $*; }
+summary: |-
+  bash function for convenient 'find' in subversion working directories

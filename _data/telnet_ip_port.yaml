@@ -1,0 +1,8 @@
+commandlinefu_id: 631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet <ip> <port>
+summary: |-
+  test connection if ICMP is disabled

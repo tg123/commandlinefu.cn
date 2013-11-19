@@ -1,0 +1,8 @@
+commandlinefu_id: 2332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdfinfo Virtualization_A_Beginner_Guide.pdf | awk /Pages/
+summary: |-
+  Get pages number of the pdf file

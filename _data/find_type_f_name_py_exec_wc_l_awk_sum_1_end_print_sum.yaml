@@ -1,0 +1,8 @@
+commandlinefu_id: 8808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*.py" -exec wc -l {} \; | awk '{ SUM += $1} END {print SUM }'
+summary: |-
+  Find lines of code (LOC) of a filetype in a project.

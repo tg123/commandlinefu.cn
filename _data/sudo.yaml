@@ -1,0 +1,8 @@
+commandlinefu_id: 13
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo !!
+summary: |-
+  Run the last command as root

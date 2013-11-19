@@ -1,0 +1,8 @@
+commandlinefu_id: 10408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -BNe "SELECT id FROM processlist WHERE user = 'redmine';" information_schema | while read id; do mysqladmin kill $id; done
+summary: |-
+  Kill all threads from a MySQL user

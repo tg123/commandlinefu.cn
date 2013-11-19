@@ -1,0 +1,8 @@
+commandlinefu_id: 10100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F":" '!list[$3]++{print $3}' /etc/passwd
+summary: |-
+  Find duplicate UID in /etc/passwd

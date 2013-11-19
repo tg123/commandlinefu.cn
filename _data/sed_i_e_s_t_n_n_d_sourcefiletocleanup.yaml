@@ -1,0 +1,8 @@
+commandlinefu_id: 10231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i -e 's/[ \t]*$//;/^$/N;/\n$/D' sourcefiletocleanup
+summary: |-
+  Cleanup a (source) text file, removing trailing spaces/tabs and multiple consecutive blank lines

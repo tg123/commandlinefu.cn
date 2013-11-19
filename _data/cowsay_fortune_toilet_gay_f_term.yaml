@@ -1,0 +1,8 @@
+commandlinefu_id: 5794
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cowsay `fortune` | toilet --gay -f term
+summary: |-
+  Even better Cowsay/Fortune

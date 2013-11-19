@@ -1,0 +1,8 @@
+commandlinefu_id: 2393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ctags -R
+summary: |-
+  Recursively create a TAGS file for an entire source tree. TAGS files are useful for editors like Vim and Emacs

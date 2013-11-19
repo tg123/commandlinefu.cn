@@ -1,0 +1,8 @@
+commandlinefu_id: 3346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -d api_key="$api_key" -d user_app_key="$user_app_key -d body="$body" -d post_method="default" http://api.ping.fm/v1/user.post
+summary: |-
+  Update Ping.fm status

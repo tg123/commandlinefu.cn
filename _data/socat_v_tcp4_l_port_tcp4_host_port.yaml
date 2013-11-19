@@ -1,0 +1,8 @@
+commandlinefu_id: 3639
+translator:
+  weibo: ''
+hide: true
+command: |-
+  socat -v tcp4-l:<port> tcp4:<host>:<port>
+summary: |-
+  Create a single-use TCP proxy with debug output to stderr

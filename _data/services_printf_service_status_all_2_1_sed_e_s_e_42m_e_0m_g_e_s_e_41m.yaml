@@ -1,0 +1,8 @@
+commandlinefu_id: 8334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  services() { printf "$(service --status-all 2>&1|sed -e 's/\[ + \]/\\E\[42m\[ + \]\\E\[0m/g' -e 's/\[ - \]/\\E\[41m\[ - \]\\E\[0m/g' -e 's/\[ ? \]/\\E\[43m\[ ? \]\\E\[0m/g')\n";}
+summary: |-
+  Colored status of running services

@@ -1,0 +1,8 @@
+commandlinefu_id: 704
+translator:
+  weibo: ''
+hide: true
+command: |-
+  useradd -s /sbin/nologin nicdev
+summary: |-
+  Creat a new user with no shell. Useful to provide other services without giving shell access.

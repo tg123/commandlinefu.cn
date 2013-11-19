@@ -1,0 +1,8 @@
+commandlinefu_id: 5419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strace php tias.php -e open,access 2>&1 | grep foo.txt
+summary: |-
+  See why a program can't seem to access a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 10661
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O - http://www.reddit.com/r/wallpapers.rss | grep -Eo 'http://i.imgur.com[^&]+jpg' | head -1 | xargs wget -O background.jpg
+summary: |-
+  set desktop background to highest-rated image from Reddit /r/wallpapers

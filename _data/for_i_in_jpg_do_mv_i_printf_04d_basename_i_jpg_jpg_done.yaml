@@ -1,0 +1,8 @@
+commandlinefu_id: 7103
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in ???.jpg; do mv $i $(printf %04d $(basename $i .jpg) ).jpg ; done
+summary: |-
+  Rename all (jpg) files written as 3 number in 4 numbers.

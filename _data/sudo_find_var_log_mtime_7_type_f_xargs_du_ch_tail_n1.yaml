@@ -1,0 +1,8 @@
+commandlinefu_id: 3214
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find /var/log/ -mtime -7 -type f | xargs du -ch | tail -n1
+summary: |-
+  get diskusage of files modified during the last n days

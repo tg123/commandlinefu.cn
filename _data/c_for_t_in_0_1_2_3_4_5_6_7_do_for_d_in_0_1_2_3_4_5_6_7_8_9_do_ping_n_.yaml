@@ -1,0 +1,8 @@
+commandlinefu_id: 11287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  c:\>for %t in (0 1 2 3 4 5 6 7) do for %d in (0 1 2 3 4 5 6 7 8 9) do ping -n 1  machine-0%t%d
+summary: |-
+  Ping a range of numbered machines

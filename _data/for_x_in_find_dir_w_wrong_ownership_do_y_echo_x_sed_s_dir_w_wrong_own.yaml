@@ -1,0 +1,8 @@
+commandlinefu_id: 7947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `find /dir_w_wrong_ownership/`; do y=`echo "$x" | sed 's,/dir_w_wrong_ownership/,/backup_dir/,'`; chown --reference $y $x; done;
+summary: |-
+  Restore permissions or ownership from a backup directroy

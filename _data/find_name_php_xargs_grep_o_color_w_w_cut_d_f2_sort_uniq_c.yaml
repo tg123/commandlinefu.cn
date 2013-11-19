@@ -1,0 +1,8 @@
+commandlinefu_id: 1
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*\.php" | xargs grep -o --color "\w\+::\w\+" | cut -d":" -f2 | sort | uniq -c
+summary: |-
+  Display a list of all PHP classes that are called statically

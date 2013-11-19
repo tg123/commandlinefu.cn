@@ -1,0 +1,8 @@
+commandlinefu_id: 2035
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "screen -DR" >> ~/.bash_profile
+summary: |-
+  Set your profile so that you resume or start a screen session on login

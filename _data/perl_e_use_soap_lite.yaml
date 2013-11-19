@@ -1,0 +1,8 @@
+commandlinefu_id: 271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e "use SOAP::Lite"
+summary: |-
+  Perl check if library is installed

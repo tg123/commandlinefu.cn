@@ -1,0 +1,8 @@
+commandlinefu_id: 3219
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | while read f; do mv "$f" "${f// /_}";done
+summary: |-
+  Replace spaces in filenames with underscorees

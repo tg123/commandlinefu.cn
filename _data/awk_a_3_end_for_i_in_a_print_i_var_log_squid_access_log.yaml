@@ -1,0 +1,8 @@
+commandlinefu_id: 11290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{a[$3]++} END {for(i in a) print i}' /var/log/squid/access.log
+summary: |-
+  Lists all clients of a Squid proxy

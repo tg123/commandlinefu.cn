@@ -1,0 +1,8 @@
+commandlinefu_id: 11475
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tc qdisc add dev lo root netem delay 500ms
+summary: |-
+  Simulate slow network connection locally

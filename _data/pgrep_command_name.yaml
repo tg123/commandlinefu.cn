@@ -1,0 +1,8 @@
+commandlinefu_id: 3037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep command_name
+summary: |-
+  Find the process you are looking for minus the grepped one

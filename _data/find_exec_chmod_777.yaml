@@ -1,0 +1,8 @@
+commandlinefu_id: 6794
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -exec chmod 777 {} \;
+summary: |-
+  递归修改目录为777

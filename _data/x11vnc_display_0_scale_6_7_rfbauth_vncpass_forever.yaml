@@ -1,0 +1,8 @@
+commandlinefu_id: 4059
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x11vnc -display :0 -scale 6/7 -rfbauth vncpass -forever
+summary: |-
+  Start the x11vnc server

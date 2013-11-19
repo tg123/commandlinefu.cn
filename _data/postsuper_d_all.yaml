@@ -1,0 +1,8 @@
+commandlinefu_id: 2335
+translator:
+  weibo: ''
+hide: true
+command: |-
+  postsuper -d ALL
+summary: |-
+  Remove all mail in Postfix mail queue.

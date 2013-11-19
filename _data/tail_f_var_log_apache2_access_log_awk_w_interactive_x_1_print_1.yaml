@@ -1,0 +1,8 @@
+commandlinefu_id: 4556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f /var/log/apache2/access.log | awk -W interactive '!x[$1]++ {print $1}'
+summary: |-
+  Print unique ipaddresses as they come in from Apache Access Log File

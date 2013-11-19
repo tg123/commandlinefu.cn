@@ -1,0 +1,8 @@
+commandlinefu_id: 12310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  inotifywait -m -r .
+summary: |-
+  Debug how files are being accessed by a process

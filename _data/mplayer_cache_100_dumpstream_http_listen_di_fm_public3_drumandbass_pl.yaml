@@ -1,0 +1,8 @@
+commandlinefu_id: 9655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -cache 100 -dumpstream http://listen.di.fm/public3/drumandbass.pls -dumpfile music.mp3
+summary: |-
+  Rip from mp3 stream mplayer

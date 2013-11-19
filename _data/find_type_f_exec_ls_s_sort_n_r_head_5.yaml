@@ -1,0 +1,8 @@
+commandlinefu_id: 12049
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec ls -s {} \; | sort -n -r | head -5
+summary: |-
+  Find top 5 big files

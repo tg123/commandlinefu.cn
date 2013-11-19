@@ -1,0 +1,8 @@
+commandlinefu_id: 4966
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `grep server /tmp/error.log | awk '{print $3}'`; do \ t=`date "+%d-%m-%H%M%S"` ; ssh -q -t admin@$x.domain.com 'pstree -auln' > ~/snapshots/$x-$t.out \ done
+summary: |-
+  Disaster Snapshot (procmail)

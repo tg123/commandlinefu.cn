@@ -1,0 +1,8 @@
+commandlinefu_id: 1217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^A ?
+summary: |-
+  Get all the keyboard shortcuts in screen

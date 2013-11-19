@@ -1,0 +1,8 @@
+commandlinefu_id: 4982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qf /etc/*-release
+summary: |-
+  Display which distro is installed

@@ -1,0 +1,8 @@
+commandlinefu_id: 784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LC_ALL=C svn info | grep Revision | awk '{print $2}'
+summary: |-
+  Outputs current folder svn revision

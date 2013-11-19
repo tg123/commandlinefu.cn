@@ -1,0 +1,8 @@
+commandlinefu_id: 2726
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -drt /var/log/* | tail -n5 | xargs sudo tail -n0 -f
+summary: |-
+  Follow the most recently updated log files

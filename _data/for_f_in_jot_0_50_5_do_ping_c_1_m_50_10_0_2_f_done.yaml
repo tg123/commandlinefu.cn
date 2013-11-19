@@ -1,0 +1,8 @@
+commandlinefu_id: 1614
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in `jot - 0 50 5` ; do ping -c 1 -m 50 10.0.2.$f ; done
+summary: |-
+  sequence of numbers in a for loop

@@ -1,0 +1,8 @@
+commandlinefu_id: 9631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -RE 'class\s+(\w+)' --color *
+summary: |-
+  grep all class definitions from all files in current directory

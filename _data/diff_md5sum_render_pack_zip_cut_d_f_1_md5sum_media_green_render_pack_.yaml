@@ -1,0 +1,8 @@
+commandlinefu_id: 7415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(md5sum render_pack.zip| cut -d " " -f 1) <(md5sum /media/green/render_pack.zip| cut -d " " -f 1);echo $?
+summary: |-
+  Compare copies of a file with md5

@@ -1,0 +1,8 @@
+commandlinefu_id: 6267
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $[RANDOM%X+1]
+summary: |-
+  Random Number Between 1 And X

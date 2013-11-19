@@ -1,0 +1,8 @@
+commandlinefu_id: 7971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%s/\s\+$//
+summary: |-
+  Remove trailing space in vi

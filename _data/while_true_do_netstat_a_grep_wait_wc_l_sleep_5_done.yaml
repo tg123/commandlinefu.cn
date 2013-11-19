@@ -1,0 +1,8 @@
+commandlinefu_id: 12421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do netstat -a|grep WAIT|wc -l; sleep 5; done
+summary: |-
+  One liner to check out CLOSE_WAIT and TIME_WAIT connection every five seconds while debugging network apps

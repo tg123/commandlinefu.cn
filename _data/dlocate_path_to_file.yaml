@@ -1,0 +1,8 @@
+commandlinefu_id: 7099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dlocate /path/to/file
+summary: |-
+  (Debian/Ubuntu) Discover what package a file belongs to

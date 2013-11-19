@@ -1,0 +1,8 @@
+commandlinefu_id: 8645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo bash -c "sleep 1h ; command"
+summary: |-
+  Run a command as root, with a delay

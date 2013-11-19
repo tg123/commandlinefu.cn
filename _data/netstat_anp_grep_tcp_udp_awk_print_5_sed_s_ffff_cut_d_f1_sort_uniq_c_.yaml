@@ -1,0 +1,8 @@
+commandlinefu_id: 698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -anp |grep 'tcp\|udp' | awk '{print $5}' | sed s/::ffff:// | cut -d: -f1 | sort | uniq -c | sort -n
+summary: |-
+  count IPv4 connections per IP

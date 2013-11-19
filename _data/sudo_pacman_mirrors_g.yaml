@@ -1,0 +1,8 @@
+commandlinefu_id: 12334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo pacman-mirrors -g
+summary: |-
+  Command used to sync arch ro manjaro mirrors

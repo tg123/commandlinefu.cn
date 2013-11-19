@@ -1,0 +1,8 @@
+commandlinefu_id: 3504
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mate - `find . -name 'filename'`
+summary: |-
+  Open files of the same name in TextMate

@@ -1,0 +1,8 @@
+commandlinefu_id: 379
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PROMPT=$'%{\e[0;32m%}%B[%b%{\e[0m%}%n%{\e[0;32m%}@%{\e[0m%}%(4c,./%1~,%~)%{\e[0;32m%}%B]%b% %(?,%{\e[0;32m%}:%)%{\e[0m%},%{\e[0;31m%}:(%{\e[0m%}) %# '
+summary: |-
+  ZSH prompt. ':)' after program execution with no error, ':(' after failure.

@@ -1,0 +1,8 @@
+commandlinefu_id: 11891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/sysctl -p
+summary: |-
+  Reload all sysctl variables without reboot

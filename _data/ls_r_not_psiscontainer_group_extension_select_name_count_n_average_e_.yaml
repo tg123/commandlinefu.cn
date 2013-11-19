@@ -1,0 +1,8 @@
+commandlinefu_id: 10429
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -r | ?{-not $_.psiscontainer} | group extension | select name, count, @{n='average'; e={($_.group | measure -a length).average}} | ft -a @{n='Extension'; e={$_.name}}, count, @{n='Average Size (KB)'; e={$_.average/1kb}; f='{0:N2}'}
+summary: |-
+  Recursively list all of the files in a directory, group them by extension and calculate the average of the file sizes in each group

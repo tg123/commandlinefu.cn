@@ -1,0 +1,8 @@
+commandlinefu_id: 12615
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file{0..5} > mainfile
+summary: |-
+  Put split files back together, without a for loop

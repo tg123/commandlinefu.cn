@@ -1,0 +1,8 @@
+commandlinefu_id: 3895
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx --dump "http://checkip.dyndns.org"
+summary: |-
+  What is my ip?

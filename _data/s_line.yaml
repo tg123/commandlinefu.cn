@@ -1,0 +1,8 @@
+commandlinefu_id: 3054
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%s/^/\=line('.').'  '
+summary: |-
+  Insert line number in vim

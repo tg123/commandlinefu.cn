@@ -1,0 +1,8 @@
+commandlinefu_id: 2909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "-help" -exec mv {} help.txt \;
+summary: |-
+  renombrar un archivo que inicia con guion

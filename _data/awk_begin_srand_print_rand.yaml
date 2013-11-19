@@ -1,0 +1,8 @@
+commandlinefu_id: 6269
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN { srand(); print rand() }'
+summary: |-
+  Random Decimal in the interval 0 &#8804; n < 1 and 2d6 dice roll

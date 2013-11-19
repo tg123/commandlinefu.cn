@@ -1,0 +1,8 @@
+commandlinefu_id: 1599
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `find . | grep jar$`; do echo $i; jar tvf $i | grep 'search-string'; done;
+summary: |-
+  find a class or file within a number of jar files

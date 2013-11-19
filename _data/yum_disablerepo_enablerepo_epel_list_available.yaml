@@ -1,0 +1,8 @@
+commandlinefu_id: 5647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum --disablerepo=* --enablerepo=epel list available
+summary: |-
+  Listing only one repository with yum

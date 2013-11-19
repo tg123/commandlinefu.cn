@@ -1,0 +1,8 @@
+commandlinefu_id: 1489
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcal -K -q GB_EN 2009 # display holidays in UK/England for 2009 (with week numbers)
+summary: |-
+  Display calendar with specific national holidays and week numbers

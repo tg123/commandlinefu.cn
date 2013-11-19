@@ -1,0 +1,8 @@
+commandlinefu_id: 9861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort -M filename
+summary: |-
+  sort monthwise

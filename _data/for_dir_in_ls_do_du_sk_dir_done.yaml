@@ -1,0 +1,8 @@
+commandlinefu_id: 1620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for dir in $(ls); do du -sk ${dir}; done
+summary: |-
+  do a directory disk usage summary without giving the details for the subdirectories

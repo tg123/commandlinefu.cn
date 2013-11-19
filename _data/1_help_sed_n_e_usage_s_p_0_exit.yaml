@@ -1,0 +1,8 @@
+commandlinefu_id: 3344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ "$1" == "--help" ] && { sed -n -e '/^# Usage:/,/^$/ s/^# \?//p' < $0; exit; }
+summary: |-
+  display an embeded help message from bash script  header

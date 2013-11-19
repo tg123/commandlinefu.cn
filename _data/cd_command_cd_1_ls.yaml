@@ -1,0 +1,8 @@
+commandlinefu_id: 11325
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd () { command cd $1 && ls ; }
+summary: |-
+  Changes dir to $1 and executes ls. As simple as useful

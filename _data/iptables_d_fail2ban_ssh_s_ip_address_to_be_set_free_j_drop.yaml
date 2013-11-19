@@ -1,0 +1,8 @@
+commandlinefu_id: 2135
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables -D fail2ban-SSH -s <ip_address_to_be_set_free> -j DROP
+summary: |-
+  Get an IP address out of fail2ban jail

@@ -1,0 +1,8 @@
+commandlinefu_id: 12552
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sysctl -a | grep sleeptime
+summary: |-
+  Get last sleep time on a Mac

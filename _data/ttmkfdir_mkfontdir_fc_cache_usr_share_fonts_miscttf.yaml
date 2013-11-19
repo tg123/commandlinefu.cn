@@ -1,0 +1,8 @@
+commandlinefu_id: 1381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ttmkfdir mkfontdir fc-cache /usr/share/fonts/miscttf
+summary: |-
+  Installing True-Type fonts

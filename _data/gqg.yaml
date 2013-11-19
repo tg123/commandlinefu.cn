@@ -1,0 +1,8 @@
+commandlinefu_id: 6971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gqG
+summary: |-
+  Force wrap all text to 80 columns in Vim

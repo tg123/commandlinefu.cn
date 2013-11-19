@@ -1,0 +1,8 @@
+commandlinefu_id: 10154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -y <(ssh user@host  find /boot|sort) <(find /boot|sort)
+summary: |-
+  Compare a remote dir with a local dir

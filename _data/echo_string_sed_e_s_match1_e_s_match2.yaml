@@ -1,0 +1,8 @@
+commandlinefu_id: 1822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "string" | sed -e 's/.*match1//' -e 's/match2.*$//'
+summary: |-
+  Print out "string" between "match1" and "match2"

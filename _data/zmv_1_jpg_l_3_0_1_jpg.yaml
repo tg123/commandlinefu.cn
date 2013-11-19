@@ -1,0 +1,8 @@
+commandlinefu_id: 5967
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zmv '(<1->).jpg' '${(l:3::0:)1}.jpg'
+summary: |-
+  Adding leading zeros to a filename (1.jpg -> 001.jpg)

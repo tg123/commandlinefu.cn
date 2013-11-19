@@ -1,0 +1,8 @@
+commandlinefu_id: 7954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste -sd'+' file|bc -l
+summary: |-
+  Add a list of numbers

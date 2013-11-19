@@ -1,0 +1,8 @@
+commandlinefu_id: 2260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -C -X user@remotehost gui_command
+summary: |-
+  Run Remote GUI Programs Using SSH Forwarding

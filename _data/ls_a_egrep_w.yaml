@@ -1,0 +1,8 @@
+commandlinefu_id: 4048
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -a | egrep "^\.\w"
+summary: |-
+  Find all dot files and directories

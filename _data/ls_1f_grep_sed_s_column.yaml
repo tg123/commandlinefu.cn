@@ -1,0 +1,8 @@
+commandlinefu_id: 12517
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1F | grep @$ | sed 's/@//' | column
+summary: |-
+  List all symbolic links in current directory

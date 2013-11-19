@@ -1,0 +1,8 @@
+commandlinefu_id: 2193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name \*.mp3 -printf "%C+ %h/%f\n" | sort -r | head -n20 | awk '{print "\""$2"\""}' | xargs -I {} cp {} ~/tmp
+summary: |-
+  copies 20 most recently downloaded mp3 files (such as from Miro) into a directory

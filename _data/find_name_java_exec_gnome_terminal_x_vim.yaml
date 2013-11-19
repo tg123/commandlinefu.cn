@@ -1,0 +1,8 @@
+commandlinefu_id: 407
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.java" -exec gnome-terminal \-x vim {} \;
+summary: |-
+  Open a list of files in VIM using separate terminal windows

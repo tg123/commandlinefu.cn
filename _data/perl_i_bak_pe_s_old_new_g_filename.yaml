@@ -1,0 +1,8 @@
+commandlinefu_id: 3193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -i'.bak' -pe 's/old/new/g' <filename>
+summary: |-
+  Do a search-and-replace in a file after making a backup

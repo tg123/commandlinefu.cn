@@ -1,0 +1,8 @@
+commandlinefu_id: 10287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%s/\<http\>/git/gc
+summary: |-
+  vi - Change only whole words exactly matching 'http' to 'git'; ask for confirmation.

@@ -1,0 +1,8 @@
+commandlinefu_id: 1102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch balls
+summary: |-
+  creates balls

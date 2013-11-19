@@ -1,0 +1,8 @@
+commandlinefu_id: 307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nroff -u0 -Tlp -man /usr/openwin/man/man1/Xsun.1 | col -x | less
+summary: |-
+  Use nroff to view the man pages

@@ -1,0 +1,8 @@
+commandlinefu_id: 11854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  import -quality 90 screenshot.png
+summary: |-
+  Take screenshots with imagemagick

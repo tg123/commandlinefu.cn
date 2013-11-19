@@ -1,0 +1,8 @@
+commandlinefu_id: 3899
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getdji (){local url sedcmd;url='http://finance.yahoo.com/q?d=t&s=^DJI';sedcmd='/(DJI:.*)/,/Day.*/!d;s/^ *//g;';sedcmd="$sedcmd/Change:/s/Down / -/;/Change:/s/Up / +/;";sedcmd="$sedcmd/Open:/s//&   /";lynx -dump "$url" | sed "$sedcmd"; }
+summary: |-
+  get ^DJI

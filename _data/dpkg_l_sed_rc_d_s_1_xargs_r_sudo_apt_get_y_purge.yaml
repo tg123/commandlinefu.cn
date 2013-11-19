@@ -1,0 +1,8 @@
+commandlinefu_id: 8590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l | sed '/^rc/!d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/' | xargs -r sudo apt-get -y purge
+summary: |-
+  Purge application's residual config & orphans

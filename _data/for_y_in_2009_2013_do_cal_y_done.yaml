@@ -1,0 +1,8 @@
+commandlinefu_id: 12459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for y in {2009..2013}; do cal $y; done
+summary: |-
+  Printing multiple years with Unix cal command

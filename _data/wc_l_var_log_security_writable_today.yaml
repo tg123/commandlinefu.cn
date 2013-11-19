@@ -1,0 +1,8 @@
+commandlinefu_id: 1539
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # wc -l /var/log/security/writable.today
+summary: |-
+  How many world writeable files on your system? (Mandriva Linux msec)

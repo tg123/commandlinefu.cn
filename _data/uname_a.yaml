@@ -1,0 +1,8 @@
+commandlinefu_id: 3096
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uname -a
+summary: |-
+  get kernel version

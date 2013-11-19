@@ -1,0 +1,8 @@
+commandlinefu_id: 11537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zdump Japan America/New_York
+summary: |-
+  Display current time in requested time zones.

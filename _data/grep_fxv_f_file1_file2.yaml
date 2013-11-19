@@ -1,0 +1,8 @@
+commandlinefu_id: 5709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Fxv -f file1 file2
+summary: |-
+  lines in file2 that are not in file1

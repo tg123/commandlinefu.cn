@@ -1,0 +1,8 @@
+commandlinefu_id: 6227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp $user@$server:$path/to/file .
+summary: |-
+  Download a file securely via a remote SSH server

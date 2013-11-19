@@ -1,0 +1,8 @@
+commandlinefu_id: 1588
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -ovc copy -oac copy -of avi -o remuxed.avi original.avi
+summary: |-
+  Remux an avi video if it won't play easily on your media device

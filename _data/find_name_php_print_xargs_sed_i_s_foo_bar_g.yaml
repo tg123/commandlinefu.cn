@@ -1,0 +1,8 @@
+commandlinefu_id: 10986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" -print | xargs sed -i 's/foo/bar/g'
+summary: |-
+  search and replace in multiple files

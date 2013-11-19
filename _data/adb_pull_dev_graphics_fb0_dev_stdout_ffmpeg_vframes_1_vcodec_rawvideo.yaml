@@ -1,0 +1,8 @@
+commandlinefu_id: 11689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  adb pull /dev/graphics/fb0 /dev/stdout | ffmpeg -vframes 1 -vcodec rawvideo -f rawvideo -pix_fmt rgb32 -s 480x800 -i pipe:0 -f image2 -vcodec png screenshot.png
+summary: |-
+  Android PNG screenshot

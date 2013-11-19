@@ -1,0 +1,8 @@
+commandlinefu_id: 2878
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.gz" | xargs -n 1 -I {} bash -c "gunzip -c {} | sort | gzip -c --best > {}.new ; rm {} ; mv {}.new {}"
+summary: |-
+  Rezip a bunch of files

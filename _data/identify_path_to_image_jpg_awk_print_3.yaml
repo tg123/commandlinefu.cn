@@ -1,0 +1,8 @@
+commandlinefu_id: 11449
+translator:
+  weibo: ''
+hide: true
+command: |-
+  identify path/to/image.jpg | awk '{print $3;}'
+summary: |-
+  Get dimensions of an image.

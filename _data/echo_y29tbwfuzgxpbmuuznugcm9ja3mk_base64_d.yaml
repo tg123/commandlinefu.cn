@@ -1,0 +1,8 @@
+commandlinefu_id: 5682
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Y29tbWFuZGxpbmUuZnUgcm9ja3MK | base64 -d
+summary: |-
+  Base64 decode

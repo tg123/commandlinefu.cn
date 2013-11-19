@@ -1,0 +1,8 @@
+commandlinefu_id: 11227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-file --package-only search /lib/firmware
+summary: |-
+  Displays all available firmware you can get (non-free) in a Debian system

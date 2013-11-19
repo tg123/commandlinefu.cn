@@ -1,0 +1,8 @@
+commandlinefu_id: 8106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa kernel
+summary: |-
+  Lists installed kernels

@@ -1,0 +1,8 @@
+commandlinefu_id: 2413
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.tar.gz; do tar -xzf $i; done
+summary: |-
+  Extract multiple file in a directory

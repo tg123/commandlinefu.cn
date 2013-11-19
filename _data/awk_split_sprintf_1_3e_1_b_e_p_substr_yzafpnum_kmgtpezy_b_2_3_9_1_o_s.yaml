@@ -1,0 +1,8 @@
+commandlinefu_id: 2728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ awk '{ split(sprintf("%1.3e", $1), b, "e"); p = substr("yzafpnum_kMGTPEZY", (b[2]/3)+9, 1); o = sprintf("%f", b[1] * (10 ^ (b[2]%3))); gsub(/\./, p, o); print substr( gensub(/_[[:digit:]]*/, "", "g", o), 1, 4); }' < test.dat
+summary: |-
+  Convert numbers to SI notation

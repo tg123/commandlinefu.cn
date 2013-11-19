@@ -1,0 +1,8 @@
+commandlinefu_id: 8625
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gvim -u NONE -U NONE
+summary: |-
+  Ignore ~/.vimrc when startup gVim

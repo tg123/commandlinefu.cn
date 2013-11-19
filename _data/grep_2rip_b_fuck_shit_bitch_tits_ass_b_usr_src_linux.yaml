@@ -1,0 +1,8 @@
+commandlinefu_id: 8926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -2riP '\b(fuck|shit|bitch|tits|ass\b)' /usr/src/linux/
+summary: |-
+  Read funny developer comments in the Linux source tree

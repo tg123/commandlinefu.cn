@@ -1,0 +1,8 @@
+commandlinefu_id: 8718
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  for i in *.tar.gz; do tar -x -v -z -f $i && rm -v $i; done
+summary: |-
+  解压并清理tgz

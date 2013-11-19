@@ -1,0 +1,8 @@
+commandlinefu_id: 9813
+translator:
+  weibo: ''
+hide: true
+command: |-
+  c="cp -a";e="~";echo -e "\npaste\n";i=0;k="1"; while [[ "$k" != "" ]]; do read -a k;r[i]=$k;((i++));done;i=0;while :;do t=${r[i]};[ "$t" == "" ] && break; g=$(echo $c ${r[i]} $e);echo -e $g "\ny/n?";read y;[ "$y" != "n" ] && eval $g;((i++));done
+summary: |-
+  Mini-framework: just paste and execute!

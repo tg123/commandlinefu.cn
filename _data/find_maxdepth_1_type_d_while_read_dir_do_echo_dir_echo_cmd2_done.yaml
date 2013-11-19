@@ -1,0 +1,8 @@
+commandlinefu_id: 12244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -maxdepth 1 -type d | while read dir; do echo $dir; echo cmd2; done
+summary: |-
+  Process each item with multiple commands (in while loop)

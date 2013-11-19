@@ -1,0 +1,8 @@
+commandlinefu_id: 4490
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `ptree | awk '{print $1}'`; do pfiles $x | grep ${PORT} > /dev/null 2>&1; if [ x"$?" == "x0" ]; then ps -ef | grep $x | grep -v grep; fi; done 2> /dev/null
+summary: |-
+  Determine what process is listening on a port on Solaris, without lsof

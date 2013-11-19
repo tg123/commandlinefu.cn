@@ -1,0 +1,8 @@
+commandlinefu_id: 11596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -l <string-to-match> * | xargs grep -c <string-not-to-match> | grep '\:0'
+summary: |-
+  Matching Strings

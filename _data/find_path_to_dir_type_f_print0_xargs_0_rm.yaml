@@ -1,0 +1,8 @@
+commandlinefu_id: 15
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -type f -print0 | xargs -0 rm
+summary: |-
+  Optimal way of deleting huge numbers of files

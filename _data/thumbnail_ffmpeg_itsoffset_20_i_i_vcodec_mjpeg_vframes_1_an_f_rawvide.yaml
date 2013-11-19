@@ -1,0 +1,8 @@
+commandlinefu_id: 4015
+translator:
+  weibo: ''
+hide: true
+command: |-
+  thumbnail() { ffmpeg  -itsoffset -20 -i $i -vcodec mjpeg -vframes 1 -an -f rawvideo -s 640x272 ${i%.*}.jpg }
+summary: |-
+  Create a thumbnail from a video file

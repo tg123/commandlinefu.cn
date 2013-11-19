@@ -1,0 +1,8 @@
+commandlinefu_id: 8308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 15m; yes > /dev/dsp
+summary: |-
+  Timer with sound alarm

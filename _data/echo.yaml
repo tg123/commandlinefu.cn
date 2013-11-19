@@ -1,0 +1,8 @@
+commandlinefu_id: 8924
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $?
+summary: |-
+  Echo exit status (a.k.a. return code)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11124
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ls='if [[ -f .hidden ]]; then while read l; do opts+=(--hide="$l"); done < .hidden; fi; ls --color=auto "${opts[@]}"'
+summary: |-
+  Hide files in ls, by adding support for .hidden files!

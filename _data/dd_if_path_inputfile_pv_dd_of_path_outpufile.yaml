@@ -1,0 +1,8 @@
+commandlinefu_id: 7215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/path/inputfile | pv | dd of=/path/outpufile
+summary: |-
+  Start dd and show progress every X seconds

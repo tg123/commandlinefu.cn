@@ -1,0 +1,8 @@
+commandlinefu_id: 3708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print(substr($0,1,5))}' file
+summary: |-
+  Laminate a file

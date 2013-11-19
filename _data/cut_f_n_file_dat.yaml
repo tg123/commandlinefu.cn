@@ -1,0 +1,8 @@
+commandlinefu_id: 3273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -f N- file.dat
+summary: |-
+  Print all fields in a file/output from field N to the end of the line

@@ -1,0 +1,8 @@
+commandlinefu_id: 1866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa --queryformat "%{NAME} %{ARCH}\n"
+summary: |-
+  List installed rpm named and arquitecture.

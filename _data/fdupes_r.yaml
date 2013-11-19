@@ -1,0 +1,8 @@
+commandlinefu_id: 7930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fdupes -r .
+summary: |-
+  Find Duplicate Files (based on size first, then MD5 hash)

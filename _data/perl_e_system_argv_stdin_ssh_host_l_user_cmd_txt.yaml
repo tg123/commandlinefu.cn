@@ -1,0 +1,8 @@
+commandlinefu_id: 5771
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'system @ARGV, <STDIN>' ssh host -l user < cmd.txt
+summary: |-
+  run complex remote shell cmds over ssh, without escaping quotes

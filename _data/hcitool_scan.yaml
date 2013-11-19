@@ -1,0 +1,8 @@
+commandlinefu_id: 5329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hcitool scan
+summary: |-
+  Scan for nearby Bluetooth devices.

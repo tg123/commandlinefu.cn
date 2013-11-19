@@ -1,0 +1,8 @@
+commandlinefu_id: 85
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TZ=XYZ24 date
+summary: |-
+  Get me yesterday's date, even if today is 1-Mar-2008 and yesterday was 29-Feb-2008

@@ -1,0 +1,8 @@
+commandlinefu_id: 10423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f ! -perm /u+x -printf "\"%p\"\n" | xargs file | grep -i executable
+summary: |-
+  Find Files Which Should Be Executable But Are Not

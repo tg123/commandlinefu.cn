@@ -1,0 +1,8 @@
+commandlinefu_id: 8859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history -c
+summary: |-
+  Clear current session history (bash)

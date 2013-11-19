@@ -1,0 +1,8 @@
+commandlinefu_id: 4480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  flight_status() { if [[ $# -eq 3 ]];then offset=$3; else offset=0; fi; curl "http://mobile.flightview.com/TrackByRoute.aspx?view=detail&al="$1"&fn="$2"&dpdat=$(date +%Y%m%d -d ${offset}day)" 2>/dev/null |html2text |grep ":"; }
+summary: |-
+  track flights from the command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 5251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MStatistics::Descriptive -alne 'my $stat = Statistics::Descriptive::Full->new; $stat->add_data(@F[1..4]); print $stat->variance' filename
+summary: |-
+  statistics in one line

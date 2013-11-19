@@ -1,0 +1,8 @@
+commandlinefu_id: 6943
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftohtml -i -stdout FILE.pdf | w3m -T text/html
+summary: |-
+  Read PDFs in the command line

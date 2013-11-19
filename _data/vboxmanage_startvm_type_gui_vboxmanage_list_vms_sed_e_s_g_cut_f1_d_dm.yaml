@@ -1,0 +1,8 @@
+commandlinefu_id: 8554
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vboxmanage startvm --type gui $(vboxmanage list vms | sed -e 's/"//g' | cut -f1 -d ' ' | dmenu -i -p "VMs")
+summary: |-
+  List the vms in Virtualbox and start them using dmenu

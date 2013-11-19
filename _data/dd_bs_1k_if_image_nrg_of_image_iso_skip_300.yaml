@@ -1,0 +1,8 @@
+commandlinefu_id: 5220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd bs=1k if=image.nrg of=image.iso skip=300
+summary: |-
+  Convert a Nero Image File to ISO

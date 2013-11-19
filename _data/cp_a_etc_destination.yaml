@@ -1,0 +1,8 @@
+commandlinefu_id: 9501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -a /etc /destination
+summary: |-
+  Real full backup copy of /etc folder

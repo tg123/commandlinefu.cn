@@ -1,0 +1,8 @@
+commandlinefu_id: 12605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  KEY_HASH=`openssl rsa -in $KEY_PATH -modulus -noout | openssl md5` && CRT_HASH=`openssl x509 -in $CERT_PATH -modulus -noout | openssl md5`; if [ "$KEY_HASH" != "$CRT_HASH" ];then         echo "MD5 sums between .key and .crt files DO NOT MATCH";fi
+summary: |-
+  Check SSL crt and key compatibility

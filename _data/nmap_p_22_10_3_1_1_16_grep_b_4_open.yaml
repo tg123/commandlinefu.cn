@@ -1,0 +1,8 @@
+commandlinefu_id: 6853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -p 22 10.3.1.1/16 | grep -B 4 "open"
+summary: |-
+  Get a list of ssh servers on the local subnet

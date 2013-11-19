@@ -1,0 +1,8 @@
+commandlinefu_id: 8178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim -u NONE yourfile
+summary: |-
+  Start vim without initialization

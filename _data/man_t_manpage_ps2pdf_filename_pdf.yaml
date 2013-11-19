@@ -1,0 +1,8 @@
+commandlinefu_id: 7355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -t manpage | ps2pdf - filename.pdf
+summary: |-
+  Create a pdf version of a manpage

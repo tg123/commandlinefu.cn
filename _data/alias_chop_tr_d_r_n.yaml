@@ -1,0 +1,8 @@
+commandlinefu_id: 640
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias chop="tr -d '\r\n'"
+summary: |-
+  bash chop

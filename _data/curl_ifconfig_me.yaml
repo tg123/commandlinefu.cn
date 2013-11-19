@@ -1,0 +1,8 @@
+commandlinefu_id: 7997
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl ifconfig.me
+summary: |-
+  get you public ip address

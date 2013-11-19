@@ -1,0 +1,8 @@
+commandlinefu_id: 3597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo chown -R user2:user2 /../../somedirectory
+summary: |-
+  Recursive Ownership Change

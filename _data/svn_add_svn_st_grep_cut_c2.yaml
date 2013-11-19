@@ -1,0 +1,8 @@
+commandlinefu_id: 4702
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn add $(svn st|grep ^\?|cut -c2-)
+summary: |-
+  add all files not under version control to repository

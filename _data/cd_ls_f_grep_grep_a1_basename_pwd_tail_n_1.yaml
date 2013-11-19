@@ -1,0 +1,8 @@
+commandlinefu_id: 2197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ../"$(ls -F ..|grep '/'|grep -A1 `basename $PWD`|tail -n 1)"
+summary: |-
+  Go to the next sibling directory in alphabetical order, version 2

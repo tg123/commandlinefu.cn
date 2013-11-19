@@ -1,0 +1,8 @@
+commandlinefu_id: 12541
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-query --show --showformat='${Package;-50}\t${Installed-Size}\n' `aptitude  --display-format '%p' search '?installed!?automatic'` | sort -k 2 -n | grep -v deinstall | awk '{printf "%.3f MB \t %s\n", $2/(1024), $1}'
+summary: |-
+  List your largest installed packages (on Debian/Ubuntu)

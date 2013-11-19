@@ -1,0 +1,8 @@
+commandlinefu_id: 11668
+translator:
+  weibo: ''
+hide: true
+command: |-
+  socat unix-connect:/tmp/socket stdio,echo=0,raw
+summary: |-
+  Serial console to a Vmware VM

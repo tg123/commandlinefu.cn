@@ -1,0 +1,8 @@
+commandlinefu_id: 1776
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /home/user/doc/ -type d -printf "mkdir -vp '/home/user/Dropbox%p'\n" -o -type f -printf "ln -vs '%p' '/home/user/Dropbox%p'\n" | sh
+summary: |-
+  Create a symbolic link tree that shadows a directory structure

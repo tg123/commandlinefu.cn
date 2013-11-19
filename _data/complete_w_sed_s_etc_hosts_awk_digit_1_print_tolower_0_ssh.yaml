@@ -1,0 +1,8 @@
+commandlinefu_id: 8675
+translator:
+  weibo: ''
+hide: true
+command: |-
+  complete -W "$(sed 's/;.*//;' /etc/hosts | awk ' /^[[:digit:]]/ {$1 = "";print tolower($0)}')" ssh
+summary: |-
+  Enable tab completion for known SSH hosts

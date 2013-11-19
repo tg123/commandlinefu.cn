@@ -1,0 +1,8 @@
+commandlinefu_id: 1613
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  while true; do date; sleep 1; done
+summary: |-
+  时钟

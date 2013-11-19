@@ -1,0 +1,8 @@
+commandlinefu_id: 1195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc "a-zA-Z0-9-_\$\?" < /dev/urandom | head -c 10 | gpg -e -r medha@nerdish.de > password.gpg
+summary: |-
+  Create passwords and store safely with gpg

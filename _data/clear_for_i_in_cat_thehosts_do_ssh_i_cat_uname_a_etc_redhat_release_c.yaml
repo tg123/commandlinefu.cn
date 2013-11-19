@@ -1,0 +1,8 @@
+commandlinefu_id: 2258
+translator:
+  weibo: ''
+hide: true
+command: |-
+  clear; for i in `cat thehosts` ; do ssh $i "cat uname -a ; /etc/redhat-release; cat /proc/cpuinfo | tail -n 25 | egrep '^processor|^model name' "; free ; df -h ;done
+summary: |-
+  Do a quick check on the harware specifications on a set of Linux (RedHat) boxes

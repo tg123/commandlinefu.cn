@@ -1,0 +1,8 @@
+commandlinefu_id: 10739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -ls | sort -k 7 -n
+summary: |-
+  List all files in current dir and subdirs sorted by size

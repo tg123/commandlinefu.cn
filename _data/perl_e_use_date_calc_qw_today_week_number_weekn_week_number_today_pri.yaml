@@ -1,0 +1,8 @@
+commandlinefu_id: 4195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'use Date::Calc qw(Today Week_Number); $weekn = Week_Number(Today); print "$weekn\n"'
+summary: |-
+  perl one-liner to get the current week number

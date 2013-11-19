@@ -1,0 +1,8 @@
+commandlinefu_id: 391
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'ibase=10; obase=2; 127' | bc
+summary: |-
+  Convert from a decimal number to a binary number

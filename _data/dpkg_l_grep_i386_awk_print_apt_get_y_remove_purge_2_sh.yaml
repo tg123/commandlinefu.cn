@@ -1,0 +1,8 @@
+commandlinefu_id: 12080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l |grep i386 | awk '{ print "apt-get -y  remove --purge "$2 }' | sh
+summary: |-
+  Purgue foreing architecture packages on debian

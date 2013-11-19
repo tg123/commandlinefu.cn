@@ -1,0 +1,8 @@
+commandlinefu_id: 11607
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -1000 `ls -ltr /var/log/CF* |tail -1|awk '{print $9}'`|cut -d "," -f 17|sort|uniq -c |sort -k2
+summary: |-
+  count & sort one field of the log files

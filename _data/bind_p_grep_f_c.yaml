@@ -1,0 +1,8 @@
+commandlinefu_id: 45
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind -p | grep -F "\C"
+summary: |-
+  Display all readline binding that use CTRL

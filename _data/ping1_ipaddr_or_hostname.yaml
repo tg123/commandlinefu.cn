@@ -1,0 +1,8 @@
+commandlinefu_id: 10225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping1 IPaddr_or_hostname
+summary: |-
+  Check if a machine is online

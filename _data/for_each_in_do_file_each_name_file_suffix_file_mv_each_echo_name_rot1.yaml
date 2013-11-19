@@ -1,0 +1,8 @@
+commandlinefu_id: 5105
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for each in *; do file="$each."; name=${file%%.*}; suffix=${file#*.}; mv "$each" "$(echo $name | rot13)${suffix:+.}${suffix%.}"; done
+summary: |-
+  Filenames ROT13

@@ -1,0 +1,8 @@
+commandlinefu_id: 931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  caff <keyid>
+summary: |-
+  Receive, sign and send GPG key id

@@ -1,0 +1,8 @@
+commandlinefu_id: 11317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git for-each-ref --sort='-authordate' --format='%(refname)%09%(authordate)' refs/heads | sed -e 's-refs/heads/--'
+summary: |-
+  Show git branches by date - useful for showing active branches

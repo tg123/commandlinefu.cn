@@ -1,0 +1,8 @@
+commandlinefu_id: 12659
+translator:
+  weibo: ''
+hide: true
+command: |-
+  say () { mpv $(sed -E "s;([a-Z]*)( |$);http://ssl.gstatic.com/dictionary/static/sounds/de/0/\1.mp3 ;g" <<< $*); }; say hello world "how is it" going
+summary: |-
+  Let google say something for you! (mpv can be replaced by any mp3-decoder)

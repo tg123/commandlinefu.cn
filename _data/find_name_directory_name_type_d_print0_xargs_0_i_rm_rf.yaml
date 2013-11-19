@@ -1,0 +1,8 @@
+commandlinefu_id: 9032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "directory_name" -type d -print0 | xargs -0 -i rm -rf {}
+summary: |-
+  find specified directory and delete it recursively including directories with spaces

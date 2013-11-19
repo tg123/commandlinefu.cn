@@ -1,0 +1,8 @@
+commandlinefu_id: 2948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl www.whatismyip.com/automation/n09230945.asp
+summary: |-
+  Get your external IP address if your machine has a DNS entry

@@ -1,0 +1,8 @@
+commandlinefu_id: 10383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name *.lock |xargs rm -f
+summary: |-
+  find *.lock files and delete

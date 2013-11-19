@@ -1,0 +1,8 @@
+commandlinefu_id: 11095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h --max-depth=1
+summary: |-
+  Gets directory size on sub directories in current dir with human readable size

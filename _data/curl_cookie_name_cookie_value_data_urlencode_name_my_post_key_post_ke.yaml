@@ -1,0 +1,8 @@
+commandlinefu_id: 6069
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --cookie name=<cookie_value> --data-urlencode name=my_post_key=<post_key>\&delete=1\&submit=Delete+Now\&action=deletepost\&pid=$c --user-agent Firefox\ 3.5 --url http://url/editpost.php?my_post_key=<post_key>\&delete=1\&submit=Delete+Now\&action=dele
+summary: |-
+  Delete posts from MyBB Board as User

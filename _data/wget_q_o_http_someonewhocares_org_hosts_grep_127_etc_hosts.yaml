@@ -1,0 +1,8 @@
+commandlinefu_id: 4344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O - http://someonewhocares.org/hosts/ | grep ^127 >> /etc/hosts
+summary: |-
+  Block the 6700 worst spamhosts

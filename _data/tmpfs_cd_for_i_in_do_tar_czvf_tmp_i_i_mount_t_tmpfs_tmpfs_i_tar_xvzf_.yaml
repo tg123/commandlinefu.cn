@@ -1,0 +1,8 @@
+commandlinefu_id: 9966
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tmpfs(){ cd /;for i in $@;do tar czvf /tmp/$i $i;mount -t tmpfs tmpfs /$i;tar xvzf /tmp/$i;cd ~ ;}# usage: tmpfs etc var
+summary: |-
+  mount a folder tmpfs

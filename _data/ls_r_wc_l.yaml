@@ -1,0 +1,8 @@
+commandlinefu_id: 12390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -R | wc -l
+summary: |-
+  total number of files inside current directory

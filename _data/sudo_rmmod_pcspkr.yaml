@@ -1,0 +1,8 @@
+commandlinefu_id: 2686
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo rmmod pcspkr
+summary: |-
+  Disable annoying sound emanations from the PC speaker

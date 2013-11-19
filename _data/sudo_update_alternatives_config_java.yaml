@@ -1,0 +1,8 @@
+commandlinefu_id: 8039
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo update-alternatives --config java
+summary: |-
+  swap the java version being used

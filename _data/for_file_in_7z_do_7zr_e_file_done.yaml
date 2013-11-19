@@ -1,0 +1,8 @@
+commandlinefu_id: 4640
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.7z; do 7zr e "$file"; done
+summary: |-
+  Extract all 7zip files in current directory taking filename spaces into account

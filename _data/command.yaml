@@ -1,0 +1,8 @@
+commandlinefu_id: 9277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  #command
+summary: |-
+  dont execute command just add it to history as a comment, handy if your command is not "complete" yet

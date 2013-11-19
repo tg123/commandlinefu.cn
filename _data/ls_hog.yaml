@@ -1,0 +1,8 @@
+commandlinefu_id: 1568
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -hog
+summary: |-
+  ls -hog --> a more compact ls -l

@@ -1,0 +1,8 @@
+commandlinefu_id: 11945
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/ -type d \( -wholename '/dev/*' -o -wholename '/sys/*' -o -wholename '/proc/*' \) -prune -o -exec test -w {} \; -exec echo {} writable \; 2>/dev/null
+summary: |-
+  check for write/read permissions

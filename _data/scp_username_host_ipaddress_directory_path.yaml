@@ -1,0 +1,8 @@
+commandlinefu_id: 12850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp username@host|ipaddress:/directory/path .
+summary: |-
+  Get file from remote system

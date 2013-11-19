@@ -1,0 +1,8 @@
+commandlinefu_id: 2003
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Hello world" | base64
+summary: |-
+  Encoding with base64

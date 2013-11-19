@@ -1,0 +1,8 @@
+commandlinefu_id: 6408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet towel.blinkenlights.nl 666
+summary: |-
+  The BOFH Excuse Server

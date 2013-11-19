@@ -1,0 +1,8 @@
+commandlinefu_id: 2349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n -e '1,/match/p'
+summary: |-
+  Delete all lines after the first match

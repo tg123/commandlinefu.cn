@@ -1,0 +1,8 @@
+commandlinefu_id: 6894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lspci -v -s `lspci | awk '/VGA/{print $1}'`
+summary: |-
+  Get information on your graphics card on linux (such as graphics memory size)

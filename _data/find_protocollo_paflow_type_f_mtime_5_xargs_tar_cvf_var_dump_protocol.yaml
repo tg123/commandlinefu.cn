@@ -1,0 +1,8 @@
+commandlinefu_id: 5939
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /protocollo/paflow -type f -mtime +5 | xargs tar -cvf /var/dump-protocollo/`date '+%d%m%Y'_archive.tar`
+summary: |-
+  How to archive all the files that are not modified in the last x number of days?

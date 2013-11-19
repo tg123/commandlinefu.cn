@@ -1,0 +1,8 @@
+commandlinefu_id: 4349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rkhunter --versioncheck --update --propupd --check
+summary: |-
+  Freshening up RKhunter

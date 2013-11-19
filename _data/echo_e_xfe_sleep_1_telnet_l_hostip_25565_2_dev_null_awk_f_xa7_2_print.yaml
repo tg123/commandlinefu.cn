@@ -1,0 +1,8 @@
+commandlinefu_id: 9647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (echo -e '\xfe'; sleep 1) |telnet -L $HOSTIP 25565 2>/dev/null |awk -F'\xa7' '$2 {print "users: "$2"/"$3;}'
+summary: |-
+  Get number of users on a minecraft server

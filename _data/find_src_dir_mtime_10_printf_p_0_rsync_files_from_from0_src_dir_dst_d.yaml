@@ -1,0 +1,8 @@
+commandlinefu_id: 7685
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /src/dir/ -mtime -10 -printf %P\\0|rsync --files-from=- --from0 /src/dir/ /dst/dir/
+summary: |-
+  rsync directory tree including only files that match a certain find result.

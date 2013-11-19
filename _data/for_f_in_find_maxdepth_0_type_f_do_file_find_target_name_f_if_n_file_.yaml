@@ -1,0 +1,8 @@
+commandlinefu_id: 2583
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in $(find * -maxdepth 0 -type f); do file=$(find ~/target -name $f); if [ -n "$file" ]; then cp $file ${file}.bak; mv $f $file; fi; done
+summary: |-
+  Overwrite local files from copies in a flat directory, even if they're in a different directory structure

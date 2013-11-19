@@ -1,0 +1,8 @@
+commandlinefu_id: 9476
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ps -ef --sort=-%cpu
+summary: |-
+  按cpu使用率 列出进程

@@ -1,0 +1,8 @@
+commandlinefu_id: 1836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -size +25000k -exec ls -lh {} \; | awk '{ print $8 ": " $5 }'
+summary: |-
+  List files above a given threshold

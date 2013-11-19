@@ -1,0 +1,8 @@
+commandlinefu_id: 5488
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  very_long_command& sleep 10; kill $!
+summary: |-
+  带有超时的执行

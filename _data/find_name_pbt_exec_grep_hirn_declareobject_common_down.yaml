@@ -1,0 +1,8 @@
+commandlinefu_id: 9175
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.pbt" -exec grep -Hirn "declareObject.*Common_Down" {} \;
+summary: |-
+  Grep for regular expression globally, list files and positions.

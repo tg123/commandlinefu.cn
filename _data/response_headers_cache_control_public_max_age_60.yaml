@@ -1,0 +1,8 @@
+commandlinefu_id: 8822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  response.headers['Cache-Control'] = 'public, max-age=60';
+summary: |-
+  HTTP Caching (gateway/reverse proxy cache for webapps)

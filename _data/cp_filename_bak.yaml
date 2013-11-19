@@ -1,0 +1,8 @@
+commandlinefu_id: 145
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cp filename{,.bak}
+summary: |-
+  生成.bak的方式

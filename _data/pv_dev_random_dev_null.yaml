@@ -1,0 +1,8 @@
+commandlinefu_id: 11734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv /dev/random > /dev/null
+summary: |-
+  Meter your entropy

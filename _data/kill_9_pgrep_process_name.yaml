@@ -1,0 +1,8 @@
+commandlinefu_id: 5875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 `pgrep $PROCESS_NAME`
+summary: |-
+  Kill a process by application

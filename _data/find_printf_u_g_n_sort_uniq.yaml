@@ -1,0 +1,8 @@
+commandlinefu_id: 683
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -printf '%u %g\n' | sort | uniq
+summary: |-
+  Get a quick list of all user and group owners of files and dirs under the cwd.

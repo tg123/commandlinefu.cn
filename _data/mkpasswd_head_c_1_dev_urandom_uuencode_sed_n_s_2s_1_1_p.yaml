@@ -1,0 +1,8 @@
+commandlinefu_id: 4093
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkpasswd() { head -c $(($1)) /dev/urandom | uuencode - | sed -n 's/.//;2s/\(.\{'$1'\}\).*/\1/p' ;}
+summary: |-
+  Random password generating function

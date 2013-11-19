@@ -1,0 +1,8 @@
+commandlinefu_id: 3450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function catv { egrep -v "^$|^#" ${*} ; }
+summary: |-
+  Output files without comments or empty lines

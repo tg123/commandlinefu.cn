@@ -1,0 +1,8 @@
+commandlinefu_id: 2812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*.c" -exec cat {} \; | wc -l
+summary: |-
+  Make a statistic about the lines of code

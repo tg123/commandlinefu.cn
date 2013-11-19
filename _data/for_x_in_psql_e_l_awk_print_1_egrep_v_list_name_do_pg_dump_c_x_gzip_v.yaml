@@ -1,0 +1,8 @@
+commandlinefu_id: 1136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `psql -e\l | awk '{print $1}'| egrep -v "(^List|^Name|\-\-\-\-\-|^\()"`; do pg_dump -C $x | gzip > /var/lib/pgsql/backups/$x-nightly.dmp.gz; done
+summary: |-
+  for x in `psql -e\l | awk '{print $1}'| egrep -v "(^List|^Name|\-\-\-\-\-|^\()"`; do pg_dump -C $x | gzip > /backups/$x-back.gz

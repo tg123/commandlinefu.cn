@@ -1,0 +1,8 @@
+commandlinefu_id: 9398
+translator:
+  weibo: ''
+hide: true
+command: |-
+  quietly() { "$@" > /dev/null 2>&1; }
+summary: |-
+  Suppress output of loud commands you don't want to hear from

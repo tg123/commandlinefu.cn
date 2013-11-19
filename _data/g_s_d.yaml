@@ -1,0 +1,8 @@
+commandlinefu_id: 1324
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  :g!/\S/d
+summary: |-
+  在vim 中删除所有空行

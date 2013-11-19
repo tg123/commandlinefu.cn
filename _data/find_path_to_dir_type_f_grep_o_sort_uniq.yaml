@@ -1,0 +1,8 @@
+commandlinefu_id: 6308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -type f | grep -o '\.[^./]*$' | sort | uniq
+summary: |-
+  list all file extensions in a directory

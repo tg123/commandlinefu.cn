@@ -1,0 +1,8 @@
+commandlinefu_id: 2092
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  VBoxManage startvm "name"
+summary: |-
+  从命令行启动特定的vm

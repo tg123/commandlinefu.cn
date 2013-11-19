@@ -1,0 +1,8 @@
+commandlinefu_id: 2410
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -r '(render_message|multipart).*('`find app/views -name '*.erb' | grep mailer | sed -e 's/\..*//' -e 's/.*\///' | uniq | xargs | sed 's/ /|/g'`')' app/models
+summary: |-
+  Finds all of the mailers being used in your rails app

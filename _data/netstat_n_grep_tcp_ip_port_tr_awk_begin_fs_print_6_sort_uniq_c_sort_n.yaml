@@ -1,0 +1,8 @@
+commandlinefu_id: 6592
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -n | grep '^tcp.*<IP>:<PORT>' | tr " " | awk 'BEGIN{FS="( |:)"}{print $6}' | sort | uniq -c | sort -n -k1 | awk '{if ($1 >= 10){print $2}}'
+summary: |-
+  To find which host made maximum number of specific tcp connections

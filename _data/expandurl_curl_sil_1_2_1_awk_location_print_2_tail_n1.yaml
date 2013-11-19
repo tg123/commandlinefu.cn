@@ -1,0 +1,8 @@
+commandlinefu_id: 9517
+translator:
+  weibo: ''
+hide: true
+command: |-
+  expandurl() { curl -sIL $1 2>&1 | awk '/^Location/ {print $2}' | tail -n1; }
+summary: |-
+  Expand shortened URLs

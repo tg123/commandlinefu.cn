@@ -1,0 +1,8 @@
+commandlinefu_id: 11297
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind '"\ee": "\C-asudo \C-e"'
+summary: |-
+  Add sudo with shortcut alt+e in bash

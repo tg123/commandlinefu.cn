@@ -1,0 +1,8 @@
+commandlinefu_id: 11767
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pmi action suspend
+summary: |-
+  Suspend to ram

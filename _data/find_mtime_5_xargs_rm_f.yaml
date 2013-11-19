@@ -1,0 +1,8 @@
+commandlinefu_id: 1610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -mtime -5 | xargs rm -f
+summary: |-
+  Delete all files in current directory that have been modified less than 5 days ago.

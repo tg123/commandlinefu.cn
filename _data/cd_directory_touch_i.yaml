@@ -1,0 +1,8 @@
+commandlinefu_id: 8448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd <directory>; touch ./-i
+summary: |-
+  Protect directory from an overzealous rm -rf *

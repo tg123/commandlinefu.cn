@@ -1,0 +1,8 @@
+commandlinefu_id: 2295
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -nP +p 24073 | grep -i listen | awk '{print $1,$2,$7,$8,$9}'
+summary: |-
+  find listening ports by pid

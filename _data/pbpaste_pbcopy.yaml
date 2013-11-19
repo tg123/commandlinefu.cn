@@ -1,0 +1,8 @@
+commandlinefu_id: 3564
+translator:
+  weibo: ''
+hide: true
+command: |-
+  `pbpaste` | pbcopy
+summary: |-
+  Execute text from the OS X clipboard.

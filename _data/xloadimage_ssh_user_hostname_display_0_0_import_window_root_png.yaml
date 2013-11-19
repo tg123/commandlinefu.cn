@@ -1,0 +1,8 @@
+commandlinefu_id: 10354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xloadimage <(ssh USER@HOSTNAME DISPLAY=:0.0 import -window root png:-)
+summary: |-
+  open a screenshot of a remote desktop via ssh

@@ -1,0 +1,8 @@
+commandlinefu_id: 5076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  termtrace(){( strace -s 1000 -e write tput $@ 2>&2 2>&1 ) | grep -o '"[^"]*"';}
+summary: |-
+  Terminal Escape Code Zen - Strace and Tput

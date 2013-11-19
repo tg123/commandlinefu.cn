@@ -1,0 +1,8 @@
+commandlinefu_id: 11709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input.mkv -vcodec copy -acodec copy -absf aac_adtstoasc output.m4v
+summary: |-
+  Converter mkv (Blu-Ray_1280x540_AAC_5.1]_[10Bit]) para mp4 sem perder a qualidade

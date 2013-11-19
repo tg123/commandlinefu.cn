@@ -1,0 +1,8 @@
+commandlinefu_id: 4698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -rl oldstring . | parallel sed -i -e 's/oldstring/newstring/'
+summary: |-
+  recursive search and replace old with new string, inside files

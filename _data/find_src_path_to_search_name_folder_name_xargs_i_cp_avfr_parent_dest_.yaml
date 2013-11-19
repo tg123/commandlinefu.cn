@@ -1,0 +1,8 @@
+commandlinefu_id: 7127
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <src-path-to-search> -name "<folder-name>" | xargs -i cp -avfr --parent {} /<dest-path-to-copy>
+summary: |-
+  copy selected folder found recursively under src retaining the structure

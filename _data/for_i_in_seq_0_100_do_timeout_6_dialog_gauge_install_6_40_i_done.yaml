@@ -1,0 +1,8 @@
+commandlinefu_id: 6673
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `seq 0 100`;do timeout 6 dialog --gauge "Install..." 6 40 "$i";done
+summary: |-
+  pretend to be busy in office to enjoy a cup of coffee

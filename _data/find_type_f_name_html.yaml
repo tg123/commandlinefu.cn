@@ -1,0 +1,8 @@
+commandlinefu_id: 2647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f ! -name "*html"
+summary: |-
+  find all non-html files

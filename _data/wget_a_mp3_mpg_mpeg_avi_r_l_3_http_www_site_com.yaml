@@ -1,0 +1,8 @@
+commandlinefu_id: 9664
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -A mp3,mpg,mpeg,avi -r -l 3 http://www.site.com/
+summary: |-
+  recursively walk down no more than three levels and grab any file with an extension of mp3, mpg, mpeg, or avi

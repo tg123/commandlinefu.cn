@@ -1,0 +1,8 @@
+commandlinefu_id: 5830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  statt(){ C=c;stat --h|sed '/Th/,/NO/!d;/%/!d'|while read l;do p=${l/% */};[ $p == %Z ]&&C=fc&&echo ^FS:^;echo "`stat -$C $p \"$1\"` ^$p^${l#%* }";done|column -ts^; }
+summary: |-
+  STAT Function showing ALL info, stat options, and descriptions

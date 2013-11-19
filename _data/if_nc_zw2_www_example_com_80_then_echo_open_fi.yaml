@@ -1,0 +1,8 @@
+commandlinefu_id: 4257
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if (nc -zw2 www.example.com 80); then echo open; fi
+summary: |-
+  determine if tcp port is open

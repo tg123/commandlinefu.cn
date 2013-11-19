@@ -1,0 +1,8 @@
+commandlinefu_id: 412
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar zcvf somedir-$(date +%Y%m%d-%H%M).tar.gz somedir/
+summary: |-
+  Archive a directory with datestamp on filename

@@ -1,0 +1,8 @@
+commandlinefu_id: 6153
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof /dev/snd/pcm*p /dev/dsp | awk ' { print $2 }' | xargs kill
+summary: |-
+  give me back my sound card

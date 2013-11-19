@@ -1,0 +1,8 @@
+commandlinefu_id: 3618
+translator:
+  weibo: ''
+hide: true
+command: |-
+  random -f <file>
+summary: |-
+  Randomize lines (opposite of | sort)

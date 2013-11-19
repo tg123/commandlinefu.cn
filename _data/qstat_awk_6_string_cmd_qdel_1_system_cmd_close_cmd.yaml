@@ -1,0 +1,8 @@
+commandlinefu_id: 7631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qstat | awk '$6 ~ "STRING" {cmd="qdel " $1; system(cmd); close(cmd)}'
+summary: |-
+  delete PBS jobs based on strings from qstat output

@@ -1,0 +1,8 @@
+commandlinefu_id: 5502
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date +%s | sha256sum | base64 | head -c <length>; echo
+summary: |-
+  Produce a pseudo random password with given length in base 64

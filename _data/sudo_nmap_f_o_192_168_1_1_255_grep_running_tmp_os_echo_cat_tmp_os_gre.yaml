@@ -1,0 +1,8 @@
+commandlinefu_id: 4535
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo nmap -F -O 192.168.1.1-255 | grep "Running: " > /tmp/os; echo "$(cat /tmp/os | grep Linux | wc -l) Linux device(s)"; echo "$(cat /tmp/os | grep Windows | wc -l) Window(s) devices"
+summary: |-
+  How many Linux and Windows devices are on your network?

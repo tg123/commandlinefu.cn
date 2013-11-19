@@ -1,0 +1,8 @@
+commandlinefu_id: 5861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-query -l > 1.lst; sudo apt-get install -y build-essential; ./configure; make; sudo checkinstall -D make install; dpkg-query --list > 2.lst; diff 1.lst 2.lst | grep '^>' | awk '{print $3}' | xargs sudo apt-get remove -y --purge
+summary: |-
+  compile source & then remove the dev tools you needed to install

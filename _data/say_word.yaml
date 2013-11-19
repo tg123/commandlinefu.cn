@@ -1,0 +1,8 @@
+commandlinefu_id: 5178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  say WORD
+summary: |-
+  OSX: Hear pronunciation of a word

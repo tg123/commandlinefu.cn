@@ -1,0 +1,8 @@
+commandlinefu_id: 776
+translator:
+  weibo: ''
+hide: true
+command: |-
+  acpi | cut -d '%' -f1 | cut -d ',' -f2
+summary: |-
+  Print the current battery status

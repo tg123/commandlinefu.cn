@@ -1,0 +1,8 @@
+commandlinefu_id: 11141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  asterisk -rx "core show calls" | grep "active" | cut -d' ' -f1
+summary: |-
+  Watch active calls on an Asterisk PBX

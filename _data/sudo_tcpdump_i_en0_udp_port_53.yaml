@@ -1,0 +1,8 @@
+commandlinefu_id: 8932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tcpdump -i en0 'udp port 53'
+summary: |-
+  Use tcpdump to monitor all DNS queries and responses

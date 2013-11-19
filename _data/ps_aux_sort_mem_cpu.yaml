@@ -1,0 +1,8 @@
+commandlinefu_id: 3760
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux --sort=%mem,%cpu
+summary: |-
+  Sort all running processes by their memory & CPU usage

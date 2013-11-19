@@ -1,0 +1,8 @@
+commandlinefu_id: 76
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for jj in `seq -f "%02.0f" 1 12`; do rr=`ls *S04E$jj*.smi`; tt=`ls *S04E$jj*.avi`; mv  "$rr" "${tt%.*}.smi"; done
+summary: |-
+  while series of video and subtitles have unmatched file names, rename subtitles the same as video files.

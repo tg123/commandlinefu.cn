@@ -1,0 +1,8 @@
+commandlinefu_id: 2886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Body goes here" | mutt -s "A subject" -a /path/to/file.tar.gz recipient@example.com
+summary: |-
+  Send email with one or more binary attachments

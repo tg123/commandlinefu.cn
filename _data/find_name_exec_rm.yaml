@@ -1,0 +1,8 @@
+commandlinefu_id: 4954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*~" -exec rm {} \;
+summary: |-
+  Remove VIM temp files

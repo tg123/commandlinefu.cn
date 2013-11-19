@@ -1,0 +1,8 @@
+commandlinefu_id: 10628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -s|grep -E "^ *0"|sed "s/^ *0 //g"|xargs -i rm "{}"
+summary: |-
+  Remove all zero size files from current directory (not recursive)

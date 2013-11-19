@@ -1,0 +1,8 @@
+commandlinefu_id: 12672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python3
+summary: |-
+  command line calculator (zsh version)

@@ -1,0 +1,8 @@
+commandlinefu_id: 4838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -rF --include='*.txt' stringYouLookFor *
+summary: |-
+  This allows you to find a string on a set of files recursivly

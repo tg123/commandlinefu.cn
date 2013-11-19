@@ -1,0 +1,8 @@
+commandlinefu_id: 634
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find /tmp -type f -printf 'rm "%p";\n'
+summary: |-
+  执行前检查

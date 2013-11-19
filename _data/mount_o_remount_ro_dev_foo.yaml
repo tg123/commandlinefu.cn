@@ -1,0 +1,8 @@
+commandlinefu_id: 6920
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -o remount,ro /dev/foo /
+summary: |-
+  Remount an already-mounted filesystem without unmounting it

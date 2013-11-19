@@ -1,0 +1,8 @@
+commandlinefu_id: 1360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep 'HOME.*' data.txt | awk '{print $2}' | awk '{FS="/"}{print $NF}'  OR USE ALTERNATE WAY awk '/HOME/ {print $2}' data.txt | awk -F'/' '{print $NF}'
+summary: |-
+  Read Nth column (e.g. 2nd column) of a row of data in a file that has a specific word (e.g. HOME) on that row and extract the last delimited value for the specified delimiter (e.g. /)

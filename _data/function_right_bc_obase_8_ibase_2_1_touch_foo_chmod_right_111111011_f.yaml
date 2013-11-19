@@ -1,0 +1,8 @@
+commandlinefu_id: 9712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function right { bc <<< "obase=8;ibase=2;$1"; }; touch foo; chmod $(right 111111011) foo; ls -l foo
+summary: |-
+  Use binary notation to chmod a file.

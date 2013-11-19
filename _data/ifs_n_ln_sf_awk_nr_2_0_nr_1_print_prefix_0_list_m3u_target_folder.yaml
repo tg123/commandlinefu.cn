@@ -1,0 +1,8 @@
+commandlinefu_id: 9354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (IFS=$'\n'; ln -sf $(awk '((NR % 2) != 0 && NR > 1) {print "prefix" $0}' list.m3u) target_folder)
+summary: |-
+  Populate a folder with symbolic links to files listed in an m3u playlist.

@@ -1,0 +1,8 @@
+commandlinefu_id: 8800
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ mkdir -p /tmp/dir1/{0..20}
+summary: |-
+  make directory

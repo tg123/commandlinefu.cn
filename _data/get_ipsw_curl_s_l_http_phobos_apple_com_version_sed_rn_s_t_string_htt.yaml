@@ -1,0 +1,8 @@
+commandlinefu_id: 5890
+translator:
+  weibo: ''
+hide: true
+command: |-
+  get-ipsw(){ curl -s -L http://phobos.apple.com/version | sed -rn "s|[\t ]*<string>(http://appldnld\.apple\.com\.edgesuite\.net/content\.info\.apple\.com/iPhone[0-9]?/[^/]*/$1$2_$3_[A-Z0-9a-z]*_Restore\.ipsw)</string>|\1|p" | uniq; }
+summary: |-
+  Get iPhone OS firmware URL (.ipsw)

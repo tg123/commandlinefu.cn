@@ -1,0 +1,8 @@
+commandlinefu_id: 11167
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eix  --open -S log --and -S color  --close
+summary: |-
+  Fast and deep search query for any package in gentoo portage system

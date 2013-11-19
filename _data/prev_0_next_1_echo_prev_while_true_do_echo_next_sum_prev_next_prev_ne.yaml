@@ -1,0 +1,8 @@
+commandlinefu_id: 3364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  prev=0;next=1;echo $prev;while(true);do echo $next;sum=$(($prev+$next));prev=$next;next=$sum;sleep 1;done
+summary: |-
+  Fibonacci numbers with sh

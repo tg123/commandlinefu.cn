@@ -1,0 +1,8 @@
+commandlinefu_id: 315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psnup -4 -pa4 -Pa4 file.ps file2.ps
+summary: |-
+  printing with psnup

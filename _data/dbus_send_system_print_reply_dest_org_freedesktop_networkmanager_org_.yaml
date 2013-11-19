@@ -1,0 +1,8 @@
+commandlinefu_id: 6756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dbus-send --system --print-reply --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Enable boolean:true
+summary: |-
+  Enable NetworkManager (in KDE)

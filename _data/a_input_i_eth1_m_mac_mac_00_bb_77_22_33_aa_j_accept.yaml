@@ -1,0 +1,8 @@
+commandlinefu_id: 4755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  -A INPUT -i eth1 -m mac ?mac 00:BB:77:22:33:AA -j ACCEPT
+summary: |-
+  How to stop MAC Address via IPTables

@@ -1,0 +1,8 @@
+commandlinefu_id: 1886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -czvvf backup$(date "+%Y%m%d_%H%M%S").tar.gz /path/to/dir
+summary: |-
+  backup a directory in a timestamped tar.gz

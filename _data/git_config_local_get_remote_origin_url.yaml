@@ -1,0 +1,8 @@
+commandlinefu_id: 9393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git config --local --get remote.origin.url
+summary: |-
+  [git] Output remote origin from within a local repository

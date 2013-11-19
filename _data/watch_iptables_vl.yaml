@@ -1,0 +1,8 @@
+commandlinefu_id: 1559
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch 'iptables -vL'
+summary: |-
+  watch iptables counters

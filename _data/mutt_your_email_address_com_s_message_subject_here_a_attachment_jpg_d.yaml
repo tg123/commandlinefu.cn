@@ -1,0 +1,8 @@
+commandlinefu_id: 4317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mutt your@email_address.com -s "Message Subject Here" -a attachment.jpg </dev/null
+summary: |-
+  Send a local file via email

@@ -1,0 +1,8 @@
+commandlinefu_id: 10569
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hardlink -vpot .
+summary: |-
+  Hardlink all identical files in the current directory (regain some disk space)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo /home/foo/dir1/bar |  awk -F/ -v OFS=/ '{$3 = "dir2"}1'
+summary: |-
+  Change a specific value in a path

@@ -1,0 +1,8 @@
+commandlinefu_id: 12184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get install git gcc make libx11-dev libxtst-dev pkg-config -y && git clone https://github.com/hanschen/ksuperkey.git && cd ksuperkey && make && sudo mv ksuperkey /usr/bin/ksuperkey && cd ~ && rm -rf ksuperkey
+summary: |-
+  Installation Ksuperkey by one command in Kubuntu.

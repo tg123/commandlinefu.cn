@@ -1,0 +1,8 @@
+commandlinefu_id: 7730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum install fortune-firefly; fortune
+summary: |-
+  Firefly quotes

@@ -1,0 +1,8 @@
+commandlinefu_id: 2506
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep -v `whoami`
+summary: |-
+  Check processes runed not by you

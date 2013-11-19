@@ -1,0 +1,8 @@
+commandlinefu_id: 4666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname "*.jar" -exec cp '{}' /tmp/ \;
+summary: |-
+  Copy all JAR files to folder /tmp

@@ -1,0 +1,8 @@
+commandlinefu_id: 1738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vlc -vvv http://mafreebox.freebox.fr/freeboxtv/playlist.m3u --sout '#transcode{vcodec=mp2v,vb=384,scale=0.5,acodec=vorbis,ab=48,channels=1}:standard{access=http,mux=ogg,url=:12345}' -I ncurses 2> /dev/null
+summary: |-
+  Watch your freebox flux, through a other internet connection (for French users)

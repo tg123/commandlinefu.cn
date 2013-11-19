@@ -1,0 +1,8 @@
+commandlinefu_id: 6228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  DISPLAY=:0.0 XAUTHORITY=~/.Xauthority notify-send test
+summary: |-
+  Better way to use notify-send with at or cron

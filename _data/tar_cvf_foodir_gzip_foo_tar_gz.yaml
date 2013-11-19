@@ -1,0 +1,8 @@
+commandlinefu_id: 2217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvf - foodir | gzip > foo.tar.gz
+summary: |-
+  Create a tar.gz in a single command

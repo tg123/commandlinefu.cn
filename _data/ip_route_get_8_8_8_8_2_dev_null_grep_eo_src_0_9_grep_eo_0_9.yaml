@@ -1,0 +1,8 @@
+commandlinefu_id: 11375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip route get 8.8.8.8 2>/dev/null|grep -Eo 'src [0-9.]+'|grep -Eo '[0-9.]+'
+summary: |-
+  Grab IP address on machine with multiple interfaces

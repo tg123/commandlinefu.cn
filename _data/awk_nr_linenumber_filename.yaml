@@ -1,0 +1,8 @@
+commandlinefu_id: 5997
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'NR==linenumber' filename
+summary: |-
+  It outputs a given line from a file

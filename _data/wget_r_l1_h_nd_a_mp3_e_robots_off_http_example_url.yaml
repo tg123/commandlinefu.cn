@@ -1,0 +1,8 @@
+commandlinefu_id: 12498
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -l1 -H -nd -A mp3 -e robots=off http://example/url
+summary: |-
+  Download all music files off of a website using wget

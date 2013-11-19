@@ -1,0 +1,8 @@
+commandlinefu_id: 3515
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvlc  v4l2:// :vout-filter=transform :transform-type=vflip :v4l2-width=320 :v4l2-height=240 -f &
+summary: |-
+  Instant mirror from your laptop + webcam

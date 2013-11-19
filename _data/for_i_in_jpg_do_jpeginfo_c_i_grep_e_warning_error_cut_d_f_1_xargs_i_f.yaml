@@ -1,0 +1,8 @@
+commandlinefu_id: 2112
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *jpg; do jpeginfo -c $i | grep -E "WARNING|ERROR" | cut -d " " -f 1 | xargs -I '{}' find /mnt/sourcerep -name {} -type f -print0 | xargs -0 -I '{}' cp -f {} ./ ; done
+summary: |-
+  sync a directory of corrupted jpeg with a source directory

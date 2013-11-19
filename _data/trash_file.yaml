@@ -1,0 +1,8 @@
+commandlinefu_id: 4160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  trash <file>
+summary: |-
+  a trash function for bash

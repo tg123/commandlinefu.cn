@@ -1,0 +1,8 @@
+commandlinefu_id: 1361
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch /tmp/$$;for N in `seq -w  0 7777|grep -v [89]`; do    chmod $N /tmp/$$;    P=`ls -l /tmp/$$ | awk '{print $1}'`; echo $N $P; done;rm /tmp/$$
+summary: |-
+  Create a listing of all possible permissions and their octal representation.

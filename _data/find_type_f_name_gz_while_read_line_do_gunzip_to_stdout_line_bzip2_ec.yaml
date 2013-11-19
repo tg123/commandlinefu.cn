@@ -1,0 +1,8 @@
+commandlinefu_id: 12171
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*.gz" | while read line ; do gunzip --to-stdout "$line" | bzip2 > "$(echo $line | sed 's/gz$/bz2/g')" ; done
+summary: |-
+  Recompress all files in current directory from gzip to bzip2

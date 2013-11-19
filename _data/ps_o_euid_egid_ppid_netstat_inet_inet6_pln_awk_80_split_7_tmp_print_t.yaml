@@ -1,0 +1,8 @@
+commandlinefu_id: 7101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o euid,egid --ppid `netstat --inet --inet6 -pln|awk '/:80 / { split($7,tmp, "/"); print tmp[1]; }'`|sort |uniq|grep -v EUID
+summary: |-
+  Find the uid and gid of your apache process

@@ -1,0 +1,8 @@
+commandlinefu_id: 1809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -vN hostname 2>&1 | grep "remote software version"
+summary: |-
+  Get the version of sshd on a remote system

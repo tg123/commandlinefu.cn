@@ -1,0 +1,8 @@
+commandlinefu_id: 6278
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo $(( 1+1 ))
+summary: |-
+  计算 1+1

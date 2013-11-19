@@ -1,0 +1,8 @@
+commandlinefu_id: 4
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | wc -l
+summary: |-
+  Count files beneath current directory (including subfolders)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  f(){ if [ "$PWD" != "$LPWD" ];then LPWD="$PWD"; tmux rename-window ${PWD//*\//}; fi }; export PROMPT_COMMAND=f;
+summary: |-
+  Automatically rename tmux window using the current working directory

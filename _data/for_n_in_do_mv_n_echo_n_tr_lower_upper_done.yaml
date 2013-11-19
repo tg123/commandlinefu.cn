@@ -1,0 +1,8 @@
+commandlinefu_id: 5913
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  for n in * ; do mv $n `echo $n | tr '[:lower:]' '[:upper:]'`; done
+summary: |-
+  将文件名转化为大写

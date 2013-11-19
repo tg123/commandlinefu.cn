@@ -1,0 +1,8 @@
+commandlinefu_id: 9411
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jd() { cd **/"$@"; }
+summary: |-
+  Jump to any directory below the current one

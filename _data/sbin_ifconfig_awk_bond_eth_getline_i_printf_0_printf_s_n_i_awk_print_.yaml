@@ -1,0 +1,8 @@
+commandlinefu_id: 11419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/ifconfig |awk '/bond|eth/{getline i;printf $0" ";printf "%s\n", i" "}'|awk '{print $1,substr($7,6)}'
+summary: |-
+  Aligns NIC device names and associated IPs.

@@ -1,0 +1,8 @@
+commandlinefu_id: 3024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host -t a dartsclink.com | sed 's/.*has address //'
+summary: |-
+  return external ip

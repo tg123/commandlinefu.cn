@@ -1,0 +1,8 @@
+commandlinefu_id: 8959
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d|xargs tar rf ~/dirstructure.tar --no-recursion
+summary: |-
+  Create a tar of directory structure only

@@ -1,0 +1,8 @@
+commandlinefu_id: 7297
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O gsplitter.crx "https://clients2.google.com/service/update2/crx?response=redirect&x=id%3Dlnlfpoefmdfplomdfppalohfbmlapjjo%26uc%26lang%3Den-US&prod=chrome&prodversion=8.0.552.224" ; google-chrome --load-extension gspliter.crx
+summary: |-
+  Execute extension with chrome

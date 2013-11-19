@@ -1,0 +1,8 @@
+commandlinefu_id: 6876
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ontouchdo(){ while :; do a=$(stat -c%Y "$1"); [ "$b" != "$a" ] && b="$a" && sh -c "$2"; sleep 1; done }
+summary: |-
+  run a command whenever a file is touched

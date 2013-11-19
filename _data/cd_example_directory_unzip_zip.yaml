@@ -1,0 +1,8 @@
+commandlinefu_id: 2636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /example/directory && unzip \*.zip
+summary: |-
+  unzip all .zip files in /example/directory

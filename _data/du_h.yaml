@@ -1,0 +1,8 @@
+commandlinefu_id: 12199
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h
+summary: |-
+  -h  means  human readable

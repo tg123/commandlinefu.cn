@@ -1,0 +1,8 @@
+commandlinefu_id: 6247
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  exec 2>&1
+summary: |-
+  在脚本中全局配置 stderr 到 stdout

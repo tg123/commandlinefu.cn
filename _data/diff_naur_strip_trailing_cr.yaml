@@ -1,0 +1,8 @@
+commandlinefu_id: 7843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -Naur --strip-trailing-cr
+summary: |-
+  Probably, most frequent use of diff

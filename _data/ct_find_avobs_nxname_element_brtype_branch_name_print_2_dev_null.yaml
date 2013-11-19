@@ -1,0 +1,8 @@
+commandlinefu_id: 141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ct find -avobs -nxname -element 'brtype(branch_name)' -print 2>/dev/null
+summary: |-
+  Clearcase find branch

@@ -1,0 +1,8 @@
+commandlinefu_id: 7926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -Ls "http://support.dell.com/support/DPP/Index.aspx?c=us&cs=08W&l=en&s=biz&ServiceTag=$(dmidecode -s system-serial-number)"|egrep -i '>Your Warranty<|>Product Support for'|html2text -style pretty|egrep -v 'Request|View'|perl -pane 's/^(\s+|\})//g;'
+summary: |-
+  Get DELL Warranty Information from support.dell.com

@@ -1,0 +1,8 @@
+commandlinefu_id: 11790
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | wc -l
+summary: |-
+  Count all files in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 3436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for db in $(mysql -e 'show databases' -s --skip-column-names); do mysqldump $db | gzip > "/backups/mysqldump-$(hostname)-$db-$(date +%Y-%m-%d-%H.%M.%S).gz"; done
+summary: |-
+  Backup all MySQL Databases to individual files

@@ -1,0 +1,8 @@
+commandlinefu_id: 52
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -ao pcm -vo null -vc dummy -dumpaudio -dumpfile <output-file> <input-file>
+summary: |-
+  Rip audio from a video file.

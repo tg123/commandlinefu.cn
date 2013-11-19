@@ -1,0 +1,8 @@
+commandlinefu_id: 12082
+translator:
+  weibo: ''
+hide: true
+command: |-
+  utmpdump /var/log/wtmp
+summary: |-
+  shows history of logins on the server

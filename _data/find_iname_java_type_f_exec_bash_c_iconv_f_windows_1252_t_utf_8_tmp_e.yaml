@@ -1,0 +1,8 @@
+commandlinefu_id: 10035
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname *.java -type f -exec bash -c "iconv -f WINDOWS-1252 -t UTF-8 {}  > {}.tmp " \; -exec mv {}.tmp {} \;
+summary: |-
+  Convert encoding from cp1252 (MS Windows) to UTF-8 on source code files

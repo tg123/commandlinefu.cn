@@ -1,0 +1,8 @@
+commandlinefu_id: 6701
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w=`whereis <command> | awk '{print $2}'`; p=`pacman -Qo $w | sed -e 's/.*is owned by \([[:alpha:]]\+\).*/\1/'`; pacman -Ql $p | grep 'bin'
+summary: |-
+  archlinux: find more commands provided by the package owning some command

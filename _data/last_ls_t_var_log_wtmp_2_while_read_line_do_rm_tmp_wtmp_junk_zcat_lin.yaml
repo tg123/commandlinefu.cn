@@ -1,0 +1,8 @@
+commandlinefu_id: 5070
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( last ; ls -t /var/log/wtmp-2* | while read line ; do ( rm /tmp/wtmp-junk ; zcat $line 2>/dev/null || bzcat $line ) > /tmp/junk-wtmp ; last -f /tmp/junk-wtmp ; done ) | less
+summary: |-
+  See a full last history by expanding logrotated wtmp files

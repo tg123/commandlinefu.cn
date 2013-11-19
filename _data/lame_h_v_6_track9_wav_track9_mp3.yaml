@@ -1,0 +1,8 @@
+commandlinefu_id: 2279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lame -h -V 6 track9.wav track9.mp3
+summary: |-
+  create an mp3 with variable bitrate

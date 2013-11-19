@@ -1,0 +1,8 @@
+commandlinefu_id: 12502
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep enabled /sys/firmware/acpi/interrupts/*
+summary: |-
+  kworker issue. Phase one: find the culprit.

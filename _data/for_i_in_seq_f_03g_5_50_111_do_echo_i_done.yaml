@@ -1,0 +1,8 @@
+commandlinefu_id: 860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `seq -f %03g 5 50 111`; do echo $i ; done
+summary: |-
+  a for loop with filling 0 format, with seq

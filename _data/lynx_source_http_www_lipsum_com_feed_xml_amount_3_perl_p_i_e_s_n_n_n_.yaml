@@ -1,0 +1,8 @@
+commandlinefu_id: 5459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -source http://www.lipsum.com/feed/xml?amount=3|perl -p -i -e 's/\n/\n\n/g'|sed -n '/<lipsum>/,/<\/lipsum>/p'|sed -e 's/<[^>]*>//g'
+summary: |-
+  Get Lorum Ipsum random text from lorumipsum.com

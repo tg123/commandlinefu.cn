@@ -1,0 +1,8 @@
+commandlinefu_id: 5900
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for pid in `screen -ls | grep -v $STY | grep tached | awk '{print $1;}' | perl -nle '$_ =~ /^(\d+)/; print $1;'`; do screen -x $pid; done
+summary: |-
+  Iterate through screens

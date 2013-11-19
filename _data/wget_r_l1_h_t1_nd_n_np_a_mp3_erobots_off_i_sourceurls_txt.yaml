@@ -1,0 +1,8 @@
+commandlinefu_id: 1006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -l1 -H -t1 -nd -N -np -A.mp3 -erobots=off -i ~/sourceurls.txt
+summary: |-
+  Grab mp3 files from your favorite netcasts, mp3blog, or sites that often have good mp3s

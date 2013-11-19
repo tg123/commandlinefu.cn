@@ -1,0 +1,8 @@
+commandlinefu_id: 685
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rk='d=$(dcop|grep $PPID) && s=$(dcop $d konsole currentSession) && dcop $d $s renameSession'
+summary: |-
+  relabel current konsole tab

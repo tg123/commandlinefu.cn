@@ -1,0 +1,8 @@
+commandlinefu_id: 12081
+translator:
+  weibo: ''
+hide: true
+command: |-
+  print ${$(ifconfig wlan0)[6]}
+summary: |-
+  Filtering IP address from ifconfig usefule in scripts

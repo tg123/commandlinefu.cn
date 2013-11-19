@@ -1,0 +1,8 @@
+commandlinefu_id: 728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'example' | sed -e 's/^\(.\)/\U\1/'
+summary: |-
+  Convert the first character of a string to uppercase

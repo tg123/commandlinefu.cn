@@ -1,0 +1,8 @@
+commandlinefu_id: 10464
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -0 chmod -v gu=rw
+summary: |-
+  chmod only files

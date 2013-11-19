@@ -1,0 +1,8 @@
+commandlinefu_id: 4042
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for F in $(find ./ -name "*.tgz") ; do tar -tvzf $F ; done
+summary: |-
+  List files in tarballs

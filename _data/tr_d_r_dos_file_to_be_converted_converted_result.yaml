@@ -1,0 +1,8 @@
+commandlinefu_id: 10338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -d '\r' <dos_file_to_be_converted >converted_result
+summary: |-
+  Stripping ^M at end of each line for files

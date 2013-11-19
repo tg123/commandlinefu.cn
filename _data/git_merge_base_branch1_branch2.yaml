@@ -1,0 +1,8 @@
+commandlinefu_id: 387
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git merge-base branch1 branch2
+summary: |-
+  git branch point

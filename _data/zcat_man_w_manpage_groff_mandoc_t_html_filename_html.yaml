@@ -1,0 +1,8 @@
+commandlinefu_id: 10838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zcat `man -w manpage` | groff -mandoc -T html - > filename.html
+summary: |-
+  save manpage as html file

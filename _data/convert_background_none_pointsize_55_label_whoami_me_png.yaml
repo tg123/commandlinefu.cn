@@ -1,0 +1,8 @@
+commandlinefu_id: 9202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert  -background none -pointsize 55  label:"`whoami`" me.png
+summary: |-
+  Text to image with transparent background

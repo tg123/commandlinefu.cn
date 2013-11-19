@@ -1,0 +1,8 @@
+commandlinefu_id: 3774
+translator:
+  weibo: ''
+hide: true
+command: |-
+  a=($(ls *html)) && a=${a[$(expr ${#a[@]} - 1)]} && rm $a
+summary: |-
+  remove the last of all html files in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 8529
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{x+=$2; y+=$3} NR%5==0{print x/5,y/5; x=y=0}' file.txt
+summary: |-
+  group every five lines

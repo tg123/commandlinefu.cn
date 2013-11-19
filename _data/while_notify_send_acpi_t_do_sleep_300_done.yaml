@@ -1,0 +1,8 @@
+commandlinefu_id: 8774
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while notify-send "`acpi -t`"; do sleep 300; done
+summary: |-
+  Use acpi and notify-send to report current temperature every five minutes.

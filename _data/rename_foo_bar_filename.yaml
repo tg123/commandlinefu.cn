@@ -1,0 +1,8 @@
+commandlinefu_id: 8417
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename foo bar filename
+summary: |-
+  Rename all files which contain the sub-string 'foo', replacing it with 'bar'

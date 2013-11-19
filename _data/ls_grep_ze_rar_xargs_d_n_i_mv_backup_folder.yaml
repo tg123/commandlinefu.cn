@@ -1,0 +1,8 @@
+commandlinefu_id: 11086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | grep -Ze ".*rar" | xargs -d '\n' -I {} mv {} backup-folder
+summary: |-
+  Using Grep & Xargs to clean folders

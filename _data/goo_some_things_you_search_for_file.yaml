@@ -1,0 +1,8 @@
+commandlinefu_id: 9229
+translator:
+  weibo: ''
+hide: true
+command: |-
+  goo some things you search for < file
+summary: |-
+  grep for a list of values and list matching values NOT matching lines each time they match

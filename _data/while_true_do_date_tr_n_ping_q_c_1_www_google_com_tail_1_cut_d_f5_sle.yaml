@@ -1,0 +1,8 @@
+commandlinefu_id: 11853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do (date | tr "\n" ";") && ping -q -c 1 www.google.com|tail -1|cut -d/ -f5 ;sleep 1; done >> uptime.csv
+summary: |-
+  csv file of ping every minutes

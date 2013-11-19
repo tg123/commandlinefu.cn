@@ -1,0 +1,8 @@
+commandlinefu_id: 3431
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time echo 'n=70332;m=(n+1)/2;a=0;b=1;i=0;while(m){e[i++]=m%2;m/=2};while(i--){c=a*a;a=c+2*a*b;b=c+b*b;if(e[i]){t=a;a+=b;b=t}};if(n%2)a*a+b*b;if(!n%2)a*(a+2*b)' | bc
+summary: |-
+  The absolutely fastest nth fibonacci number

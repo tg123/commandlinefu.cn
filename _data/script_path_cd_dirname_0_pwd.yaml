@@ -1,0 +1,8 @@
+commandlinefu_id: 3787
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  script_path=$(cd $(dirname $0);pwd)
+summary: |-
+  脚本的绝对路径

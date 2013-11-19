@@ -1,0 +1,8 @@
+commandlinefu_id: 5413
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN{IGNORECASE=1;FS="<title>|</title>";RS=EOF} {print $2}' file.html
+summary: |-
+  Extract title from HTML files

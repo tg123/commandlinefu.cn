@@ -1,0 +1,8 @@
+commandlinefu_id: 1643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -c $((<pw-lenght>-2)) /dev/urandom | uuencode -m - | sed -e '1d' -e '3d' | sed -e 's/=.*$//g'
+summary: |-
+  Creates a random passwort from /dev/urandom [0-9A-za-z]

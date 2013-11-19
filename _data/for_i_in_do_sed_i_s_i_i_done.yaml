@@ -1,0 +1,8 @@
+commandlinefu_id: 10401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *; do sed -i "s/^/$i: /" $i; done
+summary: |-
+  Prefix file contents with filename

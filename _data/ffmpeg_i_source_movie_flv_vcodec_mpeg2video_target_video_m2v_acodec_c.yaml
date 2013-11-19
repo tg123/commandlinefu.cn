@@ -1,0 +1,8 @@
+commandlinefu_id: 2283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i source_movie.flv -vcodec mpeg2video target_video.m2v -acodec copy target_audio.mp3
+summary: |-
+  extracting audio and video from a movie

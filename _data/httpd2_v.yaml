@@ -1,0 +1,8 @@
+commandlinefu_id: 3247
+translator:
+  weibo: ''
+hide: true
+command: |-
+  httpd2 -V
+summary: |-
+  To find how Apache has been compiled from commandline

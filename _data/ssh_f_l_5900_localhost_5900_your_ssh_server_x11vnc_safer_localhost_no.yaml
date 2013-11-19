@@ -1,0 +1,8 @@
+commandlinefu_id: 7448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -f -L 5900:localhost:5900 your.ssh.server "x11vnc -safer -localhost -nopw -once -display :0"; vinagre localhost:5900
+summary: |-
+  Single use vnc-over-ssh connection

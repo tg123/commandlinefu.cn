@@ -1,0 +1,8 @@
+commandlinefu_id: 7536
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/sdb | pigz | gpg -r <recipient1> -r <recipient2> -e --homedir /home/to/.gnupg | nc remote_machine 6969
+summary: |-
+  Efficient remote forensic disk acquisition gpg-crypted for multiple recipients

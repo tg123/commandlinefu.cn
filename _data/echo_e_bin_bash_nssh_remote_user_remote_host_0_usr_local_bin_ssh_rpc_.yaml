@@ -1,0 +1,8 @@
+commandlinefu_id: 9960
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e '#!/bin/bash\nssh remote-user@remote-host $0 "$@"' >> /usr/local/bin/ssh-rpc; chmod +x /usr/local/bin/ssh-rpc; ln -s hostname /usr/local/bin/ssh-rpc; hostname
+summary: |-
+  SSH RPC (transparently run command on remote host)

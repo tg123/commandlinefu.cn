@@ -1,0 +1,8 @@
+commandlinefu_id: 1033
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i video.avi -f mp3 audio.mp3
+summary: |-
+  Extract audio from a video

@@ -1,0 +1,8 @@
+commandlinefu_id: 10280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  testt(){ o=abcdefghLkprsStuwxOGN;echo $@;for((i=0;i<${#o};i++));do c=${o:$i:1};test -$c $1 && help test | sed "/^ *-$c/!d;1q;s/^[^T]*/-$c /;s/ if/ -/";done; }
+summary: |-
+  View all file operator expressions for any file, test, stat

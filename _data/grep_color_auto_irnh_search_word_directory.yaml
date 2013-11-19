@@ -1,0 +1,8 @@
+commandlinefu_id: 1144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep --color=auto -iRnH "$search_word" $directory
+summary: |-
+  Grep for word in directory (recursive)

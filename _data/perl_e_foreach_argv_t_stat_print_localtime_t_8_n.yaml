@@ -1,0 +1,8 @@
+commandlinefu_id: 5654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'foreach (@ARGV) {@T=stat($_); print localtime($T[8])." - ".$_."\n"}'
+summary: |-
+  Print time and year of file in Solaris (or other Unix ls command that does not have a simple

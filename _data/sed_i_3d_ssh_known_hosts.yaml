@@ -1,0 +1,8 @@
+commandlinefu_id: 8527
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 3d ~/.ssh/known_hosts
+summary: |-
+  delete a particular line by line number in file

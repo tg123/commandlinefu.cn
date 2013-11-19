@@ -1,0 +1,8 @@
+commandlinefu_id: 4249
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail $0 >> $0
+summary: |-
+  Fill up disk space (for testing)

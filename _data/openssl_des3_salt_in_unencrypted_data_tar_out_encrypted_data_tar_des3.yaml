@@ -1,0 +1,8 @@
+commandlinefu_id: 3696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl des3 -salt -in unencrypted-data.tar -out encrypted-data.tar.des3
+summary: |-
+  Encrypted archive with openssl and tar

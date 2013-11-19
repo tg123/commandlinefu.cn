@@ -1,0 +1,8 @@
+commandlinefu_id: 1376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  some_cronjobed_script.sh 2>&1 | tee -a output.log | grep -C 1000 ERROR
+summary: |-
+  Log output from a cronjob to a file, but also e-mail if a string is found

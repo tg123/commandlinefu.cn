@@ -1,0 +1,8 @@
+commandlinefu_id: 5846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  L(){ l=`builtin printf %${2:-$COLUMNS}s` && echo -e "${l// /${1:-=}}"; }
+summary: |-
+  PRINT LINE the width of screen or specified using any char including Colors, Escapes and metachars

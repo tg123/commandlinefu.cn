@@ -1,0 +1,8 @@
+commandlinefu_id: 4958
+translator:
+  weibo: ''
+hide: true
+command: |-
+  feh -d -F -z -D 1 *
+summary: |-
+  Slideshow of images in the current folder

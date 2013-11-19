@@ -1,0 +1,8 @@
+commandlinefu_id: 973
+translator:
+  weibo: ''
+hide: true
+command: |-
+  trap "echo \"$0 process $$ killed on $(date).\" | tee ${0##*/}_$$_termination.log; echo 'Active processes at the time were logged to ${0##*/}_$$_termination.log'; ps u >> ${0##*/}_$$_termination.log; exit " HUP INT QUIT ABRT TERM STOP
+summary: |-
+  A signal trap that logs when your script was killed and what other processes were running at that time

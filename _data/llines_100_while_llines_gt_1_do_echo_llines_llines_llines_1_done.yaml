@@ -1,0 +1,8 @@
+commandlinefu_id: 2039
+translator:
+  weibo: ''
+hide: true
+command: |-
+  _llines=100; while [ $_llines -gt 1 ]; do echo $_llines; _llines=$(($_llines-1)); done
+summary: |-
+  Quickly determine lines in terminal

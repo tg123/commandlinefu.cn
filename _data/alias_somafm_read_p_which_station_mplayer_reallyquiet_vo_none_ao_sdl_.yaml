@@ -1,0 +1,8 @@
+commandlinefu_id: 2090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias somafm='read -p "Which station? "; mplayer --reallyquiet -vo none -ao sdl http://somafm.com/startstream=${REPLY}.pls'
+summary: |-
+  Bash Alias That Plays Music from SomaFM

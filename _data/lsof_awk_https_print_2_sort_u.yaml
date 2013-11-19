@@ -1,0 +1,8 @@
+commandlinefu_id: 7795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof | awk '/*:https?/{print $2}' | sort -u
+summary: |-
+  pid list by httpd listen port

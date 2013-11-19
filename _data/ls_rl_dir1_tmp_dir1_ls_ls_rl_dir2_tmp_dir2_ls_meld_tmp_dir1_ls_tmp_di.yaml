@@ -1,0 +1,8 @@
+commandlinefu_id: 10365
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Rl dir1/ > /tmp/dir1.ls; ls -Rl dir2/ > /tmp/dir2.ls; meld /tmp/dir1.ls /tmp/dir2.ls
+summary: |-
+  Quick and dirty recursive directory comparison

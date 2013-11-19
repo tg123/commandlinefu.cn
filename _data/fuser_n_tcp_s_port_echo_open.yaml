@@ -1,0 +1,8 @@
+commandlinefu_id: 8076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fuser -n tcp -s <port> && echo "+open"
+summary: |-
+  determine if tcp port is open

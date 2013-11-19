@@ -1,0 +1,8 @@
+commandlinefu_id: 10057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount|grep -e '//'|cut -d ' ' -f3| xargs -I {} umount {}
+summary: |-
+  Unmount all mounted SAMBA/Windows shares

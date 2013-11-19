@@ -1,0 +1,8 @@
+commandlinefu_id: 2943
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk /./ filename
+summary: |-
+  Remove newlines from output

@@ -1,0 +1,8 @@
+commandlinefu_id: 3367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -regex '.*\(h\|cpp\)'
+summary: |-
+  Finding files with different extensions

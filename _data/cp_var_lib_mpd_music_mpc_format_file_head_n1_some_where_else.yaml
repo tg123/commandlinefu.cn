@@ -1,0 +1,8 @@
+commandlinefu_id: 6506
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp "/var/lib/mpd/music/`mpc --format '%file%' | head -n1`" /some/where/else
+summary: |-
+  Copy the currently playing song in MPD to somewhere else

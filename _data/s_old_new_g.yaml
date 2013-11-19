@@ -1,0 +1,8 @@
+commandlinefu_id: 1296
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%s/old/new/g
+summary: |-
+  replace a character/word/string in a file using vim

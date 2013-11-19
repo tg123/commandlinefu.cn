@@ -1,0 +1,8 @@
+commandlinefu_id: 593
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sh ~/.bash_history > /dev/null 2>&1
+summary: |-
+  A funny command

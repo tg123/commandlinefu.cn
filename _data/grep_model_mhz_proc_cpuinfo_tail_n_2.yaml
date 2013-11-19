@@ -1,0 +1,8 @@
+commandlinefu_id: 7036
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep 'model\|MHz' /proc/cpuinfo  |tail -n 2
+summary: |-
+  List the CPU model name

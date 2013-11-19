@@ -1,0 +1,8 @@
+commandlinefu_id: 10814
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shnsplit -o flac -t "%n - %t - %a" -f sample.cue sample.flac
+summary: |-
+  Converts a single FLAC file with associated cue file into multiple FLAC files

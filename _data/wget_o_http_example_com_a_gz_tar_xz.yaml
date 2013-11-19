@@ -1,0 +1,8 @@
+commandlinefu_id: 4390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O - http://example.com/a.gz | tar xz
+summary: |-
+  Extract tarball from internet without local saving

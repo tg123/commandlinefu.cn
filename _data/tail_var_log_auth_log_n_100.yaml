@@ -1,0 +1,8 @@
+commandlinefu_id: 8552
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail /var/log/auth.log -n 100
+summary: |-
+  View last 100 lines of your SSH log

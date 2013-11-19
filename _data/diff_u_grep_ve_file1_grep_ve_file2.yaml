@@ -1,0 +1,8 @@
+commandlinefu_id: 11883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -u <(grep -vE '^(#|$)' file1) <(grep -vE '^(#|$)' file2)
+summary: |-
+  diff files ignoring comments and blank lines (lines starting with #)

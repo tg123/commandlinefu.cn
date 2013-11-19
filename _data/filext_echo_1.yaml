@@ -1,0 +1,8 @@
+commandlinefu_id: 9529
+translator:
+  weibo: ''
+hide: true
+command: |-
+  filext () { echo ${1##*.}; }
+summary: |-
+  Extract extention of a file

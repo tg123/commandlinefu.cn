@@ -1,0 +1,8 @@
+commandlinefu_id: 11878
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff --name-only --diff-filter=AMXTCR HEAD~2 HEAD | xargs -l -I{}  cp --parents --verbose "{}" target_dir
+summary: |-
+  Copy modified files between two Git commits

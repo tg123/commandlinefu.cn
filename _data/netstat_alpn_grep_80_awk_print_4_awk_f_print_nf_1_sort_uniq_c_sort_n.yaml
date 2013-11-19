@@ -1,0 +1,8 @@
+commandlinefu_id: 1011
+translator:
+  weibo: ''
+hide: true
+command: "netstat -alpn | grep :80 | awk '{print $4}' |awk -F: '{print $(NF-1)}' |sort\
+  \ | \nuniq -c | sort -n"
+summary: |-
+  Checking total connections to each Ip inserver

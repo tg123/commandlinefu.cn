@@ -1,0 +1,8 @@
+commandlinefu_id: 3962
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "GET /automation/n09230945.asp HTTP/1.0\r\nHost: whatismyip.com\r\n" | nc whatismyip.com 80 | tail -n1
+summary: |-
+  Get your external IP address

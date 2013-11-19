@@ -1,0 +1,8 @@
+commandlinefu_id: 3670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -A
+summary: |-
+  List dot-files and dirs, but not . or ..

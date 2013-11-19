@@ -1,0 +1,8 @@
+commandlinefu_id: 12274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -a \! -links 1
+summary: |-
+  Print a list of all hardlinks in the working directory, recursively

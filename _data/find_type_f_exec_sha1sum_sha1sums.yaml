@@ -1,0 +1,8 @@
+commandlinefu_id: 3707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec sha1sum {} >> SHA1SUMS \;
+summary: |-
+  Generate SHA1 hash for each file in a list

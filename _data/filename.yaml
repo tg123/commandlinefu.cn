@@ -1,0 +1,8 @@
+commandlinefu_id: 8477
+translator:
+  weibo: ''
+hide: true
+command: |-
+  > [filename]
+summary: |-
+  Empty a file of contents

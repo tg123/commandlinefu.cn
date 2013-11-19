@@ -1,0 +1,8 @@
+commandlinefu_id: 4801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/bin/links --source http://weather.noaa.gov/pub/data/forecasts/zone/md/mdz009.txt
+summary: |-
+  Status of Snow Armageddon in Washington DC Metro from the command line...

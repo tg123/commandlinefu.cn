@@ -1,0 +1,8 @@
+commandlinefu_id: 9241
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo chown -R nobody:admin /Applications/XAMPP/xamppfiles/htdocs/
+summary: |-
+  recursive permission set for xampp apache user nobody

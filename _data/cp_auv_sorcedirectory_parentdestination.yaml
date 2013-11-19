@@ -1,0 +1,8 @@
+commandlinefu_id: 10364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -auv /SorceDirectory/ /ParentDestination/
+summary: |-
+  Copy files for backup storage

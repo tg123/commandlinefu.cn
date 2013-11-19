@@ -1,0 +1,8 @@
+commandlinefu_id: 10148
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '1d;$d' filename
+summary: |-
+  delete first and last line from file

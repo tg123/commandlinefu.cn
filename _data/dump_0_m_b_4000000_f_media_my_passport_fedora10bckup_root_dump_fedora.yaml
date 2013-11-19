@@ -1,0 +1,8 @@
+commandlinefu_id: 2546
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dump -0 -M -B 4000000 -f /media/My\ Passport/Fedora10bckup/root_dump_fedora -z2 /
+summary: |-
+  Dump the root directory to an external hard drive

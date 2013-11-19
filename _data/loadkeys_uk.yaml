@@ -1,0 +1,8 @@
+commandlinefu_id: 3534
+translator:
+  weibo: ''
+hide: true
+command: |-
+  loadkeys uk
+summary: |-
+  Change the console keyboard layout

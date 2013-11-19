@@ -1,0 +1,8 @@
+commandlinefu_id: 2861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch $2;firefox -print $1 -printmode PDF -printfile $2
+summary: |-
+  convert a web page into a pdf

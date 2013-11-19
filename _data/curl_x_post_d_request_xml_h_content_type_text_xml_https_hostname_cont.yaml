@@ -1,0 +1,8 @@
+commandlinefu_id: 7639
+translator:
+  weibo: tgic
+hide: false
+command: |
+  curl -X POST -d @request.xml -H 'Content-Type: text/xml' https://hostname/context/service
+summary: |-
+  curl请求rest服务的方法

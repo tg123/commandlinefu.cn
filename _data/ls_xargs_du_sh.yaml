@@ -1,0 +1,8 @@
+commandlinefu_id: 4312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | xargs du -sh
+summary: |-
+  List the size (in human readable form) of all sub folders from the current location

@@ -1,0 +1,8 @@
+commandlinefu_id: 8871
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ssh -C USER@HOST tar -c --exclude /proc --exclude /sys / | tar -x
+summary: |-
+  通过ssh 备份整个系统

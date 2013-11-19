@@ -1,0 +1,8 @@
+commandlinefu_id: 10162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  REJECT_RULE_NO=$(iptables -L RH-Firewall-1-INPUT --line-numbers | grep 'REJECT' | awk '{print $1}');/sbin/iptables -I RH-Firewall-1-INPUT $REJECT_RULE_NO -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT -m comment --comment "Permit HTTP Service"
+summary: |-
+  Add an iptables rule on RH/CentOs before the reject

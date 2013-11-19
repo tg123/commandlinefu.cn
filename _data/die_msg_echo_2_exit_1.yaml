@@ -1,0 +1,8 @@
+commandlinefu_id: 10303
+translator:
+  weibo: ''
+hide: true
+command: |-
+  die_msg() { echo $@ >&2; exit -1; }
+summary: |-
+  Basic Shell function die_msg

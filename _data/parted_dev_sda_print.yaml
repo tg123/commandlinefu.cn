@@ -1,0 +1,8 @@
+commandlinefu_id: 10841
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parted /dev/sda print
+summary: |-
+  See size of partitions as human readable

@@ -1,0 +1,8 @@
+commandlinefu_id: 11819
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort file.txt | uniq -c | sort -k1nr -k2d
+summary: |-
+  Count unique lines in file sorted by instance count (descending) and alphabetically (ascending)

@@ -1,0 +1,8 @@
+commandlinefu_id: 252
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file.txt|perl -ne '$_=~s/\s+/\n/g; print $_;'
+summary: |-
+  Replace spaces with newlines

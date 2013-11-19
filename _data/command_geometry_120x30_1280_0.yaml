@@ -1,0 +1,8 @@
+commandlinefu_id: 3658
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command -geometry 120x30+1280+0
+summary: |-
+  Open your application to a specific size and location

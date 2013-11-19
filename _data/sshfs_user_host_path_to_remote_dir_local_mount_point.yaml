@@ -1,0 +1,8 @@
+commandlinefu_id: 11354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshfs user@host:/path/to/remote/dir local-mount-point
+summary: |-
+  mount remote directory

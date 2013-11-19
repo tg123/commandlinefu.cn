@@ -1,0 +1,8 @@
+commandlinefu_id: 5866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  </dev/urandom tr -dc '12345!@#$%qwertQWERTasdfgASDFGzxcvbZXCVB' | head -c8; echo ""
+summary: |-
+  Generate a random left-hand password

@@ -1,0 +1,8 @@
+commandlinefu_id: 12110
+translator:
+  weibo: ''
+hide: true
+command: |-
+  synclient TouchPadOff=1
+summary: |-
+  disable touchpad

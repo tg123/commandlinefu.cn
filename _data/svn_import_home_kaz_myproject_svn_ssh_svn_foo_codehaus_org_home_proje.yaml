@@ -1,0 +1,8 @@
+commandlinefu_id: 10767
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn import /home/kaz/myproject svn+ssh://svn.FOO.codehaus.org/home/projects/FOO/scm/project1/trunk
+summary: |-
+  import a new set of files located in a local directory into a remote Subversion repository

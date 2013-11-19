@@ -1,0 +1,8 @@
+commandlinefu_id: 2014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -d '2 weeks ago'
+summary: |-
+  Date shows dates at other times/dates

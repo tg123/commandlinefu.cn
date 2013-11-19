@@ -1,0 +1,8 @@
+commandlinefu_id: 10149
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sed -i -e '/^#[^!].*/d' -e 's/\(.*[^!]\)#.*[^}]/\1/' <filename>
+summary: |-
+  清除文件中的注释

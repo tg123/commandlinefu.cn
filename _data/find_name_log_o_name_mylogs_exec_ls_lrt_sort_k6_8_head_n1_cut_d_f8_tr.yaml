@@ -1,0 +1,8 @@
+commandlinefu_id: 2143
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find / \( -name "*.log" -o -name "*.mylogs" \) -exec ls -lrt {} \; | sort -k6,8 | head -n1 | cut -d" " -f8- | tr -d '\n' | xargs -0 rm
+summary: |-
+  在目录找到最老的某类型文件

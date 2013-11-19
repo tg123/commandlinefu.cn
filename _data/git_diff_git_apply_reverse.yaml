@@ -1,0 +1,8 @@
+commandlinefu_id: 10750
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff | git apply --reverse
+summary: |-
+  revert the unstaged modifications in a git working directory

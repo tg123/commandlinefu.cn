@@ -1,0 +1,8 @@
+commandlinefu_id: 730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall nautilus
+summary: |-
+  Restart nautilus

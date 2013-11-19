@@ -1,0 +1,8 @@
+commandlinefu_id: 9246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tn | awk 'NR>2 {print $6}' | sort | uniq -c | sort -rn
+summary: |-
+  Quick network status of machine

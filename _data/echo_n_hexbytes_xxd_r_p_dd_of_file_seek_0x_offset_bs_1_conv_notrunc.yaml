@@ -1,0 +1,8 @@
+commandlinefu_id: 1449
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n $HEXBYTES | xxd -r -p | dd of=$FILE seek=$((0x$OFFSET)) bs=1 conv=notrunc
+summary: |-
+  Binary injection

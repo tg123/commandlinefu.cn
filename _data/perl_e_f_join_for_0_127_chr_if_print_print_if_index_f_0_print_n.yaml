@@ -1,0 +1,8 @@
+commandlinefu_id: 10004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e '$f = join("", <>); for (0..127) {$_ = chr($_); if (/[[:print:]]/) {print if index($f, $_) < 0}} print "\n"'
+summary: |-
+  Delimiter Hunting

@@ -1,0 +1,8 @@
+commandlinefu_id: 11690
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -aHAXxv --numeric-ids --delete --progress -e "ssh -T -c arcfour -o Compression=no -x" user@<source>:<source_dir> <dest_dir>
+summary: |-
+  The fastest remote directory rsync over ssh archival I can muster (40MB/s over 1gb NICs)

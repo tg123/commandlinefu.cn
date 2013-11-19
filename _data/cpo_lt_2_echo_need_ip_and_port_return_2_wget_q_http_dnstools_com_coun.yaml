@@ -1,0 +1,8 @@
+commandlinefu_id: 9357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cpo(){ [[ $# -lt 2 ]] && echo 'need IP and port' && return 2; [[ `wget -q "http://dnstools.com/?count=3&checkp=on&portNum=$2&target=$1&submit=Go\!" -O - |grep -ic "Connected successfully to port $2"` -gt 0 ]] && return 0 || return 1; }
+summary: |-
+  Check if a remote port is up using dnstools.com (i.e. from behind a firewall/proxy)

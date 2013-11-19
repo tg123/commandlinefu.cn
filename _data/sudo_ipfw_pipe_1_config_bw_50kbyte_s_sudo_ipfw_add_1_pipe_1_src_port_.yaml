@@ -1,0 +1,8 @@
+commandlinefu_id: 2547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ipfw pipe 1 config bw 50KByte/s;sudo ipfw add 1 pipe 1 src-port 80
+summary: |-
+  Throttling Bandwidth On A Mac

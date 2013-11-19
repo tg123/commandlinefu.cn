@@ -1,0 +1,8 @@
+commandlinefu_id: 3802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n 5p <file>
+summary: |-
+  To print a specific line from a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 8782
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dirname `pwd`
+summary: |-
+  Get parent directory path

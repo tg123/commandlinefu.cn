@@ -1,0 +1,8 @@
+commandlinefu_id: 12304
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim +143 filename.txt
+summary: |-
+  Go to a specified line in a file

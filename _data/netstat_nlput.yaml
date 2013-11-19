@@ -1,0 +1,8 @@
+commandlinefu_id: 12299
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -nlput
+summary: |-
+  Prints tcp and udp connections

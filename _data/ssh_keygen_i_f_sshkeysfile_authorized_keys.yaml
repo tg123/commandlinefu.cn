@@ -1,0 +1,8 @@
+commandlinefu_id: 155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -i -f $sshkeysfile >> authorized_keys
+summary: |-
+  Convert an ssh2 public key to openssh format

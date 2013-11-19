@@ -1,0 +1,8 @@
+commandlinefu_id: 2665
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -rc logged_in app/ | cut -d : -f 2 | awk '{sum+=$1} END {print sum}'
+summary: |-
+  count how many times a string appears in a (source code) tree

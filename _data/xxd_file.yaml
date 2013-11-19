@@ -1,0 +1,8 @@
+commandlinefu_id: 9231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xxd <file>
+summary: |-
+  print all characters of a file using hexdump

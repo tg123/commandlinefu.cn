@@ -1,0 +1,8 @@
+commandlinefu_id: 4677
+translator:
+  weibo: ''
+hide: true
+command: |-
+  numsum count.txt
+summary: |-
+  Using numsum to sum a column of numbers.

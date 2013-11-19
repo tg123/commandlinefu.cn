@@ -1,0 +1,8 @@
+commandlinefu_id: 10516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dng(){ local a;a=$(sed '/'"$1"'/!d' /etc/hosts |sed '=;'"${2-1,$}"'!d'|sed '/ /!d');echo $a|tr '\040' '\n'|nl -bp'[0-9]$'|less -E;export dn=$(echo $a|sed 's,.* ,,');export ip=$(echo $a|sed 's, .*,,');echo \$dn=$dn;echo \$ip=$ip;}
+summary: |-
+  hostgrep: set ip and hostname from /etc/hosts (non-DNS)

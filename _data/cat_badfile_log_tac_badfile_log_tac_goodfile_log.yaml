@@ -1,0 +1,8 @@
+commandlinefu_id: 1962
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( cat badfile.log ; tac badfile.log | tac ) > goodfile.log
+summary: |-
+  restoring some data from a corrupted text file

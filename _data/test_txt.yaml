@@ -1,0 +1,8 @@
+commandlinefu_id: 3109
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :!>test.txt
+summary: |-
+  Emptying a text file in one shot in VIM

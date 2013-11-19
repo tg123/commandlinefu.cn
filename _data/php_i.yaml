@@ -1,0 +1,8 @@
+commandlinefu_id: 6887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -i
+summary: |-
+  phpinfo from the command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 7585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /name/of/dir/ -name '*.txt' | xargs grep 'text I am searching for'
+summary: |-
+  search for text in files. recursive.

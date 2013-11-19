@@ -1,0 +1,8 @@
+commandlinefu_id: 4237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  display http://dilbert.com$(curl -s dilbert.com|grep -Po '"\K/dyn/str_strip(/0+){4}/.*strip.[^\.]*\.gif')
+summary: |-
+  Display Dilbert strip of the day

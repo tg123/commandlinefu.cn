@@ -1,0 +1,8 @@
+commandlinefu_id: 2480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.sql" -print0 | wc -l --files0-from=-
+summary: |-
+  Get lines count of a list of files

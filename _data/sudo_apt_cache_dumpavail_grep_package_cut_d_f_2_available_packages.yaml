@@ -1,0 +1,8 @@
+commandlinefu_id: 12348
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-cache dumpavail | grep Package | cut -d ' ' -f 2 > available.packages
+summary: |-
+  Get all available packages on Ubuntu (or any distro that uses apt)

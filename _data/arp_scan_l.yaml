@@ -1,0 +1,8 @@
+commandlinefu_id: 3268
+translator:
+  weibo: ''
+hide: true
+command: |-
+  arp-scan -l
+summary: |-
+  find all active IP addresses in a network

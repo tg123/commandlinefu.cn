@@ -1,0 +1,8 @@
+commandlinefu_id: 12867
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl ipinfo.io
+summary: |-
+  return external ip

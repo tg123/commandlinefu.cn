@@ -1,0 +1,8 @@
+commandlinefu_id: 918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  install -o user -g group -m 755 /path/to/file /path/to/dir/
+summary: |-
+  Copy a file and force owner/group/mode

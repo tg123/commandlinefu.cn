@@ -1,0 +1,8 @@
+commandlinefu_id: 3798
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f FILE | grep --color=always KEYWORD
+summary: |-
+  colored tail

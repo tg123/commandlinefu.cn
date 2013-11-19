@@ -1,0 +1,8 @@
+commandlinefu_id: 8792
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl rand -base64 12
+summary: |-
+  Generate a random password

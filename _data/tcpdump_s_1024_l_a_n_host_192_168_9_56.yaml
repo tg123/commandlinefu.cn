@@ -1,0 +1,8 @@
+commandlinefu_id: 11842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -s 1024 -l -A -n host 192.168.9.56
+summary: |-
+  Show header HTTP with tcpdump

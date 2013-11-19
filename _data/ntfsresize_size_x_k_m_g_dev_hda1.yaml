@@ -1,0 +1,8 @@
+commandlinefu_id: 8755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ntfsresize --size X[k,M.G] /dev/hda1
+summary: |-
+  resize a NTFS partition

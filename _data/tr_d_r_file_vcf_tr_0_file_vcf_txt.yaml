@@ -1,0 +1,8 @@
+commandlinefu_id: 9226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -d "\r" < file.vcf | tr "\0" " " > file.vcf.txt
+summary: |-
+  Convert phone book VCARD to text

@@ -1,0 +1,8 @@
+commandlinefu_id: 9355
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cut -c -N
+summary: |-
+  取前N个字符

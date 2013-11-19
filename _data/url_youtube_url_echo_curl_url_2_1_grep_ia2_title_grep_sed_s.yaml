@@ -1,0 +1,8 @@
+commandlinefu_id: 5478
+translator:
+  weibo: ''
+hide: true
+command: |-
+  url="[Youtube URL]"; echo $(curl ${url%&*} 2>&1 | grep -iA2 '<title>' | grep '-') | sed 's/^- //'
+summary: |-
+  Grab just the title of a youtube video

@@ -1,0 +1,8 @@
+commandlinefu_id: 7741
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cvf - $DIR_TO_BACKUP | tee >(md5sum > backup_md5.txt) > /dev/st0 && mt -f /dev/nst0 bsfm 1 && md5sum -c backup_md5.txt < /dev/st0
+summary: |-
+  Backup to tape, rewind and check md5

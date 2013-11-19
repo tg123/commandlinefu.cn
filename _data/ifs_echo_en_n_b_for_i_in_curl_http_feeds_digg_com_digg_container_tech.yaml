@@ -1,0 +1,8 @@
+commandlinefu_id: 5797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IFS=`echo -en "\n\b"`; for i in $(curl http://feeds.digg.com/digg/container/technology/popular.rss | grep '<title>' | sed -e 's#<[^>]*>##g' | tail -n10); do echo $i; echo $i | sed 's/^/Did you hear about /g' | say; sleep 30; done
+summary: |-
+  Generate background office noise using Digg feeds and OSX.

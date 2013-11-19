@@ -1,0 +1,8 @@
+commandlinefu_id: 8124
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(find . -type f); do mv "$i" "$(echo $i|tr A-Z a-z)"; done
+summary: |-
+  recursively change file name from uppercase to lowercase (or viceversa)

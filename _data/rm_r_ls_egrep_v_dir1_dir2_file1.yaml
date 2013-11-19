@@ -1,0 +1,8 @@
+commandlinefu_id: 8974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -R `ls | egrep -v 'dir1|dir2|file1'`
+summary: |-
+  Delete files and directories from current directory exept those specified

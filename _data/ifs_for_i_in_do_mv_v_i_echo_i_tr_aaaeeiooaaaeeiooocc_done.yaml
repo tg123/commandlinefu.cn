@@ -1,0 +1,8 @@
+commandlinefu_id: 8991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IFS=?" ; for i in * ; do mv -v $i `echo $i|tr ???????????????????\ aaaeeiooAAAEEIOOOcC_` ; done
+summary: |-
+  Removing accents in name files

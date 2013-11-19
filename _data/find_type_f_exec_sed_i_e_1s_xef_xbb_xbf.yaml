@@ -1,0 +1,8 @@
+commandlinefu_id: 10030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec sed -i -e '1s/^\xEF\xBB\xBF//' {} \;
+summary: |-
+  recursively remove BOM

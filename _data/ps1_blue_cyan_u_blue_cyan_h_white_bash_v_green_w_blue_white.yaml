@@ -1,0 +1,8 @@
+commandlinefu_id: 2104
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PS1="$BLUE[$CYAN\u$BLUE@$CYAN\h$WHITE-bash \v:$GREEN\w$BLUE]$WHITE \$ "
+summary: |-
+  A bash prompt which shows the bash-version

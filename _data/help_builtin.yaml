@@ -1,0 +1,8 @@
+commandlinefu_id: 9947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  help builtin
+summary: |-
+  Display helpful information about builtin commands.

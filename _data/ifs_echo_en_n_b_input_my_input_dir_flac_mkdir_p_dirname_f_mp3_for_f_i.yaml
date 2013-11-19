@@ -1,0 +1,8 @@
+commandlinefu_id: 12582
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IFS=$(echo -en "\n\b"); input="/my/input/dir/*.flac"; mkdir -p $(dirname $f)/mp3; for f in $input; do ffmpeg -i $f -ab 196k -ac 2 -ar 48000 $(dirname $f)/mp3/$(basename "${f:0:${#f}-4}mp3"); done
+summary: |-
+  convert flac files to mp3 files into subdir mp3

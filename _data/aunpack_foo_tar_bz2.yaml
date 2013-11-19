@@ -1,0 +1,8 @@
+commandlinefu_id: 10968
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aunpack foo.tar.bz2
+summary: |-
+  Extract any archive

@@ -1,0 +1,8 @@
+commandlinefu_id: 3882
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '/test/{/error\|critical\|warning/d}' somefile
+summary: |-
+  grep -v with multiple patterns.

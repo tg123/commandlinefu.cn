@@ -1,0 +1,8 @@
+commandlinefu_id: 5050
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for host in *; do { if [ -d $host ]; then { cd ${host}; for share in *; do { if [ -d $share ]; then { cd $share; rsync -av --delete rsyncuser@$host::$share . 2>../$share.err 1>../$share.log; cd ..; }; fi; }; done; cd ..; }; fi; }; done;
+summary: |-
+  traverses directories of $host and $share to created a unified place for rsync backups

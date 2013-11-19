@@ -1,0 +1,8 @@
+commandlinefu_id: 3375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psg() { ps aux | grep "[${1[1]}]${1[2,-1]}"; }
+summary: |-
+  Find the process you are looking for minus the grepped one

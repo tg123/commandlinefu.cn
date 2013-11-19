@@ -1,0 +1,8 @@
+commandlinefu_id: 10608
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias fu='curl -s http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext | grep -vE "^$|^#"'
+summary: |-
+  List of top commands from CommandLineFu

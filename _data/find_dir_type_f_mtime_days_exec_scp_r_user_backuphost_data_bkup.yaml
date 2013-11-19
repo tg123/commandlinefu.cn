@@ -1,0 +1,8 @@
+commandlinefu_id: 626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <dir> -type f -mtime +<days> -exec scp -r {} user@backuphost:/data/bkup \;
+summary: |-
+  bkup the old files

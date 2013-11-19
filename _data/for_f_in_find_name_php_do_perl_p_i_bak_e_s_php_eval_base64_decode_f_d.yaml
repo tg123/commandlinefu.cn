@@ -1,0 +1,8 @@
+commandlinefu_id: 10422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in `find . -name "*.php"`; do perl -p -i.bak -e 's/<\?php \/\*\*\/ eval\(base64_decode\(\"[^\"]+"\)\);\?>//' $f; done
+summary: |-
+  clean php files from base64_decode() hack

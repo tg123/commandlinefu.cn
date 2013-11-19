@@ -1,0 +1,8 @@
+commandlinefu_id: 11192
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for s in /tmp/screens/S-$USER/*; do screen -r "$(basename "$s")"; done
+summary: |-
+  Cycle through all active screen sessions

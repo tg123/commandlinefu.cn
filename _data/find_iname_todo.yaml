@@ -1,0 +1,8 @@
+commandlinefu_id: 8251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*TODO*'
+summary: |-
+  Find the files that include a TODO statement within a project

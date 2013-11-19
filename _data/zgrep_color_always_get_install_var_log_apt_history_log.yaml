@@ -1,0 +1,8 @@
+commandlinefu_id: 10623
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  zgrep --color=always 'get install' /var/log/apt/history.log*
+summary: |-
+  查看Ubuntu下所有安装的包

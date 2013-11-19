@@ -1,0 +1,8 @@
+commandlinefu_id: 11684
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff . -r43:HEAD --summarize | cut -c9-99999 | cpio -pvdmu ~/destination
+summary: |-
+  SVN Export files that were modified between given revisions.

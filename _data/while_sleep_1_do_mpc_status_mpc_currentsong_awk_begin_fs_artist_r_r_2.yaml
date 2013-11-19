@@ -1,0 +1,8 @@
+commandlinefu_id: 11681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while sleep 1; do (mpc status;mpc currentsong)|awk 'BEGIN{FS=": "}/^Artist:/{r=r""$2};/^Title:/{r=r" - "$2};/^time:/{r=$2" "r};/^state: play/{f=1}END{if(f==1){print r}}'|echo -ne "\e[s\e[0;0H\e[K\e[0;44m\e[1;33m$(cat -)\e[0m\e[u";done &
+summary: |-
+  Displays mpd playing status in the terminal first raw

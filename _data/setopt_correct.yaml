@@ -1,0 +1,8 @@
+commandlinefu_id: 11253
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setopt correct
+summary: |-
+  [zsh]: what does 'nyae' mean?

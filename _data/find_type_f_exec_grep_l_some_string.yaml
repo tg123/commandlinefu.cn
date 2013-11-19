@@ -1,0 +1,8 @@
+commandlinefu_id: 11526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec grep -l "some string" {} \;
+summary: |-
+  finds all files that contain "some string"

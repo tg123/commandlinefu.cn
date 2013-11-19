@@ -1,0 +1,8 @@
+commandlinefu_id: 3372
+translator:
+  weibo: ''
+hide: true
+command: |-
+  system_profiler SPApplicationsDataType | perl -nl -e  '@al=<>; $c=@al; while($j<$c){ $apps[$i].=$al[$j]; $i++ if ($al[$j] ) =~ /^\s\s\s\s\S.*:$/; $j++} while($k<$i){ $_=$apps[$k++]; if (/Kind: PowerPC/s) {print;}}'
+summary: |-
+  Find all PowerPC applications on OS X

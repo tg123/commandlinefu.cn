@@ -1,0 +1,8 @@
+commandlinefu_id: 4078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/share/mplayer/midentify.sh `find . -name "*.avi" -print` | grep ID_LENGTH | awk -F "=" '{sum += $2} END {print sum/60/60; print "hours"}'
+summary: |-
+  Shows you how many hours of avi video you have.

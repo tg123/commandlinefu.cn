@@ -1,0 +1,8 @@
+commandlinefu_id: 10689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host "ffmpeg -f x11grab -s 1920x1080 -i :0 -r 1 -t 1 -f mjpeg -" | display
+summary: |-
+  open a screenshot of a remote desktop via ssh

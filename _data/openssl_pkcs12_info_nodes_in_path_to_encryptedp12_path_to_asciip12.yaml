@@ -1,0 +1,8 @@
+commandlinefu_id: 6986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl pkcs12 -info -nodes -in /path/to/encryptedp12 > /path/to/asciip12
+summary: |-
+  Convert pkcs12 Certificate to ASCII for use in PHP

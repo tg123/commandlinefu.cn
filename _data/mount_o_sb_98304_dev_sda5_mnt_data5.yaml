@@ -1,0 +1,8 @@
+commandlinefu_id: 12444
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -o sb=98304 /dev/sda5 /mnt/data5
+summary: |-
+  Mount file system using back-up superblock

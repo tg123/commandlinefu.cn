@@ -1,0 +1,8 @@
+commandlinefu_id: 8236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr '\0' '\377' < /dev/zero|dd count=$((<bytes>/512))
+summary: |-
+  a fast way to repeat output a byte

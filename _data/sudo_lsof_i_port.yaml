@@ -1,0 +1,8 @@
+commandlinefu_id: 1445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -i :<port>
+summary: |-
+  List all process running a specfic port

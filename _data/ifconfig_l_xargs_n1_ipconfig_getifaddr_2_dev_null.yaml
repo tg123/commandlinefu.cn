@@ -1,0 +1,8 @@
+commandlinefu_id: 4441
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig -l | xargs -n1 ipconfig getifaddr 2> /dev/null
+summary: |-
+  Read just the IP address of a device

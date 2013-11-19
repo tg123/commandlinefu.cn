@@ -1,0 +1,8 @@
+commandlinefu_id: 10652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -user root | xargs sudo chown me:me
+summary: |-
+  find files owned by root and make them your own again

@@ -1,0 +1,8 @@
+commandlinefu_id: 5067
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "netstat -plan|grep :80|awk {'print \$5'} | cut -d: -f 1 | sort | uniq -c | sort -nk 1"
+summary: |-
+  Monitor open connections for httpd including listen, count and sort it per IP

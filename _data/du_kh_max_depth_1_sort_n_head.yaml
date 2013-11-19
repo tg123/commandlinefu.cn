@@ -1,0 +1,8 @@
+commandlinefu_id: 8349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -kh --max-depth=1 | sort -n |head
+summary: |-
+  get biggest directories

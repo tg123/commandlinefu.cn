@@ -1,0 +1,8 @@
+commandlinefu_id: 10241
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n '#!'$(which awk)
+summary: |-
+  before writing a new script

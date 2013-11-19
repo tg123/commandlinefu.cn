@@ -1,0 +1,8 @@
+commandlinefu_id: 3927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -size 0 -exec rm '{}' \;
+summary: |-
+  Erase empty files

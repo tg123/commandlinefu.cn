@@ -1,0 +1,8 @@
+commandlinefu_id: 11802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `pfiles pid|grep S_IFREG|awk '{print $5}'|awk -F":" '{print $2}'`; do find / -inum $i |xargs ls -lah; done
+summary: |-
+  How to find all open files by a process in Solaris 10

@@ -1,0 +1,8 @@
+commandlinefu_id: 3376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --create --file /path/$HOSTNAME-my_name_file-$(date -I).tar.gz --atime-preserve -p -P --same-owner -z /path/
+summary: |-
+  Creat a tar file for backup info

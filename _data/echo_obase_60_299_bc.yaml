@@ -1,0 +1,8 @@
+commandlinefu_id: 9538
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'obase=60;299' | bc
+summary: |-
+  Convert seconds into minutes and seconds

@@ -1,0 +1,8 @@
+commandlinefu_id: 5970
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig eth0 | grep -o "inet [^ ]*" | cut -d: -f2
+summary: |-
+  Get IPv4 of eth0 for use with scripts

@@ -1,0 +1,8 @@
+commandlinefu_id: 4891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get --just-print upgrade
+summary: |-
+  List available upgrades from apt without upgrading the system

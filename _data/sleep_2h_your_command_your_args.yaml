@@ -1,0 +1,8 @@
+commandlinefu_id: 3115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( ( sleep 2h; your-command your-args ) & )
+summary: |-
+  Schedule a script or command in x num hours, silently run in the background even if logged out

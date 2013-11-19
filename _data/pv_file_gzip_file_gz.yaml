@@ -1,0 +1,8 @@
+commandlinefu_id: 9559
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv file | gzip > file.gz
+summary: |-
+  gzip compression with progress bar and remaining time displayed

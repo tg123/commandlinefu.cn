@@ -1,0 +1,8 @@
+commandlinefu_id: 9622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 $PATH*/* | xargs file | awk -F":" '!($2~/PDF document/){print $1}' |xargs rm -rf
+summary: |-
+  delete the files from the given directory except the PDF file

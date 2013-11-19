@@ -1,0 +1,8 @@
+commandlinefu_id: 9363
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  clear
+summary: |-
+  清屏 ctrl + L

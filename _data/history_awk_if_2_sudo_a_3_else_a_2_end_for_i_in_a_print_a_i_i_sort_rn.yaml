@@ -1,0 +1,8 @@
+commandlinefu_id: 11703
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | awk '{if ($2 == "sudo") a[$3]++; else a[$2]++}END{for(i in a){print a[i] " " i}}' |  sort -rn | head
+summary: |-
+  List of commands you use most often

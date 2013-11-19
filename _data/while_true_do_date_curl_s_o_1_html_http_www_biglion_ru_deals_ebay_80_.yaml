@@ -1,0 +1,8 @@
+commandlinefu_id: 12887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do date; (curl -s -o 1.html http://www.biglion.ru/deals/ebay-80/ &); sleep 5; cat 1.html | grep "&#1082;&#1091;&#1087;&#1086;&#1085;&#1086;&#1074;" | awk -F"<div>" '{print $2}' | awk -F"<span>" '{print $1}'; done
+summary: |-
+  Processes biglion quantity of sold ebay coupons/bonus codes

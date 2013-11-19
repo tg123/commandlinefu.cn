@@ -1,0 +1,8 @@
+commandlinefu_id: 10860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -0 chmod a-x
+summary: |-
+  exec chmod to subfiles

@@ -1,0 +1,8 @@
+commandlinefu_id: 7278
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Ctrl + [
+summary: |-
+  the same as [Esc] in vim

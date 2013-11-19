@@ -1,0 +1,8 @@
+commandlinefu_id: 8751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while ping -c 1 127.0.0.1 > /dev/null; do acpi -t -f | while read tem; do notify-send "$tem"; done; sleep 300; done
+summary: |-
+  Use acpi and notify-send to report current temperature every five minutes.

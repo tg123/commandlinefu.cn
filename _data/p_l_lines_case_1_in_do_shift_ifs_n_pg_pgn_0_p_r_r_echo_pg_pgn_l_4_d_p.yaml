@@ -1,0 +1,8 @@
+commandlinefu_id: 4381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  p() { l=$LINES; case $1 in do) shift; IFS=$'\n' _pg=( $("$@") ) && _pgn=0 && p r;;   r) echo "${_pg[*]:_pgn:$((l-4))}";;   d) (( _pgn+=l-4 )); (( _pgn=_pgn>=${#_pg[@]}?${#_pg[@]}-l+4:_pgn )); p r;;   u) (( _pgn=_pgn<=l-4?0:_pgn-$l-4 )); p r;; esac; }
+summary: |-
+  p is for pager

@@ -1,0 +1,8 @@
+commandlinefu_id: 8115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -type f -size +20000k -exec ls -lh {} \; | awk  '{printf $9} {for (i=10;i<=NF;i++) {printf " "$i}} {print ": "$5}'
+summary: |-
+  Find all files over 20MB and print their names and size in human readable format

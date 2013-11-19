@@ -1,0 +1,8 @@
+commandlinefu_id: 5775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xxd -l 0x04 $file; xxd -s -0x04 $file
+summary: |-
+  get header and footer of file for use with scalpel file carving

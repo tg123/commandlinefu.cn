@@ -1,0 +1,8 @@
+commandlinefu_id: 3018
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true ; do du -sk testfile ; sleep 10 ; done
+summary: |-
+  Lists the size of certain file in every 10 seconds

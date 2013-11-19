@@ -1,0 +1,8 @@
+commandlinefu_id: 5352
+translator:
+  weibo: ''
+hide: true
+command: |-
+  webattery
+summary: |-
+  Command to show battery power status

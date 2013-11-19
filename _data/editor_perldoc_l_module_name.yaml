@@ -1,0 +1,8 @@
+commandlinefu_id: 1462
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $EDITOR `perldoc -l Module::Name`
+summary: |-
+  Open Perl module source in your editor

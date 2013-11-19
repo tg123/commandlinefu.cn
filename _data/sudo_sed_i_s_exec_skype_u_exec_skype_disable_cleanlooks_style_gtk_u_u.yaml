@@ -1,0 +1,8 @@
+commandlinefu_id: 12185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sed -i 's/Exec=skype %U/Exec=skype --disable-cleanlooks -style GTK %U/' /usr/share/applications/skype.desktop
+summary: |-
+  Run skype using your GTK theme

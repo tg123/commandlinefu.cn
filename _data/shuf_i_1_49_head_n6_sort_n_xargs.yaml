@@ -1,0 +1,8 @@
+commandlinefu_id: 3865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shuf -i 1-49 | head -n6 | sort -n| xargs
+summary: |-
+  lotto generator

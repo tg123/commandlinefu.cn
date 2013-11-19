@@ -1,0 +1,8 @@
+commandlinefu_id: 3349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mknod /dev/ttyS4 c 4 68
+summary: |-
+  Add another tty device using mknod command

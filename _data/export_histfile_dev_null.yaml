@@ -1,0 +1,8 @@
+commandlinefu_id: 5811
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTFILE=/dev/null/
+summary: |-
+  Export you history to nowhere

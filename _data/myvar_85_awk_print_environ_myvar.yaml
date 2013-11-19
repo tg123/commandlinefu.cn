@@ -1,0 +1,8 @@
+commandlinefu_id: 8296
+translator:
+  weibo: ''
+hide: true
+command: |-
+  MyVAR=85 awk '{ print ENVIRON["MyVAR"] }'
+summary: |-
+  BASH: Print shell variable into AWK

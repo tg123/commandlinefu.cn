@@ -1,0 +1,8 @@
+commandlinefu_id: 7443
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch file
+summary: |-
+  Create a new file

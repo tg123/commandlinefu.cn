@@ -1,0 +1,8 @@
+commandlinefu_id: 12629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -o ProxyCommand='nc -x ProxyHost:8080 %h %p' TargetHost
+summary: |-
+  Tunnel ssh through Socks Proxy

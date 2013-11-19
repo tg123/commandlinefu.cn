@@ -1,0 +1,8 @@
+commandlinefu_id: 2058
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifstat -nt
+summary: |-
+  Display current bandwidth statistics

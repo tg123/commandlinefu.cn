@@ -1,0 +1,8 @@
+commandlinefu_id: 5745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-query -W -f='${Version}' package-name
+summary: |-
+  Show a Package Version on Debian based distribution

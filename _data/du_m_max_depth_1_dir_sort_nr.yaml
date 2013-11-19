@@ -1,0 +1,8 @@
+commandlinefu_id: 12537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -m --max-depth=1 [DIR] | sort -nr
+summary: |-
+  directory size with subdirectories, sorted list

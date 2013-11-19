@@ -1,0 +1,8 @@
+commandlinefu_id: 978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls |while read line ; do mpg321 -w "$line.wav" "$line" ; done
+summary: |-
+  Convert *.mp3 files to *.wav for recording audio cd's

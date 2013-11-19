@@ -1,0 +1,8 @@
+commandlinefu_id: 11353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -t vboxfs share /mnt/mount-point
+summary: |-
+  mount virtualbox share

@@ -1,0 +1,8 @@
+commandlinefu_id: 11161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print $1}' /proc/net/dev|grep :|sed "s/:.*//g"
+summary: |-
+  Network Interfaces

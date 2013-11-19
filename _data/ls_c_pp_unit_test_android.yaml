@@ -1,0 +1,8 @@
+commandlinefu_id: 10669
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls **/*.c(|pp)~(unit-test|android)/*
+summary: |-
+  find all c and cpp files except the ones in the unit-test and android subdirectories

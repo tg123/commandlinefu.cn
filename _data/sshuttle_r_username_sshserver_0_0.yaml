@@ -1,0 +1,8 @@
+commandlinefu_id: 12408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshuttle -r <username>@<sshserver> 0/0
+summary: |-
+  VPN without VPN: Get access to networks available from your ssh server and hide behind it

@@ -1,0 +1,8 @@
+commandlinefu_id: 8479
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname '*.java.orig' -delete
+summary: |-
+  Recursively remove all '.java.orig' files (scalable)

@@ -1,0 +1,8 @@
+commandlinefu_id: 9417
+translator:
+  weibo: ''
+hide: true
+command: |-
+  upto() { cd "${PWD/\/$@\/*//$@}" }
+summary: |-
+  Jump up to any directory above the current one

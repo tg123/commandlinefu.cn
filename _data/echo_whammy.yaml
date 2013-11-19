@@ -1,0 +1,8 @@
+commandlinefu_id: 1715
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo '!'whammy
+summary: |-
+  use a literal bang (exclamation point) in a command

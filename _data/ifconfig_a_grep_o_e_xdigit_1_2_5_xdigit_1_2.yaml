@@ -1,0 +1,8 @@
+commandlinefu_id: 4974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig -a| grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'
+summary: |-
+  Get all mac address

@@ -1,0 +1,8 @@
+commandlinefu_id: 1466
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir -p doc/{text/,img/{wallpaper/,photos/}}
+summary: |-
+  create dir tree

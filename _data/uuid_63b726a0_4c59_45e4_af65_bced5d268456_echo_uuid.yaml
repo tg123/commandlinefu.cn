@@ -1,0 +1,8 @@
+commandlinefu_id: 9750
+translator:
+  weibo: ''
+hide: true
+command: |-
+  UUID="63b726a0-4c59-45e4-af65-bced5d268456"; echo ${UUID//-/}
+summary: |-
+  Remove dashes in UUID

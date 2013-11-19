@@ -1,0 +1,8 @@
+commandlinefu_id: 11003
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat ~/.ssh/id_rsa.pub | ssh tester@10.2.6.10 "mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys; chmod 600 ~/.ssh/authorized_keys"
+summary: |-
+  Copy your ssh public key to a server from a machine that doesn't have ssh-copy-id

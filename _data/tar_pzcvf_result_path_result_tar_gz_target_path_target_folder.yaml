@@ -1,0 +1,8 @@
+commandlinefu_id: 4029
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar pzcvf /result_path/result.tar.gz /target_path/target_folder
+summary: |-
+  Create a simple backup

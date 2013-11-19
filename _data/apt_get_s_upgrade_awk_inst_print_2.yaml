@@ -1,0 +1,8 @@
+commandlinefu_id: 12087
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get -s upgrade | awk '/Inst.+/ {print $2}'
+summary: |-
+  List available upgrades from apt (package names only)

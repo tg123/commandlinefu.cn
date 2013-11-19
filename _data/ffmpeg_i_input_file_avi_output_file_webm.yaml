@@ -1,0 +1,8 @@
+commandlinefu_id: 6159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input_file.avi output_file.webm
+summary: |-
+  Convert (almost) any video file into webm format for online html5 streaming

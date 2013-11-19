@@ -1,0 +1,8 @@
+commandlinefu_id: 8211
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | shuf -n1
+summary: |-
+  Selecting a random file/folder of a folder

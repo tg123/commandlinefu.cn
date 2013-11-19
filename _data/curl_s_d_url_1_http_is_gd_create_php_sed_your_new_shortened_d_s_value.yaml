@@ -1,0 +1,8 @@
+commandlinefu_id: 3523
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s -d URL="$1" http://is.gd/create.php | sed '/Your new shortened/!d;s/.*value="\([^"]*\)".*/\1/'
+summary: |-
+  shorten url using curl, sed and is.gd

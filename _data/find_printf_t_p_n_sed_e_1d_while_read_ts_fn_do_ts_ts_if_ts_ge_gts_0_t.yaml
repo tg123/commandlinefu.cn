@@ -1,0 +1,8 @@
+commandlinefu_id: 9247
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -printf "%T@ %p\n" | sed -e 1d | while read ts fn; do ts=${ts%.*}; if [ $ts -ge ${gts:-0} ]; then gts=$ts; echo `date -d @$gts` $fn; fi; done
+summary: |-
+  Hunt for the newest file.

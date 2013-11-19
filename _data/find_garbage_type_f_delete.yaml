@@ -1,0 +1,8 @@
+commandlinefu_id: 12840
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find garbage/ -type f -delete
+summary: |-
+  rm filenames with spaces

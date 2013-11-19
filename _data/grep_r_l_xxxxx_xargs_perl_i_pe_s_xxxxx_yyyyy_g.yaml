@@ -1,0 +1,8 @@
+commandlinefu_id: 246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -r -l xxxxx . | xargs perl -i -pe "s/xxxxx/yyyyy/g"
+summary: |-
+  change the all files which contains xxxxx to yyyyyy

@@ -1,0 +1,8 @@
+commandlinefu_id: 7764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://www.discogs.com/search?q=724349691704 2> /dev/null | grep \/release\/ | head -2 | tail -1 | sed -e 's/^<div>.*>\(.*\)<\/a><\/div>/\1/'
+summary: |-
+  Find artist and title of a music cd, UPC code given (first result only)

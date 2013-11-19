@@ -1,0 +1,8 @@
+commandlinefu_id: 4146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 -d !!
+summary: |-
+  watch the previous command

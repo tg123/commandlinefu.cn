@@ -1,0 +1,8 @@
+commandlinefu_id: 4304
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ unzip -p  some-jar-file.jar META-INF/MANIFEST.MF
+summary: |-
+  Display / view the contents of the manifest within a Java jar file

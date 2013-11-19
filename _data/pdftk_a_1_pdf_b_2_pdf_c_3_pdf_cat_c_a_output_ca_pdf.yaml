@@ -1,0 +1,8 @@
+commandlinefu_id: 10493
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk A=1.pdf B=2.pdf C=3.pdf cat C A output CA.pdf
+summary: |-
+  pdftk append with handles

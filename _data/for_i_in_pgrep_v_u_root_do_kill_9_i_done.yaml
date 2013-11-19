@@ -1,0 +1,8 @@
+commandlinefu_id: 1615
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(pgrep -v -u root);do kill -9 $i;done
+summary: |-
+  Kill all processes that don't belong to root/force logoff

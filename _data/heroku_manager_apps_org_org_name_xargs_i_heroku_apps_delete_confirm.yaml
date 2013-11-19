@@ -1,0 +1,8 @@
+commandlinefu_id: 11672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  heroku manager:apps --org org-name | xargs -I {} heroku apps:delete {} --confirm {}
+summary: |-
+  Delete all apps in a heroku org

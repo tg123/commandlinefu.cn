@@ -1,0 +1,8 @@
+commandlinefu_id: 10210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmidecode -s system-product-name
+summary: |-
+  what model of computer I'm using?

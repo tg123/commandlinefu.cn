@@ -1,0 +1,8 @@
+commandlinefu_id: 5173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | sed '/.*addr.*Bcast.*/ ! d'| sed 's/.*addr:\([0-9\.]*\).*/\1/'
+summary: |-
+  show your private/local ip address

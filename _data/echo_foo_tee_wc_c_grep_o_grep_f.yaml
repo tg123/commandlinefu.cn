@@ -1,0 +1,8 @@
+commandlinefu_id: 11828
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'foo' | tee >(wc -c) >(grep o) >(grep f)
+summary: |-
+  Output as many input

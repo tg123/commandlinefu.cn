@@ -1,0 +1,8 @@
+commandlinefu_id: 1279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wrestool -x --output . -t14 /path/to/your-file.exe
+summary: |-
+  Extract icons from windows exe/dll

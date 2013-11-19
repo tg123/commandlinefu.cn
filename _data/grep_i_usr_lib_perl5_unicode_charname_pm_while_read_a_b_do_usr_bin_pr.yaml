@@ -1,0 +1,8 @@
+commandlinefu_id: 7551
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -i "$*" /usr/lib/perl5/Unicode/CharName.pm | while read a b; do /usr/bin/printf "\u$a\tU+%s\t%s\n"  "$b"; done
+summary: |-
+  Look up a unicode character by name

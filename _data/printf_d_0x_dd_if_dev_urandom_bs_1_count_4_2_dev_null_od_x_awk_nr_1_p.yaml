@@ -1,0 +1,8 @@
+commandlinefu_id: 959
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf %d 0x`dd if=/dev/urandom bs=1 count=4 2>/dev/null | od -x | awk 'NR==1 {print $2$3}'`
+summary: |-
+  Big (four-byte) $RANDOM

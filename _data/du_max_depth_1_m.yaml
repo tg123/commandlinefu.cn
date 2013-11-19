@@ -1,0 +1,8 @@
+commandlinefu_id: 791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du --max-depth=1 -m
+summary: |-
+  List all files/folders in working directory with their total size in Megabytes

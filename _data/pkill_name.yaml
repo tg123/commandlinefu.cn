@@ -1,0 +1,8 @@
+commandlinefu_id: 8067
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill name
+summary: |-
+  Kill a process by its partial name

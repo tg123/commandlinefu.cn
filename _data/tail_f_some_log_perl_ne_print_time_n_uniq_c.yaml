@@ -1,0 +1,8 @@
+commandlinefu_id: 12315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -F some.log | perl -ne 'print time(), "\n";' | uniq -c
+summary: |-
+  Lines per second in a log file

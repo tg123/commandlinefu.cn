@@ -1,0 +1,8 @@
+commandlinefu_id: 2234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mvn -Dmaven.test.skip=true install
+summary: |-
+  Skipping tests in Maven

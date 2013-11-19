@@ -1,0 +1,8 @@
+commandlinefu_id: 673
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -p --convert-links http://www.foo.com
+summary: |-
+  Wget Command to Download Full Recursive Version of Web Page

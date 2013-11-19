@@ -1,0 +1,8 @@
+commandlinefu_id: 9497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bzcat ext_if.log.0.bz2 | tcpdump -n -e -tttt -r - | less
+summary: |-
+  Show bz compressed PF binary log

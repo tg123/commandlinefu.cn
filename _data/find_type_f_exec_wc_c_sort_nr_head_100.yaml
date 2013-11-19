@@ -1,0 +1,8 @@
+commandlinefu_id: 3146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -type f -exec wc -c {} \; | sort -nr | head -100
+summary: |-
+  List files and sizes

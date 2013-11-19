@@ -1,0 +1,8 @@
+commandlinefu_id: 3769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  make [target] VAR=foobar
+summary: |-
+  Makefile argument passing

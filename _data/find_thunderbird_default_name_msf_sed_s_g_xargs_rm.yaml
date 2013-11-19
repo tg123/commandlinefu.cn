@@ -1,0 +1,8 @@
+commandlinefu_id: 5766
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/.thunderbird/*.default/ -name *.msf | sed 's/ /\\ /g' | xargs rm {} \;
+summary: |-
+  Find and delete thunderbird's msf files to make your profile work quickly again.

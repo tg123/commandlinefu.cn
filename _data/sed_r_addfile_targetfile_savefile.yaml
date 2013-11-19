@@ -1,0 +1,8 @@
+commandlinefu_id: 1919
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '/^/R addfile' targetfile > savefile
+summary: |-
+  Add a line from 1 file after every line of another (shuffle files together)

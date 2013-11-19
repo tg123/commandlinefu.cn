@@ -1,0 +1,8 @@
+commandlinefu_id: 11210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get -y install/remove app
+summary: |-
+  automatic yes to apt-get install/remove

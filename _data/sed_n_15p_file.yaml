@@ -1,0 +1,8 @@
+commandlinefu_id: 9297
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '15p' $file
+summary: |-
+  Go to the Nth line of file

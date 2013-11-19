@@ -1,0 +1,8 @@
+commandlinefu_id: 6317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - www.commandlinefu.com/commands/random | grep "<div class=\"command\">" | sed 's/<[^>]*>//g; s/^[ \t]*//; s/&quot;/"/g; s/&lt;/</g; s/&gt;/>/g; s/&amp;/\&/g'
+summary: |-
+  command line fu roulette

@@ -1,0 +1,8 @@
+commandlinefu_id: 1669
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias showip="ifconfig eth0 | grep 'inet addr:' | sed 's/.*addr\:\(.*\) Bcast\:.*/\1/'"
+summary: |-
+  alias to show my own configured ip

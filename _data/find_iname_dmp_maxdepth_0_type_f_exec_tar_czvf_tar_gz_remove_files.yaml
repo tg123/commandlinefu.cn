@@ -1,0 +1,8 @@
+commandlinefu_id: 9199
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -iname "*.dmp" -maxdepth 0 -type f -exec tar czvf {}.tar.gz  --remove-files {} \; \;
+summary: |-
+  Archive tar.gz archives all files (with extension filter) individually from an location

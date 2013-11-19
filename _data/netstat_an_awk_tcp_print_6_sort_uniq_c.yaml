@@ -1,0 +1,8 @@
+commandlinefu_id: 5573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -an | awk '/tcp/ {print $6}' | sort | uniq -c
+summary: |-
+  Count TCP States From Netstat

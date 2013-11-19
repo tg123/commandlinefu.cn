@@ -1,0 +1,8 @@
+commandlinefu_id: 11881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find / -type f -name config.inc.php -exec vim -p {} +
+summary: |-
+  How to search for files and open all of them in tabbed vim editor.

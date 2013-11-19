@@ -1,0 +1,8 @@
+commandlinefu_id: 6615
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -regextype posix-egrep -regex ".*/[A-Z]{3}_201009[0-9]{2}.*" -printf "%f %s\n" | awk '{ SUM += $2;COUNT++ } END { print SUM/1024 " kb in " COUNT " files" }'
+summary: |-
+  Sum up total size and count of all certain filename pattern/regex

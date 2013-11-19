@@ -1,0 +1,8 @@
+commandlinefu_id: 1807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec grep StringToFind   \{\} --with-filename \;|sed -e '/svn/d'|sed -e '/~/d'
+summary: |-
+  Look for a string in one of your codes, excluding the files with svn and ~ (temp/back up files)

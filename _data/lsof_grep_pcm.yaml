@@ -1,0 +1,8 @@
+commandlinefu_id: 5634
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof | grep pcm
+summary: |-
+  List processes playing sound

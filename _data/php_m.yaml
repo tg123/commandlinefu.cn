@@ -1,0 +1,8 @@
+commandlinefu_id: 10802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -m
+summary: |-
+  Check which modules your PHP is using

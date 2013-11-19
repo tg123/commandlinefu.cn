@@ -1,0 +1,8 @@
+commandlinefu_id: 331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo echo 1 > /proc/acpi/asus/camera
+summary: |-
+  Switch on eeepc camera

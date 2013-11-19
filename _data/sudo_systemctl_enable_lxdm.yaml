@@ -1,0 +1,8 @@
+commandlinefu_id: 12341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo systemctl enable lxdm
+summary: |-
+  Enable lxdm login manager in linux

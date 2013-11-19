@@ -1,0 +1,8 @@
+commandlinefu_id: 11868
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -i eth0 -s 65535 -w test_capture
+summary: |-
+  Make "pcap" file

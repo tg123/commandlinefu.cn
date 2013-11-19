@@ -1,0 +1,8 @@
+commandlinefu_id: 8416
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lpr file
+summary: |-
+  Prints files

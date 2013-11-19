@@ -1,0 +1,8 @@
+commandlinefu_id: 2443
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp `ls -x1tr *.jpg | tail -n 1` newest.jpg
+summary: |-
+  get newest jpg picture in a folder

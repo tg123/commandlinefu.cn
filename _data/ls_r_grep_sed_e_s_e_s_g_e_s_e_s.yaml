@@ -1,0 +1,8 @@
+commandlinefu_id: 710
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+summary: |-
+  Graphical tree of sub-directories

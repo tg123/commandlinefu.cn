@@ -1,0 +1,8 @@
+commandlinefu_id: 3799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Putty -d 8080 [server]
+summary: |-
+  Proxy all web traffic via ssh

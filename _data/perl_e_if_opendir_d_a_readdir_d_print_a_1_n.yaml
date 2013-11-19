@@ -1,0 +1,8 @@
+commandlinefu_id: 2749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'if(opendir D,"."){@a=readdir D;print $#a-1,"\n"}'
+summary: |-
+  Efficient count files in directory (no recursion)

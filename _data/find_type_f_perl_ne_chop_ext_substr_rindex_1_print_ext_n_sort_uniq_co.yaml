@@ -1,0 +1,8 @@
+commandlinefu_id: 12762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | perl -ne 'chop(); $ext = substr($_, rindex($_, ".") + 1); print "$ext\n";' | sort | uniq --count | sort -n
+summary: |-
+  Find used fileextensions in a project

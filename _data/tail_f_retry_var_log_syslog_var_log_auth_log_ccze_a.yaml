@@ -1,0 +1,8 @@
+commandlinefu_id: 2162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f --retry /var/log/syslog /var/log/auth.log | ccze -A
+summary: |-
+  Syslog System Reporting in a shell

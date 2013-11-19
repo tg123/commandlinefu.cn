@@ -1,0 +1,8 @@
+commandlinefu_id: 1355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stty -echo; ssh -t HOSTNAME "sudo some_command"; stty echo
+summary: |-
+  Execute a sudo command remotely, without displaying the password

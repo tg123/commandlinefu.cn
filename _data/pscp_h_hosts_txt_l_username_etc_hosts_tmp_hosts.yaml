@@ -1,0 +1,8 @@
+commandlinefu_id: 10099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pscp -h hosts.txt -l username /etc/hosts /tmp/hosts
+summary: |-
+  Transfer a file to multiple hosts over ssh

@@ -1,0 +1,8 @@
+commandlinefu_id: 8674
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parallel -j4 cd {}\; pwd\; git pull :::: <(git submodule status | awk '{print $2}')
+summary: |-
+  Pull git submodules in parallel using GNU parallel

@@ -1,0 +1,8 @@
+commandlinefu_id: 2875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -r . /sys/class/net/eth0/statistics
+summary: |-
+  Quick key/value display within /proc or /sys

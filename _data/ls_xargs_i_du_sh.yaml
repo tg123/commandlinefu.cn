@@ -1,0 +1,8 @@
+commandlinefu_id: 12546
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | xargs -I{} du -sh {}
+summary: |-
+  list each file/directory size in a directory

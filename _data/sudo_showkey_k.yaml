@@ -1,0 +1,8 @@
+commandlinefu_id: 11144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo showkey -k
+summary: |-
+  Show the key code for keyboard events include the Fn keys

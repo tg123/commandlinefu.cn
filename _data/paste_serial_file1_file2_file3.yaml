@@ -1,0 +1,8 @@
+commandlinefu_id: 6905
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste --serial file1 file2 file3
+summary: |-
+  paste one file at a time instead of in parallel

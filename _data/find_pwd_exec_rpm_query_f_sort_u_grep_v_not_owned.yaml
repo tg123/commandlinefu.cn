@@ -1,0 +1,8 @@
+commandlinefu_id: 186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $PWD -exec rpm --query -f {} \; | sort -u | grep -v "not owned"
+summary: |-
+  List RPM packages installed in current tree

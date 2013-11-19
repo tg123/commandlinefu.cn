@@ -1,0 +1,8 @@
+commandlinefu_id: 12860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for key in `echo 'KEYS pattern*' | redis-cli | awk '{print $1}'`; do echo DEL $key; done | redis-cli
+summary: |-
+  Delete keys from Redis by matching a pattern

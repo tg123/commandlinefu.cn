@@ -1,0 +1,8 @@
+commandlinefu_id: 6011
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof|sed 's/  */ /g'|cut -f3 -d' '|sort -u
+summary: |-
+  Shows users and 'virtual users' on your a unix-type system

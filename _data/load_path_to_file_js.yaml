@@ -1,0 +1,8 @@
+commandlinefu_id: 11990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  .load ./path/to/file.js
+summary: |-
+  load a js file in the nodejs REPL

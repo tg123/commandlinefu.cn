@@ -1,0 +1,8 @@
+commandlinefu_id: 11113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*.sh" -exec chmod u+x {} \;
+summary: |-
+  Add executable bit to all shell scripts under current directory recursively.

@@ -1,0 +1,8 @@
+commandlinefu_id: 7290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Server side: while true; do tar cvzf - ./* | nc -l 2000; done, client side: nc localhost 2000 | tar xvzf -
+summary: |-
+  Run netcat to server files of current folder

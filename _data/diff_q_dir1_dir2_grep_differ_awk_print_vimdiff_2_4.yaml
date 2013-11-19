@@ -1,0 +1,8 @@
+commandlinefu_id: 79
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -q dir1/ dir2/ | grep differ | awk '{ print "vimdiff " $2 " " $4 }'
+summary: |-
+  diff directories, quick cut and paste to view the changes

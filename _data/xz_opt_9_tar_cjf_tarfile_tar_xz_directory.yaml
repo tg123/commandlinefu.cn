@@ -1,0 +1,8 @@
+commandlinefu_id: 12109
+translator:
+  weibo: ''
+hide: true
+command: |-
+  XZ_OPT=-9 tar cJf tarfile.tar.xz directory
+summary: |-
+  tar xz maximal compression

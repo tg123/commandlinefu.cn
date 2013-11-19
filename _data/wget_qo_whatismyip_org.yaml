@@ -1,0 +1,8 @@
+commandlinefu_id: 1733
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO- whatismyip.org
+summary: |-
+  Get own public IP address

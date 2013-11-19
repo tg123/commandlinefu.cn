@@ -1,0 +1,8 @@
+commandlinefu_id: 3516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cvf /dev/null . | while read i; do ls -l $i; done
+summary: |-
+  ls -lR with a full path

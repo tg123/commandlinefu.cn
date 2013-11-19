@@ -1,0 +1,8 @@
+commandlinefu_id: 12412
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'printf "%o\n", (stat shift)[2]&07777' file
+summary: |-
+  ls output with mode in octal

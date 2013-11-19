@@ -1,0 +1,8 @@
+commandlinefu_id: 9077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 `ps -u user -o "pid="`
+summary: |-
+  Removing Backgroud Process

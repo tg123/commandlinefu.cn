@@ -1,0 +1,8 @@
+commandlinefu_id: 1239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time vmware-cmd -l | while read x; do printf "$x"; vmware-cmd "$x" removesnapshots; done
+summary: |-
+  remove all snapshots from all virtual machines in vmware esx

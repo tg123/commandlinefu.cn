@@ -1,0 +1,8 @@
+commandlinefu_id: 5593
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ack -a -G '^(?!.*bar/data.*).*$' pattern
+summary: |-
+  Ignore a specific subdir, instead of all subdirs, with ack-grep

@@ -1,0 +1,8 @@
+commandlinefu_id: 6457
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mdutil -a -i off
+summary: |-
+  Disabling Spotlight on Mac OS

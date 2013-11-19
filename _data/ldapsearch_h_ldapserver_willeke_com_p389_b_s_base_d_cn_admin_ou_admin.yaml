@@ -1,0 +1,8 @@
+commandlinefu_id: 2409
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ldapsearch -h ldapserver.willeke.com -p389 -b "" -s base -D cn=admin,ou=administration,dc=willeke,dc=com -w secretpwd "(objectclass=*)" chainings removeEntryOps referralsReturned listOps modifyRDNOps repUpdatesIn repUpdatesOut strongAuthBinds addEntryOps
+summary: |-
+  eDirectory LDAP Search for Statistics

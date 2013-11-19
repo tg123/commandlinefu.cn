@@ -1,0 +1,8 @@
+commandlinefu_id: 3339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name .svn -prune -o -print
+summary: |-
+  Skip over .svn directories when using the

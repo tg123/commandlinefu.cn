@@ -1,0 +1,8 @@
+commandlinefu_id: 670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e "/$USER/d;s/:.*//g" /etc/group | sed -e :a -e '/$/N;s/\n/ /;ta'
+summary: |-
+  Tells which group you DON'T belong to (opposite of command "groups") --- uses sed

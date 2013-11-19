@@ -1,0 +1,8 @@
+commandlinefu_id: 4706
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ipcs -a | grep 0x | awk '{printf( "-Q %s ", $1 )}' | xargs ipcrm
+summary: |-
+  Clear IPC Message Queue

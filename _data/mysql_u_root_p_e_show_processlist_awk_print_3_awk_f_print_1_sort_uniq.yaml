@@ -1,0 +1,8 @@
+commandlinefu_id: 9936
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  mysql -u root -p -e"show processlist;"|awk '{print $3}'|awk -F":" '{print $1}'|sort|uniq -c
+summary: |-
+  计算mysql连结数

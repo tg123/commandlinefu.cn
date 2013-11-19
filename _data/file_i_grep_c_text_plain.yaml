@@ -1,0 +1,8 @@
+commandlinefu_id: 3059
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file -i * | grep -c 'text/plain'
+summary: |-
+  total text files in current dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 7806
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shutdown -r now
+summary: |-
+  orderly shutdown system and reboot.

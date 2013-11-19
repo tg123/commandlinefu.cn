@@ -1,0 +1,8 @@
+commandlinefu_id: 7969
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find `pwd` -iname *SEARCH_STRING* >> ~/PLAYLIST_NAME.m3u
+summary: |-
+  add a particular track to a playlist by looking for a part of its file name

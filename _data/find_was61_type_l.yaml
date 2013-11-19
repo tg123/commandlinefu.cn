@@ -1,0 +1,8 @@
+commandlinefu_id: 11010
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /was61 -type l
+summary: |-
+  List all symbolic links in current directory

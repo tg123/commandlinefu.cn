@@ -1,0 +1,8 @@
+commandlinefu_id: 10914
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file.txt > /dev/null
+summary: |-
+  Suppress standard output using > /dev/null

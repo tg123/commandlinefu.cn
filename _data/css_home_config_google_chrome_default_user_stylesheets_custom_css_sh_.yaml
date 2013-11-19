@@ -1,0 +1,8 @@
+commandlinefu_id: 12794
+translator:
+  weibo: ''
+hide: true
+command: |-
+  CSS=$HOME/.config/google-chrome/Default/User\ StyleSheets/Custom.css sh -c 'test -f "$CSS.off" && mv "$CSS.off" "$CSS" || mv "$CSS" "$CSS.off"'
+summary: |-
+  Chrome, toggle default CSS style sheet

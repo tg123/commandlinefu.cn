@@ -1,0 +1,8 @@
+commandlinefu_id: 12465
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert *.jpeg output.pdf
+summary: |-
+  Convert several JPEG files to PDF

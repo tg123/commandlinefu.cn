@@ -1,0 +1,8 @@
+commandlinefu_id: 9112
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ $EUID -ne 0 ];then if [ -t $DISPLAY ]; then  sudo $0 "$*"; exit; else xdg-su -c "$0 $*"; exit;fi;fi
+summary: |-
+  Force the script to be started as root

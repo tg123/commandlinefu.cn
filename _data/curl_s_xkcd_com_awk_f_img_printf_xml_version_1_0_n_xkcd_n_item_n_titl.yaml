@@ -1,0 +1,8 @@
+commandlinefu_id: 4212
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s 'xkcd.com' | awk -F\" '/^<img/{printf("<?xml version=\"1.0\"?>\n<xkcd>\n<item>\n <title>%s</title>\n <comment>%s</comment>\n <image>%s</image>\n</item>\n</xkcd>\n", $6, $4, $2)}'
+summary: |-
+  View the newest xkcd comic.

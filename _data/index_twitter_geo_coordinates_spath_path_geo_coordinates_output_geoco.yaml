@@ -1,0 +1,8 @@
+commandlinefu_id: 10884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  index=twitter geo.coordinates{}="*"| spath path=geo.coordinates{} output=geocoordinates|  eval latitude=mvindex(geocoordinates,1)|  eval longitude=mvindex(geocoordinates,0)
+summary: |-
+  Revealing Latitude/Longitude from GNIP Activity Streams Format in Splunk

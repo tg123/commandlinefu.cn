@@ -1,0 +1,8 @@
+commandlinefu_id: 5061
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer http://38.100.101.69/CIDCFMAAC
+summary: |-
+  Play music radio from Z-103.5

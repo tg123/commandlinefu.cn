@@ -1,0 +1,8 @@
+commandlinefu_id: 6282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "print 1+1"
+summary: |-
+  calculate in commandline with python

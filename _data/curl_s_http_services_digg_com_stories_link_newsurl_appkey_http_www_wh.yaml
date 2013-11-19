@@ -1,0 +1,8 @@
+commandlinefu_id: 3168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://services.digg.com/stories?link=$NEWSURL&appkey=http://www.whatever.com&type=json"  | python -m simplejson.tool | grep diggs
+summary: |-
+  Get number of diggs for a news URL

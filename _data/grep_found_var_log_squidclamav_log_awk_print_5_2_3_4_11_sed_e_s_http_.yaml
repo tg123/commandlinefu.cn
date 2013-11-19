@@ -1,0 +1,8 @@
+commandlinefu_id: 1254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep "FOUND" /var/log/squidclamav.log | awk '{print $5"-"$2"-"$3","$4","$11}' | sed -e 's/\,http.*url=/\,/g' | sed -e 's/&/\,/g' | sed -e 's/source=//g' |sed -e 's/user=//g' | sed -e 's/virus=//g' | sed -e 's/stream\:+//g' | sed -e 's/\+FOUND//g'
+summary: |-
+  CSV list of infected URLS detected by ClamAV

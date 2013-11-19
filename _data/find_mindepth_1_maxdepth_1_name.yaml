@@ -1,0 +1,8 @@
+commandlinefu_id: 4147
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -mindepth 1 -maxdepth 1 -name .\*
+summary: |-
+  Find all dotfiles and dirs

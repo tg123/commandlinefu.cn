@@ -1,0 +1,8 @@
+commandlinefu_id: 3678
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strings /boot/kernel-file | grep 2.6
+summary: |-
+  easiest way to get kernel version without uname

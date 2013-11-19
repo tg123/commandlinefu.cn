@@ -1,0 +1,8 @@
+commandlinefu_id: 308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa --last
+summary: |-
+  To get the latest information on rpm packages

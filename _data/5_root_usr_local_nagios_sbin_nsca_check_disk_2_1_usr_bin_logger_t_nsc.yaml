@@ -1,0 +1,8 @@
+commandlinefu_id: 5976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  */5 * * * * root    /usr/local/nagios/sbin/nsca_check_disk 2>&1 |/usr/bin/logger -t nsca_check_disk
+summary: |-
+  Don't spam root. Log your cronjob output to syslog

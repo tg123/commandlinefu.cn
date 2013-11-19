@@ -1,0 +1,8 @@
+commandlinefu_id: 9151
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | xargs grep -l "string"
+summary: |-
+  egrep -r replacement for UNIX systems

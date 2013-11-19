@@ -1,0 +1,8 @@
+commandlinefu_id: 1058
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $(STEEP=300; sleep $STEEP; xmessage "Your tea is done") &
+summary: |-
+  A simple X11 tea timer

@@ -1,0 +1,8 @@
+commandlinefu_id: 160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -l -f [pubkey] | awk '{print $2}' | tr -ds ':' '' | egrep -ie "[a-f0-9]{32}"
+summary: |-
+  Validate openssh key & print checksum

@@ -1,0 +1,8 @@
+commandlinefu_id: 7938
+translator:
+  weibo: ''
+hide: true
+command: |-
+  MIN=10;for ((i=MIN*60;i>=0;i--));do echo -ne "\r$(date -d"0+$i sec" +%H:%M:%S)";sleep 1;done
+summary: |-
+  Countdown Clock

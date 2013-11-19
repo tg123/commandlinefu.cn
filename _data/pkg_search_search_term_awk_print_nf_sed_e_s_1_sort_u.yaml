@@ -1,0 +1,8 @@
+commandlinefu_id: 3373
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkg search SEARCH_TERM | awk '{print $NF}' | sed -e 's;.*/\(.*\)\@.*;\1;' | sort -u
+summary: |-
+  Search OpenSolaris packages and show only the pkg names

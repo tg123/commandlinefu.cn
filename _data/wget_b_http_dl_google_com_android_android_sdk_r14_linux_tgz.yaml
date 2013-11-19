@@ -1,0 +1,8 @@
+commandlinefu_id: 9521
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -b http://dl.google.com/android/android-sdk_r14-linux.tgz
+summary: |-
+  background a wget download

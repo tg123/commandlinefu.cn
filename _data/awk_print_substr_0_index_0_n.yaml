@@ -1,0 +1,8 @@
+commandlinefu_id: 3271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print substr($0, index($0,$N))}'
+summary: |-
+  Print all fields in a file/output from field N to the end of the line

@@ -1,0 +1,8 @@
+commandlinefu_id: 3392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zip -r foo.zip DIR -x "*/.svn/*"
+summary: |-
+  Create a zip file ignoring .svn files

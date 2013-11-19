@@ -1,0 +1,8 @@
+commandlinefu_id: 8219
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl s_client -connect localhost:443 -ssl2
+summary: |-
+  Test a SSLv2 connection

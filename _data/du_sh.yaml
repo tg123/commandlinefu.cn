@@ -1,0 +1,8 @@
+commandlinefu_id: 9628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh *
+summary: |-
+  List the size (in human readable form) of all sub folders from the current location

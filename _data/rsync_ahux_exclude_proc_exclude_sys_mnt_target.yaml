@@ -1,0 +1,8 @@
+commandlinefu_id: 9090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -aHux --exclude=/proc/* --exclude=/sys/* /* /mnt/target/
+summary: |-
+  copy root to new device

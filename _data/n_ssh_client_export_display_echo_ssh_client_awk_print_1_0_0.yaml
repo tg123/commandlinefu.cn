@@ -1,0 +1,8 @@
+commandlinefu_id: 5364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ -n "$SSH_CLIENT" ] && export DISPLAY=$(echo $SSH_CLIENT | awk '{ print $1 }'):0.0
+summary: |-
+  Auto export display when coming from SSH

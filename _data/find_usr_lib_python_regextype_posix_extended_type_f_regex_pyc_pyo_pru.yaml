@@ -1,0 +1,8 @@
+commandlinefu_id: 8271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /usr/lib/python* -regextype posix-extended ! \( -type f -regex '.*.(pyc|pyo)' -prune -o -print \) | qfile -o -f -
+summary: |-
+  Check for orphaned python files

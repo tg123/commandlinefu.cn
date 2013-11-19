@@ -1,0 +1,8 @@
+commandlinefu_id: 11155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "`curl -sL http://www.commandlinefu.com/commands/random/json|sed -re 's/.*,"command":"(.*)","summary":"([^"]+).*/\\x1b[1;32m\2\\n\\n\\x1b[1;33m\1\\x1b[0m/g'`\n"
+summary: |-
+  Show a random oneliner from commandlinefu.com

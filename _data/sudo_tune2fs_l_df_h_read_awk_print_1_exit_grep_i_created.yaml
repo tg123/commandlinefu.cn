@@ -1,0 +1,8 @@
+commandlinefu_id: 12590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tune2fs -l $(df -h / |(read; awk '{print $1; exit}')) | grep -i created
+summary: |-
+  Show how old your linux OS installtion is

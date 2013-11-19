@@ -1,0 +1,8 @@
+commandlinefu_id: 11216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim -d '+diffoff!' file1 file2
+summary: |-
+  Edit 2 or more files in vim using vim -d

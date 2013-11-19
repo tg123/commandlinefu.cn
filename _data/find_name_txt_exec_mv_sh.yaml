@@ -1,0 +1,8 @@
+commandlinefu_id: 8576
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.txt' -exec mv {} {}.sh \ ;
+summary: |-
+  Find and replace

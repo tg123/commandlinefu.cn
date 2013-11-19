@@ -1,0 +1,8 @@
+commandlinefu_id: 306
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  df -kFufs
+summary: |-
+  Solaris 上列出所有 UFS 挂载

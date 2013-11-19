@@ -1,0 +1,8 @@
+commandlinefu_id: 833
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /usr/ports; grep -F "`for o in \`pkg_info -qao\` ; \ do echo "|/usr/ports/${o}|" ; done`" `make -V INDEXFILE` | \ grep -i \|ports@freebsd.org\| | cut -f 2 -d \|
+summary: |-
+  find unmaintained ports that are installed on your system

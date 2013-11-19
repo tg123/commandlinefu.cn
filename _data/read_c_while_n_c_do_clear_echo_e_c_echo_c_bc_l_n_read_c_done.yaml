@@ -1,0 +1,8 @@
+commandlinefu_id: 9687
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read c; while [ -n "$c" ]; do clear; echo -e "$c = "$(echo "$c" |bc -l)"\n"; read c; done
+summary: |-
+  Simple calculus

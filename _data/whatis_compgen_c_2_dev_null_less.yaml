@@ -1,0 +1,8 @@
+commandlinefu_id: 11832
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whatis $(compgen -c) 2>/dev/null | less
+summary: |-
+  Do some learning...

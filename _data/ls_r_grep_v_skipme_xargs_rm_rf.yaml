@@ -1,0 +1,8 @@
+commandlinefu_id: 12836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -R | grep -v skipme | xargs rm -Rf
+summary: |-
+  Delete all files and folders except one file/dir

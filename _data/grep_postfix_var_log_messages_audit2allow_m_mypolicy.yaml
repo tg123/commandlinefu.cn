@@ -1,0 +1,8 @@
+commandlinefu_id: 11629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep postfix /var/log/messages | audit2allow -M mypolicy
+summary: |-
+  Fix SELinux problem with Postfix on Centos

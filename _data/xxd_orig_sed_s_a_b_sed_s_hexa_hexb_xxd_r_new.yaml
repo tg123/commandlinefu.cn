@@ -1,0 +1,8 @@
+commandlinefu_id: 194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xxd < orig | sed 's/A/B/' | sed 's/HEXA/HEXB/' | xxd -r > new
+summary: |-
+  Binary search/replace

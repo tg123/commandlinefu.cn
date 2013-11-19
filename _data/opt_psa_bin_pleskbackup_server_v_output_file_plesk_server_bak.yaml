@@ -1,0 +1,8 @@
+commandlinefu_id: 2655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /opt/psa/bin/pleskbackup server -v --output-file=plesk_server.bak
+summary: |-
+  Back up a PLESK Installation

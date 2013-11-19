@@ -1,0 +1,8 @@
+commandlinefu_id: 6661
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qmv -fdo
+summary: |-
+  Rename files with vim.

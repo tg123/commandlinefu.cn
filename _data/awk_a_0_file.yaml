@@ -1,0 +1,8 @@
+commandlinefu_id: 3164
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk '!a[$0]++' file
+summary: |-
+  用 awk实现一个 uniq

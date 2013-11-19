@@ -1,0 +1,8 @@
+commandlinefu_id: 1784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pinfo date
+summary: |-
+  Make info pages much less painful

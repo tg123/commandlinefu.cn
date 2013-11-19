@@ -1,0 +1,8 @@
+commandlinefu_id: 2042
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cuebreakpoints <cue file> | shnsplit -o <lossless audio type> <audio file>
+summary: |-
+  Split lossless audio (ape, flac, wav, wv) by cue file

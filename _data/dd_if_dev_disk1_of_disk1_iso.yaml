@@ -1,0 +1,8 @@
+commandlinefu_id: 10192
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/disk1 of=disk1.iso
+summary: |-
+  dump a mounted disk to an ISO image

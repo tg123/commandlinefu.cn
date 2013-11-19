@@ -1,0 +1,8 @@
+commandlinefu_id: 9641
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ history -a #in one shell , and $ history -r #in another running shell
+summary: |-
+  Instantly load bash history of one shell into another running shell

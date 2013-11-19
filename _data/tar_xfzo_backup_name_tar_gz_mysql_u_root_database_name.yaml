@@ -1,0 +1,8 @@
+commandlinefu_id: 7853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar xfzO <backup_name>.tar.gz | mysql -u root <database_name>
+summary: |-
+  restore <mysqldump>.tar.gz on the fly

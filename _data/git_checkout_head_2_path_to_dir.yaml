@@ -1,0 +1,8 @@
+commandlinefu_id: 11260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git checkout HEAD~2 -- /path/to/dir
+summary: |-
+  restoring a directory from history

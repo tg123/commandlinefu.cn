@@ -1,0 +1,8 @@
+commandlinefu_id: 2054
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w | egrep -v '(load|FROM)' | awk '{print $2}'  | sed 's/^/tty/' | awk '{print "echo \"The Matrix has you...\" >> /dev/" $1}' | bash
+summary: |-
+  send Everyone on your machine some love

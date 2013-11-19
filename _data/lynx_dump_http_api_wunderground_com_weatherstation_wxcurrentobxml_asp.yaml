@@ -1,0 +1,8 @@
+commandlinefu_id: 4803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump http://api.wunderground.com/weatherstation/WXCurrentObXML.asp?ID=KCALOSAN32 | grep GMT | awk '{print $3}'
+summary: |-
+  Weather on the Command line

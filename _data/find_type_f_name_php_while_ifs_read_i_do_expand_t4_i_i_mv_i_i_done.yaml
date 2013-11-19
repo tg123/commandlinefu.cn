@@ -1,0 +1,8 @@
+commandlinefu_id: 8264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name \*.php | while IFS="" read i; do expand -t4 "$i" > "$i-"; mv "$i-" "$i"; done
+summary: |-
+  Replace spaces with tabs & format file source recursively within a directory

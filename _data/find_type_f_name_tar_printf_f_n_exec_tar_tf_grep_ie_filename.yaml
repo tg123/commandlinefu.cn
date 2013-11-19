@@ -1,0 +1,8 @@
+commandlinefu_id: 7597
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type f -name "*.tar" -printf [%f]\\n -exec tar -tf {} \; | grep -iE "[\[]|<filename>"
+summary: |-
+  在多个tar中寻找文件

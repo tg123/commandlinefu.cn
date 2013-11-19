@@ -1,0 +1,8 @@
+commandlinefu_id: 4262
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 -d "finger"
+summary: |-
+  Monitoring sessions that arrive at your server

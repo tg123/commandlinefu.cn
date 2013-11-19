@@ -1,0 +1,8 @@
+commandlinefu_id: 6788
+translator:
+  weibo: ''
+hide: true
+command: |-
+  script -qf | tee >(nc -kl 5000) >(nc -kl 5001) >(nc -kl 5002)
+summary: |-
+  Broadcast your shell thru ports 5000, 5001, 5002 ...

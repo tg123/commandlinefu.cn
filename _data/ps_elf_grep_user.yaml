@@ -1,0 +1,8 @@
+commandlinefu_id: 12526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eLF | grep ^user
+summary: |-
+  Threads and processes of a user

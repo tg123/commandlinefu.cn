@@ -1,0 +1,8 @@
+commandlinefu_id: 6573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l $HOME
+summary: |-
+  To list all files in your home directory

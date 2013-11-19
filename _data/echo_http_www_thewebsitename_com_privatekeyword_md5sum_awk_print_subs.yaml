@@ -1,0 +1,8 @@
+commandlinefu_id: 10936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo http://www.TheWebSiteName.com privatekeyword | md5sum | awk '{print substr($0,0,10)}'
+summary: |-
+  Generate a password for website authentication  that can be recreated each time you need to authenticate without saving the password

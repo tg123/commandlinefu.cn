@@ -1,0 +1,8 @@
+commandlinefu_id: 3853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'FNR==5' <file>
+summary: |-
+  To print a specific line from a file

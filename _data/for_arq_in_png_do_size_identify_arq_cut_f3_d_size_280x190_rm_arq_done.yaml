@@ -1,0 +1,8 @@
+commandlinefu_id: 8333
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  for arq in *.png; do size=$(identify $arq | cut -f3 -d" "); [ $size == "280x190" ] || rm $arq ; done
+summary: |-
+  按图片大小删除

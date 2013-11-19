@@ -1,0 +1,8 @@
+commandlinefu_id: 5850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while :;do if [ ! $(ls -l commander |cut -d ' ' -f5) -eq 0 ]; then echo "Ran command: $(less commander) @ $(date +%D) $(date +%r)" >> comm_log;"$(less commander)";> commander;fi;done
+summary: |-
+  A way to run commands on a remote computer to be displayed on the remote computer

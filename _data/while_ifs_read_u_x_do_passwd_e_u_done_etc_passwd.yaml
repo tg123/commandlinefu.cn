@@ -1,0 +1,8 @@
+commandlinefu_id: 4107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while IFS=: read u x; do passwd -e "$u"; done < /etc/passwd
+summary: |-
+  force change password for all user

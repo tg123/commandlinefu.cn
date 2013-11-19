@@ -1,0 +1,8 @@
+commandlinefu_id: 9264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/sbin/dmidecode | perl -lne 'print $1 if /Current\s+Speed:\s+(\d+\s+MHz)/'
+summary: |-
+  See your current RAM frequency

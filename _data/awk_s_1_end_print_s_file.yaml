@@ -1,0 +1,8 @@
+commandlinefu_id: 11744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{s+=$1}END{print s}' <file>
+summary: |-
+  sum a column of numbers

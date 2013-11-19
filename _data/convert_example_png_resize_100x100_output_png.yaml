@@ -1,0 +1,8 @@
+commandlinefu_id: 6274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert example.png -resize 100x100! output.png
+summary: |-
+  Reducing image size

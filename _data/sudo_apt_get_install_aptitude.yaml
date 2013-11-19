@@ -1,0 +1,8 @@
+commandlinefu_id: 11283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get install aptitude
+summary: |-
+  the first command i type on fresh ubuntu

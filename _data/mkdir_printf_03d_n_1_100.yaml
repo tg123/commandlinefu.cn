@@ -1,0 +1,8 @@
+commandlinefu_id: 3017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir $(printf '%03d\n' {1..100})
+summary: |-
+  make 100 directories with leading zero, 001...100, using bash3.X

@@ -1,0 +1,8 @@
+commandlinefu_id: 12382
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wmr - | pv -s $SIZEOFMEM  | ssh -p 40004 -c arcfour,blowfish-cbc -C root@savelocation.com "cat - > /forensics/T430-8gb-RAM1.dd"
+summary: |-
+  MEMORY DUMP ACROSS NETWORK 4 CYGWIN

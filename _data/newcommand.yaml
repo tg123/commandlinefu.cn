@@ -1,0 +1,8 @@
+commandlinefu_id: 9173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  newcommand $(!!)
+summary: |-
+  Re-use the previous command output

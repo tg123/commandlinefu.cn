@@ -1,0 +1,8 @@
+commandlinefu_id: 1175
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -xdev -print | cpio -pdmuv /mnt/mydisk
+summary: |-
+  1:1 copy of a volume

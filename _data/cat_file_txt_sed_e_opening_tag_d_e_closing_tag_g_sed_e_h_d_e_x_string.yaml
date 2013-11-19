@@ -1,0 +1,8 @@
+commandlinefu_id: 6950
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat file.txt | sed -e /<opening tag>/d -e /<closing tag>/G | sed -e '/./{H;$!d;}' -e 'x;/<string to search>/!d;'
+summary: |-
+  通过标签[open/close tag]来查找多行

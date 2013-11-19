@@ -1,0 +1,8 @@
+commandlinefu_id: 10221
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n "IP Address or Machine Name: "; read IP; ping -c 1 -q $IP >/dev/null 2>&1 && echo -e "\e[00;32mOnline\e[00m" || echo -e "\e[00;31mOffline\e[00m"
+summary: |-
+  Check if a machine is online with better UI

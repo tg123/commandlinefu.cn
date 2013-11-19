@@ -1,0 +1,8 @@
+commandlinefu_id: 7917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  s(){ sed 's/./\n\0/g'<<<$1|sort;};cmp -s <(s foobar) <(s farboo)||echo -n "not ";echo anagram
+summary: |-
+  Are the two lines anagrams?

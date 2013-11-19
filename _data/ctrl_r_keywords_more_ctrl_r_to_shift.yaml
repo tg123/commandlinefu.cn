@@ -1,0 +1,8 @@
+commandlinefu_id: 11205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ctrl+r> keywords #more <ctrl+r> to shift
+summary: |-
+  to search and shift history commands

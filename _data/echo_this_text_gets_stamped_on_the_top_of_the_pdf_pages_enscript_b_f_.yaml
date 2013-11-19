@@ -1,0 +1,8 @@
+commandlinefu_id: 9984
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "This text gets stamped on the top of the pdf pages." | enscript -B -f Courier-Bold16 -o- | ps2pdf - | pdftk input.pdf stamp - output output.pdf
+summary: |-
+  Stamp a text line on top of the pdf pages.

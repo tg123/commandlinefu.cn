@@ -1,0 +1,8 @@
+commandlinefu_id: 9994
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname "*.jpg" -printf '<img src="%f" title="%f">\n' > gallery.html
+summary: |-
+  Quick HTML image gallery

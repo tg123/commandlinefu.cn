@@ -1,0 +1,8 @@
+commandlinefu_id: 3131
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "scale=4; 3 / 5" | bc
+summary: |-
+  floating point operations in shell scripts

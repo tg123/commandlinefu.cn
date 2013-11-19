@@ -1,0 +1,8 @@
+commandlinefu_id: 5198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | while read filename; do tar -czvf "$filename".tar.gz "$filename"; rm "$filename"; done
+summary: |-
+  Individually compress each file in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 1694
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -avz -e 'ssh -A sshproxy ssh' srcdir remhost:dest/path/
+summary: |-
+  Remote copy directories and files through an SSH tunnel host

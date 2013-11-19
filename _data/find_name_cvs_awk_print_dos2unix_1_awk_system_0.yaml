@@ -1,0 +1,8 @@
+commandlinefu_id: 423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./* -name 'CVS' | awk '{print "dos2unix " $1 "/*"}' | awk '{system($0)}'
+summary: |-
+  Recover cvs ": no such repository" error

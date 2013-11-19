@@ -1,0 +1,8 @@
+commandlinefu_id: 2565
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -type f -size +1000000000c
+summary: |-
+  find files larger than 1 GB, everywhere

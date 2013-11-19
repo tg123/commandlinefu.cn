@@ -1,0 +1,8 @@
+commandlinefu_id: 1223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cpfP - $(find <somedir> -type f -name *.png) | ssh user@host | tar xpfP -
+summary: |-
+  Copy specific files to another machine, keeping the file hierarchy

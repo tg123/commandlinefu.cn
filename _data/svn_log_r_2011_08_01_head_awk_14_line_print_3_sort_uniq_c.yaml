@@ -1,0 +1,8 @@
+commandlinefu_id: 9170
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -r{2011-08-01}:HEAD|awk '$14 ~/line/ {print $3}'|sort|uniq -c
+summary: |-
+  List svn commits by user for a date range

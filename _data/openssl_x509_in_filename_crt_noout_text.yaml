@@ -1,0 +1,8 @@
+commandlinefu_id: 4491
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  openssl x509 -in filename.crt -noout -text
+summary: |-
+  查看证书详情

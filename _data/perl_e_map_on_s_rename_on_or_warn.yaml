@@ -1,0 +1,8 @@
+commandlinefu_id: 2401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'map { $on=$_; s/\]/_/; rename($on, $_) or warn $!; } <*>;'
+summary: |-
+  Replace square brackets to underscore in all filenames (current dir.)

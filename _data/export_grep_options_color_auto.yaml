@@ -1,0 +1,8 @@
+commandlinefu_id: 8888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export GREP_OPTIONS='--color=auto'
+summary: |-
+  Enable color pattern match highlighting in grep(1)

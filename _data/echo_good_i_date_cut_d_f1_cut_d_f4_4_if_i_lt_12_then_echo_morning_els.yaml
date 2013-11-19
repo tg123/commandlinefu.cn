@@ -1,0 +1,8 @@
+commandlinefu_id: 6612
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Good $(i=`date | cut -d: -f1 | cut -d' ' -f4-4` ; if [ $i -lt 12 ] ; then echo morning ; else if [ $i -lt 15 ] ; then echo afternoon ; else echo evening ; fi ; fi)
+summary: |-
+  Greets the user appropriately

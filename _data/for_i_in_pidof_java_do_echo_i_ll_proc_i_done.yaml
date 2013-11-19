@@ -1,0 +1,8 @@
+commandlinefu_id: 12231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `pidof java`; do echo $i; ll /proc/$i; done;
+summary: |-
+  list all process

@@ -1,0 +1,8 @@
+commandlinefu_id: 4799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name <pattern> -ls | awk 'BEGIN {i=0}; {i=i+$7}; END {print i}'
+summary: |-
+  Determine space taken by files of certain type

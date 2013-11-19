@@ -1,0 +1,8 @@
+commandlinefu_id: 5814
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias sorth='sort --help|sed -n "/^ *-[^-]/s/^ *\(-[^ ]* -[^ ]*\) *\(.*\)/\1:\2/p"|column -ts":"'
+summary: |-
+  View advanced Sort options, Quick Reference Help Alias

@@ -1,0 +1,8 @@
+commandlinefu_id: 1345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -vf rotate=1 -ovc lavc -oac copy "$1" -o "$1"-rot.avi
+summary: |-
+  Rotate a video file by 90 degrees CW

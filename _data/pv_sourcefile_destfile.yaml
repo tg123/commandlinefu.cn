@@ -1,0 +1,8 @@
+commandlinefu_id: 5107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv sourcefile > destfile
+summary: |-
+  Copy a file using pv and watch its progress

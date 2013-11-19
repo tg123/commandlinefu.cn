@@ -1,0 +1,8 @@
+commandlinefu_id: 6494
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk first.pdf second.pdf cat output output.pdf
+summary: |-
+  Merge various PDF files

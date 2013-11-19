@@ -1,0 +1,8 @@
+commandlinefu_id: 689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat welcome | wall
+summary: |-
+  Broadcast message to all logged in terminal users.

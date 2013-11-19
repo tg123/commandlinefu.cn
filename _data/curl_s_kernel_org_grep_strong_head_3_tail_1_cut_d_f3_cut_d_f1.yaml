@@ -1,0 +1,8 @@
+commandlinefu_id: 10879
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s kernel.org | grep '<strong>' | head -3 | tail -1 | cut -d'>' -f3 | cut -d'<' -f1
+summary: |-
+  Get current stable kernel version string from kernel.org

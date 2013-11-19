@@ -1,0 +1,8 @@
+commandlinefu_id: 908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | grep deleteme | while read line; do rm $line; done
+summary: |-
+  rm all files you grep

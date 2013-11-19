@@ -1,0 +1,8 @@
+commandlinefu_id: 6777
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cycle(){ while :;do((i++));echo -n "${3:$(($i%${#3})):1}";sleep .$(($RANDOM%$2+$1));done;}
+summary: |-
+  continuously print string as if being entered from the keyboard

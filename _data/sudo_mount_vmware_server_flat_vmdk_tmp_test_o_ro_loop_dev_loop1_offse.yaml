@@ -1,0 +1,8 @@
+commandlinefu_id: 12554
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mount vmware-server-flat.vmdk /tmp/test/ -o ro,loop=/dev/loop1,offset=32768 -t ntfs
+summary: |-
+  Mount a VMware virtual disk (.vmdk) file on a Linux box

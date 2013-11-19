@@ -1,0 +1,8 @@
+commandlinefu_id: 4076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mp32ogg file.mp3
+summary: |-
+  convert mp3 to ogg

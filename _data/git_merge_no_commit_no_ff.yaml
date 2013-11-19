@@ -1,0 +1,8 @@
+commandlinefu_id: 386
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git merge --no-commit --no-ff
+summary: |-
+  git merge --dry-run

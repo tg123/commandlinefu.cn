@@ -1,0 +1,8 @@
+commandlinefu_id: 9444
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert /home/user/file.jpg -resize 800x533 -strip -quality 80 -interlace line /home/user/web_file.jpg
+summary: |-
+  Convert high resolution JPEG for web publication

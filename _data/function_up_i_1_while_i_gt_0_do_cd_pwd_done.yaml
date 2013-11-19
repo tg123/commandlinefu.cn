@@ -1,0 +1,8 @@
+commandlinefu_id: 11781
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function up { i=$1; while [ $((i--)) -gt 0 ]; do cd ../ && pwd; done }
+summary: |-
+  move up through directories faster (set in your /etc/profile or .bash_profile)

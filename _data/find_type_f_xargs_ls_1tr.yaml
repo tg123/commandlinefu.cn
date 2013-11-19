@@ -1,0 +1,8 @@
+commandlinefu_id: 12058
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f | xargs ls -1tr
+summary: |-
+  Find files and list them sorted by modification time

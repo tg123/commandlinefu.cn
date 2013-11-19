@@ -1,0 +1,8 @@
+commandlinefu_id: 8864
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  screen -x <screen_id>
+summary: |-
+  共享一个 screen

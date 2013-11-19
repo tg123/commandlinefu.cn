@@ -1,0 +1,8 @@
+commandlinefu_id: 10827
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ctrl+p> for previous command; <ctrl+n> for next command
+summary: |-
+  Previous / next command in history

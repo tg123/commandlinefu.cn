@@ -1,0 +1,8 @@
+commandlinefu_id: 5277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Your_Chinese_Char | uniconv -encode Chinese-WB
+summary: |-
+  convert chinese character into wubi86 input code

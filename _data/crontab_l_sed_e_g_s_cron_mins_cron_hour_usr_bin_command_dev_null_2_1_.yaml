@@ -1,0 +1,8 @@
+commandlinefu_id: 4512
+translator:
+  weibo: ''
+hide: true
+command: |-
+  crontab -l | sed -e '$G;$s-$-'"$CRON_MINS $CRON_HOUR"' * * * /usr/bin/command >/dev/null 2>&1-' | crontab -
+summary: |-
+  Add a line to crontab using sed

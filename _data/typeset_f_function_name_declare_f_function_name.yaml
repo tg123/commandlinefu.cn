@@ -1,0 +1,8 @@
+commandlinefu_id: 7147
+translator:
+  weibo: ''
+hide: true
+command: |-
+  typeset -f <function name>; declare -f <function name>
+summary: |-
+  get function's source

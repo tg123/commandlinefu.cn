@@ -1,0 +1,8 @@
+commandlinefu_id: 4021
+translator:
+  weibo: ''
+hide: true
+command: |-
+  reset
+summary: |-
+  Clean your broken terminal

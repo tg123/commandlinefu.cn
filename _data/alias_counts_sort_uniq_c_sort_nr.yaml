@@ -1,0 +1,8 @@
+commandlinefu_id: 53
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias counts=sort | uniq -c | sort -nr
+summary: |-
+  A nice command for summarising repeated information

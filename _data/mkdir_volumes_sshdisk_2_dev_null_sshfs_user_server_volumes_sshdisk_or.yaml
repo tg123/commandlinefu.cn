@@ -1,0 +1,8 @@
+commandlinefu_id: 87
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir /Volumes/sshdisk 2> /dev/null; sshfs user@server:/ /Volumes/sshdisk -oreconnect,volname=SSHDisk
+summary: |-
+  Creates a SSHFS volume on MacOS X (better used as an alias). Needs FuseFS and SSHFS (obvioulsly).

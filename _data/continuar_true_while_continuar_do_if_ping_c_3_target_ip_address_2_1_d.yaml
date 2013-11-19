@@ -1,0 +1,8 @@
+commandlinefu_id: 8345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  continuar=true; while $continuar; do   if ping -c 3 [target_IP_address] 2>&1> /dev/null ;   then     mplayer [sound_file];     continuar=false; break;   fi; done
+summary: |-
+  multimedia ping

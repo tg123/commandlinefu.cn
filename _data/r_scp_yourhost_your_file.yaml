@@ -1,0 +1,8 @@
+commandlinefu_id: 12722
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :r scp://yourhost//your/file
+summary: |-
+  Include a remote file (in vim)

@@ -1,0 +1,8 @@
+commandlinefu_id: 9656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  memnum=$(awk '{ print $2 }' /proc/meminfo |head -n1); echo "$memnum / 1024 / 1024" | bc -l
+summary: |-
+  Get memory total from /proc/meminfo in Gigs

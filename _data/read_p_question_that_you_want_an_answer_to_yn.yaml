@@ -1,0 +1,8 @@
+commandlinefu_id: 10600
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -p "Question that you want an answer to?" yn
+summary: |-
+  Prompt the user for input of y or n, wait for input then continue.

@@ -1,0 +1,8 @@
+commandlinefu_id: 10069
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kde-open -v | grep Platform | cut -d' ' -f4-
+summary: |-
+  Get KDE version

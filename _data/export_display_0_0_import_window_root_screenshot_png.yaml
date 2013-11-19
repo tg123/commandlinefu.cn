@@ -1,0 +1,8 @@
+commandlinefu_id: 4880
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export DISPLAY=":0.0" && import -window root screenshot.png
+summary: |-
+  Remote Screenshot

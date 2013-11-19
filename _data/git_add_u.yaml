@@ -1,0 +1,8 @@
+commandlinefu_id: 8818
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git add -u
+summary: |-
+  Using Git, stage all manually deleted files.

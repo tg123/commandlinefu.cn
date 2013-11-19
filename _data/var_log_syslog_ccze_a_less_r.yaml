@@ -1,0 +1,8 @@
+commandlinefu_id: 2991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  < /var/log/syslog ccze -A | less -R
+summary: |-
+  View a colorful logfile using less

@@ -1,0 +1,8 @@
+commandlinefu_id: 5773
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo $((($(date +%s)-$(date +%s -d "march 1"))/86400))
+summary: |-
+  计算间隔天数

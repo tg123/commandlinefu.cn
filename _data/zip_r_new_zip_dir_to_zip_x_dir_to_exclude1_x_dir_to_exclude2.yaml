@@ -1,0 +1,8 @@
+commandlinefu_id: 7086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zip -r new.zip dir_to_zip -x '*/dir_to_exclude1/*' -x '*/dir_to_exclude2/*'
+summary: |-
+  Zip a directory recursively, excluding some contained directories

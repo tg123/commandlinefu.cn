@@ -1,0 +1,8 @@
+commandlinefu_id: 4329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmllint --noout some.xml 2>&1 >/dev/null || exit 1
+summary: |-
+  validate xml in a shell script using xmllint

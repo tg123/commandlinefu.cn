@@ -1,0 +1,8 @@
+commandlinefu_id: 10681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude search ~ahold
+summary: |-
+  locating packages held back, such as with "aptitude hold <package>"

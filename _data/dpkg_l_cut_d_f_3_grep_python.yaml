@@ -1,0 +1,8 @@
+commandlinefu_id: 5587
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l | cut -d' ' -f 3 | grep ^python$
+summary: |-
+  Check the package is installed or not. There will show the package name which is installed.

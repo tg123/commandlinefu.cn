@@ -1,0 +1,8 @@
+commandlinefu_id: 12397
+translator:
+  weibo: ''
+hide: true
+command: |-
+  arp -i <interface>
+summary: |-
+  List wireless clients connected to an access point

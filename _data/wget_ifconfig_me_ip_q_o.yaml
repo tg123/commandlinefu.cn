@@ -1,0 +1,8 @@
+commandlinefu_id: 9786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget ifconfig.me/ip -q -O -
+summary: |-
+  Get your external IP address

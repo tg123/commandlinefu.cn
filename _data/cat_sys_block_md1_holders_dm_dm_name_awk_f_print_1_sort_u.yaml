@@ -1,0 +1,8 @@
+commandlinefu_id: 12125
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /sys/block/md1/holders/dm*/dm/name | awk -F- '{print $1}' | sort -u
+summary: |-
+  Find LVM Volume Group name for a block device

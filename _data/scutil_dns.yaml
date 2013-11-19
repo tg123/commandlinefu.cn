@@ -1,0 +1,8 @@
+commandlinefu_id: 3265
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scutil --dns
+summary: |-
+  See the order for DNS resolution on your Mac

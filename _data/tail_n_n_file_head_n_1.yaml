@@ -1,0 +1,8 @@
+commandlinefu_id: 9380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -n +<N> <file> | head -n 1
+summary: |-
+  To print a specific line from a file

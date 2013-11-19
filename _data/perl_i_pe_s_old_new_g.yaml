@@ -1,0 +1,8 @@
+commandlinefu_id: 73
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -i -pe "s/old/new/g" *
+summary: |-
+  Replaces every ocurrences of 'old' for 'new' in all files specified

@@ -1,0 +1,8 @@
+commandlinefu_id: 8608
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://example.com | grep -o -P "<a.*href.*>" | grep -o "http.*.pdf" |  xargs -d"\n" -n1  wget -c
+summary: |-
+  Get all files of particular type (say, PDF) listed on some wegpage (say, example.com)

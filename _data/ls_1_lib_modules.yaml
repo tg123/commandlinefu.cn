@@ -1,0 +1,8 @@
+commandlinefu_id: 4986
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ls -1 /lib/modules
+summary: |-
+  列出安装的 kernels

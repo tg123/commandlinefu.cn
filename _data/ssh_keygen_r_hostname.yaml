@@ -1,0 +1,8 @@
+commandlinefu_id: 7778
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -R hostname
+summary: |-
+  remove hostname from known_hosts

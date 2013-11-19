@@ -1,0 +1,8 @@
+commandlinefu_id: 376
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  tidy -asxhtml -numeric < index.html > index.xml
+summary: |-
+  将html 整理成 xml [tidy]

@@ -1,0 +1,8 @@
+commandlinefu_id: 2939
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host $HOSTNAME|cut -d' ' -f4
+summary: |-
+  Get your external IP address if your machine has a DNS entry

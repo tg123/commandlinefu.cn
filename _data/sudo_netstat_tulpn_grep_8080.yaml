@@ -1,0 +1,8 @@
+commandlinefu_id: 12565
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo netstat -tulpn | grep :8080
+summary: |-
+  check to see what is running on a specific port number

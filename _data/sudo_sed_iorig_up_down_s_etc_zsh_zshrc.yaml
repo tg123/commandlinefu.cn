@@ -1,0 +1,8 @@
+commandlinefu_id: 4777
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sed -iorig '/\(up\|down\)/s/^/#/' /etc/zsh/zshrc
+summary: |-
+  Fix the vi zsh bindings on ubuntu

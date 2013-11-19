@@ -1,0 +1,8 @@
+commandlinefu_id: 9437
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste(){ curl -s -S --data-urlencode "txt=$($*)" "http://pastehtml.com/upload/create?input_type=txt&result=address";echo;}
+summary: |-
+  Paste command output to www.pastehtml.com in txt format.

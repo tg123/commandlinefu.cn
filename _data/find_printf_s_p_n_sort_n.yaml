@@ -1,0 +1,8 @@
+commandlinefu_id: 10758
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -printf "%s %p\n" | sort -n
+summary: |-
+  List all files in current dir and subdirs sorted by size

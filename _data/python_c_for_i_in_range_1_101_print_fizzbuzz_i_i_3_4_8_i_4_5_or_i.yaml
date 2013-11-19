@@ -1,0 +1,8 @@
+commandlinefu_id: 9454
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c'for i in range(1,101):print"FizzBuzz"[i*i%3*4:8--i**4%5]or i'
+summary: |-
+  FizzBuzz one-liner in Python

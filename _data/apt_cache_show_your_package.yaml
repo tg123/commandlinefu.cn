@@ -1,0 +1,8 @@
+commandlinefu_id: 4245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache show Your_package
+summary: |-
+  Show the meta information on a package (dependency , statuts ..) on debian derivative distro

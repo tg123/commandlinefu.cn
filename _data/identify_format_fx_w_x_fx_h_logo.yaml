@@ -1,0 +1,8 @@
+commandlinefu_id: 10266
+translator:
+  weibo: ''
+hide: true
+command: |-
+  identify -format "%[fx:w]x%[fx:h]" logo:
+summary: |-
+  Resolution of a image

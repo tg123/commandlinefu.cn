@@ -1,0 +1,8 @@
+commandlinefu_id: 10888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chown davidp:users /some/long/path/file && chmod g+rx $_
+summary: |-
+  Get last argument of last comman using $_ var

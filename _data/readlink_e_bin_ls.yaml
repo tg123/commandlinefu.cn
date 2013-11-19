@@ -1,0 +1,8 @@
+commandlinefu_id: 7557
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -e /bin/ls
+summary: |-
+  Get the full path to a file

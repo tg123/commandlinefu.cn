@@ -1,0 +1,8 @@
+commandlinefu_id: 12540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ apg -m 40 -a 1
+summary: |-
+  20char long alpahnumeric

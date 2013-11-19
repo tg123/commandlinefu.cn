@@ -1,0 +1,8 @@
+commandlinefu_id: 9284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '$3==$4' /etc/passwd
+summary: |-
+  Print all lines from a file that has the same N th and M th column

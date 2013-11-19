@@ -1,0 +1,8 @@
+commandlinefu_id: 9040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man emacs
+summary: |-
+  Backup a file before editing it.

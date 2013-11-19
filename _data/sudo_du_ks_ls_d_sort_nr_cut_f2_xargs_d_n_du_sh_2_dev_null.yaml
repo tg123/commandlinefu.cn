@@ -1,0 +1,8 @@
+commandlinefu_id: 3075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo du -ks $(ls -d */) | sort -nr | cut -f2 | xargs -d '\n' du -sh 2> /dev/null
+summary: |-
+  Get the size of all the directories in current directory (Sorted Human Readable)

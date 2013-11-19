@@ -1,0 +1,8 @@
+commandlinefu_id: 1598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep 'httpd ' | awk {'print $2'} | xargs kill -9
+summary: |-
+  kills all processes for a certain program e.g. httpd

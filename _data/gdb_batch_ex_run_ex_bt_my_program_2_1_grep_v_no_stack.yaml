@@ -1,0 +1,8 @@
+commandlinefu_id: 7500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gdb -batch -ex "run" -ex "bt" ${my_program} 2>&1 | grep -v ^"No stack."$
+summary: |-
+  Run a program transparently, but print a stack trace if it fails

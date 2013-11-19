@@ -1,0 +1,8 @@
+commandlinefu_id: 6243
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname '*.mp3' -print0 | xargs -0 mp3gain -r -k
+summary: |-
+  gain all mp3s in subfolders w/o encoding

@@ -1,0 +1,8 @@
+commandlinefu_id: 591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FAIL2BAN=`ps ax | grep fail2ban | grep -v grep | awk {'print $1'}` && if [ -n "$FAIL2BAN" ]; then printf "\n[INFO] Fail2Ban is running and the PID is %s\n\n" $FAIL2BAN; else printf "\n [INFO] Fail2Ban is not running\n\n"; fi
+summary: |-
+  Check if Fail2Ban is Running

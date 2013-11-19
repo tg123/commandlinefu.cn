@@ -1,0 +1,8 @@
+commandlinefu_id: 5910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmidecode -t baseboard
+summary: |-
+  Display Motherboard Info

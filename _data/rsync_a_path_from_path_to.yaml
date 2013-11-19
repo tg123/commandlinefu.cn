@@ -1,0 +1,8 @@
+commandlinefu_id: 10452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -a /path/from/.[^.]* /path/to
+summary: |-
+  Copy only hidden files and directories with rsync.

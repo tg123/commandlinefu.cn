@@ -1,0 +1,8 @@
+commandlinefu_id: 9210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  say() { mplayer "http://translate.google.com/translate_tts?q=$1"; }
+summary: |-
+  Gets the english pronunciation of a phrase

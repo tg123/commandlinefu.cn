@@ -1,0 +1,8 @@
+commandlinefu_id: 12528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /var/scripts -name 'backup*' -exec {} ';'
+summary: |-
+  run all

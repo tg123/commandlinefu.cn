@@ -1,0 +1,8 @@
+commandlinefu_id: 4547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grepp() { [ $# -eq 1 ] && perl -00ne "print if /$1/i" || perl -00ne "print if /$1/i" < "$2";}
+summary: |-
+  Grep by paragraph instead of by line.

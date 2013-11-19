@@ -1,0 +1,8 @@
+commandlinefu_id: 12135
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [ 1 ]; do (ping -c 1 google.com || growlnotify -m 'ur wifiz, it has teh sad'); sleep 10; done
+summary: |-
+  Pop up a Growl alert if Amtrak wifi doesn't know where to find The Google

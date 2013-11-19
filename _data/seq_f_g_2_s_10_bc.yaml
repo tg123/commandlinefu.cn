@@ -1,0 +1,8 @@
+commandlinefu_id: 7867
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq -f"%g^2" -s "+" 10 | bc
+summary: |-
+  Calculate 1**2 + 2**2 + 3**2 + ...

@@ -1,0 +1,8 @@
+commandlinefu_id: 636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -zcps <dir> -X <(find <dir> -type f -mtime -<days>) |ssh user@backuphost tar -xzpsC /data/bkup
+summary: |-
+  backup the old files

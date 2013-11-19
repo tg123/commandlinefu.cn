@@ -1,0 +1,8 @@
+commandlinefu_id: 7848
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pev winappfile.exe
+summary: |-
+  pev - Extract PE(.exe) version information in bash

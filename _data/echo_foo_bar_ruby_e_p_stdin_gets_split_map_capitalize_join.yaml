@@ -1,0 +1,8 @@
+commandlinefu_id: 9234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'fOo BaR' | ruby -e "p STDIN.gets.split.map(&:capitalize).join(' ')"
+summary: |-
+  Capitalize first letter of each word in a string

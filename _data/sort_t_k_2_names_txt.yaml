@@ -1,0 +1,8 @@
+commandlinefu_id: 10917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort -t: -k 2 names.txt
+summary: |-
+  Sort using kth column using : delimiter

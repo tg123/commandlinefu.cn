@@ -1,0 +1,8 @@
+commandlinefu_id: 3954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iscsiadm -m discovery -t sendtargets -p 192.168.20.51
+summary: |-
+  Open-iscsi target discovery

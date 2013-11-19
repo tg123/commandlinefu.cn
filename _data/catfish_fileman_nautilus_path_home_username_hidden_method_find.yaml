@@ -1,0 +1,8 @@
+commandlinefu_id: 8201
+translator:
+  weibo: ''
+hide: true
+command: |-
+  catfish --fileman=nautilus --path=/home/<username> --hidden --method=find
+summary: |-
+  Change the default Catfish file manager and search method

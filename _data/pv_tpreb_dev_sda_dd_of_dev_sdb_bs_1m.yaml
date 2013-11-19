@@ -1,0 +1,8 @@
+commandlinefu_id: 12632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv -tpreb /dev/sda | dd of=/dev/sdb bs=1M
+summary: |-
+  check the status of 'dd' in progress (OS X)

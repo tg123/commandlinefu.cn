@@ -1,0 +1,8 @@
+commandlinefu_id: 12066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod u+x **/*.sh
+summary: |-
+  Recursive chmod all *.sh files within the current directory

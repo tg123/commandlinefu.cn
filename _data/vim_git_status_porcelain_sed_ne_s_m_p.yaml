@@ -1,0 +1,8 @@
+commandlinefu_id: 11552
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim `git status --porcelain | sed -ne 's/^ M //p'`
+summary: |-
+  Open (in vim) all modified files in a git repository

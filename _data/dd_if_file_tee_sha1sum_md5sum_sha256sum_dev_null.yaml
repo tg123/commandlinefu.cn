@@ -1,0 +1,8 @@
+commandlinefu_id: 12883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=file | tee >(sha1sum) >(md5sum) >(sha256sum) >/dev/null
+summary: |-
+  Calculate different hash sums of one file at the same time

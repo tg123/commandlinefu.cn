@@ -1,0 +1,8 @@
+commandlinefu_id: 121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep APP | awk '/grep/!{print$2}' | xargs -i kill {}
+summary: |-
+  find and kill a pid for APP

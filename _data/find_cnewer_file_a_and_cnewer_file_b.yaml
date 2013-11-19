@@ -1,0 +1,8 @@
+commandlinefu_id: 11142
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -cnewer <file a> -and ! -cnewer <file b>
+summary: |-
+  Find files changed between dates defined by ctime of two files specified by name

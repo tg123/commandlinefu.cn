@@ -1,0 +1,8 @@
+commandlinefu_id: 8341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  say(){ mplayer -user-agent Mozilla "http://translate.google.com/translate_tts?tl=en&q=$(echo $* | sed 's#\ #\+#g')" > /dev/null 2>&1 ;  }; sleep 3s && say "wake up, you bastard"
+summary: |-
+  Timer with sound alarm

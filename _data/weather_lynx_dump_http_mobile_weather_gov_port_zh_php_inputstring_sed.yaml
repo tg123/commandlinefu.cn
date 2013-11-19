@@ -1,0 +1,8 @@
+commandlinefu_id: 3831
+translator:
+  weibo: ''
+hide: true
+command: |-
+  weather() { lynx -dump "http://mobile.weather.gov/port_zh.php?inputstring=$*" | sed 's/^ *//;/ror has occ/q;2h;/__/!{x;s/\n.*//;x;H;d};x;s/\n/ -- /;q';}
+summary: |-
+  Show current weather for any US city or zipcode

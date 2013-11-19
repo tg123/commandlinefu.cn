@@ -1,0 +1,8 @@
+commandlinefu_id: 799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pushd /tmp
+summary: |-
+  Push your present working directory to a stack that you can pop later

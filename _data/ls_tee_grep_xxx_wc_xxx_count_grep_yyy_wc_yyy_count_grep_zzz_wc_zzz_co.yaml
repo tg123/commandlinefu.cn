@@ -1,0 +1,8 @@
+commandlinefu_id: 6886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls |tee >(grep xxx |wc >xxx.count) >(grep yyy |wc >yyy.count) |grep zzz |wc >zzz.count
+summary: |-
+  direct a single stream of input (ls) to multiple readers (grep & wc) without using temporary files

@@ -1,0 +1,8 @@
+commandlinefu_id: 5115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  WID=xprop -root | grep "_NET_ACTIVE_WINDOW(WINDOW)"| awk '{print $5}' xdotool windowfocus $WID xdotool key ctrl+shift+t wmctrl -i -a $WID
+summary: |-
+  open new tab without  in gnome-terminal

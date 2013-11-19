@@ -1,0 +1,8 @@
+commandlinefu_id: 10228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo curl "http://hg.mindrot.org/openssh/raw-file/c746d1a70cfa/contrib/ssh-copy-id" -o /usr/bin/ssh-copy-id  &&  sudo chmod 755 /usr/bin/ssh-copy-id
+summary: |-
+  ...if you have sudo access, you could just install ssh-copy-id (Mac users: take note.  this is how you install ssh-copy-id )

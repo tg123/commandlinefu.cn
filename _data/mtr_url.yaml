@@ -1,0 +1,8 @@
+commandlinefu_id: 12312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mtr <URL>
+summary: |-
+  The awesome ping / traceroute combination

@@ -1,0 +1,8 @@
+commandlinefu_id: 9791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gnuplot -p <(echo "set terminal wxt size `xrandr|grep -P '\s{3}(\d+x\d+).*\+$'|tr -s ' ' '\t'|cut -f2|sort -n|tail -n1|tr 'x' ','`; set logscale y; set style data hist; set xtic rot by -90; plot '<(stat -c \"%n %s\" *)' u 2:xtic(1)")
+summary: |-
+  histogram of file size

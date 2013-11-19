@@ -1,0 +1,8 @@
+commandlinefu_id: 1358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Print text vertically|sed 's/\(.\)/\1\n/g'
+summary: |-
+  Print text string vertically, one character per line.

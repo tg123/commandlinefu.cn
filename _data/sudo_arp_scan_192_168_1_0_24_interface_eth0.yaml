@@ -1,0 +1,8 @@
+commandlinefu_id: 4228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo arp-scan 192.168.1.0/24 -interface eth0
+summary: |-
+  Router discovery

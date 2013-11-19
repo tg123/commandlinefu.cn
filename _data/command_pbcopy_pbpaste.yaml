@@ -1,0 +1,8 @@
+commandlinefu_id: 751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command | pbcopy && pbpaste
+summary: |-
+  Mac OS-X-> copy and paste things to and from the clipboard from the shell

@@ -1,0 +1,8 @@
+commandlinefu_id: 12571
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn info | sed -n "/URL:/s/.*\///p"
+summary: |-
+  Get the current svn branch/tag (Good for PS1/PROMPT_COMMAND cases)

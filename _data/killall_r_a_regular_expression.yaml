@@ -1,0 +1,8 @@
+commandlinefu_id: 8032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall -r 'a regular expression'
+summary: |-
+  Kill a process by its partial name

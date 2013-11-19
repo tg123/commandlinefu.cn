@@ -1,0 +1,8 @@
+commandlinefu_id: 370
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 16i `echo "F" | tr '[a-f]' '[A-F]'` p | dc ; echo 16o "15" p | dc
+summary: |-
+  convert hex to decimal ; decimal to hex

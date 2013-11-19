@@ -1,0 +1,8 @@
+commandlinefu_id: 7831
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=FILE | pv -s $(stat FILE | egrep -o "Size: [[:digit:]]*" | egrep -o "[[:digit:]]*") | dd of=OUTPUT
+summary: |-
+  dd with progress bar and statistics

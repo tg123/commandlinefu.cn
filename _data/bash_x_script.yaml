@@ -1,0 +1,8 @@
+commandlinefu_id: 1472
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash -x SCRIPT
+summary: |-
+  Debug bash shell scripts.

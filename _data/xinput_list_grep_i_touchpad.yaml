@@ -1,0 +1,8 @@
+commandlinefu_id: 8129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xinput list | grep -i touchpad
+summary: |-
+  Toggle the Touchpad on or off

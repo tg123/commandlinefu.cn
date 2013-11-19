@@ -1,0 +1,8 @@
+commandlinefu_id: 5421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  more xx.m3u |grep -v "^#" |xargs -i cp {} target
+summary: |-
+  copy audio file from playlist to a floder

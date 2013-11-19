@@ -1,0 +1,8 @@
+commandlinefu_id: 5996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim !$
+summary: |-
+  use !$ to retrieve filename used with last command

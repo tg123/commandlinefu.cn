@@ -1,0 +1,8 @@
+commandlinefu_id: 8830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -f -L3389:<RDP_HOST>:3389 <SSH_PROXY> "sleep 10" && rdesktop -T'<WINDOW_TITLE>' -uAdministrator -g800x600 -a8 -rsound:off -rclipboard:PRIMARYCLIPBOARD -5 localhost
+summary: |-
+  RDP through SSH tunnel

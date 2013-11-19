@@ -1,0 +1,8 @@
+commandlinefu_id: 9057
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type f | sed -n 's/..*\.//p' | sort -f | uniq -ic
+summary: |-
+  按扩展名清点文件

@@ -1,0 +1,8 @@
+commandlinefu_id: 4798
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  svn log --revision {`date +%Y-%m-%d`}:HEAD
+summary: |-
+  看看今天的svn 日志

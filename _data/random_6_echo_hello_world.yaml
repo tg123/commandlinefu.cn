@@ -1,0 +1,8 @@
+commandlinefu_id: 2302
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  (($RANDOM%6)) || echo 'hello world!'
+summary: |-
+  随机执行一个命令 比如 显示 hello world

@@ -1,0 +1,8 @@
+commandlinefu_id: 8277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du --max-depth=1 -B M |sort -rn
+summary: |-
+  simple du command to give size of next level of subfolder in MB

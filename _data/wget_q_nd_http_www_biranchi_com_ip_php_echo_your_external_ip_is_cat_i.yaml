@@ -1,0 +1,8 @@
+commandlinefu_id: 7358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -nd http://www.biranchi.com/ip.php; echo "Your external ip is : `cat ip.php`"
+summary: |-
+  get you public ip address

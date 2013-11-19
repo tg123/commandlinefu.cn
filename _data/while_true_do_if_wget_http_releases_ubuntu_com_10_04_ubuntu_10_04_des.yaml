@@ -1,0 +1,8 @@
+commandlinefu_id: 5484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do if wget http://releases.ubuntu.com/10.04/ubuntu-10.04-desktop-i386.iso.torrent; then ktorrent --silent ubuntu-10.04-desktop-i386.iso.torrent ; date; break; else sleep 5m; fi; done
+summary: |-
+  Automatically download Ubuntu 10.04 when available

@@ -1,0 +1,8 @@
+commandlinefu_id: 2759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  complete -W "$(echo `cat .bash_history | egrep '^ssh ' | sort | uniq | sed 's/^ssh //'`;)" ssh
+summary: |-
+  ssh autocomplete

@@ -1,0 +1,8 @@
+commandlinefu_id: 8408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grabtweets() { curl -s -o $GT_TMP twitter.com/$1 | cat $GT_TMP | grep entry-content | sed -e :loop -e 's/<[^>]*>//g;/</N;//bloop' | sed 's/^[ \t]*//'; }
+summary: |-
+  view someone's twitter stream from terminal

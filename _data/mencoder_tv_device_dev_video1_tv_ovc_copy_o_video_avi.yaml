@@ -1,0 +1,8 @@
+commandlinefu_id: 2465
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -tv device=/dev/video1 tv:// -ovc copy -o video.avi
+summary: |-
+  Record camera's output to a avi file

@@ -1,0 +1,8 @@
+commandlinefu_id: 248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date --utc --date "2009-02-06 09:57:54" +%s
+summary: |-
+  Convert a date to timestamp

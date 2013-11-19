@@ -1,0 +1,8 @@
+commandlinefu_id: 2034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shred targetfile
+summary: |-
+  Securely destroy data (including whole hard disks)

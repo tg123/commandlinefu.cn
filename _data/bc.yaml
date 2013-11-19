@@ -1,0 +1,8 @@
+commandlinefu_id: 1627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bc
+summary: |-
+  A handy calculator

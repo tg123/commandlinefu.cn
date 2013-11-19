@@ -1,0 +1,8 @@
+commandlinefu_id: 7823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | awk ' {if ( $1 == "?" ){print $1="",$0}} ' | sed -e 's/^[ \t]*//' | sed 's/ /\\ /g' | xargs svn add
+summary: |-
+  add all files not under version control to repository

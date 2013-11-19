@@ -1,0 +1,8 @@
+commandlinefu_id: 2870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  typeset -f <function-name>
+summary: |-
+  Display the definition of a shell function

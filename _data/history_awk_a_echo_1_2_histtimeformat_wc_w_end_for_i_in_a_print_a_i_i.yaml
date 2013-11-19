@@ -1,0 +1,8 @@
+commandlinefu_id: 5755
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  history | awk '{a[$'$(echo "1 2 $HISTTIMEFORMAT" | wc -w)']++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
+summary: |-
+  看看你使用最多的命令是什么

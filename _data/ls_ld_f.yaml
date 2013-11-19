@@ -1,0 +1,8 @@
+commandlinefu_id: 993
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ld **/*(/^F)
+summary: |-
+  List empty any directories

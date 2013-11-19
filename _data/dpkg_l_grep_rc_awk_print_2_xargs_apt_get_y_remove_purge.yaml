@@ -1,0 +1,8 @@
+commandlinefu_id: 11894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l | grep ^rc | awk '{ print $2}' | xargs apt-get -y remove --purge
+summary: |-
+  Purge completely packages on debian / ubuntu

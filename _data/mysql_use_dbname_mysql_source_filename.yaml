@@ -1,0 +1,8 @@
+commandlinefu_id: 5095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql>use DBNAME;  mysql>source FILENAME
+summary: |-
+  import database

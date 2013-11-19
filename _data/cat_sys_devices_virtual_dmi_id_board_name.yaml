@@ -1,0 +1,8 @@
+commandlinefu_id: 5435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /sys/devices/virtual/dmi/id/board_name
+summary: |-
+  What Type of Computer Do You Have?

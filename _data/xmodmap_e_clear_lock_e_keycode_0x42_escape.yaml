@@ -1,0 +1,8 @@
+commandlinefu_id: 9713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+summary: |-
+  remap Caps_Lock to Escape

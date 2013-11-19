@@ -1,0 +1,8 @@
+commandlinefu_id: 10128
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=<device> | pv | nc <target> <port>
+summary: |-
+  Compress and store the image of a disk over the network

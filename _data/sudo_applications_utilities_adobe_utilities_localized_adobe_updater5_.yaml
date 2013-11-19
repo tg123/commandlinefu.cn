@@ -1,0 +1,8 @@
+commandlinefu_id: 2494
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo /Applications/Utilities/Adobe\ Utilities.localized/Adobe\ Updater5/Adobe\ Updater.app/Contents/MacOS/Adobe\ Updater
+summary: |-
+  Adobe Updater Crashes on Mac OS X Fix

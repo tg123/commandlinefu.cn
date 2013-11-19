@@ -1,0 +1,8 @@
+commandlinefu_id: 1685
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -i -X HEAD http://localhost/
+summary: |-
+  Send an http HEAD request w/curl

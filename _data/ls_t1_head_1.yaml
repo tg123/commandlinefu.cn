@@ -1,0 +1,8 @@
+commandlinefu_id: 10235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -t1 $* | head -1 ;
+summary: |-
+  A bash function to show the files most recently modified in the named (or current) directory

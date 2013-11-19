@@ -1,0 +1,8 @@
+commandlinefu_id: 4062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://www.cpa.unicamp.br/imagens/satelite/ult.gif | xli -onroot -fill stdin
+summary: |-
+  Real time satellite wheather wallpaper

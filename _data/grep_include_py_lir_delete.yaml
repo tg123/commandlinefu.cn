@@ -1,0 +1,8 @@
+commandlinefu_id: 9046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep --include=*.py -lir "delete" .
+summary: |-
+  Grep Recursively Through Single File Extension

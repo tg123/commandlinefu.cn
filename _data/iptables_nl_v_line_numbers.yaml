@@ -1,0 +1,8 @@
+commandlinefu_id: 1100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables -nL -v --line-numbers
+summary: |-
+  Show current iptables rules, with line numbers

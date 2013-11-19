@@ -1,0 +1,8 @@
+commandlinefu_id: 5133
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -rf /tmp/playlist.tmp &&  find ~/mp3  -name *.mp3 > /tmp/playlist.tmp && mplayer -playlist /tmp/playlist.tmp -shuffle -loop 0 | grep Playing
+summary: |-
+  Recursively scan directories for mp3s and pass them to mplayer

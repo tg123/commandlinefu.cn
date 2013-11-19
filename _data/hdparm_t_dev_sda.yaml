@@ -1,0 +1,8 @@
+commandlinefu_id: 3482
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdparm -t /dev/sda
+summary: |-
+  Testing hard disk reading speed

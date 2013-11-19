@@ -1,0 +1,8 @@
+commandlinefu_id: 6281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip route show | awk '$3 ~ /^[1-9]+/ {print $3;}'
+summary: |-
+  Find default gateway

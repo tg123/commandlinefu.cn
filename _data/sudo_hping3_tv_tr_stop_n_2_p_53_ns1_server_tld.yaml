@@ -1,0 +1,8 @@
+commandlinefu_id: 7654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo hping3 -TV --tr-stop -n -2 -p 53 ns1.server.tld
+summary: |-
+  tcptraceroute alternative for udp packets

@@ -1,0 +1,8 @@
+commandlinefu_id: 12515
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uptime | awk -F ',' ' {print $1" "$2}'|awk ' {print $3" "$4" "$5}' | sed '1,$s/:/ /' | awk ' {if ($4 =="user") print $1*60 + $2;else if ($2=="mins") print $1;else print $1*24*60 + $2*60 + $3}'
+summary: |-
+  Uptime in minute

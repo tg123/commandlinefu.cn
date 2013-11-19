@@ -1,0 +1,8 @@
+commandlinefu_id: 11864
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -a -v --stats -e ssh /home root@<newserver>:/root/
+summary: |-
+  Resume scp of a big file

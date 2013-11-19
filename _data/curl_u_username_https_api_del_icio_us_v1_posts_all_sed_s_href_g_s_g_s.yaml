@@ -1,0 +1,8 @@
+commandlinefu_id: 2722
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -u 'username'   https://api.del.icio.us/v1/posts/all   |  sed 's/^.*href=//g;s/>.*$//g;s/"//g' | awk '{print $1}' | grep 'http'
+summary: |-
+  get delicious bookmarks on your shell (text version :-))

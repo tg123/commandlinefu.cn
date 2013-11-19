@@ -1,0 +1,8 @@
+commandlinefu_id: 5644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar zxvf package.tar.gz --strip 1
+summary: |-
+  tar - extract only one file

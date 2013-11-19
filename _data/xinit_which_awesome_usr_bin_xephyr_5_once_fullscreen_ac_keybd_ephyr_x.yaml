@@ -1,0 +1,8 @@
+commandlinefu_id: 11466
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xinit $(which awesome) -- /usr/bin/Xephyr :5 -once -fullscreen -ac -keybd "ephyr,,,xkbmodel=pc105,xkblayout=it,xkbrules=evdev,xkboption="
+summary: |-
+  start a nested awesome session

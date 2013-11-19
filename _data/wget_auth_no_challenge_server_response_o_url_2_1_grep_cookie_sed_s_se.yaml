@@ -1,0 +1,8 @@
+commandlinefu_id: 7200
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --auth-no-challenge --server-response -O- $url 2>&1 | grep "Cookie" | sed "s/^  Set-//g" > cookie.txt;  wget --auth-no-challenge --server-response --http-user="user" --http-password="pw" --header="$(cat cookie.txt)" -O- $url
+summary: |-
+  resolving basic authentication problem(401) with wget

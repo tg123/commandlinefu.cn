@@ -1,0 +1,8 @@
+commandlinefu_id: 11542
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim `git status | grep modified | awk '{print $3}'`
+summary: |-
+  Open (in vim) all modified files in a git repository

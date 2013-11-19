@@ -1,0 +1,8 @@
+commandlinefu_id: 10351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ltr --directory $(find . -regex "./.*[^/]*\'" -type f | xargs -n 1 dirname | sort | uniq)
+summary: |-
+  Across an entire subtree, list not-empty directories that have no child-directories, globally sorted by their respective mtime

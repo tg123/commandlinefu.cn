@@ -1,0 +1,8 @@
+commandlinefu_id: 10665
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . ! -regex '.*/\(unit-test\|android\)/.*' \( -name '*.c' -o -name '*.cpp' \)
+summary: |-
+  find all c and cpp files except the ones in the unit-test and android subdirectories

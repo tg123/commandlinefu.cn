@@ -1,0 +1,8 @@
+commandlinefu_id: 3088
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff --numstat -w --no-abbrev | perl -a -ne '$F[0] != 0 && $F[1] !=0 && print $F[2] . "\n";'
+summary: |-
+  Show changed files, ignoring permission, date and whitespace changes

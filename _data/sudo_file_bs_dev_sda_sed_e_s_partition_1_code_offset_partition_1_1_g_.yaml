@@ -1,0 +1,8 @@
+commandlinefu_id: 11158
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo file -bs /dev/sda | sed -e 's/.*partition 1\(.*\) code offset.*/partition 1\1/g' -e 's/\(.\);/\1\n/g'
+summary: |-
+  detect partitions

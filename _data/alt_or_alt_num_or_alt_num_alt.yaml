@@ -1,0 +1,8 @@
+commandlinefu_id: 7989
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ALT>+<.> or <ALT>+<NUM>+<.> or <ALT>+<NUM>,<ALT>+<.>
+summary: |-
+  Place the NUM-th argument of the most recent command on the shell

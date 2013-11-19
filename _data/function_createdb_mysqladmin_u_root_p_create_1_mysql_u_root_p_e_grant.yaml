@@ -1,0 +1,8 @@
+commandlinefu_id: 12620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function createdb () { mysqladmin -u root -p create $1 && mysql -u root -p -e "GRANT ALL ON $1.* TO '$2'@'localhost' IDENTIFIED BY '$3';" ; }
+summary: |-
+  Create a database with user and pass without hassle.

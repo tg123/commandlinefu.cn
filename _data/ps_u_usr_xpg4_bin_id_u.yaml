@@ -1,0 +1,8 @@
+commandlinefu_id: 8348
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -u `/usr/xpg4/bin/id -u`
+summary: |-
+  Find processes by current user on a Solaris box

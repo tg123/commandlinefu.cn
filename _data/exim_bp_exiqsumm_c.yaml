@@ -1,0 +1,8 @@
+commandlinefu_id: 697
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exim -bp | exiqsumm -c
+summary: |-
+  exim statistics about mails from queue

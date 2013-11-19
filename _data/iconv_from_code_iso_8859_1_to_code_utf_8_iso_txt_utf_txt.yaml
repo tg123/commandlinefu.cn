@@ -1,0 +1,8 @@
+commandlinefu_id: 2950
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iconv --from-code=ISO-8859-1 --to-code=UTF-8 iso.txt > utf.txt
+summary: |-
+  Convert one file from ISO-8859-1 to UTF-8.

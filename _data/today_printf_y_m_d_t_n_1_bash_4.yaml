@@ -1,0 +1,8 @@
+commandlinefu_id: 11813
+translator:
+  weibo: ''
+hide: true
+command: |-
+  today() { printf '%(%Y-%m-%d)T\n' -1; } ## bash-4
+summary: |-
+  Print today's date in ISO format without calling an external command (bash 4)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10222
+translator:
+  weibo: ''
+hide: true
+command: |-
+  full() {local i;for i in $*;do readlink -f $i;done}
+summary: |-
+  Function that show the full path of every argument.

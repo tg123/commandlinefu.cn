@@ -1,0 +1,8 @@
+commandlinefu_id: 9558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -ru originDir updateDir > result.patch
+summary: |-
+  Create patch file for two directories

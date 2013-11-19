@@ -1,0 +1,8 @@
+commandlinefu_id: 3300
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo sortmeplease|sed 's/./&\n/g'|sort|tr -d '\n'
+summary: |-
+  把单词按字母排序

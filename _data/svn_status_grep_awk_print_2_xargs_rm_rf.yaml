@@ -1,0 +1,8 @@
+commandlinefu_id: 1436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn status | grep ^? | awk '{print $2}' | xargs rm -rf
+summary: |-
+  SVN Clean

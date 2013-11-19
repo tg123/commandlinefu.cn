@@ -1,0 +1,8 @@
+commandlinefu_id: 6561
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -iname \*.[ch] -exec emacs -nw -q {} --eval "(progn (mark-whole-buffer) (indent-region (point-min) (point-max) nil) (save-buffer))" --kill \;
+summary: |-
+  Indent all the files in a project using emacs

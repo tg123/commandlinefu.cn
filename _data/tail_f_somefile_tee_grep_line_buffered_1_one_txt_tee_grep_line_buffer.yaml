@@ -1,0 +1,8 @@
+commandlinefu_id: 8224
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f somefile |tee >(grep --line-buffered '1' > one.txt) |tee >(grep --line-buffered '2' > two.txt)
+summary: |-
+  monitor a tail -f command with multiple processes

@@ -1,0 +1,8 @@
+commandlinefu_id: 4990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -name .svn -delete
+summary: |-
+  Recursively remove .svn directories

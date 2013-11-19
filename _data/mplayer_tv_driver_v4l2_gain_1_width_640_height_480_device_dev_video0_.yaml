@@ -1,0 +1,8 @@
+commandlinefu_id: 7236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -tv driver=v4l2:gain=1:width=640:height=480:device=/dev/video0:fps=10:outfmt=rgb16 -vo aa tv://
+summary: |-
+  ASCII webcam live stream video using mplayer

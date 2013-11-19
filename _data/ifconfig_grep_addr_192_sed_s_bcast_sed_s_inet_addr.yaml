@@ -1,0 +1,8 @@
+commandlinefu_id: 5172
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep addr:192 | sed s/Bcast.*// | sed 's/^.*inet addr://'
+summary: |-
+  show your private/local ip address

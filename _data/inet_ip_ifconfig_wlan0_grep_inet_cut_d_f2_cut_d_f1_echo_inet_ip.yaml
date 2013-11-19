@@ -1,0 +1,8 @@
+commandlinefu_id: 7186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  inet_ip=`ifconfig wlan0 | grep inet | cut -d: -f2 | cut -d ' ' -f1` && echo $inet_ip
+summary: |-
+  This command can be used to extract the IP address of the network.

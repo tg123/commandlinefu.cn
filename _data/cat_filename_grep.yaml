@@ -1,0 +1,8 @@
+commandlinefu_id: 2942
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat filename | grep .
+summary: |-
+  Remove newlines from output

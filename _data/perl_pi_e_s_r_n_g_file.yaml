@@ -1,0 +1,8 @@
+commandlinefu_id: 6186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi -e "s/\r/\n/g" <file>
+summary: |-
+  Replace DOS character ^M with newline using perl inline replace.

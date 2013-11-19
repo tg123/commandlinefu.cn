@@ -1,0 +1,8 @@
+commandlinefu_id: 9666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -atn | grep :22 | grep ESTABLISHED | awk '{print $4}' | sed 's/:22//'
+summary: |-
+  list current ssh clients

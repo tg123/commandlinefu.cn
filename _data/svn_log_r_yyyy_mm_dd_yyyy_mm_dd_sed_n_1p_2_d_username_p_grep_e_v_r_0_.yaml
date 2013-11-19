@@ -1,0 +1,8 @@
+commandlinefu_id: 7370
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -r '{YYYY-MM-DD}:{YYYY-MM-DD}' | sed -n '1p; 2,/^-/d; /USERNAME/,/^-/p' | grep -E -v '^(r[0-9]|---|$)' | sed 's/^/* /g'
+summary: |-
+  Get a Bulleted List of SVN Commits By a User for a Specifc Day (Daily Work Log)

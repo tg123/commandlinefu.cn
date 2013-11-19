@@ -1,0 +1,8 @@
+commandlinefu_id: 8622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git push origin --all
+summary: |-
+  Push all local branches to remote repo

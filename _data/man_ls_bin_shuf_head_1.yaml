@@ -1,0 +1,8 @@
+commandlinefu_id: 6397
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man $(ls /bin | shuf | head -1)
+summary: |-
+  Display a random man page

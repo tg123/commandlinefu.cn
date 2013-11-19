@@ -1,0 +1,8 @@
+commandlinefu_id: 5860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MNet::Twitter -e '$nt = Net::Twitter->new(traits => [qw/API::REST/], username => "YOUR USERNAME", password => "YOUR PASSWORD"); $ud = $nt->update("YOUR TWEET");'
+summary: |-
+  Update twitter with Perl

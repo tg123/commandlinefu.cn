@@ -1,0 +1,8 @@
+commandlinefu_id: 7838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq -s^2+ 11 |rev| cut -d'+' -f2- | rev | bc
+summary: |-
+  Calculate 1**2 + 2**2 + 3**2 + ...

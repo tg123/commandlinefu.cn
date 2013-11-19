@@ -1,0 +1,8 @@
+commandlinefu_id: 3574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x=1; while [ $x = 1 ]; do process=`pgrep -u username`; if [ $process ]; then x=0; fi;  done; strace -vvtf -s 256  -p $process
+summary: |-
+  Catch a proccess from a user and strace it.

@@ -1,0 +1,8 @@
+commandlinefu_id: 2020
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias dfr='df;free'
+summary: |-
+  Tell us quantities of disk usage memory and swap used in a moment done

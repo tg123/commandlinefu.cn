@@ -1,0 +1,8 @@
+commandlinefu_id: 3507
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gst-launch-0.10 autovideosrc ! video/x-raw-yuv,framerate=\(fraction\)30/1,width=640,height=480 ! ffmpegcolorspace ! autovideosink
+summary: |-
+  View webcam output using GStreamer pipeline

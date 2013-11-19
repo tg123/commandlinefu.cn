@@ -1,0 +1,8 @@
+commandlinefu_id: 7850
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo $(($(seq -s* 10)))
+summary: |-
+  阶乘！

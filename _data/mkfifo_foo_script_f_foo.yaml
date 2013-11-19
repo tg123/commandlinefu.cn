@@ -1,0 +1,8 @@
+commandlinefu_id: 9209
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkfifo foo; script -f foo
+summary: |-
+  Share your terminal session real-time

@@ -1,0 +1,8 @@
+commandlinefu_id: 2479
+translator:
+  weibo: ''
+hide: true
+command: |-
+  multitail /var/log/messages /var/log/apache2/access.log /var/log/mail.info
+summary: |-
+  Watch several log files in a single window

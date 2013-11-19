@@ -1,0 +1,8 @@
+commandlinefu_id: 5326
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh * | grep -v '\.\/\.'
+summary: |-
+  List complete size of directories (do not consider hidden directories)

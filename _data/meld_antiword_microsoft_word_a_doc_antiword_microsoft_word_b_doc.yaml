@@ -1,0 +1,8 @@
+commandlinefu_id: 1982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  meld <(antiword microsoft_word_a.doc) <(antiword microsoft_word_b.doc)
+summary: |-
+  compare two Microsoft Word documents

@@ -1,0 +1,8 @@
+commandlinefu_id: 18
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp file.txt{,.bak}
+summary: |-
+  Create a quick back-up copy of a file

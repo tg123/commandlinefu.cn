@@ -1,0 +1,8 @@
+commandlinefu_id: 8490
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -X johndoe@123.456.789
+summary: |-
+  3 Simple Steps to X11 Forward on Mac OS X

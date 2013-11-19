@@ -1,0 +1,8 @@
+commandlinefu_id: 4727
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xkill
+summary: |-
+  For when GUI programs stop responding..

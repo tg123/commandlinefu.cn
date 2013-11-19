@@ -1,0 +1,8 @@
+commandlinefu_id: 5372
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  vim -p file1 file2 [...]
+summary: |-
+  vim tab 开启文件

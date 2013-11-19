@@ -1,0 +1,8 @@
+commandlinefu_id: 4196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -tf /path/to/file.tar
+summary: |-
+  lists contents of a tar file

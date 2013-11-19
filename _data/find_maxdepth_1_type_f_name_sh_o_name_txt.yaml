@@ -1,0 +1,8 @@
+commandlinefu_id: 1961
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 -type f -name '*.sh' -o -name '*.txt'
+summary: |-
+  Find different filetypes in current directory

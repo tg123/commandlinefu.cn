@@ -1,0 +1,8 @@
+commandlinefu_id: 5171
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf ${PATH//:/\\n}
+summary: |-
+  Show the PATH, one directory per line

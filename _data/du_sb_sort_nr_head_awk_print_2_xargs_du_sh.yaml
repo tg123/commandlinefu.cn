@@ -1,0 +1,8 @@
+commandlinefu_id: 2161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sb *|sort -nr|head|awk '{print $2}'|xargs du -sh
+summary: |-
+  List top ten files/directories sorted by size

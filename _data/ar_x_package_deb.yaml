@@ -1,0 +1,8 @@
+commandlinefu_id: 7342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ar -x package.deb
+summary: |-
+  extract content of a Debian package

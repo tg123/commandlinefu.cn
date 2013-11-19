@@ -1,0 +1,8 @@
+commandlinefu_id: 7929
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc a-z0-9   </dev/urandom   | tr 0-8 \ | tr 9 \\n |  sed 's/^[ \t]*//'  | fmt -u
+summary: |-
+  simulated text generator

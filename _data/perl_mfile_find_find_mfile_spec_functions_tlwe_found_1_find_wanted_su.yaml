@@ -1,0 +1,8 @@
+commandlinefu_id: 11749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MFile::Find=find -MFile::Spec::Functions -Tlwe '$found=1; find { wanted => sub { if (/$ARGV[0]\.pm\z/) { print canonpath $_; $found=0; } }, no_chdir => 1 }, @INC; exit $found;' Collectd/Plugins/Graphite
+summary: |-
+  Find out if a module is installed in perl

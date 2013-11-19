@@ -1,0 +1,8 @@
+commandlinefu_id: 12245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eval `ls -1d * | awk '{print "zip -r "$1".zip "$1";"}'`
+summary: |-
+  zip all folders separate zip files with named the folder's name.

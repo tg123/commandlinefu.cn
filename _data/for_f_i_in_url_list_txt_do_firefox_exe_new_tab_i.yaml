@@ -1,0 +1,8 @@
+commandlinefu_id: 9219
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for /F %i in (url_list.txt) do Firefox.exe -new-tab "%i"
+summary: |-
+  Open multiple tabs in Firefox from a file containing urls

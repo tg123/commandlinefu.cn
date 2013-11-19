@@ -1,0 +1,8 @@
+commandlinefu_id: 8653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh USER@HOST "sudo tshark -i eth0 -f 'tcp port 80 and tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420' -w -" | wireshark -k -i -
+summary: |-
+  HTTP GET request on wireshark remotly

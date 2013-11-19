@@ -1,0 +1,8 @@
+commandlinefu_id: 12782
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tstouch() { [[ $1 =~ $2 ]] && touch -t ${BASH_REMATCH[1]} $1; }
+summary: |-
+  Touch a file using the timestamp in the file name.

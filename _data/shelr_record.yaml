@@ -1,0 +1,8 @@
+commandlinefu_id: 10567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shelr record
+summary: |-
+  it allows recording of your terminal

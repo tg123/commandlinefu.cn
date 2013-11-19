@@ -1,0 +1,8 @@
+commandlinefu_id: 1528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo '123/7' |bc -l |xargs printf "%.3f\n"
+summary: |-
+  Doing some floating point calculations with rounding (e.g. at the 3rd decimal)

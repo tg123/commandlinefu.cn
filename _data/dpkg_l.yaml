@@ -1,0 +1,8 @@
+commandlinefu_id: 9500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l
+summary: |-
+  Generate a list of installed packages on Debian-based systems

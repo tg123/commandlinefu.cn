@@ -1,0 +1,8 @@
+commandlinefu_id: 5473
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pmap $(pgrep [ProcessName] -n) | gawk '/total/ { a=strtonum($2); b=int(a/1024); printf b};'
+summary: |-
+  Get acurate memory usage of a Process in MegaBytes

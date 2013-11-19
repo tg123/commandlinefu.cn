@@ -1,0 +1,8 @@
+commandlinefu_id: 9325
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/folder -type f -name "*.*" -print -exec rm -v {} + | wc -l;
+summary: |-
+  Count the number of deleted files

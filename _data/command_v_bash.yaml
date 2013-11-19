@@ -1,0 +1,8 @@
+commandlinefu_id: 9356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command -v bash
+summary: |-
+  Determine if a command is in your $PATH using POSIX

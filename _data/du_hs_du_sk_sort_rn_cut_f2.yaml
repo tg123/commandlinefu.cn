@@ -1,0 +1,8 @@
+commandlinefu_id: 12536
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hs `du -sk * | sort -rn | cut -f2-`
+summary: |-
+  sort and show disk space (largest first) with human readable sizes

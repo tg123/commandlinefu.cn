@@ -1,0 +1,8 @@
+commandlinefu_id: 11285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(find <directory> -name '*.<extension>' -exec du -s {} \; | tee $(tty) | cut -f1 | tr '\n' '+') 0 | bc
+summary: |-
+  Sum files of certain extension in given directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 3918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcc -dM -E - <<<''
+summary: |-
+  Display GCC Predefined Macros

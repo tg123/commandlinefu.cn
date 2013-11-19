@@ -1,0 +1,8 @@
+commandlinefu_id: 6718
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  export GREP_COLOR='1;32'; cat /dev/urandom | hexdump -C | grep --color=auto "ca fe"
+summary: |-
+  假装比较忙方法

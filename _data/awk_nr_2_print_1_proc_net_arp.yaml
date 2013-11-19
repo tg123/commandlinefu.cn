@@ -1,0 +1,8 @@
+commandlinefu_id: 4231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'NR==2 {print $1}' /proc/net/arp
+summary: |-
+  Router discovery

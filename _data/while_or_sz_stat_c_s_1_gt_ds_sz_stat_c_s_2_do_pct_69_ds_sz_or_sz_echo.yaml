@@ -1,0 +1,8 @@
+commandlinefu_id: 8939
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [$((or_sz=$(stat -c %s "$1"))) -gt $((ds_sz=$(stat -c %s "$2")))];do ((pct=(69*$ds_sz)/$or_sz));echo -en "\r[";for ((i=1;i<=pct;i++));do echo -n "=";done;echo -n \>;for ((i=pct;i<=68;i++));do echo -n ".";done;echo -n "] $(((100*$pct)/69))%";done
+summary: |-
+  progress bar for cp

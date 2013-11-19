@@ -1,0 +1,8 @@
+commandlinefu_id: 10080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fdupes -r -1 Neu | while read line; do j="0"; buf=""; for file in ${line[*]}; do if [ "$j" == "0" ]; then j="1"; buf=$file; else ln -f $buf $file; fi; done; done
+summary: |-
+  Replace duplicate files by hardlinks

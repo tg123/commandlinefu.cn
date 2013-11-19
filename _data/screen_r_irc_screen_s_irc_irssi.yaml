@@ -1,0 +1,8 @@
+commandlinefu_id: 11401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -r irc || screen -S irc irssi
+summary: |-
+  creates or attachs to screen

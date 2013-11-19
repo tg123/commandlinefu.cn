@@ -1,0 +1,8 @@
+commandlinefu_id: 12478
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'HelloWorld!' | gpg --symmetric | base64
+summary: |-
+  Encrypt/decrypt a string from the command line

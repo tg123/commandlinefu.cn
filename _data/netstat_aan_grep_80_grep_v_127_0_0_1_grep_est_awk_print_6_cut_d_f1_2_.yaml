@@ -1,0 +1,8 @@
+commandlinefu_id: 10169
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -Aan | grep .80 | grep -v 127.0.0.1 | grep EST | awk '{print $6}' | cut -d "." -f1,2,3,4 | sort | uniq
+summary: |-
+  See who are using a specific port

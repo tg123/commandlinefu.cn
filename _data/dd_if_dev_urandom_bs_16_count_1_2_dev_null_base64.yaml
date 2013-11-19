@@ -1,0 +1,8 @@
+commandlinefu_id: 183
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/urandom bs=16 count=1 2>/dev/null | base64
+summary: |-
+  Create a hard-to-guess password

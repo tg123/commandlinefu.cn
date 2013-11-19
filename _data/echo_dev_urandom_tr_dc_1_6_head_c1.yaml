@@ -1,0 +1,8 @@
+commandlinefu_id: 11310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(</dev/urandom tr -dc 1-6 | head -c1)
+summary: |-
+  True Random Dice Roll

@@ -1,0 +1,8 @@
+commandlinefu_id: 5346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -raAd
+summary: |-
+  Resume a detached screen session, resizing to fit the current terminal

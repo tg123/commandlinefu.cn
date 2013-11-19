@@ -1,0 +1,8 @@
+commandlinefu_id: 2029
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-query -l| grep -v "ii " | grep "rc " | awk '{print $2" "}' | tr -d "\n" | xargs aptitude purge -y
+summary: |-
+  remove unneeded configuration files in debian

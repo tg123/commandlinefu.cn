@@ -1,0 +1,8 @@
+commandlinefu_id: 7100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "e("{1..8}");" | bc -l
+summary: |-
+  Generate trigonometric/log data easily

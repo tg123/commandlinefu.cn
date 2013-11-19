@@ -1,0 +1,8 @@
+commandlinefu_id: 2798
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -pt1 | sed '/.*\//d' | sed 1d | xargs rm
+summary: |-
+  Delete all but latest file in a directory

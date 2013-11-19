@@ -1,0 +1,8 @@
+commandlinefu_id: 4860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for domain in `cat list_of_domains.txt`; do echo $domain; whois $domain >> output.txt; done
+summary: |-
+  whois multiple domains

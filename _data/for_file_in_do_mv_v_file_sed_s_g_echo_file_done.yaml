@@ -1,0 +1,8 @@
+commandlinefu_id: 8815
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *; do mv -v "$file" "$(sed 's/ //g' <(echo $file))"; done
+summary: |-
+  Renames all files in the current directory such that the new file contains no space characters.

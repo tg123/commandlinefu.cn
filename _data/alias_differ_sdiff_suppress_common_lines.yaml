@@ -1,0 +1,8 @@
+commandlinefu_id: 6802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias differ='sdiff --suppress-common-lines'
+summary: |-
+  bash alias for sdiff: differ

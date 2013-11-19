@@ -1,0 +1,8 @@
+commandlinefu_id: 5608
+translator:
+  weibo: ''
+hide: true
+command: |-
+  In vim: q: && v[cursor movement]y && [paste/edit/save to /tmp/tmp.vim] && move to window to modify && :so /tmp/tmp.vim
+summary: |-
+  Re-run [re-edited] sequence of commands in vim history

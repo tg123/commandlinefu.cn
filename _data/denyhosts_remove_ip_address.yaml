@@ -1,0 +1,8 @@
+commandlinefu_id: 4094
+translator:
+  weibo: ''
+hide: true
+command: |-
+  denyhosts-remove $IP_ADDRESS
+summary: |-
+  Remove an IP address ban that has been errantly blacklisted by denyhosts

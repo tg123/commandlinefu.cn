@@ -1,0 +1,8 @@
+commandlinefu_id: 12103
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -v "(^#|^\b*$)"
+summary: |-
+  Filter out all blank or commented (starting with #) lines

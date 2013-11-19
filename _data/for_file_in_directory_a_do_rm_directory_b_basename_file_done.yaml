@@ -1,0 +1,8 @@
+commandlinefu_id: 2087
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in <directory A>/*; do rm <directory B>/`basename $file`; done
+summary: |-
+  Delete all files found in directory A from directory B

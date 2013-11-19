@@ -1,0 +1,8 @@
+commandlinefu_id: 12193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo shutdown -h <hour:minute>
+summary: |-
+  Wait the set time and then Power off

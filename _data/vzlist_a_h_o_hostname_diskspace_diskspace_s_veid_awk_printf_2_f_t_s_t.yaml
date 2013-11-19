@@ -1,0 +1,8 @@
+commandlinefu_id: 7814
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vzlist -a -H -o hostname,diskspace,diskspace.s,veid  | awk '{ printf( "%2.f%\t%s\t%s\n"), $2*100/$3, $4, $1}' | sort -r
+summary: |-
+  Get disk quota usage openvz using vzlist

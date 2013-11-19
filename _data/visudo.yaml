@@ -1,0 +1,8 @@
+commandlinefu_id: 3238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  visudo
+summary: |-
+  Securely edit the sudo file over the network

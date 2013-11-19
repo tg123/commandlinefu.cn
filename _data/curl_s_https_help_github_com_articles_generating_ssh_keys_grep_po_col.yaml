@@ -1,0 +1,8 @@
+commandlinefu_id: 12757
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s https://help.github.com/articles/generating-ssh-keys | grep -Po  --color=never "RSA key fingerprint is (:?[A-z0-9]\:?){32}"
+summary: |-
+  Print the RSA key fingerprint of github.com

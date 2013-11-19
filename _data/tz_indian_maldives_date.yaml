@@ -1,0 +1,8 @@
+commandlinefu_id: 972
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TZ=Indian/Maldives date
+summary: |-
+  Want to known what time is it in another part of the world ?

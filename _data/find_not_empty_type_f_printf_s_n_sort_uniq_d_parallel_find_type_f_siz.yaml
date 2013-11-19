@@ -1,0 +1,8 @@
+commandlinefu_id: 4697
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -not -empty -type f -printf "%s\n" | sort | uniq -d | parallel find -type f -size {}c | parallel md5sum | sort | uniq -w32 --all-repeated=separate
+summary: |-
+  Find Duplicate Files (based on size first, then MD5 hash)

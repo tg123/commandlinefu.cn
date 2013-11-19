@@ -1,0 +1,8 @@
+commandlinefu_id: 5722
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for code in $(find . -type f -name '*.p[ml]'); do perl -c "$code"; done
+summary: |-
+  Check syntax of all Perl modules or scripts underneath the current directory

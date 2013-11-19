@@ -1,0 +1,8 @@
+commandlinefu_id: 6312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "hello::::there" | tr -s ':'
+summary: |-
+  Squish repeated delimiters into one

@@ -1,0 +1,8 @@
+commandlinefu_id: 4232
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/inet end/ {print $3}' <(ifconfig eth0)
+summary: |-
+  Return IP Address

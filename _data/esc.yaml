@@ -1,0 +1,8 @@
+commandlinefu_id: 9256
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ESC> #
+summary: |-
+  Comment current line

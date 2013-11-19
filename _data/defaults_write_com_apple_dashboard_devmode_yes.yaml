@@ -1,0 +1,8 @@
+commandlinefu_id: 5223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write com.apple.dashboard devmode YES
+summary: |-
+  Drag A Dashboard Widget Onto OS X Desktop

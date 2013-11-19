@@ -1,0 +1,8 @@
+commandlinefu_id: 4206
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -i "somepattern" `find . -type f -print`
+summary: |-
+  search for a pattern (regex) in all text files (ignoring binary files) in a directory tree

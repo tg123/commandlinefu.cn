@@ -1,0 +1,8 @@
+commandlinefu_id: 9602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -T Aggressive -A -v 127.0.0.1 -p 1-65000
+summary: |-
+  List services running on each open port

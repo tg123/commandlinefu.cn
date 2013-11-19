@@ -1,0 +1,8 @@
+commandlinefu_id: 10630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  up () { if [ "${1/[^0-9]/}" == "$1" ]; then p=./; for i in $(seq 1 $1); do p=${p}../; done; cd $p; else echo 'usage: up N'; fi }
+summary: |-
+  change up n directories

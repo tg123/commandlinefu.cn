@@ -1,0 +1,8 @@
+commandlinefu_id: 4486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^W-L
+summary: |-
+  Vim: Switch from Horizontal split to Vertical split

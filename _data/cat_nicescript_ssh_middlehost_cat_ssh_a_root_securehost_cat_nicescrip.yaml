@@ -1,0 +1,8 @@
+commandlinefu_id: 3180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat nicescript |ssh middlehost "cat | ssh -a root@securehost 'cat > nicescript'"
+summary: |-
+  scp a good script from host A which has no public access to host C, but with a hop by host B

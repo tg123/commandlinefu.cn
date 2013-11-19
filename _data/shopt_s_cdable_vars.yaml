@@ -1,0 +1,8 @@
+commandlinefu_id: 3908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt -s cdable_vars
+summary: |-
+  Enable cd by variable names

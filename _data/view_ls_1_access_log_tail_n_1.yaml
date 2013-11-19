@@ -1,0 +1,8 @@
+commandlinefu_id: 286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  view `ls -1 access_log.* | tail -n 1`
+summary: |-
+  View latest apache access log

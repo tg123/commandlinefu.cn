@@ -1,0 +1,8 @@
+commandlinefu_id: 4651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -b -n 1
+summary: |-
+  Top Command in batch mode

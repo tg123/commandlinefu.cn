@@ -1,0 +1,8 @@
+commandlinefu_id: 4400
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'for(@ARGV){s/x/*/g;s/v/sqrt /g;s/\^/**/g};print eval(join("",@ARGV)),$/;'
+summary: |-
+  A command line calculator in Perl

@@ -1,0 +1,8 @@
+commandlinefu_id: 10558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes "" | cat -n | awk '{print "S=`echo All work and no play makes Jack a dull boy. | cut -c",($1 - 1) % 43 + 1 "`;echo -n \"$S\";seq 500000 > /dev/null"}'| bash
+summary: |-
+  The scene in the Shining (Stanley Kubrick)

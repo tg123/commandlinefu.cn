@@ -1,0 +1,8 @@
+commandlinefu_id: 12714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  info foo |less
+summary: |-
+  Use GNU info with a pager

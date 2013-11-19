@@ -1,0 +1,8 @@
+commandlinefu_id: 9169
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://my-ip.cc/host.json
+summary: |-
+  Get your external IP address

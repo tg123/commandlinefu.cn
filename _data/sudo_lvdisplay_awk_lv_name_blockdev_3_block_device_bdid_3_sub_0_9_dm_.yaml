@@ -1,0 +1,8 @@
+commandlinefu_id: 5809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lvdisplay |awk '/LV Name/{blockdev=$3} /Block device/{bdid=$3; sub("[0-9]*:","dm-",bdid); print bdid,blockdev;}'
+summary: |-
+  Show DeviceMapper names for LVM Volumes (to disambiguate iostat logs, etc)

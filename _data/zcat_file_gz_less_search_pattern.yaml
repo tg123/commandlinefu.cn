@@ -1,0 +1,8 @@
+commandlinefu_id: 7661
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zcat file.gz | less +/search_pattern
+summary: |-
+  Quick searching with less

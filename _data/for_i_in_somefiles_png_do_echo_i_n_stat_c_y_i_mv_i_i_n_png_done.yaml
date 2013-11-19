@@ -1,0 +1,8 @@
+commandlinefu_id: 5740
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in somefiles*.png ; do echo "$i" ; N=$(stat -c %Y $i); mv -i $i $N.png; done
+summary: |-
+  Batch rename files by their epoch last modified time.

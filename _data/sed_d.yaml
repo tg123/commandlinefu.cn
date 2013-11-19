@@ -1,0 +1,8 @@
+commandlinefu_id: 829
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '/./,$!d'
+summary: |-
+  remove leading blank lines

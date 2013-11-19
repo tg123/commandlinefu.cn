@@ -1,0 +1,8 @@
+commandlinefu_id: 4901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  SITE="www.google.com"; curl --silent "http://www.shadyurl.com/create.php?myUrl=$SITE&shorten=on" | awk -F\' '/is now/{print $6}'
+summary: |-
+  ShadyURL via CLI

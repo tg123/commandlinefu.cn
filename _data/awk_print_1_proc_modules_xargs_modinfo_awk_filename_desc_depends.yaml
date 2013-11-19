@@ -1,0 +1,8 @@
+commandlinefu_id: 4098
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print $1}' "/proc/modules" | xargs modinfo | awk '/^(filename|desc|depends)/'
+summary: |-
+  Short Information about loaded kernel modules

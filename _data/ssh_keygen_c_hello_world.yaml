@@ -1,0 +1,8 @@
+commandlinefu_id: 8794
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -C hello@world
+summary: |-
+  Put at the end of the rsa public key an comment(default value is the hostname)

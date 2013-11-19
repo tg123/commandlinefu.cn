@@ -1,0 +1,8 @@
+commandlinefu_id: 2821
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -head -dump http://slashdot.org|egrep 'Bender|Fry'|sed 's/X-//'
+summary: |-
+  Get Futurama quotations from slashdot.org servers

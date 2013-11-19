@@ -1,0 +1,8 @@
+commandlinefu_id: 6576
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude purge '~c'
+summary: |-
+  Purge configuration files of removed packages on  debian based systems

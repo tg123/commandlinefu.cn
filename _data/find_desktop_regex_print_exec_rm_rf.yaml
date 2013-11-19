@@ -1,0 +1,8 @@
+commandlinefu_id: 2340
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/Desktop/ \( -regex '.*/\..*' \) -print -exec rm -Rf {} \;
+summary: |-
+  Search for all files that begin with . and delete them.

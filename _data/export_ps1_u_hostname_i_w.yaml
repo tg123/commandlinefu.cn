@@ -1,0 +1,8 @@
+commandlinefu_id: 9573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="[\u@`hostname -I` \W]$ "
+summary: |-
+  Show IP Address in prompt --> PS1 var

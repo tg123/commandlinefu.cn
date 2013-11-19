@@ -1,0 +1,8 @@
+commandlinefu_id: 4432
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stop () { ps -ec | grep $@ | kill -SIGSTOP `awk '{print $1}'`; }
+summary: |-
+  Pause and Resume Processes

@@ -1,0 +1,8 @@
+commandlinefu_id: 8785
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump | sed -e 's/^) ENGINE=MyISAM/) ENGINE=InnoDB/'
+summary: |-
+  mysql: Convert MyISAM tables to InnoDB via mysqldump

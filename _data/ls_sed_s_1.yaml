@@ -1,0 +1,8 @@
+commandlinefu_id: 6346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | sed 's,\(.*\),"\1",'
+summary: |-
+  List files with quotes around each filename

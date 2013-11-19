@@ -1,0 +1,8 @@
+commandlinefu_id: 3089
+translator:
+  weibo: ''
+hide: true
+command: |-
+  script -f /dev/pts/3
+summary: |-
+  Terminal redirection

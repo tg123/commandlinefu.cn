@@ -1,0 +1,8 @@
+commandlinefu_id: 2657
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time (dd if=/dev/zero of=blah.out bs=256M count=1 ; sync )
+summary: |-
+  Test your total disk IO capacity, regardless of caching, to find out how fast the TRUE speed of your disks are

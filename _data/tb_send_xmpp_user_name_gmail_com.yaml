@@ -1,0 +1,8 @@
+commandlinefu_id: 12143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tb send xmpp:user.name@gmail.com
+summary: |-
+  Share your terminal session real-time

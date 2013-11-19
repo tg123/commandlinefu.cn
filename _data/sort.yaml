@@ -1,0 +1,8 @@
+commandlinefu_id: 5273
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  :%sort
+summary: |-
+  在vim中排序当前的 buffer

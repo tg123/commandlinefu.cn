@@ -1,0 +1,8 @@
+commandlinefu_id: 5034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  translate(){ wget -qO- "http://ajax.googleapis.com/ajax/services/language/translate?v=1.0&q=$1&langpair=$2|${3:-en}" | sed 's/.*"translatedText":"\([^"]*\)".*}/\1\n/'; }
+summary: |-
+  Google Translate

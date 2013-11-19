@@ -1,0 +1,8 @@
+commandlinefu_id: 3740
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getenforce
+summary: |-
+  SELinux Status

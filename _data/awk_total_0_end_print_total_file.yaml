@@ -1,0 +1,8 @@
+commandlinefu_id: 7953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{total+=$0}END{print total}' file
+summary: |-
+  Add a list of numbers

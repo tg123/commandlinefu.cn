@@ -1,0 +1,8 @@
+commandlinefu_id: 4927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log . --stop-on-copy
+summary: |-
+  show the log of a branch since its creation

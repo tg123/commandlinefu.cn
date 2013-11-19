@@ -1,0 +1,8 @@
+commandlinefu_id: 9691
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free -g
+summary: |-
+  Get memory total from /proc/meminfo in Gigs

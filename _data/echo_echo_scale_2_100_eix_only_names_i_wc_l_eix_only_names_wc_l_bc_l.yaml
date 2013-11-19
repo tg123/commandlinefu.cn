@@ -1,0 +1,8 @@
+commandlinefu_id: 6884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(echo 'scale=2; ' '100 * ' $(eix --only-names -I | wc -l) / $(eix --only-names | wc -l) | bc -l)%
+summary: |-
+  Shows how many percents of all avaliable packages are installed in your gentoo system

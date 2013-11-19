@@ -1,0 +1,8 @@
+commandlinefu_id: 8910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
+summary: |-
+  Add spacer to left side of Dock

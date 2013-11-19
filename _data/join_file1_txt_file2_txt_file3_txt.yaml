@@ -1,0 +1,8 @@
+commandlinefu_id: 1282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  join file1.txt file2.txt > file3.txt
+summary: |-
+  Concatenate lines of to files, one by one

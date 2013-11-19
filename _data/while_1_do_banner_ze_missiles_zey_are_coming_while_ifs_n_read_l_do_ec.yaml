@@ -1,0 +1,8 @@
+commandlinefu_id: 4342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [ 1 ]; do banner 'ze missiles, zey are coming! ' | while IFS="\n" read l; do echo "$l"; sleep 0.01; done; done
+summary: |-
+  bash screensaver (scrolling ascii art with customizable message)

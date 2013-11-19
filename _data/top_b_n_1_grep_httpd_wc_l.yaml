@@ -1,0 +1,8 @@
+commandlinefu_id: 6157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -b -n 1 |grep httpd|wc -l
+summary: |-
+  Show the number of current httpd processes

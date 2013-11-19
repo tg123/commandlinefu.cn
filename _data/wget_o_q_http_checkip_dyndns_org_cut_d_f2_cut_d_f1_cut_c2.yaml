@@ -1,0 +1,8 @@
+commandlinefu_id: 9311
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O - -q http://checkip.dyndns.org/ | cut -d':' -f2 | cut -d'<' -f1| cut -c2-
+summary: |-
+  Check your ip public using dyndns.org

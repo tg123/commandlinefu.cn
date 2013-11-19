@@ -1,0 +1,8 @@
+commandlinefu_id: 9328
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "command lines" | rev | cut -c 2- | rev
+summary: |-
+  Remove the last string  character using rev and cut

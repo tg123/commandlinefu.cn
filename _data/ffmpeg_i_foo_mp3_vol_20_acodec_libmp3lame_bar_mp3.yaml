@@ -1,0 +1,8 @@
+commandlinefu_id: 6975
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i foo.mp3 -vol 20 -acodec libmp3lame bar.mp3
+summary: |-
+  Set volume to a mp3 file

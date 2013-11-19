@@ -1,0 +1,8 @@
+commandlinefu_id: 11855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -u user_name_here | grep process_name_here | wc -l
+summary: |-
+  Count total processes for specific program and user

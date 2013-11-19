@@ -1,0 +1,8 @@
+commandlinefu_id: 8903
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec chmod -x {} \;
+summary: |-
+  remove execute bit only from files. recursively

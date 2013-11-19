@@ -1,0 +1,8 @@
+commandlinefu_id: 5071
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ${PATH//:/ } -name \*bash\*
+summary: |-
+  Search $PATH for a command or something similar

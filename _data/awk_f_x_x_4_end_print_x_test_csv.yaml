@@ -1,0 +1,8 @@
+commandlinefu_id: 2967
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F ',' '{ x = x + $4 } END { print x }' test.csv
+summary: |-
+  Sum columns from CSV column $COL

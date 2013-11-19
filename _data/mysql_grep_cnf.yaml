@@ -1,0 +1,8 @@
+commandlinefu_id: 8221
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -? | grep ".cnf"
+summary: |-
+  See where MySQL is looking for its config files

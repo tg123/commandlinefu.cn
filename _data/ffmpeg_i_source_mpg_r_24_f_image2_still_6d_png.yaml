@@ -1,0 +1,8 @@
+commandlinefu_id: 11740
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i source.mpg -r 24 -f image2 still-%6d.png
+summary: |-
+  Convert video file to sequence of images

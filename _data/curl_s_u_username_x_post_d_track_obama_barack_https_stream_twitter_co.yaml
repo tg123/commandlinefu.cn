@@ -1,0 +1,8 @@
+commandlinefu_id: 12138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s -u $USERNAME -X POST -d "track=obama,barack" https://stream.twitter.com/1.1/statuses/filter.json -o twitter-stream.out
+summary: |-
+  Dump filtered twitter stream to a file

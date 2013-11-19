@@ -1,0 +1,8 @@
+commandlinefu_id: 5601
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --all --pretty=format:" " --name-only | sort -u
+summary: |-
+  List every file that has ever existed in a git repository

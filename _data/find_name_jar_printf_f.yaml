@@ -1,0 +1,8 @@
+commandlinefu_id: 655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.jar' -printf '%f:'
+summary: |-
+  Convert the contents of a directory listing into a colon-separated environment variable

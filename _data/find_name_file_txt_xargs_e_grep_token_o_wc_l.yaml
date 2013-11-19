@@ -1,0 +1,8 @@
+commandlinefu_id: 5206
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name file.txt | xargs -e grep "token" -o | wc -l
+summary: |-
+  Count occurrences of a word/token in a file

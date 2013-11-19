@@ -1,0 +1,8 @@
+commandlinefu_id: 7884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dos2unix <file>
+summary: |-
+  Convert DOS newlines (CR/LF) to Unix format

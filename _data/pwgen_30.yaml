@@ -1,0 +1,8 @@
+commandlinefu_id: 6675
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pwgen 30
+summary: |-
+  Generate a random password 30 characters long

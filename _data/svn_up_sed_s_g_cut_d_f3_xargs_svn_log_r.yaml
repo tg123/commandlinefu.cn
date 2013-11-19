@@ -1,0 +1,8 @@
+commandlinefu_id: 5120
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn up | sed 's/\.//g' | cut -d ' ' -f3 | xargs svn log -r
+summary: |-
+  show last revision log on svn update

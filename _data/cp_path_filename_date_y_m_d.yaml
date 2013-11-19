@@ -1,0 +1,8 @@
+commandlinefu_id: 2904
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp path/filename{,-$(date +%Y-%m-%d)}
+summary: |-
+  Create a backup of the file.

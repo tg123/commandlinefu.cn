@@ -1,0 +1,8 @@
+commandlinefu_id: 3931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo touch /forcefsck
+summary: |-
+  Run a file system check on your next boot.

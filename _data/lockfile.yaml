@@ -1,0 +1,8 @@
+commandlinefu_id: 4121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lockfile
+summary: |-
+  Locking and unlocking files and mailboxes

@@ -1,0 +1,8 @@
+commandlinefu_id: 3101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 'cat /proc/interrupts
+summary: |-
+  Watch changeable interrupts continuously

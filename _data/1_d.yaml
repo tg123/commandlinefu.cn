@@ -1,0 +1,8 @@
+commandlinefu_id: 1754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :1,$d
+summary: |-
+  Emptying a text file in one shot

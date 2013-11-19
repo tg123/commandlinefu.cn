@@ -1,0 +1,8 @@
+commandlinefu_id: 2528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PS1="\`if [ \$? = 0 ]; then echo \e[33\;40m\\\^\\\_\\\^\e[0m; else echo \e[36\;40m\\\-\e[0m\\\_\e[36\;40m\\\-\e[0m; fi\` \u \w:\h)"
+summary: |-
+  Smiley Face Bash Prompt

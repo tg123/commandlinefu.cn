@@ -1,0 +1,8 @@
+commandlinefu_id: 6135
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tee >(cat - >&2)
+summary: |-
+  tee to a file descriptor

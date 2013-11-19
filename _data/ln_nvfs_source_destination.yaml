@@ -1,0 +1,8 @@
+commandlinefu_id: 7184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ln -nvfs /source /destination
+summary: |-
+  Creates a symbolic link or overwrites an existing one

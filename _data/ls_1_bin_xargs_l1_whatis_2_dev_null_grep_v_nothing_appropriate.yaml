@@ -1,0 +1,8 @@
+commandlinefu_id: 873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 /bin | xargs -l1 whatis 2>/dev/null | grep -v "nothing appropriate"
+summary: |-
+  for newbies, how to get one line info about all /bin programs

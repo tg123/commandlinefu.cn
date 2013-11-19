@@ -1,0 +1,8 @@
+commandlinefu_id: 3441
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "vertical text" | grep -o '.'
+summary: |-
+  Print text string vertically, one character per line.

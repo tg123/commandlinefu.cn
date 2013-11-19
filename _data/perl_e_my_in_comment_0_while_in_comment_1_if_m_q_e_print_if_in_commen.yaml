@@ -1,0 +1,8 @@
+commandlinefu_id: 8802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'my $in_comment = 0; while (<>) { $in_comment = 1 if m{\Q/*\E}; print if $in_comment; $in_comment = 0 if m{\Q*/\E}; }' *.cpp
+summary: |-
+  Find C/C++ source code comments

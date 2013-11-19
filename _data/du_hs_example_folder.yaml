@@ -1,0 +1,8 @@
+commandlinefu_id: 2585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hs /example/folder/
+summary: |-
+  Outputs size of /example/folder in human readable format.

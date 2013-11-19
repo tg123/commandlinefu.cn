@@ -1,0 +1,8 @@
+commandlinefu_id: 12866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  redis-cli KEYS "user*" | xargs redis-cli DEL
+summary: |-
+  Delete Redis  keys by mask

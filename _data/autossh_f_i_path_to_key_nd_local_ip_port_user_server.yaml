@@ -1,0 +1,8 @@
+commandlinefu_id: 4458
+translator:
+  weibo: ''
+hide: true
+command: |-
+  autossh -f -i /path/to/key -ND local-IP:PORT User@Server
+summary: |-
+  Setup a persistant SSH tunnel w/ pre-shared key authentication

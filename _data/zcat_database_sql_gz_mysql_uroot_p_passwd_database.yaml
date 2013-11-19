@@ -1,0 +1,8 @@
+commandlinefu_id: 5129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zcat database.sql.gz | mysql -uroot -p'passwd' database
+summary: |-
+  Restore mysql database uncompressing on the fly.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6394
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /tank -iname thumbs.db -print0 | xargs -0 rm
+summary: |-
+  Thumbs.db&#12434;&#25506;&#12375;&#20986;&#12375;&#12390;&#20840;&#37096;&#28040;&#12377;

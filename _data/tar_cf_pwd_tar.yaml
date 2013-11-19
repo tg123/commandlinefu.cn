@@ -1,0 +1,8 @@
+commandlinefu_id: 12880
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cf "../${PWD##*/}.tar" .
+summary: |-
+  tar the current directory wihtout the absolute path

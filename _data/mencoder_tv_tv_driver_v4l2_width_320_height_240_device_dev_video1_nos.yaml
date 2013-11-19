@@ -1,0 +1,8 @@
+commandlinefu_id: 11573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder tv:// -tv driver=v4l2:width=320:height=240:device=/dev/video1 -nosound -ovc lavc -really-quiet -quiet -o - | (sleep 10m; cat) | mplayer - -cache 512
+summary: |-
+  Stream video to screen with a delay (cyberart)

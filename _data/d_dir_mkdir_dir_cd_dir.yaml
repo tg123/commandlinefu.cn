@@ -1,0 +1,8 @@
+commandlinefu_id: 1467
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [[ -d dir ]] || mkdir dir ; cd dir
+summary: |-
+  Go to directory or creat it and go to

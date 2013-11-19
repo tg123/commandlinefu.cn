@@ -1,0 +1,8 @@
+commandlinefu_id: 6946
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  netstat -lnp6 | grep :8080 | sed 's#^[^\/]*/\([a-z0-9]*\)#\1#'
+summary: |-
+  显示用ipv6监听8080的程序

@@ -1,0 +1,8 @@
+commandlinefu_id: 5242
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq -s'#' 0 $(tput cols) | tr -d '[:digit:]'
+summary: |-
+  Print a row of characters across the terminal

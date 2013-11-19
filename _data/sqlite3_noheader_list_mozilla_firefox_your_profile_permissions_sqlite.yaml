@@ -1,0 +1,8 @@
+commandlinefu_id: 3601
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite3 -noheader -list ~/.mozilla/firefox/<your_profile>/permissions.sqlite "select host from moz_hosts where type='image' and permission=2"
+summary: |-
+  Extract your list of blocked images hosts from Firefox database

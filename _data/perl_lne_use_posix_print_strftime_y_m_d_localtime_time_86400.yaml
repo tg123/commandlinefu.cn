@@ -1,0 +1,8 @@
+commandlinefu_id: 4202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -lne 'use POSIX; print strftime("%Y-%m-%d", localtime(time() - 86400));'
+summary: |-
+  yesterday

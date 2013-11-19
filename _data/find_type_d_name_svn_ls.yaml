@@ -1,0 +1,8 @@
+commandlinefu_id: 10595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -name '.svn' -ls
+summary: |-
+  Find directory by name

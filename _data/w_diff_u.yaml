@@ -1,0 +1,8 @@
+commandlinefu_id: 9737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :w !diff -u % -
+summary: |-
+  diff current vi buffer edits against original file

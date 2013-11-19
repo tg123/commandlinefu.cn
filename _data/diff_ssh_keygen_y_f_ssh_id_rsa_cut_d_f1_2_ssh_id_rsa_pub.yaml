@@ -1,0 +1,8 @@
+commandlinefu_id: 12670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(ssh-keygen -y -f ~/.ssh/id_rsa) <(cut -d' ' -f1,2 ~/.ssh/id_rsa.pub)
+summary: |-
+  Check SSH public and private keys matching

@@ -1,0 +1,8 @@
+commandlinefu_id: 7124
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ~ ctrl-z
+summary: |-
+  Suspend an ssh session.

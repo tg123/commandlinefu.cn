@@ -1,0 +1,8 @@
+commandlinefu_id: 8426
+translator:
+  weibo: ''
+hide: true
+command: |-
+  domain=google.com; for ns in $(whois $domain | awk -F: '/Name Server/{print $2}'); do echo ">>> Nameservers for $domain from $a <<<"; dig @$ns $domain ns +short; echo; done;
+summary: |-
+  Check to make sure the whois nameservers match the nameserver records from the nameservers themselves

@@ -1,0 +1,8 @@
+commandlinefu_id: 2200
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget  -H -r  -nv --level=1  -k -p -erobots=off -np -N  --exclude-domains=del.icio.us,doubleclick.net --exclude-directories=
+summary: |-
+  my command for downloading  delicious web links,

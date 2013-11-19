@@ -1,0 +1,8 @@
+commandlinefu_id: 7035
+translator:
+  weibo: ''
+hide: true
+command: |-
+  skill -KILL -v /dev/pts/*
+summary: |-
+  Command to logout all the users in one command

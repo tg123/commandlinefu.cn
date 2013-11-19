@@ -1,0 +1,8 @@
+commandlinefu_id: 8395
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *; do echo "<li><a href='$i'>$i</a>";  done > index.html
+summary: |-
+  Create cheap and easy index.html file

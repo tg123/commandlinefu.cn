@@ -1,0 +1,8 @@
+commandlinefu_id: 649
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  date +%s
+summary: |-
+  显示时间戳

@@ -1,0 +1,8 @@
+commandlinefu_id: 9591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum remove \*.i\?86
+summary: |-
+  Remove i386 RPM packages from x86_64 CentOS/RHEL

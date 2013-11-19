@@ -1,0 +1,8 @@
+commandlinefu_id: 7128
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Confirm() { read -sn 1 -p "$1 [Y/N]? "; [[ $REPLY = [Yy] ]]; }
+summary: |-
+  Ask user to confirm

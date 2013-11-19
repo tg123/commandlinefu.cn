@@ -1,0 +1,8 @@
+commandlinefu_id: 12418
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -uuser -ppass -e 'use information_schema; SELECT table_name FROM tables where table_schema="DB-NAME" and table_name NOT LIKE "PREFIX";' | grep -v table_name | xargs mysqldump DB-NAME -uuser -ppass > dump.sql
+summary: |-
+  Exclude dumping of specific tables with same prefix from  a single database

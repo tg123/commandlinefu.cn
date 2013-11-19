@@ -1,0 +1,8 @@
+commandlinefu_id: 12157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -d',' -f6 file.csv | sort | uniq
+summary: |-
+  Display unique values of a column

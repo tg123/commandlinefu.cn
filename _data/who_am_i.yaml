@@ -1,0 +1,8 @@
+commandlinefu_id: 9943
+translator:
+  weibo: ''
+hide: true
+command: |-
+  who am i
+summary: |-
+  get current tty name

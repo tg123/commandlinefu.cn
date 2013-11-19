@@ -1,0 +1,8 @@
+commandlinefu_id: 6
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -10000 access_log | awk '{print $1}' | sort | uniq -c | sort -n | tail
+summary: |-
+  Analyse an Apache access log for the most common IP addresses

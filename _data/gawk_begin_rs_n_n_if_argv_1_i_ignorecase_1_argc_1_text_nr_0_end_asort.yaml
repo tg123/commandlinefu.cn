@@ -1,0 +1,8 @@
+commandlinefu_id: 8437
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gawk 'BEGIN {RS="\n\n"; if (ARGV[1]=="-i"){IGNORECASE=1; ARGC=1}};{Text[NR]=$0};END {asort(Text);for (i=1;i<=NR;i++) printf "%s\n\n",Text[i] }' -i<Zip.txt
+summary: |-
+  # Multiline paragraph sort; with case insensitive option (-i)

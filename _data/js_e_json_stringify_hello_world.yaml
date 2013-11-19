@@ -1,0 +1,8 @@
+commandlinefu_id: 10576
+translator:
+  weibo: ''
+hide: true
+command: |-
+  js -e 'JSON.stringify({hello:"world"})'
+summary: |-
+  convert javascript DICT to JSON

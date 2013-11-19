@@ -1,0 +1,8 @@
+commandlinefu_id: 1789
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/log/secure | grep smtp | awk '{print $9}' | cut -f2 -d= | sort | uniq -c | sort -n | tail
+summary: |-
+  List SMTP connections by host

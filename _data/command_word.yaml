@@ -1,0 +1,8 @@
+commandlinefu_id: 10333
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  command <<< word
+summary: |-
+  如何将字符串通过stdin 传入 command

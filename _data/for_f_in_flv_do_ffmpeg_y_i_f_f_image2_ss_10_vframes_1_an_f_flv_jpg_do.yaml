@@ -1,0 +1,8 @@
+commandlinefu_id: 2205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.flv; do ffmpeg -y -i "$f" -f image2 -ss 10 -vframes 1 -an "${f%.flv}.jpg"; done
+summary: |-
+  for all flv files in a dir, grab the first frame and make a jpg.

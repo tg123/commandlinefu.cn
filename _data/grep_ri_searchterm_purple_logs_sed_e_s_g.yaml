@@ -1,0 +1,8 @@
+commandlinefu_id: 4255
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Ri searchterm  ~/.purple/logs/*  | sed -e 's/<.*?>//g'
+summary: |-
+  Search trought pidgin's conversation logs for "searchterm", and output the result.

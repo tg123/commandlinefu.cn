@@ -1,0 +1,8 @@
+commandlinefu_id: 5182
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s 'http://ggl-shortener.appspot.com/?url='"$1" | sed -e 's/{"short_url":"//' -e 's/"}/\n/g'
+summary: |-
+  Google URL shortener

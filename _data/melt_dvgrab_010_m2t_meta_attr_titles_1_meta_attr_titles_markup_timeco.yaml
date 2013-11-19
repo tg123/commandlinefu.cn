@@ -1,0 +1,8 @@
+commandlinefu_id: 12272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  melt dvgrab-010.m2t meta.attr.titles=1 meta.attr.titles.markup=#timecode# -attach data_show dynamic=1
+summary: |-
+  Play a video and show timecode ovelray

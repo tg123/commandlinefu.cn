@@ -1,0 +1,8 @@
+commandlinefu_id: 5160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -d $(echo ${PATH//:/ }) > /dev/null
+summary: |-
+  Show Directories in the PATH Which does NOT Exist

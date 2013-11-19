@@ -1,0 +1,8 @@
+commandlinefu_id: 1094
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo stat,pid,user,command | egrep "^STAT|^D|^R"
+summary: |-
+  Find the processes that are on the runqueue.  Processes with a status of

@@ -1,0 +1,8 @@
+commandlinefu_id: 4339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="\e[0;34m[\u\e[0;34m@\h[\e[0;33m\w\e[0m\e[0m\e[0;34m]#\e[0m "
+summary: |-
+  hanukkah colored bash prompt

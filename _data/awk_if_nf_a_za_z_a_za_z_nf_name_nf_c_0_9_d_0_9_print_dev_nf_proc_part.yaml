@@ -1,0 +1,8 @@
+commandlinefu_id: 10793
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{if ($NF ~ "^[a-zA-Z].*[a-zA-Z]$" && $NF !~ "name" || $NF ~ "c[0-9]+d[0-9]+$") print "/dev/"$NF}' /proc/partitions
+summary: |-
+  Print a list of all disks or volumes attached to a system

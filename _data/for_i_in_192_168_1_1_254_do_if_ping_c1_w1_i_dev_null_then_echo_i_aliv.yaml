@@ -1,0 +1,8 @@
+commandlinefu_id: 5838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in 192.168.1.{1..254} ; do  if ping -c1 -w1 $i &>/dev/null; then echo $i alive; fi; done
+summary: |-
+  List alive hosts in specific subnet

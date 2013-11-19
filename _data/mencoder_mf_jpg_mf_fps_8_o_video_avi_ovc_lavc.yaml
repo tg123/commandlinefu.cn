@@ -1,0 +1,8 @@
+commandlinefu_id: 5432
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder "mf://*.jpg" -mf fps=8 -o ./video.avi -ovc lavc
+summary: |-
+  create a .avi with many .jpg

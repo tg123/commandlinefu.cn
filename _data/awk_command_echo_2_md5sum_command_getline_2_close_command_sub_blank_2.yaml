@@ -1,0 +1,8 @@
+commandlinefu_id: 8436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{command="echo "$2"|md5sum" ;command | getline $2; close(command);sub(/[[:blank:]].*/,"",$2); print $0}'
+summary: |-
+  use awk to replace field with it's md5sum

@@ -1,0 +1,8 @@
+commandlinefu_id: 9807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  human_filesize() { awk -v sum="$1" ' BEGIN {hum[1024^3]="Gb"; hum[1024^2]="Mb"; hum[1024]="Kb"; for (x=1024^3; x>=1024; x/=1024) { if (sum>=x) { printf "%.2f %s\n",sum/x,hum[x]; break; } } if (sum<1024) print "1kb"; } '}
+summary: |-
+  Convert number of bytes to human readable filesize

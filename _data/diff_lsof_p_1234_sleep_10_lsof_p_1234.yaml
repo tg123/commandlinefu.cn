@@ -1,0 +1,8 @@
+commandlinefu_id: 5068
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(lsof -p 1234) <(sleep 10; lsof -p 1234)
+summary: |-
+  Eavesdrop on your system

@@ -1,0 +1,8 @@
+commandlinefu_id: 7078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.doc ; do wvHtml $f ${f%.doc}.html ; done
+summary: |-
+  Convert all Microsoft Word files in current directory to HTML.

@@ -1,0 +1,8 @@
+commandlinefu_id: 5084
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --graph --pretty=oneline --decorate
+summary: |-
+  Display condensed log  in a tree-like format.

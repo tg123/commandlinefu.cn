@@ -1,0 +1,8 @@
+commandlinefu_id: 5701
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | sed 's,.*,stat "&" | egrep "File|Modify" | tr "\\n" " " ; echo ,'  | sh | sed 's,[^/]*/\(.*\). Modify: \(....-..-.. ..:..:..\).*,\2 \1,' | sort
+summary: |-
+  Find files and list them with a readable informative output

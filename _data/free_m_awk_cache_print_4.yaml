@@ -1,0 +1,8 @@
+commandlinefu_id: 10431
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free -m | awk '/cache:/ {print $4}'
+summary: |-
+  Print free RAM in MB

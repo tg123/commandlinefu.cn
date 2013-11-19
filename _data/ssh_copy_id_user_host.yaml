@@ -1,0 +1,8 @@
+commandlinefu_id: 2928
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ssh-copy-id user@host
+summary: |-
+  将ssh key安装到远程机器上 用来免密码登录

@@ -1,0 +1,8 @@
+commandlinefu_id: 999
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  perl -e 'use MIME::Base64; print encode_base64("encode me plz");'
+summary: |-
+  用perl生成 base64

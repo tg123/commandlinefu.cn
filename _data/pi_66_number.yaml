@@ -1,0 +1,8 @@
+commandlinefu_id: 2079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pi 66 | number
+summary: |-
+  Find out how to say the first 66 digits of pi as a word

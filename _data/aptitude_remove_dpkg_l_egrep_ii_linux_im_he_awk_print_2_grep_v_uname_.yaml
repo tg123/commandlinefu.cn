@@ -1,0 +1,8 @@
+commandlinefu_id: 5813
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude remove $(dpkg -l|egrep '^ii  linux-(im|he)'|awk '{print $2}'|grep -v `uname -r`)
+summary: |-
+  Remove all unused kernels with apt-get

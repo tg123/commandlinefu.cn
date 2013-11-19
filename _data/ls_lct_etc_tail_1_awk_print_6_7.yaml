@@ -1,0 +1,8 @@
+commandlinefu_id: 3299
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lct /etc | tail -1 | awk '{print $6, $7}'
+summary: |-
+  When was your OS installed?

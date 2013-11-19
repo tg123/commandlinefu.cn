@@ -1,0 +1,8 @@
+commandlinefu_id: 6177
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dd if=/dev/sdc bs=4096 | pv -s 2G | sudo dd bs=4096 of=~/USB_BLACK_BACKUP.IMG
+summary: |-
+  dd with progress bar and statistics

@@ -1,0 +1,8 @@
+commandlinefu_id: 4672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -rni string dir
+summary: |-
+  Recursively grep thorugh directory for string in file.

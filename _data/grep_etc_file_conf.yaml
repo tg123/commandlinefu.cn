@@ -1,0 +1,8 @@
+commandlinefu_id: 6849
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep ^[^#] /etc/file.conf
+summary: |-
+  Remove comments and empty lines from a conf file

@@ -1,0 +1,8 @@
+commandlinefu_id: 7125
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="(\@) $PS1"
+summary: |-
+  Add the time to BASH prompt

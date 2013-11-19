@@ -1,0 +1,8 @@
+commandlinefu_id: 12374
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ((i=0; i>-1000; --i)); do echo "${!i}"; done
+summary: |-
+  number kill your terminal

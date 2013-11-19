@@ -1,0 +1,8 @@
+commandlinefu_id: 6818
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -i -P | grep -i "listen"
+summary: |-
+  List all open ports and their owning executables

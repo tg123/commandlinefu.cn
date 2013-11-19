@@ -1,0 +1,8 @@
+commandlinefu_id: 5228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -e"SHOW STATUS LIKE '%uptime%'"|awk '/ptime/{ calc = $NF / 3600;print $(NF-1), calc"Hour" }'
+summary: |-
+  Mysql uptime

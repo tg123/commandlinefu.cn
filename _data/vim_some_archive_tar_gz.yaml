@@ -1,0 +1,8 @@
+commandlinefu_id: 10633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim some-archive.tar.gz
+summary: |-
+  Edit a file inside a compressed archive without extracting it

@@ -1,0 +1,8 @@
+commandlinefu_id: 5787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xclip file.txt
+summary: |-
+  copy file to clipboard

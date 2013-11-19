@@ -1,0 +1,8 @@
+commandlinefu_id: 7672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'printf join(".", ("%d")x4 ), map {rand 256} 1..4;'
+summary: |-
+  Random IPv4 address

@@ -1,0 +1,8 @@
+commandlinefu_id: 916
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvzf - /directory/ | ssh root@host "cat > /dev/nst0"
+summary: |-
+  Send a backup job to a remote tape drive on another machine over SSH

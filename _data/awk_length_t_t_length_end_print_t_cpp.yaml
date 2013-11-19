@@ -1,0 +1,8 @@
+commandlinefu_id: 5606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '(length>t) {t=length} END {print t}' *.cpp
+summary: |-
+  Length of longest line of code

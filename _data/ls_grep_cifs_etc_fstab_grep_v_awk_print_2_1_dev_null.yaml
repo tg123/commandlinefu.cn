@@ -1,0 +1,8 @@
+commandlinefu_id: 7264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls $(grep cifs /etc/fstab | grep -v ^# |awk ' { print $2 } ') 1>/dev/null
+summary: |-
+  Get a list of the erroring cifs entries in fstab

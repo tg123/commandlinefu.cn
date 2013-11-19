@@ -1,0 +1,8 @@
+commandlinefu_id: 2990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -laR > /path/to/filelist
+summary: |-
+  Output all Files in Directory w/ Details to Filelist

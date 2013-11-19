@@ -1,0 +1,8 @@
+commandlinefu_id: 223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.txt" | xargs perl -pi -e 's/old/new/g'
+summary: |-
+  a find and replace within text-based files, to locate and rewrite text en mass.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dbus-send --system --print-reply --dest=org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend
+summary: |-
+  Suspend to ram

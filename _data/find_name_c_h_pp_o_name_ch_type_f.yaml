@@ -1,0 +1,8 @@
+commandlinefu_id: 5046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.[c|h]pp' -o -name '*.[ch]' -type f
+summary: |-
+  Find C/C++ source files

@@ -1,0 +1,8 @@
+commandlinefu_id: 4467
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache dotty PKG-NAME | dot -Tpng | display
+summary: |-
+  Create package dependency graph

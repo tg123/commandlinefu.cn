@@ -1,0 +1,8 @@
+commandlinefu_id: 6013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo user | sort -u
+summary: |-
+  Shows users and 'virtual users' on your a unix-type system

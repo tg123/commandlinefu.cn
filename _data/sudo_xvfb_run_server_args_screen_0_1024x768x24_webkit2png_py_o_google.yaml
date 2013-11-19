@@ -1,0 +1,8 @@
+commandlinefu_id: 10367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo xvfb-run --server-args="-screen 0, 1024x768x24" ./webkit2png.py -o google.png http://www.google.com
+summary: |-
+  take a screenshot of a webpage

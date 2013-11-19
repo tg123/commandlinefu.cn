@@ -1,0 +1,8 @@
+commandlinefu_id: 6931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(seq 300) ; do ethtool -s eth0 autoneg on ; sleep 2 ; done
+summary: |-
+  if you are alone and have to determine which switch port your server ends ... here we go

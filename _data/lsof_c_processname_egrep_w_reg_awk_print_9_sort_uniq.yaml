@@ -1,0 +1,8 @@
+commandlinefu_id: 4932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -c $processname | egrep 'w.+REG' | awk '{print $9}' | sort | uniq
+summary: |-
+  find all open files by named process

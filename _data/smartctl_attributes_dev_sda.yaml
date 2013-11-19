@@ -1,0 +1,8 @@
+commandlinefu_id: 9469
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smartctl --attributes /dev/sda
+summary: |-
+  Read all the S.M.A.R.T. data from a hard disk drive

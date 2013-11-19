@@ -1,0 +1,8 @@
+commandlinefu_id: 6913
+translator:
+  weibo: ''
+hide: true
+command: |-
+  DISPLAY=:0.0 import -window root /tmp/shot.png
+summary: |-
+  Take screenshot through SSH

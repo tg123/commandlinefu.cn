@@ -1,0 +1,8 @@
+commandlinefu_id: 785
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '10d' <somefile>
+summary: |-
+  Delete line number 10 from file

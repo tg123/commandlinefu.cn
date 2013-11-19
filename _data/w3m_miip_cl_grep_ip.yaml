@@ -1,0 +1,8 @@
+commandlinefu_id: 3896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w3m miip.cl | grep ip
+summary: |-
+  What is my ip?

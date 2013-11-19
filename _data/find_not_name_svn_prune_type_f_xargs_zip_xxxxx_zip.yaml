@@ -1,0 +1,8 @@
+commandlinefu_id: 3390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -not \( -name .svn -prune \) -type f | xargs zip XXXXX.zip
+summary: |-
+  Create a zip file ignoring .svn files

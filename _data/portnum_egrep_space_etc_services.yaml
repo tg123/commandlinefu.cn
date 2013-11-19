@@ -1,0 +1,8 @@
+commandlinefu_id: 9435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  portnum() { egrep "[[:space:]]$*/" /etc/services; }
+summary: |-
+  Query well known ports list

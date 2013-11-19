@@ -1,0 +1,8 @@
+commandlinefu_id: 1541
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PLAYLIST=$(ls -1) ; mpg123 -C $PLAYLIST
+summary: |-
+  Store mp3 playlist on variable and play with mpg123

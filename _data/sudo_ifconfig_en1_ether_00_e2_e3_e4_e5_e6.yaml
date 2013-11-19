@@ -1,0 +1,8 @@
+commandlinefu_id: 5215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ifconfig en1 ether 00:e2:e3:e4:e5:e6
+summary: |-
+  Spoof your wireless MAC address on OS X to 00:e2:e3:e4:e5:e6

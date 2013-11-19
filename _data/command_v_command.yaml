@@ -1,0 +1,8 @@
+commandlinefu_id: 12400
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command -v <command>
+summary: |-
+  Check to see if a command exists

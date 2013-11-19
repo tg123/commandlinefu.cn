@@ -1,0 +1,8 @@
+commandlinefu_id: 4421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*png' -printf '%h\0' | xargs -0 ls -l --hide=*.png | grep -ZB1 ' 0$'
+summary: |-
+  List folders containing only PNGs

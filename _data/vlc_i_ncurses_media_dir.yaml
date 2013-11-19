@@ -1,0 +1,8 @@
+commandlinefu_id: 4766
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vlc -I ncurses <MEDIA_DIR>
+summary: |-
+  Vlc ncurses mode browsing local directorys.

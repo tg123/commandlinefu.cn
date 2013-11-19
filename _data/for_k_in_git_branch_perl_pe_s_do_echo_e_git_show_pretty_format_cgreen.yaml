@@ -1,0 +1,8 @@
+commandlinefu_id: 2345
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r
+summary: |-
+  按日期显示git 分支

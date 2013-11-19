@@ -1,0 +1,8 @@
+commandlinefu_id: 4119
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -oac mp3lame -lameopts cbr=128 -ovc lavc -lavcopts vcodec=mjpeg -o dvd.avi dvd://0
+summary: |-
+  DVD to YouTube ready watermarked MPEG-4 AVI file using mencoder (step 1)

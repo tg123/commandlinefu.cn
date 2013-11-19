@@ -1,0 +1,8 @@
+commandlinefu_id: 7984
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -fl [h]ttpd
+summary: |-
+  Exclude grep from your grepped output of ps (alias included in description)

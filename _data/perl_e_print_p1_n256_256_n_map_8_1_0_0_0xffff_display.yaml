@@ -1,0 +1,8 @@
+commandlinefu_id: 2589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'print "P1\n256 256\n", map {$_&($_>>8)?1:0} (0..0xffff)' | display
+summary: |-
+  Draw a Sierpinski triangle

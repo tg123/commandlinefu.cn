@@ -1,0 +1,8 @@
+commandlinefu_id: 8191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet towel.blinkenlights.nl 666 | sed "s/=== The BOFH Excuse Server ===//" | tr -d '\n' && echo
+summary: |-
+  Get a BOFH excuse

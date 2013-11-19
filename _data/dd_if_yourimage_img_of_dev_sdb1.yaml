@@ -1,0 +1,8 @@
+commandlinefu_id: 1944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=yourimage.img of=/dev/sdb1
+summary: |-
+  Burn an image to a USB stick

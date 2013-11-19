@@ -1,0 +1,8 @@
+commandlinefu_id: 210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc '[:print:]' < /dev/urandom
+summary: |-
+  Printable random characters

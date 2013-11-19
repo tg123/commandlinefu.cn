@@ -1,0 +1,8 @@
+commandlinefu_id: 2600
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimdiff scp://[user@]host1/<file> scp://[user@]host2/<file>
+summary: |-
+  Compare a remote file with a local file

@@ -1,0 +1,8 @@
+commandlinefu_id: 2969
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whois domainnametocheck.com | grep match
+summary: |-
+  Check if a domain is available and get the answer in just one line

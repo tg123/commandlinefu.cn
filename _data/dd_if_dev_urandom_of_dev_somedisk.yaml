@@ -1,0 +1,8 @@
+commandlinefu_id: 10098
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/urandom of=/dev/somedisk
+summary: |-
+  Completly blank a disk

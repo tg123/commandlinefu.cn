@@ -1,0 +1,8 @@
+commandlinefu_id: 205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ~/.purple/logs/; egrep -ri "i can haz|pwn|l33t|w00|zomg" * | cut -d'/' -f 3 | sort | uniq | xargs -I {} echo "Note to self: ban user '{}'"
+summary: |-
+  Find and list users who talk like "lolcats"

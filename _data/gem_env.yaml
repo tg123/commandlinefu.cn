@@ -1,0 +1,8 @@
+commandlinefu_id: 8748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gem env
+summary: |-
+  Enumerate rubygems environment

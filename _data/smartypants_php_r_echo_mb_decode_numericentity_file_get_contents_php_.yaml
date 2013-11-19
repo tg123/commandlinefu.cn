@@ -1,0 +1,8 @@
+commandlinefu_id: 3012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smartypants | php -r "echo mb_decode_numericentity(file_get_contents('php://stdin'),array(0x0000,0xFFFF,0x0000,0xFFFF),'UTF-8');"
+summary: |-
+  Turn Regular quotes ("") into curly quotes (??)

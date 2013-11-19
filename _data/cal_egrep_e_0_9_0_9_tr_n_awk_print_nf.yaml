@@ -1,0 +1,8 @@
+commandlinefu_id: 10609
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cal | egrep -e '^ [0-9]|^[0-9]' | tr '\n' ' ' | awk '{print $NF}'
+summary: |-
+  Returns last day of current month

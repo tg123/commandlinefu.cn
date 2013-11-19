@@ -1,0 +1,8 @@
+commandlinefu_id: 7282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h |grep -P "^\S*G"
+summary: |-
+  List Big Files/Directories

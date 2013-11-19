@@ -1,0 +1,8 @@
+commandlinefu_id: 12858
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f | grep -v "^./.git" | xargs md5sum | md5sum
+summary: |-
+  Create md5sum of a directory

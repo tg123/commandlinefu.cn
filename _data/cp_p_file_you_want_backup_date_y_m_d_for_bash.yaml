@@ -1,0 +1,8 @@
+commandlinefu_id: 345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -p file-you-want-backup{,_`date +%Y%m%d`} # for bash
+summary: |-
+  backup file. (for bash)

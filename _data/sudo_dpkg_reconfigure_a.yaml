@@ -1,0 +1,8 @@
+commandlinefu_id: 6156
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dpkg-reconfigure -a
+summary: |-
+  Cleanup debian/ubuntu package configurations

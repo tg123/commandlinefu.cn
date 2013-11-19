@@ -1,0 +1,8 @@
+commandlinefu_id: 6937
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -Pnl +M -i6:8080
+summary: |-
+  The program listening on port 8080 through IPv6

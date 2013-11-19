@@ -1,0 +1,8 @@
+commandlinefu_id: 12563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -ah --du . | ack '\[(\d{3,}M|\d+.*G)\]'
+summary: |-
+  Recursivly search current directory for files larger than 100MB

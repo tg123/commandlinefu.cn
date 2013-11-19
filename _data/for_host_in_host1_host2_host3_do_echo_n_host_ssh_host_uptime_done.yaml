@@ -1,0 +1,8 @@
+commandlinefu_id: 6467
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for host in host1 host2 host3; do echo -n $host:; ssh $host uptime; done;
+summary: |-
+  run command on a group of nodes in parallel

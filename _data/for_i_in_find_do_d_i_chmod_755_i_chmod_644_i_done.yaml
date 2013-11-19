@@ -1,0 +1,8 @@
+commandlinefu_id: 6484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `find .`; do [ -d $i ] && chmod 755 $i || chmod 644 $i; done
+summary: |-
+  Reconstruct standard permissions for directories and files in current directory

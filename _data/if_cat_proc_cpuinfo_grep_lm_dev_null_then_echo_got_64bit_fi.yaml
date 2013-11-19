@@ -1,0 +1,8 @@
+commandlinefu_id: 5322
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if cat /proc/cpuinfo | grep " lm " &> /dev/null; then echo "Got 64bit" ; fi
+summary: |-
+  Determine whether a CPU has 64 bit capability or not

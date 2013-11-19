@@ -1,0 +1,8 @@
+commandlinefu_id: 4426
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  curl -u user:passwd -T /home/dir/local_file_to_upload ftp://your_host.com/subdir/
+summary: |-
+  上传到ftp 用curl

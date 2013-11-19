@@ -1,0 +1,8 @@
+commandlinefu_id: 11157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (cat ~/.bash_history;U='curl -s www.commandlinefu.com';$U/users/signin -c/tmp/.c -d'username=<USER>&password=<PASS>&submit=1'|$U/commands/favourites/json -b/tmp/.c|grep -Po 'nd":.*?[^\\]",'|sed -re 's/.*":"(.*)",/\1/g')>~/.h;HISTFILE=~/.h bash --login
+summary: |-
+  run shell with your commandlinefu.com's favourites as bash_history

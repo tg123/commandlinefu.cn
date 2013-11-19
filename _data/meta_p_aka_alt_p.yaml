@@ -1,0 +1,8 @@
+commandlinefu_id: 12703
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <Meta-p> (aka <ALT+P>)
+summary: |-
+  find previously entered commands (requires configuring .inputrc)

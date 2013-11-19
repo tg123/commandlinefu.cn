@@ -1,0 +1,8 @@
+commandlinefu_id: 10687
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://people.mozilla.com/~faaborg/files/shiretoko/firefoxIcon/firefox-64.png | convert - jpg:- | jp2a --color --html -> firefox.html
+summary: |-
+  firefox ascii logo

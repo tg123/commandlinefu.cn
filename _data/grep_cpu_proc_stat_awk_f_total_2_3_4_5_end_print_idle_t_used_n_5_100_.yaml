@@ -1,0 +1,8 @@
+commandlinefu_id: 10083
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep "cpu " /proc/stat | awk -F ' ' '{total = $2 + $3 + $4 + $5} END {print "idle \t used\n" $5*100/total "% " $2*100/total "%"}'
+summary: |-
+  Show CPU idle and used time

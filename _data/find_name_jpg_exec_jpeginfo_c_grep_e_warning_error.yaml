@@ -1,0 +1,8 @@
+commandlinefu_id: 2352
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*jpg" -exec jpeginfo -c {} \; | grep -E "WARNING|ERROR"
+summary: |-
+  Find corrupted jpeg image files

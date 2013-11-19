@@ -1,0 +1,8 @@
+commandlinefu_id: 1164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find start_dir -name *.txt | xargs -J % cp % end_dir/
+summary: |-
+  catch all the txt files into a start_dir tree and copy them into a single end_dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 12401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  less -XF
+summary: |-
+  Make less act like cat if its input's contents can fit on one screen

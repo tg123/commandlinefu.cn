@@ -1,0 +1,8 @@
+commandlinefu_id: 5
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . \( -name "*.php" -o -name "*.js" \) -exec svn propset svn:keywords Id {} \;
+summary: |-
+  Add SVN keywords property to all PHP and Javascript files

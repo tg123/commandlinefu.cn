@@ -1,0 +1,8 @@
+commandlinefu_id: 10237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git remote | xargs -n 1 git push
+summary: |-
+  Push to all remote repos with git

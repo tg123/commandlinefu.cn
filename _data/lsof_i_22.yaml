@@ -1,0 +1,8 @@
+commandlinefu_id: 8075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -i :22
+summary: |-
+  determine if tcp port is open

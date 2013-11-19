@@ -1,0 +1,8 @@
+commandlinefu_id: 2372
+translator:
+  weibo: ''
+hide: true
+command: "for f in *.jpg; do exif --ifd=0 --tag=0x0110 --set-value=\"LOMO LC-A\" --output=$f\
+  \ $f; exif --ifd=0 --tag=0x010f --set-value=\"LOMO\" --output=$f $f; \tdone }"
+summary: |-
+  change exif data in all jpeg's

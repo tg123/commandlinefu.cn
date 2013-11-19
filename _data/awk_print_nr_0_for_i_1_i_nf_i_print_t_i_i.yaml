@@ -1,0 +1,8 @@
+commandlinefu_id: 2732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print NR": "$0; for(i=1;i<=NF;++i)print "\t"i": "$i}'
+summary: |-
+  Analyze awk fields

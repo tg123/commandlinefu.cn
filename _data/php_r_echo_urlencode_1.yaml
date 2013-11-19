@@ -1,0 +1,8 @@
+commandlinefu_id: 10015
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ php -r "echo urlencode('$1');"
+summary: |-
+  Url Encode

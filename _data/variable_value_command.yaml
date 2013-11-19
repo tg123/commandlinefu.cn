@@ -1,0 +1,8 @@
+commandlinefu_id: 1456
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VARIABLE="VALUE" COMMAND
+summary: |-
+  Executes a command changing an environment variable

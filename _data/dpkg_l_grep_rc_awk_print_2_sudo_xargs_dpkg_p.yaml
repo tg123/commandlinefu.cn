@@ -1,0 +1,8 @@
+commandlinefu_id: 4650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l | grep ^rc | awk '{print $2}' | sudo xargs dpkg -P
+summary: |-
+  Delete residues configuration files

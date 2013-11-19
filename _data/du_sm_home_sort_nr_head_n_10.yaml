@@ -1,0 +1,8 @@
+commandlinefu_id: 11255
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sm /home/* | sort -nr | head -n 10
+summary: |-
+  Find the 10 users that take up the most disk space

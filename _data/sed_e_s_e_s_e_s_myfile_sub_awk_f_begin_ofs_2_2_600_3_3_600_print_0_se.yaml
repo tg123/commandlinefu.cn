@@ -1,0 +1,8 @@
+commandlinefu_id: 9039
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e 's/{/|/' -e 's/}{/|/' -e 's/}/|/' myFile.sub | awk -F "|" 'BEGIN {OFS =  "|"} { $2 = $2 - 600; $3 = $3 - 600; print $0 }' | sed -e 's/^|/{/' -e 's/\([0-9]\)|\([0-9]\)/\1}{\2/' -e 's/|/}/' >
+summary: |-
+  Fix subtitle timing (for .sub files)

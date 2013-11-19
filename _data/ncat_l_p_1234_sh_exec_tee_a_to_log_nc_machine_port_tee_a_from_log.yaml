@@ -1,0 +1,8 @@
+commandlinefu_id: 10031
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ncat -l -p 1234 --sh-exec "tee -a to.log | nc machine port | tee -a from.log"
+summary: |-
+  Intercept, monitor and manipulate a TCP connection.

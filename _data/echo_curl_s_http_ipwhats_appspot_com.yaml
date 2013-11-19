@@ -1,0 +1,8 @@
+commandlinefu_id: 7356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(curl -s http://ipwhats.appspot.com/)
+summary: |-
+  get you public ip address

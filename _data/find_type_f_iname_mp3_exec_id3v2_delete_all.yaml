@@ -1,0 +1,8 @@
+commandlinefu_id: 7734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname "*.mp3" -exec id3v2 --delete-all {} \;
+summary: |-
+  strip id3 v1 and v2 tags from all mp3s in current dir and below

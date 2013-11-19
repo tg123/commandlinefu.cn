@@ -1,0 +1,8 @@
+commandlinefu_id: 11190
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -ntr NAME_OF_CAPTURED_FILE.pcap 'tcp[13] = 0x02 and dst port 80' | awk '{print $4}' | tr . ' ' | awk '{print $1"."$2"."$3"."$4}' | sort | uniq -c | awk ' {print $2 "\t" $1 }'
+summary: |-
+  Read a tcpdump file and count SYN packets to port 80, Order column by destination.

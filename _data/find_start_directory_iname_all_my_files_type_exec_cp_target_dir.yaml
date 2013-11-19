@@ -1,0 +1,8 @@
+commandlinefu_id: 9464
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <start directory> -iname "<all my files type>" -exec cp {} <target_dir> \;
+summary: |-
+  Copy files from multiple directories into one directory

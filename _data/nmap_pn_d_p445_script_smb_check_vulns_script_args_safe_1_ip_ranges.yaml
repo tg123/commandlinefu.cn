@@ -1,0 +1,8 @@
+commandlinefu_id: 2901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -PN -d -p445 --script=smb-check-vulns --script-args=safe=1 IP-RANGES
+summary: |-
+  Conficker Detection with NMAP

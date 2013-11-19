@@ -1,0 +1,8 @@
+commandlinefu_id: 2842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  debootstrap --arch i386 lenny /opt/debian ftp://debian.das.ufsc.br/pub/debian/
+summary: |-
+  Installing debian on fedora (chrooted)

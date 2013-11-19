@@ -1,0 +1,8 @@
+commandlinefu_id: 7715
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df /media/mountpoint |egrep -o '^[/a-z0-9]*'
+summary: |-
+  find the device when you only know the mount point

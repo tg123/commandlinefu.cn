@@ -1,0 +1,8 @@
+commandlinefu_id: 225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn merge -r 1337:1336 PATH PATH
+summary: |-
+  revert one or more changesets in svn

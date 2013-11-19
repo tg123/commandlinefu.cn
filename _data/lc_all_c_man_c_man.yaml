@@ -1,0 +1,8 @@
+commandlinefu_id: 4506
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LC_ALL=C man -c man
+summary: |-
+  Fix borked character coding in a tty.

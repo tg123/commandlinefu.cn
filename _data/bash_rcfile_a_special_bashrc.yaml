@@ -1,0 +1,8 @@
+commandlinefu_id: 9290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash --rcfile /a/special/bashrc
+summary: |-
+  Launch an interactive shell with special aliases and functions.

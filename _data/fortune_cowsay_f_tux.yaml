@@ -1,0 +1,8 @@
+commandlinefu_id: 5735
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune | cowsay -f tux
+summary: |-
+  let a cow tell you your fortune

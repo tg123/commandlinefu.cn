@@ -1,0 +1,8 @@
+commandlinefu_id: 6923
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lst=`dpkg -L iptables` ; for f in $lst; do if [ -x $f ] && [ !  -d $f ] ;  then echo $f; fi; done;
+summary: |-
+  List only executables installed by a debian package

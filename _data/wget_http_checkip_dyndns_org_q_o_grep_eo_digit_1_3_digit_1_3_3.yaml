@@ -1,0 +1,8 @@
+commandlinefu_id: 9310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://checkip.dyndns.org/ -q -O - | grep -Eo '\<[[:digit:]]{1,3}(\.[[:digit:]]{1,3}){3}\>'
+summary: |-
+  Check your ip public using dyndns.org

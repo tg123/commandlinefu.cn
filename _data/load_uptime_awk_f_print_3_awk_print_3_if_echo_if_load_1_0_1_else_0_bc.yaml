@@ -1,0 +1,8 @@
+commandlinefu_id: 11849
+translator:
+  weibo: ''
+hide: true
+command: |-
+  load=`uptime|awk -F',' '{print $3}'|awk '{print $3}'`; if [[ $(echo "if ($load > 1.0) 1 else 0" | bc) -eq 1 ]]; then notify-send "Load $load";fi
+summary: |-
+  One liner to show a notification on Desktop in case the load exceeds 1.

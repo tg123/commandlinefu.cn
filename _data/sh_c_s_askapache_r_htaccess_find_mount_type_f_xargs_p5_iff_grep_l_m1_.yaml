@@ -1,0 +1,8 @@
+commandlinefu_id: 3691
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sh -c 'S=askapache R=htaccess; find . -mount -type f|xargs -P5 -iFF grep -l -m1 "$S" FF|xargs -P5 -iFF sed -i -e "s%${S}%${R}%g" FF'
+summary: |-
+  FAST Search and Replace for Strings in all Files in Directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 3767
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -dL 1
+summary: |-
+  List only the directories

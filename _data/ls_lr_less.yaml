@@ -1,0 +1,8 @@
+commandlinefu_id: 12835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lR | less
+summary: |-
+  Read recursive directory listings at leisure

@@ -1,0 +1,8 @@
+commandlinefu_id: 9399
+translator:
+  weibo: ''
+hide: true
+command: |-
+  quietly() { "$@" |&:; }
+summary: |-
+  Suppress output of loud commands you don't want to hear from

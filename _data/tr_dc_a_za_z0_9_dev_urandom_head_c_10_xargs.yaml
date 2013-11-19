@@ -1,0 +1,8 @@
+commandlinefu_id: 11393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc A-Za-z0-9_ < /dev/urandom | head -c 10 | xargs
+summary: |-
+  generate a randome 10 character password

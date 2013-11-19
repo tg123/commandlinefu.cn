@@ -1,0 +1,8 @@
+commandlinefu_id: 5457
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input.avi -s qcif -vcodec h263 -r 20 -b 180k -acodec libfaac -ab 64k -ac 2 -ar 22050 output.3gp
+summary: |-
+  Converting video file (.flv, .avi etc.) to .3gp

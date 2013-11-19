@@ -1,0 +1,8 @@
+commandlinefu_id: 7061
+translator:
+  weibo: ''
+hide: true
+command: |-
+  deadlib() { lsof | grep 'DEL.*lib' | cut -f 1 -d ' ' | sort -u; }
+summary: |-
+  Shows what processes need to be restarted after system upgrade

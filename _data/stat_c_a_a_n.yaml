@@ -1,0 +1,8 @@
+commandlinefu_id: 1873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stat -c '%A %a %n' *
+summary: |-
+  Nicely display permissions in octal format with filename

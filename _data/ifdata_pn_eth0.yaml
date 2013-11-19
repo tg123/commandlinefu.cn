@@ -1,0 +1,8 @@
+commandlinefu_id: 12167
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifdata -pN eth0
+summary: |-
+  Get the IP address of a machine

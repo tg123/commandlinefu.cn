@@ -1,0 +1,8 @@
+commandlinefu_id: 5139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://feeds.delicious.com/v2/json?count=5" | python -m json.tool | less -R
+summary: |-
+  JSON processing with Python

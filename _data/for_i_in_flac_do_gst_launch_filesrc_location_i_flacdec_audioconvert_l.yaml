@@ -1,0 +1,8 @@
+commandlinefu_id: 11976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.flac; do gst-launch filesrc location="$i" ! flacdec ! audioconvert ! lamemp3enc target=quality quality=2 ! id3v2mux ! filesink location="${i%.flac}.mp3"; done
+summary: |-
+  Batch transcode .flac to .mp3 with gstreamer

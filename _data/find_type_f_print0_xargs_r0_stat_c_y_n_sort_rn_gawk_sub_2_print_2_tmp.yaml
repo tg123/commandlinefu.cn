@@ -1,0 +1,8 @@
+commandlinefu_id: 1354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -r0 stat -c %Y\ %n | sort -rn | gawk '{sub(/.\//,"",$2); print $2}' > /tmp/playlist.m3u
+summary: |-
+  Generate a playlist of all the files in the directory, newer first

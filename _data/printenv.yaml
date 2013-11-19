@@ -1,0 +1,8 @@
+commandlinefu_id: 11376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printenv
+summary: |-
+  Print environment information.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host 'gunzip - > file' < file.gz
+summary: |-
+  send file to remote machine and unzip using ssh

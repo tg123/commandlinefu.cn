@@ -1,0 +1,8 @@
+commandlinefu_id: 4662
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 -type d -exec 'mv "{}" "{}-old" && svnadmin create "{}" && svnadmin recover "{}-old" && svnadmin dump "{}-old" | svnadmin load "{}" && rm -rf "{}-old"' \;
+summary: |-
+  Convert all old SVN repositories in one directory to new format

@@ -1,0 +1,8 @@
+commandlinefu_id: 11195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '!array[$1]++' file.txt
+summary: |-
+  Output entire line once per unique value of the first column

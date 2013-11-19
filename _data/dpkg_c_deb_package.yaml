@@ -1,0 +1,8 @@
+commandlinefu_id: 9563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -c deb_package
+summary: |-
+  List contents of a deb package

@@ -1,0 +1,8 @@
+commandlinefu_id: 2023
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm ~/.mozilla/firefox/<profile_dir>/.parentlock
+summary: |-
+  Releases Firefox of a still running message

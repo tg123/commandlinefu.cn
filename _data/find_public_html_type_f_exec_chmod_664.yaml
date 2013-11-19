@@ -1,0 +1,8 @@
+commandlinefu_id: 8886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find public_html/ -type f -exec chmod 664 {} \;
+summary: |-
+  Chmod all files (excluding directories)

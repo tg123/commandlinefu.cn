@@ -1,0 +1,8 @@
+commandlinefu_id: 8306
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dvgrab - | mplayer -
+summary: |-
+  Grabs video from dv firewire camera and plays it on mplayer.

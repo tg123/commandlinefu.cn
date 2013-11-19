@@ -1,0 +1,8 @@
+commandlinefu_id: 1357
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  grep -r --exclude-dir=.svn PATTERN PATH
+summary: |-
+  不包含svn的grep

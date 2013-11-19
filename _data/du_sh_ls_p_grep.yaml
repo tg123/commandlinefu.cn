@@ -1,0 +1,8 @@
+commandlinefu_id: 5328
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh `ls -p | grep /`
+summary: |-
+  List complete size of directories (do not consider hidden directories)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f /proc/partitions
+summary: |-
+  detect partitions

@@ -1,0 +1,8 @@
+commandlinefu_id: 12487
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdfunite 1.pdf 2.pdf united.pdf
+summary: |-
+  Unite pdf files

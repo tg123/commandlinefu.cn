@@ -1,0 +1,8 @@
+commandlinefu_id: 3171
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@pyramid \ "tcpdump -nn -i eth1 -w -" | snort -c /etc/snort/snort.conf -r -
+summary: |-
+  Remotely sniff traffic and pass to snort

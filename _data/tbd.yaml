@@ -1,0 +1,8 @@
+commandlinefu_id: 7303
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <TBD>
+summary: |-
+  print line and execute it in BASH

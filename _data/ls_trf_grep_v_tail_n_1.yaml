@@ -1,0 +1,8 @@
+commandlinefu_id: 9269
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -trF | grep -v \/ | tail -n 1
+summary: |-
+  Hunt for the newest file.

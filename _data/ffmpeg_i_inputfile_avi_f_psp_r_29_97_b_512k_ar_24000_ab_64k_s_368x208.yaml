@@ -1,0 +1,8 @@
+commandlinefu_id: 6482
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i "inputFile.avi" -f psp -r 29.97 -b 512k -ar 24000 -ab 64k -s 368x208 M4V00002.MP4
+summary: |-
+  Convert movie to psp format

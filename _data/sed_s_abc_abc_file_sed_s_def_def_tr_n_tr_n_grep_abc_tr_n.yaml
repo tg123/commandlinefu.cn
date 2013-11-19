@@ -1,0 +1,8 @@
+commandlinefu_id: 261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s/^ABC/+ABC/" <file | sed "s/DEF$/DEF+/" | tr "\n" "~" | tr "+" "\n" | grep "^ABC"  | tr "~" "\n"
+summary: |-
+  Gives you what's between first string and second string included.

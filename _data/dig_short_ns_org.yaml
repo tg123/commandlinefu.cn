@@ -1,0 +1,8 @@
+commandlinefu_id: 5428
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +short NS org.
+summary: |-
+  Get the list of root nameservers for a given TLD

@@ -1,0 +1,8 @@
+commandlinefu_id: 11865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -H | grep -vE '^Filesystem|tmpfs|cdrom|none' | awk '{ print $5 " " $1 }'
+summary: |-
+  Remaining Disk space for important mounted drives

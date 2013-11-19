@@ -1,0 +1,8 @@
+commandlinefu_id: 962
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  last  | grep -v "^$" | awk '{ print $1 }' | sort -nr | uniq -c
+summary: |-
+  快速查看使用系统的用户

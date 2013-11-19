@@ -1,0 +1,8 @@
+commandlinefu_id: 8088
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IFS=$'\n'; LIST=`ls -1`; let TOT=`echo $LIST | wc -w`-1 ; array=($LIST); echo "Selected ${array[ ($RANDOM % $TOT) ]}"
+summary: |-
+  Selecting a random file/folder of a folder

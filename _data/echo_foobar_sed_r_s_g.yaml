@@ -1,0 +1,8 @@
+commandlinefu_id: 9727
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo foobar | sed -r 's/(^.|.$)//g'
+summary: |-
+  Remove the first and the latest caracter of a string

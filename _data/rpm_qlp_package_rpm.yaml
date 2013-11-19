@@ -1,0 +1,8 @@
+commandlinefu_id: 336
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qlp <package.rpm>
+summary: |-
+  check rpm pkg content w/o installation

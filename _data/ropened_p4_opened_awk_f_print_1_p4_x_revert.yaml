@@ -1,0 +1,8 @@
+commandlinefu_id: 1550
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ropened='p4 opened | awk -F# "{print \$1}" | p4 -x - revert'
+summary: |-
+  Revert back all files currently checked out by Perforce SCM for edit

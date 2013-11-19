@@ -1,0 +1,8 @@
+commandlinefu_id: 2265
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias setvol='aumix -v'
+summary: |-
+  Alias for quick command-line volume set (works also remotely via SSH)

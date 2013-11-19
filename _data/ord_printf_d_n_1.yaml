@@ -1,0 +1,8 @@
+commandlinefu_id: 3830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ord() { printf "%d\n" "'$1"; }
+summary: |-
+  Get decimal ascii code from character

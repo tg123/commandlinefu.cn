@@ -1,0 +1,8 @@
+commandlinefu_id: 5055
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste file1 file2 fileN > merged
+summary: |-
+  Merge files, joining each line in one line

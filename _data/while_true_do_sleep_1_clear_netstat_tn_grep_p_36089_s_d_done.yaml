@@ -1,0 +1,8 @@
+commandlinefu_id: 9365
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  while true ; do  sleep 1 ; clear ;  (netstat -tn | grep -P ':36089\s+\d') ;  done
+summary: |-
+  监控端口连接

@@ -1,0 +1,8 @@
+commandlinefu_id: 2557
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pg_dump otrs2 | gzip > dump.gz
+summary: |-
+  make pgsql backup and gzip it

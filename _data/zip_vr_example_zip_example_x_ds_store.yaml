@@ -1,0 +1,8 @@
+commandlinefu_id: 2317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zip -vr example.zip example/ -x "*.DS_Store"
+summary: |-
+  Zip a directory on Mac OS X and ignore .DS_Store (metadata) directory

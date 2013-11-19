@@ -1,0 +1,8 @@
+commandlinefu_id: 4788
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo {1..199}" bottles of beer on the wall, cold bottle of beer, take one down, pass it around, one less bottle of beer on the wall,, " | espeak -v english -s 140
+summary: |-
+  your terminal sings

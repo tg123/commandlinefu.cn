@@ -1,0 +1,8 @@
+commandlinefu_id: 2448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  init=/bin/bash; mount -o remount,rw /
+summary: |-
+  password recovery on debian

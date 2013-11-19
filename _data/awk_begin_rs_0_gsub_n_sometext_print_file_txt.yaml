@@ -1,0 +1,8 @@
+commandlinefu_id: 7276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN{RS="\0"}{gsub(/\n/,"<SOMETEXT>");print}' file.txt
+summary: |-
+  Join lines

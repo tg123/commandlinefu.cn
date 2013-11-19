@@ -1,0 +1,8 @@
+commandlinefu_id: 6088
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gst-launch avimux name=mux ! filesink location=out.avi \ alsasrc ! audioconvert ! queue ! mux. istximagesrc name=videosource use-damage=false ! video/x-raw-rgb,framerate=10/1 ! videorate ! ffmpegcolorspace ! video/x-raw-yuv,framerate=10/1 ! mux.
+summary: |-
+  Capture  screen and default audio input device and generate an incompress AVI file

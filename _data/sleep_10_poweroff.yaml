@@ -1,0 +1,8 @@
+commandlinefu_id: 12175
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 10; poweroff
+summary: |-
+  Wait a moment and then Power off

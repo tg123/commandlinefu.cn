@@ -1,0 +1,8 @@
+commandlinefu_id: 2808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rxvt-unicode -g 999x999 -sr -depth 32 -bg rg-ba:0000/0000/0000/dddd +sb -T irssi -n irssi -name irssichat -e ssh server.com -Xt screen -aAdr -RR irssi irssi
+summary: |-
+  Connect to irssi over ssh

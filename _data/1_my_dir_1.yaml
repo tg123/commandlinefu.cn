@@ -1,0 +1,8 @@
+commandlinefu_id: 9787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ $1 ] && my_dir=$1
+summary: |-
+  Get first argument in a script

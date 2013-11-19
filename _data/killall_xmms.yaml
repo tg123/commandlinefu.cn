@@ -1,0 +1,8 @@
+commandlinefu_id: 7004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall xmms
+summary: |-
+  Kill XMMS for a cron job

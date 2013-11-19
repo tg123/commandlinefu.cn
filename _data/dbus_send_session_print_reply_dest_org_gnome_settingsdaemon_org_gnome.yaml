@@ -1,0 +1,8 @@
+commandlinefu_id: 11846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dbus-send --session --print-reply  --dest="org.gnome.SettingsDaemon"     /org/gnome/SettingsDaemon/Power org.gnome.SettingsDaemon.Power.Screen.SetPercentage uint32:30
+summary: |-
+  Adjust display hardware brightness [dbus way]

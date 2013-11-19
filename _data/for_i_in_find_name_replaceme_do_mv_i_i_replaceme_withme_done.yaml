@@ -1,0 +1,8 @@
+commandlinefu_id: 6367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(find . -name *replaceme*);do mv "$i" "${i//replaceme/withme}"; done
+summary: |-
+  replace strings in file names

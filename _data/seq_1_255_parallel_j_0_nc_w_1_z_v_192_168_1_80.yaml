@@ -1,0 +1,8 @@
+commandlinefu_id: 8623
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 1 255 | parallel -j+0 'nc -w 1 -z -v 192.168.1.{} 80'
+summary: |-
+  port scan using parallel

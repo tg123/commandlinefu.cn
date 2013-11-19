@@ -1,0 +1,8 @@
+commandlinefu_id: 4210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 "ps aux | sed -n 's/ D /&/p'"
+summary: |-
+  Watch those evil Red Hat states code D Uninterruptible sleep (usually IO).

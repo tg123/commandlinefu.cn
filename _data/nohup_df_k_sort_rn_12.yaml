@@ -1,0 +1,8 @@
+commandlinefu_id: 8166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup df -k | sort -rn 12
+summary: |-
+  to make any command run even if sytem gets shut down

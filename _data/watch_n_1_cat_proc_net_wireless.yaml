@@ -1,0 +1,8 @@
+commandlinefu_id: 10850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 cat /proc/net/wireless
+summary: |-
+  Displaying wireless signal on screen in realtime.

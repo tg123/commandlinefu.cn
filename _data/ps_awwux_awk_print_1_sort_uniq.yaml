@@ -1,0 +1,8 @@
+commandlinefu_id: 250
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps awwux|awk '{print $1}'|sort|uniq
+summary: |-
+  Get to the user for using system.

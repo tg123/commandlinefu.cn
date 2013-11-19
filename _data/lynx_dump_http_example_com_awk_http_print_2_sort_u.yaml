@@ -1,0 +1,8 @@
+commandlinefu_id: 9461
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump http://example.com/ | awk '/http/{print $2}' | sort -u
+summary: |-
+  Get all links of a website

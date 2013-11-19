@@ -1,0 +1,8 @@
+commandlinefu_id: 2981
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $PATH|awk -F: ' { for (i=1; i <= NF; i++) print $i }'
+summary: |-
+  List path of binaries

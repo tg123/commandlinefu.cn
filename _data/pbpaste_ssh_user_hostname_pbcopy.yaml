@@ -1,0 +1,8 @@
+commandlinefu_id: 8337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste | ssh user@hostname pbcopy
+summary: |-
+  Transfers clipboard content from one OS X machine to another

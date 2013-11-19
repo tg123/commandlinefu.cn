@@ -1,0 +1,8 @@
+commandlinefu_id: 2165
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias agi="sudo apt-get install" #package_names
+summary: |-
+  aliases for apt-get

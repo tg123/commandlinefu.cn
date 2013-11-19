@@ -1,0 +1,8 @@
+commandlinefu_id: 9596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lxc-ls | sort -u | xargs -i sudo lxc-info -n {}
+summary: |-
+  Get status of LXC

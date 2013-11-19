@@ -1,0 +1,8 @@
+commandlinefu_id: 5689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mpc clear && mpc add http://twit.am:80/listen && mpc play
+summary: |-
+  Listen to TWiT with mpd/mpc

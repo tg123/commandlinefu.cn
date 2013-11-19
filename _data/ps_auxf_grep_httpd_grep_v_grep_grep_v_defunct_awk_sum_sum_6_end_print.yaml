@@ -1,0 +1,8 @@
+commandlinefu_id: 2049
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps auxf | grep httpd | grep -v grep | grep -v defunct | awk '{sum=sum+$6}; END {print sum/1024}'
+summary: |-
+  Apache memory usage

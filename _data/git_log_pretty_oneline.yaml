@@ -1,0 +1,8 @@
+commandlinefu_id: 1717
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --pretty=oneline
+summary: |-
+  Display condensed log of changes to current git repository

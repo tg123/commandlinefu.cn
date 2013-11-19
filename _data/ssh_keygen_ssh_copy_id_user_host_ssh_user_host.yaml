@@ -1,0 +1,8 @@
+commandlinefu_id: 1526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen; ssh-copy-id user@host; ssh user@host
+summary: |-
+  Transfer SSH public key to another machine in one step

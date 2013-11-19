@@ -1,0 +1,8 @@
+commandlinefu_id: 3859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt -s dotglob
+summary: |-
+  bash glob dot-files

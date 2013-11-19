@@ -1,0 +1,8 @@
+commandlinefu_id: 780
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  du -ks * | sort -n
+summary: |-
+  当前目录和子目录的大小 并排序

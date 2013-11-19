@@ -1,0 +1,8 @@
+commandlinefu_id: 11461
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert *.jpg File_Output.pdf
+summary: |-
+  convert several jpg into one pdf file

@@ -1,0 +1,8 @@
+commandlinefu_id: 8248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep --exclude-dir=.svn --exclude=*~ -i "TODO" -rl .
+summary: |-
+  Find the files that include a TODO statement within a project

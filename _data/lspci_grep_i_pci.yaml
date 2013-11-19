@@ -1,0 +1,8 @@
+commandlinefu_id: 10596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lspci | grep -i pci
+summary: |-
+  lspci | grep -i pci

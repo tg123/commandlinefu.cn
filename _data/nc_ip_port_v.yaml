@@ -1,0 +1,8 @@
+commandlinefu_id: 8074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc <ip> <port> -v
+summary: |-
+  determine if tcp port is open

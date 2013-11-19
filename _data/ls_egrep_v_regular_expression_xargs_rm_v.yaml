@@ -1,0 +1,8 @@
+commandlinefu_id: 5237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | egrep -v "[REGULAR EXPRESSION]" | xargs rm -v
+summary: |-
+  Remove everything except that file

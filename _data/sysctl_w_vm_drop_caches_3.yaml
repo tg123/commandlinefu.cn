@@ -1,0 +1,8 @@
+commandlinefu_id: 9511
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sysctl -w vm.drop_caches=3
+summary: |-
+  Clear filesystem memory cache

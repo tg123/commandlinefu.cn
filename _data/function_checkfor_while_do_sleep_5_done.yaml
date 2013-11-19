@@ -1,0 +1,8 @@
+commandlinefu_id: 3318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function checkfor () { while :; do $*; sleep 5; done; }
+summary: |-
+  bash function to check for something every 5 seconds

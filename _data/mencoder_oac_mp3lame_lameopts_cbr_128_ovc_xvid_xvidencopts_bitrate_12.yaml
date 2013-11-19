@@ -1,0 +1,8 @@
+commandlinefu_id: 3440
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -oac mp3lame -lameopts cbr=128 -ovc xvid -xvidencopts bitrate=1200 inputfile.rmvb -o output.avi
+summary: |-
+  Convert a flv video file to avi using mencoder

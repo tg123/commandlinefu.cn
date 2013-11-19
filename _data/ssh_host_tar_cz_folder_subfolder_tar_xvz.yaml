@@ -1,0 +1,8 @@
+commandlinefu_id: 4034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh <host> 'tar -cz /<folder>/<subfolder>' | tar -xvz
+summary: |-
+  Copy a folder tree through ssh using compression (no temporary files)

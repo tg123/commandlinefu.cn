@@ -1,0 +1,8 @@
+commandlinefu_id: 11645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  script -t 2> timing.txt -a session.txt ; Run some commands here; exit; scriptreplay timing.txt session.txt
+summary: |-
+  Linux record terminal session and replay

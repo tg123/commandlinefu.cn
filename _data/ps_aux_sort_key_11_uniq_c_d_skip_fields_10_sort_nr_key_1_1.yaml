@@ -1,0 +1,8 @@
+commandlinefu_id: 8865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | sort --key=11 | uniq -c -d --skip-fields=10 | sort -nr --key=1,1
+summary: |-
+  find duplicate processes

@@ -1,0 +1,8 @@
+commandlinefu_id: 4908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -n 50 -f /var/log/apache2/access_log /var/log/apache2/error_log
+summary: |-
+  tail: watch a filelog

@@ -1,0 +1,8 @@
+commandlinefu_id: 7898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 'date "+%T"'
+summary: |-
+  Console clock

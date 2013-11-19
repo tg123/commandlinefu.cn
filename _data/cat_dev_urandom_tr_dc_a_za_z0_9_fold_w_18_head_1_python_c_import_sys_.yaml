@@ -1,0 +1,8 @@
+commandlinefu_id: 11497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 18 | head -1 | python -c "import sys,crypt; stdin=sys.stdin.readline().rstrip('\n'); print stdin;print crypt.crypt(stdin)"
+summary: |-
+  Generate a 18 character password, print the password and sha512 salted hash

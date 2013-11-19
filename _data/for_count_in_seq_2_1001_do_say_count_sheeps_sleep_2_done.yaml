@@ -1,0 +1,8 @@
+commandlinefu_id: 11809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for count in $(seq 2 1001); do say "$count sheeps";sleep 2;done
+summary: |-
+  Hypnosis

@@ -1,0 +1,8 @@
+commandlinefu_id: 7153
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep '\<110/' /etc/services; grep '\b110/' /etc/services
+summary: |-
+  Find which service was used by which port number

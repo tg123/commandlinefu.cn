@@ -1,0 +1,8 @@
+commandlinefu_id: 10248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls|grep .mp3 >list.txt; while read line; do newname=`echo $line|sed 's/\ /-/g'|sort`; newname=`echo $newname|tr -s '-' `; echo $newname; echo $newname>> tracklist.txt;mv "$line" "$newname"; done <list.txt; rm list.txt
+summary: |-
+  Tracklist reaplace backspace to '-'

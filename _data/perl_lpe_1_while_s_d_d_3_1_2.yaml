@@ -1,0 +1,8 @@
+commandlinefu_id: 986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -lpe'1 while s/^([-+]?\d+)(\d{3})/$1.$2/'
+summary: |-
+  Inserting a decimal every third digit

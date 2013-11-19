@@ -1,0 +1,8 @@
+commandlinefu_id: 7982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  numpages() { echo $(($(wc -l $* | sed -n 's/ total$//p')/60)); }
+summary: |-
+  how many pages will my text files print on?

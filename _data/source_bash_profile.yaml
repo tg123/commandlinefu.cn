@@ -1,0 +1,8 @@
+commandlinefu_id: 2523
+translator:
+  weibo: ''
+hide: true
+command: |-
+  source ~/.bash_profile
+summary: |-
+  reload bash_profile

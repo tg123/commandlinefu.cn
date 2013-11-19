@@ -1,0 +1,8 @@
+commandlinefu_id: 1742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi -e 's/foo/bar/g' $(grep -l foo ./*)
+summary: |-
+  Change all instances of a word in all files in the current directory

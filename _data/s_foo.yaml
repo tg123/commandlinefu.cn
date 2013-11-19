@@ -1,0 +1,8 @@
+commandlinefu_id: 8284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%s!^!foo!
+summary: |-
+  vim insert at beginning of multiple lines

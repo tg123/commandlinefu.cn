@@ -1,0 +1,8 @@
+commandlinefu_id: 8396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  links -dump "http://spaceflight.nasa.gov/realdata/sightings/cities/view.cgi?country=United_States&region=Wisconsin&city=Portage" | sed -n '/--/,/--/p'
+summary: |-
+  Get International Space Station sighting information for your city

@@ -1,0 +1,8 @@
+commandlinefu_id: 3762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+summary: |-
+  convert filenames in current directory to lowercase

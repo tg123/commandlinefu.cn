@@ -1,0 +1,8 @@
+commandlinefu_id: 12168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite3 ~/.mozilla/firefox/*default/places.sqlite "select a.url, a.title from moz_places a, moz_bookmarks b where a.id=b.fk and b.parent=2;"
+summary: |-
+  sqlite3 cmd to extract Firefox bookmarks from places.sqlite

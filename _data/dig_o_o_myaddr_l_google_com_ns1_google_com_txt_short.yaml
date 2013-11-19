@@ -1,0 +1,8 @@
+commandlinefu_id: 11071
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig o-o.myaddr.l.google.com @ns1.google.com txt +short
+summary: |-
+  Get your current Public IP

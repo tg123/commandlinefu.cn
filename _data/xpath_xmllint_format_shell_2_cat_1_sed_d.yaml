@@ -1,0 +1,8 @@
+commandlinefu_id: 9925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xpath () { xmllint --format --shell "$2" <<< "cat $1" | sed '/^\/ >/d' }
+summary: |-
+  extract element of xml

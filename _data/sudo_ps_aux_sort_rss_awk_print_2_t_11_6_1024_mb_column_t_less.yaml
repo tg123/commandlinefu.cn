@@ -1,0 +1,8 @@
+commandlinefu_id: 9847
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ps aux --sort:rss | awk '{print $2"\t"$11":  "$6/1024" MB"}' | column -t | less
+summary: |-
+  Find and sort by Resident Size of each process on the system in MB

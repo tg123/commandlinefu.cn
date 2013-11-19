@@ -1,0 +1,8 @@
+commandlinefu_id: 9333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://tools.web4host.net/versions.tmp --quiet -O - | grep PHPMYADMIN | sed 's/PHPMYADMIN=//' | cat
+summary: |-
+  Get the latest version of phpMyAdmin

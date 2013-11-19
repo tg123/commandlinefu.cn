@@ -1,0 +1,8 @@
+commandlinefu_id: 7447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -wlne'/title>([^<]+)/i&&rename$ARGV,"$1.html"' *.html
+summary: |-
+  Rename HTML files according to their title tag

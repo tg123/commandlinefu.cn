@@ -1,0 +1,8 @@
+commandlinefu_id: 34
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi.bk -e's/foo/bar/g' file1 file2 fileN
+summary: |-
+  infile search and replace on N files (including backup of the files)

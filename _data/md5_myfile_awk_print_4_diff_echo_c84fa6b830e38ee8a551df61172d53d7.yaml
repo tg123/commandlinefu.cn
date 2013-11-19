@@ -1,0 +1,8 @@
+commandlinefu_id: 4730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  md5 myfile | awk '{print $4}' | diff <(echo "c84fa6b830e38ee8a551df61172d53d7") -
+summary: |-
+  Validating a file with checksum

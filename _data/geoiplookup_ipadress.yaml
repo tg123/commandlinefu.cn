@@ -1,0 +1,8 @@
+commandlinefu_id: 6809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  geoiplookup <ipadress>
+summary: |-
+  Geolocate a given IP address

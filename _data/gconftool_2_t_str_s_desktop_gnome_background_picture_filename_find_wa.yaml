@@ -1,0 +1,8 @@
+commandlinefu_id: 6610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gconftool-2 -t str -s /desktop/gnome/background/picture_filename "$(find ~/Wallpapers -type f | shuf -n1)"
+summary: |-
+  Set random background image in gnome

@@ -1,0 +1,8 @@
+commandlinefu_id: 7642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -p1234 | grep -E "(3r|4w).*REG"
+summary: |-
+  View any already in progress copy command in detail

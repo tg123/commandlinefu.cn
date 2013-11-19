@@ -1,0 +1,8 @@
+commandlinefu_id: 2167
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function ec() { ec_var="`pwd`" && cd /etc/ && sudo bzr commit -m "$@" && cd $ec_var; }
+summary: |-
+  alias for etckeeper, to commit changes after moification of etc

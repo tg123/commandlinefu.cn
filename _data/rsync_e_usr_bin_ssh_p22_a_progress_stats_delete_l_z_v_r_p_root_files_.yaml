@@ -1,0 +1,8 @@
+commandlinefu_id: 523
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  rsync -e "/usr/bin/ssh -p22" -a --progress --stats --delete -l -z -v -r -p /root/files/ user@remote_server:/root/files/
+summary: |-
+  给本地目录在远程服务器上创建镜像

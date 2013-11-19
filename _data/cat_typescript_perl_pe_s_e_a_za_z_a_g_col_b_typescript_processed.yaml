@@ -1,0 +1,8 @@
+commandlinefu_id: 2318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat typescript | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed
+summary: |-
+  'Fix' a typescript file created by the 'script' program to remove control characters

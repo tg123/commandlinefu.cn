@@ -1,0 +1,8 @@
+commandlinefu_id: 9758
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -R Subject /var/spool/exim/input/ | sed s/^.*Subject:\ // | sort | uniq -c | sort -n > ~/email_sort.$(date +%m.%d.%y).txt
+summary: |-
+  Sort and count subjects of emails stuck in Exim queue

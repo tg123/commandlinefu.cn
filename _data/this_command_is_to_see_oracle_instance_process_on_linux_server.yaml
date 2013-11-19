@@ -1,0 +1,8 @@
+commandlinefu_id: 1076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  this command is to see oracle instance process on linux server
+summary: |-
+  ps- ef | grep pmon

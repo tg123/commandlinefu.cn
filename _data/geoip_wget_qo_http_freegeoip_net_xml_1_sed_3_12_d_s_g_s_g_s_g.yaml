@@ -1,0 +1,8 @@
+commandlinefu_id: 9576
+translator:
+  weibo: ''
+hide: true
+command: |-
+  geoip() { wget -qO - http://freegeoip.net/xml/$1 | sed '3,12!d;s/<//g;s/>/: /g;s/\/.*//g' ; }
+summary: |-
+  geoip information

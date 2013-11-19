@@ -1,0 +1,8 @@
+commandlinefu_id: 7067
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -empty -type f -delete
+summary: |-
+  Recursively remove 0kb files from a directory

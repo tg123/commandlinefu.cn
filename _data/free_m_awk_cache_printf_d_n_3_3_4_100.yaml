@@ -1,0 +1,8 @@
+commandlinefu_id: 10723
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free -m | awk '/cache:/ { printf("%d%\n",$3/($3+$4)*100)}'
+summary: |-
+  Get free RAM in %

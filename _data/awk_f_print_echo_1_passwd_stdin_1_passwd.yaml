@@ -1,0 +1,8 @@
+commandlinefu_id: 9245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F: '{print "echo "$1" | passwd --stdin "$1}' passwd
+summary: |-
+  Set user passwords to username from partial password file

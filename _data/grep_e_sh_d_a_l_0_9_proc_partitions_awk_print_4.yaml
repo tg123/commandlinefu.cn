@@ -1,0 +1,8 @@
+commandlinefu_id: 11160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -e "[sh]d[a-l][0-9]\?" /proc/partitions | awk '{print $4}'
+summary: |-
+  list all available disks and disk partitions

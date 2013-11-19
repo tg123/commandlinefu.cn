@@ -1,0 +1,8 @@
+commandlinefu_id: 6381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -i :[port number]
+summary: |-
+  For finding out if something is listening on a port and if so what the daemon is.

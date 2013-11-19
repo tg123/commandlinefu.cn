@@ -1,0 +1,8 @@
+commandlinefu_id: 4032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mmin -60 -not -path "*svn*" -print|more
+summary: |-
+  Find files recursively that were updated in the last hour ignoring SVN files and folders.

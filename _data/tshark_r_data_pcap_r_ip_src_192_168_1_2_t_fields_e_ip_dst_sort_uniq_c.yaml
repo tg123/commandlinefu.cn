@@ -1,0 +1,8 @@
+commandlinefu_id: 9447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tshark -r data.pcap -R "ip.src==192.168.1.2" -T fields -e "ip.dst" |sort |uniq -c
+summary: |-
+  Print all connections of a source IP address in pcap

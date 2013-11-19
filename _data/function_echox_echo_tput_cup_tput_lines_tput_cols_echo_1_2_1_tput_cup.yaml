@@ -1,0 +1,8 @@
+commandlinefu_id: 2145
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function echox { echo `tput cup $(($(tput lines))) $(( ($(tput cols) - $(echo "${#1}"))/2 ))`"$1"`tput cup $(tput lines) $(( $(tput cols)-1 ))`; }
+summary: |-
+  prints message in given argument on on center of screen

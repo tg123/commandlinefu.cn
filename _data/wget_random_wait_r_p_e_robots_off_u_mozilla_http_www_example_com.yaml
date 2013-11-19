@@ -1,0 +1,8 @@
+commandlinefu_id: 901
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  wget --random-wait -r -p -e robots=off -U mozilla http://www.example.com
+summary: |-
+  用wget下载整个网站

@@ -1,0 +1,8 @@
+commandlinefu_id: 275
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqlcheck -a --auto-repair -c -o -uroot -p [DB]
+summary: |-
+  Analyze, check, auto-repair and optimize Mysql Database

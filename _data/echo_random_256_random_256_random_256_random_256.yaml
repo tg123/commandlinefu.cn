@@ -1,0 +1,8 @@
+commandlinefu_id: 7676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $((RANDOM%256)).$((RANDOM%256)).$((RANDOM%256)).$((RANDOM%256))
+summary: |-
+  Perl One Liner to Generate a Random IP Address

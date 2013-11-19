@@ -1,0 +1,8 @@
+commandlinefu_id: 1408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff ARGUMENTS_FOR_DIFF | source-highlight --out-format=esc --src-lang=diff
+summary: |-
+  Diff with colour highlighting

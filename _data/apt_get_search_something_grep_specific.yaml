@@ -1,0 +1,8 @@
+commandlinefu_id: 6662
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get search something | grep specific
+summary: |-
+  Refined repository search

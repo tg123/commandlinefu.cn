@@ -1,0 +1,8 @@
+commandlinefu_id: 9369
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 'netstat -tn | grep -P :22'
+summary: |-
+  Monitoring a port connections

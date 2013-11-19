@@ -1,0 +1,8 @@
+commandlinefu_id: 4537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://tinyurl.com/create.php?url=$1 \ | sed -n 's/.*\(http:\/\/tinyurl.com\/[a-z0-9][a-z0-9]*\).*/\1/p' \ | uniq ; curl -s http://bit.ly/?url=$1 \ | sed -n 's/.*\(shortened-url"...............
+summary: |-
+  This command will shorten any URL the user inputs. What makes this command different is that it utilizes 5 different services and gives you 5 different outputs.

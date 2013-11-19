@@ -1,0 +1,8 @@
+commandlinefu_id: 6018
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn up -r PREV # revert
+summary: |-
+  Quick and Temporary Named Commands

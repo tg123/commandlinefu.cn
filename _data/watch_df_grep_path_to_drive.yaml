@@ -1,0 +1,8 @@
+commandlinefu_id: 9
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  watch "df | grep /path/to/drive"
+summary: |-
+  监视驱动变化

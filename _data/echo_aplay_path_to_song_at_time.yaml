@@ -1,0 +1,8 @@
+commandlinefu_id: 2502
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "aplay path/to/song" |at [time]
+summary: |-
+  Set an alarm to wake up [2]

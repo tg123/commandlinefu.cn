@@ -1,0 +1,8 @@
+commandlinefu_id: 9644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed ':a;N;$!ba;s/\n\n/\n%\n/g' input.txt >output
+summary: |-
+  Create fortune's *.dat file from commandlinefu from saved preferite

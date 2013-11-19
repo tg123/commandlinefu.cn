@@ -1,0 +1,8 @@
+commandlinefu_id: 8356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --oneline <REMOTE>..<LOCAL BRANCH>
+summary: |-
+  GIT: list unpushed commits

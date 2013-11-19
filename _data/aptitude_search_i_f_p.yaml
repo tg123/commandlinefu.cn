@@ -1,0 +1,8 @@
+commandlinefu_id: 9481
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude search ~i -F %p
+summary: |-
+  Generate a list of installed packages on Debian-based systems

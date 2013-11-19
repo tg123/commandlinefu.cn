@@ -1,0 +1,8 @@
+commandlinefu_id: 1975
+translator:
+  weibo: ''
+hide: true
+command: |-
+  . ~/.profile
+summary: |-
+  Refresh profile file

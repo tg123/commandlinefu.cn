@@ -1,0 +1,8 @@
+commandlinefu_id: 3188
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -d @1234567890
+summary: |-
+  convert unixtime to human-readable

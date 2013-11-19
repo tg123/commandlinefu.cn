@@ -1,0 +1,8 @@
+commandlinefu_id: 6298
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FOR /F "tokens=3* delims=[]=," %A IN ('SET ARRAY[') DO ( echo %A -- %B )
+summary: |-
+  MS-DOS only: Loop over array of system variable with each var containing multiple values

@@ -1,0 +1,8 @@
+commandlinefu_id: 1974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -L -p <pid> | wc -l
+summary: |-
+  Get thread count for process on Solaris

@@ -1,0 +1,8 @@
+commandlinefu_id: 7194
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ps -eo %cpu,args | grep -m1 PROCESS | awk '{print $1}'
+summary: |-
+  打印一个cpu上的进程

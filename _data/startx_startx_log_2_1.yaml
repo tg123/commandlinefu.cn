@@ -1,0 +1,8 @@
+commandlinefu_id: 1516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  startx > startx.log 2>&1
+summary: |-
+  startx output to log file

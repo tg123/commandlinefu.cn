@@ -1,0 +1,8 @@
+commandlinefu_id: 1001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psg () { ps auxwww | egrep "$1|PID" | grep -v grep }
+summary: |-
+  ps grep with header

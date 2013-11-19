@@ -1,0 +1,8 @@
+commandlinefu_id: 12529
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTCONTROL=ignorespace
+summary: |-
+  execute your commands and avoid history records

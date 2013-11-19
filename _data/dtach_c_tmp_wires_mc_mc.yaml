@@ -1,0 +1,8 @@
+commandlinefu_id: 2444
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dtach -c /tmp/wires-mc mc
+summary: |-
+  detach remote console for long running operations

@@ -1,0 +1,8 @@
+commandlinefu_id: 11699
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ll='ls -lisaG'
+summary: |-
+  ll for mac

@@ -1,0 +1,8 @@
+commandlinefu_id: 11627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -q --queryformat="%{NAME}: %{OPTFLAGS}\n" <rpm>
+summary: |-
+  Shows what an RPM was compiled with.

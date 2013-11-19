@@ -1,0 +1,8 @@
+commandlinefu_id: 1992
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lndir sourcedir destdir
+summary: |-
+  Propagate a directory to another and create symlink to content

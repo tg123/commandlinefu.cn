@@ -1,0 +1,8 @@
+commandlinefu_id: 12279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/ttyS2 | hexdump -C
+summary: |-
+  Hex Dump

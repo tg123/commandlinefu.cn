@@ -1,0 +1,8 @@
+commandlinefu_id: 9394
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -af scaletempo=scale=1.5 foo.mp3
+summary: |-
+  To play a file at 1.5 times normal speed  without increasing the pitch

@@ -1,0 +1,8 @@
+commandlinefu_id: 12771
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pactl list sinks | grep -q Mute:.no && pactl set-sink-mute 0 1 || pactl set-sink-mute 0 0
+summary: |-
+  A simple command to toggle mute with pulseaudio (sink 0)

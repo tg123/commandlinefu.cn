@@ -1,0 +1,8 @@
+commandlinefu_id: 12562
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for m in `df -P | awk -F ' ' '{print $NF}' | sed -e "1d"`;do n=`df -P | grep "$m$" | awk -F ' ' '{print $5}' | cut -d% -f1`;i=0;if [[ $n =~ ^-?[0-9]+$ ]];then printf '%-25s' $m;while [ $i -lt $n ];do echo -n '=';let "i=$i+1";done;echo " $n";fi;done
+summary: |-
+  Graphically show percent of mount space used

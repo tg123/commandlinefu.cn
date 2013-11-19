@@ -1,0 +1,8 @@
+commandlinefu_id: 3693
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sqlite3 mydb.sqlite3 '.dump' | grep -vE '^(BEGIN|COMMIT|CREATE|DELETE)|"sqlite_sequence"' | sed -r 's/"([^"]+)"/`\1`/' | tee mydb.sql | mysq
+summary: |-
+  sqlite3 转 mysql

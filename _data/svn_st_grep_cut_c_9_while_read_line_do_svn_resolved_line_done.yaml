@@ -1,0 +1,8 @@
+commandlinefu_id: 12403
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | grep ! | cut -c 9- | while read line;do svn resolved $line;done
+summary: |-
+  Svn conflicted file resolve

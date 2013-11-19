@@ -1,0 +1,8 @@
+commandlinefu_id: 12021
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -hor ofx[a-zA-Z]*.h src/ | grep -o ofx[^\.]* >> addons.make
+summary: |-
+  Add ofxAddons mentioned in source files, into addons.make

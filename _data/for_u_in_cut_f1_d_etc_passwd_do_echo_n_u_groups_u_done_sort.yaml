@@ -1,0 +1,8 @@
+commandlinefu_id: 3141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for u in `cut -f1 -d: /etc/passwd`; do echo -n $u:; groups $u; done | sort
+summary: |-
+  List all groups and the user names that were in each group

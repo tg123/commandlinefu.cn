@@ -1,0 +1,8 @@
+commandlinefu_id: 11769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo pm-hibernate
+summary: |-
+  hibernate

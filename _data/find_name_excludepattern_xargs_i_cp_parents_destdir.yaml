@@ -1,0 +1,8 @@
+commandlinefu_id: 6670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ ! -name 'excludepattern' | xargs -i cp --parents {} destdir
+summary: |-
+  Coping files, excluding certain files

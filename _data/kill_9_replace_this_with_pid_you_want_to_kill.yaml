@@ -1,0 +1,8 @@
+commandlinefu_id: 3676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 <replace this with pid you want to kill>
+summary: |-
+  Forcefuly kills the pid

@@ -1,0 +1,8 @@
+commandlinefu_id: 3078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup /bin/sh myscript.sh 1>&2 &>/dev/null 1>&2 &>/dev/null&
+summary: |-
+  Silently Execute a Shell Script that runs in the background and won't die on HUP/logout

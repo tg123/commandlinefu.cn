@@ -1,0 +1,8 @@
+commandlinefu_id: 12089
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert {1..12}.png MyMultiPageFile.pdf
+summary: |-
+  Convert multiple images to multi page PDF (with specific page order)

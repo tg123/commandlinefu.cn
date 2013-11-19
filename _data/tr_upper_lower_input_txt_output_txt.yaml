@@ -1,0 +1,8 @@
+commandlinefu_id: 12019
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr '[:upper:]' '[:lower:]' < input.txt > output.txt
+summary: |-
+  convert uppercase to lowercase

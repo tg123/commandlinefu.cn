@@ -1,0 +1,8 @@
+commandlinefu_id: 4897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kbuildsycoca4 && kquitapp plasma-desktop && kstart plasma-desktop
+summary: |-
+  Cleanly quit KDE4 apps

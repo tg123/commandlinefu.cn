@@ -1,0 +1,8 @@
+commandlinefu_id: 4876
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xhost +local:
+summary: |-
+  Allow any local (non-network) connection to running X server

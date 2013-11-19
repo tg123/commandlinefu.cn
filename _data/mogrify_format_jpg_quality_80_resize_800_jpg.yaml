@@ -1,0 +1,8 @@
+commandlinefu_id: 1735
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -format jpg -quality 80 -resize 800 *.jpg
+summary: |-
+  Resize photos without changing exif

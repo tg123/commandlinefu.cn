@@ -1,0 +1,8 @@
+commandlinefu_id: 1275
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name '*wma' -exec ffmpeg -i {} -acodec vorbis -ab 128k {}.ogg \;
+summary: |-
+  Convert .wma files to .ogg with ffmpeg

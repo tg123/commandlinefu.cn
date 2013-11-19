@@ -1,0 +1,8 @@
+commandlinefu_id: 2910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -d **/*(/^F)
+summary: |-
+  Delete empty directories with zsh

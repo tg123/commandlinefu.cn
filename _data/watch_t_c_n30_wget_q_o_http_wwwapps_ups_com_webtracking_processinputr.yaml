@@ -1,0 +1,8 @@
+commandlinefu_id: 12424
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -t -c -n30 'wget -q -O- "http://wwwapps.ups.com/WebTracking/processInputRequest?TypeOfInquiryNumber=T&InquiryNumber1=1Z4WYXXXXXXXXXX" | html2text | sed -n "/Shipment Progress/,/Shipping Information/p" | grep -v "*" | ccze -A'
+summary: |-
+  UPS Tracking Script

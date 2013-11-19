@@ -1,0 +1,8 @@
+commandlinefu_id: 3042
+translator:
+  weibo: ''
+hide: true
+command: |-
+  crontab -e
+summary: |-
+  Edit Crontab

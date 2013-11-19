@@ -1,0 +1,8 @@
+commandlinefu_id: 8589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl req -new -x509 -extensions v3_ca -days 1100 -subj "/C=CA/ST=CA/L=SomeCity/O=EXAMPLE Inc./OU=Web Services/CN=example.com/emailAddress=postmaster@example.com" -nodes -keyout web.key -out web.crt
+summary: |-
+  Create web site ssl certificates

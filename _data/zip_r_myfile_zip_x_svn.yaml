@@ -1,0 +1,8 @@
+commandlinefu_id: 23
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zip -r myfile.zip * -x \*.svn\*
+summary: |-
+  Create a zip archive excluding all SVN folders

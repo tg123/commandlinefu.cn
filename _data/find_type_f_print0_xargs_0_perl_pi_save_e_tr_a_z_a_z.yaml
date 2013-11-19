@@ -1,0 +1,8 @@
+commandlinefu_id: 7160
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type f -print0 | xargs -0 perl -pi.save -e 'tr/A-Z/a-z/'
+summary: |-
+  递归的转小写

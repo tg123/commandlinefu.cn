@@ -1,0 +1,8 @@
+commandlinefu_id: 1196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  on="off"; off="on"; now=$(amixer get Master | tr -d '[]' | grep "Playback.*%" |head -n1 |awk '{print $7}'); amixer sset Master ${!now}
+summary: |-
+  this toggles mute on the Master channel of an alsa soundcard

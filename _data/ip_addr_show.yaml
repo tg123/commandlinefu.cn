@@ -1,0 +1,8 @@
+commandlinefu_id: 3246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr show
+summary: |-
+  Another way to see the network interfaces

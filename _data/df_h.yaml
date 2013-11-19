@@ -1,0 +1,8 @@
+commandlinefu_id: 2584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -h
+summary: |-
+  Show the amount of space left on mounted harddrives

@@ -1,0 +1,8 @@
+commandlinefu_id: 7283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/05\/Dec\/2010/,$ p' access.log | goaccess -s -b
+summary: |-
+  Analyze Apache Web Log Statistics starting on DATE x

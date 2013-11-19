@@ -1,0 +1,8 @@
+commandlinefu_id: 1194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `find . -name '*.html'` ; do iconv -f ISO-8859-1 -t UTF-8 $x > "$x.utf8"; rm $x; mv "$x.utf8" $x; done
+summary: |-
+  Convert a bunch of HTML files from ISO-8859-1 to UTF-8 file encoding in a folder and all sub-folders

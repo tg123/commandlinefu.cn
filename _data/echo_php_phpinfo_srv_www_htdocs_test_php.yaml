@@ -1,0 +1,8 @@
+commandlinefu_id: 2964
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "<?php phpinfo(); ?>" >> /srv/www/htdocs/test.php
+summary: |-
+  Testing php configuration

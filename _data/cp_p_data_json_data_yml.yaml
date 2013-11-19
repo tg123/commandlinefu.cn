@@ -1,0 +1,8 @@
+commandlinefu_id: 12291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -p data.json data.yml
+summary: |-
+  Convert JSON to YAML

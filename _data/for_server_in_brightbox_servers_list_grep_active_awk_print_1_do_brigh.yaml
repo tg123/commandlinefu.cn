@@ -1,0 +1,8 @@
+commandlinefu_id: 9044
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for server in `brightbox-servers list |grep active|awk '{ print $1}'`;do brightbox-servers destroy $server;done
+summary: |-
+  Delete all active Brightbox cloud servers

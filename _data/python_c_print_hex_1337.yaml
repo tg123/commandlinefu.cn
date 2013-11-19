@@ -1,0 +1,8 @@
+commandlinefu_id: 9883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'print hex(1337)'
+summary: |-
+  convert from decimal to hexadecimal

@@ -1,0 +1,8 @@
+commandlinefu_id: 10119
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  pygmentize -l sh ~/.bashrc | less -R
+summary: |-
+  语法高亮工具

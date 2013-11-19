@@ -1,0 +1,8 @@
+commandlinefu_id: 12527
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -e 'show databases' -s --skip-column-names | egrep -v "^(test|mysql|performance_schema|information_schema)$" | parallel --gnu "mysqldump --routines {} > {}_daily.sql"
+summary: |-
+  Backup all MySQL Databases to individual files

@@ -1,0 +1,8 @@
+commandlinefu_id: 5140
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -q user@server
+summary: |-
+  Skip banner on ssh login prompt

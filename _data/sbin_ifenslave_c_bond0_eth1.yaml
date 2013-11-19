@@ -1,0 +1,8 @@
+commandlinefu_id: 11851
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/ifenslave -c bond0 eth1
+summary: |-
+  Change active bond slave

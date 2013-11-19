@@ -1,0 +1,8 @@
+commandlinefu_id: 10831
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git ls-files | xargs -n1 git blame --line-porcelain | sed -n 's/^author //p' | sort -f | uniq -ic | sort -nr
+summary: |-
+  Prints per-line contribution per author for a GIT repository

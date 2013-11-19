@@ -1,0 +1,8 @@
+commandlinefu_id: 4530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name *.conf | tee salida
+summary: |-
+  sirve para ver la salida de un comando en pantalla y al mismo tiempo guardar la salida en un fichero

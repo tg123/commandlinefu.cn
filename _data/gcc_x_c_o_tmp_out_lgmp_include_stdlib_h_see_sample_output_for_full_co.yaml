@@ -1,0 +1,8 @@
+commandlinefu_id: 3426
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcc -x c -o /tmp/out - -lgmp <<< '#include <stdlib.h> ... SEE SAMPLE OUTPUT FOR FULL COMMAND
+summary: |-
+  The 1 millionth fibonacci number

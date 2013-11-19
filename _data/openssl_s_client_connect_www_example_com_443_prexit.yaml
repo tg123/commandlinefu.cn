@@ -1,0 +1,8 @@
+commandlinefu_id: 4883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl s_client -connect www.example.com:443 -prexit
+summary: |-
+  View acceptable client certificate CA names asked for during SSL renegotiations

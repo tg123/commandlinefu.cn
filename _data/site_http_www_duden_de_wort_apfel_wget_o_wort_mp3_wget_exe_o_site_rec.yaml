@@ -1,0 +1,8 @@
+commandlinefu_id: 12573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  site=http://www.duden.de; wort="Apfel"; wget -O $wort.mp3 $(wget.exe -O - "$site/rechtschreibung/$wort" | grep -o "$site/_media_/audio/[^\.]*\.mp3")
+summary: |-
+  Download German word pronounciation as mp3 file

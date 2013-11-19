@@ -1,0 +1,8 @@
+commandlinefu_id: 7855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat tarfile.tar.gz | ssh server.com " cd /tmp; tar xvzf - directory/i/want"
+summary: |-
+  Untar a directory in a tar file over ssh

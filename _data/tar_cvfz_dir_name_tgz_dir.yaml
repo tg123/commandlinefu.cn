@@ -1,0 +1,8 @@
+commandlinefu_id: 3488
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvfz dir_name.tgz dir/
+summary: |-
+  Tar a directory and its sub-directory

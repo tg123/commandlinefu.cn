@@ -1,0 +1,8 @@
+commandlinefu_id: 6898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  google docs list |awk 'BEGIN { FS = "," }; {print "\""$1"\""}'|sed s/^/google\ docs\ get\ /|awk ' {print $0,"."}'
+summary: |-
+  Create commands to download all of your Google docs

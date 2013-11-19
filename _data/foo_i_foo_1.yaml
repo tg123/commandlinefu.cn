@@ -1,0 +1,8 @@
+commandlinefu_id: 3689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $foo[(I)$foo[-1]]
+summary: |-
+  Get length of array in zsh

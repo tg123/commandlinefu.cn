@@ -1,0 +1,8 @@
+commandlinefu_id: 2134
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cf  - folder/ | gpg -c > folder.tpg
+summary: |-
+  Encrypted Tarballs

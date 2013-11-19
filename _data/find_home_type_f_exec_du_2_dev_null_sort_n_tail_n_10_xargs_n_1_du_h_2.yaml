@@ -1,0 +1,8 @@
+commandlinefu_id: 6993
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /home/ -type f -exec du {} \; 2>/dev/null | sort -n | tail -n 10 | xargs -n 1 du -h 2>/dev/null
+summary: |-
+  FInd the 10 biggest files taking up disk space

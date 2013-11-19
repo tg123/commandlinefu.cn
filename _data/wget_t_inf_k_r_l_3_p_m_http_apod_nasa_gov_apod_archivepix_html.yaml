@@ -1,0 +1,8 @@
+commandlinefu_id: 4208
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -t inf -k -r -l 3 -p -m http://apod.nasa.gov/apod/archivepix.html
+summary: |-
+  Mirror the NASA Astronomy Picture of the Day Archive

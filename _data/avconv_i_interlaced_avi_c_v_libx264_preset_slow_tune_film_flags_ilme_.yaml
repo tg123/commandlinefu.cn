@@ -1,0 +1,8 @@
+commandlinefu_id: 10252
+translator:
+  weibo: ''
+hide: true
+command: |-
+  avconv -i interlaced.avi -c:v libx264 -preset slow -tune film -flags +ilme+ildct -c:a copy transcoded.mp4
+summary: |-
+  Transcode an interlaced video

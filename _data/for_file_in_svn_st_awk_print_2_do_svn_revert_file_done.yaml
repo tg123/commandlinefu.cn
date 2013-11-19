@@ -1,0 +1,8 @@
+commandlinefu_id: 11279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in `svn st | awk '{print $2}'`; do svn revert $file; done
+summary: |-
+  Revert all modified files in an SVN repo

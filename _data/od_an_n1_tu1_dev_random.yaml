@@ -1,0 +1,8 @@
+commandlinefu_id: 12702
+translator:
+  weibo: ''
+hide: true
+command: |-
+  od -An -N1 -tu1 /dev/random
+summary: |-
+  Random Number Between 1 And 256

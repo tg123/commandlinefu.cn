@@ -1,0 +1,8 @@
+commandlinefu_id: 9930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ln -s "`find /path -type f -iname $(ls -t /path | head -1 )`" /path/latest
+summary: |-
+  Symlink most recent file to 'latest' using full paths.

@@ -1,0 +1,8 @@
+commandlinefu_id: 5972
+translator:
+  weibo: ''
+hide: true
+command: |-
+  info gpg |less
+summary: |-
+  Read info(1) pages using 'less' instead of GNU Texinfo

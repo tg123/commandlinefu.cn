@@ -1,0 +1,8 @@
+commandlinefu_id: 796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump --add-drop-table -uroot -p "DB_name"  | replace CHARSET=latin1 CHARSET=utf8 | iconv -f latin1 -t utf8 | mysql -uroot -p "DB_name"
+summary: |-
+  Convert mysql database from latin1 to utf8

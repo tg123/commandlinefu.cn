@@ -1,0 +1,8 @@
+commandlinefu_id: 3704
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ "$SHELL" = '/bin/zsh' ]; then case $TERM in rxvt|*term|linux) preexec () { print -Pn "\e]0;$1\a" };; esac; fi
+summary: |-
+  Changing the terminal title to the last shell command

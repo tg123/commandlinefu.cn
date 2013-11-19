@@ -1,0 +1,8 @@
+commandlinefu_id: 4605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for /f "delims==" %a in (' dir "%USERPROFILE%\*.sqlite" /s/b ') do echo vacuum;|"sqlite3.exe"  "%a"
+summary: |-
+  Defragment SQLite databases used by Firefox/Win32 and other software.

@@ -1,0 +1,8 @@
+commandlinefu_id: 3405
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ack -ai 'searchterm'
+summary: |-
+  Search through files, ignoring .svn

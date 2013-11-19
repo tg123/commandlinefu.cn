@@ -1,0 +1,8 @@
+commandlinefu_id: 5192
+translator:
+  weibo: ''
+hide: true
+command: |-
+  phonelogs() { grep "$1" /var/log/asterisk/cdr-csv/Master.csv | cut -d',' -f 2,3,11,12 --output-delimiter=" " | sed 's/"//g' | cut -d' ' -f 1,2,3,4,6 | column -t; }
+summary: |-
+  Print Asterisk phone logs

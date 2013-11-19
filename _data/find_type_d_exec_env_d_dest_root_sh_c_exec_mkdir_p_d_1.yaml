@@ -1,0 +1,8 @@
+commandlinefu_id: 2850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -exec env d="$dest_root" sh -c ' exec mkdir -p -- "$d/$1"' '{}' '{}' \;
+summary: |-
+  Copy a directory recursively without data/files

@@ -1,0 +1,8 @@
+commandlinefu_id: 6958
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  who -u|grep -v root|awk {'print $6'}|kill  `awk {'print $0'}`
+summary: |-
+  一键清除其他用户

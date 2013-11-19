@@ -1,0 +1,8 @@
+commandlinefu_id: 10965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 "do foo"
+summary: |-
+  repeat a command every one second

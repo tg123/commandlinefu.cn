@@ -1,0 +1,8 @@
+commandlinefu_id: 5694
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lt | more
+summary: |-
+  list files in mtime order

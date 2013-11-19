@@ -1,0 +1,8 @@
+commandlinefu_id: 6924
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $(dpkg -L iptables) -maxdepth 0 -executable -type f
+summary: |-
+  List only executables installed by a debian package

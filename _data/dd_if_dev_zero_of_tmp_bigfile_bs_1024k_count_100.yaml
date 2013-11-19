@@ -1,0 +1,8 @@
+commandlinefu_id: 4586
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero of=/tmp/bigfile bs=1024k count=100
+summary: |-
+  create a big file

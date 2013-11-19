@@ -1,0 +1,8 @@
+commandlinefu_id: 11332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  notify-send --hint=int:transient:1 -u low -t 100 "Command" "Finished"
+summary: |-
+  Show a notify popup in Gnome that expires in specified time and does not leave an icon in notifications tray

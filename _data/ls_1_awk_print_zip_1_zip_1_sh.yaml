@@ -1,0 +1,8 @@
+commandlinefu_id: 9895
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | awk ' { print "zip "$1".zip " $1 } ' | sh
+summary: |-
+  Zip each file in a directory individually with the original file name

@@ -1,0 +1,8 @@
+commandlinefu_id: 12014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo cp /usr/share/zoneinfo/Europe/Paris /etc/localtime
+summary: |-
+  Change your timezone

@@ -1,0 +1,8 @@
+commandlinefu_id: 1240
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi -e's/<what to find>/<what to replace it with>/g' `grep -Rl <what to find> /<dir>/*`
+summary: |-
+  Recursive Search and Replace

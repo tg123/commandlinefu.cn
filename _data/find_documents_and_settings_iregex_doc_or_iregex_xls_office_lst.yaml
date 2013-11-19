@@ -1,0 +1,8 @@
+commandlinefu_id: 6953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find Documents\ and\ Settings -iregex .+\.doc -or -iregex .+\.xls > office.lst
+summary: |-
+  Find only *.doc and *xls files on Windows partition

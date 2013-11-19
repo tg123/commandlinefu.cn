@@ -1,0 +1,8 @@
+commandlinefu_id: 11687
+translator:
+  weibo: ''
+hide: true
+command: |-
+  CustomLog "|nc -u  IP PORT "<134>%{%b %d %X}t %h %l %u %t \"%r\"%>s %b \"%{Referer}i\" \"%{User-agent}i\""
+summary: |-
+  Send apache log to syslog-ng

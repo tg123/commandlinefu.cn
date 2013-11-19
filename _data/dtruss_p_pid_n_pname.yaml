@@ -1,0 +1,8 @@
+commandlinefu_id: 11929
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dtruss [ -p <pid> | -n <pname> ]
+summary: |-
+  strace alternative for Mac OS X

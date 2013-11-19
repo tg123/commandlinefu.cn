@@ -1,0 +1,8 @@
+commandlinefu_id: 9213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --ntlm -u <your Active-Directory-Domain>/<your-domain-username> -T /path/to/local/$FILE http://sharepoint.url.com/doc/library/dir/
+summary: |-
+  Upload documents from linux to MS SHarepoint using curl

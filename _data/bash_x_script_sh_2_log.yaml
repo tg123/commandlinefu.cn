@@ -1,0 +1,8 @@
+commandlinefu_id: 2384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash -x script.sh 2> log
+summary: |-
+  Run a bash script in debug mode, show output and save it on a file

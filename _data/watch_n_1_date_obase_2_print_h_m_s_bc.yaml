@@ -1,0 +1,8 @@
+commandlinefu_id: 7780
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 'date "+obase=2; print %H,\":\",%M,\":\",%S" |bc'
+summary: |-
+  Binary Clock

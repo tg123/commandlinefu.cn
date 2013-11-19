@@ -1,0 +1,8 @@
+commandlinefu_id: 2373
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  dd if=/dev/zero of=/dev/sdb bs=446 count=1
+summary: |-
+  清除u盘的 boot loader

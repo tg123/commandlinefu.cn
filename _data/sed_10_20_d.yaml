@@ -1,0 +1,8 @@
+commandlinefu_id: 8196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '10,20!d'
+summary: |-
+  Print all the lines between 10 and 20 of a file

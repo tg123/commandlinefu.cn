@@ -1,0 +1,8 @@
+commandlinefu_id: 713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write com.apple.Dock showhidden -bool YES
+summary: |-
+  Turns hidden applications transparent in the Mac OS X dock.

@@ -1,0 +1,8 @@
+commandlinefu_id: 5036
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  (svnadmin dump /path/to/repo | gzip --best > /tmp/svn-backup.gz) 2>&1 | mutt -s "SVN backup `date +\%m/\%d/\%Y`" -a /tmp/svn-backup.gz email
+summary: |-
+  邮件发送svn dump

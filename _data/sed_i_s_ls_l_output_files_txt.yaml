@@ -1,0 +1,8 @@
+commandlinefu_id: 12798
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/^/ls -l /' output_files.txt
+summary: |-
+  Prepend a text to a file.

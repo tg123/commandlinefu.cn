@@ -1,0 +1,8 @@
+commandlinefu_id: 5965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  COPYFILE_DISABLE=true tar cvf newTarFile.tar Directory/
+summary: |-
+  Create .tar file on Mac OS X Leopard / Snow Leopard without ._* files

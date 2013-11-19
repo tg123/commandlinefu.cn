@@ -1,0 +1,8 @@
+commandlinefu_id: 6446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PROMPT_COMMAND='if (($? > 0)); then echo -ne "\033[1;31m"; fi'; export PS1='[\[\]\u\[\033[0m\] \[\033[1;34m\]\w\[\033[0m\]]\$ '
+summary: |-
+  Colour part of your prompt red to indicate an error

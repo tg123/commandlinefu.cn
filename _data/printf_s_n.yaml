@@ -1,0 +1,8 @@
+commandlinefu_id: 4132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%s\n" .*
+summary: |-
+  Find all dot files and directories

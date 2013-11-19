@@ -1,0 +1,8 @@
+commandlinefu_id: 12653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  db=example.mdb; backend=mysql; mdb-schema "$db" $backend | grep -v 'COMMENT ON COLUMN' && mdb-tables -1 "$db" | xargs -I {} mdb-export -I $backend "$db" {}
+summary: |-
+  Export ms access mdb to mysql sql

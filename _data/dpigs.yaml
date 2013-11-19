@@ -1,0 +1,8 @@
+commandlinefu_id: 3907
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpigs
+summary: |-
+  List your largest installed packages (on Debian/Ubuntu)

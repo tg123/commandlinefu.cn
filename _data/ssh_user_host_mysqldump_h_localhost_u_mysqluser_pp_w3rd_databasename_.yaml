@@ -1,0 +1,8 @@
+commandlinefu_id: 3698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host "mysqldump -h localhost -u mysqluser -pP@$$W3rD databasename | gzip -cf" | gunzip -c > database.sql
+summary: |-
+  Get a MySQL DB dump from a remote machine

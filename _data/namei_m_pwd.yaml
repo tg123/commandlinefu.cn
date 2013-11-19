@@ -1,0 +1,8 @@
+commandlinefu_id: 11037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  namei -m $(pwd)
+summary: |-
+  Show permissions of current directory and all directories upwards to /

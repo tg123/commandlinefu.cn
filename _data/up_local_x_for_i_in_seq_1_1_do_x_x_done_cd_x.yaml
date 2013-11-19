@@ -1,0 +1,8 @@
+commandlinefu_id: 10751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  up() { local x='';for i in $(seq ${1:-1});do x="$x../"; done;cd $x; }
+summary: |-
+  Quickly CD Out Of Directories Without 5+ Aliases

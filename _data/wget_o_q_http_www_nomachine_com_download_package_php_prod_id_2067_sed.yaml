@@ -1,0 +1,8 @@
+commandlinefu_id: 6514
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O- -q http://www.nomachine.com/download-package.php?Prod_Id=2067 | sed -n -e 'H;${x;s/\n/ /g;p;}' | sed -e "s/[Hh][Rr][Ee][Ff]=\"/\n/g" | cut -d "\"" -f1 | sort -u | grep deb$
+summary: |-
+  Get all links of a website

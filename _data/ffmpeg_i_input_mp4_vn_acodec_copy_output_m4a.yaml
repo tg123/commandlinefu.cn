@@ -1,0 +1,8 @@
+commandlinefu_id: 9179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input.mp4 -vn -acodec copy output.m4a
+summary: |-
+  Extract audio from a video

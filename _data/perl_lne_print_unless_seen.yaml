@@ -1,0 +1,8 @@
+commandlinefu_id: 12457
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -lne 'print unless $seen{$_}++'
+summary: |-
+  remove duplicate with change order

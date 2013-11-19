@@ -1,0 +1,8 @@
+commandlinefu_id: 5118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  currency_convert() {   wget -qO- "http://www.google.com/finance/converter?a=$1&from=$2&to=$3&hl=es" |  sed '/res/!d;s/<[^>]*>//g'; }
+summary: |-
+  Currency Conversion

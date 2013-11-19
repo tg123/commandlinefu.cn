@@ -1,0 +1,8 @@
+commandlinefu_id: 6154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd [...] p
+summary: |-
+  type partial command, kill this command, check something you forgot, yank the command, resume typing.

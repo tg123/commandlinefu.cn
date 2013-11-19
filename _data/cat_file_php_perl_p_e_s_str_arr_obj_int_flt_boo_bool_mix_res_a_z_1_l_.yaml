@@ -1,0 +1,8 @@
+commandlinefu_id: 410
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file.php | perl -p -e 's/(\$|->)(str|arr|obj|int|flt|boo|bool|mix|res)([A-Z])/$1\L$3/g'
+summary: |-
+  Strip out Hungarian notation from a PHP file

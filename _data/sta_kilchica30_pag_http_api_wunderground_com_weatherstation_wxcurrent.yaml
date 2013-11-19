@@ -1,0 +1,8 @@
+commandlinefu_id: 6910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  STA=KILCHICA30 PAG=http://api.wunderground.com/weatherstation/WXCurrentObXML.asp?ID=${STA} D=($(curl -s $PAG | sed -n 's/.*<\(temp_f\|wind_dir\|wind_mph\)>\(.*\)<\/.*/\2/p')) echo ${D[1]}@${D[2]}mph ${D[0]}F
+summary: |-
+  Get weather

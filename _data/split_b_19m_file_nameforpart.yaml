@@ -1,0 +1,8 @@
+commandlinefu_id: 1202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  split -b 19m file Nameforpart
+summary: |-
+  Split File in parts

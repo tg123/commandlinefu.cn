@@ -1,0 +1,8 @@
+commandlinefu_id: 11490
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -rl string_to_find  public_html/css/ | xargs -I '{}' vim +/string_to_find  {} -c ":s/string_to_find/string_replaced"
+summary: |-
+  Multiple open files and go directly to the line where some string is

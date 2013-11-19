@@ -1,0 +1,8 @@
+commandlinefu_id: 2754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shuf file.txt | head -n 1
+summary: |-
+  Pick a random line from a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 10721
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -su username:passwd https://mail.google.com/mail/feed/atom | xmlstarlet sel -N x="http://purl.org/atom/ns#" -t -m //x:entry -v 'concat(position(), ":", x:title)' -n
+summary: |-
+  print unread gmail message

@@ -1,0 +1,8 @@
+commandlinefu_id: 8136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Ql gvim
+summary: |-
+  archlinux: shows list of files installed by a package

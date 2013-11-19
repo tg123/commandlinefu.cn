@@ -1,0 +1,8 @@
+commandlinefu_id: 11737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "You are a jerk\b\b\b\bwonderful person" | pv -qL $[10+(-2 + RANDOM%5)]
+summary: |-
+  Simulate typing but with mistakes

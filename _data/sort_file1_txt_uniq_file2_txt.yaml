@@ -1,0 +1,8 @@
+commandlinefu_id: 1487
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort file1.txt | uniq > file2.txt
+summary: |-
+  To have only unique lines in a file

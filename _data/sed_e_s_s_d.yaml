@@ -1,0 +1,8 @@
+commandlinefu_id: 8464
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e 's/#.*//;/^\s*$/d'
+summary: |-
+  Show a config file without comments

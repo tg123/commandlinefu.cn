@@ -1,0 +1,8 @@
+commandlinefu_id: 6326
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 8 | awk '{print "e(" $0 ")" }' | bc -l
+summary: |-
+  Generate trigonometric/log data easily

@@ -1,0 +1,8 @@
+commandlinefu_id: 198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cfvz - /home/user | netcat -l -p 10000
+summary: |-
+  tar a directory and send it to netcat

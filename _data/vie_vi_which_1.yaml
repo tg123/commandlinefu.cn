@@ -1,0 +1,8 @@
+commandlinefu_id: 9396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vie(){vi $(which $1)}
+summary: |-
+  edit a executable script

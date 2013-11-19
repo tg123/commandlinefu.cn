@@ -1,0 +1,8 @@
+commandlinefu_id: 6932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for lib in `readelf -d /usr/bin/abiword | grep NEEDED | cut -f2 -d[ | cut -f1 -d]`; do [ -e /usr/lib/$lib ] && j=/usr/lib/$lib || j=`locate -l 1 $lib`; readlink -f $j ; done
+summary: |-
+  Gather libraries used and needed by a binary

@@ -1,0 +1,8 @@
+commandlinefu_id: 7251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet towel.blinkenlights.nl
+summary: |-
+  Play Star Wars Episode IV in your terminal ;)

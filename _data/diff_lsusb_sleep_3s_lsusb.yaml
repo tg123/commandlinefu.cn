@@ -1,0 +1,8 @@
+commandlinefu_id: 7416
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  diff <(lsusb) <(sleep 3s && lsusb)
+summary: |-
+  显示刚插上的usb设备

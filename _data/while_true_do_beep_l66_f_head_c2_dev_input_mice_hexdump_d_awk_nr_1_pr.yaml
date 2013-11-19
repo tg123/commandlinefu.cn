@@ -1,0 +1,8 @@
+commandlinefu_id: 2628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do beep -l66 -f`head -c2 /dev/input/mice|hexdump -d|awk 'NR==1{print $2%10000}'`; done
+summary: |-
+  Hear the mice moving

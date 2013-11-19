@@ -1,0 +1,8 @@
+commandlinefu_id: 9106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gotxt2imgmail() { if [ $# != 1 ]; then echo 'gotxt2imgmail < email >'; return; fi; e="$1"; f=$RANDOM.png; convert label:@- $f; echo "" | mailx -s $f -a $f $e }
+summary: |-
+  Pipe stdout to image and mail

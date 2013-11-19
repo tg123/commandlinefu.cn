@@ -1,0 +1,8 @@
+commandlinefu_id: 2073
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -oac copy -ovc copy part1.avi part2.avi part3.avi -o full_movie.avi
+summary: |-
+  Merge video files together using mencoder (part of mplayer)

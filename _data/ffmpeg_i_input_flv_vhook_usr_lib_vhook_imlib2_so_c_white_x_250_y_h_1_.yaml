@@ -1,0 +1,8 @@
+commandlinefu_id: 3712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input.flv -vhook '/usr/lib/vhook/imlib2.so -c white -x 250 -y H+(-1.8*N+80) -t Hallo! -A max(0,255-exp(N/16))' -sameq -acodec copy output.flv
+summary: |-
+  ffmpeg vhook imlib2.so

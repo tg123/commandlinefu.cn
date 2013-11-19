@@ -1,0 +1,8 @@
+commandlinefu_id: 3608
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rec -c 2 -r 44100 -s -t wav - | oggenc -q 5 --raw --raw-chan=2 --raw-rate=44100 --raw-bits=16 - > MyLiveRecording.ogg
+summary: |-
+  record the input of your sound card into ogg file

@@ -1,0 +1,8 @@
+commandlinefu_id: 8234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --spider  -o wget.log  -e robots=off --wait 1 -r -p http://www.example.com
+summary: |-
+  check broken links using wget as a spider

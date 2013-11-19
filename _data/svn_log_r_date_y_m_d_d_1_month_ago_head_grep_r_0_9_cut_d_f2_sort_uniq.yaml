@@ -1,0 +1,8 @@
+commandlinefu_id: 5154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -r {`date +"%Y-%m-%d" -d "1 month ago"`}:HEAD|grep '^r[0-9]' |cut -d\| -f2|sort|uniq -c
+summary: |-
+  Show top SVN committers for the last month

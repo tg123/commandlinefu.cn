@@ -1,0 +1,8 @@
+commandlinefu_id: 6456
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn pe svn:ignore .
+summary: |-
+  Edit the list of to ignore files in the active directory

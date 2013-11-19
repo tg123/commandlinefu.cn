@@ -1,0 +1,8 @@
+commandlinefu_id: 9545
+translator:
+  weibo: ''
+hide: true
+command: |-
+  7z a -mx=9 -ms=on archive.7z files_for_archiving/
+summary: |-
+  Create Solid Archive (best compression) with  7z

@@ -1,0 +1,8 @@
+commandlinefu_id: 11887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # su -c "psql -d maillog -c \"copy (select date,sender,destination,subject from maillog where destination like '%domain.com%') to '/tmp/mails.csv' with csv;\" " postgres
+summary: |-
+  Export a postgresql query into csv file

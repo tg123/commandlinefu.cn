@@ -1,0 +1,8 @@
+commandlinefu_id: 887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump --add-drop-table --extended-insert --force --log-error=error.log -uUSER -pPASS OLD_DB_NAME | ssh -C user@newhost "mysql -uUSER -pPASS NEW_DB_NAME"
+summary: |-
+  Copy a MySQL Database to a new Server via SSH with one command

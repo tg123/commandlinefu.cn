@@ -1,0 +1,8 @@
+commandlinefu_id: 4501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls / | sed -e :a -e 's/^.\{1,15\}$/&_/;ta'
+summary: |-
+  use sed to simulate rpad and lpad

@@ -1,0 +1,8 @@
+commandlinefu_id: 6182
+translator:
+  weibo: ''
+hide: true
+command: |-
+  today=`date +%d`; ls -ltr | rm -f `nawk -v _today=$today '{ if($5 != 0 && $7 < _today) { print $9 } }'`
+summary: |-
+  deleter

@@ -1,0 +1,8 @@
+commandlinefu_id: 4995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec sed -i 's/gw10./gw17./g' {} \;
+summary: |-
+  finds all files in dir and replaces

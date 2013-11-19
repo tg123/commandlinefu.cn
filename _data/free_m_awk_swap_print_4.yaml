@@ -1,0 +1,8 @@
+commandlinefu_id: 3280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free -m | awk '/Swap/ {print $4}'
+summary: |-
+  free swap

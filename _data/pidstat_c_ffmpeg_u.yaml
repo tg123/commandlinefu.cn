@@ -1,0 +1,8 @@
+commandlinefu_id: 2891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pidstat -C "ffmpeg" -u
+summary: |-
+  Command to display how much resource is taken by cpu and which core is taking

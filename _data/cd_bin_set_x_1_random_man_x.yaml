@@ -1,0 +1,8 @@
+commandlinefu_id: 6389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (cd /bin; set -- *; x=$((1+($RANDOM % $#))); man ${!x})
+summary: |-
+  Display a random man page

@@ -1,0 +1,8 @@
+commandlinefu_id: 12656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alarm() { perl -e 'alarm shift; exec @ARGV' "$@"; }; alarm 20 foo arg1
+summary: |-
+  Execute a command with a timeout

@@ -1,0 +1,8 @@
+commandlinefu_id: 6752
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bindkey ^f at "#" kill
+summary: |-
+  Kill all windows in one go in  gnu screen

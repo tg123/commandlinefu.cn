@@ -1,0 +1,8 @@
+commandlinefu_id: 5930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  udevadm monitor
+summary: |-
+  See udev at work

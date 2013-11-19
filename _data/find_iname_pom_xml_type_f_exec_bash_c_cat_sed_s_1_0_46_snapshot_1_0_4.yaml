@@ -1,0 +1,8 @@
+commandlinefu_id: 9414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname pom.xml -type f -exec bash -c "cat {} | sed s/1\.0\.46\-SNAPSHOT/1\.0\.48\-SNAPSHOT/g > {}.tmp " \; -exec mv {}.tmp {} \;
+summary: |-
+  Fixing maven POM messed up by a broken release.

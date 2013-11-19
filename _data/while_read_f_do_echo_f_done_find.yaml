@@ -1,0 +1,8 @@
+commandlinefu_id: 5002
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read f;do echo "$f";done < <(find .)
+summary: |-
+  Read directory contents recursively

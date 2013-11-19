@@ -1,0 +1,8 @@
+commandlinefu_id: 7013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv -n * ../; cd ..; rmdir $OLDPWD
+summary: |-
+  move contents of the current directory to the parent directory, then remove current directory.

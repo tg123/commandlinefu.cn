@@ -1,0 +1,8 @@
+commandlinefu_id: 4382
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim -n -es -c 'g/# CommandParse/+2,/^\s\+esac/-1 d p | % d | put p | %<' -c 'g/^\([-+]\+[^)]\+\))/,/^\(\s\+[^- \t#]\|^$\)/-1 p' -c 'q!' $0
+summary: |-
+  display embeded comments for every --opt, usefull for auto documenting your script

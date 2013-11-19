@@ -1,0 +1,8 @@
+commandlinefu_id: 190
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gs -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=epswrite -dEPSCrop -sOutputFile=out.eps in.pdf
+summary: |-
+  Convert PDFLaTeX PDF to Illustrator-usable EPS

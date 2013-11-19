@@ -1,0 +1,8 @@
+commandlinefu_id: 11403
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ompload() { wget -O- - "$1" --quiet|curl -# -F file1=@- http://ompldr.org/upload|awk '/Info:|File:|Thumbnail:|BBCode:/{gsub(/<[^<]*?\/?>/,"");$1=$1;print}';}
+summary: |-
+  upload video to ompload (* not yet tested, let me know if works)

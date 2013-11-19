@@ -1,0 +1,8 @@
+commandlinefu_id: 9977
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne 's/\^.{1,7}?m//g;print'
+summary: |-
+  Remove color codes (special characters) with perl

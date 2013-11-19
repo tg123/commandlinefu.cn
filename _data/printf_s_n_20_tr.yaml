@@ -1,0 +1,8 @@
+commandlinefu_id: 3041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf '%*s\n' 20 | tr ' ' '#'
+summary: |-
+  Emulate perl 'print "#" x 20, "\n"'

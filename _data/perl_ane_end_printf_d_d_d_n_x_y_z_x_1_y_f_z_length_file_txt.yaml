@@ -1,0 +1,8 @@
+commandlinefu_id: 9560
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ane 'END{printf(" %d %d %d\n", $x, $y, $z)} $x+=1; $y+=@F; $z+=length' file.txt
+summary: |-
+  wc in perl

@@ -1,0 +1,8 @@
+commandlinefu_id: 9881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-config dump
+summary: |-
+  Show Apt/Dpkg configuration

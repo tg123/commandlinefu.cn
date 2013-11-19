@@ -1,0 +1,8 @@
+commandlinefu_id: 1029
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ex some_file "+set ff=unix fileencoding=utf-8" "+x"
+summary: |-
+  Convert file type to unix utf-8

@@ -1,0 +1,8 @@
+commandlinefu_id: 3092
+translator:
+  weibo: ''
+hide: true
+command: |-
+  S=$SSH_TTY && (sleep 3 && echo -n 'Peace... '>$S & ) && (sleep 5 && echo -n 'Love... '>$S & ) && (sleep 7 && echo 'and Intergalactic Happiness!'>$S & )
+summary: |-
+  Multiple Timed Execution of subshells sleeping in the background using job control and sleep.

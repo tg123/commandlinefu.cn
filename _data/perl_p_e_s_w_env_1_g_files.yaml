@@ -1,0 +1,8 @@
+commandlinefu_id: 12711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -p -e 's/\$(\w+)/$ENV{$1}/g;' <files...>
+summary: |-
+  Replace all environment variable references in files with environemnt variable values

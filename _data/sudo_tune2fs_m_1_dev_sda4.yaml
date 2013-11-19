@@ -1,0 +1,8 @@
+commandlinefu_id: 3483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tune2fs -m 1 /dev/sda4
+summary: |-
+  Setting reserved blocks percentage to  1%

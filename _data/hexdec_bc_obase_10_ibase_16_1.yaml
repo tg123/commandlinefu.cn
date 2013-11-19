@@ -1,0 +1,8 @@
+commandlinefu_id: 9934
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hexdec() { bc <<< "obase=10; ibase=16; $1"; }
+summary: |-
+  Convert from hexa to decimal

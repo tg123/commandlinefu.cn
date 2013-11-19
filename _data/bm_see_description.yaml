@@ -1,0 +1,8 @@
+commandlinefu_id: 7113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bm () { ... see description }
+summary: |-
+  Directory bookmarks

@@ -1,0 +1,8 @@
+commandlinefu_id: 5108
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kinit username
+summary: |-
+  kerberos authentication

@@ -1,0 +1,8 @@
+commandlinefu_id: 3778
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xterm -e "cd /my/directory; bash"
+summary: |-
+  Start xterm in given directory

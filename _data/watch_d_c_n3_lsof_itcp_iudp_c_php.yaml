@@ -1,0 +1,8 @@
+commandlinefu_id: 12012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -d=c -n3 'lsof -itcp -iudp -c php'
+summary: |-
+  Watch your websites php

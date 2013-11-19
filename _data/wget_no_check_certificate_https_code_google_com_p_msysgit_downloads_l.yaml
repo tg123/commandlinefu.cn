@@ -1,0 +1,8 @@
+commandlinefu_id: 11518
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --no-check-certificate https://code.google.com/p/msysgit/downloads/list  -O - 2>nul | sed -n "0,/.*\(\/\/msysgit.googlecode.com\/files\/Git-.*\.exe\).*/s//http:\1/p" | wget -i - -O Git-Latest.exe
+summary: |-
+  Download latest Git setup executable for Windows

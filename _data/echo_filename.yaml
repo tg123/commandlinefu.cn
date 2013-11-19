@@ -1,0 +1,8 @@
+commandlinefu_id: 6098
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo > filename
+summary: |-
+  empty a file

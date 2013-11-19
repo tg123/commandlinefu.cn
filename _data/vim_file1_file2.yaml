@@ -1,0 +1,8 @@
+commandlinefu_id: 11239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim file1 file2
+summary: |-
+  open two files in vim

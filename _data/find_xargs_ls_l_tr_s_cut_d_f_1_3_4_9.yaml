@@ -1,0 +1,8 @@
+commandlinefu_id: 2709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / | xargs ls -l | tr -s ' ' | cut -d ' ' -f 1,3,4,9
+summary: |-
+  Command for getting the list of files with perms, owners, groups info. Useful to find the checksum of 2 machines/images.

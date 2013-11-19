@@ -1,0 +1,8 @@
+commandlinefu_id: 5123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ "$(ping -q -c1 google.com)" ];then wget -mnd -q http://www.google.com/intl/en_ALL/images/logo.gif ;fi
+summary: |-
+  Use ping to test if a server is up

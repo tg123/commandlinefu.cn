@@ -1,0 +1,8 @@
+commandlinefu_id: 8852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head /dev/urandom | md5sum | base64
+summary: |-
+  Generate a quick, lengthy password

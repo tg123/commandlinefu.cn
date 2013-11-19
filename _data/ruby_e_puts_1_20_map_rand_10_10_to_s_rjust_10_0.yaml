@@ -1,0 +1,8 @@
+commandlinefu_id: 2307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e "puts (1..20).map {rand(10 ** 10).to_s.rjust(10,'0')}"
+summary: |-
+  Random numbers with Ruby

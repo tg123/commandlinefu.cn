@@ -1,0 +1,8 @@
+commandlinefu_id: 5977
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim --version | grep -P '^(\+|\-)' | sed 's/\s/\n/g' | grep -Pv '^ ?$'
+summary: |-
+  List of all vim features

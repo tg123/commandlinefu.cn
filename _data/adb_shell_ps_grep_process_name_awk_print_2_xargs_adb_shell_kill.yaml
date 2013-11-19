@@ -1,0 +1,8 @@
+commandlinefu_id: 10356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  adb shell ps | grep <process name> | awk '{print $2}' | xargs adb shell kill
+summary: |-
+  kill an arbitrary process running on an Android device attached via USB debug cable

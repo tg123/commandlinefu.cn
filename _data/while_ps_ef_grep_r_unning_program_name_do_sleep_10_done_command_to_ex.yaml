@@ -1,0 +1,8 @@
+commandlinefu_id: 4581
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while (ps -ef | grep [r]unning_program_name); do sleep 10; done; command_to_execute
+summary: |-
+  Wait for an already launched program to stop before starting a new command.

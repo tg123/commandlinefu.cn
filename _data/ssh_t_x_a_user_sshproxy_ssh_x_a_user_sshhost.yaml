@@ -1,0 +1,8 @@
+commandlinefu_id: 7909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -t -X -A user@sshproxy ssh -X -A user@sshhost
+summary: |-
+  ssh X tunneling over multiple ssh hosts (through ssh proxy)

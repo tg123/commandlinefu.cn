@@ -1,0 +1,8 @@
+commandlinefu_id: 803
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -name "*.jar" | xargs -tn1 jar tvf | grep --color "SearchTerm"
+summary: |-
+  在 jar 里查找东西

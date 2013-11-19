@@ -1,0 +1,8 @@
+commandlinefu_id: 8377
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /etc/network/if-up.d && iptables-save > firewall.conf && echo -e '#!/bin/sh -e\niptables-restore < $(dirname $0)/firewall.conf' > iptables && chmod a+x iptables
+summary: |-
+  Persistent saving of iptables rules

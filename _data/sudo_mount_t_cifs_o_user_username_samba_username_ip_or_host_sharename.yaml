@@ -1,0 +1,8 @@
+commandlinefu_id: 4126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mount -t cifs -o user,username="samba username" //$ip_or_host/$sharename /mnt
+summary: |-
+  Mount a Windows share on the local network (Ubuntu) with user rights and use a specific samba user

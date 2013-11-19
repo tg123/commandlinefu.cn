@@ -1,0 +1,8 @@
+commandlinefu_id: 86
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep xterm
+summary: |-
+  Find the process ID of such program:

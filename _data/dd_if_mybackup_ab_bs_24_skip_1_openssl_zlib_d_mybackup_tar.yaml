@@ -1,0 +1,8 @@
+commandlinefu_id: 11439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=mybackup.ab bs=24 skip=1 | openssl zlib -d > mybackup.tar
+summary: |-
+  Extract android adb ab backup to tar format (only works for non encrypted backups)

@@ -1,0 +1,8 @@
+commandlinefu_id: 7034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  radio() { if [ "$(pidof mpg123)" ] ; then killall mpg123; else mpg123 -q -@ http://173.236.29.51:8200  & fi }
+summary: |-
+  Turning on and off Internet radio

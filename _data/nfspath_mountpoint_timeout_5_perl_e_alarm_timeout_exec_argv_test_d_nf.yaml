@@ -1,0 +1,8 @@
+commandlinefu_id: 5763
+translator:
+  weibo: ''
+hide: true
+command: |-
+  NFSPATH=/mountpoint TIMEOUT=5; perl -e "alarm $TIMEOUT; exec @ARGV" "test -d $NFSPATH" || (umount -fl $NFSPATH; mount $NFSPATH)
+summary: |-
+  Check a nfs mountpoint and force a remount if it does not reply after a given timeout.

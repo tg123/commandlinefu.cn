@@ -1,0 +1,8 @@
+commandlinefu_id: 714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bdf | awk '(NF<5){f=$1; next} (NF>5){f=$1} {print f, $2, $3, $NF}'
+summary: |-
+  Takes a multi line df or bdf and turns it into just one line

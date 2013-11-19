@@ -1,0 +1,8 @@
+commandlinefu_id: 4389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '!x[$0]++' <file>
+summary: |-
+  Remove duplicate entries in a file without sorting.

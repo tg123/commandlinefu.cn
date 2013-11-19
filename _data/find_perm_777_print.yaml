@@ -1,0 +1,8 @@
+commandlinefu_id: 10085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -perm 777 ?print
+summary: |-
+  I use this find command example to find out all the executable files

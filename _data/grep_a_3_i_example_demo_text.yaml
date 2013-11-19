@@ -1,0 +1,8 @@
+commandlinefu_id: 12300
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -A 3 -i "example" demo_text
+summary: |-
+  Print the matched line, along with the 3 lines after it.

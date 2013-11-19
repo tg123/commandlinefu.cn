@@ -1,0 +1,8 @@
+commandlinefu_id: 3015
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host -t mx foo.org
+summary: |-
+  Get MX records for a domain

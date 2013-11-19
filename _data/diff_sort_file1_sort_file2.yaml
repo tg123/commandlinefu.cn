@@ -1,0 +1,8 @@
+commandlinefu_id: 50
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(sort file1) <(sort file2)
+summary: |-
+  diff two unsorted files without creating temporary files

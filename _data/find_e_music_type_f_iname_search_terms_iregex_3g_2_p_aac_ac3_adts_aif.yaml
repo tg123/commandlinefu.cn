@@ -1,0 +1,8 @@
+commandlinefu_id: 6206
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -E ~/Music -type f -iname "*search terms*" -iregex '.*\.(3g[2|p]|aac|ac3|adts|aif[c|f]?|amr|and|au|caf|m4[a|r|v]|mp[1-4|a]|mpeg[0,9]?|sd2|wav)' -exec afplay "{}" \; &
+summary: |-
+  Create and play an instant keyword based playlist

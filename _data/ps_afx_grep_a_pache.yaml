@@ -1,0 +1,8 @@
+commandlinefu_id: 10607
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps afx|grep [a]pache
+summary: |-
+  Remove grep itself from ps

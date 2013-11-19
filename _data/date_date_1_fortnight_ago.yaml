@@ -1,0 +1,8 @@
+commandlinefu_id: 287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date --date="1 fortnight ago"
+summary: |-
+  date offset calculations

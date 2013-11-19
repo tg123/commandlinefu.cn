@@ -1,0 +1,8 @@
+commandlinefu_id: 2768
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man perlcheat | col -b > perlcheat.txt
+summary: |-
+  save a manpage to plaintext file

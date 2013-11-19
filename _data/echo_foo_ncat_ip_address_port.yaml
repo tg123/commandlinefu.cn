@@ -1,0 +1,8 @@
+commandlinefu_id: 11433
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo foo | ncat [ip address] [port]
+summary: |-
+  send echo to socket network

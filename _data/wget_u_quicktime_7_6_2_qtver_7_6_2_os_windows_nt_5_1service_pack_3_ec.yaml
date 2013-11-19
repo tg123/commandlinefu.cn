@@ -1,0 +1,8 @@
+commandlinefu_id: 3234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -U "QuickTime/7.6.2 (qtver=7.6.2;os=Windows NT 5.1Service Pack 3)" `echo http://movies.apple.com/movies/someHDmovie_720p.mov | sed 's/\([0-9][0-9]\)0p/h\10p/'`
+summary: |-
+  Download Apple movie trailers

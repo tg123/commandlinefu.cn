@@ -1,0 +1,8 @@
+commandlinefu_id: 6812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LESSOPEN="| /usr/bin/lesspipe %s" less file.jar
+summary: |-
+  List contents of jar

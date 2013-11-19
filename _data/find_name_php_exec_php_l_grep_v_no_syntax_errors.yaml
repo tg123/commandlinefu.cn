@@ -1,0 +1,8 @@
+commandlinefu_id: 6151
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name "*.php" -exec php -l {} \; | grep -v "No syntax errors"
+summary: |-
+  Find errors in your php website

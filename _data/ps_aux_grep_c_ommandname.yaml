@@ -1,0 +1,8 @@
+commandlinefu_id: 3069
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep [c]ommandname
+summary: |-
+  omit grep

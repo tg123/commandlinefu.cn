@@ -1,0 +1,8 @@
+commandlinefu_id: 12879
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vboxmanage list runningvms | cut -d \" -f 2 | xargs -I % vboxmanage controlvm % poweroff
+summary: |-
+  Halt all running vagrants (virtualboxes)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -ls | grep D
+summary: |-
+  List detached screen sessions

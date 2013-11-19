@@ -1,0 +1,8 @@
+commandlinefu_id: 5810
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eog $(find $HOME -iname ExamplePicture*.jpg)
+summary: |-
+  Find a .jpg in Your Home-Directory and display it via eog. Not case sensitive.....

@@ -1,0 +1,8 @@
+commandlinefu_id: 12603
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl s_client -state -connect site.com:443
+summary: |-
+  Debug openssl from CLI

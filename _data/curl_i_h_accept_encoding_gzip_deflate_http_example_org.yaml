@@ -1,0 +1,8 @@
+commandlinefu_id: 9028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -I -H "Accept-Encoding: gzip,deflate" http://example.org
+summary: |-
+  Check if your webserver supports gzip compression with curl

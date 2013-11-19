@@ -1,0 +1,8 @@
+commandlinefu_id: 10246
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  md5sum<<<'text to be encrypted'
+summary: |-
+  快速生成一个字符串的md5

@@ -1,0 +1,8 @@
+commandlinefu_id: 1248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias trash="rm -fr ~/.local/share/Trash"
+summary: |-
+  Empty The Trash

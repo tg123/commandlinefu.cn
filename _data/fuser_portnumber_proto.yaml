@@ -1,0 +1,8 @@
+commandlinefu_id: 144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fuser [portnumber]/[proto]
+summary: |-
+  find process associated with a port

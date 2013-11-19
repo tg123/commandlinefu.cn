@@ -1,0 +1,8 @@
+commandlinefu_id: 11236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -n2 -d 0.5 | grep ^Cpu | sed 's/[[:alpha:]%]*//g' | awk 'NR == 2 {printf("%.2f\n",100-$5)}'
+summary: |-
+  Get Current CPU Usage

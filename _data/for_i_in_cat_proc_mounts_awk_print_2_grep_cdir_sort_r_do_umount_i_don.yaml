@@ -1,0 +1,8 @@
+commandlinefu_id: 12289
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `cat /proc/mounts | awk '{print $2}' | grep ${CDIR} |sort -r` ;  do umount $i; done
+summary: |-
+  umount --rbind mount with submounts

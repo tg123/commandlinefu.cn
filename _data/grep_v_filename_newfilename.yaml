@@ -1,0 +1,8 @@
+commandlinefu_id: 3605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -v "^$" filename > newfilename
+summary: |-
+  Remove blank lines from a file using grep and save output to new file

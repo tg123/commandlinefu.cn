@@ -1,0 +1,8 @@
+commandlinefu_id: 389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  poweriso convert image.daa -o image.iso -ot iso
+summary: |-
+  convert .daa to .iso

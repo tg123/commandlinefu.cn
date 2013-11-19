@@ -1,0 +1,8 @@
+commandlinefu_id: 12844
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mp3splt -t 1.0 myfile.mp3 -o @n_@f -d out_dir
+summary: |-
+  split mp3 file to chunks

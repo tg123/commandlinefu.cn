@@ -1,0 +1,8 @@
+commandlinefu_id: 10555
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unoconv -f pdf filename.doc
+summary: |-
+  convert doc to pdf

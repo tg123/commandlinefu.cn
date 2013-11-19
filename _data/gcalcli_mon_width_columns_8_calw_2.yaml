@@ -1,0 +1,8 @@
+commandlinefu_id: 12468
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcalcli --mon --width $((COLUMNS/8)) calw 2
+summary: |-
+  Simple calendar from google spanning the width of the terminal

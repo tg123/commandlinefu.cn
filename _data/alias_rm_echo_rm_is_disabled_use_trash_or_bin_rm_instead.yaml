@@ -1,0 +1,8 @@
+commandlinefu_id: 10118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rm='echo "rm is disabled, use trash or /bin/rm instead."'
+summary: |-
+  Disable rm, use trash instead

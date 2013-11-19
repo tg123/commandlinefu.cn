@@ -1,0 +1,8 @@
+commandlinefu_id: 43
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  (> errors.log) && tail -f !^
+summary: |-
+  清空文件然后马上 tail

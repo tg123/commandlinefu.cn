@@ -1,0 +1,8 @@
+commandlinefu_id: 2407
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '/MARKER/{N;s/THIS/THAT/}'
+summary: |-
+  Apply substitution only on the line following a marker

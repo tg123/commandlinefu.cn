@@ -1,0 +1,8 @@
+commandlinefu_id: 5956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find . -maxdepth 1 -cnewer olderFilesNameToMove -and ! -cnewer newerFileNameToMove -exec mv -v {} /newDirectory/ \;
+summary: |-
+  Move all files between to date

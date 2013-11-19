@@ -1,0 +1,8 @@
+commandlinefu_id: 9702
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h --max-depth=1 |sort -rh
+summary: |-
+  sort the output of the 'du' command by largest first, using human readable output.

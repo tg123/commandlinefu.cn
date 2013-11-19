@@ -1,0 +1,8 @@
+commandlinefu_id: 2220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  who -b
+summary: |-
+  Find last reboot time

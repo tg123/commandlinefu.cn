@@ -1,0 +1,8 @@
+commandlinefu_id: 4077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsmod | cut -d' ' -f1 | xargs modinfo | egrep '^file|^desc|^dep' | sed -e'/^dep/s/$/\n/g'
+summary: |-
+  Short Information about loaded kernel modules

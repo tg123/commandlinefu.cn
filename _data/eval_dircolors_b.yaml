@@ -1,0 +1,8 @@
+commandlinefu_id: 1727
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eval "`dircolors -b`"
+summary: |-
+  Add some color to ls

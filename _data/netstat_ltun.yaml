@@ -1,0 +1,8 @@
+commandlinefu_id: 3700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -ltun
+summary: |-
+  List open TCP/UDP ports

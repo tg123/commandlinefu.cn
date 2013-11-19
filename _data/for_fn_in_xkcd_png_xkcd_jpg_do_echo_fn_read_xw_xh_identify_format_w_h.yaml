@@ -1,0 +1,8 @@
+commandlinefu_id: 10012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for fn in xkcd*.png xkcd*.jpg; do echo $fn; read xw xh <<<$(identify -format '%w %h' $fn); nn="$(echo $fn | sed 's/xkcd-\([^-]\+\)-.*/\1/')"; wget -q -O xkcd-${nn}.json http://xkcd.com/$nn/info.0.json; tt="$(sed 's/.*"title": "\([^"]\+\)",.*/\1/' ...
+summary: |-
+  add title and alt-text to your collection of xkcd comics

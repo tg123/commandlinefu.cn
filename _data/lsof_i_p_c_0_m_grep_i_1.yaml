@@ -1,0 +1,8 @@
+commandlinefu_id: 12047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -i -P +c 0 +M | grep -i "$1"
+summary: |-
+  identify active network connections

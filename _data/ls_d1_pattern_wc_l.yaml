@@ -1,0 +1,8 @@
+commandlinefu_id: 10634
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -d1 pattern*/ | wc -l
+summary: |-
+  Count total number of subdirectories in current directory starting with specific name.

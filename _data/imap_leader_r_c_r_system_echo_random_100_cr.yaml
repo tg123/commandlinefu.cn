@@ -1,0 +1,8 @@
+commandlinefu_id: 6880
+translator:
+  weibo: ''
+hide: true
+command: |-
+  imap <leader>r <C-r>=system('echo "$(($RANDOM % 100))"')<cr>
+summary: |-
+  Map \r do insert random number in vim

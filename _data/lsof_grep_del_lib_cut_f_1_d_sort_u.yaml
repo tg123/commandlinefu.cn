@@ -1,0 +1,8 @@
+commandlinefu_id: 8558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof | grep 'DEL.*lib' | cut -f 1 -d ' ' | sort -u
+summary: |-
+  Show the processes that use old libs and need a restart

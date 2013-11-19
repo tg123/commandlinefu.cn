@@ -1,0 +1,8 @@
+commandlinefu_id: 2216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gunzip < foo.tar.gz | tar xvf -
+summary: |-
+  Extract tar.gz in a single command

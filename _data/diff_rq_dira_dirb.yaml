@@ -1,0 +1,8 @@
+commandlinefu_id: 9116
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -rq dirA dirB
+summary: |-
+  Compare directories via diff

@@ -1,0 +1,8 @@
+commandlinefu_id: 11499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -u <(ssh -t user@host1 sudo cat /dir1/file1) <(ssh -t user@host2 sudo cat /dir2/file2)
+summary: |-
+  neat diff of remote files owned by root on different systems

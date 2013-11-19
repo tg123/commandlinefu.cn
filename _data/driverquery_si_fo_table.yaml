@@ -1,0 +1,8 @@
+commandlinefu_id: 690
+translator:
+  weibo: ''
+hide: true
+command: |-
+  driverquery /si /fo table
+summary: |-
+  Show device drivers and their properties (Windows XP)

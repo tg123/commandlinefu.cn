@@ -1,0 +1,8 @@
+commandlinefu_id: 4367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep [a]pache2 | nl
+summary: |-
+  count and number lines of output, useful for counting number of matches

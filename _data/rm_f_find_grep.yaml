@@ -1,0 +1,8 @@
+commandlinefu_id: 7052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -f `find ./ | grep "\.\_.*"`
+summary: |-
+  remove OSX resource forks ._ files

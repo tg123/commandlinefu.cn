@@ -1,0 +1,8 @@
+commandlinefu_id: 6307
+translator:
+  weibo: tgic
+hide: false
+command: |
+  [ `date --date='next day' +'%B'` == `date +'%B'` ] && echo 'end of month' || echo 'not end of month'
+summary: |-
+  今天是不是本月的最后一天

@@ -1,0 +1,8 @@
+commandlinefu_id: 9138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -m SimpleHTTPServer
+summary: |-
+  put current directory in LAN quickly

@@ -1,0 +1,8 @@
+commandlinefu_id: 9963
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo watch arp-scan --interface=wlan0 --localnet
+summary: |-
+  Find & watch active IP and MAC addresses  in a wireless network in real time. (IPv4 only)

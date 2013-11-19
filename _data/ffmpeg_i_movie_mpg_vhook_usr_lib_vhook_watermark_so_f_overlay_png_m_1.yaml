@@ -1,0 +1,8 @@
+commandlinefu_id: 4179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i movie.mpg -vhook '/usr/lib/vhook/watermark.so -f overlay.png -m 1 -t 222222' -an mm.flv
+summary: |-
+  ffmpeg -i movie.mpg -vhook '/usr/lib/vhook/watermark.so -f overlay.png -m 1 -t 222222' -an mm.flv

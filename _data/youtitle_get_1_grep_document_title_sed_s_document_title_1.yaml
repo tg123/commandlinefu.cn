@@ -1,0 +1,8 @@
+commandlinefu_id: 5256
+translator:
+  weibo: ''
+hide: true
+command: |-
+  youtitle(){ GET $1 | grep document.title | sed "s;^.*document.title = '\(.*\)'.*$;\1;"; };
+summary: |-
+  Get the title of a youtube video

@@ -1,0 +1,8 @@
+commandlinefu_id: 9450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tcpdump -n -i eth0 -w data.pcap -v tcp or udp and 'not host 192.168.1.2'
+summary: |-
+  Capture all tcp and udp packets in LAN, except packets coming to localhost (192.168.1.2)

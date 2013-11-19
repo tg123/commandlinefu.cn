@@ -1,0 +1,8 @@
+commandlinefu_id: 7063
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -zxvf file.tar.gz -C /tmp
+summary: |-
+  Unzip and untar a *.tar.gz file in one go to a specific directory

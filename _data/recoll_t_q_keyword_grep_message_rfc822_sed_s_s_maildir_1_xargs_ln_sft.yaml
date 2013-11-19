@@ -1,0 +1,8 @@
+commandlinefu_id: 9859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  recoll -t -q "keyword" | grep message/rfc822 | sed -s 's,^.*\('$MAILDIR'[^]]*\)\].*$,\"\1\",' | xargs ln -sft $MAILDIR/bingo/cur/
+summary: |-
+  full text(CJK) search mails and link the result to $MAILDIR/bingo/cur/

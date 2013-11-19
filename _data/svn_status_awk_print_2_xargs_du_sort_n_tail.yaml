@@ -1,0 +1,8 @@
+commandlinefu_id: 6254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn status | awk '{print $2}' | xargs du | sort -n | tail
+summary: |-
+  make sure you don't add large file to your repository

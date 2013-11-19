@@ -1,0 +1,8 @@
+commandlinefu_id: 11760
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  List upgrade-able packages on Redhat
+summary: |-
+  那些包可以升级(yum)

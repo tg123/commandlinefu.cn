@@ -1,0 +1,8 @@
+commandlinefu_id: 3808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "whatever.*" -print0 | rsync -av --files-from=- --from0 ./ ./destination/
+summary: |-
+  rsync + find

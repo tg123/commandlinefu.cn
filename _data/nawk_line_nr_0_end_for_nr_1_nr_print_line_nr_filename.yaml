@@ -1,0 +1,8 @@
+commandlinefu_id: 1555
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nawk '{line[NR]=$0} END{for (; NR>=1; NR--){print line[NR]}}' FILENAME
+summary: |-
+  reverse-print contents of a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 8990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shuf -n4 /usr/share/dict/words | tr -d '\n'
+summary: |-
+  Generate an XKCD #936 style 4 word password

@@ -1,0 +1,8 @@
+commandlinefu_id: 8238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff -r 1792:HEAD --summarize | awk '{if ($1 != "D") print $2}'| xargs  -I {} tar rf incremental_release.tar {}
+summary: |-
+  Create a tar of modified/added files since revision 1792.

@@ -1,0 +1,8 @@
+commandlinefu_id: 11901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@remote "cat /remote/music/dir/*.mp3" | mpg123 -
+summary: |-
+  Quick way to play remote audio files locally ( Linux )

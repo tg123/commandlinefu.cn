@@ -1,0 +1,8 @@
+commandlinefu_id: 4007
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  (ls; mkdir subdir; echo subdir) | xargs mv
+summary: |-
+  创建一个目录并把文件都放进去

@@ -1,0 +1,8 @@
+commandlinefu_id: 12105
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -qIm1 . $file
+summary: |-
+  Check if a file is text

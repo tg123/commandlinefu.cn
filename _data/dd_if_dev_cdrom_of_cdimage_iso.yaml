@@ -1,0 +1,8 @@
+commandlinefu_id: 10470
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/cdrom of=~/cdimage.iso
+summary: |-
+  Create iso image of cd/dvd

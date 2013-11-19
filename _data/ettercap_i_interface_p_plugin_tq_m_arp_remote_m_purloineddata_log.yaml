@@ -1,0 +1,8 @@
+commandlinefu_id: 4724
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ettercap -i ${interface} -P ${plugin} -Tq -M ARP:REMOTE // // -m ${PurloinedData}.log
+summary: |-
+  ettercap..

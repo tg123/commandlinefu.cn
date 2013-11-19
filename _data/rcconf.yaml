@@ -1,0 +1,8 @@
+commandlinefu_id: 4125
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rcconf
+summary: |-
+  Debian Runlevel configuration tool

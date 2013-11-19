@@ -1,0 +1,8 @@
+commandlinefu_id: 6784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite3 -line database.db
+summary: |-
+  Display sqlite results one column per line

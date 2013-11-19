@@ -1,0 +1,8 @@
+commandlinefu_id: 3129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes | tr 'y' 'n'
+summary: |-
+  YES = NO

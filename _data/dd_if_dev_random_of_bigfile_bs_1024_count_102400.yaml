@@ -1,0 +1,8 @@
+commandlinefu_id: 855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/random of=bigfile bs=1024 count=102400
+summary: |-
+  Create a 100MB file for testing transfer speed

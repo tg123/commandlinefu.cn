@@ -1,0 +1,8 @@
+commandlinefu_id: 5717
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date MMDDhhmmYYYY
+summary: |-
+  manually set system date/time

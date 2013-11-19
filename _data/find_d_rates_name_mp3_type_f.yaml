@@ -1,0 +1,8 @@
+commandlinefu_id: 5195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -D rates . -name "*.mp3" -type f
+summary: |-
+  Buscar archivos con la extension mp3 y mostrar el conteo de resultados

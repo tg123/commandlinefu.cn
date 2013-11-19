@@ -1,0 +1,8 @@
+commandlinefu_id: 4453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec grep $foo {} \; -print
+summary: |-
+  Find and print pattern location from all files on command line from directory and its sub directories.

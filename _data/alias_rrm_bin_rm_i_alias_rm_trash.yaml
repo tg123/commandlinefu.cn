@@ -1,0 +1,8 @@
+commandlinefu_id: 11127
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rrm='/bin/rm -i'; alias rm='trash'
+summary: |-
+  Safely remove files from the terminal

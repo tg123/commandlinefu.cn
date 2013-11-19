@@ -1,0 +1,8 @@
+commandlinefu_id: 11948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -zcvf <archive<.tar.gz --exclude /home/szimbaro/tmp /home/szimbaro
+summary: |-
+  Tar dir excluding tmp

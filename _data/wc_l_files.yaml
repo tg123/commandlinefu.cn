@@ -1,0 +1,8 @@
+commandlinefu_id: 8493
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wc -L files
+summary: |-
+  Length of longest line of code

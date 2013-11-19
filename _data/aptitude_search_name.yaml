@@ -1,0 +1,8 @@
+commandlinefu_id: 4030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude search NAME
+summary: |-
+  Search for available software on a debian package system (Ubuntu)

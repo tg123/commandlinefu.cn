@@ -1,0 +1,8 @@
+commandlinefu_id: 3082
+translator:
+  weibo: ''
+hide: true
+command: |-
+  say `cat /path/to/textfile.txt`
+summary: |-
+  Read aloud a text file in Mac OS X

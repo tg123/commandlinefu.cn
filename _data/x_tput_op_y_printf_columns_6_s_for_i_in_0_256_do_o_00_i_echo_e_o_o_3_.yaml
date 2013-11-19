@@ -1,0 +1,8 @@
+commandlinefu_id: 6533
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( x=`tput op` y=`printf %$((${COLUMNS}-6))s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done; )
+summary: |-
+  Print all 256 colors for testing TERM or for a quick reference

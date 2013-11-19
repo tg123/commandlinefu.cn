@@ -1,0 +1,8 @@
+commandlinefu_id: 8056
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sudo tcpdump -i eth0 -s 65535 -A -ttt port 11211
+summary: |-
+  监控 memcache 流量

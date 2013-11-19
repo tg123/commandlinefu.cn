@@ -1,0 +1,8 @@
+commandlinefu_id: 10894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  arecord|aplay
+summary: |-
+  Pulseaudio: play line-in through your speakers

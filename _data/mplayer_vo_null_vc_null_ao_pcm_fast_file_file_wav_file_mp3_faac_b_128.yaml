@@ -1,0 +1,8 @@
+commandlinefu_id: 1657
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vo null -vc null -ao pcm:fast:file=file.wav file.mp3; faac -b 128 -c 44100 -w file.wav
+summary: |-
+  Convert a mp3 file to m4a

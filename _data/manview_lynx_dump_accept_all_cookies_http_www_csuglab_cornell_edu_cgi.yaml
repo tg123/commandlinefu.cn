@@ -1,0 +1,8 @@
+commandlinefu_id: 1450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  manview() { lynx -dump -accept_all_cookies 'http://www.csuglab.cornell.edu/cgi-bin/adm/man.cgi?section=all&topic='"$1" | less; }
+summary: |-
+  search manpages on the internets

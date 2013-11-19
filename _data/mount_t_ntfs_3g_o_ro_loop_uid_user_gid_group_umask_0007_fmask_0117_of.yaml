@@ -1,0 +1,8 @@
+commandlinefu_id: 3166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -t ntfs-3g -o ro,loop,uid=user,gid=group,umask=0007,fmask=0117,offset=0x$(hd -n 1000000  image.vdi | grep "eb 52 90 4e 54 46 53" | cut -c 1-8) image.vdi /mnt/vdi-ntfs
+summary: |-
+  Mount the first NTFS partition inside a VDI file (VirtualBox Disk Image)

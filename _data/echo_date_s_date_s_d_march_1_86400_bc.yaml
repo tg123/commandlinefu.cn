@@ -1,0 +1,8 @@
+commandlinefu_id: 6146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "($(date +%s)-$(date +%s -d "march 1"))/86400"|bc
+summary: |-
+  find out how many days since given date

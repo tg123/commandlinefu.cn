@@ -1,0 +1,8 @@
+commandlinefu_id: 1705
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scrot -e 'mv $f \$HOME/shots/; sitecopy -u shots; echo "\$BASE/$f" | xsel -i; feh `xsel -o`'
+summary: |-
+  Easily create and share X screen shots (remote webserver version)

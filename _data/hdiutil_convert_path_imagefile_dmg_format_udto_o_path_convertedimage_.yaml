@@ -1,0 +1,8 @@
+commandlinefu_id: 5218
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdiutil convert /path/imagefile.dmg -format UDTO -o /path/convertedimage.iso
+summary: |-
+  Convert a DMG file to ISO in OS X Terminal

@@ -1,0 +1,8 @@
+commandlinefu_id: 2863
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find -type f -exec md5sum '{}' ';' | sort | uniq --all-repeated=separate -w 33 | cut -c 35-
+summary: |-
+  查找重复的文件(基于md5)

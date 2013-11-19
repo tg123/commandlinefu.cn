@@ -1,0 +1,8 @@
+commandlinefu_id: 11291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  end_w_nl() { [[ $(tail -c1 $1 | xxd -ps) == 0a ]] }
+summary: |-
+  Function to check whether a regular file ends with a newline

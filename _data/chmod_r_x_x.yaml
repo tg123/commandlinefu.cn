@@ -1,0 +1,8 @@
+commandlinefu_id: 4014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod -R -x+X *
+summary: |-
+  Remove executable bit from all files in the current directory recursively, excluding other directories

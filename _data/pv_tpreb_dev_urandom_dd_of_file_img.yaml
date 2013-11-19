@@ -1,0 +1,8 @@
+commandlinefu_id: 10579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv -tpreb /dev/urandom | dd of=file.img
+summary: |-
+  Watch the progress of 'dd'

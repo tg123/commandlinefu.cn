@@ -1,0 +1,8 @@
+commandlinefu_id: 11464
+translator:
+  weibo: ''
+hide: true
+command: |-
+  complete -W "$(echo $(grep '^ssh ' .bash_history | sort -u | sed 's/^ssh /\"/' | sed 's/$/\"/'))" ssh
+summary: |-
+  SSH Autocomplete. Takes your history and creates ssh autocomplete using tab

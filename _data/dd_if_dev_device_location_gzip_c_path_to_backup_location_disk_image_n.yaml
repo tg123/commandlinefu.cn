@@ -1,0 +1,8 @@
+commandlinefu_id: 4040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/<device location> | gzip -c /<path to backup location>/<disk image name>.img.gz
+summary: |-
+  Compress and Backup a disk image

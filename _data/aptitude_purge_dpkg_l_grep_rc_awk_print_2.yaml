@@ -1,0 +1,8 @@
+commandlinefu_id: 11731
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude purge $(dpkg -l|grep ^rc|awk '{ print $2 }')
+summary: |-
+  Purge all broken packages on ubuntu

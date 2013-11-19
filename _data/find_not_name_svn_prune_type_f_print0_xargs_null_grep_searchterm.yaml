@@ -1,0 +1,8 @@
+commandlinefu_id: 2592
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -not \( -name .svn -prune \) -type f -print0 | xargs --null grep <searchTerm>
+summary: |-
+  Search through files, ignoring .svn

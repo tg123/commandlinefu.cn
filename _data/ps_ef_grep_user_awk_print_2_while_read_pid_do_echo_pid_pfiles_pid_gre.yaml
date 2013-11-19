@@ -1,0 +1,8 @@
+commandlinefu_id: 4539
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep user | awk '{print $2}' | while read pid; do echo $pid ; pfiles $pid| grep portnum; done
+summary: |-
+  Find which process is using a port on Solaris

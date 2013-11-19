@@ -1,0 +1,8 @@
+commandlinefu_id: 8441
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim `find . -iname '*.php'`
+summary: |-
+  Find and edit multiple files given a regex in vim buffers

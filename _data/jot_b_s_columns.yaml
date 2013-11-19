@@ -1,0 +1,8 @@
+commandlinefu_id: 5356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jot -b '#' -s '' $COLUMNS
+summary: |-
+  Print a row of characters across the terminal

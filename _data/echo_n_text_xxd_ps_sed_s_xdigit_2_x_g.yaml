@@ -1,0 +1,8 @@
+commandlinefu_id: 6066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n 'text' | xxd -ps | sed 's/[[:xdigit:]]\{2\}/\\x&/g'
+summary: |-
+  Convert ascii string to hex

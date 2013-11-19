@@ -1,0 +1,8 @@
+commandlinefu_id: 1415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for person in Alex Bruce Fred Kathy Vicki Victoria ; do say -v $person "Hello, my name is $person"; sleep 1; done
+summary: |-
+  Listen to the OS X system's voices

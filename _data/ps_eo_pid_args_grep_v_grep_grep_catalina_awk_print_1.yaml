@@ -1,0 +1,8 @@
+commandlinefu_id: 8728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo pid,args | grep -v grep |  grep catalina | awk '{print $1}'
+summary: |-
+  Get pid of running Apache Tomcat process

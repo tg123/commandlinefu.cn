@@ -1,0 +1,8 @@
+commandlinefu_id: 3319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gnome-terminal --tab --tab --tab
+summary: |-
+  Start a terminal with three open tabs

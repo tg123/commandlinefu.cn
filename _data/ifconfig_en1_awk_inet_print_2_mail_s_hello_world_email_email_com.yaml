@@ -1,0 +1,8 @@
+commandlinefu_id: 2015
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig en1 | awk '/inet / {print $2}' | mail -s "hello world" email@email.com
+summary: |-
+  sends your internal IP by email

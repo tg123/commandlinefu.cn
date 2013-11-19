@@ -1,0 +1,8 @@
+commandlinefu_id: 7322
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{ if ($1 in stored_lines) x=1; else print; stored_lines[$1]=1 }' infile.txt > outfile.txt
+summary: |-
+  Remove duplicate rows of an un-sorted file based on a single column

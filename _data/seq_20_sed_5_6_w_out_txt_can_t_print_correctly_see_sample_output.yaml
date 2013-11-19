@@ -1,0 +1,8 @@
+commandlinefu_id: 9139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 20 | sed  '5,6 { w out.txt }'  #Can't print correctly. See sample output
+summary: |-
+  Read/Write output/input from sed to a file

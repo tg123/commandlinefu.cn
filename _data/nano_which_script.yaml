@@ -1,0 +1,8 @@
+commandlinefu_id: 138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nano `which script`
+summary: |-
+  Edit any script executable by the user.

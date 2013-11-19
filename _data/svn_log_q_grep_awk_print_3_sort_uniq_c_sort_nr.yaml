@@ -1,0 +1,8 @@
+commandlinefu_id: 898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -q|grep "|"|awk "{print \$3}"|sort|uniq -c|sort -nr
+summary: |-
+  Display a list of committers sorted by the frequency of commits

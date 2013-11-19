@@ -1,0 +1,8 @@
+commandlinefu_id: 11741
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i source.mpg -f s16le -acodec pcm_s16le audio.raw
+summary: |-
+  Extract raw audio from video

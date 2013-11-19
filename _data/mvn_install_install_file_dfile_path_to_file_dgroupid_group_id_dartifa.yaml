@@ -1,0 +1,8 @@
+commandlinefu_id: 1563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging> -DgeneratePom=true
+summary: |-
+  Maven Install 3rd party JAR

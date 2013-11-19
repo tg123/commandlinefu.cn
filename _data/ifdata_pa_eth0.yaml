@@ -1,0 +1,8 @@
+commandlinefu_id: 5013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifdata -pa eth0
+summary: |-
+  simple echo of IPv4 IP addresses assigned to a machine

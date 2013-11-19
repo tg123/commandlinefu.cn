@@ -1,0 +1,8 @@
+commandlinefu_id: 2579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vmrun list
+summary: |-
+  get a list of running virtual machines from the command line (vmware)

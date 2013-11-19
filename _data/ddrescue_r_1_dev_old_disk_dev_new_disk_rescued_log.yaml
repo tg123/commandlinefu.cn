@@ -1,0 +1,8 @@
+commandlinefu_id: 7618
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ddrescue -r 1 /dev/old_disk /dev/new_disk rescued.log
+summary: |-
+  Commands to setup my new harddrive! #4 Step! Try to recover as much as possible

@@ -1,0 +1,8 @@
+commandlinefu_id: 282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff HEAD..rev | git apply --index; git commit
+summary: |-
+  Undo several commits by committing an inverse patch.

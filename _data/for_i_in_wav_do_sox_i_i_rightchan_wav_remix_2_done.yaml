@@ -1,0 +1,8 @@
+commandlinefu_id: 12345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.wav; do sox "$i" "${i%.*}_RightChan.wav" remix 2; done
+summary: |-
+  Extract the right stereo channel from all the wav files in current dir (left channel would be 'remix 1')

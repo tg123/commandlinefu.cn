@@ -1,0 +1,8 @@
+commandlinefu_id: 279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f <filename> | grep -C <# of lines to show above and below> <text>
+summary: |-
+  Live filter a log file using grep and show x# of lines above and below

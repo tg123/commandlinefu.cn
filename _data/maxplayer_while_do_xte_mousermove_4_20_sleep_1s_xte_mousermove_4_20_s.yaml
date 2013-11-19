@@ -1,0 +1,8 @@
+commandlinefu_id: 6172
+translator:
+  weibo: ''
+hide: true
+command: |-
+  maxplayer (){ while :; do xte 'mousermove -4 20'; sleep 1s; xte 'mousermove  4 -20'; sleep 2m; done& mplayer -fs "$1"; fg; }
+summary: |-
+  Stop your screen saver interrupting your mplayer sessions

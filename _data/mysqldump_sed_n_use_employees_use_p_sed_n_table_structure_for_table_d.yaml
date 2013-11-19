@@ -1,0 +1,8 @@
+commandlinefu_id: 8788
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump | sed -n "/^USE \`employees\`/,/^USE \`/p" | sed -n "/^-- Table structure for table \`departments\`/,/^-- Table structure for table/p"
+summary: |-
+  MySQL: Slice out a specific table from a specific database (assumes existence of the USE statement) from output of mysqldump

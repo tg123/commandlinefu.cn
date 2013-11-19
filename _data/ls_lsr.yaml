@@ -1,0 +1,8 @@
+commandlinefu_id: 11658
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lSr
+summary: |-
+  ls sort by human readable size (redhat)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11752
+translator:
+  weibo: ''
+hide: true
+command: |-
+  module_exists(){ perl -e 'use '$1 2>/dev/null; }
+summary: |-
+  Find out if a module is installed in perl

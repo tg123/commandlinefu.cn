@@ -1,0 +1,8 @@
+commandlinefu_id: 4428
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat | gcc -x c -o a.out - && ./a.out && rm a.out
+summary: |-
+  输入 并执行 c程序

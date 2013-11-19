@@ -1,0 +1,8 @@
+commandlinefu_id: 3620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx "futz.me/xxx hey this is a test"
+summary: |-
+  futz.me - Send yourself notes from the command line

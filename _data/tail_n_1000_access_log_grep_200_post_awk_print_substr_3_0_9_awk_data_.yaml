@@ -1,0 +1,8 @@
+commandlinefu_id: 12627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -n 1000 access.log | grep "200 POST" | awk '{print substr($3,0,9)}' | awk '{data[$0]++}END{for(item in data){print item, data[item]}}'
+summary: |-
+  compute the qps according to the latest n lines of logs

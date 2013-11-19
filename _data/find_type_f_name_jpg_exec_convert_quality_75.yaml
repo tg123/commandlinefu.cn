@@ -1,0 +1,8 @@
+commandlinefu_id: 9345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*.jpg' -exec convert -quality 75 {} {} \;
+summary: |-
+  Converts all jpg files to 75 quality.

@@ -1,0 +1,8 @@
+commandlinefu_id: 5597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "- - -" > /sys/class/scsi_host/host0/scan
+summary: |-
+  force a rescan on a host of scsi devices (useful for adding partitions to vmware on the fly)

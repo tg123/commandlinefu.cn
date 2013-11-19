@@ -1,0 +1,8 @@
+commandlinefu_id: 7091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f | while read line; do NEW_TS=`date -d@$((\`stat -c '%Y' $line\` + <seconds> )) '+%Y%m%d%H%M.%S'`; touch -t $NEW_TS ${line}; done
+summary: |-
+  increase recurively the modification time for a list of files

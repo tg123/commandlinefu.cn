@@ -1,0 +1,8 @@
+commandlinefu_id: 4520
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '1,${p;n;n;}' foo > foo_every3_position1; sed -n '2,${p;n;n;}' foo > foo_every3_position2; sed -n '3,${p;n;n;}' foo > foo_every3_position3
+summary: |-
+  Every Nth line position # (SED)

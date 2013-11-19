@@ -1,0 +1,8 @@
+commandlinefu_id: 1285
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  pinky -l <username>
+summary: |-
+  查看用户信息 一个轻量级的 finger

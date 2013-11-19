@@ -1,0 +1,8 @@
+commandlinefu_id: 132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -user root -exec chown [nonprivuser] {} \;
+summary: |-
+  For files owned by root only, change ownership to a non-privileged user.

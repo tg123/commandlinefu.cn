@@ -1,0 +1,8 @@
+commandlinefu_id: 6538
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ldd path_to_executable
+summary: |-
+  print shared library dependencies

@@ -1,0 +1,8 @@
+commandlinefu_id: 605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xrandr --output LVDS --auto --output VGA --auto --right-of LVDS
+summary: |-
+  Configure second monitor to sit to the right of laptop

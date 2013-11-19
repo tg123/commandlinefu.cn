@@ -1,0 +1,8 @@
+commandlinefu_id: 6908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O xkcd_$(date +%y-%m-%d).png `lynx --dump http://xkcd.com/|grep png`; eog xkcd_$(date +%y-%m-%d).png
+summary: |-
+  View the newest xkcd comic.

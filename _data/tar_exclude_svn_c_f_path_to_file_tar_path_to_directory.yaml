@@ -1,0 +1,8 @@
+commandlinefu_id: 1869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --exclude='.svn' -c -f /path/to/file.tar /path/to/directory
+summary: |-
+  Tar a subversion working copy...without all those hidden directories!

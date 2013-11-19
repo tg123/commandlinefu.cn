@@ -1,0 +1,8 @@
+commandlinefu_id: 12775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -size +500k -exec ls -1Ash {} \; | sort -hr | cat -n
+summary: |-
+  Display a numbered list of files bigger than 500K, sorted by size (human readable)

@@ -1,0 +1,8 @@
+commandlinefu_id: 846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {001..999}; print $i
+summary: |-
+  Avoid using seq and pad numbers with leading zeros

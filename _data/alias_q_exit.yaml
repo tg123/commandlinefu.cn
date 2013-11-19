@@ -1,0 +1,8 @@
+commandlinefu_id: 3356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ':q'='exit'
+summary: |-
+  alias to close terminal with :q

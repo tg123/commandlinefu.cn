@@ -1,0 +1,8 @@
+commandlinefu_id: 1911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -r foo
+summary: |-
+  Find the modified time (mtime) for a file

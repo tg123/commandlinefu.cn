@@ -1,0 +1,8 @@
+commandlinefu_id: 9248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  route -n | perl -ne '$ANY="0.0.0.0"; /^$ANY/ and split /\s+/ and print "Gateway to the World: ",($_[1]!=$ANY)?$_[1]:(`ip address show $_[$#_]`=~/peer ([0-9\.]+)/ and $1),", via $_[$#_].\n"'
+summary: |-
+  Find default gateway (proper at ppp connections too)

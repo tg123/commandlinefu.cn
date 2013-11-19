@@ -1,0 +1,8 @@
+commandlinefu_id: 1969
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  boxes -d dog  or   cowsay -f tux $M
+summary: |-
+  用 ascii 作画的利器 boxes / cowsay

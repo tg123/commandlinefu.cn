@@ -1,0 +1,8 @@
+commandlinefu_id: 12322
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -had 1 | sort -h
+summary: |-
+  Display sorted, human readable list of file and folders sizes in your current working directory

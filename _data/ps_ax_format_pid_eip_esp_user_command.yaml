@@ -1,0 +1,8 @@
+commandlinefu_id: 6505
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps ax --format=pid,eip,esp,user,command
+summary: |-
+  Getting ESP and EIP addresses from running processes

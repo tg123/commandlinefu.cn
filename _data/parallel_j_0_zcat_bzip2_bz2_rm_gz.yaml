@@ -1,0 +1,8 @@
+commandlinefu_id: 7009
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parallel -j+0 "zcat {} | bzip2 >{.}.bz2 && rm {}" ::: *.gz
+summary: |-
+  Recompress all .gz files in current directory using bzip2 running 1 job per CPU core in parallel

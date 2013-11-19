@@ -1,0 +1,8 @@
+commandlinefu_id: 10983
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-copy-id -i .ssh/id_rsa.pub user@server
+summary: |-
+  copy public key

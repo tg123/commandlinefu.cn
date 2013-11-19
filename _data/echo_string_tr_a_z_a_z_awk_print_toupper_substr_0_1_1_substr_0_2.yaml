@@ -1,0 +1,8 @@
+commandlinefu_id: 2489
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "${STRING}" | tr '[A-Z]' '[a-z]' | awk '{print toupper(substr($0,1,1))substr($0,2);}'
+summary: |-
+  String Capitalization

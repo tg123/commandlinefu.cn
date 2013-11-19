@@ -1,0 +1,8 @@
+commandlinefu_id: 11726
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s -L http://nytm.org/made-in-nyc | grep "(hiring)" | sed -re 's/<([^>]+)>//g;s/^([ \t]*)//g'
+summary: |-
+  List NYC startups that are hiring

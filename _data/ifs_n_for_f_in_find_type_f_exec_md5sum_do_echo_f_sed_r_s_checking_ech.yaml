@@ -1,0 +1,8 @@
+commandlinefu_id: 9483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IFS=$'\n' && for f in `find . -type f -exec md5sum "{}" \;`; do echo $f | sed -r 's/^[^ ]+/Checking:/'; echo $f | cut -f1 -d' ' | netcat hash.cymru.com 43 ; done
+summary: |-
+  Find Malware in the current and sub directories by MD5 hashes

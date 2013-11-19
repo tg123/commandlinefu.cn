@@ -1,0 +1,8 @@
+commandlinefu_id: 9271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat -n file.txt
+summary: |-
+  Show line numbers in a text file

@@ -1,0 +1,8 @@
+commandlinefu_id: 3484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /home/dir -mtime +1 -print -exec gzip -9 {} \; -exec mv {}.gz {}_`date +%F`.gz \;
+summary: |-
+  Backup files older than 1 day on /home/dir, gzip them, moving old file to a dated file.

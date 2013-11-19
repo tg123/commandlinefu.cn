@@ -1,0 +1,8 @@
+commandlinefu_id: 3499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (some_command 2>&1 1>&3 | tee /path/to/errorlog ) 3>&1 1>&2 | tee /path/to/stdoutlog
+summary: |-
+  redirect stdout and stderr each to separate files and print both to the screen

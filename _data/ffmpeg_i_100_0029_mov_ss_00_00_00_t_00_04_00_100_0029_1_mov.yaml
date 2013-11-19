@@ -1,0 +1,8 @@
+commandlinefu_id: 6279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i 100_0029.MOV -ss 00:00:00 -t 00:04:00 100_0029_1.MOV
+summary: |-
+  split large video file

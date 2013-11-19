@@ -1,0 +1,8 @@
+commandlinefu_id: 12885
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c10)
+summary: |-
+  Generate a random password.

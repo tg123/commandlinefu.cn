@@ -1,0 +1,8 @@
+commandlinefu_id: 3941
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unzip -l <filename>
+summary: |-
+  List files contained within a zip archive

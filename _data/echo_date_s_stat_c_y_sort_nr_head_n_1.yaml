@@ -1,0 +1,8 @@
+commandlinefu_id: 8451
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(( $( date +%s ) - $( stat -c %Y * | sort -nr | head -n 1 ) ))
+summary: |-
+  Show seconds since modified of newest modified file in directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 10904
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -x / | sort -rn | less
+summary: |-
+  du and sort to find the biggest directories in defined filesystem

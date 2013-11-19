@@ -1,0 +1,8 @@
+commandlinefu_id: 11391
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # strace ... | perl -lne '@F=split(/\\/, $_);for(@F){push @ddd, sprintf("%x", oct("0" . $_))}END{shift @ddd; print pack("H*", join("", @ddd));}'
+summary: |-
+  change binary string readable

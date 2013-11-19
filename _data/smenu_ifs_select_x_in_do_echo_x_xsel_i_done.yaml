@@ -1,0 +1,8 @@
+commandlinefu_id: 4815
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smenu() ( IFS=',' ; select x in $*; do echo "$x" | xsel -i; done )
+summary: |-
+  Shell function to create a menu of items which may be inserted into the X paste buffer.

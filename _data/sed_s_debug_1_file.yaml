@@ -1,0 +1,8 @@
+commandlinefu_id: 8197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/^#\(.*DEBUG\)/\1/' $FILE
+summary: |-
+  uncomment the lines where the word DEBUG is found

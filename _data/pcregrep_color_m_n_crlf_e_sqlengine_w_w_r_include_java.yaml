@@ -1,0 +1,8 @@
+commandlinefu_id: 10050
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pcregrep --color -M -N CRLF -e "SQLEngine\.\w+\W*\([^\)]*\)" -r --include='\.java$'
+summary: |-
+  multiline re search recursive

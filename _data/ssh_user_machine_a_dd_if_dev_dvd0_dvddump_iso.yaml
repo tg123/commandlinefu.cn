@@ -1,0 +1,8 @@
+commandlinefu_id: 3459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@machine_A dd if=/dev/dvd0 > dvddump.iso
+summary: |-
+  Dump dvd from a different machine onto this one.

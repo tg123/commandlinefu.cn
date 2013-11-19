@@ -1,0 +1,8 @@
+commandlinefu_id: 12251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@remote "tar cfp - /path/to/log/* | gzip" > local.tar.gz
+summary: |-
+  get gzipped logs from webserver to local machine

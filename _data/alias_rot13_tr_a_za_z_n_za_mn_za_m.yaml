@@ -1,0 +1,8 @@
+commandlinefu_id: 8116
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rot13="tr a-zA-Z n-za-mN-ZA-M"
+summary: |-
+  ROT13 using the tr command

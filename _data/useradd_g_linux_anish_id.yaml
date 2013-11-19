@@ -1,0 +1,8 @@
+commandlinefu_id: 10784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  useradd -g linux anish && id
+summary: |-
+  Change the primary group of a user

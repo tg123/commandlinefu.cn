@@ -1,0 +1,8 @@
+commandlinefu_id: 998
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sk * | awk '{print $1} END {print "[+z1<y]sy\nlyx\np"}' | dc
+summary: |-
+  Print total size of specified files and subdirectories

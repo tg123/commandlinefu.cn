@@ -1,0 +1,8 @@
+commandlinefu_id: 1480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(seq 0 5) ; do echo "5 - $i" | bc -l ; sleep 60 ; done && echo "bye, bye" && shutdown -h now
+summary: |-
+  Five Minutes To Go

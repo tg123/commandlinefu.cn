@@ -1,0 +1,8 @@
+commandlinefu_id: 8663
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%!sudo tee %
+summary: |-
+  Save a file you edited in vim without the needed permissions

@@ -1,0 +1,8 @@
+commandlinefu_id: 7330
+translator:
+  weibo: ''
+hide: true
+command: |-
+  flipf(){ if [ -f "$1" -a -f "$2" ]; then mv "$1" "$1.$$" && mv "$2" "$1" && mv "$1.$$" "$2" || echo "$!"; else echo "Missing a file: $!"; fi; }
+summary: |-
+  Function that swaps the filenames of two given files.

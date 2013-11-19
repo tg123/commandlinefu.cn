@@ -1,0 +1,8 @@
+commandlinefu_id: 9823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cmdfu(){ local TCF="/var/tmp/cmdfu"; echo "  Searching..."; curl "http://www.commandlinefu.com/commands/matching/$(echo "$@" | sed 's/ /-/g')/$(echo -n $@ | base64)/plaintext" --silent > "$TCF"; vim -c "set filetype=sh" -RM "$TCF"; rm "$TCF"; }
+summary: |-
+  Search commandlinefu.com and display with VIMs syntax highlighting!

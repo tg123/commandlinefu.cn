@@ -1,0 +1,8 @@
+commandlinefu_id: 6825
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for url in `cat urls `; do title=`curl $url 2>&1 | grep -i '<title>.*</title>'` && curl $url > /tmp/u && mail -s "$title" your-private-instapaper-address@instapaper.com < /tmp/u ; done
+summary: |-
+  Bulk add urls to your Instapaper account

@@ -1,0 +1,8 @@
+commandlinefu_id: 3988
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip link show eth0 | grep "link/ether" | awk '{print $2}'
+summary: |-
+  Get ethX mac addresses

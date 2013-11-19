@@ -1,0 +1,8 @@
+commandlinefu_id: 9250
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ((x++))
+summary: |-
+  increment a bash variable

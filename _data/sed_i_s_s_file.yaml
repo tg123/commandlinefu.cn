@@ -1,0 +1,8 @@
+commandlinefu_id: 6429
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/^\s\+//' <file>
+summary: |-
+  delete all trailing whitespace from each line in file

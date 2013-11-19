@@ -1,0 +1,8 @@
+commandlinefu_id: 170
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/OLD/NEW/g' FILE
+summary: |-
+  Change every instance of OLD to NEW in file FILE

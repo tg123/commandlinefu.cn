@@ -1,0 +1,8 @@
+commandlinefu_id: 47
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host cat /path/to/remotefile | diff /path/to/localfile -
+summary: |-
+  Compare a remote file with a local file

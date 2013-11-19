@@ -1,0 +1,8 @@
+commandlinefu_id: 3497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video0:fps=30:outfmt=yuy2
+summary: |-
+  View webcam output using mplayer

@@ -1,0 +1,8 @@
+commandlinefu_id: 4100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ `fuser $0|wc -w` -gt "1" ];then exit; fi
+summary: |-
+  exit if another instance is running

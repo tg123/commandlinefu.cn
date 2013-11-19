@@ -1,0 +1,8 @@
+commandlinefu_id: 10037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-repack firefox
+summary: |-
+  put an unpacked .deb package back together

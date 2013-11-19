@@ -1,0 +1,8 @@
+commandlinefu_id: 10442
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s mobile.twitter.com/search | sed -n '/trend_footer_list/,/\ul>/p' | awk -F\> '{print $3}' | awk -F\< '{print $1}' | sed '/^$/d'
+summary: |-
+  Print trending topics on Twitter

@@ -1,0 +1,8 @@
+commandlinefu_id: 1863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $(find -type f -iname "*wav"); do mv $file "$file"_orig.WAV; mplayer -ao pcm "$file"_orig.WAV -ao pcm:file=$file;  done
+summary: |-
+  convert all WAVs from any format (MS ADPCM) to PCM

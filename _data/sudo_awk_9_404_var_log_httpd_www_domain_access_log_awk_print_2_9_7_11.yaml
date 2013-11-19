@@ -1,0 +1,8 @@
+commandlinefu_id: 5315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo awk '($9 ~ /404/)' /var/log/httpd/www.domain-access_log | awk '{print $2,$9,$7,$11}' | sort | uniq -c
+summary: |-
+  Display error pages in report format

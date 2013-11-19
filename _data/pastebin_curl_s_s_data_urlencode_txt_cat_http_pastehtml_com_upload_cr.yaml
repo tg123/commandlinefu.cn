@@ -1,0 +1,8 @@
+commandlinefu_id: 9434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ pastebin(){ curl -s -S --data-urlencode "txt=$(cat)" "http://pastehtml.com/upload/create?input_type=txt&result=address";echo;}
+summary: |-
+  Paste hardware list (hwls) in html format into pastehtml.com directly from console and return URI.

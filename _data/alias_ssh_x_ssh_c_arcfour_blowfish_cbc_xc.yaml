@@ -1,0 +1,8 @@
+commandlinefu_id: 11784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ssh-x='ssh -c arcfour,blowfish-cbc -XC'
+summary: |-
+  Best SSH options for X11 forwarding

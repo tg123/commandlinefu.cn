@@ -1,0 +1,8 @@
+commandlinefu_id: 2888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free && sync && echo 3 > /proc/sys/vm/drop_caches && free
+summary: |-
+  Release memory used by the Linux kernel on caches

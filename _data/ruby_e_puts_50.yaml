@@ -1,0 +1,8 @@
+commandlinefu_id: 4505
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e 'puts "-" * 50'
+summary: |-
+  Print a row of 50 hyphens

@@ -1,0 +1,8 @@
+commandlinefu_id: 1375
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat $(ls -tr | tail -1) | awk '{ a[$1] += 1; } END { for(i in a) printf("%d, %s\n", a[i], i ); }' | sort -n  | tail -25
+summary: |-
+  查看apache日志里最多的25个ip

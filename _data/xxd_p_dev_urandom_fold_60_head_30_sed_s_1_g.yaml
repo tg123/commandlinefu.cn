@@ -1,0 +1,8 @@
+commandlinefu_id: 11920
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xxd -p /dev/urandom |fold -60|head -30|sed 's/\(..\)/\1 /g'
+summary: |-
+  generate 30 x 30 matrix

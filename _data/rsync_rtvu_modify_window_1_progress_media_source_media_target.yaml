@@ -1,0 +1,8 @@
+commandlinefu_id: 2563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -rtvu --modify-window=1 --progress /media/SOURCE/ /media/TARGET/
+summary: |-
+  Backup files incremental with rsync to a NTFS-Partition

@@ -1,0 +1,8 @@
+commandlinefu_id: 12744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmidecode | grep -i 'Base Board Information' -A4 -B1
+summary: |-
+  Check motherboard manufacturer, product name, version and serial number

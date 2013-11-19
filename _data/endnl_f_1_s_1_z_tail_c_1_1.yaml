@@ -1,0 +1,8 @@
+commandlinefu_id: 6440
+translator:
+  weibo: ''
+hide: true
+command: |-
+  endnl () { [[ -f "$1" && -s "$1" && -z $(tail -c 1 "$1") ]]; }
+summary: |-
+  Function to check whether a regular file ends with a newline

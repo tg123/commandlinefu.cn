@@ -1,0 +1,8 @@
+commandlinefu_id: 37
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar czv file1 file2 folder1 | ssh user@server tar zxv -C /destination
+summary: |-
+  scping files with streamlines compression (tar gzip)

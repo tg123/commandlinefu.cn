@@ -1,0 +1,8 @@
+commandlinefu_id: 8676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -n -f inet|awk '/\.389/{print $2}'|cut -f1-4 -d.|sort -u
+summary: |-
+  To find the LDAP clients connected to LDAP service running on Solaris

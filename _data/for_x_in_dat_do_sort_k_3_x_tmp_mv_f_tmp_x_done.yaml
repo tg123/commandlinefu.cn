@@ -1,0 +1,8 @@
+commandlinefu_id: 6010
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in *.dat;do sort -k 3 $x >tmp && mv -f tmp $x;done
+summary: |-
+  Sort all the ".dat" files in current directory by column 3 (change it accordingly), and replace the sorted one with original.

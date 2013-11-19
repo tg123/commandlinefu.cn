@@ -1,0 +1,8 @@
+commandlinefu_id: 6954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /mountpoint -type f -iregex '.*\.\(doc\|xls\)'
+summary: |-
+  Find only *.doc and *xls files on Windows partition

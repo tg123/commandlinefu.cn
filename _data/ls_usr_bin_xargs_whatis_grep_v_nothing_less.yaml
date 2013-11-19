@@ -1,0 +1,8 @@
+commandlinefu_id: 4667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /usr/bin | xargs whatis | grep -v nothing | less
+summary: |-
+  Do some learning...

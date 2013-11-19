@@ -1,0 +1,8 @@
+commandlinefu_id: 7073
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  Esc-/ Esc-/
+summary: |-
+  组合按键 提示当前的文件

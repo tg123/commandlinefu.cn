@@ -1,0 +1,8 @@
+commandlinefu_id: 9321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -saltS [dirname]
+summary: |-
+  Salty detailed directory listing...

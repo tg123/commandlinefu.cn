@@ -1,0 +1,8 @@
+commandlinefu_id: 11261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh /home/*|sort -rh|head -n 10
+summary: |-
+  Find the 10 lusers winners of the "I take up the most disk space" award

@@ -1,0 +1,8 @@
+commandlinefu_id: 12368
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $[RANDOM % 100]  # range 0-99
+summary: |-
+  get a random number in bash

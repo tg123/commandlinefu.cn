@@ -1,0 +1,8 @@
+commandlinefu_id: 9643
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  iconv -c -f utf-8 -t ascii file.txt
+summary: |-
+  清理文件中的非 ascii 字符

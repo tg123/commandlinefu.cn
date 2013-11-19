@@ -1,0 +1,8 @@
+commandlinefu_id: 4215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat </dev/tcp/time.nist.gov/13
+summary: |-
+  Get the time from NIST.GOV

@@ -1,0 +1,8 @@
+commandlinefu_id: 7966
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function cpaste () { gpg -o - -a -c $1 | curl -s -F 'sprunge=<-' http://sprunge.us }  function dpaste () { curl -s $1 | gpg -o - -d }
+summary: |-
+  encrypt and post or get and decrypt from sprunge using gpg symmetric encryption option

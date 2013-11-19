@@ -1,0 +1,8 @@
+commandlinefu_id: 11509
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Limit kernel compilation load
+summary: |-
+  while true  ; do cpulimit -z -p $( pidof cc1 )  -l 5; sleep 1; done

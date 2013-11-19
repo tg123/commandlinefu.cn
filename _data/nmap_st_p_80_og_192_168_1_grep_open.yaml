@@ -1,0 +1,8 @@
+commandlinefu_id: 611
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sT -p 80 -oG - 192.168.1.* | grep open
+summary: |-
+  Get list of servers with a specific port open

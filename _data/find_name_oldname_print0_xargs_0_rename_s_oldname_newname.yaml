@@ -1,0 +1,8 @@
+commandlinefu_id: 2775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name '*oldname*' -print0 | xargs -0 rename 's/oldname/newname/'
+summary: |-
+  Recursive replace of directory and file names in the current directory.

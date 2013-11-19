@@ -1,0 +1,8 @@
+commandlinefu_id: 5825
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for /F %G in ('dir /b c:\Windows\system32\notepad.exe') do ( echo %G )
+summary: |-
+  Get filename from a full file path

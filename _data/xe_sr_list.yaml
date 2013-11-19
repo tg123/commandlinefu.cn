@@ -1,0 +1,8 @@
+commandlinefu_id: 6681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xe sr-list
+summary: |-
+  Show all Storage Repositories on XenServer

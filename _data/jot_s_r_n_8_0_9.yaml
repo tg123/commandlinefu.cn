@@ -1,0 +1,8 @@
+commandlinefu_id: 3169
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jot -s '' -r -n 8 0 9
+summary: |-
+  Print a random 8 digit number

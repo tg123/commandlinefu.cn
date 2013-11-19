@@ -1,0 +1,8 @@
+commandlinefu_id: 871
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $RANDOM
+summary: |-
+  generate random number

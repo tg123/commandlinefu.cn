@@ -1,0 +1,8 @@
+commandlinefu_id: 7169
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gawk '{n=$1;a=0;b=1;c=1;for(i=1;i<n;i++){c=a+b;a=b;b=c};print c}' << eof
+summary: |-
+  Fibonacci numbers with awk

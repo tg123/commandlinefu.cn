@@ -1,0 +1,8 @@
+commandlinefu_id: 8380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -compress jpeg *.jpg mydoc.pdf
+summary: |-
+  Generate a (compressed) pdf from images

@@ -1,0 +1,8 @@
+commandlinefu_id: 5563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /etc/init.d/cron restart && tail -100 /var/log/syslog
+summary: |-
+  Check syntax of cron files (by restarting the service and checking the logs)

@@ -1,0 +1,8 @@
+commandlinefu_id: 9981
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffprobe video.flv
+summary: |-
+  Get video information with ffmpeg

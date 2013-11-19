@@ -1,0 +1,8 @@
+commandlinefu_id: 4594
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wtzc () { wget "$@"; foo=`echo "$@" | sed 's:.*/::'`; tar xzvf $foo; blah=`echo $foo | sed 's:,*/::'`; bar=`echo $blah | sed -e 's/\(.*\)\..*/\1/' -e 's/\(.*\)\..*/\1/'`; cd $bar; ls; }
+summary: |-
+  wget, tar xzvf, cd, ls

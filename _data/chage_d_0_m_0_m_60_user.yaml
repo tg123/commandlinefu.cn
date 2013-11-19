@@ -1,0 +1,8 @@
+commandlinefu_id: 8360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chage -d 0 -m 0 -M 60 [user]
+summary: |-
+  How to expire the password to force her change [Linux]

@@ -1,0 +1,8 @@
+commandlinefu_id: 9621
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TZ=UTC date -d @1320198157
+summary: |-
+  convert UNIX timestamp to UTC timestamp

@@ -1,0 +1,8 @@
+commandlinefu_id: 12034
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  None
+summary: |-
+  清理安装包的配置文件

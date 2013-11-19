@@ -1,0 +1,8 @@
+commandlinefu_id: 11563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert input.png -gravity NorthWest -background transparent -extent 720x200  output.png
+summary: |-
+  resize canvas of image and fill it with transparence

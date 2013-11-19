@@ -1,0 +1,8 @@
+commandlinefu_id: 2282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i source_audio.mp3 -itsoffset 00:00:10.2 -i source_video.m2v target_video.flv
+summary: |-
+  removing syncronization problems between audio and video

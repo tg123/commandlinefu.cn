@@ -1,0 +1,8 @@
+commandlinefu_id: 12500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --silent http://www.census.gov/population/international/ | grep wclocknum | sed -r 's@^.*>([0-9,]+)<.*$@\1@'
+summary: |-
+  Fetch the current human population of Earth

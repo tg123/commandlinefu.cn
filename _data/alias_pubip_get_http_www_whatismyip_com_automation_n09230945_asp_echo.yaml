@@ -1,0 +1,8 @@
+commandlinefu_id: 643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias pubip='GET http://www.whatismyip.com/automation/n09230945.asp && echo'
+summary: |-
+  Find public IP when behind a random router (also see description)

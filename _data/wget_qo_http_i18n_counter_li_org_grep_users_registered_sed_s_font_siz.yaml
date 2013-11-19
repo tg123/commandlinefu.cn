@@ -1,0 +1,8 @@
+commandlinefu_id: 6745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - http://i18n.counter.li.org/ | grep 'users registered' | sed 's/.*\<font size=7\>//g' | tr '\>' ' ' | sed 's/<br.*//g' | tr ' ' '\0'
+summary: |-
+  Get the amount of currently registered users from i18n.counter.li.org.

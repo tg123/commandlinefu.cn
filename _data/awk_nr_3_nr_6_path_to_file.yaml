@@ -1,0 +1,8 @@
+commandlinefu_id: 9889
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'NR >= 3 && NR <= 6' /path/to/file
+summary: |-
+  Print all lines between two line numbers

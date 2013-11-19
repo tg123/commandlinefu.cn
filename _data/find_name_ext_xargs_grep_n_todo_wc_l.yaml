@@ -1,0 +1,8 @@
+commandlinefu_id: 1578
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.EXT" | xargs grep -n "TODO" | wc -l
+summary: |-
+  Counts the number of TODOs in files with extension EXT found from the current dir.

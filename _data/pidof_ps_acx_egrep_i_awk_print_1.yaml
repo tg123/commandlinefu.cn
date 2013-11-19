@@ -1,0 +1,8 @@
+commandlinefu_id: 272
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  pidof () { ps acx | egrep -i $@ | awk '{print $1}'; }
+summary: |-
+  None

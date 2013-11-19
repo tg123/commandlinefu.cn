@@ -1,0 +1,8 @@
+commandlinefu_id: 3055
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :for i in range(1,255) | .put='192.168.0.'.i | endfor
+summary: |-
+  insert ip range using vim

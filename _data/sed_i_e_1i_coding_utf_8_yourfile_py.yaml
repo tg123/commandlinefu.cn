@@ -1,0 +1,8 @@
+commandlinefu_id: 10743
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i -e '1i \# -*- coding: utf-8 -*-' yourfile.py
+summary: |-
+  Append the line # -*- coding: utf-8 -*- to a file

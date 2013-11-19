@@ -1,0 +1,8 @@
+commandlinefu_id: 4306
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -t msdos /dev/fd0 /mnt/floppy
+summary: |-
+  mount a msdos formated floppy disk

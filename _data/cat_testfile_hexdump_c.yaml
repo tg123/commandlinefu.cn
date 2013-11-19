@@ -1,0 +1,8 @@
+commandlinefu_id: 3378
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat testfile | hexdump -C
+summary: |-
+  Hexadecimal dump of a file, pipe, or anything

@@ -1,0 +1,8 @@
+commandlinefu_id: 12217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  `whereis -sq portname`
+summary: |-
+  Locate and cd to <portname> if it exists in the ports tree

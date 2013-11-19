@@ -1,0 +1,8 @@
+commandlinefu_id: 11085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/sysctl -w vm.drop_caches=3
+summary: |-
+  Release memory used by the Linux kernel on caches

@@ -1,0 +1,8 @@
+commandlinefu_id: 5926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  goclf() { type "$1" | sed '1d' | tr -d "\n" | tr -s '[:space:]'; echo }
+summary: |-
+  Prepare a commandlinefu command.

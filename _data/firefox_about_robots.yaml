@@ -1,0 +1,8 @@
+commandlinefu_id: 12484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  firefox about:robots
+summary: |-
+  Welcome humans!

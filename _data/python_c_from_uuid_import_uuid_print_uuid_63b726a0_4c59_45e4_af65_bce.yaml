@@ -1,0 +1,8 @@
+commandlinefu_id: 9733
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "from uuid import UUID; print UUID('63b726a0-4c59-45e4-af65-bced5d268456').hex;"
+summary: |-
+  Remove dashes in UUID

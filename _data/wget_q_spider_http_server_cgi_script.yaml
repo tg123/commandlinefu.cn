@@ -1,0 +1,8 @@
+commandlinefu_id: 3445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q --spider http://server/cgi/script
+summary: |-
+  Run remote web page, but don't save the results

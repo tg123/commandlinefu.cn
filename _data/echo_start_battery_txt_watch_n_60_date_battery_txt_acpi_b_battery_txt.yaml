@@ -1,0 +1,8 @@
+commandlinefu_id: 3834
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo start > battery.txt; watch -n 60 'date >> battery.txt ; acpi -b >> battery.txt'
+summary: |-
+  Battery real life energy vs predicted remaining plotted

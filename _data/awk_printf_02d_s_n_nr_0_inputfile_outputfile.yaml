@@ -1,0 +1,8 @@
+commandlinefu_id: 7562
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{printf("/* %02d */ %s\n", NR,$0)}' inputfile > outputfile
+summary: |-
+  Add line number count as C-style comments

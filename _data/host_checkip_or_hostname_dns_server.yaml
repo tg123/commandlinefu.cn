@@ -1,0 +1,8 @@
+commandlinefu_id: 4395
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host {checkIp or hostname} [dns server]
+summary: |-
+  Check reverse DNS

@@ -1,0 +1,8 @@
+commandlinefu_id: 6987
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find / -type f 2>/dev/null | xargs du 2>/dev/null | sort -n | tail -n 10 | cut -f 2 | xargs -n 1 du -h
+summary: |-
+  寻找最大的10个文件

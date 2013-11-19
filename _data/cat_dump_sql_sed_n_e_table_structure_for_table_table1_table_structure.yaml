@@ -1,0 +1,8 @@
+commandlinefu_id: 11566
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat dump.sql | sed -n -e '/Table structure for table .table1./,/Table structure for table .table2./p'
+summary: |-
+  Extract single table from a MySQL dump

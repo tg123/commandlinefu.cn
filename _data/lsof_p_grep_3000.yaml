@@ -1,0 +1,8 @@
+commandlinefu_id: 1606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -P | grep ':3000'
+summary: |-
+  find the process that is using a certain port e.g. port 3000

@@ -1,0 +1,8 @@
+commandlinefu_id: 5126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LC_ALL=C sort file | uniq -c | sort -n -k1 -r
+summary: |-
+  Count repeated lines, listing them in descending order of frequency

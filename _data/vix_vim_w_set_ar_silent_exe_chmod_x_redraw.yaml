@@ -1,0 +1,8 @@
+commandlinefu_id: 5700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vix(){ vim +'w | set ar | silent exe "!chmod +x %" | redraw!' $@; }
+summary: |-
+  vi a new file with execution mode

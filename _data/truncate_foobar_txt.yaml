@@ -1,0 +1,8 @@
+commandlinefu_id: 4446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  truncate foobar.txt
+summary: |-
+  Empty a file

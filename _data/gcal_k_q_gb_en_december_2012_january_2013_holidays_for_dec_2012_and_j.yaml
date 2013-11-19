@@ -1,0 +1,8 @@
+commandlinefu_id: 11491
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcal -K -q GB_EN December/2012-January/2013 # Holidays for Dec/2012 and Jan/2013 with week numbers
+summary: |-
+  Display holidays in UK/England for December/2012 and January/2013 (with week numbers)

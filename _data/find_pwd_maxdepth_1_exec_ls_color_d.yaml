@@ -1,0 +1,8 @@
+commandlinefu_id: 9901
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find `pwd` -maxdepth 1 -exec ls --color -d {} \;
+summary: |-
+  带有完整路径ls命令

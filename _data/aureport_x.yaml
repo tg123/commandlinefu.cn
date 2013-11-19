@@ -1,0 +1,8 @@
+commandlinefu_id: 2107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aureport -x
+summary: |-
+  Report information about executable launched on system

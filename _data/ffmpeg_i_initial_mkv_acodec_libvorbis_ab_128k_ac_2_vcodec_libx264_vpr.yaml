@@ -1,0 +1,8 @@
+commandlinefu_id: 6974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i initial.mkv  -acodec libvorbis -ab 128k -ac 2 -vcodec libx264 -vpre max -crf 22 -threads 0 final.mkv
+summary: |-
+  Encode mkv file to ogg+h264+mkv

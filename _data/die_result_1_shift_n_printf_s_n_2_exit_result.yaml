@@ -1,0 +1,8 @@
+commandlinefu_id: 4136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  die(){ result=$1;shift;[ -n "$*" ]&&printf "%s\n" "$*" >&2;exit $result;}
+summary: |-
+  Shell function to exit script with error in exit status and print optional message to stderr

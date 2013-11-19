@@ -1,0 +1,8 @@
+commandlinefu_id: 2291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -zcvpf backup_`date +"%Y%m%d_%H%M%S"`.tar.gz `find <target> -atime +5` 2> /dev/null | xargs rm -fr ;
+summary: |-
+  backup and remove files with access time older than 5 days.

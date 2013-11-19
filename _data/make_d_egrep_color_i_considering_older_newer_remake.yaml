@@ -1,0 +1,8 @@
+commandlinefu_id: 8580
+translator:
+  weibo: ''
+hide: true
+command: |-
+  make -d | egrep --color -i '(considering|older|newer|remake)'
+summary: |-
+  Debug your makefile

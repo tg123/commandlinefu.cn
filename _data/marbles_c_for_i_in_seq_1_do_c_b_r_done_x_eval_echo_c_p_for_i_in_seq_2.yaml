@@ -1,0 +1,8 @@
+commandlinefu_id: 6466
+translator:
+  weibo: ''
+hide: true
+command: |-
+  marbles () { c=''; for i in $(seq $1); do c+='{b,r}'; done; x=$(eval echo $c); p=''; for i in $(seq $2); do p+='b*r'; done; y=$(grep -wo "${p}b*" <<< $x); wc -l <<< "$y"; grep -vc 'rr' <<< "$y"; }
+summary: |-
+  Function to solve a simple combinatorial maths puzzle from the command line

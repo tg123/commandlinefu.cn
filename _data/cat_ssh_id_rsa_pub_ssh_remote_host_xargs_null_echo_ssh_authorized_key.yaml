@@ -1,0 +1,8 @@
+commandlinefu_id: 4365
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat ~/.ssh/id_rsa.pub | ssh <remote_host> "xargs --null echo >> ~/.ssh/authorized_keys"
+summary: |-
+  Create SSH key exchange from one host to the other

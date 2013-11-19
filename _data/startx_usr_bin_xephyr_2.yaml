@@ -1,0 +1,8 @@
+commandlinefu_id: 4154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  startx -- /usr/bin/Xephyr :2
+summary: |-
+  Start another X session in a window

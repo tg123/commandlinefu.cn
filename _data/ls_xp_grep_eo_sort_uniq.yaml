@@ -1,0 +1,8 @@
+commandlinefu_id: 7852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Xp | grep -Eo "\.[^/]+$" | sort | uniq
+summary: |-
+  list all file extensions in a directory

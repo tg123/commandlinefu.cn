@@ -1,0 +1,8 @@
+commandlinefu_id: 6530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /home -print -exec rename -v 's/_2009-09-04.suffix$//' {} \;
+summary: |-
+  Find all files under a certain directory /home that have a certain suffix at the end of the file name. Show the file and rename them to remove the suffix.

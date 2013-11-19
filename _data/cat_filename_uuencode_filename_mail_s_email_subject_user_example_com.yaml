@@ -1,0 +1,8 @@
+commandlinefu_id: 3556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat filename | uuencode filename | mail -s "Email subject" user@example.com
+summary: |-
+  Send a local file via email

@@ -1,0 +1,8 @@
+commandlinefu_id: 6017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emerge -q1 $(eix -C dev-java -I --upgrade+ --only-names ant)
+summary: |-
+  Update all ant packages installed in gentoo

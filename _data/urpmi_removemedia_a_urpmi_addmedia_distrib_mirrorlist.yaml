@@ -1,0 +1,8 @@
+commandlinefu_id: 8175
+translator:
+  weibo: ''
+hide: true
+command: |-
+  urpmi.removemedia -a && urpmi.addmedia --distrib --mirrorlist
+summary: |-
+  reset Mageia urpmi media sources to network only

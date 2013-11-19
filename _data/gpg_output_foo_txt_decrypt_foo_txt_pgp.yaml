@@ -1,0 +1,8 @@
+commandlinefu_id: 821
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg --output foo.txt --decrypt foo.txt.pgp
+summary: |-
+  gpg decrypt a file

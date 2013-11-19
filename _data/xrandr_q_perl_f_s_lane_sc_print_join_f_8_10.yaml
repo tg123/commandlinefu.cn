@@ -1,0 +1,8 @@
+commandlinefu_id: 4775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ xrandr -q|perl -F'\s|,' -lane "/^Sc/&&print join '',@F[8..10]"
+summary: |-
+  Get current Xorg resolution via xrandr

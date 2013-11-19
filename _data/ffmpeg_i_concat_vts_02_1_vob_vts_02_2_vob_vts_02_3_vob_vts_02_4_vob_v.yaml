@@ -1,0 +1,8 @@
+commandlinefu_id: 10731
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i concat:VTS_02_1.VOB\|VTS_02_2.VOB\|VTS_02_3.VOB\|VTS_02_4.VOB\|VTS_02_5.VOB -map 0:v:0 -map 0:a:0 -codec:a libvo_aacenc -ab 128 -codec:v libx264 -vpre libx264-ipod640 movie.mp4
+summary: |-
+  DVD ripping with ffmpeg

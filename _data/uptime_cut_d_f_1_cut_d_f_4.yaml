@@ -1,0 +1,8 @@
+commandlinefu_id: 9535
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uptime | cut -d "," -f 1 | cut -d " " -f 4-
+summary: |-
+  Display only the actual uptime value

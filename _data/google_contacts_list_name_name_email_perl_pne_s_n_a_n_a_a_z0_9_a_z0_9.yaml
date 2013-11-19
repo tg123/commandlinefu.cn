@@ -1,0 +1,8 @@
+commandlinefu_id: 6062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  google contacts list name,name,email|perl -pne 's%^((?!N\/A)(.+?)),((?!N\/A)(.+?)),([a-z0-9\._-]+\@([a-z0-9][a-z0-9-]*[a-z0-9]\.)+([a-z]+\.)?([a-z]+))%${1}:${3} <${5}>%imx' #see below for full command
+summary: |-
+  Convert GoogleCL gmail contacts to cone adress book

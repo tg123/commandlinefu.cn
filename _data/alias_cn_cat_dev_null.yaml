@@ -1,0 +1,8 @@
+commandlinefu_id: 9291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cn='cat > /dev/null'
+summary: |-
+  An alias for pasting code/data into terminal without it doing anything. Add to .bashrc

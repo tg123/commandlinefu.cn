@@ -1,0 +1,8 @@
+commandlinefu_id: 4562
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function titlescroll {   _X=0   _TITLEMSG=$1   _WIDTH=${2:-16}   _TITLEMSG=`printf "%$((${#_TITLEMSG}+$_WIDTH))s" "$_TITLEMSG"`   while `true`     do     _X=$(((_X+1)%${#_TITLEMSG}))     xtitle "${_TITLEMSG:_X:_WIDTH}"   done }
+summary: |-
+  Scroll a message in a terminal titlebar

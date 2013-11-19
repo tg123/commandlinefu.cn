@@ -1,0 +1,8 @@
+commandlinefu_id: 6559
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk pdfname.pdf cat 1E  output outputname.pdf
+summary: |-
+  rotate a one page pdf to 90 Degrees Clockwise

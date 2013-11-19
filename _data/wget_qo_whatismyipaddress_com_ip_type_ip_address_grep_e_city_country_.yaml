@@ -1,0 +1,8 @@
+commandlinefu_id: 12434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - whatismyipaddress.com/ip/<type ip address> | grep -E "City:|Country:" | sed 's:<tr><th>::'| sed 's</th>::' | sed 's:</td>::' | sed 's:</tr>::' | sed 's:<img*::'
+summary: |-
+  Geo Location of an IP-address

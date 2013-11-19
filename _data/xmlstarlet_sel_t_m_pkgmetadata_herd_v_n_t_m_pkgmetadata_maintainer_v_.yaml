@@ -1,0 +1,8 @@
+commandlinefu_id: 6292
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmlstarlet sel -t -m '/pkgmetadata/herd' -v . -n -t -m '/pkgmetadata/maintainer' -v email metadata.xml
+summary: |-
+  Extract herds & maintainers' email from a Gentoo metadata.xml file

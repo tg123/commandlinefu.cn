@@ -1,0 +1,8 @@
+commandlinefu_id: 4843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.google.com/ig/api?weather=$(curl -s "http://api.hostip.info/get_html.php?ip=$(curl -s icanhazip.com)" | grep City | sed 's/City: \(.*\)/\1/' | sed 's/ /%20/g' | sed "s/'/%27/g") | sed 's|.*<temp_f data="\([^"]*\)"/>.*|\1\n|'
+summary: |-
+  Geo Weather

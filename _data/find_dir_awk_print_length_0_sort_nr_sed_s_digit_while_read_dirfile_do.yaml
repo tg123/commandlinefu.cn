@@ -1,0 +1,8 @@
+commandlinefu_id: 3178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /dir | awk '{print length, $0}' | sort -nr | sed 's/^[[:digit:]]* //' | while read dirfile; do outfile="$(echo "$(basename "$dirfile")" | unaccent UTF-8)"; mv "$dirfile" "$(dirname "$dirfile")/$outfile"; done
+summary: |-
+  Unaccent an entire directory tree with files.

@@ -1,0 +1,8 @@
+commandlinefu_id: 392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /dir/ -name *name*
+summary: |-
+  Searching files

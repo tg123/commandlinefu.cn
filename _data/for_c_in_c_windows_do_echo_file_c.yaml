@@ -1,0 +1,8 @@
+commandlinefu_id: 11829
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FOR %%c in (C:\Windows\*.*) DO (echo file %%c)
+summary: |-
+  For Loop in DOS Batch File

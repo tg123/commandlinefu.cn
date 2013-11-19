@@ -1,0 +1,8 @@
+commandlinefu_id: 4053
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTTIMEFORMAT='%Y.%m.%d-%T :: ' HISTFILESIZE=50000 HISTSIZE=50000
+summary: |-
+  advanced bash history

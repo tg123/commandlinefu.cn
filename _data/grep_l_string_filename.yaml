@@ -1,0 +1,8 @@
+commandlinefu_id: 7628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -L "string" filename*
+summary: |-
+  find files beginning with filename* that do not include "string"

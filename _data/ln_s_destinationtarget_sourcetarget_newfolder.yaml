@@ -1,0 +1,8 @@
+commandlinefu_id: 1453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ln -s /destinationTarget /sourceTarget/newFolder
+summary: |-
+  Create a newFolder that is a symbolic link to another folder

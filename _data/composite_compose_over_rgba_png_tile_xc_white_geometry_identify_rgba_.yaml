@@ -1,0 +1,8 @@
+commandlinefu_id: 709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  composite -compose Over rgba.png -tile xc:white -geometry `identify rgba.png  | sed 's/[^ ]* [^ ]* \([^ ]*\) .*/\1/g'` rgb-white.png
+summary: |-
+  Flatten a RGBA image onto a white background.

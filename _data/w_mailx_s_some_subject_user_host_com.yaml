@@ -1,0 +1,8 @@
+commandlinefu_id: 6633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w: !mailx -s "Some subject" user@host.com
+summary: |-
+  Mailing from Vim

@@ -1,0 +1,8 @@
+commandlinefu_id: 8666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://search.twitter.com/search?from=zurvollenstunde&rpp=1"  | grep -E '(Es ist jetzt|ago)'  | sed 's/<[^>]*>//g;s/[^[:digit:]]//g'  | xargs | sed -e 's#\ #:#'
+summary: |-
+  Get the rough (german) time from Twitter by @zurvollenstunde

@@ -1,0 +1,8 @@
+commandlinefu_id: 748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqladmin -u username -p create dbname
+summary: |-
+  Create a mysql database from the command line

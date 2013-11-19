@@ -1,0 +1,8 @@
+commandlinefu_id: 7111
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bm() { export BM${1?"bookmark name missing"}="$PWD" ; }; forget() { unset BM${1?"bookmark name missing"} ; }
+summary: |-
+  Directory bookmarks

@@ -1,0 +1,8 @@
+commandlinefu_id: 11394
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff ../source-dir.orig/ ../source-dir.post/ | grep "Only in" | sed -e 's/^.*\:.\(\<.*\>\)/\1/g' | xargs rm -r
+summary: |-
+  Compares two source directories, one original and one post configure and deletes the differences in the source folder

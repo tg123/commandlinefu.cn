@@ -1,0 +1,8 @@
+commandlinefu_id: 8134
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Qu
+summary: |-
+  archlinux: check which repository packages have updates available

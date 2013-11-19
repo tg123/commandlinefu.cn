@@ -1,0 +1,8 @@
+commandlinefu_id: 5320
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo deborphan | xargs sudo apt-get -y remove --purge
+summary: |-
+  remove oprhan package on debian based system

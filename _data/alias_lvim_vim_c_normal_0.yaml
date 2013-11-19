@@ -1,0 +1,8 @@
+commandlinefu_id: 1501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias lvim="vim -c \"normal '0\""
+summary: |-
+  Open the last file you edited in Vim.

@@ -1,0 +1,8 @@
+commandlinefu_id: 8231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "test" | sed 'y/abcdefghijklmnopqrstuvwxyz/ABCDEFGHIJKLMNOPQRSTUVWXYZ/'
+summary: |-
+  Lowercase to Uppercase

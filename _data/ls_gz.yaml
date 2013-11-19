@@ -1,0 +1,8 @@
+commandlinefu_id: 6191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls !(*.gz)
+summary: |-
+  ls not pattern

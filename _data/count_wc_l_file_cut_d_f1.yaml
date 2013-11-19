@@ -1,0 +1,8 @@
+commandlinefu_id: 1211
+translator:
+  weibo: ''
+hide: true
+command: |-
+  count=`wc -l file | cut -d ' ' -f1`
+summary: |-
+  stores the number of lines of  "file" in a variable to use in a loop

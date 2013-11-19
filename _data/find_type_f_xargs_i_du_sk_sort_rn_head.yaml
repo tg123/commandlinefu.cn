@@ -1,0 +1,8 @@
+commandlinefu_id: 7548
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f | xargs -I{} du -sk "{}" | sort -rn | head
+summary: |-
+  Find the biggest files

@@ -1,0 +1,8 @@
+commandlinefu_id: 4379
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cf - . | pv -s $(du -sb . | awk '{print $1}') | gzip > out.tgz
+summary: |-
+  copy working directory and compress it on-the-fly while showing progress

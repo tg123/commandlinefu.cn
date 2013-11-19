@@ -1,0 +1,8 @@
+commandlinefu_id: 4971
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  while true; do xdotool getmouselocation | sed 's/x:\(.*\) y:\(.*\) screen:.*/\1, \2/' >> ./mouse-tracking; sleep 10; done
+summary: |-
+  鼠标轨迹

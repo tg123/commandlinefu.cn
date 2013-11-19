@@ -1,0 +1,8 @@
+commandlinefu_id: 9359
+translator:
+  weibo: ''
+hide: true
+command: |-
+  until ping -c1 ADDRESS;do true;done;zenity --warning --text "ADDRESS is back"
+summary: |-
+  Set audible alarm when an IP address comes online

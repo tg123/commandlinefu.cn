@@ -1,0 +1,8 @@
+commandlinefu_id: 7870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find files/ -type f | while read line; do if [ $((i++%100)) -eq 0 ]; then mkdir $((++folder)); fi; cp  $line $folder/; done
+summary: |-
+  Reorder file with max 100 file per folder

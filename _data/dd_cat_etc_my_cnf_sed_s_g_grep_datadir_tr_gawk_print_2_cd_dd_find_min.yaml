@@ -1,0 +1,8 @@
+commandlinefu_id: 2763
+translator:
+  weibo: ''
+hide: true
+command: |-
+  DD=`cat /etc/my.cnf | sed "s/#.*//g;" | grep datadir | tr '=' ' ' | gawk '{print $2;}'` && ( cd $DD ; find . -mindepth 2 | grep -v db\.opt | sed 's/\.\///g; s/\....$//g; s/\//./;' | sort | uniq | tr '/' '.' | gawk '{print "CHECK TABLE","`"$1"`",";";}' )
+summary: |-
+  Generate CHECK TABLE statements for all MySQL database tables on a server

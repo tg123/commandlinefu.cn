@@ -1,0 +1,8 @@
+commandlinefu_id: 4086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -print0 | xargs -0 file -iNf - | grep video | cut -d: -f1
+summary: |-
+  Find all videos under current directory

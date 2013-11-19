@@ -1,0 +1,8 @@
+commandlinefu_id: 8066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo pmem,pid,comm --no-headers | sort -k1 -rn | head -10
+summary: |-
+  show top 10 most memory hungry  process with a simple format of (%mem, pid, short command)

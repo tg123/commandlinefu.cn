@@ -1,0 +1,8 @@
+commandlinefu_id: 2504
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Hello World." | tee -a hello.txt
+summary: |-
+  bash or tcsh redirect both to stdout and to a file

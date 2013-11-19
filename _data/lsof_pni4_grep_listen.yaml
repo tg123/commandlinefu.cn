@@ -1,0 +1,8 @@
+commandlinefu_id: 3136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -Pni4 | grep LISTEN
+summary: |-
+  check open ports

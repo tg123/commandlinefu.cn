@@ -1,0 +1,8 @@
+commandlinefu_id: 10334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find . -name "syslog*.gz" -type f | xargs gzip -cd | grep "Mounted"
+summary: |-
+  Find the mounted storages

@@ -1,0 +1,8 @@
+commandlinefu_id: 11833
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pwdx $(pgrep command)
+summary: |-
+  Find out current working directory of a process

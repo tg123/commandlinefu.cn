@@ -1,0 +1,8 @@
+commandlinefu_id: 11915
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ifconfig wlan0 | grep inet | awk 'NR==1 {print $2}' | cut -c 6-
+summary: |-
+  Print the local ip on a wireless connection

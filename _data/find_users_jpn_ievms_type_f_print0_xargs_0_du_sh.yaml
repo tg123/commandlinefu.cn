@@ -1,0 +1,8 @@
+commandlinefu_id: 12823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /Users/jpn/.ievms/ -type f -print0| xargs -0 du -sh
+summary: |-
+  rm filenames with spaces

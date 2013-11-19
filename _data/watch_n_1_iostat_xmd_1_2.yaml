@@ -1,0 +1,8 @@
+commandlinefu_id: 12475
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 'iostat -xmd 1 2'
+summary: |-
+  I/O activity on a machine

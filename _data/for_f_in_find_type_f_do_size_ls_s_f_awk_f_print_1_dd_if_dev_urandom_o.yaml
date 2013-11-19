@@ -1,0 +1,8 @@
+commandlinefu_id: 9067
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for F in `find ./ -type f`;do SIZE=`ls -s $F | awk -F" " '{print $1}'`; dd if=/dev/urandom of=$F bs=1024 count=$SIZE;done
+summary: |-
+  Simple file wipe

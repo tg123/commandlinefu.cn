@@ -1,0 +1,8 @@
+commandlinefu_id: 2659
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero bs=256M count=1 | nc [remoteIP] [remotePort] and on the other host nc -l port >/dev/null
+summary: |-
+  Test network performance, copying from the mem of one box, over the net to the mem of another

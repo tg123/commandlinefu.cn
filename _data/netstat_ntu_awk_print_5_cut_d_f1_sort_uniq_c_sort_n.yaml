@@ -1,0 +1,8 @@
+commandlinefu_id: 8526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort  | uniq -c | sort -n
+summary: |-
+  get the IP connected to the server (usefull to detect IP that should be blocked)

@@ -1,0 +1,8 @@
+commandlinefu_id: 9762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for filename in *.epub;do ebook-convert "$filename" "${filename%.epub}.mobi" --prefer-author-sort --output-profile=kindle --linearize-tables --smarten-punctuation --asciiize --enable-heuristics;done
+summary: |-
+  One liner to parse all epubs in a directory and use the calibre ebook-convert utility to convert them to mobi format

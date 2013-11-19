@@ -1,0 +1,8 @@
+commandlinefu_id: 4791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  set-proxy () { P=webproxy:1234; DU="fred"; read -p "username[$DU]:" USER; printf "%b"; UN=${USER:-$DU}; read -s -p "password:" PASS; printf "%b" "\n"; export http_proxy="http://${UN}:${PASS}@$P/"; export ftp_proxy="http://${UN}:${PASS}@$P/"; }
+summary: |-
+  Configuring proxy client on terminal without leaving password on screen or in bash_history

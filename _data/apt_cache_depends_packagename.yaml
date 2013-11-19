@@ -1,0 +1,8 @@
+commandlinefu_id: 8857
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache depends <packagename>
+summary: |-
+  Show package dependencies with apt

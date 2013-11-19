@@ -1,0 +1,8 @@
+commandlinefu_id: 12826
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xdotool search --name Thunderbird set_window --urgency 1 %@
+summary: |-
+  find an X11 window by its title and highlight it

@@ -1,0 +1,8 @@
+commandlinefu_id: 8483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort -u < /sys/class/net/*/address
+summary: |-
+  List your MACs address

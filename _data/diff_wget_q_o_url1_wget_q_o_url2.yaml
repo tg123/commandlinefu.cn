@@ -1,0 +1,8 @@
+commandlinefu_id: 6856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(wget -q -O - URL1) <(wget -q -O - URL2)
+summary: |-
+  Diff remote webpages using wget

@@ -1,0 +1,8 @@
+commandlinefu_id: 10776
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sudo bash -c "sleep 30m; pm-hibernate"
+summary: |-
+  三十分钟后休眠

@@ -1,0 +1,8 @@
+commandlinefu_id: 8131
+translator:
+  weibo: ''
+hide: true
+command: |-
+  quota -q $(cat /etc/passwd|cut -d ':' -f 1)
+summary: |-
+  Report all quota usage

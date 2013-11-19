@@ -1,0 +1,8 @@
+commandlinefu_id: 1930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /usr/ -type l ! -xtype f ! -xtype d -ok rm -f {} \;
+summary: |-
+  Eliminate dead symlinks interactively in /usr/ recursevely

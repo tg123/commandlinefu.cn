@@ -1,0 +1,8 @@
+commandlinefu_id: 8489
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -lnptu
+summary: |-
+  Active Internet connections (only servers)

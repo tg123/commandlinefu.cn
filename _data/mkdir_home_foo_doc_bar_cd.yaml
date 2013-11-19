@@ -1,0 +1,8 @@
+commandlinefu_id: 9000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir /home/foo/doc/bar && cd $_
+summary: |-
+  mkdir & cd into it as single command

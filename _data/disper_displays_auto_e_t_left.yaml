@@ -1,0 +1,8 @@
+commandlinefu_id: 4694
+translator:
+  weibo: ''
+hide: true
+command: |-
+  disper --displays=auto -e -t left
+summary: |-
+  Autodetect screens and extend workspace to the left

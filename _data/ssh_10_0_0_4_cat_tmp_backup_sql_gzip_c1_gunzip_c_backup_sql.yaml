@@ -1,0 +1,8 @@
+commandlinefu_id: 4850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh 10.0.0.4 "cat /tmp/backup.sql | gzip -c1" | gunzip -c > backup.sql
+summary: |-
+  gzip over ssh

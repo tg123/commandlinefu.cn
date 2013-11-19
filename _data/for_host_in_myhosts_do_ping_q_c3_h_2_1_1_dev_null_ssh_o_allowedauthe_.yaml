@@ -1,0 +1,8 @@
+commandlinefu_id: 11517
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for host in $MYHOSTS; do ping -q -c3 $H 2>&1 1>/dev/null && ssh -o 'AllowedAuthe ntications publickey' $host 'command1; command2' & for count in 1 2 3 4 5; do sleep 1; jobs | wc -l | grep -q ^0\$ && continue; done; kill %1; done
+summary: |-
+  avoid ssh hangs using jobs

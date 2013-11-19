@@ -1,0 +1,8 @@
+commandlinefu_id: 4283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec sed -i s/oldstring/newstring/g {} +
+summary: |-
+  recursive search and replace old with new string, inside files

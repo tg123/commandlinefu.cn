@@ -1,0 +1,8 @@
+commandlinefu_id: 6648
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd $(find -inum inode_no)
+summary: |-
+  Change directory by inode

@@ -1,0 +1,8 @@
+commandlinefu_id: 247
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (sed 's/^/x+=/' [yourfile] ; echo x) | bc
+summary: |-
+  Quick way to sum every numbers in a file written line by line

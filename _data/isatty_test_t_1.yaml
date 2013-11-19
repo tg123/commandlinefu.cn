@@ -1,0 +1,8 @@
+commandlinefu_id: 4492
+translator:
+  weibo: ''
+hide: true
+command: |-
+  isatty(){ test -t $1; }
+summary: |-
+  Is it a terminal?

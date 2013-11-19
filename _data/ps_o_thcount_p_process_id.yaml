@@ -1,0 +1,8 @@
+commandlinefu_id: 4217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o thcount -p <process id>
+summary: |-
+  Return threads count of a process

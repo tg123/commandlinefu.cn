@@ -1,0 +1,8 @@
+commandlinefu_id: 7095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn add `svn status | grep ? | cut -c9-80`
+summary: |-
+  Add all files

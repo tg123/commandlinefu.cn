@@ -1,0 +1,8 @@
+commandlinefu_id: 8346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 -type f -mtime +60 -ls
+summary: |-
+  Find files older than 60 days

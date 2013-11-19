@@ -1,0 +1,8 @@
+commandlinefu_id: 3135
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `grep "unable to stat" /var/log/syslog | cut -d "/" -f 3 | sort | uniq`; do find /var/qmail/queue -name $i -type f -exec rm -v {} \; ; done
+summary: |-
+  purge old stale messages on a qmail queue

@@ -1,0 +1,8 @@
+commandlinefu_id: 11898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mke2fs -t ext4 -O ^has_journal /dev/sdXN
+summary: |-
+  Format partition with ext4 but without a journal

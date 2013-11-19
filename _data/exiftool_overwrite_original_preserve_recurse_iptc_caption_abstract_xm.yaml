@@ -1,0 +1,8 @@
+commandlinefu_id: 12550
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exiftool -overwrite_original -preserve -recurse "-iptc:Caption-Abstract<${XMP:HierarchicalSubject;s/.+\|//g}" -if "not $iptc:Caption-Abstract" DIR
+summary: |-
+  For pictures : copy the last hierarchical keyword (tag) in the caption (title, description) if empty.

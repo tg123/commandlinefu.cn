@@ -1,0 +1,8 @@
+commandlinefu_id: 3183
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 1234567890 | awk '{ print strftime("%c", $0); }'
+summary: |-
+  convert unixtime to human-readable with awk

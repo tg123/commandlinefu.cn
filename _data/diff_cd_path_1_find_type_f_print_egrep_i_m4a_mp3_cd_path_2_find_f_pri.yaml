@@ -1,0 +1,8 @@
+commandlinefu_id: 3060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(cd /path-1; find . -type f -print | egrep -i '\.m4a$|\.mp3$') <(cd /path-2; find . f -print | egrep -i '\.m4a$|\.mp3$')
+summary: |-
+  diff will usually only take one file from STDIN. This is a method to take the result of two streams and compare with diff. The example I use to compare two iTunes libraries but it is generally applicable.

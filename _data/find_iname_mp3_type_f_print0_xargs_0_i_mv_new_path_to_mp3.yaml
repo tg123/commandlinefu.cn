@@ -1,0 +1,8 @@
+commandlinefu_id: 8854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname "*.mp3" -type f -print0 | xargs -0 -I '{}' mv {} /new/path/to/mp3/{}
+summary: |-
+  Move mp3 files to another path with existing subtree structure

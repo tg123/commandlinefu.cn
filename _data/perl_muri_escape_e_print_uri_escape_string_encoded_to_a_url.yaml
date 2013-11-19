@@ -1,0 +1,8 @@
+commandlinefu_id: 6474
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MURI::Escape -e 'print uri_escape("String encoded to a url");'
+summary: |-
+  encode a text to url_encoded format

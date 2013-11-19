@@ -1,0 +1,8 @@
+commandlinefu_id: 6796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :exe getline(1)[1:] @%
+summary: |-
+  Execute a file in vim with the #!/bin/interpreter in the first line

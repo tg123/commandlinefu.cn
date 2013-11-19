@@ -1,0 +1,8 @@
+commandlinefu_id: 10060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -t | head
+summary: |-
+  Show last changed files in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 2353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lshw -html > hardware.html
+summary: |-
+  Create a nifty overview of the hardware in your computer

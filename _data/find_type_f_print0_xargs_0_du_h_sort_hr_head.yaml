@@ -1,0 +1,8 @@
+commandlinefu_id: 10937
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -0 du -h | sort -hr | head
+summary: |-
+  Find biggest 10 files in current and subdirectories and sort by file size

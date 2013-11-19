@@ -1,0 +1,8 @@
+commandlinefu_id: 4574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -p $(pidof firefox) | awk '/.mozilla/ { s = int($7/(2^20)); if(s>0) print (s)" MB -- "$9 | "sort -rn" }'
+summary: |-
+  Check which files are opened by Firefox then sort by largest size.

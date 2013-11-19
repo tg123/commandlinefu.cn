@@ -1,0 +1,8 @@
+commandlinefu_id: 7150
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "10 i 2 o $(date +"%H%M"|cut -b 1,2,3,4 --output-delimiter=' ') f"|dc|tac|xargs printf "%04d\n"|tr "01" ".*"
+summary: |-
+  Binary clock

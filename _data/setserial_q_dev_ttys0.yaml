@@ -1,0 +1,8 @@
+commandlinefu_id: 10218
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setserial -q /dev/ttyS0
+summary: |-
+  ttyS0 - terminal on serial connection

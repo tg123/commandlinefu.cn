@@ -1,0 +1,8 @@
+commandlinefu_id: 1508
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -maxdepth 1 -type d -print0 | xargs -0 -I {} tar -cvzf {}.tar.gz {}
+summary: |-
+  create a backup for all directories from current dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 6927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig hostname a +short
+summary: |-
+  Get just the IP for a hostname

@@ -1,0 +1,8 @@
+commandlinefu_id: 6835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *;do flac -cd $f |lame -b 192 - $f.mp3;done
+summary: |-
+  convert all flac files in a folder to mp3 files with a bitrate of 192 kbps

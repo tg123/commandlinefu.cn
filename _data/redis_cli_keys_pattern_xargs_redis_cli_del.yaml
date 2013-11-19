@@ -1,0 +1,8 @@
+commandlinefu_id: 12862
+translator:
+  weibo: ''
+hide: true
+command: |-
+  redis-cli keys pattern\* | xargs redis-cli del
+summary: |-
+  Delete keys from Redis by matching a pattern

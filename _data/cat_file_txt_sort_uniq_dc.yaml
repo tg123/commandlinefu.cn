@@ -1,0 +1,8 @@
+commandlinefu_id: 1573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file.txt | sort | uniq -dc
+summary: |-
+  Display duplicated lines in a file

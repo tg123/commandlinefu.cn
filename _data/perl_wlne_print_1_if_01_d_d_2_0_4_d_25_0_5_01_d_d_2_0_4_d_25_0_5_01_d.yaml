@@ -1,0 +1,8 @@
+commandlinefu_id: 3525
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -wlne 'print $1 if /(([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5]))/' iplist
+summary: |-
+  regex to match an ip

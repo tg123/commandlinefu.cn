@@ -1,0 +1,8 @@
+commandlinefu_id: 9923
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias flashplay="mplayer \$(find /proc/\$(pgrep -f 'libgcflash|libflashplayer')/fd/ -printf '%p %l\n' |grep FlashXX | cut -d\  -f1)"
+summary: |-
+  Play flash video in the cache (loaded) with mplayer

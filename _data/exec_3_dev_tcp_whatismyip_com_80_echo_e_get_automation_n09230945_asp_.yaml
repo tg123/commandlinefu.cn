@@ -1,0 +1,8 @@
+commandlinefu_id: 3965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exec 3<>/dev/tcp/whatismyip.com/80; echo -e "GET /automation/n09230945.asp HTTP/1.0\r\nHost: whatismyip.com\r\n" >&3; a=( $(cat <&3) ); echo ${a[${#a[*]}-1]};
+summary: |-
+  Get your external IP address

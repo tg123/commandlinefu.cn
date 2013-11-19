@@ -1,0 +1,8 @@
+commandlinefu_id: 9547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo /opt/nessus/sbin/nessusd
+summary: |-
+  Startup Nessus and initialize plugins on backtrack5

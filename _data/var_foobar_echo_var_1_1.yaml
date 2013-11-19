@@ -1,0 +1,8 @@
+commandlinefu_id: 9718
+translator:
+  weibo: ''
+hide: true
+command: |-
+  var=:foobar:; echo ${var:1:-1}
+summary: |-
+  Remove the first and the latest caracter of a string

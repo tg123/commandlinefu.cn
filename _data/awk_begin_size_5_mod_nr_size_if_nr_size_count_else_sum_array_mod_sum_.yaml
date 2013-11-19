@@ -1,0 +1,8 @@
+commandlinefu_id: 2319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN{size=5} {mod=NR%size; if(NR<=size){count++}else{sum-=array[mod]};sum+=$1;array[mod]=$1;print sum/count}' file.dat
+summary: |-
+  Awk: Perform a rolling average on a column of data

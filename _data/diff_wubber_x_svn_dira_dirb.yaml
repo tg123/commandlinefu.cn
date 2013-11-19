@@ -1,0 +1,8 @@
+commandlinefu_id: 5657
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -wubBEr -x .svn dirA dirB
+summary: |-
+  diff two svn repos ignoring spaces,tabs and svnfiles

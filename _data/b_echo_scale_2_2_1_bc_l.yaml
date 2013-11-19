@@ -1,0 +1,8 @@
+commandlinefu_id: 4422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  b(){ echo "scale=${2:-2}; $1" | bc -l; }
+summary: |-
+  floating point bash calculator w/o precision

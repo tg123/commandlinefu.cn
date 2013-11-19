@@ -1,0 +1,8 @@
+commandlinefu_id: 4350
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -4 -C -c blowfish-cbc
+summary: |-
+  Harder, Faster, Stronger SSH clients

@@ -1,0 +1,8 @@
+commandlinefu_id: 215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo netstat -punta
+summary: |-
+  List open sockets protocol/address/port/state/PID/program name

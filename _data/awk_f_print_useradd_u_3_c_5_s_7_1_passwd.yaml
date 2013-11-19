@@ -1,0 +1,8 @@
+commandlinefu_id: 5785
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F: '{print "useradd -u "$3,"-c \""$5"\"","-s "$7,$1}' passwd
+summary: |-
+  Create user add lines from partial passwd file

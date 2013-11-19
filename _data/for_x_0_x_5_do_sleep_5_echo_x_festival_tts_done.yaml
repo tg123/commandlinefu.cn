@@ -1,0 +1,8 @@
+commandlinefu_id: 10381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ((x=0;;x+=5)); do sleep 5; echo $x | festival --tts & done
+summary: |-
+  Have your sound card call out elapsed time.

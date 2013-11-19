@@ -1,0 +1,8 @@
+commandlinefu_id: 6895
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ctrl+z> bg
+summary: |-
+  Continue a current job in the background

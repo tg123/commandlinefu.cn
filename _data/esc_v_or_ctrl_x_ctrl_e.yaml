@@ -1,0 +1,8 @@
+commandlinefu_id: 8372
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ESC> v or ctrl-x ctrl-e
+summary: |-
+  Rapidly invoke an editor to write a long, complex, or tricky command

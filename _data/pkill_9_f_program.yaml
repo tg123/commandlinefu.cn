@@ -1,0 +1,8 @@
+commandlinefu_id: 2633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill -9 -f program
+summary: |-
+  kill  some process (same as others) but  parsing to a variable

@@ -1,0 +1,8 @@
+commandlinefu_id: 4109
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - http://www.sputnick-area.net/ip;echo
+summary: |-
+  Get your external IP address

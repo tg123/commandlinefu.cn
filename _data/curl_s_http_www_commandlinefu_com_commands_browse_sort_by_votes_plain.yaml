@@ -1,0 +1,8 @@
+commandlinefu_id: 4750
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/[0-2400:25] | grep -oP "^\w+\(\)\ *{.*}"
+summary: |-
+  grab all commandlinefu shell functions into a single file, suitable for sourcing.

@@ -1,0 +1,8 @@
+commandlinefu_id: 3102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | awk '/process-name/ && !/awk/ {print}'
+summary: |-
+  Search for an active process without catching the search-process

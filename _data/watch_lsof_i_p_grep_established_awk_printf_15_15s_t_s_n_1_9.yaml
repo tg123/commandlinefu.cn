@@ -1,0 +1,8 @@
+commandlinefu_id: 12112
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "lsof -i -P |grep ESTABLISHED |awk '{printf \"%15.15s \\t%s\\n\", \$1, \$9}'"
+summary: |-
+  What addresses are your applications talking to?

@@ -1,0 +1,8 @@
+commandlinefu_id: 2011
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history -d
+summary: |-
+  delete a line from your shell history

@@ -1,0 +1,8 @@
+commandlinefu_id: 12094
+translator:
+  weibo: ''
+hide: true
+command: |-
+  axel --max-speed=x
+summary: |-
+  Throttle download speed (at speed x )

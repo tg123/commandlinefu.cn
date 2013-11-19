@@ -1,0 +1,8 @@
+commandlinefu_id: 10641
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount.cifs //10.0.0.1/d/share /mnt/winshare/ -o username=administrator,password=password
+summary: |-
+  Mount windows share to the specified location including credentials

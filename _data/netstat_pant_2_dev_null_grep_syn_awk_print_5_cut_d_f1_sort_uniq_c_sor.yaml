@@ -1,0 +1,8 @@
+commandlinefu_id: 755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -pant 2> /dev/null | grep SYN_ | awk '{print $5;}' | cut -d: -f1 | sort | uniq -c | sort -n | tail -20
+summary: |-
+  List top 20 IP from which TCP connection is in SYN_RECV state

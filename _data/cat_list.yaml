@@ -1,0 +1,8 @@
+commandlinefu_id: 3934
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat > list -
+summary: |-
+  Quick notepad

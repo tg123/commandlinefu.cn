@@ -1,0 +1,8 @@
+commandlinefu_id: 2987
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.[ch]" | xargs grep "TODO"
+summary: |-
+  grep certain file types recursively

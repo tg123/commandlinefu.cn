@@ -1,0 +1,8 @@
+commandlinefu_id: 7911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dc -e '10 [q]sq[dd1=q1-lxx*]dsxxp'
+summary: |-
+  Calculate N!

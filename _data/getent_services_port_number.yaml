@@ -1,0 +1,8 @@
+commandlinefu_id: 7154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent services <port_number>
+summary: |-
+  Find which service was used by which port number

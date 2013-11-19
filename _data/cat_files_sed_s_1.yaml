@@ -1,0 +1,8 @@
+commandlinefu_id: 11630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat files |sed 's/.\(.*\)/\1/'
+summary: |-
+  Remove the first character of each line in a file

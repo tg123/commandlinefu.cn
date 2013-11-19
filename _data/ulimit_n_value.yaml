@@ -1,0 +1,8 @@
+commandlinefu_id: 2703
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ulimit -n <value>
+summary: |-
+  Change open file descriptors limit.

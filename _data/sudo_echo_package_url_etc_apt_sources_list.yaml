@@ -1,0 +1,8 @@
+commandlinefu_id: 10693
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo echo "package url" >> /etc/apt/sources.list
+summary: |-
+  Add a custom package repository to apt sources.list

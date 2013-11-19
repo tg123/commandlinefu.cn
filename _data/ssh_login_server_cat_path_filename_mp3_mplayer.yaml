@@ -1,0 +1,8 @@
+commandlinefu_id: 11313
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh login@server "cat path/filename.mp3" | mplayer -
+summary: |-
+  Music streaming via ssh

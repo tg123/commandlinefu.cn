@@ -1,0 +1,8 @@
+commandlinefu_id: 2864
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -a --delete --link-dest=../lastbackup $folder $dname/
+summary: |-
+  create an incremental backup of a directory using hard links

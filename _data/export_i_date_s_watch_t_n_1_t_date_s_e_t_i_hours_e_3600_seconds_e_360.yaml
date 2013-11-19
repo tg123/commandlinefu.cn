@@ -1,0 +1,8 @@
+commandlinefu_id: 3874
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export I=$(date +%s); watch -t -n 1 'T=$(date +%s);E=$(($T-$I));hours=$((E / 3600)) ; seconds=$((E % 3600)) ; minutes=$((seconds / 60)) ; seconds=$((seconds % 60)) ; echo $(printf "%02d:%02d:%02d" $hours $minutes $seconds) | toilet -f shadow'
+summary: |-
+  StopWatch, toilet version, amazing format inside terminal

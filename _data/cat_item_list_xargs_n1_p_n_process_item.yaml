@@ -1,0 +1,8 @@
+commandlinefu_id: 11973
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat item_list | xargs -n1 -P<n> process_item
+summary: |-
+  Instant threadpool

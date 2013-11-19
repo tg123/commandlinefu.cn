@@ -1,0 +1,8 @@
+commandlinefu_id: 11053
+translator:
+  weibo: ''
+hide: true
+command: |-
+  = () { pushd ${1:+"$1"}; }
+summary: |-
+  Push a directory onto the stack

@@ -1,0 +1,8 @@
+commandlinefu_id: 3766
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  eject /dev/sdb; sleep 1; eject -t /dev/sdb
+summary: |-
+  在gnome重新mount usb 而无需重新拔插

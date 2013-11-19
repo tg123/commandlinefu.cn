@@ -1,0 +1,8 @@
+commandlinefu_id: 3709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "vertical text" | fold -1
+summary: |-
+  Print text string vertically, one character per line.

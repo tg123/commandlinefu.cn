@@ -1,0 +1,8 @@
+commandlinefu_id: 5180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn stat -u | sort | sed -e "s/^M.*/\o033[31m&\o033[0m/" -e "s/^A.*/\o033[34m&\o033[0m/" -e "s/^D.*/\o033[35m&\o033[0m/"
+summary: |-
+  Colorize svn stat

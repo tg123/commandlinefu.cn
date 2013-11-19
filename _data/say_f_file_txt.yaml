@@ -1,0 +1,8 @@
+commandlinefu_id: 3083
+translator:
+  weibo: ''
+hide: true
+command: |-
+  say -f file.txt
+summary: |-
+  Read aloud a text file in Mac OS X

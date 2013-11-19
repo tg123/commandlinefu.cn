@@ -1,0 +1,8 @@
+commandlinefu_id: 2835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $( du -sm /var/log/* | cut -f 1 ) | sed 's/ /+/g'
+summary: |-
+  cooking a list of numbers for calculation

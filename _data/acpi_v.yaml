@@ -1,0 +1,8 @@
+commandlinefu_id: 5804
+translator:
+  weibo: ''
+hide: true
+command: |-
+  acpi -V
+summary: |-
+  Display laptop battery information

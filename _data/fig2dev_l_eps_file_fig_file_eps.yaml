@@ -1,0 +1,8 @@
+commandlinefu_id: 8338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fig2dev -L eps file.fig file.eps
+summary: |-
+  Converting your Xfig 'fig' files to 'eps' and others

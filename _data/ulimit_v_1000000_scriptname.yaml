@@ -1,0 +1,8 @@
+commandlinefu_id: 7742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (ulimit -v 1000000; scriptname)
+summary: |-
+  Limit memory usage per script/program

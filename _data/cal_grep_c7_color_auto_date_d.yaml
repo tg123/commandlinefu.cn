@@ -1,0 +1,8 @@
+commandlinefu_id: 9779
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cal | grep -C7 --color=auto $(date +%d)
+summary: |-
+  prettier

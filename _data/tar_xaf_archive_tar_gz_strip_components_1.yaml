@@ -1,0 +1,8 @@
+commandlinefu_id: 9777
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -xaf archive.tar.gz --strip-components=1
+summary: |-
+  Extract tar content without leading parent directory

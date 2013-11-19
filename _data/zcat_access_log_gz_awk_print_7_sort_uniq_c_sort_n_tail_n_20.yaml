@@ -1,0 +1,8 @@
+commandlinefu_id: 4321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zcat access_log.*.gz | awk '{print $7}' | sort | uniq -c | sort -n | tail -n 20
+summary: |-
+  Analyse compressed Apache access logs for the most commonly requested pages

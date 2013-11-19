@@ -1,0 +1,8 @@
+commandlinefu_id: 3776
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $RANDOM$RANDOM$RANDOM |cut -c3-12
+summary: |-
+  Outputs a 10-digit random number

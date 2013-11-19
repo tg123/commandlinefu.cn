@@ -1,0 +1,8 @@
+commandlinefu_id: 3747
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  if [ "$testnum" -eq "$testnum" 2>/dev/null ]; then echo It is numeric; fi
+summary: |-
+  检查 var 是不是 数字

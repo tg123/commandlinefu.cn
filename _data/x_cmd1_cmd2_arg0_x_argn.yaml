@@ -1,0 +1,8 @@
+commandlinefu_id: 11723
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x=`<cmd1>`; <cmd2> arg0, ... $x, argN, ...
+summary: |-
+  inline bash to port cmd1's output to cmd2's argument list

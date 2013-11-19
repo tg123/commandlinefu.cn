@@ -1,0 +1,8 @@
+commandlinefu_id: 3286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/Library/Application\ Support/Firefox/ -type f -name "*.sqlite" -exec sqlite3 {} VACUUM \;
+summary: |-
+  Cleanup firefox's database.

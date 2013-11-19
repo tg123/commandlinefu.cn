@@ -1,0 +1,8 @@
+commandlinefu_id: 8450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -atr /home/reports/*.csv -o --time-sty=+%s | tail -1 | awk '{print systime()-$5}'
+summary: |-
+  Show seconds since modified of newest modified file in directory

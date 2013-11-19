@@ -1,0 +1,8 @@
+commandlinefu_id: 1729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function svnundopoint() { if [ -d .undo ]; then r=`svn info | grep Revision | cut -f 2 -d ' '` && t=`date +%F_%T` && f=${t}rev${r} && svn diff>.undo/$f && svn stat>.undo/stat_$f; else echo Missing .undo directory; fi }
+summary: |-
+  Create subversion undo point

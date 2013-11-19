@@ -1,0 +1,8 @@
+commandlinefu_id: 3821
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ord () { seq 1 127 | while read i; do echo `chr $i` $i; done | grep "^$1 " | cut -c '3-' }
+summary: |-
+  Get decimal ascii code from character

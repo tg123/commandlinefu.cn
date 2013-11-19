@@ -1,0 +1,8 @@
+commandlinefu_id: 7835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sw_vers [-productName|-productVersion|-buildVersion]
+summary: |-
+  Get version values (ProductName, ProductVersion, BuildVersion) for Mac OS X

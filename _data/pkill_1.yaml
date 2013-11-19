@@ -1,0 +1,8 @@
+commandlinefu_id: 2700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill $1
+summary: |-
+  Kill a process with its name

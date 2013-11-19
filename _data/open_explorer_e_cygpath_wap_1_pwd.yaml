@@ -1,0 +1,8 @@
+commandlinefu_id: 12589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  open() { explorer /e, $(cygpath -wap "${1:-$PWD}"); }
+summary: |-
+  Opens an explorer.exe file browser window for the current working directory

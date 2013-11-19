@@ -1,0 +1,8 @@
+commandlinefu_id: 3994
+translator:
+  weibo: ''
+hide: true
+command: |-
+  GeoipLookUp(){ curl -A "Mozilla/5.0" -s "http://www.geody.com/geoip.php?ip=$1" | grep "^IP.*$1" | html2text; }
+summary: |-
+  geoip information

@@ -1,0 +1,8 @@
+commandlinefu_id: 11121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 00:29:36 | sed s/:/*60+/g | bc
+summary: |-
+  Convert HH:MM:SS into seconds

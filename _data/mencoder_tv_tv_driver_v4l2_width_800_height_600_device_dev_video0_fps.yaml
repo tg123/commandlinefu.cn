@@ -1,0 +1,8 @@
+commandlinefu_id: 3498
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder tv:// -tv driver=v4l2:width=800:height=600:device=/dev/video0:fps=30:outfmt=yuy2:forceaudio:alsa:adevice=hw.2,0 -ovc lavc -lavcopts vcodec=mpeg4:vbitrate=1800 -ffourcc xvid -oac mp3lame -lameopts cbr=128 -o output.avi
+summary: |-
+  Record audio and video from webcam using mencoder

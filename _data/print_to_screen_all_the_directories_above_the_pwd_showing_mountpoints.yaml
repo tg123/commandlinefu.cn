@@ -1,0 +1,8 @@
+commandlinefu_id: 12534
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Print to screen all the directories above the pwd, showing: mountpoints, symbolic links, and permissions (with colors)
+summary: |-
+  whereami() { namei "$PWD" -x -m | sed -r 's@f\:\s(.*)@'$bold$red'\1'$reset'@' | sed -r 's@^\s(\s*)D@'$bold$yellow'\1Mn'$reset'@' | sed -r 's@^\s(\s*)l@'$bold$cyan'\1Ln'$reset'@' ; }

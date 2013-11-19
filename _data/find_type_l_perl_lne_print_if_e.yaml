@@ -1,0 +1,8 @@
+commandlinefu_id: 4193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type l | perl -lne 'print if ! -e'
+summary: |-
+  Find dead symbolic links

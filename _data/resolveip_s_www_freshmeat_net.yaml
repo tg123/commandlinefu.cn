@@ -1,0 +1,8 @@
+commandlinefu_id: 2338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  resolveip -s www.freshmeat.net
+summary: |-
+  resolve hostname to IP our vice versa with less output

@@ -1,0 +1,8 @@
+commandlinefu_id: 7592
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -S file
+summary: |-
+  Display the packages that contain the specified file.

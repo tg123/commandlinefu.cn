@@ -1,0 +1,8 @@
+commandlinefu_id: 5162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hs *|grep M|sort -n
+summary: |-
+  easily find megabyte eating files or directories

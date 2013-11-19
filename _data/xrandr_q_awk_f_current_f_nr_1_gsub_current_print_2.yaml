@@ -1,0 +1,8 @@
+commandlinefu_id: 4772
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xrandr -q | awk -F'current' -F',' 'NR==1 {gsub("( |current)","");print $2}'
+summary: |-
+  Get current Xorg resolution via xrandr

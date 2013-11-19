@@ -1,0 +1,8 @@
+commandlinefu_id: 3977
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ifconfig -a | grep eth | grep HW | cut -d' ' -f11
+summary: |-
+  Get ethX mac addresses

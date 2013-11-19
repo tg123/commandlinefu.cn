@@ -1,0 +1,8 @@
+commandlinefu_id: 9841
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python3 -m http.server
+summary: |-
+  An alternative to: python -m SimpleHTTPServer for Arch Linux

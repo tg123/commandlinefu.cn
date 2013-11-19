@@ -1,0 +1,8 @@
+commandlinefu_id: 11104
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip route get dest_ip
+summary: |-
+  Print a single route to a destination and its contents exactly as the kernel sees it

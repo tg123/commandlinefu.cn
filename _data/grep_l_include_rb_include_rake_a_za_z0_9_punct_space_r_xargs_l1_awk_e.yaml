@@ -1,0 +1,8 @@
+commandlinefu_id: 12908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -l --include '*.rb' --include '*.rake' '^[^#]*[^a-zA-Z0-9[:punct:][:space:]]' -R . | xargs -L1 awk '!/encoding/ && NR < 2 { print FILENAME }'
+summary: |-
+  Search ruby-files with non-ascii character, but without encoding directive

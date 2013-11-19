@@ -1,0 +1,8 @@
+commandlinefu_id: 383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dd if=/dev/mem | cat | strings
+summary: |-
+  A fun thing to do with ram is actually open it up and take a peek. This command will show you all the string (plain text) values in ram

@@ -1,0 +1,8 @@
+commandlinefu_id: 9961
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://whatthecommit.com/index.txt
+summary: |-
+  commit message generator - whatthecommit.com

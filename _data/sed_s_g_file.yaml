@@ -1,0 +1,8 @@
+commandlinefu_id: 7872
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s/<[^>]\+>//g" file
+summary: |-
+  Remove all HTML tags from a file

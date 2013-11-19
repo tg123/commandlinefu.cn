@@ -1,0 +1,8 @@
+commandlinefu_id: 718
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd bs=1 count=32 if=/dev/random 2> /dev/null | md5 | grep -o '\w*'
+summary: |-
+  Generate random password

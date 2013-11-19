@@ -1,0 +1,8 @@
+commandlinefu_id: 8371
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | sed 'p;s/foo/bar/' | xargs -n2 mv
+summary: |-
+  bulk rename files with sed, one-liner

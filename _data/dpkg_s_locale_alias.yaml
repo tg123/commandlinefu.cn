@@ -1,0 +1,8 @@
+commandlinefu_id: 7593
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -S locale.alias
+summary: |-
+  Displays the packages which contain the specified file.

@@ -1,0 +1,8 @@
+commandlinefu_id: 7202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(ls *.flv); do ffmpeg2theora -v 6 --optimize $i; done
+summary: |-
+  Convert all FLV's in a directory to Ogg Theora (video)

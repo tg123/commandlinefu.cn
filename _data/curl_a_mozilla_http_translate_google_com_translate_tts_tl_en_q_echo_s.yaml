@@ -1,0 +1,8 @@
+commandlinefu_id: 10362
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -A "Mozilla" "http://translate.google.com/translate_tts?tl=en&q=$(echo "$@" | sed 's/ /+/g')" | play -t mp3 -
+summary: |-
+  Say something out loud

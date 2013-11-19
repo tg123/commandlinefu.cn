@@ -1,0 +1,8 @@
+commandlinefu_id: 3079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "nohup command rm -rf /phpsessions 1>&2 &>/dev/null 1>&2 &>/dev/null&" | at now + 3 hours 1>&2 &>/dev/null
+summary: |-
+  Schedule a script or command in x num hours, silently run in the background even if logged out

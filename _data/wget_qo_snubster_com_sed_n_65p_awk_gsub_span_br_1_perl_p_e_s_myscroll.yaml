@@ -1,0 +1,8 @@
+commandlinefu_id: 945
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - snubster.com|sed -n '65p'|awk 'gsub(/<span><br>.*/,"")&&1'|perl -p -e 's:myScroller1.addItem\("<span class=atHeaderOrange>::g;s:</span> <span class=snubFontSmall>::g;s:&quot;:":g;s:^:\n:g;s:$:\n:'
+summary: |-
+  Forget fortunes in your terminal this grabs a random

@@ -1,0 +1,8 @@
+commandlinefu_id: 9575
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -d ""
+summary: |-
+  Read null character seperated fields from a file

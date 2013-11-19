@@ -1,0 +1,8 @@
+commandlinefu_id: 10010
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $(pwd) -maxdepth 1 -name "*" -printf "%p\n"
+summary: |-
+  list with full path

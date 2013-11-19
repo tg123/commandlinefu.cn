@@ -1,0 +1,8 @@
+commandlinefu_id: 4882
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file /usr/bin/* | grep ELF | cut -d":" -f1
+summary: |-
+  Provide a list of all ELF binary objects (executable or libs) in a directory

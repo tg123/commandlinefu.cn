@@ -1,0 +1,8 @@
+commandlinefu_id: 3076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name "*.pdf" -exec cp -t ~/Documents/PDF {} +
+summary: |-
+  Copy all documents PDF in disk for your home directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 3001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git checkout -
+summary: |-
+  Switch to the previous branch used in git(1)

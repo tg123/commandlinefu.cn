@@ -1,0 +1,8 @@
+commandlinefu_id: 5591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep rouge-process | xargs sudo kill -9
+summary: |-
+  Kill multiple instances of a running process

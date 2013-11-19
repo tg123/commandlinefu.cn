@@ -1,0 +1,8 @@
+commandlinefu_id: 8703
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo .DS_Store >> ~/.gitignore
+summary: |-
+  ignore .DS_Store forever in GIT

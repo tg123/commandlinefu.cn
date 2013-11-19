@@ -1,0 +1,8 @@
+commandlinefu_id: 9790
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  myhex=$(printf '%02X' ${myip//./ };)
+summary: |-
+  8进制 ip 转16进制

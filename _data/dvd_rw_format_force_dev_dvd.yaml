@@ -1,0 +1,8 @@
+commandlinefu_id: 10602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dvd+rw-format -force /dev/dvd
+summary: |-
+  Erase a re-writable DVD from commandline

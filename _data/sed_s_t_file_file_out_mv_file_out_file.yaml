@@ -1,0 +1,8 @@
+commandlinefu_id: 6425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/^[ \t]*//' < <file> > <file>.out; mv <file>.out <file>
+summary: |-
+  delete all leading whitespace from each line in file

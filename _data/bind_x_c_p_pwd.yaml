@@ -1,0 +1,8 @@
+commandlinefu_id: 7786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind -x '"\C-p"':pwd
+summary: |-
+  create shortcut keys in bash

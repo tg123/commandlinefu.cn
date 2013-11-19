@@ -1,0 +1,8 @@
+commandlinefu_id: 9372
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Fvf file1 file2 > file-new
+summary: |-
+  Remove text from file1 which is in file2 and stores it in an other file

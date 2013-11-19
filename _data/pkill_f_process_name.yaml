@@ -1,0 +1,8 @@
+commandlinefu_id: 5880
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill -f <process name>
+summary: |-
+  Kill process by searching something from 'ps' command

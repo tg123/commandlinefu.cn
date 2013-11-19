@@ -1,0 +1,8 @@
+commandlinefu_id: 4842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  csplit -k my_file 500 {*}
+summary: |-
+  split a file by a specific number of lines

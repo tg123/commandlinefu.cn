@@ -1,0 +1,8 @@
+commandlinefu_id: 6855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash -i 2>&1 | tee /dev/stderr | nc -l 5000
+summary: |-
+  Broadcast your shell thru port 5000

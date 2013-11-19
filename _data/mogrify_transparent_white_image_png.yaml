@@ -1,0 +1,8 @@
+commandlinefu_id: 11795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -transparent white image*.png
+summary: |-
+  Turn white color to transparent for a series of png images

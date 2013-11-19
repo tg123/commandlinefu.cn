@@ -1,0 +1,8 @@
+commandlinefu_id: 4097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pidof -x -o $$ ${0##*/} && exit
+summary: |-
+  exit if another instance is running

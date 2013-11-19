@@ -1,0 +1,8 @@
+commandlinefu_id: 10236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sayspeed() { for i in $(seq 1 `echo "$1"|wc -c`); do echo -n "`echo $1 |cut -c ${i}`"; sleep 0.1s; done; echo "";}
+summary: |-
+  echo text in fancy manner

@@ -1,0 +1,8 @@
+commandlinefu_id: 5867
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tweet(){ update=$(echo $*); [ ${#update} -lt 141 ] && curl -su user:pass -d source=curl -d status="$update" http://twitter.com/statuses/update.xml ->/dev/null || echo $(( ${#update} - 140 )) too many characters >&2; }
+summary: |-
+  Update twitter with curl

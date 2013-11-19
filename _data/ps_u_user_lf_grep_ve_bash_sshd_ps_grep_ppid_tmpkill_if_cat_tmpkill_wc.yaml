@@ -1,0 +1,8 @@
+commandlinefu_id: 6948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -u $USER -lf | grep -vE "\-bash|sshd|ps|grep|PPID" > .tmpkill; if (( $(cat .tmpkill | wc -l) > 0 )); then echo "# KILL EM ALL"; cat .tmpkill; cat .tmpkill | awk '{print $4}' | xargs kill -9; else echo "# NOTHING TO KILL"; fi; cat .tmpkill; rm .tmpkill;
+summary: |-
+  kill all process that belongs to you

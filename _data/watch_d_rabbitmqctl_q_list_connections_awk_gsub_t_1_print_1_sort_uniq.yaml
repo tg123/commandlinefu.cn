@@ -1,0 +1,8 @@
+commandlinefu_id: 12707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -d "rabbitmqctl -q list_connections | awk '{gsub(/[ \t]+/, \"\", \$1); print \$1}' | sort | uniq -c | sort -nr"
+summary: |-
+  Watch the number of RabbitMQ connections by user (sorted)

@@ -1,0 +1,8 @@
+commandlinefu_id: 2503
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man fetchmail | perl -ne 'undef $/; print $1 if m/^.*?(-k \| --keep.*)-K \| --nokeep.*$/smg'
+summary: |-
+  Print multiline text starting and ending at specific regexps with perl

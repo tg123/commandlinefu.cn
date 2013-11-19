@@ -1,0 +1,8 @@
+commandlinefu_id: 10760
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iotop -a -p $(sed 's, , -p ,g' <<<`pgrep "_raid|_resync|jbd2"`)
+summary: |-
+  Monitor RAID IO Usage

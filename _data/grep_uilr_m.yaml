@@ -1,0 +1,8 @@
+commandlinefu_id: 6396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -UIlr "^M" *
+summary: |-
+  finding cr-lf files aka dos files with ^M characters

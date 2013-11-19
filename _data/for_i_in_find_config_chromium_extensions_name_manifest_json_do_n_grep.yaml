@@ -1,0 +1,8 @@
+commandlinefu_id: 5640
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(find ~/.config/chromium/*/Extensions -name 'manifest.json'); do n=$(grep -hIr name $i| cut -f4 -d '"'| sort);u="https://chrome.google.com/extensions/detail/";ue=$(basename $(dirname $(dirname $i))); echo -e "$n:\n$u$ue\n" ; done
+summary: |-
+  List your installed Chromium extensions (with url to each page)

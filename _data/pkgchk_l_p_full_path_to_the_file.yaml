@@ -1,0 +1,8 @@
+commandlinefu_id: 2554
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkgchk -l -p <full path to the file>
+summary: |-
+  Find which package a file belongs to on Solaris

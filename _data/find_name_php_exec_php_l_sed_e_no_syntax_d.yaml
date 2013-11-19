@@ -1,0 +1,8 @@
+commandlinefu_id: 406
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" -exec php -l {} \; | sed -e "/^No syntax/d"
+summary: |-
+  Checks the syntax of all PHP files in and below the current working directory

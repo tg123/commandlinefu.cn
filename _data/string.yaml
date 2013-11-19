@@ -1,0 +1,8 @@
+commandlinefu_id: 3966
+translator:
+  weibo: ''
+hide: true
+command: |-
+  !?<string>?
+summary: |-
+  Execute most recent command containing search string.

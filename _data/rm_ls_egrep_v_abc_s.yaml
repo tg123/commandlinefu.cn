@@ -1,0 +1,8 @@
+commandlinefu_id: 6113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm $( ls | egrep -v 'abc|\s' )
+summary: |-
+  Remove all the files except abc in the directory

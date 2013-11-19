@@ -1,0 +1,8 @@
+commandlinefu_id: 5974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias histdel='history -d $((HISTCMD-2)) && history -d $((HISTCMD-1))'
+summary: |-
+  Delete the previous entry in your history

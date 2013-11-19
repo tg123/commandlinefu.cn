@@ -1,0 +1,8 @@
+commandlinefu_id: 3651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  enscript jrandom.txt -o - | ps2pdf - ~/tmp/jrandom.pdf  (from file) or: ls | enscript -o - | ps2pdf - ~/tmp/ls.pdf (from stdout)
+summary: |-
+  create pdf files from text files or stdout.

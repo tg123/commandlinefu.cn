@@ -1,0 +1,8 @@
+commandlinefu_id: 831
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/$//'
+summary: |-
+  convert DOS newlines to unix newlines

@@ -1,0 +1,8 @@
+commandlinefu_id: 9108
+translator:
+  weibo: ''
+hide: true
+command: |-
+  socat READLINE EXEC:'sqlplus',pty,setsid,ctty
+summary: |-
+  Get readline support for the sqlplus command.

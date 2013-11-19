@@ -1,0 +1,8 @@
+commandlinefu_id: 11248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  avconv -i input.avi -target pal-dvd dvd.mpg && echo PAL > ~/.config/video_format && dvdauthor -o dvd/ -t dvd.mpg && dvdauthor -o dvd/ -T && growisofs -Z /dev/dvd -dvd-video dvd/
+summary: |-
+  Burn a simple DVD-Video without menu using any given video file

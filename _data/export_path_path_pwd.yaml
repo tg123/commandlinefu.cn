@@ -1,0 +1,8 @@
+commandlinefu_id: 7800
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PATH=$PATH:`pwd`
+summary: |-
+  Append current directory to $PATH temporarily.

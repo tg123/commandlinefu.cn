@@ -1,0 +1,8 @@
+commandlinefu_id: 208
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^u
+summary: |-
+  Clear mistyped passwords from password prompt

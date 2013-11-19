@@ -1,0 +1,8 @@
+commandlinefu_id: 12388
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo /usr/sbin/exim -bp | sed -n '/\*\*\* frozen \*\*\*/,+1!p' | awk '{print $1}' | tr -d [:blank:] | grep @ | sort | uniq -c | sort -n
+summary: |-
+  Show counts of messages in exim mail queue, grouped by recipient

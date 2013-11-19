@@ -1,0 +1,8 @@
+commandlinefu_id: 2818
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig -t txt -c chaos VERSION.BIND @<dns.server.com>
+summary: |-
+  Determine what version of bind is running on a dns server.

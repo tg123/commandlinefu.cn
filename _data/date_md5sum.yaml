@@ -1,0 +1,8 @@
+commandlinefu_id: 6683
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  date  | md5sum
+summary: |-
+  可以当作随机的密码

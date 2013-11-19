@@ -1,0 +1,8 @@
+commandlinefu_id: 3099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmesg
+summary: |-
+  detected hardware and boot messages

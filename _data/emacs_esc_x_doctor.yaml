@@ -1,0 +1,8 @@
+commandlinefu_id: 4714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emacs <ESC+x> doctor
+summary: |-
+  Talk to the doctor (Eliza-like)

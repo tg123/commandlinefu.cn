@@ -1,0 +1,8 @@
+commandlinefu_id: 204
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jstat -gc [jvmpid]
+summary: |-
+  JVM Garbage Collector Stats

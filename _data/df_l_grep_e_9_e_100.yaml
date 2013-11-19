@@ -1,0 +1,8 @@
+commandlinefu_id: 5460
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -l | grep -e "9.%" -e "100%"
+summary: |-
+  Report full partitions from a cron

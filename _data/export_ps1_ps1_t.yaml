@@ -1,0 +1,8 @@
+commandlinefu_id: 1401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="${PS1%\\\$*}"' \t \$ '
+summary: |-
+  Add a Clock to Your CLI

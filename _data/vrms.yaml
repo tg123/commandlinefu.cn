@@ -1,0 +1,8 @@
+commandlinefu_id: 1970
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vrms
+summary: |-
+  How many Non-free software is on your machine ?

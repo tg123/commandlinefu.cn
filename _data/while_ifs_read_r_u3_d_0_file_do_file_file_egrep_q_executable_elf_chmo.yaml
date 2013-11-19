@@ -1,0 +1,8 @@
+commandlinefu_id: 9054
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while IFS= read -r -u3 -d $'\0' file; do     file "$file" | egrep -q 'executable|ELF' && chmod +x "$file"; done 3< <(find . -type f -print0)
+summary: |-
+  Set executable permissions only to executable files

@@ -1,0 +1,8 @@
+commandlinefu_id: 5961
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 6s && notify-send -t 10000 -u critical "remember to think" &
+summary: |-
+  Set a Reminder for yourself via the notification system

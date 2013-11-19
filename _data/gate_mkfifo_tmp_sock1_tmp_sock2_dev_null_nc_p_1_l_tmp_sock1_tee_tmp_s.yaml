@@ -1,0 +1,8 @@
+commandlinefu_id: 3630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gate() { mkfifo /tmp/sock1 /tmp/sock2 &> /dev/null && nc -p $1 -l < /tmp/sock1 | tee /tmp/sock2 & PID=$! && nc $2 $3 < /tmp/sock2 | tee /tmp/sock1; kill -KILL $PID; rm -f /tmp/sock1 /tmp/sock2 ; }
+summary: |-
+  Create a single-use TCP proxy with copy to stdout

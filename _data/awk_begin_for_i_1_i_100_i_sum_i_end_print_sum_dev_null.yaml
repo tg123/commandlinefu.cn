@@ -1,0 +1,8 @@
+commandlinefu_id: 3906
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk 'BEGIN {for(i=1;i<=100;i++)sum+=i}; END {print sum}' /dev/null
+summary: |-
+  用awk计算1+2...100

@@ -1,0 +1,8 @@
+commandlinefu_id: 9362
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "root=/dev/sda7" > /proc/param.conf
+summary: |-
+  Adding kernel boot parameters after loading kernel and initrd

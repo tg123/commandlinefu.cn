@@ -1,0 +1,8 @@
+commandlinefu_id: 2578
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vmrun start /path/to/virtual_machine.vmx nogui
+summary: |-
+  run vmware virtual machine from the command line without the gui or X session

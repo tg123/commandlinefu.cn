@@ -1,0 +1,8 @@
+commandlinefu_id: 10873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /SOME/PATH -type f -execdir rm -f {} \+
+summary: |-
+  remove a directory filled with too many files

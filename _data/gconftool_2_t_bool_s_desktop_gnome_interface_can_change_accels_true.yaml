@@ -1,0 +1,8 @@
+commandlinefu_id: 1430
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gconftool-2 -t bool -s /desktop/gnome/interface/can_change_accels true
+summary: |-
+  Activate on-the-fly GTK accels

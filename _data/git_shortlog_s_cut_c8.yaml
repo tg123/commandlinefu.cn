@@ -1,0 +1,8 @@
+commandlinefu_id: 4518
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git shortlog -s | cut -c8-
+summary: |-
+  List all authors of a particular git project

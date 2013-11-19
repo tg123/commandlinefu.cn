@@ -1,0 +1,8 @@
+commandlinefu_id: 6540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lAhutr
+summary: |-
+  Show the last movie/ebook that you have saw/read

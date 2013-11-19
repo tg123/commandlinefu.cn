@@ -1,0 +1,8 @@
+commandlinefu_id: 2778
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -P cat ls > man_ls.txt
+summary: |-
+  save a manpage to plaintext file

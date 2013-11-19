@@ -1,0 +1,8 @@
+commandlinefu_id: 6048
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort -t $'\t' -k 2 input.txt
+summary: |-
+  Pass TAB as field separator to sort, join, cut, etc.

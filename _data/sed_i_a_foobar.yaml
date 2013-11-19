@@ -1,0 +1,8 @@
+commandlinefu_id: 9720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '$a\FOOBAR' *
+summary: |-
+  Append a new line "FOOBAR" in all files matching the glob*

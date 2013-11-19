@@ -1,0 +1,8 @@
+commandlinefu_id: 6423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -vh '^[[:space:]]*\(#\|$\)' <file>
+summary: |-
+  cat a config file removing all comments and blank lines

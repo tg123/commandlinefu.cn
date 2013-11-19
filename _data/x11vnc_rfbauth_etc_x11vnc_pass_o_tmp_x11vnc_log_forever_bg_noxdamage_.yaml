@@ -1,0 +1,8 @@
+commandlinefu_id: 7024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x11vnc -rfbauth /etc/x11vnc.pass -o /tmp/x11vnc.log -forever -bg -noxdamage -rfbport 5900 -avahi -display :0
+summary: |-
+  X11vnc starting session command

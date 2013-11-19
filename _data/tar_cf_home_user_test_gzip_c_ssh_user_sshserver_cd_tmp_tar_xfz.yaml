@@ -1,0 +1,8 @@
+commandlinefu_id: 3177
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cf - /home/user/test | gzip -c | ssh user@sshServer 'cd /tmp; tar xfz -'
+summary: |-
+  move a lot of files over ssh

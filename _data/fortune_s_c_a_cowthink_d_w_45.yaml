@@ -1,0 +1,8 @@
+commandlinefu_id: 843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune -s -c -a | cowthink -d -W 45
+summary: |-
+  A death cow thinking in your fortune cookie

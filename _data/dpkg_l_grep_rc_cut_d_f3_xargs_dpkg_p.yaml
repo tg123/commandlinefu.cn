@@ -1,0 +1,8 @@
+commandlinefu_id: 7129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l | grep ^rc | cut -d' ' -f3 | xargs dpkg -P
+summary: |-
+  Purge configuration files of removed packages on  debian based systems

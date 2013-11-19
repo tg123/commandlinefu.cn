@@ -1,0 +1,8 @@
+commandlinefu_id: 1864
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i.bak '/^[[:space:]]*$/d' file_name
+summary: |-
+  Remove blank lines from a file

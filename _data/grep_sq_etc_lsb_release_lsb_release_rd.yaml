@@ -1,0 +1,8 @@
+commandlinefu_id: 853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -sq "" /etc/lsb-release && lsb_release -rd
+summary: |-
+  Execute a command if a file exists

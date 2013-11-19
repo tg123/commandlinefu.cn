@@ -1,0 +1,8 @@
+commandlinefu_id: 10720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo scp <file or folder> <name of pc 1>@<IP of pc 2>:
+summary: |-
+  how to scp to another pc on network

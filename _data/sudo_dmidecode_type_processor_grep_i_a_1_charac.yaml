@@ -1,0 +1,8 @@
+commandlinefu_id: 5316
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmidecode --type=processor | grep -i -A 1 charac
+summary: |-
+  Determine whether a CPU has 64 bit capability or not

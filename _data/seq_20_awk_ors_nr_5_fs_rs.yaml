@@ -1,0 +1,8 @@
+commandlinefu_id: 8528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 20 | awk 'ORS=NR%5?FS:RS'
+summary: |-
+  join every five lines

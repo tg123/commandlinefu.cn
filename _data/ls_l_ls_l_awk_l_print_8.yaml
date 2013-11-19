@@ -1,0 +1,8 @@
+commandlinefu_id: 4129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l `ls -l |awk '/^l/ {print $8}'`
+summary: |-
+  List all symbolic links in current directory

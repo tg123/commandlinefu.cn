@@ -1,0 +1,8 @@
+commandlinefu_id: 4485
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 50 > /proc/sys/vm/swappiness
+summary: |-
+  Change your swappiness Ratio under linux

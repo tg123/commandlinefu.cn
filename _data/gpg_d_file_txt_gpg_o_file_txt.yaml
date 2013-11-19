@@ -1,0 +1,8 @@
+commandlinefu_id: 9309
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg -d file.txt.gpg -o file.txt
+summary: |-
+  decrypt file.txt.gpg using my private key

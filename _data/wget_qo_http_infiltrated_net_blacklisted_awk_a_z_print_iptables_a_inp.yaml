@@ -1,0 +1,8 @@
+commandlinefu_id: 957
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - http://infiltrated.net/blacklisted|awk '!/#|[a-z]/&&/./{print "iptables -A INPUT -s "$1" -j DROP"}'
+summary: |-
+  Block known dirty hosts from reaching your machine

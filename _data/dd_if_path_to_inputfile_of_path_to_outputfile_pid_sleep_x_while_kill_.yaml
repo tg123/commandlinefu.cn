@@ -1,0 +1,8 @@
+commandlinefu_id: 7214
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/path/to/inputfile of=/path/to/outputfile & pid=$! && sleep X && while kill -USR1 $pid; do sleep X; done
+summary: |-
+  Start dd and show progress every X seconds

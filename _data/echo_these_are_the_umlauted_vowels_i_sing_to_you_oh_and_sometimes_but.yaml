@@ -1,0 +1,8 @@
+commandlinefu_id: 7583
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "?????, these are the umlauted vowels I sing to you. Oh, and sometimes ?, but I don't sing that one cause it doesn't rhyme."
+summary: |-
+  A formatting test for David Winterbottom: improving commandlinefu for submitters

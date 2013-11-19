@@ -1,0 +1,8 @@
+commandlinefu_id: 9101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  composite -dissolve 30% -tile watermark.png input.png output.png
+summary: |-
+  add repeated watermark to image

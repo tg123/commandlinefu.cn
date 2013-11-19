@@ -1,0 +1,8 @@
+commandlinefu_id: 7321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash -x script.sh
+summary: |-
+  print line and execute it in BASH

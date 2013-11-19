@@ -1,0 +1,8 @@
+commandlinefu_id: 6528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tlvp
+summary: |-
+  find out which TCP ports are listening and opened by which process in verbose

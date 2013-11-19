@@ -1,0 +1,8 @@
+commandlinefu_id: 1232
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -t proc{,,}
+summary: |-
+  Mount proc

@@ -1,0 +1,8 @@
+commandlinefu_id: 11696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ALT-U / ALT-L
+summary: |-
+  Convert Shell Text to Upper/Lower Case

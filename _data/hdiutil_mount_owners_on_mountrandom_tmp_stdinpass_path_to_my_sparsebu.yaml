@@ -1,0 +1,8 @@
+commandlinefu_id: 6502
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdiutil mount -owners on -mountrandom /tmp -stdinpass /path/to/my.sparsebundle
+summary: |-
+  Mount FileVault sparsebundle image manually (e.g.: from TimeMachine disk).

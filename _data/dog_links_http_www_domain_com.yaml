@@ -1,0 +1,8 @@
+commandlinefu_id: 6522
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dog --links "http://www.domain.com"
+summary: |-
+  Get all links of a website

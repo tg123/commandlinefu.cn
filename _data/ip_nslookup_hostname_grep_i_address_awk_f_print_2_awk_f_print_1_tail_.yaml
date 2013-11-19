@@ -1,0 +1,8 @@
+commandlinefu_id: 6846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IP=$(nslookup `hostname` | grep -i address | awk -F" " '{print $2}' | awk -F# '{print $1}' | tail -n 1  ); R=3$((RANDOM%6 + 1)); PS1="\n\[\033[1;37m\]\u@\[\033[1;$R""m\]\h^$IP:\[\033[1;37m\]\w\$\[\033[0m\] "
+summary: |-
+  add random color and external ip address to prompt (PS1)

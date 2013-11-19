@@ -1,0 +1,8 @@
+commandlinefu_id: 7895
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  N=10; echo "($N*($N+1)*(2*$N+1))/6" | bc
+summary: |-
+  计算 1**2 + 2**2 + 3**2 + ...

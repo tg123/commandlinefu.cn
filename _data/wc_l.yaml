@@ -1,0 +1,8 @@
+commandlinefu_id: 8996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wc -L
+summary: |-
+  output length of longest line

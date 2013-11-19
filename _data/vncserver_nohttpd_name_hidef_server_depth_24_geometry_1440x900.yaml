@@ -1,0 +1,8 @@
+commandlinefu_id: 886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vncserver -nohttpd -name hidef-server -depth 24 -geometry 1440x900
+summary: |-
+  Make a high definition VNC

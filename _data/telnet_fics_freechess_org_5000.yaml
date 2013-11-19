@@ -1,0 +1,8 @@
+commandlinefu_id: 4024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet fics.freechess.org 5000
+summary: |-
+  Telnet to Free Internet Chess Server

@@ -1,0 +1,8 @@
+commandlinefu_id: 2434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `seq -w 1 30`; do sar -b -f /var/log/sa/sa$x | gawk '/Average/ {print $2}'; done
+summary: |-
+  Extract the daily average number of iops

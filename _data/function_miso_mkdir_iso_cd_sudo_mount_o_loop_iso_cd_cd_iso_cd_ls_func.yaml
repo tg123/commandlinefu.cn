@@ -1,0 +1,8 @@
+commandlinefu_id: 1192
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  function miso () { mkdir ~/ISO_CD && sudo mount -o loop "$@" ~/ISO_CD && cd ~/ISO_CD && ls; } function uiso () { cd ~ && sudo umount ~/ISO_C
+summary: |-
+  None

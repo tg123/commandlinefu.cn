@@ -1,0 +1,8 @@
+commandlinefu_id: 10274
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  watch -n 1 "echo | sudo iptables -nvL | head -1 | awk '{print \$7}'"
+summary: |-
+  查看下载流量

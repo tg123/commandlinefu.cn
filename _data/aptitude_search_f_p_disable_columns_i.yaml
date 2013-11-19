@@ -1,0 +1,8 @@
+commandlinefu_id: 8100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude search -F "%p" --disable-columns ~i
+summary: |-
+  Print sorted list of all installed packages (Debian)

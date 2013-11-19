@@ -1,0 +1,8 @@
+commandlinefu_id: 11159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/#.*//' /etc/fstab | column -t
+summary: |-
+  list all available disks and disk partitions

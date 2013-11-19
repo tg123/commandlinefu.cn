@@ -1,0 +1,8 @@
+commandlinefu_id: 3384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  some_very_long_and_complex_command # label
+summary: |-
+  Easy and fast access to often executed commands that are very long and complex.

@@ -1,0 +1,8 @@
+commandlinefu_id: 10041
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo 474e552773204e6f7420556e697821 | sed -e 's/\(.\{2\}\)/\\\\x\1/g' | xargs echo -e
+summary: |-
+  转换hex到str

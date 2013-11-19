@@ -1,0 +1,8 @@
+commandlinefu_id: 11647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias emacs='vim'
+summary: |-
+  Improve Emacs

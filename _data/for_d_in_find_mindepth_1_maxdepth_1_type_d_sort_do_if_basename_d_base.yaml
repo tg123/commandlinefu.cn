@@ -1,0 +1,8 @@
+commandlinefu_id: 2191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for d in `find .. -mindepth 1 -maxdepth 1 -type d | sort`; do if [[ `basename $d` > `basename $PWD` ]]; then cd $d; break; fi; done
+summary: |-
+  Go to the next sibling directory in alphabetical order

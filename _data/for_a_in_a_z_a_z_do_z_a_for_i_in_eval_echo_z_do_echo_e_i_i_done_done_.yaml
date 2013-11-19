@@ -1,0 +1,8 @@
+commandlinefu_id: 6899
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for _a in {A..Z} {a..z};do _z=\${!${_a}*};for _i in `eval echo "${_z}"`;do echo -e "$_i: ${!_i}";done;done|cat -Tsv
+summary: |-
+  Print all environment variables, including hidden ones

@@ -1,0 +1,8 @@
+commandlinefu_id: 4238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pmap -d <<pid>>
+summary: |-
+  Determining the excat memory usages by certain PID

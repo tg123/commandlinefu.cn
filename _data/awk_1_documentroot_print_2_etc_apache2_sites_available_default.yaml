@@ -1,0 +1,8 @@
+commandlinefu_id: 6145
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '$1~/^DocumentRoot/{print $2}' /etc/apache2/sites-available/default
+summary: |-
+  How To Get the Apache Document Root

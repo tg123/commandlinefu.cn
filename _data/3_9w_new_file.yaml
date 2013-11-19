@@ -1,0 +1,8 @@
+commandlinefu_id: 1392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :3,9w new_file
+summary: |-
+  Copy the text from the 3rd line to the 9th line into a new file with VI

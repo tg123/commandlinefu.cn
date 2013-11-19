@@ -1,0 +1,8 @@
+commandlinefu_id: 8826
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cf - . |(cd /targetdir; tar xvf -)
+summary: |-
+  tar's and moves all contents of current directory to target dir

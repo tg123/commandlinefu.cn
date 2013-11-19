@@ -1,0 +1,8 @@
+commandlinefu_id: 8006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vo fbdev $1 -fs -subcp ${2:-cp1251} -vf scale=${3:-1280:720}
+summary: |-
+  Start mplayer in the framebuffer

@@ -1,0 +1,8 @@
+commandlinefu_id: 6463
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@remote 'cat >> ~/.ssh/authorized_keys2' < ~/.ssh/id_rsa.pub
+summary: |-
+  Install your ssh key file on a remote system

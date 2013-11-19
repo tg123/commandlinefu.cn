@@ -1,0 +1,8 @@
+commandlinefu_id: 4495
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nl <filename>
+summary: |-
+  Prints line numbers

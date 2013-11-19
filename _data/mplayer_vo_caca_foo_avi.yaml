@@ -1,0 +1,8 @@
+commandlinefu_id: 2287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vo caca foo.avi
+summary: |-
+  Lire une video dans une console Linux

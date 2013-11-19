@@ -1,0 +1,8 @@
+commandlinefu_id: 4584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" | xargs grep -il searchphrase
+summary: |-
+  Find all files containing a word

@@ -1,0 +1,8 @@
+commandlinefu_id: 11651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  replace old new -- `find -type f`
+summary: |-
+  recursive search and replace old with new string, inside files

@@ -1,0 +1,8 @@
+commandlinefu_id: 5623
+translator:
+  weibo: ''
+hide: true
+command: |-
+  source  filename_script.sh
+summary: |-
+  Execute external code

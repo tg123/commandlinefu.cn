@@ -1,0 +1,8 @@
+commandlinefu_id: 8390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "shutdown -h now" | sudo at now + 4 hours
+summary: |-
+  shutdown pc in a 4 hours

@@ -1,0 +1,8 @@
+commandlinefu_id: 7602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bargs { while read i; do "$@" "$i"; done }
+summary: |-
+  xargs for builtin bash commands

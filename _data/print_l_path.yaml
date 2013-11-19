@@ -1,0 +1,8 @@
+commandlinefu_id: 3217
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  print -l $path
+summary: |-
+  显示PATH中的目录 ，每行一个

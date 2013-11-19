@@ -1,0 +1,8 @@
+commandlinefu_id: 708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -bordercolor Transparent -border 1x1 in.png out.png
+summary: |-
+  Add a 1 pixel padding around an image.

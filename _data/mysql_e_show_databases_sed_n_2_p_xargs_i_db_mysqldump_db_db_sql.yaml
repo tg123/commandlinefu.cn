@@ -1,0 +1,8 @@
+commandlinefu_id: 3631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -e 'show databases' | sed -n '2,$p' | xargs -I DB 'mysqldump DB > DB.sql'
+summary: |-
+  Backup all MySQL Databases to individual files

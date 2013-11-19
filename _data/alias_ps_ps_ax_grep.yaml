@@ -1,0 +1,8 @@
+commandlinefu_id: 88
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias 'ps?'='ps ax | grep '
+summary: |-
+  Easily search running processes (alias).

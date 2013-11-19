@@ -1,0 +1,8 @@
+commandlinefu_id: 10981
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find / -perm -2 ! -type l -ls
+summary: |-
+  list all world-writeable Linux files

@@ -1,0 +1,8 @@
+commandlinefu_id: 3953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  absolute_path () { readlink -f "$1"; };
+summary: |-
+  Get the absolute path of a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 10197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netsh firewall add programmaautorizzato C:\nltest.exe mltest enable
+summary: |-
+  how to allow a program to listen through the firewall

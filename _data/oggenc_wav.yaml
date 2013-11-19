@@ -1,0 +1,8 @@
+commandlinefu_id: 4046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  oggenc *.wav
+summary: |-
+  convert wav files to ogg

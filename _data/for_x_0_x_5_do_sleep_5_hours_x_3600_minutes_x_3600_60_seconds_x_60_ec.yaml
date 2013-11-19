@@ -1,0 +1,8 @@
+commandlinefu_id: 10382
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ((x=0;;x+=5)); do sleep 5; hours=$(($x/3600)); minutes=$(($x%3600/60)); seconds=$(($x%60)); echo "$hours hours $minutes minutes $seconds seconds have elapsed" | festival --tts & done
+summary: |-
+  Have your sound card call out elapsed time.

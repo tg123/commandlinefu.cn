@@ -1,0 +1,8 @@
+commandlinefu_id: 1871
+translator:
+  weibo: ''
+hide: true
+command: |-
+  trap cmd 0
+summary: |-
+  Execute a command on logout

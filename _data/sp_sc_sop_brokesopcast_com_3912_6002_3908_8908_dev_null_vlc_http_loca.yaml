@@ -1,0 +1,8 @@
+commandlinefu_id: 10725
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (sp-sc sop://brokesopcast.com:3912/6002 3908 8908 &>/dev/null &); vlc http://localhost:8908/tv.asf
+summary: |-
+  Watch sopcast stream with VLC

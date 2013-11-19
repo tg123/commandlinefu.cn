@@ -1,0 +1,8 @@
+commandlinefu_id: 1918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/sshd/ && /Failed/ {gsub(/invalid user/,""); printf "%-12s %-16s %s-%s-%s\n", $9, $11, $1, $2, $3}' /var/log/auth.log
+summary: |-
+  Displays the attempted user name, ip address, and time of SSH failed logins on Debian machines

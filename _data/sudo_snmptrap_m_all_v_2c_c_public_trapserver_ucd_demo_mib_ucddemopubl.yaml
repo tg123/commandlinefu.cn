@@ -1,0 +1,8 @@
+commandlinefu_id: 2908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo snmptrap -m ALL -v 2c -c public trapserver "" UCD-DEMO-MIB::ucdDemoPublic SNMPv2-MIB::sysLocation.0 s "Just here"
+summary: |-
+  Send SNMP traps

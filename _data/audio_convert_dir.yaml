@@ -1,0 +1,8 @@
+commandlinefu_id: 4913
+translator:
+  weibo: ''
+hide: true
+command: |-
+  audio-convert <dir>/*
+summary: |-
+  Convert all .wav to .mp3

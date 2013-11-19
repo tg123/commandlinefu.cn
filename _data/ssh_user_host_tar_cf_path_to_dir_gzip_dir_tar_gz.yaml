@@ -1,0 +1,8 @@
+commandlinefu_id: 9892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host "tar -cf - /path/to/dir" | gzip > dir.tar.gz
+summary: |-
+  Create a local compressed tarball from remote host directory

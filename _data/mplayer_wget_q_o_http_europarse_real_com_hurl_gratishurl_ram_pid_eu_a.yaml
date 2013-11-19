@@ -1,0 +1,8 @@
+commandlinefu_id: 7756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer  $(wget -q -O - "http://europarse.real.com/hurl/gratishurl.ram?pid=eu_aljazeera&amp;file=al_jazeera_en_lo.rm" | sed -e 's#lo.rm#hi.rm#')
+summary: |-
+  Watch Al Jazeera Livestream directly in mplayer #jan25

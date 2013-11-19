@@ -1,0 +1,8 @@
+commandlinefu_id: 12800
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -size +100M
+summary: |-
+  Recursivly search current directory for files larger than 100MB

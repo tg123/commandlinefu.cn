@@ -1,0 +1,8 @@
+commandlinefu_id: 1106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -Pz user@remotehost:/path/file.dat .
+summary: |-
+  Copy a file from a remote server to your local box using on-the-fly compression

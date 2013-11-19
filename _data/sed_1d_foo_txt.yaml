@@ -1,0 +1,8 @@
+commandlinefu_id: 11278
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 1d foo.txt
+summary: |-
+  Deleting / Ignoring lines from the top of a file

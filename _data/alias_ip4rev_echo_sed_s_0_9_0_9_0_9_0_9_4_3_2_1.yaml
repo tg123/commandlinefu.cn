@@ -1,0 +1,8 @@
+commandlinefu_id: 380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ip4rev "echo \!* | sed 's/^\([0-9]*\)\.\([0-9]*\)\.\([0-9]*\)\.\([0-9]*\)/\4.\3.\2.\1/'"
+summary: |-
+  (tcsh alias)Reverse an IPv4 address. It is useful to looking the address up in DNSBL.

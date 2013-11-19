@@ -1,0 +1,8 @@
+commandlinefu_id: 24
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -type f -exec grep \-H "search term" {} \;
+summary: |-
+  Find the files that contain a certain term

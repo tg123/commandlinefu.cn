@@ -1,0 +1,8 @@
+commandlinefu_id: 11335
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/search -xtype l
+summary: |-
+  Find broken symlinks

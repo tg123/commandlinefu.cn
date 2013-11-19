@@ -1,0 +1,8 @@
+commandlinefu_id: 3016
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O - -q icanhazip.com
+summary: |-
+  return external ip

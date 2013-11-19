@@ -1,0 +1,8 @@
+commandlinefu_id: 11603
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -r "s@\^\[{1,2}([0-9]{1,2}(;[0-9]{1,2})?(;[0-9])?(m|K){1,2})?@@g"
+summary: |-
+  Remove color codes (special characters) with sed

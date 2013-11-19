@@ -1,0 +1,8 @@
+commandlinefu_id: 12318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimhtml() { [[ -f "$1" ]] || return 1; vim +'syn on | run! syntax/2html.vim | wq | q' "$1";}
+summary: |-
+  Use Vim to convert text to HTML.

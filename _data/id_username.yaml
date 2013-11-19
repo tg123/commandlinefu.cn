@@ -1,0 +1,8 @@
+commandlinefu_id: 6822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  id <username>
+summary: |-
+  Verify if user account exists in Linux / Unix

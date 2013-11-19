@@ -1,0 +1,8 @@
+commandlinefu_id: 8727
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -scb
+summary: |-
+  Sum file sizes

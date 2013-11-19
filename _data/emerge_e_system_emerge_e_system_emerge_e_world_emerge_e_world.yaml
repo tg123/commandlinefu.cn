@@ -1,0 +1,8 @@
+commandlinefu_id: 927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emerge -e system && emerge -e system && emerge -e world && emerge -e world
+summary: |-
+  Double Compile system and world on gentoo

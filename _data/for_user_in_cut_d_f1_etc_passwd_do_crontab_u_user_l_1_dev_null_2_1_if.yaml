@@ -1,0 +1,8 @@
+commandlinefu_id: 3726
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for USER in `cut -d ":" -f1 </etc/passwd`; do crontab -u ${USER} -l 1>/dev/null 2>&1; if [ ! ${?} -ne 0 ]; then echo -en "--- crontab for ${USER} ---\n$(crontab -u ${USER} -l)\n"; fi; done
+summary: |-
+  print crontab entries for all the users that actually have a crontab

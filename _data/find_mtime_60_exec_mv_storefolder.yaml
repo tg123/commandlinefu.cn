@@ -1,0 +1,8 @@
+commandlinefu_id: 6127
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./* -mtime +60 -exec mv {} storeFolder \;
+summary: |-
+  move all files older than 60 days to a folder

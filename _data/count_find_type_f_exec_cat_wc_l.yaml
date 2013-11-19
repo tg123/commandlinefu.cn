@@ -1,0 +1,8 @@
+commandlinefu_id: 2221
+translator:
+  weibo: ''
+hide: true
+command: |-
+  count() { find $@ -type f -exec cat {} + | wc -l; }
+summary: |-
+  Function that counts recursively number of lines of all files in specified folders

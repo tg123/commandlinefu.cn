@@ -1,0 +1,8 @@
+commandlinefu_id: 9595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ..='cd ..'
+summary: |-
+  move you up one directory quickly

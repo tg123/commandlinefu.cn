@@ -1,0 +1,8 @@
+commandlinefu_id: 8350
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep HWaddr
+summary: |-
+  Reading my nic's mac address

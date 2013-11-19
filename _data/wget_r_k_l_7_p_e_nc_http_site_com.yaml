@@ -1,0 +1,8 @@
+commandlinefu_id: 9079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -k -l 7 -p -E -nc http://site.com/
+summary: |-
+  &#1089;&#1082;&#1072;&#1095;&#1072;&#1090;&#1100; &#1089;&#1072;&#1081;&#1090;

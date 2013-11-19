@@ -1,0 +1,8 @@
+commandlinefu_id: 1122
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias timestamp='date "+%Y%m%dT%H%M%S"'
+summary: |-
+  Unix alias for date command that lets you create timestamps in ISO 8601 format

@@ -1,0 +1,8 @@
+commandlinefu_id: 2843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget `lynx -dump http://www.ebow.com/ebowtube.php | grep .flv$ | sed 's/[[:blank:]]\+[[:digit:]]\+\. //g'`
+summary: |-
+  Grab all .flv files from a webpage to the current working directory

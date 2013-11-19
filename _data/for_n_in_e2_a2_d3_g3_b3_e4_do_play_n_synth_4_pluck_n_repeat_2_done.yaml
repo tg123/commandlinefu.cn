@@ -1,0 +1,8 @@
+commandlinefu_id: 4338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for n in E2 A2 D3 G3 B3 E4;do play -n synth 4 pluck $n repeat 2;done
+summary: |-
+  Tune your guitar from the command line.

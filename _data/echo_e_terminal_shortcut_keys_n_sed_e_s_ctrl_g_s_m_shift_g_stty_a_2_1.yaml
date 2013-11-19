@@ -1,0 +1,8 @@
+commandlinefu_id: 7847
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "Terminal shortcut keys\n" && sed -e 's/\^/Ctrl+/g;s/M-/Shift+/g' <(stty -a 2>&1| sed -e 's/;/\n/g' | grep "\^" | tr -d ' ')
+summary: |-
+  Terminal Keyboard Shortcut list

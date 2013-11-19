@@ -1,0 +1,8 @@
+commandlinefu_id: 3606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host A: cat /proc/dev/ttyS0    host B: echo hello > /dev/ttyS0
+summary: |-
+  Test a serial connection

@@ -1,0 +1,8 @@
+commandlinefu_id: 8011
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find directory/ -mtime 0 -type f
+summary: |-
+  Find today created files

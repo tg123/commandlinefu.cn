@@ -1,0 +1,8 @@
+commandlinefu_id: 11609
+translator:
+  weibo: ''
+hide: true
+command: |-
+  omp(){ $*|convert label:@- png:-|curl -sF file1=@- http://ompldr.org/upload | grep -P -o "(?<=File:).*(http://ompldr.org/.*)\<\/a\>" | sed -r 's@.*(http://ompldr.org/\w{1,7}).*@\1@';}
+summary: |-
+  Create a .png from a command output and upload to ompdlr.org, give URI

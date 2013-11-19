@@ -1,0 +1,8 @@
+commandlinefu_id: 3434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -lne '$l{$_}=length;END{for(sort{$l{$a}<=>$l{$b}}keys %l){print}}' < /usr/share/dict/words | tail
+summary: |-
+  sort lines by length

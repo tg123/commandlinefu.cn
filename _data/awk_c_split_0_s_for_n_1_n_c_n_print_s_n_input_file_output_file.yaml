@@ -1,0 +1,8 @@
+commandlinefu_id: 2569
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{c=split($0, s); for(n=1; n<=c; ++n) print s[n] }' INPUT_FILE > OUTPUT_FILE
+summary: |-
+  Puts every word from a file into a new line

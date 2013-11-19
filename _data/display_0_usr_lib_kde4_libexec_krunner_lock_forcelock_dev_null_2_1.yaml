@@ -1,0 +1,8 @@
+commandlinefu_id: 2263
+translator:
+  weibo: ''
+hide: true
+command: |-
+  DISPLAY=:0 /usr/lib/kde4/libexec/krunner_lock --forcelock >/dev/null 2>&1 &
+summary: |-
+  Lock your KDE4 remotely (via regular KDE lock)

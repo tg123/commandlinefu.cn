@@ -1,0 +1,8 @@
+commandlinefu_id: 4597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 7 -d 'uptime | sed s/.*users?, //'
+summary: |-
+  keep an eye on system load changes

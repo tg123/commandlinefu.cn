@@ -1,0 +1,8 @@
+commandlinefu_id: 12555
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read X ; do printf "$X --"; virsh dumpxml $X | egrep "source dev|source file"; done< <(virsh list | awk '$1 ~ /^[1-9]/ { print $2 }')
+summary: |-
+  kvm disk info

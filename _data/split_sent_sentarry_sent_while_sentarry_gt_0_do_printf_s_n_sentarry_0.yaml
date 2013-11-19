@@ -1,0 +1,8 @@
+commandlinefu_id: 4820
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Split() { SENT=${*} ; sentarry=( ${SENT} ) ; while [[ ${#sentarry[@]} -gt 0 ]] ; do printf "%s\n" "${sentarry[0]}" ; sentarry=( ${sentarry[@]:1} ) ; done ; }
+summary: |-
+  Function to split a string into an array

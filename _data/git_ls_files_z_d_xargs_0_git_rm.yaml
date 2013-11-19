@@ -1,0 +1,8 @@
+commandlinefu_id: 8484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git ls-files -z -d | xargs -0 git rm --
+summary: |-
+  git-rm for all deleted files, including those with space/quote/unprintable characters in their filename/path

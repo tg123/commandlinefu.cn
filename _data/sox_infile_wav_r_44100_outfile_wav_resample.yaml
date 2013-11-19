@@ -1,0 +1,8 @@
+commandlinefu_id: 11030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sox infile.wav -r 44100 outfile.wav resample
+summary: |-
+  Resample a WAV file with sox

@@ -1,0 +1,8 @@
+commandlinefu_id: 3446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e "print scalar(gmtime(1247848584))"
+summary: |-
+  print scalar gmtime

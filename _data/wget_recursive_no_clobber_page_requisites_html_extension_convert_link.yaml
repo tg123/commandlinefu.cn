@@ -1,0 +1,8 @@
+commandlinefu_id: 12838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --recursive --no-clobber --page-requisites --html-extension --convert-links --domains website.org --no-parent www.website.com/folder
+summary: |-
+  Download an entire website from a specific folder on down

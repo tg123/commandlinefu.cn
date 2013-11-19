@@ -1,0 +1,8 @@
+commandlinefu_id: 12630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup bash -c "while true; do ps -x | mail pascalv@mmmmail.com; sleep 3600; done" | mail pascalv@mmmmail.com &
+summary: |-
+  Periodically run a command without hangups, and send the output to your e-mail

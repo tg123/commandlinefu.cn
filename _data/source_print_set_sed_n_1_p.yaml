@@ -1,0 +1,8 @@
+commandlinefu_id: 7146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  source_print(){ set | sed -n "/^$1/,/^}$/p"; };
+summary: |-
+  get function's source

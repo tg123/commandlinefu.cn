@@ -1,0 +1,8 @@
+commandlinefu_id: 11395
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -c7 /dev/urandom|base64|tr -d '='
+summary: |-
+  generate a randome 10 character password

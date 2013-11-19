@@ -1,0 +1,8 @@
+commandlinefu_id: 12311
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git-createrepo() { repos_path='/srv/git/'; mkdir $repos_path$1; cd $repos_path$1;   git init --bare;   echo "Repository location: ssh://$USER@`cat /etc/HOSTNAME``pwd`"; cd -; }
+summary: |-
+  Create a git repository

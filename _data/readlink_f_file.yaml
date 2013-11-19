@@ -1,0 +1,8 @@
+commandlinefu_id: 9330
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -f <file>
+summary: |-
+  Find out actual full path of <file>

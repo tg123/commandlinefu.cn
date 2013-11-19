@@ -1,0 +1,8 @@
+commandlinefu_id: 2212
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TOM=`perl -w -e '@tom=localtime(time+86400);printf "%d%.2d%.2d",$tom[5]+1900,$tom[4]+1,$tom[3];'`
+summary: |-
+  Get Tomorrow's Date

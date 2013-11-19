@@ -1,0 +1,8 @@
+commandlinefu_id: 7105
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $( vmrun list | grep 'vmx$' | sort ); do printf "% 40s %s M\n" $(echo "$( echo -n ${file}:\ ; grep memsize $file )" | sed -e 's/.*\///' -e 's/"//g' -e 's/memsize.=//'); done;
+summary: |-
+  get memory configuration (not consumption) for all running VMware virtual machines

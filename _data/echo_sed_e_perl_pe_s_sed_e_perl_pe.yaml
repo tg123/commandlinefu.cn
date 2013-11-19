@@ -1,0 +1,8 @@
+commandlinefu_id: 812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "sed -e"|perl -pe 's/sed -e/perl -pe/'
+summary: |-
+  use perl instead of sed

@@ -1,0 +1,8 @@
+commandlinefu_id: 10842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fdisk -l /dev/sda
+summary: |-
+  See size of partitions

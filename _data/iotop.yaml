@@ -1,0 +1,8 @@
+commandlinefu_id: 12284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iotop
+summary: |-
+  I/O top equivalent

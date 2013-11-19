@@ -1,0 +1,8 @@
+commandlinefu_id: 2706
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste | tidy -xml -wrap 0 | pbcopy
+summary: |-
+  OSX command to take badly formatted xml from the clipboard, cleans it up and puts it back into the clipboard.

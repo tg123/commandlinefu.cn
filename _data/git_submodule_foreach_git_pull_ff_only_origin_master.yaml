@@ -1,0 +1,8 @@
+commandlinefu_id: 10251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git submodule foreach git pull --ff-only origin master
+summary: |-
+  Update (pull commits from) all submodules

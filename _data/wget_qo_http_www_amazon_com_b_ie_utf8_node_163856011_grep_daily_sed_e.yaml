@@ -1,0 +1,8 @@
+commandlinefu_id: 9424
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO- "http://www.amazon.com/b?ie=UTF8&node=163856011" | grep Daily | sed -e 's/<[^>]*>//g' -e 's/^ *//' -e 's/\&[^;]*;/ /'
+summary: |-
+  AmazonMP3 Daily Deals

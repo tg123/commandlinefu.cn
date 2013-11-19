@@ -1,0 +1,8 @@
+commandlinefu_id: 9884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'print "hello".encode("hex")'
+summary: |-
+  convert ascii string to hex

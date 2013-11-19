@@ -1,0 +1,8 @@
+commandlinefu_id: 11117
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -S [name] -d -m [<command>]
+summary: |-
+  starts a detached screen with name

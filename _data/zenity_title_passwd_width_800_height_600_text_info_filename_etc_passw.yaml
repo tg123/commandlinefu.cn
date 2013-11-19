@@ -1,0 +1,8 @@
+commandlinefu_id: 5375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zenity --title passwd --width 800 --height 600 --text-info --filename /etc/passwd
+summary: |-
+  Open a file in a GTK+ dialog window

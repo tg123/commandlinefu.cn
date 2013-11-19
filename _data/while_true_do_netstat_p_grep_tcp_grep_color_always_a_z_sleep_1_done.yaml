@@ -1,0 +1,8 @@
+commandlinefu_id: 2674
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do netstat -p |grep "tcp"|grep --color=always "/[a-z]*";sleep 1;done
+summary: |-
+  Monitor Applications application that are connected/new connections

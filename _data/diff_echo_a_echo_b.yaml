@@ -1,0 +1,8 @@
+commandlinefu_id: 2662
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(echo "$a") <(echo "$b")
+summary: |-
+  Diff on two variables

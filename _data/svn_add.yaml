@@ -1,0 +1,8 @@
+commandlinefu_id: 8677
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn add *
+summary: |-
+  Add all unversioned files to svn

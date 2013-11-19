@@ -1,0 +1,8 @@
+commandlinefu_id: 5518
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . \( -iname '*.[ch]' -o -iname '*.php' -o -iname '*.pl' \) -exec wc -l {} + | sort -n
+summary: |-
+  Count lines of code across multiple file types, sorted by least amount of code to greatest

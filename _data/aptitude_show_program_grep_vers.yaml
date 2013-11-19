@@ -1,0 +1,8 @@
+commandlinefu_id: 1264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude show $PROGRAM | grep Vers
+summary: |-
+  know which version of the program is installed on your Debian and derivatives

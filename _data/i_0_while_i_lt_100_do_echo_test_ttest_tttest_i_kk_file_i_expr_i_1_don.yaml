@@ -1,0 +1,8 @@
+commandlinefu_id: 11277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i=0; while [ $i -lt 100 ]; do echo "test, ttest, tttest-${i}" >> kk.file; i=`expr $i + 1`; done
+summary: |-
+  Generate a test csv file using looping in AIX

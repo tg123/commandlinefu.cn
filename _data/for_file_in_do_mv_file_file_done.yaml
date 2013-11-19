@@ -1,0 +1,8 @@
+commandlinefu_id: 10658
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in "* *"; do mv "${file}" "${file// /_}"; done
+summary: |-
+  Replace Space In Filenames With Underscore

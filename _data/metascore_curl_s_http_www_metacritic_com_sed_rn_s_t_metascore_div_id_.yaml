@@ -1,0 +1,8 @@
+commandlinefu_id: 5091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  metascore(){ curl -s "http://www.metacritic.com/$@" | sed -rn 's|\t*<!-- metascore --><div id="metascore" class=".*">([^<]*)</div>|\1|p'; }
+summary: |-
+  Get a metascore from metacritic.com

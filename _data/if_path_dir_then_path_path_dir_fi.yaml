@@ -1,0 +1,8 @@
+commandlinefu_id: 12595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [[ ":$PATH:" != *":$dir:"* ]]; then PATH=${PATH}:$dir; fi
+summary: |-
+  Add directory to $PATH if it's not already there

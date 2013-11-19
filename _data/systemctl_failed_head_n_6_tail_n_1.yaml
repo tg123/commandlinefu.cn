@@ -1,0 +1,8 @@
+commandlinefu_id: 10967
+translator:
+  weibo: ''
+hide: true
+command: |-
+  systemctl --failed | head -n -6 | tail -n -1
+summary: |-
+  Print failed units in systemd

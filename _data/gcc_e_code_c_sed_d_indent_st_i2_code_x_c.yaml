@@ -1,0 +1,8 @@
+commandlinefu_id: 10883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gcc -E code.c | sed '/^\#/d' | indent -st -i2 > code-x.c
+summary: |-
+  Apply only preprocessor for .c file and beautify output

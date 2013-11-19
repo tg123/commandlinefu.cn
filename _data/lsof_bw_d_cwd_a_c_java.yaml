@@ -1,0 +1,8 @@
+commandlinefu_id: 8605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -bw -d cwd -a -c java
+summary: |-
+  show the working directories of running processes

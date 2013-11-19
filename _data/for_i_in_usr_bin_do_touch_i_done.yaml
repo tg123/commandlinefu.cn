@@ -1,0 +1,8 @@
+commandlinefu_id: 9527
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in /usr/bin/* ;do touch ${i##*/}; done
+summary: |-
+  Create a false directory structure for testing your commands

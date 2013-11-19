@@ -1,0 +1,8 @@
+commandlinefu_id: 12680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `ip addr show dev eth1 | grep inet | awk '{print $2}' | cut -d/ -f1`; do echo -n $i; echo -en '\t'; host $i | awk '{print $5}'; done
+summary: |-
+  Find a machine's IP address and FQDN

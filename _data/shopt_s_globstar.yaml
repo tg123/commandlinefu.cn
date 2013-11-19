@@ -1,0 +1,8 @@
+commandlinefu_id: 2093
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt -s globstar
+summary: |-
+  Enable ** to expand files recursively (>=bash-4.0)

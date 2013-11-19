@@ -1,0 +1,8 @@
+commandlinefu_id: 12633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 3000, :DocumentRoot => Dir.pwd).start'
+summary: |-
+  A one-line web server in Ruby

@@ -1,0 +1,8 @@
+commandlinefu_id: 11663
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export DISPLAY=$(tr '\000' '\n' < /proc/`pidof Xorg`/cmdline | egrep '^:[0-9]+')
+summary: |-
+  Find out local DISPLAY number

@@ -1,0 +1,8 @@
+commandlinefu_id: 9123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename.ul "" 00 ?.jpg; rename "" 0 ??.jpg;
+summary: |-
+  Adding leading zeros to a filename (1.jpg -> 001.jpg)

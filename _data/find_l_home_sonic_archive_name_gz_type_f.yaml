@@ -1,0 +1,8 @@
+commandlinefu_id: 12796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -L /home/sonic/archive -name '*gz' -type f
+summary: |-
+  make GNU find follow symbolic links

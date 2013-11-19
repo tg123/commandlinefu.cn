@@ -1,0 +1,8 @@
+commandlinefu_id: 9729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [[ $EUID -ne 0 ]]; then echo 'Root permissions required! Exiting.'; exit; fi
+summary: |-
+  Terminate script or shell if not launched as root

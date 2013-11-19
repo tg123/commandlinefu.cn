@@ -1,0 +1,8 @@
+commandlinefu_id: 12063
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zmv '(*).txt' '$1.csv'
+summary: |-
+  rename multiple files with different name, eg converting all txt to csv

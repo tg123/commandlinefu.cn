@@ -1,0 +1,8 @@
+commandlinefu_id: 8309
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump -nolist http://whatthecommit.com/|sed -n 2p
+summary: |-
+  commit message generator - whatthecommit.com

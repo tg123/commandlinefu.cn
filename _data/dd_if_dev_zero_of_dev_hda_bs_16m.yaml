@@ -1,0 +1,8 @@
+commandlinefu_id: 4010
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero of=/dev/hda bs=16M
+summary: |-
+  Delete everything on hda

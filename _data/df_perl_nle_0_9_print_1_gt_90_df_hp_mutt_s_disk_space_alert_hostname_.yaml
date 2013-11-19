@@ -1,0 +1,8 @@
+commandlinefu_id: 3809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ $(df / | perl -nle '/([0-9]+)%/ && print $1') -gt 90 ] && df -hP | mutt -s "Disk Space Alert -- $(hostname)" admin@example.com
+summary: |-
+  disk space email alert

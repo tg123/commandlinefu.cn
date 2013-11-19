@@ -1,0 +1,8 @@
+commandlinefu_id: 2420
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff <file> | vim -R -
+summary: |-
+  Colored SVN diff

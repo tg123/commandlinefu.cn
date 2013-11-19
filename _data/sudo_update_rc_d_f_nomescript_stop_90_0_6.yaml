@@ -1,0 +1,8 @@
+commandlinefu_id: 8640
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo update-rc.d -f nomescript stop 90 0 6
+summary: |-
+  if you want the script run at shutdown

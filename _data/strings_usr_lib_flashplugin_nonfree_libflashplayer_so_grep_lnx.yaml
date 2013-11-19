@@ -1,0 +1,8 @@
+commandlinefu_id: 10660
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strings /usr/lib/flashplugin-nonfree/libflashplayer.so |grep ^LNX
+summary: |-
+  Displays the version of the Adobe Flash plugin installed

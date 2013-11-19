@@ -1,0 +1,8 @@
+commandlinefu_id: 12116
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "CHECK=SAMPLE" output --command_to_long
+summary: |-
+  Combo matrix

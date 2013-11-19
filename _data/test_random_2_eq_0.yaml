@@ -1,0 +1,8 @@
+commandlinefu_id: 8745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  test $((RANDOM%2)) -eq 0
+summary: |-
+  Succeed or fail randomly (Schr?dinger's code)

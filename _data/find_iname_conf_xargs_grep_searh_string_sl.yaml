@@ -1,0 +1,8 @@
+commandlinefu_id: 9124
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*.conf' | xargs grep "searh string" -sl
+summary: |-
+  Search recursively to find a word in certain file types

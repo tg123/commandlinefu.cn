@@ -1,0 +1,8 @@
+commandlinefu_id: 10172
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tasksel list-tasks
+summary: |-
+  ubuntu tasksel

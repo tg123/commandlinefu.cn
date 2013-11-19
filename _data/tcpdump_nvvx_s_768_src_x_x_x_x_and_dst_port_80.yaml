@@ -1,0 +1,8 @@
+commandlinefu_id: 12628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -nvvX -s 768 src x.x.x.x and dst port 80
+summary: |-
+  Get some useful output from tcpdump

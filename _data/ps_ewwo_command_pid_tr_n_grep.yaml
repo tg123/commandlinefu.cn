@@ -1,0 +1,8 @@
+commandlinefu_id: 9280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps ewwo command PID | tr ' ' '\n' | grep \=
+summary: |-
+  Given process ID print its environment variables

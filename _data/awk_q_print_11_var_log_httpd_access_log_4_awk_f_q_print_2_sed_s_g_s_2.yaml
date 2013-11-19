@@ -1,0 +1,8 @@
+commandlinefu_id: 4117
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/q=/{print $11}' /var/log/httpd/access_log.4 | awk -F 'q=' '{print $2}' | sed 's/+/ /g;s/%22/"/g;s/q=//' | cut -d "&" -f 1
+summary: |-
+  Checks apache's access_log file, strips the search queries and shoves them up your e-mail

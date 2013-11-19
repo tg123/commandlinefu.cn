@@ -1,0 +1,8 @@
+commandlinefu_id: 3983
+translator:
+  weibo: ''
+hide: true
+command: |-
+  speaker-test -D plug:surround51 -c 6 -l 1 -t wav
+summary: |-
+  Test speaker channels

@@ -1,0 +1,8 @@
+commandlinefu_id: 9663
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  curl -b cookie.txt http://www.site.com/download/file.txt
+summary: |-
+  带有cookie的curl (cookie jar格式)

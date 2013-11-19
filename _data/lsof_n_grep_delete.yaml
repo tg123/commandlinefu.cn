@@ -1,0 +1,8 @@
+commandlinefu_id: 9110
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -n |grep delete
+summary: |-
+  find the delete file ,which is in use

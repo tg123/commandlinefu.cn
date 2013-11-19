@@ -1,0 +1,8 @@
+commandlinefu_id: 2640
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  fmiss() { grep -RL "$*" * }
+summary: |-
+  None

@@ -1,0 +1,8 @@
+commandlinefu_id: 6086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n 'targets = $(subst .png,.jpg,$(wildcard *.png))\n$(targets):\n     convert $(subst .jpg,.png,$@) $@ \nall : $(targets)' | make -j 4 -f - all
+summary: |-
+  'hpc' in the shell - starts a maximum of n compute commands modulo n controlled in parallel, using make

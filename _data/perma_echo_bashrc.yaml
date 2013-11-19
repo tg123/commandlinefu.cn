@@ -1,0 +1,8 @@
+commandlinefu_id: 3656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PERMA () { echo "$@" >> ~/.bashrc; }
+summary: |-
+  Make alias pemanent fast

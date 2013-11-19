@@ -1,0 +1,8 @@
+commandlinefu_id: 9465
+translator:
+  weibo: ''
+hide: true
+command: |-
+  slpappasswd
+summary: |-
+  Simply generate a password for userPassword in ldap

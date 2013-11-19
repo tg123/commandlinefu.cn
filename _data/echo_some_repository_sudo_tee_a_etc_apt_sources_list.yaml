@@ -1,0 +1,8 @@
+commandlinefu_id: 10642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "[some repository]" | sudo tee -a /etc/apt/sources.list
+summary: |-
+  Add a custom package repository to apt sources.list

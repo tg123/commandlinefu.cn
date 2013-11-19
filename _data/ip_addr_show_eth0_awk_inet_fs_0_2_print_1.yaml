@@ -1,0 +1,8 @@
+commandlinefu_id: 5953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr show eth0 | awk '/inet / {FS = "/"; $0 = $2; print $1}'
+summary: |-
+  Get IPv4 of eth0 for use with scripts

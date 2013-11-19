@@ -1,0 +1,8 @@
+commandlinefu_id: 12139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qpdf --decrypt inputfile.pdf outputfile.pdf
+summary: |-
+  Remove security limitations from PDF documents using QPDF

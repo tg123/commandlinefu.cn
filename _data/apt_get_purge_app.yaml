@@ -1,0 +1,8 @@
+commandlinefu_id: 11304
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get purge <app>
+summary: |-
+  clean installed apps

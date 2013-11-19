@@ -1,0 +1,8 @@
+commandlinefu_id: 11774
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read && ffmpeg -y -r 1 -t 3 -f video4linux2 -vframes 1 -s sxga -i /dev/video0 ~/webcam-$(date +%m_%d_%Y_%H_%M).jpeg
+summary: |-
+  Press enter and take a WebCam picture.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6724
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 900 "notify-send -t 10000 'Look away. Rest your eyes'"
+summary: |-
+  Remind yourself every 15 minutes (repeated reminders)

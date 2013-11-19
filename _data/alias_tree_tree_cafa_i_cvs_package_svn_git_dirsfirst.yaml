@@ -1,0 +1,8 @@
+commandlinefu_id: 1725
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias tree="tree -CAFa -I 'CVS|*.*.package|.svn|.git' --dirsfirst"
+summary: |-
+  Make the "tree" command pretty and useful by default

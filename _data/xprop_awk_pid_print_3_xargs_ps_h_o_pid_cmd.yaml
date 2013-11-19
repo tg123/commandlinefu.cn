@@ -1,0 +1,8 @@
+commandlinefu_id: 752
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xprop | awk '/PID/ {print $3}' | xargs ps h -o pid,cmd
+summary: |-
+  Click on a GUI window and show its process ID and command used to run the process

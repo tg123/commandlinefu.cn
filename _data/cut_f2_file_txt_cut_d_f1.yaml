@@ -1,0 +1,8 @@
+commandlinefu_id: 5064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -f2  file.txt | cut -d " " -f1
+summary: |-
+  get one field inside another that is delimited by space

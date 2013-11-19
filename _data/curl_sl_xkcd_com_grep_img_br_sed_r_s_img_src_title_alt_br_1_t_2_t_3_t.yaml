@@ -1,0 +1,8 @@
+commandlinefu_id: 5008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -sL xkcd.com | grep '<img [^>]*/><br/>' | sed -r 's|<img src="(.*)" title="(.*)" alt="(.*)" /><br/>|\1\t\2\t\3|' > /tmp/a; curl -s $(cat /tmp/a | cut -f1) | convert - -gravity south -draw "text 0,0 \"$(cat /tmp/a | cut -f2)\"" pdf:- > xkcd.pdf
+summary: |-
+  Save xkcd to a pdf with captions

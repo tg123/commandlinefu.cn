@@ -1,0 +1,8 @@
+commandlinefu_id: 9775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsmod | perl -e 'print "digraph \"lsmod\" {";<>;while(<>){@_=split/\s+/; print "\"$_[0]\" -> \"$_\"\n" for split/,/,$_[3]}print "}"' | dot -Tpng | display -
+summary: |-
+  Draw kernel module dependancy graph.

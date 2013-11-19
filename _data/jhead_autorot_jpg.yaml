@@ -1,0 +1,8 @@
+commandlinefu_id: 1337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jhead -autorot *.jpg
+summary: |-
+  Rotate a set of photos matching their EXIF data.

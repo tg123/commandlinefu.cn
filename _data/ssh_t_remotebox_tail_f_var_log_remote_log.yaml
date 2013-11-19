@@ -1,0 +1,8 @@
+commandlinefu_id: 9875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh  -t remotebox "tail -f /var/log/remote.log"
+summary: |-
+  tail a log over ssh

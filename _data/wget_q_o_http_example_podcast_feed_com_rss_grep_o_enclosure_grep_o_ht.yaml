@@ -1,0 +1,8 @@
+commandlinefu_id: 12756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O- http://example-podcast-feed.com/rss | grep -o "<enclosure[ -~][^>]*" | grep -o "http://[ -~][^\"]*" | xargs wget -c
+summary: |-
+  Download files linked in a RSS feed

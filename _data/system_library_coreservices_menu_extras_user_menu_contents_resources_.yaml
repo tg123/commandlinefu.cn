@@ -1,0 +1,8 @@
+commandlinefu_id: 807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend
+summary: |-
+  Quickly switch to login window (#OSX)

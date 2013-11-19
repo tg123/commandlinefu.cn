@@ -1,0 +1,8 @@
+commandlinefu_id: 6755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk "BEGIN{ print $* }"
+summary: |-
+  Command line calculator

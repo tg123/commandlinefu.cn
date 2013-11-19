@@ -1,0 +1,8 @@
+commandlinefu_id: 8184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdbedit -w -L | awk -F":" '{print $1}'
+summary: |-
+  List all Samba user name

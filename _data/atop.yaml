@@ -1,0 +1,8 @@
+commandlinefu_id: 3047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  atop
+summary: |-
+  System load information alongside process information in a similar style to top.

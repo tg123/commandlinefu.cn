@@ -1,0 +1,8 @@
+commandlinefu_id: 12281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shred -v filename
+summary: |-
+  Delete a file securely by overwriting its contents

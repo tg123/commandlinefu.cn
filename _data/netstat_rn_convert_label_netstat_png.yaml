@@ -1,0 +1,8 @@
+commandlinefu_id: 9329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -rn | convert label:@- netstat.png
+summary: |-
+  Command results as an image capture

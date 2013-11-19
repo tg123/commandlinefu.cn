@@ -1,0 +1,8 @@
+commandlinefu_id: 3239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@remotehost [anycommand](i.e uptime,w)
+summary: |-
+  How to run a specific command in remote server by ssh

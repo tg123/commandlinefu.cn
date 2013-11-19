@@ -1,0 +1,8 @@
+commandlinefu_id: 2595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (curl -d q=grep http://www.commandlinefu.com/search/autocomplete) | egrep 'autocomplete|votes|destination' | perl -pi -e 's/a style="display:none" class="destination" href="//g;s/<[^>]*>//g;s/">$/\n\n/g;s/^ +//g;s/^\//http:\/\/commandlinefu.com\//g'
+summary: |-
+  Search commandlinefu from the command line

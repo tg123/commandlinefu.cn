@@ -1,0 +1,8 @@
+commandlinefu_id: 6450
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  svn propedit svn:ignore .
+summary: |-
+  编辑当前目录的 svn 忽略文件列表

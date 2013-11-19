@@ -1,0 +1,8 @@
+commandlinefu_id: 4870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.commandlinefu.com/commands/by/$1/xml | awk -F'</?div[^>]*>' '/class=\"command\"/{gsub(/&quot;/,"\"",$2); gsub(/&lt;/,"<",$2); gsub(/&gt;/,">",$2); gsub(/&amp;/,"\\&",$2); cmd=$2} /class=\"num-votes\"/{printf("%3i  %s\n", $2, cmd)}'
+summary: |-
+  Get your commandlinefu points (upvotes - downvotes)

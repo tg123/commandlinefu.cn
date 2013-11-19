@@ -1,0 +1,8 @@
+commandlinefu_id: 8036
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <command> >NUL 2>&1 || ( echo <Command> not found. Please install <command> or check PATH variable! & pause & exit )
+summary: |-
+  MSDOS command to check existance of command and exit batch if failed

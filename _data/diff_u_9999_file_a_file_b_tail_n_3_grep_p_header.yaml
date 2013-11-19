@@ -1,0 +1,8 @@
+commandlinefu_id: 9332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -U 9999 file_a file_b | tail -n +3 | grep -P "^(\ Header|\-|\+)"
+summary: |-
+  Diff with Sections/Headers

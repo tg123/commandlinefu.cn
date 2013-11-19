@@ -1,0 +1,8 @@
+commandlinefu_id: 974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for (( i = 10; i > 0; i-- )); do echo "$i"; sleep 1; done
+summary: |-
+  Count down from 10

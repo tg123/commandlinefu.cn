@@ -1,0 +1,8 @@
+commandlinefu_id: 5196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://search.yahooapis.com/WebSearchService/V1/spellingSuggestion?appid=YahooDemo&query=mozmbque"|sed -n -e 's/.*<Result>\(.*\)<\/Result>.*/\1/p'
+summary: |-
+  Spelling Suggestion

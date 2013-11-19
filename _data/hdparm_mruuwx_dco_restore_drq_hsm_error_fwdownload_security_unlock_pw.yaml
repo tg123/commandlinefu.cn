@@ -1,0 +1,8 @@
+commandlinefu_id: 3957
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # hdparm -mRuUwx --dco-restore --drq-hsm-error --fwdownload --security-unlock PWD --security-set-pass PWD --security-disable PWD --security-erase PWD --security-erase-enhanced PWD --user-master USER --security-mode MODE [device]
+summary: |-
+  most dangerous command ever.

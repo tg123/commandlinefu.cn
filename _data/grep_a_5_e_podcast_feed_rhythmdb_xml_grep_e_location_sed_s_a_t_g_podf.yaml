@@ -1,0 +1,8 @@
+commandlinefu_id: 5662
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -A 5 -e podcast-feed rhythmdb.xml | grep -e "<location>" | sed 's: *</*[a-t]*>::g' > PodFeeds.txt
+summary: |-
+  Creates PodFeeds.txt, a file that lists the URLs of rhythmbox podcasts from the rhythmdb.xml file.

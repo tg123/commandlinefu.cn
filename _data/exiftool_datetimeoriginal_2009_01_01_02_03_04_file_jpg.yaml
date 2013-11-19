@@ -1,0 +1,8 @@
+commandlinefu_id: 3427
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exiftool -DateTimeOriginal='2009:01:01 02:03:04' file.jpg
+summary: |-
+  command to change the exif date time of a image

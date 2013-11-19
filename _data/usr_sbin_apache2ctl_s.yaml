@@ -1,0 +1,8 @@
+commandlinefu_id: 2711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/sbin/apache2ctl -S
+summary: |-
+  Simple list of apache2 virtualhosts

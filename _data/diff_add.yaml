@@ -1,0 +1,8 @@
+commandlinefu_id: 11362
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^diff^add
+summary: |-
+  add a change in git that you have just checked using git diff

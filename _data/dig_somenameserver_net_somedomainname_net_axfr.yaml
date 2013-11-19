@@ -1,0 +1,8 @@
+commandlinefu_id: 6472
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig @somenameserver.net somedomainname.net axfr
+summary: |-
+  Check if your domain name is suspectable to axfr attacks.

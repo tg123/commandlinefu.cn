@@ -1,0 +1,8 @@
+commandlinefu_id: 890
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch ifconfig eth0
+summary: |-
+  Watch Data Usage on eth0

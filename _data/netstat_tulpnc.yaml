@@ -1,0 +1,8 @@
+commandlinefu_id: 8327
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tulpnc
+summary: |-
+  showing opened ports on machine

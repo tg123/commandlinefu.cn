@@ -1,0 +1,8 @@
+commandlinefu_id: 9635
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nocomments () { cat $1 | egrep -v '^[[:space:]]*#|^[[:space:]]*$|^[[:space:]]*;' | sed '/<!--.*-->/d' | sed '/<!--/,/-->/d'; }
+summary: |-
+  Hide comments

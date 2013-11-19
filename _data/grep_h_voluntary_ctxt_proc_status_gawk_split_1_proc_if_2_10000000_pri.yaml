@@ -1,0 +1,8 @@
+commandlinefu_id: 11223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -H voluntary_ctxt /proc/*/status |gawk '{ split($1,proc,"/"); if ( $2 > 10000000 ) { printf $2 " - Process : "; system("ps h -o cmd -p "proc[3]) } }' | sort -nk1,1 | sed 's/^/Context Switches: /g'
+summary: |-
+  Find highest context switches

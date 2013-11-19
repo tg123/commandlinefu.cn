@@ -1,0 +1,8 @@
+commandlinefu_id: 9230
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo 'fOo BaR' | tr '[A-Z]' '[a-z]' | sed 's/\(^\| \)\([a-z]\)/\1\u\2/g'
+summary: |-
+  将字符串里的单词的首字母大写

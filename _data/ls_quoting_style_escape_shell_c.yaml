@@ -1,0 +1,8 @@
+commandlinefu_id: 6349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls --quoting-style={escape,shell,c}
+summary: |-
+  List files by quoting or escaping special characters.

@@ -1,0 +1,8 @@
+commandlinefu_id: 9513
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -rlZ oldstring . | xargs -0 sed -i -e 's/oldstring/newstring/'
+summary: |-
+  recursive search and replace old with new string, inside files

@@ -1,0 +1,8 @@
+commandlinefu_id: 7745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Terrorist threat level: `od -An -N1 -i /dev/random`"
+summary: |-
+  Terrorist threat level text

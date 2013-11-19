@@ -1,0 +1,8 @@
+commandlinefu_id: 7754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -exec chmod 644 {} +
+summary: |-
+  Recursively change permissions on files, leave directories alone.

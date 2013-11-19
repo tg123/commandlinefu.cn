@@ -1,0 +1,8 @@
+commandlinefu_id: 9336
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (cd src && tar -cf - .) | (cd dest && tar -xpf -)
+summary: |-
+  Tar Pipe

@@ -1,0 +1,8 @@
+commandlinefu_id: 9808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  identify -format '%w %h %f\n' *.jpg | awk 'NF==3&&$1<500&&$2<500{print $3}' | xargs -r rm
+summary: |-
+  remove *.jpg smaller than 500x500

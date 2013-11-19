@@ -1,0 +1,8 @@
+commandlinefu_id: 5565
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -ioE "(url\(|src=)['\"]?[^)'\"]*" a.html | grep -ioE "[^\"'(]*.(jpg|png|gif)" | while read l ; do sed -i "s>$l>data:image/${l/[^.]*./};base64,`openssl enc -base64 -in $l| tr -d '\n'`>" a.html ; done;
+summary: |-
+  embed referred images in HTML files

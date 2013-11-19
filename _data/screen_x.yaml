@@ -1,0 +1,8 @@
+commandlinefu_id: 3404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -x
+summary: |-
+  Share your terminal session (remotely or whatever)

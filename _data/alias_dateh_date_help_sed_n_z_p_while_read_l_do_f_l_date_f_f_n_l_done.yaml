@@ -1,0 +1,8 @@
+commandlinefu_id: 5423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias dateh='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
+summary: |-
+  View all date formats, Quick Reference Help Alias

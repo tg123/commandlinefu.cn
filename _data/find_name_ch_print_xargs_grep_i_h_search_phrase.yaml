@@ -1,0 +1,8 @@
+commandlinefu_id: 8593
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.[ch]" -print | xargs grep -i -H "search phrase"
+summary: |-
+  Search recursively to find a word or phrase in certain file types, such as C code

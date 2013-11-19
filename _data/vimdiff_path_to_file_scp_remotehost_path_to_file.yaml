@@ -1,0 +1,8 @@
+commandlinefu_id: 966
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimdiff /path/to/file scp://remotehost//path/to/file
+summary: |-
+  vimdiff local and remote files via ssh

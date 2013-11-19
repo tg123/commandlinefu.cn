@@ -1,0 +1,8 @@
+commandlinefu_id: 12521
+translator:
+  weibo: ''
+hide: true
+command: |-
+  su - wsadmin
+summary: |-
+  To recycle the JVM from application server, steps are as follows:-

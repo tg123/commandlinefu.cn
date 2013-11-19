@@ -1,0 +1,8 @@
+commandlinefu_id: 2242
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/SuSE-release
+summary: |-
+  View SuSE version

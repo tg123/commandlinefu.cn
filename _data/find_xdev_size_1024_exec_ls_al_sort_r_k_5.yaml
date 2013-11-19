@@ -1,0 +1,8 @@
+commandlinefu_id: 321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -xdev -size +1024 -exec ls -al {} \; | sort -r -k 5
+summary: |-
+  finding more large files

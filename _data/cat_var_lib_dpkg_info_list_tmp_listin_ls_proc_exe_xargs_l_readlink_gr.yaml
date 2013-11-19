@@ -1,0 +1,8 @@
+commandlinefu_id: 3407
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/lib/dpkg/info/*.list > /tmp/listin ; ls /proc/*/exe |xargs -l readlink | grep -xvFf /tmp/listin; rm /tmp/listin
+summary: |-
+  Find running binary executables that were not installed using dpkg

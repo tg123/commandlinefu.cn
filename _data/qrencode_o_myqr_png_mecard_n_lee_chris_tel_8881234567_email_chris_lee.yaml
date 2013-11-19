@@ -1,0 +1,8 @@
+commandlinefu_id: 8861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qrencode -o myqr.png 'MECARD:N:Lee,Chris;TEL:8881234567;EMAIL:chris.lee@somedomain.com;;'
+summary: |-
+  Create a QR code image in MECARD format

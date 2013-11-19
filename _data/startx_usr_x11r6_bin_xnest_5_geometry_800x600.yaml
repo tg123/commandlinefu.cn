@@ -1,0 +1,8 @@
+commandlinefu_id: 4957
+translator:
+  weibo: ''
+hide: true
+command: |-
+  startx -- /usr/X11R6/bin/Xnest :5 -geometry 800x600
+summary: |-
+  Start another instance of X via SSH

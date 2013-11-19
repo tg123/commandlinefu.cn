@@ -1,0 +1,8 @@
+commandlinefu_id: 1683
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /proc -regex '/proc/[0-9]+/smaps' -exec grep -l "$PATH_REGEX" {} \; | cut -d'/' -f2
+summary: |-
+  which procs have $PATH_REGEX open?

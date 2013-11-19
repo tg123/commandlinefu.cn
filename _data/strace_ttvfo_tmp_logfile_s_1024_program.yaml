@@ -1,0 +1,8 @@
+commandlinefu_id: 12476
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strace -ttvfo /tmp/logfile -s 1024 program
+summary: |-
+  strace a program

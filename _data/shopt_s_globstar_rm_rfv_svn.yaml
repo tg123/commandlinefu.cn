@@ -1,0 +1,8 @@
+commandlinefu_id: 7312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt -s globstar; rm -rfv **/.svn
+summary: |-
+  Remove all .svn folders

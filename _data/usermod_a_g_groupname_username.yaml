@@ -1,0 +1,8 @@
+commandlinefu_id: 627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  usermod -a -G groupname username
+summary: |-
+  Add existing user to a group

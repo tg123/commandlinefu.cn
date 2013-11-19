@@ -1,0 +1,8 @@
+commandlinefu_id: 8407
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh vm-user@`VBoxManage guestproperty get "vm-name" "/VirtualBox/GuestInfo/Net/0/V4/IP" | awk '{ print $2 }'`
+summary: |-
+  Connect via SSH to VirtualBox guest VM without knowing IP address

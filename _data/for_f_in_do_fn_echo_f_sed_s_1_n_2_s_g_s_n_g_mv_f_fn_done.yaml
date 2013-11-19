@@ -1,0 +1,8 @@
+commandlinefu_id: 11333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *; do fn=`echo $f | sed 's/\(.*\)\.\([^.]*\)$/\1\n\2/;s/\./-/g;s/\n/./g'`; mv $f $fn; done
+summary: |-
+  replace dots in filenames with dashes, using sed

@@ -1,0 +1,8 @@
+commandlinefu_id: 720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.png; do convert "$file" "$(basename $file .png).gif"; done
+summary: |-
+  Convert PNG to GIF

@@ -1,0 +1,8 @@
+commandlinefu_id: 10062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cryptmount -m <name>
+summary: |-
+  Create & mount 'encrypted filesystem' on a partition or file

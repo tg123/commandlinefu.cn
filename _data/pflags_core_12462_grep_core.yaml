@@ -1,0 +1,8 @@
+commandlinefu_id: 10349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pflags core.12462  | grep "core "
+summary: |-
+  determine process from solaris crash dump

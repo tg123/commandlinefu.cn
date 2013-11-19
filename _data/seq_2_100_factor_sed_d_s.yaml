@@ -1,0 +1,8 @@
+commandlinefu_id: 11414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 2 100 | factor | sed '/ .* / d ; s/:.*//'
+summary: |-
+  List prime numbers from 2 to 100

@@ -1,0 +1,8 @@
+commandlinefu_id: 8132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://whatthecommit.com/index.txt | cowsay
+summary: |-
+  let the cow suggest some commit messages for you

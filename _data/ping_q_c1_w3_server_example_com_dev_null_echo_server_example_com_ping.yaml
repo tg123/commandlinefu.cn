@@ -1,0 +1,8 @@
+commandlinefu_id: 6546
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping -q -c1 -w3 server.example.com >& /dev/null || echo server.example.com ping failed | mail -ne -s'Server unavailable' admin@example.com
+summary: |-
+  Check a server is up. If it isn't mail me.

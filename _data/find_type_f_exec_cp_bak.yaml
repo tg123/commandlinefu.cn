@@ -1,0 +1,8 @@
+commandlinefu_id: 1310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type -f -exec cp {} {}.bak \;
+summary: |-
+  Make backups recurse through directories

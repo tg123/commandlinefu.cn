@@ -1,0 +1,8 @@
+commandlinefu_id: 11069
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv /dev/urandom -L 3m -i 0.3 > /dev/null
+summary: |-
+  Limit the transfer rate of a pipe with pv

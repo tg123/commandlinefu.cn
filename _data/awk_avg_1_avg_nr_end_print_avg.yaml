@@ -1,0 +1,8 @@
+commandlinefu_id: 3437
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk '{avg += ($1 - avg) / NR;} END { print avg; }'
+summary: |-
+  计算列的平均值

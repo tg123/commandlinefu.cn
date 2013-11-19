@@ -1,0 +1,8 @@
+commandlinefu_id: 3866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN{dir=DIR?DIR:ENVIRON["PWD"];l=split(dir,parts,"/");last="";for(i=1;i<l+1;i++){d=last"/"parts[i];gsub("//","/",d);system("ls -ld \""d"\"");last=d}}'
+summary: |-
+  Show current folder permission from /, useful for debugging ssh key permission

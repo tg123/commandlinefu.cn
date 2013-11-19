@@ -1,0 +1,8 @@
+commandlinefu_id: 8713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff rpm_output_from_other_computer <(rpm -qa|sort)
+summary: |-
+  Using commandoutput as a file descriptor

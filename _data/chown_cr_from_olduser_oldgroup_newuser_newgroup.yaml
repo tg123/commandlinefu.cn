@@ -1,0 +1,8 @@
+commandlinefu_id: 414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chown -cR --from=olduser:oldgroup newuser:newgroup *
+summary: |-
+  Recursive Ownership Change

@@ -1,0 +1,8 @@
+commandlinefu_id: 6737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite3 .mozilla/firefox/private/places.sqlite "update moz_places set favicon_id=null where favicon_id = (select p.favicon_id from moz_bookmarks b join moz_places p on b.fk = p.id where b.title = 'Broken');"
+summary: |-
+  clear stale favicons in firefox

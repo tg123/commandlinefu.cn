@@ -1,0 +1,8 @@
+commandlinefu_id: 5097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim suite.js -c '%s!/\*\_.\{-}\*/!!g'
+summary: |-
+  Delete C style comments using vim

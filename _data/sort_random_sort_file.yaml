@@ -1,0 +1,8 @@
+commandlinefu_id: 9866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort --random-sort file
+summary: |-
+  Poor man's unsort (randomize lines)

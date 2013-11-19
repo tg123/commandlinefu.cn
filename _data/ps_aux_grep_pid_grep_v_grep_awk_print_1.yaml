@@ -1,0 +1,8 @@
+commandlinefu_id: 9642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep PID | grep -v 'grep' | awk '{ print $1 }'
+summary: |-
+  Get the name or user running the process of specified PID

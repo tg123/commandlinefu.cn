@@ -1,0 +1,8 @@
+commandlinefu_id: 7940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file1 file2|awk -v RS='paragraph delimiter' '{print $0"\n"}'|sed -e '/./{H;$!d;}' -e 'x;/string to search/!d;'
+summary: |-
+  print all paragraphs containing string

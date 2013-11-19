@@ -1,0 +1,8 @@
+commandlinefu_id: 9267
+translator:
+  weibo: ''
+hide: true
+command: |-
+  c=$(pgrep <cmd>) && <new_cmd> && kill $c
+summary: |-
+  Substitute an already running command

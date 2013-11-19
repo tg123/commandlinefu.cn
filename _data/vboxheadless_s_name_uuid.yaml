@@ -1,0 +1,8 @@
+commandlinefu_id: 2925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VBoxHeadless -s <name|uuid>
+summary: |-
+  run a VirtualBox virtual machine without a gui

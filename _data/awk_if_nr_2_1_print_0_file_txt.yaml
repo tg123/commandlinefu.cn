@@ -1,0 +1,8 @@
+commandlinefu_id: 180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{if (NR % 2 == 1) print $0}' file.txt
+summary: |-
+  Print only the odd lines of a file

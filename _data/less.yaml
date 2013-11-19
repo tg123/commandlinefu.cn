@@ -1,0 +1,8 @@
+commandlinefu_id: 10166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  !! | less
+summary: |-
+  Pipes the output of the previous command into less.

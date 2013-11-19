@@ -1,0 +1,8 @@
+commandlinefu_id: 2442
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -2 -iIr "err\|warn\|fail\|crit" /var/log/*
+summary: |-
+  Get all possible problems from any log files

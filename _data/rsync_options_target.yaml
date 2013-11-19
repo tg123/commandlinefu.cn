@@ -1,0 +1,8 @@
+commandlinefu_id: 7102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync [options] -- * target
+summary: |-
+  Rsync files with spaces

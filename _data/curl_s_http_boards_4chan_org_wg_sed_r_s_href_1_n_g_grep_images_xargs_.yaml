@@ -1,0 +1,8 @@
+commandlinefu_id: 7274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://boards.4chan.org/wg/|sed -r 's/.*href="([^"]*).*/\1\n/g'|grep images|xargs wget
+summary: |-
+  Download all images from a 4chan thread

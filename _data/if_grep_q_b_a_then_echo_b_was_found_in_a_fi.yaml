@@ -1,0 +1,8 @@
+commandlinefu_id: 5425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if grep -q "$b" <<<$a; then echo "'$b' was found in '$a'"; fi
+summary: |-
+  Find if $b is in $a in bash

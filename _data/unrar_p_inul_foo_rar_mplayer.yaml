@@ -1,0 +1,8 @@
+commandlinefu_id: 2468
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unrar p -inul foo.rar|mplayer -
+summary: |-
+  On-the-fly unrar movie in .rar archive and play it, does also work on part archives.

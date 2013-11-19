@@ -1,0 +1,8 @@
+commandlinefu_id: 6321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sh -c "apt-get update;apt-get dist-upgrade;apt-get autoremove;apt-get autoclean"
+summary: |-
+  Clean upgrade of Ubuntu

@@ -1,0 +1,8 @@
+commandlinefu_id: 8329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $sudo aptitude install python-virtualenv; virtualenv --no-site-packages jpaenv; source jpaenv/bin/activate
+summary: |-
+  Python virtual-env creation

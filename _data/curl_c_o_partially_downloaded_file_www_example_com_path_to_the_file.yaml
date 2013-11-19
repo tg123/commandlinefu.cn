@@ -1,0 +1,8 @@
+commandlinefu_id: 11476
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -C - -o partially_downloaded_file 'www.example.com/path/to/the/file'
+summary: |-
+  resume download using curl

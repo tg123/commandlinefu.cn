@@ -1,0 +1,8 @@
+commandlinefu_id: 1991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  look mysql /etc/group
+summary: |-
+  Display lines with a given string

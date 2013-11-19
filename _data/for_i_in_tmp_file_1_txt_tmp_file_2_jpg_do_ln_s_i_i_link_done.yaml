@@ -1,0 +1,8 @@
+commandlinefu_id: 12580
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in '/tmp/file 1.txt' '/tmp/file 2.jpg'; do ln -s "$i" "$i LINK"; done
+summary: |-
+  Batch symbolic links creation

@@ -1,0 +1,8 @@
+commandlinefu_id: 6672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xargsb() { while read -r cmd; do ${@//'{}'/$cmd}; done; }
+summary: |-
+  xargs for builtin bash commands

@@ -1,0 +1,8 @@
+commandlinefu_id: 12767
+translator:
+  weibo: ''
+hide: true
+command: |-
+  project=YOURPROJECTHERE; package=YOURPACKAGEHERE; osc signkey --extend $project; osc rebuildpac project package
+summary: |-
+  Extend the opensuse buildservice key for a project and trigger its rebuild

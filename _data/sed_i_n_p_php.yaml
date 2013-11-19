@@ -1,0 +1,8 @@
+commandlinefu_id: 11953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i -n '/%/p' *.php
+summary: |-
+  empty set of files

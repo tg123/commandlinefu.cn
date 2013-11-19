@@ -1,0 +1,8 @@
+commandlinefu_id: 10487
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dpkg-reconfigure keyboard-configuration
+summary: |-
+  Force GNU/Linux keyboard settings, layout and configuration

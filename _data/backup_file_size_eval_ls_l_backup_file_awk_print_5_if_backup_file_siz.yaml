@@ -1,0 +1,8 @@
+commandlinefu_id: 4448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  BACKUP_FILE_SIZE=`eval ls -l ${BACKUP_FILE} | awk {'print $5'}`; if [ $BACKUP_FILE_SIZE -le 20 ]; then echo "its empty"; else echo "its not empty"; fi
+summary: |-
+  Check if file is greater than 20 bytes, such as an empty gzip archive

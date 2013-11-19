@@ -1,0 +1,8 @@
+commandlinefu_id: 7143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mailq |awk '/MAILER-DAEMON/{gsub("*","");printf("postsuper -d %s\n",$1)}'|bash
+summary: |-
+  Delete Mailer-Daemon messages

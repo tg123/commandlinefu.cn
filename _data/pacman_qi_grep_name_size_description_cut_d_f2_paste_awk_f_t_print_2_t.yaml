@@ -1,0 +1,8 @@
+commandlinefu_id: 11545
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Qi | grep 'Name\|Size\|Description' | cut -d: -f2 | paste  - - - | awk -F'\t' '{ print $2, "\t", $1, "\t", $3 }' | sort -rn
+summary: |-
+  Arch Linux sort installed packages by size

@@ -1,0 +1,8 @@
+commandlinefu_id: 8160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svcadm disable cde-login
+summary: |-
+  Disable graphical login on Solaris

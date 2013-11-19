@@ -1,0 +1,8 @@
+commandlinefu_id: 6295
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <dir> -name "<pattern>" | while read file; do echo -n .; output=$(<command>) || (echo ; echo $file:; echo "$output"; ); done
+summary: |-
+  Command template, executing a command over multiple files, outputing progress and fails only

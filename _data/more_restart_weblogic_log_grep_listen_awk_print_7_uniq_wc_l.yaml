@@ -1,0 +1,8 @@
+commandlinefu_id: 12331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  more restart_weblogic.log | grep "LISTEN" | awk '{ print $7 }' | uniq | wc -l
+summary: |-
+  how much time restart the wls service?

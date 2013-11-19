@@ -1,0 +1,8 @@
+commandlinefu_id: 6824
+translator:
+  weibo: ''
+hide: true
+command: |-
+  atb() { l=$(tar tf $1); if [ $(echo "$l" | wc -l) -eq $(echo "$l" | grep $(echo "$l" | head -n1) | wc -l) ]; then tar xf $1; else mkdir ${1%.tar.gz} && tar xf $1 -C ${1%.tar.gz}; fi ;}
+summary: |-
+  Escape potential tarbombs

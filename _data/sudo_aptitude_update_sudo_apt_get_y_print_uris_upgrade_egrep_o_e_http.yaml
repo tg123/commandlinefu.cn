@@ -1,0 +1,8 @@
+commandlinefu_id: 4894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo aptitude update; sudo apt-get -y --print-uris upgrade | egrep -o -e "http://[^\']+" | sudo aria2c -c -d /var/cache/apt/archives -i -; sudo aptitude -y safe-upgrade
+summary: |-
+  Speed up upgrades for a debian/ubuntu based system.

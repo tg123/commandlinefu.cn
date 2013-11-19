@@ -1,0 +1,8 @@
+commandlinefu_id: 12057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc -l <port-number>
+summary: |-
+  Listen on an arbitrary port

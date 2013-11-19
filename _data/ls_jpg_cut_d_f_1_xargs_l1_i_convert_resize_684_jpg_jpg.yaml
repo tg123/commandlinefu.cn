@@ -1,0 +1,8 @@
+commandlinefu_id: 6575
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *.JPG | cut -d . -f 1 | xargs -L1 -i convert -resize 684 {}.JPG {}.jpg
+summary: |-
+  resize all JPG images in folder and create new images (w/o overwriting)

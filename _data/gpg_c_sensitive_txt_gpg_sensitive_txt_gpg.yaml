@@ -1,0 +1,8 @@
+commandlinefu_id: 11233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg -c sensitive.txt; gpg sensitive.txt.gpg
+summary: |-
+  GnuPG: Encrypt/Decrypt files

@@ -1,0 +1,8 @@
+commandlinefu_id: 4044
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `cat /etc/passwd | awk -F : '{ print $1 }';`; do passwd -e $i; done
+summary: |-
+  force change password for all user

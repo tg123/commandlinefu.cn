@@ -1,0 +1,8 @@
+commandlinefu_id: 10594
+translator:
+  weibo: ''
+hide: true
+command: |-
+  icotool -l demo.ico
+summary: |-
+  List all images in icon/cursor files

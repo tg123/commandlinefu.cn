@@ -1,0 +1,8 @@
+commandlinefu_id: 8182
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -ie "<*HREF=(.*?)>" index.html | cut -d "\"" -f 2 | grep ://
+summary: |-
+  Extract raw URLs from a file

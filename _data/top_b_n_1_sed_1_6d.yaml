@@ -1,0 +1,8 @@
+commandlinefu_id: 10344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -b -n 1 | sed 1,6d
+summary: |-
+  Processes by CPU usage

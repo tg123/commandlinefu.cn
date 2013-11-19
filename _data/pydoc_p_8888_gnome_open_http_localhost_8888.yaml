@@ -1,0 +1,8 @@
+commandlinefu_id: 4979
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pydoc -p 8888 & gnome-open http://localhost:8888
+summary: |-
+  Start a HTTP server which serves Python docs

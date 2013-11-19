@@ -1,0 +1,8 @@
+commandlinefu_id: 5503
+translator:
+  weibo: ''
+hide: true
+command: |-
+  open -a BBEdit file.sql
+summary: |-
+  Open a file with specified application.

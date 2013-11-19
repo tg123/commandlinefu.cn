@@ -1,0 +1,8 @@
+commandlinefu_id: 419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 15 curl -s --connect-timeout 10 http://www.google.com/
+summary: |-
+  Watch for when your web server returns

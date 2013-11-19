@@ -1,0 +1,8 @@
+commandlinefu_id: 2553
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/log/auth.log | logtool -o HTML > auth.html
+summary: |-
+  Export log to html file

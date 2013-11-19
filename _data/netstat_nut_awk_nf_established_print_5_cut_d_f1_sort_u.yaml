@@ -1,0 +1,8 @@
+commandlinefu_id: 8918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -nut | awk '$NF=="ESTABLISHED" {print $5}' | cut -d: -f1 | sort -u
+summary: |-
+  All IP connected to  my host

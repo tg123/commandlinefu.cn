@@ -1,0 +1,8 @@
+commandlinefu_id: 11721
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get --ignore-hold --allow-unauthenticated -s dist-upgrade | grep ^Inst | cut -d ' ' -f2
+summary: |-
+  List upgrade-able packages on Ubuntu

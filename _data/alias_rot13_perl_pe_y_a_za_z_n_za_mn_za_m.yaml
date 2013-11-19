@@ -1,0 +1,8 @@
+commandlinefu_id: 269
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rot13='perl -pe "y/A-Za-z/N-ZA-Mn-za-m/;"'
+summary: |-
+  rot13 simple substitution cipher via command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 10672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -r path/to/file/tree $(mkdir -p new/path/here; echo new/path/here)
+summary: |-
+  Copy a file to a new directory created on the fly

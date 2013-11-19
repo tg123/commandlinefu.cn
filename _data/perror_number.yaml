@@ -1,0 +1,8 @@
+commandlinefu_id: 1812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perror NUMBER
+summary: |-
+  Explanation of system and MySQL error codes

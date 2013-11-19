@@ -1,0 +1,8 @@
+commandlinefu_id: 3816
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "" > .bash_history
+summary: |-
+  Clear your history saved into .bash_history file!

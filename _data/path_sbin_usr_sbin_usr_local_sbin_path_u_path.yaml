@@ -1,0 +1,8 @@
+commandlinefu_id: 3947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  path+=( /sbin /usr/sbin /usr/local/sbin ); path=( ${(u)path} );
+summary: |-
+  Add the sbin directories to your PATH if it doesn't already exist in ZSH.

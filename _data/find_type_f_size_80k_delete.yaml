@@ -1,0 +1,8 @@
+commandlinefu_id: 11173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -size -80k -delete
+summary: |-
+  find and delete files smaller than specific size

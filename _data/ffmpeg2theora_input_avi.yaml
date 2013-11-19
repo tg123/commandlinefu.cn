@@ -1,0 +1,8 @@
+commandlinefu_id: 3038
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg2theora input.avi
+summary: |-
+  avi to ogv (Ogg Theora)

@@ -1,0 +1,8 @@
+commandlinefu_id: 4332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -idx Your_Input_Video_File -ovc lavc -oac mp3lame -audiofile  Your_Audio_track.mp3  -o  Output_File.avi
+summary: |-
+  add an mp3 audio track to a video

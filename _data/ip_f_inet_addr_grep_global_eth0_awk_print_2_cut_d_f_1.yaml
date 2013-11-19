@@ -1,0 +1,8 @@
+commandlinefu_id: 8561
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip -f inet addr |grep "global eth0$"|awk '{print $2}'|cut -d '/' -f 1
+summary: |-
+  get eth0 ip address

@@ -1,0 +1,8 @@
+commandlinefu_id: 10436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -s $(ls -l | grep '^d' | awk '{print $9}') | sort -nr
+summary: |-
+  Find and sort out folders by size

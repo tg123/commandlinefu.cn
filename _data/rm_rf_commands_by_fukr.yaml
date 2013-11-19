@@ -1,0 +1,8 @@
+commandlinefu_id: 10167
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -rf /commands/by/fukr
+summary: |-
+  Removed my commandlinefu.com entries

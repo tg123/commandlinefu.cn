@@ -1,0 +1,8 @@
+commandlinefu_id: 9314
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat file.txt | sendmail -F myname -f admin@mysite.com guest@guest.com
+summary: |-
+  命令行发邮件

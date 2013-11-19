@@ -1,0 +1,8 @@
+commandlinefu_id: 12609
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w ; pkill -kill -t pts/1
+summary: |-
+  pkill

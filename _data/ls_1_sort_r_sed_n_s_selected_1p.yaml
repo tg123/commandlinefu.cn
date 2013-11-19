@@ -1,0 +1,8 @@
+commandlinefu_id: 8086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | sort -R | sed -n 's/^/Selected /;1p'
+summary: |-
+  Selecting a random file/folder of a folder

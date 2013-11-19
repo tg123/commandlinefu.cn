@@ -1,0 +1,8 @@
+commandlinefu_id: 1482
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/project -mtime -1 -type f -print | tar jcvf myfiles.tar.bz2 -T -
+summary: |-
+  package most recent files in project

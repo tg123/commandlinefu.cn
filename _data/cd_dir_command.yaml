@@ -1,0 +1,8 @@
+commandlinefu_id: 8181
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( cd $DIR; command; )
+summary: |-
+  cd into another dir to run a one-liner, but implicitly drop back to your $OLD_PWD after

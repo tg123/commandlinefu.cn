@@ -1,0 +1,8 @@
+commandlinefu_id: 10821
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apache2 -l
+summary: |-
+  See loaded modules in apache(2)

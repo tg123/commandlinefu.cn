@@ -1,0 +1,8 @@
+commandlinefu_id: 3893
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mount -t vfat /dev/sdb1 /mnt/sdb1
+summary: |-
+  Mount an external FAT32 USB HDD

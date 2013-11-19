@@ -1,0 +1,8 @@
+commandlinefu_id: 9386
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Taskkill /?
+summary: |-
+  Killing a process in Windows 7 command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 8276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo **/* | xargs grep 'hoge'
+summary: |-
+  grep 'hoge' **/*  => Argument list too long

@@ -1,0 +1,8 @@
+commandlinefu_id: 10868
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -exec sh -c 'echo "{}" "$(dirname "{}")/$(basename "{}" | tr "[A-Z]" "[a-z]")"' \;
+summary: |-
+  recursively change file name from uppercase to lowercase (or viceversa)

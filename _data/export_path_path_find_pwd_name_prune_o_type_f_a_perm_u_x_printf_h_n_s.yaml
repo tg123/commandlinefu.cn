@@ -1,0 +1,8 @@
+commandlinefu_id: 8078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PATH=$PATH$(find "$PWD" -name '.*' -prune -o -type f -a -perm /u+x -printf ':%h\n' | sort -u | tr -d '\n'); echo $PATH
+summary: |-
+  recursively add all sub folders with executable file of current folder to PATH environment variable

@@ -1,0 +1,8 @@
+commandlinefu_id: 5363
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa --qf  "%-30{NAME} %-10{SIZE}\n" | sort -n | less
+summary: |-
+  Sort installed rpms in alphabetic order with their size.

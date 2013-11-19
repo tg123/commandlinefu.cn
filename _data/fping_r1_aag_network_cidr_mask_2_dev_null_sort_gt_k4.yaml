@@ -1,0 +1,8 @@
+commandlinefu_id: 9933
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fping -r1 -Aag <network>/<cidr_mask> 2>/dev/null | sort -gt. -k4
+summary: |-
+  To know the IP address of the machine current running on the network

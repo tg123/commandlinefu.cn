@@ -1,0 +1,8 @@
+commandlinefu_id: 11558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svbversion .
+summary: |-
+  get the revision number of your svn working copy

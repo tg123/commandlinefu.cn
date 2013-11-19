@@ -1,0 +1,8 @@
+commandlinefu_id: 1400
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/cdrom | pv -s 700m | md5sum | tee test.md5
+summary: |-
+  [re]verify a disc with very friendly output

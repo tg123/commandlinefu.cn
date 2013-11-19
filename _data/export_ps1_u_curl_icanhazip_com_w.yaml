@@ -1,0 +1,8 @@
+commandlinefu_id: 9649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="[\u@`curl icanhazip.com` \W]$ "
+summary: |-
+  Show internet IP Address in prompt --> PS1 var

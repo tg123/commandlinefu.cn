@@ -1,0 +1,8 @@
+commandlinefu_id: 1317
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  :n,m w newfile.txt
+summary: |-
+  vim 从buff中新开启一个文件

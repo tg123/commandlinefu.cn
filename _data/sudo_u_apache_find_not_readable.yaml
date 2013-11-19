@@ -1,0 +1,8 @@
+commandlinefu_id: 12090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo -u apache find . -not -readable
+summary: |-
+  find unreadable file

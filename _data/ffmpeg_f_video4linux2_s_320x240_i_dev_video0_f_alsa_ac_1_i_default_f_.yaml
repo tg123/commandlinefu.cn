@@ -1,0 +1,8 @@
+commandlinefu_id: 8946
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -f video4linux2 -s 320x240 -i /dev/video0 -f alsa -ac 1 -i default -f mp4 Filename.mp4
+summary: |-
+  Make webcam video

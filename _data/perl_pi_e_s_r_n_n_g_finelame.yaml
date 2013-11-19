@@ -1,0 +1,8 @@
+commandlinefu_id: 1888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ perl -pi -e 's/\r\n/\n/g' <finelame>
+summary: |-
+  dos2unix

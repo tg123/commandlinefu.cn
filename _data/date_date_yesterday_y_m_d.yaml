@@ -1,0 +1,8 @@
+commandlinefu_id: 6547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date --date=yesterday +%Y%m%d
+summary: |-
+  Format date/time string for a different day

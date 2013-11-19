@@ -1,0 +1,8 @@
+commandlinefu_id: 12750
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MYAML -MJSON -0777 -wnl -e 'print YAML::Dump(decode_json($_))' package.json
+summary: |-
+  Convert JSON to YAML

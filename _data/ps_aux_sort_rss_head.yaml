@@ -1,0 +1,8 @@
+commandlinefu_id: 11520
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux --sort -rss | head
+summary: |-
+  Display the top ten running processes - sorted by memory usage

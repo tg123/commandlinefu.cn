@@ -1,0 +1,8 @@
+commandlinefu_id: 10688
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PROMPT_COMMAND=$PROMPT_COMMAND'; export PWD_UPCASE="${PWD^^}"'; export PS1='C:${PWD_UPCASE//\\//\\\\}>'
+summary: |-
+  Pretend your shell is MS-DOS command.com

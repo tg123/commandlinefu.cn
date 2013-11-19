@@ -1,0 +1,8 @@
+commandlinefu_id: 1377
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  tcptraceroute www.google.com
+summary: |-
+  也可以这么玩 traceroute (tcp协议 默认是udp)

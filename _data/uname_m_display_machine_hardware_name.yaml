@@ -1,0 +1,8 @@
+commandlinefu_id: 11716
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uname -m   # display machine "hardware name"
+summary: |-
+  Check if system is 32bit or 64bit

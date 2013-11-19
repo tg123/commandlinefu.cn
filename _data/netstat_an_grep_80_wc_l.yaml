@@ -1,0 +1,8 @@
+commandlinefu_id: 11229
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -an | grep 80 | wc -l
+summary: |-
+  Number of open connections per ip.

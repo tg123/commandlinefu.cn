@@ -1,0 +1,8 @@
+commandlinefu_id: 12677
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {1..6};do c=;d=;for u in `eval echo {1..$i}`;do c="$c../";d="$d..";eval "$d(){ cd $c;}"; eval "$d.(){ cd $c;}";done;done
+summary: |-
+  Number of .... indicate how far down to cd

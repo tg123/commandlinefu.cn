@@ -1,0 +1,8 @@
+commandlinefu_id: 9154
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  date `ssh user@server date "+%y%m%d%H%M.%S"`
+summary: |-
+  用ssh 同步服务器时间

@@ -1,0 +1,8 @@
+commandlinefu_id: 10445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.google.com | espeak -m -ven+11
+summary: |-
+  webpage reader

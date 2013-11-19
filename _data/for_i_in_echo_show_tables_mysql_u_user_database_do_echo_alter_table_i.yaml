@@ -1,0 +1,8 @@
+commandlinefu_id: 9910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for I in $(echo "show tables" | mysql -u<user> <database>`; do echo "ALTER TABLE  $I ENGINE = INNODB"| mysql -u<user> <database>; done
+summary: |-
+  convert myisam to innodb

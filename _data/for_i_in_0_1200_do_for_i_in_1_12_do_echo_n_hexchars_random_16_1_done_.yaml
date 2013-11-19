@@ -1,0 +1,8 @@
+commandlinefu_id: 7223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {0..1200}; do for i in {1..12} ; do echo -n ${hexchars:$(( $RANDOM % 16 )):1} ; done | sed -e 's/\(..\)/:\1/g' | sed 's/.\(.*\)/\1/' ; echo; done
+summary: |-
+  Generate random valid mac addresses

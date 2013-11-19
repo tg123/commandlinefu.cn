@@ -1,0 +1,8 @@
+commandlinefu_id: 12008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -qahlSr    # list all files in size order - largest last
+summary: |-
+  ls -qahlSr    # list all files in size order - largest last

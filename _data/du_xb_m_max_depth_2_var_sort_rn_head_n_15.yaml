@@ -1,0 +1,8 @@
+commandlinefu_id: 12361
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -xB M --max-depth=2 /var | sort -rn | head -n 15
+summary: |-
+  list the top 15 folders by decreasing size in MB

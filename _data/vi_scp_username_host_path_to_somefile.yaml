@@ -1,0 +1,8 @@
+commandlinefu_id: 11567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vi scp://username@host//path/to/somefile
+summary: |-
+  vi a remote file

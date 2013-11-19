@@ -1,0 +1,8 @@
+commandlinefu_id: 3225
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ethtool eth0
+summary: |-
+  查看网卡信息

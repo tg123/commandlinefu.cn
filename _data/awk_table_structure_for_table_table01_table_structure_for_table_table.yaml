@@ -1,0 +1,8 @@
+commandlinefu_id: 6291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/Table structure for table .table01./,/Table structure for table .table02./{print}' <file> > restored_table.sql
+summary: |-
+  Restore individual table from mysqldump backup.

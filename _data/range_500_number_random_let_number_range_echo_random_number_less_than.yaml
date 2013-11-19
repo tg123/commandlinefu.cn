@@ -1,0 +1,8 @@
+commandlinefu_id: 6263
+translator:
+  weibo: ''
+hide: true
+command: |-
+  RANGE=500;number=$RANDOM let "number %= $RANGE"; echo "Random number less than $RANGE  ---  $number"
+summary: |-
+  Random number less than X

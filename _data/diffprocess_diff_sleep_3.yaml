@@ -1,0 +1,8 @@
+commandlinefu_id: 11808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diffprocess () { diff <($*) <(sleep  3; $*); }
+summary: |-
+  diff process output

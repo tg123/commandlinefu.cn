@@ -1,0 +1,8 @@
+commandlinefu_id: 6309
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo StrinG | tr 'A-Z' 'a-z'
+summary: |-
+  Converts uppercase chars in a string to lowercase

@@ -1,0 +1,8 @@
+commandlinefu_id: 2571
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(tar -tf <file.tar.gz>); do rm $i; done;
+summary: |-
+  Remove all files previously extracted from a tar(.gz) file.

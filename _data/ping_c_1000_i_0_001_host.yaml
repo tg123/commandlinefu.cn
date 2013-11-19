@@ -1,0 +1,8 @@
+commandlinefu_id: 11179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # ping -c 1000 -i 0.001 <host>
+summary: |-
+  Send you 1000 packages icmp eco to "host" in short time

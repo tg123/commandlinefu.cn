@@ -1,0 +1,8 @@
+commandlinefu_id: 6830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -d1a /var/www/*/web | xargs du -hs
+summary: |-
+  Calculate foldersize for each website on an ISPConfig environment

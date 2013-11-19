@@ -1,0 +1,8 @@
+commandlinefu_id: 10549
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "o\nn\np\n1\n\n\nw\n" | fdisk /dev/sdX
+summary: |-
+  Partition a new disk as all one partition tagged as

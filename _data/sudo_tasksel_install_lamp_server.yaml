@@ -1,0 +1,8 @@
+commandlinefu_id: 3645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tasksel install lamp-server
+summary: |-
+  Install a LAMP server in a Debian based distribution

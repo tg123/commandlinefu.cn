@@ -1,0 +1,8 @@
+commandlinefu_id: 6077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "text" | od -t x1
+summary: |-
+  Convert ascii string to hex

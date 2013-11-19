@@ -1,0 +1,8 @@
+commandlinefu_id: 1272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps axww | grep SomeCommand | awk '{ print $1 }' | xargs kill
+summary: |-
+  Kill all processes matching a given name

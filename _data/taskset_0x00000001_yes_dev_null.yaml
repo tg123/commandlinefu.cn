@@ -1,0 +1,8 @@
+commandlinefu_id: 8223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  taskset  0x00000001 yes > /dev/null &
+summary: |-
+  cpu stress test

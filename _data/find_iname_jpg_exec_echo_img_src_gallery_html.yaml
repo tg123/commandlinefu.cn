@@ -1,0 +1,8 @@
+commandlinefu_id: 5982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*.jpg' -exec echo '<img src="{}">' \; > gallery.html
+summary: |-
+  Quick HTML image gallery from folder contents

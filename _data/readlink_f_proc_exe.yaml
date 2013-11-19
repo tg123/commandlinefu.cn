@@ -1,0 +1,8 @@
+commandlinefu_id: 7801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -f /proc/$$/exe
+summary: |-
+  Figure out what shell you're running

@@ -1,0 +1,8 @@
+commandlinefu_id: 12793
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{pattern=$1$2; seen[pattern]++; if (seen[pattern] == 1) print NR}' inputFile
+summary: |-
+  Print starting line numbers of group of lines in a file, which have the same first and second column

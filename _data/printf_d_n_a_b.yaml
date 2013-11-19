@@ -1,0 +1,8 @@
+commandlinefu_id: 3823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%d\n" "'A" "'B"
+summary: |-
+  get the ascii number with bash builtin printf

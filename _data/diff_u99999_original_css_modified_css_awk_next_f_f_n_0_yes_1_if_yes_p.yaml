@@ -1,0 +1,8 @@
+commandlinefu_id: 10033
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -U99999 original.css modified.css  | awk '/^-/{next} {f=f"\n"$0} /^\+.*[^ ]/{yes=1} /}/ {if(yes){print f} f="";yes=0}'
+summary: |-
+  diff two css files to create an overriding css (e.g. for wordpress child themes)

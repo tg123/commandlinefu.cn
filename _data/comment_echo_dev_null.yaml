@@ -1,0 +1,8 @@
+commandlinefu_id: 5521
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  comment() { echo "" > /dev/null; }
+summary: |-
+  None

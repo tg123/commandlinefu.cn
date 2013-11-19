@@ -1,0 +1,8 @@
+commandlinefu_id: 3287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "5 k 3 5 / p" | dc
+summary: |-
+  floating point operations in shell scripts

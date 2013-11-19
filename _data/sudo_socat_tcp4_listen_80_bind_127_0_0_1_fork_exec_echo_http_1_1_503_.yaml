@@ -1,0 +1,8 @@
+commandlinefu_id: 8393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo socat TCP4-LISTEN:80,bind=127.0.0.1,fork EXEC:'echo "HTTP/1.1 503 Service Unavailable";'
+summary: |-
+  Make redirects to localhost via /etc/hosts more interesting

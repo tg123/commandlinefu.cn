@@ -1,0 +1,8 @@
+commandlinefu_id: 1898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum erase `yum list installed | grep 'php'`
+summary: |-
+  Remove rpm package by pattern

@@ -1,0 +1,8 @@
+commandlinefu_id: 9157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FILE=$(tempfile 2>/dev/null || echo .$RANDOM)
+summary: |-
+  create file

@@ -1,0 +1,8 @@
+commandlinefu_id: 8993
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sox <file name>.wav -r 8000 <file name>.gsm
+summary: |-
+  Convert .wav audio files to .gsm format

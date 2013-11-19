@@ -1,0 +1,8 @@
+commandlinefu_id: 4682
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(( $( cat count.txt | tr "\n" "+" | xargs -I{} echo {} 0  ) ))
+summary: |-
+  Using numsum to sum a column of numbers.

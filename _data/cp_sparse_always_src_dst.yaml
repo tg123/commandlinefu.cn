@@ -1,0 +1,8 @@
+commandlinefu_id: 9198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp --sparse=always <SRC> <DST>
+summary: |-
+  Copy sparse files

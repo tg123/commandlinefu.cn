@@ -1,0 +1,8 @@
+commandlinefu_id: 10402
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude -F "%p" search \!~M~i~T | xargs apt-mark markauto
+summary: |-
+  Marks all manually installed deb packages as automatically installed.

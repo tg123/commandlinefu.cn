@@ -1,0 +1,8 @@
+commandlinefu_id: 1421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mtree -c -K sha256digest -X mtree.exclude -p /path > host.mtree
+summary: |-
+  Generate a specification file for file integrity scanning.

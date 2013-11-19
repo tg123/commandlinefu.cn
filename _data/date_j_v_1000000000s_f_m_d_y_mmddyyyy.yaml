@@ -1,0 +1,8 @@
+commandlinefu_id: 3057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -j -v +1000000000S -f %m%d%Y mmddYYYY
+summary: |-
+  Find out when your billion-second anniversary is (was).

@@ -1,0 +1,8 @@
+commandlinefu_id: 7714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.last.fm/user/$LASTFMUSER | grep -A 1 subjectCell | sed -e 's#<[^>]*>##g' | head -n2 | tail -n1 | sed 's/^[[:space:]]*//g'
+summary: |-
+  Fetch current song from last.fm

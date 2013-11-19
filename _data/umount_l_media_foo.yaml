@@ -1,0 +1,8 @@
+commandlinefu_id: 733
+translator:
+  weibo: ''
+hide: true
+command: |-
+  umount -l /media/foo
+summary: |-
+  Unmount locked filesystems.

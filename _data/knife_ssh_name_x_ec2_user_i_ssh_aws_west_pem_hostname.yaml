@@ -1,0 +1,8 @@
+commandlinefu_id: 11481
+translator:
+  weibo: ''
+hide: true
+command: |-
+  knife ssh name:* -x ec2-user -i ~/.ssh/aws-west.pem "hostname"
+summary: |-
+  chef ssh

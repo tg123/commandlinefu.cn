@@ -1,0 +1,8 @@
+commandlinefu_id: 12799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (date "+%d-%m-%Y %H:%M:%S";curl -s --interface lo:1 ifconfig.me| xargs -t geoiplookup 2>&1)|sed  -e 's/geoiplookup/IP:/g' -e 's/GeoIP Country Edition/Country/g'|tr -s "\n" " "|sed 'a\ '
+summary: |-
+  Localize a Public IP on a specific interface

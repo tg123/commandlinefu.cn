@@ -1,0 +1,8 @@
+commandlinefu_id: 2556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps awwfux | less -S
+summary: |-
+  Show a 4-way scrollable process tree with full details.

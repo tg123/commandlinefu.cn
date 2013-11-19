@@ -1,0 +1,8 @@
+commandlinefu_id: 5054
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cmd=$(wget -qO- "http://www.m-w.com/dictionary/$(echo "$@"|tr '[A-Z]' '[a-z]')" | sed -rn "s#return au\('([^']+?)', '([^'])[^']*'\);.*#\nwget -qO- http://cougar.eb.com/soundc11/\2/\1 | aplay -q#; s/[^\n]*\n//p"); [ "$cmd" ] && eval "$cmd" || exit 1
+summary: |-
+  Pronounce an English word using Merriam-Webster.com

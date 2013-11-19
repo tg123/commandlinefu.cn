@@ -1,0 +1,8 @@
+commandlinefu_id: 2829
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +short txt <keyword>.wp.dg.cx
+summary: |-
+  Query Wikipedia via console over DNS

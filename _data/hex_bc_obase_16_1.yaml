@@ -1,0 +1,8 @@
+commandlinefu_id: 9856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hex() { bc <<< "obase=16; $1"; }
+summary: |-
+  convert from decimal to hexadecimal

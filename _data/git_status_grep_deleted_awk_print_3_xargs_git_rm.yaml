@@ -1,0 +1,8 @@
+commandlinefu_id: 7334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git status | grep deleted | awk '{print $3}' | xargs git rm
+summary: |-
+  delete multiple files from git index that have already been deleted from disk

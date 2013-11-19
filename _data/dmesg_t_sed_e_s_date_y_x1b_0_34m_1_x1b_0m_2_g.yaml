@@ -1,0 +1,8 @@
+commandlinefu_id: 11074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmesg -T|sed -e 's|\(^.*'`date +%Y`']\)\(.*\)|\x1b[0;34m\1\x1b[0m - \2|g'
+summary: |-
+  dmesg with colored human-readable dates

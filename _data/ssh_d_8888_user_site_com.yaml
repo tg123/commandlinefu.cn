@@ -1,0 +1,8 @@
+commandlinefu_id: 880
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ssh -D 8888 user@site.com
+summary: |-
+  Socket转发 8888端口

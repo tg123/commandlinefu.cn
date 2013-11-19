@@ -1,0 +1,8 @@
+commandlinefu_id: 6046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -f 1 three-column.txt > first-column.txt
+summary: |-
+  Short one line while loop that outputs parameterized content from one file to another

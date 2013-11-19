@@ -1,0 +1,8 @@
+commandlinefu_id: 10355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo `which adb` ppp "shell:pppd nodetach noauth noipdefault /dev/tty" nodetach noauth noipdefault notty 192.168.0.100:192.168.0.200
+summary: |-
+  creates a ppp link between my Ubuntu development machine and BeagleBoard running Android connected via USB

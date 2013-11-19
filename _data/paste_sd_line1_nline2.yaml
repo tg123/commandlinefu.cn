@@ -1,0 +1,8 @@
+commandlinefu_id: 11510
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste -sd, <<< $'line1\nline2'
+summary: |-
+  Join the lines with comma

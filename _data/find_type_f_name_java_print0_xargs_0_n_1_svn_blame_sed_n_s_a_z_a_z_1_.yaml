@@ -1,0 +1,8 @@
+commandlinefu_id: 1173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*.java" -print0 | xargs -0 -n 1 svn blame | sed -n 's/^[^a-z]*\([a-z]*\).*$/\1/p' | sort | uniq -c | sort -n
+summary: |-
+  sort through source to find most common authors

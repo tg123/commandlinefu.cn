@@ -1,0 +1,8 @@
+commandlinefu_id: 2654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo nmap -sS 192.168.0.10 -D 192.168.0.2
+summary: |-
+  Use a decoy while scanning ports to avoid getting caught by the sys admin :9

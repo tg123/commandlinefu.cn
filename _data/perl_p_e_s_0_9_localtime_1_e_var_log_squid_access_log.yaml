@@ -1,0 +1,8 @@
+commandlinefu_id: 5891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -p -e 's/^([0-9]*)/"[".localtime($1)."]"/e' < /var/log/squid/access.log
+summary: |-
+  Convert Squid unixtime logs in human-readable ones

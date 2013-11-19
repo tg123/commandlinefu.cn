@@ -1,0 +1,8 @@
+commandlinefu_id: 10059
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -p -i -e 's/.*\n//g if $.==2' ~/.ssh/known_hosts
+summary: |-
+  Remove a line from a file using sed (useful for updating known SSH server keys when they change)

@@ -1,0 +1,8 @@
+commandlinefu_id: 2009
+translator:
+  weibo: ''
+hide: true
+command: |-
+  inkscape -f file.svg --verb=org.inkscape.color.grayscale --verb=FileSave --verb=FileClose
+summary: |-
+  Convert a SVG file to grayscale

@@ -1,0 +1,8 @@
+commandlinefu_id: 2254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getconf ARG_MAX
+summary: |-
+  Get max number of arguments

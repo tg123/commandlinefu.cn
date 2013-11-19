@@ -1,0 +1,8 @@
+commandlinefu_id: 4711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  a="www.commandlinefu.com";b="/index.php";for n in $(seq 1 7);do echo -en "GET $b HTTP/1.0\r\nHost: "$a"\r\n\r\n" |nc $a 80 2>&1 |grep Set-Cookie;done
+summary: |-
+  Get Cookies from bash

@@ -1,0 +1,8 @@
+commandlinefu_id: 4035
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <path> -name "*.tgz" -or -name "*.tar.gz" | while read file; do echo "$file: "; tar -tzf $file; done
+summary: |-
+  List files in tarballs

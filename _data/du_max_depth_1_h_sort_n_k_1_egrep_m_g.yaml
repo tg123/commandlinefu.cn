@@ -1,0 +1,8 @@
+commandlinefu_id: 11863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du --max-depth=1 -h * |sort -n -k 1 |egrep 'M|G'
+summary: |-
+  Shows size of dirs and files, hidden or not, sorted.

@@ -1,0 +1,8 @@
+commandlinefu_id: 2929
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nslookup commandlinefu.com|sed 's/[^0-9. ]//g'|tail -n 1|awk -F " " '{print $2}'
+summary: |-
+  Get the ip registered to a domain on OpenWRT

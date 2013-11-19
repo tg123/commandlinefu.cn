@@ -1,0 +1,8 @@
+commandlinefu_id: 11814
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo '#!/bin/bash' > junk.sh ; find . -iname *.pdf -type f -printf \p\s\2\a\s\c\i\i\ \"%p\"\ \ \"%p\.\t\x\u\"\;\ \p\a\r\ \<\"%p\.\t\x\u\"\ \>\"%p\.\t\x\t\"\ \;\ \r\m\ \"%p\.\t\x\u\"\ \\n >>junk.sh; chmod 766 junk.sh; ./junk.sh ; rm junk.sh
+summary: |-
+  Extract text from all PDFs in curdir & subdirs to new files named as source+.txt, linux only.

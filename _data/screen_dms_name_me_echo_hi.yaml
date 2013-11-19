@@ -1,0 +1,8 @@
+commandlinefu_id: 2101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -dmS "name_me" echo "hi"
+summary: |-
+  Start screen with name and run command

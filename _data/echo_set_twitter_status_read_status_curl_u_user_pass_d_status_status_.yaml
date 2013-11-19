@@ -1,0 +1,8 @@
+commandlinefu_id: 783
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Set Twitter Status" ; read STATUS; curl -u user:pass -d status="$STATUS" http://twitter.com/statuses/update.xml
+summary: |-
+  Improvement of curl + Twitter

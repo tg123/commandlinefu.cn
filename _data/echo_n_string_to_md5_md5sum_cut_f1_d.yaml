@@ -1,0 +1,8 @@
+commandlinefu_id: 8018
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n "String to MD5" | md5sum | cut -f1 -d' '
+summary: |-
+  Generate MD5 of string and output only the hash checksum

@@ -1,0 +1,8 @@
+commandlinefu_id: 10358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F\| '{ print $2 }' nation.tbl
+summary: |-
+  Extract single column from TPC-H datafiles

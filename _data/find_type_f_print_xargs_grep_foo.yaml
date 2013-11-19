@@ -1,0 +1,8 @@
+commandlinefu_id: 647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print | xargs grep foo
+summary: |-
+  Find 'foo' string inside files

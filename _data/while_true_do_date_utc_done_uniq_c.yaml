@@ -1,0 +1,8 @@
+commandlinefu_id: 12022
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while (true); do date --utc; done | uniq -c
+summary: |-
+  fork performance test

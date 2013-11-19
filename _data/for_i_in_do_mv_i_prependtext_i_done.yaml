@@ -1,0 +1,8 @@
+commandlinefu_id: 6331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *; do mv $i prependtext$i; done
+summary: |-
+  Prepend string to filename

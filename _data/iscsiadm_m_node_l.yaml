@@ -1,0 +1,8 @@
+commandlinefu_id: 3955
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iscsiadm -m node -l
+summary: |-
+  Attach all discovered iscsi nodes

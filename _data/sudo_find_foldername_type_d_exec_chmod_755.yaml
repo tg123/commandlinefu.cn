@@ -1,0 +1,8 @@
+commandlinefu_id: 10458
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find foldername -type d -exec chmod 755 {} ";"
+summary: |-
+  change directory permissions whithout changing file permissions recursive

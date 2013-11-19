@@ -1,0 +1,8 @@
+commandlinefu_id: 6712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo youtube-dl -U
+summary: |-
+  Youtube-dl gone stale on you/stopped working (Ubuntu)?

@@ -1,0 +1,8 @@
+commandlinefu_id: 8130
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yt-pl2mp3() {umph -m 50 $1 | cclive -f mp4_720p; IFS=$(echo -en "\n\b"); for track in $(ls | grep mp4 | awk '{print $0}' | sed -e 's/\.mp4//'); do (ffmpeg -i $track.mp4 -vn -ar 44100 -ac 2 -ab 320 -f mp3 $track.mp3); done; rm -f *.mp4}
+summary: |-
+  Download YouTube music playlist and convert it to mp3 files

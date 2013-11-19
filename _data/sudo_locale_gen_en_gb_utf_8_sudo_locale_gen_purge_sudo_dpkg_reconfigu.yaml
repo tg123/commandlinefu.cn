@@ -1,0 +1,8 @@
+commandlinefu_id: 10568
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo locale-gen en_GB.UTF-8 && sudo locale-gen --purge && sudo dpkg-reconfigure locales
+summary: |-
+  Fix for error perl: warning: Setting locale failed.

@@ -1,0 +1,8 @@
+commandlinefu_id: 10957
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  dd if=/dev/cdrom of=~/cdrom_image.iso
+summary: |-
+  制作iso的方法

@@ -1,0 +1,8 @@
+commandlinefu_id: 4354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cvf /path/dir.tar /path/dir* --exclude "/path/dir/name" --exclude "/path/dir/opt"
+summary: |-
+  Tar - Compress by excluding folders

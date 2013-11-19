@@ -1,0 +1,8 @@
+commandlinefu_id: 2031
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo installer -pkg /Volumes/someapp/someapp.mpkg -target /
+summary: |-
+  Install an mpkg from the command line on OSX

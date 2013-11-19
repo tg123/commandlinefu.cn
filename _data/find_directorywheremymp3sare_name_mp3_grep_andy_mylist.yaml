@@ -1,0 +1,8 @@
+commandlinefu_id: 6238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /DirectoryWhereMyMp3sAre/ -name *.mp3 | grep "andy" > ~/mylist
+summary: |-
+  Make a playlistfile for mpg321 or other CLI player

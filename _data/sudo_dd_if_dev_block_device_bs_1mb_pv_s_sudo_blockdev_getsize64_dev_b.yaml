@@ -1,0 +1,8 @@
+commandlinefu_id: 9821
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dd if=/dev/block/device bs=1MB | pv -s `sudo blockdev --getsize64 /dev/block/device' | gzip -9 > output.img.gz
+summary: |-
+  DD with progressbar using pv for backing up entire block device

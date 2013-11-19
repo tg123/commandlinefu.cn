@@ -1,0 +1,8 @@
+commandlinefu_id: 10719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls "`defaults read com.apple.itunes NSNavLastRootDirectory`/iTunes/iTunes Music/Mobile Applications/" > filepath
+summary: |-
+  export iPad, iPhone App list to txt file

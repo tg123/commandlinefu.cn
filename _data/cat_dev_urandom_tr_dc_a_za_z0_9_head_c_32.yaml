@@ -1,0 +1,8 @@
+commandlinefu_id: 9734
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 32
+summary: |-
+  长密码

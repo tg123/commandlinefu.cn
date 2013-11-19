@@ -1,0 +1,8 @@
+commandlinefu_id: 11816
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*jpg' -print0  | xargs -0 exiftool -warning; find . -iname '*jpg' -print0  | xargs -0 jpeginfo -c
+summary: |-
+  Find corrupted jpeg image files

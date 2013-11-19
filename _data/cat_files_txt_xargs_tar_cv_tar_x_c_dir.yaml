@@ -1,0 +1,8 @@
+commandlinefu_id: 2912
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat files.txt | xargs tar -cv | tar -x -c $DIR/
+summary: |-
+  Copy files from list with hierarchy

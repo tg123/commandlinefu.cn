@@ -1,0 +1,8 @@
+commandlinefu_id: 12333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo pacman -Syu
+summary: |-
+  Upgrading packages.  Pacman can update all packages on the system with just one command. This could take quite a while depending on how up-to-date the system is. This command can synchronize the repository databases and update the system's packages.

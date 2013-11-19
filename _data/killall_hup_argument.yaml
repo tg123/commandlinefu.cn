@@ -1,0 +1,8 @@
+commandlinefu_id: 11536
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall -HUP argument
+summary: |-
+  Force all processes matching argument to close.

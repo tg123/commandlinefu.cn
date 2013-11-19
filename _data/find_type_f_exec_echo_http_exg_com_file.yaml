@@ -1,0 +1,8 @@
+commandlinefu_id: 4999
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . type f -exec echo http://exg.com/{} \; > file
+summary: |-
+  Find all files and append to file

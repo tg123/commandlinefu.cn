@@ -1,0 +1,8 @@
+commandlinefu_id: 6690
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -i "aborted login" /var/log/maillog | awk 'BEGIN{FS="="}{print substr($4,8)}' | cut -d"," -f1
+summary: |-
+  IP list of aborted mail logins

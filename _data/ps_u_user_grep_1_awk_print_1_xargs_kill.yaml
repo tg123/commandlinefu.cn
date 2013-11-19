@@ -1,0 +1,8 @@
+commandlinefu_id: 2699
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -u $USER |grep $1 | awk '{ print $1}'| xargs kill
+summary: |-
+  Kill a process with its name

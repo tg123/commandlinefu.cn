@@ -1,0 +1,8 @@
+commandlinefu_id: 226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo -u username bash
+summary: |-
+  Switch to a user with "nologin" shell

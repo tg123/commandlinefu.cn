@@ -1,0 +1,8 @@
+commandlinefu_id: 291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount | grep : | tr -s ' ' -d 3 | xargs umount -v
+summary: |-
+  umount all nfs mounts on machine

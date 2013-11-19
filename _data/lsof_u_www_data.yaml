@@ -1,0 +1,8 @@
+commandlinefu_id: 628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -u www-data
+summary: |-
+  Show what a given user has open using lsof

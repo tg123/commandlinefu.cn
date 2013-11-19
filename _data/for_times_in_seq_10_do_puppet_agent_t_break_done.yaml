@@ -1,0 +1,8 @@
+commandlinefu_id: 12123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for times in $(seq 10) ; do puppet agent -t && break ; done
+summary: |-
+  Rerun a command until there are no changes, but no more than N times.

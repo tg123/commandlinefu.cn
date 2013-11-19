@@ -1,0 +1,8 @@
+commandlinefu_id: 10874
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -size 100x100 xc:grey nopic100_100.jpg
+summary: |-
+  Create a new image with specified size and bg color

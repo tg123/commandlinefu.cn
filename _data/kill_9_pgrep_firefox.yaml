@@ -1,0 +1,8 @@
+commandlinefu_id: 5517
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 `pgrep firefox`
+summary: |-
+  kill process by name

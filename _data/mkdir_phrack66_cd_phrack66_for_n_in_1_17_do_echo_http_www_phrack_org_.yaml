@@ -1,0 +1,8 @@
+commandlinefu_id: 2405
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir phrack66; (cd phrack66; for n in {1..17} ; do echo "http://www.phrack.org/issues.html?issue=66&id=$n&mode=txt" ; done | xargs wget)
+summary: |-
+  Phrack 66 is out, but the .tar.gz is not there yet on phrack.org's website

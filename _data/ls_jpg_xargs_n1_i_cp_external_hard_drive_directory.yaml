@@ -1,0 +1,8 @@
+commandlinefu_id: 12306
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *.jpg | xargs -n1 -i cp {} /external-hard-drive/directory
+summary: |-
+  Copy all images to external hard-drive

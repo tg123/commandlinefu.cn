@@ -1,0 +1,8 @@
+commandlinefu_id: 5209
+translator:
+  weibo: ''
+hide: true
+command: |-
+  year=2010; math=`echo "$year%4" | bc`; [ ! -z $year ] && [ $math -eq 0 ] && echo "$year is leap year!" || echo "$year isn't leap year";
+summary: |-
+  Leap year calculation

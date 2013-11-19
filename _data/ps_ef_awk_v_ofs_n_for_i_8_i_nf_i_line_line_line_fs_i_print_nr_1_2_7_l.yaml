@@ -1,0 +1,8 @@
+commandlinefu_id: 11617
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | awk -v OFS="\n" '{ for (i=8;i<=NF;i++) line = (line ? line FS : "") $i; print NR ":", $1, $2, $7, line, ""; line = "" }'
+summary: |-
+  Pretty print output of

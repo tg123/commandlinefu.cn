@@ -1,0 +1,8 @@
+commandlinefu_id: 663
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gmake runtestsingle testsingle=udtime
+summary: |-
+  Run one of your auto test programs from GNU make

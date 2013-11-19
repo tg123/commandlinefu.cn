@@ -1,0 +1,8 @@
+commandlinefu_id: 3897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w3m http://amit-agarwal.co.in/mystuff/getip_txt.php will return the ip in text format.
+summary: |-
+  What is my ip?

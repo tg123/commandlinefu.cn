@@ -1,0 +1,8 @@
+commandlinefu_id: 207
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (on destination machine) nc -l 1234 > whatever; (on source machine) nc destination 1234 < whatever;
+summary: |-
+  The simplest way to transport information over a network

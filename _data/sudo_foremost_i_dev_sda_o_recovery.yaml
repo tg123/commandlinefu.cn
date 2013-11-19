@@ -1,0 +1,8 @@
+commandlinefu_id: 6372
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo foremost -i /dev/sda -o /recovery
+summary: |-
+  Recover deleted Binary files

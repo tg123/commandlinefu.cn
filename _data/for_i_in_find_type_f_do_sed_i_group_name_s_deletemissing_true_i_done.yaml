@@ -1,0 +1,8 @@
+commandlinefu_id: 4763
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `find . -type f`; do sed -i '/group name/s/>/ deleteMissing="true">/' $i; done
+summary: |-
+  Recursively replace a string in files with lines matching string

@@ -1,0 +1,8 @@
+commandlinefu_id: 5668
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep  -Eo  \([0-9]\{1,3\}[\.]\)\{3\}[0-9] file | sort | uniq
+summary: |-
+  Extract IPv4 addressess from file

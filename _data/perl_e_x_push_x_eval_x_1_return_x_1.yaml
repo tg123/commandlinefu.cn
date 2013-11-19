@@ -1,0 +1,8 @@
+commandlinefu_id: 3728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e '$x = []; push @$x, eval { $x = 1; return $x = 1; }'
+summary: |-
+  Make perl crash

@@ -1,0 +1,8 @@
+commandlinefu_id: 11220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 pkill -USR1 "^dd$"
+summary: |-
+  send DD a signal to print its progress

@@ -1,0 +1,8 @@
+commandlinefu_id: 12115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zmv -Q '(**/)(*)(.)' '$1${(L)2}'
+summary: |-
+  recursively change file name from uppercase to lowercase (or viceversa)

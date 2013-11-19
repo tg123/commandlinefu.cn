@@ -1,0 +1,8 @@
+commandlinefu_id: 375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . \( -name '*.h' -o -name '*.cc' \) | xargs grep . | wc -l
+summary: |-
+  Counts number of lines

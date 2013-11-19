@@ -1,0 +1,8 @@
+commandlinefu_id: 2803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  renice 19 -p $$
+summary: |-
+  Make shell (script) low priority. Use for non interactive tasks

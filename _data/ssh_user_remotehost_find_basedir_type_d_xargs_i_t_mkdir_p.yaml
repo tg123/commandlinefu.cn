@@ -1,0 +1,8 @@
+commandlinefu_id: 12508
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@remotehost "find basedir -type d" | xargs -I {} -t mkdir -p {}
+summary: |-
+  Replicate a directory structure from a 'basedir' in a remote server.

@@ -1,0 +1,8 @@
+commandlinefu_id: 115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -e | grep SearchStringHere
+summary: |-
+  Search for a running process through grep

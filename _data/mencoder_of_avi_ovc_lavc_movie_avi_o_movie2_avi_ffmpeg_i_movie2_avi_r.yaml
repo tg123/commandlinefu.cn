@@ -1,0 +1,8 @@
+commandlinefu_id: 3228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -of avi -ovc lavc movie.avi -o movie2.avi; ffmpeg -i movie2.avi -r 12  -b 100 movie.flv
+summary: |-
+  Convert a VMWare screencast into a flv file

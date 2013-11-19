@@ -1,0 +1,8 @@
+commandlinefu_id: 10526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /some/path -type f -and -printf "%f\n" | egrep -io '\.[^.]*$' | sort | uniq -c | sort -rn
+summary: |-
+  list unique file extensions recursively for a path, include extension frequency stats

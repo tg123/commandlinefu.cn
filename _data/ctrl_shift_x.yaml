@@ -1,0 +1,8 @@
+commandlinefu_id: 10178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Ctrl+Shift+x
+summary: |-
+  Clear the terminal screen

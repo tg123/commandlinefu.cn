@@ -1,0 +1,8 @@
+commandlinefu_id: 5029
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  /sbin/route -n | grep "^0\.0\.0\.0" | awk '{ print $2 }'
+summary: |-
+  查看网关

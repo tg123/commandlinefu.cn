@@ -1,0 +1,8 @@
+commandlinefu_id: 12377
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat filein | ssh destination.com -c arcfour,blowfish-cbc -C -p 50005 "cat - > /tmp/fileout"
+summary: |-
+  Transfer 1 file with ssh

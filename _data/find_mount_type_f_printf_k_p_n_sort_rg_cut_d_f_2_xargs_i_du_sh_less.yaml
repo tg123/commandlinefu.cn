@@ -1,0 +1,8 @@
+commandlinefu_id: 10499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mount -type f -printf "%k %p\n" | sort -rg | cut -d \  -f 2- | xargs -I {} du -sh {} | less
+summary: |-
+  Recursively find top 20 largest files (> 1MB) sort human readable format

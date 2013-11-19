@@ -1,0 +1,8 @@
+commandlinefu_id: 8176
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $DIR -exec bash method {} ";"
+summary: |-
+  recursive command to find out all directories

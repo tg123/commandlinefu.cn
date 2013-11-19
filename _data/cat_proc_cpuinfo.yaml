@@ -1,0 +1,8 @@
+commandlinefu_id: 875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/cpuinfo
+summary: |-
+  full cpu info (linux)

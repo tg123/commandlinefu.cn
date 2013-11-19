@@ -1,0 +1,8 @@
+commandlinefu_id: 10312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl "http://api.twitter.com/1/statuses/user_timeline.xml?count=1&screen_name=barackobama" | egrep -w "<text>(.*)</text>" | sed -E "s/<\/?text>//g" | say
+summary: |-
+  Speaks latest tweet by Obama (os x)

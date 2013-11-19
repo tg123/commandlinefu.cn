@@ -1,0 +1,8 @@
+commandlinefu_id: 367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias pfind='ps aux | grep '
+summary: |-
+  Helpful alias to grep for the PID.

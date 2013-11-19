@@ -1,0 +1,8 @@
+commandlinefu_id: 7679
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'printf "%vd\n",pack "N",rand 256**4'
+summary: |-
+  Perl One Liner to Generate a Random IP Address

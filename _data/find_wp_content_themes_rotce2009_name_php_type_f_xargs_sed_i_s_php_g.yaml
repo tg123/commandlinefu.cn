@@ -1,0 +1,8 @@
+commandlinefu_id: 4363
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./wp-content/themes/rotce2009/ -name '*.php' -type f | xargs sed -i 's/<? /<?php /g'
+summary: |-
+  Altera texto dentro dos arquivos retornados pelo comando 'find'  (find and replacing strings on all files in directory)

@@ -1,0 +1,8 @@
+commandlinefu_id: 956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -iR find_me ./
+summary: |-
+  Find String

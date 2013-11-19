@@ -1,0 +1,8 @@
+commandlinefu_id: 12509
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -d, -f1 /var/opt/example/dumpfile.130610_subscriber.csv | cut -c3-5 | sort | uniq -c | sed -e 's/^ *//;/^$/d' | awk -F" " '{print $2 "," $1}' > SubsxPrefix.csv
+summary: |-
+  Create a csv file with '5-digits prefix' phone numbers, as well as occurrences per prefix

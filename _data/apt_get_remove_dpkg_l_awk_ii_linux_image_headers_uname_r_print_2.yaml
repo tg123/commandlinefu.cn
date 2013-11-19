@@ -1,0 +1,8 @@
+commandlinefu_id: 9438
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  apt-get remove $(dpkg -l | awk "/^ii  linux-(image|headers)/ && ! /`uname -r`/ {print \$2}")
+summary: |-
+  Ubuntu 清理无用的 Kernels

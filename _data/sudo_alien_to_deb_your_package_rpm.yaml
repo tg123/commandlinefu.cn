@@ -1,0 +1,8 @@
+commandlinefu_id: 3649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo alien --to-deb Your_PackAge.rpm
+summary: |-
+  convert .rpm to .deb using alien

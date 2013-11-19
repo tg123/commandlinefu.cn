@@ -1,0 +1,8 @@
+commandlinefu_id: 8331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.epub' -exec sh -c 'a={}; ebook-convert $a ${a%.epub}.mobi --still --more --options' \;
+summary: |-
+  Recursive script to find all epubs in the current dir and subs, then convert to mobi using calibre's ebook-convert utility

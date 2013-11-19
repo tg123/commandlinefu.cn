@@ -1,0 +1,8 @@
+commandlinefu_id: 11786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function up { cd $(eval printf '../'%.0s {1..$1}) && pwd; }
+summary: |-
+  move up through directories faster (set in your /etc/profile or .bash_profile)

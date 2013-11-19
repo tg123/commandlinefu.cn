@@ -1,0 +1,8 @@
+commandlinefu_id: 3258
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --reject html,htm --accept pdf,zip -rl1 url
+summary: |-
+  get all pdf and zips from a website using wget

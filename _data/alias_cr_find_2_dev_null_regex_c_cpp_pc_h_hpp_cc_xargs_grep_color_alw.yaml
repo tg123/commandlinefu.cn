@@ -1,0 +1,8 @@
+commandlinefu_id: 11
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cr='find . 2>/dev/null -regex '\''.*\.\(c\|cpp\|pc\|h\|hpp\|cc\)$'\'' | xargs grep --color=always -ni -C2'
+summary: |-
+  Creates a customized search command

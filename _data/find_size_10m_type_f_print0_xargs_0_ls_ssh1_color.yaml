@@ -1,0 +1,8 @@
+commandlinefu_id: 3194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -size +10M -type f -print0 | xargs -0 ls -Ssh1 --color
+summary: |-
+  Sort file greater than a specified size  in human readeable format including their path and typed by color, running from current directory

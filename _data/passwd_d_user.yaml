@@ -1,0 +1,8 @@
+commandlinefu_id: 5577
+translator:
+  weibo: ''
+hide: true
+command: |-
+  passwd -d $USER
+summary: |-
+  Enable passwordless login

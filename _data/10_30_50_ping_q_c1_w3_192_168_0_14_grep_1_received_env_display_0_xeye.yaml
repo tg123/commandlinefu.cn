@@ -1,0 +1,8 @@
+commandlinefu_id: 10188
+translator:
+  weibo: ''
+hide: true
+command: |-
+  10,30,50 * * * * ping -q -c1 -w3 192.168.0.14 | grep '1 received' - || env DISPLAY=:0 xeyes
+summary: |-
+  Make alert if host is 'dead' or not reachable

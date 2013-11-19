@@ -1,0 +1,8 @@
+commandlinefu_id: 11869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  msgfilter --keep-header --input input.po awk '{}' | sed '/^#$/d; /^#[^\:\~,\.]/d' >empty.po
+summary: |-
+  empty a gettext po-file (or, po2pot)

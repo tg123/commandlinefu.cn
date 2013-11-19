@@ -1,0 +1,8 @@
+commandlinefu_id: 8607
+translator:
+  weibo: ''
+hide: true
+command: |-
+  montage input.jpg -auto-orient -duplicate 7 -geometry 500 -frame 5 output.jpg
+summary: |-
+  Repeat a portrait eight times so it can be cut out from a 6

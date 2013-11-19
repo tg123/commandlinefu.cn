@@ -1,0 +1,8 @@
+commandlinefu_id: 5231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff --diff-cmd='meld' -r 100:BASE FILE
+summary: |-
+  Send your svn diff to meld

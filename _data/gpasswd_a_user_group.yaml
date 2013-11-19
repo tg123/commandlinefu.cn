@@ -1,0 +1,8 @@
+commandlinefu_id: 12873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpasswd -a USER GROUP
+summary: |-
+  Add a user to a group

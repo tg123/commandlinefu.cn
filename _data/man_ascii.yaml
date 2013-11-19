@@ -1,0 +1,8 @@
+commandlinefu_id: 1798
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man ascii
+summary: |-
+  Quick access to the ascii table.

@@ -1,0 +1,8 @@
+commandlinefu_id: 12471
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {0..255}; do echo -e "\e[38;05;${i}m\\\e[38;05;${i}m"; done | column -c 80 -s '  '; echo -e "\e[m"
+summary: |-
+  Show numerical values for each of the 256 colors in ZSH

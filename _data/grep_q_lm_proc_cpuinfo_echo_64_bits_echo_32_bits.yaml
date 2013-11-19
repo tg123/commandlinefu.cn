@@ -1,0 +1,8 @@
+commandlinefu_id: 11875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -q '\<lm\>' /proc/cpuinfo && echo 64 bits || echo 32 bits
+summary: |-
+  Check if *hardware* is 32bit or 64bit

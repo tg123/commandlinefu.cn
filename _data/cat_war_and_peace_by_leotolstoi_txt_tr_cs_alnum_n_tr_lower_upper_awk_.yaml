@@ -1,0 +1,8 @@
+commandlinefu_id: 5994
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat WAR_AND_PEACE_By_LeoTolstoi.txt | tr -cs "[:alnum:]" "\n"| tr "[:lower:]" "[:upper:]" | awk '{h[$1]++}END{for (i in h){print h[i]" "i}}'|sort -nr | cat -n | head -n 30
+summary: |-
+  computes the most frequent used words of a text file

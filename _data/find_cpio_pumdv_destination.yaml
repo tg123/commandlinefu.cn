@@ -1,0 +1,8 @@
+commandlinefu_id: 2036
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | cpio -pumdv /destination
+summary: |-
+  Clone current directory into /destination verbosely

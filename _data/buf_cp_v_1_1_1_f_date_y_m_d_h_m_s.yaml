@@ -1,0 +1,8 @@
+commandlinefu_id: 7318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  buf() { cp -v $1 ${1/${1%%.*}/$f-$(date +"%Y%m%d_%H%M%S")};}
+summary: |-
+  Backup a file with a date-time stamp

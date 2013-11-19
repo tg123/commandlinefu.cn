@@ -1,0 +1,8 @@
+commandlinefu_id: 2695
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder dvd://<title> -dvd-device <device> -aid 128 -info srcform='ripped by mencoder' -oac mp3lame -lameopts abr:br=128 -ovc xvid -xvidencopts pass=2:bitrate=-700000 -ofps 30000/1001 -o '<outputfile.avi>'
+summary: |-
+  Second pass dvd rip... The set of commands was too long, so I had to separate them into two.

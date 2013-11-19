@@ -1,0 +1,8 @@
+commandlinefu_id: 5624
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill -USR1 ^dd$
+summary: |-
+  Watch the progress of 'dd'

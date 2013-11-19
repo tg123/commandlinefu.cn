@@ -1,0 +1,8 @@
+commandlinefu_id: 12824
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch --interval 1 ls -lah
+summary: |-
+  Execute ls -lah every one second

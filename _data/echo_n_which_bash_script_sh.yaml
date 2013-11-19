@@ -1,0 +1,8 @@
+commandlinefu_id: 10184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  { echo -n '#!'; which bash; } > script.sh
+summary: |-
+  before writing a new script

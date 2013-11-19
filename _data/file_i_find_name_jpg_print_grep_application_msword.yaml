@@ -1,0 +1,8 @@
+commandlinefu_id: 11996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file -i `find . -name '*.jpg' -print` | grep "application/msword"
+summary: |-
+  Find .jpg file that is actually thumbs.db

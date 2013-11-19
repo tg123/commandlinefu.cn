@@ -1,0 +1,8 @@
+commandlinefu_id: 6458
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jb() { if [ -z $1 ];then printf 'usage:\njb <"date and/or time"> <"commandline"> &\nsee parsedate(3) strftime(3)\n';else t1=$(date +%s); t2=$(date -d "$1" +%s) ;sleep $(expr $t2 - $t1);$2 ;fi ;}
+summary: |-
+  "at" command w/o the resource usage/competition issues

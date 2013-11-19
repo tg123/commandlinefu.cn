@@ -1,0 +1,8 @@
+commandlinefu_id: 2734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [[ "$WINDOW" ]] && PS1="\u@\h:\w[$WINDOW]\$ "
+summary: |-
+  Display screen window number in prompt

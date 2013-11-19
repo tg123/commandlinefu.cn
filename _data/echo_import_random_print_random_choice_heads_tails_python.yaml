@@ -1,0 +1,8 @@
+commandlinefu_id: 196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "import random; print(random.choice(['heads', 'tails']))"  | python
+summary: |-
+  a pseudo-random coin flip in python

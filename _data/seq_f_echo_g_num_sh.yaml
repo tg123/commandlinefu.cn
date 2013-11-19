@@ -1,0 +1,8 @@
+commandlinefu_id: 10544
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq -f  'echo %g' $NUM | sh
+summary: |-
+  shorter loop than for loop

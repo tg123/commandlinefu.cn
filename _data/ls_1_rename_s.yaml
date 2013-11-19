@@ -1,0 +1,8 @@
+commandlinefu_id: 1513
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | rename 's/\ /_/'
+summary: |-
+  Substitute spaces in filename with underscore

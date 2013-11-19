@@ -1,0 +1,8 @@
+commandlinefu_id: 7758
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  xmlstarlet sel --net -t -m "//last" -v "@data" -n http://www.google.com/ig/api?stock=GOOG
+summary: |-
+  用 xmlstarlet 从google api 读取股票咨询

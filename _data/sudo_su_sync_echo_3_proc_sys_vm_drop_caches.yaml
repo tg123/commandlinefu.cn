@@ -1,0 +1,8 @@
+commandlinefu_id: 12210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo su; sync; echo 3 > /proc/sys/vm/drop_caches
+summary: |-
+  Clear linux cache

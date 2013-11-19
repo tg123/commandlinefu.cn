@@ -1,0 +1,8 @@
+commandlinefu_id: 5914
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/ifconfig eth0 | grep 'inet addr:' | awk {'print $2'} | sed 's/addr://'
+summary: |-
+  Get IPv4 of eth0 for use with scripts

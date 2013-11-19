@@ -1,0 +1,8 @@
+commandlinefu_id: 1061
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat foo.csv bar.csv | sort -t "," -k 2 | uniq
+summary: |-
+  Compare two CSV files, discarding any repeated lines

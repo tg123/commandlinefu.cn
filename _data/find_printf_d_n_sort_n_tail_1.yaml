@@ -1,0 +1,8 @@
+commandlinefu_id: 8342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -printf '%d\n' | sort -n  | tail -1
+summary: |-
+  Find directory depth

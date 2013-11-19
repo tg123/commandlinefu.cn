@@ -1,0 +1,8 @@
+commandlinefu_id: 10495
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get -s upgrade | awk '/[0-9]+ upgraded,/ {print $1 " package updates are available"}'
+summary: |-
+  List total available upgrades from apt without upgrading the system

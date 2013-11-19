@@ -1,0 +1,8 @@
+commandlinefu_id: 4459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xlaunch(){ T=/tmp/$$;sh -c "$@" >$T.1 2>$T.2;S=$?;[ $S -ne 0 ]&&{ echo -e "'$@' failed with error $S\nSTDERR:\n$(cat $T.2)\nSTDOUT:\n$(cat $T.1)\n"|xmessage -file -;};rm -f $T.1 $T.2;}
+summary: |-
+  Display _something_ when an X app fails

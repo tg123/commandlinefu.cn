@@ -1,0 +1,8 @@
+commandlinefu_id: 10500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -0 du -h | sort -hr | head -20
+summary: |-
+  Recursively find top 20 largest files (> 1MB) sort human readable format

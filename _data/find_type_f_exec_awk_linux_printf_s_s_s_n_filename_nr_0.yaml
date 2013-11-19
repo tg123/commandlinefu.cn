@@ -1,0 +1,8 @@
+commandlinefu_id: 9780
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec awk '/linux/ { printf "%s %s: %s\n",FILENAME,NR,$0; }' {} \;
+summary: |-
+  Rekursive Grep on Solaris or AIX Systems without GNU egrep -r funcionality

@@ -1,0 +1,8 @@
+commandlinefu_id: 11540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -E 'say$_%15?$_%3?$_%5?$_:Buzz:Fizz:Fizzbuzz for 1..100'
+summary: |-
+  FizzBuzz in Perl

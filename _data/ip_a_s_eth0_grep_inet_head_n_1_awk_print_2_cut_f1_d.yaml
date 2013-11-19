@@ -1,0 +1,8 @@
+commandlinefu_id: 10990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip a s eth0 | grep "inet " | head -n 1 | awk '{print $2}' | cut -f1 -d'/'
+summary: |-
+  Get the IP address

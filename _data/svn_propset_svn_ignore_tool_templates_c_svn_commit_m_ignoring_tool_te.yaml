@@ -1,0 +1,8 @@
+commandlinefu_id: 3408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn propset svn:ignore "*" tool/templates_c; svn commit -m "Ignoring tool/templates_c"
+summary: |-
+  Ignore a directory in SVN, permanently

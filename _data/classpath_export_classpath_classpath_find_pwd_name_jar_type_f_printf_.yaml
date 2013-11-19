@@ -1,0 +1,8 @@
+commandlinefu_id: 8077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  CLASSPATH=.; export CLASSPATH=$CLASSPATH$(find "$PWD" -name '*.jar' -type f -printf ':%p\n' | sort -u | tr -d '\n'); echo $CLASSPATH
+summary: |-
+  one line command to recursively add all jar files in current folder to java class path

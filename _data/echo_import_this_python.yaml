@@ -1,0 +1,8 @@
+commandlinefu_id: 3031
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "import this" | python
+summary: |-
+  An easter egg built into python to give you the Zen of Python

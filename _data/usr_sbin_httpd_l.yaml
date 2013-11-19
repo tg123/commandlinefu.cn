@@ -1,0 +1,8 @@
+commandlinefu_id: 182
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/sbin/httpd -l
+summary: |-
+  See whether your compiled Apache is prefork or worker MPM

@@ -1,0 +1,8 @@
+commandlinefu_id: 10223
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . ! -name "*.tar.gz"
+summary: |-
+  Revert selection with find.

@@ -1,0 +1,8 @@
+commandlinefu_id: 10156
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exec -a "/sbin/getty 38400 tty7" your_cmd -erase_all_files
+summary: |-
+  Hide the name of a process listed in the `ps` output

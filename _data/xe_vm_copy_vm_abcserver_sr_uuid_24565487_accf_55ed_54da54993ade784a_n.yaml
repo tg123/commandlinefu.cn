@@ -1,0 +1,8 @@
+commandlinefu_id: 6680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xe vm-copy vm="ABCServer" sr-uuid=24565487-accf-55ed-54da54993ade784a new-name-label="Copy of ABCServer" new-name-description="New Description"
+summary: |-
+  Copy a virtual machine on Citrix XenServer, optionally to a different storage repository

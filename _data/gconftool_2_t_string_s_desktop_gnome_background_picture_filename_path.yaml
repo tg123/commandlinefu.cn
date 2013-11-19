@@ -1,0 +1,8 @@
+commandlinefu_id: 2043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gconftool-2 -t string -s /desktop/gnome/background/picture_filename <path_to_image>
+summary: |-
+  Change Gnome wallpaper

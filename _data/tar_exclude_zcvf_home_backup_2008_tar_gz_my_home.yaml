@@ -1,0 +1,8 @@
+commandlinefu_id: 6555
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --exclude=".??*" -zcvf ./home_backup_2008.tar.gz  my_home
+summary: |-
+  backup home dir exclude dot files

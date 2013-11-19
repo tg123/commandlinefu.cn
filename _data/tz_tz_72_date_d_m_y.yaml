@@ -1,0 +1,8 @@
+commandlinefu_id: 9201
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  TZ=$TZ-72 date +%d.%m.%Y
+summary: |-
+  获取72小时后的时间

@@ -1,0 +1,8 @@
+commandlinefu_id: 8969
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache policy mythtv
+summary: |-
+  Determine MythTV Version on a Debian System

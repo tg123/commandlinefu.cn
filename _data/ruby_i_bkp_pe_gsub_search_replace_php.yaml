@@ -1,0 +1,8 @@
+commandlinefu_id: 2430
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -i.bkp -pe "gsub(/search/, 'replace')" *.php
+summary: |-
+  Search and replace text in all php files with ruby

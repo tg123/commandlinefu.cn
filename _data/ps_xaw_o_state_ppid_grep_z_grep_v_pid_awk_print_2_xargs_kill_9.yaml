@@ -1,0 +1,8 @@
+commandlinefu_id: 11729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -xaw -o state,ppid | grep Z | grep -v PID | awk '{ print $2 }' | xargs kill -9
+summary: |-
+  Kill all Zombie processes one-liner

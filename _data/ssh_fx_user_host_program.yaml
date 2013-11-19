@@ -1,0 +1,8 @@
+commandlinefu_id: 1431
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -fX <user>@<host> <program>
+summary: |-
+  Run any GUI program remotely

@@ -1,0 +1,8 @@
+commandlinefu_id: 2505
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk $* cat output $merged.pdf
+summary: |-
+  Merge several pdf files into a single file

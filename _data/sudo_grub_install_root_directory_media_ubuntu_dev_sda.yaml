@@ -1,0 +1,8 @@
+commandlinefu_id: 9360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo grub-install --root-directory=/media/ubuntu /dev/sda
+summary: |-
+  Fix grub2 boot failure using live cd

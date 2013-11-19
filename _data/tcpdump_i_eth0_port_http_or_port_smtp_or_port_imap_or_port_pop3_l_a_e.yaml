@@ -1,0 +1,8 @@
+commandlinefu_id: 11867
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -i eth0 port http or port smtp or port imap or port pop3 -l -A | egrep -i 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=|pass:|user:|userna me:|password:|login:|pass |user '
+summary: |-
+  tcpdump sniff pop3,imap,smtp and http

@@ -1,0 +1,8 @@
+commandlinefu_id: 932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -C thisdaemon || { thisdaemon & }
+summary: |-
+  Check ps output to see if file is running, if not start it

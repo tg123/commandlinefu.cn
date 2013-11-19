@@ -1,0 +1,8 @@
+commandlinefu_id: 644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -L 5900:localhost:5900 user@exampleserver.com
+summary: |-
+  tunnel vnc port

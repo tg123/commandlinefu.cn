@@ -1,0 +1,8 @@
+commandlinefu_id: 5333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  goyoutube() {   d=/path/to/videos   p=$d/playlist    m=$d/*.mp4   f=$d/*.flv   if [ "$1" == 'rand' ]; then     ls -1 $m $f | shuf >$p   else     ls -1t $m $f >$p   fi   mplayer -geometry 500x400 -playlist $p }
+summary: |-
+  Play newest or random YouTube video

@@ -1,0 +1,8 @@
+commandlinefu_id: 5714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tune2fs -l $(df -P / | tail -n1 | cut -d' ' -f1 ) | grep 'Filesystem created:'
+summary: |-
+  show system installation date

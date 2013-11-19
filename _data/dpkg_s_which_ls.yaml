@@ -1,0 +1,8 @@
+commandlinefu_id: 7822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -S $( which  ls )
+summary: |-
+  Find the package a command belongs to on Debian

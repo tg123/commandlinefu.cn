@@ -1,0 +1,8 @@
+commandlinefu_id: 3517
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer tv:// -vf mirror
+summary: |-
+  Instant mirror from your laptop + webcam

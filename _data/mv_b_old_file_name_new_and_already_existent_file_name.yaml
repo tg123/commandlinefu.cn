@@ -1,0 +1,8 @@
+commandlinefu_id: 9217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv -b old_file_name new_and_already_existent_file_name
+summary: |-
+  Renaming a file without overwiting an existing file name

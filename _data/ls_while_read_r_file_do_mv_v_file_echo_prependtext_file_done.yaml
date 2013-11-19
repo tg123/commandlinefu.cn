@@ -1,0 +1,8 @@
+commandlinefu_id: 6330
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | while read -r FILE; do mv -v "$FILE" `echo "prependtext$FILE"  `; done
+summary: |-
+  Prepend string to filename

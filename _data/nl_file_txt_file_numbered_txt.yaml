@@ -1,0 +1,8 @@
+commandlinefu_id: 9270
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nl file.txt > file_numbered.txt
+summary: |-
+  Number file

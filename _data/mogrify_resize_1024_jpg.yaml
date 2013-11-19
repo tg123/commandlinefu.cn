@@ -1,0 +1,8 @@
+commandlinefu_id: 422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -resize 1024 *.jpg
+summary: |-
+  Resize all JPEGs in a directory

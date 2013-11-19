@@ -1,0 +1,8 @@
+commandlinefu_id: 6632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 00:16:3e$(gethostip 10.1.2.11 | awk '{ print tolower(substr($3,3)) }' |sed 's/.\{2\}/:&/g' )
+summary: |-
+  Generate a unique MAC address from an IP Address

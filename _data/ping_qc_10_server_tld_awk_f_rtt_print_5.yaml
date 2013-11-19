@@ -1,0 +1,8 @@
+commandlinefu_id: 9453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping -qc 10 server.tld | awk -F/ '/^rtt/ {print $5}'
+summary: |-
+  Get average ping(1) time from a host

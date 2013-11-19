@@ -1,0 +1,8 @@
+commandlinefu_id: 10795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmidecode -s system-serial-number
+summary: |-
+  Get a server's serial number or Dell service tag from within linux

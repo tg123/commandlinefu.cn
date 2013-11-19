@@ -1,0 +1,8 @@
+commandlinefu_id: 937
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec chmod 0644 {} \;
+summary: |-
+  "Reset" file permissions

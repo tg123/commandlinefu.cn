@@ -1,0 +1,8 @@
+commandlinefu_id: 1909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo cat /dev/vcs1 | fold -w 80
+summary: |-
+  view the system console remotely

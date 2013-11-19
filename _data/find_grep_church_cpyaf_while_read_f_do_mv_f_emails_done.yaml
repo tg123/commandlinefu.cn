@@ -1,0 +1,8 @@
+commandlinefu_id: 8628
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | grep ".*\[[Church|CPYAF].*" | while read f; do mv "$f" ../emails;done
+summary: |-
+  Move files matching a certain pattern to another folder

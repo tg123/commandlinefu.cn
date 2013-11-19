@@ -1,0 +1,8 @@
+commandlinefu_id: 9190
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '4!d'
+summary: |-
+  Print just line 4 from a textfile

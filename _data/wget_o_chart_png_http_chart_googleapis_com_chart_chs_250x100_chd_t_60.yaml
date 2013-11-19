@@ -1,0 +1,8 @@
+commandlinefu_id: 9865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O chart.png 'http://chart.googleapis.com/chart?chs=250x100&chd=t:60,40&cht=p3&chl=Hello|World'
+summary: |-
+  google chart api

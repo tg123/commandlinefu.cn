@@ -1,0 +1,8 @@
+commandlinefu_id: 9731
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^Z <...> %
+summary: |-
+  Temporarily suspend and unsuspend a foreground job

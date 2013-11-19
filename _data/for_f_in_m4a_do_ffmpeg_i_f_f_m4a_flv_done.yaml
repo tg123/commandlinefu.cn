@@ -1,0 +1,8 @@
+commandlinefu_id: 2206
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.m4a; do ffmpeg -i "$f" "${f%.m4a}.flv"; done
+summary: |-
+  convert all files in a dir of a certain type to flv

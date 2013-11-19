@@ -1,0 +1,8 @@
+commandlinefu_id: 2308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dd if=/dev/zero of=/swapfile bs=1024 count=1024000;sudo mkswap /swapfile; sudo swapon /swapfile
+summary: |-
+  create an emergency swapfile when the existing swap space is getting tight

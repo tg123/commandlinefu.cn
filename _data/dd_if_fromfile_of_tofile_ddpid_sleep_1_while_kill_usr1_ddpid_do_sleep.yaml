@@ -1,0 +1,8 @@
+commandlinefu_id: 4553
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=fromfile of=tofile & DDPID=$! ; sleep 1 ; while kill -USR1 $DDPID ; do sleep 5; done
+summary: |-
+  Copy a file using dd and watch its progress

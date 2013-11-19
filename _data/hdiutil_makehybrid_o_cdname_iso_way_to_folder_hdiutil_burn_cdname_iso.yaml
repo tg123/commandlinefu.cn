@@ -1,0 +1,8 @@
+commandlinefu_id: 1206
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdiutil makehybrid -o CDname.iso /Way/to/folder ; hdiutil burn CDname.iso
+summary: |-
+  Create an ISO Image from a folder and burn it to CD

@@ -1,0 +1,8 @@
+commandlinefu_id: 1132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mtr google.com
+summary: |-
+  mtr, better than traceroute and ping combined

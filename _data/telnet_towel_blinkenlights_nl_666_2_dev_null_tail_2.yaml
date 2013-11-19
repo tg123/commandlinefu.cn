@@ -1,0 +1,8 @@
+commandlinefu_id: 12886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet towel.blinkenlights.nl 666 2>/dev/null |tail -2
+summary: |-
+  Get a BOFH excuse

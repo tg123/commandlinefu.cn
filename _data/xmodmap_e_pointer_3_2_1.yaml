@@ -1,0 +1,8 @@
+commandlinefu_id: 7826
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmodmap -e "pointer = 3 2 1"
+summary: |-
+  left-right mouse buttons (left-handed)

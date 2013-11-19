@@ -1,0 +1,8 @@
+commandlinefu_id: 7629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -l bar *.log | xargs grep -l foo
+summary: |-
+  find names of files ending in *log that have both foo and bar

@@ -1,0 +1,8 @@
+commandlinefu_id: 2462
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ga
+summary: |-
+  vim display hex value char under cursor

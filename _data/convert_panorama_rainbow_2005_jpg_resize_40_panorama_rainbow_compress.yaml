@@ -1,0 +1,8 @@
+commandlinefu_id: 696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert panorama_rainbow_2005.jpg -resize 40% panorama_rainbow_compress.jpg
+summary: |-
+  Command line invocation of ImageMagick to resize a file

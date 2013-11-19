@@ -1,0 +1,8 @@
+commandlinefu_id: 12005
+translator:
+  weibo: ''
+hide: true
+command: |-
+  notify-send -i mail_new 'Mail watcher' 'You have new mail!'
+summary: |-
+  mailwatcher on-new-mail command

@@ -1,0 +1,8 @@
+commandlinefu_id: 9716
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in *.mp3; do y=`echo $x | sed 's/...\(.*\)/\1/' | sed 's/.mp3//ig'`; id3v2 --TIT2 "$y" "$x"; done
+summary: |-
+  Writes ID3 tags using the file name as the title.

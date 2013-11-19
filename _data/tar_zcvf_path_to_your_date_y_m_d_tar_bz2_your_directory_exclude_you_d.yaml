@@ -1,0 +1,8 @@
+commandlinefu_id: 10575
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar zcvf /path/to/your-`date +%Y-%m-%d`.tar.bz2 ./your/directory --exclude ./you/dont/want/to/include
+summary: |-
+  backup your file with tar and exclude the file or directory which  you don't want

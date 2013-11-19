@@ -1,0 +1,8 @@
+commandlinefu_id: 2487
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -f ../super/symlink_bon/ahoy
+summary: |-
+  Get the canonical, absolute path given a relative and/or noncanonical path

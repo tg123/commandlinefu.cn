@@ -1,0 +1,8 @@
+commandlinefu_id: 4554
+translator:
+  weibo: ''
+hide: true
+command: |-
+  purple-remote "setstatus?status=away&message=AFK"
+summary: |-
+  Change pidgin status

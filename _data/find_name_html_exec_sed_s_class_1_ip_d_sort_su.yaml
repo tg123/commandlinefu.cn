@@ -1,0 +1,8 @@
+commandlinefu_id: 3368
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.html' -exec  'sed' 's/.*class="\([^"]*\?\)".*/\1/ip;d' '{}' ';' |sort -su
+summary: |-
+  List out classes in of all htmls in directory

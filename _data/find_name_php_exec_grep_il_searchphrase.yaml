@@ -1,0 +1,8 @@
+commandlinefu_id: 4590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" -exec grep -il searchphrase {} \;
+summary: |-
+  Find all files containing a word

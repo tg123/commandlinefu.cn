@@ -1,0 +1,8 @@
+commandlinefu_id: 2582
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unzip -lt foo.zip  | grep testing | awk '{print $2}' | xargs rm -r
+summary: |-
+  Remove annoying files from recently extracted zip archive

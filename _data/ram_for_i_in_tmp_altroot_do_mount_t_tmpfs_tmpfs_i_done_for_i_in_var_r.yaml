@@ -1,0 +1,8 @@
+commandlinefu_id: 6480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ram() { for i in /tmp /altroot;do mount -t tmpfs tmpfs $i;done&& for i in /var /root /etc $HOME; do find -d $i |cpio -pdmv /tmp&& mount -t tmpfs tmpfs $i&& mv -v /tmp$i/* $i&& rm -vrf /tmp$i ; done ;} usage: (in rc sequence) ram
+summary: |-
+  preserve disk; keep OS clean

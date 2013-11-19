@@ -1,0 +1,8 @@
+commandlinefu_id: 1230
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ufw allow proto tcp from 1.2.3.4 to any port 80
+summary: |-
+  Allows incoming traffic from specific IP address to port 80

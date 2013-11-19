@@ -1,0 +1,8 @@
+commandlinefu_id: 632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f /var/log/messages
+summary: |-
+  View new log messages in real time

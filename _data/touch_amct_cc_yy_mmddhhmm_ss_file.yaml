@@ -1,0 +1,8 @@
+commandlinefu_id: 2303
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  touch -amct [[CC]YY]MMDDhhmm[.ss] FILE
+summary: |-
+  修改文件的时间戳

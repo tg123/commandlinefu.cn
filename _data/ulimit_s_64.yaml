@@ -1,0 +1,8 @@
+commandlinefu_id: 2898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ulimit -s 64
+summary: |-
+  Create more threads with less stack space

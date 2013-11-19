@@ -1,0 +1,8 @@
+commandlinefu_id: 888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^D
+summary: |-
+  Exit shell faster

@@ -1,0 +1,8 @@
+commandlinefu_id: 3573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -RnisI <pattern> *
+summary: |-
+  Search for a <pattern> string inside all files in the current directory

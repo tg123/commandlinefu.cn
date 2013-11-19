@@ -1,0 +1,8 @@
+commandlinefu_id: 2030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdiutil attach somefile.dmg
+summary: |-
+  Mount a disk image (dmg) file in Mac OSX

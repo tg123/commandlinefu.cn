@@ -1,0 +1,8 @@
+commandlinefu_id: 610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat .ssh/id_rsa.pub | ssh hostname 'cat >> .ssh/authorized_keys'
+summary: |-
+  Add your public SSH key to a server in one command

@@ -1,0 +1,8 @@
+commandlinefu_id: 9164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true ; do nc -l 80  < index.html ; done
+summary: |-
+  One command line web server on port 80 using nc (netcat)

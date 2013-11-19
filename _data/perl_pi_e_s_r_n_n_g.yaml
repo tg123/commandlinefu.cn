@@ -1,0 +1,8 @@
+commandlinefu_id: 5090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi -e 's/\r\n?/\n/g'
+summary: |-
+  Convert files from DOS line endings to UNIX line endings

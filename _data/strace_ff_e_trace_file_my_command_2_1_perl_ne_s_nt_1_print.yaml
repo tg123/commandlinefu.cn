@@ -1,0 +1,8 @@
+commandlinefu_id: 9031
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strace -ff -e trace=file my_command 2>&1 | perl -ne 's/^[^"]+"(([^\\"]|\\[\\"nt])*)".*/$1/ && print'
+summary: |-
+  List files accessed by a command

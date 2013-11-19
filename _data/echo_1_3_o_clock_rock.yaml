@@ -1,0 +1,8 @@
+commandlinefu_id: 3475
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo {1..3}" o'clock" ROCK
+summary: |-
+  Happy Days

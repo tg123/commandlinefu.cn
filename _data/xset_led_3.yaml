@@ -1,0 +1,8 @@
+commandlinefu_id: 3869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xset led 3
+summary: |-
+  Turn On/Off Keyboard LEDs via commandline

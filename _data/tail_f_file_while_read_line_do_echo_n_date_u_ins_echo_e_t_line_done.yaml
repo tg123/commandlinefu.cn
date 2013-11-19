@@ -1,0 +1,8 @@
+commandlinefu_id: 7110
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f file | while read line; do echo -n $(date -u -Ins); echo -e "\t$line"; done
+summary: |-
+  Monitor a file with tail with timestamps added

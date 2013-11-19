@@ -1,0 +1,8 @@
+commandlinefu_id: 6495
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [[ COUNTER -le 10 && IFS=':' ]]; do for LINE in $(cat /tmp/list); do some_command(s) $LINE; done; COUNTER=$((COUNTER+1)); done
+summary: |-
+  Iterate through a file where instead of Newline characters, values are separated with a non-white space character.

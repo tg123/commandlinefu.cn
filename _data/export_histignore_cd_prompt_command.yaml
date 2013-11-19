@@ -1,0 +1,8 @@
+commandlinefu_id: 9514
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTIGNORE=' cd "`*: PROMPT_COMMAND=?*?'
+summary: |-
+  Define shell variable HISTIGNORE so that comments (lines starting with #) appear in shell history

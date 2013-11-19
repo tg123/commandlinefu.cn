@@ -1,0 +1,8 @@
+commandlinefu_id: 10991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch 'mysql -e "show full processlist;"'
+summary: |-
+  get mysql full processlist from commadline

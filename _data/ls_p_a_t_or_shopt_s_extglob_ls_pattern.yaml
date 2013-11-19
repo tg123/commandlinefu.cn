@@ -1,0 +1,8 @@
+commandlinefu_id: 4149
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *[^p][^a][^t]* ; # or shopt -s extglob; ls !(*pattern*)
+summary: |-
+  List files that DO NOT match a pattern

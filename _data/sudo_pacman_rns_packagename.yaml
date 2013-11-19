@@ -1,0 +1,8 @@
+commandlinefu_id: 8141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo pacman -Rns packagename
+summary: |-
+  archlinux: remove a package completely from the system.

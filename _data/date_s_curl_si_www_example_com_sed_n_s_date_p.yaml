@@ -1,0 +1,8 @@
+commandlinefu_id: 4531
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -s "`curl -sI www.example.com | sed -n 's/^Date: //p'`"
+summary: |-
+  Poor man's ntpdate

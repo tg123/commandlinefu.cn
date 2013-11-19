@@ -1,0 +1,8 @@
+commandlinefu_id: 12718
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep --color -R "text" directory/
+summary: |-
+  Grep for text within all files in a folder structure

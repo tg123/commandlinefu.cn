@@ -1,0 +1,8 @@
+commandlinefu_id: 8585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in ~/.mcabber/histo/*; do a=`egrep "^(MR|MS)" $f | wc -l`; echo $f: $a | awk -F\/ '{print $6}'; done
+summary: |-
+  Count messages in mcabber history for each JID

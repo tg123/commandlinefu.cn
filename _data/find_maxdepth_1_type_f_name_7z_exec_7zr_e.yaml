@@ -1,0 +1,8 @@
+commandlinefu_id: 4649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -maxdepth 1 -type f -name "*.7z" -exec 7zr e '{}' ';'
+summary: |-
+  Extract all 7zip files in current directory taking filename spaces into account

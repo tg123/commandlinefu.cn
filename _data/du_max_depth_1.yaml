@@ -1,0 +1,8 @@
+commandlinefu_id: 2936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du --max-depth=1
+summary: |-
+  Get the size of all the directories in current directory

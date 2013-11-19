@@ -1,0 +1,8 @@
+commandlinefu_id: 9491
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias busy='rnd_file=$(find /usr/include -type f -size +5k | sort -R | head -n 1) && vim +$((RANDOM%$(wc -l $rnd_file | cut -f1 -d" "))) $rnd_file'
+summary: |-
+  Makes you look busy

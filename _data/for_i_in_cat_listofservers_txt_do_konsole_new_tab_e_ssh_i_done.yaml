@@ -1,0 +1,8 @@
+commandlinefu_id: 1032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(cat listofservers.txt); do konsole --new-tab -e ssh $i; done
+summary: |-
+  open a seperate konsole tab and ssh to each of  N  servers (konsole 4.2+)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11438
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e \\u2620
+summary: |-
+  echo unicode characters

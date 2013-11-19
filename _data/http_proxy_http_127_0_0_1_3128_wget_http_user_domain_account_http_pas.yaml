@@ -1,0 +1,8 @@
+commandlinefu_id: 11686
+translator:
+  weibo: ''
+hide: true
+command: |-
+  http_proxy=http://127.0.0.1:3128 wget --http-user='domain\account' --http-password='###' -p -r -l 8 --no-remove-listing -P . 'http://sp.corp.com/teams/Team/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2fteams%2fTeam%2fShared%20Documents%2fFolder'
+summary: |-
+  wget multiple files (or mirror) from NTLM-protected Sharepoint

@@ -1,0 +1,8 @@
+commandlinefu_id: 4028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  munpack file.txt
+summary: |-
+  Decode a MIME message

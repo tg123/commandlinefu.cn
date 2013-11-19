@@ -1,0 +1,8 @@
+commandlinefu_id: 6053
+translator:
+  weibo: ''
+hide: true
+command: |-
+  figlet gunslinger_
+summary: |-
+  Text to ascii art

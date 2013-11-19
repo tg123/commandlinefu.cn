@@ -1,0 +1,8 @@
+commandlinefu_id: 2288
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -taupe
+summary: |-
+  Informations sur les connexions reseau

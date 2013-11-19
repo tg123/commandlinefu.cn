@@ -1,0 +1,8 @@
+commandlinefu_id: 284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/sdX of=/root/sdX.bin bs=1M count=1
+summary: |-
+  Backup the first 1MB of your volume

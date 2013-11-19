@@ -1,0 +1,8 @@
+commandlinefu_id: 6216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "<your twit>" | wc -c -
+summary: |-
+  Count your Twit length before posting

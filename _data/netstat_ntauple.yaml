@@ -1,0 +1,8 @@
+commandlinefu_id: 2545
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -ntauple
+summary: |-
+  List programs with open ports and connections

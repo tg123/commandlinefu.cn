@@ -1,0 +1,8 @@
+commandlinefu_id: 8672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git push origin :gh-pages
+summary: |-
+  Delete specific remote 'origin' branch 'gh-pages'

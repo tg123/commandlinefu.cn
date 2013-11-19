@@ -1,0 +1,8 @@
+commandlinefu_id: 10666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shorty () {   curl -s https://www.googleapis.com/urlshortener/v1/url\?key\=API_KEY  -H 'Content-Type: application/json' -d '{"longUrl": "'"$1"'"}' | egrep -o 'http://goo.gl/[^"]*' }
+summary: |-
+  url shortner using google's shortner api

@@ -1,0 +1,8 @@
+commandlinefu_id: 769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat ~/.ssh/*.pub | ssh user@remote-system 'umask 077; cat >>.ssh/authorized_keys'
+summary: |-
+  Copy your SSH public key on a remote machine for passwordless login.

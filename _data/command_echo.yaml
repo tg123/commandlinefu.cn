@@ -1,0 +1,8 @@
+commandlinefu_id: 8604
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command & echo $!
+summary: |-
+  Echo PID of the current running command

@@ -1,0 +1,8 @@
+commandlinefu_id: 4452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptraf
+summary: |-
+  monitor network traffic and throughput in real time

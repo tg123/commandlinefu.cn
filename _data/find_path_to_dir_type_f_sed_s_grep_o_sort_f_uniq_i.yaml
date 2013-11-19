@@ -1,0 +1,8 @@
+commandlinefu_id: 77
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -type f |sed 's/^.*\///'|grep -o '\.[^.]*$'|sort -f|uniq -i
+summary: |-
+  list all file-types (case-insensitive extensions) including subdirectories

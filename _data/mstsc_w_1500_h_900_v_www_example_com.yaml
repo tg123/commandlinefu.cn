@@ -1,0 +1,8 @@
+commandlinefu_id: 2497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mstsc /w:1500 /h:900 /v:www.example.com
+summary: |-
+  Open a Remote Desktop (RDP) session with a custom resolution.

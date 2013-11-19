@@ -1,0 +1,8 @@
+commandlinefu_id: 2062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sftp -oPort=3476 user@host
+summary: |-
+  Connect via sftp to a specific port

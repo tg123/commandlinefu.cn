@@ -1,0 +1,8 @@
+commandlinefu_id: 9665
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -O http://www.site.com/img/image[001-175].jpg
+summary: |-
+  batch download jpgs which are in sequence

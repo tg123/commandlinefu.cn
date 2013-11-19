@@ -1,0 +1,8 @@
+commandlinefu_id: 9741
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg -c <filename>
+summary: |-
+  Encryption file in commad line

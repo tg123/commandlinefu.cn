@@ -1,0 +1,8 @@
+commandlinefu_id: 9471
+translator:
+  weibo: ''
+hide: true
+command: |-
+  title() { string=( $@ ); echo ${string[@]^} }
+summary: |-
+  return a titlecased version of the string

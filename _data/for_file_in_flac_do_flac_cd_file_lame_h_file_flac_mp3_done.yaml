@@ -1,0 +1,8 @@
+commandlinefu_id: 5038
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.flac; do $(flac -cd "$file" | lame -h - "${file%.flac}.mp3"); done
+summary: |-
+  Convert multiple flac files to mp3

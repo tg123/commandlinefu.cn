@@ -1,0 +1,8 @@
+commandlinefu_id: 3062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *;do case "$(echo $f|sed "s/.*\.\([a-z\.]*\)/\1/g")" in zip)unzip -qqo $f&&rm $f;;tar.gz|tar.bz2)tar xf $f&&rm $f;;rar)unrar e -o+ -r -y $f&&rm $f;;7z)7z e -qqo $f;;esac;done
+summary: |-
+  Unarchive entire folder

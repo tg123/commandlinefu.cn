@@ -1,0 +1,8 @@
+commandlinefu_id: 11259
+translator:
+  weibo: ''
+hide: true
+command: |-
+  plink -agent gist.github.com
+summary: |-
+  server's host key is not cached in the registry

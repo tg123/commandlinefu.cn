@@ -1,0 +1,8 @@
+commandlinefu_id: 4599
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rc='ssh ${MEDIAPCHOSTNAME} env DISPLAY=:0.0 rhythmbox-client --no-start'
+summary: |-
+  Remote control for Rhythmbox on an Ubuntu Media PC

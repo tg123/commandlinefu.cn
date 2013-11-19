@@ -1,0 +1,8 @@
+commandlinefu_id: 6020
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cu -s 9600 -l /dev/ttyS0
+summary: |-
+  链接到一个 串行设备

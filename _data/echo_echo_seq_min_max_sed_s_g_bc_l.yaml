@@ -1,0 +1,8 @@
+commandlinefu_id: 4728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(echo $(seq $MIN $MAX) | sed 's/ /+/g') | bc -l
+summary: |-
+  Triangular Number

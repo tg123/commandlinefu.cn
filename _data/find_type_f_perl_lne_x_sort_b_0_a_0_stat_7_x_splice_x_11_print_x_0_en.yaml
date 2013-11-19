@@ -1,0 +1,8 @@
+commandlinefu_id: 10020
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f|perl -lne '@x=sort {$b->[0]<=>$a->[0]}[(stat($_))[7],$_],@x;splice(@x,11);print "@{$x[0]}";END{for(@x){print "@$_"}'
+summary: |-
+  find the biggest files recursively, no matter how many

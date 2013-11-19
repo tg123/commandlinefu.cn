@@ -1,0 +1,8 @@
+commandlinefu_id: 9909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "$PWD/%s\n" *
+summary: |-
+  list with full path

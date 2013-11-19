@@ -1,0 +1,8 @@
+commandlinefu_id: 11197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ((i=65;i<91;i++)); do  printf "\\$(printf '%03o' $i) "; done
+summary: |-
+  Alphanumeric incrementating (uppercase)

@@ -1,0 +1,8 @@
+commandlinefu_id: 1567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time read (ctrl-d to stop)
+summary: |-
+  A very simple and useful stopwatch

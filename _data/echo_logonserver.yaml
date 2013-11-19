@@ -1,0 +1,8 @@
+commandlinefu_id: 8631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo %logonserver%
+summary: |-
+  which domain controller the user currently logged onto

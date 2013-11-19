@@ -1,0 +1,8 @@
+commandlinefu_id: 940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -d "free -mt"
+summary: |-
+  what the free memory grow or shink

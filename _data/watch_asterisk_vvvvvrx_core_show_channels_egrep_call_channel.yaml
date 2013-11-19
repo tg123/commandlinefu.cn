@@ -1,0 +1,8 @@
+commandlinefu_id: 11213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "asterisk -vvvvvrx 'core show channels' | egrep \"(call|channel)\""
+summary: |-
+  Watch active calls on an Asterisk PBX

@@ -1,0 +1,8 @@
+commandlinefu_id: 2132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude remove $(deborphan)
+summary: |-
+  Remove unused libs/packages

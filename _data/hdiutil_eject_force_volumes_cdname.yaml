@@ -1,0 +1,8 @@
+commandlinefu_id: 12213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdiutil eject -force /Volumes/CDNAME
+summary: |-
+  Force eject of CD on OSX

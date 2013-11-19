@@ -1,0 +1,8 @@
+commandlinefu_id: 7620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/sda of=/home/sam/MBR.image bs=512 count=1
+summary: |-
+  Step#2  Create a copy of the bootload and partition table!

@@ -1,0 +1,8 @@
+commandlinefu_id: 667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  startx -- :1
+summary: |-
+  Graphic mode for root

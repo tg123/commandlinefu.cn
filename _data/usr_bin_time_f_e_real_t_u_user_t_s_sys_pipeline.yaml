@@ -1,0 +1,8 @@
+commandlinefu_id: 11604
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/bin/time -f "%E real\t%U user\t%S sys" pipeline
+summary: |-
+  Time a process run with simple one line tabbed output

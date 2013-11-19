@@ -1,0 +1,8 @@
+commandlinefu_id: 3533
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gst-launch-0.10 v4l2src ! ffmpegcolorspace ! warptv ! ffmpegcolorspace ! autovideosink
+summary: |-
+  warped and shagadelic webcam view with gstreamer

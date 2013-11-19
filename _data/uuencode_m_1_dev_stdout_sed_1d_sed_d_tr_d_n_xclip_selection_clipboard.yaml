@@ -1,0 +1,8 @@
+commandlinefu_id: 3837
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uuencode -m $1 /dev/stdout | sed '1d' | sed '$d' | tr -d '\n' | xclip -selection clipboard
+summary: |-
+  encode image to base64 and copy to clipboard

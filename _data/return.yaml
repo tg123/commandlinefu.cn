@@ -1,0 +1,8 @@
+commandlinefu_id: 12448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <Return>~.
+summary: |-
+  Kill a broken ssh connection

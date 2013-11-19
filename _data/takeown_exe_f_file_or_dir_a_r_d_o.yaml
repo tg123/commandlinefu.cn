@@ -1,0 +1,8 @@
+commandlinefu_id: 12818
+translator:
+  weibo: ''
+hide: true
+command: |-
+  takeown.exe /F "FILE_or_DIR" /A /R /D O
+summary: |-
+  Take own (chown) Administrators group

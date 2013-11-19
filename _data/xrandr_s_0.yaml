@@ -1,0 +1,8 @@
+commandlinefu_id: 8894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xrandr -s 0
+summary: |-
+  Recover resolution when a fullscreen program crashes and you're stuck with a tiny X resolution

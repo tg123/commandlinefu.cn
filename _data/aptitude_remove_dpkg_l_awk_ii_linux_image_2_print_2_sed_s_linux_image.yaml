@@ -1,0 +1,8 @@
+commandlinefu_id: 7272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude remove $(dpkg -l|awk '/^ii  linux-image-2/{print $2}'|sed 's/linux-image-//'|awk -v v=`uname -r` 'v>$0'|sed 's/-generic//'|awk '{printf("linux-headers-%s\nlinux-headers-%s-generic\nlinux-image-%s-generic\n",$0,$0,$0)}')
+summary: |-
+  Remove all unused kernels with apt-get

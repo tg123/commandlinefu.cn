@@ -1,0 +1,8 @@
+commandlinefu_id: 10752
+translator:
+  weibo: ''
+hide: true
+command: |-
+  slow () { [ -n $1 ] && while ps -p $1 >/dev/null ; do kill -STOP  $1; sleep 1; kill -CONT $1; sleep 1; done & }
+summary: |-
+  Slow down IO heavy process

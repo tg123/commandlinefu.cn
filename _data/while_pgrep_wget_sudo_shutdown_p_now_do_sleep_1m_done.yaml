@@ -1,0 +1,8 @@
+commandlinefu_id: 10773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while pgrep wget || sudo shutdown -P now; do sleep 1m; done
+summary: |-
+  shutdown if wget exit

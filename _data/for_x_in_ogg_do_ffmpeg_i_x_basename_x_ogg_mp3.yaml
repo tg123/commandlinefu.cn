@@ -1,0 +1,8 @@
+commandlinefu_id: 1589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in *.ogg; do ffmpeg -i "$x" "`basename "$x" .ogg`.mp3"
+summary: |-
+  Convert a bunch of oggs into mp3s

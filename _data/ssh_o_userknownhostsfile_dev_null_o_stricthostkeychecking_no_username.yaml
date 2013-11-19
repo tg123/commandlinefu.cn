@@ -1,0 +1,8 @@
+commandlinefu_id: 10632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no username@host
+summary: |-
+  Temporarily ignore mismatched SSH host key

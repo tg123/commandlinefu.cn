@@ -1,0 +1,8 @@
+commandlinefu_id: 10317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -dbByw $COLUMNS FILE1 FILE2
+summary: |-
+  Display diffed files sidebyside, with minimal differences, using the full width of the terminal.

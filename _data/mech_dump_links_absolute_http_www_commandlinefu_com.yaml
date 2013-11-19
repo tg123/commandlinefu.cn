@@ -1,0 +1,8 @@
+commandlinefu_id: 9719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mech-dump --links --absolute http://www.commandlinefu.com
+summary: |-
+  Get all links from commandlinefu front page

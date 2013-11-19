@@ -1,0 +1,8 @@
+commandlinefu_id: 3230
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *.c | while read F; do gcc -Wall -o `echo $F | cut -d . -f 1 - ` $F; done
+summary: |-
+  Compile all C files in a directory

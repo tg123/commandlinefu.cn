@@ -1,0 +1,8 @@
+commandlinefu_id: 254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch /forcefsk
+summary: |-
+  Force file system check

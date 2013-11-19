@@ -1,0 +1,8 @@
+commandlinefu_id: 3314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function fcd () { [ -f $1  ] && { cd $(dirname $1);  } || { cd $1 ;  } pwd }
+summary: |-
+  bash/ksh function: given a file, cd to the directory it lives

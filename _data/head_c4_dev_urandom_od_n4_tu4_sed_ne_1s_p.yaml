@@ -1,0 +1,8 @@
+commandlinefu_id: 3729
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  head -c4 /dev/urandom | od -N4 -tu4 | sed -ne '1s/.* //p'
+summary: |-
+  随机输出10个数字

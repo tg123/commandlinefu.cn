@@ -1,0 +1,8 @@
+commandlinefu_id: 12247
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pathrm() { PATH=`echo $PATH | sed -re 's#(:|^)cde($|:)#:#g;s#^:##g;s#:$##g'`; }
+summary: |-
+  Function to remove a directory from your PATH

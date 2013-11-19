@@ -1,0 +1,8 @@
+commandlinefu_id: 8724
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -printf %s\\n | numsum
+summary: |-
+  Sum file sizes

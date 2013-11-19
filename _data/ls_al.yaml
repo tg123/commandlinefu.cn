@@ -1,0 +1,8 @@
+commandlinefu_id: 4052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -al
+summary: |-
+  show the last modified date on directory and file

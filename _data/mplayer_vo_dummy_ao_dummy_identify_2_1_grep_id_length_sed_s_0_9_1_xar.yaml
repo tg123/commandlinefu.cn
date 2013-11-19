@@ -1,0 +1,8 @@
+commandlinefu_id: 3602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vo dummy -ao dummy -identify * 2>&1 | grep ID_LENGTH  | sed 's/.*=\([0-9]*\)/\1/' | xargs echo | sed 's/ /+/g' | bc | awk 'S=$1; {printf "%dh:%dm:%ds\n",S/(60*60),S%(60*60)/60,S%60}'
+summary: |-
+  Get the total length of all videos in the current dir in H:m:s

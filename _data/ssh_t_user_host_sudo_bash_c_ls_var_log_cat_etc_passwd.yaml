@@ -1,0 +1,8 @@
+commandlinefu_id: 11652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -t user@host 'sudo bash -c "ls /var/log && cat /etc/passwd"'
+summary: |-
+  Run multiple commands on a remote host with sudo

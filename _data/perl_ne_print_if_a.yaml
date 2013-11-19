@@ -1,0 +1,8 @@
+commandlinefu_id: 7913
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne 'print if !$a{$_}++'
+summary: |-
+  uniq without pre-sorting

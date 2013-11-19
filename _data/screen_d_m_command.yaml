@@ -1,0 +1,8 @@
+commandlinefu_id: 5897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -d -m command &
+summary: |-
+  Runs a command without hangups.

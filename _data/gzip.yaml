@@ -1,0 +1,8 @@
+commandlinefu_id: 5200
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gzip *
+summary: |-
+  Individually compress each file in a directory

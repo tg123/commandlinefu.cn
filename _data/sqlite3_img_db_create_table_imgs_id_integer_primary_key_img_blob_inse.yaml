@@ -1,0 +1,8 @@
+commandlinefu_id: 4364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite3 img.db "create table imgs (id INTEGER PRIMARY KEY, img BLOB); insert into imgs (img) values (\"$(base64 -w0 /tmp/Q.jpg)\"); select img from imgs where id=1;" | base64 -d -w0 > /tmp/W.jpg
+summary: |-
+  Create sqlite db and store image

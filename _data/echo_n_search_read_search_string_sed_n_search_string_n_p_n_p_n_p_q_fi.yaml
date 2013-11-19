@@ -1,0 +1,8 @@
+commandlinefu_id: 169
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n search\>\  ; read SEARCH_STRING && sed -n "/$SEARCH_STRING/{n;p;n;p;n;p;q}" [file-to-search]
+summary: |-
+  Customizable Search Context

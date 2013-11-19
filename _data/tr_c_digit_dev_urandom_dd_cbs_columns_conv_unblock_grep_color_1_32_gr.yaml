@@ -1,0 +1,8 @@
+commandlinefu_id: 2531
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"
+summary: |-
+  Matrix Style

@@ -1,0 +1,8 @@
+commandlinefu_id: 2976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  system_profiler | mail -s "$HOSTNAME System Profiler Report" user@domain.com
+summary: |-
+  On Mac OS X, runs System Profiler Report and e-mails it to specified address.

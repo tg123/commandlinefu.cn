@@ -1,0 +1,8 @@
+commandlinefu_id: 6693
+translator:
+  weibo: ''
+hide: true
+command: |-
+  check(){ curl -sI $1 | sed -n 's/Location: *//p';}
+summary: |-
+  See where a shortened url takes you before click

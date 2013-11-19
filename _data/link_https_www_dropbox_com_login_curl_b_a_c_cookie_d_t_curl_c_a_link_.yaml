@@ -1,0 +1,8 @@
+commandlinefu_id: 12496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  link=https://www.dropbox.com/login ; curl -b a -c cookie -d "t=$(curl -c a $link | sed -rn 's/.*TOKEN: "([^"]*).*/\1/p')&login_email=me%40yahoo.com&login_password=my_passwd" $link
+summary: |-
+  Dropbox login using only curl, sed and bash

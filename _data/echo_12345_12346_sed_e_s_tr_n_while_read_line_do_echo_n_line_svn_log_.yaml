@@ -1,0 +1,8 @@
+commandlinefu_id: 1912
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "12345,12346" |sed -e's/ //'|tr "," "\n"| while read line; do  echo -n $line" "; svn log -vr $line https://url/to/svn/repository/|grep "/"|head -1|cut -d"/" -f2; done
+summary: |-
+  Find the svn directory that a commit was made in.  Usefull if you have many projects in one repository.

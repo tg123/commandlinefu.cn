@@ -1,0 +1,8 @@
+commandlinefu_id: 12801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -iTCP:8080 -sTCP:LISTEN
+summary: |-
+  check to see what is running on a specific port number

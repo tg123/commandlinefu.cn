@@ -1,0 +1,8 @@
+commandlinefu_id: 8089
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Selected $(ls -1 | sort -R | head -n 1)
+summary: |-
+  Selecting a random file/folder of a folder

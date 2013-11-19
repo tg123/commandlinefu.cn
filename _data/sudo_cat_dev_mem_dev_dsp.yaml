@@ -1,0 +1,8 @@
+commandlinefu_id: 1971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo cat /dev/mem > /dev/dsp
+summary: |-
+  What is the sound of your memory ?

@@ -1,0 +1,8 @@
+commandlinefu_id: 10088
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -C <no_of_lines> <string>
+summary: |-
+  Shows the line of the string you want to search for (like in normal grep) plus 'n' number of lines above and below it.

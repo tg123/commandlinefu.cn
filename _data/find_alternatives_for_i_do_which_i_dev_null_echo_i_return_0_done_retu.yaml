@@ -1,0 +1,8 @@
+commandlinefu_id: 7604
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find_alternatives(){ for i;do which "$i" >/dev/null && { echo "$i"; return 0;};done;return 1;}
+summary: |-
+  Pick the first program found from a list of alternatives

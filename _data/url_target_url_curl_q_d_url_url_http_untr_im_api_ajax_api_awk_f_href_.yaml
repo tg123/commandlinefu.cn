@@ -1,0 +1,8 @@
+commandlinefu_id: 3775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  URL=[target.URL]; curl -q -d "url=$URL" http://untr.im/api/ajax/api | awk -F 'href="' '{print $3}' | awk -F '" rel="' '{print $1}'
+summary: |-
+  Get full URL via http://untr.im/api/ajax/api

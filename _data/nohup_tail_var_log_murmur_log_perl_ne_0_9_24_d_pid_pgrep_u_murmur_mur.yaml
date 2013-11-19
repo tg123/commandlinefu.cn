@@ -1,0 +1,8 @@
+commandlinefu_id: 12367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup  tail /var/log/murmur.log | perl -ne '/^<.>[0-9:. -]{24}(\d+ => )?(.*)/; $pid=`pgrep -u murmur murmurd | head`; chomp $pid; `logger -p info -t "murmurd[$pid]" \\"$2\\"`;' &
+summary: |-
+  Send murmurd log lines to syslog

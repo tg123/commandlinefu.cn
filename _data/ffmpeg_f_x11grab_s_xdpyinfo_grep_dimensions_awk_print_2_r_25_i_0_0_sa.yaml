@@ -1,0 +1,8 @@
+commandlinefu_id: 5189
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -f x11grab -s `xdpyinfo | grep 'dimensions:'|awk '{print $2}'` -r 25 -i :0.0 -sameq /tmp/out.mpg > /root/howto/capture_screen_video_ffmpeg
+summary: |-
+  Capture video of a linux desktop

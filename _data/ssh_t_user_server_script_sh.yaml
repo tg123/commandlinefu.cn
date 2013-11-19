@@ -1,0 +1,8 @@
+commandlinefu_id: 7632
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ssh -T user@server < script.sh
+summary: |-
+  在远程服务器上运行 本地的脚本

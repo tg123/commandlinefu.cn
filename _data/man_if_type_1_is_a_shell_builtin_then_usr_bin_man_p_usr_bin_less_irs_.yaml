@@ -1,0 +1,8 @@
+commandlinefu_id: 9119
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man () { if [[ $(type ${1}) =~ "is a shell builtin" ]]; then; /usr/bin/man -P "/usr/bin/less -iRs --pattern=\"^ *${1}\"" bash; else; /usr/bin/man ${1}; return; fi; }
+summary: |-
+  Go to man section of bash builtins

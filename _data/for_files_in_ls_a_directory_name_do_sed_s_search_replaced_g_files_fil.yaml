@@ -1,0 +1,8 @@
+commandlinefu_id: 2122
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for files in $(ls -A directory_name); do sed 's/search/replaced/g' $files > $files.new && mv $files.new $files; done;
+summary: |-
+  Search and replace in multiple files and save them with the same names - quickly and effectively!

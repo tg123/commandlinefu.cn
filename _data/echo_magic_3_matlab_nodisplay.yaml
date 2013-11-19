@@ -1,0 +1,8 @@
+commandlinefu_id: 11986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'magic(3)' | matlab -nodisplay
+summary: |-
+  Execute matlab sentences from command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 12446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo port selfupdate && sudo port upgrade outdated && sudo port clean --all installed && sudo port -f uninstall inactive
+summary: |-
+  Macports update and clean all packages

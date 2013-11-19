@@ -1,0 +1,8 @@
+commandlinefu_id: 2186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zpool create tank mirror c0t0d0 c0t1d0 mirror c0t2d0 c0t3d0
+summary: |-
+  Creating a Mirrored Storage Pool using Zpool

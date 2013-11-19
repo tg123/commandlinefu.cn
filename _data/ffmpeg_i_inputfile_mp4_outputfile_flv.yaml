@@ -1,0 +1,8 @@
+commandlinefu_id: 3435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i inputfile.mp4 outputfile.flv
+summary: |-
+  Quick and dirty convert to flash

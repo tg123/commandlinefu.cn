@@ -1,0 +1,8 @@
+commandlinefu_id: 1412
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name .DS_Store -exec rm {} \;
+summary: |-
+  Remove annoying OS X DS_Store folders

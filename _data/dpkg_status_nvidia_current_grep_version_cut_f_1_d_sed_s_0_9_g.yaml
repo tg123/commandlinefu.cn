@@ -1,0 +1,8 @@
+commandlinefu_id: 8420
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg --status nvidia-current | grep Version | cut -f 1 -d '-' | sed 's/[^.,0-9]//g'
+summary: |-
+  debian/ubuntu get installed nvidia driver version from terminal

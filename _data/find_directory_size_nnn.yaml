@@ -1,0 +1,8 @@
+commandlinefu_id: 2446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find directory -size +nnn
+summary: |-
+  Find Files That Exceed a Specified Size Limit

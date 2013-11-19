@@ -1,0 +1,8 @@
+commandlinefu_id: 8351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 -type f -not -iname '*.jpg' -ls |awk '{TOTAL+=$7} END {print int(TOTAL/(1024^2))"MB"}'
+summary: |-
+  How to estimate the storage size of all files not named *.[extension] on the current directory

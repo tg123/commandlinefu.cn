@@ -1,0 +1,8 @@
+commandlinefu_id: 3792
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 4|xargs -n1 -i bash -c "echo -n 164.85.216.{} - ; nslookup 164.85.216.{} |grep name"|tr -s '  ' ' '|awk '{print $1" - "$5}'|sed 's/.$//'
+summary: |-
+  Command to resolve name from Ip address, passing only the last field after seq (C Class for example)

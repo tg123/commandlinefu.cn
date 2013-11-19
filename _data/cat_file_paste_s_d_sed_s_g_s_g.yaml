@@ -1,0 +1,8 @@
+commandlinefu_id: 12905
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file | paste -s -d'%' - | sed 's/\(^\|$\)/"/g;s/%/","/g'
+summary: |-
+  Convert input to a line of quote protected CSV

@@ -1,0 +1,8 @@
+commandlinefu_id: 2789
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cdparanoia -B
+summary: |-
+  Rip audio tracks from CD to wav files in current dir

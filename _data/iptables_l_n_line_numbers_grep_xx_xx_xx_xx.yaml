@@ -1,0 +1,8 @@
+commandlinefu_id: 777
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables -L -n --line-numbers | grep xx.xx.xx.xx
+summary: |-
+  Check for Firewall Blockage.

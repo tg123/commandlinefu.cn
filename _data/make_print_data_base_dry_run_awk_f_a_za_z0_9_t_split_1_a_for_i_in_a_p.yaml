@@ -1,0 +1,8 @@
+commandlinefu_id: 12795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  make --print-data-base --dry-run | awk -F':' '/^[a-zA-Z0-9][^$#\/\t=]*:([^=]|$)/ {split($1,A,/ /);for(i in A)print A[i]}'
+summary: |-
+  print all available make targets

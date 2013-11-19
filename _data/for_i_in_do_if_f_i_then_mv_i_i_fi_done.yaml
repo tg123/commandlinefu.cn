@@ -1,0 +1,8 @@
+commandlinefu_id: 4469
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *\ *; do if [ -f "$i" ]; then mv "$i" ${i// /_}; fi; done
+summary: |-
+  Replace spaces in filename

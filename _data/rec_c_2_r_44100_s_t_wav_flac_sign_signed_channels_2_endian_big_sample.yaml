@@ -1,0 +1,8 @@
+commandlinefu_id: 9148
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rec -c 2 -r 44100 -s -t wav - | flac - --sign=signed --channels=2 --endian=big --sample-rate=44100 --bps=16 -f -o file.flac
+summary: |-
+  Record live sound from soundcard input to FLAC

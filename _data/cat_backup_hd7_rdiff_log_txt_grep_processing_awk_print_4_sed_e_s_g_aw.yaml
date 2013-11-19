@@ -1,0 +1,8 @@
+commandlinefu_id: 8081
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /backup/hd7/rdiff-log.txt |grep Processing | awk '{ print $4 }' | sed -e 's/\// /g' | awk '{ print $1 }' |uniq -c |sort -n
+summary: |-
+  most changed files in domains by rdiff-backup output

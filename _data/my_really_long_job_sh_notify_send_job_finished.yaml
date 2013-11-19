@@ -1,0 +1,8 @@
+commandlinefu_id: 2119
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ./my-really-long-job.sh && notify-send "Job finished"
+summary: |-
+  Run a long job and notify me when it's finished

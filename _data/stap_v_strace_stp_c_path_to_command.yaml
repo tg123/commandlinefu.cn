@@ -1,0 +1,8 @@
+commandlinefu_id: 9429
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stap -v strace.stp -c /path/to/command
+summary: |-
+  strace like SystemTap script

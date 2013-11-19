@@ -1,0 +1,8 @@
+commandlinefu_id: 8443
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch pk.pem && chmod 600 pk.pem && openssl genrsa -out pk.pem 2048 && openssl req -new -batch -key pk.pem | openssl x509 -req -days 365 -signkey pk.pem -out cert.pem
+summary: |-
+  Generate RSA private key and self-signed certificate

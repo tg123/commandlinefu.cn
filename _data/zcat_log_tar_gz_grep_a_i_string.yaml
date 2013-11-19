@@ -1,0 +1,8 @@
+commandlinefu_id: 9261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zcat log.tar.gz | grep -a -i "string"
+summary: |-
+  grep compressed log files without extracting

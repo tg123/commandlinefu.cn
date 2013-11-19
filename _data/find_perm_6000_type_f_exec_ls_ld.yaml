@@ -1,0 +1,8 @@
+commandlinefu_id: 9479
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -perm +6000 -type f -exec ls -ld {} \;
+summary: |-
+  Find all SUID binaries

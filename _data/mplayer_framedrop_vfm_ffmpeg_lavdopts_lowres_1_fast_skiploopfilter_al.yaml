@@ -1,0 +1,8 @@
+commandlinefu_id: 2005
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -framedrop -vfm ffmpeg -lavdopts lowres=1:fast:skiploopfilter=all
+summary: |-
+  play high-res video files on a slow processor

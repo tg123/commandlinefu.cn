@@ -1,0 +1,8 @@
+commandlinefu_id: 5586
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /some/empty/folder/website_diffs/sitename && wget -N http://domain.com/ 2>&1 |grep -q "o newer" || printf "Sites web page appears to have updated.\n\nSuggest you check it out.\n\n"|mail -s "Sites page updated." david@email.com
+summary: |-
+  Email someone if a web page has been updated.

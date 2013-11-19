@@ -1,0 +1,8 @@
+commandlinefu_id: 11090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo shred -vz -n 0 /dev/sdb
+summary: |-
+  Erase to factory a pendrive, disk or memory card, and watch the progress

@@ -1,0 +1,8 @@
+commandlinefu_id: 12360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | while read file; do new_file=$(echo $file | sed s/\ /_/g); mv "$file" "$new_file"; done
+summary: |-
+  Replace all the spaces in all the filenames of the current directory and including directories with underscores.

@@ -1,0 +1,8 @@
+commandlinefu_id: 12864
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rhc snapshot restore -a {appName} -f {/path/to/snapshot/appName.tar.gz}
+summary: |-
+  Restore application on Openshift

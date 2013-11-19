@@ -1,0 +1,8 @@
+commandlinefu_id: 11742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep --color=always -nr 'setLevel' --include=*py | less -SRqg
+summary: |-
+  Grep recursively your Python project with color highlighting the result and line numbers

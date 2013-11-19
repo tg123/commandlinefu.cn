@@ -1,0 +1,8 @@
+commandlinefu_id: 1925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn list -R https://repository.com --xml >> svnxxmlinfo.xml
+summary: |-
+  Output a list of svn repository entities to xml file

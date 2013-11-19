@@ -1,0 +1,8 @@
+commandlinefu_id: 4634
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/meminfo
+summary: |-
+  Get Memeory Info

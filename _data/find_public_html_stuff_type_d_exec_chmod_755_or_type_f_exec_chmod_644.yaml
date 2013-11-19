@@ -1,0 +1,8 @@
+commandlinefu_id: 2770
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find public_html/stuff -type d -exec chmod 755 {} + -or -type f -exec chmod 644 {} +
+summary: |-
+  recursive reset file/dir perms

@@ -1,0 +1,8 @@
+commandlinefu_id: 5210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -kd | egrep -v "/.*/" | sort -n
+summary: |-
+  easily find megabyte eating files or directories

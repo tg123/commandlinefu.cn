@@ -1,0 +1,8 @@
+commandlinefu_id: 2661
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time dd if=/dev/zero of=blah.out oflag=direct bs=256M count=1
+summary: |-
+  Test your total disk IO capacity, regardless of caching, to find out how fast the TRUE speed of your disks are

@@ -1,0 +1,8 @@
+commandlinefu_id: 6519
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump http://www.domain.com | grep http| awk '{print $2 }'
+summary: |-
+  Get all links of a website

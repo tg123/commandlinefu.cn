@@ -1,0 +1,8 @@
+commandlinefu_id: 1476
+translator:
+  weibo: ''
+hide: true
+command: |-
+  leave +15
+summary: |-
+  Remind yourself to leave in 15 minutes

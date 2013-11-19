@@ -1,0 +1,8 @@
+commandlinefu_id: 2126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /var/www/html/ -type f -mtime +30 -exec basename {} \;
+summary: |-
+  Search for files  older than 30 days in a directory and list only their names not the full path

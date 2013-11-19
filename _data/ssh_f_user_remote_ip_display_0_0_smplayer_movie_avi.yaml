@@ -1,0 +1,8 @@
+commandlinefu_id: 3465
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -f user@remote.ip DISPLAY=:0.0 smplayer movie.avi
+summary: |-
+  Start an X app remotely

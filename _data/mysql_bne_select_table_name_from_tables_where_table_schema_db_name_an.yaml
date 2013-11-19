@@ -1,0 +1,8 @@
+commandlinefu_id: 12425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -BNe 'select table_name from tables where table_schema="DB-NAME" and table_type="BASE TABLE" and table_name not like "PREFIX%";' information_schema | xargs mysqldump DB-NAME > test.sql
+summary: |-
+  Exclude dumping of specific tables with same prefix from  a single database

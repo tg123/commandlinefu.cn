@@ -1,0 +1,8 @@
+commandlinefu_id: 3528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {0..1}{0..9}; do echo $i; done
+summary: |-
+  for loop with leading zero in bash 3

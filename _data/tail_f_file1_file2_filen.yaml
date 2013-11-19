@@ -1,0 +1,8 @@
+commandlinefu_id: 1302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f file1 (file2 .. fileN)
+summary: |-
+  Prints new content of files

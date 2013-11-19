@@ -1,0 +1,8 @@
+commandlinefu_id: 4254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude show packages_name
+summary: |-
+  Show the meta information on a package (dependency , statuts ..) on debian derivative distro

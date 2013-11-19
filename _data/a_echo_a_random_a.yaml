@@ -1,0 +1,8 @@
+commandlinefu_id: 8123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  a=(*); echo ${a[$((RANDOM % ${#a[@]}))]}
+summary: |-
+  Selecting a random file/folder of a folder

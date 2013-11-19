@@ -1,0 +1,8 @@
+commandlinefu_id: 4227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IP=`ifconfig eth0 | grep "inet addr:" | ips |cut -d ":" -f 2 | cut -d " " -f 1`;SUBNET=`ifconfig eth0 | grep "inet addr:" | ips |cut -d ":" -f 3 | cut -d " " -f 1`;RANGE=`ipcalc $IP/$SUBNET | grep "Network:" | cut -d ' ' -f 4`;echo $RANGE
+summary: |-
+  Show Network IP and Subnet

@@ -1,0 +1,8 @@
+commandlinefu_id: 10141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PID=`ps | grep process_name | grep -v grep | head -n 1 | awk '{print $1}'`; cat /proc/$PID/smaps | grep heap -A 2
+summary: |-
+  Print heap addresses and size

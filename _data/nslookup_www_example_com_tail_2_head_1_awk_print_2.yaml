@@ -1,0 +1,8 @@
+commandlinefu_id: 12681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nslookup www.example.com | tail -2 | head -1 | awk '{print $2}'
+summary: |-
+  Get IP address from domain

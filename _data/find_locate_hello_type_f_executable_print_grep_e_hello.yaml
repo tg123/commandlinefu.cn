@@ -1,0 +1,8 @@
+commandlinefu_id: 11168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $(locate hello) -type f -executable -print|grep -E "hello\$"
+summary: |-
+  quick find executable from locate db

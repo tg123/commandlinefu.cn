@@ -1,0 +1,8 @@
+commandlinefu_id: 8602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | tail -(n+1) | head -(n) | sed 's/^[0-9 ]\{7\}//' >> ~/script.sh
+summary: |-
+  Create a bash script from last n commands

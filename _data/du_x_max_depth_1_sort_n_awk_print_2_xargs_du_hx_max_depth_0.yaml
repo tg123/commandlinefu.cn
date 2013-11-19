@@ -1,0 +1,8 @@
+commandlinefu_id: 4896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -x --max-depth=1 | sort -n | awk '{ print $2 }' | xargs du -hx --max-depth=0
+summary: |-
+  Numerically sorted human readable disk usage

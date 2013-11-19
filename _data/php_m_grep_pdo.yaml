@@ -1,0 +1,8 @@
+commandlinefu_id: 12641
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -m|grep pdo
+summary: |-
+  php show list pdo module

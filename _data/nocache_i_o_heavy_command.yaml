@@ -1,0 +1,8 @@
+commandlinefu_id: 12357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nocache <I/O-heavy-command>
+summary: |-
+  prevent large files from being cached in memory (backups!)

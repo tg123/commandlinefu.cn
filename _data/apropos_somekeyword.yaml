@@ -1,0 +1,8 @@
+commandlinefu_id: 62
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apropos somekeyword
+summary: |-
+  search the manual page names and descriptions

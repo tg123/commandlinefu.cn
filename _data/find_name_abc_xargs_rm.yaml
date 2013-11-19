@@ -1,0 +1,8 @@
+commandlinefu_id: 6111
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find * ! -name abc | xargs rm
+summary: |-
+  Remove all the files except abc in the directory

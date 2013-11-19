@@ -1,0 +1,8 @@
+commandlinefu_id: 1040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ds='dig +noauthority +noadditional +noqr +nostats +noidentify +nocmd +noquestion +nocomments'
+summary: |-
+  Short and sweet output from dig(1)

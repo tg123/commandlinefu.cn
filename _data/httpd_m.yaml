@@ -1,0 +1,8 @@
+commandlinefu_id: 10801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  httpd -M
+summary: |-
+  See loaded modules in apache

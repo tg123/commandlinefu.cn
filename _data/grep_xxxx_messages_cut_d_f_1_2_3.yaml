@@ -1,0 +1,8 @@
+commandlinefu_id: 6870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep xxxx messages | cut -d ' ' -f 1,2,3
+summary: |-
+  Get the date field from syslog for a certain set of events

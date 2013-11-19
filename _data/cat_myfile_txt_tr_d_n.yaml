@@ -1,0 +1,8 @@
+commandlinefu_id: 2522
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat myfile.txt | tr -d '\n'
+summary: |-
+  Trim linebreaks

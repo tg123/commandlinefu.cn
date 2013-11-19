@@ -1,0 +1,8 @@
+commandlinefu_id: 4124
+translator:
+  weibo: ''
+hide: true
+command: |-
+  DISPLAY=:0.0; export DISPLAY
+summary: |-
+  Make all GUI stuff show up on the display connected to the computer (when you're logged in via SSH)

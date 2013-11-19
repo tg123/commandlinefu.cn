@@ -1,0 +1,8 @@
+commandlinefu_id: 231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat -A
+summary: |-
+  make non-printable characters visible

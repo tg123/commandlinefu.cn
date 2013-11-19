@@ -1,0 +1,8 @@
+commandlinefu_id: 6164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias onlyx='nohup startx & disown ; exit'
+summary: |-
+  Alias to securely run X from tty and close that tty afterwards.

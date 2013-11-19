@@ -1,0 +1,8 @@
+commandlinefu_id: 84
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /this/directory; for f in *; do ln -s `pwd`/$f /that/directory; done
+summary: |-
+  Link all the files in this directory to that directory

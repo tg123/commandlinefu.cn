@@ -1,0 +1,8 @@
+commandlinefu_id: 5004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk A=chapters.pdf B=headings.pdf C=covers.pdf cat C1 B1 A1-7 B2 A8-10 C2 output book.pdf
+summary: |-
+  split and combine different pages from different pdf's

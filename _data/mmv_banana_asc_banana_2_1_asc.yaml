@@ -1,0 +1,8 @@
+commandlinefu_id: 3688
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mmv 'banana_*_*.asc' 'banana_#2_#1.asc'
+summary: |-
+  Smart renaming

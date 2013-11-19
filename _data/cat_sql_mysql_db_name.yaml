@@ -1,0 +1,8 @@
+commandlinefu_id: 3496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat *.sql | mysql <db_name>
+summary: |-
+  Execute all SQL files in a directory

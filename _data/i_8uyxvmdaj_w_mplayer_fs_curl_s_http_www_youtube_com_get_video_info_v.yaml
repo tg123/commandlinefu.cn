@@ -1,0 +1,8 @@
+commandlinefu_id: 1405
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i="8uyxVmdaJ-w";mplayer -fs $(curl -s "http://www.youtube.com/get_video_info?&video_id=$i" | echo -e $(sed 's/%/\\x/g;s/.*\(v[0-9]\.lscache.*\)/http:\/\/\1/g') | grep -oP '^[^|,]*')
+summary: |-
+  Stream YouTube URL directly to mplayer.

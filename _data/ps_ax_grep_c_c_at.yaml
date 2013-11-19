@@ -1,0 +1,8 @@
+commandlinefu_id: 6634
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ps ax | grep -c [c]at
+summary: |-
+  有多少运行的进程

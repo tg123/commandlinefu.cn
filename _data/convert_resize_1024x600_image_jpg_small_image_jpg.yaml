@@ -1,0 +1,8 @@
+commandlinefu_id: 9480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -resize '1024x600^' image.jpg small-image.jpg
+summary: |-
+  Resize an image to at least a specific resolution

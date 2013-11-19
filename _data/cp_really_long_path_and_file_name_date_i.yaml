@@ -1,0 +1,8 @@
+commandlinefu_id: 975
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp /really/long/path/and/file/name{,-`date -I`}
+summary: |-
+  bash shell expansion

@@ -1,0 +1,8 @@
+commandlinefu_id: 10116
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ${path//'/'/'\/'}
+summary: |-
+  Escape forward slashes in a variable

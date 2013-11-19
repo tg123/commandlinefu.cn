@@ -1,0 +1,8 @@
+commandlinefu_id: 2736
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n 's/.*<foo>\([^<]*\)<\/foo>.*/\1/p'
+summary: |-
+  Simple XML tag extract with sed

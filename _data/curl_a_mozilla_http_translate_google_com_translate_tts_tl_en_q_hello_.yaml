@@ -1,0 +1,8 @@
+commandlinefu_id: 8760
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -A "Mozilla" "http://translate.google.com/translate_tts?tl=en&q=hello+world" | play -t mp3 -
+summary: |-
+  Gets the english pronunciation of a phrase

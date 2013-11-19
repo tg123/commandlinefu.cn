@@ -1,0 +1,8 @@
+commandlinefu_id: 11637
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat ~/.ssh/id_rsa.pub | ssh user@host 'cat >> ~/.ssh/authorized_keys'
+summary: |-
+  Copy ssh keys to user@host to enable password-less ssh logins.

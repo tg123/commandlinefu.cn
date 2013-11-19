@@ -1,0 +1,8 @@
+commandlinefu_id: 7647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -le 'print time()'
+summary: |-
+  Unix timestamp Solaris

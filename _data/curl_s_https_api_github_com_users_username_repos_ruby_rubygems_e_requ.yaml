@@ -1,0 +1,8 @@
+commandlinefu_id: 11415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "https://api.github.com/users/${USERNAME}/repos" | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each {|repo| %x[git clone #{repo["ssh_url"]} ]}'
+summary: |-
+  Clone all github repos of a user

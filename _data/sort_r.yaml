@@ -1,0 +1,8 @@
+commandlinefu_id: 8847
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort -R
+summary: |-
+  Randomize lines (opposite of | sort)

@@ -1,0 +1,8 @@
+commandlinefu_id: 2605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  luit -encoding gbk telnet bbs.sysu.edu.cn
+summary: |-
+  bbs in utf8 console

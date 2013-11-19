@@ -1,0 +1,8 @@
+commandlinefu_id: 10515
+translator:
+  weibo: ''
+hide: true
+command: |-
+  _p(){ ps ax |grep $1 |sed '/grep.'"$1"'/d' |while read a;do printf ${a%% *}' ';printf "${a#* }" >&2;printf '\n';done;}
+summary: |-
+  w/o pgrep/pkill

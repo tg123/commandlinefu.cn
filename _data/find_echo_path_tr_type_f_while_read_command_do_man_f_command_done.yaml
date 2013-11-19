@@ -1,0 +1,8 @@
+commandlinefu_id: 2418
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find `echo "${PATH}" | tr ':' ' '` -type f | while read COMMAND; do man -f "${COMMAND##*/}"; done
+summary: |-
+  List commands with a short summary

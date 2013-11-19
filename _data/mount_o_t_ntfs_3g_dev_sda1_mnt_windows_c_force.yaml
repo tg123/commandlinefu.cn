@@ -1,0 +1,8 @@
+commandlinefu_id: 762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -o -t ntfs-3g /dev/sda1 /mnt/windows/c force
+summary: |-
+  Mount a windows partition in a dual boot linux installation with write permission...[Read and Write]

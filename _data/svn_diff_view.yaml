@@ -1,0 +1,8 @@
+commandlinefu_id: 2985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn diff | view -
+summary: |-
+  use vim to get colorful diff output

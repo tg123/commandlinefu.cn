@@ -1,0 +1,8 @@
+commandlinefu_id: 8502
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh tomcat-server ls -l webapp-dir | grep -- '->' | awk ' { print $(NF-2) " " $(NF-1) " " $NF; }'
+summary: |-
+  list tomcat webapps

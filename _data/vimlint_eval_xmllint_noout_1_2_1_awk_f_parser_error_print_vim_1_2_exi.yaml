@@ -1,0 +1,8 @@
+commandlinefu_id: 5904
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimlint(){ eval $(xmllint --noout "$1" 2>&1 | awk -F: '/parser error/{print "vim \""$1"\" +"$2; exit}'); }
+summary: |-
+  Edit a file in vim (at the first error) if it is not well formed xml.

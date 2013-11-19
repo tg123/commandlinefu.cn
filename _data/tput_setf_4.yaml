@@ -1,0 +1,8 @@
+commandlinefu_id: 9745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tput setf 4
+summary: |-
+  Change the terminal  foreground color

@@ -1,0 +1,8 @@
+commandlinefu_id: 11137
+translator:
+  weibo: ''
+hide: true
+command: |-
+  buf () { oldname=$1; if [ "$oldname" != "" ]; then datepart="$(date +%Y-%m-%d).bak"; firstpart=`echo $oldname | cut -d "." -f 1`; newname=`echo $oldname | sed s/$firstpart/$firstpart.$datepart/`; cp -iv ${oldname} ${newname}; fi }
+summary: |-
+  Backup a file with a date-time stamp

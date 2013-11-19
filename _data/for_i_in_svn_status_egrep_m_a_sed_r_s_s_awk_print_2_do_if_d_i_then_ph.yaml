@@ -1,0 +1,8 @@
+commandlinefu_id: 2327
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `svn status | egrep '^(M|A)' | sed -r 's/\+\s+//' | awk '{ print $2 }'` ; do if [ ! -d $i ] ; then php -l $i ; fi ; done
+summary: |-
+  Check syntax of all PHP files before an SVN commit

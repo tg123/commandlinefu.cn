@@ -1,0 +1,8 @@
+commandlinefu_id: 12096
+translator:
+  weibo: ''
+hide: true
+command: |-
+  last -aiF | head
+summary: |-
+  shows history of logins on the server

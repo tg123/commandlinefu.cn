@@ -1,0 +1,8 @@
+commandlinefu_id: 6585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat VIDEO_TS/VTS_01_[1234].VOB | nice ffmpeg -i - -s 512x384 -vcodec libtheora -acodec libvorbis ~/Videos/dvd_rip.ogg
+summary: |-
+  DVD ripping with ffmpeg

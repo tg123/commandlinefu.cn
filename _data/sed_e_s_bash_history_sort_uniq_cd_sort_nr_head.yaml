@@ -1,0 +1,8 @@
+commandlinefu_id: 301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e 's/ *$//' ~/.bash_history | sort | uniq -cd | sort -nr | head
+summary: |-
+  top 10 commands used

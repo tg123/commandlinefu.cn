@@ -1,0 +1,8 @@
+commandlinefu_id: 2883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Eho '<[a-ZA-Z_][a-zA-Z0-9_-:]*' * | sort -u | cut -c2-
+summary: |-
+  Lists unambigously names of all xml elements used in files in current directory

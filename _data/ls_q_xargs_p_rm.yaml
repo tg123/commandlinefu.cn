@@ -1,0 +1,8 @@
+commandlinefu_id: 4679
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Q * | xargs -p rm
+summary: |-
+  delete multiple files with spaces in filenames (with confirmation)

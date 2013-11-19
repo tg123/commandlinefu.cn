@@ -1,0 +1,8 @@
+commandlinefu_id: 3824
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x=1 ; while [ $x -le 10 ] ; do lynx -dump http://www.alexa.com/siteinfo/http://[YOUR WEBSITE] | grep Global | sed 's/   \|Global\|\,//g' >> /var/log/alexa-stats.txt ; sleep 5h ; done &
+summary: |-
+  Record Alexa Traffic Stats of your Website

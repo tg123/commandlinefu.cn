@@ -1,0 +1,8 @@
+commandlinefu_id: 11908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  prompt (){ if [ "$1" = "on" ]; then . ~/.bash_profile; else if [ "$1" = "off" ];then PS1="$ ";fi;fi; }
+summary: |-
+  Function to change prompt

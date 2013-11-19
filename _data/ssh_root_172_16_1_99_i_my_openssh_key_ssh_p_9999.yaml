@@ -1,0 +1,8 @@
+commandlinefu_id: 11995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@172.16.1.99 -i my_openssh_key.ssh -p 9999
+summary: |-
+  use .ssh file to login the server

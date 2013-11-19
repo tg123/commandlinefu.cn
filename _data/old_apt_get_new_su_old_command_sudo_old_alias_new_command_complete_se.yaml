@@ -1,0 +1,8 @@
+commandlinefu_id: 2955
+translator:
+  weibo: ''
+hide: true
+command: |-
+  old='apt-get'; new="su-${old}"; command="sudo ${old}"; alias "${new}=${command}"; $( complete | sed -n "s/${old}$/${new}/p" ); alias ${new}; complete -p ${new}
+summary: |-
+  Define an alias with a correct completion

@@ -1,0 +1,8 @@
+commandlinefu_id: 2262
+translator:
+  weibo: ''
+hide: true
+command: |-
+  F="$HOME/.moz*/fire*/*/session*.js" ; grep -Go 'entries:\[[^]]*' $F | cut -d[ -f2 | while read A ; do echo $A | sed s/url:/\n/g | tail -1 | cut -d\" -f2; done
+summary: |-
+  List last opened tabs in firefox browser

@@ -1,0 +1,8 @@
+commandlinefu_id: 3160
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk '!($0 in a) {a[$0];print}' file
+summary: |-
+  打印不重复的行

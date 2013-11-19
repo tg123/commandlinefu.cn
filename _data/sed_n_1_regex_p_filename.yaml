@@ -1,0 +1,8 @@
+commandlinefu_id: 6024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '1,/regex/p' filename
+summary: |-
+  print contents of file from line 1 until we match regex

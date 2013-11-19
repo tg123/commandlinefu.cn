@@ -1,0 +1,8 @@
+commandlinefu_id: 8627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ripit -c 0 --outputdir $1 --nosubmission
+summary: |-
+  Rip CD

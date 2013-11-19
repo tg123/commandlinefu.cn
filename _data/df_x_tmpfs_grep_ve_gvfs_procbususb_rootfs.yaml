@@ -1,0 +1,8 @@
+commandlinefu_id: 364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -x tmpfs | grep -vE "(gvfs|procbususb|rootfs)"
+summary: |-
+  show physical disk using

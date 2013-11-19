@@ -1,0 +1,8 @@
+commandlinefu_id: 12727
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree
+summary: |-
+  Graphical tree of sub-directories

@@ -1,0 +1,8 @@
+commandlinefu_id: 3457
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file /System/Library/Extensions/*.kext/Contents/MacOS/* |grep -i x86_64 |nl | tail -1 | cut -f1 -f3; file /System/Library/Extensions/*.kext/Contents/MacOS/* |grep -i "mach-o object i386" |nl | tail -1 | cut -f1 -f3
+summary: |-
+  How far is Mac OS X 10.6 from 64-bit?

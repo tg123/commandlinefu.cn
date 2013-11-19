@@ -1,0 +1,8 @@
+commandlinefu_id: 3305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -ir 'foo' * | awk '{print $1}' | sed -e 's/://' | xargs vim
+summary: |-
+  Edit all files found having a specific string found by grep

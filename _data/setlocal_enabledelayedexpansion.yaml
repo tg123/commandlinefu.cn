@@ -1,0 +1,8 @@
+commandlinefu_id: 6299
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setlocal enabledelayedexpansion
+summary: |-
+  MS-DOS only: Enable variable expansion from inside of FOR loops with !varname!

@@ -1,0 +1,8 @@
+commandlinefu_id: 314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  now=`date +"%Y/%m/%d" -d "04/02/2005"` ; end=`date +"%Y/%m/%d" -d "07/31/2005"`; while [ "$now" != "$end" ] ; do now=`date +"%Y/%m/%d" -d "$now + 1 day"`;  echo "$now"; done
+summary: |-
+  To generate the list of dates using bash shell

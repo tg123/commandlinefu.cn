@@ -1,0 +1,8 @@
+commandlinefu_id: 6501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c $(echo -e 'import py_compile\npy_compile.compile("/path/to/script.py")');
+summary: |-
+  Compile python script. Generated file will overwrite anything at /path/to/script.pyc

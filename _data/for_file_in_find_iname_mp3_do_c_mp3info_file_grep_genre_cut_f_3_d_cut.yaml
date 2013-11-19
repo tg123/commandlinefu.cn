@@ -1,0 +1,8 @@
+commandlinefu_id: 7286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $(find ~/ -iname "*.mp3");do c=$(mp3info $file|grep Genre|cut -f 3 -d :|cut -f 2 -d " ");if [ -z "$c" ];then c="Uncategorized";fi;if [ ! -e $c ];then touch $c.m3u;fi;echo "$file">>$c.m3u;done
+summary: |-
+  Create a simple playlist sort by Genre using mp3info

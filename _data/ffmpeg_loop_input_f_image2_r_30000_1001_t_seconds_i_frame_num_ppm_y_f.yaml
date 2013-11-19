@@ -1,0 +1,8 @@
+commandlinefu_id: 2859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -loop_input -f image2 -r 30000/1001 -t $seconds -i frame/$num.ppm -y frame/%02d.mpeg 2>/dev/null
+summary: |-
+  convert (almost) any image into a video

@@ -1,0 +1,8 @@
+commandlinefu_id: 110
+translator:
+  weibo: ''
+hide: true
+command: |-
+  NAME=$(nslookup $IP | sed -n 's/.*arpa.*name = \(.*\)/\1/p'); test -z "$NAME" && NAME="NO_NAME"; echo "$NAME"
+summary: |-
+  Get fully qualified domain names (FQDNs) for IP address with failure and multiple detection

@@ -1,0 +1,8 @@
+commandlinefu_id: 10056
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Faltan `curl http://www.elproximoferiado.com.ar/index.php?country=AR -silent  | grep contador | cut -f2 -d">" | cut -f1 -d"<"` dias para el proximo feriado
+summary: |-
+  Count the days until the next holiday in Argentina.

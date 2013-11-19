@@ -1,0 +1,8 @@
+commandlinefu_id: 12189
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -nisI <pattern> * .[!.]*
+summary: |-
+  Search for a <pattern> string inside all files in the current directory

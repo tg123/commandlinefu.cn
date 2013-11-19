@@ -1,0 +1,8 @@
+commandlinefu_id: 4739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in */*/*\(1\)*; do mv -f "$i" "${i/ (1)}"; done
+summary: |-
+  Rename duplicates from MusicBrainz Picard

@@ -1,0 +1,8 @@
+commandlinefu_id: 8163
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (pv -n long_running > output) 2>&1 | zenity --progress
+summary: |-
+  Track progress of long-running text-command using graphical dialog

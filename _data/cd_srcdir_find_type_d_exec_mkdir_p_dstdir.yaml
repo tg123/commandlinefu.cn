@@ -1,0 +1,8 @@
+commandlinefu_id: 7347
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd $srcdir && find -type d -exec mkdir -p $dstdir/{} \;
+summary: |-
+  Copy structure

@@ -1,0 +1,8 @@
+commandlinefu_id: 6917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host foo.com|grep " has address "|cut -d" " -f4
+summary: |-
+  Get just the IP for a hostname

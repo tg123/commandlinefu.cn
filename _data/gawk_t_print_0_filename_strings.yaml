@@ -1,0 +1,8 @@
+commandlinefu_id: 7263
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gawk '!/^[\t\ ]*#/{print $0}' filename | strings
+summary: |-
+  File without comments or blank lines.

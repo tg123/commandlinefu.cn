@@ -1,0 +1,8 @@
+commandlinefu_id: 3138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo init 0 | at now + 2 hours
+summary: |-
+  power off system in X hours form the current time, here X=2

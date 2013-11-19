@@ -1,0 +1,8 @@
+commandlinefu_id: 9592
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat /file/way/somelogforexample | grep -o "[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}" | sort -n | uniq -c | sort -n
+summary: |-
+  过滤文件里的ip

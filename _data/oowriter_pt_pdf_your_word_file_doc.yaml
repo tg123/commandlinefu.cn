@@ -1,0 +1,8 @@
+commandlinefu_id: 9426
+translator:
+  weibo: ''
+hide: true
+command: |-
+  oowriter -pt pdf your_word_file.doc
+summary: |-
+  Create .pdf from .doc

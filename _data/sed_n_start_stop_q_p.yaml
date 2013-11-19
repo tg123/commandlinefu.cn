@@ -1,0 +1,8 @@
+commandlinefu_id: 2463
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/START/,${/STOP/q;p}'
+summary: |-
+  Efficiently extract lines between markers

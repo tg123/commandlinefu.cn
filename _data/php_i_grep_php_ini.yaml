@@ -1,0 +1,8 @@
+commandlinefu_id: 4419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -i | grep php.ini
+summary: |-
+  Find the location of the currently loaded php.ini file

@@ -1,0 +1,8 @@
+commandlinefu_id: 10183
+translator:
+  weibo: ''
+hide: true
+command: |-
+  taskkill /F /FI "USERNAME eq Cicciopalla"
+summary: |-
+  Kill a process (in windows)

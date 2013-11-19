@@ -1,0 +1,8 @@
+commandlinefu_id: 12202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | tail -100 | grep cmd
+summary: |-
+  Easily find an old command you run

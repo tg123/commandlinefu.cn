@@ -1,0 +1,8 @@
+commandlinefu_id: 7903
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svnradd() { for i in $1/*;do if [ -e "$i" ];then if [ -d "$i" ];then svn add $i;svnradd $i;else svn add $i;fi; fi;done }
+summary: |-
+  SVN Recursive Directory/File Adder

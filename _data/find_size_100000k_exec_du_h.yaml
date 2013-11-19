@@ -1,0 +1,8 @@
+commandlinefu_id: 7625
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -size +100000k -exec du -h {} \;
+summary: |-
+  Recursively search for large files. Show size and location.

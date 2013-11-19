@@ -1,0 +1,8 @@
+commandlinefu_id: 3596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  expr 512 \* 7
+summary: |-
+  Quick command line math

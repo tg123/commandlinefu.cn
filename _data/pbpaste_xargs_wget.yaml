@@ -1,0 +1,8 @@
+commandlinefu_id: 12598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste | xargs wget
+summary: |-
+  Download all items from a list of URLs copied to the clipboard on OS X

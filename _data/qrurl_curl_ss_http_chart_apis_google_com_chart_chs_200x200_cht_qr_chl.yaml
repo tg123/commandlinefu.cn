@@ -1,0 +1,8 @@
+commandlinefu_id: 7329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qrurl() { curl -sS "http://chart.apis.google.com/chart?chs=200x200&cht=qr&chld=H|0&chl=$1" -o - | display -filter point -resize 600x600 png:-; }
+summary: |-
+  Create QR codes from a URL.

@@ -1,0 +1,8 @@
+commandlinefu_id: 2801
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  apachectl restart
+summary: |-
+  Apache 重启方法

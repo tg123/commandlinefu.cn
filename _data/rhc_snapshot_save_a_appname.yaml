@@ -1,0 +1,8 @@
+commandlinefu_id: 12863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rhc snapshot save -a {appName}
+summary: |-
+  To backup your application code, data, logs and configuration, you run:

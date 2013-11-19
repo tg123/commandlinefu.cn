@@ -1,0 +1,8 @@
+commandlinefu_id: 4696
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  tar -tf <file.tar.gz> | parallel rm
+summary: |-
+  删除刚解压出的 tgz 文件

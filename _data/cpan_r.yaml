@@ -1,0 +1,8 @@
+commandlinefu_id: 4337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cpan -r
+summary: |-
+  Upgrade all perl modules via CPAN

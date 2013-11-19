@@ -1,0 +1,8 @@
+commandlinefu_id: 8247
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function command_not_found_handle(){ apt-get install $( apt-file search "$1" | grep bin | grep -w "$1" | head -n1 | cut -d ':' -f 1 ) && $* ; }
+summary: |-
+  Install and run when a command is not found

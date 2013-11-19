@@ -1,0 +1,8 @@
+commandlinefu_id: 8445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias screenr='screen -r $(screen -ls | egrep -o -e '[0-9]+' | head -n 1)'
+summary: |-
+  Quick enter into a single screen session

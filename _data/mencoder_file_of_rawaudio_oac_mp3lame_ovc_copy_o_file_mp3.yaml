@@ -1,0 +1,8 @@
+commandlinefu_id: 11654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder "${file}" -of rawaudio -oac mp3lame -ovc copy -o "${file%.*}.mp3"
+summary: |-
+  Extract audio stream from an video file using mencoder

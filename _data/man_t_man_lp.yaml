@@ -1,0 +1,8 @@
+commandlinefu_id: 1636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -t man | lp
+summary: |-
+  Print out a man page

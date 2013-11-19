@@ -1,0 +1,8 @@
+commandlinefu_id: 6915
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ethtool -p eth0
+summary: |-
+  Blink LED Port of NIC Card

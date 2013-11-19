@@ -1,0 +1,8 @@
+commandlinefu_id: 12617
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr show |grep -w inet | grep -v 127.0.0.1 | awk '{ print $2}'| cut -d "/" -f 2
+summary: |-
+  Find ur local network cidr Notation

@@ -1,0 +1,8 @@
+commandlinefu_id: 983
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 df
+summary: |-
+  Watch the disk fill up

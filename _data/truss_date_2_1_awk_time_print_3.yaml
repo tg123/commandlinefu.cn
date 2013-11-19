@@ -1,0 +1,8 @@
+commandlinefu_id: 6180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  truss date 2>&1 | awk '/^time/{print $3}'
+summary: |-
+  solaris: get seconds since epoch

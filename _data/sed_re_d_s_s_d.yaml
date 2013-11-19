@@ -1,0 +1,8 @@
+commandlinefu_id: 10164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -re '/^#/d ; s/#.*$// ; /^\s*$/d'
+summary: |-
+  Remove superfluous from conf file

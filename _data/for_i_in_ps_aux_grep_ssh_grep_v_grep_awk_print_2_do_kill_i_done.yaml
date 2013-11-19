@@ -1,0 +1,8 @@
+commandlinefu_id: 1128
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `ps aux | grep ssh | grep -v grep | awk {'print $2'}` ; do kill $i; done
+summary: |-
+  Kill any lingering ssh processes

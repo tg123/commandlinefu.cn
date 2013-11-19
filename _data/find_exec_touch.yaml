@@ -1,0 +1,8 @@
+commandlinefu_id: 8040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec touch {} \;
+summary: |-
+  Recursively touch all files and subdirectories

@@ -1,0 +1,8 @@
+commandlinefu_id: 5919
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet zerocarbs.wooters.us
+summary: |-
+  Connects to a telnet service monitoring Woot!

@@ -1,0 +1,8 @@
+commandlinefu_id: 4821
+translator:
+  weibo: ''
+hide: true
+command: |-
+  weather(){ curl -s "http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-<YOURZIPORLOCATION>}"|perl -ne '/<title>([^<]+)/&&printf "%s: ",$1;/<fcttext>([^<]+)/&&print $1,"\n"';}
+summary: |-
+  Get the weather forecast for the next 24 to 48 for your location.

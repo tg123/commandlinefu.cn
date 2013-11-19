@@ -1,0 +1,8 @@
+commandlinefu_id: 3328
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/badblocks -v /dev/fd0 1440
+summary: |-
+  badblocks for floppy

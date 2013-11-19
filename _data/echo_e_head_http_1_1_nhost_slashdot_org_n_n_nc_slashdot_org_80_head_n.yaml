@@ -1,0 +1,8 @@
+commandlinefu_id: 2822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "HEAD / HTTP/1.1\nHost: slashdot.org\n\n" | nc slashdot.org 80 | head -n5 | tail -1 | cut -f2 -d-
+summary: |-
+  Get Futurama quotations from slashdot.org servers

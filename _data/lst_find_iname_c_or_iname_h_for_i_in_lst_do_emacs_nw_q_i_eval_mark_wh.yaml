@@ -1,0 +1,8 @@
+commandlinefu_id: 6553
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lst=`find . -iname \*.c -or -iname \*.h`; for i in $lst; do emacs -nw -q $i --eval "(mark-whole-buffer)" --eval "(indent-region (point-min) (point-max) nil)" --eval "(save-buffer)" --kill; done
+summary: |-
+  Indent all the files in a project using emacs

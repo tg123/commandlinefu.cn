@@ -1,0 +1,8 @@
+commandlinefu_id: 4326
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed = <file> | sed 'N;s/\n/\t/'
+summary: |-
+  Print line numbers

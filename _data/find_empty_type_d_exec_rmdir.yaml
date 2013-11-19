@@ -1,0 +1,8 @@
+commandlinefu_id: 2869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -empty -type d -exec rmdir {} +
+summary: |-
+  find and delete empty dirs, start in current working dir

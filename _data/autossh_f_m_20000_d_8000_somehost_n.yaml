@@ -1,0 +1,8 @@
+commandlinefu_id: 1060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  autossh -f -M 20000 -D 8000 somehost -N
+summary: |-
+  Create an SSH SOCKS proxy server on localhost:8000 that will re-start itself if something breaks the connection temporarily

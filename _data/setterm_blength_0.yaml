@@ -1,0 +1,8 @@
+commandlinefu_id: 5486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setterm -blength 0
+summary: |-
+  system beep off

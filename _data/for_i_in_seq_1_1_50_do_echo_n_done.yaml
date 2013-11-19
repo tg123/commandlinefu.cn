@@ -1,0 +1,8 @@
+commandlinefu_id: 5155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `seq 1 1 50`; do  echo -n -; done
+summary: |-
+  Print a row of 50 hyphens

@@ -1,0 +1,8 @@
+commandlinefu_id: 830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/$/<ctrl+v><ctrl+m>/'
+summary: |-
+  Convert Unix newlines to DOS newlines

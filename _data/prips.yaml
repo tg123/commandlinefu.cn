@@ -1,0 +1,8 @@
+commandlinefu_id: 8978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  prips
+summary: |-
+  prips can be used to print all IP addresses of a specified range.

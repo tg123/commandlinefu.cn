@@ -1,0 +1,8 @@
+commandlinefu_id: 10496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scanelf --nobanner --recursive --quiet --soname --format "+S#f"
+summary: |-
+  identify exported sonames in a path

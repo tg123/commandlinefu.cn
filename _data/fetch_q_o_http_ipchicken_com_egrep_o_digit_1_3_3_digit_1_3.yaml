@@ -1,0 +1,8 @@
+commandlinefu_id: 2902
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fetch -q -o - http://ipchicken.com | egrep -o '([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}'
+summary: |-
+  Get your external IP address

@@ -1,0 +1,8 @@
+commandlinefu_id: 7411
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo "dear admin, please ban eribsskog" | wall
+summary: |-
+  使用wall发送聊天信息

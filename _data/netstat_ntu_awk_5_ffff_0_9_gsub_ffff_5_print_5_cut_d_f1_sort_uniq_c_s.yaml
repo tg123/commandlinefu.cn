@@ -1,0 +1,8 @@
+commandlinefu_id: 12706
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -ntu | awk ' $5 ~ /^(::ffff:|[0-9|])/ { gsub("::ffff:","",$5); print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr
+summary: |-
+  netstat with group by (ip adress)

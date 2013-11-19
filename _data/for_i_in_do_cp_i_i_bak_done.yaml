@@ -1,0 +1,8 @@
+commandlinefu_id: 107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in * ; do cp $i $i.bak; done
+summary: |-
+  make a .bak backup copy of all files in directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 11101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -p `pidof pidgin` | awk '{ print $9 }'|egrep `hostname` | grep -o ">[^:]\+:" | tr -d ":>" | while read line; do host $line; done;
+summary: |-
+  Display IP addresses Pidgin IM Client is connected to

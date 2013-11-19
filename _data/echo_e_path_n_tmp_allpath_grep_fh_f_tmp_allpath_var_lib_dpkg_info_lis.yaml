@@ -1,0 +1,8 @@
+commandlinefu_id: 3401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "${PATH//://\n}" >/tmp/allpath; grep -Fh -f /tmp/allpath /var/lib/dpkg/info/*.list|grep -vxh -f /tmp/allpath >/tmp/installedinpath ; find ${PATH//:/ } |grep -Fxv -f /tmp/installedinpath
+summary: |-
+  find files in $PATH that were not installed through dpkg

@@ -1,0 +1,8 @@
+commandlinefu_id: 9964
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F: '$3 > 999 { print $1 }' /etc/passwd
+summary: |-
+  list all users with UID bigger than 999 in /etc/passwd

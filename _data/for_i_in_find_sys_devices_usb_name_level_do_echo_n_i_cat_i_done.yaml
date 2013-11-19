@@ -1,0 +1,8 @@
+commandlinefu_id: 1511
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `find /sys/devices/*/*/usb* -name level` ; do echo -n "$i: " ; cat $i ; done
+summary: |-
+  Display usb power mode on all devices

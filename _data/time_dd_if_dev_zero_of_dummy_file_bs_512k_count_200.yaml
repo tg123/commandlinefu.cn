@@ -1,0 +1,8 @@
+commandlinefu_id: 10636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time dd if=/dev/zero of=dummy_file bs=512k count=200
+summary: |-
+  Test I/O performance by timing the writing of 100Mb to disk

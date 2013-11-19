@@ -1,0 +1,8 @@
+commandlinefu_id: 12375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do nc -l -p 50002 | pv | tar -xf -; done
+summary: |-
+  Copy with TAR PV and NC

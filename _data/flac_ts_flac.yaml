@@ -1,0 +1,8 @@
+commandlinefu_id: 4347
+translator:
+  weibo: ''
+hide: true
+command: |-
+  flac -ts *.flac
+summary: |-
+  Mostly silent FLAC checking (only errors are displayed)

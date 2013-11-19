@@ -1,0 +1,8 @@
+commandlinefu_id: 9275
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for vm in `/usr/bin/vmware-cmd -l`; do      /usr/bin/vmware-cmd "${vm}" stop trysoft; done
+summary: |-
+  Shutdown all VMWare ESX VMs from commandline

@@ -1,0 +1,8 @@
+commandlinefu_id: 9161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file.csv | perl -pe 'if($. == 1) {@h = split(/;/); $i = 1 ; map { $_ = $i; $i++ } @h; print join(" ;", @h) , "\n"} ; s/(^|;);/$1 ;/g' | column -ts\; | less -S
+summary: |-
+  format txt as table not joining empty columns adding header with column numbers

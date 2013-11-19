@@ -1,0 +1,8 @@
+commandlinefu_id: 4060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://www.spam.la/?f=sender | grep secs| awk '{print; exit}' | osd_cat -i 40 -d 30 -l 2
+summary: |-
+  kalarm 1 per minute simplest e-mail beacom for Geovision surveillance DVR

@@ -1,0 +1,8 @@
+commandlinefu_id: 1575
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql --database=dbname -B -N -e "SHOW TABLES"  | awk '{print "ALTER TABLE", $1, "CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;"}' | mysql --database=dbname &
+summary: |-
+  Convert all MySQL tables and fields to UTF8

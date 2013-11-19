@@ -1,0 +1,8 @@
+commandlinefu_id: 6475
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Eo '"entries":\[{"url":"[^"]*"' "$HOME/.mozilla/firefox/*.default/sessionstore.js" | sed 's/^.*:"//; s/"$//'
+summary: |-
+  List last opened tabs in firefox browser

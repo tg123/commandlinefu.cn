@@ -1,0 +1,8 @@
+commandlinefu_id: 6577
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.jpg; do convert "$file" -resize 800000@ -quality 80 "small.$file"; done
+summary: |-
+  resize all JPG images in folder and create new images (w/o overwriting)

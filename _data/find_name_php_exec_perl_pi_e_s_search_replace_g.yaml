@@ -1,0 +1,8 @@
+commandlinefu_id: 5000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name ".php" -exec perl -pi -e 's/search/replace/g/' {} \;
+summary: |-
+  perl find and replace

@@ -1,0 +1,8 @@
+commandlinefu_id: 2091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '/Centos/d' VirtualBox.xml
+summary: |-
+  Delete an hard disk entry in Virtualbox registry

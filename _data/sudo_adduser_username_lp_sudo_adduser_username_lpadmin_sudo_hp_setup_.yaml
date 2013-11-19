@@ -1,0 +1,8 @@
+commandlinefu_id: 12650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo adduser [username] lp && sudo adduser [username] lpadmin && sudo hp-setup -i
+summary: |-
+  Adding user to printer, after installing hp-lip (Debian)

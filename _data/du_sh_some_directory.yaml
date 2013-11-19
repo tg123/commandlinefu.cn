@@ -1,0 +1,8 @@
+commandlinefu_id: 4906
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh some/directory
+summary: |-
+  Show the size of a directory

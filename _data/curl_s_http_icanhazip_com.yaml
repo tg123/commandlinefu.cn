@@ -1,0 +1,8 @@
+commandlinefu_id: 4442
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://icanhazip.com/
+summary: |-
+  Get your public ip

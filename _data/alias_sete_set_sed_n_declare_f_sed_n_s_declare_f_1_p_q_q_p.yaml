@@ -1,0 +1,8 @@
+commandlinefu_id: 7076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias sete='set|sed -n "/^`declare -F|sed -n "s/^declare -f \(.*\)/\1 ()/p;q"`/q;p"'
+summary: |-
+  Display environment vars only, using set

@@ -1,0 +1,8 @@
+commandlinefu_id: 7572
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -r 'echo str_rot13 ("Hello World");'
+summary: |-
+  a simple bash one-liner to create php file and call php function

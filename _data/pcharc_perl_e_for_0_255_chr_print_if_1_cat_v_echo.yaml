@@ -1,0 +1,8 @@
+commandlinefu_id: 7014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pcharc(){ perl -e 'for (0..255) {$_ = chr($_); print if /['$1']/}' | cat -v; echo;}
+summary: |-
+  print character classes

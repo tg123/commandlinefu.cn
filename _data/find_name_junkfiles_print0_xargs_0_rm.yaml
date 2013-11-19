@@ -1,0 +1,8 @@
+commandlinefu_id: 1709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name 'junkfiles-*' -print0 | xargs -0 rm
+summary: |-
+  Use find to get around Argument list too long problem

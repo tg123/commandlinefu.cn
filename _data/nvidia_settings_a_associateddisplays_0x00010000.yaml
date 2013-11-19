@@ -1,0 +1,8 @@
+commandlinefu_id: 7860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nvidia-settings -a AssociatedDisplays=0x00010000
+summary: |-
+  fix nvidia-settings display error

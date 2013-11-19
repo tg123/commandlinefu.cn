@@ -1,0 +1,8 @@
+commandlinefu_id: 8916
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ipcs -ma | awk '/^m / { if ($9 == 0) { print $2 }}' | xargs -n 1 ipcrm -m
+summary: |-
+  Remove all unused shared memory segments for current user

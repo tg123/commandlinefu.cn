@@ -1,0 +1,8 @@
+commandlinefu_id: 1889
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~ -mtime +365 -exec mv {} /tmp/mybackup \;
+summary: |-
+  exec option in find

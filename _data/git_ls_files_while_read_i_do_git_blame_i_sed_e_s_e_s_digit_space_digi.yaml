@@ -1,0 +1,8 @@
+commandlinefu_id: 3892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git ls-files | while read i; do git blame $i | sed -e 's/^[^(]*(//' -e 's/^\([^[:digit:]]*\)[[:space:]]\+[[:digit:]].*/\1/'; done | sort | uniq -ic | sort -nr
+summary: |-
+  Prints per-line contribution per author for a GIT repository

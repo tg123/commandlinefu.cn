@@ -1,0 +1,8 @@
+commandlinefu_id: 11152
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -x $(screen -ls | awk 'NR == 2 { print $1 }')
+summary: |-
+  Connected to first screen session created

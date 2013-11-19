@@ -1,0 +1,8 @@
+commandlinefu_id: 8779
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whichpkg() { rpm -qf "$@"; }
+summary: |-
+  Find the package a command belongs to on rpm-based distros

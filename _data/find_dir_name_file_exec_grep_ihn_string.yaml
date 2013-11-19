@@ -1,0 +1,8 @@
+commandlinefu_id: 235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find DIR -name "FILE" -exec grep -IHn STRING {} \;
+summary: |-
+  Show all occurences of STRING with filename and line number for given FILE pattern under the DIR.

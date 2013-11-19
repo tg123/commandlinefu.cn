@@ -1,0 +1,8 @@
+commandlinefu_id: 11900
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  if [[ "$1" =~ ^[0-9]+$ ]]; then echo "Is a number"; fi
+summary: |-
+  检查变量是否为数字

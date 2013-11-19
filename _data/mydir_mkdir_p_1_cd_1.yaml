@@ -1,0 +1,8 @@
+commandlinefu_id: 8244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mydir(){mkdir -p $1 && cd $1}
+summary: |-
+  Create a directory and cd into it

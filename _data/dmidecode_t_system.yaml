@@ -1,0 +1,8 @@
+commandlinefu_id: 10791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmidecode -t system
+summary: |-
+  View Manufacturer, Model and Serial number of the equipment using dmidecode

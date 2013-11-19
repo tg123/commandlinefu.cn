@@ -1,0 +1,8 @@
+commandlinefu_id: 2358
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ntpdate pool.ntp.org && hwclock --systohc && hwclock --adjust
+summary: |-
+  同步系统时钟及硬件（ＢＩＯＳ）时间

@@ -1,0 +1,8 @@
+commandlinefu_id: 1390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname '*.wmf' | while read FILE; do FILENAME="${FILE%.*}"; wmf2svg -o ${FILENAME}.svg $FILE; done
+summary: |-
+  Convert all WMF images to SVG recursively ignoring file extension case

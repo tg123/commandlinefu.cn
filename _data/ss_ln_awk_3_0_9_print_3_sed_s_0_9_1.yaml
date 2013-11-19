@@ -1,0 +1,8 @@
+commandlinefu_id: 6613
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ss -ln | awk '$3~/([0-9]+)/{print $3}' | sed 's/.*\:\([0-9]\+\)$/\1/'
+summary: |-
+  Get listening ports on a localhost

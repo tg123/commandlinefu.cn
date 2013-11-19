@@ -1,0 +1,8 @@
+commandlinefu_id: 11861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/http:\/\/old\/new\///g' index.html
+summary: |-
+  a find and replace within text-based files

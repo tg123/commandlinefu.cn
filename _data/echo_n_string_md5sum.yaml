@@ -1,0 +1,8 @@
+commandlinefu_id: 1440
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n "string" | md5sum -
+summary: |-
+  Generate MD5 hash for a string

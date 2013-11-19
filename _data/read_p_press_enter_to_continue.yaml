@@ -1,0 +1,8 @@
+commandlinefu_id: 5349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -p "Press enter to continue.."
+summary: |-
+  bash pause command

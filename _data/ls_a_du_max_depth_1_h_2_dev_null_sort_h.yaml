@@ -1,0 +1,8 @@
+commandlinefu_id: 11886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -a | du --max-depth=1 -h 2>/dev/null |sort -h
+summary: |-
+  Shows size of dirs and files, hidden or not, sorted.

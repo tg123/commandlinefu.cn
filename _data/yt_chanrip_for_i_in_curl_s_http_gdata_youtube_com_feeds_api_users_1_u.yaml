@@ -1,0 +1,8 @@
+commandlinefu_id: 7781
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yt-chanrip() { for i in $(curl -s http://gdata.youtube.com/feeds/api/users/"$1"/uploads | grep -Eo "watch\?v=[^[:space:]\"\'\\]{11}" | uniq); do youtube-dl --title --no-overwrites http://youtube.com/"$i"; done }
+summary: |-
+  Download Entire YouTube Channel - all of a user's videos

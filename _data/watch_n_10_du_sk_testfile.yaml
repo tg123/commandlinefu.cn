@@ -1,0 +1,8 @@
+commandlinefu_id: 3020
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 10 'du -sk testfile'
+summary: |-
+  Lists the size of certain file in every 10 seconds

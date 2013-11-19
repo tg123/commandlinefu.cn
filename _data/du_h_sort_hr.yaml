@@ -1,0 +1,8 @@
+commandlinefu_id: 9646
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h | sort -hr
+summary: |-
+  Get the size of all the directories in current directory (Sorted Human Readable)

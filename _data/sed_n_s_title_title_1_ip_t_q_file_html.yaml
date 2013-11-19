@@ -1,0 +1,8 @@
+commandlinefu_id: 5403
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n 's/.*<title>\(.*\)<\/title>.*/\1/ip;T;q' file.html
+summary: |-
+  Extract title from HTML files

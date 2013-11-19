@@ -1,0 +1,8 @@
+commandlinefu_id: 8892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg -e --default-recipient-self <SENSITIVE_FILE> && shred -zu "$_"
+summary: |-
+  Destroy file contents after encryption

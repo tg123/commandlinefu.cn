@@ -1,0 +1,8 @@
+commandlinefu_id: 9485
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qemu -cdrom /dev/cdrom -hda ubuntu.qcow -boot d -net nic -net user -m 196 -localtime
+summary: |-
+  Open virtual machine in ubuntu.qcow image

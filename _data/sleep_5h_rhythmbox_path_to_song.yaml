@@ -1,0 +1,8 @@
+commandlinefu_id: 2501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 5h && rhythmbox path/to/song
+summary: |-
+  Set an alarm to wake up

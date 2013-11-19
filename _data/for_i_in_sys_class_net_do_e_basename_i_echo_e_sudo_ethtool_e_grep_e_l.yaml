@@ -1,0 +1,8 @@
+commandlinefu_id: 1995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in /sys/class/net/*; do e=`basename $i`; echo "# $e"; sudo ethtool $e | grep -E "Link|Speed" ; done
+summary: |-
+  Get a summary of network devices in the system

@@ -1,0 +1,8 @@
+commandlinefu_id: 10670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  compgen -c | sort -u > commands && less commands
+summary: |-
+  List all commands present on system

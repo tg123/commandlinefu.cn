@@ -1,0 +1,8 @@
+commandlinefu_id: 778
+translator:
+  weibo: ''
+hide: true
+command: |-
+  identify -format "%wx%h" /path/to/image.jpg
+summary: |-
+  Determine an image's dimensions

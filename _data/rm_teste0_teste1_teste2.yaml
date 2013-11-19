@@ -1,0 +1,8 @@
+commandlinefu_id: 7725
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm *[!teste0,teste1,teste2]
+summary: |-
+  Remove all the files except abc in the directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 7256
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pcregrep -r --exclude_dir='.svn' --include='.*jsp$'  -A 2 -B 2 --color   "pHtmlHome" .
+summary: |-
+  Recursive source regexp search with pcregrep

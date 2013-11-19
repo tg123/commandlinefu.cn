@@ -1,0 +1,8 @@
+commandlinefu_id: 877
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  mkdir -p work/{d1,d2}/{src,bin,bak}
+summary: |-
+  生成目录树 {} 会产生笛卡尔积

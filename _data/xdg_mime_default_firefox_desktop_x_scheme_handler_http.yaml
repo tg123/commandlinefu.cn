@@ -1,0 +1,8 @@
+commandlinefu_id: 9958
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xdg-mime default firefox.desktop x-scheme-handler/http
+summary: |-
+  Use xdg-mime to set your default web browser

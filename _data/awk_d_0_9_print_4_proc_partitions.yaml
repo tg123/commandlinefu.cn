@@ -1,0 +1,8 @@
+commandlinefu_id: 3283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/d.[0-9]/{print $4}' /proc/partitions
+summary: |-
+  list all hd partitions

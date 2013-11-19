@@ -1,0 +1,8 @@
+commandlinefu_id: 5931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free -m | awk '/buffer/ {print $4}'
+summary: |-
+  Print number of mb of free ram

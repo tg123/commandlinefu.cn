@@ -1,0 +1,8 @@
+commandlinefu_id: 2552
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim -c new myfile
+summary: |-
+  Open Vim with two windows

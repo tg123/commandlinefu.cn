@@ -1,0 +1,8 @@
+commandlinefu_id: 333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias acs='apt-cache search'
+summary: |-
+  Fast searh Ubntu software repo

@@ -1,0 +1,8 @@
+commandlinefu_id: 4484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep -B 1 "inet addr:" | head -1 | cut -d" " -f1
+summary: |-
+  Get name of first configured interface

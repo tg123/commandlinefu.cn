@@ -1,0 +1,8 @@
+commandlinefu_id: 11583
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -l1000 <V CTRL SERVER> -v > svn_full.log
+summary: |-
+  Get svn log from remote server

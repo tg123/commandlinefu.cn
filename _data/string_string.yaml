@@ -1,0 +1,8 @@
+commandlinefu_id: 7028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  string="${string^}"
+summary: |-
+  Convert first letter of string to uppercase

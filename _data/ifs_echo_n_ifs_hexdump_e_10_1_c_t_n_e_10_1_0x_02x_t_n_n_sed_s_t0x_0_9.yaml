@@ -1,0 +1,8 @@
+commandlinefu_id: 3759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifs () { echo -n "${IFS}"|hexdump -e '""  10/1 "'\''%_c'\''\t" "\n"' -e '"" 10/1 "0x%02x\t" "\n\n"'|sed "s/''\|\t0x[^0-9]//g; $,/^$/d"
+summary: |-
+  Functions to display, save and restore $IFS

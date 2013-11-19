@@ -1,0 +1,8 @@
+commandlinefu_id: 4998
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -c 'tar cvzf - -C /path/to/src/*' | tar xzf -
+summary: |-
+  Create & transfer tarball over ssh

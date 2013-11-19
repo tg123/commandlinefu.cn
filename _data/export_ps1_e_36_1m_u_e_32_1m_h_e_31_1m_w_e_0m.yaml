@@ -1,0 +1,8 @@
+commandlinefu_id: 8305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1='[\[\e[36;1m\]\u@\[\e[32;1m\]\h \[\e[31;1m\]\w]# \[\e[0m\]'
+summary: |-
+  Colour part of your prompt red to indicate an error

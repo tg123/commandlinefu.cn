@@ -1,0 +1,8 @@
+commandlinefu_id: 6678
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -name "*.jar" | while read line; do echo "### $line "; unzip -l $line; done | grep "^###\|you-string" |less
+summary: |-
+  在jar 中寻找 class

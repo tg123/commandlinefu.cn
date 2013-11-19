@@ -1,0 +1,8 @@
+commandlinefu_id: 2811
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sed '/^#.*DEBUG.*/ s/^#//' $FILE
+summary: |-
+  使用 sed 打开关闭注释

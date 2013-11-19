@@ -1,0 +1,8 @@
+commandlinefu_id: 7144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  md5sum <<<"test"
+summary: |-
+  Generate MD5 hash for a string

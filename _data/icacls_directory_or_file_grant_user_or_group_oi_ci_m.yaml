@@ -1,0 +1,8 @@
+commandlinefu_id: 12781
+translator:
+  weibo: ''
+hide: true
+command: |-
+  icacls directory_or_file /grant user_or_group:(OI)(CI)M
+summary: |-
+  Grant read/write permissions to user or group

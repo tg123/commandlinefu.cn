@@ -1,0 +1,8 @@
+commandlinefu_id: 2590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv large.xml | xclip
+summary: |-
+  cat large file to clipboard with speed-o-meter

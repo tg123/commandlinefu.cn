@@ -1,0 +1,8 @@
+commandlinefu_id: 7846
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ls -l --time-style=+"%Y-%m-%d %H:%M:%S"
+summary: |-
+  ls -l 时候定制时间格式

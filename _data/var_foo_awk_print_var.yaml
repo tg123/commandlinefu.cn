@@ -1,0 +1,8 @@
+commandlinefu_id: 8302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VAR="foo" ; awk '{ print '"$VAR"' }'
+summary: |-
+  BASH: Print shell variable into AWK

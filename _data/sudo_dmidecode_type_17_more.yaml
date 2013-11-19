@@ -1,0 +1,8 @@
+commandlinefu_id: 1457
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sudo dmidecode --type 17 | more
+summary: |-
+  显示ram的速度和类型

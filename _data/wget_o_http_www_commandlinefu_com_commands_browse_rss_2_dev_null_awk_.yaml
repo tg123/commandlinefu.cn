@@ -1,0 +1,8 @@
+commandlinefu_id: 5942
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O - http://www.commandlinefu.com/commands/browse/rss 2>/dev/null | awk '/\s*<title/ {z=match($0, /CDATA\[([^\]]*)\]/, b);print b[1]} /\s*<description/ {c=match($0, /code>(.*)<\/code>/, d);print d[1]} ' | grep -v "^$"
+summary: |-
+  Echo the latest commands from commandlinefu on the console

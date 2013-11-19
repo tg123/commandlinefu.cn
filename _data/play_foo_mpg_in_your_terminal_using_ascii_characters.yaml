@@ -1,0 +1,8 @@
+commandlinefu_id: 1121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Play "foo.mpg" in your terminal using ASCII characters
+summary: |-
+  mplayer -vo aa foo.mpg

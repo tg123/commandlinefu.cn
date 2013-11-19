@@ -1,0 +1,8 @@
+commandlinefu_id: 1947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -S /usr/bin/ls
+summary: |-
+  (Debian/Ubuntu) Discover what package a file belongs to

@@ -1,0 +1,8 @@
+commandlinefu_id: 8795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --verbose -d "hello=world" http://mydomain.com
+summary: |-
+  Make a HTTP request using curl with POST method

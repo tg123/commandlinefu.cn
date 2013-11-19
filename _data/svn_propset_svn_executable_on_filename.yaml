@@ -1,0 +1,8 @@
+commandlinefu_id: 8863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn propset svn:executable ON filename
+summary: |-
+  Set executable permissions on a file under Subversion

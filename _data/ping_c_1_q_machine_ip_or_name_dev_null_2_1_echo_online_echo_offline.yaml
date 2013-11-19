@@ -1,0 +1,8 @@
+commandlinefu_id: 10220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping -c 1 -q MACHINE_IP_OR_NAME >/dev/null 2>&1 && echo ONLINE || echo OFFLINE
+summary: |-
+  Check if a machine is online

@@ -1,0 +1,8 @@
+commandlinefu_id: 12834
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshuttle --dns -vvr user@server 0/0
+summary: |-
+  poor man's vpn

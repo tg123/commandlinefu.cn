@@ -1,0 +1,8 @@
+commandlinefu_id: 819
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -putona
+summary: |-
+  Show all programs on UDP and TCP ports with timer information

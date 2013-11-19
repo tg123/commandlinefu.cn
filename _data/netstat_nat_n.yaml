@@ -1,0 +1,8 @@
+commandlinefu_id: 10807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat-nat -n
+summary: |-
+  List state of NAT.

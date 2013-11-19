@@ -1,0 +1,8 @@
+commandlinefu_id: 10480
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fc
+summary: |-
+  Rapidly invoke an editor to write a long, complex, or tricky command

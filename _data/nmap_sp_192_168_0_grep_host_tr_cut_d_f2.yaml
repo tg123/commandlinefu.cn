@@ -1,0 +1,8 @@
+commandlinefu_id: 11944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sP 192.168.0.* | grep Host | tr "(" ")" | cut -d\) -f2
+summary: |-
+  Show alive host on network

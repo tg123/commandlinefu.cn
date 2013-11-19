@@ -1,0 +1,8 @@
+commandlinefu_id: 8414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -f1 -d"<TAB>"
+summary: |-
+  cut with tab or other white space chars

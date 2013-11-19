@@ -1,0 +1,8 @@
+commandlinefu_id: 3179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo `date +%m/%d/%y%X |awk '{print $1;}' `" => "` cat /proc/acpi/thermal_zone/THRM/temperature | awk '{print $2, $3;}'` >> datetmp.log
+summary: |-
+  log your PC's motherboard and CPU temperature along with the current date

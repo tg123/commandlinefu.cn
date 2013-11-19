@@ -1,0 +1,8 @@
+commandlinefu_id: 353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - "http://www.tarball.com/tarball.gz" | tar zxvf -
+summary: |-
+  Extract tarball from internet without local saving

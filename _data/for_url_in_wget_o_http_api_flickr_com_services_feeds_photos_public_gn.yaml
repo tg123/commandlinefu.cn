@@ -1,0 +1,8 @@
+commandlinefu_id: 3940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for URL in `wget -O - http://api.flickr.com/services/feeds/photos_public.gne?tags=bitch,bw 2>/dev/null | grep -E -o "http[^ ]+?jpg" | grep -v "_m" | uniq | grep -v 'buddy'  `; do FILE=`echo $URL | grep -E -o "[0-9a-z_]+\.jpg"`; curl $URL > $FILE; done;
+summary: |-
+  Grap all images with the tags 'bitch' and 'bw'  from a flickr photofeed

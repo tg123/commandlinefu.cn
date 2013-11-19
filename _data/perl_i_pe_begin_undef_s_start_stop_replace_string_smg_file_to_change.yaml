@@ -1,0 +1,8 @@
+commandlinefu_id: 9409
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  perl -i -pe 'BEGIN{undef $/;} s/START.*?STOP/replace_string/smg' file_to_change
+summary: |-
+  使用Perl做多行搜索

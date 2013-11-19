@@ -1,0 +1,8 @@
+commandlinefu_id: 9953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in ${TOILET_FONT_PATH:=/usr/share/figlet}/*.{t,f}lf; do j=${i##*/}; toilet -d "${i%/*}" -f "$j" "${j%.*}"; done
+summary: |-
+  Show demo of toilet fonts

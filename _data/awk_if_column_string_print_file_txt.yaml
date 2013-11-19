@@ -1,0 +1,8 @@
+commandlinefu_id: 9976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{ if ($column == "string") print}' file.txt
+summary: |-
+  Print entire field if string is detected in column

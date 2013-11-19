@@ -1,0 +1,8 @@
+commandlinefu_id: 181
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero bs=1024 count=1440 > floppy.img && mkdosfs floppy.img
+summary: |-
+  Create a DOS floppy image

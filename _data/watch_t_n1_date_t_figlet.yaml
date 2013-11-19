@@ -1,0 +1,8 @@
+commandlinefu_id: 2473
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  watch -t -n1 "date +%T|figlet"
+summary: |-
+  非常cool的时钟

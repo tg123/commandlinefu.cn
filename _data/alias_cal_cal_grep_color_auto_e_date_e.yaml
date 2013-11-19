@@ -1,0 +1,8 @@
+commandlinefu_id: 8375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cal='cal | grep --color=auto -E "( |^)$(date +%e)|$"'
+summary: |-
+  Colored cal output

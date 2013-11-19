@@ -1,0 +1,8 @@
+commandlinefu_id: 2195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat -n FILE | grep -C3 "^[[:blank:]]\{1,5\}NUMBER[[:blank:]]"
+summary: |-
+  display portion of a file

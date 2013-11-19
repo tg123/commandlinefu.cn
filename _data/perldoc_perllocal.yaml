@@ -1,0 +1,8 @@
+commandlinefu_id: 5366
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  perldoc perllocal
+summary: |-
+  列出 安装了的 perl 模块

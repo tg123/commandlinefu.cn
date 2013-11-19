@@ -1,0 +1,8 @@
+commandlinefu_id: 11384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date +%:z
+summary: |-
+  Get the UTC offset

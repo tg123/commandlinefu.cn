@@ -1,0 +1,8 @@
+commandlinefu_id: 11605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig @resolver1.opendns.com myip.opendns.com | grep ^myip.opendns.com | tr '\t' : | cut -d: -f5
+summary: |-
+  find your public ip address easily

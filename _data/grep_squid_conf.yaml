@@ -1,0 +1,8 @@
+commandlinefu_id: 11928
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep '^[^#]' squid.conf
+summary: |-
+  View only non-comment non-empty lines in a configuration file

@@ -1,0 +1,8 @@
+commandlinefu_id: 11680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f | xargs file | grep ".*: .* text" | sed "s;\(.*\): .* text.*;\1;"
+summary: |-
+  List all text files (exclude binary files)

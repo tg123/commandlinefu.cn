@@ -1,0 +1,8 @@
+commandlinefu_id: 1773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sftp -s "sudo /usr/lib/sftp-server" user@host
+summary: |-
+  Given NOPASSWD privileges on a remote SSH server, sftp as root via sudo

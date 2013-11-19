@@ -1,0 +1,8 @@
+commandlinefu_id: 10
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du | sort -gr > file_sizes
+summary: |-
+  Outputs a sorted list of disk usage to a text file

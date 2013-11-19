@@ -1,0 +1,8 @@
+commandlinefu_id: 2996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep process-name | grep -v "grep"
+summary: |-
+  Find the process you are looking for minus the grepped one

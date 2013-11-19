@@ -1,0 +1,8 @@
+commandlinefu_id: 6336
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type d -not \( -name .svn -prune \) -exec svn propset svn:ignore '*' {} \;
+summary: |-
+  把 子目录 添加到 svn ignore 中(忽略)

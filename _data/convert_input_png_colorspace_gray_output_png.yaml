@@ -1,0 +1,8 @@
+commandlinefu_id: 9100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert input.png -colorspace Gray output.png
+summary: |-
+  grayscale image

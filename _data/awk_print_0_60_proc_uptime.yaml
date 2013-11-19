@@ -1,0 +1,8 @@
+commandlinefu_id: 9158
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk  '{print $0/60;}' /proc/uptime
+summary: |-
+  Uptime in minute

@@ -1,0 +1,8 @@
+commandlinefu_id: 9146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(shuf -n4 /usr/share/dict/words)
+summary: |-
+  Generate an XKCD #936 style 4 word passphrase (fast)

@@ -1,0 +1,8 @@
+commandlinefu_id: 2180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psql -U postgres -lAt | gawk -F\| '$1 !~ /^template/ && $1 !~ /^postgres/ && NF > 1 {print $1}'
+summary: |-
+  List all PostgreSQL databases. Useful when doing backups

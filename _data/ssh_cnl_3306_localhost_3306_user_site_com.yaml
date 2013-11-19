@@ -1,0 +1,8 @@
+commandlinefu_id: 881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -CNL 3306:localhost:3306 user@site.com
+summary: |-
+  Create an SSH tunnel for accessing your remote MySQL database with a local port

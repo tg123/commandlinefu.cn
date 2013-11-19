@@ -1,0 +1,8 @@
+commandlinefu_id: 12358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep '.tag =' <file> | awk '{print $3}' | awk 'sub(/[;]/, x)' | sort -n
+summary: |-
+  Search Objective-C source file for tag listing and sort

@@ -1,0 +1,8 @@
+commandlinefu_id: 5287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -d\    -f 1 ~/.bash_history | sort | uniq -c | sort -rn | head -n 10 | sed 's/.*/    &/g'
+summary: |-
+  most used unix commands

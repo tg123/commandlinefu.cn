@@ -1,0 +1,8 @@
+commandlinefu_id: 2085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nl filename | more
+summary: |-
+  Display a File with Line Number

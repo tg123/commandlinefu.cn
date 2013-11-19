@@ -1,0 +1,8 @@
+commandlinefu_id: 3073
+translator:
+  weibo: ''
+hide: true
+command: |-
+  urls=('www.ubuntu.com' 'google.com'); for i in ${urls[@]}; do http_code=$(curl -I -s $i -w %{http_code}); echo $i status: ${http_code:9:3}; done
+summary: |-
+  Check availability of Websites based on HTTP_CODE

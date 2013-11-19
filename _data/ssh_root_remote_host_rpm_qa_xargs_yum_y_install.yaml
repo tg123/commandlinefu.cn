@@ -1,0 +1,8 @@
+commandlinefu_id: 10007
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@remote.host "rpm -qa" | xargs yum -y install
+summary: |-
+  Duplicate installed packages from one machine to the other (RPM-based systems)

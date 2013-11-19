@@ -1,0 +1,8 @@
+commandlinefu_id: 2189
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.m4a' | xargs -I audiofile mplayer -ao pcm "audiofile" -ao pcm:file="audiofile.wav"
+summary: |-
+  covert m4a audio files to wav

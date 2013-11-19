@@ -1,0 +1,8 @@
+commandlinefu_id: 9159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  column -tns: /etc/passwd
+summary: |-
+  format txt as table not joining empty columns

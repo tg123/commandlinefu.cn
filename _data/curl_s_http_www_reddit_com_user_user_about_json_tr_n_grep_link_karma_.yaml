@@ -1,0 +1,8 @@
+commandlinefu_id: 12324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.reddit.com/user/$USER/about.json | tr "," "\n" | grep "link_karma" | tr ": " "\n" | grep -E "[0-9]+" | sed s/"^"/"Link Karma: "/
+summary: |-
+  Fetches a Reddit user's ($USER) link karma

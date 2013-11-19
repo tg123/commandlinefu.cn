@@ -1,0 +1,8 @@
+commandlinefu_id: 2682
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vmstat 1 | awk '{now=strftime("%Y-%m-%d %T "); print now $0}'
+summary: |-
+  vmstat/iostat with timestamp

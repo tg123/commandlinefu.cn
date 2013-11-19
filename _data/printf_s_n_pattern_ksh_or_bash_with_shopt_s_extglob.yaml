@@ -1,0 +1,8 @@
+commandlinefu_id: 4162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%s\n" !(pattern) ## ksh, or bash with shopt -s extglob
+summary: |-
+  List files that DO NOT match a pattern

@@ -1,0 +1,8 @@
+commandlinefu_id: 2529
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /mnt/badfs &
+summary: |-
+  Check if filesystem hangs

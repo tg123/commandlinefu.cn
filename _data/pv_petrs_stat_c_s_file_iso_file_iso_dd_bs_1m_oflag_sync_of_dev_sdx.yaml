@@ -1,0 +1,8 @@
+commandlinefu_id: 10139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pv -petrs $(stat -c %s file.iso) file.iso | dd bs=1M oflag=sync of=/dev/sdX
+summary: |-
+  copy hybrid iso images to USB key for booting from it, progress bar and remaining time are displayed while copying

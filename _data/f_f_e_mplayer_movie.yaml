@@ -1,0 +1,8 @@
+commandlinefu_id: 9854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  f -f -e mplayer movie
+summary: |-
+  Open frequnet/recent file mathcing "movie" with mplayer using f

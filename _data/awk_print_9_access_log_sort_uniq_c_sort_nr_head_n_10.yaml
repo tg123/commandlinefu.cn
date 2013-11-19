@@ -1,0 +1,8 @@
+commandlinefu_id: 12261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{ print $9 }' access.log | sort | uniq -c | sort -nr | head -n 10
+summary: |-
+  top 10  of  access log

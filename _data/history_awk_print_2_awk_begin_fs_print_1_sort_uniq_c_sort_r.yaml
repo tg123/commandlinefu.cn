@@ -1,0 +1,8 @@
+commandlinefu_id: 1856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r
+summary: |-
+  See most used commands

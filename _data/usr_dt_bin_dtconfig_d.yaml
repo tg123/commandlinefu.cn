@@ -1,0 +1,8 @@
+commandlinefu_id: 2495
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/dt/bin/dtconfig -d
+summary: |-
+  Disable graphical login on Solaris

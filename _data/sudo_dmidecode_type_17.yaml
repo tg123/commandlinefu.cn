@@ -1,0 +1,8 @@
+commandlinefu_id: 12191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmidecode --type 17
+summary: |-
+  Information about RAM HW.

@@ -1,0 +1,8 @@
+commandlinefu_id: 7221
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'for(;;){@d=split("",`date +%H%M%S`);print"\r";for(0..5){printf"%.4b ",$d[$_]}sleep 1}'
+summary: |-
+  Binary clock

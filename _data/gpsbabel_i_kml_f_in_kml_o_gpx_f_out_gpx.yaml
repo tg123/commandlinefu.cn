@@ -1,0 +1,8 @@
+commandlinefu_id: 7369
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpsbabel -i kml -f in.kml -o gpx -F out.gpx
+summary: |-
+  Convert KML to GPX w/ gpsbabel

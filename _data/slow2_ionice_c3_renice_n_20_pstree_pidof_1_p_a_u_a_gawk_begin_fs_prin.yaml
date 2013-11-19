@@ -1,0 +1,8 @@
+commandlinefu_id: 7090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  slow2() { ionice -c3 renice -n 20 $(pstree `pidof $1` -p -a -u -A|gawk 'BEGIN{FS=","}{print $2}'|cut -f1 -d " ") ; }
+summary: |-
+  slow down CPU and IO for process and its offsprings.

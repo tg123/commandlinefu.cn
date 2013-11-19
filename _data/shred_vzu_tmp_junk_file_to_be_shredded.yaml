@@ -1,0 +1,8 @@
+commandlinefu_id: 2450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shred -vzu /tmp/junk-file-to-be-shredded
+summary: |-
+  securely overwrite a file with random junk, rename it to clear the directory entry and finally delete it

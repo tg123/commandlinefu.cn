@@ -1,0 +1,8 @@
+commandlinefu_id: 7450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wall <<< "Broadcast This"
+summary: |-
+  send a circular

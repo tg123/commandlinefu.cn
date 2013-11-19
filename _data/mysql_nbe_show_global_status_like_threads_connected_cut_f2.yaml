@@ -1,0 +1,8 @@
+commandlinefu_id: 10008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -NBe 'show global status like "Threads_connected";' | cut -f2
+summary: |-
+  Calculating number of Connection to MySQL

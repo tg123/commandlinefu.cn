@@ -1,0 +1,8 @@
+commandlinefu_id: 12040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  md5sum filename | ncat hash.cymru.com 43
+summary: |-
+  cymru malware check

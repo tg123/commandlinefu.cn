@@ -1,0 +1,8 @@
+commandlinefu_id: 4938
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/^--- Day changed (.*)/ {st=""; for (i=0;i<ar[date];i++) {st=st"*"} print date" "st; date=$7"-"$5"-"$6} /> emergency/ {ar[date]++} END {st=""; for (i=0;i<ar[date];i++) {st=st"*"}; print date" "st}' #engineyard.log
+summary: |-
+  irssi log histogram

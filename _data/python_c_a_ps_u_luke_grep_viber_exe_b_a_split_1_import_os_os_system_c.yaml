@@ -1,0 +1,8 @@
+commandlinefu_id: 12411
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "a='$(ps -u luke | grep Viber.exe)';b= a.split(' ')[1];import os;os.system('cpulimit -l 1 -p '+b)"
+summary: |-
+  Slow Viber.exe wine process to 1% CPU with Python to split ps string and cpulimit

@@ -1,0 +1,8 @@
+commandlinefu_id: 5617
+translator:
+  weibo: ''
+hide: true
+command: |-
+  utime(){ date -d "1970-01-01 GMT $1 seconds"; }
+summary: |-
+  Easily decode unix-time (funtion)

@@ -1,0 +1,8 @@
+commandlinefu_id: 637
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /etc/security/bsmconv
+summary: |-
+  Enable Basic Security Mode (BSM) Auditing --Solaris

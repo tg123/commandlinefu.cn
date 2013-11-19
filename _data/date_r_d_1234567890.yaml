@@ -1,0 +1,8 @@
+commandlinefu_id: 671
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -R -d @1234567890
+summary: |-
+  Unix time to local time

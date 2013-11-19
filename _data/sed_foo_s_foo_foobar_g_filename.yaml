@@ -1,0 +1,8 @@
+commandlinefu_id: 11707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed  '/foo/ s/foo/foobar/g' <filename>
+summary: |-
+  optimized sed

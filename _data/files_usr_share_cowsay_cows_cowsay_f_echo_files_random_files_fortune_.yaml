@@ -1,0 +1,8 @@
+commandlinefu_id: 7936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  files=(/usr/share/cowsay/cows/*); cowsay -f `echo ${files[$((RANDOM%${#files}))]}` `fortune` | toilet -F gay -f term
+summary: |-
+  Cowsay Random Cow saying your fortune with colorized output

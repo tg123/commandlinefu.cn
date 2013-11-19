@@ -1,0 +1,8 @@
+commandlinefu_id: 9711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MO=Deparse filename.pl | perltidy > new.pl
+summary: |-
+  clean up syntax and de-obfuscate perl script

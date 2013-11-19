@@ -1,0 +1,8 @@
+commandlinefu_id: 11632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -v  '(\t)?#.*|^$' /etc/apache2/sites-available/default
+summary: |-
+  Clean config from # and empty strings

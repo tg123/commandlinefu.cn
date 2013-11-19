@@ -1,0 +1,8 @@
+commandlinefu_id: 9938
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -u root -p -BNe "select host,count(host) from processlist group by host;" information_schema
+summary: |-
+  Display the number of connections to a MySQL Database

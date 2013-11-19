@@ -1,0 +1,8 @@
+commandlinefu_id: 3272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strace <name of the program>
+summary: |-
+  Find files that were modified by a given command

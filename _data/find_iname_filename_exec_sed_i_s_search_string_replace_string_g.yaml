@@ -1,0 +1,8 @@
+commandlinefu_id: 4936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname "FILENAME" -exec sed -i 's/SEARCH_STRING/REPLACE_STRING/g' {} \;
+summary: |-
+  a find and replace within text-based files

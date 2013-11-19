@@ -1,0 +1,8 @@
+commandlinefu_id: 9654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cmdfu(){ curl "http://www.commandlinefu.com/commands/matching/$@/$(echo -n $@ | openssl base64)/plaintext" --silent | sed "s/\(^#.*\)/\x1b[32m\1\x1b[0m/g" | less -R }
+summary: |-
+  Search commandlinefu.com from the command line using the API

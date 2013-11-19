@@ -1,0 +1,8 @@
+commandlinefu_id: 813
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `df -P |grep string|cut -f2 -d%|cut -c2-100`; do umount -l -f $i;done
+summary: |-
+  Umount only the NFS related to 'string'

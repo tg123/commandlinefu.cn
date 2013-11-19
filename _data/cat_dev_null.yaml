@@ -1,0 +1,8 @@
+commandlinefu_id: 6774
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat > /dev/null
+summary: |-
+  Get non-printable keycode to bind keys in applications

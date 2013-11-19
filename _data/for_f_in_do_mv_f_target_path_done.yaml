@@ -1,0 +1,8 @@
+commandlinefu_id: 2610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *; do mv $f <target_path>; done;
+summary: |-
+  Move large numbers of files

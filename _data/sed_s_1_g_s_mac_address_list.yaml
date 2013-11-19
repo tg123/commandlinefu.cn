@@ -1,0 +1,8 @@
+commandlinefu_id: 939
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/\(..\)/\1:/g;s/:$//' mac_address_list
+summary: |-
+  Insert a colon between every two digits

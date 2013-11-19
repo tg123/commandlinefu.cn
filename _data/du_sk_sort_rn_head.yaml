@@ -1,0 +1,8 @@
+commandlinefu_id: 7543
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sk * | sort -rn | head
+summary: |-
+  Find the biggest files

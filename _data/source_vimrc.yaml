@@ -1,0 +1,8 @@
+commandlinefu_id: 2459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :source ~/.vimrc
+summary: |-
+  load changes without logging in and out vim

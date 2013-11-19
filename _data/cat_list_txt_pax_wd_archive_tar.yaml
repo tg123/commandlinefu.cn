@@ -1,0 +1,8 @@
+commandlinefu_id: 11711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat list.txt | pax -wd > archive.tar
+summary: |-
+  Create a tar archive from a text list without trailing slash in directories

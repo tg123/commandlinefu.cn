@@ -1,0 +1,8 @@
+commandlinefu_id: 12249
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/Dec\/2012/ {print $1,$8}' logfile | grep -ivE '(.gif|.jpg|.png|favicon|.css|.js|robots.txt|wp-l|wp-term)' | sort | uniq -c | sort -rn | head -n 20
+summary: |-
+  find top 20 results in apache statistics for a specific month

@@ -1,0 +1,8 @@
+commandlinefu_id: 5075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( zcat $FILE || gzcat $FILE || bzcat2 $FILE ) | less
+summary: |-
+  Group OR'd commands where you expect only one to work

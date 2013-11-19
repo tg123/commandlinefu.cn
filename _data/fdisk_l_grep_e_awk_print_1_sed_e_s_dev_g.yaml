@@ -1,0 +1,8 @@
+commandlinefu_id: 3282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fdisk -l |grep -e '^/' |awk '{print $1}'|sed -e "s|/dev/||g"
+summary: |-
+  list all hd partitions

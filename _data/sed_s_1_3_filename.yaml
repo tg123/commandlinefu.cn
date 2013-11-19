@@ -1,0 +1,8 @@
+commandlinefu_id: 6838
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/^\(.*\)\(.\)\(.\)$/\1\3/' fileName
+summary: |-
+  to display all characters except second last character from each line of a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 12084
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -tl **/*(om[1,20])
+summary: |-
+  show 20 last modified files in current directory including subdirectories

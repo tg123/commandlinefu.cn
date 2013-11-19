@@ -1,0 +1,8 @@
+commandlinefu_id: 4172
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cho "(Something like http://foo.com/blah_blah)" | awk '{for(i=1;i<=NF;i++){if($i~/^(http|ftp):\/\//)print $i}}'
+summary: |-
+  Match a URL

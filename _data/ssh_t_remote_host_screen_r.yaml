@@ -1,0 +1,8 @@
+commandlinefu_id: 2731
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -t remote_host screen -r
+summary: |-
+  Attach screen over ssh

@@ -1,0 +1,8 @@
+commandlinefu_id: 6721
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file /bin/* | msort -j -l -n-1 -n2 2> /dev/null
+summary: |-
+  Sort on multiple dis-contiguous keys/fields (can even specify key number/field from the end)

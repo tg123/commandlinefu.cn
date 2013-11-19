@@ -1,0 +1,8 @@
+commandlinefu_id: 5753
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude -F '%p %v#' search <pattern>
+summary: |-
+  Show a Package Version on Debian based distribution

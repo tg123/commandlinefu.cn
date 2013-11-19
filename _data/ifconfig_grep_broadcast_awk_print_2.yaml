@@ -1,0 +1,8 @@
+commandlinefu_id: 11622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig |grep broadcast  | awk '{print $2}'
+summary: |-
+  get LAN ip

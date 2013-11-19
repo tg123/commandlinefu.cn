@@ -1,0 +1,8 @@
+commandlinefu_id: 9037
+translator:
+  weibo: tgic
+hide: false
+command: |
+  if curl -s -I -H "Accept-Encoding: gzip,deflate" http://example.com/ | grep 'Content-Encoding: gzip' >/dev/null 2>&1 ; then echo Yes; else e
+summary: |-
+  检查服务器是否支持gzip

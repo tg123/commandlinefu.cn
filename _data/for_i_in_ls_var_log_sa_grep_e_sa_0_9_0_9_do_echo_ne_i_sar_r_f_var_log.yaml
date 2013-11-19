@@ -1,0 +1,8 @@
+commandlinefu_id: 11422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `ls /var/log/sa/|grep -E "sa[0-9][0-9]"`;do echo -ne "$i -- ";sar -r -f /var/log/sa/$i|awk '{ printf "%3.2f\n",($4-$6-$7)*100/(3+$4)}'|grep -Eiv "average|linux|^ --|0.00|^-" |awk '{sum+=$1 }END{printf "Average = %3.2f%%\n",sum/NR}';done
+summary: |-
+  SAR - List the average memory usage for all days recorded under '/var/log/sa/*' using sar -r.

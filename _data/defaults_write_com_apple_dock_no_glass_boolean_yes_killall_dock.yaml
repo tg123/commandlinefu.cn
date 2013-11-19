@@ -1,0 +1,8 @@
+commandlinefu_id: 903
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write com.apple.Dock no-glass -boolean YES; killall Dock
+summary: |-
+  Make the Mac OS X Dock 2D once more (10.5 and above only)

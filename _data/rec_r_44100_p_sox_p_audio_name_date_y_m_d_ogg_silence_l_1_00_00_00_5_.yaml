@@ -1,0 +1,8 @@
+commandlinefu_id: 7915
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rec -r 44100 -p | sox -p "audio_name-$(date '+%Y-%m-%d').ogg" silence -l 1 00:00:00.5 -45d -1 00:00:00.5 -45d
+summary: |-
+  record audio and use sox to eliminate silence. Results an ogg file that only contains the audio signal exceeding -45dB

@@ -1,0 +1,8 @@
+commandlinefu_id: 9260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # umount /media/filesystem; e2fsck -f /dev/device ; resize2fs -p  /dev/device 200G #actual newsize#;lvreduce --size 200G /dev/device; mount /media/filesystem; df -h /media/filesystem
+summary: |-
+  LVM2 Reduce

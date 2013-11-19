@@ -1,0 +1,8 @@
+commandlinefu_id: 2802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  recode ..HTML < file.txt > file.html
+summary: |-
+  txt2html

@@ -1,0 +1,8 @@
+commandlinefu_id: 12760
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -f . png | while read line; do pngcrush -ow -brute $line; done
+summary: |-
+  pngcrush all .png files in the directory structure

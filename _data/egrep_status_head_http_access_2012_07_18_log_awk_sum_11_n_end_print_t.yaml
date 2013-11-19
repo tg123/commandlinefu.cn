@@ -1,0 +1,8 @@
+commandlinefu_id: 11052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep '.*(("STATUS)|("HEAD)).*' http_access.2012.07.18.log | awk '{sum+=$11; ++n} END {print "Tot="sum"("n")";print "Avg="sum/n}'
+summary: |-
+  sum and average of requests responses times or sizes in Apache2 access log

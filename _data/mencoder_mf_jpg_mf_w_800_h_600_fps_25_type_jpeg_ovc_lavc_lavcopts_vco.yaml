@@ -1,0 +1,8 @@
+commandlinefu_id: 3855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder mf://*.jpg -mf w=800:h=600:fps=25:type=jpeg -ovc lavc -lavcopts vcodec=mpeg4 -oac copy -o output.avi
+summary: |-
+  Create a mpeg4 video from a jpeg picture sequence (e.g. for pencil animation) , from the current directory with mencoder

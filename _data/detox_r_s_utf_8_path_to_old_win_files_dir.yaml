@@ -1,0 +1,8 @@
+commandlinefu_id: 1498
+translator:
+  weibo: ''
+hide: true
+command: |-
+  detox -r -s utf_8 /path/to/old/win/files/dir
+summary: |-
+  iso-8859-1 to utf-8 safe recursive rename

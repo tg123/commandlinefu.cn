@@ -1,0 +1,8 @@
+commandlinefu_id: 2809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file | tee >> file
+summary: |-
+  append content of a file to itself

@@ -1,0 +1,8 @@
+commandlinefu_id: 10780
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cap -s branch=my_branch deploy
+summary: |-
+  Capistrano deploy specific branch

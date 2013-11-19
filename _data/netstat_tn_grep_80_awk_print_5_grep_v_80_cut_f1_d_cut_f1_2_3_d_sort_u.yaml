@@ -1,0 +1,8 @@
+commandlinefu_id: 10903
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tn | grep :80 | awk '{print $5}'| grep -v ':80' | cut -f1 -d: |cut -f1,2,3  -d. | sort | uniq -c| sort -n
+summary: |-
+  Number of connections per IP with range 24

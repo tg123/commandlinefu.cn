@@ -1,0 +1,8 @@
+commandlinefu_id: 4378
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent shadow | grep '^[^:]\+:!' | cut -d: -f1
+summary: |-
+  Sometimes you just want a quick way to find out if a certain user account is locked [Linux].

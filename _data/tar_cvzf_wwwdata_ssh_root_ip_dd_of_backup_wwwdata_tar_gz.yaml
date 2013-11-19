@@ -1,0 +1,8 @@
+commandlinefu_id: 6241
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvzf - /wwwdata | ssh root@IP "dd of=/backup/wwwdata.tar.gz"
+summary: |-
+  Backup trought SSH

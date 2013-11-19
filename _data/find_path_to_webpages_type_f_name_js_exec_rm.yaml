@@ -1,0 +1,8 @@
+commandlinefu_id: 7605
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/webpages -type f -name '*.js' -exec 'rm' '{}' \;
+summary: |-
+  To reduce the size of saved webpages

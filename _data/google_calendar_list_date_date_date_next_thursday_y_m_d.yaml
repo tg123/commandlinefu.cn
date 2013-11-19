@@ -1,0 +1,8 @@
+commandlinefu_id: 6406
+translator:
+  weibo: ''
+hide: true
+command: |-
+  google calendar list --date `date --date="next thursday" +%Y-%m-%d`
+summary: |-
+  List upcoming events on google calendar

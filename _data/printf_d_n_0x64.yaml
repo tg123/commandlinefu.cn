@@ -1,0 +1,8 @@
+commandlinefu_id: 4533
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%d\n" \0x64
+summary: |-
+  hexadecimal2decimal

@@ -1,0 +1,8 @@
+commandlinefu_id: 4346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ls -RFal / | gzip > all_files_list.txt.gz
+summary: |-
+  Write a listing of all directories and files on the computer to a compressed file.

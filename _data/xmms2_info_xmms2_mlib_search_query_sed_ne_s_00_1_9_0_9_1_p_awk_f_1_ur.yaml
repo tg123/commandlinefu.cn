@@ -1,0 +1,8 @@
+commandlinefu_id: 4856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmms2 info $(xmms2 mlib search '<query>' | sed -ne 's/^00*\([1-9][0-9]*\).*$/\1/p') | awk -F' = ' '$1~/ url$/{print$2}'
+summary: |-
+  Get URLs matching some xmms2 search

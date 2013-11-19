@@ -1,0 +1,8 @@
+commandlinefu_id: 4627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(ps -ef | awk '{print $2}') ; { swp=$( awk '/Swap/{sum+=$2} END {print sum}' /proc/$i/smaps ); if [[ -n $swp && 0 != $swp ]] ; then echo -n "\n $swp $i "; cat /proc/$i/cmdline ; fi; } | sort -nr
+summary: |-
+  Linux zsh one-liner to Determine which processes are using the most swap space currently

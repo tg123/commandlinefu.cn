@@ -1,0 +1,8 @@
+commandlinefu_id: 7556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mytop
+summary: |-
+  Monitor the queries being run by MySQL

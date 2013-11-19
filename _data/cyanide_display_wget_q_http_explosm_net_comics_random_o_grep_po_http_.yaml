@@ -1,0 +1,8 @@
+commandlinefu_id: 7881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cyanide(){ display "$(wget -q http://explosm.net/comics/random/ -O - | grep -Po 'http://www.explosm.net/db/files/Comics/*/[^"]+(png|jpg|jpeg)')"; }
+summary: |-
+  Random Cyanide and Happiness comics from explosm.net

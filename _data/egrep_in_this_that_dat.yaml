@@ -1,0 +1,8 @@
+commandlinefu_id: 8791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -in "this|that" *.dat
+summary: |-
+  grep: find in files

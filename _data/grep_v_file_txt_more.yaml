@@ -1,0 +1,8 @@
+commandlinefu_id: 93
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -v "^#" file.txt | more
+summary: |-
+  view all lines without comments.

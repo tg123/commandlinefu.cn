@@ -1,0 +1,8 @@
+commandlinefu_id: 8347
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'example.com%2Fsome%2Fpath' | ruby -r'cgi' -e 'puts CGI.unescape(STDIN.read)'
+summary: |-
+  un-escape URL/URIs with Ruby

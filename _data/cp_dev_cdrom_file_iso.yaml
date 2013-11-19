@@ -1,0 +1,8 @@
+commandlinefu_id: 8564
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp /dev/cdrom file.iso
+summary: |-
+  Create a CD/DVD ISO image from disk.

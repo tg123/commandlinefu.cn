@@ -1,0 +1,8 @@
+commandlinefu_id: 4794
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /dev/vg00 -type b |while read L; do lvextend -m 1 $L /dev/disk/<disk> ; done
+summary: |-
+  Mirror every lvol in vg00 in hp-ux 11.31

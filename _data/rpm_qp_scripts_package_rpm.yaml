@@ -1,0 +1,8 @@
+commandlinefu_id: 7555
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qp --scripts package.rpm
+summary: |-
+  show rpm packages scriptlets

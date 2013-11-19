@@ -1,0 +1,8 @@
+commandlinefu_id: 11720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l /dev/disk/by-id | egrep ata-.*`hdparm -i /dev/sda | grep SerialNo | sed 's/.*SerialNo=//' | tr -d "\n"`.*sda$ | sed -e 's/.*ata-/ata-/' -e 's|[ ].*||' | tr -d "\n"
+summary: |-
+  Get the /dev/disk/by-id fragment for a physical drive

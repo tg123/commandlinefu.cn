@@ -1,0 +1,8 @@
+commandlinefu_id: 8171
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvlc <somemusic.mp3>
+summary: |-
+  Playback music in VLC without the GUI interface

@@ -1,0 +1,8 @@
+commandlinefu_id: 9058
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx cmdl.in/9058
+summary: |-
+  Short URL to commandlinefu.com commands

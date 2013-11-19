@@ -1,0 +1,8 @@
+commandlinefu_id: 10298
+translator:
+  weibo: ''
+hide: true
+command: |-
+  umount -t smbfs
+summary: |-
+  Unmount all mounted SAMBA/Windows shares

@@ -1,0 +1,8 @@
+commandlinefu_id: 8766
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # su - <user> ; script /dev/null ; screen -r
+summary: |-
+  resume other user's screen session via su, without pty error

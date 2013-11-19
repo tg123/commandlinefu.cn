@@ -1,0 +1,8 @@
+commandlinefu_id: 9766
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pwd | tr -d '\n' | xsel -b
+summary: |-
+  Copy current/working directory to clipboard

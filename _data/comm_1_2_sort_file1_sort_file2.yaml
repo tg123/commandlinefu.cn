@@ -1,0 +1,8 @@
+commandlinefu_id: 1064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  comm -1 -2 <(sort file1) <(sort file2)
+summary: |-
+  show lines that appear in both file1 and file2

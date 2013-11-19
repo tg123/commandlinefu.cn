@@ -1,0 +1,8 @@
+commandlinefu_id: 10151
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VBoxManage storageattach "volpedimongibello" --storagectl "fighetto" --port 1 --device 0 --type dvddrive --medium "/tanto/mipaghi/tutto.iso
+summary: |-
+  Add a controller to a VirtualBox

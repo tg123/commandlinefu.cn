@@ -1,0 +1,8 @@
+commandlinefu_id: 614
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -- --myfile
+summary: |-
+  Removes file with a dash in the beginning of the name

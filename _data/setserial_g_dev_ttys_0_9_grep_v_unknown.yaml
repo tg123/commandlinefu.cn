@@ -1,0 +1,8 @@
+commandlinefu_id: 6441
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setserial -g /dev/ttyS[0-9]* | grep -v "unknown"
+summary: |-
+  Get the available physical ports and their information

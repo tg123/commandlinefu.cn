@@ -1,0 +1,8 @@
+commandlinefu_id: 12073
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git stash branch testchanges
+summary: |-
+  create new branch from stashed changes

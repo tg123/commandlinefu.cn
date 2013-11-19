@@ -1,0 +1,8 @@
+commandlinefu_id: 4528
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -s "$(echo -e "HEAD / HTTP/1.0\n" | nc www.example.com 80 | sed -ne 's/^Date: \(.*\)$/\1/p')"
+summary: |-
+  Poor man's ntpdate

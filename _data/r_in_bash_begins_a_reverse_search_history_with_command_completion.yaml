@@ -1,0 +1,8 @@
+commandlinefu_id: 1044
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^r in bash begins a reverse-search-history with command completion
+summary: |-
+  Press ctrl+r in a bash shell and type a few letters of a previous command

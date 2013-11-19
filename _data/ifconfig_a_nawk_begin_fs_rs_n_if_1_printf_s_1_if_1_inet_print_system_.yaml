@@ -1,0 +1,8 @@
+commandlinefu_id: 1322
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig -a | nawk 'BEGIN {FS=" "}{RS="\n"}{ if($1~ /:/) {printf "%s ", $1}}{ if($1=="inet") {print " -- ",system("arp "$2)}}'|egrep -v "^[0-9]$"
+summary: |-
+  NICs, IPs, and Mac

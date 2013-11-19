@@ -1,0 +1,8 @@
+commandlinefu_id: 4742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -arv ~/Documents/{foo,bar} --target-directory=~/buzz/
+summary: |-
+  Copy the directory you want to specify a comma separated list of directories to copy.

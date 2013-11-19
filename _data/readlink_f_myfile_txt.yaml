@@ -1,0 +1,8 @@
+commandlinefu_id: 7812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -f myfile.txt
+summary: |-
+  get absolute file path

@@ -1,0 +1,8 @@
+commandlinefu_id: 11722
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +short -x <ip-address>
+summary: |-
+  Lookup hostname for IP address

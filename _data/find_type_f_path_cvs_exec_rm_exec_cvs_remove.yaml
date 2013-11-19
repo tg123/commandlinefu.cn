@@ -1,0 +1,8 @@
+commandlinefu_id: 12453
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type f ! -path \*CVS\* -exec rm {} \; -exec cvs remove {} \;
+summary: |-
+  递归从目里删除cvs目录

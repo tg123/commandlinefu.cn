@@ -1,0 +1,8 @@
+commandlinefu_id: 3284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bc -l <<< s(3/5)
+summary: |-
+  floating point operations in shell scripts

@@ -1,0 +1,8 @@
+commandlinefu_id: 742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pstree -Gap
+summary: |-
+  Displays process tree of all running processes

@@ -1,0 +1,8 @@
+commandlinefu_id: 2844
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -t user@host screen -x <screen name>
+summary: |-
+  ssh and attach to a screen in one line.

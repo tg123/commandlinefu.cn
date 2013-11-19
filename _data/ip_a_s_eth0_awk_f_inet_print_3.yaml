@@ -1,0 +1,8 @@
+commandlinefu_id: 11000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip a s eth0 | awk -F"[/ ]+" '/inet / {print $3}'
+summary: |-
+  Get the IP address

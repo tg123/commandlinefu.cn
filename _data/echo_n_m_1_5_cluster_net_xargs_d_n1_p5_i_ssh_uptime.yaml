@@ -1,0 +1,8 @@
+commandlinefu_id: 354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n m{1..5}.cluster.net | xargs -d' ' -n1 -P5 -I{} ssh {} 'uptime'
+summary: |-
+  run command on a group of nodes in parallel

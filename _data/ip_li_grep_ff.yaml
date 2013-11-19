@@ -1,0 +1,8 @@
+commandlinefu_id: 10240
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip li | grep ff
+summary: |-
+  List your MACs address

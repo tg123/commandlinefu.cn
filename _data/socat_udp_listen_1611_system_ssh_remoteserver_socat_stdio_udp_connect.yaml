@@ -1,0 +1,8 @@
+commandlinefu_id: 12462
+translator:
+  weibo: ''
+hide: true
+command: |-
+  socat udp-listen:1611 system:'ssh remoteserver "socat stdio udp-connect:remotetarget:161"'
+summary: |-
+  UDP over SSH

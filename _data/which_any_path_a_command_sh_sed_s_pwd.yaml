@@ -1,0 +1,8 @@
+commandlinefu_id: 9335
+translator:
+  weibo: ''
+hide: true
+command: |-
+  which any_path/a_command.sh | sed "s|^./|$(pwd)|"
+summary: |-
+  Returns the absolute path to a command, using which if needed

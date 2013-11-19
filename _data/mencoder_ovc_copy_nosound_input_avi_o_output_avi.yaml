@@ -1,0 +1,8 @@
+commandlinefu_id: 3490
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -ovc copy -nosound input.avi -o output.avi
+summary: |-
+  Remove sound from video file using mencoder

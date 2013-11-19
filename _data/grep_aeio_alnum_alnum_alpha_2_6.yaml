@@ -1,0 +1,8 @@
+commandlinefu_id: 12441
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -aEio '([[:alnum:]_.-\+\-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})'
+summary: |-
+  extract email adresses from some file (or any other pattern)

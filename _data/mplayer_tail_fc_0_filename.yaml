@@ -1,0 +1,8 @@
+commandlinefu_id: 10686
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer <(tail -fc +0 <filename>)
+summary: |-
+  don't have video stop at EOF while it is downloading

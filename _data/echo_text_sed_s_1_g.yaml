@@ -1,0 +1,8 @@
+commandlinefu_id: 10471
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo text | sed "s/\(.\)/\1-/g"
+summary: |-
+  Add strikethrough to text

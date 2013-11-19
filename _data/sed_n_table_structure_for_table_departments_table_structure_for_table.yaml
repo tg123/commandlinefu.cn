@@ -1,0 +1,8 @@
+commandlinefu_id: 8787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n "/^-- Table structure for table \`departments\`/,/^-- Table structure for table/p"
+summary: |-
+  MySQL: Slice out a specific table from the output of mysqldump

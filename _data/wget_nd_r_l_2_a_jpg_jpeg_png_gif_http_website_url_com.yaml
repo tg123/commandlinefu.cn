@@ -1,0 +1,8 @@
+commandlinefu_id: 10125
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -nd -r -l 2 -A jpg,jpeg,png,gif http://website-url.com
+summary: |-
+  Download all images from a website in a single folder

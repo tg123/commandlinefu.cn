@@ -1,0 +1,8 @@
+commandlinefu_id: 8188
+translator:
+  weibo: ''
+hide: true
+command: |-
+  http_proxy=<proxy.server:port> wget <url>
+summary: |-
+  Pass the proxy server address as a prefix to wget

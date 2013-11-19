@@ -1,0 +1,8 @@
+commandlinefu_id: 12472
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lh file-name | awk '{ print $5}'
+summary: |-
+  get size of a file

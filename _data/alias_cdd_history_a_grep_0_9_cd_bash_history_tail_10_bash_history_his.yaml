@@ -1,0 +1,8 @@
+commandlinefu_id: 8827
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cdd="history -a && grep '^ *[0-9]* *cd ' ~/.bash_history| tail -10 >>~/.bash_history && history -r ~/.bash_history"
+summary: |-
+  Easy way to scroll up und down to change to one of <i>n</i> last visited directories.

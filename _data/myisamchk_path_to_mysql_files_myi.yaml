@@ -1,0 +1,8 @@
+commandlinefu_id: 2
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  myisamchk /path/to/mysql/files/*.MYI
+summary: |-
+  检查所有的MySQL表

@@ -1,0 +1,8 @@
+commandlinefu_id: 154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PS1="\[\033[44;1;37m\]\u\[\033[0m\]@\h\\$ "
+summary: |-
+  add a little color to your prompt

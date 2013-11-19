@@ -1,0 +1,8 @@
+commandlinefu_id: 9667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{gsub("foo","bar",$5)}1' file
+summary: |-
+  Target a specific column for pattern substitution

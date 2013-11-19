@@ -1,0 +1,8 @@
+commandlinefu_id: 3703
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  shutdown -rF now
+summary: |-
+  重启时候加入 fsck

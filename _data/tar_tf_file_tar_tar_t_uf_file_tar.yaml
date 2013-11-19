@@ -1,0 +1,8 @@
+commandlinefu_id: 2266
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -tf file.tar | tar -T - -uf file.tar
+summary: |-
+  Update a tarball

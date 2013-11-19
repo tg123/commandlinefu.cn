@@ -1,0 +1,8 @@
+commandlinefu_id: 5840
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log -p -z | perl -ln0e 'print if /[+-].*searchedstring/'
+summary: |-
+  See all the commits for which searchstring appear in the git diff

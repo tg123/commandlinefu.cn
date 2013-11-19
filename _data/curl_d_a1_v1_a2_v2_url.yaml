@@ -1,0 +1,8 @@
+commandlinefu_id: 11176
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -d "a1=v1&a2=v2" url
+summary: |-
+  post data with a http request

@@ -1,0 +1,8 @@
+commandlinefu_id: 5280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -cks * | sort -rn | while read size fname; do for unit in k M G T P E Z Y; do if [ $size -lt 1024 ]; then echo -e "${size}${unit}\t${fname}"; break; fi; size=$((size/1024)); done; done
+summary: |-
+  easily find megabyte eating files or directories

@@ -1,0 +1,8 @@
+commandlinefu_id: 4302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir/ -type f -exec rm {} +
+summary: |-
+  Optimal way of deleting huge numbers of files

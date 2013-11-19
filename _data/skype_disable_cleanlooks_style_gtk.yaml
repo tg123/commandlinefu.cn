@@ -1,0 +1,8 @@
+commandlinefu_id: 2751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  skype --disable-cleanlooks -style GTK
+summary: |-
+  Run skype using your GTK theme

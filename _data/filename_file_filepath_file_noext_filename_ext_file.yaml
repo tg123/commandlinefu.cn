@@ -1,0 +1,8 @@
+commandlinefu_id: 2396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FILENAME=${FILE##*/};FILEPATH=${FILE%/*};NOEXT=${FILENAME%\.*};EXT=${FILE##*.}
+summary: |-
+  For a $FILE, extracts the path, filename, filename without extension and extension.

@@ -1,0 +1,8 @@
+commandlinefu_id: 2652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste | ssh user@hostname 'cat > ~/my_new_file.txt'
+summary: |-
+  Paste OS X clipboard contents to a file on a remote machine

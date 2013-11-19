@@ -1,0 +1,8 @@
+commandlinefu_id: 10928
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -E "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
+summary: |-
+  grep for ip4 addresses

@@ -1,0 +1,8 @@
+commandlinefu_id: 11516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scrot -d 3 '/tmp/%Y-%m-%d_$wx$h.png' -e 'cat $f'|curl -F "image=@-" -F "key=1913b4ac473c692372d108209958fd15" http://api.imgur.com/2/upload.xml|grep -Eo "<original>(.)*</original>" | grep -Eo "http://i.imgur.com/[^<]*"
+summary: |-
+  Take and post a screenshot in 3 seconds to imgur using scrot

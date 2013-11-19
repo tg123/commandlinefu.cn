@@ -1,0 +1,8 @@
+commandlinefu_id: 5282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%`tput cols`s"|tr ' ' '#'
+summary: |-
+  Print a row of characters across the terminal

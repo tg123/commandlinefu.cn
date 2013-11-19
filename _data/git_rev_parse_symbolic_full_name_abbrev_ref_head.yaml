@@ -1,0 +1,8 @@
+commandlinefu_id: 11522
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git rev-parse --symbolic-full-name --abbrev-ref HEAD
+summary: |-
+  get current git branch

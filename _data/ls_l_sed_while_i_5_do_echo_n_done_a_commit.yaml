@@ -1,0 +1,8 @@
+commandlinefu_id: 5079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l | sed "$(while (( ++i < 5 )); do echo "N;"; done) a -- COMMIT --"
+summary: |-
+  Insert a line for each n lines

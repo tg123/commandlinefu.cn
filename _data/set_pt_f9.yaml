@@ -1,0 +1,8 @@
+commandlinefu_id: 6122
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :set pt=<f9>
+summary: |-
+  vim's pastetoggle: when you press f9 'paste' is on , press f9 again and 'paste' is off, and so forth (works in insert-mode and command-mode)

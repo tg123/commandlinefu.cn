@@ -1,0 +1,8 @@
+commandlinefu_id: 9636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -d @$(echo $(($(date +%s)-$(cat /proc/uptime|cut -d. -f1))))
+summary: |-
+  Knowing when a machine is turned on

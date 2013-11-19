@@ -1,0 +1,8 @@
+commandlinefu_id: 2475
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # cd $partition; dd if=/dev/zero of=ShredUnusedBlocks bs=512M; shred -vzu ShredUnusedBlocks
+summary: |-
+  securely erase unused blocks in a partition

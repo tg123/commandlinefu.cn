@@ -1,0 +1,8 @@
+commandlinefu_id: 4295
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://sputnick-area.net/ip
+summary: |-
+  Get your public ip

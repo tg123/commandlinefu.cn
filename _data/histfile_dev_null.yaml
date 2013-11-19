@@ -1,0 +1,8 @@
+commandlinefu_id: 7906
+translator:
+  weibo: ''
+hide: true
+command: |-
+  HISTFILE=/dev/null
+summary: |-
+  disable history for current shell session

@@ -1,0 +1,8 @@
+commandlinefu_id: 4025
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdftk mydoc.pdf burst
+summary: |-
+  Burst a Single PDF Document into Single Pages and Report its Data to doc_data.txt

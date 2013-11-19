@@ -1,0 +1,8 @@
+commandlinefu_id: 3839
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne '$pkg=$1 if m/^Package: (.*)/; print "$1\t$pkg\n" if m/^Installed-Size: (.*)/;' < /var/lib/dpkg/status | sort -rn | less
+summary: |-
+  List your largest installed packages (on Debian/Ubuntu)

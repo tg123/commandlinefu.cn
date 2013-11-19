@@ -1,0 +1,8 @@
+commandlinefu_id: 11933
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lT -rt | grep "^-" | awk 'BEGIN {START=2002} (START <= $9){ print $10 ;START=$9 }' | tail -1
+summary: |-
+  Order all files oldest to newest then get the last one touched

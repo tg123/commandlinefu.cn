@@ -1,0 +1,8 @@
+commandlinefu_id: 4471
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/images -name '*.JPG' -exec rename "s/.JPG/.jpg/g" \{\} \;
+summary: |-
+  Rename .JPG to .jpg recursively

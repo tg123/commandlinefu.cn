@@ -1,0 +1,8 @@
+commandlinefu_id: 2819
+translator:
+  weibo: ''
+hide: true
+command: |-
+  autossh -M50000 -t server.example.com 'screen -raAd mysession'
+summary: |-
+  Have an ssh session open forever

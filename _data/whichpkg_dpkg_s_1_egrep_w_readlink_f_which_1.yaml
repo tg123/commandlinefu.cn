@@ -1,0 +1,8 @@
+commandlinefu_id: 8851
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whichpkg () { dpkg -S $1 | egrep -w $(readlink -f "$(which $1)")$; }
+summary: |-
+  Find the package a command belongs to on debian-based distros

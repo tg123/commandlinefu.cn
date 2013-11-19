@@ -1,0 +1,8 @@
+commandlinefu_id: 12439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  salt -G 'os_family:Debian' cmd.run ' /usr/lib/update-notifier/apt-check --human-readable'
+summary: |-
+  Get summary of updateable packages on Debian/Ubuntu machines using salt stack

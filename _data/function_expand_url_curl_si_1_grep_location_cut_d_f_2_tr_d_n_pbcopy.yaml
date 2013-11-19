@@ -1,0 +1,8 @@
+commandlinefu_id: 9083
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function expand_url() {   curl -sI $1 | grep Location: | cut -d " " -f 2 | tr -d "\n" | pbcopy }
+summary: |-
+  OSX Expand URL and Copy to Clipboard

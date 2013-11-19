@@ -1,0 +1,8 @@
+commandlinefu_id: 10541
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svnlook date /path/to/repo
+summary: |-
+  command to find when the last commit has happened from the server

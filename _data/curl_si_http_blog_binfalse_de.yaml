@@ -1,0 +1,8 @@
+commandlinefu_id: 6485
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -sI http://blog.binfalse.de
+summary: |-
+  Get the header of a website

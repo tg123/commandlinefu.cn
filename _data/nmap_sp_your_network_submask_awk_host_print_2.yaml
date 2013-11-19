@@ -1,0 +1,8 @@
+commandlinefu_id: 1833
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sP your network/submask | awk "/^Host/"'{ print $2 }'
+summary: |-
+  Display only hosts up in network

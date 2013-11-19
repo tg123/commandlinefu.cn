@@ -1,0 +1,8 @@
+commandlinefu_id: 8813
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nice -n0 ls | mpg321 -@- &
+summary: |-
+  play all songs under current directory smoothly as background job

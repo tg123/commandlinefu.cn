@@ -1,0 +1,8 @@
+commandlinefu_id: 1943
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cdrecord dev=0,0,0 -v -eject yourimage.iso
+summary: |-
+  Burn CD/DVD from an iso, eject disc when finished.

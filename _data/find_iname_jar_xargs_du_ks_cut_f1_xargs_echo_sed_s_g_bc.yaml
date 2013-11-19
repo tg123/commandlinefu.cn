@@ -1,0 +1,8 @@
+commandlinefu_id: 2381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*.jar' | xargs du -ks | cut -f1 | xargs echo | sed "s/ /+/g" | bc
+summary: |-
+  Another way to calculate sum size of all files matching a pattern

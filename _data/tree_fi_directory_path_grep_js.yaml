@@ -1,0 +1,8 @@
+commandlinefu_id: 6498
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -fi /directory/path/* | grep "\.js"
+summary: |-
+  full path listing in /directory/path/* of javascript files.

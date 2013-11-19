@@ -1,0 +1,8 @@
+commandlinefu_id: 7783
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk ' { printf ("%s ", $0)} END {printf ("\n") } ' FILE
+summary: |-
+  transform several lines in one with Awk

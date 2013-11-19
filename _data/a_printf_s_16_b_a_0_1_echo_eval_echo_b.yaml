@@ -1,0 +1,8 @@
+commandlinefu_id: 2415
+translator:
+  weibo: tgic
+hide: false
+command: |
+  a=`printf "%*s" 16`;b=${a//?/{0..1\}}; echo `eval "echo $b"`
+summary: |-
+  打印0-65535 的所有二进制数

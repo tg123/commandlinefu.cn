@@ -1,0 +1,8 @@
+commandlinefu_id: 9540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -n log4j MainPm.java  | sed -e 's/^\([^:]*\):\(.*\)/\2 \1/'
+summary: |-
+  move linenumbers of grep output to end of line

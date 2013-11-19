@@ -1,0 +1,8 @@
+commandlinefu_id: 5102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l | grep ^-
+summary: |-
+  List only files in long format.

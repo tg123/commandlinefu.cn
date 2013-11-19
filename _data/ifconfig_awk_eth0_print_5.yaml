@@ -1,0 +1,8 @@
+commandlinefu_id: 5985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | awk '/^eth0/ {print $5}'
+summary: |-
+  Get MAC address

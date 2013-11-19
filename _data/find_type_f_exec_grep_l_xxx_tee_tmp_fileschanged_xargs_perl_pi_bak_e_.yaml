@@ -1,0 +1,8 @@
+commandlinefu_id: 734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec grep -l XXX {} \;|tee /tmp/fileschanged|xargs perl -pi.bak -e 's/XXX/YYY/g'
+summary: |-
+  Change string in many files at once and more.

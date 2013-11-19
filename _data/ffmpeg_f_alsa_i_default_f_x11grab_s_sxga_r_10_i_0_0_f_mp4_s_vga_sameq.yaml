@@ -1,0 +1,8 @@
+commandlinefu_id: 9315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -f alsa -i default -f x11grab -s sxga -r 10 -i :0.0 -f mp4 -s vga -sameq out.mp4
+summary: |-
+  capture screen and mic

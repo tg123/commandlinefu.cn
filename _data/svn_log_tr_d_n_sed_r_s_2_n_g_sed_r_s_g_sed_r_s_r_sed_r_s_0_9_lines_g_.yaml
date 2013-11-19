@@ -1,0 +1,8 @@
+commandlinefu_id: 2521
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log |  tr -d '\n' | sed -r 's/-{2,}/\n/g' | sed -r 's/ \([^\)]+\)//g' | sed -r 's/^r//' | sed -r "s/[0-9]+ lines?//g" | sort -g
+summary: |-
+  SVN Status log to CSV

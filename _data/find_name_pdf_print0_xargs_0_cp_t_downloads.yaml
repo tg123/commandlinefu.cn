@@ -1,0 +1,8 @@
+commandlinefu_id: 1473
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.pdf" -print0 | xargs -0 cp -t downloads/
+summary: |-
+  Use -t when using find and cp

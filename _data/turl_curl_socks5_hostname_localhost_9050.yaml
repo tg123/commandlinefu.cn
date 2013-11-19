@@ -1,0 +1,8 @@
+commandlinefu_id: 12497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  turl(){ curl --socks5-hostname localhost:9050 $@ ; }
+summary: |-
+  Use curl with a local SOCKS5 proxy (e.g. Tor)

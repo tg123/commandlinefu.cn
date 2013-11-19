@@ -1,0 +1,8 @@
+commandlinefu_id: 11404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print NR "\t" $0}'
+summary: |-
+  prints line numbers

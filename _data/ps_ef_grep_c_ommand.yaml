@@ -1,0 +1,8 @@
+commandlinefu_id: 7553
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep c\\ommand
+summary: |-
+  Find the process you are looking for minus the grepped one

@@ -1,0 +1,8 @@
+commandlinefu_id: 7894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{sub("String","")}1'
+summary: |-
+  Exclude a string with awk

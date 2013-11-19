@@ -1,0 +1,8 @@
+commandlinefu_id: 8796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir /tmp/dir1/{0..20}
+summary: |-
+  make directory

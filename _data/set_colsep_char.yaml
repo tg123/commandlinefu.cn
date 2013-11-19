@@ -1,0 +1,8 @@
+commandlinefu_id: 8233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  set colsep "{char}"
+summary: |-
+  Oracle: set column separator

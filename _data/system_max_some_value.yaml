@@ -1,0 +1,8 @@
+commandlinefu_id: 5165
+translator:
+  weibo: ''
+hide: true
+command: |-
+  system max <some value>
+summary: |-
+  Change default values on Foundry (Brocade) RX and MLX BigIron L3 (routers & switches)

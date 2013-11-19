@@ -1,0 +1,8 @@
+commandlinefu_id: 7716
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type d -name "*TestDir*" | wc -l
+summary: |-
+  计算所有特定名字的 目录的子目录数量

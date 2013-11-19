@@ -1,0 +1,8 @@
+commandlinefu_id: 6852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/version
+summary: |-
+  Find out my Linux distribution name and version

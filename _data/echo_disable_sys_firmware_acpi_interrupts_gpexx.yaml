@@ -1,0 +1,8 @@
+commandlinefu_id: 12503
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "disable" > /sys/firmware/acpi/interrupts/gpeXX
+summary: |-
+  kworker issue. Phase 2. Clobbering the interrupt that is problematic

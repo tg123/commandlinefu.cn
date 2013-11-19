@@ -1,0 +1,8 @@
+commandlinefu_id: 7579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq -w 50 | sort -R | head -6 |fmt|tr " " "-"
+summary: |-
+  lotto generator

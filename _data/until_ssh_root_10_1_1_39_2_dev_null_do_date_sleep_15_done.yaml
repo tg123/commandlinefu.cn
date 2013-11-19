@@ -1,0 +1,8 @@
+commandlinefu_id: 8041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  until (ssh root@10.1.1.39 2> /dev/null); do date; sleep 15; done
+summary: |-
+  do something else while waiting for an event, such as reboot

@@ -1,0 +1,8 @@
+commandlinefu_id: 1711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [ 1 ]; do echo -n "`date +%F_%T`" ; vmstat 1 2 | tail -1 ; sleep 4; done
+summary: |-
+  Output system statistics every 5 seconds with timestamp

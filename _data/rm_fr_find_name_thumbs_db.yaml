@@ -1,0 +1,8 @@
+commandlinefu_id: 6355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -fr `find . -name Thumbs.db`
+summary: |-
+  Remove Thumbs.db files from folders

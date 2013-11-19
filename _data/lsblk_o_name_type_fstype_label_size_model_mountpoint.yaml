@@ -1,0 +1,8 @@
+commandlinefu_id: 11264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsblk -o NAME,TYPE,FSTYPE,LABEL,SIZE,MODEL,MOUNTPOINT
+summary: |-
+  detect partitions

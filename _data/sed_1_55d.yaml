@@ -1,0 +1,8 @@
+commandlinefu_id: 828
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '1,55d'
+summary: |-
+  delete first X lines of a file

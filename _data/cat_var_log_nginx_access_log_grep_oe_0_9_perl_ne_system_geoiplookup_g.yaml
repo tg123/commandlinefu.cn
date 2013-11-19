@@ -1,0 +1,8 @@
+commandlinefu_id: 10728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/log/nginx/access.log | grep -oe '^[0-9.]\+' | perl -ne 'system("geoiplookup $_")' | grep -v found | grep -oe ', [A-Za-z ]\+$' | sort | uniq -c | sort -n
+summary: |-
+  Per country GET report, based on access log. Easy to transform to unique IP

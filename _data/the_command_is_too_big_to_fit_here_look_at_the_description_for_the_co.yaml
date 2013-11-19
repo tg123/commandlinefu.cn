@@ -1,0 +1,8 @@
+commandlinefu_id: 7580
+translator:
+  weibo: ''
+hide: true
+command: |-
+  The command is too big to fit here. :( Look at the description for the command, in readable form! :)
+summary: |-
+  Search Google from the command line and return the first result.

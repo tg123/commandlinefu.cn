@@ -1,0 +1,8 @@
+commandlinefu_id: 2799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg --get-selections | grep -v deinstall | cut -f 1
+summary: |-
+  List all installed Debian packages

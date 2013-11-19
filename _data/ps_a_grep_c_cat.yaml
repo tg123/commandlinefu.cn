@@ -1,0 +1,8 @@
+commandlinefu_id: 6620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -a | grep -c cat
+summary: |-
+  count how many cat processes are running

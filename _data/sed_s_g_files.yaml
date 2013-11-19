@@ -1,0 +1,8 @@
+commandlinefu_id: 11631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s/^.//g" files
+summary: |-
+  Remove the first character of each line in a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ldd <executable binary>
+summary: |-
+  Check executable shared library usage

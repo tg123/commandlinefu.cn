@@ -1,0 +1,8 @@
+commandlinefu_id: 12246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc -w 5 -v -l -p 80 < file.ext
+summary: |-
+  Sharing a file through http 80 port:

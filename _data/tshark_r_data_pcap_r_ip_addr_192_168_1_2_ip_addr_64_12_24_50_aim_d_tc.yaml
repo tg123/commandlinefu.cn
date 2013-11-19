@@ -1,0 +1,8 @@
+commandlinefu_id: 9448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tshark -r data.pcap -R "ip.addr==192.168.1.2 && ip.addr==64.12.24.50 && aim" -d tcp.port==443,aim -T fields -e "aim.buddyname" |sort |uniq -c
+summary: |-
+  Print out buddy name (aim) which has been capture in pcap

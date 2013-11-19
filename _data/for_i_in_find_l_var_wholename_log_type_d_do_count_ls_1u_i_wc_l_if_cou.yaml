@@ -1,0 +1,8 @@
+commandlinefu_id: 12755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `find -L /var/ -wholename \*log\* -type d`; do COUNT=`ls -1U $i | wc -l`; if [ $COUNT -gt 10 ]; then echo $i $COUNT; fi; done
+summary: |-
+  Find all folder in /var that contains log in their path and have more than 10 files inside them, print the folder and the count

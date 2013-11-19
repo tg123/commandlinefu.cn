@@ -1,0 +1,8 @@
+commandlinefu_id: 2433
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -h -o '<[^/!?][^ >]*' * | sort -u | cut -c2-
+summary: |-
+  Lists unambigously names of all xml elements used in files in current directory

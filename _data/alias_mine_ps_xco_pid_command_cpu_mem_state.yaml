@@ -1,0 +1,8 @@
+commandlinefu_id: 1124
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias mine='ps xco pid,command,%cpu,%mem,state'
+summary: |-
+  quickly show me interesting data about my processes

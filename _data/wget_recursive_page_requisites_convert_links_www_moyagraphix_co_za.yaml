@@ -1,0 +1,8 @@
+commandlinefu_id: 764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --recursive  --page-requisites --convert-links www.moyagraphix.co.za
+summary: |-
+  Download an entire static website to your local machine

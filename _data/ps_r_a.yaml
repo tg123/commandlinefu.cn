@@ -1,0 +1,8 @@
+commandlinefu_id: 12635
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps r -A
+summary: |-
+  Find the processes that are on the runqueue.  Processes with a status of

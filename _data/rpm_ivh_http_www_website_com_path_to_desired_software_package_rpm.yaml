@@ -1,0 +1,8 @@
+commandlinefu_id: 3064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -ivh 'http://www.website.com/path/to/desired_software_package.rpm'
+summary: |-
+  download and install the software package in one step

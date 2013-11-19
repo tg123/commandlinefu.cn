@@ -1,0 +1,8 @@
+commandlinefu_id: 5339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  !!:gs/Original/New/
+summary: |-
+  Unix commandline history substitution like ^foo^bar BUT for multiple replacements

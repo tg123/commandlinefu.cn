@@ -1,0 +1,8 @@
+commandlinefu_id: 1479
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /home/user | xargs ls -lhR | less
+summary: |-
+  List all file and directory on user's home with details

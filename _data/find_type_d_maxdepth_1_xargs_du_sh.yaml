@@ -1,0 +1,8 @@
+commandlinefu_id: 11323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -maxdepth 1 | xargs du -sh
+summary: |-
+  Size for all directories inside the current one

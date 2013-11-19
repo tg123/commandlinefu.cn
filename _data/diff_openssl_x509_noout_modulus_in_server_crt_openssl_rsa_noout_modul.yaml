@@ -1,0 +1,8 @@
+commandlinefu_id: 3389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(openssl x509 -noout -modulus -in server.crt ) <( openssl rsa -noout -modulus -in server.key )
+summary: |-
+  Check if x509 certificate file and rsa private key match

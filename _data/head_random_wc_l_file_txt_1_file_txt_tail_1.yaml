@@ -1,0 +1,8 @@
+commandlinefu_id: 2739
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  head -$(($RANDOM % $(wc -l < file.txt) +1 )) file.txt | tail -1
+summary: |-
+  随机取文件的一行

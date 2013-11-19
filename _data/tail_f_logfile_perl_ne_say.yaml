@@ -1,0 +1,8 @@
+commandlinefu_id: 9295
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f LOGFILE | perl -ne '`say "$_"`;'
+summary: |-
+  speak a chat log file while it's running

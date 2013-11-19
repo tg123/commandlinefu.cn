@@ -1,0 +1,8 @@
+commandlinefu_id: 11266
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent passwd | cut -d: -f1 | sort
+summary: |-
+  Lists all usernames in alphabetical order

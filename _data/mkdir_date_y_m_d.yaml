@@ -1,0 +1,8 @@
+commandlinefu_id: 5384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir $(date +%Y_%m_%d)
+summary: |-
+  make directory with current date

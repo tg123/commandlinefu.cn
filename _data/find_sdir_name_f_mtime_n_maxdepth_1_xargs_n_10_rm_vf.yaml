@@ -1,0 +1,8 @@
+commandlinefu_id: 9610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $SDIR -name '${f}.*' -mtime +$n -maxdepth 1 | xargs -n 10 rm -vf
+summary: |-
+  find something

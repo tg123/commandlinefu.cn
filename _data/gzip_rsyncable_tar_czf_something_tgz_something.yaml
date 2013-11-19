@@ -1,0 +1,8 @@
+commandlinefu_id: 10654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  GZIP="--rsyncable" tar -czf something.tgz /something
+summary: |-
+  Create rsyncable tar archives with gzip compression

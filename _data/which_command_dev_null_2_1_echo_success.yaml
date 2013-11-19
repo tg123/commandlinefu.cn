@@ -1,0 +1,8 @@
+commandlinefu_id: 12009
+translator:
+  weibo: ''
+hide: true
+command: |-
+  which <command> > /dev/null 2>&1 && echo Success!
+summary: |-
+  Do I have this command?

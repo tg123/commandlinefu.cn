@@ -1,0 +1,8 @@
+commandlinefu_id: 10079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -a --numeric-ports | grep 8321
+summary: |-
+  tell if a port is in use

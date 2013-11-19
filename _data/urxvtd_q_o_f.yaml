@@ -1,0 +1,8 @@
+commandlinefu_id: 2632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  urxvtd -q -o -f
+summary: |-
+  Using the urxvt terminal daemon

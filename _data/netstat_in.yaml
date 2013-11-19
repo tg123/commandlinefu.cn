@@ -1,0 +1,8 @@
+commandlinefu_id: 4795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -in
+summary: |-
+  Equivalent to ifconfig -a in HPUX

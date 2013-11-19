@@ -1,0 +1,8 @@
+commandlinefu_id: 350
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/dsp | ssh -c arcfour -C username@host dd of=/dev/dsp
+summary: |-
+  output your microphone to a remote computer's speaker

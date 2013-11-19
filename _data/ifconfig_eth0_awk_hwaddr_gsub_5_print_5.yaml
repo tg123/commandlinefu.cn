@@ -1,0 +1,8 @@
+commandlinefu_id: 11978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig eth0|awk '/HWaddr/{gsub(/:/,"",$5);print $5}'
+summary: |-
+  easy seach ip

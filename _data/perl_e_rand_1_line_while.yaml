@@ -1,0 +1,8 @@
+commandlinefu_id: 8344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'rand($.) < 1 && ($line = $_) while <>;'
+summary: |-
+  Pick a random line from a file

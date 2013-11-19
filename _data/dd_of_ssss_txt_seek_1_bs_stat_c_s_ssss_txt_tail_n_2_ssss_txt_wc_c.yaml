@@ -1,0 +1,8 @@
+commandlinefu_id: 9496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :|dd of=./ssss.txt seek=1 bs=$(($(stat -c%s ./ssss.txt)-$(tail -n 2 ./ssss.txt|wc -c)))
+summary: |-
+  faster replace sting with dd

@@ -1,0 +1,8 @@
+commandlinefu_id: 6142
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -C -Y -l$USER xserver.mynet.xx 'Xnest -geometry 1900x1150 -query localhost'
+summary: |-
+  runs a X session within your X session

@@ -1,0 +1,8 @@
+commandlinefu_id: 5567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  finger @www.linuxbanks.cn | grep -oE '([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}' | head -n1
+summary: |-
+  find out public ip address by using any host that have 'efingerd -n'

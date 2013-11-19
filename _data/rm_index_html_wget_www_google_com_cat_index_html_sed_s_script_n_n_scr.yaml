@@ -1,0 +1,8 @@
+commandlinefu_id: 12154
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm index.html | wget www.google.com;cat index.html | sed 's/<script>/\n\n\<script>\n\n/g' | sed 's/<\/script>/>\n\n/g'
+summary: |-
+  remove old index.html if you download it again and organiaz the java script tag on the file index.html

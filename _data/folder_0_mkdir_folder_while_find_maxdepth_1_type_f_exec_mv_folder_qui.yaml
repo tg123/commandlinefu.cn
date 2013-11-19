@@ -1,0 +1,8 @@
+commandlinefu_id: 7856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  folder=0;mkdir $folder; while find -maxdepth 1 -type f -exec mv "{}" $folder \; -quit ; do if [ $( ls $folder | wc -l ) -ge 100 ]; then folder=$(( $folder + 1 )); mkdir $folder; fi ; done
+summary: |-
+  Reorder file with max 100 file per folder

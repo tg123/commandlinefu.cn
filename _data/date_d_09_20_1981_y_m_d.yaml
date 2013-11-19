@@ -1,0 +1,8 @@
+commandlinefu_id: 384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -d 09/20/1981 +"%Y-%m-%d"
+summary: |-
+  Change date from MM/DD/YYYY to YYYY-MM-DD (mysql like)

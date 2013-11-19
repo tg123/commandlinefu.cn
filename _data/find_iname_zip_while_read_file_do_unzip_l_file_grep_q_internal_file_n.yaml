@@ -1,0 +1,8 @@
+commandlinefu_id: 10473
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*.zip' | while read file; do unzip -l "$file" | grep -q [internal file name] && echo $file; done
+summary: |-
+  find which of the zip files contains the file you're searching for

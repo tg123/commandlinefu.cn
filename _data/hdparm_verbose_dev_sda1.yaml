@@ -1,0 +1,8 @@
+commandlinefu_id: 10708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hdparm --verbose /dev/sda1
+summary: |-
+  Detail info about the hard disk

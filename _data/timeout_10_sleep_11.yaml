@@ -1,0 +1,8 @@
+commandlinefu_id: 3592
+translator:
+  weibo: ''
+hide: true
+command: |-
+  timeout 10 sleep 11
+summary: |-
+  Execute a command with a timeout

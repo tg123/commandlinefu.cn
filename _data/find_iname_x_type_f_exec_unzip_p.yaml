@@ -1,0 +1,8 @@
+commandlinefu_id: 10097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find  . -iname "*.???x" -type f -exec  unzip -p '{}' '*'
+summary: |-
+  search office documents for credit card numbers and social security number SSN docx xlsx

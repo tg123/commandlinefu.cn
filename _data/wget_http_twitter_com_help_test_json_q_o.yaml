@@ -1,0 +1,8 @@
+commandlinefu_id: 3501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://twitter.com/help/test.json -q -O -
+summary: |-
+  Ping Twitter to check if you can connect

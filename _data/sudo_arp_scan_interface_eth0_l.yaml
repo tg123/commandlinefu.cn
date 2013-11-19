@@ -1,0 +1,8 @@
+commandlinefu_id: 4680
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sudo arp-scan --interface=eth0 -l
+summary: |-
+  获取 本地网络中的 所有mac 地址

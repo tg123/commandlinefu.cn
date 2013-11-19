@@ -1,0 +1,8 @@
+commandlinefu_id: 6602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 4; xwd >foo.xwd; mv foo.xwd "$(dd skip=100 if=foo.xwd bs=1 count=256 2>/dev/null | egrep -ao '^[[:print:]]+' | tr / :).xwd"
+summary: |-
+  Take a screenshot of the window the user clicks on and name the file the same as the window title

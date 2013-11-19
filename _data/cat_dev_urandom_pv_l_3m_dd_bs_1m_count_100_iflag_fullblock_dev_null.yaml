@@ -1,0 +1,8 @@
+commandlinefu_id: 11065
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom | pv -L 3m | dd bs=1M count=100 iflag=fullblock > /dev/null
+summary: |-
+  Limit the transfer rate and size of data over a pipe

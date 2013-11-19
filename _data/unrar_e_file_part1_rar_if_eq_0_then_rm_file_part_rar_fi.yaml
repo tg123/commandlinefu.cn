@@ -1,0 +1,8 @@
+commandlinefu_id: 2416
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unrar e file.part1.rar; if [ $? -eq 0 ]; then rm file.part*.rar; fi
+summary: |-
+  Extract neatly a rar compressed file

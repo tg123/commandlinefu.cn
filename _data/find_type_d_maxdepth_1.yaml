@@ -1,0 +1,8 @@
+commandlinefu_id: 8975
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -maxdepth 1
+summary: |-
+  List only directories, one per line

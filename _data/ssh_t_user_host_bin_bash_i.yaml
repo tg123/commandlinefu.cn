@@ -1,0 +1,8 @@
+commandlinefu_id: 1320
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -T user@host /bin/bash -i
+summary: |-
+  "hidden" remote shell

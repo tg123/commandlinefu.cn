@@ -1,0 +1,8 @@
+commandlinefu_id: 227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "df | grep /this/folder/"
+summary: |-
+  shows the space of a  folder in  bytes  ever  two seconds.

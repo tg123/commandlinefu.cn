@@ -1,0 +1,8 @@
+commandlinefu_id: 1260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  write user anytext
+summary: |-
+  sending message to a logined user of group

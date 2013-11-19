@@ -1,0 +1,8 @@
+commandlinefu_id: 3281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cal -y
+summary: |-
+  Today's date on a yearly calendar...

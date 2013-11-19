@@ -1,0 +1,8 @@
+commandlinefu_id: 2391
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stty cbreak -echo; KEY=$(dd bs=1 count=1 2>/dev/null); stty -cbreak echo
+summary: |-
+  Read a keypress without echoing it

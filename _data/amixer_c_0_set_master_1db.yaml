@@ -1,0 +1,8 @@
+commandlinefu_id: 12533
+translator:
+  weibo: ''
+hide: true
+command: |-
+  amixer -c 0 set Master 1dB+
+summary: |-
+  sets volume via command line

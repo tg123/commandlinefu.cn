@@ -1,0 +1,8 @@
+commandlinefu_id: 10794
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk '{if ($NF ~ "^[a-zA-Z].*[0-9]$" && $NF !~ "c[0-9]+d[0-9]+$" && $NF !~ "^loop.*") print "/dev/"$NF}'  /proc/partitions
+summary: |-
+  打印所有磁盘分区

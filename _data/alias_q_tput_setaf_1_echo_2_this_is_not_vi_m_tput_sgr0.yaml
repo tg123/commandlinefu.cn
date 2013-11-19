@@ -1,0 +1,8 @@
+commandlinefu_id: 4260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias :q='tput setaf 1; echo >&2 "this is NOT vi(m) :/"; tput sgr0'
+summary: |-
+  Know when you will type :q in your term instead of vi(m), the alias will chewed you out.

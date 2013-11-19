@@ -1,0 +1,8 @@
+commandlinefu_id: 8575
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  test -d folder || mkdir folder
+summary: |-
+  没有再建目录

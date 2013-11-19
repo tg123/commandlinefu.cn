@@ -1,0 +1,8 @@
+commandlinefu_id: 10530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -0 -n1 md5sum | sort -k 1,32 | uniq -w 32 -d --all-repeated=separate | sed -e 's/^[0-9a-f]*\ *//;'
+summary: |-
+  Print duplicate files

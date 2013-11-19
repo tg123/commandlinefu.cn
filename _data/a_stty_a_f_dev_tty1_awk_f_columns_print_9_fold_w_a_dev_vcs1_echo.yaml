@@ -1,0 +1,8 @@
+commandlinefu_id: 11400
+translator:
+  weibo: ''
+hide: true
+command: |-
+  a=$(stty -a  -F /dev/tty1| awk -F'[ ;]' '/columns/ { print $9 }'); fold -w$a /dev/vcs1;echo
+summary: |-
+  Lurk what's going on on remote console

@@ -1,0 +1,8 @@
+commandlinefu_id: 4642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp /home/svnlabs.txt root@92.178.0.56:/home/
+summary: |-
+  Upload file to remote server using SCP

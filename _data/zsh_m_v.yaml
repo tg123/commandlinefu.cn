@@ -1,0 +1,8 @@
+commandlinefu_id: 4041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zsh$ M-v
+summary: |-
+  bash / vim workflow

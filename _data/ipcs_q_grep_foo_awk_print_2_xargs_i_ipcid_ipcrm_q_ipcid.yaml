@@ -1,0 +1,8 @@
+commandlinefu_id: 12664
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ipcs -q | grep foo | awk '{print $2}' | xargs -I ipcid ipcrm -q ipcid
+summary: |-
+  Remove all message queues owned by user foo

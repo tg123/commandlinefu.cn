@@ -1,0 +1,8 @@
+commandlinefu_id: 5360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://api.wunderground.com/auto/wui/geo/ForecastXML/index.xml?query=${@:-<YOURZIPORLOCATION>}|xmlstarlet sel -E utf-8 -t -m //forecast/txt_forecast/forecastday -v fcttext -n
+summary: |-
+  Get the weather forecast for the next 24 to 48 for your location.

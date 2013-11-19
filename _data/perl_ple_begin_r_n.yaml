@@ -1,0 +1,8 @@
+commandlinefu_id: 7987
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ple 'BEGIN { $\ = "\r\n" }'
+summary: |-
+  Convert Unix newlines to DOS newlines

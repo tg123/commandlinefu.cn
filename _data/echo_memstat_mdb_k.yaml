@@ -1,0 +1,8 @@
+commandlinefu_id: 7451
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo ::memstat | mdb -k
+summary: |-
+  Show memory stats on Nexenta/Solaris

@@ -1,0 +1,8 @@
+commandlinefu_id: 2543
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cj /backup | cstream -t 777k | ssh host 'tar -xj -C /backup'
+summary: |-
+  throttle bandwidth with cstream

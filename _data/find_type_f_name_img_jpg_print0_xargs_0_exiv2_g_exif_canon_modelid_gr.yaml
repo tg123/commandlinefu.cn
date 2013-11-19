@@ -1,0 +1,8 @@
+commandlinefu_id: 10409
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -type f -name IMG_????.JPG -print0 |xargs -0 exiv2 -g Exif.Canon.ModelID '{}' |grep A520 |rev |cut --complement -d " " -f1-40 |rev |xargs -I {} cp --parents {} /where
+summary: |-
+  copy all Photos from Canon A520 to one place

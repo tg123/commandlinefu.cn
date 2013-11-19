@@ -1,0 +1,8 @@
+commandlinefu_id: 4617
+translator:
+  weibo: ''
+hide: true
+command: |-
+  removedir(){ read -p "Delete the current directory $PWD ? " human;if [ "$human" = "yes" ]; then [ -z "${PWD##*/}" ] && { echo "$PWD not set" >&2;return 1;}; rm -Rf ../"${PWD##*/}"/ && cd ..; else echo "I'm watching you" | pv -qL 10; fi; }
+summary: |-
+  Remove current directory (REVISED)

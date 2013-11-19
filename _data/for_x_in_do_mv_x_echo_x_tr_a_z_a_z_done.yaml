@@ -1,0 +1,8 @@
+commandlinefu_id: 8343
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in *;do mv "$x" "`echo $x|tr [A-Z] [a-z]`";done
+summary: |-
+  convert uppercase filenames in current directory to lowercase

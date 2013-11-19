@@ -1,0 +1,8 @@
+commandlinefu_id: 10789
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig eth0 allmulti
+summary: |-
+  Disable an interface's multicast filter for testing

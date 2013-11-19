@@ -1,0 +1,8 @@
+commandlinefu_id: 12708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -v -r --size-only --compare-dest=../A/ B/ C/
+summary: |-
+  All what exists in dir B and not in dir A will be copied from dir B to new or existing dir C

@@ -1,0 +1,8 @@
+commandlinefu_id: 9118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert input.png -alpha set -channel A -fx 0.5 output.png
+summary: |-
+  make image semi-transparent

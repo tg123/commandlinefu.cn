@@ -1,0 +1,8 @@
+commandlinefu_id: 3754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( trap '' 1; ( nice -n 19 sleep 2h && command rm -v -rf /garbage/ &>/dev/null && trap 1 ) & )
+summary: |-
+  Schedule Nice Background Commands That Won't Die on Logout - Alternative to nohup and at

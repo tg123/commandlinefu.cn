@@ -1,0 +1,8 @@
+commandlinefu_id: 5336
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim $(find . ! -path \*.svn\* -type f -iname \*foo\*)
+summary: |-
+  Load all files (including in subdirs), whose name matches a substring, into Vim

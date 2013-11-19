@@ -1,0 +1,8 @@
+commandlinefu_id: 7360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -idx a.ogg -ovc lavc -oac mp3lame -o b.avi
+summary: |-
+  Convert .ogg to .avi

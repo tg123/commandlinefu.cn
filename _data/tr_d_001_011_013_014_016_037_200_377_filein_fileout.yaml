@@ -1,0 +1,8 @@
+commandlinefu_id: 11557
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -d '\001'-'\011''\013''\014''\016'-'\037''\200'-'\377' < filein > fileout
+summary: |-
+  Delete all non-printing characters from a file

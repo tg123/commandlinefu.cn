@@ -1,0 +1,8 @@
+commandlinefu_id: 6713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  googl () { curl -s -d "url=${1}" http://goo.gl/api/url | sed -n "s/.*:\"\([^\"]*\).*/\1\n/p" ;}
+summary: |-
+  Google URL shortener

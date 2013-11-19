@@ -1,0 +1,8 @@
+commandlinefu_id: 4148
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function decToBin { echo "ibase=10; obase=2; $1" | bc; }
+summary: |-
+  Convert decimal numbers to binary

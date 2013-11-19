@@ -1,0 +1,8 @@
+commandlinefu_id: 5588
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (for i in `find . -maxdepth 2 -name .svn | sed 's/.svn$//'`; do echo $i; svn info $i; done ) | egrep '^.\/|^URL'
+summary: |-
+  If you have lots of svn working copies in one dir and want to see in which repositories they are stored, this will do the trick.

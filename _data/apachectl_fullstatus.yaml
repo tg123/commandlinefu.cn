@@ -1,0 +1,8 @@
+commandlinefu_id: 8470
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apachectl fullstatus
+summary: |-
+  check apache2 status with a lot of details

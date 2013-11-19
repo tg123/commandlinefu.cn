@@ -1,0 +1,8 @@
+commandlinefu_id: 10955
+translator:
+  weibo: ''
+hide: true
+command: |-
+  db2 connect to STGNSY3; db2 -tvf source_CUST_DIM_DELTA.sql > kk.out
+summary: |-
+  Execute multiple SQL commands from a File

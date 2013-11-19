@@ -1,0 +1,8 @@
+commandlinefu_id: 10453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  who am i | wc -l
+summary: |-
+  Testing

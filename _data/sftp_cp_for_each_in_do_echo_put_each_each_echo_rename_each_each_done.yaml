@@ -1,0 +1,8 @@
+commandlinefu_id: 5611
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sftp-cp() { for each in "$@"; do echo "put \"$each\" \".$each\""; echo "rename \".$each\" \"$each\""; done };
+summary: |-
+  Copy files to a remote host with SFTP with a leading dot, then rename them to the real file name

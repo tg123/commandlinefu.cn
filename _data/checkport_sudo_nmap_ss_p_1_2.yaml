@@ -1,0 +1,8 @@
+commandlinefu_id: 9878
+translator:
+  weibo: ''
+hide: true
+command: |-
+  checkport() { sudo nmap -sS -p $1 $2 }
+summary: |-
+  Check a port's state on a given host

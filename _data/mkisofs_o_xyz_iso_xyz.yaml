@@ -1,0 +1,8 @@
+commandlinefu_id: 3826
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkisofs -o XYZ.iso XYZ/
+summary: |-
+  create iso image from a directory

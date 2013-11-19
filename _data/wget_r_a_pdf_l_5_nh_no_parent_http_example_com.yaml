@@ -1,0 +1,8 @@
+commandlinefu_id: 8610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -A .pdf -l 5 -nH --no-parent http://example.com
+summary: |-
+  Get all files of particular type (say, PDF) listed on some wegpage (say, example.com)

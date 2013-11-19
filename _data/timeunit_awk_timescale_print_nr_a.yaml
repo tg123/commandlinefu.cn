@@ -1,0 +1,8 @@
+commandlinefu_id: 3916
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TIMEUNIT=$(awk '/timescale/{print NR}' a)
+summary: |-
+  Get a text on a position on the file and store in a variable

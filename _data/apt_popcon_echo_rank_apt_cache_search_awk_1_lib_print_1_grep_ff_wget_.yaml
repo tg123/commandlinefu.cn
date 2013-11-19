@@ -1,0 +1,8 @@
+commandlinefu_id: 11245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-popcon() { (echo \#rank; apt-cache search "$@" |awk '$1 !~ /^lib/ {print " "$1" "}') |grep -Ff- <(wget -qqO- http://popcon.debian.org/by_inst.gz |gunzip); }
+summary: |-
+  Search for packages, ranked by popularity

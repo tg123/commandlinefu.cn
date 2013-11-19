@@ -1,0 +1,8 @@
+commandlinefu_id: 2598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -C <source_dir> -cf . | tar -C <dest_dir> -xf -
+summary: |-
+  Move files around local filesystem with tar without wasting space using an intermediate tarball.

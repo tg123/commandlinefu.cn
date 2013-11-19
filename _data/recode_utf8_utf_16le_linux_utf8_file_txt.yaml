@@ -1,0 +1,8 @@
+commandlinefu_id: 2355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  recode UTF8..UTF-16LE linux-utf8-file.txt
+summary: |-
+  Convert file from UTF8 (no BOM) to UTF16 (with BOM)

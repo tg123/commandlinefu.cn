@@ -1,0 +1,8 @@
+commandlinefu_id: 10450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -m -k -K -E http://url/of/web/site
+summary: |-
+  Download an Entire website with wget

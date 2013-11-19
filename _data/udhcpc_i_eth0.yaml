@@ -1,0 +1,8 @@
+commandlinefu_id: 11288
+translator:
+  weibo: ''
+hide: true
+command: |-
+  udhcpc -i eth0
+summary: |-
+  obtain ip

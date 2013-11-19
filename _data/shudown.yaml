@@ -1,0 +1,8 @@
+commandlinefu_id: 7217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shudown
+summary: |-
+  Start dd and show progress every X seconds

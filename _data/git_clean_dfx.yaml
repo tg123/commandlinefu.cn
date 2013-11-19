@@ -1,0 +1,8 @@
+commandlinefu_id: 7071
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git clean -dfx
+summary: |-
+  Remove all untracked files/directories from the working tree of a git repository.

@@ -1,0 +1,8 @@
+commandlinefu_id: 4081
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsmod | sed -e '1d' -e 's/\(\([^ ]*\) \)\{1\}.*/\2/' | xargs modinfo | sed -e '/^dep/s/$/\n/g' -e '/^file/b' -e '/^desc/b' -e '/^dep/b' -e d
+summary: |-
+  Short Information about loaded kernel modules

@@ -1,0 +1,8 @@
+commandlinefu_id: 5843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat VTS_05_1.VOB VTS_05_2.VOB VTS_05_3.VOB VTS_05_4.VOB > mergedmovie.mpg
+summary: |-
+  merge vob files to mpg

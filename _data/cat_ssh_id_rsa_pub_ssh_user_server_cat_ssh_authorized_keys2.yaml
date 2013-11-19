@@ -1,0 +1,8 @@
+commandlinefu_id: 9459
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat .ssh/id_rsa.pub | ssh user@server "cat >>.ssh/authorized_keys2"
+summary: |-
+  ssh Publickey auf remote Rechner anh?ngen

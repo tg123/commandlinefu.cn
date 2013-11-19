@@ -1,0 +1,8 @@
+commandlinefu_id: 9002
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=14 -dLastPage=17 -sOutputFile=OUTPUT.pdf ORIGINAL.pdf
+summary: |-
+  Extracting a range of pages from a PDF, using GhostScript

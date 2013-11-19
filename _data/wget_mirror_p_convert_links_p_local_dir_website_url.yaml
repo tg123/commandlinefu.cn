@@ -1,0 +1,8 @@
+commandlinefu_id: 9051
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ wget --mirror -p --convert-links -P ./<LOCAL-DIR> <WEBSITE-URL>
+summary: |-
+  Download entire website for offline viewing

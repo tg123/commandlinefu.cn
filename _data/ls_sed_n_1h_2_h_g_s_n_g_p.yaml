@@ -1,0 +1,8 @@
+commandlinefu_id: 4493
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ls | sed -n '1h;2,$H;${g;s/\n/,/g;p}'
+summary: |-
+  文件名变成csv

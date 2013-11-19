@@ -1,0 +1,8 @@
+commandlinefu_id: 4392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ylC httpd --sort:rss | awk '{ SUM += $8 } END { print SUM/1024 }'
+summary: |-
+  Sum using awk

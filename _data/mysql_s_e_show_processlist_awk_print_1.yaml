@@ -1,0 +1,8 @@
+commandlinefu_id: 2301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysql -s -e "show processlist" |awk '{print $1}'
+summary: |-
+  show mysql process ids

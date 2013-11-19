@@ -1,0 +1,8 @@
+commandlinefu_id: 989
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat .ssh/id_dsa.pub | ssh elsewhere "[ -d .ssh ] || mkdir .ssh ; cat >> .ssh/authorized_keys"
+summary: |-
+  Enter your ssh password one last time

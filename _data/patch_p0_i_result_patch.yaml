@@ -1,0 +1,8 @@
+commandlinefu_id: 9557
+translator:
+  weibo: ''
+hide: true
+command: |-
+  patch -p0 -i result.patch
+summary: |-
+  Apply new patch for a directory (originDir)

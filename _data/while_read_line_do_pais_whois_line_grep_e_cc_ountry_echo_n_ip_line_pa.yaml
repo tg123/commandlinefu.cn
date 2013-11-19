@@ -1,0 +1,8 @@
+commandlinefu_id: 6883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read line; do pais=$(whois "$line" | grep -E '[Cc]ountry') echo -n "IP=$line Pais=$pais" && echo done <listaip
+summary: |-
+  geolocalize ip country

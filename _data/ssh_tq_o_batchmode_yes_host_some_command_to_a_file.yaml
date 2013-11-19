@@ -1,0 +1,8 @@
+commandlinefu_id: 7995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -tq -o "BatchMode yes" $HOST  <some_command> >> to_a_file
+summary: |-
+  ssh batch jobs: query hundreds of hosts with an ssh command

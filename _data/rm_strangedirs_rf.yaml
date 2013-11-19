@@ -1,0 +1,8 @@
+commandlinefu_id: 2530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm strangedirs -rf
+summary: |-
+  Recursive when needed

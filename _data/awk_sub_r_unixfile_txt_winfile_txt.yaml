@@ -1,0 +1,8 @@
+commandlinefu_id: 8617
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk 'sub("$", "\r")' unixfile.txt > winfile.txt
+summary: |-
+  用 awk实现 unix2dos命令

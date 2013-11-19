@@ -1,0 +1,8 @@
+commandlinefu_id: 2022
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lshw -C display
+summary: |-
+  Give information about your graphic chipset

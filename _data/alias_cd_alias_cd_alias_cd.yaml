@@ -1,0 +1,8 @@
+commandlinefu_id: 3938
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ..="cd .."; alias ...="cd ../.."; alias ....="cd ../../.."
+summary: |-
+  Go up multiple levels of directories quickly and easily.

@@ -1,0 +1,8 @@
+commandlinefu_id: 4558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $(seq -f '%03.f' 1 $TOTAL ); do echo "($file/$TOTAL)"; curl -f -O http://domain.com/Name_$file.ext; done
+summary: |-
+  download file1 file2 file3 file4 .... file 100

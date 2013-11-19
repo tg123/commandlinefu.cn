@@ -1,0 +1,8 @@
+commandlinefu_id: 7958
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -i " connected|card detect|primary dev" /var/log/Xorg.0.log
+summary: |-
+  Identifying Xorg video driver in use

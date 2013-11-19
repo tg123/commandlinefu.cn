@@ -1,0 +1,8 @@
+commandlinefu_id: 12006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false'
+summary: |-
+  Remove Suspend option from XFCE logoff dialog

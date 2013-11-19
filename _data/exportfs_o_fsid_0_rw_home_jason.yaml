@@ -1,0 +1,8 @@
+commandlinefu_id: 7089
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exportfs -o fsid=0,rw :/home/jason
+summary: |-
+  Export a directory to all clients via NFSv4, read/write.

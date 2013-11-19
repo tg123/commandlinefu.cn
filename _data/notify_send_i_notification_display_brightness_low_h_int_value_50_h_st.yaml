@@ -1,0 +1,8 @@
+commandlinefu_id: 11778
+translator:
+  weibo: ''
+hide: true
+command: |-
+  notify-send " " -i notification-display-brightness-low -h int:value:50 -h string:x-canonical-private-synchronous:brightness
+summary: |-
+  notify brightness level [custom]

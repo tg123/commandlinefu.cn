@@ -1,0 +1,8 @@
+commandlinefu_id: 4152
+translator:
+  weibo: ''
+hide: true
+command: |-
+  process-getopt
+summary: |-
+  Get your bash scripts to handle options (-h, --help etc) and spit out auto-formatted help or man page when asked!!

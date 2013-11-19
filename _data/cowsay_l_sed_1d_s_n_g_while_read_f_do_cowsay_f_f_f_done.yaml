@@ -1,0 +1,8 @@
+commandlinefu_id: 6531
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cowsay -l | sed  '1d;s/ /\n/g' | while read f; do cowsay -f $f $f;done
+summary: |-
+  显示所有的 cowsay 模板

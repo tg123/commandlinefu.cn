@@ -1,0 +1,8 @@
+commandlinefu_id: 5309
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/apache2/sites-enabled/* | egrep 'ServerAlias|ServerName' | tr -s ' ' | sed 's/^\s//' | cut -d ' ' -f 2 | sed 's/www.//' | sort | uniq
+summary: |-
+  Get Unique Hostnames from Apache Config Files

@@ -1,0 +1,8 @@
+commandlinefu_id: 3113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch() { while test :; do clear; date=$(date); echo -e "Every "$1"s: $2 \t\t\t\t $date"; $2; sleep $1; done }
+summary: |-
+  for all who don't have the watch command

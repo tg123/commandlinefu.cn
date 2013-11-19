@@ -1,0 +1,8 @@
+commandlinefu_id: 7294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  buf () { cp $1{,$(date +%Y%m%d_%H%M%S)}; }
+summary: |-
+  Backup a file with a date-time stamp

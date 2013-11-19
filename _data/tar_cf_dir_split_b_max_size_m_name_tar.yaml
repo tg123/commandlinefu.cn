@@ -1,0 +1,8 @@
+commandlinefu_id: 4043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cf - <dir>|split -b<max_size>M - <name>.tar.
+summary: |-
+  Split a tarball into multiple parts

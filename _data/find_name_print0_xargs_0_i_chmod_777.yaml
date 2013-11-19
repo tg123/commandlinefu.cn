@@ -1,0 +1,8 @@
+commandlinefu_id: 6792
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*" -print0 | xargs -0 -I {} chmod 777 {}
+summary: |-
+  Recursive chmod all files and directories within the current directory

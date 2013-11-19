@@ -1,0 +1,8 @@
+commandlinefu_id: 12548
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))mHello World!"
+summary: |-
+  Generate a random text color in bash

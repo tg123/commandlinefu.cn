@@ -1,0 +1,8 @@
+commandlinefu_id: 9697
+translator:
+  weibo: ''
+hide: true
+command: |-
+  url="put_url_here";audio=$(youtube-dl -s -e $url);wget -q -O - `youtube-dl -g $url`| ffmpeg -i - -f mp3 -vn -acodec libmp3lame - > "$audio.mp3"
+summary: |-
+  Convert Youtube videos to MP3

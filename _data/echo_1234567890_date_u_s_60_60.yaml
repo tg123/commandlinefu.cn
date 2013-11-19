@@ -1,0 +1,8 @@
+commandlinefu_id: 676
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo $(( (1234567890 - `date -u +\%s`) / 60 / 60 ))
+summary: |-
+  时间 1234567890 到现在有多少小时

@@ -1,0 +1,8 @@
+commandlinefu_id: 9694
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l =gcc
+summary: |-
+  Get the dir listing of an executable without knowing its location

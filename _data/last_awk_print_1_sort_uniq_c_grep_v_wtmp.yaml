@@ -1,0 +1,8 @@
+commandlinefu_id: 310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  last | awk '{ print $1 }' | sort | uniq -c | grep -v wtmp
+summary: |-
+  To get how many users logged in and logged out and how many times ?

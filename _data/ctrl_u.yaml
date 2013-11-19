@@ -1,0 +1,8 @@
+commandlinefu_id: 7280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Ctrl + u
+summary: |-
+  Delete backward from cursor, useful when you enter the wrong password

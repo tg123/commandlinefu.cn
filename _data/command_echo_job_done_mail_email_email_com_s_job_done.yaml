@@ -1,0 +1,8 @@
+commandlinefu_id: 8413
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <command>; echo "job done"|mail email@email.com -s'job done'
+summary: |-
+  Email yourself after a job is done

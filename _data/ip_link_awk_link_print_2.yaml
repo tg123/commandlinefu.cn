@@ -1,0 +1,8 @@
+commandlinefu_id: 8168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip link | awk '/link/ {print $2}'
+summary: |-
+  List your MACs address

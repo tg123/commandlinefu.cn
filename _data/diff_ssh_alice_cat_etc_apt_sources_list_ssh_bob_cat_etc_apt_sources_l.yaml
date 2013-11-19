@@ -1,0 +1,8 @@
+commandlinefu_id: 1849
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(ssh alice cat /etc/apt/sources.list) <(ssh bob cat /etc/apt/sources.list)
+summary: |-
+  Diff files on two remote hosts.

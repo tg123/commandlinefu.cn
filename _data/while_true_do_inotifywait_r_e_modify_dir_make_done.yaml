@@ -1,0 +1,8 @@
+commandlinefu_id: 5769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do inotifywait -r -e MODIFY dir/ && make; done;
+summary: |-
+  make, or run a script, everytime a file in a directory is modified

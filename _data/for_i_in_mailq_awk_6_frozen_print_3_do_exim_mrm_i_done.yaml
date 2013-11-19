@@ -1,0 +1,8 @@
+commandlinefu_id: 4572
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `mailq | awk '$6 ~ /^frozen$/ {print $3}'`; do exim -Mrm $i; done
+summary: |-
+  Purge frozen messages in Exim

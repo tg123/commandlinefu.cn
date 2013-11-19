@@ -1,0 +1,8 @@
+commandlinefu_id: 8714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '1s/^/text to prepend\n/' file1
+summary: |-
+  Prepend a text to a file.

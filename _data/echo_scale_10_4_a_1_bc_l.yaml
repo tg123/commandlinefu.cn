@@ -1,0 +1,8 @@
+commandlinefu_id: 11359
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'scale=10; 4*a(1)' | bc -l
+summary: |-
+  Calculate pi with specific scale

@@ -1,0 +1,8 @@
+commandlinefu_id: 2606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *tgz | xargs -n1 tar xzf
+summary: |-
+  extract all tgz in current dir

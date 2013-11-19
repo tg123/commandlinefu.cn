@@ -1,0 +1,8 @@
+commandlinefu_id: 1532
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eject -x 4
+summary: |-
+  Decreasing the cdrom device speed

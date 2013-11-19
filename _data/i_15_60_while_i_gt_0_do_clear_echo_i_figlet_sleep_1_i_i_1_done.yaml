@@ -1,0 +1,8 @@
+commandlinefu_id: 5896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i=$((15*60)); while [ $i -gt 0 ]; do clear; echo $i | figlet; sleep 1; i=$(($i-1)); done;
+summary: |-
+  Big Countdown Clock in seconds

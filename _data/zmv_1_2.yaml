@@ -1,0 +1,8 @@
+commandlinefu_id: 12136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zmv '(*.*)(.*)' '${1//./_}$2'
+summary: |-
+  replace dots in filenames with dashes

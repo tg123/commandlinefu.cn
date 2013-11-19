@@ -1,0 +1,8 @@
+commandlinefu_id: 9041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (echo 0; find [args...] -printf '%s +\n'; echo p) | dc
+summary: |-
+  Sum size of files returned from FIND

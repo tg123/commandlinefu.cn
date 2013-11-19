@@ -1,0 +1,8 @@
+commandlinefu_id: 2130
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim `which <scriptname>`
+summary: |-
+  Edit a script that's somewhere in your path.

@@ -1,0 +1,8 @@
+commandlinefu_id: 5468
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~ -maxdepth 2 -name .git -print | while read repo; do cd $(dirname $repo); git pull; done
+summary: |-
+  git pull all repos

@@ -1,0 +1,8 @@
+commandlinefu_id: 7723
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f -name "*.xml" -exec xmllint --noout {} \;
+summary: |-
+  Validate all XML files in the current directory and below

@@ -1,0 +1,8 @@
+commandlinefu_id: 2207
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i filename.flv
+summary: |-
+  Get video information with ffmpeg

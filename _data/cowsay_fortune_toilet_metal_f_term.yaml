@@ -1,0 +1,8 @@
+commandlinefu_id: 5758
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cowsay `fortune` | toilet --metal -f term
+summary: |-
+  Get colorful fortunes

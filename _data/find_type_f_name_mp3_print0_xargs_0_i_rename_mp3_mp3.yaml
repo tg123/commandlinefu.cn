@@ -1,0 +1,8 @@
+commandlinefu_id: 10679
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name *.MP3 -print0 | xargs -0 -i rename .MP3 .mp3 {}
+summary: |-
+  Convert uppercase to lowercase extensions

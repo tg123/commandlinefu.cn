@@ -1,0 +1,8 @@
+commandlinefu_id: 4165
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do wget -r -l1 --no-clobber -A.txt http://911.wikileaks.org/files/index.html; done; cat *.txt | grep pass
+summary: |-
+  Passwords from 9/11 tragedy pager intercepts (Yeah! Plain text! From wikileaks.net)

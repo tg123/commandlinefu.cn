@@ -1,0 +1,8 @@
+commandlinefu_id: 9488
+translator:
+  weibo: ''
+hide: true
+command: |-
+  isgd() { /usr/bin/wget -qO - "http://is.gd/create.php?format=simple&url=$1" ;}
+summary: |-
+  Short URLs with is.gd

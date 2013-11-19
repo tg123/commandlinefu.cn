@@ -1,0 +1,8 @@
+commandlinefu_id: 12898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen
+summary: |-
+  Opens up a background session within an existing fron-end session

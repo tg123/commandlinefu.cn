@@ -1,0 +1,8 @@
+commandlinefu_id: 12263
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn ls -R | egrep -v -e "\/$" | xargs svn blame  |  awk '{count[$2]++}END{for(j in count) print  count[j] "\t" j}' | sort -rn
+summary: |-
+  Prints total line count contribution per user for an SVN repository

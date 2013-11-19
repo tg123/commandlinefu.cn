@@ -1,0 +1,8 @@
+commandlinefu_id: 12381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder mf://*.jpg -mf fps=50:type=jpg -ovc raw -oac copy -o out50fps.avi
+summary: |-
+  Compile all jpegs into 1 video by alphabetical order @ 50 fps

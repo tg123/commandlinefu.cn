@@ -1,0 +1,8 @@
+commandlinefu_id: 1090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yes 'Y'|gdb -ex 'p close(1)' -ex 'p creat("/tmp/output.txt",0600)' -ex 'q' -p pid
+summary: |-
+  Redirect a filehandle from a currently running process.

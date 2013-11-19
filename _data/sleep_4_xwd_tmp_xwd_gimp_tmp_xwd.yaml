@@ -1,0 +1,8 @@
+commandlinefu_id: 6603
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 4; xwd > /tmp/_.xwd ; gimp /tmp/_.xwd
+summary: |-
+  Instant editing screenshot with Gimp

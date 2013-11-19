@@ -1,0 +1,8 @@
+commandlinefu_id: 2567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -n -d status='Hello from cli' https://twitter.com/statuses/update.xml
+summary: |-
+  Update twitter from command line without reveal your password

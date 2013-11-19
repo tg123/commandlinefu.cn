@@ -1,0 +1,8 @@
+commandlinefu_id: 12574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  word="apple"; wget http://ssl.gstatic.com/dictionary/static/sounds/de/0/$word.mp3
+summary: |-
+  Download Englishword pronounciation as mp3 file

@@ -1,0 +1,8 @@
+commandlinefu_id: 9717
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch -d $(zenity --calendar --date-format=%F) filename
+summary: |-
+  Change/Modify timestamp interactively

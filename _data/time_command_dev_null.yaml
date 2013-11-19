@@ -1,0 +1,8 @@
+commandlinefu_id: 5077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  time Command  >/dev/null
+summary: |-
+  get only time of execution of a command without his output

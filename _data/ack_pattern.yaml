@@ -1,0 +1,8 @@
+commandlinefu_id: 3571
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ack <pattern>
+summary: |-
+  Search for a <pattern> string inside all files in the current directory

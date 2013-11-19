@@ -1,0 +1,8 @@
+commandlinefu_id: 11427
+translator:
+  weibo: ''
+hide: true
+command: |-
+  APID=<pid number>; gdb -batch --eval "attach $APID" --eval "call write_history(\"/tmp/bash_history-$APID.txt\")" --eval 'detach' --eval 'q'
+summary: |-
+  Dump bash command history of an active shell user.

@@ -1,0 +1,8 @@
+commandlinefu_id: 9659
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn list -vR svn://server/repo/somedir | awk '{if ($3 !="") sum+=$3; i++} END {print "\ntotal size= " sum/1024000" MB" "\nnumber of files= " i/1000 " K"}'
+summary: |-
+  find both total size and number of files below any given svn directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 6493
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod -R u=rwX,g=rX,o=rX .
+summary: |-
+  Reconstruct standard permissions for directories and files in current directory

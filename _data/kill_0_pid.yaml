@@ -1,0 +1,8 @@
+commandlinefu_id: 2218
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -0 [pid]
+summary: |-
+  Check if a process is running

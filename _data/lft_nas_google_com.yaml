@@ -1,0 +1,8 @@
+commandlinefu_id: 8225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lft -NAS google.com
+summary: |-
+  Does a traceroute. Lookup and display the network or AS names and AS numbers.

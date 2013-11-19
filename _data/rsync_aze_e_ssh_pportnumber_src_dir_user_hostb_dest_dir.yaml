@@ -1,0 +1,8 @@
+commandlinefu_id: 4867
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -azE -e "ssh -pPortnumber" src_dir user@hostB:dest_dir
+summary: |-
+  Transfer Entire recursive from one host to another. Only copies files that are newer or do not exist

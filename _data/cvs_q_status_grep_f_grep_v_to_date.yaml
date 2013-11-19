@@ -1,0 +1,8 @@
+commandlinefu_id: 12389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvs -q status | grep ^[?F] | grep -v 'to-date'
+summary: |-
+  Less verbose CVS status (skips unmodified up-to-date files)

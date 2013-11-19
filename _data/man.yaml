@@ -1,0 +1,8 @@
+commandlinefu_id: 6638
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man !!
+summary: |-
+  open man page of last used command

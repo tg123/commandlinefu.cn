@@ -1,0 +1,8 @@
+commandlinefu_id: 8507
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -v "^$|^#" file
+summary: |-
+  Show a script or config file without comments or blank lines

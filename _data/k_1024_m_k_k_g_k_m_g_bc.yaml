@@ -1,0 +1,8 @@
+commandlinefu_id: 2435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <<<"k=1024; m=k*k; g=k*m; g" bc
+summary: |-
+  Using bash inline "here document" with three less-than symbols on command line

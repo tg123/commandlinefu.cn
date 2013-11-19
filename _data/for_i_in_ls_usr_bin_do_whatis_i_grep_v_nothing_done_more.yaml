@@ -1,0 +1,8 @@
+commandlinefu_id: 4661
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(ls /usr/bin); do whatis $i | grep -v nothing; done | more
+summary: |-
+  Do some learning...

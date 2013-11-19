@@ -1,0 +1,8 @@
+commandlinefu_id: 4612
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pe's/([\d.]+)/localtime $1/e;'
+summary: |-
+  Perl one liner for epoch time conversion

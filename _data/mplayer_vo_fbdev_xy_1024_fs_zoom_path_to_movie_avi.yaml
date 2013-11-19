@@ -1,0 +1,8 @@
+commandlinefu_id: 7791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vo fbdev -xy 1024 -fs -zoom /path/to/movie.avi
+summary: |-
+  Watch a movie in linux without the X windows system.

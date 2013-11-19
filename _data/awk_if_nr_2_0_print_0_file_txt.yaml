@@ -1,0 +1,8 @@
+commandlinefu_id: 179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{if (NR % 2 == 0) print $0}' file.txt
+summary: |-
+  Print only the even lines of a file

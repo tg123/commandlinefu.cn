@@ -1,0 +1,8 @@
+commandlinefu_id: 7967
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function fur () { curl -sL 'http://www.commandlinefu.com/commands/random/plaintext' | grep -v "^# commandlinefu" }
+summary: |-
+  command line fu roulette, without all the excessive parsing

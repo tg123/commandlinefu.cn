@@ -1,0 +1,8 @@
+commandlinefu_id: 7006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --ntlm -u DOMAIN/user https://sharepoint.domain.com/path/to/file
+summary: |-
+  Get a file from SharePoint with cURL

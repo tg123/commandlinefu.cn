@@ -1,0 +1,8 @@
+commandlinefu_id: 2856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://isc.sans.org/sources.html|grep "ipinfo.html"|awk -F"ip=" {'print $2'}|awk -F"\"" {'print $1'}|xargs -n1 sudo iptables -A OUTPUT -j DROP -d > 2&>1
+summary: |-
+  Retrieve top ip threats from http://isc.sans.org/sources.html and add them into iptables output chain.

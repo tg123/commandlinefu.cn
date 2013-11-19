@@ -1,0 +1,8 @@
+commandlinefu_id: 6339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vi2() {for i in $@; do [ -f "$i" ] && [ ! -w "$i" ] && sudo vim $@ && return; done; vim $@}
+summary: |-
+  Open file with sudo when there is no write-permission

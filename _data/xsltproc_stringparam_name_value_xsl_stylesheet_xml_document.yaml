@@ -1,0 +1,8 @@
+commandlinefu_id: 11501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xsltproc --stringparam name value <xsl_stylesheet> <xml_document>
+summary: |-
+  Transform an XML document with an XSL stylesheet

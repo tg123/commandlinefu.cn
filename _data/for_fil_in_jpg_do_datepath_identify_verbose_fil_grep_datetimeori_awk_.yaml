@@ -1,0 +1,8 @@
+commandlinefu_id: 12579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for fil in *.JPG; do datepath="$(identify -verbose $fil | grep DateTimeOri | awk '{print $2"_"$3 }' | sed s%:%_%g)"; mv -v $fil $datepath.jpg; done
+summary: |-
+  Batch JPEG rename to date using ImageMagick

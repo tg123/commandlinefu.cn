@@ -1,0 +1,8 @@
+commandlinefu_id: 1315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find / -type f \( -perm /4000 -a -user root \) -ls -o \( -perm /2000 -a -group root \) -ls
+summary: |-
+  Find all files with root SUID or SGID executables

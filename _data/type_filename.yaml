@@ -1,0 +1,8 @@
+commandlinefu_id: 3472
+translator:
+  weibo: ''
+hide: true
+command: |-
+  type <filename>
+summary: |-
+  search for a file in PATH

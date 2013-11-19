@@ -1,0 +1,8 @@
+commandlinefu_id: 11360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `find -name '*_test.rb'` ; do mv $i ${i%%_test.rb}_spec.rb ; done
+summary: |-
+  Massive rename filenames

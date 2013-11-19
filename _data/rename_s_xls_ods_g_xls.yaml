@@ -1,0 +1,8 @@
+commandlinefu_id: 12713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename 's/.xls/.ods/g' *.xls
+summary: |-
+  Command to rename multiple file in one go

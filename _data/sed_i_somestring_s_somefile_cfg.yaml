@@ -1,0 +1,8 @@
+commandlinefu_id: 4712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '/^somestring/ s/^/#/' somefile.cfg
+summary: |-
+  Comment out all lines in a file beginning with string

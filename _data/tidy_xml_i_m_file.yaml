@@ -1,0 +1,8 @@
+commandlinefu_id: 203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tidy -xml -i -m [file]
+summary: |-
+  Prettify an XML file

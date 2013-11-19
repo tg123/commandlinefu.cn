@@ -1,0 +1,8 @@
+commandlinefu_id: 12700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :v/./d
+summary: |-
+  Delete all empty lines from a file with vim

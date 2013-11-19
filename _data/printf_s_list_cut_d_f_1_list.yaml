@@ -1,0 +1,8 @@
+commandlinefu_id: 10837
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%s," "${LIST[@]}" | cut -d "," -f 1-${#LIST[@]}
+summary: |-
+  Join the content of a bash array with commas

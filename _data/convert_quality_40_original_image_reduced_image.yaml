@@ -1,0 +1,8 @@
+commandlinefu_id: 6271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -quality 40% original_image reduced_image
+summary: |-
+  Reducing image size

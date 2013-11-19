@@ -1,0 +1,8 @@
+commandlinefu_id: 1891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  \bTERM\b
+summary: |-
+  Search for a word in less

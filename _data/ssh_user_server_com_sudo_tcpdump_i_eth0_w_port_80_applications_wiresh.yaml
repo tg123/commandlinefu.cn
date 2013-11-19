@@ -1,0 +1,8 @@
+commandlinefu_id: 10094
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@server.com sudo tcpdump -i eth0  -w - 'port 80'| /Applications/Wireshark.app/Contents/Resources/bin/wireshark -k -i -
+summary: |-
+  analyze traffic remotely over ssh w/ wireshark

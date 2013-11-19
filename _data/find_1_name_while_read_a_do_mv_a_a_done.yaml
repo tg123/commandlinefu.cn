@@ -1,0 +1,8 @@
+commandlinefu_id: 8763
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ $1 -name "* *" | while read a ; do mv "${a}" "${a//\ /_}" ; done
+summary: |-
+  Renames all files in the current directory such that the new file contains no space characters.

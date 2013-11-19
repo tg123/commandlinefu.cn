@@ -1,0 +1,8 @@
+commandlinefu_id: 5881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | awk '{if ($1 ~ "?") print $2}' | xargs svn add
+summary: |-
+  Add all unversioned files to svn

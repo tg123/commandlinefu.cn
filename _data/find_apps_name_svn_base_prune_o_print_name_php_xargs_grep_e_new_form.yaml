@@ -1,0 +1,8 @@
+commandlinefu_id: 878
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find apps/ -name "*.svn-base" -prune -o -print -name "*.php" | xargs grep -E 'new .+Form\('
+summary: |-
+  find forms in a symfony 1.2 project

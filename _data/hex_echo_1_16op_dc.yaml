@@ -1,0 +1,8 @@
+commandlinefu_id: 9874
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hex() { echo $1 16op | dc; }
+summary: |-
+  convert from decimal to hexadecimal

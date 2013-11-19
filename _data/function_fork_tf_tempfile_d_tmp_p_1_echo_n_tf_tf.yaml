@@ -1,0 +1,8 @@
+commandlinefu_id: 1699
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function fork () { tf=$(tempfile -d /tmp -p $1.);echo -n "$tf   "; $@ &>$tf& }
+summary: |-
+  Easily run a program in the background without losing output

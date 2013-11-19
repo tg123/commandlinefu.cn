@@ -1,0 +1,8 @@
+commandlinefu_id: 12485
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name ".DS_Store" -print0 | xargs -0 rm -rf
+summary: |-
+  Recursive remove files by mask

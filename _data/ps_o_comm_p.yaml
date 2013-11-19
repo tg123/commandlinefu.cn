@@ -1,0 +1,8 @@
+commandlinefu_id: 7804
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o comm= -p $$
+summary: |-
+  Figure out what shell you're running

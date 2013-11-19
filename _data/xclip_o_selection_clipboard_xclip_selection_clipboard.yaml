@@ -1,0 +1,8 @@
+commandlinefu_id: 4399
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xclip -o -selection clipboard | xclip -selection clipboard
+summary: |-
+  get xclip to own the clipboard contents

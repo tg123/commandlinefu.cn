@@ -1,0 +1,8 @@
+commandlinefu_id: 8085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | awk 'BEGIN{srand()} {x[NR] = $0} END{print "Selected", x[1 + int(rand() * NR)]}'
+summary: |-
+  Selecting a random file/folder of a folder

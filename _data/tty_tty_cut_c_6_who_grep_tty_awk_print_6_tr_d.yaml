@@ -1,0 +1,8 @@
+commandlinefu_id: 6264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TTY=$(tty | cut -c 6-);who | grep "$TTY " | awk '{print $6}' | tr -d '()'
+summary: |-
+  Which machine have I logged in from?

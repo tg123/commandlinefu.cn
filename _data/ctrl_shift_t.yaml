@@ -1,0 +1,8 @@
+commandlinefu_id: 3357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ctrl-shift-t>
+summary: |-
+  undo tab close in firefox

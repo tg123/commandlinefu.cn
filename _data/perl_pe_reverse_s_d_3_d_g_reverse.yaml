@@ -1,0 +1,8 @@
+commandlinefu_id: 961
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pe '$_=reverse;s/\d{3}(?=\d)(?!.*?\.)/$&,/g;$_=reverse'
+summary: |-
+  Comma insertions

@@ -1,0 +1,8 @@
+commandlinefu_id: 5456
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vi +/pattern [file]
+summary: |-
+  Opens vi/vim at pattern in file

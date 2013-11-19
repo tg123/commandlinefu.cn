@@ -1,0 +1,8 @@
+commandlinefu_id: 9499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ltp | sed '1 d' | head -n1
+summary: |-
+  Show the single most recently modified item in a directory

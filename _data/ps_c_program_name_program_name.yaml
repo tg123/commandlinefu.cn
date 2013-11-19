@@ -1,0 +1,8 @@
+commandlinefu_id: 3600
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -C program_name || { program_name & }
+summary: |-
+  Restart command if it dies.

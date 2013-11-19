@@ -1,0 +1,8 @@
+commandlinefu_id: 7616
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $(echo "$PATH" | tr ':' ' ') -name "*program*"
+summary: |-
+  get a random command

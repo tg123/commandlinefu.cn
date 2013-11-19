@@ -1,0 +1,8 @@
+commandlinefu_id: 2362
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -v -r{2009-05-21}:HEAD | awk '/^r[0-9]+ / {user=$3} /yms_web/ {if (user=="george") {print $2}}' | sort | uniq
+summary: |-
+  gets all files committed to svn by a particular user since a particular date

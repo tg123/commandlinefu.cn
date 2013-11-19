@@ -1,0 +1,8 @@
+commandlinefu_id: 3970
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn ci `svn stat |awk '/^A/{printf $2" "}'`
+summary: |-
+  Commit only newly added files to subversion repository

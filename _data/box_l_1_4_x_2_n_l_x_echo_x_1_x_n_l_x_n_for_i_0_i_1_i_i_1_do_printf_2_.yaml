@@ -1,0 +1,8 @@
+commandlinefu_id: 4948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  box() { l=${#1}+4;x=${2:-=};n $l $x; echo "$x $1 $x"; n $l $x; }; n() { for (( i=0; $i<$1; i=$i+1)); do printf $2; done; printf "\n"; }
+summary: |-
+  a function to create a box of '=' characters around a given string.

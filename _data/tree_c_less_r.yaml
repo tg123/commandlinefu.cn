@@ -1,0 +1,8 @@
+commandlinefu_id: 5361
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -C | less -R
+summary: |-
+  Preserve colors when piping tree to less

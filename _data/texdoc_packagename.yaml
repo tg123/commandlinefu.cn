@@ -1,0 +1,8 @@
+commandlinefu_id: 5674
+translator:
+  weibo: ''
+hide: true
+command: |-
+  texdoc packagename
+summary: |-
+  Easily find latex package documentation

@@ -1,0 +1,8 @@
+commandlinefu_id: 9784
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aspell -a <<< '<WORDS>'
+summary: |-
+  Check your spelling

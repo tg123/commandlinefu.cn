@@ -1,0 +1,8 @@
+commandlinefu_id: 5136
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/20[0-1][0-9]\{7\}/'`date +%Y%m%d%I`'/g' *.db
+summary: |-
+  Update zone file Serial numbers

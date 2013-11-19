@@ -1,0 +1,8 @@
+commandlinefu_id: 11770
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed '/^\s*[^@%]/s=\([A-Z][A-Z]*\)\([^}A-Z]\|},$\)={\1}\2=g' literature.bib > output.bib
+summary: |-
+  Put uppercase letters in curly brackets in a BibTeX database

@@ -1,0 +1,8 @@
+commandlinefu_id: 7445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cmp file1 file2
+summary: |-
+  Compare copies of a file with md5

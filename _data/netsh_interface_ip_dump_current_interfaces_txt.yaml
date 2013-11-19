@@ -1,0 +1,8 @@
+commandlinefu_id: 652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netsh interface ip dump > current-interfaces.txt
+summary: |-
+  Save the network interface info into a text file, so that you can re-apply it later

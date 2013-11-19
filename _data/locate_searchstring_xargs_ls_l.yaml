@@ -1,0 +1,8 @@
+commandlinefu_id: 219
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  locate searchstring | xargs ls -l
+summary: |-
+  查找并显示详情

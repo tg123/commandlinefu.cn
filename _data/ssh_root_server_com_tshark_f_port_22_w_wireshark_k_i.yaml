@@ -1,0 +1,8 @@
+commandlinefu_id: 4373
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@server.com 'tshark -f "port !22" -w -' | wireshark -k -i -
+summary: |-
+  analyze traffic remotely over ssh w/ wireshark

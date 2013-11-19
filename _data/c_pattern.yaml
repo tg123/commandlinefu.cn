@@ -1,0 +1,8 @@
+commandlinefu_id: 5117
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :/\c{pattern}
+summary: |-
+  Search pattern case insensitive

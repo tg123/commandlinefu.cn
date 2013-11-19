@@ -1,0 +1,8 @@
+commandlinefu_id: 10006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s/\([a-zA-Z]*\:\/\/[^,]*\),\(.*\)/\<a href=\"\1\"\>\2\<\/a\>/"
+summary: |-
+  turn url and link text into a hyperlink

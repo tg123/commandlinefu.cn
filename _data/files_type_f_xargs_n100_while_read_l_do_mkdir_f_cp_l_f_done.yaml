@@ -1,0 +1,8 @@
+commandlinefu_id: 7896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  files -type f | xargs -n100 | while read l; do mkdir $((++f)); cp $l $f; done
+summary: |-
+  Reorder file with max 100 file per folder

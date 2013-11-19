@@ -1,0 +1,8 @@
+commandlinefu_id: 1897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i=10;for o in *.mp3; do i=$(printf "%02d" $i); mv $o $i$o; ((i = $i + 2)); done
+summary: |-
+  Precide a bunch of files with a number in a pattern for example to indisperse a podcast backlock with more recent podcasts

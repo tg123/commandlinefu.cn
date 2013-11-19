@@ -1,0 +1,8 @@
+commandlinefu_id: 1965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ldapsearch -v -H ldap://<server> -x -D cn=<johndoe>,cn=<users>,dc=<ourdomain>,dc=<tld> -w<secret> -b ou=<lazystaff>,dc=<ourdomain>,dc=<tld> -s sub sAMAccountName=* '*' | perl -pne 's/(\d{11})\d{7}/"DATE-AD(".scalar(localtime($1-11644473600)).")"/e'
+summary: |-
+  decoding Active Directory date format

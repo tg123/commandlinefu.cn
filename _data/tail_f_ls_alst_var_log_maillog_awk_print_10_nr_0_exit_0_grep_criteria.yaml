@@ -1,0 +1,8 @@
+commandlinefu_id: 6496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f `ls -alst /var/log/maillog* | awk '{print $10} NR>0{exit};0'` | grep "criteria"
+summary: |-
+  Tail postfix current maillog and grep for "criteria"

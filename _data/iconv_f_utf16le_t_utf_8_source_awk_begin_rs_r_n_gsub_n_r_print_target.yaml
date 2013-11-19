@@ -1,0 +1,8 @@
+commandlinefu_id: 5268
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iconv -f UTF16LE -t UTF-8 < SOURCE | awk 'BEGIN { RS="\r\n";} { gsub("\n", "\r"); print;}' > TARGET
+summary: |-
+  prepare unicode text saved from Microsoft Excel 2003 for unix console

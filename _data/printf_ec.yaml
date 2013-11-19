@@ -1,0 +1,8 @@
+commandlinefu_id: 12373
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "\ec"
+summary: |-
+  Clear terminal screen as well as terminal buffer

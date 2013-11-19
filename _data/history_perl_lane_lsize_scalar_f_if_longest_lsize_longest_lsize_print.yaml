@@ -1,0 +1,8 @@
+commandlinefu_id: 1537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | perl -lane '$lsize{$_} = scalar(@F); if($longest<$lsize{$_}) { $longest = $lsize{$_}; print "$_"; };' | tail -n1
+summary: |-
+  find the longest command in your history

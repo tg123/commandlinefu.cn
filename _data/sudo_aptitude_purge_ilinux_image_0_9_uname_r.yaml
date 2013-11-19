@@ -1,0 +1,8 @@
+commandlinefu_id: 8177
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo aptitude purge ~ilinux-image-\[0-9\]\(\!`uname -r`\)
+summary: |-
+  Safely remove old unused kernels in Ubuntu/Debian

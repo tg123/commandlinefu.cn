@@ -1,0 +1,8 @@
+commandlinefu_id: 4319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mpack -s "Backup: $file" "$file" email@id.com
+summary: |-
+  Send a local file via email

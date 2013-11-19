@@ -1,0 +1,8 @@
+commandlinefu_id: 9619
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chflags nohidden ~/Library
+summary: |-
+  Show/Hide files in Mac OS X

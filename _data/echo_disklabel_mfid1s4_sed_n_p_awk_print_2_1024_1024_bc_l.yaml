@@ -1,0 +1,8 @@
+commandlinefu_id: 10718
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo `disklabel mfid1s4 | sed -n '$p' | awk '{print $2}'` / 1024 / 1024 | bc -l
+summary: |-
+  Converts the output of disklabel from bytes to Gigabytes on FreeBSD

@@ -1,0 +1,8 @@
+commandlinefu_id: 11804
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -q ' lm ' /proc/cpuinfo; [ $? -eq 0 ] && echo '64bit supported'
+summary: |-
+  shows whether your CPU supports 64bit mode

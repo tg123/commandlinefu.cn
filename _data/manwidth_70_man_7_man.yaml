@@ -1,0 +1,8 @@
+commandlinefu_id: 10038
+translator:
+  weibo: ''
+hide: true
+command: |-
+  MANWIDTH=70 man 7 man
+summary: |-
+  Limit characters per line when viewing manual pages.

@@ -1,0 +1,8 @@
+commandlinefu_id: 3308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec grep foobar /dev/null {} \; | awk -F: '{print $1}' | xargs vi
+summary: |-
+  Edit all files found having a specific string found by grep

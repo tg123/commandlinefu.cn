@@ -1,0 +1,8 @@
+commandlinefu_id: 10918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -al | sort +4n
+summary: |-
+  Sort files by size

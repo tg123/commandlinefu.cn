@@ -1,0 +1,8 @@
+commandlinefu_id: 10696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl ip.tyk.nu
+summary: |-
+  Get your outside IP address - now with IPv6 support

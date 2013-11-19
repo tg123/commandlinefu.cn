@@ -1,0 +1,8 @@
+commandlinefu_id: 8020
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n "String to MD5" | md5sum | sed -e 's/[0-9a-f]\{2\}/& /g' -e 's/  -//'
+summary: |-
+  Generate MD5 of string and output only the hash checksum in a readable format

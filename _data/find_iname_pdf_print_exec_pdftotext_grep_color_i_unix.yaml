@@ -1,0 +1,8 @@
+commandlinefu_id: 2246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -iname '*.pdf' -print -exec pdftotext '{}' - \; | grep --color -i "unix"
+summary: |-
+  find string into one pdf file

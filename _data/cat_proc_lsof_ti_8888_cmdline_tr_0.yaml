@@ -1,0 +1,8 @@
+commandlinefu_id: 4933
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/$(lsof -ti:8888)/cmdline | tr "\0" " "
+summary: |-
+  Show the command line of a process that use a specific port (ubuntu)

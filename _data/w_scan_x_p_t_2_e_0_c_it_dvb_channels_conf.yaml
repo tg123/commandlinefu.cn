@@ -1,0 +1,8 @@
+commandlinefu_id: 9634
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w_scan -X -P -t 2 -E 0 -c IT > dvb-channels.conf
+summary: |-
+  build DTT channel list with w-scan

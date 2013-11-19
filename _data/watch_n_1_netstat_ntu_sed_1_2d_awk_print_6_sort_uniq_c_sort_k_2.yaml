@@ -1,0 +1,8 @@
+commandlinefu_id: 9381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 "netstat -ntu | sed '1,2d' | awk '{ print \$6 }' | sort | uniq -c | sort -k 2"
+summary: |-
+  Monitor connection statistics with netstat and watch

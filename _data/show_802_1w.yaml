@@ -1,0 +1,8 @@
+commandlinefu_id: 5194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  show 802-1w
+summary: |-
+  Display RSTP (802.1W) Info. on on Foundry (Brocade) RX and MLX BigIron L3 (routers & switches)

@@ -1,0 +1,8 @@
+commandlinefu_id: 9463
+translator:
+  weibo: ''
+hide: true
+command: |-
+  v () { echo "$@"; "$@"; }
+summary: |-
+  Echo a command, then execute it

@@ -1,0 +1,8 @@
+commandlinefu_id: 3294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dscl localhost -append /Local/Default/Groups/admin GroupMembership username
+summary: |-
+  Add user to group on OS X 10.5

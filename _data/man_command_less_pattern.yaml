@@ -1,0 +1,8 @@
+commandlinefu_id: 4676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man <COMMAND> | less +'/pattern'
+summary: |-
+  Give to anyone a command to immediatly find a particular part of a man.

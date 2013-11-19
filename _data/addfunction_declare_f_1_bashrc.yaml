@@ -1,0 +1,8 @@
+commandlinefu_id: 1591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  addfunction () { declare -f $1 >> ~/.bashrc ; }
+summary: |-
+  Add a function you've defined to .bashrc

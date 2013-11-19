@@ -1,0 +1,8 @@
+commandlinefu_id: 10494
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias man='man -S 2:3:1'
+summary: |-
+  C function manual

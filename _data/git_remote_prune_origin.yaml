@@ -1,0 +1,8 @@
+commandlinefu_id: 4764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git remote prune origin
+summary: |-
+  Remove branches that no longer exist from being shown via 'git branch -a'

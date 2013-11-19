@@ -1,0 +1,8 @@
+commandlinefu_id: 10678
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias vless='/usr/share/vim/vimcurrent/macros/less.sh'
+summary: |-
+  vim as a pager - similar to less command but with color

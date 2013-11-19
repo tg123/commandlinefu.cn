@@ -1,0 +1,8 @@
+commandlinefu_id: 12132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ii in $(find /path/to/docroot -type f -name \*.php); do echo $ii; wc -lc $ii | awk '{ nr=$2/($1 + 1); printf("%d\n",nr); }'; done
+summary: |-
+  find potentially malicious PHP commands used in backdoors and aliked scripts

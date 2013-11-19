@@ -1,0 +1,8 @@
+commandlinefu_id: 11807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo nethogs eth0
+summary: |-
+  network usage per process

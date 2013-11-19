@@ -1,0 +1,8 @@
+commandlinefu_id: 1127
+translator:
+  weibo: ''
+hide: true
+command: |-
+  a() { alias $1=cd\ $PWD; }
+summary: |-
+  Easily move around many directories

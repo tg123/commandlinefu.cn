@@ -1,0 +1,8 @@
+commandlinefu_id: 6231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gominify() { if [ $# -ne 2 ]; then echo 'gominify < src > < dst >'; return; fi; s="$1"; d="$2"; java -jar yui.jar $s >$d; if [ $? == 0 ]; then a=$( ls -sh $s | awk '{print $1}' ); b=$( ls -sh $d | awk '{print $1}' ); echo "Saved $s ($a) to $d ($b)"; fi;}
+summary: |-
+  Minimize CSS/JS while preserving functionality.

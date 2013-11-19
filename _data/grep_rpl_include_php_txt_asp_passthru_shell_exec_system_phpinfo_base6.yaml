@@ -1,0 +1,8 @@
+commandlinefu_id: 12642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -RPl --include=*.{php,txt,asp} "(passthru|shell_exec|system|phpinfo|base64_decode|chmod|mkdir|fopen|fclose|readf?ile) *\(" /var/www/
+summary: |-
+  find php command backdoor

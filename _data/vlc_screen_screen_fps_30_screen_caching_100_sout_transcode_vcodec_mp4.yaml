@@ -1,0 +1,8 @@
+commandlinefu_id: 9864
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vlc screen:// :screen-fps=30 :screen-caching=100 --sout '#transcode{vcodec=mp4v,vb=4096,acodec=mpga,ab=256,scale=1,width=1280,height=800}:rtp{dst=192.168.1.2,port=1234,access=udp,mux=ts}'
+summary: |-
+  Stream your desktop to a remote machine.

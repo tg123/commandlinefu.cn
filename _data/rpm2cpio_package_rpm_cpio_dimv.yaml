@@ -1,0 +1,8 @@
+commandlinefu_id: 6181
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm2cpio package.rpm |cpio -dimv
+summary: |-
+  Extract all of the files on an RPM on a non-RPM *nix

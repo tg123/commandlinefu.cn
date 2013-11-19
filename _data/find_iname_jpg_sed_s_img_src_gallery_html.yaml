@@ -1,0 +1,8 @@
+commandlinefu_id: 5983
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*.jpg' | sed 's/.*/<img src="&">/' > gallery.html
+summary: |-
+  Quick HTML image gallery

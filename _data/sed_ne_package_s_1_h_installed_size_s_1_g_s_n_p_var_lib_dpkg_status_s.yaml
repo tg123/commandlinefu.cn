@@ -1,0 +1,8 @@
+commandlinefu_id: 3842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -ne '/^Package: \(.*\)/{s//\1/;h;};/^Installed-Size:  \(.*\)/{s//\1/;G;s/\n/ /;p;}' /var/lib/dpkg/status | sort -rn
+summary: |-
+  List your largest installed packages (on Debian/Ubuntu)

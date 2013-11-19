@@ -1,0 +1,8 @@
+commandlinefu_id: 6500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  translate() { echo $1: $(wget -q -O - 'http://www.google.de/dictionary?source=translation&q='$1'&langpair=en|de' | grep '^<span class="dct-tt">.*</span>$' | sed 's!<span class="dct-tt">\(.*\)</span>!\1, !'); }
+summary: |-
+  translate with google, get all translations

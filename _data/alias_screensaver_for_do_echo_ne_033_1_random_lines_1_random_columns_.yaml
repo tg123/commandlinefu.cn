@@ -1,0 +1,8 @@
+commandlinefu_id: 8162
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  alias screensaver='for ((;;)); do echo -ne "\033[$((1+RANDOM%LINES));$((1+RANDOM%COLUMNS))H\033[$((RANDOM%2));3$((RANDOM%8))m$((RANDOM%10))"
+summary: |-
+  屏保

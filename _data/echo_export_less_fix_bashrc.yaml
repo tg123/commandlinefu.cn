@@ -1,0 +1,8 @@
+commandlinefu_id: 6977
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "export LESS='FiX'" >> ~/.bashrc
+summary: |-
+  stop man  page content from disappearing on exit

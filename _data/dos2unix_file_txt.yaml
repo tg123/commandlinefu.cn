@@ -1,0 +1,8 @@
+commandlinefu_id: 3106
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  dos2unix file.txt
+summary: |-
+  去掉 ^M 将文件转成 unix 换行

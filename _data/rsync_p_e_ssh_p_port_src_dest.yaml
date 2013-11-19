@@ -1,0 +1,8 @@
+commandlinefu_id: 9458
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -P -e 'ssh -p PORT' SRC DEST
+summary: |-
+  Transfer files with rsync over ssh on a non-standard port.

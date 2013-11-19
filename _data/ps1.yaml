@@ -1,0 +1,8 @@
+commandlinefu_id: 680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PS1='$'
+summary: |-
+  Allow to shorten the prompt. Useful when the it is taking too much place.

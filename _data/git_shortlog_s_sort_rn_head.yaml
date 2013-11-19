@@ -1,0 +1,8 @@
+commandlinefu_id: 11031
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git shortlog -s | sort -rn | head
+summary: |-
+  Top Ten of the most active committers in git repositories

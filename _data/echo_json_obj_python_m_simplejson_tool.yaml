@@ -1,0 +1,8 @@
+commandlinefu_id: 2144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo '{"json":"obj"}' | python -m simplejson.tool
+summary: |-
+  Validate and pretty-print JSON expressions.

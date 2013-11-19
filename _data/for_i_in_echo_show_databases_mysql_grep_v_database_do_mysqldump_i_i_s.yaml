@@ -1,0 +1,8 @@
+commandlinefu_id: 798
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for I in `echo "show databases;" | mysql | grep -v Database`; do    mysqldump $I > "$I.sql"; done
+summary: |-
+  Backup all MySQL Databases to individual files

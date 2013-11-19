@@ -1,0 +1,8 @@
+commandlinefu_id: 11103
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :vsplit filename
+summary: |-
+  Open a different file for edition on a vertical split screen inside your vim session

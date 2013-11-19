@@ -1,0 +1,8 @@
+commandlinefu_id: 11352
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "$: << '.'" >> $IRBRC
+summary: |-
+  Add current directory to Ruby load path

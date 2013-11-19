@@ -1,0 +1,8 @@
+commandlinefu_id: 7307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias irssi="screen -wipe; screen -A -U -x -R -S irssi irssi"
+summary: |-
+  Bash alias for creating screen session containing IRSSI, named irssi, while checking if existing session is created

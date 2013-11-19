@@ -1,0 +1,8 @@
+commandlinefu_id: 11280
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo -u $USER kill -9 -1
+summary: |-
+  Kill all processes belonging to a user

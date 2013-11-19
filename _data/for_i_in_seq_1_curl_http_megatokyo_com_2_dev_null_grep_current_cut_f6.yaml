@@ -1,0 +1,8 @@
+commandlinefu_id: 10372
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(seq 1 `curl http://megatokyo.com 2>/dev/null|grep current|cut -f6 -d\"`);do wget http://megatokyo.com/`curl http://megatokyo.com/strip/${i} 2>/dev/null|grep  src=\"strips\/|cut -f4 -d\"`;done
+summary: |-
+  Download all MegaTokyo strips

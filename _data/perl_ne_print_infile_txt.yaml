@@ -1,0 +1,8 @@
+commandlinefu_id: 4266
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne 'print "$. - $_"' infile.txt
+summary: |-
+  prints line numbers

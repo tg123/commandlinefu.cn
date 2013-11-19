@@ -1,0 +1,8 @@
+commandlinefu_id: 6363
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sudo dmidecode -t processor
+summary: |-
+  查看 cpu 信息

@@ -1,0 +1,8 @@
+commandlinefu_id: 8079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr
+summary: |-
+  Display top Keywords from history

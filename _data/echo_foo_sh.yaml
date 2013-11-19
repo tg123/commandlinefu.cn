@@ -1,0 +1,8 @@
+commandlinefu_id: 1188
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "!!" > foo.sh
+summary: |-
+  Create a script of the last executed command

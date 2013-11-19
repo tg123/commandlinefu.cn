@@ -1,0 +1,8 @@
+commandlinefu_id: 283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git svn --authors-file=some-authors-file clone svn://address/of/svn/repo new-git-dir
+summary: |-
+  Import/clone a Subversion repo to a git repo

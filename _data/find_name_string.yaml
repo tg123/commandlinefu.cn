@@ -1,0 +1,8 @@
+commandlinefu_id: 754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name \*string\*
+summary: |-
+  best command for searching files

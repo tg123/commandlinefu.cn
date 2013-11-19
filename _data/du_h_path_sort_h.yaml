@@ -1,0 +1,8 @@
+commandlinefu_id: 9177
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h /path | sort -h
+summary: |-
+  List by size all of the directories in a given tree.

@@ -1,0 +1,8 @@
+commandlinefu_id: 1153
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ARRAY=(aa bb cc);echo ${ARRAY[1]}
+summary: |-
+  split a string (1)

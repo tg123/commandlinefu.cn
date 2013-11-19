@@ -1,0 +1,8 @@
+commandlinefu_id: 2650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dvd+rw-format -force /dev/dvd1
+summary: |-
+  Blank/erase a DVD-RW

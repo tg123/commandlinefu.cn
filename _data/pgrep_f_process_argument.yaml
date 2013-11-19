@@ -1,0 +1,8 @@
+commandlinefu_id: 9951
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -f 'process.*argument.*'
+summary: |-
+  Get process id based on name and parameters

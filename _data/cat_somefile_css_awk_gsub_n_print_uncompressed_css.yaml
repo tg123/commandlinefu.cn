@@ -1,0 +1,8 @@
+commandlinefu_id: 2339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat somefile.css | awk '{gsub(/{|}|;/,"&\n"); print}' >> uncompressed.css
+summary: |-
+  Uncompress a CSS file

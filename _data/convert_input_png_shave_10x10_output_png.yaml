@@ -1,0 +1,8 @@
+commandlinefu_id: 9095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert input.png -shave 10x10 output.png
+summary: |-
+  remove border of image

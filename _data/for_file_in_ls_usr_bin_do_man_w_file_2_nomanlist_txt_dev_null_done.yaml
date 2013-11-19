@@ -1,0 +1,8 @@
+commandlinefu_id: 6166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $(ls /usr/bin ) ; do man -w $file 2>> nomanlist.txt >/dev/null ; done
+summary: |-
+  Get a list of commands for which there are no manpages

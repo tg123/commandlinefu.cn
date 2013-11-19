@@ -1,0 +1,8 @@
+commandlinefu_id: 10120
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /path/to/dir && command_or_script; cd -;
+summary: |-
+  Jump to a directory, execute a command and jump back to current dir

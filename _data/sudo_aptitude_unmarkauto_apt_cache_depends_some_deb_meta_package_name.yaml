@@ -1,0 +1,8 @@
+commandlinefu_id: 3203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo aptitude unmarkauto $(apt-cache depends some-deb-meta-package-name | grep Depends | cut -d: -f2)
+summary: |-
+  Debian: Mark all dependent packages as manualy installed.

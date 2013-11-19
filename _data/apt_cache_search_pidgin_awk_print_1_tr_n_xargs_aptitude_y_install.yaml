@@ -1,0 +1,8 @@
+commandlinefu_id: 8283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache search pidgin* | awk '{print$ 1}' | tr '\n' ' ' | xargs aptitude -y install
+summary: |-
+  Install evertything with the prefix pidgin or wathever

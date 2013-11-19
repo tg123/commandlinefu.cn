@@ -1,0 +1,8 @@
+commandlinefu_id: 8665
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [enter]~?
+summary: |-
+  Control ssh connection

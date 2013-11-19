@@ -1,0 +1,8 @@
+commandlinefu_id: 6435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -mtime -1 \! -type d -exec ls -l {} \;
+summary: |-
+  list all files modified in the last 24 hours descending from current directory

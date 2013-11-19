@@ -1,0 +1,8 @@
+commandlinefu_id: 8754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkntfs /dev/hda1
+summary: |-
+  create an empty NTFS partition

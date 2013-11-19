@@ -1,0 +1,8 @@
+commandlinefu_id: 1437
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in *s.yml; do mv $x `echo $x | sed 's/s\.yml/\.yml/'`; done
+summary: |-
+  Singularize all files in a directory

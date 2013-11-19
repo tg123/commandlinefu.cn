@@ -1,0 +1,8 @@
+commandlinefu_id: 2157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kudzu -p
+summary: |-
+  List installed hardware

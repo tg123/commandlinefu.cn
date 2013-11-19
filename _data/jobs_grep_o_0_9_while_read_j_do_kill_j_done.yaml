@@ -1,0 +1,8 @@
+commandlinefu_id: 10584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jobs | grep -o "[0-9]" | while read j; do kill %$j; done
+summary: |-
+  Kill all background jobs

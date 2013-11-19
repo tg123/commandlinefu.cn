@@ -1,0 +1,8 @@
+commandlinefu_id: 2341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /var/logs -name * | xargs tar -jcpf logs_`date +%Y-%m-%e`.tar.bz2
+summary: |-
+  Archive every file in /var/logs

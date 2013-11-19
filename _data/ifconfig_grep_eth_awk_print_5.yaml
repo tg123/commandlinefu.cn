@@ -1,0 +1,8 @@
+commandlinefu_id: 7787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep eth | awk '{print $5}'
+summary: |-
+  Reading my nic's mac address

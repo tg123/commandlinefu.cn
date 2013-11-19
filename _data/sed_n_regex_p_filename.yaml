@@ -1,0 +1,8 @@
+commandlinefu_id: 6023
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/regex/,$p' filename
+summary: |-
+  print contents of file from first match of regex to end of file

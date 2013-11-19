@@ -1,0 +1,8 @@
+commandlinefu_id: 4902
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp -l10 pippo@serverciccio:/home/zutaniddu/* .
+summary: |-
+  Restrict the bandwidth for the SCP command

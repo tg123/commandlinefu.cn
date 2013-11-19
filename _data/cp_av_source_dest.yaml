@@ -1,0 +1,8 @@
+commandlinefu_id: 7931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -av source dest
+summary: |-
+  transfer files locally to be sure that file permissions are kept correctly showing progress

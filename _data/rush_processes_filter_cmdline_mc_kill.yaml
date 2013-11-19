@@ -1,0 +1,8 @@
+commandlinefu_id: 5505
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rush> processes.filter(:cmdline => /mc/).kill
+summary: |-
+  kill process by name

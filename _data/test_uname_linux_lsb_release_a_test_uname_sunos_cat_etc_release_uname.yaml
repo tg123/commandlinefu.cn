@@ -1,0 +1,8 @@
+commandlinefu_id: 2580
+translator:
+  weibo: ''
+hide: true
+command: |-
+  test `uname` = Linux && lsb_release -a || ( test `uname` = SunOS && cat /etc/release || uname -rms )
+summary: |-
+  Display which distro is installed

@@ -1,0 +1,8 @@
+commandlinefu_id: 2484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1t | head -n10
+summary: |-
+  find the 10 latest (modified) files

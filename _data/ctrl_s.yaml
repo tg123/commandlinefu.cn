@@ -1,0 +1,8 @@
+commandlinefu_id: 10371
+translator:
+  weibo: ''
+hide: true
+command: |-
+  CTRL+s
+summary: |-
+  Stop and continue processing on a terminal

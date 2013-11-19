@@ -1,0 +1,8 @@
+commandlinefu_id: 6414
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  Array1=( "one" "two" "three" "four" "five" );Array2=( "four" "five" "six" "seven" );savedIFS="${IFS}";IFS=$'\n';Array3=($(comm -12 <(echo "$
+summary: |-
+  shell求数组的交集

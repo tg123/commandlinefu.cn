@@ -1,0 +1,8 @@
+commandlinefu_id: 12449
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do curl -vsL -o /dev/null example.com 2>&1 | grep 503 > /dev/null || echo "OK: server is up."; sleep 8; done
+summary: |-
+  Wait for Web service to spin up, aka alert me when the server stops returning a 503

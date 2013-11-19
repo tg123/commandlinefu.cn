@@ -1,0 +1,8 @@
+commandlinefu_id: 1674
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "obase=2; 27" | bc -l
+summary: |-
+  Base conversions with bc

@@ -1,0 +1,8 @@
+commandlinefu_id: 6359
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat | bash
+summary: |-
+  execute your commands and avoid history records

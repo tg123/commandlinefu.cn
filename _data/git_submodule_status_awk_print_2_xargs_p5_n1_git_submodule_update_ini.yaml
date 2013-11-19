@@ -1,0 +1,8 @@
+commandlinefu_id: 10932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git submodule status | awk '{print $2}' | xargs -P5 -n1 git submodule update --init
+summary: |-
+  Execute git submodule update in parallel with xargs

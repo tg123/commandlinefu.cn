@@ -1,0 +1,8 @@
+commandlinefu_id: 2753
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /var/lib/dpkg/info/*.list -lht |less
+summary: |-
+  Find the dates your debian/ubuntu packages were installed.

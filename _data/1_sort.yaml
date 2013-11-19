@@ -1,0 +1,8 @@
+commandlinefu_id: 5271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :1,$!sort
+summary: |-
+  Sort the current buffer in vi or vim.

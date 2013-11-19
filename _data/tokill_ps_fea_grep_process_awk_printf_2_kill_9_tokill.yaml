@@ -1,0 +1,8 @@
+commandlinefu_id: 2626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tokill=`ps -fea|grep process|awk '{ printf $2" "}'`; kill -9 $tokill;
+summary: |-
+  kill  some process (same as others) but  parsing to a variable

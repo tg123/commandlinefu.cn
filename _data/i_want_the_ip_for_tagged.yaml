@@ -1,0 +1,8 @@
+commandlinefu_id: 6028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i want the ip for tagged
+summary: |-
+  This command will shorten any URL the user inputs. What makes this command different is that it utilizes 5 different services and gives you 5 different outputs.

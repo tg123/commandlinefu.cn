@@ -1,0 +1,8 @@
+commandlinefu_id: 2082
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vmstat 1 10 | /usr/xpg4/bin/awk -f ph-vmstat.awk
+summary: |-
+  Replace Solaris vmstat numbers with human readable format

@@ -1,0 +1,8 @@
+commandlinefu_id: 2681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -sd 'rid=value&submit=SUBMIT' <URL> > out.html
+summary: |-
+  Submit data to a HTML form with POST method and save the response

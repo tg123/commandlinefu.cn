@@ -1,0 +1,8 @@
+commandlinefu_id: 92
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(locate your_search_phrase); do dirname $i; done | sort | uniq
+summary: |-
+  search for files or directories, then show a sorted list of just the unique directories where the matches occur

@@ -1,0 +1,8 @@
+commandlinefu_id: 10881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn status | grep "^M" | while read entry; do file=`echo $entry | awk '{print $2}'`; echo $file; svn revert $file; done
+summary: |-
+  Revert all modified files in an SVN repo

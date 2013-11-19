@@ -1,0 +1,8 @@
+commandlinefu_id: 7670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'printf join ".", map int rand 256, 1 .. 4;'
+summary: |-
+  Perl One Liner to Generate a Random IP Address

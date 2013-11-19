@@ -1,0 +1,8 @@
+commandlinefu_id: 5748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache show pkgname | grep -i "version:"
+summary: |-
+  Show a Package Version on Debian based distribution

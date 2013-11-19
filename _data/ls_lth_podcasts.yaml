@@ -1,0 +1,8 @@
+commandlinefu_id: 8189
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lth podcasts/
+summary: |-
+  List file/directories in order of last accessed, in human readable terms

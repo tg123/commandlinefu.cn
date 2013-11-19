@@ -1,0 +1,8 @@
+commandlinefu_id: 2890
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo cat /usr/share/icons/*/*/* > /dev/dsp
+summary: |-
+  Play music from pure data

@@ -1,0 +1,8 @@
+commandlinefu_id: 2060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo shred -zn10 /dev/sda
+summary: |-
+  Shred an complete disk, by overwritting its content 10 times

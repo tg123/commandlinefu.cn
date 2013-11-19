@@ -1,0 +1,8 @@
+commandlinefu_id: 3526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 127.0.0.1 | egrep -e '^(([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-4])\.){3}([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-4])$'
+summary: |-
+  regex to match an ip

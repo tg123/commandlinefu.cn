@@ -1,0 +1,8 @@
+commandlinefu_id: 3147
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -u `id -u` firefox-bin || find ~/.mozilla/firefox -name '*.sqlite'|(while read -e f; do echo 'vacuum;'|sqlite3 "$f" ; done)
+summary: |-
+  Cleanup firefox's database.

@@ -1,0 +1,8 @@
+commandlinefu_id: 8054
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias big='BIG () { find . -size +${1}M -ls; }; BIG $1'
+summary: |-
+  Find large files in current directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 5080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (echo "plot '-' with lines"; for x in $(seq 1 100); do curl -s "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=$(echo $x bottles of beer on the wall|sed 's/ /%20/g')"|sed 's/.*"estimatedResultCount":"\([^"]*\)".*/\1\n/';done)|gnuplot -persist
+summary: |-
+  x bottles of beer on the wall graph

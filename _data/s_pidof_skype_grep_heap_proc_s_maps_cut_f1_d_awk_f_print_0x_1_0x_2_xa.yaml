@@ -1,0 +1,8 @@
+commandlinefu_id: 2516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  S=`pidof skype`;grep heap /proc/$S/maps|cut -f1 -d' '|awk -F- '{print "0x" $1 " 0x" $2}'|xargs echo "du me t ">l;gdb -batch -p $S -x l>/dev/null 2>&1;strings t|grep \(smirk|head -n1
+summary: |-
+  Extract the emoticons regex from a running skype process

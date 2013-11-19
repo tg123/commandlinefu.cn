@@ -1,0 +1,8 @@
+commandlinefu_id: 9630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "shopt -s histappend" >> ~/.bashrc ; . ~/.bashrc
+summary: |-
+  Prevent command history file from being overwritten by multiple shell sessions.

@@ -1,0 +1,8 @@
+commandlinefu_id: 12779
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -arvx --numeric-ids --stats --progress --bwlimit=1000 file server:destination_directory
+summary: |-
+  rsync Command that limits bandwidth

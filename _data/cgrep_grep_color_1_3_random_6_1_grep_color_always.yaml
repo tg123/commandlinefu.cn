@@ -1,0 +1,8 @@
+commandlinefu_id: 8012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cgrep() { GREP_COLOR="1;3$((RANDOM%6+1))" grep --color=always "$@" }
+summary: |-
+  Randomize GNU grep's color

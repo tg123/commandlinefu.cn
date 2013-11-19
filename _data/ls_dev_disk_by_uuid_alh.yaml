@@ -1,0 +1,8 @@
+commandlinefu_id: 6525
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /dev/disk/by-uuid/ -alh
+summary: |-
+  Show the UUID of a filesystem or partition

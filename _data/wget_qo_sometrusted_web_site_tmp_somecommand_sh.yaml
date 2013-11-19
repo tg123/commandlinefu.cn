@@ -1,0 +1,8 @@
+commandlinefu_id: 5733
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO - sometrusted.web.site/tmp/somecommand | sh
+summary: |-
+  download and run script from trusted webserver

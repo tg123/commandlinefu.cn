@@ -1,0 +1,8 @@
+commandlinefu_id: 5491
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://standards.ieee.org/regauth/oui/oui.txt | grep $1
+summary: |-
+  online MAC address lookup

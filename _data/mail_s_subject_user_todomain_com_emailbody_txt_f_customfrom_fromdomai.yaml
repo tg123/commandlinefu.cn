@@ -1,0 +1,8 @@
+commandlinefu_id: 4604
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mail -s "subject" user@todomain.com <emailbody.txt  -- -f customfrom@fromdomain.com -F 'From Display Name'
+summary: |-
+  Change the From: address on the fly for email sent from the command-line

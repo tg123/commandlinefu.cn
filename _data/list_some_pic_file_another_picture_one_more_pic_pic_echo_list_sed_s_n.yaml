@@ -1,0 +1,8 @@
+commandlinefu_id: 6410
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LIST="/some/pic/file /another/picture /one/more/pic"; PIC=$(echo $LIST | sed s/"\ "/"\n"/g | shuf | head -1 | sed s/'\/'/'\\\/'/g ); sed -i s/Mrxvt.Pixmap:.*/"Mrxvt.Pixmap:\t$PIC"/ ~/.mrxvtrc
+summary: |-
+  Random mrxvt background

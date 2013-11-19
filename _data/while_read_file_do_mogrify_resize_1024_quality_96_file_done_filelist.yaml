@@ -1,0 +1,8 @@
+commandlinefu_id: 340
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( while read File; do mogrify -resize 1024 -quality 96 $File; done ) < filelist
+summary: |-
+  Change size of lots of image files.  File names are read from a text file.

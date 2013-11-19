@@ -1,0 +1,8 @@
+commandlinefu_id: 8326
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  sleep 3s && espeak "wake up, you bastard" 2>/dev/null
+summary: |-
+  计时器的实现

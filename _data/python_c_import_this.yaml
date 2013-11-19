@@ -1,0 +1,8 @@
+commandlinefu_id: 3032
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  python -c 'import this'
+summary: |-
+  Python 之禅

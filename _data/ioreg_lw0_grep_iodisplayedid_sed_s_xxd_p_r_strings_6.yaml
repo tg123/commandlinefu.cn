@@ -1,0 +1,8 @@
+commandlinefu_id: 2324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ioreg -lw0 | grep IODisplayEDID | sed "/[^<]*</s///" | xxd -p -r | strings -6
+summary: |-
+  Show display type

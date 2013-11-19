@@ -1,0 +1,8 @@
+commandlinefu_id: 1706
+translator:
+  weibo: ''
+hide: true
+command: |-
+  slave start; SELECT MASTER_POS_WAIT('master.000088','8145654'); slave stop;
+summary: |-
+  positions the mysql slave at a specific master position

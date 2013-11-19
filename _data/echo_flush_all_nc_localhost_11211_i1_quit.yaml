@@ -1,0 +1,8 @@
+commandlinefu_id: 11697
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'flush_all' | nc localhost 11211 -i1 <<< 'quit'
+summary: |-
+  flush memcached via netcat

@@ -1,0 +1,8 @@
+commandlinefu_id: 12422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -printf "%C@ %p\n"|sort
+summary: |-
+  Find files and list them sorted by modification time

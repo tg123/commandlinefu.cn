@@ -1,0 +1,8 @@
+commandlinefu_id: 5886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  MIN=1 && for i in $(seq $(($MIN*60)) -1 1); do echo -n "$i, "; sleep 1; done; echo -e "\n\nBOOOM! Time to start."
+summary: |-
+  Countdown Clock

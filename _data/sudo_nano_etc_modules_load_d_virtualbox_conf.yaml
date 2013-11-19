@@ -1,0 +1,8 @@
+commandlinefu_id: 12339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo nano /etc/modules-load.d/virtualbox.conf
+summary: |-
+  Once Guest Additions are installed (Virtualbox), we need to make sure that the various components of this software are loaded automatically each time the system boots.

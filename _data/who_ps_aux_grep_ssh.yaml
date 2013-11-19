@@ -1,0 +1,8 @@
+commandlinefu_id: 8204
+translator:
+  weibo: ''
+hide: true
+command: |-
+  who;ps aux|grep ssh
+summary: |-
+  see who is on this machine

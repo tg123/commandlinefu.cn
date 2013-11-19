@@ -1,0 +1,8 @@
+commandlinefu_id: 5964
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `grep -n "SomeRegEx" foo.txt | sed 's/:/ /' | awk '{print $1}'`; do echo "head -n `echo "$i+4" | bc` foo.txt | tail -n 5"; done > headsandtails.sh
+summary: |-
+  Read multiple lines of a file based on regex matching a single line

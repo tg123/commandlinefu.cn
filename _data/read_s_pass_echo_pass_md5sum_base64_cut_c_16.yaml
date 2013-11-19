@@ -1,0 +1,8 @@
+commandlinefu_id: 9760
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -s pass; echo $pass | md5sum | base64 | cut -c -16
+summary: |-
+  Create strong, but easy to remember password

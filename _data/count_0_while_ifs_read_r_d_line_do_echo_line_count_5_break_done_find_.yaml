@@ -1,0 +1,8 @@
+commandlinefu_id: 12055
+translator:
+  weibo: ''
+hide: true
+command: |-
+  count=0;while IFS= read -r -d '' line; do echo "${line#* }"; ((++count==5)) && break; done < <(find . -type f -printf '%s %p\0' | sort -znr)
+summary: |-
+  Find top 5 big files

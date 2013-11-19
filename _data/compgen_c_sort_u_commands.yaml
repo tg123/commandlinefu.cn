@@ -1,0 +1,8 @@
+commandlinefu_id: 8730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  compgen -c | sort -u > commands
+summary: |-
+  Save the list of all available commands in your box to a file

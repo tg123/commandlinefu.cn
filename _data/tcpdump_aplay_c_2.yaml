@@ -1,0 +1,8 @@
+commandlinefu_id: 9128
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump | aplay -c 2
+summary: |-
+  Output sound when your computer is downloading something

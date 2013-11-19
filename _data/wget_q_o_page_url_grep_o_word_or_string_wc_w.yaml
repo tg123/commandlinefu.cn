@@ -1,0 +1,8 @@
+commandlinefu_id: 3072
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O- PAGE_URL | grep -o 'WORD_OR_STRING' | wc -w
+summary: |-
+  count the appearance of a word or a string  in a given webpage

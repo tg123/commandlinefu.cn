@@ -1,0 +1,8 @@
+commandlinefu_id: 6537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log 2>&1 | egrep '^r[0-9]+' | cut -d "|" -f2 | sort | uniq -c
+summary: |-
+  Get each users commit amount

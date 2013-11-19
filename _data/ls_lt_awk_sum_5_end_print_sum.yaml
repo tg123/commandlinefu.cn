@@ -1,0 +1,8 @@
+commandlinefu_id: 12467
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lt | awk '{sum+=$5} END {print sum}'
+summary: |-
+  Space used by files listed by ls -lt

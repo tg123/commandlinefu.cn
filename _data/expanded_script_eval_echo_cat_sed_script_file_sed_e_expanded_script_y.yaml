@@ -1,0 +1,8 @@
+commandlinefu_id: 2117
+translator:
+  weibo: ''
+hide: true
+command: |-
+  expanded_script=$(eval "echo \"$(cat ${sed_script_file})\"") && sed -e "${expanded_script}" your_input_file
+summary: |-
+  Expand shell variables in sed scripts

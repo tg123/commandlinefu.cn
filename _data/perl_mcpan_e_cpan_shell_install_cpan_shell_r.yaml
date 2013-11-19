@@ -1,0 +1,8 @@
+commandlinefu_id: 3598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MCPAN -e 'CPAN::Shell->install(CPAN::Shell->r)'
+summary: |-
+  Upgrade all perl modules via CPAN

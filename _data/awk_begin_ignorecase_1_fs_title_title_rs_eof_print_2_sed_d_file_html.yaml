@@ -1,0 +1,8 @@
+commandlinefu_id: 5416
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  awk 'BEGIN{IGNORECASE=1;FS="<title>|</title>";RS=EOF} {print $2}' | sed '/^$/d' > file.html
+summary: |-
+  用 awk 从 html里边 分析 title

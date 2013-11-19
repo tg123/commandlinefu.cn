@@ -1,0 +1,8 @@
+commandlinefu_id: 11941
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep <process> | grep -v grep | awk '{print $2}' | xargs -i -t kill -9 {}
+summary: |-
+  Kill a lot of process once a time

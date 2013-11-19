@@ -1,0 +1,8 @@
+commandlinefu_id: 11185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch -t 201208211200 first ; touch -t 201208220100 last ; find /path/to/files/ -newer first ! -newer last | xargs -ifile mv -fv file /path/to/destination/ ; rm first; rm last;
+summary: |-
+  find files between specific date/times and move them to another folder

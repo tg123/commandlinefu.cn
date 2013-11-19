@@ -1,0 +1,8 @@
+commandlinefu_id: 1900
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ~/.mozilla/firefox/ && sqlite3 `cat profiles.ini | grep Path | awk -F= '{print $2}'`/formhistory.sqlite "select * from moz_formhistory" && cd - > /dev/null
+summary: |-
+  List recorded formular fields of Firefox

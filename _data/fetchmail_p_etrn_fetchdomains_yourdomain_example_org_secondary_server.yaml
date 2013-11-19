@@ -1,0 +1,8 @@
+commandlinefu_id: 7121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fetchmail -p etrn --fetchdomains yourdomain.example.org secondary-server.example.org
+summary: |-
+  Start delivery of mail queued on a secondary mail server.

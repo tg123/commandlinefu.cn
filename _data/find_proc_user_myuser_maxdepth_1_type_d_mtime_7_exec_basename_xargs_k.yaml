@@ -1,0 +1,8 @@
+commandlinefu_id: 3702
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /proc -user myuser -maxdepth 1 -type d -mtime +7 -exec basename {} \; | xargs kill -9
+summary: |-
+  Kill processes that have been running for more than a week

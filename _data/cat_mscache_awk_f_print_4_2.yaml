@@ -1,0 +1,8 @@
+commandlinefu_id: 11718
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat *mscache* | awk -F '"' '{print $4":"$2}'
+summary: |-
+  Convert metasploit cachedump files to Hashcat format for cracking

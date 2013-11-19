@@ -1,0 +1,8 @@
+commandlinefu_id: 2057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while :; do xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s "$(find <image-directory> -type f -iregex '.*\.\(bmp\|gif\|jpg\|png\)$' | sort -R | head -1)"; sleep 30m; done
+summary: |-
+  Pick a random image from a directory (and subdirectories) every thirty minutes and set it as xfce4 wallpaper

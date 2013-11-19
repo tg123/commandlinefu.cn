@@ -1,0 +1,8 @@
+commandlinefu_id: 8572
+translator:
+  weibo: ''
+hide: true
+command: |-
+  comm --nocheck-order -31
+summary: |-
+  Describe differences between files

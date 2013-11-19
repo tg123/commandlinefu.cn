@@ -1,0 +1,8 @@
+commandlinefu_id: 10810
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sL 74.125.237.1/24
+summary: |-
+  Find resolvable hosts in subnet

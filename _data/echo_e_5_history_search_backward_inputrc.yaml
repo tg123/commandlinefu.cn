@@ -1,0 +1,8 @@
+commandlinefu_id: 1434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "\"\e[5~\": history-search-backward" >> ~/.inputrc
+summary: |-
+  Use the page up key to complete the command.

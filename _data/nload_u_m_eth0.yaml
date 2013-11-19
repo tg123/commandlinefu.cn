@@ -1,0 +1,8 @@
+commandlinefu_id: 2551
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nload -u m eth0
+summary: |-
+  Display ncurses based network monitor

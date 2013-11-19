@@ -1,0 +1,8 @@
+commandlinefu_id: 9114
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -F'\s+' -anE 'push @w,$F[1];END{$r.=splice @w,rand @w,1 for(1..4);say $r}' diceware.wordlist.asc
+summary: |-
+  Generate an XKCD #936 style 4 word password

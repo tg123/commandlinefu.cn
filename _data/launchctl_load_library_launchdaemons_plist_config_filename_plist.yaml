@@ -1,0 +1,8 @@
+commandlinefu_id: 7775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  launchctl load /Library/LaunchDaemons/<plist config filename>.plist
+summary: |-
+  Launch a Daemon on OSX tiger

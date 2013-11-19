@@ -1,0 +1,8 @@
+commandlinefu_id: 10357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for img in *.png; do   convert "$img" "$img.jpg" ; done
+summary: |-
+  convert png into jpg using imagemagick

@@ -1,0 +1,8 @@
+commandlinefu_id: 117
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias pi='`cat ~/.pi | grep ' ; alias addpi='echo "cd `pwd`" >> ~/.pi'
+summary: |-
+  fast access to any of your favorite directory.

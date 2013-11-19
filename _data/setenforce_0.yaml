@@ -1,0 +1,8 @@
+commandlinefu_id: 12130
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setenforce 0
+summary: |-
+  Turn off SE Linux

@@ -1,0 +1,8 @@
+commandlinefu_id: 3481
+translator:
+  weibo: ''
+hide: true
+command: |-
+  : ${VAR:?unset variable}
+summary: |-
+  Check variable has been set

@@ -1,0 +1,8 @@
+commandlinefu_id: 9254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fn=$(find . -type f -printf "%T@\t%p\n"|sort -n|tail -1|cut -f2); echo $(date -r "$fn") "$fn"
+summary: |-
+  Hunt for the newest file.

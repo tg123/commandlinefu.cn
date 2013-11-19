@@ -1,0 +1,8 @@
+commandlinefu_id: 7208
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig|sed '/inet/!d;/127.0/d;/dr:\s/d;s/^.*:\(.*\)B.*$/\1/'
+summary: |-
+  Get your local IP regardless of your network interface

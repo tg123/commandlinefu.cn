@@ -1,0 +1,8 @@
+commandlinefu_id: 3582
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{$1=""; print}'
+summary: |-
+  print all except first collumn

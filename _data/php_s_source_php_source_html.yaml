@@ -1,0 +1,8 @@
+commandlinefu_id: 8057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -s source.php > source.html
+summary: |-
+  Syntax highlight PHP source

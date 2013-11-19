@@ -1,0 +1,8 @@
+commandlinefu_id: 10284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fuser -vmk /mount
+summary: |-
+  list and kill any processes currently using /mount

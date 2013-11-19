@@ -1,0 +1,8 @@
+commandlinefu_id: 1262
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -vazuK --exclude "*.mp3" --exclude "*.svn*" * user@host:/path
+summary: |-
+  exclude file(s) from rsync

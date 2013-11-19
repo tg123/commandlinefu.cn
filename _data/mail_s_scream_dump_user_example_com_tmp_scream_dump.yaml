@@ -1,0 +1,8 @@
+commandlinefu_id: 4200
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mail -s scream-dump user@example.com < /tmp/scream-dump
+summary: |-
+  Mail text file (/tmp/scream-dump) contents from linux box with subject(scream-dump)

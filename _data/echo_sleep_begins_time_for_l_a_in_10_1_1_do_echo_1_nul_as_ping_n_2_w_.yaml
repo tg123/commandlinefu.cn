@@ -1,0 +1,8 @@
+commandlinefu_id: 3108
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo sleep() begins: %TIME% && FOR /l %a IN (10,-1,1) do (ECHO 1 >NUL %as&ping -n 2 -w 1 127.0.0.1>NUL) && echo sleep() end: %TIME%
+summary: |-
+  Emulate sleep in DOS/BAT

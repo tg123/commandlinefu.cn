@@ -1,0 +1,8 @@
+commandlinefu_id: 134
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -m smtpd -n -c DebuggingServer localhost:1025
+summary: |-
+  python smtp server

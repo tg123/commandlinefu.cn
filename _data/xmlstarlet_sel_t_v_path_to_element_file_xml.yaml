@@ -1,0 +1,8 @@
+commandlinefu_id: 9932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmlstarlet sel -t -v "/path/to/element" file.xml
+summary: |-
+  extract element of xml

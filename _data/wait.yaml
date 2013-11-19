@@ -1,0 +1,8 @@
+commandlinefu_id: 5796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wait $!
+summary: |-
+  Wait for an already launched program to stop before starting a new command.

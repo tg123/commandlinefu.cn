@@ -1,0 +1,8 @@
+commandlinefu_id: 5673
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -i "$(date +%b" "%d )13:4[0-5]" syslog
+summary: |-
+  Grep log between range of minutes

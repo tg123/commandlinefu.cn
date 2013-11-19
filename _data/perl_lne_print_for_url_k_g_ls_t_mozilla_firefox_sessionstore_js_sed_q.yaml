@@ -1,0 +1,8 @@
+commandlinefu_id: 4341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -lne 'print for /url":"\K[^"]+/g' $(ls -t ~/.mozilla/firefox/*/sessionstore.js | sed q)
+summary: |-
+  Extract all urls from last firefox sessionstore used in a portable way.

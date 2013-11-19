@@ -1,0 +1,8 @@
+commandlinefu_id: 6244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $(pwd) -maxdepth 1
+summary: |-
+  List files with full path

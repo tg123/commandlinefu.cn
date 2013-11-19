@@ -1,0 +1,8 @@
+commandlinefu_id: 8497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo rpm -if "http://rpm_server/rpm_repo/this-app.rpm"
+summary: |-
+  Install a remote RPM

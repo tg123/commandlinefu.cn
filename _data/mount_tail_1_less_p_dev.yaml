@@ -1,0 +1,8 @@
+commandlinefu_id: 9132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount |tail -1 | less -p "/dev/[^ ]*"
+summary: |-
+  last mounted device

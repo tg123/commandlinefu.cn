@@ -1,0 +1,8 @@
+commandlinefu_id: 1311
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find <top_level_dir> -depth -type d -empty -exec rmdir -v {} \;
+summary: |-
+  递归清理空目录

@@ -1,0 +1,8 @@
+commandlinefu_id: 1638
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -Va | grep -v "\.\.\.\.\.\.\.T"
+summary: |-
+  Strip out time difference entries when verifying rpms on x86_64 RHEL systems

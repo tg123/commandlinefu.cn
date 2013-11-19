@@ -1,0 +1,8 @@
+commandlinefu_id: 3477
+translator:
+  weibo: ''
+hide: true
+command: |-
+  display "$(wget -q http://dynamic.xkcd.com/comic/random/ -O - | grep -Po '(?<=")http://imgs.xkcd.com/comics/[^"]+(png|jpg)')"
+summary: |-
+  random xkcd comic

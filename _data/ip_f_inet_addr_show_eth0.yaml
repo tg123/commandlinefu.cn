@@ -1,0 +1,8 @@
+commandlinefu_id: 10525
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip -f inet addr show eth0
+summary: |-
+  show ip address

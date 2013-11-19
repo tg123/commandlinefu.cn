@@ -1,0 +1,8 @@
+commandlinefu_id: 12524
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-key adv --keyserver hkp://keys.gnupg.net:80 --recv-keys [key to get here]
+summary: |-
+  Getting OpenPGP keys for Launchpad PPAs on Debian based systems from behind a firewall

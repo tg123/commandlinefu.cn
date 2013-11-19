@@ -1,0 +1,8 @@
+commandlinefu_id: 4418
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -print -exec chmod 777 {} \;
+summary: |-
+  Recursive chmod all files and directories within the current directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 8330
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hostresult=$(host -t A www.example.com); echo "${hostresult##* }"
+summary: |-
+  resolve hostname to IP our vice versa with less output

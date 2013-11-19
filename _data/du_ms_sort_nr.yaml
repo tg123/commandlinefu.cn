@@ -1,0 +1,8 @@
+commandlinefu_id: 9834
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -ms * | sort -nr
+summary: |-
+  Sort all files and directories by size, rounded to the nearest megabyte. (Substitute custom path for *.)

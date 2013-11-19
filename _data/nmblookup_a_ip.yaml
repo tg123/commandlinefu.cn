@@ -1,0 +1,8 @@
+commandlinefu_id: 4959
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmblookup -A <ip>
+summary: |-
+  Display network pc "name" and "workgroup"

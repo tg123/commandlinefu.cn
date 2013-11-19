@@ -1,0 +1,8 @@
+commandlinefu_id: 7645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nawk 'BEGIN {print srand()}'
+summary: |-
+  Unix timestamp Solaris

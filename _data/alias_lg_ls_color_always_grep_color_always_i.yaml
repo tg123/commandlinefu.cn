@@ -1,0 +1,8 @@
+commandlinefu_id: 1896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias lg='ls --color=always | grep --color=always -i'
+summary: |-
+  Quick case-insenstive partial filename search

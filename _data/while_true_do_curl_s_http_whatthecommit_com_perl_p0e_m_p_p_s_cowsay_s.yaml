@@ -1,0 +1,8 @@
+commandlinefu_id: 7755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do curl -s http://whatthecommit.com | perl -p0e '($_)=m{<p>(.+?)</p>}s' | cowsay; sleep 2; done
+summary: |-
+  let the cow suggest some commit messages for you

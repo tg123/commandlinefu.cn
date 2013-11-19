@@ -1,0 +1,8 @@
+commandlinefu_id: 7946
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo arp-scan -l
+summary: |-
+  ARP Scan

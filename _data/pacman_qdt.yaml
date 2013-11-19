@@ -1,0 +1,8 @@
+commandlinefu_id: 8138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Qdt
+summary: |-
+  archlinux: shows list of packages that are no longer needed

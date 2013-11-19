@@ -1,0 +1,8 @@
+commandlinefu_id: 8365
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ echo "command"; `!#:0-$
+summary: |-
+  print line and execute it in BASH

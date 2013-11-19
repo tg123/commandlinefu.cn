@@ -1,0 +1,8 @@
+commandlinefu_id: 2184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder dvd://1 -aid 128 -o track-1.avi -oac copy -ovc lavc -lavcopts vcodec=mpeg4
+summary: |-
+  Rip a DVD to AVI format

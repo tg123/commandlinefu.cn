@@ -1,0 +1,8 @@
+commandlinefu_id: 735
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for (( i = 0; i < 100; i++ )); do echo "$i"; done
+summary: |-
+  Perform a C-style loop in Bash.

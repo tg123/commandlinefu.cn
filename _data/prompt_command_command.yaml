@@ -1,0 +1,8 @@
+commandlinefu_id: 3797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PROMPT_COMMAND=command
+summary: |-
+  Execute a command before display the bash prompt

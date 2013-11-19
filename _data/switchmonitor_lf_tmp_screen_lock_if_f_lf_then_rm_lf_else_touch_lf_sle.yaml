@@ -1,0 +1,8 @@
+commandlinefu_id: 9126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  switchMonitor () { LF=/tmp/screen-lock; if [ -f $LF ]; then rm $LF; else touch $LF; sleep .5; while [ -f  $LF ]; do xset dpms force off; sleep 2; done; fi };
+summary: |-
+  shut of the screen ( Fool proof )

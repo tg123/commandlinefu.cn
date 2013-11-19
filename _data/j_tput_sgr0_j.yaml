@@ -1,0 +1,8 @@
+commandlinefu_id: 866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^J tput sgr0 ^J
+summary: |-
+  reset an hanging terminal session

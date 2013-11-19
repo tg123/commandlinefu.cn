@@ -1,0 +1,8 @@
+commandlinefu_id: 3354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lspci -v | perl -ne '/VGA/../^$/  and /VGA|Kern/ and print'
+summary: |-
+  Show display adapter, available drivers, and driver in use

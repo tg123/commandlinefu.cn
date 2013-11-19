@@ -1,0 +1,8 @@
+commandlinefu_id: 3518
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wajig large
+summary: |-
+  List debian package installed by size

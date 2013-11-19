@@ -1,0 +1,8 @@
+commandlinefu_id: 11871
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch file{1..10}.txt ; ls *txt| sed -e "p;s/\.txt$/\.csv/"|xargs -n2 mv
+summary: |-
+  rename multiple files with different name, eg converting all txt to csv

@@ -1,0 +1,8 @@
+commandlinefu_id: 5164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sh default values
+summary: |-
+  Display default values on Foundry (Brocade) RX and MLX BigIron L3 (routers & switches)

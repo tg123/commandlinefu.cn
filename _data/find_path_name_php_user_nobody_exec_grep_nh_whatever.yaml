@@ -1,0 +1,8 @@
+commandlinefu_id: 330
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path -name \*.php -user nobody -exec grep -nH whatever {} \;
+summary: |-
+  grep selectively

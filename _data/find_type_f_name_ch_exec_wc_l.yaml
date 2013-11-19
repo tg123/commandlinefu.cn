@@ -1,0 +1,8 @@
+commandlinefu_id: 8399
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find . -type f -name *.[ch] -exec wc -l {} \;
+summary: |-
+  数文件的行数

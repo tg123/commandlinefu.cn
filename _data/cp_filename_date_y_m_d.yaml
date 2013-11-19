@@ -1,0 +1,8 @@
+commandlinefu_id: 8220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp filename{,.`date +%Y%m%d`}
+summary: |-
+  Fast file backup

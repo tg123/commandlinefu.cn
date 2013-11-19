@@ -1,0 +1,8 @@
+commandlinefu_id: 12616
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tool profile
+summary: |-
+  Shows CPU usage for each process running in MikroTik RouterOS

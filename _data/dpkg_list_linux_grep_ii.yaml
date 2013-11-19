@@ -1,0 +1,8 @@
+commandlinefu_id: 664
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg --list '*linux*' | grep '^ii'
+summary: |-
+  Show one line summaries of all DEB packages installed on Ubuntu based on pattern search

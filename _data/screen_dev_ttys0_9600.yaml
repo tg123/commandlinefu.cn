@@ -1,0 +1,8 @@
+commandlinefu_id: 8048
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen /dev/ttyS0 9600
+summary: |-
+  connects to a serial console

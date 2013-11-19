@@ -1,0 +1,8 @@
+commandlinefu_id: 9324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Fart
+summary: |-
+  list all files in a directory, sorted in reverse order by modification time, use file descriptors.

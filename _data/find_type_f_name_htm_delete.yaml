@@ -1,0 +1,8 @@
+commandlinefu_id: 7159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*.htm' -delete
+summary: |-
+  recursive remove all htm files

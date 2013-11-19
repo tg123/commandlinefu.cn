@@ -1,0 +1,8 @@
+commandlinefu_id: 3090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command ps -Hacl -F S -A f
+summary: |-
+  View Processeses like a fu, fu

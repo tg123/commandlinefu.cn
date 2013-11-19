@@ -1,0 +1,8 @@
+commandlinefu_id: 2348
+translator:
+  weibo: ''
+hide: true
+command: |-
+  URL=http://svn.example.org/project; diff -u <(TZ=UTC svn -q log -r1:HEAD $URL | grep \|) <(TZ=UTC svn log -q $URL | grep \| | sort -k3 -t \|)
+summary: |-
+  Find chronological errors or bad timestamps in a Subversion repository

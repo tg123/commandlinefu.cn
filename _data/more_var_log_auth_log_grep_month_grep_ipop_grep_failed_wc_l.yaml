@@ -1,0 +1,8 @@
+commandlinefu_id: 5057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  more /var/log/auth.log |grep "month"|grep ipop|grep "failed"|wc -l
+summary: |-
+  Check failed logins from ipop service at some time given at linux

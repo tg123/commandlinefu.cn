@@ -1,0 +1,8 @@
+commandlinefu_id: 4244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -L  Your_Package
+summary: |-
+  List content of a package (debian derivative distro)

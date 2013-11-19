@@ -1,0 +1,8 @@
+commandlinefu_id: 5462
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name `egrep -s '.' * | awk -F":" '{print $1}' | sort -u` -exec stat {} \;
+summary: |-
+  Stat each file in a directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 9985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function eve (); { eval "print -s ${1?no variable}=\'\$$1\'" }
+summary: |-
+  a function to put environment variable in zsh history for editing

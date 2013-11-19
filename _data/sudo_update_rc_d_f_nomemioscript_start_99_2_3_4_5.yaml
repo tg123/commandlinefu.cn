@@ -1,0 +1,8 @@
+commandlinefu_id: 8639
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo update-rc.d -f nomemioscript start 99 2 3 4 5
+summary: |-
+  if you want the script run at reboot

@@ -1,0 +1,8 @@
+commandlinefu_id: 10590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo mem|sudo tee /sys/power/state
+summary: |-
+  Suspend to ram

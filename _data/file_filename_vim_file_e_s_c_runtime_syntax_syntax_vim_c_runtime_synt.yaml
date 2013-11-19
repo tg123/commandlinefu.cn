@@ -1,0 +1,8 @@
+commandlinefu_id: 11083
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file=<filename>;vim ${file} -e -s -c 'runtime! syntax/syntax.vim' -c 'runtime! syntax/2html.vim' -c "w ${file}.html" -c 'q!' -c 'q!' > /dev/null
+summary: |-
+  Use vim automation to create a colorized html file

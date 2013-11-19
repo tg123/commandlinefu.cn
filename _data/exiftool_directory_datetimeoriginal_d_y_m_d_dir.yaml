@@ -1,0 +1,8 @@
+commandlinefu_id: 2866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exiftool '-Directory<DateTimeOriginal' -d %Y/%m/%d dir
+summary: |-
+  Move all images in a directory into a directory hierarchy based on year, month and day based on exif information

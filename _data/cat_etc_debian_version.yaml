@@ -1,0 +1,8 @@
+commandlinefu_id: 9869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/debian_version
+summary: |-
+  show debian version

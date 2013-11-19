@@ -1,0 +1,8 @@
+commandlinefu_id: 9579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum remove `rpm -qa --qf "%{n}.%{arch}\n"|grep i386`
+summary: |-
+  Remove i386 RPM packages from x86_64 CentOS/RHEL

@@ -1,0 +1,8 @@
+commandlinefu_id: 11486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hl-nonprinting () { local C=$(printf '\033[0;36m') B=$(printf '\033[0;46m') R=$(printf '\033[0m') np=$(env printf "\u00A0\uFEFF"); sed -e "s/\t/${C}&#9657;&$R/g" -e "s/$/${C}&#8267;$R/" -e "s/[$np]/${B}& $R/g";}
+summary: |-
+  bash function to highlight non-printing characters: tab, newline, BOM, nbsp

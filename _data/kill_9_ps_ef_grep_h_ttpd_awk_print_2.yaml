@@ -1,0 +1,8 @@
+commandlinefu_id: 10324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 $(ps -ef | grep [h]ttpd | awk '{print $2}')
+summary: |-
+  Force kill all named processes

@@ -1,0 +1,8 @@
+commandlinefu_id: 3848
+translator:
+  weibo: ''
+hide: true
+command: |-
+  teste.txt < cut -d : -f 1,5 /etc/passwd | tr : \\t | tr a-z A-Z | cat teste.txt
+summary: |-
+  List system's users

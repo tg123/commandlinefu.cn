@@ -1,0 +1,8 @@
+commandlinefu_id: 9339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read line; do  echo $line; done <<< "$var"
+summary: |-
+  Access variables inside a - piped while - loop

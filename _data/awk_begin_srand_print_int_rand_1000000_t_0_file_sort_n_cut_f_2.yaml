@@ -1,0 +1,8 @@
+commandlinefu_id: 1954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN {srand()} {print int(rand()*1000000) "\t" $0}' FILE | sort -n | cut -f 2-
+summary: |-
+  Randomize the order of lines in a text file.

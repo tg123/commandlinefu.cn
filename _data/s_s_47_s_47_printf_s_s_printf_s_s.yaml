@@ -1,0 +1,8 @@
+commandlinefu_id: 5589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  s='s=\47%s\47; printf "$s" "$s"'; printf "$s" "$s"
+summary: |-
+  bash-quine

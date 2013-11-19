@@ -1,0 +1,8 @@
+commandlinefu_id: 12393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n "foo" | wc -c
+summary: |-
+  Count the number of characters in a string from the standard input.

@@ -1,0 +1,8 @@
+commandlinefu_id: 4049
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setterm -powersave off -blank 0
+summary: |-
+  bash screensaver off

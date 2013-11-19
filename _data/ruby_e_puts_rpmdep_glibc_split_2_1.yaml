@@ -1,0 +1,8 @@
+commandlinefu_id: 9587
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e 'puts `rpmdep glibc`.split(",")[2..-1]'
+summary: |-
+  Print RPM dependencies

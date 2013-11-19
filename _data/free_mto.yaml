@@ -1,0 +1,8 @@
+commandlinefu_id: 4633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  free -mto
+summary: |-
+  Check RAM size

@@ -1,0 +1,8 @@
+commandlinefu_id: 11884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diskutil info /dev/disk0 | grep 'Device / Media Name'
+summary: |-
+  Check the hard disk vendor and model on Apple Mac

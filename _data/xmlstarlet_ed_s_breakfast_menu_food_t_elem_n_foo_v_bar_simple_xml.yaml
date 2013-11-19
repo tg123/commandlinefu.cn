@@ -1,0 +1,8 @@
+commandlinefu_id: 10833
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmlstarlet ed -s "/breakfast_menu/food" -t elem -n 'foo' -v "bar" simple.xml
+summary: |-
+  Insert an element into xml

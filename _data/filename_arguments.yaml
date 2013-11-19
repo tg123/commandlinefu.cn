@@ -1,0 +1,8 @@
+commandlinefu_id: 8594
+translator:
+  weibo: ''
+hide: true
+command: |-
+  . filename [arguments]
+summary: |-
+  Execute commands from a file in the current shell

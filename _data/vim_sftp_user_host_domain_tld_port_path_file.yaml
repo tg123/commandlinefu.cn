@@ -1,0 +1,8 @@
+commandlinefu_id: 12085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim sftp://[user@]host.domain.tld:[port]/[path/][file]
+summary: |-
+  vi a remote file with port

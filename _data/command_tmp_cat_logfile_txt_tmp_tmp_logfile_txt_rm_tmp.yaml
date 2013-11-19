@@ -1,0 +1,8 @@
+commandlinefu_id: 1857
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command > tmp && cat logfile.txt >> tmp && tmp > logfile.txt && rm tmp
+summary: |-
+  Append output to the beginning of a file.

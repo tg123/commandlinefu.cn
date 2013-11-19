@@ -1,0 +1,8 @@
+commandlinefu_id: 6383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "uptime" | pee "ssh host1" "ssh host2" "ssh host3"
+summary: |-
+  run command on a group of nodes in parallel

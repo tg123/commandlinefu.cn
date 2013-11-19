@@ -1,0 +1,8 @@
+commandlinefu_id: 7070
+translator:
+  weibo: ''
+hide: true
+command: |-
+  checkrestart
+summary: |-
+  Shows what processes need to be restarted after system upgrade

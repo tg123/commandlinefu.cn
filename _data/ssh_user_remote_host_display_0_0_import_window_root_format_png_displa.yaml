@@ -1,0 +1,8 @@
+commandlinefu_id: 8258
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@remote-host "DISPLAY=:0.0 import -window root -format png -"|display -format png -
+summary: |-
+  Remote screenshot

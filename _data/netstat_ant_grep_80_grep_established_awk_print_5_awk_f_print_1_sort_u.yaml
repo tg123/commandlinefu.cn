@@ -1,0 +1,8 @@
+commandlinefu_id: 2831
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -ant | grep :80 | grep ESTABLISHED | awk '{print $5}' | awk -F: '{print $1}' | sort | uniq -c | sort -n
+summary: |-
+  Show in a web server, running in the port 80, how many ESTABLISHED connections by ip it has.

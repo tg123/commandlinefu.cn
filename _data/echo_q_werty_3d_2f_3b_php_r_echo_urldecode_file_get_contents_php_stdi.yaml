@@ -1,0 +1,8 @@
+commandlinefu_id: 12510
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "q+werty%3D%2F%3B" | php -r "echo urldecode(file_get_contents('php://stdin'));"
+summary: |-
+  urldecoding

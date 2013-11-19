@@ -1,0 +1,8 @@
+commandlinefu_id: 7841
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync --progress --partial --rsh="ssh -p 8322" --bwlimit=100 --ipv4 user@domain.com:~/file.tgz .
+summary: |-
+  rsync instead of scp

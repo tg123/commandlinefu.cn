@@ -1,0 +1,8 @@
+commandlinefu_id: 11123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias md='mkdir -p'; alias rd='rmdir'; mcd () { mkdir "$@" && cd "$_"; }
+summary: |-
+  Directory management

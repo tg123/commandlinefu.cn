@@ -1,0 +1,8 @@
+commandlinefu_id: 9001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -name 'CVS' -exec rm -r {} \;
+summary: |-
+  remove all CVS directories

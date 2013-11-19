@@ -1,0 +1,8 @@
+commandlinefu_id: 8762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename 's/ /_/g' *
+summary: |-
+  Renames all files in the current directory such that the new file contains no space characters.

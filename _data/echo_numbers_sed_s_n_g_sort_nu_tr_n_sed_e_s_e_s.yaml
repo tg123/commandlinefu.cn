@@ -1,0 +1,8 @@
+commandlinefu_id: 2491
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $numbers | sed "s/\( \|$\)/\n/g" | sort -nu | tr "\n" " " | sed -e "s/^ *//" -e "s/ $//"
+summary: |-
+  Sort a list of numbers on on line, separated by spaces.

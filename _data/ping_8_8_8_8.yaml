@@ -1,0 +1,8 @@
+commandlinefu_id: 7925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping 8.8.8.8
+summary: |-
+  Test internet connectivity

@@ -1,0 +1,8 @@
+commandlinefu_id: 5145
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/\t/  /g' yourfile
+summary: |-
+  Convert all tabs in a file to spaces, assuming the tab width is 2

@@ -1,0 +1,8 @@
+commandlinefu_id: 2261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "import scapy.all; print [x[4] for x in scapy.all.conf.route.routes if x[2] != '0.0.0.0'][0]"
+summary: |-
+  Using scapy to get the IP of the iface used to contact local gw (i.e. supposed host IP)

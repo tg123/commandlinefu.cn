@@ -1,0 +1,8 @@
+commandlinefu_id: 1881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function jumpTo { xmms2 jump `xmms2 list | grep -i '$1' | head -n 1 | tail -n 1 | sed -re 's@.+\[(.+)/.+\] (.+)@\1@'`; }
+summary: |-
+  Jump to a song in your XMMS2 playlist, based on song title/artist

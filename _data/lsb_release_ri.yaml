@@ -1,0 +1,8 @@
+commandlinefu_id: 8689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsb_release -ri
+summary: |-
+  Find Out My Linux Distribution Name and Version

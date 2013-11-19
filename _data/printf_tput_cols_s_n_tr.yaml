@@ -1,0 +1,8 @@
+commandlinefu_id: 10643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%$(tput cols)s\n"|tr ' ' '='
+summary: |-
+  A line across the entire width of the terminal

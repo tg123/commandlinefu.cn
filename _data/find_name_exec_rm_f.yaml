@@ -1,0 +1,8 @@
+commandlinefu_id: 10738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name ._\* -exec rm -f {} \;
+summary: |-
+  remove OSX resource forks ._ files

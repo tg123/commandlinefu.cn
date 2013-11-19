@@ -1,0 +1,8 @@
+commandlinefu_id: 8159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psbook file.ps | psnup -2 -l -m0.5cm | pstops '2:0,1U(210mm,297mm)' > file.booklet.ps
+summary: |-
+  Create a booklet ps file out of a normal ps (A4 Size)

@@ -1,0 +1,8 @@
+commandlinefu_id: 9912
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -d '2011-12-15 05:47:09' +"epoch: %s or format: %Y/%m/%d"
+summary: |-
+  Time conversion/format using the date command

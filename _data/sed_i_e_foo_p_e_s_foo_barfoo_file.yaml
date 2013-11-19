@@ -1,0 +1,8 @@
+commandlinefu_id: 6773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i -e '/foo/p' -e 's/foo/barfoo/' file
+summary: |-
+  Duplicate a line in a text file and replace part of the duplicated line

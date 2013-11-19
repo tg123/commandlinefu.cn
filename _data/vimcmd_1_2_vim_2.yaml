@@ -1,0 +1,8 @@
+commandlinefu_id: 7333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimcmd() { $1 > $2 && vim $2; }
+summary: |-
+  Run a command, redirecting output to a file, then edit the file with vim.

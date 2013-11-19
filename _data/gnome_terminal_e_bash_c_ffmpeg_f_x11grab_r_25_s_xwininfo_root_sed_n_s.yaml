@@ -1,0 +1,8 @@
+commandlinefu_id: 9017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gnome-terminal -e "bash -c \"ffmpeg -f x11grab -r 25 -s $(xwininfo -root |sed -n 's/ -geometry \([0-9x]*\).*/\1/p') -i :0.0 -vcodec huffyuv -sameq ~/Desktop/screencast.avi; exec bash\""
+summary: |-
+  A video capture command which can be assigned to a keyboard shortcut.

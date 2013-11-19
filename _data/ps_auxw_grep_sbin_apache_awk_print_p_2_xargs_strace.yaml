@@ -1,0 +1,8 @@
+commandlinefu_id: 8097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps auxw | grep sbin/apache | awk '{print"-p " $2}' | xargs strace
+summary: |-
+  easily strace all your apache processes

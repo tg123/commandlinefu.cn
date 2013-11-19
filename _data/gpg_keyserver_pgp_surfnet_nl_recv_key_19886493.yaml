@@ -1,0 +1,8 @@
+commandlinefu_id: 228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gpg --keyserver pgp.surfnet.nl --recv-key 19886493
+summary: |-
+  Getting GnuPG Public Keys From KeyServer

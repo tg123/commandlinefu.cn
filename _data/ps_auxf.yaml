@@ -1,0 +1,8 @@
+commandlinefu_id: 168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps auxf
+summary: |-
+  ps with parent/child process tree

@@ -1,0 +1,8 @@
+commandlinefu_id: 5680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "6d5967306474686924697344406b3379" | xxd -r -p
+summary: |-
+  Defcon 18 Quals Binary L33tness 300 Solution

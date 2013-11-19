@@ -1,0 +1,8 @@
+commandlinefu_id: 4439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Create aliases for common vim minibuffer/cmd typos
+summary: |-
+  command! -nargs=1 Vs vs &lt;args&gt;

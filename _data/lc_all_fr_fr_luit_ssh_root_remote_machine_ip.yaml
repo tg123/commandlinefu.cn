@@ -1,0 +1,8 @@
+commandlinefu_id: 1338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LC_ALL=fr_FR luit ssh root@remote_machine_ip
+summary: |-
+  Connect to remote machine with other enconding charset

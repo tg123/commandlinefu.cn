@@ -1,0 +1,8 @@
+commandlinefu_id: 11905
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s 'http://xkcd.com/rss.xml' | xpath '//item[1]/description/text()' 2>&1 | sed -n 's/.*title="\([^"]*\)".*/\1/p' | fold -s
+summary: |-
+  display the hover text of the most recent xkcd

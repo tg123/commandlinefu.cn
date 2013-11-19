@@ -1,0 +1,8 @@
+commandlinefu_id: 12088
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder FILENAME.3gp -ovc lavc -lavcopts vcodec=msmpeg4v2 -oac mp3lame -lameopts vbr=3 -o FILENAME.avi
+summary: |-
+  Convert videos to AVI format

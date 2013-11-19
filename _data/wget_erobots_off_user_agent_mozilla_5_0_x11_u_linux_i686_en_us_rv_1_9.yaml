@@ -1,0 +1,8 @@
+commandlinefu_id: 4993
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -erobots=off --user-agent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3" -H -r -l2 --max-redirect=1 -w 5 --random-wait -PmyBooksFolder -nd --no-parent -A.pdf http://URL
+summary: |-
+  Download free e-books

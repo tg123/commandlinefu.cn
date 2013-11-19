@@ -1,0 +1,8 @@
+commandlinefu_id: 7361
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e "Content-type: text/plain\n\n$REMOTE_ADDR"
+summary: |-
+  get your public ip address

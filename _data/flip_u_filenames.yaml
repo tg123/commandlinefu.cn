@@ -1,0 +1,8 @@
+commandlinefu_id: 3861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  flip -u <filenames>
+summary: |-
+  Convert Windows/DOS Text Files to Unix

@@ -1,0 +1,8 @@
+commandlinefu_id: 4095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cstdin='echo "Ctrl-D when done." && gcc -Wall -o ~/.stdin.exe ~/.stdin.c && ~/.stdin.exe'
+summary: |-
+  Write and run a quick C program

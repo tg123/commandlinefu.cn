@@ -1,0 +1,8 @@
+commandlinefu_id: 8769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd -
+summary: |-
+  Go to next dir

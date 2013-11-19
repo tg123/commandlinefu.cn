@@ -1,0 +1,8 @@
+commandlinefu_id: 8743
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~ -name '*.sqlite' -exec sqlite3 '{}' 'VACUUM;' \;
+summary: |-
+  To compact all SQLite databases in your home directory

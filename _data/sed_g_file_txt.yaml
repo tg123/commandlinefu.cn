@@ -1,0 +1,8 @@
+commandlinefu_id: 9585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed G file.txt
+summary: |-
+  append empty line after every line in file.txt

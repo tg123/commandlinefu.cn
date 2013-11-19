@@ -1,0 +1,8 @@
+commandlinefu_id: 4841
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  uri_escape(){ echo -E "$@" | sed 's/\\/\\\\/g;s/./&\n/g' | while read -r i; do echo $i | grep -q '[a-zA-Z0-9/.:?&=]' && echo -n "$i" || prin
+summary: |-
+  Url Encode

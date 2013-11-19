@@ -1,0 +1,8 @@
+commandlinefu_id: 11626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep inet
+summary: |-
+  get LAN ip

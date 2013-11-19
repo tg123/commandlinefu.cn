@@ -1,0 +1,8 @@
+commandlinefu_id: 5656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sortwc () { local L;while read -r L;do builtin printf "${#L}@%s\n" "$L";done|sort -n|sed -u 's/^[^@]*@//'; }
+summary: |-
+  Sort output by length of line

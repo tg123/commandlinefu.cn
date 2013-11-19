@@ -1,0 +1,8 @@
+commandlinefu_id: 4570
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( shopt -s extglob; rm !(<PATTERN>) )
+summary: |-
+  Remove everything except that file

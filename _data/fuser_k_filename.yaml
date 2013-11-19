@@ -1,0 +1,8 @@
+commandlinefu_id: 1231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  !?192
+summary: |-
+  search and run command in history

@@ -1,0 +1,8 @@
+commandlinefu_id: 6746
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --silent http://www.dudalibre.com/gnulinuxcounter?lang=en | grep users | head -2 | tail -1 | sed 's/.*<strong>//g' | sed 's/<\/strong>.*//g'
+summary: |-
+  Get the amount of users currently registered at the DudaLibre.com Linux Counter.

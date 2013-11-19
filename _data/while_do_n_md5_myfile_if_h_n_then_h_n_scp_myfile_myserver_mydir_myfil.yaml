@@ -1,0 +1,8 @@
+commandlinefu_id: 12146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while :; do n=$(md5 myfile); if [ "$h" != "$n" ]; then h=$n; scp myfile myserver:mydir/myfile; fi; sleep 1; done
+summary: |-
+  Run a command when a file is changed

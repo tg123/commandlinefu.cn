@@ -1,0 +1,8 @@
+commandlinefu_id: 4477
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (bzcat BZIP2_FILES && cat TEXT_FILES) | grep -E "Invalid user|PAM" | grep -o -E "from .+" | awk '{print $2}' | sort | uniq >> /etc/hosts.deny
+summary: |-
+  Block all IP addresses and domains that have attempted brute force SSH login to computer

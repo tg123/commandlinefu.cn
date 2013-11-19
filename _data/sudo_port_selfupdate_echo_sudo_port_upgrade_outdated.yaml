@@ -1,0 +1,8 @@
+commandlinefu_id: 12064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo port selfupdate ; echo '---------' ; sudo port upgrade outdated
+summary: |-
+  macports update

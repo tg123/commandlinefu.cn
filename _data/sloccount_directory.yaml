@@ -1,0 +1,8 @@
+commandlinefu_id: 8421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sloccount <directory>
+summary: |-
+  Count lines of source code excluding blank lines and comments

@@ -1,0 +1,8 @@
+commandlinefu_id: 8833
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ln -nsf <TARGET> <LINK>
+summary: |-
+  Repoint an existing symlink to a new location

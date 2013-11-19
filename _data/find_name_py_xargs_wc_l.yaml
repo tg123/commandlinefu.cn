@@ -1,0 +1,8 @@
+commandlinefu_id: 157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.py" | xargs wc -l
+summary: |-
+  Get line count for any file ending with extension recursively rooted at the current directory.

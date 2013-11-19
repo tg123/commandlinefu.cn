@@ -1,0 +1,8 @@
+commandlinefu_id: 3377
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar czf /path/archive_of_foo.`date -I`.tgz /path/foo
+summary: |-
+  create tar archive of files in a directory and its sub-directories

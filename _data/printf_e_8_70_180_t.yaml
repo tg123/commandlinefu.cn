@@ -1,0 +1,8 @@
+commandlinefu_id: 4509
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "\e[8;70;180;t"
+summary: |-
+  Resize a Terminal Window

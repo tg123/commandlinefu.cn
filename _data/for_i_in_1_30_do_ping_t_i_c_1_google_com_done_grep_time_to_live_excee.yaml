@@ -1,0 +1,8 @@
+commandlinefu_id: 10267
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {1..30}; do  ping -t $i -c 1 google.com; done | grep "Time to live exceeded"
+summary: |-
+  ping as traceroute

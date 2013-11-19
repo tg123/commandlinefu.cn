@@ -1,0 +1,8 @@
+commandlinefu_id: 5438
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xterm -display :12.0 -e ssh -X user@server &
+summary: |-
+  run remote linux desktop

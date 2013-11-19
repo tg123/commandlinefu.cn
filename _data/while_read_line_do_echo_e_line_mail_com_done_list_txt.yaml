@@ -1,0 +1,8 @@
+commandlinefu_id: 596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read line; do echo -e "$line@mail.com"; done < list.txt
+summary: |-
+  @mail.com by adding the line in list.txt

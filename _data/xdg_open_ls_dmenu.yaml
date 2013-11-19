@@ -1,0 +1,8 @@
+commandlinefu_id: 4525
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xdg-open $(ls . | dmenu)
+summary: |-
+  File browser

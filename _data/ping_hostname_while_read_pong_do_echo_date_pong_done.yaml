@@ -1,0 +1,8 @@
+commandlinefu_id: 9197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping HOSTNAME | while read pong; do echo "$(date): $pong"; done
+summary: |-
+  ping with timestamp

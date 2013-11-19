@@ -1,0 +1,8 @@
+commandlinefu_id: 4916
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -RAx | grep "svn:$" | sed -e "s/svn:/svn/" | xargs rm -fr
+summary: |-
+  Recursively remove .svn directories

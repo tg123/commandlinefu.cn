@@ -1,0 +1,8 @@
+commandlinefu_id: 1687
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e 'print scalar localtime $ARGV[0],"\n" ' epoch
+summary: |-
+  print the date of the unix epoch in a human readable form using perl.

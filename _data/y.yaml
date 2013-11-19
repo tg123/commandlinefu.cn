@@ -1,0 +1,8 @@
+commandlinefu_id: 5261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :%y *
+summary: |-
+  Copy file content to X clipboard

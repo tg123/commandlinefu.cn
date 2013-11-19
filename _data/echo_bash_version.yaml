@@ -1,0 +1,8 @@
+commandlinefu_id: 2256
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $BASH_VERSION
+summary: |-
+  Which Version Is My Bash Shell?

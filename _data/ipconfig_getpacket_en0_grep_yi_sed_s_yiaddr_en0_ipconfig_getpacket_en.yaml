@@ -1,0 +1,8 @@
+commandlinefu_id: 2795
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ipconfig getpacket en0 | grep yi| sed s."yiaddr = "."en0: ".  ipconfig getpacket en1 | grep yi| sed s."yiaddr = "."en1: ".
+summary: |-
+  Get all IPs via ifconfig

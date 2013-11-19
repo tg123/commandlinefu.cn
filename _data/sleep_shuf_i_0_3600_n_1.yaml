@@ -1,0 +1,8 @@
+commandlinefu_id: 11823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep `shuf -i 0-3600 -n 1`
+summary: |-
+  sleep for a random amount of time up to an hour

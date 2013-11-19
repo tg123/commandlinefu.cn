@@ -1,0 +1,8 @@
+commandlinefu_id: 12610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function colorize() { c="--line-buffered --color=yes"; GREP_COLORS="mt=01;34" egrep $c '(^| 200 | 304 )' "${@}" | GREP_COLORS="mt=02;31" egrep $c '(^|"(GET|POST) .*[^0-9] 4[0-1][0-9] )' | GREP_COLORS="ms=02;37" egrep $c '(^|^[0-9\.]+) ';}
+summary: |-
+  Colorizes an access log

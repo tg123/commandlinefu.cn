@@ -1,0 +1,8 @@
+commandlinefu_id: 4516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <alt+50>-
+summary: |-
+  Print a row of 50 hyphens

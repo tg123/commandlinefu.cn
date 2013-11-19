@@ -1,0 +1,8 @@
+commandlinefu_id: 10498
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scanelf --nobanner --recursive --quiet --needed --format "+n#F" $1 | tr ',' '\n' | sort -u
+summary: |-
+  identify NEEDED sonames in a path

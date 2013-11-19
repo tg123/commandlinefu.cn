@@ -1,0 +1,8 @@
+commandlinefu_id: 1924
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i movie.avi -y -f vcd -vcodec mpeg1video -map 0.0:0.0 -b 1150 -s 352x240 -r 29.97 -g 12 -qmin 3 -qmax 13 -acodec mp2 -ab 224 -ar 44100 -ac 2 -map 0.1:0.1 movie.mpg
+summary: |-
+  convert plain .avi movies to .mpeg

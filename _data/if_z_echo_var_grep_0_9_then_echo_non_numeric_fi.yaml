@@ -1,0 +1,8 @@
+commandlinefu_id: 2354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ -z $(echo $var | grep [0-9]) ]; then echo "NON NUMERIC"; fi
+summary: |-
+  Non Numeric Check

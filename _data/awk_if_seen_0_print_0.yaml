@@ -1,0 +1,8 @@
+commandlinefu_id: 12456
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{if(!seen[$0]++) {print $0;}}'
+summary: |-
+  remove duplicate with change order

@@ -1,0 +1,8 @@
+commandlinefu_id: 10691
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTFILE="$HOME/.bash_history-$(hostname -s)"
+summary: |-
+  Ensure that each machine that you log in to has its own history file

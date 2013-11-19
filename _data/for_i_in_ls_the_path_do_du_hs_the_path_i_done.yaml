@@ -1,0 +1,8 @@
+commandlinefu_id: 251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(ls /the/path); do du -hs /the/path/$i; done
+summary: |-
+  Get the size of every directories and files in a path recursively

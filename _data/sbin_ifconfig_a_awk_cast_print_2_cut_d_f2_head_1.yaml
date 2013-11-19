@@ -1,0 +1,8 @@
+commandlinefu_id: 1908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /sbin/ifconfig -a | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1
+summary: |-
+  Get the IP address of a machine. Just the IP, no junk.

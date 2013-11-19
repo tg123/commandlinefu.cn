@@ -1,0 +1,8 @@
+commandlinefu_id: 10668
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls ${PATH//:/ }
+summary: |-
+  List all commands present on system

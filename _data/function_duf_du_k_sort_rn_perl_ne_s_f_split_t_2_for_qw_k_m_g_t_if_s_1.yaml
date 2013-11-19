@@ -1,0 +1,8 @@
+commandlinefu_id: 2535
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function duf { du -k $@ | sort -rn | perl -ne '($s,$f)=split(/\t/,$_,2);for(qw(K M G T)){if($s<1024){$x=($s<10?"%.1f":"%3d");printf("$x$_\t%s",$s,$f);last};$s/=1024}' }
+summary: |-
+  Alternative size (human readable) of directories (biggest first)

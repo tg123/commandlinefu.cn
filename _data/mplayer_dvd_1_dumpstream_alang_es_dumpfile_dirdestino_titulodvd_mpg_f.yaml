@@ -1,0 +1,8 @@
+commandlinefu_id: 7122
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer dvd://1 -dumpstream -alang es -dumpfile "$dirDestino"/"$tituloDVD".mpg && ffmpeg -i "$dirDestino/$tituloDVD.mpg" -acodec libmp3lame -alang spa -vcodec libx264 -crf 26 -vpre hq -threads 0 "$dirDestino/$tituloDVD.mp4"
+summary: |-
+  DVD-Rip

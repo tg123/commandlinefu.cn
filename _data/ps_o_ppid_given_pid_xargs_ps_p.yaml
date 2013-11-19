@@ -1,0 +1,8 @@
+commandlinefu_id: 1028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o ppid= <given pid> | xargs ps -p
+summary: |-
+  get some information about the parent process from a given process

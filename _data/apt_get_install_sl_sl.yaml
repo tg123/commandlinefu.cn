@@ -1,0 +1,8 @@
+commandlinefu_id: 3561
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get install sl; sl
+summary: |-
+  Learn how to stop mistyping "ls" the fun way

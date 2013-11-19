@@ -1,0 +1,8 @@
+commandlinefu_id: 7021
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables-save > firewall.conf; rm -f /etc/network/if-up.d/iptables; echo '#!/bin/sh' > /etc/network/if-up.d/iptables; echo "iptables-restore < firewall.conf" >> /etc/network/if-up.d/iptables; chmod +x /etc/network/if-up.d/iptables
+summary: |-
+  Persistent saving of iptables rules

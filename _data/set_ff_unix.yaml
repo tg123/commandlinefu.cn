@@ -1,0 +1,8 @@
+commandlinefu_id: 6152
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :set ff=unix
+summary: |-
+  Delete DOS Characters via VIM (^M)

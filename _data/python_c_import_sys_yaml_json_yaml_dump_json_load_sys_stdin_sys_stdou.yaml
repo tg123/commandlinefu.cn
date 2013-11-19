@@ -1,0 +1,8 @@
+commandlinefu_id: 12219
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'import sys, yaml, json; yaml.dump(json.load(sys.stdin), sys.stdout, default_flow_style=False)' < file.json > file.yaml
+summary: |-
+  Convert JSON to YAML

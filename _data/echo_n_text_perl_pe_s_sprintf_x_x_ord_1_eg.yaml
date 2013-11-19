@@ -1,0 +1,8 @@
+commandlinefu_id: 6073
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n 'text' | perl -pe 's/(.)/sprintf("\\x%x", ord($1))/eg'
+summary: |-
+  Convert ascii string to hex

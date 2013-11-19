@@ -1,0 +1,8 @@
+commandlinefu_id: 256
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '!_[$0]++{print}'
+summary: |-
+  uniq for unsorted data

@@ -1,0 +1,8 @@
+commandlinefu_id: 6925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -L iptables | perl -lne 'print if -f && -x'
+summary: |-
+  List only executables installed by a debian package

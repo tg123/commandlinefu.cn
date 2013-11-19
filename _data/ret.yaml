@@ -1,0 +1,8 @@
+commandlinefu_id: 7281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :ret
+summary: |-
+  retab in vim, tab to space or space to tab, useful in python

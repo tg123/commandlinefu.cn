@@ -1,0 +1,8 @@
+commandlinefu_id: 12020
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read line; do export $line; done < <(cat input)
+summary: |-
+  export key-value pairs list as environment variables

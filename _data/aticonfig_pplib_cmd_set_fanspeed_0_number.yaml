@@ -1,0 +1,8 @@
+commandlinefu_id: 397
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aticonfig --pplib-cmd "set fanspeed 0 <number>"
+summary: |-
+  set fan speed (ATI cards)

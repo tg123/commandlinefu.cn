@@ -1,0 +1,8 @@
+commandlinefu_id: 3074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convmv -r -f ISO-8859-1 -t UTF-8 --notest *
+summary: |-
+  Convert filenames from ISO-8859-1 to UTF-8

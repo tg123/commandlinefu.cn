@@ -1,0 +1,8 @@
+commandlinefu_id: 2701
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/<Tag>/,/<\/Tag>/p' logfile.log
+summary: |-
+  Extract XML from an otherwise plain text log file

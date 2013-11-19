@@ -1,0 +1,8 @@
+commandlinefu_id: 8773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch !!
+summary: |-
+  monitor the last command run

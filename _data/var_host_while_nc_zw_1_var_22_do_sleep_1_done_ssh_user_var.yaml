@@ -1,0 +1,8 @@
+commandlinefu_id: 8697
+translator:
+  weibo: ''
+hide: true
+command: |-
+  var=host ;while ! nc -zw 1 $var 22;do sleep 1; done ; ssh user@$var
+summary: |-
+  Automatically connect to a host with ssh once it is online

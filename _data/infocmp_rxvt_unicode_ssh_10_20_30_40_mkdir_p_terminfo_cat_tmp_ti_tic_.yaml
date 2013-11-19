@@ -1,0 +1,8 @@
+commandlinefu_id: 7446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  infocmp rxvt-unicode | ssh 10.20.30.40 "mkdir -p .terminfo && cat >/tmp/ti && tic /tmp/ti"
+summary: |-
+  Send your terminfo to another machine

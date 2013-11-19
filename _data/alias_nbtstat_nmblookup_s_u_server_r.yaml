@@ -1,0 +1,8 @@
+commandlinefu_id: 8487
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias nbtstat='nmblookup -S -U <server> -R'
+summary: |-
+  simple nbtstat -a equivalent/alias for linux (uses nmblookup)

@@ -1,0 +1,8 @@
+commandlinefu_id: 10229
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s ifconfig.me|tee >(xargs geoiplookup)
+summary: |-
+  geoip information

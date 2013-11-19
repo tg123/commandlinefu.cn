@@ -1,0 +1,8 @@
+commandlinefu_id: 1017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | grep ^\? | awk '{print $2}' | xargs svn add
+summary: |-
+  Add new file under svn version control.

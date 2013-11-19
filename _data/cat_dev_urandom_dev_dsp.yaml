@@ -1,0 +1,8 @@
+commandlinefu_id: 985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom > /dev/dsp
+summary: |-
+  Generate White Noise

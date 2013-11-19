@@ -1,0 +1,8 @@
+commandlinefu_id: 3875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wmctrl -o 2560,0 ;sleep 2 ; echo "FIRE 001" | osd_cat -o 470 -s 8 -c red -d 10 -f -*-bitstream\ vera\ sans-*-*-*--250-*-*-*-*-*-*-* ; sleep 1; wmctrl -o 0,0
+summary: |-
+  Auto Rotate Cube (compiz)

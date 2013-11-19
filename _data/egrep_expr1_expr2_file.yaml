@@ -1,0 +1,8 @@
+commandlinefu_id: 8836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep expr1\|expr2 file
+summary: |-
+  Regex or

@@ -1,0 +1,8 @@
+commandlinefu_id: 4423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $class=ExampleClass; $path=src; for constant in `grep ' const ' $class.php | awk '{print $2;}'`; do grep -r "$class::$constant" $path; done
+summary: |-
+  Find all uses of PHP constants in a set of files

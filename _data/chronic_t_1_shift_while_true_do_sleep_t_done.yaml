@@ -1,0 +1,8 @@
+commandlinefu_id: 2414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chronic () { t=$1; shift; while true; do $@; sleep $t; done & }
+summary: |-
+  The Chronic: run a command every N seconds in the background

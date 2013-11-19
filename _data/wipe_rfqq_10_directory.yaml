@@ -1,0 +1,8 @@
+commandlinefu_id: 11301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wipe -rfqQ 10 directory/
+summary: |-
+  Wipe a directory recursively & safely

@@ -1,0 +1,8 @@
+commandlinefu_id: 12780
+translator:
+  weibo: ''
+hide: true
+command: |-
+  icacls directory_or_file /remove:g group_or_user
+summary: |-
+  Remove permissions from directory or file

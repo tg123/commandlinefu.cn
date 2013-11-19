@@ -1,0 +1,8 @@
+commandlinefu_id: 10774
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping -b <broadcast address>
+summary: |-
+  Find all machines on the network using broadcast ping

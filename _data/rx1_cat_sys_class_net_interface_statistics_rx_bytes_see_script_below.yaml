@@ -1,0 +1,8 @@
+commandlinefu_id: 10095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  RX1=`cat /sys/class/net/${INTERFACE}/statistics/rx_bytes`  (see script below)
+summary: |-
+  Network traffic on NICs in mbps without sar, iperf, etc...

@@ -1,0 +1,8 @@
+commandlinefu_id: 7080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias whichall='{ command alias; command declare -f; } | command which --read-functions --read-alias -a'
+summary: |-
+  5 Which Aliases

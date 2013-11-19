@@ -1,0 +1,8 @@
+commandlinefu_id: 930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo su
+summary: |-
+  Start a new shell as root

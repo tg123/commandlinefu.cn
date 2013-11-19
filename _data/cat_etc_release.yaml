@@ -1,0 +1,8 @@
+commandlinefu_id: 8688
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/*-release
+summary: |-
+  Find Out My Linux Distribution Name and Version

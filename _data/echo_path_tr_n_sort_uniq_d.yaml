@@ -1,0 +1,8 @@
+commandlinefu_id: 3614
+translator:
+  weibo: tgic
+hide: false
+command: |
+  echo $PATH|tr : '\n'|sort|uniq -d
+summary: |-
+  寻找PATH重复的路径

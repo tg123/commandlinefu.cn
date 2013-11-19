@@ -1,0 +1,8 @@
+commandlinefu_id: 3967
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  alias ..="cd .." ...="cd ../.." ....="cd ../../.."
+summary: |-
+  如何快速从多级目录中逃走

@@ -1,0 +1,8 @@
+commandlinefu_id: 4064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  slice="-rw-r--r--  "; ls -l | cut -c $(echo "$slice" | wc -c)-
+summary: |-
+  slice a fixed number of characters from the output of a command, where the width of the slice is the number of characters in $slice

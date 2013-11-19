@@ -1,0 +1,8 @@
+commandlinefu_id: 1402
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /path/to/7z.sfx /path/to/archive > archive.exe
+summary: |-
+  Create a self-extracting archive for win32 using 7-zip

@@ -1,0 +1,8 @@
+commandlinefu_id: 7112
+translator:
+  weibo: ''
+hide: true
+command: |-
+  badblocks -n -s -b 2048 /dev/sdX
+summary: |-
+  Check disk for bad sectors

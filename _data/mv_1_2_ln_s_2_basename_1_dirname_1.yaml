@@ -1,0 +1,8 @@
+commandlinefu_id: 2286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv $1 $2 && ln -s $2/$(basename $1) $(dirname $1)
+summary: |-
+  Relocate a file or directory, but keep it accessible on the old location throug a simlink.

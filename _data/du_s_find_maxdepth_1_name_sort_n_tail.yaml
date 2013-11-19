@@ -1,0 +1,8 @@
+commandlinefu_id: 3221
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -s `find . -maxdepth 1 \! -name '.'` | sort -n | tail
+summary: |-
+  find dis1k space

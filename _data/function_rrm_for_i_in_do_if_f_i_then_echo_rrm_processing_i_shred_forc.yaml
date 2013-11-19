@@ -1,0 +1,8 @@
+commandlinefu_id: 5817
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function rrm(){ for i in $*; do; if [ -f $i ]; then; echo "rrm - Processing $i"; shred --force --remove --zero --verbose $i; else; echo "Can't process $i"; type=$(stat "$1" -c %F); echo "File $i is $type"; fi; done;}
+summary: |-
+  Realy remove file from your drive

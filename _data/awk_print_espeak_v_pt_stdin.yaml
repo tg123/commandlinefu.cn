@@ -1,0 +1,8 @@
+commandlinefu_id: 2376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print}' | espeak -v pt -stdin
+summary: |-
+  stdin speaker via espeak

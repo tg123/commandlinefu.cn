@@ -1,0 +1,8 @@
+commandlinefu_id: 420
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bomb(){ bomb|bomb };bomb
+summary: |-
+  Recursive bomb: Save your files first!

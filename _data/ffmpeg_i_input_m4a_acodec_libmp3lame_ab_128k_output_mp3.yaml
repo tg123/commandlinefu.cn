@@ -1,0 +1,8 @@
+commandlinefu_id: 7643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input.m4a -acodec libmp3lame -ab 128k output.mp3
+summary: |-
+  m4a to mp3 conversion with ffmpeg and lame

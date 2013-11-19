@@ -1,0 +1,8 @@
+commandlinefu_id: 8848
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | awk {'sum+=$3;print sum'} | tail -n 1
+summary: |-
+  Display CPU usage in percentage

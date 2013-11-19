@@ -1,0 +1,8 @@
+commandlinefu_id: 3491
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -ovc copy -audiofile input.mp3 -oac copy input.avi -o output.avi
+summary: |-
+  Substitute audio track of video file using mencoder

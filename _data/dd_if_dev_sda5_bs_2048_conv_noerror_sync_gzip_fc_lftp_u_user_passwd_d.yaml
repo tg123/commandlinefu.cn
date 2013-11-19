@@ -1,0 +1,8 @@
+commandlinefu_id: 2326
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/sda5 bs=2048 conv=noerror,sync | gzip -fc | lftp -u user,passwd domain.tld -e "put /dev/stdin -o backup-$(date +%Y%m%d%H%M).gz; quit"
+summary: |-
+  Backup sda5 partition to ftp ( using pipes and gziped backup )

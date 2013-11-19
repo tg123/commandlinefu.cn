@@ -1,0 +1,8 @@
+commandlinefu_id: 2138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ethstatus -i eth0
+summary: |-
+  Consolle based network interface monitor

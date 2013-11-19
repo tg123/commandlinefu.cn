@@ -1,0 +1,8 @@
+commandlinefu_id: 9279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat x
+summary: |-
+  Show line numbers in a text file

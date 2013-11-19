@@ -1,0 +1,8 @@
+commandlinefu_id: 11942
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -mtime +365 -exec rm -f {} \;
+summary: |-
+  Find and remove files older than 365 days

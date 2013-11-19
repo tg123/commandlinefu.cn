@@ -1,0 +1,8 @@
+commandlinefu_id: 10601
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git remote -v | grep fetch | sed 's/\(.*github.com\)[:|/]\(.*\).git (fetch)/\2/' | awk {'print "https://github.com/" $1'} | xargs open
+summary: |-
+  Open the current project on Github by typing gh

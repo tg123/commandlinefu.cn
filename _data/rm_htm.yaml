@@ -1,0 +1,8 @@
+commandlinefu_id: 7162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm  **/*.htm
+summary: |-
+  recursive remove all htm files

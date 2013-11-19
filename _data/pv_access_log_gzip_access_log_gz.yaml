@@ -1,0 +1,8 @@
+commandlinefu_id: 253
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  pv access.log | gzip > access.log.gz
+summary: |-
+  进度条执行一个gz

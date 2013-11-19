@@ -1,0 +1,8 @@
+commandlinefu_id: 1670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /some/directory | sed -rn -e 's/input_file_regex/mv -v & output_file_name/p' | sh
+summary: |-
+  Easy Regex based mass renaming

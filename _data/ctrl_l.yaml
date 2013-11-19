@@ -1,0 +1,8 @@
+commandlinefu_id: 8286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Ctrl+l
+summary: |-
+  clear screen, keep prompt at eye-level (faster than clear(1), tput cl, etc.)

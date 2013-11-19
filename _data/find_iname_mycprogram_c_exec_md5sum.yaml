@@ -1,0 +1,8 @@
+commandlinefu_id: 12301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -iname "MyCProgram.c" -exec md5sum {} \;
+summary: |-
+  Execute commands on files found by the find command

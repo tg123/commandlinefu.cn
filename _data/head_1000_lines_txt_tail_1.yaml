@@ -1,0 +1,8 @@
+commandlinefu_id: 348
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -1000 < lines.txt | tail -1
+summary: |-
+  get line#1000 from text.

@@ -1,0 +1,8 @@
+commandlinefu_id: 6306
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn st | grep -e '^M' | awk '{print $2}' | xargs svn revert
+summary: |-
+  Revert all modified files in an SVN repo

@@ -1,0 +1,8 @@
+commandlinefu_id: 8629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  SIZE=`fdisk -s /dev/sdx`; dd if=/dev/sdx bs=1M | pv -s "$SIZE"k > hdd.img
+summary: |-
+  dd with progress bar and remaining time displayed

@@ -1,0 +1,8 @@
+commandlinefu_id: 12395
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iwpriv ath<x> kickmac <macaddress>
+summary: |-
+  Disconnect a wireless client on an atheros-based access point

@@ -1,0 +1,8 @@
+commandlinefu_id: 6134
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-query -W | grep perl
+summary: |-
+  Print a list of installed Perl modules

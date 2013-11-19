@@ -1,0 +1,8 @@
+commandlinefu_id: 4281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getfacl <file-with-acl> | setfacl -f - <file-with-no-acl>
+summary: |-
+  copy ACL of one file to another using getfacl and setfacl

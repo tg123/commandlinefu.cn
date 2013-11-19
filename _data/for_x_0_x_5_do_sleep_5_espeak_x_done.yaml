@@ -1,0 +1,8 @@
+commandlinefu_id: 10286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ((x=0;;x+=5)); do sleep 5; espeak $x & done
+summary: |-
+  Have your sound card call out elapsed time.

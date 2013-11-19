@@ -1,0 +1,8 @@
+commandlinefu_id: 2231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /home/fizz -type f -printf '%TY-%Tm-%Td %TT %p\n' | sort
+summary: |-
+  List files recursively sorted by modified time

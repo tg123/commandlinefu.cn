@@ -1,0 +1,8 @@
+commandlinefu_id: 2649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export LANG=C; grep string longBigFile.log
+summary: |-
+  Fast grepping (avoiding UTF overhead)

@@ -1,0 +1,8 @@
+commandlinefu_id: 4792
+translator:
+  weibo: ''
+hide: true
+command: |-
+  newest () { find ${1:-\.} -type f |xargs ls -lrt ; }
+summary: |-
+  A function to find the newest file in a directory

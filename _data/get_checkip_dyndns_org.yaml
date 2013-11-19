@@ -1,0 +1,8 @@
+commandlinefu_id: 10386
+translator:
+  weibo: ''
+hide: true
+command: |-
+  GET checkip.dyndns.org
+summary: |-
+  What is my public IP address

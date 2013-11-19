@@ -1,0 +1,8 @@
+commandlinefu_id: 6126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -f ~/.ssh/id_rsa -p
+summary: |-
+  Change SSH RSA passphrase

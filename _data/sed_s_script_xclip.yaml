@@ -1,0 +1,8 @@
+commandlinefu_id: 3469
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/^/$ /' "$script" | xclip
+summary: |-
+  preprocess code to be posted in comments on this site

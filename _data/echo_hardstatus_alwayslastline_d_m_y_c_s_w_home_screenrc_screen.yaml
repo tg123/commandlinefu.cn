@@ -1,0 +1,8 @@
+commandlinefu_id: 7905
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'hardstatus alwayslastline " %d-%m-%y %c:%s | %w"' >> $HOME/.screenrc; screen
+summary: |-
+  Console clock -- within screen

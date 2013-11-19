@@ -1,0 +1,8 @@
+commandlinefu_id: 6989
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -size +500M -exec du {} \; | sort -n
+summary: |-
+  find all file larger than 500M

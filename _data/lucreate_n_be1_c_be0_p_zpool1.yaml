@@ -1,0 +1,8 @@
+commandlinefu_id: 3952
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lucreate -n be1 [-c be0] -p zpool1
+summary: |-
+  Creates Solaris alternate boot environment on another zpool.

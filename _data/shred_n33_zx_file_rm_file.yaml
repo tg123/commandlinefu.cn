@@ -1,0 +1,8 @@
+commandlinefu_id: 2133
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shred -n33 -zx file; rm file
+summary: |-
+  Safe Delete

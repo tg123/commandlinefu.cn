@@ -1,0 +1,8 @@
+commandlinefu_id: 4305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder -ovc xvid -oac mp3lame -srate 44100 -af lavcresample=44100 -xvidencopts fixed_quant=4 Foo.wmv -o Bar.avi
+summary: |-
+  convert wmv into xvid avi format

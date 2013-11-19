@@ -1,0 +1,8 @@
+commandlinefu_id: 9091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "LINUX,DIR,FILE1,FILE2,FILE3" | perl -aF, -nle 'my ($fld1, $fld2, @fields) = @F; while(@fields) { print join ",", $fld1, $fld2, splice(@fields, 0, 1) }'
+summary: |-
+  Print repeating CSV values on new lines - normalize repeating fields

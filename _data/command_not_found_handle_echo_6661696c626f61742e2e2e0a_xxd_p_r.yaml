@@ -1,0 +1,8 @@
+commandlinefu_id: 4214
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command_not_found_handle() { echo 6661696c626f61742e2e2e0a | xxd -p -r; }
+summary: |-
+  Friendly command-not-found message.

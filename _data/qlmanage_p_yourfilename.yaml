@@ -1,0 +1,8 @@
+commandlinefu_id: 747
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qlmanage -p "yourfilename"
+summary: |-
+  OS-X... create a quick look from the command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 1184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sips -s format jpeg Bild.pdf --out Bild.jpg
+summary: |-
+  convert a pdf to jpeg

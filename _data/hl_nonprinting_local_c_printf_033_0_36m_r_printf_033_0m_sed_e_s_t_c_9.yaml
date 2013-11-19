@@ -1,0 +1,8 @@
+commandlinefu_id: 11485
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hl-nonprinting () { local C=$(printf '\033[0;36m') R=$(printf '\033[0m'); sed -e "s/\t/${C}&#9657;&$R/g" -e "s/$/${C}&#8267;$R/";}
+summary: |-
+  bash function to "highlight" tabs and linebreaks

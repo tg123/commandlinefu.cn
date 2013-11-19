@@ -1,0 +1,8 @@
+commandlinefu_id: 948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(sort file1.txt) <(sort file2.txt)
+summary: |-
+  diff two sorted files

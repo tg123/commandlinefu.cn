@@ -1,0 +1,8 @@
+commandlinefu_id: 8508
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste <(cut -f1 log.txt) <(cut -f2- log.txt | shuf)
+summary: |-
+  no log to trace you

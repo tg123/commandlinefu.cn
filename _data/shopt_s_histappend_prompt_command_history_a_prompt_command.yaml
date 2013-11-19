@@ -1,0 +1,8 @@
+commandlinefu_id: 8555
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  shopt -s histappend ; PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+summary: |-
+  不需要退出就可以把历史flush 到磁盘

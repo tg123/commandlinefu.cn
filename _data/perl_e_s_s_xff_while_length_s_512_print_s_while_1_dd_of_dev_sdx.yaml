@@ -1,0 +1,8 @@
+commandlinefu_id: 11177
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e '$s="$s\xFF" while length($s)<512; print $s while 1' | dd of=/dev/sdX
+summary: |-
+  Fill a hard drive with ones - like zero-fill, but the opposite :)

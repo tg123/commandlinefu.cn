@@ -1,0 +1,8 @@
+commandlinefu_id: 11132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom|od -t x1|awk 'NR > line { pos=int(rand()*15)+2;printf("%s",$pos);line=NR+(rand()*1000);digits = digits+2 } digits == 64 { print("\n");exit }'
+summary: |-
+  extracts 64 bytes of random digits from random lines out of /dev/random sent to stdio

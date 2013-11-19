@@ -1,0 +1,8 @@
+commandlinefu_id: 6384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sockstat -4l
+summary: |-
+  For finding out if something is listening on a port and if so what the daemon is.

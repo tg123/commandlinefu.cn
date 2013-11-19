@@ -1,0 +1,8 @@
+commandlinefu_id: 12683
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shuf /usr/share/dict/words  |grep "^[^']\{3,6\}$" |head -n4 | sed -e "s/\b\(.\)/\u\1/g" | tr -d '\n'; echo
+summary: |-
+  Generate an XKCD #936 style 4 word password

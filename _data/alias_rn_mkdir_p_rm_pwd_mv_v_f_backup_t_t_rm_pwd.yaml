@@ -1,0 +1,8 @@
+commandlinefu_id: 12186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias rn='mkdir -p ~/.rm`pwd`; mv -v -f --backup=t -t ~/.rm`pwd` "$@"'
+summary: |-
+  like rm, but keep backups of files and dirs in ~/.rm

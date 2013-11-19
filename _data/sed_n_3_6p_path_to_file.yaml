@@ -1,0 +1,8 @@
+commandlinefu_id: 9890
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '3,6p' /path/to/file
+summary: |-
+  Print all lines between two line numbers

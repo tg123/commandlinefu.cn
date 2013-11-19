@@ -1,0 +1,8 @@
+commandlinefu_id: 1926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort -u filename > newfilename
+summary: |-
+  Read, sort and confirm uniqueness of entries in files and directories

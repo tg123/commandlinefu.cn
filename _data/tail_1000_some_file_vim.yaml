@@ -1,0 +1,8 @@
+commandlinefu_id: 1199
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -1000 /some/file | vim -
+summary: |-
+  Pipe STDOUT to vim

@@ -1,0 +1,8 @@
+commandlinefu_id: 7796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ai | grep filename | find . -inum `awk '{print $1}'` -exec rm {} \;
+summary: |-
+  delete a file and links based on inode number.

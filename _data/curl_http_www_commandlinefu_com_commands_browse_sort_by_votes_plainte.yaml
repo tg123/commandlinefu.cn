@@ -1,0 +1,8 @@
+commandlinefu_id: 9653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/[0-9000:25] | grep -vE "_curl_|\.com by David" > clf-ALL.txt
+summary: |-
+  Save all commands from commandlinefu.com to plain text sort by vote

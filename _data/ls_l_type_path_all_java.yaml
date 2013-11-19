@@ -1,0 +1,8 @@
+commandlinefu_id: 8452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l $(type -path -all java)
+summary: |-
+  find the path of the java called from the command line

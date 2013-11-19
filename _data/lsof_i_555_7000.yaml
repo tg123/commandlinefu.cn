@@ -1,0 +1,8 @@
+commandlinefu_id: 6762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -i :555-7000
+summary: |-
+  View details of network activity, malicious or otherwise within a port range.

@@ -1,0 +1,8 @@
+commandlinefu_id: 7626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,es
+summary: |-
+  use SHIFT + ALT to toggle between two keyboard layouts

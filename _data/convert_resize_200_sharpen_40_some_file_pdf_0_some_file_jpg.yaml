@@ -1,0 +1,8 @@
+commandlinefu_id: 288
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -resize 200 -sharpen 40 some_file.pdf[0] some_file.jpg
+summary: |-
+  Make a thumbnail image of first page of a PDF.

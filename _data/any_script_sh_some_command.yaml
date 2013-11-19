@@ -1,0 +1,8 @@
+commandlinefu_id: 4911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  any_script.sh < <(some command)
+summary: |-
+  create a temporary file in a command line call

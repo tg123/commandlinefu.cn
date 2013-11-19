@@ -1,0 +1,8 @@
+commandlinefu_id: 1244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l | grep ^d
+summary: |-
+  Show directories

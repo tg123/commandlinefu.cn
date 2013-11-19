@@ -1,0 +1,8 @@
+commandlinefu_id: 6360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host 'tar -c --use-compress-prog=pbzip2 /<dir>/<subdir>' > <localfile>.tar.bz2
+summary: |-
+  remote-pbzip2 and transfer a directory to local file

@@ -1,0 +1,8 @@
+commandlinefu_id: 1737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -name '*.JPG' -type f -execdir rename -f 'y/A-Z/a-z/' {} \+
+summary: |-
+  Change files case, without modify directories, recursively

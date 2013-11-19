@@ -1,0 +1,8 @@
+commandlinefu_id: 3084
+translator:
+  weibo: ''
+hide: true
+command: |-
+  espeak -f text.txt
+summary: |-
+  Read aloud a text file in Ubuntu (and other Unixes with espeak installed

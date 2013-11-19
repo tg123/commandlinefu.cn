@@ -1,0 +1,8 @@
+commandlinefu_id: 9144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  search="whatyouwant";data=$(grep "$search" * -R --exclude-dir=.svn -B2 -A2);for((i=$(echo "$data" | wc -l);$i>0;i=$(($i-6)) )); do clear;echo "$data"| tail -n $i | head -n 5; read;done
+summary: |-
+  Grep with one result at a time

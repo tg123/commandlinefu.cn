@@ -1,0 +1,8 @@
+commandlinefu_id: 335
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -al /proc/<PID>/fd
+summary: |-
+  list file descriptors opened by a process

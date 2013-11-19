@@ -1,0 +1,8 @@
+commandlinefu_id: 6087
+translator:
+  weibo: ''
+hide: true
+command: |-
+  %s/?/\&iuml;/ge | %s/?/\&#0233;/ge | %s/?/"/ge | %s/?/"/ge | %s/?/'/ge | %s/?/'/ge | %s/?/\&ecirc;/ge | %s/?/\&#0133;/ge | %s/?/\&#232;/ge | %s/?/\&#243;/ge | %s/?/\&ouml;/ge | %s/?/\&#0233;/ge | %s/?/\&ndash;/ge | %s/?/\&mdash;/ge
+summary: |-
+  chain search and replace special characters to html entities in gvim

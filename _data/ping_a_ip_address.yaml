@@ -1,0 +1,8 @@
+commandlinefu_id: 8363
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping -a IP-ADDRESS
+summary: |-
+  multimedia ping

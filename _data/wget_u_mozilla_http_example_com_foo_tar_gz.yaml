@@ -1,0 +1,8 @@
+commandlinefu_id: 10064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -U Mozilla http://example.com/foo.tar.gz
+summary: |-
+  wget - 403 Forbidden Error

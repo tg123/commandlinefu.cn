@@ -1,0 +1,8 @@
+commandlinefu_id: 2356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ifconfig eth0 hw ether 00:01:02:03:04:05
+summary: |-
+  Change tha mac adresse

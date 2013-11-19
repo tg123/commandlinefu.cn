@@ -1,0 +1,8 @@
+commandlinefu_id: 8260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -L . -type l
+summary: |-
+  Find broken symlinks

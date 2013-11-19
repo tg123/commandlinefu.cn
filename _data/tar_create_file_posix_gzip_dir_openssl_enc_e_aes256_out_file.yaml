@@ -1,0 +1,8 @@
+commandlinefu_id: 11584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --create --file - --posix --gzip -- <dir> | openssl enc -e -aes256 -out <file>
+summary: |-
+  Encrypted archive with openssl and tar

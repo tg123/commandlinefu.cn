@@ -1,0 +1,8 @@
+commandlinefu_id: 12723
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in ./*.xls; do mv "$f" "${f%.*}.ods"; done
+summary: |-
+  Command to rename multiple file in one go

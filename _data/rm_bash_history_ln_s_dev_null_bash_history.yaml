@@ -1,0 +1,8 @@
+commandlinefu_id: 3738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm ~/.bash_history; ln -s /dev/null ~/.bash_history
+summary: |-
+  Sneaky logout

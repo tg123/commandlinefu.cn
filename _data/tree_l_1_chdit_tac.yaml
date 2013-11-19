@@ -1,0 +1,8 @@
+commandlinefu_id: 11057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -L 1 -ChDit | tac
+summary: |-
+  tree by modify time with newest file at bottom

@@ -1,0 +1,8 @@
+commandlinefu_id: 8873
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  rsync -vau --exclude='.*' SOURCE-PATH/myfold TARGET-PATH
+summary: |-
+  snyc同步时候忽略隐藏文件

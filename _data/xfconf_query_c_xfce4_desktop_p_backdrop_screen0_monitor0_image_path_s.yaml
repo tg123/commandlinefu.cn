@@ -1,0 +1,8 @@
+commandlinefu_id: 2055
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s <image-file>
+summary: |-
+  Change wallpaper for xfce4 >= 4.6.0

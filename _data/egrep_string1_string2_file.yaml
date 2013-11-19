@@ -1,0 +1,8 @@
+commandlinefu_id: 1115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep 'string1|string2' file
+summary: |-
+  grep or

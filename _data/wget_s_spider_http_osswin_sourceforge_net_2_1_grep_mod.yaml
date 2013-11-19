@@ -1,0 +1,8 @@
+commandlinefu_id: 10624
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -S --spider http://osswin.sourceforge.net/ 2>&1 | grep Mod
+summary: |-
+  Find out how old a web page is

@@ -1,0 +1,8 @@
+commandlinefu_id: 9561
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias calc='python -ic "from math import *; from random import *"'
+summary: |-
+  Command line calculator

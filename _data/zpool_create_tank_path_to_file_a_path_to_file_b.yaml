@@ -1,0 +1,8 @@
+commandlinefu_id: 2187
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zpool create tank /path/to/file/a /path/to/file/b
+summary: |-
+  Creating a ZFS Storage Pool by Using Files

@@ -1,0 +1,8 @@
+commandlinefu_id: 6130
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen /dev/tty<device> 9600
+summary: |-
+  use screen as a terminal emulator to connect to serial consoles

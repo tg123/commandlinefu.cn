@@ -1,0 +1,8 @@
+commandlinefu_id: 4500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo - | sed -e :a -e 's/^.\{1,50\}$/&-/;ta'
+summary: |-
+  Print a row of 50 hyphens

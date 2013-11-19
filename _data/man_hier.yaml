@@ -1,0 +1,8 @@
+commandlinefu_id: 4671
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man hier
+summary: |-
+  Show File System Hierarchy

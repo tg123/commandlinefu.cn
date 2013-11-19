@@ -1,0 +1,8 @@
+commandlinefu_id: 9512
+translator:
+  weibo: ''
+hide: true
+command: |-
+  expandurl() { wget -S $1 2>&1 | grep ^Location; }
+summary: |-
+  Expand shortened URLs

@@ -1,0 +1,8 @@
+commandlinefu_id: 924
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://example.com/foo.tar.gz | tar zxvf -
+summary: |-
+  Extract a remote tarball in the current directory without having to save it locally

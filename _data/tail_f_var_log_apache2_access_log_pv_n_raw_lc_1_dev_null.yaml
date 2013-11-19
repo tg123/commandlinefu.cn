@@ -1,0 +1,8 @@
+commandlinefu_id: 10764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -F /var/log/apache2/access.log | pv -N RAW -lc 1>/dev/null
+summary: |-
+  Log Lines Per Second apache, nginx, haproxy and/or squid

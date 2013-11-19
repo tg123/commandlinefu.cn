@@ -1,0 +1,8 @@
+commandlinefu_id: 11534
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ctrl-x ctrl-x
+summary: |-
+  Quickly move the cursor to different parts of the command line based on a mark.

@@ -1,0 +1,8 @@
+commandlinefu_id: 1237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for vm in $(vmware-cmd -l);do echo -n "${vm} ";vmware-cmd ${vm} getstate|awk '{print $2 " " $3}';done
+summary: |-
+  VMware Server print out the state of all registered Virtual Machines.

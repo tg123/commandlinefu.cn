@@ -1,0 +1,8 @@
+commandlinefu_id: 8786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n "/^USE \`employees\`/,/^USE \`/p"
+summary: |-
+  MySQL: Slice out a specific database (assumes existence of the USE statement) from mysqldump output

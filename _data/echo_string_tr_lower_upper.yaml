@@ -1,0 +1,8 @@
+commandlinefu_id: 2310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo string | tr '[:lower:]' '[:upper:]'
+summary: |-
+  Convert string to uppercase

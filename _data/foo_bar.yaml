@@ -1,0 +1,8 @@
+commandlinefu_id: 19
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^foo^bar
+summary: |-
+  Runs previous command but replacing

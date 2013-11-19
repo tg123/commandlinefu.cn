@@ -1,0 +1,8 @@
+commandlinefu_id: 12201
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ^bar^foo^
+summary: |-
+  Runs previous command replacing foo by bar every time that foo appears

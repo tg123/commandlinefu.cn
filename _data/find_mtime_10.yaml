@@ -1,0 +1,8 @@
+commandlinefu_id: 5341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mtime +10
+summary: |-
+  Find files older than X, using find.

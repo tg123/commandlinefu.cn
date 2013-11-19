@@ -1,0 +1,8 @@
+commandlinefu_id: 8897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-file search iostat
+summary: |-
+  Find the package a command belongs to on debian-based distros

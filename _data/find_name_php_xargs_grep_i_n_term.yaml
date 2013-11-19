@@ -1,0 +1,8 @@
+commandlinefu_id: 1593
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name *.php | xargs grep -i -n 'TERM'
+summary: |-
+  Recursive file content search

@@ -1,0 +1,8 @@
+commandlinefu_id: 6995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo chmod -x /usr/lib/notify-osd/notify-osd
+summary: |-
+  Disable Ubuntu Notification

@@ -1,0 +1,8 @@
+commandlinefu_id: 10927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in G M K; do du -hx /var/ | grep [0-9]$i | sort -nr -k 1; done | less
+summary: |-
+  du and sort to find the biggest directories in defined filesystem

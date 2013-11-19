@@ -1,0 +1,8 @@
+commandlinefu_id: 5217
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diskutil list
+summary: |-
+  List all mounted drives and their accompanying partitions from OS X Terminal

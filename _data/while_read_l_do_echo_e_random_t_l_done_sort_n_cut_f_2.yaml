@@ -1,0 +1,8 @@
+commandlinefu_id: 9852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read l; do echo -e "$RANDOM\t$l"; done | sort -n | cut -f 2
+summary: |-
+  Poor man's unsort (randomize lines)

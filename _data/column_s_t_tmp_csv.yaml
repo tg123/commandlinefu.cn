@@ -1,0 +1,8 @@
+commandlinefu_id: 3622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  column -s, -t <tmp.csv
+summary: |-
+  Pretty Print a simple csv in the command line

@@ -1,0 +1,8 @@
+commandlinefu_id: 2331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir -p /cdrom/unnamed_cdrom ; mount -F hsfs -o ro `ls -al /dev/sr* |awk '{print "/dev/" $11}'` /cdrom/unnamed_cdrom
+summary: |-
+  Mount a CD-ROM on Solaris (SPARC)

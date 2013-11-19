@@ -1,0 +1,8 @@
+commandlinefu_id: 1749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  base64 -d <<< aHR0cDovL3d3dy50d2l0dGVyc2hlZXAuY29tL3Jlc3VsdHMucGhwP3U9Y29tbWFuZGxpbmVmdQo=
+summary: |-
+  I hate `echo X | Y`

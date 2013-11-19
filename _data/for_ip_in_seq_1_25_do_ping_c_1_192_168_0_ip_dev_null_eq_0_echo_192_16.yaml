@@ -1,0 +1,8 @@
+commandlinefu_id: 606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ip in $(seq 1 25); do ping -c 1 192.168.0.$ip>/dev/null; [ $? -eq 0 ] && echo "192.168.0.$ip UP" || : ; done
+summary: |-
+  how to like to know if a host is ON

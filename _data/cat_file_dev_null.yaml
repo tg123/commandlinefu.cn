@@ -1,0 +1,8 @@
+commandlinefu_id: 9682
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat <file> > /dev/null
+summary: |-
+  Load file into RAM (cache) for faster accessing for repeated usage

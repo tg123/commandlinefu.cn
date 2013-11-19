@@ -1,0 +1,8 @@
+commandlinefu_id: 9796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdfcrack <FILE>
+summary: |-
+  Find lost passwords of PDFs files

@@ -1,0 +1,8 @@
+commandlinefu_id: 11535
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.jpg; do identify -format '%f %b %Q %w %h' $file; done
+summary: |-
+  List image attributes from a folder of JPEG images

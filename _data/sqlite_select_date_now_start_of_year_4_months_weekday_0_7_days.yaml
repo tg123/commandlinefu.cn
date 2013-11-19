@@ -1,0 +1,8 @@
+commandlinefu_id: 8509
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite> select date('now', 'start of year', '+4 months', 'weekday 0', '+7 days');
+summary: |-
+  get Mother's Day

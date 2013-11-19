@@ -1,0 +1,8 @@
+commandlinefu_id: 1133
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -mtime +7 -exec ls -l {} \;
+summary: |-
+  Find files that are older than x days

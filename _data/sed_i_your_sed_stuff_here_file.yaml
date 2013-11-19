@@ -1,0 +1,8 @@
+commandlinefu_id: 2222
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 'your sed stuff here' file
+summary: |-
+  Simplification of "sed 'your sed stuff here' file > file2 && mv file2 file"

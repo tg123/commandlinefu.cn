@@ -1,0 +1,8 @@
+commandlinefu_id: 11025
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias pasteit="curl -F 'sprunge=<-' http://sprunge.us"
+summary: |-
+  Sprunge.us - CLI alternative to PasteBin.com

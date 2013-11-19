@@ -1,0 +1,8 @@
+commandlinefu_id: 12454
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -empty -type d -print0 | xargs -0 rmdir -p
+summary: |-
+  Recursively remove all empty directories

@@ -1,0 +1,8 @@
+commandlinefu_id: 8860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "$URL" |wc -c
+summary: |-
+  Retrieve the size of a file on a server

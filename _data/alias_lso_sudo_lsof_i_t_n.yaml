@@ -1,0 +1,8 @@
+commandlinefu_id: 2166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias lso="sudo lsof -i -T -n"
+summary: |-
+  alias for lsof -i -T -n

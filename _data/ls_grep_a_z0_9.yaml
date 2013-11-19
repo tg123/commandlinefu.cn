@@ -1,0 +1,8 @@
+commandlinefu_id: 7353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | grep  '^[A-Z0-9]*$'
+summary: |-
+  List only those files that has all uppercase letters in their names (e.g. README)

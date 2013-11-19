@@ -1,0 +1,8 @@
+commandlinefu_id: 9262
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # dmidecode --type 9
+summary: |-
+  Display hardware information about PCI / PCIe Slots

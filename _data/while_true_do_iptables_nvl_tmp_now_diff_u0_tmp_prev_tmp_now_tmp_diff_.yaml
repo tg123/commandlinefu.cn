@@ -1,0 +1,8 @@
+commandlinefu_id: 10597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do iptables -nvL > /tmp/now; diff -U0 /tmp/prev /tmp/now > /tmp/diff; clear; cat /tmp/diff; mv /tmp/now /tmp/prev; slee p 1; done
+summary: |-
+  watch iptables counters

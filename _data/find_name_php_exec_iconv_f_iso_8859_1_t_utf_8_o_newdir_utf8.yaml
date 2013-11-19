@@ -1,0 +1,8 @@
+commandlinefu_id: 629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" -exec iconv -f ISO-8859-1 -t UTF-8 {} -o ../newdir_utf8/{} \;
+summary: |-
+  Batch convert files to utf-8

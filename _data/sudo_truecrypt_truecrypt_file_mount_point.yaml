@@ -1,0 +1,8 @@
+commandlinefu_id: 4975
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo truecrypt <truecrypt-file> <mount-point>
+summary: |-
+  Mount a truecrypt drive from a file from the command line interactively

@@ -1,0 +1,8 @@
+commandlinefu_id: 7051
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-add-repository 'deb http://archive.offensive-security.com pwnsauce main microverse macroverse restricted universe multiverse' && wget -q http://archive.offensive-security.com/backtrack.gpg -O- | sudo apt-key add -
+summary: |-
+  BackTrack Repos

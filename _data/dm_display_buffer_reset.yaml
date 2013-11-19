@@ -1,0 +1,8 @@
+commandlinefu_id: 3175
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dm display-buffer reset
+summary: |-
+  Resolve the "all display buffers are busy, please try later" error on a Foundry

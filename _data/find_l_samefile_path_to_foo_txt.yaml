@@ -1,0 +1,8 @@
+commandlinefu_id: 10366
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -L / -samefile path/to/foo.txt
+summary: |-
+  find all symlinks to a file

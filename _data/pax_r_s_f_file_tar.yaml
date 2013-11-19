@@ -1,0 +1,8 @@
+commandlinefu_id: 2512
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pax -r -s ',^/,,' -f file.tar
+summary: |-
+  Untar file with absolute pathname to relative location

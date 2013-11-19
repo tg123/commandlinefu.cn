@@ -1,0 +1,8 @@
+commandlinefu_id: 9835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvs -Q status | perl -ne 'print if m/^File.+Status: (?!Up-to-date)/ .. m/^=/;'
+summary: |-
+  List only locally modified files with CVS

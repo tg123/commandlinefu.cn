@@ -1,0 +1,8 @@
+commandlinefu_id: 8586
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n -e 1186,1210p A-small-practice.in
+summary: |-
+  Extract specific lines from a text file using Stream Editor (sed)

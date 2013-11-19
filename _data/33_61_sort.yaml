@@ -1,0 +1,8 @@
+commandlinefu_id: 8419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :33,61 !sort
+summary: |-
+  Sort specific lines while editing within vi

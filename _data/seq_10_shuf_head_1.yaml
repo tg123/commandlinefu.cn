@@ -1,0 +1,8 @@
+commandlinefu_id: 11551
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 10| shuf | head -1
+summary: |-
+  Generate random number with shuf

@@ -1,0 +1,8 @@
+commandlinefu_id: 9648
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshostnew () {sed -i "$1d" $HOME/.ssh/known_hosts ; }
+summary: |-
+  ssh hostchange know_host improver

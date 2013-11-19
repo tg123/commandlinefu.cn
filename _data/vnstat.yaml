@@ -1,0 +1,8 @@
+commandlinefu_id: 3224
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vnstat
+summary: |-
+  Get the information about the internet usage from the commandline.

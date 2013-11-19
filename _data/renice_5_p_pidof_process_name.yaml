@@ -1,0 +1,8 @@
+commandlinefu_id: 4614
+translator:
+  weibo: ''
+hide: true
+command: |-
+  renice +5 -p $(pidof <process name>)
+summary: |-
+  renice by name

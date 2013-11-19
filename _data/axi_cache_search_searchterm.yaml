@@ -1,0 +1,8 @@
+commandlinefu_id: 5992
+translator:
+  weibo: ''
+hide: true
+command: |-
+  axi-cache search <searchterm>
+summary: |-
+  A better 'apt-cache' using Xapian to rank results

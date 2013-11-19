@@ -1,0 +1,8 @@
+commandlinefu_id: 12570
+translator:
+  weibo: ''
+hide: true
+command: |-
+  open() { if [[ $1 ]]; then explorer /e, $(cygpath -wap "$1"); else explorer /e, $(cygpath -wap `pwd`); fi }
+summary: |-
+  Opens an explorer.exe file browser window for the current working directory

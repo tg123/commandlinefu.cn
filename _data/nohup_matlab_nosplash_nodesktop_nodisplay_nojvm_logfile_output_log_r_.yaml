@@ -1,0 +1,8 @@
+commandlinefu_id: 11202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup matlab -nosplash -nodesktop -nodisplay -nojvm -logfile output.log -r "function(0)" >output &
+summary: |-
+  invoke MATLAB functions from command line

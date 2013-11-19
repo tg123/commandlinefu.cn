@@ -1,0 +1,8 @@
+commandlinefu_id: 9539
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gsettings set org.gnome.desktop.background picture-uri file://"$(find ~/Wallpapers -type f | shuf -n1)"
+summary: |-
+  Change Random Wallpaper on Gnome 3

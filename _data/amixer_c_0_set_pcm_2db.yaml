@@ -1,0 +1,8 @@
+commandlinefu_id: 1160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  amixer -c 0 set PCM 2dB+
+summary: |-
+  sets volume via command line

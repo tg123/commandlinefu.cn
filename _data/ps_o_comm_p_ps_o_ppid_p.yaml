@@ -1,0 +1,8 @@
+commandlinefu_id: 2848
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o comm= -p $(ps -o ppid= -p $$)
+summary: |-
+  Who invoked me? / Get parent command

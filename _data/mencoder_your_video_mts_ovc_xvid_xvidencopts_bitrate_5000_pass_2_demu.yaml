@@ -1,0 +1,8 @@
+commandlinefu_id: 11164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder YOUR_VIDEO.MTS -ovc xvid -xvidencopts bitrate=5000:pass=2 -demuxer lavf -sws 3  -mc 0 -fps 25 -ofps 50 -oac mp3lame -lameopts cbr:br=128 -o YOUR_VIDEO.avi
+summary: |-
+  convert MTS video file format into xvid/mp3 avi format

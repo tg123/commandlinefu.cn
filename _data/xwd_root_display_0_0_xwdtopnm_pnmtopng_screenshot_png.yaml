@@ -1,0 +1,8 @@
+commandlinefu_id: 6911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xwd -root -display :0.0| xwdtopnm | pnmtopng > Screenshot.png
+summary: |-
+  Take screenshot through SSH

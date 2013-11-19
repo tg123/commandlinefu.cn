@@ -1,0 +1,8 @@
+commandlinefu_id: 12719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/zero > /dev/sda
+summary: |-
+  dd if=/dev/null of=/dev/sda

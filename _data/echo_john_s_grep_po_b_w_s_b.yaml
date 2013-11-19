@@ -1,0 +1,8 @@
+commandlinefu_id: 8842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "John's" | grep -Po '\b\w+(?<!s)\b'
+summary: |-
+  Lookaround in grep

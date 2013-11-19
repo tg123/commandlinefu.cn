@@ -1,0 +1,8 @@
+commandlinefu_id: 9294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  crontest () { date '-d +2 minutes' +'%M %k %d %m *'; }
+summary: |-
+  Print a cron formatted time for 2 minutes in the future (for crontab testing)

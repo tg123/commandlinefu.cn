@@ -1,0 +1,8 @@
+commandlinefu_id: 6507
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i file.flv file.avi
+summary: |-
+  Convert .flv to .avi

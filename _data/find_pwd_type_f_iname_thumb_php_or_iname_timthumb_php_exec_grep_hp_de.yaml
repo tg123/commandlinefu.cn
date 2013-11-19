@@ -1,0 +1,8 @@
+commandlinefu_id: 9954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find `pwd` -type f \( -iname thumb.php -or -iname timthumb.php \) -exec grep -HP 'define ?\(.VERSION' {} \;
+summary: |-
+  Look for timthumb.php or thumb.php and get its version.

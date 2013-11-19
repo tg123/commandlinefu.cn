@@ -1,0 +1,8 @@
+commandlinefu_id: 10002
+translator:
+  weibo: ''
+hide: true
+command: |-
+  youtube-dl -o bun.flv http://www.youtube.com/watch?v=SfPLcQhXpCc; mplayer bun.flv -ss 03:16 -endpos 5 -vo jpeg:outdir=bun:quality=100:smooth=30:progressive -vf scale=320:240 -nosound; convert -delay 4 -loop 0 bun/*.jpg bun.gif
+summary: |-
+  Create an animated gif from a Youtube video

@@ -1,0 +1,8 @@
+commandlinefu_id: 2953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -p -i -e 's/this/that/g' filename
+summary: |-
+  Replace Every occurrence of a word in a file

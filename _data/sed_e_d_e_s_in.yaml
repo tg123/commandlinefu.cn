@@ -1,0 +1,8 @@
+commandlinefu_id: 10104
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e '/^#/d' -e 's/#.*$//' in
+summary: |-
+  Remove comments from files

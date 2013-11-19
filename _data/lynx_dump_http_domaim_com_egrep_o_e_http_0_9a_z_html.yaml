@@ -1,0 +1,8 @@
+commandlinefu_id: 6524
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump http://domaim.com | egrep -o -e 'http://[/0-9a-z.]+html'
+summary: |-
+  Get all links of a website

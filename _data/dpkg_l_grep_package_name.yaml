@@ -1,0 +1,8 @@
+commandlinefu_id: 9618
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg -l | grep (package name)
+summary: |-
+  to know which package in Ubuntu is install

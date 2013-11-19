@@ -1,0 +1,8 @@
+commandlinefu_id: 3285
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  nmap -R -sL 209.85.229.99/27 | awk '{if($3=="not")print"("$2") no PTR";else print$3" is "$2}' | grep '('
+summary: |-
+  列出反向dns

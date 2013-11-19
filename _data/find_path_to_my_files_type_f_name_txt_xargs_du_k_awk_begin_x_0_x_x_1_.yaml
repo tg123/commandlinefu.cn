@@ -1,0 +1,8 @@
+commandlinefu_id: 1921
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/my/files/ -type f -name "*txt*" | xargs du -k | awk 'BEGIN{x=0}{x=x+$1}END{print x}'
+summary: |-
+  Summarise the size of all files matching a simple regex

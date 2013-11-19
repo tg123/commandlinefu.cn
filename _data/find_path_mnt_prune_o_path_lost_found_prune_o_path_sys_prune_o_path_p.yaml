@@ -1,0 +1,8 @@
+commandlinefu_id: 2037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -path ./mnt -prune -o -path ./lost+found -prune -o -path ./sys -prune -o -path ./proc -prune -o -print | cpio -pumd /destination && mkdir /destination/mnt/ && mkdir /destination/proc && mkdir /destination/sys
+summary: |-
+  Clone /

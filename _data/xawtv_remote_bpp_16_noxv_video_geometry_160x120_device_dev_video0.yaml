@@ -1,0 +1,8 @@
+commandlinefu_id: 912
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  xawtv -remote -bpp 16 -noxv-video -geometry 160x120 -device /dev/video0
+summary: |-
+  通过ssh链接查看远程机器的摄像头

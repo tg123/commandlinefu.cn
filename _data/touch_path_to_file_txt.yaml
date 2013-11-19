@@ -1,0 +1,8 @@
+commandlinefu_id: 7442
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch /path/to/file.txt
+summary: |-
+  Create a new file

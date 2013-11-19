@@ -1,0 +1,8 @@
+commandlinefu_id: 4524
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i=0; for f in $(find ./ -size -10M -exec stat -c %s {} \; ); do i=$(($i + $f)); done; echo $i
+summary: |-
+  Find all files <10MB and sum up their size

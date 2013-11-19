@@ -1,0 +1,8 @@
+commandlinefu_id: 7728
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for domain in $(pwgen -1A0B 6 10); do echo -ne "$domain.com "; if [ -z "$(whois -H $domain.com | grep -o 'No match for')" ];  then echo -ne "Not "; fi; echo "Available for register"; done
+summary: |-
+  A "Web 2.0" domain name generator and look for register availability

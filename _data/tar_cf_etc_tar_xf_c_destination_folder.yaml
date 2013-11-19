@@ -1,0 +1,8 @@
+commandlinefu_id: 9422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cf - /etc | tar -xf - -C </destination/folder>
+summary: |-
+  Real full backup copy of /etc folder

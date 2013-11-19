@@ -1,0 +1,8 @@
+commandlinefu_id: 2346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1 | sed -e's/:$//g' | grep -v '[0-9]$' | xargs tail -f
+summary: |-
+  Monitor logs in Linux using Tail

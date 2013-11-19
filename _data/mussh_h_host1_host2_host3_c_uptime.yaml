@@ -1,0 +1,8 @@
+commandlinefu_id: 6471
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mussh -h host1 host2 host3 -c uptime
+summary: |-
+  run command on a group of nodes

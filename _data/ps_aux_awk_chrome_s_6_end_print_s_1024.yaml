@@ -1,0 +1,8 @@
+commandlinefu_id: 12296
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | awk '/chrome/ {s+=$6}END{print s/1024}';
+summary: |-
+  Chrome sucks

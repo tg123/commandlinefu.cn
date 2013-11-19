@@ -1,0 +1,8 @@
+commandlinefu_id: 8530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  list the naming contexts of a directory server (no need to search in config files)
+summary: |-
+  ldapsearch  -x  -s base namingContexts -LLL

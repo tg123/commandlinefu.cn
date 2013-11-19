@@ -1,0 +1,8 @@
+commandlinefu_id: 10619
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aspell -d en dump master | aspell -l en expand > words
+summary: |-
+  Dump an aspell dictionary as a word list

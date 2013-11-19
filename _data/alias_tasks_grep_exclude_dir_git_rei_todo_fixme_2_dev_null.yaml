@@ -1,0 +1,8 @@
+commandlinefu_id: 12833
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias tasks='grep --exclude-dir=.git -rEI "TODO|FIXME" . 2>/dev/null'
+summary: |-
+  Get a list of all TODO/FIXME tasks left to be done in your project

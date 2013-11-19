@@ -1,0 +1,8 @@
+commandlinefu_id: 8082
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -r .[!.]*
+summary: |-
+  Deal with dot files safely

@@ -1,0 +1,8 @@
+commandlinefu_id: 7732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -mtime +100 -exec tar rvf my.tar --remove-files {} \;
+summary: |-
+  tar and remove files which are older that 100 days

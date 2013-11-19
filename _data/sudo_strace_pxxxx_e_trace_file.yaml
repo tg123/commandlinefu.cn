@@ -1,0 +1,8 @@
+commandlinefu_id: 4191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo strace -pXXXX -e trace=file
+summary: |-
+  Determine what an process is actually doing

@@ -1,0 +1,8 @@
+commandlinefu_id: 4573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exipick -zi | xargs exim -Mrm
+summary: |-
+  Purge frozen messages in Exim

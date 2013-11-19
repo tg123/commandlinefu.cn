@@ -1,0 +1,8 @@
+commandlinefu_id: 10415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/dir -iname "*.ext" -print0 | xargs -0 mplayer -really-quiet -cache 64 -vo dummy -ao dummy -identify 2>/dev/null | awk '/ID_LENGTH/{gsub(/ID_LENGTH=/,"")}{SUM += $1}END{ printf "%02d:%02d:%02d\n",SUM/3600,SUM%3600/60,SUM%60}'
+summary: |-
+  Get the total length of all video / audio in the current dir (and below) in H:m:s

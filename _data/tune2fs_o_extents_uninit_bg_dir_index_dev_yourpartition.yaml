@@ -1,0 +1,8 @@
+commandlinefu_id: 2486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tune2fs -O extents,uninit_bg,dir_index /dev/yourpartition
+summary: |-
+  Migrate existing Ext3 filesystems to Ext4

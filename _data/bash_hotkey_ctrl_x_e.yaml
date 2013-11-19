@@ -1,0 +1,8 @@
+commandlinefu_id: 3181
+translator:
+  weibo: tgic
+hide: false
+command: |
+  bash-hotkey: <CTRL+x+e>
+summary: |-
+  把当前的命令行存放到文本编辑器中

@@ -1,0 +1,8 @@
+commandlinefu_id: 7638
+translator:
+  weibo: ''
+hide: true
+command: |-
+  whois -H $(cat ./list_of_domains) | awk 'BEGIN{RS=""}/Registrant/,/Registration Service Provider:/ {print} END{print "----------------\n"}'
+summary: |-
+  List contact infomation for Domain list

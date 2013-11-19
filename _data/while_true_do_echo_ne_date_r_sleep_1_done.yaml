@@ -1,0 +1,8 @@
+commandlinefu_id: 4080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do echo -ne "$(date)\r"; sleep 1; done
+summary: |-
+  Carriage return for reprinting on the same line

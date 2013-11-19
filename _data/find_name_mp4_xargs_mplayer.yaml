@@ -1,0 +1,8 @@
+commandlinefu_id: 264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~ -name '*.mp4' | xargs mplayer
+summary: |-
+  play all mp4 files on home directory

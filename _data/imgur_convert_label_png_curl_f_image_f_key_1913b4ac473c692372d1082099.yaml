@@ -1,0 +1,8 @@
+commandlinefu_id: 9346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  imgur(){ convert label:@- png:-|curl -F "image=@-" -F "key=1913b4ac473c692372d108209958fd15" http://api.imgur.com/2/upload.xml|grep -Eo "<original>(.)*</original>" | grep -Eo "http://i.imgur.com/[^<]*";}
+summary: |-
+  Using PIPEs, Execute a command, convert output to .png file, upload file to imgur.com, then returning the address of the .png.

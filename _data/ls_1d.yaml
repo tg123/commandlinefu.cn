@@ -1,0 +1,8 @@
+commandlinefu_id: 8987
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ls -1d */
+summary: |-
+  只列出目录

@@ -1,0 +1,8 @@
+commandlinefu_id: 2978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  img test.jpg
+summary: |-
+  Preview of a picture in a terminal

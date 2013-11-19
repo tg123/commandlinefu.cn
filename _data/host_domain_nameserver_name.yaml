@@ -1,0 +1,8 @@
+commandlinefu_id: 3672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host <domain> <nameserver name>
+summary: |-
+  Checking DNS zone on Name servers directly

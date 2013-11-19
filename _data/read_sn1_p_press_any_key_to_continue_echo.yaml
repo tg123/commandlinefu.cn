@@ -1,0 +1,8 @@
+commandlinefu_id: 5354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -sn1 -p "Press any key to continue..."; echo
+summary: |-
+  bash pause command

@@ -1,0 +1,8 @@
+commandlinefu_id: 12037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "s/\b\(.\)/\u\1/g"
+summary: |-
+  Capitalize the first letter of every word

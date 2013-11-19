@@ -1,0 +1,8 @@
+commandlinefu_id: 2704
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -p <process_id> | wc -l
+summary: |-
+  View open file descriptors for a process.

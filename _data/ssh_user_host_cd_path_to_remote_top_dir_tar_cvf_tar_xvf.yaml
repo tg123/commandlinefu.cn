@@ -1,0 +1,8 @@
+commandlinefu_id: 1801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host "(cd /path/to/remote/top/dir ; tar cvf - ./*)" | tar xvf -
+summary: |-
+  Copy files and directories from a remote machine to the local machine

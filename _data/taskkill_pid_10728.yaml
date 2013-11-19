@@ -1,0 +1,8 @@
+commandlinefu_id: 11116
+translator:
+  weibo: ''
+hide: true
+command: |-
+  taskkill /pid 10728
+summary: |-
+  Kill process by pid

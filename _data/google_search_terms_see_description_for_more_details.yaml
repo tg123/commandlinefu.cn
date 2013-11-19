@@ -1,0 +1,8 @@
+commandlinefu_id: 8764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  google "search terms" #see description for more details
+summary: |-
+  search google on any OS

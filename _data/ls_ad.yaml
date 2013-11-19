@@ -1,0 +1,8 @@
+commandlinefu_id: 9863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ad */
+summary: |-
+  ls only directories

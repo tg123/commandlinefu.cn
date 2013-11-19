@@ -1,0 +1,8 @@
+commandlinefu_id: 11099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet miku.acm.uiuc.edu
+summary: |-
+  Get Nyan'd

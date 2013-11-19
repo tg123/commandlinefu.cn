@@ -1,0 +1,8 @@
+commandlinefu_id: 3351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dd if=/dev/hda1 of=/dev/hdb2
+summary: |-
+  Clone IDE Hard Disk

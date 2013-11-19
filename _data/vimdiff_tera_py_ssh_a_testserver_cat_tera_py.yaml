@@ -1,0 +1,8 @@
+commandlinefu_id: 118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vimdiff tera.py <(ssh -A testserver "cat tera.py")
+summary: |-
+  vimdiff to remotehost

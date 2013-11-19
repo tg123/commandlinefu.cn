@@ -1,0 +1,8 @@
+commandlinefu_id: 4139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -name $1 -exec grep -H -n $2 '{}' ';'
+summary: |-
+  Find in all files in the current directory, just a find shorthand

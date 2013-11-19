@@ -1,0 +1,8 @@
+commandlinefu_id: 1590
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias mux='clear && cd ~/Music/ && ls && echo -n "File> " && read msi && mplayer ~/Music/$msi'
+summary: |-
+  Quick alias for playing music.

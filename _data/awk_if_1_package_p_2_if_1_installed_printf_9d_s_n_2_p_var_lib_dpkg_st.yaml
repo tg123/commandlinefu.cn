@@ -1,0 +1,8 @@
+commandlinefu_id: 7295
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{if ($1 ~ /Package/) p = $2; if ($1 ~ /Installed/) printf("%9d %s\n", $2, p)}'  /var/lib/dpkg/status | sort -n | tail
+summary: |-
+  List your largest installed packages (on Debian/Ubuntu)

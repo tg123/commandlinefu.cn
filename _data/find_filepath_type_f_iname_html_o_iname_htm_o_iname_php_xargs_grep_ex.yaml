@@ -1,0 +1,8 @@
+commandlinefu_id: 4681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find filepath -type f -iname "*.html" -o -iname "*.htm" -o -iname "*.php" | xargs grep "Exception\|LGPL\|CODE1"
+summary: |-
+  Simple Gumblar check command

@@ -1,0 +1,8 @@
+commandlinefu_id: 10692
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar zcpvf backup.tgz $(find $HOME -maxdepth 1 -name '.*' -and -not -name '.')
+summary: |-
+  Backup hidden files and folders in home directory

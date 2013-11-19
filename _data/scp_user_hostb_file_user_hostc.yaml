@@ -1,0 +1,8 @@
+commandlinefu_id: 809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp user@hostb:file user@hostc:
+summary: |-
+  scp file from hostb to hostc while logged into hosta

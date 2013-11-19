@@ -1,0 +1,8 @@
+commandlinefu_id: 5323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux|grep -i [p]rocessname|awk '{ print $2 }'|xargs kill
+summary: |-
+  search for and kill a process in one blow

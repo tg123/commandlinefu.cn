@@ -1,0 +1,8 @@
+commandlinefu_id: 2982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "ps auxw | grep [d]efunct"
+summary: |-
+  Get a regular updated list of zombies

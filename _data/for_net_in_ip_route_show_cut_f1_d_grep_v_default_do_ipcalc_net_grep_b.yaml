@@ -1,0 +1,8 @@
+commandlinefu_id: 6676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for net in $(ip route show | cut -f1 -d\  | grep -v default); do ipcalc $net | grep Broadcast | cut -d\  -f 2; done
+summary: |-
+  List all broadcast addresses for the routes on your host.

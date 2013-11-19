@@ -1,0 +1,8 @@
+commandlinefu_id: 6689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yt () mplayer -fs -quiet $(youtube-dl -g "$1")
+summary: |-
+  Stream YouTube URL directly to MPlayer

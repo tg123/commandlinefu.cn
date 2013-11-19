@@ -1,0 +1,8 @@
+commandlinefu_id: 4871
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *.jpg | grep -n ""  | sed 's,.*,0000&,' | sed 's,0*\(...\):\(.*\).jpg,mv "\2.jpg" "image-\1.jpg",' | sh
+summary: |-
+  rename all jpg files with a prefix and a counter

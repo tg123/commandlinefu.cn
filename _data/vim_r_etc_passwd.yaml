@@ -1,0 +1,8 @@
+commandlinefu_id: 12305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim -R /etc/passwd
+summary: |-
+  Open a file using vim in read only (like less)

@@ -1,0 +1,8 @@
+commandlinefu_id: 5839
+translator:
+  weibo: ''
+hide: true
+command: |-
+  acpi -a
+summary: |-
+  Check whether laptop is running on battery or cable

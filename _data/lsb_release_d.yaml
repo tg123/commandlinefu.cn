@@ -1,0 +1,8 @@
+commandlinefu_id: 2121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsb_release -d
+summary: |-
+  Find which version of Linux You are Running

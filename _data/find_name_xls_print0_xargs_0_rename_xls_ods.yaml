@@ -1,0 +1,8 @@
+commandlinefu_id: 8855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name "*.xls" -print0 | xargs -0  rename .xls .ods {}
+summary: |-
+  Command to rename multiple file in one go

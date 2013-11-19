@@ -1,0 +1,8 @@
+commandlinefu_id: 8615
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ff() { local IFS='|'; grep -rinE "$*" . ; }
+summary: |-
+  Content search.

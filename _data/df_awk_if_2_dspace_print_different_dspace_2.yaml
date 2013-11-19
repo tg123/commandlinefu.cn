@@ -1,0 +1,8 @@
+commandlinefu_id: 11982
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df | awk '{if ($2!=dspace) print "different"; dspace=$2;}'
+summary: |-
+  Useful to check if the disks as of same size or not. Helpful in checking Raid configs

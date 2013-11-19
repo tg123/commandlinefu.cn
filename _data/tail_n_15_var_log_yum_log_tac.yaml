@@ -1,0 +1,8 @@
+commandlinefu_id: 1301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -n 15 /var/log/yum.log | tac
+summary: |-
+  Check the last 15 package operations (on yum systems)

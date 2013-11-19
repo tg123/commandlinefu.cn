@@ -1,0 +1,8 @@
+commandlinefu_id: 11389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias pp='python -mjson.tool | pygmentize -l javascript'
+summary: |-
+  Colorized JSON pretty printing

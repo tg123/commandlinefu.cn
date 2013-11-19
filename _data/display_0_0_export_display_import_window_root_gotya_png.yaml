@@ -1,0 +1,8 @@
+commandlinefu_id: 4875
+translator:
+  weibo: ''
+hide: true
+command: |-
+  DISPLAY=":0.0"; export DISPLAY; import -window root gotya.png
+summary: |-
+  Remote screenshot

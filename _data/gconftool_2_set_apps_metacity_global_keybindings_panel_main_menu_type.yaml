@@ -1,0 +1,8 @@
+commandlinefu_id: 6478
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gconftool-2 --set /apps/metacity/global_keybindings/panel_main_menu --type string "Super_L"
+summary: |-
+  On Linux boxes, sets the

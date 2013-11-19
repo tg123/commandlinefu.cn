@@ -1,0 +1,8 @@
+commandlinefu_id: 7534
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hexdump -v -e '"\\""x" 1/1 "%02x" ""' <bin_file>
+summary: |-
+  convert binary data to shellcode

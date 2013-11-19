@@ -1,0 +1,8 @@
+commandlinefu_id: 5618
+translator:
+  weibo: ''
+hide: true
+command: |-
+  utime(){ awk -v d=$1 'BEGIN{print strftime("%a %b %d %H:%M:%S %Y", d)}'; }
+summary: |-
+  Easily decode unix-time (funtion)

@@ -1,0 +1,8 @@
+commandlinefu_id: 12294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svg2png(){ png="${1%.*}.png"; inkscape --export-png="$png" --without-gui "$1" && pngcrush -brute -rem alla -rem text "$png" "$png.new" && mv "$png.new" "$png";}
+summary: |-
+  Convert an SVG to png and crush filesize

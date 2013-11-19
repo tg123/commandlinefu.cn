@@ -1,0 +1,8 @@
+commandlinefu_id: 5999
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sh -c 'if pgrep x2vnc && env LC_ALL=C xmessage -button "Kill it:0,Ignore it:1" "Another connection is already running. Should I kill it instead of ignoring it?"; then killall x2vnc; fi; x2vnc -passwd /home/Ariel/.vnc/passwd -east emerson:0'
+summary: |-
+  create an application launcher shortcut that allow only one process of it running

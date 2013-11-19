@@ -1,0 +1,8 @@
+commandlinefu_id: 6173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i 's/[ \t]*$//' file
+summary: |-
+  Remove space and/or tab characters at the end of line

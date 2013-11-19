@@ -1,0 +1,8 @@
+commandlinefu_id: 8799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdfimages -j foo.pdf bar
+summary: |-
+  Extract JPEG images from a PDF document

@@ -1,0 +1,8 @@
+commandlinefu_id: 3451
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function sepath { echo $PATH |tr ":" "\n" |sort -u |while read L ; do cd "$L" 2>/dev/null && find . \( ! -name . -prune \) \( -type f -o -type l \) 2>/dev/null |sed "s@^\./@@" |egrep -i "${*}" |sed "s@^@$L/@" ; done ; }
+summary: |-
+  search for a file in PATH

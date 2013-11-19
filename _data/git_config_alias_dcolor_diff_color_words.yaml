@@ -1,0 +1,8 @@
+commandlinefu_id: 11156
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git config alias.dcolor "diff --color-words"
+summary: |-
+  Better git diff, word delimited and colorized

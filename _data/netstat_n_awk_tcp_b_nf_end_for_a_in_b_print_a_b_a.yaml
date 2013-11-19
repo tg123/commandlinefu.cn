@@ -1,0 +1,8 @@
+commandlinefu_id: 5453
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -n | awk '/^tcp/ {++B[$NF]} END {for(a in B) print a, B[a]}'
+summary: |-
+  see the TIME_WAIT and ESTABLISHED nums of the network

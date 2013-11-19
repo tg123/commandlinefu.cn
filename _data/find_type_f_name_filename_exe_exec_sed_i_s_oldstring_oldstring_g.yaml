@@ -1,0 +1,8 @@
+commandlinefu_id: 12353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name filename.exe -exec sed -i "s/oldstring/oldstring/g" {} +;
+summary: |-
+  Recursively search and replace old with new string, inside every instance of filename.ext

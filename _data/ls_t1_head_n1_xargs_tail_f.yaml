@@ -1,0 +1,8 @@
+commandlinefu_id: 2796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -t1 | head -n1 | xargs tail -f
+summary: |-
+  Tail the most recently modified file

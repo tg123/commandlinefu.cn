@@ -1,0 +1,8 @@
+commandlinefu_id: 12074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zmv '* *' '$f:gs/ /_'
+summary: |-
+  replace spaces in filenames with underscores

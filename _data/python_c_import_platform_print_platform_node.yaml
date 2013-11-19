@@ -1,0 +1,8 @@
+commandlinefu_id: 5138
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "import platform; print platform.node()"
+summary: |-
+  Print your local hostname with python

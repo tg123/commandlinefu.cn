@@ -1,0 +1,8 @@
+commandlinefu_id: 11338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :h `subject` | only
+summary: |-
+  show help text only in Vim

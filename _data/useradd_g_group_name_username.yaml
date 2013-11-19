@@ -1,0 +1,8 @@
+commandlinefu_id: 12870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  useradd -G {group-name} username
+summary: |-
+  Add a user to a group

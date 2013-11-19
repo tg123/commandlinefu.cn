@@ -1,0 +1,8 @@
+commandlinefu_id: 645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/null >filename
+summary: |-
+  emptying a file

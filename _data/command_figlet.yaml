@@ -1,0 +1,8 @@
+commandlinefu_id: 2078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command | figlet
+summary: |-
+  Make anything more awesome

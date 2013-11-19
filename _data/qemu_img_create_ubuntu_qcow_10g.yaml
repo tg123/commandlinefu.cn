@@ -1,0 +1,8 @@
+commandlinefu_id: 9484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qemu-img create ubuntu.qcow 10G
+summary: |-
+  Create ubuntu.qcow image, limit size 10G

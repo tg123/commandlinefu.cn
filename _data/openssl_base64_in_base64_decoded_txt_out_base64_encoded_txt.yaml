@@ -1,0 +1,8 @@
+commandlinefu_id: 6323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl base64 -in base64.decoded.txt -out base64.encoded.txt
+summary: |-
+  Encode/Decode text to/from Base64 on a Mac w/out Mac Ports

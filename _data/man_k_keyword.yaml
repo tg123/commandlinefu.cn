@@ -1,0 +1,8 @@
+commandlinefu_id: 787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -k <keyword>
+summary: |-
+  Search manpages for a keyword

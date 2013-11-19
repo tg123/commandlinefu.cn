@@ -1,0 +1,8 @@
+commandlinefu_id: 10578
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./src -type d -name "Entity" | xargs ls -A | cut -d . -f1 | sed 's_^_app/console doctrine:generate:entities YourOwnBundleName:_'
+summary: |-
+  Listing all your bundles Entities files to issue a doctrine:generate:entities

@@ -1,0 +1,8 @@
+commandlinefu_id: 11757
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FILE='mp3.list';LNNO=`wc -l $FILE|cut -d' ' -f 1`;LIST=( `cat $FILE` );for((;;)) do SEED=$((RANDOM % $LNNO));RNNO=$(python -c "print int('`openssl rand -rand ${LIST[$SEED]} 8 -hex 2>/dev/null`', 16) % $LNNO");mplayer ${LIST[$RNNO]};sleep 2s; done
+summary: |-
+  Random music player

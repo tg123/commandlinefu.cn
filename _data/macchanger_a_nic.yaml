@@ -1,0 +1,8 @@
+commandlinefu_id: 7239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  macchanger -A (nic)
+summary: |-
+  Generate random valid mac addresses

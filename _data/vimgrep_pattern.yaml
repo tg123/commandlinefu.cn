@@ -1,0 +1,8 @@
+commandlinefu_id: 11700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :vimgrep pattern %
+summary: |-
+  Grep inside Vim and navigate results

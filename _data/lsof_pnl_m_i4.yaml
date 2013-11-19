@@ -1,0 +1,8 @@
+commandlinefu_id: 9584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -Pnl +M -i4
+summary: |-
+  List open IPv4 connections

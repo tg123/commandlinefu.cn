@@ -1,0 +1,8 @@
+commandlinefu_id: 8759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --spider $URL 2>&1 | awk '/Length/ {print $2}'
+summary: |-
+  Retrieve the size of a file on a server

@@ -1,0 +1,8 @@
+commandlinefu_id: 5005
+translator:
+  weibo: ''
+hide: true
+command: |-
+  0 10 * * * rsync -rau /[VIPdirectory] X.X.X.X:/backup/[VIPdirectory]
+summary: |-
+  simple backup with rsync

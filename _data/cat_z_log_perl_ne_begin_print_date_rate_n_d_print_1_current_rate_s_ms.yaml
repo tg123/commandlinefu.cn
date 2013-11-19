@@ -1,0 +1,8 @@
+commandlinefu_id: 10537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat z.log |  perl -ne 'BEGIN{ print "DATE;RATE\n"; } /\[(\d.*)\]/ && print $1; /CURRENT RATE: +(\S+) msg.*/ && print ";" .$1 . "\n"; '
+summary: |-
+  multiline data block parse and CSV data extraction with perl

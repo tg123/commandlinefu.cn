@@ -1,0 +1,8 @@
+commandlinefu_id: 4102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du | sort -nr | cut -f2- | xargs du -hs
+summary: |-
+  Show sorted list of files with sizes more than 1MB in the current dir

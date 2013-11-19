@@ -1,0 +1,8 @@
+commandlinefu_id: 2559
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 2+3 |bc
+summary: |-
+  Calculator on the go

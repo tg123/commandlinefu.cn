@@ -1,0 +1,8 @@
+commandlinefu_id: 11673
+translator:
+  weibo: tgic
+hide: false
+command: |
+  /sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+summary: |-
+  获取ip

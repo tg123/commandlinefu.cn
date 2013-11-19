@@ -1,0 +1,8 @@
+commandlinefu_id: 5737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  UNIQUE_BY_MAC=$(ifconfig |grep eth0|awk '{ print strtonum("0x"substr($6,16,2)) }')
+summary: |-
+  Unique number by Mac Address

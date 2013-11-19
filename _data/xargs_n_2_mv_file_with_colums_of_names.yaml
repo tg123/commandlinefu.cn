@@ -1,0 +1,8 @@
+commandlinefu_id: 7414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xargs -n 2 mv < file_with_colums_of_names
+summary: |-
+  rename files according to file with colums of corresponding names

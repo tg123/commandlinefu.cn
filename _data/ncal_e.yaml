@@ -1,0 +1,8 @@
+commandlinefu_id: 1842
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ncal -e
+summary: |-
+  复活节日期

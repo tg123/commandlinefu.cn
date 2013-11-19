@@ -1,0 +1,8 @@
+commandlinefu_id: 1166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa --qf '%{name}-%{version}-%{release}.%{arch}\n'|egrep 'compat|glibc|gcc|libst|binu'|sort
+summary: |-
+  Get information about libraries currently installed on a system.

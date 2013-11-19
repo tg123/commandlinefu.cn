@@ -1,0 +1,8 @@
+commandlinefu_id: 11342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [ 1 ] ; do echo -en "$(date +%T)\r" ; sleep 1; done
+summary: |-
+  Create a continuous digital clock in Linux terminal

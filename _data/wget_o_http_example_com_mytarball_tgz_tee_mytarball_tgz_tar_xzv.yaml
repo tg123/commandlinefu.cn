@@ -1,0 +1,8 @@
+commandlinefu_id: 11971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -O- http://example.com/mytarball.tgz | tee mytarball.tgz | tar xzv
+summary: |-
+  Download and extract a tarball on a fly, saving it

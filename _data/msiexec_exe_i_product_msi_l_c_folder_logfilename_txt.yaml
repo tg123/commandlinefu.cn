@@ -1,0 +1,8 @@
+commandlinefu_id: 900
+translator:
+  weibo: ''
+hide: true
+command: |-
+  msiexec.exe /i product.msi /l* c:\folder\LogFileName.txt
+summary: |-
+  Force log creation when running an msi install

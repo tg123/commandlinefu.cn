@@ -1,0 +1,8 @@
+commandlinefu_id: 7337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hexdump -e '8/1 "%02X ""\t"" "' -e '8/1 "%c""\n"' /dev/sda1 | less /mystring
+summary: |-
+  find a particular string on an unmounted partition

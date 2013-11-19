@@ -1,0 +1,8 @@
+commandlinefu_id: 3143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `cat names.txt`; do host -r $i [nameserver]; done
+summary: |-
+  DNS cache snooping

@@ -1,0 +1,8 @@
+commandlinefu_id: 7218
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -a ARR <<<'world domination now!'; echo ${ARR[2]};
+summary: |-
+  Function to split a string into an array

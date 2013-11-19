@@ -1,0 +1,8 @@
+commandlinefu_id: 8611
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -caf some_dir.tar.xz some_dir
+summary: |-
+  have tar decide compression based on filename

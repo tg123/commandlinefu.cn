@@ -1,0 +1,8 @@
+commandlinefu_id: 7541
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ find . -iname *.mp3 | while read line ; do  ln -s "$line" $(echo -e "$line" | openssl md5).mp3 ; done ; mpg123 *.mp3
+summary: |-
+  Recursively scan directories for mp3s and pass them to mplayer

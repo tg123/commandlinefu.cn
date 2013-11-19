@@ -1,0 +1,8 @@
+commandlinefu_id: 12273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat foo.json | python -mjson.tool
+summary: |-
+  sort a JSON blob

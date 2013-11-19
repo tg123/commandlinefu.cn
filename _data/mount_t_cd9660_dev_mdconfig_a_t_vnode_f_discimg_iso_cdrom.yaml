@@ -1,0 +1,8 @@
+commandlinefu_id: 1014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -t cd9660 /dev/`mdconfig -a -t vnode -f discimg.iso` /cdrom
+summary: |-
+  Loopback mount .iso on FreeBSD

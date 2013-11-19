@@ -1,0 +1,8 @@
+commandlinefu_id: 5744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  files=(/usr/share/cowsay/cows/*);cowsay -f `printf "%s\n" "${files[RANDOM % ${#files}]}"` "`fortune`"
+summary: |-
+  Random cow tells your fortune

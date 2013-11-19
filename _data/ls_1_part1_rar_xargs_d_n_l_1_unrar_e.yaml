@@ -1,0 +1,8 @@
+commandlinefu_id: 1384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 *.part1.rar | xargs -d '\n' -L 1 unrar e
+summary: |-
+  unrar all part1 files in a directory

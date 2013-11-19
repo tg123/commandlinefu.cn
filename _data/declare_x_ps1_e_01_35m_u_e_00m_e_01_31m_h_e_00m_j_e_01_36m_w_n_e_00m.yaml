@@ -1,0 +1,8 @@
+commandlinefu_id: 10746
+translator:
+  weibo: ''
+hide: true
+command: |-
+  declare -x PS1="[\[\e[01;35m\]\u\[\e[00m\]@\[\e[01;31m\]\h\[\e[00m\]](\j):\[\e[01;36m\]\w\n\\$ \[\e[00m\]"
+summary: |-
+  My PS1

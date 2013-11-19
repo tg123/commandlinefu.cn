@@ -1,0 +1,8 @@
+commandlinefu_id: 8902
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (trap 'true' ERR; exec <SEGFAULT_PRONE_PROGRAM>)
+summary: |-
+  Collect output from a segfaulting program and keep the script from dying

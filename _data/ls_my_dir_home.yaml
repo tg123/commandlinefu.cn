@@ -1,0 +1,8 @@
+commandlinefu_id: 9789
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls ${my_dir:=/home}
+summary: |-
+  Use default value if unassigned

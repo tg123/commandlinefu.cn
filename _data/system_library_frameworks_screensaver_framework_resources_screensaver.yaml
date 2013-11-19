@@ -1,0 +1,8 @@
+commandlinefu_id: 7660
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &
+summary: |-
+  set your screensaver as your desktop background MAC OSX

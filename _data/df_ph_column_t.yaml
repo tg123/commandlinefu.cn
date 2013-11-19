@@ -1,0 +1,8 @@
+commandlinefu_id: 8285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -PH|column -t
+summary: |-
+  df without line wrap on long FS name

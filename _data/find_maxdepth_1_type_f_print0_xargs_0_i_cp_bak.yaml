@@ -1,0 +1,8 @@
+commandlinefu_id: 1464
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 -type f -print0 | xargs -0 -i cp ./{}{,.bak}
+summary: |-
+  create backup for all files from current dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 12286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo c > /proc/sysrq-trigger
+summary: |-
+  Force a kernel panic

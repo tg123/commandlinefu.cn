@@ -1,0 +1,8 @@
+commandlinefu_id: 1205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump http://www.ip-adress.com/ip_tracer/?QRY=$1|grep address|egrep 'city|state|country'|awk '{print $3,$4,$5,$6,$7,$8}'|sed 's\ip address flag \\'|sed 's\My\\'
+summary: |-
+  find geographical location of an ip address

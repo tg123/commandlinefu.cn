@@ -1,0 +1,8 @@
+commandlinefu_id: 6857
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in * ; do mv "$f" $( echo $f | tr ' ' '-' ) ; done
+summary: |-
+  Replace spaces in a filename with hyphens

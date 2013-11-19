@@ -1,0 +1,8 @@
+commandlinefu_id: 2846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for a in `ls`; do echo $a && convert $a -resize <Width>x<Height> $a; done
+summary: |-
+  Batch image resize

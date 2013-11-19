@@ -1,0 +1,8 @@
+commandlinefu_id: 658
+translator:
+  weibo: ''
+hide: true
+command: |-
+  explorer /e,.
+summary: |-
+  Open the Windows Explorer from the current directory

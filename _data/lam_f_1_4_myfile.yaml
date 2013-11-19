@@ -1,0 +1,8 @@
+commandlinefu_id: 2000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lam -f 1.4 myfile
+summary: |-
+  Laminate files line by line

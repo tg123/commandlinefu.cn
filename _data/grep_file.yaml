@@ -1,0 +1,8 @@
+commandlinefu_id: 11107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -- -- file
+summary: |-
+  grep lines containing two consecutive hyphens

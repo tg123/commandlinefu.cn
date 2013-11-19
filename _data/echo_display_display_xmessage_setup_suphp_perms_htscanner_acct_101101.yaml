@@ -1,0 +1,8 @@
+commandlinefu_id: 4787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "DISPLAY=$DISPLAY xmessage setup suphp perms htscanner acct#101101 host2.domain.com" | at 23:00 Feb 8
+summary: |-
+  set a reminder for 5 days in the future

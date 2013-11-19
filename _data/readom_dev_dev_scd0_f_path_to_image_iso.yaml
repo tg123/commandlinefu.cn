@@ -1,0 +1,8 @@
+commandlinefu_id: 1396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readom dev=/dev/scd0 f=/path/to/image.iso
+summary: |-
+  Create a CD/DVD ISO image from disk.

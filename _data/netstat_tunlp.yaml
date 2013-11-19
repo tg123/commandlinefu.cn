@@ -1,0 +1,8 @@
+commandlinefu_id: 5790
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tunlp
+summary: |-
+  Lists all listening ports together with the PID of the associated process

@@ -1,0 +1,8 @@
+commandlinefu_id: 10369
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'FNR==100 {print;exit}' file
+summary: |-
+  Output specific line in a very big file and exit afterwards

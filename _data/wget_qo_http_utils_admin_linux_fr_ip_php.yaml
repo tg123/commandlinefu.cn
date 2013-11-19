@@ -1,0 +1,8 @@
+commandlinefu_id: 12730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -qO- http://utils.admin-linux.fr/ip.php
+summary: |-
+  External IP (raw data)

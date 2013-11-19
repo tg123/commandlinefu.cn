@@ -1,0 +1,8 @@
+commandlinefu_id: 7927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -exec mkdir /copy_location/{} \;
+summary: |-
+  Copy a directory recursively without data/files

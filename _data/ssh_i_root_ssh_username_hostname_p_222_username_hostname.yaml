@@ -1,0 +1,8 @@
+commandlinefu_id: 9383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -i /root/.ssh/username\@hostname -p 222 username@hostname
+summary: |-
+  SSH connection with private key and port 222

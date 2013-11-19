@@ -1,0 +1,8 @@
+commandlinefu_id: 2276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Type "c-a b" in gnu screen after updating your .screenrc (See Description below).
+summary: |-
+  Getting Screen's Copy Buffer Into X's Copy Buffer (on Linux)

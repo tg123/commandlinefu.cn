@@ -1,0 +1,8 @@
+commandlinefu_id: 11446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump -p MYDB > MYDB.sql
+summary: |-
+  Backup a whole database to a file

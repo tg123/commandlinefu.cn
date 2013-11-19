@@ -1,0 +1,8 @@
+commandlinefu_id: 892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /home -uid 1056 -exec chown 2056 {} \;
+summary: |-
+  Change the ownership of all files owned by one user.

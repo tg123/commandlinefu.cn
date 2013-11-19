@@ -1,0 +1,8 @@
+commandlinefu_id: 12239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo useradd -U -m -s /bin/bash new_user
+summary: |-
+  Create user

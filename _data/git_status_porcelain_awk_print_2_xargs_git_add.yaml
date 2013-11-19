@@ -1,0 +1,8 @@
+commandlinefu_id: 11232
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git status --porcelain | awk '{print $2}' | xargs git add
+summary: |-
+  add untracked/changed items to a git repository before doing a commit and/or sending upstream

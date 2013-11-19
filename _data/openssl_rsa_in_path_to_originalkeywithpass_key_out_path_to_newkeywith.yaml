@@ -1,0 +1,8 @@
+commandlinefu_id: 11282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl rsa -in /path/to/originalkeywithpass.key -out /path/to/newkeywithnopass.key
+summary: |-
+  remove password from openssl key file

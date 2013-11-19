@@ -1,0 +1,8 @@
+commandlinefu_id: 8259
+translator:
+  weibo: ''
+hide: true
+command: |-
+  e2fsck -C -v /dev/device
+summary: |-
+  check the filesystem  and use  a progress bar

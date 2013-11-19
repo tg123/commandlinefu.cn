@@ -1,0 +1,8 @@
+commandlinefu_id: 6075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf $(( echo "obase=16;$(echo $$$(date +%s%N))"|bc; ip link show|sed -n '/eth/ {N; p}'|grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'|head -c 17 )|tr -d [:space:][:punct:]  |sed 's/[[:xdigit:]]\{2\}/\\x&/g')|sha1sum|head -c 32; echo
+summary: |-
+  Generate an over-the-top UUID

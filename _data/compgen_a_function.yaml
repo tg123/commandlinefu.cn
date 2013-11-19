@@ -1,0 +1,8 @@
+commandlinefu_id: 5499
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  compgen -A function
+summary: |-
+  列出已经定义的bash函数

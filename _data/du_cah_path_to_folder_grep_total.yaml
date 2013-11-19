@@ -1,0 +1,8 @@
+commandlinefu_id: 10809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -cah /path/to/folder/ | grep total
+summary: |-
+  human readable total directory size

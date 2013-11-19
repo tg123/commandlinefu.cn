@@ -1,0 +1,8 @@
+commandlinefu_id: 6049
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file_with_tabs.txt | perl -pe 's/\t/    /g'
+summary: |-
+  Replace tabs with spaces in file

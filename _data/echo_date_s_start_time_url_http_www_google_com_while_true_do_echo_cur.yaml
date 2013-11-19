@@ -1,0 +1,8 @@
+commandlinefu_id: 3544
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(date +%s) > start-time; URL=http://www.google.com; while true; do echo $(curl -L --w %{speed_download} -o/dev/null -s $URL) >> bps; sleep 10; done &
+summary: |-
+  Log your internet download speed

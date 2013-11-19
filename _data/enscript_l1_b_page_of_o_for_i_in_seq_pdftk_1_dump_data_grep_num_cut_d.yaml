@@ -1,0 +1,8 @@
+commandlinefu_id: 10126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  enscript -L1 -b'||Page $% of $=' -o- < <(for i in $(seq "$(pdftk "$1" dump_data | grep "Num" | cut -d":" -f2)"); do echo; done) | ps2pdf - | pdftk "$1" multistamp - output "${1%.pdf}-header.pdf"
+summary: |-
+  Add page numbers to a PDF

@@ -1,0 +1,8 @@
+commandlinefu_id: 2179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gtar cpf - . | (cd /dest/directory; gtar xpf -)
+summary: |-
+  Copy data using gtar

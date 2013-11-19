@@ -1,0 +1,8 @@
+commandlinefu_id: 1406
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -S -O/dev/null "INSERT_URL_HERE" 2>&1 | grep Server
+summary: |-
+  Poke a Webserver to see what it's powered by.

@@ -1,0 +1,8 @@
+commandlinefu_id: 4444
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read enterKey
+summary: |-
+  Press Any Key to Continue

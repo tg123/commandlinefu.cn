@@ -1,0 +1,8 @@
+commandlinefu_id: 10911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  help shopt
+summary: |-
+  shopt

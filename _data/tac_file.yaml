@@ -1,0 +1,8 @@
+commandlinefu_id: 8540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tac $FILE
+summary: |-
+  reverse order of file

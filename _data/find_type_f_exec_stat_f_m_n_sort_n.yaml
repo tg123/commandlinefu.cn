@@ -1,0 +1,8 @@
+commandlinefu_id: 10887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec stat -f '%m %N' {} \; | sort -n
+summary: |-
+  Find files and list them sorted by modification time

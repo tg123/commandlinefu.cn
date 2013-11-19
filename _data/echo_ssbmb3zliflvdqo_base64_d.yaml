@@ -1,0 +1,8 @@
+commandlinefu_id: 302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo SSBMb3ZlIFlvdQo= | base64 -d
+summary: |-
+  Just run it ;)

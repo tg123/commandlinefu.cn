@@ -1,0 +1,8 @@
+commandlinefu_id: 7908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 :
+summary: |-
+  Console clock

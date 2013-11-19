@@ -1,0 +1,8 @@
+commandlinefu_id: 3650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget 'link of a Picasa WebAlbum' -O - |perl -e'while(<>){while(s/"media":{"content":\[{"url":"(.+?\.JPG)//){print "$1\n"}}' |wget -w1 -i -
+summary: |-
+  Go get those photos from a Picasa album

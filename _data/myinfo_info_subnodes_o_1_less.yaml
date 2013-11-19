@@ -1,0 +1,8 @@
+commandlinefu_id: 4868
+translator:
+  weibo: ''
+hide: true
+command: |-
+  myinfo() { info --subnodes -o - $1 | less; }
+summary: |-
+  shell function to make gnu info act like man.

@@ -1,0 +1,9 @@
+commandlinefu_id: 8262
+translator:
+  weibo: ''
+hide: true
+command: "find $DIR -name *.php -exec vim -u NONE -c 'set ft=php'\t-c 'set shiftwidth=4'\
+  \ -c 'set tabstop=4' -c 'set noexpandtab!' -c 'set noet' -c 'retab!' -c 'bufdo!\
+  \ \"execute normal gg=G\"' -c wq {} \\;"
+summary: |-
+  Replace spaces with tabs & format file source recursuvely within a directory

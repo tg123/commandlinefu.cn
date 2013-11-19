@@ -1,0 +1,8 @@
+commandlinefu_id: 9921
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  la
+summary: |-
+  显示所有文档

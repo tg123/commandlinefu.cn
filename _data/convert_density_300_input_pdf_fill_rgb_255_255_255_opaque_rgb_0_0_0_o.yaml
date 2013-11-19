@@ -1,0 +1,8 @@
+commandlinefu_id: 6758
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -density 300 input.pdf -fill "rgb(255,255,255)" -opaque "rgb(0,0,0)" output.pdf
+summary: |-
+  Replaces a color in a PDF document, useful for removing a dark background before printing.

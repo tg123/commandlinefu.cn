@@ -1,0 +1,8 @@
+commandlinefu_id: 2935
+translator:
+  weibo: ''
+hide: true
+command: |-
+  let utime=$offsetutc*3600+$(date --utc +%s)+3600; date --utc --date=@${utime}
+summary: |-
+  get time in other timezones

@@ -1,0 +1,8 @@
+commandlinefu_id: 4358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  errpt -a | more
+summary: |-
+  Check general system error on AIX

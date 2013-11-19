@@ -1,0 +1,8 @@
+commandlinefu_id: 4888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  arecord -f dat | ssh -C user@host aplay -f dat
+summary: |-
+  output your microphone to a remote computer's speaker

@@ -1,0 +1,8 @@
+commandlinefu_id: 4615
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sox *.mp3 -t wavpcm - | lame - > bunch.mp3
+summary: |-
+  Merge - Concate MP3 files

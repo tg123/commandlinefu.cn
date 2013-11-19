@@ -1,0 +1,8 @@
+commandlinefu_id: 11212
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find . -name "*.csv" | xargs /bin/rm
+summary: |-
+  Delete large amount of files matching pattern

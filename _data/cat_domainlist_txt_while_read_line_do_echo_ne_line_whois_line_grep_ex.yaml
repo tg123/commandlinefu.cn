@@ -1,0 +1,8 @@
+commandlinefu_id: 5511
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat domainlist.txt  | while read line; do echo -ne $line; whois $line | grep Expiration ; done | sed 's:Expiration Date::'
+summary: |-
+  Produces a list of when your domains expire

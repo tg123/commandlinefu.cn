@@ -1,0 +1,8 @@
+commandlinefu_id: 12265
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print $1}' ~/.bash_history | sort | uniq -c | sort -rn | head -n 10
+summary: |-
+  most used unix commands

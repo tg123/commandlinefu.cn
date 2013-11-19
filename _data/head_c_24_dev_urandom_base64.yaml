@@ -1,0 +1,8 @@
+commandlinefu_id: 12769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -c 24 /dev/urandom | base64
+summary: |-
+  Generate a random password 30 characters long

@@ -1,0 +1,8 @@
+commandlinefu_id: 8642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -o loop,offset=$((512*x)) /path/to/dd/image /mount/path
+summary: |-
+  mount starting sector of the partition we want to mount

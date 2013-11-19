@@ -1,0 +1,8 @@
+commandlinefu_id: 9830
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn info -R --xml file:///path/to/rep | grep kind=\"file\"|wc -l
+summary: |-
+  Number of files in a SVN Repository

@@ -1,0 +1,8 @@
+commandlinefu_id: 6232
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i s/split\(/explode\(/ whatever.php
+summary: |-
+  replace deprecated php-function split in php files

@@ -1,0 +1,8 @@
+commandlinefu_id: 4239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux| grep -v grep| grep httpd| awk {'print $2'}| xargs kill -9
+summary: |-
+  Killing multiplpe process for one program like apache, wget, postfix etc.

@@ -1,0 +1,8 @@
+commandlinefu_id: 2573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -tf <file.tar.gz> | xargs rm -r
+summary: |-
+  Remove all files previously extracted from a tar(.gz) file.

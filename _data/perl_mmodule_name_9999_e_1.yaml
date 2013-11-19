@@ -1,0 +1,8 @@
+commandlinefu_id: 11771
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MModule::Name\ 9999 -e 1
+summary: |-
+  Find out if a module is installed in perl (and what version)

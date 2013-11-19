@@ -1,0 +1,8 @@
+commandlinefu_id: 4968
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TOTAL_RAM=`free | head -n 2 | tail -n 1 | awk '{ print $2 }'`; PROC_RSS=`ps axo rss,comm | grep [h]ttpd | awk '{ TOTAL += $1 } END { print TOTAL }'`; PROC_PCT=`echo "scale=4; ( $PROC_RSS/$TOTAL_RAM ) * 100" | bc`; echo "RAM Used by HTTP: $PROC_PCT%"
+summary: |-
+  Print Memory Utilization Percentage For a specific process and it's children

@@ -1,0 +1,8 @@
+commandlinefu_id: 9376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i inputfile.avi -croptop 88 -cropbottom 88 -cropleft 360 -cropright 360 outputfile.avi
+summary: |-
+  Cropping a video file in ffmpeg

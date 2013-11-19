@@ -1,0 +1,8 @@
+commandlinefu_id: 6486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iconv -f utf8 -t utf16 /path/to/file
+summary: |-
+  Convert encoding of a file

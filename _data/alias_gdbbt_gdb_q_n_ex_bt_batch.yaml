@@ -1,0 +1,8 @@
+commandlinefu_id: 4039
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias gdbbt="gdb -q -n -ex bt -batch"
+summary: |-
+  Print stack trace of a core file without needing to enter gdb interactively

@@ -1,0 +1,8 @@
+commandlinefu_id: 1003
+translator:
+  weibo: ''
+hide: true
+command: |-
+  trap "echo \"$0 process $$ killed on $(date).\"; exit " HUP INT QUIT ABRT TERM STOP
+summary: |-
+  Simple example of the trap command

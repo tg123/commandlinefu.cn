@@ -1,0 +1,8 @@
+commandlinefu_id: 5667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  optipng -o3 *png && advpng -z -4 *png && advdef -z -4 *png
+summary: |-
+  Maximum PNG compression with optipng, advpng, and advdef

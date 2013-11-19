@@ -1,0 +1,8 @@
+commandlinefu_id: 6735
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shout() { curl -s "http://shoutkey.com/new?url=${1}" | sed -n "/<h1>/s/.*href=\"\([^\"]*\)\".*/\1/p" ;}
+summary: |-
+  Create an easy to pronounce shortened URL from CLI

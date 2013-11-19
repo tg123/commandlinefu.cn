@@ -1,0 +1,8 @@
+commandlinefu_id: 4534
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e ${PATH//:/\\n} | less
+summary: |-
+  Display $PATH with one line per entry

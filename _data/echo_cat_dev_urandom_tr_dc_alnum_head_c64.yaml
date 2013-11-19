@@ -1,0 +1,8 @@
+commandlinefu_id: 7234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo `cat /dev/urandom |tr -dc "[:alnum:]" | head -c64`
+summary: |-
+  create random string from /dev/urandom (or another length)

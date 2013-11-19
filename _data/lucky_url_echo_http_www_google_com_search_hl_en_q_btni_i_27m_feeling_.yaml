@@ -1,0 +1,8 @@
+commandlinefu_id: 6319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lucky(){ url=$(echo "http://www.google.com/search?hl=en&q=$@&btnI=I%27m+Feeling+Lucky&aq=f&oq=" | sed 's/ /+/g'); lynx $url; }; lucky "Emperor Norton"
+summary: |-
+  command line Google I'm Feeling Lucky

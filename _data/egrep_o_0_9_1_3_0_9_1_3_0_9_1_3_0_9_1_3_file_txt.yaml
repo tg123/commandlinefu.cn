@@ -1,0 +1,8 @@
+commandlinefu_id: 2315
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  egrep -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' file.txt
+summary: |-
+  过滤文件中的ip

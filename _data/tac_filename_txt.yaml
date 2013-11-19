@@ -1,0 +1,8 @@
+commandlinefu_id: 12320
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tac filename.txt
+summary: |-
+  Print file content in reverse order

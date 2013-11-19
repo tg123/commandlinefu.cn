@@ -1,0 +1,8 @@
+commandlinefu_id: 711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get moo
+summary: |-
+  ubuntu easter eggs

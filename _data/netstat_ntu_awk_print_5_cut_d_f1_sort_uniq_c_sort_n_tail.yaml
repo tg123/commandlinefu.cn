@@ -1,0 +1,8 @@
+commandlinefu_id: 792
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -ntu | awk '{print $5}' |  cut -d: -f1 | sort | uniq -c | sort -n | tail
+summary: |-
+  Netstat Connection Check

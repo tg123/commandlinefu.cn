@@ -1,0 +1,8 @@
+commandlinefu_id: 173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 'pstack 12345 | tac'
+summary: |-
+  watch process stack, sampled at 1s intervals

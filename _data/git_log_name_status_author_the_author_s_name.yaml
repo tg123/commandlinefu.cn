@@ -1,0 +1,8 @@
+commandlinefu_id: 10331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --name-status --author="[The Author's Name]"
+summary: |-
+  Get all git commits of a specific author in a nice format

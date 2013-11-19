@@ -1,0 +1,8 @@
+commandlinefu_id: 9983
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (sed 's/^/x*=/' file ; echo x) | bc
+summary: |-
+  Fast way to get the product of every number in a file

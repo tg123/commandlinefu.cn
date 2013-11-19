@@ -1,0 +1,8 @@
+commandlinefu_id: 12666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache -n dumpavail | grep 'Package:' | awk '{print $2 }'
+summary: |-
+  Quick and dirty list of installed packages on deb based system

@@ -1,0 +1,8 @@
+commandlinefu_id: 11595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -size 0c -print -exec rm -f {} \;
+summary: |-
+  Delete Empty Files

@@ -1,0 +1,8 @@
+commandlinefu_id: 10194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  w3m mon-ip.com -dump|grep -Eo "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"|uniq|xclip -selection clipboard
+summary: |-
+  Get your external ip right into your xclipboard

@@ -1,0 +1,8 @@
+commandlinefu_id: 979
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh user@host 'mysqldump dbname | gzip' > /path/to/backups/db-backup-`date +%Y-%m-%d`.sql.gz
+summary: |-
+  Backup a remote database to your local filesystem

@@ -1,0 +1,8 @@
+commandlinefu_id: 11378
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <Ctrl+A>:number [id]
+summary: |-
+  Move windows in GNU screen

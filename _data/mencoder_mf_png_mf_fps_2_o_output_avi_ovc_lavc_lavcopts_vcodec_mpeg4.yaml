@@ -1,0 +1,8 @@
+commandlinefu_id: 6560
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder "mf://*.png" -mf fps=2 -o output.avi -ovc lavc -lavcopts vcodec=mpeg4
+summary: |-
+  Compress a series of png pictures to an avi movie.

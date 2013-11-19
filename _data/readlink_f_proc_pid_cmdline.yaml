@@ -1,0 +1,8 @@
+commandlinefu_id: 2289
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  readlink -f /proc/<pid>/cmdline
+summary: |-
+  显示 运行执行号 的 全路径

@@ -1,0 +1,8 @@
+commandlinefu_id: 5799
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/zero bs=4096 count=1048576 | ssh user@host.tld 'cat > /dev/null'
+summary: |-
+  Test network speed without wasting disk

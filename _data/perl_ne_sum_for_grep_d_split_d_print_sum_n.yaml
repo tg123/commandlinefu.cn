@@ -1,0 +1,8 @@
+commandlinefu_id: 2429
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne '$sum += $_ for grep { /\d+/ } split /[^\d\-\.]+/; print "$sum\n"'
+summary: |-
+  Do quick arithmetic on numbers from STDIN with any formatting using a perl one liner.

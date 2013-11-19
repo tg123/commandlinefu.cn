@@ -1,0 +1,8 @@
+commandlinefu_id: 10598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  less `kpsewhich scrartcl.cls`
+summary: |-
+  Show the source code of a LaTeX class or package or a TeX file in general

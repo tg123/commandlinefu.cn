@@ -1,0 +1,8 @@
+commandlinefu_id: 4075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  setterm -bfreq 0
+summary: |-
+  system beep off

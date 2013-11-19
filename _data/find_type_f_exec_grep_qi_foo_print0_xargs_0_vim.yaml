@@ -1,0 +1,8 @@
+commandlinefu_id: 3311
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec grep -qi 'foo' {} \; -print0 | xargs -0 vim
+summary: |-
+  Edit all files found having a specific string found by grep

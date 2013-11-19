@@ -1,0 +1,8 @@
+commandlinefu_id: 4858
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `ndd /dev/ip \? | awk '{ print $1 }' | egrep -v "ip6|status|icmp|igmp|\?"` ; do echo $i `ndd -get /dev/ip $i` ; done | grep -v \?
+summary: |-
+  Show the ndd ip settings of a solaris device

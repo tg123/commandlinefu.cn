@@ -1,0 +1,8 @@
+commandlinefu_id: 10078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f to.log | colorize.pl +l10:".*" &
+summary: |-
+  colorize and continuously tail two files

@@ -1,0 +1,8 @@
+commandlinefu_id: 9768
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *; do clear; cat $f; sleep .3; done
+summary: |-
+  Cat files in a directory; for loop command

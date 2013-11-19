@@ -1,0 +1,8 @@
+commandlinefu_id: 3158
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shutdown -h 60
+summary: |-
+  power off system in X minutes

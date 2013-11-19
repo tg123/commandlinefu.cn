@@ -1,0 +1,8 @@
+commandlinefu_id: 9937
+translator:
+  weibo: tgic
+hide: false
+command: |
+  mysql -u root -p -N -e"show processlist\G;" | egrep "Host\:" | awk -F: '{ print $2 }' | sort | uniq -c
+summary: |-
+  显示MySQL的链接数

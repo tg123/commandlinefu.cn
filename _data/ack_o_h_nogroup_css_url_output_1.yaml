@@ -1,0 +1,8 @@
+commandlinefu_id: 8599
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ack -o -h --nogroup --css 'url\((.*)\)' --output "\$1"
+summary: |-
+  List all background image URLs referenced in CSS files in directory and subdirectories

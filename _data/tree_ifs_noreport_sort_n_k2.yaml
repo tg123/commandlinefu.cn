@@ -1,0 +1,8 @@
+commandlinefu_id: 10711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -ifs --noreport .|sort -n -k2
+summary: |-
+  List all files in current dir and subdirs sorted by size

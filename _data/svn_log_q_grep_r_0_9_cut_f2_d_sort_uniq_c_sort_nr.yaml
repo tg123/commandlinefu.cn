@@ -1,0 +1,8 @@
+commandlinefu_id: 7545
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log -q | grep '^r[0-9]' | cut -f2 -d "|" | sort | uniq -c | sort -nr
+summary: |-
+  top svn committers (without awk)

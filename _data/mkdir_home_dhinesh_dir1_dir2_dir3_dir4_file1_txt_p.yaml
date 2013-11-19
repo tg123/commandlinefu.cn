@@ -1,0 +1,8 @@
+commandlinefu_id: 8473
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir  /home/dhinesh/dir1/{dir2,dir3,dir4}/file1.txt -p
+summary: |-
+  Create the directoty recursively

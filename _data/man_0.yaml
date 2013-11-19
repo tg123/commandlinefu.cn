@@ -1,0 +1,8 @@
+commandlinefu_id: 6332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man !!:0
+summary: |-
+  See The MAN page for the last command

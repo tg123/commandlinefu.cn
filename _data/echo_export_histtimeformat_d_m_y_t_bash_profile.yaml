@@ -1,0 +1,8 @@
+commandlinefu_id: 12737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
+summary: |-
+  Display terminal command history with date

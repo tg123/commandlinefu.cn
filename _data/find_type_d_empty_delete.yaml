@@ -1,0 +1,8 @@
+commandlinefu_id: 5131
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -empty -delete
+summary: |-
+  Recursively remove all empty directories

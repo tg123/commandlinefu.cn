@@ -1,0 +1,8 @@
+commandlinefu_id: 4630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  savesIFS=$IFS;IFS=$(echo -en "\n\b"); for items in `ls *.7z`; do 7zr e $items ; done; IFS=$saveIFS
+summary: |-
+  Extract all 7zip files in current directory taking filename spaces into account

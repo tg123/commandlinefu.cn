@@ -1,0 +1,8 @@
+commandlinefu_id: 11987
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -fn foo | xsel -ib
+summary: |-
+  Copy canonical path of file 'foo' in the clipboard

@@ -1,0 +1,8 @@
+commandlinefu_id: 1478
+translator:
+  weibo: ''
+hide: true
+command: |-
+  over myscript.sh
+summary: |-
+  Nice way to view source code

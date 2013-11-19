@@ -1,0 +1,8 @@
+commandlinefu_id: 6962
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat index.html | sed 's|"index.html%3Ffeed=rss2"|"http://dynamic-blog.hemca.com/?feed=rss2.html"|g'
+summary: |-
+  Complex string encoding with sed

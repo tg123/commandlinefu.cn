@@ -1,0 +1,8 @@
+commandlinefu_id: 10759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  desiredDay=6; year=2012; month=5; n=0; while [ $(date -d "$year-$((month+1))-1 - $n day" "+%u") -ne $desiredDay ]; do n=$((n+1)); done; date -d "$year-$((month+1))-1 - $n day" "+%x"
+summary: |-
+  Get the date for the last Saturday of a given month

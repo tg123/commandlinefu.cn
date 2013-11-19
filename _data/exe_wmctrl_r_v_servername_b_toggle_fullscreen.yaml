@@ -1,0 +1,8 @@
+commandlinefu_id: 6513
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :exe "!wmctrl -r ".v:servername." -b toggle,fullscreen"
+summary: |-
+  gvim in full screen (execute again to toggle full screen on/off)

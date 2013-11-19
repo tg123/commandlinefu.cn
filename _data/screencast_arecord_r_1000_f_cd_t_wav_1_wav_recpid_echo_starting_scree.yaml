@@ -1,0 +1,8 @@
+commandlinefu_id: 7696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screencast() { arecord -R 1000 -f cd -t wav $1.wav & RECPID=$!; echo "Starting screencast in new shell. Exit subshell to quit."; script -t 2> $1.timing -a $1.session; kill $RECPID; }
+summary: |-
+  create screencast (record text and audio simultaneously) using 'script' and 'arecord'

@@ -1,0 +1,8 @@
+commandlinefu_id: 2018
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get remove --purge `dpkg -l | awk '{print $2}' | grep gnome` && apt-get autoremove
+summary: |-
+  Remove packages by pattern on debian and based systems

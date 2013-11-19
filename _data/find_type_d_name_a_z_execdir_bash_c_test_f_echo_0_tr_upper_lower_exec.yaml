@@ -1,0 +1,8 @@
+commandlinefu_id: 5238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -name '*[A-Z]*' -execdir bash -c '! test -f "$(echo "$0" | tr "[:upper:]" "[:lower:]")"' {} \; -execdir bash -c 'mv "$0" "$(echo "$0" | tr "[:upper:]" "[:lower:]")"' {} \;
+summary: |-
+  recursively change file name from uppercase to lowercase (or viceversa)

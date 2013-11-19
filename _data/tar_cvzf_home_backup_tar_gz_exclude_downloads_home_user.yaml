@@ -1,0 +1,8 @@
+commandlinefu_id: 11036
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cvzf home_backup.tar.gz --exclude={.*,Downloads} /home/<user>
+summary: |-
+  tar exclude files or directories

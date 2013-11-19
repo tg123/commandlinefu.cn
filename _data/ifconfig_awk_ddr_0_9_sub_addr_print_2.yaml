@@ -1,0 +1,8 @@
+commandlinefu_id: 2824
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | awk '/ddr:[0-9]/ {sub(/addr:/, ""); print $2}'
+summary: |-
+  Get all IPs via ifconfig

@@ -1,0 +1,8 @@
+commandlinefu_id: 12065
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Sh **/*(.Lm+100) | tail -5
+summary: |-
+  Find top 5 big files

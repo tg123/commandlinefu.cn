@@ -1,0 +1,8 @@
+commandlinefu_id: 10074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash history: modification /etc/inputrc
+summary: |-
+  flip faster and more precisely through commands saved in history

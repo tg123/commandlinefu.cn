@@ -1,0 +1,8 @@
+commandlinefu_id: 10275
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cmdfu(){ local t=~/cmdfu;echo -e "\n# $1 {{{1">>$t;curl -s "commandlinefu.com/commands/matching/$1/`echo -n $1|base64`/plaintext"|sed '1,2d;s/^#.*/& {{{2/g'>$t;vim -u /dev/null -c "set ft=sh fdm=marker fdl=1 noswf" -M $t;rm $t; }
+summary: |-
+  Search commandlinefu and view syntax-highlighted results in vim

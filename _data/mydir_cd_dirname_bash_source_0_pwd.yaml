@@ -1,0 +1,8 @@
+commandlinefu_id: 8358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mydir=$(cd $(dirname ${BASH_SOURCE:-$0});pwd)
+summary: |-
+  Find out the starting directory of a script

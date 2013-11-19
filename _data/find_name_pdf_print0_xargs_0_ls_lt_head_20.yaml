@@ -1,0 +1,8 @@
+commandlinefu_id: 12787
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*pdf*' -print0 | xargs -0 ls -lt | head -20
+summary: |-
+  Prints the latest modified files in a directory tree recursively

@@ -1,0 +1,8 @@
+commandlinefu_id: 6416
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <commmand>; if [[ "$?" = 0 ]]; then echo ':)'; else echo ':('; fi
+summary: |-
+  display a smiling smiley if the command succeeded and a sad smiley if the command failed

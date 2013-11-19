@@ -1,0 +1,8 @@
+commandlinefu_id: 10034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo '<foo><bar/></foo>' | xmllint --format -
+summary: |-
+  Prettify XML in pipeline

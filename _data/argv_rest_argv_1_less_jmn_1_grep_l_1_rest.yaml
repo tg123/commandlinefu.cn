@@ -1,0 +1,8 @@
+commandlinefu_id: 3819
+translator:
+  weibo: ''
+hide: true
+command: |-
+  argv=("$@"); rest=${argv[@]:1}; less -JMN +"/$1" `grep -l $1 $rest`
+summary: |-
+  Less a grep result, going directly to the first match in the first file

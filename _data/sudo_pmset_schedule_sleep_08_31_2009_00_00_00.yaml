@@ -1,0 +1,8 @@
+commandlinefu_id: 2169
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo pmset schedule sleep "08/31/2009 00:00:00"
+summary: |-
+  Mac Sleep Timer

@@ -1,0 +1,8 @@
+commandlinefu_id: 2823
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Q|wc -l
+summary: |-
+  how many packages installed on your archlinux?

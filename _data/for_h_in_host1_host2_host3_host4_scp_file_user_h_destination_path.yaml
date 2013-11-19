@@ -1,0 +1,8 @@
+commandlinefu_id: 723
+translator:
+  weibo: tgic
+hide: false
+command: |
+  for h in host1 host2 host3 host4 ; { scp file user@$h:/destination_path/ ; }
+summary: |-
+  通过脚本进行批量复制

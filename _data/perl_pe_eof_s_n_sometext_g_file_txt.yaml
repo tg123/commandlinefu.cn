@@ -1,0 +1,8 @@
+commandlinefu_id: 7210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pe 'eof()||s/\n/<SOMETEXT>/g' file.txt
+summary: |-
+  Join lines

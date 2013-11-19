@@ -1,0 +1,8 @@
+commandlinefu_id: 9523
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -C -e 'print for sort { length $a <=> length $b or $a cmp $b } <>' < /usr/share/dict/words | tail
+summary: |-
+  sort lines by length

@@ -1,0 +1,8 @@
+commandlinefu_id: 12596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias 2edit='xsel -b;n=pipe$RANDOM;xdotool exec --terminator -- mousepad $n -- search --sync --onlyvisible --name $n key --window %1 ctrl+v'
+summary: |-
+  Redirecting bash output into any X Window

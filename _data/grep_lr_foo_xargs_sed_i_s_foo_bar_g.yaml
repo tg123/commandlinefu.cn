@@ -1,0 +1,8 @@
+commandlinefu_id: 12857
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -lr "foo" . | xargs sed -i "s/foo/bar/g"
+summary: |-
+  Search and replace in multiple files recursively

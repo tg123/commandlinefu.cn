@@ -1,0 +1,8 @@
+commandlinefu_id: 8619
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ltr 'ls -altr'
+summary: |-
+  Quick setup to list all directory contents by time reversed sort... most recent change last.

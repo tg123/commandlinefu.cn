@@ -1,0 +1,8 @@
+commandlinefu_id: 10585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (set -o noglob;while sleep 0.05;do for r in `grep -ao '[[:print:]]' /dev/urandom|head -$((COLUMNS/3))`;do [ $((RANDOM%6)) -le 1 ] && r=\ ;echo -ne "\e[$((RANDOM%7/-6+2));32m $r ";done;echo;done)
+summary: |-
+  Matrix Style

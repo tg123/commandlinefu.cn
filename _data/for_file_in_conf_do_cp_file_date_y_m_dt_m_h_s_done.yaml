@@ -1,0 +1,8 @@
+commandlinefu_id: 12052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for FILE in *.conf; do cp $FILE{,.`date +%Y%m%dt%M:%H:%S`}; done
+summary: |-
+  Backup all files matching a pattern to files with a timestamp

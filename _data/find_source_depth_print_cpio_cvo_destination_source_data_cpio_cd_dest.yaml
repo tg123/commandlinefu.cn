@@ -1,0 +1,8 @@
+commandlinefu_id: 322
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find  ./source  -depth -print | cpio -cvo> /destination/source_data.cpio; cd /destination; cpio -icvmdI ./source_data.cpio; rm -rf ./source_data.cpio
+summary: |-
+  copying data with cpio

@@ -1,0 +1,8 @@
+commandlinefu_id: 2068
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd $(dirname $(find ~ -name emails.txt))
+summary: |-
+  Search for a single file and go to it

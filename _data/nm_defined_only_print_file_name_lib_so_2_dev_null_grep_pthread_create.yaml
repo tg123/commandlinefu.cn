@@ -1,0 +1,8 @@
+commandlinefu_id: 81
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nm --defined-only --print-file-name lib*so 2>/dev/null | grep ' pthread_create$'
+summary: |-
+  look for a function reference in a library set

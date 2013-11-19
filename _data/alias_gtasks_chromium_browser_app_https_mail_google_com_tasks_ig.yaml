@@ -1,0 +1,8 @@
+commandlinefu_id: 9820
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias gtasks='chromium-browser --app=https://mail.google.com/tasks/ig'
+summary: |-
+  Google Tasks webapp using Chromium Browser

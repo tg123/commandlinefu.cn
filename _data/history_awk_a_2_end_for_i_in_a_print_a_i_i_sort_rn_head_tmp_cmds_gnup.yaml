@@ -1,0 +1,8 @@
+commandlinefu_id: 5845
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head > /tmp/cmds | gnuplot -persist <(echo 'plot "/tmp/cmds" using 1:xticlabels(2) with boxes')
+summary: |-
+  List of commands you use most often

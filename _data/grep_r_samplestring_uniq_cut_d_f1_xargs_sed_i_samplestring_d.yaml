@@ -1,0 +1,8 @@
+commandlinefu_id: 390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -r "sampleString" . |uniq | cut -d: -f1 | xargs sed -i "/sampleString/d"
+summary: |-
+  edit files in current and subdir, remove all lines that containing certain string

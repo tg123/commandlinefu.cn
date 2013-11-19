@@ -1,0 +1,8 @@
+commandlinefu_id: 3724
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print length, $0;}' | sort -nr
+summary: |-
+  sort lines by length

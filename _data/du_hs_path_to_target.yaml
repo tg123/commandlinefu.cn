@@ -1,0 +1,8 @@
+commandlinefu_id: 5831
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  du -hs /path/to/target
+summary: |-
+  查看目录或文件使用了多大的磁盘空间

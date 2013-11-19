@@ -1,0 +1,8 @@
+commandlinefu_id: 11783
+translator:
+  weibo: ''
+hide: true
+command: |-
+  expandurl() { curl -s "http://api.longurl.org/v2/expand?url=${1}&format=php" | awk -F '"' '{print $4}' }
+summary: |-
+  Expand shortened URLs

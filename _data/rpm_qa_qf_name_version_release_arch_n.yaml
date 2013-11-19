@@ -1,0 +1,8 @@
+commandlinefu_id: 1655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa --qf '%{name}-%{version}-%{release}.%{arch}\n'
+summary: |-
+  List all rpms on system by name, version and release numbers, and architecture

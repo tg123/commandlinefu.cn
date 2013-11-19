@@ -1,0 +1,8 @@
+commandlinefu_id: 11546
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim $(git rev-parse --show-toplevel)/.gitignore
+summary: |-
+  This little command edits your gitignore from anywhere in your repo

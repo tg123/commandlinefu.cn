@@ -1,0 +1,8 @@
+commandlinefu_id: 4596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # cat file1.mp3 file2.mp3 > file3.mp3
+summary: |-
+  Merge - Concate MP3 files

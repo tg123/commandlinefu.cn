@@ -1,0 +1,8 @@
+commandlinefu_id: 3276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for dnsREC in $(curl -s http://www.iana.org/assignments/dns-parameters |grep -Eo ^[A-Z\.]+\  |sed 's/TYPE//'); do echo -n "$dnsREC " && dig +short $dnsREC IANA.ORG; done
+summary: |-
+  dig this

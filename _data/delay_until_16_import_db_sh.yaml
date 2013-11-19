@@ -1,0 +1,8 @@
+commandlinefu_id: 10343
+translator:
+  weibo: ''
+hide: true
+command: |-
+  delay until 16 && import_db.sh
+summary: |-
+  delay: a simple scheduler

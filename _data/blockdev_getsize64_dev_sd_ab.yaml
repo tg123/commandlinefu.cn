@@ -1,0 +1,8 @@
+commandlinefu_id: 7621
+translator:
+  weibo: ''
+hide: true
+command: |-
+  blockdev --getsize64 /dev/sd[ab]
+summary: |-
+  Step#1   Compare the disk spaces first!

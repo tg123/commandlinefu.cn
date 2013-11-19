@@ -1,0 +1,8 @@
+commandlinefu_id: 1710
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f logfile.log | cut -b 1-80
+summary: |-
+  Tail a log file with long lines truncated

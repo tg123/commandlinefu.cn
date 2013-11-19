@@ -1,0 +1,8 @@
+commandlinefu_id: 5630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file | sed -n -r '/^100$|^[0-9]{1,2}$/p'
+summary: |-
+  sed - match numbers between 1-100

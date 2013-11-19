@@ -1,0 +1,8 @@
+commandlinefu_id: 4690
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/sbin/iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent -set
+summary: |-
+  Block all IP addresses and domains that have attempted brute force SSH login to computer

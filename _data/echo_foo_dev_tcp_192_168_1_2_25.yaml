@@ -1,0 +1,8 @@
+commandlinefu_id: 3464
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "foo" > /dev/tcp/192.168.1.2/25
+summary: |-
+  send echo to socket network

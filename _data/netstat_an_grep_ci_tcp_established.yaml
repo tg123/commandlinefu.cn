@@ -1,0 +1,8 @@
+commandlinefu_id: 3743
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -an|grep -ci "tcp.*established"
+summary: |-
+  calulate established tcp connection of local machine

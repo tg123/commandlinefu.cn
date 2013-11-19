@@ -1,0 +1,8 @@
+commandlinefu_id: 9845
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TABLE_NAME=YYZ ; for DATABASE in $(echo "SELECT TABLE_SCHEMA FROM information_schema.tables WHERE TABLE_NAME='$TABLE_NAME'" | mysql -N) ; do echo -n "$DATABASE: " ; echo "SELECT COUNT(*) FROM $TABLE_NAME" | mysql $DATABASE -N ; done | fgrep -v ': 0'
+summary: |-
+  MySQL: Find an instance of a populated table across numerous databases

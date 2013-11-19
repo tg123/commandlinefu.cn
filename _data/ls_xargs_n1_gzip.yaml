@@ -1,0 +1,8 @@
+commandlinefu_id: 3794
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | xargs -n1 gzip
+summary: |-
+  GZip all files in a directory separately

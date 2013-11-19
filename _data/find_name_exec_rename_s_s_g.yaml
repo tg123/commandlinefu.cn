@@ -1,0 +1,8 @@
+commandlinefu_id: 760
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find  ./  -name '*'  -exec  rename  's/\s+/_/g'  {}  \;
+summary: |-
+  Find recursively, from current directory down, files and directories whose names contain single or multiple whitespaces and replace each such occurrence with a single underscore.

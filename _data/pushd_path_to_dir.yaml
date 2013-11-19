@@ -1,0 +1,8 @@
+commandlinefu_id: 10910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pushd path/to/dir/
+summary: |-
+  Directory stack pushd popd dirs

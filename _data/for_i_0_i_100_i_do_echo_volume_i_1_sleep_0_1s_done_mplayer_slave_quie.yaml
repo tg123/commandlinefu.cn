@@ -1,0 +1,8 @@
+commandlinefu_id: 7595
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( for((i=0;$i<100;i++))do echo volume $i 1; sleep 0.1s; done; )| mplayer -slave -quiet sample.mp3
+summary: |-
+  Mixing music in bash

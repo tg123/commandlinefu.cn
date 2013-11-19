@@ -1,0 +1,8 @@
+commandlinefu_id: 2564
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo alias grep=\'grep --color=auto\' >> ~/.bashrc ; . ~/.bashrc
+summary: |-
+  permanently let grep colorize its output

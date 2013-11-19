@@ -1,0 +1,8 @@
+commandlinefu_id: 4620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $VARIABLE | xargs -d'\40' -n 6 echo
+summary: |-
+  Print the contents of $VARIABLE, six words at a time

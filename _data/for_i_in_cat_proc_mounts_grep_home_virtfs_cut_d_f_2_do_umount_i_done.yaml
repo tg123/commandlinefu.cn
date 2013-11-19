@@ -1,0 +1,8 @@
+commandlinefu_id: 12825
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `cat /proc/mounts | grep /home/virtfs | cut -d ? ? -f 2 ` ; do umount $i; done
+summary: |-
+  cpanel umount virtfs mounts

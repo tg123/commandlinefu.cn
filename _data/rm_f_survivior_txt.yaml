@@ -1,0 +1,8 @@
+commandlinefu_id: 6652
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  rm -f !(survivior.txt)
+summary: |-
+  删除除了特定文件的所有文件

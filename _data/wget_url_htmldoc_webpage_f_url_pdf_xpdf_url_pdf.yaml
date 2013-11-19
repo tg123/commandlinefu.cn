@@ -1,0 +1,8 @@
+commandlinefu_id: 2378
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget $URL | htmldoc --webpage -f "$URL".pdf - ; xpdf "$URL".pdf &
+summary: |-
+  Save an HTML page, and covert it to a .pdf file

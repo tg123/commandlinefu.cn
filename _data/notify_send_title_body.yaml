@@ -1,0 +1,8 @@
+commandlinefu_id: 2041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  notify-send ["<title>"] "<body>"
+summary: |-
+  Send pop-up notifications on Gnome

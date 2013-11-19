@@ -1,0 +1,8 @@
+commandlinefu_id: 9180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sox input.mp3 output.mp3 fade h 5 00:02:58 5
+summary: |-
+  Apply fade effect to a audio

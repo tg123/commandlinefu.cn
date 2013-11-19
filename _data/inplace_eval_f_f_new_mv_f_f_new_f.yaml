@@ -1,0 +1,8 @@
+commandlinefu_id: 5317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  inplace() { eval F=\"\$$#\"; "$@" > "$F".new && mv -f "$F".new "$F"; }
+summary: |-
+  Generic shell function for modifying files in-place

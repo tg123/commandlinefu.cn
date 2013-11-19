@@ -1,0 +1,8 @@
+commandlinefu_id: 11812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tee >(openssl md5 > sum.md5) <somefile | bzip2 > somefile.bz2
+summary: |-
+  Get MD5 checksum from a pipe stream and do not alter it

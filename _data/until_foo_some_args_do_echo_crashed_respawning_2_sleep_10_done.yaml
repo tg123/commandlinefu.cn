@@ -1,0 +1,8 @@
+commandlinefu_id: 7185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  until foo some args; do echo "crashed: $?  respawning..." >&2; sleep 10; done
+summary: |-
+  do 'foo' until it exits successfully, pausing in between crashes

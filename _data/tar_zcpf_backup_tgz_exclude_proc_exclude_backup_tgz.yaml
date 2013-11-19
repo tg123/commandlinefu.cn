@@ -1,0 +1,8 @@
+commandlinefu_id: 971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar zcpf backup.tgz --exclude=/proc --exclude=backup.tgz /
+summary: |-
+  Simple complete system backup excluding files or directories

@@ -1,0 +1,8 @@
+commandlinefu_id: 11492
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim $(grep [REGULAR_EXPRESSION] -R * | cut -d":" -f1 | uniq)
+summary: |-
+  Open all files with a regular expression in vim

@@ -1,0 +1,8 @@
+commandlinefu_id: 5978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export MANPAGER='most'
+summary: |-
+  Use "most" as your man pager

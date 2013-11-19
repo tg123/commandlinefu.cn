@@ -1,0 +1,8 @@
+commandlinefu_id: 732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  srchpymod() { python -c "import $1; print filter(lambda x: x.find('$2') >= 0, dir($1))"; };
+summary: |-
+  search into contents of python module

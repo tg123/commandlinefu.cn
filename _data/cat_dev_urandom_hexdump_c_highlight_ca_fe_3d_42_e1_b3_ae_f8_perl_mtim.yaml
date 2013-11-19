@@ -1,0 +1,8 @@
+commandlinefu_id: 7513
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom | hexdump -C | highlight ca fe 3d 42 e1 b3 ae f8 | perl -MTime::HiRes -pne "Time::HiRes::usleep(rand()*1000000)"
+summary: |-
+  shell equivalent of a boss button

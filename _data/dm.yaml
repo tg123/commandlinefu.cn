@@ -1,0 +1,8 @@
+commandlinefu_id: 5166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dm ?
+summary: |-
+  Dispaly a bunch of Info. on Foundry (Brocade) RX and MLX BigIron L3 (routers & switches)

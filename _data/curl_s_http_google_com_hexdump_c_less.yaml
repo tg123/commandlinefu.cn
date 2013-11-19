@@ -1,0 +1,8 @@
+commandlinefu_id: 4773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://google.com | hexdump -C|less
+summary: |-
+  Dump a web page

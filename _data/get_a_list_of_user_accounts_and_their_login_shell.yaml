@@ -1,0 +1,8 @@
+commandlinefu_id: 9519
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Get a list of user accounts and their login shell
+summary: |-
+  cat /etc/passwd | egrep -v "noshell|false|nologin" | cut -d: -f1,7

@@ -1,0 +1,8 @@
+commandlinefu_id: 8240
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (sp-sc sop://broker.sopcast.com:3912/80562 8908 10999 &>/dev/null &); sleep 10; wait $(vlc http://localhost:10999); killall sp-sc
+summary: |-
+  View a sopcast stream

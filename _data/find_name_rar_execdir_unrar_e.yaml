@@ -1,0 +1,8 @@
+commandlinefu_id: 11324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.rar' -execdir unrar e {} \;
+summary: |-
+  Recursively unrar into dir containing archive

@@ -1,0 +1,8 @@
+commandlinefu_id: 8732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parallel -a <(seq 0 20) mkdir /tmp/dir1/{}
+summary: |-
+  make directory

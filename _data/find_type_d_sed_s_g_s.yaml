@@ -1,0 +1,8 @@
+commandlinefu_id: 10592
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d |sed 's:[^-][^/]*/:--:g; s:^-: |:'
+summary: |-
+  Graphical tree of sub-directories

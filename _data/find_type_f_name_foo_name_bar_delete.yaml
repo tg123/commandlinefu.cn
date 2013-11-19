@@ -1,0 +1,8 @@
+commandlinefu_id: 6761
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f ! -name "*.foo" -name "*.bar" -delete
+summary: |-
+  Delete all files in a folder that don't match a certain file extension

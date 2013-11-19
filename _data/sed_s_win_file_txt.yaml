@@ -1,0 +1,8 @@
+commandlinefu_id: 9283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/.$//' Win-file.txt
+summary: |-
+  Convert windows text file to linux text document

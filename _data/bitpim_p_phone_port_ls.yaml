@@ -1,0 +1,8 @@
+commandlinefu_id: 5313
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bitpim -p $PHONE_PORT ls
+summary: |-
+  List a phone's filesystem with bitpim

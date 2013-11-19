@@ -1,0 +1,8 @@
+commandlinefu_id: 7226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -l -f ~/.ssh/known_hosts
+summary: |-
+  View ~/.ssh/known_hosts key information

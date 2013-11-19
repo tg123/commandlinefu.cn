@@ -1,0 +1,8 @@
+commandlinefu_id: 5156
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'print "-"*50'
+summary: |-
+  Print a row of 50 hyphens

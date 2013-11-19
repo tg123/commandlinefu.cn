@@ -1,0 +1,8 @@
+commandlinefu_id: 2992
+translator:
+  weibo: ''
+hide: true
+command: |-
+  taskset -cp <core> <pid>
+summary: |-
+  Change proccess affinity.

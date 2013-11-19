@@ -1,0 +1,8 @@
+commandlinefu_id: 12853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmodmap -e "pointer = $(shuf -i 1-5 | tr '\n' ' ')"
+summary: |-
+  Mouse Remap Trolling

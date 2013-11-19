@@ -1,0 +1,8 @@
+commandlinefu_id: 5396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $hex | perl -pe 's/(..)/chr(hex($1))/ge'
+summary: |-
+  convert a string of hex characters into ascii chars

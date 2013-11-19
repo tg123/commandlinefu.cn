@@ -1,0 +1,8 @@
+commandlinefu_id: 140
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ///bin/true; exec java bsh.Interpreter "$0" "$@"
+summary: |-
+  (Inside of a shell script) Make executable a BeanShell script under Linux/Cygwin

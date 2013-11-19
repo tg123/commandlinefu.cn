@@ -1,0 +1,8 @@
+commandlinefu_id: 3262
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{print $1}' /var/log/httpd/access_log | sort | uniq -c | sort -rnk1 | head -n 10
+summary: |-
+  Top 10 requestors by IP address from Apache/NCSA Logs

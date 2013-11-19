@@ -1,0 +1,8 @@
+commandlinefu_id: 9970
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo `wget -q -O - http://www.whatismyip.org`
+summary: |-
+  Get Public IP Address from command line

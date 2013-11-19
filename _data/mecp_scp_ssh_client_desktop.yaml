@@ -1,0 +1,8 @@
+commandlinefu_id: 2400
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mecp () { scp "$@" ${SSH_CLIENT%% *}:Desktop/; }
+summary: |-
+  Easily scp a file back to the host you're connecting from

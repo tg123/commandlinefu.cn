@@ -1,0 +1,8 @@
+commandlinefu_id: 1556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount | column -t
+summary: |-
+  currently mounted filesystems in nice layout

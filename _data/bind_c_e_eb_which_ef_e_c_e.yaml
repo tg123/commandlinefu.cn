@@ -1,0 +1,8 @@
+commandlinefu_id: 7738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind '"\C-e":"\eb `which \ef`\e\C-e"'
+summary: |-
+  expand a program-name into an absolute path on the bash command-line, using ctrl-e

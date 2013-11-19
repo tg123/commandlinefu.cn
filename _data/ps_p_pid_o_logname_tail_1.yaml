@@ -1,0 +1,8 @@
+commandlinefu_id: 9739
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ps -p pid -o logname |tail -1
+summary: |-
+  查看运行 进程pid 的用户

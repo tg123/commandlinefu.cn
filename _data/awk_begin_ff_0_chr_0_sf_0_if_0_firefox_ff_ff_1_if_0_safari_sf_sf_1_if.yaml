@@ -1,0 +1,8 @@
+commandlinefu_id: 10808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN{ff=0;chr=0;sf=0}{if($0~/Firefox/){ff=ff+1}if($0~/Safari/){sf=sf+1}if($0~/Chrome/){chr=chr+1} }END{total=(chr+ff+sf); print "Total: "total "\nSafari:  " (sf/total*100) "\nFirefox: "(ff/total*100) "\nChrome: "(chr/total*100)  }' /logs/access_log
+summary: |-
+  Lil stats on instant usage of navigator

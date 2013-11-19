@@ -1,0 +1,8 @@
+commandlinefu_id: 9931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*.sh' -print | cpio -o | gzip >sh.cpio.gz
+summary: |-
+  CPIO better than TAR

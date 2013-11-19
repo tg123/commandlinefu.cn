@@ -1,0 +1,8 @@
+commandlinefu_id: 10840
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{ a[$2]++ } END { for (b in a) { print b } }' file
+summary: |-
+  Display unique values of a column

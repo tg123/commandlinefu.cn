@@ -1,0 +1,8 @@
+commandlinefu_id: 659
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd /d d:\Windows
+summary: |-
+  Directly change directory without having to specify drive letter change command

@@ -1,0 +1,8 @@
+commandlinefu_id: 8655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -fu userid | awk '/userid/{print $2}' | xargs kill
+summary: |-
+  all out

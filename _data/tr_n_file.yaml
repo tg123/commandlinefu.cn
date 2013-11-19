@@ -1,0 +1,8 @@
+commandlinefu_id: 7248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr "\n" " " < file
+summary: |-
+  Join lines

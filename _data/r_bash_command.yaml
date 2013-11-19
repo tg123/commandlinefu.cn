@@ -1,0 +1,8 @@
+commandlinefu_id: 7993
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  :r! <bash_command>
+summary: |-
+  在 vi 中读入命令行结果

@@ -1,0 +1,8 @@
+commandlinefu_id: 980
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ipconfig /flushdns
+summary: |-
+  flush cached dns lookups

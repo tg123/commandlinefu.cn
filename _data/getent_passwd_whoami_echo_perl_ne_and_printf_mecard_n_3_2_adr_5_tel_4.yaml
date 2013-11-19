@@ -1,0 +1,8 @@
+commandlinefu_id: 8904
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent passwd $(whoami) | echo "$(perl -ne '/^([^:]+):[^:]+:[^:]+:[^:]+:([^ ]+) ?([^,]+)?,([^,]*),([^,]*),([^:,]*),?([^:,]*)/ and printf "MECARD:N:$3,$2;ADR:$5;TEL:$4;TEL:$6;EMAIL:$1@"')$HOSTNAME;;" | qrencode -o myqr.png
+summary: |-
+  Create a QR code image in MECARD format

@@ -1,0 +1,8 @@
+commandlinefu_id: 8840
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk "/<xsd:annotation>/{h=1};!h;/<\/xsd:annotation>/{h=0}" annotatedSchema.xsd
+summary: |-
+  Remove annotation- (or other own-lined) tags from an XML document

@@ -1,0 +1,8 @@
+commandlinefu_id: 12774
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -ah | sort -hr | head -n50 | cat -n
+summary: |-
+  Display a numbered list of 50 biggets files sorted by size (human readable)

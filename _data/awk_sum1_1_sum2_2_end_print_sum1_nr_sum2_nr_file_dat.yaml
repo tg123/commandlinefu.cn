@@ -1,0 +1,8 @@
+commandlinefu_id: 1658
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{sum1+=$1; sum2+=$2} END {print sum1/NR, sum2/NR}' file.dat
+summary: |-
+  Averaging columns of numbers

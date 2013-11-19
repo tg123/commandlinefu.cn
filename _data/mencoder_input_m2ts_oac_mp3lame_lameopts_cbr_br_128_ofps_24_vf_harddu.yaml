@@ -1,0 +1,8 @@
+commandlinefu_id: 8927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mencoder input.m2ts -oac mp3lame -lameopts cbr:br=128 -ofps 24 -vf harddup -vf scale=1280:720 -ovc xvid -xvidencopts fixed_quant=3 -o output.xvid.lamp.avi
+summary: |-
+  mencoder convert bluray to xvid

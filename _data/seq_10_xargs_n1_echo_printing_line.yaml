@@ -1,0 +1,8 @@
+commandlinefu_id: 3803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 10 |xargs -n1 echo Printing line
+summary: |-
+  Creating sequence of number with text

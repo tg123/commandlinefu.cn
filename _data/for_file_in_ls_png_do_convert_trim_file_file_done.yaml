@@ -1,0 +1,8 @@
+commandlinefu_id: 6863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in `ls *.png`; do convert -trim $file $file; done
+summary: |-
+  Trim png files in a folder

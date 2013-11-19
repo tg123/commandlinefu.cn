@@ -1,0 +1,8 @@
+commandlinefu_id: 1609
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo make me a sandwich
+summary: |-
+  get someone to make you a sandwich

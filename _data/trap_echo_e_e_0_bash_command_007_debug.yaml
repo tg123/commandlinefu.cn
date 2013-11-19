@@ -1,0 +1,8 @@
+commandlinefu_id: 3674
+translator:
+  weibo: ''
+hide: true
+command: |-
+  trap 'echo -e "\e]0;$BASH_COMMAND\007"' DEBUG
+summary: |-
+  Changing the terminal title to the last shell command

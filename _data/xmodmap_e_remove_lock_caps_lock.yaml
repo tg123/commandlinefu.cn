@@ -1,0 +1,8 @@
+commandlinefu_id: 1257
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  xmodmap -e "remove Lock = Caps_Lock"
+summary: |-
+  禁止 大写锁定键

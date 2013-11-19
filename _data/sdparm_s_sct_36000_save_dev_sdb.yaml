@@ -1,0 +1,8 @@
+commandlinefu_id: 12192
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sdparm -s SCT=36000 --save /dev/sdb
+summary: |-
+  Increase SCT of external USB disk enclosure to one hour.

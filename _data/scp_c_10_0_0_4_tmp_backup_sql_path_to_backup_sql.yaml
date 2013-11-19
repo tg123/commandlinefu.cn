@@ -1,0 +1,8 @@
+commandlinefu_id: 4859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp -C 10.0.0.4:/tmp/backup.sql /path/to/backup.sql
+summary: |-
+  scp with compression.

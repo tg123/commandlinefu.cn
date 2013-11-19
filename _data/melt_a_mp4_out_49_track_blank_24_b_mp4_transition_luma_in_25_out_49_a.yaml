@@ -1,0 +1,8 @@
+commandlinefu_id: 11931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  melt a.mp4 out=49 -track -blank 24 b.mp4 -transition luma in=25 out=49 a_track=0 b_track=1 -consumer avformat:out.mp4
+summary: |-
+  Create a transition between two videos

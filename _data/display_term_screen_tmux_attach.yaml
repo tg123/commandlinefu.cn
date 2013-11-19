@@ -1,0 +1,8 @@
+commandlinefu_id: 10591
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [[ $DISPLAY != "" ]] && [[ ${TERM%screen*} != "" ]] && tmux attach
+summary: |-
+  Check if it's OK to spawn tmux. Bool's Rools.

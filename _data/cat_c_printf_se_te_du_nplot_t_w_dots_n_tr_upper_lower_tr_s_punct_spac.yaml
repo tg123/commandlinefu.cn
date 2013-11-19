@@ -1,0 +1,8 @@
+commandlinefu_id: 4099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat *.c | { printf "se te du\nplot '-' t '' w dots\n"; tr '[[:upper:]]' '[[:lower:]]' | tr -s [[:punct:][:space:]] '\n' | sort | uniq -c | sort -nr | head -n 100 | awk '{print $1}END{print "e"}'; } | gnuplot
+summary: |-
+  Plot frequency distribution of words from files on a terminal.

@@ -1,0 +1,8 @@
+commandlinefu_id: 11397
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gzip -c source.csv > source.csv.gz
+summary: |-
+  AIX - gzip command to compress a file

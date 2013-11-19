@@ -1,0 +1,8 @@
+commandlinefu_id: 9988
+translator:
+  weibo: ''
+hide: true
+command: |-
+  partprobe
+summary: |-
+  Re-read partition table on specified device without rebooting system (here /dev/sda).

@@ -1,0 +1,8 @@
+commandlinefu_id: 4707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find directory/ -exec grep -ni phrase {} +
+summary: |-
+  Recursively grep thorugh directory for string in file.

@@ -1,0 +1,8 @@
+commandlinefu_id: 11569
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strings -1 <file>
+summary: |-
+  Show only printable characters and newlines from a file or input

@@ -1,0 +1,8 @@
+commandlinefu_id: 8091
+translator:
+  weibo: ''
+hide: true
+command: |-
+  locate munin | xargs rm -r
+summary: |-
+  Delete all files from a locate output

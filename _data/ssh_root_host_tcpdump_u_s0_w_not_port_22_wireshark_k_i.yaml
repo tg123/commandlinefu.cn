@@ -1,0 +1,8 @@
+commandlinefu_id: 6912
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@HOST tcpdump -U -s0 -w - 'not port 22' | wireshark -k -i -
+summary: |-
+  analyze traffic remotely over ssh w/ wireshark

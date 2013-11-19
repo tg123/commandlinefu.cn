@@ -1,0 +1,8 @@
+commandlinefu_id: 5806
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod 644 $(find . -type f)
+summary: |-
+  Apply permissions only to files

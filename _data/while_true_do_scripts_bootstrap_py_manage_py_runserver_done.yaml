@@ -1,0 +1,8 @@
+commandlinefu_id: 1722
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true ; do scripts/bootstrap.py ; ./manage.py runserver ; done
+summary: |-
+  Quickly make schema changes in Django

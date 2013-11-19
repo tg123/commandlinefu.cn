@@ -1,0 +1,8 @@
+commandlinefu_id: 2540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  system_profiler SPPowerDataType | egrep -e "Connected|Charge remaining|Full charge capacity|Condition" | sed -e 's/^[ \t]*//'
+summary: |-
+  Show battery infomations for OS X 10.5.x

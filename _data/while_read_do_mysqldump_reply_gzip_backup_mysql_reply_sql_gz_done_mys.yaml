@@ -1,0 +1,8 @@
+commandlinefu_id: 9773
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read; do mysqldump $REPLY | gzip > "/backup/mysql/$REPLY.sql.gz"; done < <( mysql -e 'show databases' -s --skip-column-names )
+summary: |-
+  Backup all MySQL Databases to individual files

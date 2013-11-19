@@ -1,0 +1,8 @@
+commandlinefu_id: 3956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -r "s/\x1B\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g
+summary: |-
+  Remove color codes (special characters) with sed

@@ -1,0 +1,8 @@
+commandlinefu_id: 2620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat <<.>> somefilename
+summary: |-
+  write text or append to a file

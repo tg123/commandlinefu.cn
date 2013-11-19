@@ -1,0 +1,8 @@
+commandlinefu_id: 12099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log | grep Date | awk '{print " : "$4" "$3" "$6}' | uniq -c
+summary: |-
+  Number of commits per day in a git repository

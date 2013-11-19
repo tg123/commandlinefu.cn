@@ -1,0 +1,8 @@
+commandlinefu_id: 3486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1='C:${PWD//\//\\\}>'
+summary: |-
+  Incase you miss the famous 'C:\>' prompt

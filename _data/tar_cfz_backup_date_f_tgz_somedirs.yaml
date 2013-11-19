@@ -1,0 +1,8 @@
+commandlinefu_id: 7074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cfz backup-`date +%F`.tgz somedirs
+summary: |-
+  Create a tar file with the current date in the name.

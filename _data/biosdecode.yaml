@@ -1,0 +1,8 @@
+commandlinefu_id: 3045
+translator:
+  weibo: ''
+hide: true
+command: |-
+  biosdecode
+summary: |-
+  parses the BIOS memory and prints information about all structures (or entry points) it knows of.

@@ -1,0 +1,8 @@
+commandlinefu_id: 8803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scalac quicksort.scala && javap QuickSort
+summary: |-
+  print info about compiled Scala class

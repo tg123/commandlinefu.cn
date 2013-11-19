@@ -1,0 +1,8 @@
+commandlinefu_id: 8953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat input.txt | sed 's/\\\033[^a-zA-Z]*.//g'
+summary: |-
+  Remove color codes (special characters) with sed

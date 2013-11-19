@@ -1,0 +1,8 @@
+commandlinefu_id: 10255
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(ps -eo pid,pmem,pcpu| sort -k 3 -r|grep -v PID|head -10|awk '{print $1}');do diff -yw <(pidstat -p $i|grep -v Linux) <(ps -o euser,pri,psr,pmem,stat -p $i|tail);done
+summary: |-
+  Displays user-defined ps output and pidstat output about the top CPU or MEMory users.

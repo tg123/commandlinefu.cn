@@ -1,0 +1,8 @@
+commandlinefu_id: 8698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'END {print NR}' /etc/passwd
+summary: |-
+  How many lines does  the passwd file have?

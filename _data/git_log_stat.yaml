@@ -1,0 +1,8 @@
+commandlinefu_id: 10822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --stat
+summary: |-
+  show git logging

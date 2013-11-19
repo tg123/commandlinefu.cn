@@ -1,0 +1,8 @@
+commandlinefu_id: 6128
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --format=%H | tail -1
+summary: |-
+  Get first Git commit hash

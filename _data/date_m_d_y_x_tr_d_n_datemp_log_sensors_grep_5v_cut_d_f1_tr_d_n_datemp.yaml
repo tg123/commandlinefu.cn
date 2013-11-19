@@ -1,0 +1,8 @@
+commandlinefu_id: 1808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date +%m/%d/%y%X|tr -d 'n' >>datemp.log&& sensors|grep +5V|cut -d "(" -f1|tr -d 'n'>> datemp.log && sensors |grep Temp |cut -d "(" -f1|tr -d 'n'>>datemp.log
+summary: |-
+  log your PC's motherboard and CPU temperature along with the current date

@@ -1,0 +1,8 @@
+commandlinefu_id: 4056
+translator:
+  weibo: ''
+hide: true
+command: |-
+  in bash hit "tab" twice and answer y
+summary: |-
+  List all available commands

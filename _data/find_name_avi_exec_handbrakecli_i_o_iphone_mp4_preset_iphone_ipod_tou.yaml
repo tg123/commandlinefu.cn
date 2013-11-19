@@ -1,0 +1,8 @@
+commandlinefu_id: 10395
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name \*.avi -exec HandBrakeCLI -i "{}" -o "{}".iphone.mp4 --preset="iPhone & iPod Touch" \;
+summary: |-
+  Convert all files for iPhone with HandbrakeCLI

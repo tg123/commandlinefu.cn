@@ -1,0 +1,8 @@
+commandlinefu_id: 9715
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x="1" && z="`ls -l * | wc -l`"; for y in *.mp3; do `id3v2 --TRCK "$x/$z" "$y"`; x=$[$x+1]; done
+summary: |-
+  Writes ID3 tags with track numbers for mp3s in current directory

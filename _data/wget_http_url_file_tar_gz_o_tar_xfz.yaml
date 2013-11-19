@@ -1,0 +1,8 @@
+commandlinefu_id: 7680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://URL/FILE.tar.gz -O - | tar xfz -
+summary: |-
+  Download a file and uncompress it while it downloads

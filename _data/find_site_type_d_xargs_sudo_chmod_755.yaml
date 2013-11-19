@@ -1,0 +1,8 @@
+commandlinefu_id: 11321
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find site/ -type d | xargs sudo chmod 755
+summary: |-
+  Change permission for all directories inside the current one

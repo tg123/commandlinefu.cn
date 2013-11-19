@@ -1,0 +1,8 @@
+commandlinefu_id: 12667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  journalctl -f
+summary: |-
+  journalctl -f

@@ -1,0 +1,8 @@
+commandlinefu_id: 3338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn log fileName | sed -ne "/^r\([0-9][0-9]*\).*/{;s//\1/;s/.*/svn cat fileName@& > fileName.r&/p;}" | sh -s
+summary: |-
+  fetch all revisions of a specific file in an SVN repository

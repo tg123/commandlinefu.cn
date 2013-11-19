@@ -1,0 +1,8 @@
+commandlinefu_id: 220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cleartool co -nc `cleartool ls -recurse | grep "hijacked" | sed s/\@\@.*// | xargs`
+summary: |-
+  Check out hijacked files in clearcase

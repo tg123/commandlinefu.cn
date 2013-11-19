@@ -1,0 +1,8 @@
+commandlinefu_id: 12733
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n 023135 | perl -pe 's/([0-9a-f]{2})/chr hex $1/gie' | nc -4u -q1 -p5001 192.168.0.100 2000
+summary: |-
+  send raw data (hex written)using UDP to an IP and port

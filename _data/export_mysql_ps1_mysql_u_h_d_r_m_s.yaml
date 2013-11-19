@@ -1,0 +1,8 @@
+commandlinefu_id: 11472
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export MYSQL_PS1="mysql://\u@\h:/\d - \R:\m:\s > "
+summary: |-
+  Change mysql prompt to be more verbose

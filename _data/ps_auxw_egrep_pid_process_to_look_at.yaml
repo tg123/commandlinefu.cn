@@ -1,0 +1,8 @@
+commandlinefu_id: 1071
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps auxw |egrep "PID|process_to_look_at"
+summary: |-
+  ps a process keeping the header info so you know what the columns of numbers mean!

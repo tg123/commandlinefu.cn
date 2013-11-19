@@ -1,0 +1,8 @@
+commandlinefu_id: 5285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function ends_in_y() { case $(date +%A) in *y ) true ;; * ) false ;; esac } ; ends_in_y && echo ok
+summary: |-
+  Bash function to see if the day ends in

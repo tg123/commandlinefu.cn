@@ -1,0 +1,8 @@
+commandlinefu_id: 11219
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias g='git'
+summary: |-
+  Various git commands

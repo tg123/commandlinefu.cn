@@ -1,0 +1,8 @@
+commandlinefu_id: 12647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  brew cleanup -n | awk '{print $3}' | xargs du -s | awk '{s+=$1} END {print s}'
+summary: |-
+  Get count of kilobytes brew cleanup would free

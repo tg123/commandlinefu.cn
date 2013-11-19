@@ -1,0 +1,8 @@
+commandlinefu_id: 9782
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://www.gravatar.com/avatar/`uuidgen | md5sum | awk '{print $1}'`?s=64&d=identicon&r=PG" | display
+summary: |-
+  generate random identicon

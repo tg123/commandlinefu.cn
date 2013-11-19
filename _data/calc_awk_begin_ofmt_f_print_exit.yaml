@@ -1,0 +1,8 @@
+commandlinefu_id: 4425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  calc() { awk 'BEGIN { OFMT="%f"; print '"$*"'; exit}'; }
+summary: |-
+  floating point shell calculator

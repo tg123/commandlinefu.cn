@@ -1,0 +1,8 @@
+commandlinefu_id: 11369
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps axo %mem,pid,euser,cmd | sort -nr | head -n 10
+summary: |-
+  Display the top ten running processes - sorted by memory usage

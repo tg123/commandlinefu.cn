@@ -1,0 +1,8 @@
+commandlinefu_id: 10843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ack --java '\\u.?.?.?[^0-9a-fA-F]'
+summary: |-
+  Find invalid \uxxxx Unicode escape sequences in Java source code

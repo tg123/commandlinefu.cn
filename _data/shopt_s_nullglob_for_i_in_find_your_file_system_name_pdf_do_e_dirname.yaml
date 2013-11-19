@@ -1,0 +1,8 @@
+commandlinefu_id: 7340
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt -s nullglob; for i in $(find "Your/file/system" -name "*.pdf"); do e="$(dirname $i)/$(basename $i '.pdf').png"; gs -sDEVICE=png16m -q -dPDFFitPage -g492x380 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dNOSUBSTDEVICECOLORS -o $e $i; done
+summary: |-
+  Convert a directory of pdfs into scaled down pngs

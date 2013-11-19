@@ -1,0 +1,8 @@
+commandlinefu_id: 8737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lshw -short
+summary: |-
+  Show 'Hardware path'-style tree of all devices in Linux

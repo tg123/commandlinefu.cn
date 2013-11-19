@@ -1,0 +1,8 @@
+commandlinefu_id: 10273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pktsize=1516;for i in $( seq $pktsize -8 1450 ) ; do ping -M do -s $i -c 1 slashdot.org; done
+summary: |-
+  What value should I set my TCP/IP MTU (Max. Transmission Unit) to?

@@ -1,0 +1,8 @@
+commandlinefu_id: 9445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  title() { sed 's/\<\w*/\u&/g' <<<$@; }
+summary: |-
+  return a titlecased version of the string[str.title() in python]

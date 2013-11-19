@@ -1,0 +1,8 @@
+commandlinefu_id: 11539
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true;do n="$(curl -s http://news.yahoo.com/rss/|sed 's/</\n/g'|grep "title>"|sed -e '/^\// d' -e 's/title>/---------- /g' -e '1,3d'|tr '\n' ' ')";for i in $(eval echo {0..${#n}});do echo -ne "\e[s\e[0;0H${n:$i:$COLUMNS}\e[u";sleep .15;done;done &
+summary: |-
+  Create A Continuous Yahoo! News Ticker For The Terminal

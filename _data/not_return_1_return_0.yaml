@@ -1,0 +1,8 @@
+commandlinefu_id: 3577
+translator:
+  weibo: ''
+hide: true
+command: |-
+  not () { "$@" && return 1 || return 0; }
+summary: |-
+  run command with opposite return code

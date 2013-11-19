@@ -1,0 +1,8 @@
+commandlinefu_id: 2452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -d: -f1 /etc/passwd | grep -vE "#" | xargs -i{} crontab -u {} -l
+summary: |-
+  list all crontabs for users

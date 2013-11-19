@@ -1,0 +1,8 @@
+commandlinefu_id: 6837
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n "$=" fileName
+summary: |-
+  to display number of lines in a file without using wc command

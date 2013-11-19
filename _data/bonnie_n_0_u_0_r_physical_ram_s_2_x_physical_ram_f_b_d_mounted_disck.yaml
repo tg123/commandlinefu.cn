@@ -1,0 +1,8 @@
+commandlinefu_id: 3530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bonnie++ -n 0 -u 0 -r <physical RAM> -s <2 x physical ram> -f -b -d <mounted disck>
+summary: |-
+  Test file system performance

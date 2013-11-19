@@ -1,0 +1,8 @@
+commandlinefu_id: 10604
+translator:
+  weibo: ''
+hide: true
+command: |-
+  at midnight<<<'ls -l'
+summary: |-
+  Execute a command at a given time

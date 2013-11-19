@@ -1,0 +1,8 @@
+commandlinefu_id: 4510
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 "du -hs /home/$USER | cut -f1 -d'/' | figlet -k"
+summary: |-
+  Watch the size of a directory using figlet

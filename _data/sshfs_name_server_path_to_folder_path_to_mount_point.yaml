@@ -1,0 +1,8 @@
+commandlinefu_id: 193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshfs name@server:/path/to/folder /path/to/mount/point
+summary: |-
+  Mount folder/filesystem through SSH

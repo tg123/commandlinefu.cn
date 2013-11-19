@@ -1,0 +1,8 @@
+commandlinefu_id: 11852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias LS='find -mount -maxdepth 1 -printf "%.5m %10M %#9u:%-9g %#5U:%-5G %TF_%TR %CF_%CR %AF_%AR %#15s [%Y] %p\n" 2>/dev/null'
+summary: |-
+  Advanced ls using find to show much more detail than ls ever could

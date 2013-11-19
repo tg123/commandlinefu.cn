@@ -1,0 +1,8 @@
+commandlinefu_id: 895
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -rf /*
+summary: |-
+  A common typo

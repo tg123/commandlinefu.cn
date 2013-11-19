@@ -1,0 +1,8 @@
+commandlinefu_id: 12481
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx --dump twitter.com/(username) | sed -n "132,134 p"
+summary: |-
+  Get the Last tweet (Better than Twitter feed rrs)

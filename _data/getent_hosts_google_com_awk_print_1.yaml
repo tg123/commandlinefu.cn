@@ -1,0 +1,8 @@
+commandlinefu_id: 6944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent hosts google.com | awk '{print $1}'
+summary: |-
+  Get just the IP for a hostname

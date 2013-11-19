@@ -1,0 +1,8 @@
+commandlinefu_id: 9236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -sm1 http://www.website.com/ | grep -o 'http://[^"]*jpg' | sort -u | wget -qT1 -i-
+summary: |-
+  download all jpg in webpage

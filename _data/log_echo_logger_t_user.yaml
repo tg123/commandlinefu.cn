@@ -1,0 +1,8 @@
+commandlinefu_id: 6651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  log() { (echo "\$ $@";$@) | logger -t $USER; }
+summary: |-
+  write the output of a command to /var/log/user.log... each line will contain $USER, making this easy to grep for.

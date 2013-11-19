@@ -1,0 +1,8 @@
+commandlinefu_id: 3527
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff --numstat | awk '{if ($1 == "0" && $2 == "0") print $3}'  | xargs git checkout HEAD
+summary: |-
+  (Git) Revert files with changed mode, not content

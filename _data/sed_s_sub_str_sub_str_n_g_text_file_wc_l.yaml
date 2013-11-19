@@ -1,0 +1,8 @@
+commandlinefu_id: 12104
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed ?s/[sub_str]/[sub_str]\n/g? [text_file] | wc -l
+summary: |-
+  count the number of times you match a substring in a larger text file

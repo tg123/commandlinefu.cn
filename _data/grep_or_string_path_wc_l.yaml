@@ -1,0 +1,8 @@
+commandlinefu_id: 2676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ grep -or string path/ | wc -l
+summary: |-
+  count how many times a string appears in a (source code) tree

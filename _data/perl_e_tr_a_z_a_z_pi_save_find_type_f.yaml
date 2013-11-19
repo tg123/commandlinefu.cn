@@ -1,0 +1,8 @@
+commandlinefu_id: 7158
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -e "tr/[A-Z]/[a-z]/;" -pi.save $(find . -type f)
+summary: |-
+  recursive transform all contents of files to lowercase

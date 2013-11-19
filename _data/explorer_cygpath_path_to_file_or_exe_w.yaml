@@ -1,0 +1,8 @@
+commandlinefu_id: 2729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  explorer $( cygpath "/path/to/file_or_exe" -w )
+summary: |-
+  Open windows executable, file, or folder from cygwin terminal

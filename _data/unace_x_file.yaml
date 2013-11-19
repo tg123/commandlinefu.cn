@@ -1,0 +1,8 @@
+commandlinefu_id: 9948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unace x [file]
+summary: |-
+  extract .ace file

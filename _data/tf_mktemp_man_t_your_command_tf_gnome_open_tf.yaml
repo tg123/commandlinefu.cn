@@ -1,0 +1,8 @@
+commandlinefu_id: 949
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TF=`mktemp` && man -t YOUR_COMMAND >> $TF && gnome-open $TF
+summary: |-
+  Open a man page as a PDF in Gnome

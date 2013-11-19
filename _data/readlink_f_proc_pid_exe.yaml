@@ -1,0 +1,8 @@
+commandlinefu_id: 11820
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readlink -f /proc/$pid/exe
+summary: |-
+  bin file of a pid

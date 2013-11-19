@@ -1,0 +1,8 @@
+commandlinefu_id: 10042
+translator:
+  weibo: ''
+hide: true
+command: |-
+  msgfilter --keep-header  -i input.po  -o empty.po  awk -e '{}'
+summary: |-
+  empty a gettext po-file (or, po2pot)

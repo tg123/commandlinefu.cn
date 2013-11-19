@@ -1,0 +1,8 @@
+commandlinefu_id: 1481
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -avz -e ssh --files-from=<(find -mtime +30 -mtime -60) source dest
+summary: |-
+  rsync + find

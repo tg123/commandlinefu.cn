@@ -1,0 +1,8 @@
+commandlinefu_id: 5032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip route list match 0.0.0.0/0 | cut -d " " -f 3
+summary: |-
+  Fetch the Gateway Ip Address

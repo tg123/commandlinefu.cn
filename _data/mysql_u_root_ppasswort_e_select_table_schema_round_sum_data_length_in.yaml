@@ -1,0 +1,8 @@
+commandlinefu_id: 3714
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  mysql -u root -pPasswort -e 'select table_schema,round(sum(data_length+index_length)/1024/1024,4) from information_schema.tables group by ta
+summary: |-
+  查看mysql db大小

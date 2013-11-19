@@ -1,0 +1,8 @@
+commandlinefu_id: 2602
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -sd q=Network http://www.commandlinefu.com/search/autocomplete |html2text -width 100
+summary: |-
+  Search commandlinefu from the CLI

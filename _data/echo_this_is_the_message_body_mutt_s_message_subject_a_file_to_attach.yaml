@@ -1,0 +1,8 @@
+commandlinefu_id: 12763
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "This is the message body" | mutt -s "Message subject" -a file_to_attach.zip fred@example.com
+summary: |-
+  Email a file to yourself

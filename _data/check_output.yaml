@@ -1,0 +1,8 @@
+commandlinefu_id: 4431
+translator:
+  weibo: ''
+hide: true
+command: |-
+  check output
+summary: |-
+  Install MP4Box

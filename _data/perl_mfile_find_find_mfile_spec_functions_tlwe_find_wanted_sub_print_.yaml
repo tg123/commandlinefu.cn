@@ -1,0 +1,8 @@
+commandlinefu_id: 6225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MFile::Find=find -MFile::Spec::Functions -Tlwe 'find { wanted => sub { print canonpath $_ if /\.pm\z/ }, no_chdir => 1 }, @INC'
+summary: |-
+  Print a list of installed Perl modules

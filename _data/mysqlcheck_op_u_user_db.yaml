@@ -1,0 +1,8 @@
+commandlinefu_id: 6740
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqlcheck -op -u<user> <db>
+summary: |-
+  command line to optimize all table from a mysql database

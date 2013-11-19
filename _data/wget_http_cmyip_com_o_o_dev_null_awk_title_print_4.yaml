@@ -1,0 +1,8 @@
+commandlinefu_id: 7888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://cmyip.com -O - -o /dev/null | awk '/\<title/ {print $4}'
+summary: |-
+  Current host external IP

@@ -1,0 +1,8 @@
+commandlinefu_id: 1514
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt -s cdspell
+summary: |-
+  Enable automatic typo correction for directory names

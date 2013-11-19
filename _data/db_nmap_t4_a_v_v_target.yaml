@@ -1,0 +1,8 @@
+commandlinefu_id: 12267
+translator:
+  weibo: ''
+hide: true
+command: |-
+  db_nmap -T4 -A -v -v ( TARGET )
+summary: |-
+  nmap

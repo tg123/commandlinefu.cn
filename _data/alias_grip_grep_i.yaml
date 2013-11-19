@@ -1,0 +1,8 @@
+commandlinefu_id: 2713
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias grip="grep -i"
+summary: |-
+  Quick alias for case-insensitive grep

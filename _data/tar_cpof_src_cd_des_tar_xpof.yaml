@@ -1,0 +1,8 @@
+commandlinefu_id: 3554
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cpof - src |( cd des; tar xpof -)
+summary: |-
+  Bulk copy large blocks of data between File Systems (run as root iff you do not own all of the files!)

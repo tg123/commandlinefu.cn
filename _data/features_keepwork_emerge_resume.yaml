@@ -1,0 +1,8 @@
+commandlinefu_id: 2558
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FEATURES=keepwork emerge --resume
+summary: |-
+  Resume an emerge, and keep all object files that are already built

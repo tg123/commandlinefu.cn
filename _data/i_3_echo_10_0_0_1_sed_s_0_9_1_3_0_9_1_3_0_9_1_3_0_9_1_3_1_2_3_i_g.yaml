@@ -1,0 +1,8 @@
+commandlinefu_id: 8357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i=3; echo 10.0.0.1 | sed "s/\([0-9]\{1,3\}\.\)\([0-9]\{1,3\}\.\)\([0-9]\{1,3\}\.\)\([0-9]\{1,3\}\)/\1\2\3$i/g"
+summary: |-
+  replace one of the octates of an IP

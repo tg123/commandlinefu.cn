@@ -1,0 +1,8 @@
+commandlinefu_id: 10081
+translator:
+  weibo: ''
+hide: true
+command: |-
+  genRandomText() { perl -e '$n=shift; print chr(int(rand(26)) + 97) for 1..$n; print "\n"' $1;}
+summary: |-
+  Generate Random Text based on Length

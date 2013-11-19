@@ -1,0 +1,8 @@
+commandlinefu_id: 2439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste > newfile.txt
+summary: |-
+  Paste the contents of OS X clipboard into a new text file

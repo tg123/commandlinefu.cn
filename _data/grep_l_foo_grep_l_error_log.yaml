@@ -1,0 +1,8 @@
+commandlinefu_id: 7630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -l foo $(grep -l error *.log)
+summary: |-
+  find files ending in *.log that contain both 'foo' and 'error'

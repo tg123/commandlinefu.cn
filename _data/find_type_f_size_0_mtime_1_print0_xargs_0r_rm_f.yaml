@@ -1,0 +1,8 @@
+commandlinefu_id: 6201
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f -size +0 -mtime +1 -print0|xargs -0r rm -f
+summary: |-
+  deleter

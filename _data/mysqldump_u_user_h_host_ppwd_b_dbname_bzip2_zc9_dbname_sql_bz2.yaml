@@ -1,0 +1,8 @@
+commandlinefu_id: 4608
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump -u user -h host -ppwd -B dbname | bzip2 -zc9 > dbname.sql.bz2
+summary: |-
+  Dump and bz2compress a mysql db

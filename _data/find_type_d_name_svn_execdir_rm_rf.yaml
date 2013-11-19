@@ -1,0 +1,8 @@
+commandlinefu_id: 7040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -name .svn -execdir rm -rf {} +
+summary: |-
+  Recursively remove .svn directories from a local repository

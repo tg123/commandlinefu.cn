@@ -1,0 +1,8 @@
+commandlinefu_id: 1447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name *DS_Store -exec echo rm {} \;
+summary: |-
+  Removes Apple "garbage"

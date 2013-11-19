@@ -1,0 +1,8 @@
+commandlinefu_id: 5369
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -luntp
+summary: |-
+  netstat -luntp

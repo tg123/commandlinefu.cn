@@ -1,0 +1,8 @@
+commandlinefu_id: 6178
+translator:
+  weibo: ''
+hide: true
+command: |-
+  TODAY=`date +"%b %d"`;ls -l | grep "$TODAY" | awk '{print $9}'
+summary: |-
+  LIST FILENAMES OF FILES CREATED TODAY IN CURRENT DIRECTORY

@@ -1,0 +1,8 @@
+commandlinefu_id: 1203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :r !command
+summary: |-
+  Read the output of a command into the buffer in vim

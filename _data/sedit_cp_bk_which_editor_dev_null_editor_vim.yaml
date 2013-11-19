@@ -1,0 +1,8 @@
+commandlinefu_id: 9035
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sedit() { cp "$*"{,.bk}; which $EDITOR > /dev/null && $EDITOR "$*" || vim "$*"; }
+summary: |-
+  Backup a file before editing it.

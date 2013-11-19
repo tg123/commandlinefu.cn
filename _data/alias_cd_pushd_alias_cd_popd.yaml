@@ -1,0 +1,8 @@
+commandlinefu_id: 7196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias cd='pushd'; alias cd-='popd'
+summary: |-
+  Alias cd to record your directory travelling

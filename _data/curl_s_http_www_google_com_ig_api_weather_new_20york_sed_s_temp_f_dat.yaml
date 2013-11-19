@@ -1,0 +1,8 @@
+commandlinefu_id: 4817
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://www.google.com/ig/api?weather=New%20York" | sed 's|.*<temp_f data="\([^"]*\)"/>.*|\1|'
+summary: |-
+  Weather on the Command line

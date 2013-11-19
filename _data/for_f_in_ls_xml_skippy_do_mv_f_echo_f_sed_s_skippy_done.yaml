@@ -1,0 +1,8 @@
+commandlinefu_id: 4096
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in $(ls *.xml.skippy); do mv $f `echo $f | sed 's|.skippy||'`; done
+summary: |-
+  Remove an unnecessary suffix from a file name for all files in a directory

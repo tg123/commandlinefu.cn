@@ -1,0 +1,8 @@
+commandlinefu_id: 4186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc 'a-zA-Z0-9' < /dev/urandom | fold -w 10 | sed 1q
+summary: |-
+  generate random password

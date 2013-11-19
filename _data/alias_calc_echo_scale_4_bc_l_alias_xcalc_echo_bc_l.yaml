@@ -1,0 +1,8 @@
+commandlinefu_id: 1276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias calc 'echo "scale=4;\!*"|bc -l'; alias xcalc 'echo "\!*"|bc -l'
+summary: |-
+  easy C shell math calculators

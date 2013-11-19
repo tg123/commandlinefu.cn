@@ -1,0 +1,8 @@
+commandlinefu_id: 1686
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hS / | perl -ne '(m/\d{3,}M\s+\S/ || m/G\s+\S/) && print'
+summary: |-
+  Find all directories on filesystem containing more than 99MB

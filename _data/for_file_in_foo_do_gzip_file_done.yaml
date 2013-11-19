@@ -1,0 +1,8 @@
+commandlinefu_id: 3793
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.foo; do gzip "$file"; done
+summary: |-
+  GZip all files in a directory separately

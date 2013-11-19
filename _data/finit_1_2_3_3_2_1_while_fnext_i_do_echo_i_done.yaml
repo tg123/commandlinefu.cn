@@ -1,0 +1,8 @@
+commandlinefu_id: 5863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  finit "1 2 3" 3 2 1 | while fnext i ; do echo $i; done;
+summary: |-
+  Add a progress counter to loop (see sample output)

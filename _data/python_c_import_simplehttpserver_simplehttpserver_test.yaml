@@ -1,0 +1,8 @@
+commandlinefu_id: 1707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"
+summary: |-
+  bind a web server in $PWD

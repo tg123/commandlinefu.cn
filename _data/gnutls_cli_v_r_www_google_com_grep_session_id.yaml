@@ -1,0 +1,8 @@
+commandlinefu_id: 8729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gnutls-cli -V -r www.google.com |grep 'Session ID'
+summary: |-
+  Check if SSL session caching is enabled on Google

@@ -1,0 +1,8 @@
+commandlinefu_id: 11367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat .ssh/id_dsa.pub | ssh <HOST> "mkdir -p .ssh && tee -a .ssh/authorized_keys"
+summary: |-
+  Copy public ssh Id to new host withtout bash redirection

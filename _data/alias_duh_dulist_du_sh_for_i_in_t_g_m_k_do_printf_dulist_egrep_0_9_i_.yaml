@@ -1,0 +1,8 @@
+commandlinefu_id: 7237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias duh='dulist=$(du -sh */); for i in T G M K; do printf "$dulist"|egrep "^[0-9\.]+$i" | sort -rn; done'
+summary: |-
+  Get the size of all the directories in current directory (Sorted Human Readable)

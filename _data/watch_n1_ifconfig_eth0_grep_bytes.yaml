@@ -1,0 +1,8 @@
+commandlinefu_id: 5103
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 'ifconfig eth0|grep bytes'
+summary: |-
+  watch your network load on specific network interface

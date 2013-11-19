@@ -1,0 +1,8 @@
+commandlinefu_id: 1213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -rf `ls | head -5000`
+summary: |-
+  Delete tens of thousans of files at one go

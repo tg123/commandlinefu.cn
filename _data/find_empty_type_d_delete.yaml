@@ -1,0 +1,8 @@
+commandlinefu_id: 11111
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -empty -type d -delete
+summary: |-
+  Delete recursively only empty folders on present dir

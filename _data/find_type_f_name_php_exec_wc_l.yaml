@@ -1,0 +1,8 @@
+commandlinefu_id: 9949
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name "*.php" -exec wc -l {} +;
+summary: |-
+  Count total amount of code lines in a PHP Project (short version)

@@ -1,0 +1,8 @@
+commandlinefu_id: 5822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -u someuser -a +D /etc
+summary: |-
+  View user activity per directory.

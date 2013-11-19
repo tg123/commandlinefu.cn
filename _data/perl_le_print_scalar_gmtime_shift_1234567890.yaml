@@ -1,0 +1,8 @@
+commandlinefu_id: 9710
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -le 'print scalar gmtime shift' 1234567890
+summary: |-
+  convert unixtime to human-readable

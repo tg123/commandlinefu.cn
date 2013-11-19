@@ -1,0 +1,8 @@
+commandlinefu_id: 10960
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --pretty=oneline b56b83.. | wc -l
+summary: |-
+  Count git commits since specific commit

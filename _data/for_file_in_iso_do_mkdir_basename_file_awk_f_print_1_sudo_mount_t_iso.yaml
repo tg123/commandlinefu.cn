@@ -1,0 +1,8 @@
+commandlinefu_id: 3828
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  for file in *.iso; do mkdir `basename $file | awk -F. '{print $1}'`; sudo mount -t iso9660 -o loop $file `basename $file | awk -F. '{print $
+summary: |-
+  把iso批量mount

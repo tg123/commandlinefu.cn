@@ -1,0 +1,8 @@
+commandlinefu_id: 8137
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Qo /etc/yaourtrc
+summary: |-
+  archlinux: shows which package created a given file

@@ -1,0 +1,8 @@
+commandlinefu_id: 2678
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ran=$(head /dev/urandom | md5sum); MAC=00:07:${ran:0:2}:${ran:3:2}:${ran:5:2}:${ran:7:2}; sudo ifconfig wlan0 down hw ether $MAC; sudo ifconfig wlan0 up; echo ifconfig wlan0:0
+summary: |-
+  Resets your MAC to a random MAC address to make you harder to find.

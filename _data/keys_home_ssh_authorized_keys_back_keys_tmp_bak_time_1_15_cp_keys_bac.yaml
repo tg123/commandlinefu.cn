@@ -1,0 +1,8 @@
+commandlinefu_id: 2673
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Keys=$HOME/.ssh/authorized_keys;Back=$Keys.tmp.bak;Time=${1:-15};cp $Keys $Back;cat /dev/stdin >>$Keys;echo mv $Back $Keys|at now+${Time}minutes;
+summary: |-
+  Add temporary entry to authorized_keys

@@ -1,0 +1,8 @@
+commandlinefu_id: 10944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps auxww | grep application | grep processtobekilled | gawk '{print $2}' | grep -v grep | xargs kill -9
+summary: |-
+  Command to kill PID

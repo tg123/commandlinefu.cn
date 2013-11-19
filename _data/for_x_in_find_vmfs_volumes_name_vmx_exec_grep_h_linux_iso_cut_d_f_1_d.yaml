@@ -1,0 +1,8 @@
+commandlinefu_id: 3944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `find /vmfs/volumes/ -name *vmx -exec grep -H linux.iso {} \;  |cut -d : -f 1`; do echo $x; grep -i sync $x; done;
+summary: |-
+  Search vmware vmx files if Linux guests are set to sync time to host

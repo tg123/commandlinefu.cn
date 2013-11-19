@@ -1,0 +1,8 @@
+commandlinefu_id: 5106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  split -b4m file.tgz file.tgz. ; for i in file.tgz.*; do SUBJ="Backup Archive"; MSG="Archive File Attached"; echo $MSG | mutt -a $i -s $SUBJ YourEmail@(E)mail.com
+summary: |-
+  Split a file into equal size chunks and archive to (e)mail account.

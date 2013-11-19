@@ -1,0 +1,8 @@
+commandlinefu_id: 1007
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get () { [ "$1" = source ] && (command apt-get "$@";true) || sudo apt-get "$@" }
+summary: |-
+  apt-get via sudo

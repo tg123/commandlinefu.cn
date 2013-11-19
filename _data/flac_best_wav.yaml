@@ -1,0 +1,8 @@
+commandlinefu_id: 4045
+translator:
+  weibo: ''
+hide: true
+command: |-
+  flac --best *.wav
+summary: |-
+  convert wav files to flac

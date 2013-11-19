@@ -1,0 +1,8 @@
+commandlinefu_id: 3542
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -P -i -n
+summary: |-
+  Show apps that use internet connection at the moment. (Multi-Language)

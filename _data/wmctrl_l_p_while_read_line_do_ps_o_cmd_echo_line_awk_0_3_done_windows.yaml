@@ -1,0 +1,8 @@
+commandlinefu_id: 5990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wmctrl -l -p | while read line; do ps -o cmd= "$(echo "$line" | awk '$0=$3')"; done > ~/.windows
+summary: |-
+  Save your open windows to a file so they can be opened after you restart

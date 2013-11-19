@@ -1,0 +1,8 @@
+commandlinefu_id: 3850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seg() { echo -e "$1" | while read LINE; do for b in $(seq 10); do echo $LINE.$b; done; done; }
+summary: |-
+  Command to build one or more network segments - with while

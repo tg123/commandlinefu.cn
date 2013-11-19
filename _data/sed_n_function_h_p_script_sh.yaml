@@ -1,0 +1,8 @@
+commandlinefu_id: 3836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/^function h\(\)/,/^}/p' script.sh
+summary: |-
+  Extract a bash function

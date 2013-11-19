@@ -1,0 +1,8 @@
+commandlinefu_id: 6179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l --time-style=+%Y-%m-%d | awk "/$(date +'%Y-%m-%d')/ {print \$7}"
+summary: |-
+  LIST FILENAMES OF FILES CREATED TODAY IN CURRENT DIRECTORY

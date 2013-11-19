@@ -1,0 +1,8 @@
+commandlinefu_id: 3227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec dos2unix {} +
+summary: |-
+  dos2unix recursively

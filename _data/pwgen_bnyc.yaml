@@ -1,0 +1,8 @@
+commandlinefu_id: 10441
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  pwgen -Bnyc
+summary: |-
+  生成安全的随机密码

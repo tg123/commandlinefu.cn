@@ -1,0 +1,8 @@
+commandlinefu_id: 10803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  open -a /Applications/Safari.app $1
+summary: |-
+  open an mac application from mac osx command line terminal

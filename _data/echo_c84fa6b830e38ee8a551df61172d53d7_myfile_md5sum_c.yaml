@@ -1,0 +1,8 @@
+commandlinefu_id: 4757
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo 'c84fa6b830e38ee8a551df61172d53d7  myfile' | md5sum -c
+summary: |-
+  使用md5校验文件

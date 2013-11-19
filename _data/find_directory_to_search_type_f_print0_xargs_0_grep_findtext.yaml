@@ -1,0 +1,8 @@
+commandlinefu_id: 856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /directory/to/search/ -type f -print0 | xargs -0 grep "findtext"
+summary: |-
+  find text in a file

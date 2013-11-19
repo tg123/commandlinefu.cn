@@ -1,0 +1,8 @@
+commandlinefu_id: 12225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dstat -d --nocolor --noheaders|xargs --max-args=2|while read status; do if [ "$status" == "0 0" ]; then setleds -L -caps < /dev/console; else setleds -L +caps < /dev/console; fi; done
+summary: |-
+  Blink Caps Lock on HDD activity

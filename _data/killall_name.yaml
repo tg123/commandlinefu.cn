@@ -1,0 +1,8 @@
+commandlinefu_id: 6699
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall <name>
+summary: |-
+  Kill any process with one command using program name

@@ -1,0 +1,8 @@
+commandlinefu_id: 7671
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | grep -v svn
+summary: |-
+  Search through files, ignoring .svn

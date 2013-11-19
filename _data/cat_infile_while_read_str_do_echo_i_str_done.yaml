@@ -1,0 +1,8 @@
+commandlinefu_id: 4290
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  cat infile | while read str; do echo "$((++i)) - $str" ; done;
+summary: |-
+  这个和 cat -n 效果一样

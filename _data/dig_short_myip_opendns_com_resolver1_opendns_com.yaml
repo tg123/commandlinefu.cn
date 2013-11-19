@@ -1,0 +1,8 @@
+commandlinefu_id: 5253
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +short myip.opendns.com @resolver1.opendns.com
+summary: |-
+  Get your outgoing IP address

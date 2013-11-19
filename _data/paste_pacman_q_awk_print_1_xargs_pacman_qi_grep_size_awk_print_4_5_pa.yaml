@@ -1,0 +1,8 @@
+commandlinefu_id: 7613
+translator:
+  weibo: ''
+hide: true
+command: |-
+  paste <(pacman -Q | awk '{ print $1; }' | xargs pacman -Qi | grep 'Size' | awk '{ print $4$5; }') <(pacman -Q | awk '{print $1; }') | sort -n | column -t
+summary: |-
+  Arch Linux sort installed packages by size

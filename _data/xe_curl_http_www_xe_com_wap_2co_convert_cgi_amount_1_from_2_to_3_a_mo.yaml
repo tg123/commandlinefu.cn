@@ -1,0 +1,8 @@
+commandlinefu_id: 7866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xe(){ curl "http://www.xe.com/wap/2co/convert.cgi?Amount=$1&From=$2&To=$3" -A "Mozilla" -s | sed -n "s/.*>\(.*\) $3<.*/\1/p";}
+summary: |-
+  Currency converter using xe.com

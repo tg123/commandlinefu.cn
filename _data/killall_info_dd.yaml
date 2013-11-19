@@ -1,0 +1,8 @@
+commandlinefu_id: 5440
+translator:
+  weibo: ''
+hide: true
+command: |-
+  killall -INFO dd
+summary: |-
+  check the status of 'dd' in progress (OS X)

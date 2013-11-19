@@ -1,0 +1,8 @@
+commandlinefu_id: 5584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "X-Facebook: from zuckmail ([MTI3LjAuMC4x])" | cut -d \[ -f 2 | cut -d \] -f 1 | openssl base64 -d
+summary: |-
+  Facebook e-mail header X-Facebook IP deobfuscator

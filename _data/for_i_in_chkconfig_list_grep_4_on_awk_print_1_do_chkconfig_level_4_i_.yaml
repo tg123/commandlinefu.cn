@@ -1,0 +1,8 @@
+commandlinefu_id: 7717
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(chkconfig --list | grep "4:on" | awk {'print $1'}); do chkconfig --level 4 "$i" off; done
+summary: |-
+  turn off all services in specific runlevel

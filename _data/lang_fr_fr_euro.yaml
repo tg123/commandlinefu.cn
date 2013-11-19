@@ -1,0 +1,8 @@
+commandlinefu_id: 8499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LANG=fr_FR@euro
+summary: |-
+  Restore accents in vi & others

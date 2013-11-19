@@ -1,0 +1,8 @@
+commandlinefu_id: 10985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc -zvw 1 host port
+summary: |-
+  Complete TCP Handshake on a given host-port

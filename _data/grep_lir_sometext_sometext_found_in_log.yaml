@@ -1,0 +1,8 @@
+commandlinefu_id: 3274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -lir "sometext" * > sometext_found_in.log
+summary: |-
+  find files containing text

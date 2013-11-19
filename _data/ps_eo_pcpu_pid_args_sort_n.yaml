@@ -1,0 +1,8 @@
+commandlinefu_id: 781
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo pcpu,pid,args | sort -n
+summary: |-
+  Current running process ordered by %CPU

@@ -1,0 +1,8 @@
+commandlinefu_id: 11677
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mdmfs -s 256m md /mnt
+summary: |-
+  Mount a temporary ram partition

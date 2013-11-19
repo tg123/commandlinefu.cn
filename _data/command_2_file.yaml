@@ -1,0 +1,8 @@
+commandlinefu_id: 7879
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <command> 2> <file>
+summary: |-
+  Redirecting stderr to file

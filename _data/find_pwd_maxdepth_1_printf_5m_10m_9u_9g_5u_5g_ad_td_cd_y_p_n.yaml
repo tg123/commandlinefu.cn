@@ -1,0 +1,8 @@
+commandlinefu_id: 5815
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $PWD -maxdepth 1 -printf '%.5m %10M %#9u:%-9g %#5U:%-5G  [%AD | %TD | %CD]  [%Y] %p\n'
+summary: |-
+  Advanced LS Output using Find for Formatted/Sortable File Stat info

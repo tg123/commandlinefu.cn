@@ -1,0 +1,8 @@
+commandlinefu_id: 2853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ping -o -i 30 HOSTNAME && osascript -e 'tell app "Terminal" to display dialog "Server is up" buttons "It?s about time" default button 1'
+summary: |-
+  Alert on Mac when server is up

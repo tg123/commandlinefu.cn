@@ -1,0 +1,8 @@
+commandlinefu_id: 5381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | grep *.txt | while read file; do cat $file >> ./output.txt; done;
+summary: |-
+  Combining text files into one file

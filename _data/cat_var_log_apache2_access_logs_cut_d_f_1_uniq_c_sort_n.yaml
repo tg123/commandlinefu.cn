@@ -1,0 +1,8 @@
+commandlinefu_id: 12673
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/log/apache2/access_logs | cut -d ' ' -f 1 | uniq -c | sort -n
+summary: |-
+  Filter IP's in apache access logs based on use

@@ -1,0 +1,8 @@
+commandlinefu_id: 4946
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync --progress file1 file2
+summary: |-
+  Copy with progress

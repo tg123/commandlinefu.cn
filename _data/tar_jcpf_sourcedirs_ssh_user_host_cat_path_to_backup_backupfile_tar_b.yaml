@@ -1,0 +1,8 @@
+commandlinefu_id: 5134
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar jcpf - [sourceDirs] |ssh user@host "cat > /path/to/backup/backupfile.tar.bz2"
+summary: |-
+  Remote backups with tar over ssh

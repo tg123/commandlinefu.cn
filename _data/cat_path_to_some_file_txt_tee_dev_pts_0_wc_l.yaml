@@ -1,0 +1,8 @@
+commandlinefu_id: 4006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /path/to/some/file.txt | tee /dev/pts/0 | wc -l
+summary: |-
+  Both view and pipe the file without saving to disk

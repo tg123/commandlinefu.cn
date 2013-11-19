@@ -1,0 +1,8 @@
+commandlinefu_id: 4356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n60 --kill -USR1 $(pgrep dd)
+summary: |-
+  output stats from a running dd command to see its progress

@@ -1,0 +1,8 @@
+commandlinefu_id: 7807
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ps -p $$
+summary: |-
+  显示自己在那个shell上

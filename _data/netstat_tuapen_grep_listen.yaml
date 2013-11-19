@@ -1,0 +1,8 @@
+commandlinefu_id: 12347
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tuapen | grep LISTEN
+summary: |-
+  Check for listening services

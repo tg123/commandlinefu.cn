@@ -1,0 +1,8 @@
+commandlinefu_id: 6347
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -Q
+summary: |-
+  List files with quotes around each filename

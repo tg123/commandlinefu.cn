@@ -1,0 +1,8 @@
+commandlinefu_id: 8425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  firefox http://en.wikipedia.org/wiki/$(date +'%b_%d')
+summary: |-
+  What happened on this day in history?

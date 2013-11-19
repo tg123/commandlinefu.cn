@@ -1,0 +1,8 @@
+commandlinefu_id: 7633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -l foo *cl*.log | xargs grep -lL bar
+summary: |-
+  find files that contain foo, but not bar

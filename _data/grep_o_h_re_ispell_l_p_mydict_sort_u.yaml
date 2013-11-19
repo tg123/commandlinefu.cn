@@ -1,0 +1,8 @@
+commandlinefu_id: 7357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -o -h -rE '".*"' * | ispell -l -p ~/mydict | sort -u
+summary: |-
+  check spell in c source code

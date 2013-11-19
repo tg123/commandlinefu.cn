@@ -1,0 +1,8 @@
+commandlinefu_id: 7323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ane 'print unless $x{$F[0]}++' infile > outfile
+summary: |-
+  Remove duplicate rows of an un-sorted file based on a single column

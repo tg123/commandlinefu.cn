@@ -1,0 +1,8 @@
+commandlinefu_id: 12812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  HOME=/home/sachin/another-emacs-home emacs
+summary: |-
+  open emacs with different HOME

@@ -1,0 +1,8 @@
+commandlinefu_id: 6629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "12 morning\n15 afternoon\n24 evening" |while read t g; do if [ `date +%H` -lt $t ]; then echo "Good $g"; break; fi; done
+summary: |-
+  Greets the user appropriately

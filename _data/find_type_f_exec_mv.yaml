@@ -1,0 +1,8 @@
+commandlinefu_id: 9320
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -exec mv {} . \;
+summary: |-
+  Move all files in subdirectories to current dir

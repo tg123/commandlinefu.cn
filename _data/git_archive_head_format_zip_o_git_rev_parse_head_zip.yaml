@@ -1,0 +1,8 @@
+commandlinefu_id: 10806
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git archive HEAD --format=zip -o `git rev-parse HEAD`.zip
+summary: |-
+  Create a git archive of the latest commit with revision number as name of file

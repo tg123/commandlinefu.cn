@@ -1,0 +1,8 @@
+commandlinefu_id: 654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git config --global --add alias.ff "pull --no-commit -v" ; git ff
+summary: |-
+  Create a git alias that will pull and fast-forward the current branch if there are no conflicts

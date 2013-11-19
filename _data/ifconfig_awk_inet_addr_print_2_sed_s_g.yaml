@@ -1,0 +1,8 @@
+commandlinefu_id: 5011
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | awk '/inet addr/ {print $2 }' | sed 's/.*://g'
+summary: |-
+  simple echo of IPv4 IP addresses assigned to a machine

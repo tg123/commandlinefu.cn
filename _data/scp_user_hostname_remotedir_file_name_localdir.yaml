@@ -1,0 +1,8 @@
+commandlinefu_id: 12874
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp user@hostname:/remotedir/file.name /localdir
+summary: |-
+  SCP file from remote location to local directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 7165
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -iname '*avi' -exec cp  {} ./ \;
+summary: |-
+  Find and copy files from subdirectories to the current directory

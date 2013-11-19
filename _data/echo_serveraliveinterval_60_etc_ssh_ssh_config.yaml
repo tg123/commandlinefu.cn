@@ -1,0 +1,8 @@
+commandlinefu_id: 5229
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'ServerAliveInterval 60' >> /etc/ssh/ssh_config
+summary: |-
+  Avoids ssh timeouts by sending a keep alive message to the server every 60 seconds

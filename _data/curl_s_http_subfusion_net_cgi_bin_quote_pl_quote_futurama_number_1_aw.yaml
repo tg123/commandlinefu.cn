@@ -1,0 +1,8 @@
+commandlinefu_id: 11165
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://subfusion.net/cgi-bin/quote.pl?quote=futurama&number=1" |awk '/<body><br><br><b><hr><br>/ {flag=1;next} /<br><br><hr><br>/{flag=0} flag {print}'
+summary: |-
+  Random Futurama quote

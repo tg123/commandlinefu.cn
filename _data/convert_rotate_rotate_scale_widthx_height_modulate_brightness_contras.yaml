@@ -1,0 +1,8 @@
+commandlinefu_id: 2105
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -rotate $rotate -scale $Widthx$Height -modulate $brightness -contrast $contrast -colorize $red%,$green%,$blue% $filter file_in.png file_out.png
+summary: |-
+  Scale,Rotate, brightness, contrast,...with Image Magick

@@ -1,0 +1,8 @@
+commandlinefu_id: 6226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file=ftp://ftp.gimp.org/pub/gimp/v2.6/gimp-2.6.10.tar.bz2; ssh server "wget $file -O -" > $PWD/${file##*/}
+summary: |-
+  Download a file securely via a remote SSH server

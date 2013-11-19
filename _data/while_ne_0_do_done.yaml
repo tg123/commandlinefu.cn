@@ -1,0 +1,8 @@
+commandlinefu_id: 12236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  !!; while [ $? -ne 0 ]; do !!; done
+summary: |-
+  Retry the previous command until it exits successfully

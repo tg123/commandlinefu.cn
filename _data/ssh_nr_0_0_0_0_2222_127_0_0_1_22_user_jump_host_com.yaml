@@ -1,0 +1,8 @@
+commandlinefu_id: 7990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -NR 0.0.0.0:2222:127.0.0.1:22 user@jump.host.com
+summary: |-
+  ssh to machine behind shared NAT

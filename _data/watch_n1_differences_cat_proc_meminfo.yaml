@@ -1,0 +1,8 @@
+commandlinefu_id: 1708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 --differences cat /proc/meminfo
+summary: |-
+  easly monitor mem usage

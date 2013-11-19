@@ -1,0 +1,8 @@
+commandlinefu_id: 3452
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function nowrap { export COLS=`tput cols` ; cut -c-$COLS ; unset COLS ; }
+summary: |-
+  no more line wrapping in your terminal

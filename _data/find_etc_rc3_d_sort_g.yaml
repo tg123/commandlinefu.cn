@@ -1,0 +1,8 @@
+commandlinefu_id: 7230
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /etc/rc3.d/ | sort -g
+summary: |-
+  List of services sorted by boot order in Redhat-based systems

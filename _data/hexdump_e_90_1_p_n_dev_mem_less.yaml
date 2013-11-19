@@ -1,0 +1,8 @@
+commandlinefu_id: 2159
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hexdump -e '90/1 "%_p" "\n"' /dev/mem | less
+summary: |-
+  view the system memory in clear text

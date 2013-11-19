@@ -1,0 +1,8 @@
+commandlinefu_id: 3336
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -f -L3307:127.0.0.1:3306 -N -t -x user@host sleep 600 ; mk-table-sync --execute --verbose u=root,p=xxx,h=127.0.0.1,P=3307 u=root,p=xxx,h=localhost
+summary: |-
+  Sync MySQL Servers via secure SSH-tunnel

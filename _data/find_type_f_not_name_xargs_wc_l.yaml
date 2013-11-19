@@ -1,0 +1,8 @@
+commandlinefu_id: 5659
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find * -type f -not -name ".*" | xargs wc -l
+summary: |-
+  Recursive Line Count

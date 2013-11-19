@@ -1,0 +1,8 @@
+commandlinefu_id: 2099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F\" '{print $4}' *.log | grep -v "eviljaymz\|\-" | sort | uniq -c | awk -F\  '{ if($1>500) print $1,$2;}' | sort -n
+summary: |-
+  Print summary of referers with X amount of occurances

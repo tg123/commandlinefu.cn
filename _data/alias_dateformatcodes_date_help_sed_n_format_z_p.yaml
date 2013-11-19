@@ -1,0 +1,8 @@
+commandlinefu_id: 9531
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias dateformatcodes="date --help | sed -n '/^FORMAT/,/%Z/p'"
+summary: |-
+  Make a quick alias for seeing date's format codes.

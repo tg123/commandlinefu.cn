@@ -1,0 +1,8 @@
+commandlinefu_id: 10782
+translator:
+  weibo: ''
+hide: true
+command: |-
+  usermod -g group user
+summary: |-
+  Change the primary group of a user

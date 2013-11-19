@@ -1,0 +1,8 @@
+commandlinefu_id: 5663
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -o comm,%mem,args -u www-data
+summary: |-
+  Nicely display mem usage with ps

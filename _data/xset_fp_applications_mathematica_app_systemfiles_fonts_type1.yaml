@@ -1,0 +1,8 @@
+commandlinefu_id: 7922
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xset fp+ /Applications/Mathematica.app/SystemFiles/Fonts/Type1/
+summary: |-
+  Set OS X X11 to use installed Mathematica fonts

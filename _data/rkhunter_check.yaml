@@ -1,0 +1,8 @@
+commandlinefu_id: 3255
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rkhunter --check
+summary: |-
+  rkhunter (Rootkit Hunter) is a Unix-based tool that scans for rootkits, backdoors and possible local exploits. rkhunter is a shell script which carries out various checks on the local system to try and detect known rootkits and malware. It also performs c

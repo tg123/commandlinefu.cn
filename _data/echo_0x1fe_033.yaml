@@ -1,0 +1,8 @@
+commandlinefu_id: 9822
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $((0x1fe)) $((033))
+summary: |-
+  convert from hexidecimal or octal to decimal

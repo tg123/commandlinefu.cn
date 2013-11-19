@@ -1,0 +1,8 @@
+commandlinefu_id: 7029
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export HISTSIZE=0
+summary: |-
+  Don't save commands in bash history (only for current session)

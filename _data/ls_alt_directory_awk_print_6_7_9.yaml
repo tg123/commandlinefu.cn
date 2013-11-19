@@ -1,0 +1,8 @@
+commandlinefu_id: 7918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -alt /directory/ | awk '{ print $6 " " $7 " -- " $9 }'
+summary: |-
+  Print last modified time in 'date -- file' format

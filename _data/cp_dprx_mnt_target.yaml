@@ -1,0 +1,8 @@
+commandlinefu_id: 9089
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -dpRx /* /mnt/target/
+summary: |-
+  copy root to new device

@@ -1,0 +1,8 @@
+commandlinefu_id: 8500
+translator:
+  weibo: ''
+hide: true
+command: |-
+  M=bob@example.com; echo "Email message"  | mutt -s "Email Subject" $M
+summary: |-
+  Send an email using the mutt email client

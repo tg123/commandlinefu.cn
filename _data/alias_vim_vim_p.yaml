@@ -1,0 +1,8 @@
+commandlinefu_id: 7520
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias vim="vim -p"
+summary: |-
+  Make vim open in tabs by default (save to .profile)

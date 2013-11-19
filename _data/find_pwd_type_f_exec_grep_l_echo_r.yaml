@@ -1,0 +1,8 @@
+commandlinefu_id: 323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find $(pwd) -type f -exec grep -l "$(echo "\r")" {} \;
+summary: |-
+  finding cr-lf files aka dos files with ^M characters

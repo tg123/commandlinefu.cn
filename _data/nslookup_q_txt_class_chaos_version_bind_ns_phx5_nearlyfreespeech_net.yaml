@@ -1,0 +1,8 @@
+commandlinefu_id: 2342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nslookup -q=txt -class=CHAOS version.bind NS.PHX5.NEARLYFREESPEECH.NET
+summary: |-
+  Check version of DNS Server

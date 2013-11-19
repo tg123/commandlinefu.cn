@@ -1,0 +1,8 @@
+commandlinefu_id: 10740
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip li | grep ether | awk '{print $2}'
+summary: |-
+  Find Mac address

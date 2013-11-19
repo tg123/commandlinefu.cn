@@ -1,0 +1,8 @@
+commandlinefu_id: 313
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sar -g 5 5
+summary: |-
+  example usage of sar

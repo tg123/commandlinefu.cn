@@ -1,0 +1,8 @@
+commandlinefu_id: 2344
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  tail -f FILE | perl -pe 's/KEYWORD/\e[1;31;43m$&\e[0m/g'
+summary: |-
+  有颜色的tail

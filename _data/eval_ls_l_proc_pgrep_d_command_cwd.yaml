@@ -1,0 +1,8 @@
+commandlinefu_id: 8292
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  eval ls -l /proc/{$(pgrep -d, COMMAND)}/cwd
+summary: |-
+  显示进程的工作目录

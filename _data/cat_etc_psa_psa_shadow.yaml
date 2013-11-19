@@ -1,0 +1,8 @@
+commandlinefu_id: 2063
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/psa/.psa.shadow
+summary: |-
+  Retrieve Plesk Admin Password

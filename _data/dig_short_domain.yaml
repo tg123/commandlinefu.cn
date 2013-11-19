@@ -1,0 +1,8 @@
+commandlinefu_id: 12710
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +short <domain>
+summary: |-
+  Get IP address from domain

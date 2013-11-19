@@ -1,0 +1,8 @@
+commandlinefu_id: 2940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getconf LONG_BIT
+summary: |-
+  32 bits or 64 bits?

@@ -1,0 +1,8 @@
+commandlinefu_id: 9385
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -plntu
+summary: |-
+  check open ports (both ipv4 and ipv6)

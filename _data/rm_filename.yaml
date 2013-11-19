@@ -1,0 +1,8 @@
+commandlinefu_id: 969
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm ./-filename
+summary: |-
+  Remove a file whose name begins with a dash ( - ) character

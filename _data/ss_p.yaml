@@ -1,0 +1,8 @@
+commandlinefu_id: 3546
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ss -p
+summary: |-
+  Show apps that use internet connection at the moment. (Multi-Language)

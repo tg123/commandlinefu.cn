@@ -1,0 +1,8 @@
+commandlinefu_id: 11664
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmidecode | grep Product
+summary: |-
+  Check if you work on a virtual/physical machine in Linux

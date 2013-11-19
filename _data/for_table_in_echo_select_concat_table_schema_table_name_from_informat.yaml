@@ -1,0 +1,8 @@
+commandlinefu_id: 8734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for table in $(echo "select concat(TABLE_SCHEMA, '.', TABLE_NAME) from information_schema.TABLES where TABLE_SCHEMA NOT IN ('information_schema','mysql') and Data_free > 0" | mysql --skip-column-names); do echo "optimize table ${table}" | mysql; done;
+summary: |-
+  Discover unoptimized MySQL tables and optimize them.

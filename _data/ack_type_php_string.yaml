@@ -1,0 +1,8 @@
+commandlinefu_id: 12059
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ack --type=php <string>
+summary: |-
+  find str in  in a directory which file extension is .php

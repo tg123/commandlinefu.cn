@@ -1,0 +1,8 @@
+commandlinefu_id: 10049
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshfs /root/Desktop/mountdirectory root@remotehost:/etc/
+summary: |-
+  sshfs usage

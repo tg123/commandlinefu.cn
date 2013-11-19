@@ -1,0 +1,8 @@
+commandlinefu_id: 5936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name "*.<suffix>" -exec wc -l "{}" \; | sort -n | tail
+summary: |-
+  Find the source file which contains most number of lines in your workspace

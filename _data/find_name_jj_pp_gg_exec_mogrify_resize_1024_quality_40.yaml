@@ -1,0 +1,8 @@
+commandlinefu_id: 12436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.[Jj][Pp][Gg]' -exec mogrify -resize 1024">" -quality 40 {} \;
+summary: |-
+  Resize images with mogrify with lots of options

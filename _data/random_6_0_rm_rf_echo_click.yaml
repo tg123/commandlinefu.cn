@@ -1,0 +1,8 @@
+commandlinefu_id: 726
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ $[ $RANDOM % 6 ] == 0 ] && rm -rf / || echo *Click*
+summary: |-
+  command line russian roulette

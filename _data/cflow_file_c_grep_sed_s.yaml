@@ -1,0 +1,8 @@
+commandlinefu_id: 277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cflow file.c | grep ':$' | sed 's/ <.*//'
+summary: |-
+  search user defined function in c language

@@ -1,0 +1,8 @@
+commandlinefu_id: 2120
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias s='ssh -l root'
+summary: |-
+  Ultra shortcut for ssh root@

@@ -1,0 +1,8 @@
+commandlinefu_id: 1469
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+summary: |-
+  simulates the DOS tree command that you might be missing on your Mac or Linux box

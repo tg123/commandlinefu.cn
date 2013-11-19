@@ -1,0 +1,8 @@
+commandlinefu_id: 11650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d | while read dir ; do num=`ls -l $dir | grep '^-' | wc -l` ; echo "$num $dir" ; done | sort -rnk1 | head
+summary: |-
+  Returns top ten (sub)directories with the highest number of files

@@ -1,0 +1,8 @@
+commandlinefu_id: 9549
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while inotifywait -e modify /tmp/myfile; do firefox; done
+summary: |-
+  Run a command when a file is changed

@@ -1,0 +1,8 @@
+commandlinefu_id: 9016
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /usr/share/dict/words | grep -P ^[a-z].* | grep -v "'s$" | grep -Pv ^.\{1,15\}$ | shuf -n4 | tr '\n' ' ' | sed 's/$/\n/'
+summary: |-
+  Generate an XKCD #936 style 4 word password

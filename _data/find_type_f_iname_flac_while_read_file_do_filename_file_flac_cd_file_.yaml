@@ -1,0 +1,8 @@
+commandlinefu_id: 6341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname '*.flac' | while read FILE; do FILENAME="${FILE%.*}"; flac -cd "$FILE" | lame -b 192 - "${FILENAME}.mp3"; done
+summary: |-
+  Convert all .flac from a folder subtree in 192Kb mp3

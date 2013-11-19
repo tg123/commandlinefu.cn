@@ -1,0 +1,8 @@
+commandlinefu_id: 861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/bin/ -name "*sh" -print0 | xargs -0t tar -zcvf foofile.tar.gz
+summary: |-
+  Compress files found with find

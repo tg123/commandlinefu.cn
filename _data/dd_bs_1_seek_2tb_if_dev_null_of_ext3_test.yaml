@@ -1,0 +1,8 @@
+commandlinefu_id: 3296
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd bs=1 seek=2TB if=/dev/null of=ext3.test
+summary: |-
+  Create a large test file (taking no space).

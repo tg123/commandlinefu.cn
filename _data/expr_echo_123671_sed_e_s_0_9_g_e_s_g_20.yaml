@@ -1,0 +1,8 @@
+commandlinefu_id: 10897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  expr `echo "123671" | sed -e 's/[0-9]/ + &/g' -e 's/^ +//g'` 20
+summary: |-
+  a simple way to calculate the sum of all digits of a number

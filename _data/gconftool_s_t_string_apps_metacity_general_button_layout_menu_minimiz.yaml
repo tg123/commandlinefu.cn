@@ -1,0 +1,8 @@
+commandlinefu_id: 5702
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gconftool -s -t string /apps/metacity/general/button_layout "menu:minimize,maximize,close"
+summary: |-
+  reclaim your window titlebars (in ubuntu lucid)

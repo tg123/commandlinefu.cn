@@ -1,0 +1,8 @@
+commandlinefu_id: 10446
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sync && sudo echo 3 | sudo tee /proc/sys/vm/drop_caches
+summary: |-
+  Clear Cached Memory on Ubuntu

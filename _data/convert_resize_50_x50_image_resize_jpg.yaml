@@ -1,0 +1,8 @@
+commandlinefu_id: 281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -resize 50%x50% image{,_resize}.jpg
+summary: |-
+  resize(1/2) the image using imagemagick

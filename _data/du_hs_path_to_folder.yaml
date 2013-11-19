@@ -1,0 +1,8 @@
+commandlinefu_id: 12499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hs /path/to/folder/*
+summary: |-
+  List the Sizes of Folders and Directories

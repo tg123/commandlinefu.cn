@@ -1,0 +1,8 @@
+commandlinefu_id: 12538
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {1..31}; do ls -1 *${YYYY}${MM}`printf "%02d" $i`* | wc -l; done
+summary: |-
+  find the number of files, date masked

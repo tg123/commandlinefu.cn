@@ -1,0 +1,8 @@
+commandlinefu_id: 5707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort file1 file2 | uniq -d
+summary: |-
+  intersection between two files

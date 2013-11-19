@@ -1,0 +1,8 @@
+commandlinefu_id: 1883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  #!/bin/sh #du.sh i=`hostname -i` df -h > /tmp/space.txt echo "server $i " >> /tmp/space.txt uuencode /tmp/space.txt space.txt | mail -s "HDD usage $i" email@email.com
+summary: |-
+  Send Disk usage via email

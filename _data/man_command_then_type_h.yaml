@@ -1,0 +1,8 @@
+commandlinefu_id: 9492
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man <command> then type h
+summary: |-
+  Learn searching and navigating in man like a boss

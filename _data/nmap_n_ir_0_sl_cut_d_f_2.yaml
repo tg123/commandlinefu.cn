@@ -1,0 +1,8 @@
+commandlinefu_id: 2986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -n -iR 0 -sL | cut -d" " -f 2
+summary: |-
+  Generate random IP addresses

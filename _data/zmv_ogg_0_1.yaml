@@ -1,0 +1,8 @@
+commandlinefu_id: 10744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zmv '(?.ogg)' '0$1'
+summary: |-
+  convert single digit to double digits

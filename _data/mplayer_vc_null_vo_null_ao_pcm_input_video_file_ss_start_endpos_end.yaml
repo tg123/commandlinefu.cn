@@ -1,0 +1,8 @@
+commandlinefu_id: 4956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -vc null -vo null -ao pcm <input video file> -ss <start> -endpos <end>
+summary: |-
+  Extract audio from start to end position from a video

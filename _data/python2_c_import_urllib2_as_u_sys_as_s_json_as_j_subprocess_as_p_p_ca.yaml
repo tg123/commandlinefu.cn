@@ -1,0 +1,8 @@
+commandlinefu_id: 12746
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python2 -c 'import urllib2 as u, sys as s, json as j, subprocess as p;p.call(["mplayer", u.urlopen(j.loads(u.urlopen("http://ex.fm/api/v3/song/search/%s" % "+".join(s.argv[1:])).read())["songs"][0]["url"]).geturl().split("#")[0]])' lenny kravitz fly away
+summary: |-
+  Stream (almost) any music track in mplayer

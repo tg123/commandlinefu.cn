@@ -1,0 +1,8 @@
+commandlinefu_id: 3080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  plutil -lint plist-file
+summary: |-
+  The command used by applications in OS X to determine whether a plist is "good". from Ed Marczak.

@@ -1,0 +1,8 @@
+commandlinefu_id: 12350
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -S 127.0.0.1:8080
+summary: |-
+  Run the built in PHP-server in current folder

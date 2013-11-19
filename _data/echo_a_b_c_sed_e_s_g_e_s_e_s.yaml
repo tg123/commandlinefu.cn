@@ -1,0 +1,8 @@
+commandlinefu_id: 3494
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo a,b,c  | sed -e s/,/\',\'/g  -e s/^/\(\'/ -e s/$/\'\)/
+summary: |-
+  convert a,b,c to ('a','b','c') for use in SQL in-clauses

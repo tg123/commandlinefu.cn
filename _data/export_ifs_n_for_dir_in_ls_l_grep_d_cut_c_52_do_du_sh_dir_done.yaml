@@ -1,0 +1,8 @@
+commandlinefu_id: 1274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export IFS=$'\n';for dir in $( ls -l | grep ^d | cut -c 52-);do du -sh $dir; done
+summary: |-
+  Reports size of all folders in the current folder.  Useful when burning CD's and DVD's

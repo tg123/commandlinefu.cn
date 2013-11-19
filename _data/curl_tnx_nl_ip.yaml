@@ -1,0 +1,8 @@
+commandlinefu_id: 11586
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl tnx.nl/ip
+summary: |-
+  get WAN / external IP

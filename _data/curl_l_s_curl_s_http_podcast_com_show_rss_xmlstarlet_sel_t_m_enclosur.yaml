@@ -1,0 +1,8 @@
+commandlinefu_id: 6208
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -L -s `curl -s [http://podcast.com/show.rss]` | xmlstarlet sel -t -m "//enclosure[1]" -v "@url" -n | head -n 1` | ssh -t [user]@[host] "mpg123 -"
+summary: |-
+  Play a podcast via XPath and mpg123

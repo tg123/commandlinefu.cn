@@ -1,0 +1,8 @@
+commandlinefu_id: 2357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export http_proxy=<user>:<pass>@<server>:<port> ftp_proxy=<user>:<pass>@<server>:<port>
+summary: |-
+  Configuring proxy client on terminal

@@ -1,0 +1,8 @@
+commandlinefu_id: 3756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -print | sed -e 's;[^/]*/;..........;g'|awk '{print $0"-("NR-1")"}'
+summary: |-
+  Directory Tree

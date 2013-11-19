@@ -1,0 +1,8 @@
+commandlinefu_id: 4980
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "message" | smbclient -M NAME_OF_THE_COMPUTER
+summary: |-
+  send a message to a windows machine in a popup

@@ -1,0 +1,8 @@
+commandlinefu_id: 2213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -exec rmdir {} \;
+summary: |-
+  Delete Empty Directories

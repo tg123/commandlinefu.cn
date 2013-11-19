@@ -1,0 +1,8 @@
+commandlinefu_id: 1874
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill %1
+summary: |-
+  Kill a background job

@@ -1,0 +1,8 @@
+commandlinefu_id: 926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  update-alternatives --config java
+summary: |-
+  Update program providing a functionality on Debian

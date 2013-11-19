@@ -1,0 +1,8 @@
+commandlinefu_id: 4269
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pe 'print "$. "' <file>
+summary: |-
+  prints line numbers

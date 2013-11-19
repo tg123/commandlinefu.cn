@@ -1,0 +1,8 @@
+commandlinefu_id: 1126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s -u username:passwd http://twitter.com/statuses/friends_timeline.rss|grep title|sed -ne 's/<\/*title>//gp' |festival --tts
+summary: |-
+  moreplayingaround

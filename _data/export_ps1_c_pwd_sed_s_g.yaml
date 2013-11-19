@@ -1,0 +1,8 @@
+commandlinefu_id: 5201
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1="C:\$( pwd | sed 's:/:\\\\\:g' )> "
+summary: |-
+  Change prompt to MS-DOS one (joke)

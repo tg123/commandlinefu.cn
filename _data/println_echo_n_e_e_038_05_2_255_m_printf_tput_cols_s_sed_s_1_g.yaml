@@ -1,0 +1,8 @@
+commandlinefu_id: 7624
+translator:
+  weibo: ''
+hide: true
+command: |-
+  println() {echo -n -e "\e[038;05;${2:-255}m";printf "%$(tput cols)s"|sed "s/ /${1:-=}/g"}
+summary: |-
+  Print a row of characters across the terminal

@@ -1,0 +1,8 @@
+commandlinefu_id: 11578
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -regex '.*html$' -exec sed -i 's/\xEF\xBB\xBF//' '{}' \;
+summary: |-
+  Remove UTF-8 Byte Order Mark BOM

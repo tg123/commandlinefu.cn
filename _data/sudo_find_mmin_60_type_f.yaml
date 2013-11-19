@@ -1,0 +1,8 @@
+commandlinefu_id: 1293
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find / -mmin 60 -type f
+summary: |-
+  Find files that have been modified on your system in the past 60 minutes

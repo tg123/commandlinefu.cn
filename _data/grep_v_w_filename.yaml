@@ -1,0 +1,8 @@
+commandlinefu_id: 2447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -v "^\W$" <filename>
+summary: |-
+  Match non-empty lines

@@ -1,0 +1,8 @@
+commandlinefu_id: 7582
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo <percentage> | sudo dd of=/proc/acpi/video/VGA/LCD/brightness
+summary: |-
+  Set laptop display brightness

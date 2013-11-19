@@ -1,0 +1,8 @@
+commandlinefu_id: 7887
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  trickle sudo apt-get update -y
+summary: |-
+  有带宽限制的升级

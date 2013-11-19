@@ -1,0 +1,8 @@
+commandlinefu_id: 6030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -n X | tail -n 1
+summary: |-
+  Print just line 4 from a textfile

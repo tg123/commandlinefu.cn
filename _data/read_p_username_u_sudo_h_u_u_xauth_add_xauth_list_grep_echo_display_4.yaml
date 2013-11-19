@@ -1,0 +1,8 @@
+commandlinefu_id: 1834
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -p 'Username: ' u;sudo -H -u $u xauth add $(xauth list|grep :$(echo ${DISPLAY: -4:2}));sudo su - $u
+summary: |-
+  Propagate X session cookies on a different user and login as that user

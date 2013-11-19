@@ -1,0 +1,8 @@
+commandlinefu_id: 8001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ${PWD/a/b}
+summary: |-
+  cd to (or operate on) a file across parallel directories

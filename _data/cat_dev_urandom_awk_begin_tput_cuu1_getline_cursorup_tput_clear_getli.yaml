@@ -1,0 +1,8 @@
+commandlinefu_id: 2638
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom|awk 'BEGIN{"tput cuu1" | getline CursorUp; "tput clear" | getline Clear; printf Clear}{num+=1;printf CursorUp; print num}'
+summary: |-
+  Watch number of lines being processed on a clear screen

@@ -1,0 +1,8 @@
+commandlinefu_id: 9877
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hex() { printf "%X\n" $1; }
+summary: |-
+  convert from decimal to hexadecimal

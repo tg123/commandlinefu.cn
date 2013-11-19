@@ -1,0 +1,8 @@
+commandlinefu_id: 797
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  ip route | grep default | awk '{print $3}'
+summary: |-
+  查看默认网关

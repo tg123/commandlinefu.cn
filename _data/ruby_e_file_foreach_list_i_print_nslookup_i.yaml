@@ -1,0 +1,8 @@
+commandlinefu_id: 4251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e 'File.foreach("list") {|i| print `nslookup #{i}`}'
+summary: |-
+  Ruby - nslookup against a list of IP`s or FQDN`s

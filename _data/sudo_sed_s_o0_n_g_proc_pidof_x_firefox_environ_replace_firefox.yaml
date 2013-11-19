@@ -1,0 +1,8 @@
+commandlinefu_id: 2474
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sed 's/\o0/\n/g' "/proc/$(pidof -x firefox)/environ" ;# replace firefox
+summary: |-
+  Show an application's environment variables

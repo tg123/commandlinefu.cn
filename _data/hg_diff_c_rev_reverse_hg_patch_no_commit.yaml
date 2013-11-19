@@ -1,0 +1,8 @@
+commandlinefu_id: 7748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hg diff -c $REV --reverse | hg patch --no-commit -
+summary: |-
+  Undo commit in Mercurial

@@ -1,0 +1,8 @@
+commandlinefu_id: 1671
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  echo "$math_expr" | bc -l
+summary: |-
+  bc 是个好用的计算器

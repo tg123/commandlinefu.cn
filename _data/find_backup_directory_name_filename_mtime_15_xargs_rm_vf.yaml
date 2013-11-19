@@ -1,0 +1,8 @@
+commandlinefu_id: 3149
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  find /backup/directory -name "FILENAME_*" -mtime +15 | xargs rm -vf
+summary: |-
+  删除文件名符合特定格式的并且15天前的文件

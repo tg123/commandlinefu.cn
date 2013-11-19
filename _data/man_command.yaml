@@ -1,0 +1,8 @@
+commandlinefu_id: 12131
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man <COMMAND>
+summary: |-
+  Get some useful Information

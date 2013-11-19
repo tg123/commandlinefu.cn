@@ -1,0 +1,8 @@
+commandlinefu_id: 10147
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(exiftool img_1.jpg) <(exiftool img_2.jpg)
+summary: |-
+  diff the outputs of two programs

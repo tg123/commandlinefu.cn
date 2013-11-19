@@ -1,0 +1,8 @@
+commandlinefu_id: 11730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -nolirc http://5253.live.streamtheworld.com/VIRGINRADIO_DUBAIAAC
+summary: |-
+  Play radio stream with mplayer

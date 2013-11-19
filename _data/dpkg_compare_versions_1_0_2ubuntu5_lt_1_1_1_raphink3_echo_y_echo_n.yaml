@@ -1,0 +1,8 @@
+commandlinefu_id: 1273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg --compare-versions 1.0-2ubuntu5 lt 1.1-1~raphink3 && echo y || echo n
+summary: |-
+  Know which version dpkg/apt considers more recent

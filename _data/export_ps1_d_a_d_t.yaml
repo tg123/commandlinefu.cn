@@ -1,0 +1,8 @@
+commandlinefu_id: 3137
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export PS1='\D{%a %D %T}> '
+summary: |-
+  Day Date Time>  Instead of $ or # at the terminal

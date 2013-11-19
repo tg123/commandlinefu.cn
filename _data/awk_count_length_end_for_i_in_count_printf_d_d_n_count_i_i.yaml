@@ -1,0 +1,8 @@
+commandlinefu_id: 97
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{count[length]++}END{for(i in count){printf("%d: %d\n", count[i], i)}}'
+summary: |-
+  Count the number of characters in each line

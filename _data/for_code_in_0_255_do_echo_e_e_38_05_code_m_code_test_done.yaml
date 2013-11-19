@@ -1,0 +1,8 @@
+commandlinefu_id: 5879
+translator:
+  weibo: tgic
+hide: false
+command: |
+  for code in {0..255}; do echo -e "\e[38;05;${code}m $code: Test"; done
+summary: |-
+  在bash中用256种颜色显示数字

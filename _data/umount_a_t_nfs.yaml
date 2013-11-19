@@ -1,0 +1,8 @@
+commandlinefu_id: 3991
+translator:
+  weibo: ''
+hide: true
+command: |-
+  umount -a -t nfs
+summary: |-
+  umount all nfs mounts on machine

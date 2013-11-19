@@ -1,0 +1,8 @@
+commandlinefu_id: 6601
+translator:
+  weibo: ''
+hide: true
+command: |-
+  montage 2007-08-25-3685.jpg +clone -clone 0-1 -clone 0-3 -geometry 500 -frame 5 output.jpg
+summary: |-
+  Repeat a portrait eight times so it can be cut out from a 6"x4" photo and used for visa or passport photos

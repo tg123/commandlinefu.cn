@@ -1,0 +1,8 @@
+commandlinefu_id: 2921
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ab -n 9000 -c 900 localhost:8080/index.php
+summary: |-
+  benchmark web server with apache benchmarking tool

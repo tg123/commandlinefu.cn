@@ -1,0 +1,8 @@
+commandlinefu_id: 4756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  UNIX95=1 ps -eHf
+summary: |-
+  ptree equivalent in HP-UX

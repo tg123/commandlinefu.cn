@@ -1,0 +1,8 @@
+commandlinefu_id: 6810
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jar -tf file.jar
+summary: |-
+  List contents of jar

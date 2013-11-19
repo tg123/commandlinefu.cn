@@ -1,0 +1,8 @@
+commandlinefu_id: 6305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent hosts positon.org | cut -d' ' -f1
+summary: |-
+  Get IP from host

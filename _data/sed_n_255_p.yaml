@@ -1,0 +1,8 @@
+commandlinefu_id: 8997
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/^.\{255\}/!p'
+summary: |-
+  remove lines which are longer than 255

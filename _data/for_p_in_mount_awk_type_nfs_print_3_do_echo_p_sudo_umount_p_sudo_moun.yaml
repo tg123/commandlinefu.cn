@@ -1,0 +1,8 @@
+commandlinefu_id: 11377
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for P in $(mount | awk '/type nfs / {print $3;}'); do echo $P; sudo umount $P && sudo mount $P && echo "ok :)"; done
+summary: |-
+  Remount all NFS mounts on a host

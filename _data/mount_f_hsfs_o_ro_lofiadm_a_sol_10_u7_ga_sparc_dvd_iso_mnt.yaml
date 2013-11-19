@@ -1,0 +1,8 @@
+commandlinefu_id: 2797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -F hsfs -o ro `lofiadm -a /sol-10-u7-ga-sparc-dvd.iso` /mnt
+summary: |-
+  Mount iso to /mnt on Solaris

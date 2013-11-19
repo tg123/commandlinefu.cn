@@ -1,0 +1,8 @@
+commandlinefu_id: 2065
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perm=( 6 4 4 ) ; for elem in ${perm[@]}; do echo `expr 7 - $elem` ; done
+summary: |-
+  Convert from octal format to umask

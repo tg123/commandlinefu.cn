@@ -1,0 +1,8 @@
+commandlinefu_id: 10299
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /opt/xensource/debug/destroy_domain -domid <id>
+summary: |-
+  Kill unresponsive Xen VMs

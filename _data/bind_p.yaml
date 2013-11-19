@@ -1,0 +1,8 @@
+commandlinefu_id: 10804
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind -P
+summary: |-
+  List all bash shortcuts

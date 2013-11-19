@@ -1,0 +1,8 @@
+commandlinefu_id: 5407
+translator:
+  weibo: ''
+hide: true
+command: |-
+  X='pattern'; vim +/"$X" `egrep -lr "$X" *`
+summary: |-
+  Grep recursively for a pattern and open all files that match, in order, in Vim, landing on 1st match

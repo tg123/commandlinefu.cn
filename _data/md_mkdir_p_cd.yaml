@@ -1,0 +1,8 @@
+commandlinefu_id: 3613
+translator:
+  weibo: ''
+hide: true
+command: |-
+  md () { mkdir -p "$@" && cd "$@"; }
+summary: |-
+  Create a directory and change into it at the same time

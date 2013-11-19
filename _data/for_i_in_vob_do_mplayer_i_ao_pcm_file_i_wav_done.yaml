@@ -1,0 +1,8 @@
+commandlinefu_id: 12346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.VOB; do mplayer "$i" -ao pcm:file="${i%.*}.wav"; done
+summary: |-
+  Extract audio from dvd vobs in current dir

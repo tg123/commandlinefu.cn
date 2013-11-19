@@ -1,0 +1,8 @@
+commandlinefu_id: 12216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -loop 1 -i image.png -i sound.mp3 -shortest video.mp4
+summary: |-
+  Creating A Single Image Video With Audio via ffmpeg

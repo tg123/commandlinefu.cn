@@ -1,0 +1,8 @@
+commandlinefu_id: 6229
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/sbin/showmount -e <host>
+summary: |-
+  Query an NFS host for its list of exports

@@ -1,0 +1,8 @@
+commandlinefu_id: 10388
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch() { while true; do echo "<Ctrl+V><Ctrl+L>Every 2.0s: $@"; date; eval "$@"; sleep 2; done }
+summary: |-
+  Poor man's watch: Repeat a command every N seconds

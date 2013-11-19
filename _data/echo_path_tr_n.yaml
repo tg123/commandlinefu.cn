@@ -1,0 +1,8 @@
+commandlinefu_id: 657
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $PATH | tr : \\n
+summary: |-
+  Display your ${PATH}, one directory per line

@@ -1,0 +1,8 @@
+commandlinefu_id: 6748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mailutil transfer {imap.gmail.com/ssl/user=john@gmail.com} Gmail/
+summary: |-
+  Backup (archive) your Gmail IMAP folders.

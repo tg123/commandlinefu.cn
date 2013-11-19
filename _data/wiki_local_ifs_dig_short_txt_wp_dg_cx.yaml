@@ -1,0 +1,8 @@
+commandlinefu_id: 9293
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wiki() { local IFS=_; dig +short txt "${*^}".wp.dg.cx; }
+summary: |-
+  Query wikipedia over DNS

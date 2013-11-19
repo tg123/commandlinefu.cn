@@ -1,0 +1,8 @@
+commandlinefu_id: 3052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :g/^\s*$/,/\S/-j|s/.*//
+summary: |-
+  Compress blank lines in VIM

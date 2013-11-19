@@ -1,0 +1,8 @@
+commandlinefu_id: 3142
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chage -l <user>
+summary: |-
+  Show account security settings

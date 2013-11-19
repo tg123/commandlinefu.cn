@@ -1,0 +1,8 @@
+commandlinefu_id: 8498
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -D - -X POST -H 'Content-type: text/xml' -d @XML http://remote_server:8080/web-service/soap/WSName
+summary: |-
+  Call remote web service

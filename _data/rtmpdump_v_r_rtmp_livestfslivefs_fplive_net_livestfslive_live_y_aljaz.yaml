@@ -1,0 +1,8 @@
+commandlinefu_id: 8183
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rtmpdump -v -r rtmp://livestfslivefs.fplive.net/livestfslive-live/ -y "aljazeera_en_veryhigh" -a "aljazeeraflashlive-live" -o -| mplayer -
+summary: |-
+  Watch Aljazeera live

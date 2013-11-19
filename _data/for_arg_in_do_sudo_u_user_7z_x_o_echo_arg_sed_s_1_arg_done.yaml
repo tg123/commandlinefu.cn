@@ -1,0 +1,8 @@
+commandlinefu_id: 11705
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for ARG in * ; do sudo -u USER 7z x -o"$(echo $ARG|sed 's/\(.*\)\..*/\1/')" "$ARG" ; done
+summary: |-
+  Extract all archives from current folder, each archive in its own folder.

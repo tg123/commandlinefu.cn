@@ -1,0 +1,8 @@
+commandlinefu_id: 4383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '/.*{$/{s[$1]=z[$1]=j+0}{l[j++]=$0}END{asorti(s);for(v in s){while(l[z[s[v]]]!~/}$/)print l[z[s[v]]++];print"}"ORS}}'
+summary: |-
+  Awk one-liner that sorts a css file by selector

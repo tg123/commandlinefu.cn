@@ -1,0 +1,8 @@
+commandlinefu_id: 8195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( command1 arg arg ; command2 arg ) ...
+summary: |-
+  cat stdout of multiple commands

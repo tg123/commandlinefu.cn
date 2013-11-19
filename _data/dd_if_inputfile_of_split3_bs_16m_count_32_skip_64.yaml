@@ -1,0 +1,8 @@
+commandlinefu_id: 4907
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=inputfile of=split3 bs=16m count=32 skip=64
+summary: |-
+  Split a file one piece at a time, when using the split command isn't an option (not enough disk space)

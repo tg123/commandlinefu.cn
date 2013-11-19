@@ -1,0 +1,8 @@
+commandlinefu_id: 5342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mtime +10 -delete
+summary: |-
+  Delete all files older than X in given path

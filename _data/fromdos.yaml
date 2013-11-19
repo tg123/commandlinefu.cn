@@ -1,0 +1,8 @@
+commandlinefu_id: 5088
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fromdos *
+summary: |-
+  Convert files from DOS line endings to UNIX line endings

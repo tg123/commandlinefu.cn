@@ -1,0 +1,8 @@
+commandlinefu_id: 6797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for p in `ps L|cut -d' ' -f1`;do echo -e "`tput clear;read -p$p -n1 p`";ps wwo pid:6,user:8,comm:10,$p kpid -A;done
+summary: |-
+  The Hidden PS

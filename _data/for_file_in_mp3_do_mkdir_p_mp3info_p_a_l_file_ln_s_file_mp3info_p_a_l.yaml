@@ -1,0 +1,8 @@
+commandlinefu_id: 2880
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in *.mp3;do mkdir -p "$(mp3info -p "%a/%l" "$file")" && ln -s "$file" "$(mp3info -p "%a/%l/%t.mp3" "$file")";done
+summary: |-
+  Sort your music

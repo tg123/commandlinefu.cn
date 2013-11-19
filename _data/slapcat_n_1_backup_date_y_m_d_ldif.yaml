@@ -1,0 +1,8 @@
+commandlinefu_id: 5579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  slapcat -n 1 > /backup/`date "+%Y%m%d"`.ldif
+summary: |-
+  Backup your LDAP

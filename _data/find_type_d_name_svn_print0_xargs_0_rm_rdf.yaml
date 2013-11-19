@@ -1,0 +1,8 @@
+commandlinefu_id: 161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -name '.svn' -print0 | xargs -0 rm -rdf
+summary: |-
+  Recursively remove .svn directories from the current location

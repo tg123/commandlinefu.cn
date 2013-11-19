@@ -1,0 +1,8 @@
+commandlinefu_id: 7772
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mwiki () { dig +short txt `echo $*|sed 's|  *|_|g'`.wp.dg.cx; }
+summary: |-
+  Query Wikipedia via console over DNS

@@ -1,0 +1,8 @@
+commandlinefu_id: 1612
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap 192.168.0-1.0-255 -sP
+summary: |-
+  Show all machines on the network

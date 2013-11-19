@@ -1,0 +1,8 @@
+commandlinefu_id: 1859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo -i
+summary: |-
+  Root shell

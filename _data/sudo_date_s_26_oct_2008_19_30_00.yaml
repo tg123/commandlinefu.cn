@@ -1,0 +1,8 @@
+commandlinefu_id: 395
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo date -s "26 OCT 2008 19:30:00"
+summary: |-
+  Set date and time

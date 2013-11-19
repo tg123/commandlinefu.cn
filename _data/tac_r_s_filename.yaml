@@ -1,0 +1,8 @@
+commandlinefu_id: 5698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tac -r -s "." FILENAME
+summary: |-
+  Reverse a file

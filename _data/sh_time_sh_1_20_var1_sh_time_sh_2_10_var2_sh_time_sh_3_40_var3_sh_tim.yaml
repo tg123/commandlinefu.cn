@@ -1,0 +1,8 @@
+commandlinefu_id: 10502
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sh time.sh 1 20 & var1="$!" & sh time.sh 2 10 & var2="$!" & sh time.sh 3 40 & var3="$!" & sh time.sh 4 30 & var4="$!"  ;  wait $var1 && wait $var2 && wait $var3 && wait $var4
+summary: |-
+  Asynchronous PID Management

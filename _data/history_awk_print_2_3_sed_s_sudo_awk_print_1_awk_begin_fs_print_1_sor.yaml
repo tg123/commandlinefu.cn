@@ -1,0 +1,8 @@
+commandlinefu_id: 7058
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history | awk '{print $2,$3}' | sed s/sudo// | awk '{print $1}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr
+summary: |-
+  Ranking of the most frequently used commands

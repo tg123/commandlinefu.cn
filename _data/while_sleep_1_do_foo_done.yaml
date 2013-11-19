@@ -1,0 +1,8 @@
+commandlinefu_id: 11281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while sleep 1; do foo; done
+summary: |-
+  repeat a command every x seconds

@@ -1,0 +1,8 @@
+commandlinefu_id: 3261
+translator:
+  weibo: ''
+hide: true
+command: |-
+  httpd -S
+summary: |-
+  Get list of all Apache Virtual Host and which is default for each IP address

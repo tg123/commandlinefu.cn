@@ -1,0 +1,8 @@
+commandlinefu_id: 4778
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -kh /dev/vg0*/lv*
+summary: |-
+  Display the space used for all your mounted logical volume (LV)

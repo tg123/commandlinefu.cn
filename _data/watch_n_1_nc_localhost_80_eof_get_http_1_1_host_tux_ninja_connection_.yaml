@@ -1,0 +1,8 @@
+commandlinefu_id: 2914
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 1 nc localhost 80 '<<EOF GET / HTTP/1.1 Host: tux-ninja Connection: Close  EOF'
+summary: |-
+  Test http request every second, fancy display.

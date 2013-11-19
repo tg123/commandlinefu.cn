@@ -1,0 +1,8 @@
+commandlinefu_id: 12566
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -lf
+summary: |-
+  psgrepp

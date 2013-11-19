@@ -1,0 +1,8 @@
+commandlinefu_id: 2629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iconv -f437 -tutf8 asciiart.nfo
+summary: |-
+  Outputs files with ascii art in the intended form.

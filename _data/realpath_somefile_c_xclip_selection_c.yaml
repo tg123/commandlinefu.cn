@@ -1,0 +1,8 @@
+commandlinefu_id: 622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  >realpath ./somefile.c | xclip -selection c
+summary: |-
+  Copy the full path of a file to the clipboard (requires xclip or similar)

@@ -1,0 +1,8 @@
+commandlinefu_id: 11547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo urlsnarf -i wlan0
+summary: |-
+  url sniffing

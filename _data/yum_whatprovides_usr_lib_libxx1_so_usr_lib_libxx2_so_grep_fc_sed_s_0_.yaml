@@ -1,0 +1,8 @@
+commandlinefu_id: 8030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum whatprovides /usr/lib/libXX1.so /usr/lib/libXX2.so | grep fc | sed 's/^\(.*\)-[0-9.]*-.*$/\1/' | sort | uniq  | xargs yum -y install
+summary: |-
+  install package which provides some libraries in fedora

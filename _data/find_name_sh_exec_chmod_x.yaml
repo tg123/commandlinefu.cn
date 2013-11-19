@@ -1,0 +1,8 @@
+commandlinefu_id: 11936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -name "*.sh" -exec chmod +x {} \;
+summary: |-
+  Recursive chmod all *.sh files within the current directory

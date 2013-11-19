@@ -1,0 +1,8 @@
+commandlinefu_id: 2369
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -L /path/to/check -type l -delete
+summary: |-
+  Find broken symlinks and delete them

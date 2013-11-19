@@ -1,0 +1,8 @@
+commandlinefu_id: 4335
+translator:
+  weibo: tgic
+hide: false
+command: |-
+  dumpe2fs -h /dev/DEVICE | grep 'created'
+summary: |-
+  看看你文件系统的创建时间

@@ -1,0 +1,8 @@
+commandlinefu_id: 7976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdosfs /dev/sdx1
+summary: |-
+  quickly formats a fat partition. usefull for flash drives

@@ -1,0 +1,8 @@
+commandlinefu_id: 9801
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ddate
+summary: |-
+  gag version of current date

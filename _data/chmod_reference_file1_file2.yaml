@@ -1,0 +1,8 @@
+commandlinefu_id: 5233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod --reference file1 file2
+summary: |-
+  Makes the permissions of file2 the same as file1

@@ -1,0 +1,8 @@
+commandlinefu_id: 10348
+translator:
+  weibo: ''
+hide: true
+command: |-
+  screen -D -R
+summary: |-
+  Automatically find and re-attach to a detached screen session

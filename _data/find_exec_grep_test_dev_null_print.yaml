@@ -1,0 +1,8 @@
+commandlinefu_id: 259
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec grep "test" '{}' /dev/null \; -print
+summary: |-
+  search for the content in a directory

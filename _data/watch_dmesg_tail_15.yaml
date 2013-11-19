@@ -1,0 +1,8 @@
+commandlinefu_id: 4387
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch 'dmesg | tail -15'
+summary: |-
+  Monitor the Kernel Ring Buffer

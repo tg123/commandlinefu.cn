@@ -1,0 +1,8 @@
+commandlinefu_id: 8094
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -fl
+summary: |-
+  Find the correct PID

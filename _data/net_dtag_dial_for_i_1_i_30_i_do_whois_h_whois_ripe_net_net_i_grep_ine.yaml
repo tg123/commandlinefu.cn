@@ -1,0 +1,8 @@
+commandlinefu_id: 2839
+translator:
+  weibo: ''
+hide: true
+command: |-
+  net=DTAG-DIAL ; for (( i=1; i<30; i++ )); do whois -h whois.ripe.net $net$i | grep '^inetnum:' | sed "s;^.*:;$net$i;" ; done
+summary: |-
+  Query ip pools based on successive netnames via whois

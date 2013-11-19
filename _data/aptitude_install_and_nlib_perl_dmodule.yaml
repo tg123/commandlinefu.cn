@@ -1,0 +1,8 @@
+commandlinefu_id: 7174
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aptitude install '?and(~nlib.*perl, ~Dmodule)'
+summary: |-
+  Bulk install

@@ -1,0 +1,8 @@
+commandlinefu_id: 6969
+translator:
+  weibo: ''
+hide: true
+command: |-
+  p=~/.config/chromium/zed; cp -r ~/.config/chromium/Default $p && echo "chromium-browser --user-data-dir=$p" && chromium-browser --user-data-dir=$p;
+summary: |-
+  Create a new chrome profile and run it

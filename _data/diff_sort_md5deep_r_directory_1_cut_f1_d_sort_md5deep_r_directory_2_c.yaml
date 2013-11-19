@@ -1,0 +1,8 @@
+commandlinefu_id: 12626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(sort <(md5deep -r /directory/1/) |cut -f1 -d' ') <(sort <(md5deep -r /directory/2/) |cut -f1 -d' ')
+summary: |-
+  Diff two directories by finding and comparing the md5 checksums of their contents.

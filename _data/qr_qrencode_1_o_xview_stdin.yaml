@@ -1,0 +1,8 @@
+commandlinefu_id: 10973
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qr(){ qrencode ${1} -o - | xview stdin; }
+summary: |-
+  Quickly display a string as Qr Code

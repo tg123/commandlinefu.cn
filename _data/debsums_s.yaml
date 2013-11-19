@@ -1,0 +1,8 @@
+commandlinefu_id: 7104
+translator:
+  weibo: ''
+hide: true
+command: |-
+  debsums -s
+summary: |-
+  Check hashes of files installed by Debian packages, reporting only errors.

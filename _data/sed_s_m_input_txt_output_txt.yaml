@@ -1,0 +1,8 @@
+commandlinefu_id: 7874
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/^M$//' input.txt > output.txt
+summary: |-
+  Convert DOS newlines (CR/LF) to Unix format

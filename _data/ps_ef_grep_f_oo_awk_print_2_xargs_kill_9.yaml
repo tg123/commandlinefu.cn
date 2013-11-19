@@ -1,0 +1,8 @@
+commandlinefu_id: 89
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep [f]oo | awk '{print $2}' | xargs kill -9
+summary: |-
+  kill all foo process

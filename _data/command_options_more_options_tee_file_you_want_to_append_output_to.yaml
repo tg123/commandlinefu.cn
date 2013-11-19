@@ -1,0 +1,8 @@
+commandlinefu_id: 11363
+translator:
+  weibo: ''
+hide: true
+command: |-
+  COMMAND - OPTIONS - MORE OPTIONS | tee >> /file/you/want_to_append_output_to
+summary: |-
+  Writing the output of a command to end of a file

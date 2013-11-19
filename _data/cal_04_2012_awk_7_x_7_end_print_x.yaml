@@ -1,0 +1,8 @@
+commandlinefu_id: 10726
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cal 04 2012 | awk '{ $7 && X=$7 } END { print X }'
+summary: |-
+  Get the date for the last Saturday of a given month

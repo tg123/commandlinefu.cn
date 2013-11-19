@@ -1,0 +1,8 @@
+commandlinefu_id: 1364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/proc/bin/pfiles $PID
+summary: |-
+  lsof equivalent on solaris

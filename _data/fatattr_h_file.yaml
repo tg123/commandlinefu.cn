@@ -1,0 +1,8 @@
+commandlinefu_id: 11835
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fatattr -h <file>
+summary: |-
+  Set hidden attribe to a file in fat

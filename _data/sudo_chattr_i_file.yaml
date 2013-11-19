@@ -1,0 +1,8 @@
+commandlinefu_id: 6941
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo chattr +i <file>
+summary: |-
+  Make a file not writable / immutable by root

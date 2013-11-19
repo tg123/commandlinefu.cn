@@ -1,0 +1,8 @@
+commandlinefu_id: 10411
+translator:
+  weibo: ''
+hide: true
+command: |-
+  inxi -F
+summary: |-
+  Show full system info
