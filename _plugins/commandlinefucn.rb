@@ -49,7 +49,14 @@ module Jekyll
 
         def generate(site)
             site.data.each do | d | 
-                site.posts << CommandLinePost.new(site,site.dest,d[1])
+                Hash[*d].each do | name, cmds |
+                    [cmds].flatten.each do | cmd |
+                    
+                        next if cmd['hide']
+                        site.posts << CommandLinePost.new(site,site.dest, cmd)
+
+                    end
+                end
             end
         end
 
