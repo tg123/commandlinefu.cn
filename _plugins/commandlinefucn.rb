@@ -32,7 +32,7 @@ module Jekyll
             self.content = @command_data['command']
             self.slug = @slug
             self.data = @command_data
-            self.data['layout'] = 'post'
+            self.data['layout'] = 'command'
             self.extracted_excerpt = self.extract_excerpt
         end
 

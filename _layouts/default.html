@@ -6,39 +6,32 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
+        <link type="text/css" rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="/css/main.css">
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=4269695581" type="text/javascript" charset="utf-8"></script>
 
     </head>
     <body>
+        <div class="navbar navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="/" style="color: #F0F0F0; background-color: #505050;">$ commandlinefu.cn</a>
+                <div class="pull-right" style="padding-top:15px; ">
+                    <wb:follow-button uid="2674868673" type="red_1" width="67" height="24" ></wb:follow-button>
+                </div>
+            </div>
+        </div>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+        <div class="container">
+
 
           {{ content }}
 
           <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
+
           </div>
         </div>
+
+
 
     </body>
 </html>
