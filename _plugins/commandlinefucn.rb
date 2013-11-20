@@ -13,8 +13,8 @@ module Jekyll
 
             @command_data = d
 
-            @name = toname(d['command'])
-            dir = @name.split('_')[0]
+            @slug = toname(d['command'])
+            dir = @slug.split('_')[0]
 
             super(site, source, "/" + dir, d['summary'])
 
@@ -29,9 +29,10 @@ module Jekyll
         end
 
         def read_yaml(base, name, opts = {})
-            self.content = "aa"
-            self.slug = toname(@name)
+            self.content = @command_data['command']
+            self.slug = @slug
             self.data = @command_data
+            self.data['layout'] = 'post'
             self.extracted_excerpt = self.extract_excerpt
         end
 

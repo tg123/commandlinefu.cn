@@ -2,5 +2,4 @@ name: commandlinefu.cn
 markdown: redcarpet
 pygments: true
 paginate: 5
-
-
+permalink: none
