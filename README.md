@@ -25,7 +25,7 @@ cd commandlinefu.cn
 实现原理
 --------
 
-网站使用 (jekyll)[http://jekyllrb.com/] 构建.
+网站使用 [jekyll](http://jekyllrb.com/) 构建.
 可以通过运行
 
 ```
