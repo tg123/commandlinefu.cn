@@ -9,10 +9,11 @@ layout: default
 <wb:share-button appkey="6SEGgl" addition="number" type="button"></wb:share-button>
 </h2>
 
-
+{% if page.translator.weibo %}
 <blockquote>
 感谢 <a href="javascript:;" id="translator" wb_screen_name="{{ page.translator.weibo }}">@{{ page.translator.weibo }}</a> 翻译
 </blockquote>
+{% endif %}
 
 <div class="well">
 <code style="font-size: 2em">{{ page.command }}</code>
