@@ -1,3 +1,5 @@
+require 'rake'
+
 module Jekyll
 
 
@@ -18,11 +20,9 @@ module Jekyll
 
             super(site, source, "/" + dir, d['summary'])
 
-            self.date = Time.now
+            self.date = d['date']
             self.ext = ".html"
 
-
-            #puts self.site.permalink_style
         end
 
         def process(name)
@@ -47,17 +47,40 @@ module Jekyll
     class ArchiveGenerator < Generator
         priority :highest
 
-        def generate(site)
-            site.data.each do | d | 
-                Hash[*d].each do | name, cmds |
-                    [cmds].flatten.each do | cmd |
-                    
-                        next if cmd['hide']
-                        site.posts << CommandLinePost.new(site,site.dest, cmd)
+        def ts(dir)
+            th = {}
+            curt = 0
 
-                    end
+            `git log --pretty=format:%ct --name-only #{dir}`.each_line do | l |
+
+                if l.strip.end_with?('.yaml') 
+                    key = l.pathmap("%n")
+                    th[key] = curt if not th.has_key?(key)
+                else
+                    curt = l.to_i
+                end
+
+            end
+
+            th
+        end
+
+        def generate(site)
+
+            th = ts(site.config['data_source'])
+
+            site.data.each_pair do | name, cmds | 
+                [cmds].flatten.each do | cmd |
+                
+                    next if cmd['hide']
+
+                    cmd['date'] = Time.at(th[name]) 
+                    site.posts << CommandLinePost.new(site,site.dest, cmd)
+
                 end
             end
+
+            site.posts.sort! { | x, y | th.fetch(y, 0) <=> th.fetch(x, 0) }
         end
 
     end

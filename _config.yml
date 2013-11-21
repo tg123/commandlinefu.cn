@@ -1,5 +1,5 @@
 name: commandlinefu.cn
 markdown: redcarpet
 pygments: true
-paginate: 15
+paginate: 10
 permalink: none
