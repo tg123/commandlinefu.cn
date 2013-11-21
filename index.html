@@ -3,34 +3,35 @@ layout: default
 title: commandlinefu.cn
 ---
 
-<div id="home">
-  <ul class="posts">
+<div class="list-group">
     {% for post in paginator.posts %}
-      <li>
-        <!--
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        -->
-        <h5>{{ post.title }}</h5>
+    <a href="{{ post.url }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ post.title }}</h4>
+        <p class="list-group-item-text">
         <code>
         {{ post.command }}
         </code>
-      </li>
+        </p>
+    </a>
     {% endfor %}
   </ul>
 </div>
 
+
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<ul class="pager">
+
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 上一页</a></li>
   {% else %}
-    <span>&laquo; Prev</span>
+    <li class="previous disabled"><a href="javascript:;">&larr; 上一页</a></li>
   {% endif %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &raquo;</a></li>
   {% else %}
-    <span>Next &raquo;</span>
+    <li class="next disabled"><a href="javascript:;">下一页 &raquo;</a></li>
   {% endif %}
-</div>
+
+</ul>
 {% endif %}

@@ -1,5 +1,5 @@
 .container {
-    width: 600px;
+    width: 750px;
 }
 
 .WB_widget, .WB_widget *, .WB_widgets * {
@@ -10,6 +10,5 @@
 
 code {
 word-wrap: break-word;
-display: inline-block;
 white-space: normal;
 }

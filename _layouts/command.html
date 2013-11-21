@@ -1,12 +1,38 @@
 ---
 layout: default
 ---
-<h2>{{ page.command }}</h2>
 
-<div>
-@{{ page.translator.weibo }}
-</div>
 
-<div class="post">
+<div class="row">
+<h2>
 {{ page.summary }}
+<wb:share-button appkey="6SEGgl" addition="number" type="button"></wb:share-button>
+</h2>
+
+
+<blockquote>
+感谢 <a href="javascript:;" id="translator" wb_screen_name="{{ page.translator.weibo }}">@{{ page.translator.weibo }}</a> 翻译
+</blockquote>
+
+<div class="well">
+<code style="font-size: 2em">{{ page.command }}</code>
 </div>
+
+
+<wb:comments url="auto" width="auto" appkey="4269695581" ralateuid="2674868673" ></wb:comments>
+</div>
+
+
+
+
+<div class="row"></div>
+
+<script>
+WB2.anyWhere(function(W){
+    W.widget.hoverCard({
+        id: "translator",
+    }); 
+});
+
+</script>
+
