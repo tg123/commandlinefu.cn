@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 paginate: 8
 permalink: none
+exclude: ['tools']
