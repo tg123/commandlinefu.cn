@@ -80,7 +80,8 @@ module Jekyll
                 end
             end
 
-            site.posts.sort! { | x, y | th.fetch(y, 0) <=> th.fetch(x, 0) }
+            site.posts.sort! { | x, y | th.fetch(y.slug, 0) <=> th.fetch(x.slug, 0) }
+
         end
 
     end
