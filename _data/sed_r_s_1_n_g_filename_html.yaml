@@ -1,8 +1,7 @@
 commandlinefu_id: 8080
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -r 's_(/[^>]*?>)_\1\n_g' filename.html
 summary: |-
-  quick and dirty formatting for HTML code
+  格式化HTML

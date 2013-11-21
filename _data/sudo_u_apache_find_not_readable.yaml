@@ -1,8 +1,7 @@
 commandlinefu_id: 12090
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo -u apache find . -not -readable
 summary: |-
-  find unreadable file
+  查找 apache 用户无法读取的文件

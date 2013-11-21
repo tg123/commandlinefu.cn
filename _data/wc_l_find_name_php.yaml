@@ -1,8 +1,7 @@
 commandlinefu_id: 1681
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wc -l `find . -name *.php`
 summary: |-
-  Recursive Line Count
+  统计PHP文件的总行数
