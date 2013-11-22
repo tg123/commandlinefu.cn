@@ -1,8 +1,8 @@
 commandlinefu_id: 3653
 translator:
-  weibo: ''
+  weibo: '石大溪'
 hide: true
 command: |-
   gitstart () { if ! [[ -d "$@" ]]; then mkdir -p "$@" && cd "$@" && git init; else cd "$@" && git init; fi }
 summary: |-
-  Makes a project directory, unless it exists; changes into the dir, and creates an empty git repository, all in one command
+  一句命令完成：建立一个项目目录（如果它不存在的话），cd 进入这个目录，创建一个空的 git 仓库，
