@@ -1,8 +1,7 @@
 commandlinefu_id: 10517
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for a in $(< FILENAME); do echo "$(bc <<< $(wc -m<<<$a)-1) $a";done|sort -n
 summary: |-
-  Print all words in a file sorted by length
+  输出一个文件所有的单词并按长度排序

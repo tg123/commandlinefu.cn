@@ -1,8 +1,8 @@
 commandlinefu_id: 9682
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat <file> > /dev/null
 summary: |-
   Load file into RAM (cache) for faster accessing for repeated usage
+  访问一次文件以加快以后的访问(cache)

@@ -1,8 +1,0 @@
-commandlinefu_id: 5578
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rec -c 2 -r 44100 -s -t wav - | oggenc - | tee streamdump.ogg | oggfwd giss.tv 8000 password /mountpoint.ogg
-summary: |-
-  send incoming audio to a Icecast server (giss.tv)

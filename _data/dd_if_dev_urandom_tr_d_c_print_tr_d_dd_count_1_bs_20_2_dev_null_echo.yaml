@@ -1,8 +1,7 @@
 commandlinefu_id: 11956
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/urandom  | tr -d -c [:print:] | tr -d " " | dd count=1 bs=20  2> /dev/null; echo
 summary: |-
-  Create random password in reasonable time
+  创建随机密码

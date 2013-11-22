@@ -1,8 +1,7 @@
 commandlinefu_id: 1218
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  ^Z then bg
+  CTRL+Z then bg
 summary: |-
-  Send current job to the background
+  使前台任务变成后台任务

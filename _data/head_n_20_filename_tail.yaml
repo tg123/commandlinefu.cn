@@ -1,8 +1,7 @@
 commandlinefu_id: 7044
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   head -n 20 <filename> | tail
 summary: |-
-  Print all the lines between 10 and 20 of a file
+  输出文件的10到20行

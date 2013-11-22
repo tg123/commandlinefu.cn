@@ -1,8 +1,7 @@
 commandlinefu_id: 3918
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   gcc -dM -E - <<<''
 summary: |-
-  Display GCC Predefined Macros
+  显示所有GCC 的宏
