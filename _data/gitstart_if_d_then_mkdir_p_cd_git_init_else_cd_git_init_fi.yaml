@@ -1,7 +1,6 @@
 commandlinefu_id: 3653
 translator:
   weibo: '石大溪'
-hide: true
 command: |-
   gitstart () { if ! [[ -d "$@" ]]; then mkdir -p "$@" && cd "$@" && git init; else cd "$@" && git init; fi }
 summary: |-
