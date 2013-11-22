@@ -13,11 +13,38 @@ $ git clone https://github.com/tg123/commandlinefu.cn.git
 cd commandlinefu.cn
 ```
 
- * 寻找一个没有翻译的文件 
+ * 寻找一个没有翻译的文件 (会调用你的 $EDITOR 来编辑这个文件) 
 
 ```
 ./tools/translateone.sh
 ```
+
+ * 翻译参考
+
+```
+$ git diff _data/head_n_20_filename_tail.yaml
+diff --git a/_data/head_n_20_filename_tail.yaml b/_data/head_n_20_filename_tail.yaml
+index b5d0efe..970e1a8 100644
+--- a/_data/head_n_20_filename_tail.yaml
++++ b/_data/head_n_20_filename_tail.yaml
+@@ -1,8 +1,7 @@
+ commandlinefu_id: 7044
+ translator:
+-  weibo: ''
+-hide: true
++  weibo: tgic
+ command: |-
+   head -n 20 <filename> | tail
+ summary: |-
+-  Print all the lines between 10 and 20 of a file
++  输出文件的10到20行
+```
+  
+ * 说明 
+
+  1. `weibo: tgic` 会在页面显示出 `@tgic` 翻译
+  1. 删除 `hide: true` 自动构建程序会知道你已经翻译了这个文件
+  1. 内容就是 summary 编译成汉语就好了 当然命令你也可以修改
 
  * 发送你的 `pull request`
  
