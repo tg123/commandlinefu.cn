@@ -1,8 +1,7 @@
 commandlinefu_id: 9673
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   curl -s http://geoiplookup.wikimedia.org/|awk -F, '{print $3,$4}'|awk -F'"' '{print "http://maps.google.com/maps?q="$4 "," $8}'
 summary: |-
-  Your GeoIP location on Google Maps
+  你的出口IP在Google Maps上

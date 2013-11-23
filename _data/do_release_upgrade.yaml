@@ -1,8 +1,0 @@
-commandlinefu_id: 1667
-translator:
-  weibo: ''
-hide: true
-command: |-
-  do-release-upgrade
-summary: |-
-  do a release upgrade in ubuntu

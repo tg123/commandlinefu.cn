@@ -1,8 +1,0 @@
-commandlinefu_id: 5519
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Keyword?";read keyword;query="http://www.shoutcast.com/sbin/newxml.phtml?search="$keyword"";curl -s $query |awk -F '"' 'NR <= 4 {next}NR>15{exit}{sub(/SHOUTcast.com/,"http://yp.shoutcast.com/sbin/tunein-station.pls?id="$6)}{print i++" )"$2}'
-summary: |-
-  Search shoutcast web radio by keyword

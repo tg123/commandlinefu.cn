@@ -1,8 +1,7 @@
 commandlinefu_id: 1858
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep "install " /var/log/dpkg.log | awk '{print $4}' | xargs apt-get -y remove --purge
 summary: |-
-  Remove today's installed packages
+  从日志卸载 今天安装过的包

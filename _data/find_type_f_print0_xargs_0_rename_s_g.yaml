@@ -1,8 +1,7 @@
 commandlinefu_id: 9577
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -print0 | xargs -0 rename 's/\ //g'
 summary: |-
-  delete file name space
+  清理文件名中的空格

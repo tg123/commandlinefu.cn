@@ -1,8 +1,0 @@
-commandlinefu_id: 6107
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.flac; do gst-launch filesrc location="$i" ! flacdec ! wavenc ! filesink location="${i%.flac}.wav"; done
-summary: |-
-  Transcode .flac to .wav with gstreamer

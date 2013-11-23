@@ -1,8 +1,7 @@
 commandlinefu_id: 8883
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   eval "mkdir test{$(seq -s, 1 10)}"
 summary: |-
-  Overcome Bash's expansion order
+  创建test1 到 test10

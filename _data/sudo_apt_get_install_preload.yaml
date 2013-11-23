@@ -1,8 +1,0 @@
-commandlinefu_id: 675
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get install preload
-summary: |-
-  Prefetch like apple devices

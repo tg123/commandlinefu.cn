@@ -1,8 +1,7 @@
 commandlinefu_id: 3538
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -lantp | grep -i establ | awk -F/ '{print $2}' | sort | uniq
 summary: |-
-  Show apps that use internet connection at the moment.
+  查看当前使用网络的程序

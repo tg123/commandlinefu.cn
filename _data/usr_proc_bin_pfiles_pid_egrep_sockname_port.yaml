@@ -1,8 +1,7 @@
 commandlinefu_id: 2555
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /usr/proc/bin/pfiles $PID | egrep "sockname|port"
 summary: |-
-  Solaris - check ports/sockets which process has opened
+  在 Solaris 上检查程序是否监听某个端口

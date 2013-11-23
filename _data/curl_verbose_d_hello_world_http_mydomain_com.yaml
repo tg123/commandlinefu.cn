@@ -1,8 +1,7 @@
 commandlinefu_id: 8795
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  curl --verbose -d "hello=world" http://mydomain.com
+  curl --verbose -d "hello=world" http://commandlinefu.cn
 summary: |-
-  Make a HTTP request using curl with POST method
+  使用curl 发送 POST 请求
