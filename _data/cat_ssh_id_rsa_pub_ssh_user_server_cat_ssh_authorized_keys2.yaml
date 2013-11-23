@@ -1,8 +1,7 @@
 commandlinefu_id: 9459
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  cat .ssh/id_rsa.pub | ssh user@server "cat >>.ssh/authorized_keys2"
+  cat .ssh/id_rsa.pub | ssh user@server "cat >>.ssh/authorized_keys"
 summary: |-
-  ssh Publickey auf remote Rechner anh?ngen
+  给目标机器装免密码钥匙 (ssh-copy-id)

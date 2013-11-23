@@ -1,8 +1,0 @@
-commandlinefu_id: 8874
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'mail -s "Call your wife" 13125551234@tmomail.net' |at now+15min
-summary: |-
-  SMS reminder

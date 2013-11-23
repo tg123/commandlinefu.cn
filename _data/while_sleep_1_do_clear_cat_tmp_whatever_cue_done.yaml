@@ -1,8 +1,7 @@
 commandlinefu_id: 11575
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while sleep 1; do clear; cat /tmp/whatever.cue; done
 summary: |-
-  Monitor file contents that is being overwritten regularly
+  监控文件变化

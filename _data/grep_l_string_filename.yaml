@@ -1,8 +1,7 @@
 commandlinefu_id: 7628
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -L "string" filename*
 summary: |-
-  find files beginning with filename* that do not include "string"
+  查找不包含 string 的文件

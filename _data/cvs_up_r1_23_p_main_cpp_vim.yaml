@@ -1,8 +1,0 @@
-commandlinefu_id: 8537
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs up -r1.23 -p main.cpp | vim -
-summary: |-
-  read old reversion of file

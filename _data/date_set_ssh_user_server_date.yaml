@@ -1,8 +1,7 @@
 commandlinefu_id: 9153
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date --set="$(ssh user@server date)"
 summary: |-
-  Synchronize date and time with a server over ssh
+  和远程机器同步时间

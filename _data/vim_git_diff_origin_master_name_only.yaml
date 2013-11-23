@@ -1,8 +1,8 @@
 commandlinefu_id: 12486
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  vim $(git diff origin/master --name-only)
+  vim $(git diff origin/master --name-only) -p
 summary: |-
-  Load your [git-controlled] working files into the vi arglist.
+  用vim打开git最新修改的文件
+

@@ -1,8 +1,0 @@
-commandlinefu_id: 5395
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /etc/init.d && sudo ./apache2 start
-summary: |-
-  apache , how to avoid bugs and start directly the server
