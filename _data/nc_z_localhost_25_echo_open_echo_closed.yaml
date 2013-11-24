@@ -1,0 +1,8 @@
+commandlinefu_id: 12931
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc -z localhost 25 && echo open || echo closed
+summary: |-
+  Check if TCP port 25 is open

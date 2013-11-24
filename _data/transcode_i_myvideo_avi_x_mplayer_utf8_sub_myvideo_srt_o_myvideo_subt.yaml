@@ -1,0 +1,8 @@
+commandlinefu_id: 12915
+translator:
+  weibo: ''
+hide: true
+command: |-
+  transcode -i myvideo.avi -x mplayer="-utf8 -sub myvideo.srt" -o myvideo_subtitled.avi -y xvid
+summary: |-
+  Print permanent subtitles on a video (international edition :) )

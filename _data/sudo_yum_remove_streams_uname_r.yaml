@@ -1,0 +1,8 @@
+commandlinefu_id: 12930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  % sudo yum remove streams-$(uname-r)
+summary: |-
+  Remove all unused kernels with apt-get

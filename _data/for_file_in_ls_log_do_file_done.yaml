@@ -1,0 +1,8 @@
+commandlinefu_id: 12936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in `ls *.log`; do `:> $file`; done
+summary: |-
+  Empty a file

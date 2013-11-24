@@ -1,0 +1,8 @@
+commandlinefu_id: 12920
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -iTCP:25
+summary: |-
+  Check if TCP port 25 is open

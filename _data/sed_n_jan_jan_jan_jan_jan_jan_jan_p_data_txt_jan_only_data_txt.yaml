@@ -1,0 +1,8 @@
+commandlinefu_id: 12911
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/jan\|Jan\|JAN\|JAn\|jAn\|jAN\|jaN/p' data.txt > jan-only-data.txt
+summary: |-
+  Print all lines containing the word 'jan' to a new file.

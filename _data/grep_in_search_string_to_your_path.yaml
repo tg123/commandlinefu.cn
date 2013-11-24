@@ -1,0 +1,8 @@
+commandlinefu_id: 12932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -in "search_string" /to/your/path
+summary: |-
+  count match string lines from file(s)

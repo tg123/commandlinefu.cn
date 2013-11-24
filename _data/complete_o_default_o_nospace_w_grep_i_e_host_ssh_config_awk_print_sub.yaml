@@ -1,0 +1,8 @@
+commandlinefu_id: 12917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  complete -o default -o nospace -W "$(grep -i -e '^host ' ~/.ssh/config | awk '{print substr($0, index($0,$2))}' ORS=' ')" ssh scp sftp
+summary: |-
+  ssh autocomplete based on ~/.ssh/config

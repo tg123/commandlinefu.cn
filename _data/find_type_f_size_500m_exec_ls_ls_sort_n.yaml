@@ -1,0 +1,8 @@
+commandlinefu_id: 12912
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~ -type f -size +500M -exec ls -ls {} \; | sort -n
+summary: |-
+  find all file larger than 500M in home dir

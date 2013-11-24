@@ -1,0 +1,8 @@
+commandlinefu_id: 12935
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -r "echo ini_get('allow_url_fopen');" php -r "echo function_exists('curl_init');" php -r "echo function_exists('json_decode');"
+summary: |-
+  View facebook friend list [hidden or not hidden]

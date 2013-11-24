@@ -1,0 +1,8 @@
+commandlinefu_id: 12918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $(git ls-files | grep old_name_pattern); do git mv $file $(echo $file | sed -e 's/old_name_pattern/new_name_pattern/'); done
+summary: |-
+  Mass rename files in git

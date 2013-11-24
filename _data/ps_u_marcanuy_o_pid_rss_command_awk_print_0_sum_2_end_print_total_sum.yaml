@@ -1,0 +1,8 @@
+commandlinefu_id: 12919
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -u marcanuy -o pid,rss,command | awk '{print $0}{sum+=$2} END {print "Total", sum/1024, "MB"}'
+summary: |-
+  List user processes with their memory usage and total usage.
