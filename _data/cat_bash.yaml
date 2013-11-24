@@ -1,8 +1,7 @@
 commandlinefu_id: 6359
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat | bash
 summary: |-
-  execute your commands and avoid history records
+  让你的命令不被记录到history里边

@@ -1,8 +1,7 @@
 commandlinefu_id: 10379
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tr a-zA-Z A-Za-z < input.txt
 summary: |-
-  switch case of a text file
+  大写转小写 小写转大写

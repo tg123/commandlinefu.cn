@@ -1,8 +1,7 @@
 commandlinefu_id: 7736
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sqlite3 -csv ~/.thunderbird/*.default/calendar-data/local.sqlite "SELECT CASE WHEN priority IS NULL THEN 5 ELSE priority END AS priority, title FROM cal_todos WHERE ical_status IS NULL ORDER BY priority ASC, last_modified DESC;"
 summary: |-
-  Dump your Thunderbird Lightning todo list in CSV format
+  备份你的 Thunderbird TODO LIST

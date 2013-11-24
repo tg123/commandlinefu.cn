@@ -1,8 +1,7 @@
 commandlinefu_id: 3772
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg --get-selections | cut -f1 | while read pkg; do dpkg -L $pkg | xargs -I'{}' bash -c 'if [ ! -d "{}" ]; then echo "{}"; fi' | tr '\n' '\000' | du -c --files0-from - | tail -1 | sed "s/total/$pkg/"; done
 summary: |-
-  List your largest installed packages.
+  按大小显示的安装包

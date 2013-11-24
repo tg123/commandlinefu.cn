@@ -1,8 +1,7 @@
 commandlinefu_id: 10115
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   zc () { for exp in $argv; do print "$exp = $(( exp ))"; done; }
 summary: |-
-  command line calculator (zsh version)
+  计算器 zsh
