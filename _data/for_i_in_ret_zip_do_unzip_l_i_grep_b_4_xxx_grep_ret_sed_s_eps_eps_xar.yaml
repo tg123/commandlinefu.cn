@@ -1,8 +1,7 @@
 commandlinefu_id: 11889
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in *RET.zip; do unzip -l "$i"| grep -B 4 XXX | grep RET| sed "s/.\+EPS/EPS/" |xargs -I '{}' cp '{}' out/'{}';done;
 summary: |-
-  copy zip files which contains XXX
+  复制包含XXX 的zip

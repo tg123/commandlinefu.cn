@@ -1,8 +1,7 @@
 commandlinefu_id: 8776
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function whichpkg { dpkg -S $1 | egrep -w $(which $1)$; }
 summary: |-
-  Find the package a command belongs to on debian-based distros
+  寻找命令属于哪个包

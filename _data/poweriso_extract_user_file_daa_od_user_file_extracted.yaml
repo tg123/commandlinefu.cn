@@ -1,8 +1,0 @@
-commandlinefu_id: 717
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ./poweriso extract $USER/file.daa / -od $USER/file_extracted
-summary: |-
-  Extract .daa files with PowerISO

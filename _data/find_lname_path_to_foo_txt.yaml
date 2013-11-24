@@ -1,8 +1,7 @@
 commandlinefu_id: 10373
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find / -lname path/to/foo.txt
 summary: |-
-  find all symlinks to a file
+  查找指向某个文件的符号链接

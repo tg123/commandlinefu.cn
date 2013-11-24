@@ -1,8 +1,7 @@
 commandlinefu_id: 3407
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /var/lib/dpkg/info/*.list > /tmp/listin ; ls /proc/*/exe |xargs -l readlink | grep -xvFf /tmp/listin; rm /tmp/listin
 summary: |-
-  Find running binary executables that were not installed using dpkg
+  找出不是用过dpkg安装的 二进制文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 2349
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n -e '1,/match/p'
 summary: |-
-  Delete all lines after the first match
+  删除从匹配出到尾巴
