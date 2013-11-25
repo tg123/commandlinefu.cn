@@ -33,6 +33,7 @@ module Jekyll
             self.slug = @slug
             self.data = @command_data
             self.data['layout'] = 'command'
+            self.data['tags'] = @slug.split('_').delete_if { | x | x.empty? }
             self.extracted_excerpt = self.extract_excerpt
         end
 
@@ -40,6 +41,9 @@ module Jekyll
             @name
         end
 
+        def template
+            '/commands/:categories/:title.html'
+        end
 
     end
 

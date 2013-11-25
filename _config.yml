@@ -2,5 +2,5 @@ name: commandlinefu.cn
 markdown: redcarpet
 pygments: true
 paginate: 8
-permalink: none
+permalink: '/post/:categories/:title.html'
 exclude: ['tools']
