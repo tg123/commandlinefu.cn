@@ -1,8 +1,7 @@
 commandlinefu_id: 9344
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat file.orig | ssh user1@host1 "ssh user2@host2 \"ssh user3@server3 'cat >file.dest'\""
 summary: |-
-  Copy a file over the network with 3 bounces
+  三次跳板复制文件的方法

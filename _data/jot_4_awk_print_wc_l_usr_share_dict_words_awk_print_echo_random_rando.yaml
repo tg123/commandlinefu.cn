@@ -1,8 +1,0 @@
-commandlinefu_id: 9024
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jot 4 | awk '{ print "wc -l /usr/share/dict/words | awk '"'"'{ print \"echo $[ $RANDOM * $RANDOM % \" $1 \"]\" }'"'"' | bash | awk '"'"'{ print \"sed -n \" $1 \"p /usr/share/dict/words\" }'"'"' | bash" }' | bash | tr -d '\n' | sed 's/$/\n/'
-summary: |-
-  Generate an XKCD #936 style 4 word password

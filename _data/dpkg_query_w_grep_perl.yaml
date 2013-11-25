@@ -1,8 +1,7 @@
 commandlinefu_id: 6134
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg-query -W | grep perl
 summary: |-
-  Print a list of installed Perl modules
+  列出已经安装的Perl modules

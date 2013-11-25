@@ -1,8 +1,7 @@
 commandlinefu_id: 821
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   gpg --output foo.txt --decrypt foo.txt.pgp
 summary: |-
-  gpg decrypt a file
+  使用GPG解码

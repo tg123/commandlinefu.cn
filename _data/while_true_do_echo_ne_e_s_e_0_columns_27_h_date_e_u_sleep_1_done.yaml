@@ -1,8 +1,7 @@
 commandlinefu_id: 11504
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while true; do echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"; sleep 1; done &
 summary: |-
-  Put a console clock in top right corner
+  在console的右上角放一个时钟

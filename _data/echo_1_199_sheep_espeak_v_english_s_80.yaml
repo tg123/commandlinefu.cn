@@ -1,8 +1,7 @@
 commandlinefu_id: 3297
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo {1..199}" sheep," | espeak -v english -s 80
 summary: |-
-  Let your computer lull you to sleep
+  让机器帮你入睡

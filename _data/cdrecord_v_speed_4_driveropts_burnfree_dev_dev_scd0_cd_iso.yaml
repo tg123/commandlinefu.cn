@@ -1,8 +1,0 @@
-commandlinefu_id: 4905
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cdrecord -v speed=4 driveropts=burnfree dev=/dev/scd0 cd.iso
-summary: |-
-  Burn an ISO on the command line.

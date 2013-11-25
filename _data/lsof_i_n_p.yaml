@@ -1,8 +1,7 @@
 commandlinefu_id: 12933
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -i -n -P
 summary: |-
-  &#38283;&#12356;&#12390;&#12427;&#12509;&#12540;&#12488;&#12434;&#35519;&#12409;&#12427;
+  查看监听的端口

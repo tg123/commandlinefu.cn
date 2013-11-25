@@ -1,8 +1,7 @@
 commandlinefu_id: 2436
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -name *.ext -exec cat {} > file.txt \;
 summary: |-
-  Recursive cat - concatenate files (filtered by extension) across multiple subdirectories into one file
+  递归的cat

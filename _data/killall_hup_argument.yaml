@@ -1,8 +1,7 @@
 commandlinefu_id: 11536
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   killall -HUP argument
 summary: |-
-  Force all processes matching argument to close.
+  给所有匹配参数的进程发kill

@@ -1,8 +1,7 @@
 commandlinefu_id: 2034
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   shred targetfile
 summary: |-
-  Securely destroy data (including whole hard disks)
+  安全删除文件(无法物理回复)
