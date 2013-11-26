@@ -1,8 +1,7 @@
 commandlinefu_id: 1276
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   alias calc 'echo "scale=4;\!*"|bc -l'; alias xcalc 'echo "\!*"|bc -l'
 summary: |-
-  easy C shell math calculators
+  简单的C shell 数学计算器

@@ -1,8 +1,7 @@
 commandlinefu_id: 5601
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   git log --all --pretty=format:" " --name-only | sort -u
 summary: |-
-  List every file that has ever existed in a git repository
+  列出所有曾经在git版本库下存在过的文件

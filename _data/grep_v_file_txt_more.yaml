@@ -1,8 +1,7 @@
 commandlinefu_id: 93
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   grep -v "^#" file.txt | more
 summary: |-
-  view all lines without comments.
+  查看所有没有被注释掉的行

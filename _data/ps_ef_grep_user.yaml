@@ -1,8 +1,7 @@
 commandlinefu_id: 106
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ps -ef | grep $USER
 summary: |-
-  Find all processes running under your username.
+  寻找所有在你的用户名下运行的进程
