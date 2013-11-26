@@ -1,7 +1,10 @@
 #!/bin/bash
 
-
-BASEDIR=$(dirname $(readlink -f $0)) 
+if [ "$(uname)" == "Darwin" ]; then
+	BASEDIR=$(dirname $0)
+else
+	BASEDIR=$(dirname $(readlink -f $0))
+fi
 
 DATADIR="$BASEDIR/../_data"
 

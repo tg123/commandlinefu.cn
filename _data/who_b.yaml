@@ -1,8 +1,7 @@
 commandlinefu_id: 2220
 translator:
-  weibo: ''
-hide: true
+  weibo: lzz36
 command: |-
   who -b
 summary: |-
-  Find last reboot time
+  最近一次系统启动的时间点
