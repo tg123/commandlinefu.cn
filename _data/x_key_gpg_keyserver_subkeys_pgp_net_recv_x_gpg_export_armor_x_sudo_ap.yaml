@@ -1,0 +1,8 @@
+commandlinefu_id: 12947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  x=KEY; gpg --keyserver subkeys.pgp.net --recv $x; gpg --export --armor $x | sudo apt-key add -
+summary: |-
+  Add GPG key easy - oneliner

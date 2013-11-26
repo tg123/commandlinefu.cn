@@ -1,0 +1,8 @@
+commandlinefu_id: 12945
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv /etc/fstab /etc/fstab.old && mount | awk '{print $1, $3, $5, $6}'| sed s/\(//g|sed s/\)/' 0 0'/g >> /etc/fstab
+summary: |-
+  fstab update

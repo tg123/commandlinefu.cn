@@ -1,0 +1,8 @@
+commandlinefu_id: 12944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in */; do echo run_command "${i}"; done
+summary: |-
+  Run a command in every (direct) sub-folder

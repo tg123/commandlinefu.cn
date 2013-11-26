@@ -1,0 +1,8 @@
+commandlinefu_id: 12940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -al | awk '/^-rwx/ {print $9}'
+summary: |-
+  list executed files current dir
