@@ -1,8 +1,7 @@
 commandlinefu_id: 250
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps awwux|awk '{print $1}'|sort|uniq
 summary: |-
-  Get to the user for using system.
+  使用系统的用户

@@ -1,8 +1,0 @@
-commandlinefu_id: 7382
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias Z=base64&&Z=dG91Y2ggUExFQVNFX1NUT1BfQU5OT1lJTkdfQ09NTUFORExJTkVGVV9VU0VSUwo=&&$(echo $Z|Z -d)
-summary: |-
-  Command for JOHN CONS

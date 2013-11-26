@@ -1,8 +1,7 @@
 commandlinefu_id: 10737
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat urls.txt | wget -i- -T 10 -t 3 --waitretry 1
 summary: |-
-  download a list of urls
+  下载一个列表中的url

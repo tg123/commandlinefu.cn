@@ -1,8 +1,7 @@
 commandlinefu_id: 2503
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   man fetchmail | perl -ne 'undef $/; print $1 if m/^.*?(-k \| --keep.*)-K \| --nokeep.*$/smg'
 summary: |-
-  Print multiline text starting and ending at specific regexps with perl
+  使用 perl 提取文本

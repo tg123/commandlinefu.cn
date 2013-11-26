@@ -1,8 +1,0 @@
-commandlinefu_id: 9857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vgdisplay -v 2>/dev/null | grep "^  LV Name" | while read A B LVDEV; do echo $LVDEV; done
-summary: |-
-  Print full LVM LV paths (for copy&paste)

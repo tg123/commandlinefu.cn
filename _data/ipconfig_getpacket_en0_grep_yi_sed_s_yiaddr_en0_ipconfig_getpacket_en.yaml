@@ -2,6 +2,6 @@ commandlinefu_id: 2795
 translator:
   weibo: tgic
 command: |-
-  ipconfig getpacket en0 | grep yi| sed s."yiaddr = "."en0: ".  ipconfig getpacket en1 | grep yi| sed s."yiaddr = "."en1: ".
+  ifconfig getpacket en0 | grep yi| sed s."yiaddr = "."en0: ".  ipconfig getpacket en1 | grep yi| sed s."yiaddr = "."en1: ".
 summary: |-
   通过ifconfig 获取IP

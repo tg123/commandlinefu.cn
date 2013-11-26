@@ -1,8 +1,7 @@
 commandlinefu_id: 6331
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in *; do mv $i prependtext$i; done
 summary: |-
-  Prepend string to filename
+  给文件名加前缀

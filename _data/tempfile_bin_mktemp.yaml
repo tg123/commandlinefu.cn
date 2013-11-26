@@ -1,8 +1,7 @@
 commandlinefu_id: 5782
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tempfile=$(/bin/mktemp)
 summary: |-
-  Create a temporary file
+  创建临时文件

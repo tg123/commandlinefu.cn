@@ -1,8 +1,7 @@
 commandlinefu_id: 1020
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -sm *|sort -rn|head -10
 summary: |-
-  top ten of biggest files/dirs in $PWD
+  最大得10个文件

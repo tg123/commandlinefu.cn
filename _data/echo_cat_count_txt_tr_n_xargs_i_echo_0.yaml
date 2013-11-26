@@ -1,8 +1,7 @@
 commandlinefu_id: 4682
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $(( $( cat count.txt | tr "\n" "+" | xargs -I{} echo {} 0  ) ))
 summary: |-
-  Using numsum to sum a column of numbers.
+  求和

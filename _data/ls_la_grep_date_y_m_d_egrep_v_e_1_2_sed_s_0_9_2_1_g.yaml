@@ -1,8 +1,7 @@
 commandlinefu_id: 6183
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -la | grep $(date +%Y-%m-%d) | egrep -v -e '\.{1,2}' | sed "s/.*\:[0-9]\{2\} \(.\+\)$/\\1/g"
 summary: |-
-  LIST FILENAMES OF FILES CREATED TODAY IN CURRENT DIRECTORY
+  找出今天创建的文件
