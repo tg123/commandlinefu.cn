@@ -11,7 +11,7 @@ layout: default
 
 {% if page.translator.weibo %}
 <blockquote>
-感谢 <a href="javascript:;" id="translator" wb_screen_name="{{ page.translator.weibo }}">@{{ page.translator.weibo }}</a> 翻译
+感谢 <a href="http://weibo.com/n/{{ page.translator.weibo | url_esacpe }}" id="translator" wb_screen_name="{{ page.translator.weibo }}">@{{ page.translator.weibo }}</a> 翻译
 </blockquote>
 {% endif %}
 
