@@ -48,7 +48,7 @@ module Jekyll
     end
 
     
-    class ArchiveGenerator < Generator
+    class CommandPostGenerator < Generator
         priority :highest
 
         def ts(dir)
@@ -85,7 +85,6 @@ module Jekyll
             end
 
             site.posts.sort! { | x, y | th.fetch(y.slug, 0) <=> th.fetch(x.slug, 0) }
-
         end
 
     end
