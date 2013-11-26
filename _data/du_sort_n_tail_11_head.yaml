@@ -1,8 +1,8 @@
 commandlinefu_id: 1353
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   du | sort -n | tail -11 | head
 summary: |-
   Get top 10 largest directories under cwd
+  获取当前工作目录下最大的10个文件夹

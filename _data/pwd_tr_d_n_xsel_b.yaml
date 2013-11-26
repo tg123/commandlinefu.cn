@@ -1,8 +1,7 @@
 commandlinefu_id: 9766
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   pwd | tr -d '\n' | xsel -b
 summary: |-
-  Copy current/working directory to clipboard
+  拷贝当前/工作目录到剪切板(xsel需要安装)
