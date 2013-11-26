@@ -1,8 +1,0 @@
-commandlinefu_id: 6095
-translator:
-  weibo: ''
-hide: true
-command: |-
-  http://www.facebook.com/#!/ninatodorovic?ref=ts
-summary: |-
-  View facebook friend list [hidden or not hidden]
