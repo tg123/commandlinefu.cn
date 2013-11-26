@@ -1,8 +1,7 @@
 commandlinefu_id: 12401
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   less -XF
 summary: |-
-  Make less act like cat if its input's contents can fit on one screen
+  让less命令像cat命令一样工作，如果它的输入文本可以刚好打在一屏内

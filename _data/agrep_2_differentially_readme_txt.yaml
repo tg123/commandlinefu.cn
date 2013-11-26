@@ -1,8 +1,8 @@
 commandlinefu_id: 9778
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   agrep -2 differentially README.txt
 summary: |-
   Approximate grep for finding typos
+  近似grep查找拼写错别(agrep需要安装)

@@ -1,8 +1,7 @@
 commandlinefu_id: 5276
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   sudo ethtool -s eth0 speed 100 duplex full
 summary: |-
-  How to speedup the Ethernet device
+  开启全速双工为以太网卡提速

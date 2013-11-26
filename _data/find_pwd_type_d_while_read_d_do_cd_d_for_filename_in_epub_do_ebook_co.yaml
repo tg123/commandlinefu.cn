@@ -1,8 +1,7 @@
 commandlinefu_id: 8324
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   find $PWD -type d | while read "D"; do cd "$D"; for filename in *.epub;do ebook-convert "$filename" "${filename%.epub}.mobi" --prefer-author-sort --output-profile=kindle --linearize-tables --smarten-punctuation --asciiize;done ;done
 summary: |-
-  Recursive script to find all epubs in the current dir and subs, then convert to mobi using calibre's ebook-convert utility
+  用这个递归的脚本寻找当前目录和子目录的所有的epubs文件，然后使用ebook-convert转换成mobi格式

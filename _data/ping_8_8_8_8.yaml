@@ -1,8 +1,7 @@
 commandlinefu_id: 7925
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ping 8.8.8.8
 summary: |-
-  Test internet connectivity
+  测试网络连接

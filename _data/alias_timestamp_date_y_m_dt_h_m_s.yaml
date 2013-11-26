@@ -1,8 +1,7 @@
 commandlinefu_id: 1122
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   alias timestamp='date "+%Y%m%dT%H%M%S"'
 summary: |-
-  Unix alias for date command that lets you create timestamps in ISO 8601 format
+  使用Unix alias归整date命令,让你可以创建ISO 8601格式的时间戳

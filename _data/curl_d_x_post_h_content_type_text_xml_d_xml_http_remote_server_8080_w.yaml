@@ -1,8 +1,7 @@
 commandlinefu_id: 8498
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   curl -D - -X POST -H 'Content-type: text/xml' -d @XML http://remote_server:8080/web-service/soap/WSName
 summary: |-
-  Call remote web service
+  发送请求到远程服务

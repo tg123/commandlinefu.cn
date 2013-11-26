@@ -1,8 +1,7 @@
 commandlinefu_id: 421
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   alias apt-get='sudo apt-get'
 summary: |-
-  Always run apt-get as root
+  总是以root权限运行apt-get

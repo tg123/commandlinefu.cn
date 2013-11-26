@@ -1,8 +1,8 @@
 commandlinefu_id: 1621
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   perl -e 'print "Hello World!", "\n";'
 summary: |-
-  hello Command-line-fu
+  perl的hello world
+
