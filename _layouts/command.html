@@ -5,7 +5,7 @@ layout: default
 
 <div class="row">
 <h2>
-{{ page.summary }}
+{{ page.summary | escape }}
 <wb:share-button appkey="6SEGgl" addition="number" type="button"></wb:share-button>
 </h2>
 
@@ -16,7 +16,7 @@ layout: default
 {% endif %}
 
 <div class="well">
-<code style="font-size: 2em">{{ page.command }}</code>
+<code style="font-size: 2em">{{ page.command | escape }}</code>
 </div>
 
 

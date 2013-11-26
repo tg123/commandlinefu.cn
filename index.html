@@ -6,10 +6,10 @@ title: commandlinefu.cn
 <div class="list-group">
     {% for post in paginator.posts %}
     <a href="{{ post.url }}" class="list-group-item">
-        <h4 class="list-group-item-heading">{{ post.title }}</h4>
+        <h4 class="list-group-item-heading">{{ post.title | escape }}</h4>
         <p class="list-group-item-text">
         <code>
-        {{ post.command }}
+        {{ post.command | escape }}
         </code>
         </p>
     </a>
