@@ -1,8 +1,7 @@
 commandlinefu_id: 9334
 translator:
-  weibo: ''
-hide: true
+  weibo: lzz36
 command: |-
   who -m | sed 's/.*(\(.*\)).*/\1/'
 summary: |-
-  Get the host from where you logged in
+  获取你登陆到此的源主机

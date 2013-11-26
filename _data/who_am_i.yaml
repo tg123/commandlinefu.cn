@@ -1,8 +1,7 @@
 commandlinefu_id: 9943
 translator:
-  weibo: ''
-hide: true
+  weibo: lzz36
 command: |-
   who am i
 summary: |-
-  get current tty name
+  获取当前tty名
