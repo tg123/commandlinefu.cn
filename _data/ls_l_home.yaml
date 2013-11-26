@@ -1,8 +1,7 @@
 commandlinefu_id: 6573
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ls -l $HOME
 summary: |-
-  To list all files in your home directory
+  列出HOME目录的所有文件(不包括隐藏文件和目录)

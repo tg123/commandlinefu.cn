@@ -1,8 +1,8 @@
 commandlinefu_id: 8123
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   a=(*); echo ${a[$((RANDOM % ${#a[@]}))]}
 summary: |-
   Selecting a random file/folder of a folder
+  从文件夹中选择一个随机的文件/文件夹
