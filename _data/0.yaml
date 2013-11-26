@@ -1,8 +1,7 @@
 commandlinefu_id: 12016
 translator:
-  weibo: ''
-hide: true
+  weibo: josephok
 command: |-
   ${0##-}
 summary: |-
-  launch bash without using any letters
+  不使用任何字母启动bash

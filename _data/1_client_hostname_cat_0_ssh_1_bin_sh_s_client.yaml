@@ -1,8 +1,7 @@
 commandlinefu_id: 4161
 translator:
-  weibo: ''
-hide: true
+  weibo: josephok
 command: |-
   [ $1 == "client" ] && hostname || cat $0 | ssh $1 /bin/sh -s client
 summary: |-
-  Script executes itself on another host with one ssh command
+  使用ssh命令在另一台主机上执行脚本

@@ -1,8 +1,7 @@
 commandlinefu_id: 3344
 translator:
-  weibo: ''
-hide: true
+  weibo: josephok
 command: |-
   [ "$1" == "--help" ] && { sed -n -e '/^# Usage:/,/^$/ s/^# \?//p' < $0; exit; }
 summary: |-
-  display an embeded help message from bash script  header
+  在Bash脚本头部显示一个内嵌的帮助信息
