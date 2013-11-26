@@ -1,8 +1,7 @@
 commandlinefu_id: 7652
 translator:
-  weibo: ''
-hide: true
+  weibo: josephok
 command: |-
   %1 &!
 summary: |-
-  Continue a current job in the background
+  在后端执行当前任务

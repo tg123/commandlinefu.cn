@@ -1,8 +1,7 @@
 commandlinefu_id: 12067
 translator:
-  weibo: ''
-hide: true
+  weibo: josephok
 command: |-
   (($1 > 0)) && echo "var is a number"
 summary: |-
-  Check if variable is a number
+  检查变量是否为数字
