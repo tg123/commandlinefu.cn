@@ -1,8 +1,7 @@
 commandlinefu_id: 3284
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
-  bc -l <<< s(3/5)
+  bc -l <<< 3/5
 summary: |-
-  floating point operations in shell scripts
+  shell脚本中进行浮点计算

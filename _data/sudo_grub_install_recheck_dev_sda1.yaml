@@ -1,8 +1,7 @@
 commandlinefu_id: 3275
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   sudo grub-install --recheck /dev/sda1
 summary: |-
-  Reinstall Grub
+  重新安装Grub

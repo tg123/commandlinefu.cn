@@ -1,8 +1,7 @@
 commandlinefu_id: 10368
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   alias sudo='sudo '
 summary: |-
-  Preserve existing aliases on sudo commands
+  保护现有的alias上sudo的命令

@@ -1,8 +1,8 @@
 commandlinefu_id: 1041
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   egrep '^[^#]' some_file
 summary: |-
-  display contents of a file w/o any comments or blank lines
+  显示一个文件的去掉注释和空行的正文部分
+

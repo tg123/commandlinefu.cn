@@ -1,8 +1,7 @@
 commandlinefu_id: 8842
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   echo "John's" | grep -Po '\b\w+(?<!s)\b'
 summary: |-
-  Lookaround in grep
+  grep前瞻环视

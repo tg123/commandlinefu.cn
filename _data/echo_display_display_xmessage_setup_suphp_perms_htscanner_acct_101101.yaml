@@ -1,8 +1,7 @@
 commandlinefu_id: 4787
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
-  echo "DISPLAY=$DISPLAY xmessage setup suphp perms htscanner acct#101101 host2.domain.com" | at 23:00 Feb 8
+  echo "DISPLAY=$DISPLAY xmessage setup suphp perms htscanner acct#101101 host2.domain.com" | at 23:00 + 5 days
 summary: |-
-  set a reminder for 5 days in the future
+  设置五天后23:00运行一个任务

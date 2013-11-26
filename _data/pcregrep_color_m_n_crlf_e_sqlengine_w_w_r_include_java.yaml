@@ -1,8 +1,7 @@
 commandlinefu_id: 10050
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   pcregrep --color -M -N CRLF -e "SQLEngine\.\w+\W*\([^\)]*\)" -r --include='\.java$'
 summary: |-
-  multiline re search recursive
+  多行正则搜索递归目录

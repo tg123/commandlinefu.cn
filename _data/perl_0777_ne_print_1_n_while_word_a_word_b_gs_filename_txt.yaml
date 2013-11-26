@@ -1,8 +1,7 @@
 commandlinefu_id: 1393
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   perl -0777 -ne 'print "$1\n" while /word-a(.*?)word-b/gs' filename.txt
 summary: |-
-  How to pull out lines between two patterns
+  取出两个匹配项中间的行
