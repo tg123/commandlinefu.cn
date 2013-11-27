@@ -1,8 +1,7 @@
 commandlinefu_id: 8838
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
-  $ history
+  history
 summary: |-
-  monitor the last command run
+  监视最近运行的命令

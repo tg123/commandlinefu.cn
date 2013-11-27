@@ -1,8 +1,7 @@
 commandlinefu_id: 277
 translator:
-  weibo: ''
-hide: true
+  weibo: '住了歌曲'
 command: |-
   cflow file.c | grep ':$' | sed 's/ <.*//'
 summary: |-
-  search user defined function in c language
+  搜索用户定义的C语言函数

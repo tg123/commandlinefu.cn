@@ -1,8 +1,7 @@
 commandlinefu_id: 931
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   caff <keyid>
 summary: |-
-  Receive, sign and send GPG key id
+  接受、标记和发送一个GPG key id 

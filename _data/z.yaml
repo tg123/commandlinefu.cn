@@ -1,8 +1,7 @@
 commandlinefu_id: 9731
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ^Z <...> %
 summary: |-
-  Temporarily suspend and unsuspend a foreground job
+  临时挂起和唤醒一个前台任务

@@ -1,8 +1,7 @@
 commandlinefu_id: 6122
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   :set pt=<f9>
 summary: |-
-  vim's pastetoggle: when you press f9 'paste' is on , press f9 again and 'paste' is off, and so forth (works in insert-mode and command-mode)
+  vim的粘贴切换，按F9切换粘贴模式的开/关,插入模式和命令模式都有用

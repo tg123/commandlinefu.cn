@@ -1,8 +1,7 @@
 commandlinefu_id: 3444
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   hdiutil mount sample.iso
 summary: |-
-  Mount an ISO image on Mac OS X
+  Mac OS X挂载ISO镜像
