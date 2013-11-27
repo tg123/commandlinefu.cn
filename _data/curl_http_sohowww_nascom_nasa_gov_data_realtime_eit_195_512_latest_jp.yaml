@@ -1,8 +1,0 @@
-commandlinefu_id: 4063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://sohowww.nascom.nasa.gov/data/realtime/eit_195/512/latest.jpg | xli -onroot -fill stdin
-summary: |-
-  Amazing real time picture of the sun in your wallpaper

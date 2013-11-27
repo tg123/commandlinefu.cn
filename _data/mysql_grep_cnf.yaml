@@ -1,8 +1,7 @@
 commandlinefu_id: 8221
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mysql -? | grep ".cnf"
 summary: |-
-  See where MySQL is looking for its config files
+  寻找my.cnf位置

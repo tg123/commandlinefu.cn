@@ -1,8 +1,0 @@
-commandlinefu_id: 6175
-translator:
-  weibo: ''
-hide: true
-command: |-
-  a command is running... <^z> fg; scheduled_command
-summary: |-
-  Schedule a command while one is already running.

@@ -1,8 +1,7 @@
 commandlinefu_id: 6952
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm *.txt <TAB> <TAB>
 summary: |-
-  prevent accidents while using wildcards
+  删除时候用多按下tab 防止误操作

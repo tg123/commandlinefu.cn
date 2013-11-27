@@ -1,8 +1,7 @@
 commandlinefu_id: 2219
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sar -r
 summary: |-
-  View memory utilisation
+  内存统计

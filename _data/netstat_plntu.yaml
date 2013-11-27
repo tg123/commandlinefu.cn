@@ -1,8 +1,7 @@
 commandlinefu_id: 9385
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -plntu
 summary: |-
-  check open ports (both ipv4 and ipv6)
+  开放的端口

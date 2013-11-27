@@ -1,8 +1,7 @@
 commandlinefu_id: 2511
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -L /proc/*/fd -links 0 2>/dev/null
 summary: |-
-  Find removed files still in use via /proc
+  找出删除的文件但是还有进程在使用的（有救）

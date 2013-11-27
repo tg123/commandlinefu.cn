@@ -1,8 +1,0 @@
-commandlinefu_id: 9240
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof | grep "stuff"
-summary: |-
-  Grabs Open Files and Then Greps Them

@@ -1,8 +1,0 @@
-commandlinefu_id: 5497
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump -listonly 'url' | grep -oe 'http://.*\.ogg' > 11 ; vlc 11 ; mv 11 /dev/null
-summary: |-
-  u can hear all .ogg files with vlc that thier link are in url

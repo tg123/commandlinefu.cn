@@ -1,8 +1,7 @@
 commandlinefu_id: 5012
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo sortmeplease | perl -pe 'chomp; $_ = join "", sort split //'
 summary: |-
-  Sort a character string
+  给字符串排序

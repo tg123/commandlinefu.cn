@@ -1,8 +1,7 @@
 commandlinefu_id: 10984
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cvzf - /folder/ | ssh root@192.168.0.1 "dd of=/dest/folder/file.tar.gz"
 summary: |-
-  Tunneling commands over SSH
+  管道版SCP

@@ -1,8 +1,0 @@
-commandlinefu_id: 8893
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -af volnorm=2:0.75 dvd://
-summary: |-
-  Normalize volume output in MPlayer

@@ -1,8 +1,7 @@
 commandlinefu_id: 46
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   zcat /usr/share/man/man1/grep.1.gz | grep "color"
 summary: |-
-  Search gzipped files
+  在gz内查找
