@@ -4,5 +4,4 @@ translator:
 command: |-
   :1,$d
 summary: |-
-  Emptying a text file in one shot
   清空文本文件

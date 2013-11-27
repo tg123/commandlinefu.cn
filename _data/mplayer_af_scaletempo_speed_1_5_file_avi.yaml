@@ -1,8 +1,0 @@
-commandlinefu_id: 2284
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -af scaletempo -speed 1.5 file.avi
-summary: |-
-  mplayer -af scaletempo

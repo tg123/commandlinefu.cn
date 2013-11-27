@@ -1,0 +1,8 @@
+commandlinefu_id: 12948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h | sort -n | tail
+summary: |-
+  Which files/dirs waste my disk space

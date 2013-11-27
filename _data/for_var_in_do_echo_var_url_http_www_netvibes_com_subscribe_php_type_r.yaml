@@ -1,0 +1,8 @@
+commandlinefu_id: 12942
+translator:
+  weibo: ''
+hide: true
+command: "for var in \"$@\"  do \techo $var \tURL=\"http://www.netvibes.com/subscribe.php?type=rss&url=$var\"
+  \tsensible-browser $URL  \t done"
+summary: |-
+  Adding Netvibes subscription option to Firefox and add multiple rss feeds to netvibes

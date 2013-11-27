@@ -1,8 +1,7 @@
 commandlinefu_id: 12911
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n '/jan\|Jan\|JAN\|JAn\|jAn\|jAN\|jaN/p' data.txt > jan-only-data.txt
 summary: |-
-  Print all lines containing the word 'jan' to a new file.
+  输出包含jan 的行到另外大文件

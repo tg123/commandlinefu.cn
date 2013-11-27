@@ -1,8 +1,7 @@
 commandlinefu_id: 11323
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type d -maxdepth 1 | xargs du -sh
 summary: |-
-  Size for all directories inside the current one
+  所有目录的大小

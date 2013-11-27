@@ -1,8 +1,0 @@
-commandlinefu_id: 5260
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rfkill block bluetooth
-summary: |-
-  Disable bluetooth on your laptop to save battery

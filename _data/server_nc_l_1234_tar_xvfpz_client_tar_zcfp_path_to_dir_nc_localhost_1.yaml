@@ -1,8 +1,7 @@
 commandlinefu_id: 5003
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   Server: nc -l 1234 |tar xvfpz  -   ;Client: tar zcfp - /path/to/dir | nc localhost 1234
 summary: |-
-  Netcat & Tar
+  通过nc传输文件的方法

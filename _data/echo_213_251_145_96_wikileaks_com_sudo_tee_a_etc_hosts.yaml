@@ -1,8 +1,0 @@
-commandlinefu_id: 7279
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 213.251.145.96 wikileaks.com | sudo tee -a /etc/hosts
-summary: |-
-  Visit wikileaks.com
