@@ -1,8 +1,8 @@
 commandlinefu_id: 1892
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   info --vi-keys
 summary: |-
-  vi keybindings with info
+  使用vi快捷键的info
+

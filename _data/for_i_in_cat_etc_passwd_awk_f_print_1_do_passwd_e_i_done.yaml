@@ -1,8 +1,7 @@
 commandlinefu_id: 4044
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   for i in `cat /etc/passwd | awk -F : '{ print $1 }';`; do passwd -e $i; done
 summary: |-
-  force change password for all user
+  强制给所有用户更换密码

@@ -1,8 +1,7 @@
 commandlinefu_id: 4302
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   find /path/to/dir/ -type f -exec rm {} +
 summary: |-
-  Optimal way of deleting huge numbers of files
+  删除大量文件的最佳方法

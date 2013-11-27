@@ -1,8 +1,7 @@
 commandlinefu_id: 1554
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   echo ${file##*/}
 summary: |-
-  shell alternative to 'basename'
+  basename命令的替代用法

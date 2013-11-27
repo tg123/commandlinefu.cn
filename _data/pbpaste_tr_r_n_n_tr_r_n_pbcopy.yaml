@@ -1,8 +1,7 @@
 commandlinefu_id: 11072
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   pbpaste | tr '\r\n' '\n' | tr '\r' '\n' | pbcopy
 summary: |-
-  OS X: clean up Windows and Classic Mac OS newlines from the text in the clipboard
+  OS X: 清理window和经典Mac OS 换行,换成linux换行格式

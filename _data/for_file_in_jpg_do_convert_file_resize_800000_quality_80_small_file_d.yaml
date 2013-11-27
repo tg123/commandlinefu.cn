@@ -1,8 +1,7 @@
 commandlinefu_id: 6577
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   for file in *.jpg; do convert "$file" -resize 800000@ -quality 80 "small.$file"; done
 summary: |-
-  resize all JPG images in folder and create new images (w/o overwriting)
+  调整文件夹中JPG图像尺寸，放到一张新的图片文件(不覆写)

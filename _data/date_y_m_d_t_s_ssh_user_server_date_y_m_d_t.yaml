@@ -1,8 +1,7 @@
 commandlinefu_id: 7636
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   date +%Y%m%d%T -s "`ssh user@server 'date "+%Y%m%d %T"'`"
 summary: |-
-  Synchronize date and time with a server over ssh
+  和ssh到的服务器同步日期和时间
