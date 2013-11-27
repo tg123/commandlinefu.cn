@@ -1,8 +1,7 @@
 commandlinefu_id: 11099
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   telnet miku.acm.uiuc.edu
 summary: |-
-  Get Nyan'd
+  获取Nyan'd(失效了,看名字和初音未来有关系吧)

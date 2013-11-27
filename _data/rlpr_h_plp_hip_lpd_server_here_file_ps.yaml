@@ -1,8 +1,7 @@
 commandlinefu_id: 9803
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   rlpr -h -Plp -HIP_LPD_SERVER_HERE file.ps
 summary: |-
-  Print a file to a LPD server
+  远程打印机打印一个文件

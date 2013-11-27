@@ -1,8 +1,7 @@
 commandlinefu_id: 7989
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   <ALT>+<.> or <ALT>+<NUM>+<.> or <ALT>+<NUM>,<ALT>+<.>
 summary: |-
-  Place the NUM-th argument of the most recent command on the shell
+  获得最近的命令中的第NUM个参数，放到shell上

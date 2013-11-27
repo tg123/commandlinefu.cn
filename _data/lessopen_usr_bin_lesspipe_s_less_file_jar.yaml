@@ -1,8 +1,7 @@
 commandlinefu_id: 6812
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   LESSOPEN="| /usr/bin/lesspipe %s" less file.jar
 summary: |-
-  List contents of jar
+  列出jar包的内容

@@ -1,8 +1,7 @@
 commandlinefu_id: 6576
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   aptitude purge '~c'
 summary: |-
-  Purge configuration files of removed packages on  debian based systems
+  删除已经移除的软件包的配置文件(debian系)

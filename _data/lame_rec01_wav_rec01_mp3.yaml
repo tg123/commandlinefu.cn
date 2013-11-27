@@ -1,8 +1,7 @@
 commandlinefu_id: 7710
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   lame rec01.wav rec01.mp3
 summary: |-
-  Convert wav to mp3
+  转换wav文件到mp3

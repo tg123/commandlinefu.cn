@@ -1,8 +1,7 @@
 commandlinefu_id: 11537
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   zdump Japan America/New_York
 summary: |-
-  Display current time in requested time zones.
+  显示要求的时区的当前时间

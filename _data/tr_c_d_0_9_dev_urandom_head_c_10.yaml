@@ -1,8 +1,7 @@
 commandlinefu_id: 3745
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   tr -c -d 0-9 < /dev/urandom | head -c 10
 summary: |-
-  Outputs a 10-digit random number
+  输出随机的十位数字

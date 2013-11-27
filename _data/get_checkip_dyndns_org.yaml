@@ -1,8 +1,7 @@
 commandlinefu_id: 10386
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
-  GET checkip.dyndns.org
+  GET http://www.ip.cn/getip.php?action=getip
 summary: |-
-  What is my public IP address
+  获取我的外网IP地址

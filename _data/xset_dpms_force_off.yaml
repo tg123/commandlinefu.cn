@@ -1,8 +1,7 @@
 commandlinefu_id: 12232
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   xset dpms force off
 summary: |-
-  Turn off your laptop screen on command
+  用命令关闭你的笔记本屏幕

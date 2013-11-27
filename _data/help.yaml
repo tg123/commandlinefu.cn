@@ -1,8 +1,7 @@
 commandlinefu_id: 3419
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   help
 summary: |-
-  Bash help
+  Bash 帮助

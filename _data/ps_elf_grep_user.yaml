@@ -1,8 +1,8 @@
 commandlinefu_id: 12526
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ps -eLF | grep ^user
 summary: |-
-  Threads and processes of a user
+  以user开头的用户名下运行的进程和线程
+
