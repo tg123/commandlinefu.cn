@@ -14,4 +14,9 @@ total=${#a[@]}
 
 c=$((RANDOM%total))
 
+if ! (($EDITOR))
+then
+    EDITOR='nano'
+fi
+
 $EDITOR ${a[c]}
