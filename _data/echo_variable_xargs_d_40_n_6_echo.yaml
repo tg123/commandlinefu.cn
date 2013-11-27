@@ -1,8 +1,7 @@
 commandlinefu_id: 4620
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   echo $VARIABLE | xargs -d'\40' -n 6 echo
 summary: |-
-  Print the contents of $VARIABLE, six words at a time
+  打印VARIABLE环境变量，每次打印六个单词

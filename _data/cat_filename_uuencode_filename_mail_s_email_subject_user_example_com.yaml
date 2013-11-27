@@ -1,8 +1,7 @@
 commandlinefu_id: 3556
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   cat filename | uuencode filename | mail -s "Email subject" user@example.com
 summary: |-
-  Send a local file via email
+  通过email发送一个本地文件

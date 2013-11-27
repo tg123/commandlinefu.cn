@@ -1,8 +1,7 @@
 commandlinefu_id: 4202
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   perl -lne 'use POSIX; print strftime("%Y-%m-%d", localtime(time() - 86400));'
 summary: |-
-  yesterday
+  打印昨天日期

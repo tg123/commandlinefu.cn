@@ -1,8 +1,7 @@
 commandlinefu_id: 1120
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   rpm -qa --queryformat 'Installed on %{INSTALLTIME:date}\t%{NAME}-%{VERSION}-%{RELEASE}:  %{SUMMARY}\n'
 summary: |-
-  Query for installed packages on RHEL boxes, and format the output nicely
+  列出已安装的软件包(红帽系),并且用漂亮的格式输出

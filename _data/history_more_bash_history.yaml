@@ -1,8 +1,7 @@
 commandlinefu_id: 11184
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   history | more #~/.bash_history
 summary: |-
-  display history commands recently executed
+  显示最近执行的历史命令

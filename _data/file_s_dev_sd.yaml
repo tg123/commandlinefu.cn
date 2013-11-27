@@ -1,8 +1,7 @@
 commandlinefu_id: 7441
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   file -s /dev/sd*
 summary: |-
-  Use file(1) to view device information
+  使用file查看设备信息(man file查看更多关于file的信息)
