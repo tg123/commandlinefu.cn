@@ -1,8 +1,0 @@
-commandlinefu_id: 10580
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -SIGUSR1 xxxx
-summary: |-
-  Watch the progress of 'dd'

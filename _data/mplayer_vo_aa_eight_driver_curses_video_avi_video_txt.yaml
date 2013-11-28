@@ -1,8 +1,0 @@
-commandlinefu_id: 9607
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -vo aa:eight:driver=curses video.avi >video.txt
-summary: |-
-  converts video to ascii art (txt) by mplayer and aa|caca lib

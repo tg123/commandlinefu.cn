@@ -1,8 +1,0 @@
-commandlinefu_id: 2278
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -fs cdda://9 -ao pcm:file=track9.wav
-summary: |-
-  Extract track 9 from a CD

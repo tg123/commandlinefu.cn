@@ -1,8 +1,0 @@
-commandlinefu_id: 5319
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -ao null -sid 999 -ss 00:15:45 -endpos 10 filename.avi -vo jpeg:outdir=out_frames
-summary: |-
-  Extracting frames from a video as jpeg files

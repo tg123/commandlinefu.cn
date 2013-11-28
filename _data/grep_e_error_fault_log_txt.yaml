@@ -1,8 +1,7 @@
 commandlinefu_id: 12256
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -E "(.*)(ERROR)(.*)(FAULT)(.*)" log.txt
 summary: |-
-  grep for 2 (or more) words anywhere on each line of a file
+  同时grep两个词

@@ -1,8 +1,0 @@
-commandlinefu_id: 5590
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer http://minnesota.publicradio.org/tools/play/streams/the_current.pls < /dev/null | grep --line-buffered "StreamTitle='.*S" -o | grep --line-buffered "'.*'" -o > mus & tail -n0 -f mus | while read line; do notify-send "Music Change" "$line";done
-summary: |-
-  Play 89.3 @TheCurrent and get system notifications on song changes.

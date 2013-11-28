@@ -1,8 +1,0 @@
-commandlinefu_id: 9873
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -endpos 0.1 -vo null -ao null -identify *.avi 2>&1 |grep ID_LENGTH |cut -d = -f 2|awk '{SUM += $1} END { printf "%d:%d:%d\n",SUM/3600,SUM%3600/60,SUM%60}'
-summary: |-
-  Get the total length of all video / audio in the current dir in H:m:s

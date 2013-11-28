@@ -1,8 +1,0 @@
-commandlinefu_id: 8203
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --dump http://www.seeon.tv/channels| grep "/channels"|awk '{print $2}'|sort -u|while read links; do lynx --dump "$links"|awk '/view/ {print $2}'|sort -u; done
-summary: |-
-  List Seeon.tv Available Video Channels

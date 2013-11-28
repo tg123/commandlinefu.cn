@@ -1,8 +1,7 @@
 commandlinefu_id: 3131
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "scale=4; 3 / 5" | bc
 summary: |-
-  floating point operations in shell scripts
+  计算浮点除法

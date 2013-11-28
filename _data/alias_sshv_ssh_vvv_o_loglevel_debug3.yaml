@@ -1,8 +1,7 @@
 commandlinefu_id: 6921
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias sshv='ssh -vvv -o LogLevel=DEBUG3'
 summary: |-
-  Debug SSH at the Maximum Verbosity Level
+  让ssh输出更多调试信息

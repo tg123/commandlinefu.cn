@@ -1,8 +1,0 @@
-commandlinefu_id: 3948
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer test.mp3 < /dev/null & mplayer test.avi -nosound -speed 1.0884
-summary: |-
-  play audio stream and video stream in two different mplayer instances

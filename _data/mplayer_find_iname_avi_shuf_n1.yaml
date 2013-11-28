@@ -1,8 +1,0 @@
-commandlinefu_id: 11511
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer $(find . -iname '*.avi' | shuf -n1)
-summary: |-
-  Play a random avi file in the current directory tree

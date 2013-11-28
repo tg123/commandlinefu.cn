@@ -1,8 +1,0 @@
-commandlinefu_id: 7761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://www.discogs.com/search?q=724349691704 -O foobar &> /dev/null ; grep \/release\/ foobar | head -2 | tail -1 | sed -e 's/^<div>.*>\(.*\)<\/a><\/div>/\1/' ; rm foobar
-summary: |-
-  Find artist and title of a music cd, UPC code given (first result only)

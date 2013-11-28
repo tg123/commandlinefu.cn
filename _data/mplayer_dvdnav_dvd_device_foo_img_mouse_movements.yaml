@@ -1,8 +1,0 @@
-commandlinefu_id: 2469
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer dvdnav:// -dvd-device foo.img -mouse-movements
-summary: |-
-  Play ISO/DVD-files and activate dvd-menu and mouse menu clicks.

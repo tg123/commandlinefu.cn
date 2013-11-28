@@ -1,8 +1,0 @@
-commandlinefu_id: 9237
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -vc null -vo null -ao pcm <filename>
-summary: |-
-  Extracting the audio part of a track as a wav file

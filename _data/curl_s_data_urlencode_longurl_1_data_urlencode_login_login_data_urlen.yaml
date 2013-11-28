@@ -1,8 +1,0 @@
-commandlinefu_id: 4464
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s --data-urlencode 'longUrl='$1 --data-urlencode 'login='$login --data-urlencode 'apiKey='$apikey 'http://api.bit.ly/shorten?version=2.0.1&format=xml' | xmlstarlet sel -T -t -m "//shortUrl" -v "." | line
-summary: |-
-  Shorten url using bit.ly API

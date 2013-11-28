@@ -1,8 +1,0 @@
-commandlinefu_id: 4454
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer dvd:// -softvol -softvol-max 500
-summary: |-
-  Increase mplayer maximum volume

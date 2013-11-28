@@ -1,8 +1,0 @@
-commandlinefu_id: 8866
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -fs -cookies -cookies-file /tmp/cookie.txt $(youtube-dl -g --cookies /tmp/cookie.txt "http://www.youtube.com/watch?v=PTOSvEX-YeY")
-summary: |-
-  Stream YouTube URL directly to mplayer.

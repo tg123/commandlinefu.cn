@@ -1,8 +1,0 @@
-commandlinefu_id: 7123
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -cache 128 -tv driver=v4l2:width=176:height=177 -vo xv tv:// -noborder -geometry "95%:93%" -ontop
-summary: |-
-  mplayer webcam window for screencasts

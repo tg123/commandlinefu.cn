@@ -1,8 +1,0 @@
-commandlinefu_id: 5385
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -shuffle *
-summary: |-
-  Play all the music in a folder, on shuffle

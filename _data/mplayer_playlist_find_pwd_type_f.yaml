@@ -1,8 +1,0 @@
-commandlinefu_id: 8890
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -playlist <(find "$PWD" -type f)
-summary: |-
-  Play all files in the directory using MPlayer

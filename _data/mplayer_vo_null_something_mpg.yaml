@@ -1,8 +1,0 @@
-commandlinefu_id: 4919
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -vo null something.mpg
-summary: |-
-  Using mplayer to play the audio only but suppress the video

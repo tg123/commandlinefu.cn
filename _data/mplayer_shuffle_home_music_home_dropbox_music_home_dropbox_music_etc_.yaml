@@ -1,8 +1,0 @@
-commandlinefu_id: 9675
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -shuffle $HOME/music/* $HOME/Dropbox/Music/*/* $HOME/Dropbox/Music/*/*/* etc. >> /dev/null 2>&1
-summary: |-
-  Shuffles your songs. Using mplayer. But with no output.

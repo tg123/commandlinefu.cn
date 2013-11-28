@@ -1,8 +1,0 @@
-commandlinefu_id: 6813
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -vo null -ao null -frames 0 -identify movie.avi | awk '{FS="="}; /ID_LENGTH/{ H=int($2/3600); M=int(($2-H*3600)/60); S=int($2%60); printf "%d:%02d:%02d\n",H,M,S}'
-summary: |-
-  Get movie length

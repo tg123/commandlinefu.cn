@@ -1,8 +1,0 @@
-commandlinefu_id: 12910
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer dvd://1 -dumpstream -dumpfile /tmp/file.mpg
-summary: |-
-  Lossless DVD rips with

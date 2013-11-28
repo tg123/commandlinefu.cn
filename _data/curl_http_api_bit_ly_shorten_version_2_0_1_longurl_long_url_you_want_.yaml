@@ -1,8 +1,0 @@
-commandlinefu_id: 3512
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl "http://api.bit.ly/shorten?version=2.0.1&longUrl=<LONG_URL_YOU_WANT_SHORTENED>&login=<YOUR_BITLY_USER_NAME>&apiKey=<YOUR_API_KEY>"
-summary: |-
-  Shorten any Url using bit.ly API, using your API Key which enables you to Track Clicks

@@ -1,8 +1,0 @@
-commandlinefu_id: 11779
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mp4box -info  video.mp4
-summary: |-
-  Get video information with ffmpeg

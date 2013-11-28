@@ -1,8 +1,0 @@
-commandlinefu_id: 11764
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -nolirc <Streaming_URL> -dumpstream -dumpfile output.mp3
-summary: |-
-  Mplayer save stream to file

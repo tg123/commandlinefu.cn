@@ -1,8 +1,7 @@
 commandlinefu_id: 9416
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   jda() { cd $(pwd | sed "s/\(\/$@\/\).*/\1/g"); }
 summary: |-
-  Jump to any directory above the current
+  向上n级目录

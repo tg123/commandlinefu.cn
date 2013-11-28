@@ -1,7 +1,6 @@
 commandlinefu_id: 5135
 translator:
   weibo: tgic
-hide: false
 command: |-
   ssh user@host "cat /path/to/backup/backupfile.tar.bz2" |tar jpxf -
 summary: |-

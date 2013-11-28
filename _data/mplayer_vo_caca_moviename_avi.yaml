@@ -1,8 +1,0 @@
-commandlinefu_id: 1177
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer -vo caca MovieName.avi
-summary: |-
-  Watch movies in your terminal

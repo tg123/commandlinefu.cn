@@ -1,8 +1,0 @@
-commandlinefu_id: 1010
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer $(ls -t /tmp/Flash*|head -1)
-summary: |-
-  Watch YouTube and other Flash videos via mplayer (or whatever)

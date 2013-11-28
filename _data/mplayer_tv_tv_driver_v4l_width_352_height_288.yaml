@@ -1,8 +1,0 @@
-commandlinefu_id: 1517
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer tv:// -tv driver=v4l:width=352:height=288
-summary: |-
-  Show webcam output
