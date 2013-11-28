@@ -16,9 +16,10 @@ total=${#a[@]}
 c=$((RANDOM%total))
 
 while true; do
-    target=${a[c]}
-    if [ -n `grep "hide: true" $target` ];then
-        $EDITOR $DATADIR/$target
+    target="$DATADIR/${a[c]}"
+    t=`grep "hide: true" $target`
+    if [ -n "$t" ];then
+        $EDITOR $target
         break
     fi
     c=$((c+1))
