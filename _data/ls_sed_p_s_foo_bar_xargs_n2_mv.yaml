@@ -1,8 +1,7 @@
 commandlinefu_id: 8371
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ls | sed 'p;s/foo/bar/' | xargs -n2 mv
 summary: |-
-  bulk rename files with sed, one-liner
+  用sed一行程序批量重命名文件

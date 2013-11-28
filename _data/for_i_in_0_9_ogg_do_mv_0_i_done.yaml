@@ -1,8 +1,8 @@
 commandlinefu_id: 10765
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   for i in [0-9].ogg; do mv {,0}$i; done
 summary: |-
-  convert single digit to double digits
+  移动一位数字文件变成两位数字(1.file到01.file)
+

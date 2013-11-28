@@ -1,8 +1,7 @@
 commandlinefu_id: 9646
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   du -h | sort -hr
 summary: |-
-  Get the size of all the directories in current directory (Sorted Human Readable)
+  获取当前目录下所有文件夹的大小，按人类可读形式排序

@@ -1,8 +1,7 @@
 commandlinefu_id: 2554
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   pkgchk -l -p <full path to the file>
 summary: |-
-  Find which package a file belongs to on Solaris
+  寻找一个文件是归属于哪个软件包的(Solaris操作系统)

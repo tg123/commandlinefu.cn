@@ -1,8 +1,7 @@
 commandlinefu_id: 10696
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   curl ip.tyk.nu
 summary: |-
-  Get your outside IP address - now with IPv6 support
+  获取你的外网IP地址，支持IPv6
