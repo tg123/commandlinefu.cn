@@ -1,8 +1,0 @@
-commandlinefu_id: 5747
-translator:
-  weibo: ''
-hide: true
-command: |-
-  w3m -dump_source http://www.onelinerz.net/random-one-liners/1/ | awk ' /.*<div id=\"oneliner_[0-9].*/ {while (! /\/div/ ) { gsub("\n", ""); getline; }; gsub (/<[^>][^>]*>/, "", $0); print $0}'
-summary: |-
-  Get a funny one-liner from www.onelinerz.net

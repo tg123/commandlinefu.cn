@@ -1,6 +1,6 @@
 commandlinefu_id: 12136
 translator:
-  weibo:titikaka723 
+  weibo: titikaka723 
 command: |-
   zmv '(*.*)(.*)' '${1//./_}$2'
 summary: |-

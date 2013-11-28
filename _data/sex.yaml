@@ -1,8 +1,0 @@
-commandlinefu_id: 9452
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :Sex
-summary: |-
-  Open a file explorer on a split screen inside your vim session

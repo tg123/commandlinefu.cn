@@ -1,8 +1,7 @@
 commandlinefu_id: 9250
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ((x++))
 summary: |-
-  increment a bash variable
+  变量自增
