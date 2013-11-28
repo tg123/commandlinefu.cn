@@ -1,8 +1,0 @@
-commandlinefu_id: 3008
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - http://www.commandlinefu.com/feed/tenup | xmlstarlet sel -T -t -o '&lt;x&gt;' -n -t -m rss/channel/item -o '&lt;y&gt;' -n -v description -o '&lt;/y&gt;' -n -t -o '&lt;/x&gt;' | xmlstarlet sel -T -t -m x/y -v code -n
-summary: |-
-  print latest (top 10, top 3 or *) commandlinefu.com commands

@@ -1,8 +1,0 @@
-commandlinefu_id: 12916
-translator:
-  weibo: ''
-hide: true
-command: |-
-  0 0 * * * curl http://www.commandlinefu.com/commands/random/plaintext -o /etc/motd -s -L
-summary: |-
-  get a fresh commandlinefu-item each day as motd

@@ -1,8 +1,0 @@
-commandlinefu_id: 4089
-translator:
-  weibo: ''
-hide: true
-command: |-
-  video=$(ls /tmp | grep -e Flash\w*); ffmpeg -i /tmp/$video -f mp3 -ab 192k ~/ytaudio.mp3
-summary: |-
-  Script to rip the audio from the youtube video you have open in firefox

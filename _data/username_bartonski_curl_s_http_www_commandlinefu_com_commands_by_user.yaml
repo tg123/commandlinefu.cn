@@ -1,8 +1,0 @@
-commandlinefu_id: 4864
-translator:
-  weibo: ''
-hide: true
-command: |-
-  username=bartonski;curl -s http://www.commandlinefu.com/commands/by/$username/json|perl -e 'BEGIN{$s=0;$n=0};END{print "Score: $s\nEntries: $n\nMean: ";printf "%3.2f\n",$s/$n}' -0173 -nae 'foreach $f (@F){if($f =~ /"votes":"(-*\d+)"/){$s += $1; $n++;}}'
-summary: |-
-  Get your commandlinefu points (upvotes - downvotes)

@@ -1,8 +1,0 @@
-commandlinefu_id: 4071
-translator:
-  weibo: ''
-hide: true
-command: |-
-  geoiplookup www.commandlinefu.com
-summary: |-
-  geoip information

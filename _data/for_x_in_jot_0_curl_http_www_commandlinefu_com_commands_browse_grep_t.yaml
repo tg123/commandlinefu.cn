@@ -1,8 +1,0 @@
-commandlinefu_id: 3198
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in `jot - 0 \`curl "http://www.commandlinefu.com/commands/browse"|grep "Terminal - All commands" |perl -pe 's/.+(\d+),(\d+).+/$1$2/'|head -n1\` 25`; do curl "http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/$x" ; done >a.txt
-summary: |-
-  Download entire commandlinefu archive to single file

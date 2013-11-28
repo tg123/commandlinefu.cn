@@ -1,8 +1,0 @@
-commandlinefu_id: 11570
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ydip () { w3m -dump "http://www.youdao.com/smartresult-xml/search.s?type=ip&q=$1"; }
-summary: |-
-  Geolocate a given IP address (zh-CN)

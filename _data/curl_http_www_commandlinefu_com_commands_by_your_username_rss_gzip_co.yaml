@@ -1,8 +1,0 @@
-commandlinefu_id: 2958
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://www.commandlinefu.com/commands/by/<your username>/rss|gzip ->commandlinefu-contribs-backup-$(date +%Y-%m-%d-%H.%M.%S).rss.gz
-summary: |-
-  back up your commandlinefu contributed commands

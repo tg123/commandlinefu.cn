@@ -1,8 +1,0 @@
-commandlinefu_id: 3081
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://www.commandlinefu.com/commands/browse|egrep '("Fin.*and"|<div class="command">.*</div>)'|sed 's/<[^<]*>//g'|ruby -rubygems -pe 'require "cgi"; $_=sprintf("\n\n%-100s\n\t#%-20s",CGI.unescapeHTML($_).chomp.strip, gets.lstrip) if $.%2'
-summary: |-
-  Scrape commands from commandline fu's 1st page

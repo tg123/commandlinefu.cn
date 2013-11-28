@@ -1,8 +1,0 @@
-commandlinefu_id: 4747
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export QQ=$(mktemp -d);(cd $QQ; curl -s -O http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/[0-2400:25];for i in $(perl -ne 'print "$1\n" if( /^(\w+\(\))/ )' *|sort -u);do grep -h -m1 -B1 $i *; done)|grep -v '^--' > clf.sh;rm -r $QQ
-summary: |-
-  grab all commandlinefu shell functions into a single file, suitable for sourcing.

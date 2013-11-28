@@ -1,8 +1,0 @@
-commandlinefu_id: 3974
-translator:
-  weibo: ''
-hide: true
-command: |-
-  IFS=$'\n';cl=($(curl -s http://www.commandlinefu.com/commands/matching/external/ZXh0ZXJuYWw=/sort-by-votes/plaintext|sed -n '/^# Get your external IP address$/{n;p}'));c=${cl[$(( $RANDOM % ${#cl[@]} ))]};eval $c;echo "Command used: $c"
-summary: |-
-  Get your external IP address with a random commandlinefu.com command

@@ -1,8 +1,0 @@
-commandlinefu_id: 4845
-translator:
-  weibo: ''
-hide: true
-command: |-
-  username=matthewbauer; curl -s http://www.commandlinefu.com/commands/by/$username/json | tr '{' '\n' | grep -Eo ',"votes":"[0-9\-]+","' | grep -Eo '[0-9\-]+' | tr '\n' '+' | sed 's/+$/\n/' | bc
-summary: |-
-  Get your commandlinefu points (upvotes - downvotes)

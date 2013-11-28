@@ -1,8 +1,0 @@
-commandlinefu_id: 3943
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias whatismyip="wget -q -O - http://whatismyip.com/automation/n09230945.asp"
-summary: |-
-  What is my ip?

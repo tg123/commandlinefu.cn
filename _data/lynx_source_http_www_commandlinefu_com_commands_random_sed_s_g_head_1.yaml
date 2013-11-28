@@ -1,8 +1,0 @@
-commandlinefu_id: 2337
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -source http://www.commandlinefu.com/commands/random | sed 's/<[^>]*>//g' |  head -1037 | tail -10 | sed -e 's/^[ \t]*//' | sed '/^$/d' | head -2
-summary: |-
-  print random commandlinefu.com submission

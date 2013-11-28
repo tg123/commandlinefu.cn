@@ -1,8 +1,0 @@
-commandlinefu_id: 2281
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i mymovie.mpg -ar 22050 -acodec libmp3lame -ab 32K -r 25 -s 320x240 -vcodec flv mytarget.flv
-summary: |-
-  Create a video that is supported by youtube

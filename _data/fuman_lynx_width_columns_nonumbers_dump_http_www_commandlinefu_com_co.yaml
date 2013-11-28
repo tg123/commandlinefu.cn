@@ -1,8 +1,0 @@
-commandlinefu_id: 258
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuman(){ lynx -width=$COLUMNS -nonumbers -dump "http://www.commandlinefu.com/commands/using/$1" |sed '/Add to favourites/,/This is sample output/!d' |sed 's/ *Add to favourites/----/' |less -r; }
-summary: |-
-  fuman, an alternative to the 'man' command that shows commandlinefu.com examples

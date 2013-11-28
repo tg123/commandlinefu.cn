@@ -1,8 +1,0 @@
-commandlinefu_id: 12676
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sh -c 'url="http://youtu.be/MejbOFk7H6c"; vid="`for i in ".*youtu\.be/\([^\/&?#]\+\)" ".*youtu.\+v[=/]\([^\/&?#]\+\)" ".*youtu.\+embed/\([^\/&?#]\+\)"; do expr "${url}" : "${i}"; done`"; if [ -n "${vid}" ]; then echo ${vid}; else echo "${url}"; fi'
-summary: |-
-  Parse YouTube url (get youtube video id)

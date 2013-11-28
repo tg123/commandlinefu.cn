@@ -1,8 +1,0 @@
-commandlinefu_id: 6320
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -sL 'www.commandlinefu.com/commands/random' | awk -F'</?[^>]+>' '/"command"/{print $2}'
-summary: |-
-  command line fu roulette

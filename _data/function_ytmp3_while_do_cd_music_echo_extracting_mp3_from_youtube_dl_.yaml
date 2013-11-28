@@ -1,8 +1,0 @@
-commandlinefu_id: 12586
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ytmp3() { while (($#)); do (cd ~/Music; echo "Extracting mp3 from $(youtube-dl -e $1)"; /usr/bin/youtube-dl -q -t --extract-audio --audio-format mp3 $1); shift; done ; }
-summary: |-
-  Converts multiple youtube links to mp3 files

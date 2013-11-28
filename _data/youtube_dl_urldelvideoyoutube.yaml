@@ -1,8 +1,0 @@
-commandlinefu_id: 12215
-translator:
-  weibo: ''
-hide: true
-command: |-
-  youtube-dl urldelvideoyoutube
-summary: |-
-  Descargar video desde youtube en linux

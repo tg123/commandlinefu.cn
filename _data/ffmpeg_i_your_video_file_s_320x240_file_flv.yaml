@@ -1,8 +1,0 @@
-commandlinefu_id: 4333
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i Your_video_file -s 320x240 FILE.flv
-summary: |-
-  convert video format to youtube flv format

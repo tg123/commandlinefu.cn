@@ -1,8 +1,0 @@
-commandlinefu_id: 5877
-translator:
-  weibo: ''
-hide: true
-command: |-
-  google youtube post --title "My\ Video" --category Education ~/myvideo.avi
-summary: |-
-  Upload a video to youtube

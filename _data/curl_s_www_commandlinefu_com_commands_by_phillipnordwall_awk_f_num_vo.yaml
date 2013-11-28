@@ -1,8 +1,0 @@
-commandlinefu_id: 7515
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s www.commandlinefu.com/commands/by/PhillipNordwall | awk -F\> '/num-votes/{S+=$2; I++}END{print S/I}'
-summary: |-
-  Find a CommandlineFu users average command rating

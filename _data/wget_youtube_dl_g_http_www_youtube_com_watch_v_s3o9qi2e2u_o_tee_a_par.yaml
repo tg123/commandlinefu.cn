@@ -1,8 +1,0 @@
-commandlinefu_id: 6914
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget `youtube-dl -g 'http://www.youtube.com/watch?v=-S3O9qi2E2U'` -O - | tee -a parachute-ending.flv | mplayer -cache 8192 -
-summary: |-
-  Stream and save Youtube video

@@ -1,8 +1,0 @@
-commandlinefu_id: 6973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i in.mkv -acodec libfaac -ab 128k -ac 2 -vcodec libx264 -vpre max -crf 22 -threads 0 out.mp4
-summary: |-
-  Encode a hq video +10mb/min to an 1mb/min suitable for youtube

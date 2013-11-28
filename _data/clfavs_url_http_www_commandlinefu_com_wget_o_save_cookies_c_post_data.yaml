@@ -1,8 +1,0 @@
-commandlinefu_id: 3681
-translator:
-  weibo: ''
-hide: true
-command: |-
-  clfavs(){ URL="http://www.commandlinefu.com";wget -O - --save-cookies c --post-data "username=$1&password=$2&submit=Let+me+in" $URL/users/signin;for i in `seq 0 25 $3`;do wget -O - --load-cookies c $URL/commands/favourites/plaintext/$i >>$4;done;rm -f c;}
-summary: |-
-  backup all your commandlinefu.com favourites to a plaintext file

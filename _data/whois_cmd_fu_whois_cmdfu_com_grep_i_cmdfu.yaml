@@ -1,8 +1,0 @@
-commandlinefu_id: 1015
-translator:
-  weibo: ''
-hide: true
-command: |-
-  whois cmd.fu;whois cmdfu.com|grep -i cmdfu
-summary: |-
-  check if commandlinefu.com got a better domain

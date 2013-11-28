@@ -1,8 +1,0 @@
-commandlinefu_id: 4992
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 's+href="\([^"]*\)"+\n\1\n+g' bookmarks.html | grep '^http' |clive
-summary: |-
-  Parse bookmarks and download youtube files

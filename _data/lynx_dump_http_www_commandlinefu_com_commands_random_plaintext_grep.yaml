@@ -1,8 +1,0 @@
-commandlinefu_id: 7224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --dump http://www.commandlinefu.com/commands/random/plaintext | grep .
-summary: |-
-  Retrieve a random command from the commandlinefu.com API

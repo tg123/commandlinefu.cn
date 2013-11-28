@@ -1,8 +1,0 @@
-commandlinefu_id: 7939
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ds { echo -n "search : "; read ST; EST=`php -r "echo rawurlencode('$ST');"`; B64=`echo -n $ST| openssl enc -base64`; curl -s "http://www.commandlinefu.com/commands/matching/$EST/$B64/plaintext" | less -p "$ST"; } ; bind '"\C-k"':"\"ds\C-m\""
-summary: |-
-  Key binding to search commandlinefu.com

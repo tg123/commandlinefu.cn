@@ -1,8 +1,0 @@
-commandlinefu_id: 2740
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in `jot - 0 2400 25`; do curl "http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/$x"  ; done > commandlinefu.txt
-summary: |-
-  Get all these commands in a text file with description.

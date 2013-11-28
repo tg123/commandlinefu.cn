@@ -1,8 +1,0 @@
-commandlinefu_id: 2461
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :!start c:\progra~1\Opera\opera.exe http://www.commandlinefu.com
-summary: |-
-  open an url with opera webbrowser from vim

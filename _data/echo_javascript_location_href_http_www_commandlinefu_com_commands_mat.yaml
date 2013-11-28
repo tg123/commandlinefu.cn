@@ -1,8 +1,0 @@
-commandlinefu_id: 8038
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "javascript:location.href='http://www.commandlinefu.com/commands/matching/'+encodeURIComponent('%s')+'/'+btoa('%s')+'/sort-by-votes'"
-summary: |-
-  bookmarklet for commandlinefu.com search

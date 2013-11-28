@@ -1,8 +1,0 @@
-commandlinefu_id: 3643
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do curl -s http://www.commandlinefu.com/commands/view/3643/log-a-commands-votes | grep 'id="num-votes-' | sed 's;.*id="num-votes-[0-9]*">\([0-9\-]*\)</div>;\1;' >> votes; sleep 10; done
-summary: |-
-  Log a command's votes

@@ -1,8 +1,0 @@
-commandlinefu_id: 3154
-translator:
-  weibo: ''
-hide: true
-command: |-
-  y=http://www.youtube.com;for i in $(curl -s $f|grep -o "url='$y/watch?v=[^']*'");do d=$(echo $i|sed "s|url\='$y/watch?v=\(.*\)&.*'|\1|");wget -O $d.flv "$y/get_video.php?video_id=$d&t=$(curl -s "$y/watch?v=$d"|sed -n 's/.* "t": "\([^"]*\)",.*/\1/p')";done
-summary: |-
-  Download Youtube Playlist

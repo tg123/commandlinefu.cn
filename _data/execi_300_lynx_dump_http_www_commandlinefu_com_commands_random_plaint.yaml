@@ -1,8 +1,0 @@
-commandlinefu_id: 11620
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ${execi 300 lynx --dump http://www.commandlinefu.com/commands/random/plaintext | grep .}
-summary: |-
-  command for conky. To update a random command for each 300 sec from commandline.com

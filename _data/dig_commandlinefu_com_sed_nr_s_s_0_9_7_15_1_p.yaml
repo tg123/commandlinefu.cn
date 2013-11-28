@@ -1,8 +1,0 @@
-commandlinefu_id: 2927
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig commandlinefu.com | sed -nr 's/^[^;].*?\s([.0-9]{7,15})$/\1/ p'
-summary: |-
-  gets the bare ip(s) of a domain

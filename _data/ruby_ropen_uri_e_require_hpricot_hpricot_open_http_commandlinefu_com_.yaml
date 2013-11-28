@@ -1,8 +1,0 @@
-commandlinefu_id: 788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ruby -ropen-uri -e 'require "hpricot";(Hpricot(open("http://commandlinefu.com"))/".command").each{|c| puts c.to_plain_text}'
-summary: |-
-  Display command lines visible on commandlinefu.com homepage

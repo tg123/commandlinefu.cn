@@ -1,8 +1,0 @@
-commandlinefu_id: 3975
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eval $(curl -s http://www.commandlinefu.com/commands/matching/external/ZXh0ZXJuYWw=/sort-by-votes/plaintext|sed -n '/^# Get your external IP address$/{n;p;q}')
-summary: |-
-  Get your external IP address with the best commandlinefu.com command
