@@ -8,10 +8,19 @@ fi
 
 DATADIR="$BASEDIR/../_data"
 
-a=(`grep "hide: true" $DATADIR -rl`)
+#a=(`grep "hide: true" $DATADIR -rl`)
+a=(`ls $DATADIR`)
 
 total=${#a[@]}
 
 c=$((RANDOM%total))
 
-$EDITOR ${a[c]}
+while true; do
+    target=${a[c]}
+    if [ -n `grep "hide: true" $target` ];then
+        $EDITOR $DATADIR/$target
+        break
+    fi
+    c=$((c+1))
+    c=$((c%total))
+done
