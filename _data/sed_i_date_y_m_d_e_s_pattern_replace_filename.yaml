@@ -1,8 +1,7 @@
 commandlinefu_id: 174
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   sed -i.`date +%Y%m%d` -e 's/pattern/replace' [filename]
 summary: |-
-  In-Place search/replace with datestamped backup
+  就地查找/替换后备日期戳

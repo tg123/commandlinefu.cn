@@ -1,8 +1,7 @@
 commandlinefu_id: 4098
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
-  awk '{print $1}' "/proc/modules" | xargs modinfo | awk '/^(filename|desc|depends)/'
+  awk '{print $1}' "/proc/modules" | xargs sudo modinfo | awk '/^(filename|desc|depends)/'
 summary: |-
-  Short Information about loaded kernel modules
+  简短的已加载的kernel模块信息

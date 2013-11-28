@@ -1,8 +1,7 @@
 commandlinefu_id: 5588
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   (for i in `find . -maxdepth 2 -name .svn | sed 's/.svn$//'`; do echo $i; svn info $i; done ) | egrep '^.\/|^URL'
 summary: |-
-  If you have lots of svn working copies in one dir and want to see in which repositories they are stored, this will do the trick.
+  如果你在一个文件夹中有很多个svn拷贝，这条命令可以看到它们存放在哪个仓库中

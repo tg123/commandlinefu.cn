@@ -1,8 +1,7 @@
 commandlinefu_id: 11929
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   dtruss [ -p <pid> | -n <pname> ]
 summary: |-
-  strace alternative for Mac OS X
+  Mac OS X中替代strace的命令

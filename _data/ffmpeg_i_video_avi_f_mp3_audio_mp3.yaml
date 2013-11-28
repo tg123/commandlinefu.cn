@@ -1,8 +1,7 @@
 commandlinefu_id: 1033
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   ffmpeg -i video.avi -f mp3 audio.mp3
 summary: |-
-  Extract audio from a video
+  提取视频中的声音

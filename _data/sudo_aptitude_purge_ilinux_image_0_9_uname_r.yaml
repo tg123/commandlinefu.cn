@@ -1,8 +1,7 @@
 commandlinefu_id: 8177
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   sudo aptitude purge ~ilinux-image-\[0-9\]\(\!`uname -r`\)
 summary: |-
-  Safely remove old unused kernels in Ubuntu/Debian
+  Debian系:安全移除不再使用的kernel
