@@ -1,8 +1,7 @@
 commandlinefu_id: 829
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   sed '/./,$!d'
 summary: |-
-  remove leading blank lines
+  移除开始的空行

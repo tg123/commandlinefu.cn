@@ -1,8 +1,7 @@
 commandlinefu_id: 12783
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   find .git/objects -type f -printf "%P\n" | sed s,/,, | while read object; do echo "=== $obj $(git cat-file -t $object) ==="; git cat-file -p $object; done
 summary: |-
-  Print out the contents of a Git repository (useful for broken repositories)
+  打印一个Git仓库的内容(对于损坏的仓库有用)

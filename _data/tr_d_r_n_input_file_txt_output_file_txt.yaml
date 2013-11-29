@@ -1,8 +1,7 @@
 commandlinefu_id: 3901
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   tr -d '\r\n' < input_file.txt > output_file.txt
 summary: |-
-  Remove CR LF from a text file
+  从一个文本文件移除回车(CR)换行(LF)符

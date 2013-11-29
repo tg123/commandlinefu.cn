@@ -1,8 +1,7 @@
 commandlinefu_id: 3397
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   echo src::${PATH} | awk 'BEGIN{pwd=ENVIRON["PWD"];RS=":";FS="\n"}!$1{$1=pwd}$1!~/^\//{$1=pwd"/"$1}{print $1}'
 summary: |-
-  Show directories in the PATH, one per line
+  一行显示PATH变量里的文件夹
