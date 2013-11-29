@@ -1,0 +1,8 @@
+commandlinefu_id: 12955
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh HOST cat REMOTE_FILE.mp4 | tee LOCAL_FILE.mp4 | mplayer -
+summary: |-
+  Stream and copy a video from lan

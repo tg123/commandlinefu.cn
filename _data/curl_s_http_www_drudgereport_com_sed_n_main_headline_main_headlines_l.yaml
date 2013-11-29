@@ -1,0 +1,8 @@
+commandlinefu_id: 12950
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://www.drudgereport.com | sed -n '/<! MAIN HEADLINE>/,/<!-- Main headlines links END --->/p' | grep -oP "(?<=>)[^<].*[^>](?=<)"
+summary: |-
+  Show's the main headline from drudgereport.com

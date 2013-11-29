@@ -1,0 +1,8 @@
+commandlinefu_id: 12954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc HOST PORT | tee movie.mp4 | mplayer -
+summary: |-
+  Stream and copy a video from lan

@@ -1,0 +1,8 @@
+commandlinefu_id: 12951
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function hgr() { grep --color -i "${1}" ~/.bash_history | sed -e 's/^ *//g' -e 's/ *$//g' | sort | uniq; }
+summary: |-
+  Search history, return unique results

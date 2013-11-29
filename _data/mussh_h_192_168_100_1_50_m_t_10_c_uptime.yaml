@@ -1,0 +1,8 @@
+commandlinefu_id: 12953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mussh -h 192.168.100.{1..50} -m -t 10 -c uptime
+summary: |-
+  for ssh uptime
