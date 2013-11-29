@@ -1,8 +1,7 @@
 commandlinefu_id: 2417
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   man ls | col -b > ~/Desktop/man_ls.txt
 summary: |-
-  Convert "man page" to text file
+  ls命令帮助文档，过滤掉控制字符后写入制定文件中 

@@ -1,8 +1,7 @@
 commandlinefu_id: 9584
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   lsof -Pnl +M -i4
 summary: |-
-  List open IPv4 connections
+  显示所有ipv4协议的网络链接

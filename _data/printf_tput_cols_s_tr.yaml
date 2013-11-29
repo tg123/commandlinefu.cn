@@ -1,8 +1,7 @@
 commandlinefu_id: 5282
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   printf "%`tput cols`s"|tr ' ' '#'
 summary: |-
-  Print a row of characters across the terminal
+  命令行中显示一行# 

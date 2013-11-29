@@ -1,8 +1,7 @@
 commandlinefu_id: 8009
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   egrep '__NR_' /usr/include/asm/unistd_`getconf -a | awk '$1~/^WORD/{print $2}'`.h | sed -e 's/^#define __NR_//' | column -t
 summary: |-
-  List of syscalls (for 32/64 bits systems)
+   列举32或者64未系统下的系统调用 

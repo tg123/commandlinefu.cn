@@ -1,8 +1,7 @@
 commandlinefu_id: 10483
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   cat > file_name
 summary: |-
-  Copy paste contents quickly and save as a file
+   将显示出来的信息写入文件中 

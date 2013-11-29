@@ -1,8 +1,7 @@
 commandlinefu_id: 9566
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   calc() { echo "scale=4; ${*//,/.}" | bc -l; }
 summary: |-
-  Command line calculator
+  命令行计算器 
