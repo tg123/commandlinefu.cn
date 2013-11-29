@@ -1,8 +1,7 @@
 commandlinefu_id: 12022
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   while (true); do date --utc; done | uniq -c
 summary: |-
-  fork performance test
+  while判断，检验分支性能 
