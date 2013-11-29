@@ -1,8 +1,7 @@
 commandlinefu_id: 4505
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   ruby -e 'puts "-" * 50'
 summary: |-
-  Print a row of 50 hyphens
+  打印一行50个连字符 

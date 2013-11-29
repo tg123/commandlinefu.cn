@@ -1,8 +1,7 @@
 commandlinefu_id: 2173
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   clfu-seach <search words>
 summary: |-
-  Search for commands from the command line
+  在命令行中寻找命令 
