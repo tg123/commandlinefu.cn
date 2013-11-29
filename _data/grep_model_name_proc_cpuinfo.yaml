@@ -1,8 +1,7 @@
 commandlinefu_id: 3984
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   grep "model name" /proc/cpuinfo
 summary: |-
-  List the CPU model name
+  显示 CPU model name

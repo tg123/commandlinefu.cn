@@ -1,8 +1,7 @@
 commandlinefu_id: 12058
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   find -type f | xargs ls -1tr
 summary: |-
-  Find files and list them sorted by modification time
+  寻找文件并且按照修改时间排序 

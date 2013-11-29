@@ -1,8 +1,7 @@
 commandlinefu_id: 2778
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   man -P cat ls > man_ls.txt
 summary: |-
-  save a manpage to plaintext file
+  将ls命令的参考说明存入纯文本文件中 

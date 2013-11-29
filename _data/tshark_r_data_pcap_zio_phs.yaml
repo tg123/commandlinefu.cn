@@ -1,8 +1,7 @@
 commandlinefu_id: 9446
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   tshark -r data.pcap -zio,phs
 summary: |-
-  Extract infomation form pcap
+  tshark分析data.pcap文件 
