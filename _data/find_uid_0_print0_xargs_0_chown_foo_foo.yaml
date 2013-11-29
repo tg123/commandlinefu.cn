@@ -1,8 +1,7 @@
 commandlinefu_id: 2306
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -uid 0 -print0 | xargs -0 chown foo:foo
 summary: |-
-  change ownership en masse of files owned by a specific user, including files and directories with spaces
+  查找并修改所有人

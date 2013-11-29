@@ -1,8 +1,7 @@
 commandlinefu_id: 1073
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   if [[ `:$(cal);echo $_` == `date +%d` ]]; then ROTATE_MONTHLY_TABLES_SCRIPT;fi
 summary: |-
-  Run a command if today is the last day of the month
+  只有月末运行

@@ -1,8 +1,7 @@
 commandlinefu_id: 3242
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while read server; do ssh -n user@$server "command"; done < servers.txt
 summary: |-
-  How to run a command on a list of remote servers read from a file
+  如何让远程服务器运行一组命令

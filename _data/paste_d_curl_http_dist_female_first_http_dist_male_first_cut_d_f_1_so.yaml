@@ -1,8 +1,0 @@
-commandlinefu_id: 4625
-translator:
-  weibo: ''
-hide: true
-command: |-
-  paste -d "." <(curl http://.../dist.female.first http://.../dist.male.first | cut -d " " -f 1 | sort -uR) <(curl http://..../dist.all.last | cut -d " " -f 1 | sort -R | head -5163) | tr "[:upper:]" "[:lower:]" | sed 's/$/@test.domain/g'
-summary: |-
-  Create unique email addresses directly from the US census site*Full command in comments

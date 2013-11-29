@@ -1,8 +1,0 @@
-commandlinefu_id: 700
-translator:
-  weibo: ''
-hide: true
-command: |-
-  explorer /select,[file]
-summary: |-
-  Launch an Explorer window with a file selected
