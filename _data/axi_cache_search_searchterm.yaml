@@ -1,8 +1,7 @@
 commandlinefu_id: 5992
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   axi-cache search <searchterm>
 summary: |-
-  A better 'apt-cache' using Xapian to rank results
+  一个更好的'apt-cache'命令，使用Xapian搜索引擎排序结果

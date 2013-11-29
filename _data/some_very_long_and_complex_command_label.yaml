@@ -1,8 +1,7 @@
 commandlinefu_id: 3384
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   some_very_long_and_complex_command # label
 summary: |-
-  Easy and fast access to often executed commands that are very long and complex.
+  简单快速的访问经常使用的命令.#后面作为注释，可以通过ctrl+r搜索到这个命令

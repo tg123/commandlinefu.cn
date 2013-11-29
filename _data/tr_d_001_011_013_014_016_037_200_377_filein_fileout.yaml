@@ -1,8 +1,7 @@
 commandlinefu_id: 11557
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   tr -d '\001'-'\011''\013''\014''\016'-'\037''\200'-'\377' < filein > fileout
 summary: |-
-  Delete all non-printing characters from a file
+  从一个文件中删除所有不可打印字符

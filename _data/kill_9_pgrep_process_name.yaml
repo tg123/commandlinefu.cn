@@ -1,8 +1,7 @@
 commandlinefu_id: 5875
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   kill -9 `pgrep $PROCESS_NAME`
 summary: |-
-  Kill a process by application
+  按应用名字kill进程(pkill)

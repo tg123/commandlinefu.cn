@@ -1,8 +1,7 @@
 commandlinefu_id: 4024
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   telnet fics.freechess.org 5000
 summary: |-
-  Telnet to Free Internet Chess Server
+  Telnet到一个免费的互联网国际象棋服务器

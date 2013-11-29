@@ -1,8 +1,7 @@
 commandlinefu_id: 60
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   which somecommand
 summary: |-
-  locate a command
+  定位一条命令

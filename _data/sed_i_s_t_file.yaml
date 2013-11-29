@@ -1,8 +1,7 @@
 commandlinefu_id: 6173
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   sed -i 's/[ \t]*$//' file
 summary: |-
-  Remove space and/or tab characters at the end of line
+  移除行尾的空格和制表符
