@@ -1,8 +1,7 @@
 commandlinefu_id: 9379
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat ~/.ssh/id_rsa.pub | ssh <REMOTE> "(cat > tmp.pubkey ; mkdir -p .ssh ; touch .ssh/authorized_keys ; sed -i.bak -e '/$(awk '{print $NF}' ~/.ssh/id_rsa.pub)/d' .ssh/authorized_keys;  cat tmp.pubkey >> .ssh/authorized_keys; rm tmp.pubkey)"
 summary: |-
-  Copy your ssh public key to a server from a machine that doesn't have ssh-copy-id
+  一个ssh-copy-id的脚本版本

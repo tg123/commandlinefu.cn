@@ -1,8 +1,0 @@
-commandlinefu_id: 12243
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -u user:pass -d status=?I am Tweeting from the shell? http://twitter.com/statuses/update.xml
-summary: |-
-  Update Twitter From the Linux Command Line

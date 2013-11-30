@@ -1,8 +1,0 @@
-commandlinefu_id: 712
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://search.twitter.com/trends.json -O - --quiet | ruby -rubygems -e 'require "json";require "yaml"; puts YAML.dump(JSON.parse($stdin.gets))'
-summary: |-
-  Print trending topics on Twitter

@@ -1,8 +1,0 @@
-commandlinefu_id: 9842
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ lynx -useragent=Opera -dump 'http://www.facebook.com/ajax/typeahead_friends.php?u=100003119823986&__a=1' |gawk -F'\"t\":\"' -v RS='\",' 'RT{print $NF}' |grep -v '\"n\":\"' |cut -d, -f2
-summary: |-
-  frnd

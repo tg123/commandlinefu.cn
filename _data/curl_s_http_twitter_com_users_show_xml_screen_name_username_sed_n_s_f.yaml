@@ -1,8 +1,0 @@
-commandlinefu_id: 6826
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://twitter.com/users/show.xml?screen_name=username | sed -n 's/\<followers_count\>//p' | sed 's/<[^>]*>//g;/</N;//b'
-summary: |-
-  show how many twitter followers a user has

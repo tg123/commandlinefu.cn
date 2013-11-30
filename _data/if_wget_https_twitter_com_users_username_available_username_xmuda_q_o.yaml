@@ -1,8 +1,0 @@
-commandlinefu_id: 12079
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if wget https://twitter.com/users/username_available?username=xmuda -q -O - | grep -q "\"reason\":\"taken\""; then echo "Username taken"; else echo "Free / Banned Name"; fi
-summary: |-
-  Twitter Account Validator

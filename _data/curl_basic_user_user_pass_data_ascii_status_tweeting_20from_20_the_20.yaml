@@ -1,8 +1,0 @@
-commandlinefu_id: 39
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl --basic --user "user:pass" --data-ascii "status=tweeting%20from%20%the%20linux%20command%20line" http://twitter.com/statuses/update.json
-summary: |-
-  send tweets to twitter (and get user details)

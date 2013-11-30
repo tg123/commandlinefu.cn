@@ -1,8 +1,0 @@
-commandlinefu_id: 6823
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn co http://simile.mit.edu/repository/crowbar/trunk&& cd ./trunk/xulapp/ xulrunner --install-app &&  Xvfb :1 && DISPLAY=:1 xulrunner application.ini 2>/dev/null 1>/dev/null && wget -O- "127.0.0.1:10000/&url=http://www.facebook.com"
-summary: |-
-  Gecko-rendered javascript without a GUI

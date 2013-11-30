@@ -1,8 +1,0 @@
-commandlinefu_id: 4403
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s search.twitter.com | awk -F'</?[^>]+>' '/\/intra\/trend\//{print $2}'
-summary: |-
-  Print trending topics on Twitter

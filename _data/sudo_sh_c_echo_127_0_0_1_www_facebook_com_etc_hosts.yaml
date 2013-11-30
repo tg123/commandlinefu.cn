@@ -1,8 +1,0 @@
-commandlinefu_id: 10051
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo sh -c "echo '127.0.0.1 www.facebook.com' >> /etc/hosts"
-summary: |-
-  Stop procrastination on Facebook.com

@@ -1,8 +1,0 @@
-commandlinefu_id: 10417
-translator:
-  weibo: ''
-hide: true
-command: |-
-  step2(){ b="GET&https%3A%2F%2Fstream.twitter.com%2F1%2Fstatuses%2Ffilter.json&follow%3D${id}%26oauth_consumer_key%3D${k1}%26oauth_nonce%3D${once}%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D${ts}%26oauth_token%3D${k3}%26oauth_version%3D1.0";}
-summary: |-
-  Create the signature base string required for a Twitter stream feed

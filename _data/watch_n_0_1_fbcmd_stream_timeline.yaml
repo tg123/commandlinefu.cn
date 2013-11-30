@@ -1,8 +1,0 @@
-commandlinefu_id: 12196
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n -0.1 fbcmd stream timeline
-summary: |-
-  stream facebook feed

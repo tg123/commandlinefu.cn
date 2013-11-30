@@ -1,8 +1,0 @@
-commandlinefu_id: 10449
-translator:
-  weibo: ''
-hide: true
-command: |-
-  step1 ; step2 ; step3 ; step4 ; curl -o- --get 'https://stream.twitter.com/1/statuses/filter.json' --header "$oauth_header" --data "follow=$id"
-summary: |-
-  Get a stream feed from a Twitter user

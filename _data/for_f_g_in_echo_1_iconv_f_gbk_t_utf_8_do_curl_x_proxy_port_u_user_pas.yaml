@@ -1,8 +1,0 @@
-commandlinefu_id: 6136
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FOR /f %%g in ('echo %1 ^| iconv -f gbk -t utf-8') DO curl -x proxy:port -u user:pass -d status=%%g -d source="cURL" http://twitter.com/statuses/update.xml
-summary: |-
-  Post to twitter via curl, Windows version

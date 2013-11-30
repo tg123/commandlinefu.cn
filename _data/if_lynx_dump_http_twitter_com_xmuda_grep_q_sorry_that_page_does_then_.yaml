@@ -1,8 +1,0 @@
-commandlinefu_id: 12077
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if lynx --dump http://twitter.com/xmuda | grep -q "Sorry, that page does"; then echo "Dont Exist"; else echo "Exist"; fi
-summary: |-
-  Twitter Account Validator

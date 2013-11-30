@@ -1,8 +1,0 @@
-commandlinefu_id: 5272
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://twitter.com/username | grep 'id="user_' | grep -o '[0-9]*'
-summary: |-
-  Which Twitter user are you?
