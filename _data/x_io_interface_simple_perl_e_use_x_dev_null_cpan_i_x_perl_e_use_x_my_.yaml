@@ -1,8 +1,7 @@
 commandlinefu_id: 4336
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   x=IO::Interface::Simple; perl -e 'use '$x';' &>/dev/null || cpan -i "$x"; perl -e 'use '$x'; my $ip='$x'->new($ARGV[0]); print $ip->address,$/;' <INTERFACE>
 summary: |-
-  Display IP adress of the given interface in a most portable and reliable way. That should works on many platforms.
+  在多个平台显示IP地址 

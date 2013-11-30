@@ -1,8 +1,7 @@
 commandlinefu_id: 8276
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   echo **/* | xargs grep 'hoge'
 summary: |-
-  grep 'hoge' **/*  => Argument list too long
+  输出某个文件中包含hoge的行 

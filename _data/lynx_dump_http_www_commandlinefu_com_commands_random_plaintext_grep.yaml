@@ -1,8 +1,7 @@
 commandlinefu_id: 7224
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   lynx --dump http://www.commandlinefu.com/commands/random/plaintext | grep .
 summary: |-
-  Retrieve a random command from the commandlinefu.com API
+  检索一个随机的命令从commandlinefu.com API 
