@@ -1,8 +1,7 @@
 commandlinefu_id: 6027
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'NR==4'
 summary: |-
-  Print just line 4 from a textfile
+  显示文件中指定行的内容 

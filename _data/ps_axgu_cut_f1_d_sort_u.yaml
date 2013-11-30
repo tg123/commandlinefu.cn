@@ -1,8 +1,7 @@
 commandlinefu_id: 6014
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
-  ps -axgu | cut -f1 -d' ' | sort -u
+  ps -axgu | cut -f1 -d'' | sort -u
 summary: |-
-  Shows users and 'virtual users' on your a unix-type system
+  显示你的UNIX系统下的用户和虚拟用户 

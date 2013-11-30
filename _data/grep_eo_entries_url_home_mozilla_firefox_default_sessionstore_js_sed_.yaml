@@ -1,8 +1,7 @@
 commandlinefu_id: 6475
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   grep -Eo '"entries":\[{"url":"[^"]*"' "$HOME/.mozilla/firefox/*.default/sessionstore.js" | sed 's/^.*:"//; s/"$//'
 summary: |-
-  List last opened tabs in firefox browser
+  在firefox浏览器中打开最近打开的标签 

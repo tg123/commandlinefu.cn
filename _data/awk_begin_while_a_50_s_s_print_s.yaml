@@ -1,8 +1,7 @@
 commandlinefu_id: 4496
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'BEGIN{while (a++<50) s=s "-"; print s}'
 summary: |-
-  Print a row of 50 hyphens
+  打印一行50个连字符 

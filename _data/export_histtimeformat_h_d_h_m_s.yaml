@@ -1,8 +1,7 @@
 commandlinefu_id: 3642
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
-  export HISTTIMEFORMAT="%h/%d-%H:%M:%S "
+  export HISTTIMEFORMAT="%h/%d-%H:%M:%S"
 summary: |-
-  save  date and time for each command in history
+  保存每一个命令的执行时间到历史中 

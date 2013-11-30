@@ -1,8 +1,7 @@
 commandlinefu_id: 7011
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'BEGIN {FS=","} { print $1 " " $2 " " $NF}' foo.txt
 summary: |-
-  AWK: Set Field Separator from command line
+  根据逗号作为分隔符输出文件制定列 

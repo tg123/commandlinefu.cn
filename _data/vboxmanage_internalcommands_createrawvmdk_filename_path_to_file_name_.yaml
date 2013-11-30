@@ -1,8 +1,7 @@
 commandlinefu_id: 9062
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   VBoxManage internalcommands createrawvmdk -filename [path/to/file/name.vmdk] -rawdisk /dev/[block_device]
 summary: |-
-  Boot block devices as virtual devices in Virtual Box
+   在将硬件块用于虚拟box中的虚拟块 

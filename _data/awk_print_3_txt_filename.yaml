@@ -1,8 +1,7 @@
 commandlinefu_id: 1803
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '{print > $3".txt"}' FILENAME
 summary: |-
-  sorting file contents into individual files with awk
+  用awk分类制定内容到制定文件中 

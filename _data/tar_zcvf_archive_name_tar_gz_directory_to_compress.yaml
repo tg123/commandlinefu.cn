@@ -1,8 +1,7 @@
 commandlinefu_id: 12816
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   tar -zcvf archive_name.tar.gz directory_to_compress
 summary: |-
-  Archive and compress a directory using gunzip compression
+  将directory_to_compress打包成archive_name.tar.gz 

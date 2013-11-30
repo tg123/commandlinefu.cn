@@ -1,8 +1,7 @@
 commandlinefu_id: 4175
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '/<link>/{gsub(/.*<link>|<\/link>.*/,"");print "<li><a href=\042"$0"\042> "t"</a>" } /<title>/{gsub(/.*<title>|<\/title>.*/,"");t=$0 }' file
 summary: |-
-  last.fm rss parser
+  last.fm rss解析

@@ -1,8 +1,7 @@
 commandlinefu_id: 3014
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   sed -e :a -e 's/<[^>]*>//g;/</N;//ba' index.html
 summary: |-
-  Regex to remove HTML-Tags from a file
+  用正则表达式删除文件中的html元素 

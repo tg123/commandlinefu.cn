@@ -1,8 +1,7 @@
 commandlinefu_id: 115
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   ps -e | grep SearchStringHere
 summary: |-
-  Search for a running process through grep
+  寻找带有“SearchStringHere”名字的进程 

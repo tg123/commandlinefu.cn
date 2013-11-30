@@ -1,8 +1,7 @@
 commandlinefu_id: 4295
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   curl -s http://sputnick-area.net/ip
 summary: |-
-  Get your public ip
+  显示一个URL的IP地址 

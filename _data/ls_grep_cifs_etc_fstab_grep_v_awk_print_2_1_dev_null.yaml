@@ -5,4 +5,4 @@ hide: true
 command: |-
   ls $(grep cifs /etc/fstab | grep -v ^# |awk ' { print $2 } ') 1>/dev/null
 summary: |-
-  Get a list of the erroring cifs entries in fstab
+  fstab下的错误信息写入/dev/null内 

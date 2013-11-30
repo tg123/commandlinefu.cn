@@ -1,8 +1,7 @@
 commandlinefu_id: 5925
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'BEGIN { ARGV[ARGC++]=ARGV[ARGC-1] } NR!=FNR { if(num==0) num=NR-1; if(FNR<num) {print} else { ORS=""; print } } ' abc1.txt > abc2.txt
 summary: |-
-  Delete the \n character at the end of file
+  删除\n字符在文件的末尾 

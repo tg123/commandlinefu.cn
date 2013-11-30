@@ -1,8 +1,7 @@
 commandlinefu_id: 5606
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '(length>t) {t=length} END {print t}' *.cpp
 summary: |-
-  Length of longest line of code
+  打印出代码中长度最长的那一行 

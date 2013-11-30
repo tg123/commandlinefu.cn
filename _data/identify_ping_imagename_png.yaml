@@ -1,8 +1,7 @@
 commandlinefu_id: 1847
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   identify -ping imageName.png
 summary: |-
-  Use ImageMagick to get an image's properties
+  使用ImageMagick获得图像的特性 

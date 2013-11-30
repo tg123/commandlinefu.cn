@@ -1,8 +1,7 @@
 commandlinefu_id: 2351
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '/match/{print NR}' file
 summary: |-
-  Get line number of all matches in a file
+  获取文件中的所有匹配的行数 

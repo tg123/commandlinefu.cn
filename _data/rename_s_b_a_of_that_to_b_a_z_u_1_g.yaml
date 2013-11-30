@@ -1,8 +1,7 @@
 commandlinefu_id: 6405
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   rename 's/\b((?!(a|of|that|to)\b)[a-z]+)/\u$1/g' *
 summary: |-
-  Title Case Files
+  给文件重命名 

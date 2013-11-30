@@ -1,8 +1,7 @@
 commandlinefu_id: 5793
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   abs_value=-1234; echo ${abs_value#-}
 summary: |-
-  How to get an absolute value
+  如何得到一个绝对值 

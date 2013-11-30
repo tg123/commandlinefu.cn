@@ -1,8 +1,7 @@
 commandlinefu_id: 1450
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   manview() { lynx -dump -accept_all_cookies 'http://www.csuglab.cornell.edu/cgi-bin/adm/man.cgi?section=all&topic='"$1" | less; }
 summary: |-
-  search manpages on the internets
+  在互联网搜索的联机帮助页 

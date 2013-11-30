@@ -1,8 +1,7 @@
 commandlinefu_id: 3971
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   curl -s "http://www.geody.com/geoip.php?ip=$(curl -s icanhazip.com)" | sed '/^IP:/!d;s/<[^>][^>]*>//g'
 summary: |-
-  geoip information
+  物理IP信息 

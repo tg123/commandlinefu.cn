@@ -1,8 +1,7 @@
 commandlinefu_id: 2479
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   multitail /var/log/messages /var/log/apache2/access.log /var/log/mail.info
 summary: |-
-  Watch several log files in a single window
+  在一个单一的窗口看几个日志文件 

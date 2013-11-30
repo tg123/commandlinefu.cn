@@ -1,8 +1,7 @@
 commandlinefu_id: 5311
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '$9 == 404 {print $7}' access_log | uniq -c | sort -rn | head
 summary: |-
-  Find pages returning 404 errors in apache logs
+  输出apache中404的地址 

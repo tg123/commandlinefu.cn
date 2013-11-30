@@ -1,8 +1,7 @@
 commandlinefu_id: 12043
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   sed "s,\x1B\[[0-9;]*[a-zA-Z],,g"
 summary: |-
-  Remove ( color / special / escape / ANSI ) codes, from text, with sed
+  用sed方法删除数字、特殊字符等 

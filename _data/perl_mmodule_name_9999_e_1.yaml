@@ -5,4 +5,4 @@ hide: true
 command: |-
   perl -MModule::Name\ 9999 -e 1
 summary: |-
-  Find out if a module is installed in perl (and what version)
+  查找那些模块安装了Perl（和版本） 

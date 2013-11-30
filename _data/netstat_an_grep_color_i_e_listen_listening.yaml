@@ -1,8 +1,7 @@
 commandlinefu_id: 12046
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   netstat -an | grep --color -i -E 'listen|listening'
 summary: |-
-  Open Port Check
+  打开制定端口的网络链接信息 

@@ -1,8 +1,7 @@
 commandlinefu_id: 8067
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   pkill name
 summary: |-
-  Kill a process by its partial name
+  根据部分名字杀死进程 

@@ -1,8 +1,7 @@
 commandlinefu_id: 6555
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   tar --exclude=".??*" -zcvf ./home_backup_2008.tar.gz  my_home
 summary: |-
-  backup home dir exclude dot files
+  备份制定后缀的文件并且打包到根目录下 

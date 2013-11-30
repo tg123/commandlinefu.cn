@@ -1,8 +1,7 @@
 commandlinefu_id: 3102
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   ps -ef | awk '/process-name/ && !/awk/ {print}'
 summary: |-
-  Search for an active process without catching the search-process
+  输出正在运行的进程，不包含正在搜索的进程本身

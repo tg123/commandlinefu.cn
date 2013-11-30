@@ -1,8 +1,7 @@
 commandlinefu_id: 12305
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   vim -R /etc/passwd
 summary: |-
-  Open a file using vim in read only (like less)
+  用vim打开文件 

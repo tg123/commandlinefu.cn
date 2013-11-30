@@ -1,8 +1,7 @@
 commandlinefu_id: 4903
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
-  awk -F": " '/cpu MHz\ */ { print "Processor (or core) running speed is: " $2 }' /proc/cpuinfo ; dmidecode | awk -F": " '/Current Speed/ { print "Processor real speed is: " $2 }'
+  awk -F": " '/cpu MHz\ */ { print "Processor (or core) running speed is: " $2 }' /proc/cpuinfo ; dmidecode | awk -F": " '/Current Speed/ { print "Processor real speed is:"$2}'
 summary: |-
-  Find the real procesor speed when you use CPU scaling [cpuspeed]
+  CPU真实的运转速度 

@@ -1,8 +1,7 @@
 commandlinefu_id: 9908
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   for file in * .*; do echo $PWD/$file; done
 summary: |-
-  list with full path
+  根据全路径显示 

@@ -1,8 +1,7 @@
 commandlinefu_id: 6520
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   unzip '*.zip'
 summary: |-
-  Unzip multiple files with one command
+  解压zip文件 
