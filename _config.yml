@@ -4,3 +4,5 @@ pygments: true
 paginate: 8
 permalink: '/post/:categories/:title.html'
 exclude: ['tools']
+lunr_search: 
+    excludes: ['sitemap.xml', 'index.html']

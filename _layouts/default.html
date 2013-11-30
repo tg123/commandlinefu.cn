@@ -8,13 +8,30 @@
 
         <link type="text/css" rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.2/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="/css/main.css">
-        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=4269695581" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdn.staticfile.org/lunr.js/0.3.3/lunr.min.js"></script>
+        <script type="text/javascript" src="http://cdn.staticfile.org/mustache.js/0.7.2/mustache.min.js"></script>
+        <script type="text/javascript" src="http://cdn.staticfile.org/URI.js/1.7.2/URI.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.lunr.search.js"></script>
 
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=4269695581" type="text/javascript" charset="utf-8"></script>
     </head>
     <body>
         <div class="navbar navbar-static-top">
             <div class="container">
                 <a class="navbar-brand" href="/" style="color: #F0F0F0; background-color: #6D6D6D;">$ commandlinefu.cn</a>
+                <form class="navbar-form navbar-left" style="width: 366px;">
+                    <div class="input-group" style="visibility: hidden">
+                        <div class="input-group-addon">
+                                <i class="glyphicon glyphicon-search"></i>
+                        </div>
+                        <input id="search-query" type="text" class="form-control " placeholder="grep ..." autocomplete="off" />
+                    </div>
+                    <section id="search-results" style="display: none; position: absolute; width:335px">
+                        <div class="entries">
+                        </div>
+                    </section>
+                </form>
                 <div class="pull-right" style="padding-top:15px; ">
                     <wb:follow-button uid="2674868673" type="red_1" width="67" height="24" ></wb:follow-button>
                 </div>
@@ -24,6 +41,8 @@
         <div class="container">
 
 
+
+
           {{ content }}
 
           <footer>
@@ -31,6 +50,22 @@
           </footer>
         </div>
 
+        {% raw %}
+        <script id="search-results-template" type="text/mustache">
+        <ul class="list-group">
+        {{#entries}}
+        <li class="list-group-item ellipsis">
+        <a href="{{url}}">{{title}}</a>
+        </li>
+        {{/entries}}
+        </ul>
+        </script>
+
+        {% endraw %}
+
+        <script type="text/javascript">
+        $(function() { $('#search-query').lunrSearch(); });
+        </script>
 
         <a href="https://github.com/tg123/commandlinefu.cn"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
         <script>

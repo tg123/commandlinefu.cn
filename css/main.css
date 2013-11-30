@@ -12,3 +12,9 @@ code {
 word-wrap: break-word;
 white-space: normal;
 }
+
+.ellipsis {
+text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+}
