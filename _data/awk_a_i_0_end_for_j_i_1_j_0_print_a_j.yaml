@@ -1,8 +1,7 @@
 commandlinefu_id: 9555
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '{a[i++]=$0} END {for (j=i-1; j>=0;) print a[j--] }'
 summary: |-
-  reverse order of file
+  将文件中的内容倒序输出 

@@ -1,8 +1,7 @@
 commandlinefu_id: 8698
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'END {print NR}' /etc/passwd
 summary: |-
-  How many lines does  the passwd file have?
+  passwd文件中一共有多少行 

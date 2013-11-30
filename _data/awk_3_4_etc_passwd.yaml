@@ -1,8 +1,7 @@
 commandlinefu_id: 9284
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '$3==$4' /etc/passwd
 summary: |-
-  Print all lines from a file that has the same N th and M th column
+  输出/etc/passwd文件下的，第三列和第四列相同的行 

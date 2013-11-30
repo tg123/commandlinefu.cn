@@ -1,8 +1,7 @@
 commandlinefu_id: 4376
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk -F":" '{ print $1 }' /etc/passwd | while read UU ; do STATUS=$(passwd -S ${UU} | grep locked 2>/dev/null) ; if [[ ! -z ${STATUS} ]] ; then echo "Account ${UU} is locked." ; fi ; done
 summary: |-
-  Sometimes you just want a quick way to find out if a certain user account is locked [Linux].
+  查找某些特定帐户是否被锁住 

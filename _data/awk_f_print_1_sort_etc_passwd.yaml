@@ -1,8 +1,7 @@
 commandlinefu_id: 9929
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk -F ':' '{print $1 | "sort";}' /etc/passwd
 summary: |-
-  Lists all usernames in alphabetical order
+  按照顺序列出所有/etc/passwd下第一列的内容 

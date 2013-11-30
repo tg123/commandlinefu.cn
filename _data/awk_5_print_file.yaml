@@ -1,8 +1,7 @@
 commandlinefu_id: 6872
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '{ $5=""; print }' file
 summary: |-
-  exclude a column with awk
+  从文件中输出第五列等于固定值的行 

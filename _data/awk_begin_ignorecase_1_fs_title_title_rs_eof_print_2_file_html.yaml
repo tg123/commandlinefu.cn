@@ -1,8 +1,7 @@
 commandlinefu_id: 5413
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'BEGIN{IGNORECASE=1;FS="<title>|</title>";RS=EOF} {print $2}' file.html
 summary: |-
-  Extract title from HTML files
+  获取html文件中title名字 

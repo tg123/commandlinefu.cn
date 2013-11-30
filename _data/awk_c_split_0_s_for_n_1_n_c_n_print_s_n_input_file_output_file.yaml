@@ -1,8 +1,7 @@
 commandlinefu_id: 2569
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '{c=split($0, s); for(n=1; n<=c; ++n) print s[n] }' INPUT_FILE > OUTPUT_FILE
 summary: |-
-  Puts every word from a file into a new line
+  将文件中的每一行输出到另外一个文件 

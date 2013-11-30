@@ -1,8 +1,7 @@
 commandlinefu_id: 1253
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'BEGIN {FS=","} {loc = $4, val=$5; getline < "f0001ch1.csv"; print loc,val,$5}' f0001ch2.csv > data
 summary: |-
-  Parse tektronic csv files
+  解析tektronic csv后缀的文件 

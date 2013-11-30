@@ -1,8 +1,7 @@
 commandlinefu_id: 9661
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '( $1 == "MemTotal:" ) { print $2/1048576 }' /proc/meminfo
 summary: |-
-  Get memory total from /proc/meminfo in Gigs
+  获得内从总数 

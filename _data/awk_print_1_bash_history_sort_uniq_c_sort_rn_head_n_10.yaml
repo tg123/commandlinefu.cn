@@ -1,8 +1,7 @@
 commandlinefu_id: 12265
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '{print $1}' ~/.bash_history | sort | uniq -c | sort -rn | head -n 10
 summary: |-
-  most used unix commands
+  显示已经使用过次数最多的命令，top10 

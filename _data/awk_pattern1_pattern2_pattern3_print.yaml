@@ -1,8 +1,7 @@
 commandlinefu_id: 108
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '/pattern1/ && /pattern2/ && !/pattern3/ {print}'
 summary: |-
-  pattern match in awk - no grep
+  用awk模拟grep类似的功能，模式匹配 

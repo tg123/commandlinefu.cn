@@ -1,8 +1,7 @@
 commandlinefu_id: 3428
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'length>72' file
 summary: |-
-  Identify long lines in a file
+  列出长度长于72的行 

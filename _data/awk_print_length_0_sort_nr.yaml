@@ -1,8 +1,7 @@
 commandlinefu_id: 3724
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk '{print length, $0;}' | sort -nr
 summary: |-
-  sort lines by length
+  按照行长度排序 

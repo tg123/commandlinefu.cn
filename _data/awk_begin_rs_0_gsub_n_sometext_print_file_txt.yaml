@@ -1,8 +1,7 @@
 commandlinefu_id: 7276
 translator:
-  weibo: ''
-hide: true
+  weibo: titikaka723 
 command: |-
   awk 'BEGIN{RS="\0"}{gsub(/\n/,"<SOMETEXT>");print}' file.txt
 summary: |-
-  Join lines
+  连接所有行 
