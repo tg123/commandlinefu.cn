@@ -61,6 +61,9 @@ jekyll build
 
 在本地构建你的网站
 
+### 依赖的插件
+ * [Sitemap.xml Generator by Michael Levin](https://github.com/kinnetica/jekyll-plugins)
+ * [Jekyll + lunr.js by Ben Smith](https://github.com/slashdotdash/jekyll-lunr-js-search)
 
 关于使用commandlinefu.com内容
 -----------------------------
