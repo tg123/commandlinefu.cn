@@ -8,6 +8,10 @@ fi
 
 DATADIR="$BASEDIR/../_data"
 
+if [ -z "$EDITOR" ]; then
+EDITOR='/usr/bin/editor'
+fi
+
 #a=(`grep "hide: true" $DATADIR -rl`)
 a=(`ls $DATADIR`)
 
