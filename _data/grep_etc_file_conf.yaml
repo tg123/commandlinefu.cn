@@ -1,8 +1,7 @@
 commandlinefu_id: 6849
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep ^[^#] /etc/file.conf
 summary: |-
-  Remove comments and empty lines from a conf file
+  清理文件中的注释

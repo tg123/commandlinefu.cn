@@ -1,8 +1,7 @@
 commandlinefu_id: 10749
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -type l | xargs ls -l
 summary: |-
-  List all symlinks and see where they link to
+  查看所有的符号链接的目标

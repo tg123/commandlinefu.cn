@@ -1,8 +1,7 @@
 commandlinefu_id: 2475
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  # cd $partition; dd if=/dev/zero of=ShredUnusedBlocks bs=512M; shred -vzu ShredUnusedBlocks
+  cd $partition; dd if=/dev/zero of=ShredUnusedBlocks bs=512M; shred -vzu ShredUnusedBlocks
 summary: |-
-  securely erase unused blocks in a partition
+  安全清理分区中无用的块

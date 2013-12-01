@@ -1,8 +1,7 @@
 commandlinefu_id: 9752
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   import -window `xwininfo | awk '/Window id/{print $4; exit}'` `uuidgen`.png
 summary: |-
-  capture selected window
+  当前X窗口截图

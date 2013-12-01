@@ -1,8 +1,7 @@
 commandlinefu_id: 11715
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh-keygen -t dsa -b 1024
 summary: |-
-  To generate ssh keypair(public, private) which makes use of dsa as encryption algorithm
+  生成公钥

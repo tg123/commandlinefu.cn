@@ -1,8 +1,0 @@
-commandlinefu_id: 4374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mtx -f /dev/sg13 status | grep EXPORT | cut -c 56-63
-summary: |-
-  Report What Tape is in Autoloader Mailslot (using Barcode Label)

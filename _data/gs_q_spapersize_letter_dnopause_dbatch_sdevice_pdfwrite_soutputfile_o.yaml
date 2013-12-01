@@ -1,8 +1,7 @@
 commandlinefu_id: 1485
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   gs -q -sPAPERSIZE=letter -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=out.pdf `ls *.pdf`
 summary: |-
-  Merge *.pdf files
+  合并pdf
