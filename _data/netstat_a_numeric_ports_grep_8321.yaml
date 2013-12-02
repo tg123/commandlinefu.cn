@@ -1,8 +1,7 @@
 commandlinefu_id: 10079
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -a --numeric-ports | grep 8321
 summary: |-
-  tell if a port is in use
+  检查端口是否被占用

@@ -1,8 +1,0 @@
-commandlinefu_id: 12637
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.flv *.mkv *.avi; do mplayer -ao null -vo null -ss 0 -endpos 1 >/dev/null "$i" 2> >(grep -qi error && echo >&2 "$i seems bad"); done
-summary: |-
-  Detect broken video files with mplayer and bash in the current directory

@@ -1,8 +1,7 @@
 commandlinefu_id: 8270
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mdb-export -H -I -R database.mdb table >table.sql
 summary: |-
-  Export MS Access mdb files to csv
+  导出mdb

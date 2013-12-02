@@ -1,8 +1,7 @@
 commandlinefu_id: 8809
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   comm -12 FILE1.sorted FILE2.sorted > common
 summary: |-
-  Find common lines between two files
+  取两个文件的交集

@@ -1,8 +1,0 @@
-commandlinefu_id: 10308
-translator:
-  weibo: ''
-hide: true
-command: |-
-  r="readlink /proc/`pgrep -o mplayer`/fd/3";while [ -e "`$r`" ];do if [ "$f" = "`$r`" ];then sleep 1;else f="`$r`";notify-send " $f";fi;done
-summary: |-
-  Makes mplayer show file played through libnotify, 140 characters

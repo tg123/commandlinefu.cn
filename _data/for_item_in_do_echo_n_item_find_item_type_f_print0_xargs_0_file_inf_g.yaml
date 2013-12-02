@@ -1,8 +1,0 @@
-commandlinefu_id: 4087
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for item in *;do echo -n "$item - ";find "$item" -type f -print0 | xargs -0 file -iNf - | grep video | cut -d: -f1 | xargs -d'\n' /usr/share/doc/mplayer/examples/midentify | grep ID_LENGTH | awk -F= '{sum+=$2} END {print(sum/60)}'; done | grep -v ' - 0$'
-summary: |-
-  Better "hours of video" summary for each file/dir in the current directory

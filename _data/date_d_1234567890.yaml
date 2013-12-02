@@ -1,8 +1,7 @@
 commandlinefu_id: 3188
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date -d @1234567890
 summary: |-
-  convert unixtime to human-readable
+  读取unix时间

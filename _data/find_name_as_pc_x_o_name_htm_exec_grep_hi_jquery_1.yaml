@@ -1,8 +1,7 @@
 commandlinefu_id: 8835
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . \( -name "*.as[pc]x" -o -name "*.htm*" \) -exec grep -Hi "jquery-1" {} +
 summary: |-
-  Look for jQuery version script include in files *asp*$, *htm*$ ie. not *.aspx.cs
+  检查jQuery的版本

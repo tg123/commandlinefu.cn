@@ -1,8 +1,7 @@
 commandlinefu_id: 9863
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -ad */
 summary: |-
-  ls only directories
+  只显示目录

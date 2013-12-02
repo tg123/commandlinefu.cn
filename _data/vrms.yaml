@@ -1,8 +1,7 @@
 commandlinefu_id: 1970
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vrms
 summary: |-
-  How many Non-free software is on your machine ?
+  看看你装了多少 Non-free 软件

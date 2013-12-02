@@ -1,8 +1,7 @@
 commandlinefu_id: 9500
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -l
 summary: |-
-  Generate a list of installed packages on Debian-based systems
+  列出安装的包

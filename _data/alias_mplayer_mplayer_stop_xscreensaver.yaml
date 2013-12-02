@@ -1,8 +1,0 @@
-commandlinefu_id: 6174
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias mplayer='mplayer -stop-xscreensaver'
-summary: |-
-  Stop your screen saver interrupting your mplayer sessions

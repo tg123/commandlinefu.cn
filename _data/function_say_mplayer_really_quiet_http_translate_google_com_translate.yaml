@@ -1,8 +1,0 @@
-commandlinefu_id: 9914
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function say { mplayer -really-quiet "http://translate.google.com/translate_tts?tl=en&q=$1"; }
-summary: |-
-  Have Google Translate speak to you using your local speakers

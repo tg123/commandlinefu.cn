@@ -1,8 +1,7 @@
 commandlinefu_id: 6019
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fortune | cowsay -f $(ls /usr/share/cowsay/cows/ | shuf -n1)
 summary: |-
-  Have a random "cow" say a random thing
+  让 cow 随机的 say 一下

@@ -1,8 +1,7 @@
 commandlinefu_id: 2732
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{print NR": "$0; for(i=1;i<=NF;++i)print "\t"i": "$i}'
 summary: |-
-  Analyze awk fields
+  分析列

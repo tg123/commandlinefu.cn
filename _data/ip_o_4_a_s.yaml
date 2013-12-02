@@ -1,8 +1,7 @@
 commandlinefu_id: 11298
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip -o -4 a s
 summary: |-
-  Show all configured ipv4
+  显示所有ipv4

@@ -1,8 +1,0 @@
-commandlinefu_id: 240
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - http://myip.dk/ | egrep -m1 -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
-summary: |-
-  Get My Public IP Address

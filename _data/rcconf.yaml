@@ -1,8 +1,7 @@
 commandlinefu_id: 4125
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rcconf
 summary: |-
-  Debian Runlevel configuration tool
+  在Debian配置Runlevel

@@ -1,8 +1,0 @@
-commandlinefu_id: 8046
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - "http://www.google.com/dictionary/json?callback=dict_api.callbacks.id100&q=steering+wheel&sl=en&tl=en&restrict=pr,de&client=te" | sed 's/dict_api\.callbacks.id100.//' | sed 's/,200,null)//'
-summary: |-
-  Google dictionary of word definitions

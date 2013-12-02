@@ -1,8 +1,7 @@
 commandlinefu_id: 12005
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   notify-send -i mail_new 'Mail watcher' 'You have new mail!'
 summary: |-
-  mailwatcher on-new-mail command
+  弹出一个提示框

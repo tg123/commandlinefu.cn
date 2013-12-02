@@ -1,8 +1,0 @@
-commandlinefu_id: 424
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hostinfo.sh
-summary: |-
-  Display the linux host infomation.

@@ -1,8 +1,7 @@
 commandlinefu_id: 9993
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   history -s command
 summary: |-
-  Add command to bash history without executing it
+  无需执行添加到历史记录

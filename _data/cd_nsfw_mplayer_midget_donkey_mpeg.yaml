@@ -1,8 +1,0 @@
-commandlinefu_id: 804
-translator:
-  weibo: ''
-hide: true
-command: |-
-  _cd ~/nsfw; mplayer midget_donkey.mpeg
-summary: |-
-  Do a command but skip recording it in the bash command history

@@ -1,7 +1,0 @@
-commandlinefu_id: 5133
-translator:
-  weibo: '猪了个去'
-command: |-
-  rm -rf /tmp/playlist.tmp &&  find ~/mp3  -name *.mp3 > /tmp/playlist.tmp && mplayer -playlist /tmp/playlist.tmp -shuffle -loop 0 | grep Playing
-summary: |-
-  递归扫描目录中的mp3文件,然后发送给mplayer播放器

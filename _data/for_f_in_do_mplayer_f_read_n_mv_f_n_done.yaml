@@ -1,8 +1,0 @@
-commandlinefu_id: 1416
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *;do mplayer $f;read $n;mv $f $n;done
-summary: |-
-  Simplified video file renaming

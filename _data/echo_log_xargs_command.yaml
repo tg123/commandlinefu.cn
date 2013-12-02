@@ -1,8 +1,7 @@
 commandlinefu_id: 1156
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo *.log | xargs <command>
 summary: |-
-  for too many arguments by *
+  提示 too many arguments 参数过多时候怎么解决

@@ -1,8 +1,0 @@
-commandlinefu_id: 4022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -name '*.avi' | while read i ; do echo $(mplayer -identify -frames 0 -vo null -nosound "$i" 2>&1 | grep ID_LENGTH | cut -d= -f2)" ""$i" ;done | sort -k1 -r -n | sed 's/^\([^\ ]*\)\ \(.*\)$/\2:\1/g'
-summary: |-
-  Sort movies by length, longest first

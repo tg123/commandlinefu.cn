@@ -1,8 +1,0 @@
-commandlinefu_id: 1165
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *.ogg ; do mplayer -quiet -vo null -vc dummy -ao pcm:waveheader:file="$f.wav" "$f"  ; done
-summary: |-
-  batch convert OGG to WAV

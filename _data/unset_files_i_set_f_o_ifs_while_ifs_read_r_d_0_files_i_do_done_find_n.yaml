@@ -1,8 +1,0 @@
-commandlinefu_id: 964
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unset files i; set -f; O=$IFS; while IFS= read -r -d $'\0' files[i++]; do :; done < <(find . -name '*.avi' -print0) && IFS=$O; set +f && echo "Running: mplayer \"${files[ $(( $RANDOM % ${#files[@]} )) ]}\""
-summary: |-
-  Play a random .avi file from a media tree

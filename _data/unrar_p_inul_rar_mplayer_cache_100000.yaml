@@ -1,8 +1,0 @@
-commandlinefu_id: 12741
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unrar p -inul *.rar|mplayer -cache 100000 -
-summary: |-
-  Play Mediafile in multipart RAR archive on the fly with buffer to seek back and forth

@@ -1,8 +1,0 @@
-commandlinefu_id: 9548
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat myfile.mp3 | ssh user@remotemachine "mplayer -cache 8912 -"
-summary: |-
-  Play local mp3 file on remote machine's speakers

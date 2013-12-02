@@ -1,8 +1,0 @@
-commandlinefu_id: 9212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  say() { local IFS=+;mplayer "http://translate.google.com/translate_tts?q=$*"; }
-summary: |-
-  Gets the english pronunciation of a phrase

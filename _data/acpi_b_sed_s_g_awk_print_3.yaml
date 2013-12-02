@@ -1,8 +1,7 @@
 commandlinefu_id: 5819
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   acpi -b | sed 's/,//g' | awk '{print $3}'
 summary: |-
-  Check whether laptop is running on battery or cable
+  检查是否使用电池

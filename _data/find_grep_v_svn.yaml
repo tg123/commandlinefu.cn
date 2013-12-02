@@ -1,8 +1,7 @@
 commandlinefu_id: 7671
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . | grep -v svn
 summary: |-
-  Search through files, ignoring .svn
+  排除.svn的find

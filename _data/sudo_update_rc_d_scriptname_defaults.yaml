@@ -1,8 +1,7 @@
 commandlinefu_id: 9723
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo update-rc.d <scriptname> defaults
 summary: |-
-  Adding a startup script to be run at bootup Ubuntu
+  开机运行

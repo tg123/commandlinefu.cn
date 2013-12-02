@@ -1,8 +1,0 @@
-commandlinefu_id: 641
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://myip.dk | grep '<title>' | sed -e 's/<[^>]*>//g'
-summary: |-
-  display ip address
