@@ -1,5 +1,6 @@
 .container {
     width: 750px;
+    padding: 15px 0px;
 }
 
 .WB_widget, .WB_widget *, .WB_widgets * {
