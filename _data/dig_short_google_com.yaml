@@ -1,8 +1,7 @@
 commandlinefu_id: 6891
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   dig +short google.com
 summary: |-
-  Get IP from hostname
+  获取主机名的IP地址

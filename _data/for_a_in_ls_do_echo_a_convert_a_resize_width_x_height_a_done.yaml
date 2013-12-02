@@ -1,8 +1,7 @@
 commandlinefu_id: 2846
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   for a in `ls`; do echo $a && convert $a -resize <Width>x<Height> $a; done
 summary: |-
-  Batch image resize
+  批量图片调整尺寸

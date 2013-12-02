@@ -1,8 +1,7 @@
 commandlinefu_id: 2335
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   postsuper -d ALL
 summary: |-
-  Remove all mail in Postfix mail queue.
+  从Postfix邮件队列移除所有邮件

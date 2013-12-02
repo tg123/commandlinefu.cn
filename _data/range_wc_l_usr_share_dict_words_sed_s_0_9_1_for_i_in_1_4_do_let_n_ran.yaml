@@ -1,8 +1,7 @@
 commandlinefu_id: 9025
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   RANGE=`wc -l /usr/share/dict/words | sed 's/^\([0-9]*\) .*$/\1/'`; for i in {1..4}; do let "N = $RANDOM % $RANGE"; sed -n -e "${N}p" /usr/share/dict/words | tr -d '\n'; done; RANGE=100; let "N = $RANDOM % $RANGE"; echo $N
 summary: |-
-  creates a xkcd #936-style password
+  创建xkcd #936类型的密码

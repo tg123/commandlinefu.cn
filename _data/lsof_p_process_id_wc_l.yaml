@@ -1,8 +1,7 @@
 commandlinefu_id: 2704
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   lsof -p <process_id> | wc -l
 summary: |-
-  View open file descriptors for a process.
+  查看一个进程打开的文件描述符数量

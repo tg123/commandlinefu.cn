@@ -1,8 +1,7 @@
 commandlinefu_id: 6471
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   mussh -h host1 host2 host3 -c uptime
 summary: |-
-  run command on a group of nodes
+  在一组节点上运行命令

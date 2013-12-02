@@ -1,8 +1,7 @@
 commandlinefu_id: 8116
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   alias rot13="tr a-zA-Z n-za-mN-ZA-M"
 summary: |-
-  ROT13 using the tr command
+  使用tr命令实现ROT13编码

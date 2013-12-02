@@ -1,8 +1,7 @@
 commandlinefu_id: 802
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   find . -name "*.pyc" -exec rm {} \;
 summary: |-
-  Clean all .pyc files from current project. It cleans all the files recursively.
+  从当前项目递归的清除所有的.pyc文件

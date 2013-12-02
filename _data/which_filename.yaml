@@ -1,8 +1,7 @@
 commandlinefu_id: 3461
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   which <filename>
 summary: |-
-  search for a file in PATH
+  搜索PATH下的一个文件

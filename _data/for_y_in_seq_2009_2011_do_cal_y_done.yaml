@@ -1,8 +1,7 @@
 commandlinefu_id: 2617
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   for y in $(seq 2009 2011); do cal $y; done
 summary: |-
-  Printing multiple years with Unix cal command
+  使用Unix cal命令打印多年的日历
