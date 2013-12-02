@@ -52,7 +52,14 @@ index b5d0efe..970e1a8 100644
 实现原理
 --------
 
-网站使用 [jekyll](http://jekyllrb.com/) 构建.
+安装需要的软件 **ruby 需要 > 1.9.2**
+
+```
+gem install jekyll nokogiri json
+```
+
+网站使用 [jekyll](http://jekyllrb.com/) 构建. **需要至少1.3**
+
 可以通过运行
 
 ```
