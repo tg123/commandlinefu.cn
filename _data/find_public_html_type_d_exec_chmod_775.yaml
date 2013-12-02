@@ -1,8 +1,7 @@
 commandlinefu_id: 8887
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   find public_html/ -type d -exec chmod 775 {} \;
 summary: |-
-  Chmod all directories (excluding files)
+  chmod所有的文件夹(排除文件)

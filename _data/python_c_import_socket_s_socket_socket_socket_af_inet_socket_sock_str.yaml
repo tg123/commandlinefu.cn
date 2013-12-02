@@ -1,8 +1,7 @@
 commandlinefu_id: 3782
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   python -c 'import socket;  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM); s.connect(("<hostname>", <port>)); print s.getsockname()[0] ; s.close() ;' 2> /dev/null
 summary: |-
-  retrieve the source address used to contact a given host
+  检索用于连接给定主机的源地址

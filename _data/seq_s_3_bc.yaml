@@ -1,8 +1,7 @@
 commandlinefu_id: 7871
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   seq -s "+" 3 | bc
 summary: |-
-  Calculate sum of N numbers (Thanks to flatcap)
+  计算N个数的和

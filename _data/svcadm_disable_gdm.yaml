@@ -1,8 +1,7 @@
 commandlinefu_id: 2762
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   svcadm disable gdm
 summary: |-
-  Disable graphical login on OpenSolaris
+  OpenSolaris操作系统:禁用图形登录界面

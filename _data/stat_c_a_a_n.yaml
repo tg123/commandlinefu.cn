@@ -1,8 +1,7 @@
 commandlinefu_id: 1873
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
-  stat -c '%A %a %n' *
+  stat -c '%A 0%a %n' *
 summary: |-
-  Nicely display permissions in octal format with filename
+  显示文件的八进制格式权限

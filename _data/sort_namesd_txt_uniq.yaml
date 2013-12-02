@@ -1,8 +1,9 @@
 commandlinefu_id: 10919
 translator:
-  weibo: ''
+  weibo: '猪了个去'
 hide: true
 command: |-
   sort namesd.txt | uniq
 summary: |-
-  Unique sort
+  合并排序的重复项
+
