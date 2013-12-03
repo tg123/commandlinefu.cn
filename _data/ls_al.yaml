@@ -1,8 +1,7 @@
 commandlinefu_id: 4052
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -al
 summary: |-
-  show the last modified date on directory and file
+  ls时候显示所有最后更新修改日期

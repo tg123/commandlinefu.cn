@@ -1,8 +1,7 @@
 commandlinefu_id: 5362
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rpm -qa --qf  "%-10{SIZE} %-30{NAME}\n" | sort -nr | less
 summary: |-
-  Sort installed rpms by decreasing size.
+  按大小排序安装了的rpm

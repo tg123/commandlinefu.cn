@@ -1,8 +1,0 @@
-commandlinefu_id: 2142
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `seq -w 1600` ; do links -dump http://www.robsjokes.com/$i/index.html | sed '/Random Joke/,/Next Joke/!d' | sed '/^$/,/^$/!d' >> ~/temp/Rob.jokes ; echo '%' >> ~/temp/Rob.jokes ; done
-summary: |-
-  fetch 1600 jokes from robsjokes.com into a single file, which is fortunable

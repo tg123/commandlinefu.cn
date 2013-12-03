@@ -1,8 +1,7 @@
 commandlinefu_id: 1431
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -fX <user>@<host> <program>
 summary: |-
-  Run any GUI program remotely
+  远程运行gui程序

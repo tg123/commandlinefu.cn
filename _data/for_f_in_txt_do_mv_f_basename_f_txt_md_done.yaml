@@ -1,8 +1,7 @@
 commandlinefu_id: 7258
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for f in *.txt; do mv $f `basename $f .txt`.md; done;
 summary: |-
-  Batch rename extension of all files in a folder, in the example from .txt to .md
+  批量重命名.txt -> .md

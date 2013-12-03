@@ -1,8 +1,0 @@
-commandlinefu_id: 6464
-translator:
-  weibo: ''
-hide: true
-command: |-
-  a=`curl http://xkcd.com 2>/dev/null | grep -iE 'src=.*imgs.xkcd.com/comics/'`; b=`echo ${a#*src=\"}`; eog ${b%%\"*}
-summary: |-
-  get today's xkcd

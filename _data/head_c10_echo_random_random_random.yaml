@@ -1,8 +1,7 @@
 commandlinefu_id: 3748
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   head -c10 <(echo $RANDOM$RANDOM$RANDOM)
 summary: |-
-  Outputs a 10-digit random number
+  输出一个 10位的随机数

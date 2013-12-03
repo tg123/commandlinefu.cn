@@ -1,8 +1,8 @@
 commandlinefu_id: 12682
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   host example.com | head -1 | awk '{print $4}'
 summary: |-
-  Get IP address from domain
+  获取域名的ip地址
+  

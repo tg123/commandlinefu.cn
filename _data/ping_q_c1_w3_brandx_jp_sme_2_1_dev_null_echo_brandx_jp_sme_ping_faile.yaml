@@ -1,8 +1,0 @@
-commandlinefu_id: 3780
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping -q -c1 -w3 brandx.jp.sme 2&>1 /dev/null || echo brandx.jp.sme ping failed | mail -ne -s'Server unavailable' joker@jp.co.uk
-summary: |-
-  Check a server is up. If it isn't mail me.
