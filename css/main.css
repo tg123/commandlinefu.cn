@@ -18,3 +18,11 @@ text-overflow:ellipsis;
 white-space:nowrap;
 overflow:hidden;
 }
+
+#header {
+    margin-top: 15px;
+}
+
+#header-logo {
+    margin-left: 0px;
+}
