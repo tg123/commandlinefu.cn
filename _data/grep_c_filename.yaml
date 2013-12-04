@@ -1,8 +1,7 @@
 commandlinefu_id: 10913
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -c "^$" filename
 summary: |-
-  Count empty lines using grep
+  计算空行

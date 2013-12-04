@@ -1,8 +1,7 @@
 commandlinefu_id: 3864
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pushd .> /dev/null; cd /; for d in `echo $OLDPWD | sed -e 's/\// /g'`; do cd $d; echo -n "$d "; ls -ld .; done; popd >/dev/null
 summary: |-
-  Show current folder permission recursively from /, useful for debugging ssh key permission
+  递归检查权限 用于排查权限问题

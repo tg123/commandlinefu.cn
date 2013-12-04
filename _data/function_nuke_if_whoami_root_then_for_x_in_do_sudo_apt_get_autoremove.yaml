@@ -1,8 +1,7 @@
 commandlinefu_id: 1698
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function nuke() { if [ $(whoami) != "root" ] ; then for x in $@; do sudo apt-get autoremove --purge $x; done; else for x in $@; do apt-get autoremove --purge $x; done; fi }
 summary: |-
-  Remove apps with style: nuke it from orbit
+  彻底的卸载deb

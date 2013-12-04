@@ -1,8 +1,7 @@
 commandlinefu_id: 10995
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pacmd set-sink-volume 0 0x10000
 summary: |-
-  PulseAudio: set the volume via command line
+  命令行调节音量
