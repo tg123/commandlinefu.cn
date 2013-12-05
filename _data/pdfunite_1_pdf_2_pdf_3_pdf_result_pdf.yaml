@@ -1,8 +1,7 @@
 commandlinefu_id: 12928
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pdfunite 1.pdf 2.pdf 3.pdf result.pdf
 summary: |-
-  Merge some PDF files into a single one
+  合并多个pdf

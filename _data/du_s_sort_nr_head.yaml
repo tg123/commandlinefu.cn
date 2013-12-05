@@ -1,8 +1,7 @@
 commandlinefu_id: 5614
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -s * | sort -nr | head
 summary: |-
-  identify big file
+  寻找大文件

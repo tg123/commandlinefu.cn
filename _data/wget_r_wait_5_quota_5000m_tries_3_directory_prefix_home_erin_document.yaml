@@ -1,8 +1,0 @@
-commandlinefu_id: 2541
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -r --wait=5 --quota=5000m --tries=3 --directory-prefix=/home/erin/Documents/erins_webpages  --limit-rate=20k  --level=1 -k -p -erobots=off -np -N  --exclude-domains=del.icio.us,doubleclick.net -F -i ./delicious-20090629.htm
-summary: |-
-  my command for downloading  delicious web links,

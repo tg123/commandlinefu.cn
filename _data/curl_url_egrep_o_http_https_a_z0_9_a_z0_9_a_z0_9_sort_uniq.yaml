@@ -1,8 +1,7 @@
 commandlinefu_id: 11105
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   curl url | egrep -o '(http|https)://[a-z0-9]*\.[a-z0-9]*\.[a-z0-9]*'|sort |uniq
 summary: |-
-  Get URL's from a webpage
+  网页中提取url

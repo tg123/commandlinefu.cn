@@ -1,8 +1,0 @@
-commandlinefu_id: 4526
-translator:
-  weibo: ''
-hide: true
-command: |-
-  telnet bofh.jeffballard.us 666
-summary: |-
-  get bofh excuse from a trusted source :-)

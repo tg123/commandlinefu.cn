@@ -1,8 +1,7 @@
 commandlinefu_id: 6113
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm $( ls | egrep -v 'abc|\s' )
 summary: |-
-  Remove all the files except abc in the directory
+  删除除了叫abc的文件

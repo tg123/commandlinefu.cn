@@ -1,8 +1,0 @@
-commandlinefu_id: 5458
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :w !curl -F "sprunge=<-" http://sprunge.us | xclip
-summary: |-
-  Quickly share code or text from vim to others.

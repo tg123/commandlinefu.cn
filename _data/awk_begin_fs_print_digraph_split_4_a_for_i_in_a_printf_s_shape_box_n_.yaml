@@ -1,8 +1,7 @@
 commandlinefu_id: 9810
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk 'BEGIN{FS=":"; print "digraph{"}{split($4, a, ","); for (i in a) printf "\"%s\" [shape=box]\n\"%s\" -> \"%s\"\n", $1, a[i], $1}END{print "}"}' /etc/group|display
 summary: |-
-  Print diagram of user/groups
+  表格显示用户

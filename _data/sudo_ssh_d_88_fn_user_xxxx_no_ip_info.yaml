@@ -1,8 +1,0 @@
-commandlinefu_id: 11096
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ssh -D 88 -fN user@xxxx.no-ip.info
-summary: |-
-  sudo ssh -D 88 -fN user@xxxx.no-ip.info

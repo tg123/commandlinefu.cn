@@ -1,8 +1,7 @@
 commandlinefu_id: 6465
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat b1.avi b2.avi b3.avi b4.avi b5.avi b6.avi b7.avi > output.avi; mencoder -forceidx -oac copy -ovc copy output.avi -o output_final.avi; rm output.avi
 summary: |-
-  Join avi files
+  链接avi

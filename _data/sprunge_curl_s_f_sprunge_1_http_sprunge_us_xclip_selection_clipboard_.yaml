@@ -1,8 +1,0 @@
-commandlinefu_id: 7179
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sprunge () { curl -s -F "sprunge=@$1" http://sprunge.us | xclip -selection clipboard && xclip -selection clipboard -o; }
-summary: |-
-  Posts a file to sprunge.us and copies the related url to the clipboard

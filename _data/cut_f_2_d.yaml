@@ -1,8 +1,7 @@
 commandlinefu_id: 3586
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cut -f 2- -d " "
 summary: |-
-  print all except first collumn
+  打印除了一个列

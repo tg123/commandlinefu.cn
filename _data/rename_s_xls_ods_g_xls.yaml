@@ -1,8 +1,7 @@
 commandlinefu_id: 12713
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 's/.xls/.ods/g' *.xls
 summary: |-
-  Command to rename multiple file in one go
+  重命名多个文件

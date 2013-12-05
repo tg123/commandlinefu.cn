@@ -1,8 +1,0 @@
-commandlinefu_id: 12501
-translator:
-  weibo: ''
-hide: true
-command: |-
-  synclient TapButton1=1 TapButton2=2 TapButton3=3
-summary: |-
-  turn on knoppix 7  touchpad Tap function (mouse clicks)

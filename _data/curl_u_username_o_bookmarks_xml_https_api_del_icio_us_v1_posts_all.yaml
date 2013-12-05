@@ -1,8 +1,0 @@
-commandlinefu_id: 1860
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -u username -o bookmarks.xml https://api.del.icio.us/v1/posts/all
-summary: |-
-  Download all Delicious bookmarks

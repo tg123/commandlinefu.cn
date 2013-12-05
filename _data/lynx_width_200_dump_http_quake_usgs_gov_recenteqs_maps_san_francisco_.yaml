@@ -1,8 +1,0 @@
-commandlinefu_id: 4529
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --width=200 --dump 'http://quake.usgs.gov/recenteqs/Maps/San_Francisco_eqs.htm'|sed -ne '/MAG.*/,/^References/{;s/\[[0-9][0-9]*\]//;1,/h:m:s/d;/Back to map/,$d;/^$/d;/^[ \t][ \t]*[3-9]\.[0-9][0-9]*[ \t][ \t]*/p; }'|sort -k1nr
-summary: |-
-  Show recent earthquakes in Bay Area

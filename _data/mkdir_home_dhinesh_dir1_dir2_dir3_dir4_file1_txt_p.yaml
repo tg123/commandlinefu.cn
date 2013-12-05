@@ -1,8 +1,7 @@
 commandlinefu_id: 8473
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  mkdir  /home/dhinesh/dir1/{dir2,dir3,dir4}/file1.txt -p
+  mkdir  /home/commandlinefu/dir1/{dir2,dir3,dir4}/file1.txt -p
 summary: |-
-  Create the directoty recursively
+  递归创建目录
