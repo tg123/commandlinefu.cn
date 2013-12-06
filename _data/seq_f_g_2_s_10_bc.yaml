@@ -4,5 +4,4 @@ translator:
 command: |-
   seq -f"%g^2" -s "+" 10 | bc
 summary: |-
-  Calculate 1**2 + 2**2 + 3**2 + ...
   计算1………10的平方和
