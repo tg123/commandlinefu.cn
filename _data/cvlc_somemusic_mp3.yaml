@@ -1,8 +1,7 @@
 commandlinefu_id: 8171
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   cvlc <somemusic.mp3>
 summary: |-
-  Playback music in VLC without the GUI interface
+  用VLC播放音乐,不用GUI界面

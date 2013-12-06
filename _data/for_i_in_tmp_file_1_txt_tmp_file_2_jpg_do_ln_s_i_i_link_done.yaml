@@ -1,8 +1,7 @@
 commandlinefu_id: 12580
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   for i in '/tmp/file 1.txt' '/tmp/file 2.jpg'; do ln -s "$i" "$i LINK"; done
 summary: |-
-  Batch symbolic links creation
+  批量创建软连接

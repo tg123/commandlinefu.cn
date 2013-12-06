@@ -1,8 +1,7 @@
 commandlinefu_id: 6869
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   inotifywait -mrq -e CREATE --format %w%f /path/to/dir | while read FILE; do chmod g=u "$FILE"; done
 summary: |-
-  Trigger a command each time a file is created in a directory (inotify)
+  使用inotify命令，每当一个文件夹中新创建了文件时，触发一条命令
