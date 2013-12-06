@@ -1,8 +1,7 @@
 commandlinefu_id: 57
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias cdc='cd `pwd -P`'
 summary: |-
-  cd canonical (resolve any symlinks)
+  进入到绝度目录

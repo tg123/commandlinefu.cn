@@ -1,8 +1,7 @@
 commandlinefu_id: 3548
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat filename | mail -s "Email subject" user@example.com
 summary: |-
-  Send a local file via email
+  本地文件内容变邮件
