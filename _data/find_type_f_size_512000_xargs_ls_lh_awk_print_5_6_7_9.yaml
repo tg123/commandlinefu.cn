@@ -1,8 +1,7 @@
 commandlinefu_id: 5612
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   find / -type f -size +512000 | xargs ls -lh | awk '{ print $5 " " $6$7 ": " $9 }'
 summary: |-
-  Find all files over a set size and displays accordingly
+  找出超过设置尺寸的所有文件并且按设置的格式显示

@@ -1,8 +1,7 @@
 commandlinefu_id: 7770
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   mount | grep "mount point"
 summary: |-
-  find the device when you only know the mount point
+  寻找设备，当你仅仅知道它的挂载点

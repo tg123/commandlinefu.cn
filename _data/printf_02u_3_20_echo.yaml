@@ -1,8 +1,7 @@
 commandlinefu_id: 3532
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   printf "%02u " {3..20}; echo
 summary: |-
-  for loop with leading zero in bash 3
+  bash 3以上版本：以零补全的数字输出

@@ -1,8 +1,7 @@
 commandlinefu_id: 12654
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   mogrify -format gif -auto-orient -thumbnail 250x90 '*.JPG'&&(echo "<ul>";for i in *.gif;do basename=$(echo $i|rev|cut -d. -f2-|rev);echo "<li style='display:inline-block'><a href='$basename.JPG'><img src='$basename.gif'></a>";done;echo "</ul>")>list.html
 summary: |-
-  Create thumbnails and a HTML page for listing them (with links to sources)
+  创建缩略图和一个列出他们的链接的HTML页面

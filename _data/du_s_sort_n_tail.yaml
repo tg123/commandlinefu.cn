@@ -1,8 +1,7 @@
 commandlinefu_id: 65
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   du -s * | sort -n | tail
 summary: |-
-  Get the 10 biggest files/folders for the current direcotry
+  获取当前目录最大的十个文件/文件夹

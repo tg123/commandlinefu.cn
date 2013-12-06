@@ -1,8 +1,7 @@
 commandlinefu_id: 6841
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   tr A-Z a-z | tr -d "[[:punct:]][[:digit:]]" | tr ' /_' '\n' | sort | uniq -c
 summary: |-
-  Generate list of words and their frequencies in a text file.
+  文本文件单词频率计数

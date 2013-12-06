@@ -1,8 +1,7 @@
 commandlinefu_id: 310
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   last | awk '{ print $1 }' | sort | uniq -c | grep -v wtmp
 summary: |-
-  To get how many users logged in and logged out and how many times ?
+  了解有多少用户进行了多少次登入、登出
