@@ -1,8 +1,7 @@
 commandlinefu_id: 5660
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -n "convert " > itcombino.sh; printf "IMG_%00004u.png " {1..1121} >> itcombino.sh; echo -n "-layers merge _final.png" >> itcombino.sh; chmod +x itcombino.sh && ./itcombino.sh
 summary: |-
-  Combines an arbitrary number of transparent png files into one file
+  把png合成gif
