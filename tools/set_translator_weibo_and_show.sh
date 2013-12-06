@@ -12,7 +12,7 @@ fi
 BASEDIR=$(dirname $(readlink -f $0)) 
 DATADIR="$BASEDIR/../_data"
 
-LIST=`git status -s $DATADIR | cut -d ' ' -f 3`
+LIST=`git status -s $DATADIR | grep ^M | cut -d ' ' -f 3`
 
 for f in $LIST;do
     if [ -f $f ]; then
