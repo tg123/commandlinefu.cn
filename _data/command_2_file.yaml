@@ -3,6 +3,6 @@ translator:
   weibo: ''
 hide: true
 command: |-
-  <command> 2> <file>
+  command 2> file
 summary: |-
-  Redirecting stderr to file
+  将stderr重定向到文件

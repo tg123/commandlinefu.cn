@@ -5,4 +5,4 @@ hide: true
 command: |-
   pacman -Ql gvim
 summary: |-
-  archlinux: shows list of files installed by a package
+  显示安装列表(arch)

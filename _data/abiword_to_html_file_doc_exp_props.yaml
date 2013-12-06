@@ -1,8 +1,0 @@
-commandlinefu_id: 7589
-translator:
-  weibo: ''
-hide: true
-command: |-
-  abiword --to=html file.doc --exp-props=
-summary: |-
-  Use AbiWord to generate a clean HTML document from a Microsoft Word document.

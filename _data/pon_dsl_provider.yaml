@@ -1,8 +1,0 @@
-commandlinefu_id: 595
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pon dsl-provider
-summary: |-
-  Run ADSL connection

@@ -5,4 +5,4 @@ hide: true
 command: |-
   bsdiff <oldfile> <newfile> <patchfile>
 summary: |-
-  Binary difference of two files
+  二进制diff

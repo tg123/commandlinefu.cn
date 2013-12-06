@@ -5,4 +5,4 @@ hide: true
 command: |-
   beepwhenup () { echo 'Enter host you want to ping:'; read PHOST; if [[ "$PHOST" == "" ]]; then exit; fi; while true; do ping -c1 -W2 $PHOST 2>&1 >/dev/null; if [[ "$?" == "0" ]]; then for j in $(seq 1 4); do beep; done; ping -c1 $PHOST; break; fi; done; }
 summary: |-
-  ping a host until it responds, then play a sound, then exit
+  ping到响应 然后响一生

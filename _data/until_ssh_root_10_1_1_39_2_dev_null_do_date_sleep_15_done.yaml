@@ -3,6 +3,6 @@ translator:
   weibo: ''
 hide: true
 command: |-
-  until (ssh root@10.1.1.39 2> /dev/null); do date; sleep 15; done
+  until (ssh root@host 2> /dev/null); do date; sleep 15; done
 summary: |-
-  do something else while waiting for an event, such as reboot
+  在等待ssh响应的时候做一些别的事情

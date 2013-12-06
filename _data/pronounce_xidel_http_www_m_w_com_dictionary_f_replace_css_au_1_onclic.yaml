@@ -1,8 +1,0 @@
-commandlinefu_id: 12188
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pronounce(){ xidel "http://www.m-w.com/dictionary/$*" -f "replace(css('.au')[1]/@onclick,\".*'([^']+)', *'([^']+)'.*\", '/audio.php?file=\$1&word=\$2')" -f 'css("embed")[1]/@src' --download - | aplay -q;}
-summary: |-
-  Pronounce an English word using Merriam-Webster.com

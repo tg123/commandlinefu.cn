@@ -5,4 +5,4 @@ hide: true
 command: |-
   server=8.8.8.8; host="apple.com"; queries=128; for i in `seq $queries`; do let x+=`dig @${server} $host | grep "Query time" | cut -f 4 -d " "`; done && echo "scale=3;($x/${queries})" | bc
 summary: |-
-  duration of the DNS-query
+  测试dns响应时间

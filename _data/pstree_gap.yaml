@@ -5,4 +5,4 @@ hide: true
 command: |-
   pstree -Gap
 summary: |-
-  Displays process tree of all running processes
+  显示所有运行进程的进程树
