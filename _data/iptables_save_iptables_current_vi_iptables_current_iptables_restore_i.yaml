@@ -1,0 +1,8 @@
+commandlinefu_id: 12966
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iptables-save > iptables.current; vi iptables.current; iptables-restore iptables.current; service iptables save
+summary: |-
+  Easy IPTables management

@@ -1,0 +1,8 @@
+commandlinefu_id: 12956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  clush -w 192.168.100.[1-50] -t 10 'uptime'
+summary: |-
+  for ssh uptime

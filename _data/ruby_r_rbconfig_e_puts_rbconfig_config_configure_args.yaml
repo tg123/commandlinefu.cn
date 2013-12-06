@@ -1,0 +1,8 @@
+commandlinefu_id: 12965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -r rbconfig -e 'puts RbConfig::CONFIG["configure_args"]'
+summary: |-
+  See ruby compilation flags

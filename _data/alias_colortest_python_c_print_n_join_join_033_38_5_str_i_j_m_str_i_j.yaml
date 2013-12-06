@@ -1,8 +1,7 @@
 commandlinefu_id: 11431
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias colortest="python -c \"print('\n'.join([(' '.join([('\033[38;5;' + str((i + j)) + 'm' + str((i + j)).ljust(5) + '\033[0m') if i + j < 256 else '' for j in range(10)])) for i in range(0, 256, 10)]))\""
 summary: |-
-  ANSI 256 Color Test
+  终端的颜色测试

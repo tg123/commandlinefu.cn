@@ -1,0 +1,8 @@
+commandlinefu_id: 12963
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {1..2000}; do convert -size 200x100 xc:#000000 -font Arial -pointsize 22 -fill white -gravity center -draw "text 0,0 '$i'" $i.png; done
+summary: |-
+  Generate 2000 images with its number written on it

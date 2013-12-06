@@ -1,0 +1,8 @@
+commandlinefu_id: 12967
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent passwd `whoami` | cut -d ':' -f 5
+summary: |-
+  Prints out, what the users name, notifyed in the gecos field, is

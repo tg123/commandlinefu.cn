@@ -1,0 +1,8 @@
+commandlinefu_id: 12960
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cls && ipconfig | find "IPv4"
+summary: |-
+  Get windows IPv4 and nothing else

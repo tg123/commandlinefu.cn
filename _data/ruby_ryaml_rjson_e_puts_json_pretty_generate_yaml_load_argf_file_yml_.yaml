@@ -1,0 +1,8 @@
+commandlinefu_id: 12959
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -ryaml -rjson -e 'puts JSON.pretty_generate(YAML.load(ARGF))' < file.yml > file.json
+summary: |-
+  Convert YAML to JSON
