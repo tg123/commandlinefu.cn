@@ -1,8 +1,7 @@
 commandlinefu_id: 3157
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   nautilus -q
 summary: |-
-  Restart nautilus
+  重启nautilus文件管理器

@@ -1,8 +1,7 @@
 commandlinefu_id: 7858
 translator:
-  weibo: ''
-hide: true
+  weibo: '猪了个去'
 command: |-
   pkill -0 prog1; while [ $? -eq 0 ]; do sleep 10; pkill -0 prog1; done; prog2
 summary: |-
-  Wait the end of prog1 and launch prog2
+  等待prog1程序终止然后开启prog1程序
