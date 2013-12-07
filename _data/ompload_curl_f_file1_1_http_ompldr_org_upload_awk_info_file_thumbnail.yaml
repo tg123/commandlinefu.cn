@@ -1,8 +1,0 @@
-commandlinefu_id: 4004
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ompload() { curl -# -F file1=@"$1" http://ompldr.org/upload|awk '/Info:|File:|Thumbnail:|BBCode:/{gsub(/<[^<]*?\/?>/,"");$1=$1;print}';}
-summary: |-
-  Upload images to omploader.org from the command line.

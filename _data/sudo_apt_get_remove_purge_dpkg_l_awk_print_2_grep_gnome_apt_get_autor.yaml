@@ -5,4 +5,4 @@ hide: true
 command: |-
   sudo apt-get remove --purge `dpkg -l | awk '{print $2}' | grep gnome` && apt-get autoremove
 summary: |-
-  Remove packages by pattern on debian and based systems
+  按 pattern 卸载deb

@@ -5,4 +5,4 @@ hide: true
 command: |-
   perl -i -pe 's/\r/\n/g' file
 summary: |-
-  Legacy MacOS to Unix text convert using perl
+  老的 Mac OS 文本 转化为 unix 的文本

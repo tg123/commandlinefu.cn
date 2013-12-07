@@ -1,8 +1,0 @@
-commandlinefu_id: 11602
-translator:
-  weibo: ''
-hide: true
-command: |-
-  systemd-analyze plot | curl -sF file1=@- http://ompldr.org/upload | grep -P -o "(?<=File:).*(http://ompldr.org/.*)\<\/a\>" | sed -r 's@.*(http://ompldr.org/\w{1,7}).*@\1@'
-summary: |-
-  Create a chart of systemd service startup time and upload it to an image host

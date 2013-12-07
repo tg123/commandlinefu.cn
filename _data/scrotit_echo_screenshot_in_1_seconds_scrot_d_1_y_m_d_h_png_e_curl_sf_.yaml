@@ -1,7 +1,0 @@
-commandlinefu_id: 11610
-translator:
-  weibo: '猪了个去'
-command: |-
-  scrotit(){ echo "Screenshot in $1 seconds...";scrot -d $1 '%Y%m%d%h.png' -e 'curl -sF file1=@- http://ompldr.org/upload < $f | grep -P -o "(?<=File:).*(http://ompldr.org/.*)\<\/a\>";rm $f'| sed -r 's@.*(http://ompldr.org/\w{1,7}).*@\1@';}
-summary: |-
-  在指定的X秒后截屏，上传到ompdlr.org并且返回URI地址

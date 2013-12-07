@@ -1,8 +1,0 @@
-commandlinefu_id: 7666
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scrot $1 /tmp/screenshot.png && curl -s -F file1=@/tmp/screenshot.png -F submit="OMPLOAD\!" http://ompldr.org/upload | egrep '(View file: <a href="v([A-Za-z0-9+\/]+)">)' | sed 's/^.*\(http:\/\/.*\)<.*$/\1/' | xsel -b -i ? (full in a sample output)
-summary: |-
-  Take a screenshot of the screen, upload it to ompldr.org and put link to the clipboard and to the screenshots.log (with a date stamp) in a home directory.

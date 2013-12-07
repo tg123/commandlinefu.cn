@@ -5,4 +5,4 @@ hide: true
 command: |-
   echo 'wget url' | at 01:00
 summary: |-
-  Schedule a download at a later time
+  定时启动wget下载

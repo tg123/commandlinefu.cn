@@ -5,4 +5,4 @@ hide: true
 command: |-
   printf "\ec"
 summary: |-
-  Clear terminal screen as well as terminal buffer
+  清屏

@@ -5,4 +5,4 @@ hide: true
 command: |-
   od -c <FILE> | grep --color '\\.'
 summary: |-
-  See non printable caracters like tabulations, CRLF, LF line terminators ( colored )
+  颜色显示无法打印的字符

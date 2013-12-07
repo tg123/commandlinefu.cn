@@ -5,4 +5,4 @@ hide: true
 command: |-
   fortune | cowsay -f tux
 summary: |-
-  let a cow tell you your fortune
+  电脑算命

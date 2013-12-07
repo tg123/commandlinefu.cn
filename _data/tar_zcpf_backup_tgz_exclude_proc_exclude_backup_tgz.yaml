@@ -5,4 +5,4 @@ hide: true
 command: |-
   tar zcpf backup.tgz --exclude=/proc --exclude=backup.tgz /
 summary: |-
-  Simple complete system backup excluding files or directories
+  备份系统
