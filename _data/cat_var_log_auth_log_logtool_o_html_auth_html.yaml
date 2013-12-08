@@ -5,4 +5,4 @@ hide: true
 command: |-
   cat /var/log/auth.log | logtool -o HTML > auth.html
 summary: |-
-  Export log to html file
+  输出日志到html格式

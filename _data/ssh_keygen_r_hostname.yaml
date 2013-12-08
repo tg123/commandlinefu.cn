@@ -5,4 +5,4 @@ hide: true
 command: |-
   ssh-keygen -R hostname
 summary: |-
-  remove hostname from known_hosts
+  从 known_hosts 清除域名

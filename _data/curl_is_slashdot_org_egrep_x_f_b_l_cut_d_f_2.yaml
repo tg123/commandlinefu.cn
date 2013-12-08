@@ -1,8 +1,0 @@
-commandlinefu_id: 1608
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -Is slashdot.org | egrep '^X-(F|B|L)' | cut -d \- -f 2
-summary: |-
-  Gets a random Futurama quote from /.

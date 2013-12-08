@@ -1,8 +1,0 @@
-commandlinefu_id: 2820
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "HEAD / HTTP/1.1\nHost: slashdot.org\n\n" | nc slashdot.org 80 | egrep "Bender|Fry" | sed "s/X-//"
-summary: |-
-  Get Futurama quotations from slashdot.org servers

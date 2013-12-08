@@ -5,4 +5,4 @@ hide: true
 command: |-
   alias sdr="screen -dR"
 summary: |-
-  creates or attachs to screen
+  挂起screen 的快捷方式

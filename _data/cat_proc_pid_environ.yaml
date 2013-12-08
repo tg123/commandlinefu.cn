@@ -5,4 +5,4 @@ hide: true
 command: |-
   cat /proc/<PID>/environ
 summary: |-
-  find out about a process
+  查看某个进程的环境信息
