@@ -1,7 +1,6 @@
 commandlinefu_id: 5382
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -i -pe 's/\r/\n/g' file
 summary: |-

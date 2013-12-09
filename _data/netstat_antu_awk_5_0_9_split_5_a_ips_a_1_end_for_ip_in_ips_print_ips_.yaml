@@ -1,7 +1,6 @@
 commandlinefu_id: 12147
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -antu | awk '$5 ~ /[0-9]:/{split($5, a, ":"); ips[a[1]]++} END {for (ip in ips) print ips[ip], ip | "sort -k1 -nr"}'
 summary: |-

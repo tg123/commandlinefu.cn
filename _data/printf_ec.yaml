@@ -1,7 +1,6 @@
 commandlinefu_id: 12373
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   printf "\ec"
 summary: |-

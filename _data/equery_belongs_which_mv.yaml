@@ -1,7 +1,6 @@
 commandlinefu_id: 7859
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   equery belongs $( which mv )
 summary: |-

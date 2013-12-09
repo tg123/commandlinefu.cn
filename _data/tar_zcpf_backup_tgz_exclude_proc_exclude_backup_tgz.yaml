@@ -1,7 +1,6 @@
 commandlinefu_id: 971
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar zcpf backup.tgz --exclude=/proc --exclude=backup.tgz /
 summary: |-

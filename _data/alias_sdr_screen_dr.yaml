@@ -1,7 +1,6 @@
 commandlinefu_id: 11409
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias sdr="screen -dR"
 summary: |-

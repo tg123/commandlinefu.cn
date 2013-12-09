@@ -1,7 +1,6 @@
 commandlinefu_id: 7352
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-get -y install git-core gitosis; adduser --home /home/git --gecos "git user" git; su git -c "ssh-keygen -t rsa -f /home/git/.ssh/id_rsa; gitosis-init < ~/.ssh/id_rsa"
 summary: |-

@@ -1,7 +1,6 @@
 commandlinefu_id: 953
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -i movie.avi -s 320x240 -b 1000k -vcodec wmv2 -ar 44100 -ab 56000 -ac 2 -y movie.wmv
 summary: |-

@@ -1,7 +1,6 @@
 commandlinefu_id: 7155
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   server=8.8.8.8; host="apple.com"; queries=128; for i in `seq $queries`; do let x+=`dig @${server} $host | grep "Query time" | cut -f 4 -d " "`; done && echo "scale=3;($x/${queries})" | bc
 summary: |-

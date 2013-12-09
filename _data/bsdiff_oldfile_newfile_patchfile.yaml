@@ -1,7 +1,6 @@
 commandlinefu_id: 9257
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bsdiff <oldfile> <newfile> <patchfile>
 summary: |-

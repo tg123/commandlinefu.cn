@@ -1,7 +1,6 @@
 commandlinefu_id: 742
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pstree -Gap
 summary: |-

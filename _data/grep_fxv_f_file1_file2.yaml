@@ -1,7 +1,6 @@
 commandlinefu_id: 5709
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -Fxv -f file1 file2
 summary: |-

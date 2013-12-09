@@ -1,7 +1,6 @@
 commandlinefu_id: 8136
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pacman -Ql gvim
 summary: |-

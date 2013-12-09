@@ -1,7 +1,6 @@
 commandlinefu_id: 5735
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fortune | cowsay -f tux
 summary: |-

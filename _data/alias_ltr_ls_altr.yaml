@@ -1,7 +1,6 @@
 commandlinefu_id: 8619
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias ltr 'ls -altr'
 summary: |-

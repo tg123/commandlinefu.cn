@@ -1,7 +1,6 @@
 commandlinefu_id: 11371
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -t user@remote_host tmux attach
 summary: |-

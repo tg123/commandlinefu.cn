@@ -1,7 +1,6 @@
 commandlinefu_id: 9955
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for FILE in $(svn status | grep ? | grep .php); do svn add $FILE; done
 summary: |-

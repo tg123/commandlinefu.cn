@@ -1,7 +1,6 @@
 commandlinefu_id: 7226
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh-keygen -l -f ~/.ssh/known_hosts
 summary: |-
