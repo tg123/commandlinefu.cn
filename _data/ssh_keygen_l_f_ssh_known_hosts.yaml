@@ -5,4 +5,4 @@ hide: true
 command: |-
   ssh-keygen -l -f ~/.ssh/known_hosts
 summary: |-
-  View ~/.ssh/known_hosts key information
+  查看known_hosts信息

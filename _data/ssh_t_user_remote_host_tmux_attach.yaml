@@ -5,4 +5,4 @@ hide: true
 command: |-
   ssh -t user@remote_host tmux attach
 summary: |-
-  immediatly attach to previous tmux session when connecting through ssh
+  ssh 后立即绑定到上次的tmux回话

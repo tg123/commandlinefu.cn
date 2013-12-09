@@ -5,4 +5,4 @@ hide: true
 command: |-
   if [ "$(ping -q -c1 google.com)" ];then wget -mnd -q http://www.google.com/intl/en_ALL/images/logo.gif ;fi
 summary: |-
-  Use ping to test if a server is up
+  测试服务器是不是活着

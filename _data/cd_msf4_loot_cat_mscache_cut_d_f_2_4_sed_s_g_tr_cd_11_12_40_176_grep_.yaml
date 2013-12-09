@@ -1,8 +1,0 @@
-commandlinefu_id: 11574
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd ~/.msf4/loot && cat *mscache* | cut -d '"' -f 2,4 | sed s/\"/\:/g | tr -cd '\11\12\40-\176' | grep -v Username | cut -d : -f 1,2 | awk -F':' '{print $2,$1}' | sed 's/ /:/g' > final.dcc.hash
-summary: |-
-  Convert metasploit cachedump files to Hashcat format for cracking

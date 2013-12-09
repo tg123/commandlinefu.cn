@@ -5,4 +5,4 @@ hide: true
 command: |-
   awk -F\" '/^DocumentRoot/{print $2}' $(httpd -V | awk -F\" '/\.conf/{print $2}')
 summary: |-
-  How To Get the Apache Document Root
+  寻找DocumentRoot (Apache)

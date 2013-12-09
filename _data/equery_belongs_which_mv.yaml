@@ -5,4 +5,4 @@ hide: true
 command: |-
   equery belongs $( which mv )
 summary: |-
-  Find the package a command belongs to on Gentoo
+  查看文件属于那一个包(gentoo)

@@ -5,4 +5,4 @@ hide: true
 command: |-
   grep -Fxv -f file1 file2
 summary: |-
-  lines in file2 that are not in file1
+  仅在file2中的行(不在file1中出现)
