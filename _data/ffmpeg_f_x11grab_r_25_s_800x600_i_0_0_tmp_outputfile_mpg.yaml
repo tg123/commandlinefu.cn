@@ -1,8 +1,7 @@
 commandlinefu_id: 2365
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -f x11grab -r 25 -s 800x600 -i :0.0 /tmp/outputFile.mpg
 summary: |-
-  Record a screencast and convert it to an mpeg
+  录制屏幕并转换成mpeg

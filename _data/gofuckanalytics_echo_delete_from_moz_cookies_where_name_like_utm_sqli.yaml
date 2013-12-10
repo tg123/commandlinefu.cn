@@ -1,8 +1,0 @@
-commandlinefu_id: 5028
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gofuckanalytics() { echo "DELETE FROM moz_cookies WHERE name LIKE '__utm%';" | sqlite3 $( find ~/.mozilla -name cookies.sqlite ) }
-summary: |-
-  Tell Analytics to fuck itself.

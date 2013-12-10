@@ -1,8 +1,7 @@
 commandlinefu_id: 1106
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rsync -Pz user@remotehost:/path/file.dat .
 summary: |-
-  Copy a file from a remote server to your local box using on-the-fly compression
+  同步一个文件（on-the-fly 压缩解压缩）

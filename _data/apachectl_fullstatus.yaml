@@ -1,8 +1,7 @@
 commandlinefu_id: 8470
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apachectl fullstatus
 summary: |-
-  check apache2 status with a lot of details
+  检查apache状态

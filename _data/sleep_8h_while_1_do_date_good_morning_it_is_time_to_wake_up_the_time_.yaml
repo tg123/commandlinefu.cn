@@ -1,8 +1,7 @@
 commandlinefu_id: 5905
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sleep 8h && while [ 1 ] ; do date "+Good Morning. It is time to wake up. The time is %I %M %p" | espeak -v english -p 0 -s 150 -a 100 ; sleep 1m; done
 summary: |-
-  Speaking alarm clock
+  说话的闹钟

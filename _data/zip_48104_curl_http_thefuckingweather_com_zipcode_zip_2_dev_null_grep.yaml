@@ -1,8 +1,0 @@
-commandlinefu_id: 3248
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ZIP=48104; curl http://thefuckingweather.com/?zipcode=$ZIP 2>/dev/null|grep -A1 'div class="large"'|tr '\n' ' '|sed 's/^.*"large" >\(..\)/\1/;s/&d.* <br \/>/ - /;s/<br \/>//;s/<\/div.*$//'
-summary: |-
-  check the fucking weather

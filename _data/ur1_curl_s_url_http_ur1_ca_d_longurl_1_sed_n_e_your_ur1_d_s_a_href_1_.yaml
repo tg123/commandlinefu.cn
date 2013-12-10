@@ -1,8 +1,0 @@
-commandlinefu_id: 7811
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ur1() { curl -s --url http://ur1.ca/ -d longurl="$1" | sed -n -e '/Your ur1/!d;s/.*<a href="\(.*\)">.*$/\1/;p' ; }
-summary: |-
-  Short URLs with ur1.ca

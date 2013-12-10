@@ -1,8 +1,7 @@
 commandlinefu_id: 12250
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cfp - file-to-be-archived | gzip > archive.tar.gz
 summary: |-
-  create tar.gz on solaris
+  创建tar.gz (solaris)

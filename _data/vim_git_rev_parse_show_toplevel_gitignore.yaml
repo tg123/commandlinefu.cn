@@ -1,8 +1,7 @@
 commandlinefu_id: 11546
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim $(git rev-parse --show-toplevel)/.gitignore
 summary: |-
-  This little command edits your gitignore from anywhere in your repo
+  在任意目录编辑gitignore

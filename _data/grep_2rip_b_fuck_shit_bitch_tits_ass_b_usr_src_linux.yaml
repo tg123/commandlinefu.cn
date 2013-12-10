@@ -1,8 +1,7 @@
 commandlinefu_id: 8926
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -2riP '\b(fuck|shit|bitch|tits|ass\b)' /usr/src/linux/
 summary: |-
-  Read funny developer comments in the Linux source tree
+  看看linux源码里边有多少赞美的语言
