@@ -1,8 +1,7 @@
 commandlinefu_id: 12152
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip -o -4 addr show | awk -F '[ /]+' '/global/ {print $4}'
 summary: |-
-  Get the IP address of a machine. Just the IP, no junk.
+  获取IP地址

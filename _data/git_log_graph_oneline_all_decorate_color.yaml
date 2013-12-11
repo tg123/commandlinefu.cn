@@ -1,8 +1,7 @@
 commandlinefu_id: 10830
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log --graph --oneline --all --decorate --color
 summary: |-
-  Git Tree Command with color and tag/branch name
+  有色的 git tree

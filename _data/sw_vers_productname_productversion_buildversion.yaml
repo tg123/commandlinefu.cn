@@ -1,8 +1,7 @@
 commandlinefu_id: 7835
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sw_vers [-productName|-productVersion|-buildVersion]
 summary: |-
-  Get version values (ProductName, ProductVersion, BuildVersion) for Mac OS X
+  获取系统版本(OS X)

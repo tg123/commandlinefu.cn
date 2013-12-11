@@ -1,8 +1,7 @@
 commandlinefu_id: 6672
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xargsb() { while read -r cmd; do ${@//'{}'/$cmd}; done; }
 summary: |-
-  xargs for builtin bash commands
+  用内部命令实现xargs

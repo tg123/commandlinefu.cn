@@ -1,8 +1,7 @@
 commandlinefu_id: 2943
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk /./ filename
 summary: |-
-  Remove newlines from output
+  删除文件的空行

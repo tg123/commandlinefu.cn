@@ -1,8 +1,7 @@
 commandlinefu_id: 12506
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   head -c20 /dev/urandom | xxd -ps
 summary: |-
-  20char long alpahnumeric "password"
+  生成密码

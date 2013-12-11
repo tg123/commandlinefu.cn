@@ -1,8 +1,7 @@
 commandlinefu_id: 9350
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep query -r . --exclude-dir=.svn
 summary: |-
-  rgrep: recursive grep without .svn
+  递归grep不含.svn 目录

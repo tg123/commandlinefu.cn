@@ -1,8 +1,7 @@
 commandlinefu_id: 1846
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm -rf `find ./ -iname *.svn*`
 summary: |-
-  delete all .svn directory in a directory
+  清理.svn

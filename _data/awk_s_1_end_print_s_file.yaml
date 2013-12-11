@@ -1,8 +1,7 @@
 commandlinefu_id: 11744
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{s+=$1}END{print s}' <file>
 summary: |-
-  sum a column of numbers
+  列求和
