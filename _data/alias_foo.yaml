@@ -1,8 +1,7 @@
 commandlinefu_id: 6316
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias foo="!!"
 summary: |-
-  create an alias of the previous command
+  上一条命令的快捷方式

@@ -1,8 +1,7 @@
 commandlinefu_id: 3561
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-get install sl; sl
 summary: |-
-  Learn how to stop mistyping "ls" the fun way
+  如果你还能打错ls的话 这个软件能帮你

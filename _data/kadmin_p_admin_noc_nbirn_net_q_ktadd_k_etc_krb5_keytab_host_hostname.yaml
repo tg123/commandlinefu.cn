@@ -1,8 +1,0 @@
-commandlinefu_id: 218
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kadmin -p admin@NOC.NBIRN.NET -q "ktadd -k /etc/krb5.keytab host/hostname"
-summary: |-
-  ktadd

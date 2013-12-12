@@ -1,8 +1,7 @@
 commandlinefu_id: 3618
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   random -f <file>
 summary: |-
-  Randomize lines (opposite of | sort)
+  随机文件的行 (也可以shuf)

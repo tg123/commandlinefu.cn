@@ -1,8 +1,8 @@
 commandlinefu_id: 8740
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while true; do sleep $(($RANDOM/1000)) && beep -f 2000 -l $(($RANDOM/100)) ; done
 summary: |-
-  terminal based annoy-a-tron
+  命令行的闹钟
+

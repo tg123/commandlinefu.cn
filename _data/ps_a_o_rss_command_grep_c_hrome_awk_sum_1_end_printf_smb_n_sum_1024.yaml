@@ -1,8 +1,0 @@
-commandlinefu_id: 12293
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -A -o rss,command | grep  [C]hrome | awk '{sum+=$1} END {printf("%sMB\n",sum/1024)}'
-summary: |-
-  Chrome sucks

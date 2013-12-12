@@ -1,8 +1,7 @@
 commandlinefu_id: 5271
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  :1,$!sort
+  vim 中 :1,$!sort
 summary: |-
-  Sort the current buffer in vi or vim.
+  在vim 中排序文本

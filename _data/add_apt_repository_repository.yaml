@@ -1,8 +1,7 @@
 commandlinefu_id: 6951
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   add-apt-repository [REPOSITORY]
 summary: |-
-  Add repository in source list without editing sources.list
+  添加源

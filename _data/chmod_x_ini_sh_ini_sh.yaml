@@ -1,8 +1,7 @@
 commandlinefu_id: 11145
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   chmod +x ini.sh #./ini.sh
 summary: |-
-  grant executability
+  添加执行权限

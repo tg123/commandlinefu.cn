@@ -1,8 +1,7 @@
 commandlinefu_id: 2669
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   print -s "PATH='$PATH'"
 summary: |-
-  put environment variable in history to edit
+  把PATH写入history
