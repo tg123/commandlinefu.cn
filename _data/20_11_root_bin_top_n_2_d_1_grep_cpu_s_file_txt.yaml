@@ -1,8 +1,0 @@
-commandlinefu_id: 11411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  20 11 * * * root /bin/top -n 2 -d 1 | grep "Cpu(s):" > file.txt
-summary: |-
-  Run top and pipe out Cpu(s) with crontab (no batch)

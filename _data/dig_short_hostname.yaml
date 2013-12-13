@@ -1,8 +1,7 @@
 commandlinefu_id: 2944
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dig +short $HOSTNAME
 summary: |-
-  Get your external IP address if your machine has a DNS entry
+  查询ip

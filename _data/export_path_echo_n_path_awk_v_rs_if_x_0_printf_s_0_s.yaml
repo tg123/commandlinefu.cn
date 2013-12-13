@@ -1,8 +1,7 @@
 commandlinefu_id: 11988
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   export PATH=`echo -n $PATH | awk -v RS=":" '{ if (!x[$0]++) {printf s $0; s=":"} }'`
 summary: |-
-  Speed up builds and scripts, remove duplicate entries in $PATH.  Users scripts are oftern bad:  PATH=/apath:$PATH type of thing cause diplicate.
+  清理重复的PATH

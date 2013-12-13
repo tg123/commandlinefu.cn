@@ -1,8 +1,0 @@
-commandlinefu_id: 2089
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump randomfunfacts.com | grep -A 3 U | sed 1D
-summary: |-
-  Working random fact generator

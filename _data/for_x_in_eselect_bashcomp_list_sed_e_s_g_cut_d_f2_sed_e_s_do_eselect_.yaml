@@ -1,8 +1,7 @@
 commandlinefu_id: 6609
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for x in $(eselect bashcomp list | sed -e 's/ //g' | cut -d']' -f2 | sed -e 's/\*//');do eselect bashcomp enable $x --global;sleep 0.5s;done
 summary: |-
-  enable all bash completions in gentoo
+  启用所有的bash completion(gentoo)

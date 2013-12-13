@@ -1,8 +1,7 @@
 commandlinefu_id: 5262
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name 'pattern'| xargs du -hc
 summary: |-
-  Get the total size (in human readable form) of all certain file types from the current directory
+  特定类型文件的大小总和

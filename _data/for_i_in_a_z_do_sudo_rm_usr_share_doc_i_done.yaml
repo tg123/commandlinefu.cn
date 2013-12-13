@@ -1,8 +1,0 @@
-commandlinefu_id: 6147
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {a..z};do sudo rm /usr/share/doc/$i*/*;done
-summary: |-
-  Save disk space by removing help and documentation files

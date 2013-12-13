@@ -1,8 +1,7 @@
 commandlinefu_id: 7209
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rsync -av --ignore-existing --exclude="dir1" --exclude="dir2" /pathA /pathB
 summary: |-
-  syncronizing datas beetween two folder (A and B) excluding some directories in A (dir1 and dir2)
+  同步目录

@@ -1,8 +1,7 @@
 commandlinefu_id: 11496
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   genpassdeep() { cat /dev/urandom | tr -dc [:alnum:] | head -c64 | sha256deep; echo; }
 summary: |-
-  Create a secure password using /dev/urandom and sha256
+  生成密码
