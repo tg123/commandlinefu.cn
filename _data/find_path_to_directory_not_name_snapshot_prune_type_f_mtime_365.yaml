@@ -1,0 +1,8 @@
+commandlinefu_id: 12988
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path/to/directory -not \( -name .snapshot -prune \) -type f -mtime +365
+summary: |-
+  List files older than one year, exluding those in the .snapshot directory

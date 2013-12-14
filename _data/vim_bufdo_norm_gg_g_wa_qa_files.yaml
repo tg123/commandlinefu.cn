@@ -1,0 +1,8 @@
+commandlinefu_id: 12976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim +"bufdo norm gg=G" +wa +qa FILES
+summary: |-
+  Format source code noninteractively (possibly en masse) using vim's formatting functionality

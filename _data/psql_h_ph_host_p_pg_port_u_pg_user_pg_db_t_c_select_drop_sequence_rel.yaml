@@ -1,0 +1,8 @@
+commandlinefu_id: 12990
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psql -h <ph_host> -p <pg_port> -U <pg_user> <pg_db> -t -c "select 'drop sequence \"' || relname || '\" cascade;' from pg_class where relkind='S'" | psql -h <ph_host> -p <pg_port> -U <pg_user> <pg_db>
+summary: |-
+  postgresql : drop all sequences from the public schema

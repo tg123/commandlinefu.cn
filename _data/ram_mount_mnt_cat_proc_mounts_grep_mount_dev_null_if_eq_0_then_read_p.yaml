@@ -1,0 +1,8 @@
+commandlinefu_id: 12995
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ram() { mount=/mnt && cat /proc/mounts | grep "$mount" > /dev/null; if [ $? -eq 0 ] ; then read -p"Enter to Remove Ram Partition "; sudo umount "$mount" && echo $mount 0; else sudo mount -t tmpfs tmpfs "$mount" -o size=2024m && echo $mount 1; fi; }
+summary: |-
+  Toggle a temporary ram partition

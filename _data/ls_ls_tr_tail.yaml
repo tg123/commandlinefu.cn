@@ -1,0 +1,8 @@
+commandlinefu_id: 12987
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -ls -tr | tail
+summary: |-
+  List directory sorted by last modified date. Tail of it.

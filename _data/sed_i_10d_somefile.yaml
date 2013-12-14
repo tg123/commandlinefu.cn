@@ -1,8 +1,7 @@
 commandlinefu_id: 785
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  sed -i '10d' <somefile>
+  sed -i '10d' somefile
 summary: |-
-  Delete line number 10 from file
+  删除第10行

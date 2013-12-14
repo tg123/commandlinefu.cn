@@ -1,0 +1,8 @@
+commandlinefu_id: 12992
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get install ffmpeg libavcodec-extra-53
+summary: |-
+  install codecs in ubuntu (to convert from mp4 to mp3 etc)

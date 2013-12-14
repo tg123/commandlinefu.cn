@@ -1,0 +1,8 @@
+commandlinefu_id: 12974
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xrandr | grep \* | awk '{print $1}'
+summary: |-
+  Get current Xorg resolution via xrandr

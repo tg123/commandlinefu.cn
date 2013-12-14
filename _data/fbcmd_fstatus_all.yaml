@@ -1,0 +1,8 @@
+commandlinefu_id: 12971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fbcmd FSTATUS =all
+summary: |-
+  View facebook friend list [hidden or not hidden]

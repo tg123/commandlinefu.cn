@@ -1,8 +1,7 @@
 commandlinefu_id: 2228
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fold -w 78 -s file-to-wrap
 summary: |-
-  Break lines after, for example 78 characters, but don't break within a word/string
+  每行78个字母

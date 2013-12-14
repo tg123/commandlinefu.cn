@@ -1,0 +1,8 @@
+commandlinefu_id: 12979
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bzgrep -lE "COMMIT_EDITMSG" /usr/share/man/man?/git*
+summary: |-
+  Fast search in man files or bz-files by keyword direct by man or bz files

@@ -1,0 +1,8 @@
+commandlinefu_id: 12985
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert image.jpg  -resize 1x1 txt: | tail -1 | awk '{gsub(/[,\)]/," "); print $3+$4+$5}'
+summary: |-
+  mean color of an image

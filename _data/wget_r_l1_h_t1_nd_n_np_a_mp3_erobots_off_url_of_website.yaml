@@ -1,0 +1,8 @@
+commandlinefu_id: 12986
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -l1 -H -t1 -nd -N -np -A.mp3 -erobots=off [url of website]
+summary: |-
+  Download all mp3's listed in an html page
