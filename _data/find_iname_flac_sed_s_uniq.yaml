@@ -1,8 +1,0 @@
-commandlinefu_id: 1619
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -iname '*.flac' | sed 's:/[^/]*$::' | uniq
-summary: |-
-  List your FLAC albums

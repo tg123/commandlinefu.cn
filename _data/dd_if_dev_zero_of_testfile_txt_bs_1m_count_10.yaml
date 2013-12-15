@@ -1,8 +1,7 @@
 commandlinefu_id: 2441
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero of=testfile.txt bs=1M count=10
 summary: |-
-  Create a random file of a specific size
+  创建特定大小的文件

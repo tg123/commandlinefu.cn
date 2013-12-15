@@ -1,8 +1,7 @@
 commandlinefu_id: 1363
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   SUM=0; for FILESIZE in `find /tmp -type f -iname \*pdf -exec du -b {} \; 2>/dev/null | cut -f1` ; do (( SUM += $FILESIZE )) ; done ; echo "sum=$SUM"
 summary: |-
-  Summarize size of all files of given type in all subdirectories (in bytes)
+  子目录大小统计

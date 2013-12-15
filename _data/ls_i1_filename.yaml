@@ -1,8 +1,7 @@
 commandlinefu_id: 9289
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -i1 filename
 summary: |-
-  Identify files uniquly in a FS with inode numer
+  用inode 来确认唯一性

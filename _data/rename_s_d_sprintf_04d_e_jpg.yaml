@@ -1,8 +1,7 @@
 commandlinefu_id: 8383
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 's/\d+/sprintf("%04d",$&)/e' *.jpg
 summary: |-
-  Numeric zero padding file rename
+  带有0填充的重命名
