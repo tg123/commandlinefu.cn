@@ -1,8 +1,7 @@
 commandlinefu_id: 3764
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 'y/A-Z/a-z/' *
 summary: |-
-  convert filenames in current directory to lowercase
+  将当前目录文件全部重名为小写

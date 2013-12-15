@@ -1,8 +1,7 @@
 commandlinefu_id: 7390
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   > file
 summary: |-
-  Create a new file
+  使用上次的参数

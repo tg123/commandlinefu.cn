@@ -1,8 +1,7 @@
 commandlinefu_id: 8769
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cd -
 summary: |-
-  Go to next dir
+  回到刚才的目录

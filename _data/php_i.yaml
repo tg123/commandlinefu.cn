@@ -1,8 +1,7 @@
 commandlinefu_id: 6887
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   php -i
 summary: |-
-  phpinfo from the command line
+  查看 php 配置信息

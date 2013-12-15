@@ -1,8 +1,7 @@
 commandlinefu_id: 9138
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   python -m SimpleHTTPServer
 summary: |-
-  put current directory in LAN quickly
+  用python 开启一个临时 http server 可以用于下载

@@ -1,8 +1,7 @@
 commandlinefu_id: 5127
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -depth -type d -empty -exec rmdir -v {} \;
 summary: |-
-  Recursively remove all empty directories
+  递归删除空目录

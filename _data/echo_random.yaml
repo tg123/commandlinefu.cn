@@ -1,8 +1,7 @@
 commandlinefu_id: 871
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $RANDOM
 summary: |-
-  generate random number
+  随机数

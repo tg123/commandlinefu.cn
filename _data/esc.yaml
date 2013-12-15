@@ -1,8 +1,7 @@
 commandlinefu_id: 9256
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   <ESC> #
 summary: |-
-  Comment current line
+  插入上次命令的参数

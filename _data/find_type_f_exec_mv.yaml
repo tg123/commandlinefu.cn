@@ -1,8 +1,7 @@
 commandlinefu_id: 9320
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./ -type f -exec mv {} . \;
 summary: |-
-  Move all files in subdirectories to current dir
+  将子目录的所有内容都移动到当前目录

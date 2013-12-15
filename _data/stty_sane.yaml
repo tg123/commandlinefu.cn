@@ -1,8 +1,7 @@
 commandlinefu_id: 4019
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   stty sane
 summary: |-
-  Clean your broken terminal
+  重置因为二进制字符导致bug 的终端

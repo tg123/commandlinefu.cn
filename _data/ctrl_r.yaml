@@ -1,8 +1,7 @@
 commandlinefu_id: 2493
 translator:
   weibo: tgic
-hide: false
 command: |-
   ctrl + r
 summary: |-
-  查找输入命令的历史
+  查找历史命令

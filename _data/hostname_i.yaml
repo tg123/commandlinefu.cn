@@ -1,8 +1,7 @@
 commandlinefu_id: 5986
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   hostname -I
 summary: |-
-  Get all ip address for the host
+  查看ip地址

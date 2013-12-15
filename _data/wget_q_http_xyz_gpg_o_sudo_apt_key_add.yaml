@@ -1,8 +1,7 @@
 commandlinefu_id: 1676
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wget -q http://xyz.gpg -O- | sudo  apt-key add -
 summary: |-
-  add a gpg key to aptitute package manager in a ubuntu system
+  Ubuntu 添加 pgp key的方法

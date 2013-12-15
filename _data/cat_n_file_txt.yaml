@@ -1,8 +1,7 @@
 commandlinefu_id: 9271
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat -n file.txt
 summary: |-
-  Show line numbers in a text file
+  cat 时候带上行号

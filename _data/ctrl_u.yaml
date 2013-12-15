@@ -1,8 +1,7 @@
 commandlinefu_id: 7280
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   Ctrl + u
 summary: |-
-  Delete backward from cursor, useful when you enter the wrong password
+  清除当前行

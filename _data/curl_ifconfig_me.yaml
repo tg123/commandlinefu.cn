@@ -1,8 +1,7 @@
 commandlinefu_id: 7997
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   curl ifconfig.me
 summary: |-
-  get you public ip address
+  获取公网IP

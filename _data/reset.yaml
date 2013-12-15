@@ -1,8 +1,7 @@
 commandlinefu_id: 4021
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   reset
 summary: |-
-  Clean your broken terminal
+  如果 terminal 被 二进制字符污染了 可以实验下

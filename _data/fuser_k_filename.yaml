@@ -1,8 +1,7 @@
 commandlinefu_id: 1231
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   !?192
 summary: |-
-  search and run command in history
+  杀死当前正在使用 filename 文件的进程

@@ -1,8 +1,7 @@
 commandlinefu_id: 9671
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   !w sudo tee %
 summary: |-
-  write by vim need root privilege
+  让你在vim里边可以写 只读文件

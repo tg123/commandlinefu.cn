@@ -1,8 +1,7 @@
 commandlinefu_id: 2832
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo 1 > /proc/sys/kernel/sysrq; echo b > /proc/sysrq-trigger
 summary: |-
-  Force hard reset on server
+  强制reboot 即便sbin/shutdown hang住

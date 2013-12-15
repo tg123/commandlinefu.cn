@@ -1,8 +1,7 @@
 commandlinefu_id: 8762
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 's/ /_/g' *
 summary: |-
-  Renames all files in the current directory such that the new file contains no space characters.
+  清除文件名中的－

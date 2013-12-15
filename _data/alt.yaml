@@ -1,8 +1,7 @@
 commandlinefu_id: 7069
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   <alt+.>
 summary: |-
-  prints the parameter you used on the previous command
+  插入刚才的命令
