@@ -1,8 +1,7 @@
 commandlinefu_id: 8263
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias QUERY='psql -h $MYDBHOST -p 5432 -d $MYDB -U $MYLOGIN --no-align'
 summary: |-
-  lazy SQL QUERYING
+  命令行里边执行SQL

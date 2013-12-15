@@ -1,8 +1,0 @@
-commandlinefu_id: 8293
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://whatthecommit.com | sed -n '/<p>/,/<\/p>/p' | sed '$d' | sed 's/<p>//'
-summary: |-
-  commit message generator - whatthecommit.com

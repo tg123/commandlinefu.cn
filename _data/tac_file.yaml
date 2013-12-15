@@ -1,8 +1,7 @@
 commandlinefu_id: 8540
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tac $FILE
 summary: |-
-  reverse order of file
+  把cat倒过来

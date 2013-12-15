@@ -1,8 +1,0 @@
-commandlinefu_id: 11028
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig myip.opendns.com @Resolver1.opendns.com +short
-summary: |-
-  Get your current Public IP

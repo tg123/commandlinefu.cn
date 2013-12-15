@@ -1,8 +1,0 @@
-commandlinefu_id: 8297
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://whatthecommit.com | html2text | sed '$d'
-summary: |-
-  commit message generator - whatthecommit.com

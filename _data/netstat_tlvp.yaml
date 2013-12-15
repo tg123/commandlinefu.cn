@@ -1,8 +1,7 @@
 commandlinefu_id: 6528
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -tlvp
 summary: |-
-  find out which TCP ports are listening and opened by which process in verbose
+  查看哪些程序开那些端口

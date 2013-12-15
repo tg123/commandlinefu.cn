@@ -1,8 +1,7 @@
 commandlinefu_id: 4999
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  find . type f -exec echo http://exg.com/{} \; > file
+  find . type f -exec echo http://commandlinefu.cn/{} \; > file
 summary: |-
-  Find all files and append to file
+  根据文件生成网址

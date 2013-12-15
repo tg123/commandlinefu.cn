@@ -1,8 +1,0 @@
-commandlinefu_id: 8294
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn ci -m "$(curl -s http://whatthecommit.com | sed -n '/<p>/,/<\/p>/p' | sed '$d' | sed 's/<p>//')"
-summary: |-
-  Check in current directory to SVN with commical/terrible commit message. (Please don't actually run this command!)

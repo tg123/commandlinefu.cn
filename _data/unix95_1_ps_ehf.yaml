@@ -1,8 +1,7 @@
 commandlinefu_id: 4756
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   UNIX95=1 ps -eHf
 summary: |-
-  ptree equivalent in HP-UX
+  在HP-UX的ptree

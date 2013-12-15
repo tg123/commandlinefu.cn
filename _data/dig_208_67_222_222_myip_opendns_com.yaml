@@ -1,8 +1,0 @@
-commandlinefu_id: 6214
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig @208.67.222.222 myip.opendns.com
-summary: |-
-  What is my public IP-address?

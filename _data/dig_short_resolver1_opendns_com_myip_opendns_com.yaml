@@ -1,8 +1,0 @@
-commandlinefu_id: 6198
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig +short @resolver1.opendns.com myip.opendns.com
-summary: |-
-  Outgoing IP of server

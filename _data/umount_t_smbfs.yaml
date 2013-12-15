@@ -1,8 +1,7 @@
 commandlinefu_id: 10298
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   umount -t smbfs
 summary: |-
-  Unmount all mounted SAMBA/Windows shares
+  卸载所有samba

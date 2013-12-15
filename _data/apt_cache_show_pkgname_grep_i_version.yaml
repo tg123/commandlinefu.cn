@@ -1,8 +1,7 @@
 commandlinefu_id: 5748
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-cache show pkgname | grep -i "version:"
 summary: |-
-  Show a Package Version on Debian based distribution
+  查看包版本

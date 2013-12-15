@@ -1,8 +1,0 @@
-commandlinefu_id: 9639
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s 'http://whatthecommit.com/' | grep '<p>' | cut -c4-
-summary: |-
-  commit message generator - whatthecommit.com
