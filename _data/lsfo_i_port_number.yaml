@@ -1,8 +1,7 @@
 commandlinefu_id: 6351
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  lsfo -i :[port number]
+  lsof -i :[port number]
 summary: |-
-  For finding out if something is listening on a port and if so what the daemon is.
+  查看谁开了端口

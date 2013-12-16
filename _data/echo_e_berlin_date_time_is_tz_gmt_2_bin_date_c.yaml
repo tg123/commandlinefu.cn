@@ -1,8 +1,0 @@
-commandlinefu_id: 8670
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "Berlin Date/Time is" `TZ=GMT-2 /bin/date \+%c`
-summary: |-
-  Get the rough (german) time from Twitter

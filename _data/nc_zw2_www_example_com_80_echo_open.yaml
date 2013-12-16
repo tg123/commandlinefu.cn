@@ -1,8 +1,7 @@
 commandlinefu_id: 4258
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   nc -zw2 www.example.com 80 && echo open
 summary: |-
-  determine if tcp port is open
+  查看tcp端口是不是打开了

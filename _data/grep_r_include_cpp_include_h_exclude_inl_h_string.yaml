@@ -1,8 +1,7 @@
 commandlinefu_id: 6082
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -R --include=*.cpp --include=*.h --exclude=*.inl.h "string" .
 summary: |-
-  Recursive grep of all c++ source under the current directory
+  递归查找c源码

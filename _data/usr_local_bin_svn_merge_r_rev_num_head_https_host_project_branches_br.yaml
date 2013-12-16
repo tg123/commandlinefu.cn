@@ -1,8 +1,7 @@
 commandlinefu_id: 1848
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  /usr/local/bin/svn merge -r {rev_num}:HEAD https://{host}/{project}/branches/{branch_name} .
+  svn merge -r {rev_num}:HEAD https://{host}/{project}/branches/{branch_name} .
 summary: |-
-  SVN Command line branch merge
+  合并分支svn

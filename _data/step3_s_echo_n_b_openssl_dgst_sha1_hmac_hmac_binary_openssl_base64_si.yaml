@@ -1,8 +1,0 @@
-commandlinefu_id: 10414
-translator:
-  weibo: ''
-hide: true
-command: |-
-  step3() { s=$(echo -n $b | openssl dgst -sha1 -hmac $hmac -binary | openssl base64); signature=`for((i=0;i<${#s};i++)); do case ${s:i:1} in +) e %2B;; /) e %2F;; =) e %3D;; *) e ${s:i:1};; esac ; done` ; } ; e() { echo -n $1; }
-summary: |-
-  Create the oauth token required for a Twitter stream feed

@@ -1,8 +1,7 @@
 commandlinefu_id: 11266
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   getent passwd | cut -d: -f1 | sort
 summary: |-
-  Lists all usernames in alphabetical order
+  所有用户名

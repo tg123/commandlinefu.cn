@@ -1,8 +1,7 @@
 commandlinefu_id: 422
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -resize 1024 *.jpg
 summary: |-
-  Resize all JPEGs in a directory
+  调整目录中jpg的大小

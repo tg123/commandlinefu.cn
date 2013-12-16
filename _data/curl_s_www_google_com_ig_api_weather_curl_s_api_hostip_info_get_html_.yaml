@@ -1,8 +1,0 @@
-commandlinefu_id: 4851
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s www.google.com/ig/api?weather=$(curl -s api.hostip.info/get_html.php?ip=$(curl -s icanhazip.com) | sed -e'1d;3d' -e's/C.*: \(.*\)/\1/' -e's/ /%20/g' -e"s/'/%27/g") | sed 's|.*<t.*f data="\([^"]*\)"/>.*|\1\n|'
-summary: |-
-  Geo Temp

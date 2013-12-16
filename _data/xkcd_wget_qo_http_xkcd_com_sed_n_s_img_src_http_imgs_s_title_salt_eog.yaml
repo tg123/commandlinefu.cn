@@ -1,8 +1,0 @@
-commandlinefu_id: 6443
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xkcd() { wget -qO- http://xkcd.com/ | sed -n 's#^<img src="\(http://imgs.[^"]\+\)"\s\+title="\(.\+\?\)"\salt.\+$#eog "\1"\necho '"'\2'#p" | bash ; }
-summary: |-
-  View the newest xkcd comic.

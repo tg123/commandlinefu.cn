@@ -1,8 +1,0 @@
-commandlinefu_id: 10419
-translator:
-  weibo: ''
-hide: true
-command: |-
-  step4() { oauth_header="Authorization: OAuth oauth_consumer_key=\"$k1\", oauth_nonce=\"$once\", oauth_signature=\"$signature\", oauth_signature_method=\"HMAC-SHA1\", oauth_timestamp=\"$ts\", oauth_token=\"$k3\", oauth_version=\"1.0\"" ; }
-summary: |-
-  Create the authorization header required for a Twitter stream feed

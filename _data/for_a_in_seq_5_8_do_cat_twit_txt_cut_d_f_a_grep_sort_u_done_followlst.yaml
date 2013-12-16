@@ -1,8 +1,0 @@
-commandlinefu_id: 12108
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for a in $(seq 5 8); do cat twit.txt | cut -d " " -f$a | grep "^@" | sort -u; done > followlst.txt
-summary: |-
-  Get fresh FollowBack list for Twitter
