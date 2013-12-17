@@ -1,8 +1,7 @@
 commandlinefu_id: 3043
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lspci
 summary: |-
-  get basic information out of your computer
+  获取pci

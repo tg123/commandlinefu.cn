@@ -1,8 +1,7 @@
 commandlinefu_id: 11862
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /path/ -type f -exec grep -l '<string of text>' {} \; | xargs sed -i -e 's%<string of text>%<new text string>%g'
 summary: |-
-  a find and replace within text-based files
+  查找并替换

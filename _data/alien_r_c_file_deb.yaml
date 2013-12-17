@@ -1,8 +1,7 @@
 commandlinefu_id: 3065
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alien -r -c file.deb
 summary: |-
-  Convert deb to rpm
+  转deb到rpm

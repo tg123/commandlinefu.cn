@@ -1,8 +1,7 @@
 commandlinefu_id: 3125
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   uptime
 summary: |-
-  how long system has been running
+  系统运行实践

@@ -1,8 +1,7 @@
 commandlinefu_id: 198
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cfvz - /home/user | netcat -l -p 10000
 summary: |-
-  tar a directory and send it to netcat
+  通过netcat传文件

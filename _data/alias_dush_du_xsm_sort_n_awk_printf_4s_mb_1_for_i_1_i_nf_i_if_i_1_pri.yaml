@@ -1,8 +1,7 @@
 commandlinefu_id: 6089
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias dush="du -xsm * | sort -n | awk '{ printf(\"%4s MB  ./\",\$1) ; for (i=1;i<=NF;i++) { if (i>1) printf(\"%s \",\$i) } ; printf(\"\n\") }' | tail"
 summary: |-
-  easily find megabyte eating files or directories
+  寻找巨大的文件

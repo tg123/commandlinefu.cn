@@ -1,8 +1,7 @@
 commandlinefu_id: 2731
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -t remote_host screen -r
 summary: |-
-  Attach screen over ssh
+  通过ssh挂一个screen

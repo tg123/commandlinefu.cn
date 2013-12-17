@@ -1,8 +1,7 @@
 commandlinefu_id: 10458
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo find foldername -type d -exec chmod 755 {} ";"
 summary: |-
-  change directory permissions whithout changing file permissions recursive
+  只改变文件夹权限(不影响文件)

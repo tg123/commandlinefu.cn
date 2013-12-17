@@ -1,8 +1,7 @@
 commandlinefu_id: 6052
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /proc/acpi/thermal_zone/THRM/temperature
 summary: |-
-  Displaying system temperature
+  显示系统温度

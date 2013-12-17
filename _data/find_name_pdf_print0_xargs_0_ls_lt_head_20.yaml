@@ -1,8 +1,7 @@
 commandlinefu_id: 12787
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name '*pdf*' -print0 | xargs -0 ls -lt | head -20
 summary: |-
-  Prints the latest modified files in a directory tree recursively
+  寻找最新修改的文件

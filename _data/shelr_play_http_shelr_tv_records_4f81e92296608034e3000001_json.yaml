@@ -1,8 +1,0 @@
-commandlinefu_id: 10566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shelr play http://shelr.tv/records/4f81e92296608034e3000001.json
-summary: |-
-  Record and share your terminal

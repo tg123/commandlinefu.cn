@@ -1,8 +1,7 @@
 commandlinefu_id: 9159
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   column -tns: /etc/passwd
 summary: |-
-  format txt as table not joining empty columns
+  格式化成表格

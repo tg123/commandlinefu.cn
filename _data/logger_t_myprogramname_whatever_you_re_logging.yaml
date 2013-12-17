@@ -1,8 +1,0 @@
-commandlinefu_id: 12849
-translator:
-  weibo: ''
-hide: true
-command: |-
-  logger -t MyProgramName "Whatever you're logging"
-summary: |-
-  creating you're logging function for your script

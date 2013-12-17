@@ -1,8 +1,7 @@
 commandlinefu_id: 12701
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function garg () { tail -n 1 ${HISTFILE} | awk "{ print \$$1 }" }
 summary: |-
-  Get the Nth argument of the last command in $HISTFILE
+  获取第n个参数

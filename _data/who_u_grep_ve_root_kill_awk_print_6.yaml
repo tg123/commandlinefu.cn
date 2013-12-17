@@ -1,8 +1,7 @@
 commandlinefu_id: 7015
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   who -u | grep -vE "^root " | kill `awk '{print $6}'`
 summary: |-
-  Command to logout all the users in one command
+  登出
