@@ -1,10 +1,12 @@
-commandlinefu.cn
-================
+[commandlinefu.cn](http://commandlinefu.cn)
+==================
 
 打造 中文版的 http://commandlinefu.com
 
 贡献你的力量
 ------------
+
+ > [@titikaka723 写的github初学者贡献参考手册](http://c.blog.sina.com.cn/profile.php?blogid=605b307f890007kg)
 
  * 下载代码
 
