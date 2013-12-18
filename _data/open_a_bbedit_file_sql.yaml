@@ -1,8 +1,7 @@
 commandlinefu_id: 5503
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   open -a BBEdit file.sql
 summary: |-
-  Open a file with specified application.
+  使用特定程序打开(OSX)

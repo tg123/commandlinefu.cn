@@ -1,8 +1,7 @@
 commandlinefu_id: 12504
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"
 summary: |-
-  show directory three
+  目录树

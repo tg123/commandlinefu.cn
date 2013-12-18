@@ -1,8 +1,0 @@
-commandlinefu_id: 10199
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo hal-get-property --udi /org/freedesktop/Hal/devices/computer --key 'system.formfactor'
-summary: |-
-  I am using a desktop?

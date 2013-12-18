@@ -1,8 +1,0 @@
-commandlinefu_id: 9699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl icanhazip.com
-summary: |-
-  Get your external public IP address

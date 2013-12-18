@@ -1,8 +1,7 @@
 commandlinefu_id: 3525
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -wlne 'print $1 if /(([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5]))/' iplist
 summary: |-
-  regex to match an ip
+  使用perl过滤ip

@@ -1,8 +1,7 @@
 commandlinefu_id: 2761
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ifconfig | grep "inet [[:alpha:]]\+" | cut -d: -f2 | cut -d' ' -f2
 summary: |-
-  Get all IPs via ifconfig
+  获取ip地址

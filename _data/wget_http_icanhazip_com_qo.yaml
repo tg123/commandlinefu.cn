@@ -1,8 +1,0 @@
-commandlinefu_id: 10258
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://icanhazip.com -qO-
-summary: |-
-  Get your outgoing IP address

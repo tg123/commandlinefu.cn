@@ -1,8 +1,7 @@
 commandlinefu_id: 10902
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   datefudge "2012-12-01 12:00" date
 summary: |-
-  Fake system time before running a command
+  使用假的时间运行命令

@@ -1,8 +1,7 @@
 commandlinefu_id: 4176
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat ~/.viminfo  | sed -n '/^:[0-9]\+,\([0-9]\+\|\$\)s/p'
 summary: |-
-  show how many regex you use in your vim today
+  看看今天vim中使用了多少regex

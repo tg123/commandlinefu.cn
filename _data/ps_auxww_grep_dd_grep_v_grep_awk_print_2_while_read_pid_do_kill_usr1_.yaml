@@ -1,8 +1,7 @@
 commandlinefu_id: 1067
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps auxww |grep " dd " |grep -v grep |awk '{print $2}' |while read pid; do kill -USR1 $pid; done
 summary: |-
-  check the status of 'dd' in progress
+  查看dd的进度

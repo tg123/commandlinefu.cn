@@ -1,7 +1,0 @@
-commandlinefu_id: 3971
-translator:
-  weibo: titikaka723 
-command: |-
-  curl -s "http://www.geody.com/geoip.php?ip=$(curl -s icanhazip.com)" | sed '/^IP:/!d;s/<[^>][^>]*>//g'
-summary: |-
-  物理IP信息 

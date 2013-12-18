@@ -1,8 +1,0 @@
-commandlinefu_id: 4828
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmlstarlet fo "http://www.google.com/ig/api?weather=$(curl -s api.hostip.info/get_html.php?ip=$(curl -s icanhazip.com)... SEE SAMPLE OUTPUT
-summary: |-
-  Geo Weather

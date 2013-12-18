@@ -1,8 +1,7 @@
 commandlinefu_id: 8587
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   touch file{1,2,3,4,5}.sh
 summary: |-
-  Create multiple files in a single command
+  如何同时操作多个文件

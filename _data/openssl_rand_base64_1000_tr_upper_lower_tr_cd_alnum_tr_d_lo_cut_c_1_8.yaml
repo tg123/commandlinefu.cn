@@ -1,8 +1,7 @@
 commandlinefu_id: 4450
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl rand -base64 1000 | tr "[:upper:]" "[:lower:]" | tr -cd "[:alnum:]" | tr -d "lo" | cut -c 1-8 | pbcopy
 summary: |-
-  generate random password
+  生成密码

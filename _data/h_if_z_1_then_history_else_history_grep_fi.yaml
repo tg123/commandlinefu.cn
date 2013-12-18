@@ -1,8 +1,7 @@
 commandlinefu_id: 3783
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   h() { if [ -z "$1" ]; then history; else history | grep "$@"; fi; }
 summary: |-
-  Display the history and optionally grep
+  查找历史

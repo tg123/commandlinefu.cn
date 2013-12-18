@@ -1,8 +1,7 @@
 commandlinefu_id: 3387
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cdrdao read-cd --device ATA:1,1,0 --driver generic-mmc-raw --read-raw image.toc
 summary: |-
-  Ripping VCD in Linux
+  在linux上烧cd

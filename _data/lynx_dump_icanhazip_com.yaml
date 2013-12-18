@@ -1,8 +1,0 @@
-commandlinefu_id: 5855
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --dump icanhazip.com
-summary: |-
-  Get your external IP address

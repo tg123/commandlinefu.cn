@@ -1,8 +1,0 @@
-commandlinefu_id: 5907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO- icanhazip.com
-summary: |-
-  Get your external IP address without curl

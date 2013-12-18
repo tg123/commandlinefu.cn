@@ -1,8 +1,7 @@
 commandlinefu_id: 5596
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tail -n2000 /var/www/domains/*/*/logs/access_log | awk '{print $1}' | sort | uniq -c | sort -n | awk '{ if ($1 > 20)print $1,$2}'
 summary: |-
-  Count number of hits per IP address in last 2000 lines of apache logs and print the IP and hits if hits > 20
+  统计访问量多余20次的ip
