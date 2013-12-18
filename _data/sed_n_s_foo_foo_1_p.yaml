@@ -1,8 +1,7 @@
 commandlinefu_id: 2736
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sed -n 's/.*<foo>\([^<]*\)<\/foo>.*/\1/p'
 summary: |-
-  Simple XML tag extract with sed
+  简单的使用sed提取xml标签

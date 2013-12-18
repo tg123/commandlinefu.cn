@@ -1,8 +1,7 @@
 commandlinefu_id: 2934
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   nc $telnetserver 23 < $commandfile
 summary: |-
-  pipe commands from a textfile to a telnet-server with netcat
+  使用netcat把文本文件中的命令发送到一个telnet服务器上

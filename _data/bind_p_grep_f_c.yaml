@@ -1,8 +1,7 @@
 commandlinefu_id: 45
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   bind -p | grep -F "\C"
 summary: |-
-  Display all readline binding that use CTRL
+  显示所有使用CTRL的readline按键绑定

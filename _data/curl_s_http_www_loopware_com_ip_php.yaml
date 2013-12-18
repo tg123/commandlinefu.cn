@@ -1,8 +1,7 @@
 commandlinefu_id: 4287
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   curl -s 'http://www.loopware.com/ip.php'
 summary: |-
-  Get your public ip using dyndns
+  使用dyndns获取ip

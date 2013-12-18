@@ -1,8 +1,7 @@
 commandlinefu_id: 12542
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   curl -s http://www.census.gov/popclock/data/population/world | python -c 'import json,sys;obj=json.load(sys.stdin);print obj["world"]["population"]'
 summary: |-
-  Fetch the current human population of Earth
+  获取地球上当前的总人口

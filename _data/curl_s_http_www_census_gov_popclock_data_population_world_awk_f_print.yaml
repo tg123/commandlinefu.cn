@@ -1,8 +1,7 @@
 commandlinefu_id: 12543
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   curl -s http://www.census.gov/popclock/data/population/world | awk -F'[:,]' '{print $7}'
 summary: |-
-  Fetch the current human population of Earth
+  获取地球上当前的总人口

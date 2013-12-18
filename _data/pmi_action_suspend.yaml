@@ -1,8 +1,7 @@
 commandlinefu_id: 11767
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   pmi action suspend
 summary: |-
-  Suspend to ram
+  挂起

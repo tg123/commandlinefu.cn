@@ -1,8 +1,7 @@
 commandlinefu_id: 1076
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
-  this command is to see oracle instance process on linux server
-summary: |-
   ps- ef | grep pmon
+summary: |-
+  在linux服务器上查看oracle实例的进程号
