@@ -1,8 +1,0 @@
-commandlinefu_id: 8174
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -I g.cn
-summary: |-
-  Display HTTP-header using curl

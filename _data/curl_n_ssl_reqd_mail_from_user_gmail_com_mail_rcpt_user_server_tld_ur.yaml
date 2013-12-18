@@ -1,8 +1,0 @@
-commandlinefu_id: 6716
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -n --ssl-reqd --mail-from "<user@gmail.com>" --mail-rcpt "<user@server.tld>" --url smtps://smtp.gmail.com:465 -T file.txt
-summary: |-
-  Send email with curl and gmail

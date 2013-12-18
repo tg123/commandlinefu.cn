@@ -1,8 +1,0 @@
-commandlinefu_id: 10683
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep "$1" urls.txt | awk '{print "curl --write-out "$0"=http-%{http_code}\"\n\" --silent --output /dev/null "$0'} | sh >> responses.txt
-summary: |-
-  Reads a list of urls, fetches each one and logs the url and http status code

@@ -1,8 +1,0 @@
-commandlinefu_id: 10332
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO- -U '' 'google.com/search?q=weather' | grep -oP '(-)?\d{1,3}\xB0[FC]'
-summary: |-
-  Weather

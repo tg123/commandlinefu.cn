@@ -1,8 +1,0 @@
-commandlinefu_id: 4072
-translator:
-  weibo: ''
-hide: true
-command: |-
-  geoip () {  curl -s "http://www.geoiptool.com/?IP=$1" | html2text | egrep --color 'City:|IP Address:|Country:' }
-summary: |-
-  Provides external IP, Country and City in a formated manner.

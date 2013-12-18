@@ -1,8 +1,0 @@
-commandlinefu_id: 239
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://whatismyip.org/
-summary: |-
-  Get My Public IP Address

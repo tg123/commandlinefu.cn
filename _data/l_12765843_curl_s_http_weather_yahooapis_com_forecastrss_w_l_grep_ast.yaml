@@ -1,8 +1,0 @@
-commandlinefu_id: 6882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  l=12765843;curl -s http://weather.yahooapis.com/forecastrss?w=$l|grep astronomy| awk -F\" '{print $2 "\n" $4;}'
-summary: |-
-  Get sunrise and sunset times

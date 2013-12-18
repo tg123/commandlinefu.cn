@@ -1,7 +1,0 @@
-commandlinefu_id: 4287
-translator:
-  weibo: codepiano
-command: |-
-  curl -s 'http://www.loopware.com/ip.php'
-summary: |-
-  使用dyndns获取ip

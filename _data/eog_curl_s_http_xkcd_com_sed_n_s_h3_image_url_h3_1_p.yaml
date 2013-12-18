@@ -1,8 +1,0 @@
-commandlinefu_id: 6481
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eog `curl -s http://xkcd.com/ | sed -n 's/<h3>Image URL.*: \(.*\)<\/h3>/\1/p'`
-summary: |-
-  View the newest xkcd comic.

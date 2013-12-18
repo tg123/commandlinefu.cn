@@ -1,8 +1,0 @@
-commandlinefu_id: 10304
-translator:
-  weibo: ''
-hide: true
-command: |-
-  open R,"curl -s http://feeds2.feedburner.com/Command-line-fu|xml2|"; while(<R>){ chomp; m(^/rss/channel/item/title=) and do{ s/^.*?=//; ($t,$d,$l)=($_,undef,undef) }; m(^/rss/channel/item/description=) and do{ s/^.*?=//; push @d,$_ }; m(^/rss/channel/item
-summary: |-
-  interactive rss-based colorful commandline-fu reader perl oneliner (v0.1)

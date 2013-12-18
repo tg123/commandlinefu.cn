@@ -1,8 +1,0 @@
-commandlinefu_id: 5725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://github.com/api/v1/yaml/search/vim
-summary: |-
-  Get info about a GitHub project

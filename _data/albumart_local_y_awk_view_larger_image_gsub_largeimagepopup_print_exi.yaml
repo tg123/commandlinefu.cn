@@ -1,8 +1,0 @@
-commandlinefu_id: 4073
-translator:
-  weibo: ''
-hide: true
-command: |-
-  albumart(){ local y="$@";awk '/View larger image/{gsub(/^.*largeImagePopup\(.|., .*$/,"");print;exit}' <(curl -s 'http://www.albumart.org/index.php?srchkey='${y// /+}'&itempage=1&newsearch=1&searchindex=Music');}
-summary: |-
-  Find the cover image for an album

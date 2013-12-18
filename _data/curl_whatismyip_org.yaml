@@ -1,8 +1,0 @@
-commandlinefu_id: 9487
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl whatismyip.org
-summary: |-
-  What is my IP address?

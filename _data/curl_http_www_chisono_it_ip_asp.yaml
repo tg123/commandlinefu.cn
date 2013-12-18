@@ -1,8 +1,0 @@
-commandlinefu_id: 9353
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://www.chisono.it/ip.asp
-summary: |-
-  Get your public IP using chisono.it

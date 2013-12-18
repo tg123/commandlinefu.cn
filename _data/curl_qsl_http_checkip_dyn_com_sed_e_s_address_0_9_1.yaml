@@ -1,8 +1,0 @@
-commandlinefu_id: 11442
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -qsL http://checkip.dyn.com | sed -E "s/^.*Address: ([0-9\.]+).*$/\1/"
-summary: |-
-  Get external IP address

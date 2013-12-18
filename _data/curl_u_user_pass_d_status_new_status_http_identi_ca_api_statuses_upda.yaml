@@ -1,8 +1,0 @@
-commandlinefu_id: 2181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -u USER:PASS -d status="NEW STATUS" http://identi.ca/api/statuses/update.xml
-summary: |-
-  Updating the status on identi.ca using curl.

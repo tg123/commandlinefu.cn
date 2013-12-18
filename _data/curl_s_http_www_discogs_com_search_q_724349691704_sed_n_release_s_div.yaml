@@ -1,8 +1,0 @@
-commandlinefu_id: 7765
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s 'http://www.discogs.com/search?q=724349691704' | sed -n '\#/release/#{s/^<div>.*>\(.*\)<\/a><\/div>/\1/p}'
-summary: |-
-  Find artist and title of a music cd, UPC code given (first result only)

@@ -1,8 +1,0 @@
-commandlinefu_id: 2086
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s 'http://download.finance.yahoo.com/d/quotes.csv?s=csco&f=l1'
-summary: |-
-  Command Line to Get the Stock Quote via Yahoo

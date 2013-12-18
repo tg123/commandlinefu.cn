@@ -1,8 +1,0 @@
-commandlinefu_id: 8878
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s --compressed http://funnyjunk.com | awk -F'"' '/ '"'"'mainpagetop24h'"'"'/ { print "http://funnyjunk.com"$4 }' | xargs curl -s | grep -o 'ht.*m/pictures/.*\.jpg\|ht.*m/gifs/.*\.gif' | grep "_......_" | uniq | xargs wget
-summary: |-
-  Download 40 top funnyjunk Images to the current directory

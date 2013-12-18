@@ -1,7 +1,0 @@
-commandlinefu_id: 12522
-translator:
-  weibo: '猪了个去'
-command: |-
-  curl -s $1 | grep -o -i '<a href="//images.4chan.org/[^>]*>' | sed -r 's%.*"//([^"]*)".*%\1%' | xargs wget
-summary: |-
-  从一个4chan线程下载全部图片

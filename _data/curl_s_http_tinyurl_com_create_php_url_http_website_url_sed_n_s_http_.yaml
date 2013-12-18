@@ -1,8 +1,0 @@
-commandlinefu_id: 3252
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://tinyurl.com/create.php?url=http://<website.url>/ | sed -n 's/.*\(http:\/\/tinyurl.com\/[a-z0-9][a-z0-9]*\).*/\1/p' | uniq
-summary: |-
-  Creating shortened URLs from the command line

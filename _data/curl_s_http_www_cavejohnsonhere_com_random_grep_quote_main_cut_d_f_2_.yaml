@@ -1,8 +1,0 @@
-commandlinefu_id: 8418
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://www.cavejohnsonhere.com/random/ | grep quote_main | cut -d \> -f 2- | fmt -w $(tput cols)
-summary: |-
-  The wisdom of Cave Johnson

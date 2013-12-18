@@ -1,8 +1,0 @@
-commandlinefu_id: 12394
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl l2.io/ip
-summary: |-
-  Get your external IP address

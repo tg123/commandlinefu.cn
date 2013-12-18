@@ -1,8 +1,0 @@
-commandlinefu_id: 1349
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -c -v -S -T 100 --tries=0 `curl -s http://ms1.espectador.com/ podcast/espectador/la_venganza_sera_terrible.xml | grep -v xml | grep link | sed 's/]*>//g'`
-summary: |-
-  Download a complete podcast

@@ -1,8 +1,0 @@
-commandlinefu_id: 1825
-translator:
-  weibo: ''
-hide: true
-command: |-
-  u=`curl -d 'dl.start=Free' $(curl $1|perl -wpi -e 's/^.*"(http:\/\/rs.*)" method.*$/$1/'|egrep '^http'|head -n1)|grep "Level(3) \#2"|perl -wpi -e 's/^.*(http:\/\/rs[^\\\\]*).*$/$1/'`;sleep 60;wget $u
-summary: |-
-  rapidshare download script in 200 characters

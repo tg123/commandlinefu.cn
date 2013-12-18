@@ -1,8 +1,0 @@
-commandlinefu_id: 10998
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://checkrealip.com/ | grep "Current IP Address" | cut -d ' ' -f 4
-summary: |-
-  Get your current Public IP

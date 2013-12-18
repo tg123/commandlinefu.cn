@@ -1,8 +1,0 @@
-commandlinefu_id: 11383
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s mi-ip.net | grep '"ip"' | cut -f2 -d ">" | egrep -o '[0-9.]+'
-summary: |-
-  What is my ip?

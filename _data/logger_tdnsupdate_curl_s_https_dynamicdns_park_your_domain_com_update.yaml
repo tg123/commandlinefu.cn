@@ -1,8 +1,0 @@
-commandlinefu_id: 12597
-translator:
-  weibo: ''
-hide: true
-command: |-
-  logger -tdnsupdate $(curl -s 'https://dynamicdns.park-your-domain.com/update?host=@&domain=xxx&password=xxx'|tee -a /root/dnsupdate|perl -pe'/Count>(\d+)<\/Err/;$_=$1eq"0"?"Update Sucessful":"Update failed"'&&date>>/root/dnsupdate)
-summary: |-
-  Update a namecheap @ A record to point to your current internet-facing IP address

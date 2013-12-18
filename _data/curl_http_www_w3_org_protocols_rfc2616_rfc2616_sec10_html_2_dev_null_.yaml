@@ -1,7 +1,0 @@
-commandlinefu_id: 11970
-translator:
-  weibo: tgic
-command: |-
-  curl http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html 2>/dev/null | grep '^<h3' | grep -v '^\d' | perl -pe 's/^.*(?<=(\d\d\d)) (.*)<\/h3>$/$1 : $2/' | grep -v h3
-summary: |-
-  获取http状态码

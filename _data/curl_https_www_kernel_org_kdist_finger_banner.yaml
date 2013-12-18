@@ -1,8 +1,0 @@
-commandlinefu_id: 10370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl 'https://www.kernel.org/kdist/finger_banner'
-summary: |-
-  Output the latest linux kernel versions from kernel.org

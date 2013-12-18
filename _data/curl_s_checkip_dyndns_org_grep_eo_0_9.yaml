@@ -1,8 +1,0 @@
-commandlinefu_id: 3900
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+'
-summary: |-
-  What is my ip?

@@ -1,8 +1,0 @@
-commandlinefu_id: 6934
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -O http://s3.amazonaws.com/alexa-static/top-1m.csv.zip ; unzip -q -o top-1m.csv.zip top-1m.csv ; head -1000 top-1m.csv | cut -d, -f2 | cut -d/ -f1 > topsites.txt
-summary: |-
-  get a list of top 1000 sites from alexa

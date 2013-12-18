@@ -1,8 +1,0 @@
-commandlinefu_id: 5074
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -X POST http://www.jsonlint.com/ajax/validate -d json="`cat file.js`" -d reformat=no
-summary: |-
-  validate json

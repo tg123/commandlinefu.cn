@@ -1,8 +1,0 @@
-commandlinefu_id: 6442
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eog `curl 'http://xkcd.com/' | awk -F "ng): |</h" '/embedding/{print $2}'`
-summary: |-
-  View the newest xkcd comic.

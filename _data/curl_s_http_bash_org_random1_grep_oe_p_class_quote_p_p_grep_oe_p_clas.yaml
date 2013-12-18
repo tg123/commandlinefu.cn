@@ -1,8 +1,0 @@
-commandlinefu_id: 2116
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://bash.org/?random1|grep -oE "<p class=\"quote\">.*</p>.*</p>"|grep -oE "<p class=\"qt.*?</p>"|sed -e 's/<\/p>/\n/g' -e 's/<p class=\"qt\">//g' -e 's/<p class=\"qt\">//g'|perl -ne 'use HTML::Entities;print decode_entities($_),"\n"'|head -1
-summary: |-
-  Random line from bash.org  (funny IRC quotes)

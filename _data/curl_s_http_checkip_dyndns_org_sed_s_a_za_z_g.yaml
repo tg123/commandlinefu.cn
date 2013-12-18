@@ -1,8 +1,0 @@
-commandlinefu_id: 746
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z<>/ :]//g'
-summary: |-
-  Another Curl your IP command

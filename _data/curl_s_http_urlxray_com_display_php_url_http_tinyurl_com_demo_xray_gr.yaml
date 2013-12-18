@@ -1,8 +1,0 @@
-commandlinefu_id: 6692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://urlxray.com/display.php?url=http://tinyurl.com/demo-xray | grep -o '<title>.*</title>' | sed 's/<title>.*--> \(.*\)<\/title>/\1/g'
-summary: |-
-  See where a shortened url takes you before click

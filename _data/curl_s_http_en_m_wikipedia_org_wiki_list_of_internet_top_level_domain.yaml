@@ -1,8 +1,0 @@
-commandlinefu_id: 11683
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains | sed -n '/<tr valign="top">/{s/<[^>]*>//g;p}'
-summary: |-
-  Oneliner to get domain names list of all existing domain names (from wikipedia)

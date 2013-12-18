@@ -1,8 +1,0 @@
-commandlinefu_id: 6834
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in `cat urls.txt`; do echo -n "$file " >> log.txt; curl --head $file >> log.txt ; done
-summary: |-
-  Get all the HTTP HEAD responses from a list of urls in a file

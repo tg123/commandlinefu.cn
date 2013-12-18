@@ -1,8 +1,0 @@
-commandlinefu_id: 12891
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(curl http://ipecho.net/plain 2> /dev/null)
-summary: |-
-  gets your public IP address

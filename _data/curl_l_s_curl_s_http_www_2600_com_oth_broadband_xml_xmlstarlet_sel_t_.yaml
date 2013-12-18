@@ -1,8 +1,0 @@
-commandlinefu_id: 6207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -L -s `curl -s http://www.2600.com/oth-broadband.xml` | xmlstarlet sel -t -m "//enclosure[1]" -v "@url" -n | head -n 1` | ssh -t [user]@[host] "mpg123 -"
-summary: |-
-  Play 2600 off the hook over ssh

@@ -1,8 +1,0 @@
-commandlinefu_id: 4291
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -sL 'dynamic.xkcd.com/comic/random/' | awk -F\" '/^<img/{printf("<?xml version=\"1.0\"?>\n<xkcd>\n<item>\n <title>%s</title>\n <comment>%s</comment>\n <image>%s</image>\n</item>\n</xkcd>\n", $6, $4, $2)}'
-summary: |-
-  random xkcd comic as xml

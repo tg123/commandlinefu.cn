@@ -1,8 +1,0 @@
-commandlinefu_id: 78
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -O http://hosted.met-art.com/generated_gallery/full/061606AnnaUkrainePasha/met-art-free-sample-00[00-19].jpg
-summary: |-
-  bulk dl files based on a pattern

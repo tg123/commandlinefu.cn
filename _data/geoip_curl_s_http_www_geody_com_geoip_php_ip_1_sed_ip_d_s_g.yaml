@@ -1,8 +1,0 @@
-commandlinefu_id: 3835
-translator:
-  weibo: ''
-hide: true
-command: |-
-  geoip(){curl -s "http://www.geody.com/geoip.php?ip=${1}" | sed '/^IP:/!d;s/<[^>][^>]*>//g' ;}
-summary: |-
-  geoip lookup

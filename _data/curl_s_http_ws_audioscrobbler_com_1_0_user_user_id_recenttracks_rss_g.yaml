@@ -1,8 +1,0 @@
-commandlinefu_id: 7199
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://ws.audioscrobbler.com/1.0/user/<user_id>/recenttracks.rss|grep '<title>'|sed -n '2s/ *<\/\?title>//gp'
-summary: |-
-  Get curenttly playing track in Last.fm radio

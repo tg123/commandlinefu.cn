@@ -1,8 +1,0 @@
-commandlinefu_id: 8274
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl --silent "FEED ADDRESS" |sed -e 's/<\/[^>]*>/\n/g' -e 's/<[^>]*>//g
-summary: |-
-  Quick and dirty RSS

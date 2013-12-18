@@ -1,8 +1,0 @@
-commandlinefu_id: 5826
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s "http://ajax.googleapis.com/ajax/services/language/translate?langpair=|en&v=1.0&q=`xsel`" |cut -d \" -f 6
-summary: |-
-  translate what is in the clipboard in english and write it to the terminal

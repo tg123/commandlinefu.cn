@@ -1,8 +1,0 @@
-commandlinefu_id: 1646
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias myip='curl -s www.wieistmeineip.de | egrep -o "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"'
-summary: |-
-  Shows your WAN IP, when you`re sitting behind a router

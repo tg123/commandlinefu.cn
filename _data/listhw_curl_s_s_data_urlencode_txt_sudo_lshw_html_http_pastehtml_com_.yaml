@@ -1,8 +1,0 @@
-commandlinefu_id: 9431
-translator:
-  weibo: ''
-hide: true
-command: |-
-  listhw(){ curl -s -S --data-urlencode "txt=$(sudo lshw -html)" "http://pastehtml.com/upload/create?input_type=html&result=address";echo;}
-summary: |-
-  Paste hardware list (hwls) in html format into pastehtml.com directly from console and return URI.

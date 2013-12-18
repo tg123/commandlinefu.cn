@@ -1,8 +1,0 @@
-commandlinefu_id: 9926
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl --silent http://exsample.com/ | xmllint --html --format - | more
-summary: |-
-  html formatting

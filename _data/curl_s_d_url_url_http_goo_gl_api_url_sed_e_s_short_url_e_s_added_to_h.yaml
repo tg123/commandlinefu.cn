@@ -1,8 +1,0 @@
-commandlinefu_id: 6709
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -d'&url=URL' http://goo.gl/api/url | sed -e 's/{"short_url":"//' -e 's/","added_to_history":false}/\n/'
-summary: |-
-  Google URL shortener

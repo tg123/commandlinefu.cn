@@ -1,8 +1,0 @@
-commandlinefu_id: 9515
-translator:
-  weibo: tgic
-hide: false
-command: |
-  expandurl() { curl -sIL $1 | grep ^Location; }
-summary: |-
-  None

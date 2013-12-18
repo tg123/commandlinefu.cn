@@ -1,8 +1,0 @@
-commandlinefu_id: 10562
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl ip.nu
-summary: |-
-  Get your external IP address ( 10 characters long )

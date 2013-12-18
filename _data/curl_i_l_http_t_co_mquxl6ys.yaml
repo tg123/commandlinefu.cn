@@ -1,8 +1,0 @@
-commandlinefu_id: 10519
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -I -L http://t.co/mQUxL6yS
-summary: |-
-  lookup a short url with curl

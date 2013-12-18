@@ -1,8 +1,0 @@
-commandlinefu_id: 9510
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://www.cpan.org/modules/01modules.index.html |awk '{print $1}'|grep -v "<"|sort|uniq -c|grep -v " +[0-9] "
-summary: |-
-  List the popular module namespaces on CPAN

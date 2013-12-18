@@ -1,8 +1,0 @@
-commandlinefu_id: 7270
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function 4get () { curl $1 | grep -i "File<a href" | awk -F '<a href="' '{print $4}' | awk -F '" ' '{print $1}' | xargs wget }
-summary: |-
-  Download all images from a 4chan thread

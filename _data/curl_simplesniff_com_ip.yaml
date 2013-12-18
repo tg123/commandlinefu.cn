@@ -1,8 +1,0 @@
-commandlinefu_id: 11440
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl simplesniff.com/ip
-summary: |-
-  Fastest way to get public IP

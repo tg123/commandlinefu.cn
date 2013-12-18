@@ -1,7 +1,0 @@
-commandlinefu_id: 12544
-translator:
-  weibo: codepiano
-command: |-
-  curl -s http://www.census.gov/popclock/data/population/world | jshon -e world -e population -u
-summary: |-
-  获取地球上当前的总人口

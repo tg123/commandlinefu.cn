@@ -1,8 +1,0 @@
-commandlinefu_id: 9014
-translator:
-  weibo: ''
-hide: true
-command: |-
-  isgd () { curl 'http://is.gd/create.php?format=simple&url='"$1" ; printf "\n" }
-summary: |-
-  Generate a shortened URL with is.gd

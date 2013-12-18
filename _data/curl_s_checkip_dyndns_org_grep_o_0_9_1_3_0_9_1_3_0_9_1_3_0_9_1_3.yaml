@@ -1,8 +1,0 @@
-commandlinefu_id: 10394
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s checkip.dyndns.org|grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}'
-summary: |-
-  What is my public IP address

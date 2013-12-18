@@ -1,7 +1,0 @@
-commandlinefu_id: 1998
-translator:
-  weibo: titikaka723 
-command: |-
-  curl -f -O http://pcbsd.fastbull.org/7.0.2/i386/PCBSD7.0.2-x86-DVD.iso
-summary: |-
-  下载某个文件 

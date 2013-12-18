@@ -1,8 +1,0 @@
-commandlinefu_id: 4003
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mpg123 `curl -s http://blip.fm/all | sed -e 's#"#\n#g'  | grep mp3$  | xargs`
-summary: |-
-  Play random music from blip.fm

@@ -1,8 +1,0 @@
-commandlinefu_id: 5637
-translator:
-  weibo: ''
-hide: true
-command: |-
-  d="www.dafont.com/alpha.php?";for c in {a..z}; do l=`curl -s "${d}lettre=${c}"|sed -n 's/.*ge=\([0-9]\{2\}\).*/\1/p'`;for((p=1;p<=l;p++));do for u in `curl -s "${d}page=${p}&lettre=${c}"|egrep -o "http\S*.com/dl/\?f=\w*"`;do aria2c "${u}";done;done;done
-summary: |-
-  Fetch every font from dafont.com to current folder

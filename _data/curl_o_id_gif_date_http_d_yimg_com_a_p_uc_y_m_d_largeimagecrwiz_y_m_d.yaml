@@ -1,8 +1,0 @@
-commandlinefu_id: 4221
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -o id.gif `date +http://d.yimg.com/a/p/uc/%Y%m%d/largeimagecrwiz%y%m%d.gif`
-summary: |-
-  get daily wizard of id comic

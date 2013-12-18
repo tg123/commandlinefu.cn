@@ -1,8 +1,0 @@
-commandlinefu_id: 11738
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://en.wikipedia.org/wiki/List_of_programming_languages | grep "<li>" | awk -F"title=" '{ print $2 }' | awk -F\" '{ print $2 }'
-summary: |-
-  Command to get list of all existing programming languages from Wikipedia article

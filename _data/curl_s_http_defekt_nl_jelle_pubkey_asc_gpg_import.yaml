@@ -1,8 +1,0 @@
-commandlinefu_id: 2449
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://defekt.nl/~jelle/pubkey.asc | gpg --import
-summary: |-
-  import gpg key from the web

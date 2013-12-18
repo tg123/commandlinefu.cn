@@ -1,8 +1,0 @@
-commandlinefu_id: 5183
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://www.reddit.com/r/wallpapers.rss | grep -Eo 'http:[^&]+jpg' | head -1 | xargs feh --bg-seamless
-summary: |-
-  set desktop background to highest-rated image from Reddit /r/wallpapers

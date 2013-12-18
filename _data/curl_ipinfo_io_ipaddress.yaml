@@ -1,8 +1,0 @@
-commandlinefu_id: 12868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl ipinfo.io/<ipaddress>
-summary: |-
-  Geolocate a given IP address

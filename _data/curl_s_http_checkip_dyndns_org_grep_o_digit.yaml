@@ -1,8 +1,0 @@
-commandlinefu_id: 2170
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://checkip.dyndns.org/ | grep -o "[[:digit:].]\+"
-summary: |-
-  Get your public ip using dyndns

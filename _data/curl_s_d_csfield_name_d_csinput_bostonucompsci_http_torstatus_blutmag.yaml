@@ -1,8 +1,0 @@
-commandlinefu_id: 10404
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -d "CSField=Name" -d "CSInput=BostonUCompSci" http://torstatus.blutmagie.de/index.php | grep -oP "ip=\K(\d+)(\.\d+){3}"
-summary: |-
-  Get IP address from Tor exit-node

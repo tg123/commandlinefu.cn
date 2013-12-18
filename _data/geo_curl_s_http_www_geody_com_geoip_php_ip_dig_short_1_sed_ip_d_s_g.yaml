@@ -1,8 +1,0 @@
-commandlinefu_id: 4055
-translator:
-  weibo: ''
-hide: true
-command: |-
-  geo(){ curl -s "http://www.geody.com/geoip.php?ip=$(dig +short $1)"| sed '/^IP:/!d;s/<[^>][^>]*>//g'; }
-summary: |-
-  geoip information

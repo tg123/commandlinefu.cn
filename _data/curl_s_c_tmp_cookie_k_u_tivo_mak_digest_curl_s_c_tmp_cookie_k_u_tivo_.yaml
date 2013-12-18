@@ -1,8 +1,0 @@
-commandlinefu_id: 3644
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -c /tmp/cookie -k -u tivo:$MAK --digest "$(curl -s -c /tmp/cookie -k -u tivo:$MAK --digest https://$tivo/nowplaying/index.html | sed 's;.*<a href="\([^"]*\)">Download MPEG-PS</a>.*;\1;' | sed 's|\&amp;|\&|')" | tivodecode -m $MAK -- - > tivo.mpg
-summary: |-
-  Download a TiVo Show

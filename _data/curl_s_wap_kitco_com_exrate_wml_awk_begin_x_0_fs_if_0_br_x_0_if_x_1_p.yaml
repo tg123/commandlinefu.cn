@@ -1,8 +1,0 @@
-commandlinefu_id: 3216
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s wap.kitco.com/exrate.wml | awk ' BEGIN { x=0; FS = "<" } { if ($0~"^<br/>") {x=0} if (x==1) {print $1} if ($0~"EUR/US") {x=1} }'
-summary: |-
-  Get Dollar-Euro exchage rate

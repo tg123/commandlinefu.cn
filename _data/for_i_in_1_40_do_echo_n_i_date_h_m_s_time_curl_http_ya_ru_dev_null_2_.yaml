@@ -1,7 +1,0 @@
-commandlinefu_id: 9677
-translator:
-  weibo: titikaka723 
-command: |-
-  for i in {1..40};do echo -n $i. $(date +%H:%M:%S):\ ; (time curl 'http://ya.ru/' &> /dev/null) 2>&1|grep real;sleep 1;done
-summary: |-
-  Web服务的响应时间测量 

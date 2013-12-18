@@ -1,8 +1,0 @@
-commandlinefu_id: 1170
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s 'http://www.trynt.com/astrology-horoscope-api/v2/?m=2&d=23' | xmlstarlet sel -t -m '//horoscope' -v 'horoscope' | festival --tts
-summary: |-
-  Speak your horoscope with the command line

@@ -1,8 +1,0 @@
-commandlinefu_id: 7544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(curl -u <username> http://app.boxee.tv/api/get_queue | xml2 | grep /boxeefeed/message/object/url | cut -d "=" -f 2,3); do get_flash_videos $i; done
-summary: |-
-  Download all videos in your Boxee queue

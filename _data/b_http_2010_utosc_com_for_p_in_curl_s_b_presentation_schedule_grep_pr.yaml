@@ -1,8 +1,0 @@
-commandlinefu_id: 3765
-translator:
-  weibo: ''
-hide: true
-command: |-
-  b="http://2010.utosc.com"; for p in $( curl -s $b/presentation/schedule/ | grep /presentation/[0-9]*/ | cut -d"\"" -f2 ); do f=$(curl -s $b$p | grep "/static/slides/" | cut -d"\"" -f4); if [ -n "$f" ]; then echo $b$f; curl -O $b$f; fi done
-summary: |-
-  download all the presentations from UTOSC2010

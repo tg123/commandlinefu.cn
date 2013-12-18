@@ -1,8 +1,0 @@
-commandlinefu_id: 3249
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://flip-edesign.com/scripts/system_info | bash
-summary: |-
-  Quick system hardware overview

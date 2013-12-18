@@ -1,8 +1,0 @@
-commandlinefu_id: 4083
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apod(){ local x=http://antwrp.gsfc.nasa.gov/apod/;feh $x$(curl -s ${x}astropix.html|grep -Pom1 'image/\d+/.*\.\w+');}
-summary: |-
-  View the latest astronomy picture of the day from NASA.

@@ -1,8 +1,0 @@
-commandlinefu_id: 3624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O - 'http://wap.weather.gov.hk/' | sed -r 's/<[^>]+>//g;/^UV/q' | grep -v '^$'
-summary: |-
-  get Hong Kong weather infomation from HK Observatory

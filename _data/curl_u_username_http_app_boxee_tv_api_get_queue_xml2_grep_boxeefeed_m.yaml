@@ -1,8 +1,0 @@
-commandlinefu_id: 4622
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -u <username> http://app.boxee.tv/api/get_queue | xml2 | grep /boxeefeed/message/description | awk -F= '{print $2}'
-summary: |-
-  List your Boxee queue

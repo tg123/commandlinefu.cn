@@ -1,8 +1,0 @@
-commandlinefu_id: 3623
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl "http://www.house.gov/house/MemberWWW.shtml" 2>/dev/null | sed -e :a -e 's/<[^>]*>//g;/</N;//ba' | perl -nle 's/^\t\t(.*$)/ $1/ and print;'
-summary: |-
-  Print all members of US House of Representatives

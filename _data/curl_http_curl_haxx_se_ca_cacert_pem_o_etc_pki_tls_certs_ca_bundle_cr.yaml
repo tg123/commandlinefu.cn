@@ -1,8 +1,0 @@
-commandlinefu_id: 11877
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl http://curl.haxx.se/ca/cacert.pem -o /etc/pki/tls/certs/ca-bundle.crt
-summary: |-
-  Fixes Centos 6.2 yum's metalink certificate errors

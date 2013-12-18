@@ -1,8 +1,0 @@
-commandlinefu_id: 10997
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias myip='curl -s http://checkrealip.com/ | grep "Current IP Address"'
-summary: |-
-  Get your current Public IP

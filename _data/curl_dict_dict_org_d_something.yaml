@@ -1,7 +1,0 @@
-commandlinefu_id: 1884
-translator:
-  weibo: codepiano
-command: |-
-  curl dict://dict.org/d:something
-summary: |-
-  查询单词

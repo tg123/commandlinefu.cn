@@ -1,8 +1,0 @@
-commandlinefu_id: 11012
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://smacie.com/randomizer/borat.html | sed -nE "s# *<td valign=\"top\"><big><big><big><font face=\"Comic Sans MS\">(.*)</font></big></big></big></td>#\1#p"
-summary: |-
-  Random quote from Borat

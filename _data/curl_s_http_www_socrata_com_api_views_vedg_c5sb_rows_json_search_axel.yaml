@@ -1,8 +1,0 @@
-commandlinefu_id: 5973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s "http://www.socrata.com/api/views/vedg-c5sb/rows.json?search=Axelrod" | grep "data\" :" | awk '{ print $17 }'
-summary: |-
-  Find the annual salary of any White House staffer.

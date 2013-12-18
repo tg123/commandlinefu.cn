@@ -1,8 +1,0 @@
-commandlinefu_id: 11134
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget --no-use-server-timestamps  $(curl $(curl http://wallbase.cc/random/23/eqeq/1920x1080/0/100/20 | grep 'wallpaper/' | awk -F'"' '{print $2}' | head -n1) | grep -A4 bigwall | grep img | awk -F'"' '{print $2}'); feh --bg-center $(ls -1t | head -n1)
-summary: |-
-  Random (sfw, 1920x1080) wallpaper from wallbase.cc

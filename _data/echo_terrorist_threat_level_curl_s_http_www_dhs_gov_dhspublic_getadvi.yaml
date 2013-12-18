@@ -1,8 +1,0 @@
-commandlinefu_id: 7743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Terrorist threat level: $(curl -s 'http://www.dhs.gov/dhspublic/getAdvisoryCondition' | awk -F\" 'NR==2{ print $2 }')"
-summary: |-
-  Terrorist threat level text

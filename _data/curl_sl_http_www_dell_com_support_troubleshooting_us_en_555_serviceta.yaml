@@ -1,8 +1,0 @@
-commandlinefu_id: 12567
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -sL http://www.dell.com/support/troubleshooting/us/en/555/Servicetag/$(dmidecode -s system-serial-number) | html2text -style pretty | awk -F\. '/with an end date of/ { print $1 "."}'
-summary: |-
-  Get DELL Warranty Information from support.dell.com

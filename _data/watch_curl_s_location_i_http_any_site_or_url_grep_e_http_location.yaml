@@ -1,8 +1,0 @@
-commandlinefu_id: 10648
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch 'curl -s --location -I http://any.site.or.url | grep -e "\(HTTP\|Location\)"'
-summary: |-
-  Debug redirects between production reloads

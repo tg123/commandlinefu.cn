@@ -1,8 +1,0 @@
-commandlinefu_id: 4253
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s "http://is.gd/api.php?longurl=[long_url]"
-summary: |-
-  Shorten url with is.gd using curl, perl
