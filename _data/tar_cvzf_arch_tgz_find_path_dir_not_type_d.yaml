@@ -1,8 +1,7 @@
 commandlinefu_id: 4355
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   tar -cvzf arch.tgz $(find /path/dir -not -type d)
 summary: |-
-  Tar - Compress by excluding folders
+  Tar - 排除某些目录进行压缩

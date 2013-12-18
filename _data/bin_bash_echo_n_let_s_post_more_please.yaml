@@ -1,8 +1,7 @@
 commandlinefu_id: 4802
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   /bin/bash echo -n "Let's POST MORE, PLEASE!"
 summary: |-
-  Getting involved!!
+  重在参与！

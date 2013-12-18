@@ -1,8 +1,7 @@
 commandlinefu_id: 419
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   watch -n 15 curl -s --connect-timeout 10 http://www.google.com/
 summary: |-
-  Watch for when your web server returns
+  观察你的服务器是否返回

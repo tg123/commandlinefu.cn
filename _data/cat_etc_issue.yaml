@@ -1,8 +1,7 @@
 commandlinefu_id: 8692
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cat /etc/issue
 summary: |-
-  Find Out My Linux Distribution Name and Version
+  显示Linux发行版的名称和版本
