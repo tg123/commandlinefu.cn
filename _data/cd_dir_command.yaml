@@ -1,8 +1,7 @@
 commandlinefu_id: 8181
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ( cd $DIR; command; )
 summary: |-
-  cd into another dir to run a one-liner, but implicitly drop back to your $OLD_PWD after
+  进入到另一个目录执行一个命令，然后返回到旧的目录

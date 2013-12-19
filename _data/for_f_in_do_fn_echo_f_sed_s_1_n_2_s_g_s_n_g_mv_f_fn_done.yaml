@@ -1,8 +1,7 @@
 commandlinefu_id: 11333
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for f in *; do fn=`echo $f | sed 's/\(.*\)\.\([^.]*\)$/\1\n\2/;s/\./-/g;s/\n/./g'`; mv $f $fn; done
 summary: |-
-  replace dots in filenames with dashes, using sed
+  使用sed替换文件名中的点号为连接线

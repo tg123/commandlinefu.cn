@@ -1,8 +1,7 @@
 commandlinefu_id: 11321
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find site/ -type d | xargs sudo chmod 755
 summary: |-
-  Change permission for all directories inside the current one
+  修改当前目录中所有目录的权限

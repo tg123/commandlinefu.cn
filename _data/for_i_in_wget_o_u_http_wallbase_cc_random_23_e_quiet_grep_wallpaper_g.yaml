@@ -1,8 +1,7 @@
 commandlinefu_id: 11172
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for i in $(wget -O- -U "" "http://wallbase.cc/random/23/e..." --quiet|grep wallpaper/|grep -oe 'http://wallbase.cc[^"]*'); do wget $(wget -O- -U "" $i --quiet|grep -oe 'http://[^"]*\.jpg');done
 summary: |-
-  download wallpaper random
+  随机下载壁纸

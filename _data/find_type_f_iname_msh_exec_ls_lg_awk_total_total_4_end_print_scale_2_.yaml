@@ -1,8 +1,7 @@
 commandlinefu_id: 5222
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . -type f -iname '*.msh' -exec ls -lG {} \; | awk '{total = total + $4}END{print "scale=2;" total "/2^20"}' | bc
 summary: |-
-  Calculate the size in MB of all files of a certain extension
+  计算指定扩展名的所有文件的总大小，单位为MB

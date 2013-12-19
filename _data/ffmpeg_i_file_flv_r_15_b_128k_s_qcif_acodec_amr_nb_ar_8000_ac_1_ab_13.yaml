@@ -1,8 +1,7 @@
 commandlinefu_id: 1594
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ffmpeg -i file.flv -r 15 -b 128k -s qcif -acodec amr_nb -ar 8000 -ac 1 -ab 13 -f 3gp -y out.3gp
 summary: |-
-  Convert .flv to .3gp
+  转换 .flv 到 .3gp

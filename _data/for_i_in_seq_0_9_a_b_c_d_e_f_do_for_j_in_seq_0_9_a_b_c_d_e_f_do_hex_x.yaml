@@ -1,8 +1,7 @@
 commandlinefu_id: 9998
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for i in `seq 0 9` A B C D E F; do for j in `seq 0 9` A B C D E F; do HEX=\$\'\\x${i}${j}\'; if ! eval grep -qF "$HEX" file; then eval echo $HEX \\x${i}${j}; fi; done; done 2> /dev/null | less
 summary: |-
-  Delimiter Hunting
+  打印出文件中没有用到的ASCII字符

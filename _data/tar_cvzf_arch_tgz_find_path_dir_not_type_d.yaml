@@ -4,4 +4,4 @@ translator:
 command: |-
   tar -cvzf arch.tgz $(find /path/dir -not -type d)
 summary: |-
-  Tar - 排除某些目录进行压缩
+  Tar - 不压缩目录，tar命令在解压时会创建必要的目录结构

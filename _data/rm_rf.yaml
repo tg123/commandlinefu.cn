@@ -1,8 +1,7 @@
 commandlinefu_id: 895
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   rm -rf /*
 summary: |-
-  A common typo
+  彪悍的命令不需要解释

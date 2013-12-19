@@ -1,8 +1,7 @@
 commandlinefu_id: 1279
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   wrestool -x --output . -t14 /path/to/your-file.exe
 summary: |-
-  Extract icons from windows exe/dll
+  从windows exe/dll中提取图标

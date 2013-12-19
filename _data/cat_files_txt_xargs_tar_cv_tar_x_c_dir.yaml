@@ -1,8 +1,7 @@
 commandlinefu_id: 2912
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cat files.txt | xargs tar -cv | tar -x -c $DIR/
 summary: |-
-  Copy files from list with hierarchy
+  从列表中复制文件并保留目录结构

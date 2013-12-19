@@ -1,8 +1,7 @@
 commandlinefu_id: 252
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cat file.txt|perl -ne '$_=~s/\s+/\n/g; print $_;'
 summary: |-
-  Replace spaces with newlines
+  使用换行代替空格
