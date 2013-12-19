@@ -1,8 +1,0 @@
-commandlinefu_id: 9457
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !ssh:p
-summary: |-
-  Print without executing the last command that starts with...

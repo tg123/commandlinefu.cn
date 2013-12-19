@@ -1,8 +1,7 @@
 commandlinefu_id: 6312
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "hello::::there" | tr -s ':'
 summary: |-
-  Squish repeated delimiters into one
+  把分隔符变成一个

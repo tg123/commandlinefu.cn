@@ -1,8 +1,7 @@
 commandlinefu_id: 7556
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mytop
 summary: |-
-  Monitor the queries being run by MySQL
+  监控mysql查询

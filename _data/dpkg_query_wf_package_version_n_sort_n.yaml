@@ -1,8 +1,7 @@
 commandlinefu_id: 11187
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg-query -Wf '${Package} - ${Version}\n' | sort -n
 summary: |-
-  Display packages and versions on Debian/Ubuntu distrib
+  显示deb版本号

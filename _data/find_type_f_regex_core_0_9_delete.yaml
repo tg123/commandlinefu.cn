@@ -1,8 +1,7 @@
 commandlinefu_id: 9478
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -regex '.*/core\.?[0-9]*$' -delete
 summary: |-
-  Find and remove core files
+  清理core
