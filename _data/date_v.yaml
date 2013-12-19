@@ -1,8 +1,7 @@
 commandlinefu_id: 7066
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   date +"%V"
 summary: |-
-  BASH one-liner to get the current week number
+  一行BASH代码获得当前星期数

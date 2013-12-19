@@ -1,8 +1,7 @@
 commandlinefu_id: 12640
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   word=$(shuf -n4 /usr/share/dict/words); for w in ${word[@]}; do  w=${w^}; w=${w//\'/}; p+=$w; done; echo $p
 summary: |-
-  Generate an XKCD #936 style 4 word password
+  生成一个 XKCD #936 格式的4个单词的密码

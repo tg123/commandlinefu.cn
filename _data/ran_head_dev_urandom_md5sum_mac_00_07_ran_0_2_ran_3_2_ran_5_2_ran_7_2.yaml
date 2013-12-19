@@ -1,8 +1,7 @@
 commandlinefu_id: 2678
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ran=$(head /dev/urandom | md5sum); MAC=00:07:${ran:0:2}:${ran:3:2}:${ran:5:2}:${ran:7:2}; sudo ifconfig wlan0 down hw ether $MAC; sudo ifconfig wlan0 up; echo ifconfig wlan0:0
 summary: |-
-  Resets your MAC to a random MAC address to make you harder to find.
+  设置你的的物理地址为一个随机值，让你更难被发现

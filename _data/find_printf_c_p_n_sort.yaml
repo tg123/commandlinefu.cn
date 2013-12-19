@@ -1,8 +1,7 @@
 commandlinefu_id: 12422
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find -printf "%C@ %p\n"|sort
 summary: |-
-  Find files and list them sorted by modification time
+  查找文件并且按照修改时间进行排序

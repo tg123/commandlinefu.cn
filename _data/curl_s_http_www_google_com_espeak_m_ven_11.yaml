@@ -1,8 +1,7 @@
 commandlinefu_id: 10445
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   curl -s http://www.google.com | espeak -m -ven+11
 summary: |-
-  webpage reader
+  阅读网页

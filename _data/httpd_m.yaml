@@ -1,8 +1,7 @@
 commandlinefu_id: 10801
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   httpd -M
 summary: |-
-  See loaded modules in apache
+  查看apache中加载的模块

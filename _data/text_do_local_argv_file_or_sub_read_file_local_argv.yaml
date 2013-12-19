@@ -1,8 +1,7 @@
 commandlinefu_id: 12404
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   $text = do {local(@ARGV, $/) = $file ; <>; }; [or] sub read_file { local(@ARGV, $/) = @_ ; <>; }
 summary: |-
-  perl read file content
+  使用perl读取文件内容

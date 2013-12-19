@@ -1,8 +1,7 @@
 commandlinefu_id: 4337
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cpan -r
 summary: |-
-  Upgrade all perl modules via CPAN
+  通过CPAN更新所有perl模块

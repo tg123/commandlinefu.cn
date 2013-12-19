@@ -1,8 +1,7 @@
 commandlinefu_id: 1891
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   \bTERM\b
 summary: |-
-  Search for a word in less
+  在less中搜索单词

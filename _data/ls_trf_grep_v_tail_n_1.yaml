@@ -1,8 +1,7 @@
 commandlinefu_id: 9269
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ls -trF | grep -v \/ | tail -n 1
 summary: |-
-  Hunt for the newest file.
+  查找最新的文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 7132
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   function ttl { /usr/sbin/timetrans -count $(dig +noquestion +noadditional +noauthority $1 | grep "^$1" | awk '{print $2}') }
 summary: |-
-  display the ttl of a hostname in a human readable form
+  以可读的格式显示ttl
