@@ -1,8 +1,7 @@
 commandlinefu_id: 4519
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   git log --format='%aN' | sort -u
 summary: |-
-  List all authors of a particular git project
+  列出git项目的所有作者

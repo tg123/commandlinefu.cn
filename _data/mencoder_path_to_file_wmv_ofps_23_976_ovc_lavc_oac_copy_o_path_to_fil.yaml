@@ -1,8 +1,7 @@
 commandlinefu_id: 1719
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   mencoder "/path/to/file.wmv" -ofps 23.976 -ovc lavc -oac copy -o "/path/to/file.avi"
 summary: |-
-  convert a .wmv to a .avi
+  转换 .wmv 到 .avi格式

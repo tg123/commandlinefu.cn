@@ -1,8 +1,7 @@
 commandlinefu_id: 12329
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   split -l 12000 -a 5 database.sql splited_file  i=1 for file in splited_file* do  mv $file database_${i}.sql  i=$(( i + 1 )) done
 summary: |-
-  Split SQL/TXT File into 12000 Lines Each File and then Add .sql Extension to File
+  分割SQL/TXT文件为最大12000行的小文件并且添加.sql后缀

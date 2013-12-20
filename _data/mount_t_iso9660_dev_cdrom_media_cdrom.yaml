@@ -1,8 +1,7 @@
 commandlinefu_id: 4235
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   mount -t iso9660 /dev/cdrom /media/cdrom
 summary: |-
-  mount a cdrom
+  加载一个镜像

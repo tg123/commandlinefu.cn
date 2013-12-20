@@ -1,8 +1,7 @@
 commandlinefu_id: 5402
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find ~/.mozilla/firefox/*/Cache -exec file {} \; | awk -F ': ' 'tolower($2)~/mpeg/{print $1}'
 summary: |-
-  Grab a list of MP3s out of Firefox's cache
+  从火狐缓存中获取MP3音频文件

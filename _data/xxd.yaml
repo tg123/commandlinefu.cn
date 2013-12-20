@@ -1,8 +1,7 @@
 commandlinefu_id: 7277
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   :%!xxd
 summary: |-
-  view hex mode in vim
+  在vim中查看文本的16进制

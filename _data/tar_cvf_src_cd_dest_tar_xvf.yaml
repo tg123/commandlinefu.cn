@@ -1,8 +1,7 @@
 commandlinefu_id: 9337
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   tar cvf - /src | ( cd /dest ; tar xvf - )
 summary: |-
-  Tar Pipe
+  利用tar命令复制文件

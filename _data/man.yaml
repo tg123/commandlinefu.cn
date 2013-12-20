@@ -1,8 +1,7 @@
 commandlinefu_id: 6638
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   man !!
 summary: |-
-  open man page of last used command
+  打开上次使用命令的man文档

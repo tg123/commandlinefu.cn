@@ -1,8 +1,7 @@
 commandlinefu_id: 10600
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   read -p "Question that you want an answer to?" yn
 summary: |-
-  Prompt the user for input of y or n, wait for input then continue.
+  向用户请求输入，用户输入y/n后继续

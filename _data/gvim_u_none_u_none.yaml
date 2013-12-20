@@ -1,8 +1,7 @@
 commandlinefu_id: 8625
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   gvim -u NONE -U NONE
 summary: |-
-  Ignore ~/.vimrc when startup gVim
+  启动gvim的时候忽略~/.vimrc

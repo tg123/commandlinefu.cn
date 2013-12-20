@@ -1,8 +1,7 @@
 commandlinefu_id: 11412
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   history | perl -pe "~s/ *[0-9]+ *//"
 summary: |-
-  display bash history without line numbers
+  显示命令行历史，不显示行号

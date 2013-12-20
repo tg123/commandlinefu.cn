@@ -1,8 +1,7 @@
 commandlinefu_id: 1853
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . \( -type d -name .svn -prune \) -o -print | while read file ; do mergeinfo=`svn propget svn:mergeinfo $file` ; [ "$mergeinfo" != "" ] && echo -e "$file\n    $mergeinfo\n" ; done
 summary: |-
-  Show all mergeinfo for a svn subtree
+  显示svn子树的所有合并信息

@@ -1,8 +1,7 @@
 commandlinefu_id: 1219
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   date --iso
 summary: |-
-  Generic date format
+  标准的日期格式

@@ -1,8 +1,7 @@
 commandlinefu_id: 8794
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ssh-keygen -C hello@world
 summary: |-
-  Put at the end of the rsa public key an comment(default value is the hostname)
+  在rsa公钥文件的末尾添加一个注释（默认是域名）

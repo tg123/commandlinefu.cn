@@ -1,8 +1,7 @@
 commandlinefu_id: 10354
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   xloadimage <(ssh USER@HOSTNAME DISPLAY=:0.0 import -window root png:-)
 summary: |-
-  open a screenshot of a remote desktop via ssh
+  通过ssh加载远程桌面的截图

@@ -1,8 +1,7 @@
 commandlinefu_id: 3289
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   echo sortmeplease | grep -o . | sort | tr -d '\n'; echo
 summary: |-
-  Sort a character string
+  排序一个字符串

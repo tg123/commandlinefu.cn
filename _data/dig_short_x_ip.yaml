@@ -1,8 +1,7 @@
 commandlinefu_id: 4397
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   dig +short -x {ip}
 summary: |-
-  Check reverse DNS
+  反向域名解析

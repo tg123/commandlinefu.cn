@@ -1,8 +1,7 @@
 commandlinefu_id: 1304
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   tail -n 0 -f /var/log/messages
 summary: |-
-  Watch contents of a file grow
+  查看文件内容增长

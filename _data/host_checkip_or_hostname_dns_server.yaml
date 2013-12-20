@@ -1,8 +1,7 @@
 commandlinefu_id: 4395
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   host {checkIp or hostname} [dns server]
 summary: |-
-  Check reverse DNS
+  反向域名解析

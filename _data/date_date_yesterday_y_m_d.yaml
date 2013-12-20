@@ -1,8 +1,7 @@
 commandlinefu_id: 6547
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   date --date=yesterday +%Y%m%d
 summary: |-
-  Format date/time string for a different day
+  格式化另一个日期

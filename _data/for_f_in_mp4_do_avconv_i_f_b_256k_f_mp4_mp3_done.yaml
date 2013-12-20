@@ -1,8 +1,7 @@
 commandlinefu_id: 12991
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for f in *.mp4; do avconv -i "$f" -b 256k "${f%.mp4}.mp3"; done
 summary: |-
-  convert a mp4 video file to mp3 audio file (multiple files)
+  将mp4转换为mp3音频文件（多个文件）

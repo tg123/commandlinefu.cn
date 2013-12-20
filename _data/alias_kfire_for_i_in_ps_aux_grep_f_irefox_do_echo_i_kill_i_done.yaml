@@ -1,8 +1,7 @@
 commandlinefu_id: 7408
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias kfire='for i in `ps aux | grep [F]irefox `; do echo $i; kill $(($i)); done; '
 summary: |-
-  alias  ps | grep
+  杀死程序进程的注释
