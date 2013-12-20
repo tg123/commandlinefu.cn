@@ -1,8 +1,7 @@
 commandlinefu_id: 55
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -N -L2001:localhost:80 somemachine
 summary: |-
-  start a tunnel from some machine's port 80 to your local post 2001
+  开启ssh隧道 80->2001

@@ -1,8 +1,7 @@
 commandlinefu_id: 3802
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n 5p <file>
 summary: |-
-  To print a specific line from a file
+  打印第5行

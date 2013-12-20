@@ -1,8 +1,7 @@
 commandlinefu_id: 1777
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn rm `svn status | grep "\!" | cut -c 8-`
 summary: |-
-  Clean up after improper deletes in subversion
+  在svn中清理本地删除的文件

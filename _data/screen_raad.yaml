@@ -1,8 +1,7 @@
 commandlinefu_id: 5346
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen -raAd
 summary: |-
-  Resume a detached screen session, resizing to fit the current terminal
+  继续一个挂起的screen 并让他符合当前终端的大小

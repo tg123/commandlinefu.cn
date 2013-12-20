@@ -1,8 +1,0 @@
-commandlinefu_id: 209
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !whatever:p
-summary: |-
-  Check command history, but avoid running it

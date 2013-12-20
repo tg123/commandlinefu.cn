@@ -1,8 +1,0 @@
-commandlinefu_id: 2001
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cobbler repo add --name=CentOS-5.3-i386-updates --mirror=http://mirror3.mirror.garr.it/mirrors/CentOS/5.3/updates/i386/
-summary: |-
-  Create new repo in Cobbler for CentOS 5.3 updates

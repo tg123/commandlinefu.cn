@@ -1,8 +1,7 @@
 commandlinefu_id: 2652
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pbpaste | ssh user@hostname 'cat > ~/my_new_file.txt'
 summary: |-
-  Paste OS X clipboard contents to a file on a remote machine
+  粘贴到远程的机器(OSX)
