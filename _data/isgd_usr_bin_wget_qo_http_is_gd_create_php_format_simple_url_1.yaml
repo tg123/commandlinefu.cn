@@ -1,8 +1,7 @@
 commandlinefu_id: 9488
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   isgd() { /usr/bin/wget -qO - "http://is.gd/create.php?format=simple&url=$1" ;}
 summary: |-
-  Short URLs with is.gd
+  生成is.gd短链接

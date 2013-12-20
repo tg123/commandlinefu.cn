@@ -1,8 +1,7 @@
 commandlinefu_id: 11036
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   tar -cvzf home_backup.tar.gz --exclude={.*,Downloads} /home/<user>
 summary: |-
-  tar exclude files or directories
+  使用tar创建压缩文件，排除目录或者文件

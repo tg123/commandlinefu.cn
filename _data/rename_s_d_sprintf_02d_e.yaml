@@ -1,8 +1,7 @@
 commandlinefu_id: 11892
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   rename 's/\d+/sprintf("%02d",$&)/e' -- $@
 summary: |-
-  convert single digit to double digits
+  转换单个数字为两位数

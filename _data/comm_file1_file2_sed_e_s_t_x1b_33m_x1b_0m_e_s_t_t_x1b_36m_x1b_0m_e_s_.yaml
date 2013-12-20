@@ -1,8 +1,7 @@
 commandlinefu_id: 5575
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   comm file1 file2 | sed -e 's/^[^\t].*/\x1b[33m&\x1b[0m/' -e  's/^\t[^\t].*/\x1b[36m&\x1b[0m/' -e 's/^\t\t[^\t].*/\x1b[32m&\x1b[0m/'
 summary: |-
-  colorize comm output
+  为comm输出添加色彩高亮

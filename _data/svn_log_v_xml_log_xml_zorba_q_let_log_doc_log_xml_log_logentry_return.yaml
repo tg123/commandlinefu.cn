@@ -1,8 +1,7 @@
 commandlinefu_id: 12072
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   svn log -v --xml > log.xml; zorba -q 'let $log := doc("log.xml")/log/logentry return for $author in distinct-values($log/author) order by $author return concat($author, " ", sum(count($log[author=$author]/paths/path)), "&#xa;")' --serialize-text
 summary: |-
-  Show the total number of changes that every user committed to a Subversion repository
+  显示每个用户提交到svn仓库的总更改数目

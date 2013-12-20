@@ -1,8 +1,7 @@
 commandlinefu_id: 5975
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   TZ=PST8PDT+72 date '+%Y_%m_%d'
 summary: |-
-  Print a date from 3 days ago
+  三年前的今天

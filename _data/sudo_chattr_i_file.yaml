@@ -1,8 +1,7 @@
 commandlinefu_id: 6941
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sudo chattr +i <file>
 summary: |-
-  Make a file not writable / immutable by root
+  使一个文件无法被root修改

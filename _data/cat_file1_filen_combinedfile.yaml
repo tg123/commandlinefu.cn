@@ -1,8 +1,7 @@
 commandlinefu_id: 5389
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cat file1 ... fileN > combinedFile;
 summary: |-
-  Combining text files into one file
+  合并多个文件到一个文件中

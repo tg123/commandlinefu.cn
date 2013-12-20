@@ -1,8 +1,7 @@
 commandlinefu_id: 2623
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   tempo=33; slope=10; maxfreq=888; function sinus { echo "s($1/$slope)*$maxfreq"|bc -l|tr -d '-'; }; for((i=1;;i++)); do beep -l$tempo -f`sinus $i`; done
 summary: |-
-  Beep siren
+  警笛

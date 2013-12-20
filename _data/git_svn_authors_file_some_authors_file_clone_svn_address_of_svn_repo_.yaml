@@ -1,8 +1,7 @@
 commandlinefu_id: 283
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   git svn --authors-file=some-authors-file clone svn://address/of/svn/repo new-git-dir
 summary: |-
-  Import/clone a Subversion repo to a git repo
+  导入/克隆一个svn仓库到git仓库

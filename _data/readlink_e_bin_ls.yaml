@@ -1,8 +1,7 @@
 commandlinefu_id: 7557
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   readlink -e /bin/ls
 summary: |-
-  Get the full path to a file
+  获得文件的全路径

@@ -1,8 +1,7 @@
 commandlinefu_id: 11653
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
-  48 function gbl() { git for-each-ref --sort=-committerdate --format='%(committerdate) %(authorname) %(refname)' refs/remotes/origin/|grep -e ".$@"|head -n 10; }
+  function gbl() { git for-each-ref --sort=-committerdate --format='%(committerdate) %(authorname) %(refname)' refs/remotes/origin/|grep -e ".$@"|head -n 10; }
 summary: |-
-  List Remote Git Branches By Author
+  按作者列出git远程分支

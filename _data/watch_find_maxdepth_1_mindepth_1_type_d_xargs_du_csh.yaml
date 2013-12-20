@@ -1,8 +1,7 @@
 commandlinefu_id: 5646
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   watch 'find -maxdepth 1 -mindepth 1 -type d  |xargs du -csh'
 summary: |-
-  Show directory sizes, refreshing every 2s
+  显示目录大小，每两秒刷新一次

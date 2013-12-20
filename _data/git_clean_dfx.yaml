@@ -1,8 +1,7 @@
 commandlinefu_id: 7071
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   git clean -dfx
 summary: |-
-  Remove all untracked files/directories from the working tree of a git repository.
+  从git仓库中移除所有没有被追踪的文件或目录

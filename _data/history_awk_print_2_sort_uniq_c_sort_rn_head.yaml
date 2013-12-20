@@ -1,8 +1,7 @@
 commandlinefu_id: 869
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 summary: |-
-  List of commands you use most often
+  列出你最常使用的命令

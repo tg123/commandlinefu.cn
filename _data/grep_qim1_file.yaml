@@ -1,8 +1,7 @@
 commandlinefu_id: 12105
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   grep -qIm1 . $file
 summary: |-
-  Check if a file is text
+  检测一个文件是否是文本文件

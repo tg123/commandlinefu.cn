@@ -1,8 +1,7 @@
 commandlinefu_id: 6530
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find /home -print -exec rename -v 's/_2009-09-04.suffix$//' {} \;
 summary: |-
-  Find all files under a certain directory /home that have a certain suffix at the end of the file name. Show the file and rename them to remove the suffix.
+  列出用户目录下具有指定格式后缀的文件，然后移除文件后缀

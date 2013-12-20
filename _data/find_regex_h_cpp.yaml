@@ -1,8 +1,7 @@
 commandlinefu_id: 3367
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . -regex '.*\(h\|cpp\)'
 summary: |-
-  Finding files with different extensions
+  按照后缀查找文件

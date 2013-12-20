@@ -1,8 +1,7 @@
 commandlinefu_id: 12049
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . -type f -exec ls -s {} \; | sort -n -r | head -5
 summary: |-
-  Find top 5 big files
+  找到最大的5个文件
