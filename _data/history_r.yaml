@@ -1,8 +1,7 @@
 commandlinefu_id: 1151
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   history -r
 summary: |-
-  Clear current session history
+  清除当前会话的历史

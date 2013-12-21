@@ -1,8 +1,7 @@
 commandlinefu_id: 8603
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   adobenospy() { for I in ~/.adobe ~/.macromedia ; do ( [ -d $I ] && rm -rf $I ;  ln -s -f /dev/null $I ) ; done }
 summary: |-
-  Stop adobe and Flash from tracking everything you do.
+  让adobe和Flash停止对你进行跟踪

@@ -1,8 +1,7 @@
 commandlinefu_id: 853
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   grep -sq "" /etc/lsb-release && lsb_release -rd
 summary: |-
-  Execute a command if a file exists
+  如果文件存在，执行一条命令

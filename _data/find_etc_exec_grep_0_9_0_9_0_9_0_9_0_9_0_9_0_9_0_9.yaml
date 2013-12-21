@@ -1,8 +1,7 @@
 commandlinefu_id: 12240
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find /etc -exec grep '[0-9][0-9]*[.][0-9][0-9]*[.][0-9][0-9]*[.][0-9][0-9]*' {} \;
 summary: |-
-  Find all IP's in /etc directory
+  查找/etc目录下所有的ip地址

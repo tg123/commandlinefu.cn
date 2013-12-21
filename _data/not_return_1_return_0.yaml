@@ -1,8 +1,7 @@
 commandlinefu_id: 3577
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   not () { "$@" && return 1 || return 0; }
 summary: |-
-  run command with opposite return code
+  反转命令的返回值
