@@ -1,8 +1,7 @@
 commandlinefu_id: 2484
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ls -1t | head -n10
 summary: |-
-  find the 10 latest (modified) files
+  找出最近修改的10个文件

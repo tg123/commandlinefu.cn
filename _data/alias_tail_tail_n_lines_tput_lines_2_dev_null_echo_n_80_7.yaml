@@ -1,8 +1,7 @@
 commandlinefu_id: 10462
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias tail='tail -n $((${LINES:-`tput lines 2>/dev/null||echo -n 80`} - 7))'
 summary: |-
-  Alias TAIL for automatic smart output
+  使tail的输出智能化的注释

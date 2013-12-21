@@ -1,8 +1,7 @@
 commandlinefu_id: 7643
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ffmpeg -i input.m4a -acodec libmp3lame -ab 128k output.mp3
 summary: |-
-  m4a to mp3 conversion with ffmpeg and lame
+  使用ffmpeg和lame转换m4a格式到mp3

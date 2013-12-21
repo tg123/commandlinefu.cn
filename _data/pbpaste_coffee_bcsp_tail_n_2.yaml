@@ -1,8 +1,7 @@
 commandlinefu_id: 12716
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   pbpaste | coffee -bcsp | tail -n +2
 summary: |-
-  Compile CoffeeScript on Mac clipboard to JavaScript and print it
+  把Mac剪切板中的CoffeeScript编译为JavaScript并输出

@@ -1,8 +1,7 @@
 commandlinefu_id: 2310
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   echo string | tr '[:lower:]' '[:upper:]'
 summary: |-
-  Convert string to uppercase
+  将字符串转换为大写

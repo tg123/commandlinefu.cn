@@ -1,8 +1,7 @@
 commandlinefu_id: 11441
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   pwgen -B -y 10
 summary: |-
-  generate a random 10 character password
+  生成一个十位的随机密码

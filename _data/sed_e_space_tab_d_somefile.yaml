@@ -1,8 +1,7 @@
 commandlinefu_id: 369
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sed -e '/^[<space><tab>]*$/d' somefile
 summary: |-
-  output the contents of a file removing any empty lines including lines which contain only spaces or tabs.
+  输出文件内容，空白的或者只包含空格和tab的行除外

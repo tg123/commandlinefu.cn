@@ -1,8 +1,7 @@
 commandlinefu_id: 12322
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   du -had 1 | sort -h
 summary: |-
-  Display sorted, human readable list of file and folders sizes in your current working directory
+  显示排序的，阅读友好的当前工作目录内的文件和目录大小列表
