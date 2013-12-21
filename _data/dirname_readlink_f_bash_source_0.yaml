@@ -1,8 +1,7 @@
 commandlinefu_id: 9805
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dirname $(readlink -f ${BASH_SOURCE[0]})
 summary: |-
-  Get full directory path of a script regardless of where it is run from
+  全路径(任意地方启动)

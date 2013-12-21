@@ -1,8 +1,0 @@
-commandlinefu_id: 3514
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvlc v4l2:// &
-summary: |-
-  Webcam view with vlc

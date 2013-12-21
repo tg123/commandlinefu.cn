@@ -1,8 +1,7 @@
 commandlinefu_id: 10443
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsgrp() { read GID USERS <<< "$(grep "^$1:" /etc/group | cut -d: -f3,4 | tr ':,' ' ')" ; echo -e "${USERS// /\n}" | egrep -v "^($1)?$" ; egrep :[0-9]+:$GID: /etc/passwd | cut -d: -f1 ; }
 summary: |-
-  List users in a group
+  查看组内用户
