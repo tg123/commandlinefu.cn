@@ -1,8 +1,7 @@
 commandlinefu_id: 12865
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ddg(){ search=""; bang=""; for term in $@; do if [[ "$term" =~ -([A-Za-z0-9._%+-]*) ]]; then bang="\!${BASH_REMATCH[1]}" ; else search="$search%20$term" ; fi ; done ; w3m "https://www.duckduckgo.com/?q=$bang$search" ;}
 summary: |-
-  duckduckgo search to w3m browser
+  在w3m浏览器中使用duckduckgo搜索

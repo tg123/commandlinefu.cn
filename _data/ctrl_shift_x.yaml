@@ -1,8 +1,7 @@
 commandlinefu_id: 10178
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   Ctrl+Shift+x
 summary: |-
-  Clear the terminal screen
+  清除终端屏幕

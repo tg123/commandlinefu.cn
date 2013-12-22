@@ -1,8 +1,7 @@
 commandlinefu_id: 3266
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   dsh -M -c -f servers -- "command HERE"
 summary: |-
-  How to run a command on a list of remote servers read from a file
+  从文件中读取远程服务器的列表并在其中执行命令

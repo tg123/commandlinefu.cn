@@ -1,8 +1,7 @@
 commandlinefu_id: 3348
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   yes "$(seq 1 255)" | while read i; do printf "\x1b[48;5;${i}m\n"; sleep .01; done
 summary: |-
-  cycle through a 256 colour palette
+  在一个256调色板中循环
