@@ -1,8 +1,7 @@
 commandlinefu_id: 101
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk 'length($0)!=12 {print}' your_file_name
 summary: |-
-  Print all lines in a file that are not a certain length
+  输出不是特定长度的行

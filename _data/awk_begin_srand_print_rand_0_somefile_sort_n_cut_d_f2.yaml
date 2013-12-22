@@ -1,8 +1,7 @@
 commandlinefu_id: 2320
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk 'BEGIN{srand()}{print rand(),$0}' SOMEFILE | sort -n | cut -d ' ' -f2-
 summary: |-
-  Randomize lines in a file
+  打乱行

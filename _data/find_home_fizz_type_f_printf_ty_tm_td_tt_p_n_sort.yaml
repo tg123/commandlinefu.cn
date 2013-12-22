@@ -1,8 +1,7 @@
 commandlinefu_id: 2231
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /home/fizz -type f -printf '%TY-%Tm-%Td %TT %p\n' | sort
 summary: |-
-  List files recursively sorted by modified time
+  按修改时间排序

@@ -1,8 +1,0 @@
-commandlinefu_id: 3655
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig -x 74.125.45.100
-summary: |-
-  Perform a reverse DNS lookup
