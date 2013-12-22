@@ -1,8 +1,7 @@
 commandlinefu_id: 11414
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   seq 2 100 | factor | sed '/ .* / d ; s/:.*//'
 summary: |-
-  List prime numbers from 2 to 100
+  列出2到100之间的质数

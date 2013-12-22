@@ -1,8 +1,7 @@
 commandlinefu_id: 9989
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ls | view -
 summary: |-
-  vim read stdin
+  在vim中读取标准输入

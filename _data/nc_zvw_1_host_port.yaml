@@ -1,8 +1,7 @@
 commandlinefu_id: 10985
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   nc -zvw 1 host port
 summary: |-
-  Complete TCP Handshake on a given host-port
+  在指定的主机和端口完成TCP握手

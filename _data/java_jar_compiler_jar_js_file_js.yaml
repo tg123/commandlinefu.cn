@@ -1,8 +1,7 @@
 commandlinefu_id: 6240
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   java -jar compiler.jar  --js file.js
 summary: |-
-  Minimize CSS/JS while preserving functionality.
+  压缩CSS/JS文件
