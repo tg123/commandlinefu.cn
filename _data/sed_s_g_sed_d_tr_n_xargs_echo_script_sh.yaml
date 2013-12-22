@@ -1,8 +1,7 @@
 commandlinefu_id: 12855
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   (sed 's/#.*//g'|sed '/^ *$/d'|tr '\n' ';'|xargs echo) < script.sh
 summary: |-
-  Convert a script to one-liner
+  送给喜欢一行解决问题的同学

@@ -1,8 +1,7 @@
 commandlinefu_id: 12966
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   iptables-save > iptables.current; vi iptables.current; iptables-restore iptables.current; service iptables save
 summary: |-
-  Easy IPTables management
+  管理iptable 的步骤

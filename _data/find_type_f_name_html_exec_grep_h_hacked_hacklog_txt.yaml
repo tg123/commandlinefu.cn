@@ -1,8 +1,0 @@
-commandlinefu_id: 757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -name '*.html' -exec grep -H HACKED {} \; > hacklog.txt
-summary: |-
-  Locate Hacked Files and Dump.

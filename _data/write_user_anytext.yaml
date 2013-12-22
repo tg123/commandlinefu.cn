@@ -1,8 +1,7 @@
 commandlinefu_id: 1260
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  write user anytext
+  write user hello
 summary: |-
-  sending message to a logined user of group
+  给用户发消息

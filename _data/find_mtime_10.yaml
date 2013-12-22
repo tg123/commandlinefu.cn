@@ -1,8 +1,7 @@
 commandlinefu_id: 5341
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -mtime +10
 summary: |-
-  Find files older than X, using find.
+  使用find 查找比X旧的文件

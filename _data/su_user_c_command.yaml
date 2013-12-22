@@ -1,8 +1,7 @@
 commandlinefu_id: 5380
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   su - $user -c <command>
 summary: |-
-  Run command from another user and return to current
+  用其他用户运行

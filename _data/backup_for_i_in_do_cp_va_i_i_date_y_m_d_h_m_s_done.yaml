@@ -1,8 +1,7 @@
 commandlinefu_id: 4036
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   backup() { for i in "$@"; do cp -va $i $i.$(date +%Y%m%d-%H%M%S); done }
 summary: |-
-  Create date based backups
+  创建有日期的备份
