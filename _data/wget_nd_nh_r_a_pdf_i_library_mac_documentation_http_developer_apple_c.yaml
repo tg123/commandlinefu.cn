@@ -1,8 +1,0 @@
-commandlinefu_id: 9389
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -nd -nH -r -A pdf -I library/mac/documentation/ http://developer.apple.com/library/mac/navigation/#section=Resource%20Types&topic=Reference
-summary: |-
-  Get all the reference docs for OS X from Apples Developer Connection site

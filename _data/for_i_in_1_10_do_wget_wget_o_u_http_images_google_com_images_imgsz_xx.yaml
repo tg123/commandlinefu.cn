@@ -1,8 +1,0 @@
-commandlinefu_id: 11046
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {1..10};do wget $(wget -O- -U "" "http://images.google.com/images?imgsz=xxlarge&hl=en&q=wallpaper+HD&start=$(($RANDOM%900+100))" --quiet | grep -oe 'http://[^"]*\.jpg' | head -1);done
-summary: |-
-  download 10 random wallpapers from google

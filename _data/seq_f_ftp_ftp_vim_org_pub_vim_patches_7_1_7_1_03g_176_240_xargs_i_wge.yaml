@@ -1,8 +1,0 @@
-commandlinefu_id: 237
-translator:
-  weibo: ''
-hide: true
-command: |-
-  seq -f"ftp://ftp.vim.org/pub/vim/patches/7.1/7.1.%03g" 176 240 | xargs -I {} wget -c  {};
-summary: |-
-  download a sequence of vim patch

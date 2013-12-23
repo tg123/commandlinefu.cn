@@ -1,8 +1,0 @@
-commandlinefu_id: 7254
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /usr/src ; wget http://www.rarlab.com/rar/unrarsrc-4.0.2.tar.gz ; tar xvfz unrarsrc-4.0.2.tar.gz ; cd unrar ; ln -s makefile.unix Makefile ; make clean ; make ; make install
-summary: |-
-  Install unrar on Linux box from sources

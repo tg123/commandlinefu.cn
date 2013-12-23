@@ -1,8 +1,0 @@
-commandlinefu_id: 8303
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -U Mozilla -qO - "http://thepiratebay.org/search/your_querry_here/0/7/0" | grep -o 'http\:\/\/torrents\.thepiratebay\.org\/.*\.torrent'
-summary: |-
-  ThePirateBay.org torrent search

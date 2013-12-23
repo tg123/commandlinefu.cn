@@ -1,8 +1,0 @@
-commandlinefu_id: 9946
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `wget -O url|grep '<a rel="nofollow"'|grep http|sed 's|.*<a rel="nofollow" class="[^"]\+" href="[^"]*https\?://\([^/]\+\)[^"]*">[^<]\+</a>.*|\1|'`;do if test -n "$(whois $i|grep -i godaddy)";then echo $i uses GoDaddy;fi;sleep 20;done
-summary: |-
-  check a list of domains registered on godaddy

@@ -1,8 +1,0 @@
-commandlinefu_id: 7363
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - http://ngrams.googlelabs.com/datasets | grep -E href='(.+\.zip)' | sed -r "s/.*href='(.+\.zip)'.*/\1/" | uniq | while read line; do `wget $line`; done
-summary: |-
-  Download all data from Google Ngram Viewer

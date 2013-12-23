@@ -1,8 +1,0 @@
-commandlinefu_id: 2088
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O- http://www.gutenberg.org/dirs/etext96/cprfd10.txt | sed  '1,419d' | tr "\n" " " | tr " " "\n" | perl -lpe 's/\W//g;$_=lc($_)' | grep "^[a-z]" | awk 'length > 1' | sort | uniq -c | awk '{print $2"\t"$1}'
-summary: |-
-  count occurences of each word in novel David Copperfield

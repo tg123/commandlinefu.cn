@@ -1,8 +1,0 @@
-commandlinefu_id: 6195
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://www.whatismyip.org --quiet -O - | cat
-summary: |-
-  Outgoing IP of server

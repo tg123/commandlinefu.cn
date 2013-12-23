@@ -1,8 +1,0 @@
-commandlinefu_id: 7740
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Terrorist threat level: $(wget -q  -O - http://is.gd/wacQtQ | tail -n 1 | awk -F\" '{ print $2 }')"
-summary: |-
-  Terrorist threat level text

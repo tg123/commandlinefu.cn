@@ -1,8 +1,0 @@
-commandlinefu_id: 2771
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo wget -c "http://nmap.org/dist/nmap-5.00.tar.bz2" && bzip2 -cd nmap-5.00.tar.bz2 | tar xvf - && cd nmap-5.00 && ./configure && make && sudo make install
-summary: |-
-  Install NMAP 5.0 ,Short and sweet command to do it

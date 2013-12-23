@@ -1,8 +1,0 @@
-commandlinefu_id: 2932
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://checkip.dyndns.org && clear && echo && echo My IP && egrep -o '([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}' index.html && echo && rm index.html
-summary: |-
-  Get your external IP address

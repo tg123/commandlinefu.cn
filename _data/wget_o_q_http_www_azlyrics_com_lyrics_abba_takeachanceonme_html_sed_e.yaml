@@ -1,8 +1,0 @@
-commandlinefu_id: 4224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O - -q http://www.azlyrics.com/lyrics/abba/takeachanceonme.html | sed -e 's/[cC]hance/dump/g' > ~/tdom.htm && firefox ~/tdom.htm
-summary: |-
-  Make ABBA better (requires firefox)

@@ -1,7 +1,0 @@
-commandlinefu_id: 11633
-translator:
-  weibo: '猪了个去'
-command: |-
-  for line in `wget --referer='http://500px.com/' --quiet -O- http://500px.com/popular | grep "from=popular" | sed -n 's/.*<img src="\([^"]*\)".*/\1/p' | sed s/"3.jpg"/"4.jpg"/ | sed s/"?t".*$//`; do wget -O $RANDOM.jpg --quiet "$line"; done
-summary: |-
-  从500px.com下载最流行的20张图片

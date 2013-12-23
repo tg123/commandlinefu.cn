@@ -1,7 +1,0 @@
-commandlinefu_id: 5484
-translator:
-  weibo: codepiano
-command: |-
-  while true; do if wget http://releases.ubuntu.com/10.04/ubuntu-10.04-desktop-i386.iso.torrent; then ktorrent --silent ubuntu-10.04-desktop-i386.iso.torrent ; date; break; else sleep 5m; fi; done
-summary: |-
-  当 Ubuntu 10.04 可用的时候自动下载

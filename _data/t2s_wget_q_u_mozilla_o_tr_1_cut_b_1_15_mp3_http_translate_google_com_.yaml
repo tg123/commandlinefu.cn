@@ -1,8 +1,0 @@
-commandlinefu_id: 12828
-translator:
-  weibo: ''
-hide: true
-command: |-
-  t2s() { wget -q -U Mozilla -O $(tr ' ' _ <<< "$1"| cut -b 1-15).mp3 "http://translate.google.com/translate_tts?ie=UTF-8&tl=en&q=$(tr ' ' + <<< "$1")"; }
-summary: |-
-  Google text-to-speech in mp3 format

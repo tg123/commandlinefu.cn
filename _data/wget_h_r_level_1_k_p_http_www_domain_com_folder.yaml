@@ -1,8 +1,0 @@
-commandlinefu_id: 4429
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -H -r ?level=1 -k -p http://www.domain.com/folder/
-summary: |-
-  wget ? server to server files transfer

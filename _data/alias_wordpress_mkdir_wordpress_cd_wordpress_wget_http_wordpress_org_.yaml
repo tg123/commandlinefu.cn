@@ -1,8 +1,0 @@
-commandlinefu_id: 1224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias wordpress='mkdir wordpress && cd wordpress && wget http://wordpress.org/latest.tar.gz && tar -xvzf latest.tar.gz && mv wordpress/* . && rm -rf latest.tar.gz wordpress && cp wp-config-sample.php wp-config.php'
-summary: |-
-  Wordpress - download latest, extract, and rename config file.

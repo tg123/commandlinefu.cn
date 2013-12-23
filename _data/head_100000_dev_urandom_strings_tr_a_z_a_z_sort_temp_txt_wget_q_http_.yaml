@@ -1,8 +1,0 @@
-commandlinefu_id: 7387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  head -100000 /dev/urandom | strings|tr '[A-Z]' '[a-z]'|sort >temp.txt && wget -q http://www.mavi1.org/web_security/wordlists/webster-dictionary.txt -O-|tr '[A-Z]' '[a-z]'|sort >temp2.txt&&comm -12 temp.txt temp2.txt
-summary: |-
-  Look for English words in /dev/urandom

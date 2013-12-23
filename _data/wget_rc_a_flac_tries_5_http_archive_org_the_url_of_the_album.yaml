@@ -1,8 +1,0 @@
-commandlinefu_id: 4616
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -rc -A.flac --tries=5 http://archive.org/the/url/of/the/album
-summary: |-
-  Download full FLAC albums from archive.org

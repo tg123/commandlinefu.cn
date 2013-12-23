@@ -1,8 +1,0 @@
-commandlinefu_id: 2743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O - 'URL/full?orderby=starttime&singleevents=true&start-min=2009-06-01&start-max=2009-07-31' |  perl -lane '@m=$_=~m/<title type=.text.>(.+?)</g;@a=$_=~m/startTime=.(2009.+?)T/g;shift @m;for ($i=0;$i<@m;$i++){ print $m[$i].",".$a[$i];}';
-summary: |-
-  get events from google calendar for a given dates range

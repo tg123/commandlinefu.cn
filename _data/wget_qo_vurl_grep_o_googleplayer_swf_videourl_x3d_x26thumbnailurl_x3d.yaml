@@ -1,8 +1,0 @@
-commandlinefu_id: 7219
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO- "VURL" | grep -o "googleplayer.swf?videoUrl\\\x3d\(.\+\)\\\x26thumbnailUrl\\\x3dhttp" | grep -o "http.\+" | sed -e's/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g' | xargs echo -e | sed 's/.\{22\}$//g' | xargs wget -O OUPUT_FILE
-summary: |-
-  Video Google download

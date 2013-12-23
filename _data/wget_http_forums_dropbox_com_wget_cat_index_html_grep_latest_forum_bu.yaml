@@ -1,8 +1,0 @@
-commandlinefu_id: 6469
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://forums.dropbox.com && wget $(cat index.html|grep "Latest Forum Build"|cut -d"\"" -f2) && wget $(cat topic.php*|grep "Linux x86:"|cut -d"\"" -f2|sort -r|head -n1) && rm -rf ~/.dropbox* && rm index.html *.php* && tar zxvf dropbox-*.tar.gz -C ~/
-summary: |-
-  Download and install the newest dropbox beta

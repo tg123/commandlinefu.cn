@@ -1,8 +1,0 @@
-commandlinefu_id: 5059
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pronounce(){ wget -qO- $(wget -qO- "http://dictionary.reference.com/browse/$@" | grep 'soundUrl' | head -n 1 | sed 's|.*soundUrl=\([^&]*\)&.*|\1|' | sed 's/%3A/:/g;s/%2F/\//g') | mpg123 -; }
-summary: |-
-  Pronounce an English word using Dictionary.com

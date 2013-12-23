@@ -1,8 +1,0 @@
-commandlinefu_id: 1712
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 10  "wget -q http://www.brillig.com/debt_clock -O - | grep debtiv.gif | sed -e 's/.*ALT=\"//' -e 's/\".*//' -e 's/ //g'"
-summary: |-
-  Watch the National Debt clock

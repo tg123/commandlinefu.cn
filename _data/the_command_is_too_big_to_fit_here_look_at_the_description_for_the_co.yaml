@@ -1,7 +1,0 @@
-commandlinefu_id: 7580
-translator:
-  weibo: codepiano
-command: |-
-  google() { # search the web using google from the commandline # syntax: google google query=$(echo "$*" | sed "s:%:%25:g;s:&:%26:g;s:+:%2b:g;s:;:%3b:g;s: :+:g") data=$(wget -qO - "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=$query") title=$(echo "$data" | tr '}' '\n' | sed "s/.*,\"titleNoFormatting//;s/\":\"//;s/\",.*//;s/\\u0026/'/g;s/\\\//g;s/#39\;//g;s/'amp;/\&/g" | head -1) url="$(echo "$data" | tr '}' '\n' | sed 's/.*"url":"//;s/".*//' | head -1)" echo "${title}: ${url} | http://www.google.com/search?q=${query}" }
-summary: |-
-  在命令行中使用google搜索并返回第一个结果

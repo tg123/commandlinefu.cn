@@ -1,8 +1,0 @@
-commandlinefu_id: 12925
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget "us.download.nvidia.com$(wget -qO- "$(wget -qO- "nvidia.com/Download/processFind.aspx?psid=95&pfid=695&osid=19&lid=1&lang=en-us"|awk '/driverResults.aspx/ {print $4}'|cut -d "'" -f2|head -n 1)"|awk '/url=/ {print $2}'|cut -d '=' -f3|cut -d '&' -f1)"
-summary: |-
-  Download latest NVIDIA Geforce x64 Windows driver

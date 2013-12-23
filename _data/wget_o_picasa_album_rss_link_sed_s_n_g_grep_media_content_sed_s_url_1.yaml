@@ -1,8 +1,0 @@
-commandlinefu_id: 12029
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O - "[PICASA ALBUM RSS LINK]" |sed 's/</\n</g' | grep media:content |sed 's/.*url='"'"'\([^'"'"']*\)'"'"'.*$/\1/' |awk -F'/' '{gsub($NF,"d/"$NF); print $0}'|wget -i -
-summary: |-
-  Go get those photos from a Picasa album (full size)

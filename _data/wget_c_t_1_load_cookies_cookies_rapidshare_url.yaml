@@ -1,8 +1,0 @@
-commandlinefu_id: 1757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -c -t 1 --load-cookies ~/.cookies/rapidshare <URL>
-summary: |-
-  Download from Rapidshare Premium using wget - Part 2

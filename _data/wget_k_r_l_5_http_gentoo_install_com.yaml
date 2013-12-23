@@ -1,8 +1,0 @@
-commandlinefu_id: 6510
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -k -r -l 5 http://gentoo-install.com
-summary: |-
-  Downlaoad websites to 5 level and browse offline!

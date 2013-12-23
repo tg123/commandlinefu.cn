@@ -1,8 +1,0 @@
-commandlinefu_id: 9076
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q  -O - http://www.perl.org/get.html | grep -m1 '\.tar\.gz' | sed 's/.*perl-//; s/\.tar\.gz.*//'
-summary: |-
-  Print the lastest stable version of Perl

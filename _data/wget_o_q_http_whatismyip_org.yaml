@@ -1,8 +1,0 @@
-commandlinefu_id: 9486
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O - -q http://whatismyip.org/
-summary: |-
-  Get your external IP address

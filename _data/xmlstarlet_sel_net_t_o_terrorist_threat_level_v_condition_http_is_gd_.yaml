@@ -1,8 +1,0 @@
-commandlinefu_id: 7767
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmlstarlet sel --net -t -o "Terrorist threat level: " -v //@CONDITION http://is.gd/wacQtQ
-summary: |-
-  Terrorist threat level text

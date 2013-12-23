@@ -1,7 +1,0 @@
-commandlinefu_id: 5123
-translator:
-  weibo: tgic
-command: |-
-  if [ "$(ping -q -c1 google.com)" ];then wget -mnd -q http://www.google.com/intl/en_ALL/images/logo.gif ;fi
-summary: |-
-  测试服务器是不是活着

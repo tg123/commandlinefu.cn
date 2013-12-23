@@ -1,8 +1,0 @@
-commandlinefu_id: 6968
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for((i=0;i<10;i++)) do tmp=`wget -O- -U "" "http://images.google.com/images?imgsz=xxlarge&hl=es&q=wallpaper&sa=N&start=$(($RANDOM%700+100))&ndsp=10" --quiet|grep -oe 'http://[^"]*\.jpg'|head -1`;[[ $tmp != "" ]] && wget $tmp || echo "Error $[$i+1]";done
-summary: |-
-  Download 10 random wallpapers from images.google.com

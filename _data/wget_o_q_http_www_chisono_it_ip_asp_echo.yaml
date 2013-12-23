@@ -1,8 +1,0 @@
-commandlinefu_id: 9317
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O - -q http://www.chisono.it/ip.asp && echo
-summary: |-
-  Get your public IP using chisono.it

@@ -1,8 +1,0 @@
-commandlinefu_id: 3269
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -nv http://en.wikipedia.org/wiki/Linux -O- | egrep -o "http://[^[:space:]]*.jpg" | xargs -P 10 -r -n 1 wget -nv
-summary: |-
-  Parallel file downloading with wget

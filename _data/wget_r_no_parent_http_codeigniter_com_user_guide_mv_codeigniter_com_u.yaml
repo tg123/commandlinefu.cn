@@ -1,8 +1,0 @@
-commandlinefu_id: 4983
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -r --no-parent http://codeigniter.com/user_guide/ ; mv codeigniter.com/user_guide/* . ; rm -rf codeigniter.com
-summary: |-
-  Download all files under http://codeigniter.com/user_guide/ to the current directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 6149
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - http://www.google.com | tee >(md5sum) > /tmp/index.html
-summary: |-
-  download with checksum

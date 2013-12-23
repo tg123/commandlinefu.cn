@@ -1,8 +1,0 @@
-commandlinefu_id: 5245
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget randomfunfacts.com -O - 2>/dev/null | grep \<strong\> | sed "s;^.*<i>\(.*\)</i>.*$;\1;" | while read FUNFACT; do notify-send -t $((1000+300*`echo -n $FUNFACT | wc -w`)) -i gtk-dialog-info "RandomFunFact" "$FUNFACT"; done
-summary: |-
-  Working random fact generator

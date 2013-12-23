@@ -1,8 +1,0 @@
-commandlinefu_id: 11562
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O - www.myip.cn | grep -Po "(\d+\.){3}\d+" -m 0
-summary: |-
-  show WAN IP

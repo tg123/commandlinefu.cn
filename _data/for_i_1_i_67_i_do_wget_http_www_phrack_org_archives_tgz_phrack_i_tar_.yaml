@@ -1,8 +1,0 @@
-commandlinefu_id: 3123
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for ((i=1; i<67; i++))   do     wget http://www.phrack.org/archives/tgz/phrack${i}.tar.gz -q;  done
-summary: |-
-  Download all Phrack .tar.gzs

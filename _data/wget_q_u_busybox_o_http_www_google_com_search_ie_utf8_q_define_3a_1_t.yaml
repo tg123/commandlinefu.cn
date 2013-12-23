@@ -1,8 +1,0 @@
-commandlinefu_id: 4761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -U busybox -O- "http://www.google.com/search?ie=UTF8&q=define%3A$1" | tr '<' '\n' | sed -n 's/^li>\(.*\)/\1\n/p'
-summary: |-
-  Define words with google. (busybox version)

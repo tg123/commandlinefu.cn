@@ -1,8 +1,0 @@
-commandlinefu_id: 11181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wb(){ for i in $(wget -O- -U "" "http://wallbase.cc/random/23/eqeq/1920x1080/0/" --quiet|grep wallpaper/|grep -oe 'http://wallbase.[^"]*'); do if (( n > "$1" )); then break;fi;let n++;wget $(wget -O- -U "" $i --quiet|grep -oe 'http://[^"]*\.jpg');done;}
-summary: |-
-  Download some ramdom wallpapers from wallbase.cc

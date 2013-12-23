@@ -1,8 +1,0 @@
-commandlinefu_id: 12785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://ipecho.net/plain -O - -q ; echo
-summary: |-
-  Get own public IP address

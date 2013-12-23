@@ -1,8 +1,0 @@
-commandlinefu_id: 4552
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget http://domain.com/file{1..100}
-summary: |-
-  download file1 file2 file3 file4 .... file 100

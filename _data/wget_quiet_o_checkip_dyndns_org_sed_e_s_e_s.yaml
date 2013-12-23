@@ -1,8 +1,0 @@
-commandlinefu_id: 6212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget --quiet -O - checkip.dyndns.org | sed -e 's/[^:]*: //' -e 's/<.*$//'
-summary: |-
-  What is my public IP-address?

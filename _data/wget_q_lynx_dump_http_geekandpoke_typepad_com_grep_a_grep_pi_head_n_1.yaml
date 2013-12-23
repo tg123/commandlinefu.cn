@@ -1,8 +1,0 @@
-commandlinefu_id: 6543
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q $(lynx --dump 'http://geekandpoke.typepad.com/' | grep '\/.a\/' | grep '\-pi' | head -n 1 | awk '{print $2}') -O geekandpoke.jpg
-summary: |-
-  Get the latest Geek and Poke comic

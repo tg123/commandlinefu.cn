@@ -1,8 +1,0 @@
-commandlinefu_id: 1756
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget --save-cookies ~/.cookies/rapidshare --post-data "login=USERNAME&password=PASSWORD" -O - https://ssl.rapidshare.com/cgi-bin/premiumzone.cgi > /dev/null
-summary: |-
-  Download from Rapidshare Premium using wget - Part 1

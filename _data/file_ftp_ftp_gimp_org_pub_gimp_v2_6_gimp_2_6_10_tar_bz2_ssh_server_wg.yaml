@@ -1,7 +1,0 @@
-commandlinefu_id: 6226
-translator:
-  weibo: '猪了个去'
-command: |-
-  file=ftp://ftp.gimp.org/pub/gimp/v2.6/gimp-2.6.10.tar.bz2; ssh server "wget $file -O -" > $PWD/${file##*/}
-summary: |-
-  通过远程的SSH服务器，安全的下载一个文件

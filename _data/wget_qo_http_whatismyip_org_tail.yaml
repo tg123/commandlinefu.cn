@@ -1,8 +1,0 @@
-commandlinefu_id: 10448
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - http://whatismyip.org | tail
-summary: |-
-  What is my public IP address

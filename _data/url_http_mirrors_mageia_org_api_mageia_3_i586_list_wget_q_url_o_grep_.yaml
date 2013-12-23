@@ -1,8 +1,0 @@
-commandlinefu_id: 12352
-translator:
-  weibo: ''
-hide: true
-command: |-
-  url=http://mirrors.mageia.org/api/mageia.3.i586.list; wget -q ${url} -O - | grep rsync:
-summary: |-
-  Get a list of Mageia Linux mirrors providing rsync connectivity for Mageia 3 release

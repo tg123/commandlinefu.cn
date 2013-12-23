@@ -1,8 +1,0 @@
-commandlinefu_id: 6806
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ip2loc() { wget -qO - www.ip2location.com/$1 | grep "<span id=\"dgLookup__ctl2_lblICountry\">" | sed 's/<[^>]*>//g; s/^[\t]*//; s/&quot;/"/g; s/</</g; s/>/>/g; s/&amp;/\&/g'; }
-summary: |-
-  Geolocate a given IP address

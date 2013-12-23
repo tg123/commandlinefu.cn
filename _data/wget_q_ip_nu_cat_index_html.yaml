@@ -1,8 +1,0 @@
-commandlinefu_id: 10468
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q ip.nu && cat index.html
-summary: |-
-  View external IP

@@ -1,8 +1,0 @@
-commandlinefu_id: 8630
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O/dev/sdb ftp://ftp.debian.org/debian/dists/stable/main/installer-amd64/current/images/netboot/mini.iso
-summary: |-
-  Write a bootable Linux .iso file directly to a USB-stick

@@ -1,8 +1,0 @@
-commandlinefu_id: 11408
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ip-where { wget -qO- -U Mozilla http://www.ip-adress.com/ip_tracer/$1  | html2text -nobs -style pretty | sed -n /^$1/,/^$/p;}
-summary: |-
-  find geographical location of an ip address

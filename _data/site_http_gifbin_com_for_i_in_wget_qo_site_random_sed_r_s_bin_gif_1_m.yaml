@@ -1,8 +1,0 @@
-commandlinefu_id: 7891
-translator:
-  weibo: ''
-hide: true
-command: |-
-  site="http://gifbin.com/"; for i in $(wget -qO- "$site"random| sed -r "s/^.*(bin\/.+\.gif).*$/\1/m" | grep "^bin"); do wget -c "$site$i"; filename=`basename $i`; [ `identify $filename | wc -l` -gt 1 ] || rm -f $filename; done
-summary: |-
-  Download random gifs from gifbin.com

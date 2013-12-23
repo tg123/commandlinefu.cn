@@ -1,8 +1,0 @@
-commandlinefu_id: 7815
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget --mirror -A.jpg http://www.xs4all.nl/~dassel/wall/
-summary: |-
-  Get me only those jpeg files!

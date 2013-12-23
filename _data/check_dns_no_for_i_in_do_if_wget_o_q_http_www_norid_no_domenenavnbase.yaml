@@ -1,8 +1,0 @@
-commandlinefu_id: 3683
-translator:
-  weibo: ''
-hide: true
-command: |-
-  check_dns_no() { for i in $* ; do if `wget -O - -q http://www.norid.no/domenenavnbaser/whois/?query=$i.no | grep "no match" &>/dev/null` ; then echo $i.no "available" ; fi ; sleep 1 ;done }
-summary: |-
-  Check if a .no domain is available

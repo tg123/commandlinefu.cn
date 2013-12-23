@@ -1,8 +1,0 @@
-commandlinefu_id: 11921
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O - http://listen.di.fm/public2 | sed 's/},{/\n/g' | perl -n -e '/"key":"([^"]*)".*"playlist":"([^"]*)"/; print "$1\n"; system("wget -q -O - $2 | grep -E '^File' | cut -d= -f2 > di_$1.m3u")'
-summary: |-
-  MPD + Digitally Imported
