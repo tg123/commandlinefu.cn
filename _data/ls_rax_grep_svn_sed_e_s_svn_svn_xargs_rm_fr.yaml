@@ -1,8 +1,7 @@
 commandlinefu_id: 4916
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ls -RAx | grep "svn:$" | sed -e "s/svn:/svn/" | xargs rm -fr
 summary: |-
-  Recursively remove .svn directories
+  递归的移除.svn目录
