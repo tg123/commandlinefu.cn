@@ -1,8 +1,7 @@
 commandlinefu_id: 852
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   START=20; END=50 echo $(($START+(`od -An -N2 -i /dev/random`)%($END-$START+1)))
 summary: |-
-  Generate a random number in a range
+  生成一个范围内的随机数

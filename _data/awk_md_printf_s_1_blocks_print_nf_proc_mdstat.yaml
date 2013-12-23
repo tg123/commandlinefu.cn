@@ -1,8 +1,7 @@
 commandlinefu_id: 11521
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   awk '/^md/ {printf "%s: ", $1}; /blocks/ {print $NF}' </proc/mdstat
 summary: |-
-  Print a quick summary of RAID array health.
+  打印RAID磁盘组健康状态的简要总结

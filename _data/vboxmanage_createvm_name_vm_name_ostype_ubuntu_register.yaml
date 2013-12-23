@@ -1,8 +1,7 @@
 commandlinefu_id: 5447
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   VBoxManage createvm --name "vm-name" --ostype Ubuntu --register
 summary: |-
-  How to create a vm in VirtualBox
+  在VirtualBox中创建一个虚拟机

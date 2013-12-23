@@ -1,8 +1,7 @@
 commandlinefu_id: 4813
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   echo "I'm going to paste this into WINDERS XP" | xsel -i
 summary: |-
-  Pipe text from shell to windows cut and paste buffer using PuTTY and XMing.
+  使用PuTTY和XMing将文本复制到windows剪切板中

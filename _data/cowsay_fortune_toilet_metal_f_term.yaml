@@ -1,8 +1,7 @@
 commandlinefu_id: 5758
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cowsay `fortune` | toilet --metal -f term
 summary: |-
-  Get colorful fortunes
+  获得色彩斑斓的命运！

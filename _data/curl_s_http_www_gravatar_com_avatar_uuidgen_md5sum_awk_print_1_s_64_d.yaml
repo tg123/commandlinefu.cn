@@ -1,8 +1,7 @@
 commandlinefu_id: 9782
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   curl -s "http://www.gravatar.com/avatar/`uuidgen | md5sum | awk '{print $1}'`?s=64&d=identicon&r=PG" | display
 summary: |-
-  generate random identicon
+  生成随机的识别图像，参考：http://en.wikipedia.org/wiki/Identicon
