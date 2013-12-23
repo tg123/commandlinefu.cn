@@ -1,8 +1,7 @@
 commandlinefu_id: 227
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch "df | grep /this/folder/"
 summary: |-
-  shows the space of a  folder in  bytes  ever  two seconds.
+  监控文件夹大小变化

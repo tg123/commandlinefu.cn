@@ -1,8 +1,0 @@
-commandlinefu_id: 12133
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dbus-send --system --print-reply --dest=org.freedesktop.ConsoleKit /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart
-summary: |-
-  Reboot without being root

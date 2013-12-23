@@ -1,8 +1,7 @@
 commandlinefu_id: 11799
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   su -c 'sync; echo 3 > /proc/sys/vm/drop_caches'
 summary: |-
-  Clear RAM cache
+  清理RAM cache

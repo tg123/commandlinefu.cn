@@ -1,8 +1,7 @@
 commandlinefu_id: 5208
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   gs -sDEVICE=pngalpha -sOutputFile=<filename>%d.png -r<resolution> <pdffile>
 summary: |-
-  convert pdf into multiple png files
+  转换pdf到多个png

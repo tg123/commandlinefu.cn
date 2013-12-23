@@ -1,8 +1,7 @@
 commandlinefu_id: 10910
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pushd path/to/dir/
 summary: |-
-  Directory stack pushd popd dirs
+  和cd同功能 但是可以用popd 回去 支持多层
