@@ -1,0 +1,8 @@
+commandlinefu_id: 13013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  service mysqld restart
+summary: |-
+  Restarting MySql Service

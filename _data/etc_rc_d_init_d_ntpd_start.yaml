@@ -1,0 +1,8 @@
+commandlinefu_id: 13014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /etc/rc.d/init.d/ntpd start
+summary: |-
+  Start Time Sync

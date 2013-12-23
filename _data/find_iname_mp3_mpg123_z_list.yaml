@@ -1,0 +1,8 @@
+commandlinefu_id: 13006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname "*.mp3" | mpg123 -Z --list -
+summary: |-
+  Shuffle mp3 files in current folder (and subfolders) and play them.

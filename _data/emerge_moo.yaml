@@ -1,0 +1,8 @@
+commandlinefu_id: 12998
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emerge --moo
+summary: |-
+  Gentoo portage easter egg

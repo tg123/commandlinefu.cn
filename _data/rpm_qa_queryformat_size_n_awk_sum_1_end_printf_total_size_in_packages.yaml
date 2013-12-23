@@ -1,0 +1,8 @@
+commandlinefu_id: 13001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa --queryformat '%{SIZE}\n' | awk '{sum += $1} END {printf("Total size in packages = %4.1f GB\n", sum/1024**3)}'
+summary: |-
+  Total size in RPM packages

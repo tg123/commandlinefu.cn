@@ -1,0 +1,8 @@
+commandlinefu_id: 12996
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -dumpstream -dumpfile stream_video_name url
+summary: |-
+  Use mplayer to save video streams to a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 13012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "text to prepend" | cat - file
+summary: |-
+  Prepend a text to a file.

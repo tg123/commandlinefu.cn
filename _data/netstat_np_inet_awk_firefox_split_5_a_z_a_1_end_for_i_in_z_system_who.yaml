@@ -1,0 +1,8 @@
+commandlinefu_id: 13008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -np --inet|awk '/firefox/{split($5,a,":");z[a[1]]++} END{for(i in z){system("whois " i)}}'|less
+summary: |-
+  Print whois info about connected ip addresses

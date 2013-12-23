@@ -1,0 +1,8 @@
+commandlinefu_id: 12997
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --exclude-from=$excludefile -zcvp "$source" | openssl aes-128-cbc -salt -out $targetfile -k $key
+summary: |-
+  create compressed encrypted backup

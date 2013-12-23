@@ -1,0 +1,8 @@
+commandlinefu_id: 13000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'NR%3==1{x="F"++i;}{print > x}' file3
+summary: |-
+  Split the file into multiple files at every 3rd line

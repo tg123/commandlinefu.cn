@@ -1,0 +1,8 @@
+commandlinefu_id: 13002
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -regextype posix-egrep -regex '.*\.(css|js)$' | xargs -I{} sh -c "echo '{}' && yuicompressor '{}' | gzip -c > '{}.gz'"
+summary: |-
+  find css or js files, minifiy with in-path-yuicompressor, gzip output, and save into <static-file>.gz
