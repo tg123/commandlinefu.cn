@@ -1,3 +1,8 @@
+html,
+body { 
+padding-top: 40px;
+}
+
 .container {
     width: 750px;
 }
@@ -22,3 +27,5 @@ overflow:hidden;
 #header-logo {
     margin-left: 0px;
 }
+
+

@@ -38,6 +38,7 @@
       var self = this;
       
       this.loadIndexData(function(data) {
+        self.data = data;
         self.populateIndex(data);
         self.populateSearchFromQuery();
         self.bindKeypress();
@@ -164,7 +165,7 @@
     options = $.extend({}, $.fn.lunrSearch.defaults, options);      
 
     // create search object
-    new LunrSearch(this, options);
+    this.lunr = new LunrSearch(this, options);
     
     return this;
   };
