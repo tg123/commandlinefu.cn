@@ -1,8 +1,7 @@
 commandlinefu_id: 6677
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name "*.jar" | while read line; do unzip -l $line; done | grep your-string
 summary: |-
-  Search for classes in Java JAR files.
+  在jar中查找class

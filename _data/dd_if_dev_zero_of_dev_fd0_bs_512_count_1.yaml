@@ -1,8 +1,7 @@
 commandlinefu_id: 3415
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero of=/dev/fd0 bs=512 count=1
 summary: |-
-  A DESTRUCTIVE command to render a drive unbootable
+  破坏启动盘

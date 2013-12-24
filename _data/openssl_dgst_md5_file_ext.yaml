@@ -1,8 +1,8 @@
 commandlinefu_id: 12752
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl dgst -md5 file.ext
 summary: |-
-  Calculate md5 sum with openssl
+  计算md5
+

@@ -1,8 +1,8 @@
 commandlinefu_id: 5117
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  :/\c{pattern}
+  [VIM] :/\c{pattern}
 summary: |-
-  Search pattern case insensitive
+  大小写不敏感的替换
+  

@@ -1,8 +1,7 @@
 commandlinefu_id: 12631
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff <(sort <(md5deep -b -r /directory/1/) ) <(sort <(md5deep -b -r /directory/2/)
 summary: |-
-  Diff two directories by finding and comparing the md5 checksums of their contents.
+  基于md5 diff目录

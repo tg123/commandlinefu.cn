@@ -1,8 +1,7 @@
 commandlinefu_id: 11616
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -printf "%T@ %Tc %p\n" |sort -n |cut -d' ' -f2- |tail -n20
 summary: |-
-  show 20 last modified files in current directory including subdirectories
+  显示最新修改的20个文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 9441
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -e '/\\$/{:0;N;s/\\\n//;t0}'
 summary: |-
-  Join lines split with backslash at the end
+  合并行
