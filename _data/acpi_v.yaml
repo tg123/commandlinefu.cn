@@ -1,8 +1,7 @@
 commandlinefu_id: 5804
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   acpi -V
 summary: |-
-  Display laptop battery information
+  显示笔记本电池信息

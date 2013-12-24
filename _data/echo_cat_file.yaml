@@ -1,8 +1,7 @@
 commandlinefu_id: 9941
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   echo $(cat file)
 summary: |-
-  print a file on a single line
+  把文件内容显示在一行中

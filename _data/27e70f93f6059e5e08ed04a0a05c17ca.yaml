@@ -1,8 +1,7 @@
 commandlinefu_id: 6369
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   27e70f93f6059e5e08ed04a0a05c17ca
 summary: |-
-  Quickly generate an MD5 hash for a text string using OpenSSL
+  使用OpenSSL快速的生成文本的MD5
