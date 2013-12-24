@@ -1,7 +1,7 @@
 name: commandlinefu.cn
 markdown: redcarpet
 pygments: true
-paginate: 8
+paginate: 20
 permalink: '/post/:categories/:title.html'
 exclude: ['tools']
 lunr_search: 
