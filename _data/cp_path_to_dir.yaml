@@ -1,8 +1,7 @@
 commandlinefu_id: 1500
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cp ./* .[!.]* ..?* /path/to/dir
 summary: |-
-  Copy all files. All normal files, all hidden files and all files starting with - (minus).
+  复制所有文件。所有普通，隐藏和以减号开头的文件

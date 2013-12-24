@@ -1,8 +1,7 @@
 commandlinefu_id: 7384
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   bind -x '"\C-l":ls -l'
 summary: |-
-  Bind a key with a command
+  给命令绑定快捷键

@@ -1,8 +1,7 @@
 commandlinefu_id: 10104
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sed -e '/^#/d' -e 's/#.*$//' in
 summary: |-
-  Remove comments from files
+  从文件中移除注释

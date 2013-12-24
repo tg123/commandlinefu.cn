@@ -1,8 +1,7 @@
 commandlinefu_id: 2296
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   skill -KILL -t ttyS0
 summary: |-
-  Kill an orphan console
+  关闭孤儿终端
