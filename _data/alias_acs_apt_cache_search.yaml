@@ -1,8 +1,7 @@
 commandlinefu_id: 333
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias acs='apt-cache search'
 summary: |-
-  Fast searh Ubntu software repo
+  搜索deb仓库的方法

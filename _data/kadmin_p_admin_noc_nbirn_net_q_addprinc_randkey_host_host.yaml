@@ -1,8 +1,0 @@
-commandlinefu_id: 217
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kadmin -p admin@NOC.NBIRN.NET -q "addprinc -randkey host/host"
-summary: |-
-  addprinc

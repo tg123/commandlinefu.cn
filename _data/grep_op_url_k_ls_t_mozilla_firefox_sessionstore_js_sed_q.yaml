@@ -1,8 +1,7 @@
 commandlinefu_id: 4299
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -oP '"url":"\K[^"]+' $(ls -t ~/.mozilla/firefox/*/sessionstore.js | sed q)
 summary: |-
-  Extract all urls from the last firefox sessionstore.js file used.
+  从firefox中提取cookie

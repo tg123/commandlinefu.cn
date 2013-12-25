@@ -1,8 +1,0 @@
-commandlinefu_id: 1414
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv file_name.extension ..
-summary: |-
-  Move a file up a directory.

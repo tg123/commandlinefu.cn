@@ -1,8 +1,8 @@
 commandlinefu_id: 11707
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed  '/foo/ s/foo/foobar/g' <filename>
 summary: |-
-  optimized sed
+  优化的sed (先查找)
+

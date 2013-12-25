@@ -1,8 +1,7 @@
 commandlinefu_id: 1551
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   'ALT+.' or '<ESC> .'
 summary: |-
-  Place the argument of the most recent command on the shell
+  刚才的命令
