@@ -1,8 +1,7 @@
 commandlinefu_id: 1814
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name "*.py" -exec grep -n -H -E "^(import|from) math" {} \;
 summary: |-
-  Find all python modules that use the math module
+  查找所有使用的python module

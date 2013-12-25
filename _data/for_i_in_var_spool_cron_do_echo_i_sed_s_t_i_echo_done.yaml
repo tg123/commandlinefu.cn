@@ -1,8 +1,7 @@
 commandlinefu_id: 10964
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in /var/spool/cron/*; do echo ${i##*/}; sed 's/^/\t/' $i; echo; done
 summary: |-
-  Show crontabs for all users
+  显示所有用户的cron

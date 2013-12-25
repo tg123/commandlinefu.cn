@@ -1,8 +1,7 @@
 commandlinefu_id: 9453
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  ping -qc 10 server.tld | awk -F/ '/^rtt/ {print $5}'
+  ping -qc 10 hostname | awk -F/ '/^rtt/ {print $5}'
 summary: |-
-  Get average ping(1) time from a host
+  获取平均ping时间

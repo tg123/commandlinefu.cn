@@ -1,8 +1,7 @@
 commandlinefu_id: 2750
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sort -R file.txt | head -1
 summary: |-
-  Pick a random line from a file
+  随机取一行
