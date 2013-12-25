@@ -77,7 +77,7 @@
                 var n = item.clone();
                 n.find('.list-group-item-heading').text(d.title);
                 n.find('code').text(d.body);
-                n.find('a').attr('href', d.url);
+                n.attr('href', d.url);
                 return n;
             }
 
