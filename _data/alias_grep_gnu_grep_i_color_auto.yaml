@@ -1,8 +1,7 @@
 commandlinefu_id: 325
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias grep 'gnu grep -i --color=auto'
 summary: |-
-  Use color grep by default
+  高亮grep的结果

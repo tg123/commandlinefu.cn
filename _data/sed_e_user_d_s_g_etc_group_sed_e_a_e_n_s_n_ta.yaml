@@ -1,8 +1,7 @@
 commandlinefu_id: 670
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sed -e "/$USER/d;s/:.*//g" /etc/group | sed -e :a -e '/$/N;s/\n/ /;ta'
 summary: |-
-  Tells which group you DON'T belong to (opposite of command "groups") --- uses sed
+    显示你不属于那个用户组（和groups命令相反）--- 使用sed

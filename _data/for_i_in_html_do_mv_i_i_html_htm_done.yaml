@@ -1,8 +1,7 @@
 commandlinefu_id: 1331
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for i in *.html ; do mv $i ${i%.html}.htm ; done
 summary: |-
-  quickly change all .html extensions on files in folder to .htm
+  快速的将目录中所有的.html扩展名修改为.htm

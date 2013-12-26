@@ -1,8 +1,7 @@
 commandlinefu_id: 5753
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   aptitude -F '%p %v#' search <pattern>
 summary: |-
-  Show a Package Version on Debian based distribution
+  在Debian的发行版中显示包版本

@@ -1,8 +1,7 @@
 commandlinefu_id: 4525
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   xdg-open $(ls . | dmenu)
 summary: |-
-  File browser
+  文件浏览器

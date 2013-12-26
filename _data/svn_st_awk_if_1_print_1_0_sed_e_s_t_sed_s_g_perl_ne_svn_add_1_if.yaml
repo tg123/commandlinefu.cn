@@ -1,8 +1,7 @@
 commandlinefu_id: 10301
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   svn st | awk ' {if ( $1 == "?" ){print $1="",$0}} ' | sed -e 's/^[ \t]*//' | sed 's/ /\\ /g' |  perl -ne '`svn add ${1}@` if /(.*)(@*)(.*)/'
 summary: |-
-  add all files not under version control to repository
+  添加所有未被版本控制系统跟踪的文件到仓库中

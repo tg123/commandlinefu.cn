@@ -1,8 +1,7 @@
 commandlinefu_id: 1064
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   comm -1 -2 <(sort file1) <(sort file2)
 summary: |-
-  show lines that appear in both file1 and file2
+  显示同时出现在文件1和文件2中的行

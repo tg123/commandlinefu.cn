@@ -1,8 +1,7 @@
 commandlinefu_id: 6389
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   (cd /bin; set -- *; x=$((1+($RANDOM % $#))); man ${!x})
 summary: |-
-  Display a random man page
+  展示一个随机的man页面

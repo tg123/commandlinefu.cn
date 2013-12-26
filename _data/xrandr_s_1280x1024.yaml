@@ -1,8 +1,7 @@
 commandlinefu_id: 4955
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   xrandr -s 1280x1024
 summary: |-
-  Change display resolution
+  修改屏幕分辨率

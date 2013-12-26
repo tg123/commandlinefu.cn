@@ -1,8 +1,7 @@
 commandlinefu_id: 9386
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   Taskkill /?
 summary: |-
-  Killing a process in Windows 7 command line
+  在Windows 7中杀死进程

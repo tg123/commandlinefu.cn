@@ -1,8 +1,7 @@
 commandlinefu_id: 7165
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find ./ -iname '*avi' -exec cp  {} ./ \;
 summary: |-
-  Find and copy files from subdirectories to the current directory
+  从子目录中检索文件并复制到当前目录
