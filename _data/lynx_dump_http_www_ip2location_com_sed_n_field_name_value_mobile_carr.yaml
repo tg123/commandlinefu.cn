@@ -1,8 +1,0 @@
-commandlinefu_id: 10698
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump http://www.ip2location.com/ | sed -n '/^ *Field Name *Value *$/,/^ *\[_\] *Mobile .*Carrier.*name/p'
-summary: |-
-  Geographic location and more for current external IP address.

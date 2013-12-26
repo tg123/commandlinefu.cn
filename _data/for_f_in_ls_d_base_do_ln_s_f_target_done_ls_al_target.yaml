@@ -1,8 +1,7 @@
 commandlinefu_id: 1225
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for f in $(ls -d /base/*); do ln -s $f /target; done && ls -al /target
 summary: |-
-  Symlink all files from a base directory to a target directory
+  把一个目录下所有文件建立符号链接

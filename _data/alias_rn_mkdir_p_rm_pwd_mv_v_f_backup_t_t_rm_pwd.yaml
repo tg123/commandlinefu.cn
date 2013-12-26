@@ -1,8 +1,7 @@
 commandlinefu_id: 12186
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias rn='mkdir -p ~/.rm`pwd`; mv -v -f --backup=t -t ~/.rm`pwd` "$@"'
 summary: |-
-  like rm, but keep backups of files and dirs in ~/.rm
+  修改rm 可以备份

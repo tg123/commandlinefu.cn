@@ -1,8 +1,7 @@
 commandlinefu_id: 9177
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -h /path | sort -h
 summary: |-
-  List by size all of the directories in a given tree.
+  查看所有目录大小
