@@ -1,8 +1,7 @@
 commandlinefu_id: 8057
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   php -s source.php > source.html
 summary: |-
-  Syntax highlight PHP source
+  高亮php文件

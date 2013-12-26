@@ -1,8 +1,7 @@
 commandlinefu_id: 12517
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ls -1F | grep @$ | sed 's/@//' | column
 summary: |-
-  List all symbolic links in current directory
+  显示当前目录中所有的符号链接

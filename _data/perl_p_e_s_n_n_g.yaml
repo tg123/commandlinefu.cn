@@ -1,8 +1,7 @@
 commandlinefu_id: 10847
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   perl -p -e 's/\\n/\n/g'
 summary: |-
-  You can't do that on sed
+  你无法使用sed实现这个效果

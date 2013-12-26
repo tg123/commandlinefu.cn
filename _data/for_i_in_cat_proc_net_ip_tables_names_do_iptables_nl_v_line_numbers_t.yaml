@@ -1,8 +1,7 @@
 commandlinefu_id: 5449
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for i in `cat /proc/net/ip_tables_names`; do iptables -nL -v --line-numbers -t $i ; done
 summary: |-
-  show ALL iptable rules
+  显示所有防火墙规则

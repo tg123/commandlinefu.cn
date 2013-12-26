@@ -1,8 +1,7 @@
 commandlinefu_id: 1447
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . -name *DS_Store -exec echo rm {} \;
 summary: |-
-  Removes Apple "garbage"
+  移除Apple系统中的DS_Store
