@@ -1,8 +1,7 @@
 commandlinefu_id: 4368
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /sbin/ip -f inet addr | sed -rn 's/.*inet ([^ ]+).*(eth[[:digit:]]*(:[[:digit:]]+)?)/\2 \1/p' | column -t
 summary: |-
-  Read just the IP address of a device
+  读取设备的ip

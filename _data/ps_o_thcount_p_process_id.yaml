@@ -1,8 +1,7 @@
 commandlinefu_id: 4217
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -o thcount -p <process id>
 summary: |-
-  Return threads count of a process
+  查看线程数量

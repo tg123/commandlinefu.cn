@@ -1,8 +1,7 @@
 commandlinefu_id: 9979
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ck-list-sessions
 summary: |-
-  how to find the active X (X11/xorg) username and DISPLAY variable
+  查看所有X的DISPLAY变量

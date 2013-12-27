@@ -1,8 +1,7 @@
 commandlinefu_id: 11376
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   printenv
 summary: |-
-  Print environment information.
+  打印所有环境变量

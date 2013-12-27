@@ -1,8 +1,7 @@
 commandlinefu_id: 11160
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -e "[sh]d[a-l][0-9]\?" /proc/partitions | awk '{print $4}'
 summary: |-
-  list all available disks and disk partitions
+  查看所有磁盘和分区
