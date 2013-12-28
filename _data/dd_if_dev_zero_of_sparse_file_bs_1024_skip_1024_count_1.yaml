@@ -1,8 +1,7 @@
 commandlinefu_id: 6878
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   dd if=/dev/zero of=sparse_file bs=1024 skip=1024 count=1
 summary: |-
-  Create a file of a given size in linux
+  在linux系统中按照指定大小创建一个文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 6127
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find ./* -mtime +60 -exec mv {} storeFolder \;
 summary: |-
-  move all files older than 60 days to a folder
+  移除目录中所有存在超过60天的文件

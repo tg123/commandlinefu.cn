@@ -1,8 +1,7 @@
 commandlinefu_id: 639
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   pwd
 summary: |-
-  Display your current working directory.
+  显示当前的工作路径

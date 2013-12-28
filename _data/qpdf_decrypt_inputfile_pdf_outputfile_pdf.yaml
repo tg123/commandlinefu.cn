@@ -1,8 +1,7 @@
 commandlinefu_id: 12139
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   qpdf --decrypt inputfile.pdf outputfile.pdf
 summary: |-
-  Remove security limitations from PDF documents using QPDF
+  使用QPDF移除PDF文件的安全限制

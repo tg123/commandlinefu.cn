@@ -1,8 +1,7 @@
 commandlinefu_id: 2369
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find -L /path/to/check -type l -delete
 summary: |-
-  Find broken symlinks and delete them
+  查找并删除损坏的链接

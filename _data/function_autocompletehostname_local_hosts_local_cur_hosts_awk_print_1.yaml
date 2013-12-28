@@ -1,8 +1,7 @@
 commandlinefu_id: 2196
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   function autoCompleteHostname() {   local hosts;   local cur;   hosts=($(awk '{print $1}' ~/.ssh/known_hosts | cut -d, -f1));   cur=${COMP_WORDS[COMP_CWORD]};   COMPREPLY=($(compgen -W '${hosts[@]}' -- $cur )) } complete -F autoCompleteHostname ssh
 summary: |-
-  Hostname tab-completion for ssh
+  ssh命令主机地址中的tab补全

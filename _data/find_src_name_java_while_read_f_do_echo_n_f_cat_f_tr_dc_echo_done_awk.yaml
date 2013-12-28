@@ -1,8 +1,7 @@
 commandlinefu_id: 8876
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find src/ -name "*.java" | while read f; do echo -n "$f "; cat "$f" | tr -dc '{}'; echo; done | awk '{ print length($2), $1 }' | sort -n
 summary: |-
-  Find .java files with high complexity (counting curly braces)
+  查找复杂的java文件（对源码文件中的大括号进行计数）
