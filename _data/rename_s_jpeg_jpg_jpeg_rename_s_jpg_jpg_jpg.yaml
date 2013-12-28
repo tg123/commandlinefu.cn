@@ -1,8 +1,7 @@
 commandlinefu_id: 7030
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   rename 's/\.jpeg/\.jpg/' *.jpeg; rename 's/\.JPG/\.jpg/' *.JPG
 summary: |-
-  Rename all .jpeg and .JPG files to .jpg
+  重命名所有的.jpeg和.JPG扩展名到.jpg

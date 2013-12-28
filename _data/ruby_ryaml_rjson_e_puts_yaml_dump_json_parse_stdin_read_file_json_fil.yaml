@@ -1,8 +1,7 @@
 commandlinefu_id: 12221
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ruby -ryaml -rjson -e 'puts YAML.dump(JSON.parse(STDIN.read))' < file.json > file.yaml
 summary: |-
-  Convert JSON to YAML
+  转换JSON到YAML

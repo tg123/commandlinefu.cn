@@ -1,8 +1,7 @@
 commandlinefu_id: 5393
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias s='sudo'
 summary: |-
-  Short alias for sudo
+  为sudo命令设置一个短注释

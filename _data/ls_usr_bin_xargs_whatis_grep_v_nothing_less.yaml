@@ -1,8 +1,7 @@
 commandlinefu_id: 4667
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ls /usr/bin | xargs whatis | grep -v nothing | less
 summary: |-
-  Do some learning...
+  显示/usr/bin目录下文件的用途

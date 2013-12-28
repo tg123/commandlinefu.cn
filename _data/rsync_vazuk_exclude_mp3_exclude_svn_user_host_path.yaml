@@ -1,8 +1,7 @@
 commandlinefu_id: 1262
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   rsync -vazuK --exclude "*.mp3" --exclude "*.svn*" * user@host:/path
 summary: |-
-  exclude file(s) from rsync
+  rsync命令中排除某些文件

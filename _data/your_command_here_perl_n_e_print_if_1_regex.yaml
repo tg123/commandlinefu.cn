@@ -1,8 +1,7 @@
 commandlinefu_id: 4405
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   <your command here> | perl -n -e 'print "$_" if 1 ... /<regex>/;'
 summary: |-
-  Display the output of a command from the first line until the first instance of a regular expression.
+  显示命令输出中从第一行到第一次匹配正则的行之间的容

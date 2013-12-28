@@ -1,8 +1,7 @@
 commandlinefu_id: 2501
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sleep 5h && rhythmbox path/to/song
 summary: |-
-  Set an alarm to wake up
+  为唤醒设置提醒

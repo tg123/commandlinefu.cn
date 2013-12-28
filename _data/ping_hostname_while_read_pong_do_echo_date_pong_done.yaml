@@ -1,8 +1,7 @@
 commandlinefu_id: 9197
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ping HOSTNAME | while read pong; do echo "$(date): $pong"; done
 summary: |-
-  ping with timestamp
+  带有时间戳的ping

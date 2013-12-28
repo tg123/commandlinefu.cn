@@ -1,8 +1,7 @@
 commandlinefu_id: 10089
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   echo "hello_world" | sed -r 's/([a-z]+)_([a-z])([a-z]+)/\1\U\2\L\3/'
 summary: |-
-  underscore to camelCase
+  下划线方式转换为驼峰方式

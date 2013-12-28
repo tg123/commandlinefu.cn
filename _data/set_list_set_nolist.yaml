@@ -1,8 +1,7 @@
 commandlinefu_id: 7970
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   set list / set nolist
 summary: |-
-  show hidden chars in vi
+  在vi中显示不可见的字符，空格，tab等

@@ -1,8 +1,7 @@
 commandlinefu_id: 799
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   pushd /tmp
 summary: |-
-  Push your present working directory to a stack that you can pop later
+  把路径压到目录栈

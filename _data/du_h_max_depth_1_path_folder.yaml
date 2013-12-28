@@ -1,8 +1,7 @@
 commandlinefu_id: 12488
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   du -h --max-depth=1 /path/folder/
 summary: |-
-  List the Sizes of Folders and Directories
+  列出目录的大小
