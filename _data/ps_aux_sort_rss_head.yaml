@@ -1,8 +1,7 @@
 commandlinefu_id: 11520
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps aux --sort -rss | head
 summary: |-
-  Display the top ten running processes - sorted by memory usage
+  按内存使用量排序

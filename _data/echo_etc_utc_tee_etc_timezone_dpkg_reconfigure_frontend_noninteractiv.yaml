@@ -1,8 +1,7 @@
 commandlinefu_id: 12203
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo 'Etc/UTC' | tee /etc/timezone; dpkg-reconfigure --frontend noninteractive tzdata
 summary: |-
-  Non-interactively set timezone in Ubuntu
+  设置时区(ubuntu)

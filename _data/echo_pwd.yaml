@@ -1,8 +1,7 @@
 commandlinefu_id: 6261
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $PWD/*
 summary: |-
-  List files with full path
+  全目录文件
