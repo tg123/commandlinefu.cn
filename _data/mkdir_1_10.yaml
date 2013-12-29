@@ -1,8 +1,7 @@
 commandlinefu_id: 8885
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
-  mkdir ${1..10}
+  mkdir {1..10}
 summary: |-
-  Overcome Bash's expansion order
+  以扩展序列为名建立目录

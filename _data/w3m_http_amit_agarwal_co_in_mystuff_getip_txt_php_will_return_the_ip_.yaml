@@ -1,8 +1,7 @@
 commandlinefu_id: 3897
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   w3m http://amit-agarwal.co.in/mystuff/getip_txt.php will return the ip in text format.
 summary: |-
-  What is my ip?
+  查看自己的ip

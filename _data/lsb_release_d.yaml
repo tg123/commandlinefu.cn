@@ -1,8 +1,7 @@
 commandlinefu_id: 2121
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   lsb_release -d
 summary: |-
-  Find which version of Linux You are Running
+  显示Linux版本

@@ -1,8 +1,7 @@
 commandlinefu_id: 9163
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   scp -P 1837 <path_to_loca_file> <remote_user>@<remote_ip>:<remote_ip>
 summary: |-
-  use scp to copy files
+  使用scp命令来复制文件

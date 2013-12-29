@@ -1,8 +1,7 @@
 commandlinefu_id: 6314
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   file /music/dir/* | grep -v 44.1 | sed 's/:.*//g' | grep .mp3 | { while IFS= read; do filebak="\"$REPLY.original\""; file="\"$REPLY\""; mv $file $filebak; sox -t mp3 $filebak $file rate 44k; done; };
 summary: |-
-  Resample MP3's to 44.1kHz
+  将MP3按照44.1kHz重新取样
