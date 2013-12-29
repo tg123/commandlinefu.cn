@@ -1,8 +1,7 @@
 commandlinefu_id: 10154
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   diff -y <(ssh user@host  find /boot|sort) <(find /boot|sort)
 summary: |-
-  Compare a remote dir with a local dir
+  比较本地和远程目录

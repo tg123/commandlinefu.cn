@@ -1,8 +1,7 @@
 commandlinefu_id: 4191
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sudo strace -pXXXX -e trace=file
 summary: |-
-  Determine what an process is actually doing
+  查看一个进程正在干什么
