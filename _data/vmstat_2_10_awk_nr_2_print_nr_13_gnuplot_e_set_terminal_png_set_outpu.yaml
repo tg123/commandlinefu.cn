@@ -1,8 +1,7 @@
 commandlinefu_id: 3581
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vmstat 2 10 | awk 'NR > 2 {print NR, $13}' | gnuplot -e "set terminal png;set output 'v.png';plot '-' u 1:2 t 'cpu' w linespoints;"
 summary: |-
-  Visualizing system performance data
+  系统性能信息

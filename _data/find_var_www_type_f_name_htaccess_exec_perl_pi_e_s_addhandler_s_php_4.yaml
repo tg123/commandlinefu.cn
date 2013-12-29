@@ -1,8 +1,0 @@
-commandlinefu_id: 3132
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var/www/ -type f -name ".htaccess" -exec perl -pi -e 's/AddHandler[\s]*php(4|5)-cgi/AddHandler x-httpd-php\1/' {} \;
-summary: |-
-  replace old htaccess php AddHandler values with new one

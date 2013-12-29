@@ -1,8 +1,7 @@
 commandlinefu_id: 3042
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   crontab -e
 summary: |-
-  Edit Crontab
+  编辑crontab
