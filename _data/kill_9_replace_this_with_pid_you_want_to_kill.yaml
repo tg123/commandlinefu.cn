@@ -1,8 +1,7 @@
 commandlinefu_id: 3676
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   kill -9 <replace this with pid you want to kill>
 summary: |-
-  Forcefuly kills the pid
+  强制杀死进程

@@ -1,8 +1,7 @@
 commandlinefu_id: 2084
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lshw -C disk -html > /tmp/diskinfo.html
 summary: |-
-  Create a html of information about you harddisk
+  创建一个html 版本的硬盘信息

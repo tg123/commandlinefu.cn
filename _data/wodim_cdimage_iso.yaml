@@ -1,8 +1,0 @@
-commandlinefu_id: 2069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wodim cdimage.iso
-summary: |-
-  burn an ISO image to writable CD

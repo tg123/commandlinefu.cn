@@ -1,8 +1,7 @@
 commandlinefu_id: 257
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -N -L2001:localhost:80 -o "ProxyCommand ssh someuser@hubmachine nc -w 5 %h %p" someuser@destinationmachine
 summary: |-
-  setup a tunnel from destination machine port 80 to localhost 2001, via a second (hub) machine.
+  加密ssh的隧道 远端80映射本地 2001
