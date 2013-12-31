@@ -1,8 +1,7 @@
 commandlinefu_id: 9773
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   while read; do mysqldump $REPLY | gzip > "/backup/mysql/$REPLY.sql.gz"; done < <( mysql -e 'show databases' -s --skip-column-names )
 summary: |-
-  Backup all MySQL Databases to individual files
+  备份所有MySQL数据库到独立的文件中

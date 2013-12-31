@@ -1,8 +1,7 @@
 commandlinefu_id: 11647
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias emacs='vim'
 summary: |-
-  Improve Emacs
+  增强emacs

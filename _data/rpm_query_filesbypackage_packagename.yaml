@@ -1,8 +1,7 @@
 commandlinefu_id: 187
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   rpm --query --filesbypackage [packagename]
 summary: |-
-  List files in an RPM package
+  列出rpm包中的文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 9890
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sed -n '3,6p' /path/to/file
 summary: |-
-  Print all lines between two line numbers
+  打印指定行号之间的文件内容

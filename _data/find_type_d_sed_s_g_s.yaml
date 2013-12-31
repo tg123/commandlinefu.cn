@@ -1,8 +1,7 @@
 commandlinefu_id: 10592
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . -type d |sed 's:[^-][^/]*/:--:g; s:^-: |:'
 summary: |-
-  Graphical tree of sub-directories
+  图形化的目录树

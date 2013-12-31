@@ -1,8 +1,7 @@
 commandlinefu_id: 1781
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias up="cd .."; alias upp="cd ../.."; alias uppp="cd ../../.."; alias upppp="cd ../../../.."; alias uppppp="cd ../../../../.."
 summary: |-
-  up - aliaes for moving up the directory tree
+  向目录树的顶层移动的注释
