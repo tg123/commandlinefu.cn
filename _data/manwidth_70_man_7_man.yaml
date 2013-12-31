@@ -1,8 +1,7 @@
 commandlinefu_id: 10038
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   MANWIDTH=70 man 7 man
 summary: |-
-  Limit characters per line when viewing manual pages.
+  修改man的宽度

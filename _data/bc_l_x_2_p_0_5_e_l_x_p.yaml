@@ -1,8 +1,7 @@
 commandlinefu_id: 3333
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bc -l <<< "x=2; p=0.5; e(l(x)*p)"
 summary: |-
-  Floating point power p of x
+  计算pow

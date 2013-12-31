@@ -1,8 +1,8 @@
 commandlinefu_id: 10633
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim some-archive.tar.gz
 summary: |-
-  Edit a file inside a compressed archive without extracting it
+  在vim上可以直接编译压缩文件内容
+

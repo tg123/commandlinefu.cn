@@ -1,8 +1,7 @@
 commandlinefu_id: 12303
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '!($0 in array) { array[$0]; print }' temp
 summary: |-
-  Remove duplicate lines using awk
+  清除重复的行

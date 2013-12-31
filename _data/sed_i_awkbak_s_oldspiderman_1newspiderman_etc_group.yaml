@@ -1,8 +1,7 @@
 commandlinefu_id: 11957
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i.awkbak "s/\([:,]\)oldspiderman/\1newspiderman/" /etc/group
 summary: |-
-  Revoke an existing user's group memberships and add another user to those same groups,
+  给用户的组改名

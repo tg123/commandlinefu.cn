@@ -1,8 +1,7 @@
 commandlinefu_id: 9439
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -c '^$' /proc/cpuinfo
 summary: |-
-  Number of CPU's in a system
+  计算cpu 数量
