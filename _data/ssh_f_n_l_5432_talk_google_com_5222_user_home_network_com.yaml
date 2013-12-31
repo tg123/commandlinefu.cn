@@ -1,8 +1,0 @@
-commandlinefu_id: 2367
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -f -N -L 5432:talk.google.com:5222 user@home.network.com
-summary: |-
-  Connect to google talk through ssh by setting your IM client to use the localhost 5432 port

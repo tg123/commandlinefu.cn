@@ -1,8 +1,7 @@
 commandlinefu_id: 11067
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find path -name '*' -type f | cpio -ov -H ustar -F txtarchive.tar
 summary: |-
-  Create a tar archive with cpio containing a set of files
+  使用cpio创建一个tar

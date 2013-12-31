@@ -1,8 +1,7 @@
 commandlinefu_id: 88
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias 'ps?'='ps ax | grep '
 summary: |-
-  Easily search running processes (alias).
+  给ps grep 加个alias

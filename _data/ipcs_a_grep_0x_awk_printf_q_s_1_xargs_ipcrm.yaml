@@ -1,8 +1,7 @@
 commandlinefu_id: 4706
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ipcs -a | grep 0x | awk '{printf( "-Q %s ", $1 )}' | xargs ipcrm
 summary: |-
-  Clear IPC Message Queue
+  清空IPC消息队列
