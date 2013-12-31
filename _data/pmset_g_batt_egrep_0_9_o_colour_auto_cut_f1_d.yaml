@@ -1,8 +1,7 @@
 commandlinefu_id: 10477
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   pmset -g batt | egrep "([0-9]+\%).*" -o --colour=auto | cut -f1 -d';'
 summary: |-
-  Get OSX Battery percentage
+  返回OSX电池电量

@@ -1,8 +1,7 @@
 commandlinefu_id: 8409
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   rename foo bar directory/filename
 summary: |-
-  Rename all files which contain the sub-string 'foo', replacing it with 'bar'
+  重命名所有文件名包含字符串'foo'的文件，将'foo'替换为'bar'

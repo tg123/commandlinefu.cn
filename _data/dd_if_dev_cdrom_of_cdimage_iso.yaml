@@ -1,8 +1,7 @@
 commandlinefu_id: 10470
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   dd if=/dev/cdrom of=~/cdimage.iso
 summary: |-
-  Create iso image of cd/dvd
+  创建cd/dvd镜像

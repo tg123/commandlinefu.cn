@@ -1,8 +1,7 @@
 commandlinefu_id: 10904
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   du -x / | sort -rn | less
 summary: |-
-  du and sort to find the biggest directories in defined filesystem
+  使用du和sort查找文件系统中最大的目录

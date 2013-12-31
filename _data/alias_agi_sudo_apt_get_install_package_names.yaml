@@ -1,8 +1,7 @@
 commandlinefu_id: 2165
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias agi="sudo apt-get install" #package_names
 summary: |-
-  aliases for apt-get
+  apt-get的注释
