@@ -1,8 +1,7 @@
 commandlinefu_id: 12478
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   echo 'HelloWorld!' | gpg --symmetric | base64
 summary: |-
-  Encrypt/decrypt a string from the command line
+  在命令行中加密/解密字符串

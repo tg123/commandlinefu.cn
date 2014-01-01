@@ -1,8 +1,7 @@
 commandlinefu_id: 1727
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   eval "`dircolors -b`"
 summary: |-
-  Add some color to ls
+  给ls加一些色彩

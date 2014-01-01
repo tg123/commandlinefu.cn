@@ -1,8 +1,7 @@
 commandlinefu_id: 12756
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   wget -q -O- http://example-podcast-feed.com/rss | grep -o "<enclosure[ -~][^>]*" | grep -o "http://[ -~][^\"]*" | xargs wget -c
 summary: |-
-  Download files linked in a RSS feed
+  下载RSS订阅中的文件链接

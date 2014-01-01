@@ -1,8 +1,7 @@
 commandlinefu_id: 8483
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sort -u < /sys/class/net/*/address
 summary: |-
-  List your MACs address
+  列出你的物理地址

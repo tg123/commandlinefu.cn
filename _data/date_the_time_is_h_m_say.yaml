@@ -1,8 +1,7 @@
 commandlinefu_id: 1107
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   date "+The time is %H:%M" | say
 summary: |-
-  Say the current time (Mac OS X)
+  Mac OS X系统报时

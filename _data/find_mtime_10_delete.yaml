@@ -1,8 +1,7 @@
 commandlinefu_id: 5342
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   find . -mtime +10 -delete
 summary: |-
-  Delete all files older than X in given path
+  列出指定目录汇总比X古老的文件
