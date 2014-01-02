@@ -1,8 +1,7 @@
 commandlinefu_id: 12350
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   php -S 127.0.0.1:8080
 summary: |-
-  Run the built in PHP-server in current folder
+  启动php内置的服务器

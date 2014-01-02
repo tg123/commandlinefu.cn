@@ -1,8 +1,7 @@
 commandlinefu_id: 8448
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   cd <directory>; touch ./-i
 summary: |-
-  Protect directory from an overzealous rm -rf *
+  保护目录不被rm -rf * 命令删除

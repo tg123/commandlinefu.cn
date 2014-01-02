@@ -1,8 +1,7 @@
 commandlinefu_id: 10574
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   sudo usermod -a -G vboxusers <username>
 summary: |-
-  Fix VirtualBox error
+  修复VirtualBox错误

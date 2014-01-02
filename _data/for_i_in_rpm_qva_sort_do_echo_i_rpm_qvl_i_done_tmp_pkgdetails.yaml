@@ -1,8 +1,7 @@
 commandlinefu_id: 2660
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   for i in `rpm -qva | sort ` ; do ; echo "===== $i =====" ; rpm -qvl $i ; done > /tmp/pkgdetails
 summary: |-
-  Create a file list of all package files installed on your Red-Hat-like system for easy grepping
+  在类ReaHat操作系统中将所有安装的软件包的列表存入文件以方便使用grep查找

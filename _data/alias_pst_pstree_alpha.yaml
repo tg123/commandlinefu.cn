@@ -1,8 +1,7 @@
 commandlinefu_id: 1547
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   alias pst='pstree -Alpha'
 summary: |-
-  Alias for displaying a process tree nicely
+  一个别名，以友好方式展示进程树
