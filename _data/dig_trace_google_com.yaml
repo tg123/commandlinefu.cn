@@ -1,8 +1,7 @@
 commandlinefu_id: 6516
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dig +trace google.com
 summary: |-
-  Trace a DNS query from root to the authoritive servers.
+  跟踪dns 解析

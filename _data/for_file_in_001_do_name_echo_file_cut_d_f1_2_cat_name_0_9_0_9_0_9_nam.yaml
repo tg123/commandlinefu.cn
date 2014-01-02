@@ -1,8 +1,7 @@
 commandlinefu_id: 2792
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for file in *.001; do NAME=`echo $file | cut -d. -f1,2`; cat "$NAME."[0-9][0-9][0-9] > "$NAME"; done
 summary: |-
-  Join a folder full of split files
+  合并文件到文件夹里边

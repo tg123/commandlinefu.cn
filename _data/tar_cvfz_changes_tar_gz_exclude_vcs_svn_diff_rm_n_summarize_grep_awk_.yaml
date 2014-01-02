@@ -1,8 +1,7 @@
 commandlinefu_id: 2643
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cvfz changes.tar.gz --exclude-vcs `svn diff -rM:N --summarize . | grep . | awk '{print $2}' | grep -E -v '^\.$'`
 summary: |-
-  Get a range of SVN revisions from svn diff and tar gz them
+  获取一个版本范围的变化然后 tar gz 变化

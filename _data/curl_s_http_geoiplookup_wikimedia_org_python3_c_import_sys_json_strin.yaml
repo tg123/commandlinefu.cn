@@ -1,8 +1,0 @@
-commandlinefu_id: 9669
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://geoiplookup.wikimedia.org/ | python3 -c 'import sys, json, string, webbrowser; webbrowser.open(string.Template("http://maps.google.com/maps?q=$lat,$lon").substitute(json.loads(sys.stdin.read().split("=")[-1])))'
-summary: |-
-  where am I in google map?

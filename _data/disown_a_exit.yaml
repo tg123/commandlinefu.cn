@@ -1,8 +1,7 @@
 commandlinefu_id: 1880
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   disown -a && exit
 summary: |-
-  Close shell keeping all subprocess running
+  关闭shell 并保持子进程运行

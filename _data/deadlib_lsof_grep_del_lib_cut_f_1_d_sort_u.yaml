@@ -1,8 +1,7 @@
 commandlinefu_id: 7061
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   deadlib() { lsof | grep 'DEL.*lib' | cut -f 1 -d ' ' | sort -u; }
 summary: |-
-  Shows what processes need to be restarted after system upgrade
+  系统升级后查看哪些进程需要重启
