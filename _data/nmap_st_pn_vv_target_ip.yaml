@@ -1,8 +1,7 @@
 commandlinefu_id: 8880
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   nmap -sT -PN -vv <target ip>
 summary: |-
-  Nmap find open TCP/IP ports for a target that is blocking ping
+  查看开打的 tcp/ip 端口

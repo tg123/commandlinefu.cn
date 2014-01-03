@@ -1,8 +1,7 @@
 commandlinefu_id: 10672
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cp -r path/to/file/tree $(mkdir -p new/path/here; echo new/path/here)
 summary: |-
-  Copy a file to a new directory created on the fly
+  复制时直接创建目录
