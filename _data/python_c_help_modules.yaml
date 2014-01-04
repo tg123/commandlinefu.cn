@@ -1,8 +1,7 @@
 commandlinefu_id: 11758
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   python -c "help('modules')"
 summary: |-
-  List all available python modules
+  查询python某个模块的文档

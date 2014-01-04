@@ -1,8 +1,7 @@
 commandlinefu_id: 378
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias ip4grep "grep -E '([0-9]{1,3}\.){3}[0-9]{1,3}'"
 summary: |-
-  Look for IPv4 address in files.
+  过滤ipv4地址

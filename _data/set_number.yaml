@@ -1,8 +1,7 @@
 commandlinefu_id: 12797
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :set number
 summary: |-
-  vi show line numbers
+  在vi中显示行号
