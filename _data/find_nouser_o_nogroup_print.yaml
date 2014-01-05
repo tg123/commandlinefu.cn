@@ -1,8 +1,7 @@
 commandlinefu_id: 1622
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find / -nouser -o -nogroup -print
 summary: |-
-  list files not owned by any user or group
+  列出没有主人的文件

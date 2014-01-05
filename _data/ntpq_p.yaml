@@ -1,8 +1,7 @@
 commandlinefu_id: 6582
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ntpq -p
 summary: |-
-  Verify if ntpd is working properly
+  检查nptd是否正常

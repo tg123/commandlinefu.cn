@@ -1,8 +1,7 @@
 commandlinefu_id: 96
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps awwwux | grep httpd | grep -v grep | awk '{mem = $6; tot = $6 + tot; total++} END{printf("Total procs: %d\nAvg Size: %d KB\nTotal Mem Used: %f GB\n", total, mem / total, tot / 1024 / 1024)}'
 summary: |-
-  Total procs, avg size (RSS) and Total mem use
+  统计httpd的进程数量和内存使用

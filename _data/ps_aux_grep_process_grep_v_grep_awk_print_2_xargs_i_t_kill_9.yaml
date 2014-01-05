@@ -1,8 +1,7 @@
 commandlinefu_id: 11941
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps aux | grep <process> | grep -v grep | awk '{print $2}' | xargs -i -t kill -9 {}
 summary: |-
-  Kill a lot of process once a time
+  一次清理到多个进程

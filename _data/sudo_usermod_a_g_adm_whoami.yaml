@@ -1,8 +1,7 @@
 commandlinefu_id: 7924
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo usermod -a -G adm "$(whoami)"
 summary: |-
-  Let yourself read the logs under /var/log/apache2 (on Debian)
+  把自己加到adm组里边
