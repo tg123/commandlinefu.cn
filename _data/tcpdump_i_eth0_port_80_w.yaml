@@ -1,8 +1,7 @@
 commandlinefu_id: 6071
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tcpdump -i eth0  port 80 -w -
 summary: |-
-  view http traffic
+  查看http流量

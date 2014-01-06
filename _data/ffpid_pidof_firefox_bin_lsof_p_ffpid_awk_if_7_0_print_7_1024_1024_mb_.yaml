@@ -1,8 +1,7 @@
 commandlinefu_id: 3050
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   FFPID=$(pidof firefox-bin) && lsof -p $FFPID | awk '{ if($7>0) print ($7/1024/1024)" MB -- "$9; }' | grep ".mozilla" | sort -rn
 summary: |-
-  Check which files are opened by Firefox then sort by largest size.
+  查看fireofx 打开的文件(按大小排序)

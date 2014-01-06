@@ -1,8 +1,7 @@
 commandlinefu_id: 3488
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cvfz dir_name.tgz dir/
 summary: |-
-  Tar a directory and its sub-directory
+  如何tar gz 一个目录

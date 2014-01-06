@@ -1,8 +1,7 @@
 commandlinefu_id: 1456
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   VARIABLE="VALUE" COMMAND
 summary: |-
-  Executes a command changing an environment variable
+  执行命令时候使用特定的环境变量
