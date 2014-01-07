@@ -1,8 +1,7 @@
 commandlinefu_id: 1752
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   chmod +x FILES
 summary: |-
-  Make FILES executable
+  添加执行权限

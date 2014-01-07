@@ -1,8 +1,7 @@
 commandlinefu_id: 2442
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -2 -iIr "err\|warn\|fail\|crit" /var/log/*
 summary: |-
-  Get all possible problems from any log files
+  查找日志中的所有问题

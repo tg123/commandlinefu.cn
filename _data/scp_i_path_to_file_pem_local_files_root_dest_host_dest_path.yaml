@@ -1,8 +1,7 @@
 commandlinefu_id: 9113
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   scp -i /path/to/file.pem [local-files] root@[dest-host]:[dest-path]
 summary: |-
-  SCP files to remote server using PEM file
+  指定私钥的scp

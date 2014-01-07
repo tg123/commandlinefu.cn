@@ -1,8 +1,7 @@
 commandlinefu_id: 6881
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xrandr | sed -n 's/ connected.*//p' | xargs -n1 -tri xrandr --output {} --brightness 0.7 --gamma 2:3:4
 summary: |-
-  Adjust gamma so monitor doesn't mess up your body's clock
+  调节显示器gamma

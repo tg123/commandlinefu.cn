@@ -1,8 +1,0 @@
-commandlinefu_id: 9038
-translator:
-  weibo: ''
-hide: true
-command: |-
-  firefox http://emacs.vote-system.com/
-summary: |-
-  Commandlinefu site like but for Emacs !
