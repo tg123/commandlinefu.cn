@@ -1,8 +1,7 @@
 commandlinefu_id: 1920
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   locate searchstring | xargs grep foo
 summary: |-
-  Find 'foo' in located files
+  查找foo

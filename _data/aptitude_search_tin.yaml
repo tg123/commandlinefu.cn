@@ -1,8 +1,7 @@
 commandlinefu_id: 9532
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   aptitude search ^tin
 summary: |-
-  Seach for packages on Debian using regex.
+  查找deb包

@@ -1,8 +1,7 @@
 commandlinefu_id: 9436
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   Tunnel a MySQL server listening on a UNIX socket to the local machine
 summary: |-
-  socat TCP-LISTEN:5500 EXEC:'ssh user@remotehost "socat STDIO UNIX-CONNECT:/var/run/mysqld/mysqld.sock"'
+  把远程的socket映射到本地

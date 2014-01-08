@@ -1,8 +1,7 @@
 commandlinefu_id: 10059
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -p -i -e 's/.*\n//g if $.==2' ~/.ssh/known_hosts
 summary: |-
-  Remove a line from a file using sed (useful for updating known SSH server keys when they change)
+  使用perl删除 know_hosts 的一行

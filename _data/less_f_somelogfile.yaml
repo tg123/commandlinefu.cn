@@ -1,8 +1,7 @@
 commandlinefu_id: 1024
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   less +F somelogfile
 summary: |-
-  Make 'less' behave like 'tail -f'.
+  还不知道less也能有tail的效果吧
