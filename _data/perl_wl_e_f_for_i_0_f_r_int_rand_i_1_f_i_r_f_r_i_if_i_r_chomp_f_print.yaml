@@ -1,8 +1,7 @@
 commandlinefu_id: 4401
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -wl -e '@f=<>; for $i (0 .. $#f) { $r=int rand ($i+1); @f[$i, $r]=@f[$r,$i] if ($i!=$r); } chomp @f; print join $/, @f;' try.txt
 summary: |-
-  Randomize lines (opposite of | sort)
+  打乱行

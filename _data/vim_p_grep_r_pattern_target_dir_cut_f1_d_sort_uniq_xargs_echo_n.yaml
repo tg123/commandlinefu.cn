@@ -1,8 +1,7 @@
 commandlinefu_id: 8968
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim -p `grep -r PATTERN TARGET_DIR | cut -f1 -d: | sort | uniq | xargs echo -n`
 summary: |-
-  Grep across a directory and open matching files in vim (one tab per file)
+  查找并在vim中打开

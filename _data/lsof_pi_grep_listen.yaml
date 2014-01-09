@@ -1,8 +1,7 @@
 commandlinefu_id: 9395
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -Pi | grep LISTEN
 summary: |-
-  check open ports (both ipv4 and ipv6)
+  检查端口是否打开

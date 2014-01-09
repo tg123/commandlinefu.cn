@@ -1,8 +1,7 @@
 commandlinefu_id: 135
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl pkcs8 -inform DER -nocrypt -in [priv key] -out [pem priv key]
 summary: |-
-  Convert a PKCS#8 private key to PEM format
+  转换私钥

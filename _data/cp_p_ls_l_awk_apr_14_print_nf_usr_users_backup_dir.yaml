@@ -1,8 +1,7 @@
 commandlinefu_id: 11695
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cp -p `ls -l | awk '/Apr 14/ {print $NF}'` /usr/users/backup_dir
 summary: |-
-  Find a file with a certail date stamp
+  查找特定时间戳的文件
