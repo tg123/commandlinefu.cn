@@ -1,8 +1,7 @@
 commandlinefu_id: 5663
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -o comm,%mem,args -u www-data
 summary: |-
-  Nicely display mem usage with ps
+  更美丽的现实内存使用

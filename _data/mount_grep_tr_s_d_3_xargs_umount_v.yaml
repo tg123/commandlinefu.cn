@@ -1,8 +1,7 @@
 commandlinefu_id: 291
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mount | grep : | tr -s ' ' -d 3 | xargs umount -v
 summary: |-
-  umount all nfs mounts on machine
+  卸载所有nfs
