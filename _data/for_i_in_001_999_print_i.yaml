@@ -1,8 +1,8 @@
 commandlinefu_id: 846
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  for i in {001..999}; print $i
+  for i in {001..999}; do echo $i ;done
 summary: |-
-  Avoid using seq and pad numbers with leading zeros
+  有0填充的序列
+

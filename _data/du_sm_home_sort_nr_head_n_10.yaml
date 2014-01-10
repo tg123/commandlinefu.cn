@@ -1,8 +1,7 @@
 commandlinefu_id: 11255
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -sm /home/* | sort -nr | head -n 10
 summary: |-
-  Find the 10 users that take up the most disk space
+  寻找十大浪费硬盘的用户
