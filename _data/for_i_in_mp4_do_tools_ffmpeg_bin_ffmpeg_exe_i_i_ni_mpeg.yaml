@@ -1,0 +1,8 @@
+commandlinefu_id: 13024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  FOR %I IN (*.mp4) DO \Tools\ffmpeg\bin\ffmpeg.exe -i "%I" "%~nI.mpeg"
+summary: |-
+  Convert all files *.mp4 to *.mpeg using ffmpeg (Windows Cmd line)

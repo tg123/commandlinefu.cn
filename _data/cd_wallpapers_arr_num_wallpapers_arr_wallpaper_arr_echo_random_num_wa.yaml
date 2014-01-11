@@ -1,0 +1,8 @@
+commandlinefu_id: 13029
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ~/wallpapers;arr=( * );num_wallpapers=${#arr[@]};wallpaper=${arr[$(echo $RANDOM%$num_wallpapers|bc)]};feh --bg-fill $wallpaper
+summary: |-
+  Grabs a random image from "~/wallpapers" and sets it as background

@@ -1,0 +1,8 @@
+commandlinefu_id: 13031
+translator:
+  weibo: ''
+hide: true
+command: |-
+  finfo() { [[ -f "$(cygpath "$@")" ]] || { echo "bad-file";return 1;}; echo "$(wmic datafile where name=\""$(echo "$(cygpath -wa "$@")"|sed 's/\\/\\\\/g')"\" get /value)"|sed 's/\r//g;s/^M$//;/^$/d'|awk -F"=" '{print $1"=""\033[1m"$2"\033[0m"}';}
+summary: |-
+  Returns the Windows file details for any file using Cygwin bash (actual r-click-properties-info) to the term

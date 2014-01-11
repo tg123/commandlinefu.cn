@@ -1,0 +1,8 @@
+commandlinefu_id: 13017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -maxdepth 1 -print0 | xargs -0 -I{} sh -c 'find "{}" -type f | grep "ogg\|mp3\|wav\|flac$" | wc -l | tr -d "\n"; echo " {}"'
+summary: |-
+  Count music files in each directory

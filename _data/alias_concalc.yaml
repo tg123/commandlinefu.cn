@@ -1,0 +1,8 @@
+commandlinefu_id: 13034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ?=concalc
+summary: |-
+  Define a quick calculator function

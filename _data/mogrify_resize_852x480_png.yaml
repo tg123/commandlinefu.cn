@@ -1,0 +1,8 @@
+commandlinefu_id: 13020
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mogrify -resize 852x480 *.png
+summary: |-
+  Batch resize images (overwriting)

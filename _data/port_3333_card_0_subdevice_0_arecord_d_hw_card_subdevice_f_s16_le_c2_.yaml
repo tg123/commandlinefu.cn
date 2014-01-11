@@ -1,0 +1,8 @@
+commandlinefu_id: 13030
+translator:
+  weibo: ''
+hide: true
+command: |-
+  port=3333;card=0;subdevice=0;arecord -D hw:${card},${subdevice} -f S16_LE -c2|nc -l $port
+summary: |-
+  Piping Microphone Audio Over Netcat

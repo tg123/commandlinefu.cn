@@ -1,0 +1,8 @@
+commandlinefu_id: 13046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsstail -o -n 1 --f 'RedditQuote: {title}' http://www.reddit.com/r/quotes/new/.rss
+summary: |-
+  Show best quote from reddit to your terminal

@@ -1,0 +1,8 @@
+commandlinefu_id: 13026
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n1 dig google.com
+summary: |-
+  Watch a dig in progress

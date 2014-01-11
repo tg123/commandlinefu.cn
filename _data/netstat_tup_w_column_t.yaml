@@ -1,0 +1,8 @@
+commandlinefu_id: 13047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tup -W | column -t
+summary: |-
+  Show complete URL in netstat output

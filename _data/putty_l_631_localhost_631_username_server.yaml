@@ -1,0 +1,8 @@
+commandlinefu_id: 13037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  putty -L 631:localhost:631 username@server
+summary: |-
+  Redirect CUPS port to localhost

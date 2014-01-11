@@ -1,0 +1,8 @@
+commandlinefu_id: 13040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 10 free -m
+summary: |-
+  A simple overview of memory usage refreshed at user designated intervals.
