@@ -1,8 +1,7 @@
 commandlinefu_id: 4819
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   nwmgr -q info -c lan0
 summary: |-
-  get detailed info about a lan card on HP-UX 11.31
+  获取网卡详细信息 (hp-ux)

@@ -1,8 +1,7 @@
 commandlinefu_id: 12384
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo lsof -p `sudo ps aux | grep -i neo4j | grep -v grep | awk '{ print $2 }'`
 summary: |-
-  View all file descriptors owned by a process
+  查看进程的文件描述符

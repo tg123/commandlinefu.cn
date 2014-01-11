@@ -1,8 +1,0 @@
-commandlinefu_id: 5993
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat my.ps | nc -q 1 hp4550.mynet.xx 9100
-summary: |-
-  sends a postscript file to a postscript printer using netcat

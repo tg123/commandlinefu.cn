@@ -1,8 +1,7 @@
 commandlinefu_id: 2156
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tcs -f 8859-1 -t utf /some/file
 summary: |-
-  Convert a file from ISO-8859-1 (or whatever) to UTF-8 (or whatever)
+  文件编码转换
