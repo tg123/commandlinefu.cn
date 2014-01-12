@@ -1,8 +1,8 @@
 commandlinefu_id: 3026
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  SERVER: nc -l p 666 CLIENT: telnet -l -p 666
+  SERVER: nc -l p 6666 CLIENT: telnet -l -p 6666
 summary: |-
-  Have netcat listening on your ports and use telnet to test connection
+  使用netcat 检查网络是否连通
+

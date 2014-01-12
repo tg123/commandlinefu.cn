@@ -1,8 +1,7 @@
 commandlinefu_id: 6023
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n '/regex/,$p' filename
 summary: |-
-  print contents of file from first match of regex to end of file
+  打印从第一次 匹配 到文件结束的内容

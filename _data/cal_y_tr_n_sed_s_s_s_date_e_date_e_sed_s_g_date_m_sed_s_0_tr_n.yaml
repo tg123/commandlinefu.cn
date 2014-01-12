@@ -1,8 +1,7 @@
 commandlinefu_id: 2293
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cal -y | tr '\n' '|' | sed "s/^/ /;s/$/ /;s/ $(date +%e) / $(date +%e | sed 's/./#/g') /$(date +%m | sed s/^0//)" | tr '|' '\n'
 summary: |-
-  Today's date on a yearly calendar...
+  日历上的今天

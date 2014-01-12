@@ -1,8 +1,7 @@
 commandlinefu_id: 206
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dig foo.org mx +short
 summary: |-
-  Get MX records for a domain
+  获取mx记录

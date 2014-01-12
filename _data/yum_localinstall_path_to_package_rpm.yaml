@@ -1,8 +1,7 @@
 commandlinefu_id: 1305
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   yum localinstall /path/to/package.rpm
 summary: |-
-  Install a local RPM package from your desktop, then use the YUM repository to resolve its dependencies.
+  安装本地包(使用yum解析依赖关系)
