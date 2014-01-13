@@ -1,8 +1,7 @@
 commandlinefu_id: 6675
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pwgen 30
 summary: |-
-  Generate a random password 30 characters long
+  生成30位的密码

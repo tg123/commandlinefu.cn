@@ -1,8 +1,7 @@
 commandlinefu_id: 9648
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sshostnew () {sed -i "$1d" $HOME/.ssh/known_hosts ; }
 summary: |-
-  ssh hostchange know_host improver
+  清除指定的host

@@ -1,8 +1,7 @@
 commandlinefu_id: 7281
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  :ret
+  [vim] :ret
 summary: |-
-  retab in vim, tab to space or space to tab, useful in python
+  空格和TAB 的互相转换

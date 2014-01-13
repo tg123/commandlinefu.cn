@@ -1,8 +1,7 @@
 commandlinefu_id: 11835
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fatattr -h <file>
 summary: |-
-  Set hidden attribe to a file in fat
+  在fat系统中设置隐藏属性
