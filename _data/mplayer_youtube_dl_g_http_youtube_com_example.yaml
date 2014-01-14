@@ -1,8 +1,0 @@
-commandlinefu_id: 12973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mplayer $(youtube-dl -g http://youtube.com/example)
-summary: |-
-  watch video youtube without flash but with mplayer and youtube-dl

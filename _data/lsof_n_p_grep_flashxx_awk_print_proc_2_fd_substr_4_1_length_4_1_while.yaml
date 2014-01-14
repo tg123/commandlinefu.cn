@@ -1,8 +1,0 @@
-commandlinefu_id: 10305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -n -P|grep FlashXX|awk '{ print "/proc/" $2 "/fd/" substr($4, 1, length($4)-1) }'|while read f;do newname=$(exiftool -FileModifyDate -FileType -t -d %Y%m%d%H%M%S $f|cut -f2|tr '\n' '.'|sed 's/\.$//');echo "$f -> $newname";cp $f ~/Vids/$newname;done
-summary: |-
-  Keep a copy of the raw Youtube FLV,MP4,etc stored in /tmp/

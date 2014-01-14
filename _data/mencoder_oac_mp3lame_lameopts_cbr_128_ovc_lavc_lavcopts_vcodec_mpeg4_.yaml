@@ -1,8 +1,0 @@
-commandlinefu_id: 3641
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -oac mp3lame -lameopts cbr=128 -ovc lavc -lavcopts vcodec=mpeg4 -ffourcc xvid -vf scale=320:-2,expand=:240:::1 -o output.avi dvd://0
-summary: |-
-  Rip DVD to YouTube ready MPEG-4 AVI file using mencoder

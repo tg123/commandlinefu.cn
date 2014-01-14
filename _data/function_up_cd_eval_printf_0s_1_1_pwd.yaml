@@ -1,8 +1,7 @@
 commandlinefu_id: 11786
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function up { cd $(eval printf '../'%.0s {1..$1}) && pwd; }
 summary: |-
-  move up through directories faster (set in your /etc/profile or .bash_profile)
+  快速到达上一级目录

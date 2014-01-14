@@ -1,8 +1,8 @@
 commandlinefu_id: 4563
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dc3dd progress=on bs=512 count=2048 if=/dev/zero of=/dev/null
 summary: |-
-  Copy a file using dc3dd and watch its progress (very nice alternative to dd)
+  一个dd的代替品 带进度的
+

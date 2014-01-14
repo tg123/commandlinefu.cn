@@ -1,8 +1,7 @@
 commandlinefu_id: 10795
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dmidecode -s system-serial-number
 summary: |-
-  Get a server's serial number or Dell service tag from within linux
+  获取机器的序列号(Dell service tag)

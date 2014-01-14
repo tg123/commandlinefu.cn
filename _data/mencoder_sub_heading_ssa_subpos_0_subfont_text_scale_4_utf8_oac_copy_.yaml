@@ -1,8 +1,0 @@
-commandlinefu_id: 4120
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -sub heading.ssa -subpos 0 -subfont-text-scale 4 -utf8 -oac copy -ovc lavc -lavcopts vcodec=mpeg4 -vf scale=320:-2,expand=:240:::1 -ffourcc xvid -o output.avi dvd.avi
-summary: |-
-  DVD to YouTube ready watermarked MPEG-4 AVI file using mencoder (step 2)

@@ -1,8 +1,0 @@
-commandlinefu_id: 4720
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -audiofile input.mp3 -oac copy -ovc lavc -lavcopts vcodec=mpeg4 -ffourcc xvid -vf scale=320:240,harddup input1.avi input2.avi -o output.avi
-summary: |-
-  Concatenate video files to YouTube ready output
