@@ -1,8 +1,7 @@
 commandlinefu_id: 9051
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  $ wget --mirror -p --convert-links -P ./<LOCAL-DIR> <WEBSITE-URL>
+  wget --mirror -p --convert-links -P ./<LOCAL-DIR> <WEBSITE-URL>
 summary: |-
-  Download entire website for offline viewing
+  用wget作网站的镜像

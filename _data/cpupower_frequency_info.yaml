@@ -1,8 +1,0 @@
-commandlinefu_id: 10122
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cpupower frequency-info
-summary: |-
-  CPU Frequency/Speed/Clock Information

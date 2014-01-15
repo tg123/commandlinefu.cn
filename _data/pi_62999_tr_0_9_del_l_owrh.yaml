@@ -1,8 +1,0 @@
-commandlinefu_id: 8940
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pi 62999 | tr 0-9 del\ l\!owrH
-summary: |-
-  Hello world

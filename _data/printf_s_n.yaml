@@ -1,8 +1,7 @@
 commandlinefu_id: 4132
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   printf "%s\n" .*
 summary: |-
-  Find all dot files and directories
+  列出.开头的文件

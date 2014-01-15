@@ -1,8 +1,7 @@
 commandlinefu_id: 2873
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   indent -linux helloworld.c
 summary: |-
-  Use Linux coding style in C program
+  格式化代码
