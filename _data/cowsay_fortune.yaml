@@ -1,8 +1,7 @@
 commandlinefu_id: 5730
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cowsay $(fortune)
 summary: |-
-  let a cow tell you your fortune
+  牛说啥

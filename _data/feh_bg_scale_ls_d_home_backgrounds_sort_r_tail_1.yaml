@@ -1,8 +1,0 @@
-commandlinefu_id: 12030
-translator:
-  weibo: ''
-hide: true
-command: |-
-  feh --bg-scale "`ls -d $HOME/backgrounds/* |sort -R |tail -1`"
-summary: |-
-  Change wallpaper random

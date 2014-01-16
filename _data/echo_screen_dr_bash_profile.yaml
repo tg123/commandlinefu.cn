@@ -1,8 +1,7 @@
 commandlinefu_id: 2035
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "screen -DR" >> ~/.bash_profile
 summary: |-
-  Set your profile so that you resume or start a screen session on login
+  登录时候恢复或者开启一个screen

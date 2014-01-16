@@ -1,8 +1,7 @@
 commandlinefu_id: 5206
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name file.txt | xargs -e grep "token" -o | wc -l
 summary: |-
-  Count occurrences of a word/token in a file
+  计算所有叫file.txt 的文件 中token单词的数量
