@@ -1,8 +1,7 @@
 commandlinefu_id: 9779
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cal | grep -C7 --color=auto $(date +%d)
 summary: |-
-  prettier
+  让日历高亮显示今天

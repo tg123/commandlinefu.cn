@@ -1,8 +1,7 @@
 commandlinefu_id: 11510
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   paste -sd, <<< $'line1\nline2'
 summary: |-
-  Join the lines with comma
+  安列合并两个文件

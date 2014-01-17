@@ -1,8 +1,0 @@
-commandlinefu_id: 12575
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir -p drmfree; for i in *.pdf; do echo "Processing $i"; gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=drmfree/OUTPUT.pdf -c .setpdfwrite -f "$i"; (cd drmfree; mv {OUTPUT.pdf,"$i"_FREE.pdf}); done
-summary: |-
-  Remove security limitations from PDF documents using ghostscript. Now with a for loop!
