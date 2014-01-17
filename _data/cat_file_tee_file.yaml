@@ -1,8 +1,7 @@
 commandlinefu_id: 2809
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat file | tee >> file
 summary: |-
-  append content of a file to itself
+  把文件内容贴到他自己的尾巴上(直接cat 不可以)

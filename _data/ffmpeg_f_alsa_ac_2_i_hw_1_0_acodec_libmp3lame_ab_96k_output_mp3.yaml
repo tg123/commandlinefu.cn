@@ -1,8 +1,7 @@
 commandlinefu_id: 3513
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -f alsa -ac 2 -i hw:1,0 -acodec libmp3lame -ab 96k output.mp3
 summary: |-
-  Record MP3 audio via ALSA using ffmpeg
+  录制mp3

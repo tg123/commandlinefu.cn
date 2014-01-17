@@ -1,8 +1,7 @@
 commandlinefu_id: 3137
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   export PS1='\D{%a %D %T}> '
 summary: |-
-  Day Date Time>  Instead of $ or # at the terminal
+  时间风格提示符

@@ -1,8 +1,0 @@
-commandlinefu_id: 3355
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl-f> in ex mode in vim
-summary: |-
-  Edit your command in vim ex mode by &lt;ctrl-f&gt;

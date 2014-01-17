@@ -1,8 +1,7 @@
 commandlinefu_id: 7973
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mkfs.vfat /dev/sdc1
 summary: |-
-  quickly formats a fat partition. usefull for flash drives
+  格式化闪存
