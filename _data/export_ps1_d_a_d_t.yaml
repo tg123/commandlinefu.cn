@@ -1,7 +1,0 @@
-commandlinefu_id: 3137
-translator:
-  weibo: tgic
-command: |-
-  export PS1='\D{%a %D %T}> '
-summary: |-
-  时间风格提示符
