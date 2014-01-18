@@ -1,8 +1,7 @@
 commandlinefu_id: 5011
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   ifconfig | awk '/inet addr/ {print $2 }' | sed 's/.*://g'
 summary: |-
-  simple echo of IPv4 IP addresses assigned to a machine
+  显示机器的IPv4地址
