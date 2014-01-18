@@ -1,8 +1,7 @@
 commandlinefu_id: 12998
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   emerge --moo
 summary: |-
-  Gentoo portage easter egg
+  Gentoo portage的复活节彩蛋

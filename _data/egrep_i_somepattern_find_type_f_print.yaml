@@ -1,8 +1,7 @@
 commandlinefu_id: 4206
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   egrep -i "somepattern" `find . -type f -print`
 summary: |-
-  search for a pattern (regex) in all text files (ignoring binary files) in a directory tree
+  在目录树中的所有文本文件（忽略二进制文件）中搜索匹配正则表达式的字符串

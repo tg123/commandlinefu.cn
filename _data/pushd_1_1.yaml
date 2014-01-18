@@ -1,8 +1,7 @@
 commandlinefu_id: 11053
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   = () { pushd ${1:+"$1"}; }
 summary: |-
-  Push a directory onto the stack
+  把一个目录压到目录栈的函数

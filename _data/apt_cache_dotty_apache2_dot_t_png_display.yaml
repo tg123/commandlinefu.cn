@@ -1,8 +1,7 @@
 commandlinefu_id: 935
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   apt-cache dotty apache2 | dot -T png | display
 summary: |-
-  Generate a graph of package dependencies
+  apt-get生成包依赖图

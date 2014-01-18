@@ -1,8 +1,7 @@
 commandlinefu_id: 4311
 translator:
-  weibo: ''
-hide: true
+  weibo: codepiano
 command: |-
   unzip -p some.docx word/document.xml | sed -e 's/<[^>]\{1,\}>//g; s/[^[:print:]]\{1,\}//g'
 summary: |-
-  extract plain text from MS Word docx files
+  从微软Word文档中抽取文本
