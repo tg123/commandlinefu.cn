@@ -1,8 +1,0 @@
-commandlinefu_id: 5422
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shmore(){ local l L M="`echo;tput setab 4&&tput setaf 7` --- SHMore --- `tput sgr0`";L=2;while read l;do echo "${l}";((L++));[[ "$L" == "${LINES:-80}" ]]&&{ L=2;read -p"$M" -u1;echo;};done;}
-summary: |-
-  SH

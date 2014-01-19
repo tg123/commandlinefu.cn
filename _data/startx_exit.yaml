@@ -1,8 +1,0 @@
-commandlinefu_id: 12349
-translator:
-  weibo: ''
-hide: true
-command: |-
-  startx &! exit
-summary: |-
-  Avoid killing the X server with CTRL+C on the tty it was started from
