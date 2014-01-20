@@ -1,8 +1,7 @@
 commandlinefu_id: 7988
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps ax | egrep "*.exe|*exe]" | awk '{ print $1 }' | xargs kill
 summary: |-
-  kill all running instances of wine and programs runned by it (exe)
+  杀死所有wine的实例

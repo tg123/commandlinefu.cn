@@ -1,8 +1,7 @@
 commandlinefu_id: 4193
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type l | perl -lne 'print if ! -e'
 summary: |-
-  Find dead symbolic links
+  查找实效的符号链接

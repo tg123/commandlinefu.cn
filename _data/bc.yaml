@@ -1,8 +1,7 @@
 commandlinefu_id: 1627
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bc
 summary: |-
-  A handy calculator
+  计算器

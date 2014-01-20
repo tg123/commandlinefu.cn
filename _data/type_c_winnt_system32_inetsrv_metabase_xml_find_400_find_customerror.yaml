@@ -1,8 +1,0 @@
-commandlinefu_id: 1110
-translator:
-  weibo: ''
-hide: true
-command: |-
-  type C:\WINNT\system32\inetsrv\MetaBase.xml | find "400" | find "CustomError"
-summary: |-
-  Checks for custom error pages in IIS configuration

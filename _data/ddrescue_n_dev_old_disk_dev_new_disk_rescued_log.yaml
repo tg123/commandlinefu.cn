@@ -1,8 +1,0 @@
-commandlinefu_id: 7619
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ddrescue -n /dev/old_disk /dev/new_disk rescued.log
-summary: |-
-  #3 Step! FIrst Pass quickly!

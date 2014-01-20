@@ -1,8 +1,7 @@
 commandlinefu_id: 6827
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   egrep '183\.([0-9]|(1[0-6]|2[0-3]))' -J /var/log/maillog*
 summary: |-
-  grep on IP range from maillog
+  过滤一段ip

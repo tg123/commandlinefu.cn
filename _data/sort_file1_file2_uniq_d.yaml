@@ -1,8 +1,7 @@
 commandlinefu_id: 5707
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sort file1 file2 | uniq -d
 summary: |-
-  intersection between two files
+  求交集

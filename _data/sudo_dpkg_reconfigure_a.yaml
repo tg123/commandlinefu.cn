@@ -1,8 +1,7 @@
 commandlinefu_id: 6156
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo dpkg-reconfigure -a
 summary: |-
-  Cleanup debian/ubuntu package configurations
+  清理 deb 包的配置
