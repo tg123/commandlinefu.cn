@@ -1,8 +1,7 @@
 commandlinefu_id: 2290
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -4tnape
 summary: |-
-  display only tcp
+  显示所有tcp

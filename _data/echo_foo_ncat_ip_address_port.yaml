@@ -1,8 +1,7 @@
 commandlinefu_id: 11433
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo foo | ncat [ip address] [port]
 summary: |-
-  send echo to socket network
+  直接发送到socket

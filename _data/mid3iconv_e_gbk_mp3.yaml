@@ -1,8 +1,0 @@
-commandlinefu_id: 10798
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mid3iconv -e GBK *.mp3
-summary: |-
-  &#35299;&#20915;rhythmbox&#25773;&#25918;&#20013;&#25991;&#20081;&#30721;

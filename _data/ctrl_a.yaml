@@ -1,8 +1,7 @@
 commandlinefu_id: 6791
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   Ctrl+a
 summary: |-
-  move cursor to beginning of command line
+  移动提示符到命令行的开始

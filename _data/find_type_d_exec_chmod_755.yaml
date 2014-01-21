@@ -1,8 +1,7 @@
 commandlinefu_id: 2371
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type d -exec chmod 755 {} \;
 summary: |-
-  Change permissions of every directory in current directory
+  改变目录的权限
