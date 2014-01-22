@@ -1,8 +1,7 @@
 commandlinefu_id: 2130
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim `which <scriptname>`
 summary: |-
-  Edit a script that's somewhere in your path.
+  直接编辑 脚本命令
