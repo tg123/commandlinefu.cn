@@ -1,8 +1,7 @@
 commandlinefu_id: 2774
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in `find -name '*oldname*'`; do "mv $i ${i/oldname/newname/}"; done
 summary: |-
-  Recursive replace of directory and file names in the current directory.
+  批量递归的重命名

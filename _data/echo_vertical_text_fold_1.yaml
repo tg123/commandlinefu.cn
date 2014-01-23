@@ -1,8 +1,7 @@
 commandlinefu_id: 3709
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "vertical text" | fold -1
 summary: |-
-  Print text string vertically, one character per line.
+  每行1个字符

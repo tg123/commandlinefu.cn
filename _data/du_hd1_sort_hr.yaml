@@ -1,8 +1,7 @@
 commandlinefu_id: 12696
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -hd1 | sort -hr
 summary: |-
-  List subfolders from largest to smallest with sizes in human readable form
+  按大小排序文件夹

@@ -1,8 +1,7 @@
 commandlinefu_id: 12949
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for k in `seq -w 1 50` ; do ssh 192.168.100.$k uptime ; done
 summary: |-
-  for ssh uptime
+  批量查看uptime

@@ -1,8 +1,7 @@
 commandlinefu_id: 10432
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   adb shell ps | grep my.app.packagename | awk '{print $2}' | xargs -I ? sh -c "adb logcat -v time | grep ?"
 summary: |-
-  Filter Android log output by PID
+  调试android时候按pid 过滤
