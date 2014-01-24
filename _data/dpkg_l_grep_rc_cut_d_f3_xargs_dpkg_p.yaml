@@ -1,8 +1,7 @@
 commandlinefu_id: 7129
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -l | grep ^rc | cut -d' ' -f3 | xargs dpkg -P
 summary: |-
-  Purge configuration files of removed packages on  debian based systems
+  清理卸载包的配置信息

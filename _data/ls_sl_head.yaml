@@ -1,8 +1,7 @@
 commandlinefu_id: 1750
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -Sl * | head
 summary: |-
-  Print the ten largest files
+  寻找大文件
