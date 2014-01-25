@@ -1,8 +1,7 @@
 commandlinefu_id: 1014
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   mount -t cd9660 /dev/`mdconfig -a -t vnode -f discimg.iso` /cdrom
 summary: |-
-  Loopback mount .iso on FreeBSD
+  在FreeBSD上循环挂载.iso文件

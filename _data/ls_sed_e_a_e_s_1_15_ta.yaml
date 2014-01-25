@@ -1,8 +1,7 @@
 commandlinefu_id: 4501
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ls / | sed -e :a -e 's/^.\{1,15\}$/&_/;ta'
 summary: |-
-  use sed to simulate rpad and lpad
+  用sed模拟rpad和lpad的功能

@@ -1,8 +1,7 @@
 commandlinefu_id: 2969
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   whois domainnametocheck.com | grep match
 summary: |-
-  Check if a domain is available and get the answer in just one line
+  在一行脚本内检查一个域名是否存在并获取回复

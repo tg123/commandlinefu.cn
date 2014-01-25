@@ -1,8 +1,7 @@
 commandlinefu_id: 12115
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   zmv -Q '(**/)(*)(.)' '$1${(L)2}'
 summary: |-
-  recursively change file name from uppercase to lowercase (or viceversa)
+  递归地将文件名从大写改成小写（或相反）
