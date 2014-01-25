@@ -1,8 +1,7 @@
 commandlinefu_id: 4485
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo 50 > /proc/sys/vm/swappiness
 summary: |-
-  Change your swappiness Ratio under linux
+  改变 swappiness 

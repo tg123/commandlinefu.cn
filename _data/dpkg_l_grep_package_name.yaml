@@ -1,8 +1,7 @@
 commandlinefu_id: 9618
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -l | grep (package name)
 summary: |-
-  to know which package in Ubuntu is install
+  检查是否安装了某个包

@@ -1,8 +1,0 @@
-commandlinefu_id: 11592
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec grep -ils stringtofind {} +
-summary: |-
-  find . -type f -exec grep -ils stringtofind {} +

@@ -1,8 +1,7 @@
 commandlinefu_id: 4310
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -iname "*.jpg" -print0 | tr '[A-Z]' '[a-z]' | xargs -0 cp --backup=numbered -dp -u --target-directory {location} &
 summary: |-
-  Find jpeg images and copy them to a central location
+  集中放置图片

@@ -1,8 +1,7 @@
 commandlinefu_id: 13007
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   genisoimage -o ../squeeze.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J -R -V disks .
 summary: |-
-  Create an ISO
+  创建可以启动的iso
