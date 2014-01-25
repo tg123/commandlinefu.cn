@@ -1,8 +1,7 @@
 commandlinefu_id: 8799
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   pdfimages -j foo.pdf bar
 summary: |-
-  Extract JPEG images from a PDF document
+  从PDF中提取JREG图像

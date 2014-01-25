@@ -1,8 +1,7 @@
 commandlinefu_id: 9981
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩 
 command: |-
   ffprobe video.flv
 summary: |-
-  Get video information with ffmpeg
+  使用FFmpeg获取视频信息

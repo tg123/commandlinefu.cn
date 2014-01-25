@@ -1,8 +1,7 @@
 commandlinefu_id: 9895
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩 
 command: |-
   ls -1 | awk ' { print "zip "$1".zip " $1 } ' | sh
 summary: |-
-  Zip each file in a directory individually with the original file name
+  将一个文档中的每个文件独立压缩成同名的zip格式文件。

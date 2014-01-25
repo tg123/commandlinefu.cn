@@ -1,8 +1,7 @@
 commandlinefu_id: 12714
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   info foo |less
 summary: |-
-  Use GNU info with a pager
+  在一个页面里打开GNU info

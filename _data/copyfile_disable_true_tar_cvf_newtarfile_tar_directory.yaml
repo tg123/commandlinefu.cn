@@ -1,8 +1,7 @@
 commandlinefu_id: 5965
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   COPYFILE_DISABLE=true tar cvf newTarFile.tar Directory/
 summary: |-
-  Create .tar file on Mac OS X Leopard / Snow Leopard without ._* files
+  在Mac OS X Leopard 或 Snow Leopard 上创建tar文件并且避免产生._开头的文件

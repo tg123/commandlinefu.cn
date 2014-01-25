@@ -1,8 +1,7 @@
 commandlinefu_id: 10958
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   umount -a -t cifs
 summary: |-
-  Unmount all CIFS drives
+  卸载所有的CIFS（网络文件共享系统）驱动
