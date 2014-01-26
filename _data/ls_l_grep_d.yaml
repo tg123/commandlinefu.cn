@@ -1,8 +1,7 @@
 commandlinefu_id: 1244
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -l | grep ^d
 summary: |-
-  Show directories
+  显示目录

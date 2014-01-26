@@ -1,8 +1,7 @@
 commandlinefu_id: 1139
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /path/to/files -type f -mtime +7 | grep -v \.gz | xargs gzip
 summary: |-
-  Compress logs older than 7 days
+  压缩7天前的日志

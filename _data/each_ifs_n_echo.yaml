@@ -1,8 +1,7 @@
 commandlinefu_id: 6711
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   each() { (IFS=$'\n'; echo "$*") }
 summary: |-
-  Outputs each arg on its own line
+  每行一个打印参数
