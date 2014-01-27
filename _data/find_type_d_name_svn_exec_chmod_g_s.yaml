@@ -1,8 +1,0 @@
-commandlinefu_id: 5471
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -name .svn -exec chmod g+s "{}" \;
-summary: |-
-  Recursively execute command on directories (.svn, permissions, etc)

@@ -1,8 +1,0 @@
-commandlinefu_id: 13045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  thunderbird -compose "attachment='file://`pwd`/$*'"
-summary: |-
-  thunderbird commandline invocation to attach email

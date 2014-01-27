@@ -1,8 +1,7 @@
 commandlinefu_id: 281
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   convert -resize 50%x50% image{,_resize}.jpg
 summary: |-
-  resize(1/2) the image using imagemagick
+  使用imagemagick缩放图片

@@ -1,8 +1,7 @@
 commandlinefu_id: 12053
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias clearscrollback='clear;printf %b "\033[3J"'
 summary: |-
-  Create an alias command that clears the screen and scroll back buffer (in putty and xterm)
+  创建一个清理屏幕快捷命令 (putty xterm)
