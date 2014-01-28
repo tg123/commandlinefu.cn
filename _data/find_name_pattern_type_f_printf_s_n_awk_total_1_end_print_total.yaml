@@ -1,0 +1,8 @@
+commandlinefu_id: 13056
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "pattern" -type f -printf "%s\n" | awk '{total += $1} END {print total}'
+summary: |-
+  Find files and calculate size of result in shell

@@ -1,0 +1,8 @@
+commandlinefu_id: 13052
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IFS=$(echo -en "\n\b"); mkdir Epub; for i in `find . | grep epub`; do echo "epub: $i"; mv -v "$i" Epub; done
+summary: |-
+  Move all epub keyword containing files to Epub folder

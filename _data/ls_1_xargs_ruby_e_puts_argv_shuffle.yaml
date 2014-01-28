@@ -1,0 +1,8 @@
+commandlinefu_id: 13066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | xargs ruby -e'puts ARGV.shuffle'
+summary: |-
+  Randomize lines (opposite of | sort)

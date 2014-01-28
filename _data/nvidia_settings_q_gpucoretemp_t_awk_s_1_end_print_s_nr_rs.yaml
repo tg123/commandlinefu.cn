@@ -1,0 +1,8 @@
+commandlinefu_id: 13060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nvidia-settings -q gpucoretemp -t | awk '{s+=$1}END{print s/NR}' RS=" "
+summary: |-
+  Print average GPU core temperature

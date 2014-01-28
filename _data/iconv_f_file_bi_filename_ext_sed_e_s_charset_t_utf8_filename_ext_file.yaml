@@ -1,0 +1,8 @@
+commandlinefu_id: 13079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iconv -f $(file -bi filename.ext | sed -e 's/.*[ ]charset=//') -t utf8 filename.ext > filename.ext
+summary: |-
+  Convert any encoding to UTF8

@@ -1,0 +1,8 @@
+commandlinefu_id: 13075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp foo{,bak}
+summary: |-
+  quick copy

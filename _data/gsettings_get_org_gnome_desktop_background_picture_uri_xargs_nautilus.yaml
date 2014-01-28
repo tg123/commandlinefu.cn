@@ -1,0 +1,8 @@
+commandlinefu_id: 13068
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gsettings get org.gnome.desktop.background picture-uri | xargs nautilus
+summary: |-
+  Open current wallpaper on nautilus file-manager (change file-manager name for others)

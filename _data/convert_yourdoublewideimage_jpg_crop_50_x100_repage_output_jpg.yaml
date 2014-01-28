@@ -1,0 +1,8 @@
+commandlinefu_id: 13054
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert yourdoublewideimage.jpg -crop 50%x100% +repage output.jpg
+summary: |-
+  Split an image in half for use on dual screens (mostly for use under KDE which treats each screen separately)

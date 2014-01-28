@@ -1,0 +1,8 @@
+commandlinefu_id: 13074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zipinfo -1 aap.zip | xargs -d '\n' rm
+summary: |-
+  Remove files unpacked by unzip

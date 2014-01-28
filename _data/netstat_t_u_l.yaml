@@ -1,0 +1,8 @@
+commandlinefu_id: 13077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -t -u -l
+summary: |-
+  TCP and UDP listening sockets

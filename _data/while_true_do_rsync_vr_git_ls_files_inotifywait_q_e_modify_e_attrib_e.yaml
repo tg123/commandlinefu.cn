@@ -1,0 +1,8 @@
+commandlinefu_id: 13072
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do rsync -vR $(git ls-files | inotifywait -q -e modify -e attrib -e close_write --fromfile - --format '%w') user@host:dest/dir/; done
+summary: |-
+  Automatically sync current git project with remote host while editing

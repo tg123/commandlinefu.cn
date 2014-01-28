@@ -1,0 +1,8 @@
+commandlinefu_id: 13080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(cat /etc/fstab | grep vol | grep -v "^#" | awk '{print $1}') <(df -h | grep vol)
+summary: |-
+  Check fstab volumes and volumes mounted.

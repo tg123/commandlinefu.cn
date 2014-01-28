@@ -1,0 +1,8 @@
+commandlinefu_id: 13064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.sh' -exec bash -n {} \;
+summary: |-
+  Check all bash scripts in current dir for syntax errors

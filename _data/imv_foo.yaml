@@ -1,0 +1,8 @@
+commandlinefu_id: 13083
+translator:
+  weibo: ''
+hide: true
+command: |-
+  imv foo
+summary: |-
+  quick rename

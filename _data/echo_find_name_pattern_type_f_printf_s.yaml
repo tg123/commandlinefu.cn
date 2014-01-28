@@ -1,0 +1,8 @@
+commandlinefu_id: 13057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(($(find . -name "pattern" -type f -printf "+%s")))
+summary: |-
+  Find files and calculate size of result in shell
