@@ -1,8 +1,7 @@
 commandlinefu_id: 6297
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "$(od -An -N4 -tu4 /dev/urandom) % 5 + 1" | bc
 summary: |-
-  Random Number Between 1 And X
+  随机 1 到 5

@@ -1,8 +1,7 @@
 commandlinefu_id: 3199
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ping -n 1 -w 10000 224.0.0.0
 summary: |-
-  Emulate sleep in DOS/BAT
+  模拟sleep

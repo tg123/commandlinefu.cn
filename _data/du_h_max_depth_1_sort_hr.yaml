@@ -1,8 +1,7 @@
 commandlinefu_id: 8254
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -h --max-depth=1 | sort -hr
 summary: |-
-  List the size (in human readable form) of all sub folders from the current location
+  显示所有子目录大小

@@ -1,8 +1,0 @@
-commandlinefu_id: 2374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la | sort -k 5bn
-summary: |-
-  Huh? Where did all my precious space go ?
