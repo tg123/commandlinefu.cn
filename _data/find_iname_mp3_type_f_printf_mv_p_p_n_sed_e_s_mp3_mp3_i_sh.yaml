@@ -1,8 +1,8 @@
 commandlinefu_id: 1736
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./ -iname "*.mp3" -type f -printf "mv '%p' '%p'\n" | sed -e "s/mp3'$/mp3'/I" | sh
 summary: |-
-  Rename *.MP3 *.Mp3 *.mP3 etc.. to *.mp3.
+  重命名 *.MP3 *.Mp3 *.mP3 为 .mp3
+

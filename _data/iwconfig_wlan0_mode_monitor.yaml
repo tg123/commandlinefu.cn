@@ -1,8 +1,0 @@
-commandlinefu_id: 9633
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iwconfig wlan0 mode monitor
-summary: |-
-  place wifi card into monitor mode

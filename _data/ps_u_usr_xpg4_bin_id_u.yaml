@@ -1,8 +1,7 @@
 commandlinefu_id: 8348
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -u `/usr/xpg4/bin/id -u`
 summary: |-
-  Find processes by current user on a Solaris box
+  查看当前用户的 进程(Solaris)

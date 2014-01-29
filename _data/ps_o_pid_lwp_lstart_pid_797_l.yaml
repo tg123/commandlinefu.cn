@@ -1,8 +1,7 @@
 commandlinefu_id: 7148
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -o pid,lwp,lstart --pid 797 -L
 summary: |-
-  List Threads by Pid along with Thread Start Time
+  带有启动线程时间的ps 
