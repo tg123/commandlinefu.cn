@@ -1,8 +1,7 @@
 commandlinefu_id: 6867
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cut -f5 --complement
 summary: |-
-  exclude a column with cut
+  使用cut反选一列

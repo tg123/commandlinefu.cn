@@ -1,8 +1,7 @@
 commandlinefu_id: 7945
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mkdir {1..100}
 summary: |-
-  make multiple directories
+  创建100个目录

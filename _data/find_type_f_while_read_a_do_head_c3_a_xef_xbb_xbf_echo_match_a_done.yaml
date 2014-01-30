@@ -1,8 +1,7 @@
 commandlinefu_id: 3485
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -type f |while read a;do [ "`head -c3 -- "${a}"`" == $'\xef\xbb\xbf' ] && echo "Match: ${a}";done
 summary: |-
-  Find UTF-8 text files misinterpreted as ISO 8859-1 due to Byte Order Mark (BOM) of the Unicode Standard.
+  查找有BOM头`的文件

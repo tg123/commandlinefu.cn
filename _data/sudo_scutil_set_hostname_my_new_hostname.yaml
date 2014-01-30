@@ -1,8 +1,7 @@
 commandlinefu_id: 8109
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo scutil --set HostName MY_NEW_HOSTNAME
 summary: |-
-  Changing Hostname on Mac OS X
+  修改hostname (os x)

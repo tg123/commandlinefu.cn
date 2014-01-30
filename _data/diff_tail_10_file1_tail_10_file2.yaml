@@ -1,8 +1,7 @@
 commandlinefu_id: 5651
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff <(tail -10 file1) <(tail -10 file2)
 summary: |-
-  diff output of two commands
+  如何diff两个命令的输出

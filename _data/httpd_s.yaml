@@ -1,8 +1,7 @@
 commandlinefu_id: 3261
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   httpd -S
 summary: |-
-  Get list of all Apache Virtual Host and which is default for each IP address
+  显示所有Apache 虚拟主机
