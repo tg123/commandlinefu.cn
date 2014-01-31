@@ -1,8 +1,7 @@
 commandlinefu_id: 7768
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -MText::Highlight -E '$h=Text::Highlight->new(ansi=>1); my $text=do{local $/; open my $fh, "<", $ARGV[0]; <$fh>}; say $h->highlight("Perl", $text);' path/to/perl-file.pl
 summary: |-
-  Syntax Highlight your Perl code
+  语法高亮perl

@@ -1,8 +1,7 @@
 commandlinefu_id: 8966
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for IP in `cat ip.txt|awk -F: '{print $1}'`; do geoiplookup -f /usr/local/share/GeoIP/GeoIP.dat $IP|awk -F, '{print $2}'>>out.txt; done; paste -d ":" ip.txt out.txt>zoom.txt
 summary: |-
-  IP:PORT to IP:PORT:COUNTRY using geoiplookup
+  给ip 端口 加上来源地区(geoip)
