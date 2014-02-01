@@ -1,8 +1,7 @@
 commandlinefu_id: 13042
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg-query -W --showformat='${Installed-Size}\t${Package}\n' | sort -nr | less
 summary: |-
-  List your largest installed packages (on Debian/Ubuntu)
+  现在占用空间多的安装包

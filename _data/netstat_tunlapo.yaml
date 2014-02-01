@@ -1,8 +1,7 @@
 commandlinefu_id: 13082
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -tunlapo
 summary: |-
-  TCP and UDP listening sockets
+  查看tcp和udp监听的socket
