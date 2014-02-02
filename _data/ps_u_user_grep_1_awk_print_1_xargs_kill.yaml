@@ -1,8 +1,7 @@
 commandlinefu_id: 2699
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -u $USER |grep $1 | awk '{ print $1}'| xargs kill
 summary: |-
-  Kill a process with its name
+  另外一个版本的kill by name

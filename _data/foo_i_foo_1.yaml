@@ -1,8 +1,7 @@
 commandlinefu_id: 3689
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   $foo[(I)$foo[-1]]
 summary: |-
-  Get length of array in zsh
+  数组大小(zsh)

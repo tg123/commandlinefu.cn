@@ -1,8 +1,0 @@
-commandlinefu_id: 3981
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --dump http://ip.boa.nu|sed -e 's/^[[:space:]]*//' -e 's/*[[:space:]]$//'|grep -v ^$
-summary: |-
-  Get your external IP address
