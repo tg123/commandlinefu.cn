@@ -1,8 +1,7 @@
 commandlinefu_id: 13060
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   nvidia-settings -q gpucoretemp -t | awk '{s+=$1}END{print s/NR}' RS=" "
 summary: |-
-  Print average GPU core temperature
+  平均gpu温度

@@ -1,8 +1,7 @@
 commandlinefu_id: 11708
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   export HISTFILESIZE=99999
 summary: |-
-  set history file length
+  改变.history文件的大小

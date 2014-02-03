@@ -1,8 +1,7 @@
 commandlinefu_id: 7899
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "You can have a bit more realistic typing with some shell magic." | pv -qL $[10+(-2 + RANDOM%5)]
 summary: |-
-  Simulate typing
+  模拟打字效果

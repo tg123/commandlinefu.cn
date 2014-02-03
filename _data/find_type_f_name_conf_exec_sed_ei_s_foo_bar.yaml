@@ -1,8 +1,7 @@
 commandlinefu_id: 12929
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -type f -name '*.conf' -exec sed -Ei 's/foo/bar/' '{}' \;
 summary: |-
-  A command to find and replace text within conf files in a single directory.
+  批量替换配置中的关键字
