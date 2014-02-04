@@ -1,8 +1,7 @@
 commandlinefu_id: 5498
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . \( -iname '*.[ch]' -o -iname '*.php' -o -iname '*.pl' \) | xargs wc -l | sort -n
 summary: |-
-  Count lines of code across multiple file types, sorted by least amount of code to greatest
+  按文件类型统计行数 并排序

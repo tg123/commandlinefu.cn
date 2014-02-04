@@ -1,8 +1,7 @@
 commandlinefu_id: 9892
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh user@host "tar -cf - /path/to/dir" | gzip > dir.tar.gz
 summary: |-
-  Create a local compressed tarball from remote host directory
+  创建远程机器的备份

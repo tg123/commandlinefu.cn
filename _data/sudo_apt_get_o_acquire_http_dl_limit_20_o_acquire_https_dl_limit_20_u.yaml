@@ -1,8 +1,7 @@
 commandlinefu_id: 7877
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo apt-get -o Acquire::http::Dl-Limit=20 -o Acquire::https::Dl-Limit=20 upgrade -y
 summary: |-
-  apt-get upgrade with bandwidth limit
+  限制带宽的apt upgrade
