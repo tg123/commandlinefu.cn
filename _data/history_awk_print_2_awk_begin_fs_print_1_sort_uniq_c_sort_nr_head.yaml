@@ -1,8 +1,7 @@
 commandlinefu_id: 10528
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -nr | head
 summary: |-
-  Top 10 commands used
+  最多使用的10个命令

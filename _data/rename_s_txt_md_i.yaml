@@ -1,8 +1,7 @@
 commandlinefu_id: 7348
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 's/\.txt$/\.md$/i' *
 summary: |-
-  Batch rename extension of all files in a folder, in the example from .txt to .md
+  批量将.txt 重命名为.md

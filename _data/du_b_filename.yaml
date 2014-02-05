@@ -1,8 +1,7 @@
 commandlinefu_id: 6928
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -b filename
 summary: |-
-  Simplest way to get size (in bytes) of a file
+  获取文件的大小

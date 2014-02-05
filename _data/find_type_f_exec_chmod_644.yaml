@@ -1,8 +1,7 @@
 commandlinefu_id: 7754
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./ -type f -exec chmod 644 {} +
 summary: |-
-  Recursively change permissions on files, leave directories alone.
+  修改权限避开目录
