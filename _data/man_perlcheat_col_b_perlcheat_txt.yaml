@@ -1,8 +1,7 @@
 commandlinefu_id: 2768
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   man perlcheat | col -b > perlcheat.txt
 summary: |-
-  save a manpage to plaintext file
+  把man 保存成文本文件

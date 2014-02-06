@@ -1,8 +1,7 @@
 commandlinefu_id: 11110
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./ -empty -type d -print
 summary: |-
-  List recursively only empty folders on present dir
+  显示所有空文件夹

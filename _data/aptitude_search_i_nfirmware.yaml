@@ -1,8 +1,7 @@
 commandlinefu_id: 11228
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   aptitude search ~i ~nfirmware
 summary: |-
-  Displays all installed firmware in your Debian sytem
+  显示所有安装的fireware (deb)

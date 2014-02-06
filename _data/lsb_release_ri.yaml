@@ -1,8 +1,7 @@
 commandlinefu_id: 8689
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsb_release -ri
 summary: |-
-  Find Out My Linux Distribution Name and Version
+  查看linux版本
