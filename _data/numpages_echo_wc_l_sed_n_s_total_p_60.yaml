@@ -1,8 +1,7 @@
 commandlinefu_id: 7982
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   numpages() { echo $(($(wc -l $* | sed -n 's/ total$//p')/60)); }
 summary: |-
-  how many pages will my text files print on?
+  打印文件文件需要多少页

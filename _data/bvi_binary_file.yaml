@@ -1,8 +1,7 @@
 commandlinefu_id: 1623
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bvi [binary-file]
 summary: |-
-  Binary editor
+  二进制编辑器

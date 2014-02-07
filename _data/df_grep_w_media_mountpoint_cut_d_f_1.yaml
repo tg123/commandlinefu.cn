@@ -1,8 +1,7 @@
 commandlinefu_id: 7698
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   df | grep -w '/media/mountpoint' | cut -d " " -f 1
 summary: |-
-  find the device when you only know the mount point
+  通过 挂载点 查看设备

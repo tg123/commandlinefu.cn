@@ -1,8 +1,7 @@
 commandlinefu_id: 8894
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xrandr -s 0
 summary: |-
-  Recover resolution when a fullscreen program crashes and you're stuck with a tiny X resolution
+  恢复分辨率 (当你X程序 crash 后很有用)
