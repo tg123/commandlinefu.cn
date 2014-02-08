@@ -1,8 +1,7 @@
 commandlinefu_id: 6073
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -n 'text' | perl -pe 's/(.)/sprintf("\\x%x", ord($1))/eg'
 summary: |-
-  Convert ascii string to hex
+  将ascii字符转成hex

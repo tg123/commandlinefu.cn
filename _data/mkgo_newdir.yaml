@@ -1,8 +1,0 @@
-commandlinefu_id: 9868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkgo newdir
-summary: |-
-  mkgo - Create a Directory and immediate go into it

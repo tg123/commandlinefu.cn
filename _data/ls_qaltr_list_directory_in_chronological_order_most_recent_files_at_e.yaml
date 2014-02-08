@@ -1,8 +1,0 @@
-commandlinefu_id: 11935
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -qaltr   # list directory in chronological order, most recent files at end of list
-summary: |-
-  ls -qaltr   # list directory in chronological order, most recent files at end of list

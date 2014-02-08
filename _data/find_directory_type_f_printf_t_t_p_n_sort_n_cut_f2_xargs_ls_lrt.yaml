@@ -1,8 +1,7 @@
 commandlinefu_id: 10353
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find <directory> -type f -printf "%T@\t%p\n"|sort -n|cut -f2|xargs ls -lrt
 summary: |-
-  List files in directory tree with newest last
+  查看目录中最新的文件

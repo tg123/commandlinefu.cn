@@ -1,8 +1,7 @@
 commandlinefu_id: 8451
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $(( $( date +%s ) - $( stat -c %Y * | sort -nr | head -n 1 ) ))
 summary: |-
-  Show seconds since modified of newest modified file in directory
+  查看最新文件的年龄(按秒计算)
