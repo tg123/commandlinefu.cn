@@ -1,8 +1,7 @@
 commandlinefu_id: 10285
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   PID=httpd ; ps aux | grep $PID | grep -v grep | awk '{print $2}'  | xargs kill -9
 summary: |-
-  kill all pids from $PID
+  杀死所有 $PID 的子进程

@@ -1,8 +1,7 @@
 commandlinefu_id: 12824
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch --interval 1 ls -lah
 summary: |-
-  Execute ls -lah every one second
+  每秒执行一次ls -lah

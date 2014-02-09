@@ -1,8 +1,0 @@
-commandlinefu_id: 6272
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl+shift+v>
-summary: |-
-  to paste the copied text from clip board
