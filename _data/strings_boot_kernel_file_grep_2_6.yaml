@@ -1,8 +1,7 @@
 commandlinefu_id: 3678
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   strings /boot/kernel-file | grep 2.6
 summary: |-
-  easiest way to get kernel version without uname
+  如何不用uname查看内核版本

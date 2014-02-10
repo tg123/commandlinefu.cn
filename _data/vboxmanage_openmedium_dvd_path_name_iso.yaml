@@ -1,8 +1,7 @@
 commandlinefu_id: 5448
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   VBoxManage openmedium dvd "/path/name.iso"
 summary: |-
-  Create a virtual disk (CD/DVD) in VirtualBox
+  创建虚拟磁盘(iso) VirtualBox

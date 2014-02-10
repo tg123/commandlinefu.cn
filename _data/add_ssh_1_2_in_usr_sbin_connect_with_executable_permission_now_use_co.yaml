@@ -1,8 +1,0 @@
-commandlinefu_id: 10127
-translator:
-  weibo: ''
-hide: true
-command: |-
-  add "ssh $1@$2" in /usr/sbin/connect with executable permission, now use commad "connect user 192.168.1.1"
-summary: |-
-  SSH with sql like commad

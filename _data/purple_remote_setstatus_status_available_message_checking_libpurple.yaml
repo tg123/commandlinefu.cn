@@ -1,8 +1,0 @@
-commandlinefu_id: 4600
-translator:
-  weibo: ''
-hide: true
-command: |-
-  purple-remote "setstatus?status=Available&message=Checking libpurple"
-summary: |-
-  Set status in pidgin
