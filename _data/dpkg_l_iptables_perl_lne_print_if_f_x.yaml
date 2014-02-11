@@ -1,8 +1,7 @@
 commandlinefu_id: 6925
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -L iptables | perl -lne 'print if -f && -x'
 summary: |-
-  List only executables installed by a debian package
+  列出包中的可执行文件(deb)

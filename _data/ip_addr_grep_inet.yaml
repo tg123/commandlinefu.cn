@@ -1,8 +1,7 @@
 commandlinefu_id: 2723
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip addr|grep "inet "
 summary: |-
-  Read just the IP address of a device
+  获取设备的ip地址

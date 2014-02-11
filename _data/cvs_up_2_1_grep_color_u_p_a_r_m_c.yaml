@@ -1,8 +1,0 @@
-commandlinefu_id: 5950
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs up 2>&1 | grep --color 'U \|P \|A \|R \|M \|C \|? '
-summary: |-
-  List only locally modified files with CVS

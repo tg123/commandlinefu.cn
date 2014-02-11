@@ -1,8 +1,7 @@
 commandlinefu_id: 8952
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   aptitude search ~d<string>
 summary: |-
-  Find packages on Ubuntu/Debian based on their description
+  查找包(deb)

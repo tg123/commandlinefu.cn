@@ -1,8 +1,7 @@
 commandlinefu_id: 7648
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mysqldump -u user -p --all-databases | ssh user@host dd of=/opt/all-databases.dump
 summary: |-
-  Remote mysql dump all databases with ssh
+  远程dump 所有数据库

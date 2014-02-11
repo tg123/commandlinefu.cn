@@ -1,8 +1,7 @@
 commandlinefu_id: 9717
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   touch -d $(zenity --calendar --date-format=%F) filename
 summary: |-
-  Change/Modify timestamp interactively
+  交互的改变文件的时间戳
