@@ -1,8 +1,7 @@
 commandlinefu_id: 2178
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mkdir `date --iso`
 summary: |-
-  Make a directory named with the current date
+  使用当前日期创建目录

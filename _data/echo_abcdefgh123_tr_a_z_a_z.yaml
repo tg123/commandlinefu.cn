@@ -1,8 +1,7 @@
 commandlinefu_id: 3187
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "aBcDeFgH123" | tr a-z A-Z
 summary: |-
-  convert strings toupper/tolower with tr
+  字符串大小写转换

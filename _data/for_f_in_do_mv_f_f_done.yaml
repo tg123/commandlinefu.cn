@@ -1,8 +1,7 @@
 commandlinefu_id: 4733
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for f in *;do mv "$f" "${f// /_}";done
 summary: |-
-  Replace spaces in filenames with underscores
+  替换文件名重的空格为下划线
