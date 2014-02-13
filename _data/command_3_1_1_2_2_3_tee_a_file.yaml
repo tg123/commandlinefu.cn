@@ -1,8 +1,7 @@
 commandlinefu_id: 11451
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   command 3>&1 1>&2 2>&3 | tee -a file
 summary: |-
-  save stderr only to a file
+  只把stderr保存到文件

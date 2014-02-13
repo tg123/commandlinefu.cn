@@ -1,8 +1,7 @@
 commandlinefu_id: 12130
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   setenforce 0
 summary: |-
-  Turn off SE Linux
+  关闭 SE Linux

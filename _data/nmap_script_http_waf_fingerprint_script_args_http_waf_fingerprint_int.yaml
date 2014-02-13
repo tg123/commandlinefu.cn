@@ -1,8 +1,0 @@
-commandlinefu_id: 12044
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap --script=http-waf-fingerprint --script-args http-waf-fingerprint.intensive=1 192.168.56.254
-summary: |-
-  NMAP
