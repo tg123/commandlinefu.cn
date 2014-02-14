@@ -1,8 +1,0 @@
-commandlinefu_id: 12371
-translator:
-  weibo: ''
-hide: true
-command: |-
-  date '+%y%m%d-%H%M%S'
-summary: |-
-  Get the current date in a yymmdd-hhmmss format (useful for file names)

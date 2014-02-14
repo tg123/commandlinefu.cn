@@ -1,8 +1,7 @@
 commandlinefu_id: 10288
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tcpdump -A -s 0 port 80
 summary: |-
-  Trace and view network traffic
+  监控网络流量

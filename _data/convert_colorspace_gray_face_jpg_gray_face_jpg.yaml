@@ -1,8 +1,7 @@
 commandlinefu_id: 1592
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   convert -colorspace gray face.jpg gray_face.jpg
 summary: |-
-  Create black and white image
+  旧照片效果
