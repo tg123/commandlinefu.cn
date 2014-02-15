@@ -1,8 +1,0 @@
-commandlinefu_id: 9327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp /work/host/phone/ui/main.cpp !#$:s/host/target
-summary: |-
-  using `!#$' to referance backward-word

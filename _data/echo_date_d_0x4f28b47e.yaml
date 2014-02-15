@@ -1,8 +1,0 @@
-commandlinefu_id: 10205
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(date -d @$((0x4f28b47e)))
-summary: |-
-  Epoch time conversion

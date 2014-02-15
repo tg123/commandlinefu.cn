@@ -1,8 +1,0 @@
-commandlinefu_id: 1790
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias l='ls -CFlash'
-summary: |-
-  create a simple version of ls with extended output

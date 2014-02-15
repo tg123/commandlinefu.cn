@@ -1,8 +1,0 @@
-commandlinefu_id: 1387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "The date is: $(date +%D)"
-summary: |-
-  Backticks are evil
