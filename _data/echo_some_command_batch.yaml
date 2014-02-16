@@ -1,8 +1,7 @@
 commandlinefu_id: 6070
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo 'some command' | batch
 summary: |-
-  Delay execution until load average falls under 1.5
+  当load 小于1.5 时执行命令

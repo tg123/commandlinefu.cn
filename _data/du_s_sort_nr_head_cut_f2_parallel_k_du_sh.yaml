@@ -1,8 +1,7 @@
 commandlinefu_id: 4710
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -s * | sort -nr | head | cut -f2 | parallel -k du -sh
 summary: |-
-  List top ten files/directories sorted by size
+  寻找最大的10个目录和文件

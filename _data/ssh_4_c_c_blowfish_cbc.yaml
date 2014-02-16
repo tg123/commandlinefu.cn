@@ -1,8 +1,7 @@
 commandlinefu_id: 4350
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -4 -C -c blowfish-cbc
 summary: |-
-  Harder, Faster, Stronger SSH clients
+  改变ssh的加密算法

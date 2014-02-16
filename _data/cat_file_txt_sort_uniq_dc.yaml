@@ -1,8 +1,7 @@
 commandlinefu_id: 1573
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat file.txt | sort | uniq -dc
 summary: |-
-  Display duplicated lines in a file
+  寻找文件中重复的行

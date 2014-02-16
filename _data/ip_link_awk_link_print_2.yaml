@@ -1,8 +1,7 @@
 commandlinefu_id: 8168
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip link | awk '/link/ {print $2}'
 summary: |-
-  List your MACs address
+  列出所有的MAC地址

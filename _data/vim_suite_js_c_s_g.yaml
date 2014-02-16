@@ -1,8 +1,7 @@
 commandlinefu_id: 5097
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim suite.js -c '%s!/\*\_.\{-}\*/!!g'
 summary: |-
-  Delete C style comments using vim
+  使用vim删除注释

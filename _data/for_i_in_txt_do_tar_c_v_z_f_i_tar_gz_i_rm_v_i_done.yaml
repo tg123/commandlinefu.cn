@@ -1,8 +1,7 @@
 commandlinefu_id: 8717
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in "*.txt"; do tar -c -v -z -f $i.tar.gz "$i" && rm -v "$i"; done
 summary: |-
-  Compress all .txt files to .txt.ta.gz and remove the original .txt
+  压缩所有的txt 

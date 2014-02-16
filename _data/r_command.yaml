@@ -1,8 +1,7 @@
 commandlinefu_id: 1203
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :r !command
 summary: |-
-  Read the output of a command into the buffer in vim
+  在 vim 中读取 命令的输出到文本中
