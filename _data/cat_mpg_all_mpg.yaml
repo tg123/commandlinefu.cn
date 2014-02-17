@@ -1,8 +1,7 @@
 commandlinefu_id: 1724
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat *.mpg > all.mpg
 summary: |-
-  Combine all .mpeg files in current directory into one big one.
+  合并mpg到一个文件

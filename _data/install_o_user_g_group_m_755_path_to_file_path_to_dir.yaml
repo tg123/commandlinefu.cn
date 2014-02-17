@@ -1,8 +1,7 @@
 commandlinefu_id: 918
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   install -o user -g group -m 755 /path/to/file /path/to/dir/
 summary: |-
-  Copy a file and force owner/group/mode
+  复制文件同时设置权限

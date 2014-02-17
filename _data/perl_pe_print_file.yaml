@@ -1,8 +1,7 @@
 commandlinefu_id: 4269
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  perl -pe 'print "$. "' <file>
+  perl -pe 'print "$. "' file
 summary: |-
-  prints line numbers
+  带行号的cat

@@ -1,8 +1,7 @@
 commandlinefu_id: 9189
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -iname \*.pdf -print0 | xargs -0 pdfgrep -i "my search text"
 summary: |-
-  Grep all your PDFs in a row
+  在pdf中查找
