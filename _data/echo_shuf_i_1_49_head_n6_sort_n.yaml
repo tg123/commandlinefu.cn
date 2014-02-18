@@ -1,8 +1,7 @@
 commandlinefu_id: 3862
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  echo $(shuf -i 1-49 | head -n6 | sort -n)
+  echo $(shuf -i 1-35 | head -n7 | sort -n)
 summary: |-
-  lotto generator
+  帮你卖双色球(35选7)

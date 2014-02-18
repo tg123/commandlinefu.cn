@@ -1,8 +1,7 @@
 commandlinefu_id: 10081
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   genRandomText() { perl -e '$n=shift; print chr(int(rand(26)) + 97) for 1..$n; print "\n"' $1;}
 summary: |-
-  Generate Random Text based on Length
+  生成指定长度随机字符

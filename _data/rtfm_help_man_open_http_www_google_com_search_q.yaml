@@ -1,8 +1,0 @@
-commandlinefu_id: 7733
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rtfm() { help $@ || man $@ || open "http://www.google.com/search?q=$@"; }
-summary: |-
-  RTFM function

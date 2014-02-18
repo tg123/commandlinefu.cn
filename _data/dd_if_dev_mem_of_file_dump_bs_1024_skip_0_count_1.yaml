@@ -1,8 +1,7 @@
 commandlinefu_id: 2147
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/mem of=file.dump bs=1024 skip=0 count=1
 summary: |-
-  dump 1KB of data from ram to file
+  从内存dump 1kb 数据
