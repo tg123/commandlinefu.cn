@@ -1,0 +1,8 @@
+commandlinefu_id: 13183
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (read -r passphrase; b58encode 80$( brainwallet_exponent "$passphrase" )$( brainwallet_checksum "$passphrase" ))
+summary: |-
+  Bitcoin Brainwallet Private Key Calculator

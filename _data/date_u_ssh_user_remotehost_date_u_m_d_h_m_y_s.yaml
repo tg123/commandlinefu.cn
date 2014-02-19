@@ -1,0 +1,8 @@
+commandlinefu_id: 13144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -u `ssh user@remotehost date -u '+%m%d%H%M%Y.%S'`
+summary: |-
+  Synchronize date and time with a server over ssh (BusyBox-friendly)

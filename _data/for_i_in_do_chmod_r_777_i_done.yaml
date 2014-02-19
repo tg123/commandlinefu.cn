@@ -1,0 +1,8 @@
+commandlinefu_id: 13147
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in * ; do chmod -R 777 $i;done
+summary: |-
+  changing permissions to many folders, sub folders and files in the current directory.

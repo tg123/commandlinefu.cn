@@ -1,0 +1,8 @@
+commandlinefu_id: 13123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -ru 's/(..)\1{2,}/\1/g'
+summary: |-
+  remove repeated pairs of characters e.g. "xtxtxtxt" will become "xt"

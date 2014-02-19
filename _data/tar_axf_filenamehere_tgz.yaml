@@ -1,0 +1,8 @@
+commandlinefu_id: 13113
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -axf fileNameHere.tgz
+summary: |-
+  Unpack .tgz File On Linux

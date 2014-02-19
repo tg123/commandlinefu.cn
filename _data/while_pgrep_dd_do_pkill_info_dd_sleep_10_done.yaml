@@ -1,0 +1,8 @@
+commandlinefu_id: 13095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while pgrep ^dd; do pkill -INFO dd; sleep 10; done
+summary: |-
+  check the status of 'dd' in progress (OS X)

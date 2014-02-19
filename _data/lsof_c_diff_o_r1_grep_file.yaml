@@ -1,0 +1,8 @@
+commandlinefu_id: 13103
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -c diff -o -r1 | grep $file
+summary: |-
+  Keep track of diff progress

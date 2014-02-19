@@ -1,0 +1,8 @@
+commandlinefu_id: 13162
+translator:
+  weibo: ''
+hide: true
+command: |-
+  srm() { if [[ -d $1 ]]; then rm -R $1; else rm $1; fi }
+summary: |-
+  Smart remove - Removes files and directories smarter. Put it in your ~/.bash_profile/~/.bash_*

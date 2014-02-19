@@ -1,0 +1,8 @@
+commandlinefu_id: 13126
+translator:
+  weibo: ''
+hide: true
+command: |-
+  npm ls -g|grep "^[&#9500;&#9492;]\(.\+\)\?[&#9516;&#9472;] "
+summary: |-
+  List all NPM global packages installed

@@ -1,0 +1,8 @@
+commandlinefu_id: 13143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mtime +30 -exec mv {} old/ \;
+summary: |-
+  Move files older than 30 days in current folder to

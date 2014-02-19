@@ -1,0 +1,8 @@
+commandlinefu_id: 13181
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function brainwallet_checksum () { (o='openssl sha256 -binary'; p='printf';($p %b "\x80";$p %s "$1"|$o)|$o|sha256sum|cut -b1-8); }
+summary: |-
+  Bitcoin Brainwallet Checksum Calculator

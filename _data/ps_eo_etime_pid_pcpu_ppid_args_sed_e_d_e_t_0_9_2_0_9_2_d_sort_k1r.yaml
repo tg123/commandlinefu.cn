@@ -1,0 +1,8 @@
+commandlinefu_id: 13160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo etime,pid,pcpu,ppid,args | sed -e '/\[.\+\]/d' -e '/^[ \t]*[0-9]\{2\}:[0-9]\{2\} /d' | sort -k1r
+summary: |-
+  Find longest running non-root processes on a machine

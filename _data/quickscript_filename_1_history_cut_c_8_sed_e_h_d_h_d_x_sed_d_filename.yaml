@@ -1,0 +1,8 @@
+commandlinefu_id: 13141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  quickscript () { filename="$1"; history | cut -c 8- | sed -e '/^###/{h;d};H;$!d;x' | sed '$d' > ${filename:?No filename given} }
+summary: |-
+  Create a bash script from last commands

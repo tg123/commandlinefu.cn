@@ -1,0 +1,8 @@
+commandlinefu_id: 13137
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(sudo lsof -Pni4 | awk  -F: '/LISTEN/ { print substr($2,1,3) }'); do nc -z $(hostname) $i; done
+summary: |-
+  Check open ports are accepting connections

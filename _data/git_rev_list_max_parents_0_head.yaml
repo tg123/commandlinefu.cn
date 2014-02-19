@@ -1,0 +1,8 @@
+commandlinefu_id: 13146
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git rev-list --max-parents=0 HEAD
+summary: |-
+  Get first Git commit hash

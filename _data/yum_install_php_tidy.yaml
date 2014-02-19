@@ -1,0 +1,8 @@
+commandlinefu_id: 13096
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum install php-tidy
+summary: |-
+  Install php-tidy Module / Extension

@@ -1,0 +1,8 @@
+commandlinefu_id: 13134
+translator:
+  weibo: ''
+hide: true
+command: |-
+  YYYY=2014; MM=02; for d in $(cal $MM $YYYY | tail -6 | head -5); do DD=$(printf "%02d" $d); echo $YYYY$MM$DD; done
+summary: |-
+  Loop over the days of a month, in $YYYY$MM$DD format

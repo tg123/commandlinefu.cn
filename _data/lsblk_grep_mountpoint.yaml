@@ -1,0 +1,8 @@
+commandlinefu_id: 13129
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsblk | grep <mountpoint>
+summary: |-
+  Find partition name using mount point

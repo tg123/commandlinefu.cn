@@ -1,0 +1,8 @@
+commandlinefu_id: 13115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  su <username>
+summary: |-
+  Login as another user in shell

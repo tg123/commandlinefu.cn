@@ -1,0 +1,8 @@
+commandlinefu_id: 13114
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh HOST '(cd REPO_DIR && git diff --name-only HEAD | cpio -o -Hnewc --quiet)' | cpio -iduv --quiet -Hnewc
+summary: |-
+  Copy uncommitted changes from remote git repository

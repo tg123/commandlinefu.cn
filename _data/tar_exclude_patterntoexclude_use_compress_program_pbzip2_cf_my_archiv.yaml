@@ -1,0 +1,8 @@
+commandlinefu_id: 13161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --exclude='patternToExclude' --use-compress-program=pbzip2 -cf 'my-archive.tar.bz2' directoyToZip/
+summary: |-
+  tar+pbzip2 a dir

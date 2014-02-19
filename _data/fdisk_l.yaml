@@ -1,0 +1,8 @@
+commandlinefu_id: 13168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fdisk -l
+summary: |-
+  see the partition

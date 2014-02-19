@@ -1,0 +1,8 @@
+commandlinefu_id: 13099
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e 'alias exit='\''pwd > ~/.lastdir;exit'\''\n[ -n "$(cat .lastdir 2>/dev/null)" ] && cd "$(cat .lastdir)"' >> ~/.bash_aliases
+summary: |-
+  Stores current working directory before exit and restores it on a new bash start

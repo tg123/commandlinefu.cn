@@ -1,0 +1,8 @@
+commandlinefu_id: 13106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | tr [:upper:] [:lower:] | grep -oP '\.[^\.]+$'  | sort | uniq -c | sort
+summary: |-
+  count files by type

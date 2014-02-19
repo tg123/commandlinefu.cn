@@ -1,0 +1,8 @@
+commandlinefu_id: 13118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/shadow
+summary: |-
+  List all password hashes

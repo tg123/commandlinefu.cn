@@ -1,0 +1,8 @@
+commandlinefu_id: 13120
+translator:
+  weibo: ''
+hide: true
+command: |-
+  twistd -no web
+summary: |-
+  Serve current directory tree at http://$HOSTNAME:8080/

@@ -1,0 +1,8 @@
+commandlinefu_id: 13110
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -d "ls -l /proc/$!/fd"
+summary: |-
+  Keep track of diff progress

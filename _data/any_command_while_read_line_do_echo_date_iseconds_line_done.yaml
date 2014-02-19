@@ -1,0 +1,8 @@
+commandlinefu_id: 13139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  any command | while read line; do echo "[`date -Iseconds`] $line"; done
+summary: |-
+  Prefix every line with a timestamp

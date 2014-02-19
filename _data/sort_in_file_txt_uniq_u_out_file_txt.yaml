@@ -1,0 +1,8 @@
+commandlinefu_id: 13165
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sort in-file.txt | uniq -u > out-file.txt
+summary: |-
+  Remove duplicate line in a text file.

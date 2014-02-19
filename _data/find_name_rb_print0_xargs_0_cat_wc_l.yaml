@@ -1,0 +1,8 @@
+commandlinefu_id: 13107
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( find ./ -name '*.rb' -print0 | xargs -0 cat ) | wc -l
+summary: |-
+  count total number of lines of ruby code

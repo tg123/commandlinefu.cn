@@ -1,0 +1,8 @@
+commandlinefu_id: 13122
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aws ec2 describe-instances | jq '.["Reservations"]|.[]|.Instances|.[]|.LaunchTime + " " + .InstanceId' | sort -n
+summary: |-
+  Use AWS CLI and JQ to get a list of instances sorted by launch time

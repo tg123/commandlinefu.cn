@@ -1,0 +1,8 @@
+commandlinefu_id: 13179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec chmod o+rx {}\;
+summary: |-
+  Make a folder and everything in it world-viewable

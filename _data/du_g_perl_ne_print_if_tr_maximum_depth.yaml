@@ -1,0 +1,8 @@
+commandlinefu_id: 13163
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -g | perl -ne 'print if (tr#/#/# == <maximum depth>)'
+summary: |-
+  List directory size with max depth on IBM AIX

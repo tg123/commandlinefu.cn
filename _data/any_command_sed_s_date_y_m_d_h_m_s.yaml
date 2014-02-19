@@ -1,0 +1,8 @@
+commandlinefu_id: 13145
+translator:
+  weibo: ''
+hide: true
+command: |-
+  any command | sed "s/^/\[`date +"%Y%m%d%H%M%S"`]/"
+summary: |-
+  Prefix every line with a timestamp

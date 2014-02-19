@@ -1,0 +1,8 @@
+commandlinefu_id: 13173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ screen -S test -d -m -- sh -c 'date; exec $SHELL'
+summary: |-
+  Create a new detached screen session running command in background

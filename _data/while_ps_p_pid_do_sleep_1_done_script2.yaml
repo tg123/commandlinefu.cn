@@ -1,0 +1,8 @@
+commandlinefu_id: 13151
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while ps -p $PID; do sleep 1; done; script2
+summary: |-
+  Schedule one job after another (running).

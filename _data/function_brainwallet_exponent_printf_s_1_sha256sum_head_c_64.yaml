@@ -1,0 +1,8 @@
+commandlinefu_id: 13180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function brainwallet_exponent () { printf %s "$1"|sha256sum|head -c 64; }
+summary: |-
+  Bitcoin Brainwallet Exponent Calculator

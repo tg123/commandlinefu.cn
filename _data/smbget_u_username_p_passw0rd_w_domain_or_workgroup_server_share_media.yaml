@@ -1,0 +1,8 @@
+commandlinefu_id: 13170
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smbget -u username -p passw0rd -w domain_or_workgroup //server/share/mediafile.ogv -O - | mplayer -
+summary: |-
+  Pipe media file on samba share to mplayer

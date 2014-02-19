@@ -1,0 +1,8 @@
+commandlinefu_id: 13100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sn 192.168.1.0/24
+summary: |-
+  Ping all hosts on 192.168.1.0/24
