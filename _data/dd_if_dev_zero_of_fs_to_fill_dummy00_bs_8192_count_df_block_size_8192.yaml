@@ -1,8 +1,0 @@
-commandlinefu_id: 4209
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/zero of=/fs/to/fill/dummy00 bs=8192 count=$(df --block-size=8192 / | awk 'NR!=1 {print $4-100}')
-summary: |-
-  Fill up disk space (for testing)

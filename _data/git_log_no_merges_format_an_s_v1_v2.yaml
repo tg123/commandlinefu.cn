@@ -1,8 +1,7 @@
 commandlinefu_id: 12420
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log --no-merges --format="%an: %s" v1..v2
 summary: |-
-  Generate a Change Log with git
+  生成 change log

@@ -1,8 +1,7 @@
 commandlinefu_id: 4394
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   curl http://example.com/a.gz | tar xz
 summary: |-
-  Extract tarball from internet without local saving
+  直接解压缩远程得tgz

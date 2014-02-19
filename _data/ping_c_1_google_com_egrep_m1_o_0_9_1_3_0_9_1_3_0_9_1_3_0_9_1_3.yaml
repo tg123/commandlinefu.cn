@@ -1,8 +1,7 @@
 commandlinefu_id: 6890
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ping -c 1 google.com | egrep -m1 -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
 summary: |-
-  Get IP from hostname
+  使用ping获取ip
