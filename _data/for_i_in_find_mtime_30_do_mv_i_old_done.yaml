@@ -1,8 +1,7 @@
 commandlinefu_id: 13128
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in $(find . -mtime +30); do mv $i old/; done
 summary: |-
-  Move files older than 30 days in current folder to "old" folder
+  移动30天前的文件到old文件夹
