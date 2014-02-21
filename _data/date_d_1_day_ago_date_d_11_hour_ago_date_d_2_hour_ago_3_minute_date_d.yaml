@@ -1,8 +1,8 @@
 commandlinefu_id: 2336
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date -d '1 day ago'; date -d '11 hour ago'; date -d '2 hour ago - 3 minute'; date -d '16 hour'
 summary: |-
-  Get yesterday's date or a previous time
+  显示特定的日期 是支持 人类语言的
+

@@ -1,8 +1,7 @@
 commandlinefu_id: 7748
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   hg diff -c $REV --reverse | hg patch --no-commit -
 summary: |-
-  Undo commit in Mercurial
+  撤销提交 (mercurial)
