@@ -1,8 +1,7 @@
 commandlinefu_id: 9714
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tar xfz filename.tar.gz -C PathToDirectory
 summary: |-
-  Redirect  tar extract to another directory
+  将tar文件提取到指定文件夹

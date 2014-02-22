@@ -1,8 +1,7 @@
 commandlinefu_id: 3264
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   B <<< $(A)
 summary: |-
-  Who needs pipes?
+  管道的替代方案

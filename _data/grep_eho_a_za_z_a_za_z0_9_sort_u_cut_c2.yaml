@@ -1,8 +1,7 @@
 commandlinefu_id: 2883
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep -Eho '<[a-ZA-Z_][a-zA-Z0-9_-:]*' * | sort -u | cut -c2-
 summary: |-
-  Lists unambigously names of all xml elements used in files in current directory
+  列出当前文件夹下所有xml文件用到的元素名(移除了重复的内容)

@@ -1,8 +1,7 @@
 commandlinefu_id: 12551
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find (); { ls $1 | while read line; do [[ -d $1/$line ]] && find $1/$line $2 || echo $1/$line | grep $2; done; }
 summary: |-
-  bash find function
+  bash查找函数，在一个文件夹里递归查找对应的文本

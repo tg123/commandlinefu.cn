@@ -1,8 +1,7 @@
 commandlinefu_id: 5604
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   perl -ne 'push(@w, length); END {printf "%0d\n" , (sort({$b <=> $a} @w))[0]}' *.cpp
 summary: |-
-  Length of longest line of code
+  获取代码中最长的一行的长度
