@@ -1,8 +1,7 @@
 commandlinefu_id: 9541
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bc <<< 'obase=60;299'
 summary: |-
-  Convert seconds into minutes and seconds
+  进制转换 (60进制 时间转换)

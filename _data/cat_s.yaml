@@ -1,8 +1,7 @@
 commandlinefu_id: 12038
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat -s
 summary: |-
-  Compress blank lines
+  压缩空行

@@ -1,8 +1,7 @@
 commandlinefu_id: 9222
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -resize 600x800! *.jpg
 summary: |-
-  Batch resize image to exact given resolution ignoring aspect ratio
+  批量修改图片地址

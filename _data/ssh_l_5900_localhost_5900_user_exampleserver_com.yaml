@@ -1,8 +1,7 @@
 commandlinefu_id: 644
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -L 5900:localhost:5900 user@exampleserver.com
 summary: |-
-  tunnel vnc port
+  使用ssh 作端口隧道

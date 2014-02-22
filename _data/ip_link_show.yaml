@@ -1,8 +1,7 @@
 commandlinefu_id: 4991
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip link show
 summary: |-
-  Get all mac address
+  获取所有mac地址
