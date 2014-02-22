@@ -1,8 +1,7 @@
 commandlinefu_id: 4315
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   { echo -e "$body"; uuencode "$outfile" "$outfile"; } | mail -s "$subject" "$destaddr" ;
 summary: |-
-  Send a local file via email
+  通过email发送本地文件

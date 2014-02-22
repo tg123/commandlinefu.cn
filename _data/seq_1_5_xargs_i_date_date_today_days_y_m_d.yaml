@@ -1,8 +1,7 @@
 commandlinefu_id: 10779
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩 
 command: |-
   seq 1 5 | xargs -I"#" date --date="today -# days" +'%Y-%m-%d'
 summary: |-
-  List the most recent dates in reverse-chronological order
+  以倒字典顺序列出最近的日子

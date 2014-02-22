@@ -1,8 +1,7 @@
 commandlinefu_id: 8581
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat /sys/class/net/*/address
 summary: |-
-  List your MACs address
+  列出你所有的MAC地址

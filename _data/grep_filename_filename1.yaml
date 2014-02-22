@@ -1,8 +1,7 @@
 commandlinefu_id: 11952
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep . filename >filename1
 summary: |-
-  to remove blank line
+  移除空行

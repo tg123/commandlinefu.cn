@@ -1,8 +1,7 @@
 commandlinefu_id: 13178
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in $(pip freeze | awk -F== '{print $1}'); do pip uninstall $i; done
 summary: |-
-  Remove all installed packages from a python virtualenv
+  从一个python虚拟环境里移除所有已经安装的包

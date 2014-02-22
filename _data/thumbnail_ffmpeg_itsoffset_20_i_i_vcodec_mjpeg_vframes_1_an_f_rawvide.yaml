@@ -1,8 +1,7 @@
 commandlinefu_id: 4015
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   thumbnail() { ffmpeg  -itsoffset -20 -i $i -vcodec mjpeg -vframes 1 -an -f rawvideo -s 640x272 ${i%.*}.jpg }
 summary: |-
-  Create a thumbnail from a video file
+  从一个视频文件中截图
