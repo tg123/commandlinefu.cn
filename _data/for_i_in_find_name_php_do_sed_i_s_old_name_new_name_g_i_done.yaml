@@ -1,8 +1,7 @@
 commandlinefu_id: 801
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for I in `find . -name "*.php"`; do sed -i "s/old name/new name/g" $I; done
 summary: |-
-  Let's say you have a web site
+  批量替换php中的关键字

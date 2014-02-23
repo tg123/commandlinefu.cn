@@ -1,8 +1,7 @@
 commandlinefu_id: 10108
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   genRandomText() { x=({a..z}); for(( i=0; i<$1; i++ )); do printf ${x[$((RANDOM%26))]}; done; printf "\n"; }
 summary: |-
-  Generate Random Text based on Length
+  生成特定长度的随机文字

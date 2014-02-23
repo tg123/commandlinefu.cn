@@ -1,8 +1,7 @@
 commandlinefu_id: 12762
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f | perl -ne 'chop(); $ext = substr($_, rindex($_, ".") + 1); print "$ext\n";' | sort | uniq --count | sort -n
 summary: |-
-  Find used fileextensions in a project
+  统计使用过的扩展名

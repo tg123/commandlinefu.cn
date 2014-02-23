@@ -1,8 +1,7 @@
 commandlinefu_id: 7952
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar -cvz /<path>/ | gpg --encrypt --recipient <keyID> > /<backup-path>/backup_`date +%d_%m_%Y`.tar.gz.gpg
 summary: |-
-  tar.gz with gpg-encryption on the fly
+  压缩同时用gpg加密
