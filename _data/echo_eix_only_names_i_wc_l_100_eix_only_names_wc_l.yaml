@@ -1,8 +1,7 @@
 commandlinefu_id: 2845
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo $((`eix --only-names -I | wc -l` * 100 / `eix --only-names | wc -l`))%
 summary: |-
-  Shows how many percents of all avaliable packages are installed in your gentoo system
+  显示你的gentoo系统安装了的包占所有可安装的包的比率

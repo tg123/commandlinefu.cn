@@ -1,8 +1,7 @@
 commandlinefu_id: 6785
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   convert *.jpg output.pdf
 summary: |-
-  Create a single PDF from multiple images with ImageMagick
+  用ImageMagick从多个图像中创建出单一的PDF

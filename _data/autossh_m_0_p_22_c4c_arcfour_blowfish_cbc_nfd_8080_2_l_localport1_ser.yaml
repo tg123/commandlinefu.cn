@@ -1,8 +1,7 @@
 commandlinefu_id: 7019
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   autossh -M 0 -p 22 -C4c arcfour,blowfish-cbc -NfD 8080 -2 -L localport1:server1:remoteport1 -L bind_address2:localport2:server2:remoteport2 user@sshserver
 summary: |-
-  SSH tunneling self-connection
+  SSH隧道自动连接

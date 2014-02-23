@@ -1,8 +1,7 @@
 commandlinefu_id: 7874
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sed 's/^M$//' input.txt > output.txt
 summary: |-
-  Convert DOS newlines (CR/LF) to Unix format
+  转换DOS换行符(CR/LF)为Unix格式

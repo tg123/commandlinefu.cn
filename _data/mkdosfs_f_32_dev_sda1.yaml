@@ -1,8 +1,7 @@
 commandlinefu_id: 8596
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   mkdosfs -F 32 /dev/sda1
 summary: |-
-  Format partition as FAT32
+  格式化分区成FAT32格式

@@ -1,8 +1,7 @@
 commandlinefu_id: 1688
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -type f -depth -3 -mtime -5
 summary: |-
-  Find files modified in the last 5 days, no more than 2 levels deep in the current directory.
+  在当前目录不超过两级深度的范围内查找最近五天修改过的文件
