@@ -1,8 +1,7 @@
 commandlinefu_id: 1950
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   emerge -epv world | grep USE | cut -d '"' -f 2 | sed 's/ /\n/g' | sed '/[(,)]/d' | sed s/'*'//g | sort | uniq > use && grep ^- use | sed s/^-// | sed ':a;N;$!ba;s/\n/ /g' > notuse && sed -i /^-/d use && sed -i ':a;N;$!ba;s/\n/ /g' use
 summary: |-
-  For Gentoo users : helping with USE / emerge
+  Gentoo用户使用USE / emerge提供帮助

@@ -1,8 +1,7 @@
 commandlinefu_id: 302
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo SSBMb3ZlIFlvdQo= | base64 -d
 summary: |-
-  Just run it ;)
+  尝试一下，你就知道 ;)

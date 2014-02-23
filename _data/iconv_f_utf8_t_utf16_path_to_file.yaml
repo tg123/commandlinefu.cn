@@ -1,8 +1,7 @@
 commandlinefu_id: 6486
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   iconv -f utf8 -t utf16 /path/to/file
 summary: |-
-  Convert encoding of a file
+  把一个文件的编码从utf8转换成utf16
