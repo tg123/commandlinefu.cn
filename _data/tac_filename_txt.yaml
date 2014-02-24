@@ -1,8 +1,7 @@
 commandlinefu_id: 12320
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tac filename.txt
 summary: |-
-  Print file content in reverse order
+  倒过来显示一个文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 8438
-translator:
-  weibo: ''
-hide: true
-command: |-
-  geoip() { lynx -dump "http://api.hostip.info/get_html.php?ip=$1&position=true"; }
-summary: |-
-  Geolocate a given IP address

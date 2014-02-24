@@ -1,8 +1,7 @@
 commandlinefu_id: 3860
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   touch -r "$FILE1" "$FILE2"
 summary: |-
-  Set access and modification timestamps of a file using another one as reference
+  复制修改时间

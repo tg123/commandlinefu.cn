@@ -1,8 +1,7 @@
 commandlinefu_id: 12251
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh user@remote "tar cfp - /path/to/log/* | gzip" > local.tar.gz
 summary: |-
-  get gzipped logs from webserver to local machine
+  远程压缩后写到本地
