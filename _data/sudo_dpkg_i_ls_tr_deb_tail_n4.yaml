@@ -1,8 +1,7 @@
 commandlinefu_id: 9440
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo dpkg -i `ls -tr *.deb | tail -n4`
 summary: |-
-  Install 4 new package files
+  安装最新的4个deb

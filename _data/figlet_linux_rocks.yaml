@@ -1,8 +1,0 @@
-commandlinefu_id: 5392
-translator:
-  weibo: ''
-hide: true
-command: |-
-  figlet Linux rocks!
-summary: |-
-  pimp text output e.g. "Linux rocks!" to look nice

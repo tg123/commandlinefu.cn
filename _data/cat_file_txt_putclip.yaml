@@ -1,8 +1,7 @@
 commandlinefu_id: 10294
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat file.txt | putclip
 summary: |-
-  Copy a file content to clipboard on Cygwin
+  复制到剪切版 (cygwin)

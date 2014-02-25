@@ -1,8 +1,0 @@
-commandlinefu_id: 8544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /usr/share/gnome-shell/search_providers/ && cat google.xml | sed "s/www.google.com\/search/duckduckgo.com\//; s/Google/DuckDuckGo/g" > duckduckgo.xml
-summary: |-
-  Add DuckDuckGo Search as search provider on gnome-shell

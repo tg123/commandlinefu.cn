@@ -1,8 +1,0 @@
-commandlinefu_id: 4173
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep "<link>|<title>" recenttracks.rss | awk 'ORS=NR%2?" ":"\n"' | awk -F "</title>" '{print $2, $1}' | sed -e 's/\<link\>/\<li\>\<a href\=\"/' -e 's/\<\/link\>/\">/' -e 's/\<title\>//' -e 's/$/\<\/a\>\<\/li\>/g' -e '1,1d' -e 's/^[ \t]*//'
-summary: |-
-  last.fm rss parser

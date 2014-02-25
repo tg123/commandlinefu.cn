@@ -1,8 +1,0 @@
-commandlinefu_id: 8250
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat username_lovedtracks.xspf |perl -pe "s/.*<title>(.*)<\/title><creator>(.*)<\/creator>.*/Song: \1 Artist: \2/gi"> titles
-summary: |-
-  Change your exported xml love list from last.fm, into Song: songname Artist: artistname

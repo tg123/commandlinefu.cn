@@ -1,8 +1,7 @@
 commandlinefu_id: 3096
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   uname -a
 summary: |-
-  get kernel version
+  获取内核版本
