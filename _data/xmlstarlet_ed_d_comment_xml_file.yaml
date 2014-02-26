@@ -1,8 +1,7 @@
 commandlinefu_id: 1929
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xmlstarlet ed -d '//comment()' $XML_FILE
 summary: |-
-  Remove comments in XML file
+  清理 xml 里边的注释

@@ -1,8 +1,7 @@
 commandlinefu_id: 1251
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -ld **/*(/)
 summary: |-
-  Show every subdirectory (zsh)
+  显示所有子目录 (zsh)

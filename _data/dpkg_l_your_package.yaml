@@ -1,8 +1,7 @@
 commandlinefu_id: 4244
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -L  Your_Package
 summary: |-
-  List content of a package (debian derivative distro)
+  看看你的安装包里边都有什么文件(deb)

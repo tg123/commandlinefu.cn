@@ -1,8 +1,7 @@
 commandlinefu_id: 2022
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lshw -C display
 summary: |-
-  Give information about your graphic chipset
+  获取图形芯片信息
