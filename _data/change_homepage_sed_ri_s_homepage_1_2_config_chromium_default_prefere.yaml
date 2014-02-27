@@ -1,8 +1,0 @@
-commandlinefu_id: 5324
-translator:
-  weibo: ''
-hide: true
-command: |-
-  change-homepage(){ sed -ri 's|(   "homepage": ").*(",)|\1'"$@"'\2|' .config/chromium/Default/Preferences; }
-summary: |-
-  Change the homepage of Chromium

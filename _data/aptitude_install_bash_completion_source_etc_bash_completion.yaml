@@ -1,8 +1,0 @@
-commandlinefu_id: 3720
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude install bash-completion ; source /etc/bash_completion
-summary: |-
-  Enable programmable bash completion in debian lenny

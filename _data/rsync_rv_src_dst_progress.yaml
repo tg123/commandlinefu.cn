@@ -1,8 +1,7 @@
 commandlinefu_id: 8967
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rsync -rv <src> <dst> --progress
 summary: |-
-  copy with progress bar - rsync
+  有进度条的 rsync

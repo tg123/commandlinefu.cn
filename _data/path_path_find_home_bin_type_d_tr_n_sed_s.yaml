@@ -1,8 +1,7 @@
 commandlinefu_id: 12423
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   PATH="${PATH}:$(find ${HOME}/bin -type d | tr '\n' ':' | sed 's/:$//')"
 summary: |-
-  Recursively add directories to $PATH
+  递归添加目录到PATH

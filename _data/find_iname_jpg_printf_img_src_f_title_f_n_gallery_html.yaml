@@ -1,8 +1,7 @@
 commandlinefu_id: 9994
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -iname "*.jpg" -printf '<img src="%f" title="%f">\n' > gallery.html
 summary: |-
-  Quick HTML image gallery
+  创建一个html相册
