@@ -1,8 +1,7 @@
 commandlinefu_id: 10344
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   top -b -n 1 | sed 1,6d
 summary: |-
-  Processes by CPU usage
+  按cpu使用率排序进程

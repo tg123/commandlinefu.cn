@@ -1,8 +1,7 @@
 commandlinefu_id: 7052
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm -f `find ./ | grep "\.\_.*"`
 summary: |-
-  remove OSX resource forks ._ files
+  清理 osx 的 ._ 文件
