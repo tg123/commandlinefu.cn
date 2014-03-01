@@ -1,8 +1,7 @@
 commandlinefu_id: 4790
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   newest () { DIR=${1:-'.'};  CANDIDATE=`find $DIR -type f|head -n1`; while [[ ! -z $CANDIDATE ]]; do BEST=$CANDIDATE; CANDIDATE=`find $DIR -newer "$BEST" -type f|head -n1`; done; echo "$BEST"; }
 summary: |-
-  A function to find the newest file in a directory
+  查找最新文件

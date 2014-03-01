@@ -1,8 +1,7 @@
 commandlinefu_id: 8272
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /path/to/dir -type f |sed 's/^.*\.//' |sort -f |uniq -i
 summary: |-
-  list all file-types (case-insensitive extensions) including subdirectories
+  列出所有扩展名

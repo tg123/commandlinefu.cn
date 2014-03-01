@@ -1,8 +1,7 @@
 commandlinefu_id: 4147
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -mindepth 1 -maxdepth 1 -name .\*
 summary: |-
-  Find all dotfiles and dirs
+  查找所有 点 文件
