@@ -1,8 +1,7 @@
 commandlinefu_id: 6741
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 summary: |-
-  Stop Mac OSX from creating .DS_Store files when interacting with a remote file server with the Finder
+  禁止 osx 在远程服务器上 创建.DS_Store

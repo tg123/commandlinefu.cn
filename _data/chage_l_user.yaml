@@ -1,8 +1,7 @@
 commandlinefu_id: 3142
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   chage -l <user>
 summary: |-
-  Show account security settings
+  显示账号过期信息

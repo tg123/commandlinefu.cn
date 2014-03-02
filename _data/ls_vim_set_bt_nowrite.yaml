@@ -1,8 +1,7 @@
 commandlinefu_id: 9945
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls | vim +'set bt=nowrite' -
 summary: |-
-  vim read stdin
+  使 vim 读取stdin

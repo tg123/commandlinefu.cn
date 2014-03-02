@@ -1,8 +1,7 @@
 commandlinefu_id: 4795
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -in
 summary: |-
-  Equivalent to ifconfig -a in HPUX
+  等价于 ifconfig -a (HPUX)
