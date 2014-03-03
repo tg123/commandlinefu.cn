@@ -1,8 +1,0 @@
-commandlinefu_id: 2708
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs update -C
-summary: |-
-  Override and update your locally modified files through cvs..

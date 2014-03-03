@@ -1,8 +1,0 @@
-commandlinefu_id: 4565
-translator:
-  weibo: ''
-hide: true
-command: |-
-  purple-remote "msn:getinfo?screenname=xxx"
-summary: |-
-  get msn buddy's info

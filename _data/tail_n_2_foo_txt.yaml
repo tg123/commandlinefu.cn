@@ -1,8 +1,7 @@
 commandlinefu_id: 11273
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tail -n +2 foo.txt
 summary: |-
-  Deleting / Ignoring lines from the top of a file
+  忽略前2行

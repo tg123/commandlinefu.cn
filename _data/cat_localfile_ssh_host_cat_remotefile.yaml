@@ -1,8 +1,7 @@
 commandlinefu_id: 7789
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat LOCALFILE | ssh HOST "cat > REMOTEFILE"
 summary: |-
-  Copy a file over SSH without SCP
+  通过ssh复制文件

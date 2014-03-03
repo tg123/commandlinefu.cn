@@ -1,8 +1,7 @@
 commandlinefu_id: 3310
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bash -x test.sh 2>&1 | tee out.test
 summary: |-
-  Run a bash script in debug mode, show output and save it on a file
+  在debug模式下运行 shell
