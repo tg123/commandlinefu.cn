@@ -1,8 +1,7 @@
 commandlinefu_id: 8170
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -eo stat= | sort | uniq -c | sort -n
 summary: |-
-  count processes with status
+  按状态统计进程数量

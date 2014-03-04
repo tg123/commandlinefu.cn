@@ -1,8 +1,7 @@
 commandlinefu_id: 9809
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsmod | awk 'BEGIN{print "digraph{"}{split($4, a, ","); for (i in a) print $1, "->", a[i]}END{print "}"}'|display
 summary: |-
-  Draw kernel module dependancy graph.
+  绘制kernel依赖树

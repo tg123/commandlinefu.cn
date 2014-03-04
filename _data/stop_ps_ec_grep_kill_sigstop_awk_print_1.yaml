@@ -1,8 +1,7 @@
 commandlinefu_id: 4432
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   stop () { ps -ec | grep $@ | kill -SIGSTOP `awk '{print $1}'`; }
 summary: |-
-  Pause and Resume Processes
+  暂停继续一个进程
