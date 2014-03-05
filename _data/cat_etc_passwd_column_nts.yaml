@@ -1,8 +1,7 @@
 commandlinefu_id: 9155
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /etc/passwd | column -nts:
 summary: |-
-  format txt as table
+  格式化文本为表格

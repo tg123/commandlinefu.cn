@@ -1,8 +1,7 @@
 commandlinefu_id: 8699
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i 's/\r\n//' file.txt
 summary: |-
-  Remove CR LF from a text file
+  清理文本中CR LF

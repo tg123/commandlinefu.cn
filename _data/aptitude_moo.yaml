@@ -1,8 +1,0 @@
-commandlinefu_id: 4051
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude moo
-summary: |-
-  aptitude easter eggs

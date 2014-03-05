@@ -1,8 +1,7 @@
 commandlinefu_id: 3883
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   declare -F | sed 's/^declare -f //'
 summary: |-
-  List bash functions defined in .bash_profile or .bashrc
+  列出 预定义的函数

@@ -1,8 +1,7 @@
 commandlinefu_id: 8462
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   od /dev/urandom -w6 -tx1 -An|sed -e 's/ //' -e 's/ /:/g'|head -n 1
 summary: |-
-  Generat a Random MAC address
+  生成一个随机的MAC

@@ -1,8 +1,7 @@
 commandlinefu_id: 9540
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -n log4j MainPm.java  | sed -e 's/^\([^:]*\):\(.*\)/\2 \1/'
 summary: |-
-  move linenumbers of grep output to end of line
+  把grep后行号移动到行尾
