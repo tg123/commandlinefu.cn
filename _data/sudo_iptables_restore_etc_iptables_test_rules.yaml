@@ -1,8 +1,0 @@
-commandlinefu_id: 3111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo iptables-restore < /etc/iptables.test.rules
-summary: |-
-  Update iptables firewall with a temp ruleset

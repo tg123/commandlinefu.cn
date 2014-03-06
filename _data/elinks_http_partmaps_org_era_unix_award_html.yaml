@@ -1,8 +1,0 @@
-commandlinefu_id: 1290
-translator:
-  weibo: ''
-hide: true
-command: |-
-  elinks http://partmaps.org/era/unix/award.html
-summary: |-
-  Read the Useless Use of Cat Awards page

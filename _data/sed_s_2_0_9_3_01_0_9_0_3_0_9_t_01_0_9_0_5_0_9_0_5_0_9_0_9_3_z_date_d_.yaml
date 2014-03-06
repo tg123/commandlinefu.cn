@@ -1,8 +1,0 @@
-commandlinefu_id: 10832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed "s|\(2[0-9]\{3\}-[01][0-9]-[0-3][0-9]T[01][0-9]:[0-5][0-9]:[0-5][0-9].[0-9]\{3\}Z\)|$(date -d \1 +%s)000|g"
-summary: |-
-  Convert ISO8601 dates to milliseconds since epoch
