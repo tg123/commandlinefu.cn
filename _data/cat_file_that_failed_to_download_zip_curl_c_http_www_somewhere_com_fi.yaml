@@ -1,8 +1,7 @@
 commandlinefu_id: 2876
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat file-that-failed-to-download.zip | curl -C - http://www.somewhere.com/file-I-want-to-download.zip >successfully-downloaded.zip
 summary: |-
-  use curl to resume a failed download
+  使用curl 断点续传

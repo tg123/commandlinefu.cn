@@ -1,8 +1,7 @@
 commandlinefu_id: 1445
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo lsof -i :<port>
 summary: |-
-  List all process running a specfic port
+  查看打开端口的进程

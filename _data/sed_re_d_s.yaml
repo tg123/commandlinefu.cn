@@ -1,8 +1,7 @@
 commandlinefu_id: 10160
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -re '/^#/d ; s/#.*$//'
 summary: |-
-  Remove comments
+  清理注释

@@ -1,8 +1,7 @@
 commandlinefu_id: 6403
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 's/(^|[\s\(\)\[\]_-])([a-z])/$1\u$2/g' *
 summary: |-
-  Title Case Files
+  文件名首字幕大写

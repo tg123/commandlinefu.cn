@@ -1,8 +1,7 @@
 commandlinefu_id: 2207
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -i filename.flv
 summary: |-
-  Get video information with ffmpeg
+  获取ffmpeg的信息

@@ -1,8 +1,7 @@
 commandlinefu_id: 8489
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -lnptu
 summary: |-
-  Active Internet connections (only servers)
+  活动的链接

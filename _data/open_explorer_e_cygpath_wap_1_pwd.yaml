@@ -1,8 +1,7 @@
 commandlinefu_id: 12589
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   open() { explorer /e, $(cygpath -wap "${1:-$PWD}"); }
 summary: |-
-  Opens an explorer.exe file browser window for the current working directory
+  在资源管理器中开打当前目录 (cygwin)
