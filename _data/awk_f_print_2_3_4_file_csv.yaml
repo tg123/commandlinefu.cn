@@ -1,8 +1,7 @@
 commandlinefu_id: 839
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk -F'^"|", "|"$' '{ print $2,$3,$4 }' file.csv
 summary: |-
-  Parse a quoted .csv file
+  用 awk 解析.csv

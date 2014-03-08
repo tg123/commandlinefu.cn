@@ -1,8 +1,7 @@
 commandlinefu_id: 11073
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar -zcvf file.tgz ./
 summary: |-
-  Tar all files in a folder including hidden dot files
+  打包时候带上 隐藏文件

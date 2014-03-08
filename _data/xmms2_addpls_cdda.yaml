@@ -1,8 +1,0 @@
-commandlinefu_id: 293
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmms2 addpls cdda://
-summary: |-
-  Add audio CD to xmms2 playlist
