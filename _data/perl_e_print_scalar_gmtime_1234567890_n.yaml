@@ -1,8 +1,7 @@
 commandlinefu_id: 3190
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -e 'print scalar(gmtime(1234567890)), "\n"'
 summary: |-
-  convert unixtime to human-readable
+  使用perl转换unix时间

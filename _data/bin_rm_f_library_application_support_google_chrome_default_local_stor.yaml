@@ -1,8 +1,0 @@
-commandlinefu_id: 12410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/rm -f ~/Library/Application\ Support/Google/Chrome/Default/Local\ Storage/*google*
-summary: |-
-  Force delete of Google Chrome Google-related local storage, make Gmail Offline work again

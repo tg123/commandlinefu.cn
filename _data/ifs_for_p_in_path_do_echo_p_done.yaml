@@ -1,8 +1,7 @@
 commandlinefu_id: 1542
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ( IFS=:; for p in $PATH; do echo $p; done )
 summary: |-
-  Show directories in the PATH, one per line
+  列出所有PATH的目录

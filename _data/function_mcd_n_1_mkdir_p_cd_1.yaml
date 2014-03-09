@@ -1,8 +1,7 @@
 commandlinefu_id: 2241
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function mcd() {   [ -n "$1" ] && mkdir -p "$@" && cd "$1";   }
 summary: |-
-  combine `mkdir foo && cd foo`  into a single function `mcd foo`
+  创建目录并cd
