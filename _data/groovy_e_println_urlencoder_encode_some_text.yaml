@@ -1,8 +1,7 @@
 commandlinefu_id: 6476
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   groovy -e 'println URLEncoder.encode("Some text")'
 summary: |-
-  encode a text to url_encoded format
+  使用groovy做 url_encoded

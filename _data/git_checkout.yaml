@@ -1,8 +1,7 @@
 commandlinefu_id: 3001
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git checkout -
 summary: |-
-  Switch to the previous branch used in git(1)
+  切换回刚才的分支

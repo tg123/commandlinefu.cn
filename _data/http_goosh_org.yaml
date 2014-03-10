@@ -1,8 +1,0 @@
-commandlinefu_id: 3244
-translator:
-  weibo: ''
-hide: true
-command: |-
-  http://goosh.org
-summary: |-
-  Seach google from the command line in Unofficial google shell
