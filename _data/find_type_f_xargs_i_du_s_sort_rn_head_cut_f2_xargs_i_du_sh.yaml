@@ -1,8 +1,7 @@
 commandlinefu_id: 7549
 translator:
-  weibo: ''
-hide: true
+  weibo: msccreater
 command: |-
   find -type f | xargs -I{} du -s "{}" | sort -rn | head | cut -f2 | xargs -I{} du -sh "{}"
 summary: |-
-  Find the biggest files
+  列出当前目录下前10个最大的文件(head默认显示前10个)
