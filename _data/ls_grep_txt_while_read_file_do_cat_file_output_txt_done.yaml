@@ -1,8 +1,7 @@
 commandlinefu_id: 5381
 translator:
   weibo: msccreater
-hide: true
 command: |-
-  ls | grep *.txt | while read file; do cat $file >> ./output.txt; done;
+  ls | grep -E ".*\.txt" | while read file; do cat $file >> ./output.txt; done;
 summary: |-
-  把当前目录下所有以txt为后缀的文件中的内容写到output.txt中。这里需要注意*.txt需要改为".*\.txt"(注意这里的引号)并且grep后需要跟-E参数表示使用扩展表达式(PS: ls | grep -E ".*\.txt",主要注意grep里正则和通配符的区别.在文本过滤工具里，都是用正则表达式，比如像awk，sed，等，是针对文件的内容的。而通配符多用在文件名上，比如查找find，ls，cp，等等).然后使用read把文件名读到file中，使用cat和重定向>>保存文件内容到output.txt
+  把当前目录下所有以txt为后缀的文件中的内容写到output.txt中。这里需要注意引号并且grep后需要跟-E参数表示使用扩展表达式(PS:主要注意grep里正则和通配符的区别.在文本过滤工具里，都是用正则表达式，比如像awk，sed，等，是针对文件的内容的。而通配符多用在文件名上，比如查找find，ls，cp，等等).然后使用read把文件名读到file中，使用cat和重定向>>保存文件内容到output.txt

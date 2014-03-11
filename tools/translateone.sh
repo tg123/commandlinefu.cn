@@ -9,8 +9,7 @@ fi
 DATADIR="$BASEDIR/../_data"
 
 if [ -z "$EDITOR" ]; then
-#EDITOR='/usr/bin/editor'
-EDITOR='/usr/bin/vim'
+EDITOR='/usr/bin/editor'
 fi
 
 #a=(`grep "hide: true" $DATADIR -rl`)
