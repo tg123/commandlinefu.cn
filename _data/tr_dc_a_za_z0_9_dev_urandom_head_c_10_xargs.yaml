@@ -1,8 +1,7 @@
 commandlinefu_id: 11393
 translator:
-  weibo: ''
-hide: true
+  weibo: msccreater
 command: |-
   tr -dc A-Za-z0-9_ < /dev/urandom | head -c 10 | xargs
 summary: |-
-  generate a randome 10 character password
+  随机生成一个含有10个字符的密码,d删除,c补集

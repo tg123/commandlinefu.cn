@@ -1,8 +1,7 @@
 commandlinefu_id: 7678
 translator:
-  weibo: ''
-hide: true
+  weibo: msccreater
 command: |-
-  echo -en "$USER@$HOSTNAME:${PWD##*/}> ";while read x;do echo $x>>/tmp/log.txt;echo $x|$0 2>&1;echo -en "$USER@$HOSTNAME:${PWD##*/}> ";done
+  echo -en "$USER@$HOSTNAME:${PWD##*/}> ";while read x;do echo $x>>/tmp/log.txt;echo $x 2>&1;echo -en "$USER@$HOSTNAME:${PWD##*/}> ";done
 summary: |-
-  Bash logger
+  记录输入的bash命令并保存在/tmp/log.txt中
