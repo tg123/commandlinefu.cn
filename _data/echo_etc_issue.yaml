@@ -1,8 +1,7 @@
 commandlinefu_id: 3473
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "$(</etc/issue)"
 summary: |-
-  view file content with echo
+  使用echo显示文件内容

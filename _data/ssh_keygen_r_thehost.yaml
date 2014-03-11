@@ -1,8 +1,7 @@
 commandlinefu_id: 10055
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh-keygen -R <thehost>
 summary: |-
-  Remove a line from a file using sed (useful for updating known SSH server keys when they change)
+  清除known_host 里边的host

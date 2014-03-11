@@ -1,8 +1,7 @@
 commandlinefu_id: 9231
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xxd <file>
 summary: |-
-  print all characters of a file using hexdump
+  使用hex dump文件

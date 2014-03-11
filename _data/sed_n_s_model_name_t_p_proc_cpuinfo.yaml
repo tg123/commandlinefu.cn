@@ -1,8 +1,7 @@
 commandlinefu_id: 3986
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n 's/^model name[ \t]*: *//p' /proc/cpuinfo
 summary: |-
-  List the CPU model name
+  查看cpu型号

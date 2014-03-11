@@ -1,8 +1,7 @@
 commandlinefu_id: 9556
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff -r -u originDir updateDir > result.patch
 summary: |-
-  Create patch file for two directories
+  创建两个目录的diff
