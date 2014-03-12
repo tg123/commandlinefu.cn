@@ -1,0 +1,8 @@
+commandlinefu_id: 13186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ab -n 1000 -c 100 http://127.0.0.1:8000/
+summary: |-
+  Test how well a web server handles concurrent connections and big load.

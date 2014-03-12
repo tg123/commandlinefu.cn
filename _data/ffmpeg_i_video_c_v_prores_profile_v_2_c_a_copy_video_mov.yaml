@@ -1,0 +1,8 @@
+commandlinefu_id: 13245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i $video -c:v prores -profile:v 2 -c:a copy ${video}.mov
+summary: |-
+  iMovie compatible ffmpeg transcoding

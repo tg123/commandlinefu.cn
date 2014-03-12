@@ -1,0 +1,8 @@
+commandlinefu_id: 13213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo update-grub
+summary: |-
+  add fn brightness on notebook

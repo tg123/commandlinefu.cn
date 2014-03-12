@@ -1,0 +1,8 @@
+commandlinefu_id: 13204
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -NL 12345:localhost:631 username@remote_server
+summary: |-
+  Forward remote server CUPS port to localhost

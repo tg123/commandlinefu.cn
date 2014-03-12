@@ -1,0 +1,8 @@
+commandlinefu_id: 13195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i '1iI am a new line' file.txt
+summary: |-
+  Insert line(s) at top of file using sed

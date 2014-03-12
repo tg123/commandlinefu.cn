@@ -1,0 +1,8 @@
+commandlinefu_id: 13257
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | grep ".txt$" | xargs -i WHATEVER_COMMAND {}
+summary: |-
+  Arguments too long

@@ -1,0 +1,8 @@
+commandlinefu_id: 13215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.txt" | xargs -n 1 perl -pi -w -e "s/text([0-9])/other\$1/g;"
+summary: |-
+  Search and replace multiple files with substitution

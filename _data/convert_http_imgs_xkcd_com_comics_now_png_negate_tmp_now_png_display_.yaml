@@ -1,0 +1,8 @@
+commandlinefu_id: 13209
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert http://imgs.xkcd.com/comics/now.png -negate /tmp/now.png ; DISPLAY=:0.0 awsetbg -c /tmp/now.png
+summary: |-
+  XKCD "now" wallpaper (http://xkcd.com/now)

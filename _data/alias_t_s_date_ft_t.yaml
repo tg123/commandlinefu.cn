@@ -1,0 +1,8 @@
+commandlinefu_id: 13233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias t__s='date "+%FT%T"'
+summary: |-
+  bash alias for date command that lets you create timestamps in ISO8601 format

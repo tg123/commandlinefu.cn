@@ -1,0 +1,8 @@
+commandlinefu_id: 13244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat skype_log | sed -s 's/\(\[.*\]\) \(.*\): \(.*\)/<\2> \3/'
+summary: |-
+  Skype conversation logs to IRC-format logs

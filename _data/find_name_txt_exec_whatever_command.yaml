@@ -1,0 +1,8 @@
+commandlinefu_id: 13252
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.txt" -exec WHATEVER_COMMAND {} \;
+summary: |-
+  Arguments too long

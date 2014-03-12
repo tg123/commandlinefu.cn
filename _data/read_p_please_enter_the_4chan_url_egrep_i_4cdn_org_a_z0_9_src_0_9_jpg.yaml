@@ -1,0 +1,8 @@
+commandlinefu_id: 13243
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read -p "Please enter the 4chan url: "|egrep '//i.4cdn.org/[a-z0-9]+/src/([0-9]*).(jpg|png|gif)' - -o|nl -s https:|cut -c7-|uniq|wget -nc -i - --random-wait
+summary: |-
+  Download all images on a 4chan thread

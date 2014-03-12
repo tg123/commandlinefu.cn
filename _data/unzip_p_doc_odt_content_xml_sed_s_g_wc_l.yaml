@@ -1,0 +1,8 @@
+commandlinefu_id: 13188
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unzip -p doc.odt content.xml | sed 's|<[^>]*>| |g' | wc -l
+summary: |-
+  Count the words in any OpenOffice document (including Impress presentations)

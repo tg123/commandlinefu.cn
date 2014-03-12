@@ -1,0 +1,8 @@
+commandlinefu_id: 13239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lshw -html > /tmp/hardware.html && xdg-open /tmp/hardware.html
+summary: |-
+  Create a nifty overview of the hardware in your computer

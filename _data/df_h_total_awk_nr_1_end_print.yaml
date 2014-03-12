@@ -1,0 +1,8 @@
+commandlinefu_id: 13220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -h --total | awk 'NR==1; END{print}'
+summary: |-
+  Show total disk space on all partitions

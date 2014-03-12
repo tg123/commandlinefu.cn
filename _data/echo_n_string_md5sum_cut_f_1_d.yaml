@@ -1,0 +1,8 @@
+commandlinefu_id: 13189
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n "string" | md5sum|cut -f 1 -d " "
+summary: |-
+  Use php and md5 to generate a password

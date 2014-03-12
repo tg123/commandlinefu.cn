@@ -1,0 +1,8 @@
+commandlinefu_id: 13203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  catmandu convert JSON to YAML < file.json > file.yaml
+summary: |-
+  Convert JSON to YAML

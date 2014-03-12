@@ -1,0 +1,8 @@
+commandlinefu_id: 13249
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof | grep -i deleted | grep REG | grep -v txt | ruby -r 'pp' -e 'STDIN.each do |v| a =  v.split(/ +/); puts `:> /proc/#{a[1]}/fd/#{a[3].chop}`; end'
+summary: |-
+  truncate deleted files from lsof

@@ -1,0 +1,8 @@
+commandlinefu_id: 13185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  udevadm info -q all -n /dev/sdb | grep ID_PATH | cut -d'-' -f 2 | xargs -n 1 lspci -s
+summary: |-
+  A simple way to trace block device to its Parent PCI controller

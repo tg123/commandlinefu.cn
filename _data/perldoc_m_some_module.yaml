@@ -1,0 +1,8 @@
+commandlinefu_id: 13227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perldoc -m Some::Module
+summary: |-
+  Read source of some installed Perl module

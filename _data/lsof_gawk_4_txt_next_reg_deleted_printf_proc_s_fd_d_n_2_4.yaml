@@ -1,0 +1,8 @@
+commandlinefu_id: 13250
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof|gawk '$4~/txt/{next};/REG.*\(deleted\)$/{printf ">/proc/%s/fd/%d\n", $2,$4}'
+summary: |-
+  truncate deleted files from lsof

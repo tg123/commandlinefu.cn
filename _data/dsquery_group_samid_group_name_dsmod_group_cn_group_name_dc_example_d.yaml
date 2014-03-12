@@ -1,0 +1,8 @@
+commandlinefu_id: 13235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dsquery group -samid "group_name" | dsmod group "cn=group_name",dc=example,dc=com" -addmbr
+summary: |-
+  Add members of one group to another

@@ -1,0 +1,8 @@
+commandlinefu_id: 13202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf -- " -e %s" ${ARRAY[*]}
+summary: |-
+  Join the content of a bash array with commas

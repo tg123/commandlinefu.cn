@@ -1,0 +1,8 @@
+commandlinefu_id: 13205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat cachedump.txt | awk -F : '{print $2":"$1}'
+summary: |-
+  Convert metasploit cachedump files to Hashcat format for cracking

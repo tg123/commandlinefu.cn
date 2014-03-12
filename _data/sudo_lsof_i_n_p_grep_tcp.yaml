@@ -1,0 +1,8 @@
+commandlinefu_id: 13187
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -i -n -P | grep TCP
+summary: |-
+  Wich program is listen on port OSX

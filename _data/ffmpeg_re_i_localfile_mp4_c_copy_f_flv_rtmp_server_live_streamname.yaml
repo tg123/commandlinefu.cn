@@ -1,0 +1,8 @@
+commandlinefu_id: 13237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -re -i localFile.mp4 -c copy -f flv rtmp://server/live/streamName
+summary: |-
+  Stream a video file as  live stream

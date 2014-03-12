@@ -1,0 +1,8 @@
+commandlinefu_id: 13240
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /opt/homebrew-cask/Caskroom/vlc/2.1.0/VLC.app/Contents/MacOS/VLC --sout-avcodec-strict=-2 -I dummy $video :sout="#transcode{vcodec=h264,vb=1024,acodec=mpga,ab=256,scale=1,channels=2,audio-sync}:std{access=file,mux=mp4,dst=${video}.m4v}" vlc://quit
+summary: |-
+  VLC transcode for OSX

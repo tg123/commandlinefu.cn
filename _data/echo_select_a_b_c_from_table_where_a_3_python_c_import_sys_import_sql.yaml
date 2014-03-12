@@ -1,0 +1,8 @@
+commandlinefu_id: 13193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "select a, b, c from table where a = 3;"| python -c "import sys;import sqlparse;print sqlparse.format(sys.stdin.read(),  reindent=True, keyword_case='upper')"
+summary: |-
+  Pretty print SQL query with python in one line

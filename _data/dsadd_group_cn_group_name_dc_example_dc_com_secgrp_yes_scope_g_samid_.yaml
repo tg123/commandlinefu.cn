@@ -1,0 +1,8 @@
+commandlinefu_id: 13234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dsadd group cn=group_name,dc=example,dc=com -secgrp yes -scope g -samid group_name
+summary: |-
+  Create Security Group

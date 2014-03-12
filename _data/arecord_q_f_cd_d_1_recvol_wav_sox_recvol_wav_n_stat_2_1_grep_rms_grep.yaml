@@ -1,0 +1,8 @@
+commandlinefu_id: 13214
+translator:
+  weibo: ''
+hide: true
+command: |-
+  arecord -q -f cd -d 1 recvol.wav;sox recvol.wav -n stat 2>&1|grep RMS|grep amplitude|cut -d"." -f2|cut -c 1-2>recvol;echo $((`cat recvol`+1))>recvol;rec -t wav - silence 1 0.1 `cat recvol` -1 1.0 `cat recvol`%|lame -s 44.1 -a -v - >record.mp3
+summary: |-
+  Spy audio, it only records if detects a sound or noise

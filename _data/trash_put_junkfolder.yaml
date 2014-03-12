@@ -1,0 +1,8 @@
+commandlinefu_id: 13242
+translator:
+  weibo: ''
+hide: true
+command: |-
+  trash-put junkfolder
+summary: |-
+  A trash function for bash
