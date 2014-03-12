@@ -4,4 +4,4 @@ translator:
 command: |-
   tr -dc A-Za-z0-9_ < /dev/urandom | head -c 10 | xargs
 summary: |-
-  随机生成一个含有10个字符的密码,d删除,c补集
+  随机生成一个含有10个字符的密码
