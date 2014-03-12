@@ -1,8 +1,7 @@
 commandlinefu_id: 11859
 translator:
-  weibo: ''
-hide: true
+  weibo: msccreater
 command: |-
   find . -type f -size +100M
 summary: |-
-  Find files with size over 100MB and output with better lay-out
+  在当前目录下查找大小超过100MB的文件并以友好的方式输出.
