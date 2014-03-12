@@ -1,8 +1,7 @@
 commandlinefu_id: 11492
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim $(grep [REGULAR_EXPRESSION] -R * | cut -d":" -f1 | uniq)
 summary: |-
-  Open all files with a regular expression in vim
+  用vim打开grep到的文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 4990
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type d -name .svn -delete
 summary: |-
-  Recursively remove .svn directories
+  递归删除.svn文件夹
