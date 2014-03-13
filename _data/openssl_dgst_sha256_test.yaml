@@ -1,8 +1,7 @@
 commandlinefu_id: 7229
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl dgst -sha256 <<<"test"
 summary: |-
-  Generate hash( of some types) from string
+  生成字符串的hash

@@ -1,8 +1,7 @@
 commandlinefu_id: 5625
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero | pv | dd of=/dev/null
 summary: |-
-  Watch the progress of 'dd'
+  有进度的dd

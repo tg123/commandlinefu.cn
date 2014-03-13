@@ -1,8 +1,7 @@
 commandlinefu_id: 13168
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fdisk -l
 summary: |-
-  see the partition
+  查看分区
