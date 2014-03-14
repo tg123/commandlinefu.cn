@@ -1,8 +1,7 @@
 commandlinefu_id: 8733
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pidof httpd | sed 's/ / -p /g' | xargs strace -fp
 summary: |-
-  See what apache is doing without restarting it in debug mode
+  查看apache在干什么

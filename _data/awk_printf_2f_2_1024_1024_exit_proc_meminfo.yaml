@@ -1,8 +1,7 @@
 commandlinefu_id: 9680
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{ printf "%.2f", $2/1024/1024 ; exit}' /proc/meminfo
 summary: |-
-  Get memory total from /proc/meminfo in Gigs
+  查看内存大小 (GB)

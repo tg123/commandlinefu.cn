@@ -1,8 +1,7 @@
 commandlinefu_id: 350
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/dsp | ssh -c arcfour -C username@host dd of=/dev/dsp
 summary: |-
-  output your microphone to a remote computer's speaker
+  把你的mic 在远端机器上音响上发生

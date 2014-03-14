@@ -1,8 +1,0 @@
-commandlinefu_id: 11153
-translator:
-  weibo: ''
-hide: true
-command: |-
-  chmod 777 a.sh #-rwxrwxrwx
-summary: |-
-  totally dis-limit a sh file, usually not recommended
