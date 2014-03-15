@@ -1,8 +1,7 @@
 commandlinefu_id: 4389
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '!x[$0]++' <file>
 summary: |-
-  Remove duplicate entries in a file without sorting.
+  删除重复的行 (不需要排序)

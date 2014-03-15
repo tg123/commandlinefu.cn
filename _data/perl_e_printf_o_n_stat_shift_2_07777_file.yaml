@@ -1,8 +1,7 @@
 commandlinefu_id: 12412
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -e 'printf "%o\n", (stat shift)[2]&07777' file
 summary: |-
-  ls output with mode in octal
+  显示文件的数字权限(比如 777)

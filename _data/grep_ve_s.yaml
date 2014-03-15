@@ -1,8 +1,7 @@
 commandlinefu_id: 10013
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -vE '^$|^[\s]*[;#]'
 summary: |-
-  strip config files of comments
+  清除配置文件的注释
