@@ -1,8 +1,7 @@
 commandlinefu_id: 3841
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{if (NR == 3) print}' <file>
 summary: |-
-  To print a specific line from a file
+  输出指定的行

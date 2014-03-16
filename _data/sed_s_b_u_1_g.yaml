@@ -1,8 +1,7 @@
 commandlinefu_id: 12037
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed "s/\b\(.\)/\u\1/g"
 summary: |-
-  Capitalize the first letter of every word
+  将每个单词的首字幕大写

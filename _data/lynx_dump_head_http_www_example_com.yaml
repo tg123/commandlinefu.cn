@@ -1,8 +1,7 @@
 commandlinefu_id: 1810
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lynx -dump -head http://www.example.com/
 summary: |-
-  Dump HTTP header using lynx or w3m
+  使用lynx dump http 头

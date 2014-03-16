@@ -1,8 +1,0 @@
-commandlinefu_id: 2253
-translator:
-  weibo: ''
-hide: true
-command: |-
-  clamscan -ir --bell ~user/
-summary: |-
-  Scan for viruses

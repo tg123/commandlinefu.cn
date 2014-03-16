@@ -1,8 +1,0 @@
-commandlinefu_id: 893
-translator:
-  weibo: ''
-hide: true
-command: |-
-  concatenate local RSA to remote machine's authorized_keys
-summary: |-
-  cat ~/.ssh/id_rsa.pub | ssh user@site.com "cat - >> ~/.ssh/authorized_keys"

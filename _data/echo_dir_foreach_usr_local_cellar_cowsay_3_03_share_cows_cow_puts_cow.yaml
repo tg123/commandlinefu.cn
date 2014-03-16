@@ -1,8 +1,0 @@
-commandlinefu_id: 12180
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'Dir.foreach("/usr/local/Cellar/cowsay/3.03/share/cows") {|cow| puts cow; system "fortune | cowsay -f /usr/local/Cellar/cowsay/3.03/share/cows/#{cow}" }' | ruby
-summary: |-
-  Make all the cows tell a fortune
