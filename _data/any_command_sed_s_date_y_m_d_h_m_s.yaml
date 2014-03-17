@@ -1,8 +1,7 @@
 commandlinefu_id: 13145
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   any command | sed "s/^/\[`date +"%Y%m%d%H%M%S"`]/"
 summary: |-
-  Prefix every line with a timestamp
+  命令结果加个时间

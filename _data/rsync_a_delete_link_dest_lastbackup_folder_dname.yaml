@@ -1,8 +1,7 @@
 commandlinefu_id: 2864
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rsync -a --delete --link-dest=../lastbackup $folder $dname/
 summary: |-
-  create an incremental backup of a directory using hard links
+  创建增量备份
