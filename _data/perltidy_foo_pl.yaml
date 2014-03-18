@@ -1,8 +1,7 @@
 commandlinefu_id: 6125
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perltidy foo.pl
 summary: |-
-  Clean up formatting of a perl script
+  格式化 perl

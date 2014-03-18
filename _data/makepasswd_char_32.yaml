@@ -1,8 +1,7 @@
 commandlinefu_id: 6688
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   makepasswd --char=32
 summary: |-
-  Generate a random password 32 characters long :)
+  生成32个字母的密码

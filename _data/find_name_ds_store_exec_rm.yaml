@@ -1,8 +1,7 @@
 commandlinefu_id: 1412
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name .DS_Store -exec rm {} \;
 summary: |-
-  Remove annoying OS X DS_Store folders
+  删除所有 .DS_Store
