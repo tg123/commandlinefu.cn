@@ -1,8 +1,7 @@
 commandlinefu_id: 3496
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat *.sql | mysql <db_name>
 summary: |-
-  Execute all SQL files in a directory
+  在目标 db 上执行所有的sql
