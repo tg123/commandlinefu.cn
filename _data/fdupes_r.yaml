@@ -1,8 +1,7 @@
 commandlinefu_id: 7930
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fdupes -r .
 summary: |-
-  Find Duplicate Files (based on size first, then MD5 hash)
+  查找重复的文件

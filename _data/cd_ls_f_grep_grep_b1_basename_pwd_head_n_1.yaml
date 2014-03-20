@@ -1,8 +1,7 @@
 commandlinefu_id: 2198
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cd ../"$(ls -F ..|grep '/'|grep -B1 `basename $PWD`|head -n 1)"
 summary: |-
-  Go to the previous sibling directory in alphabetical order
+  转到上一级的前一个文件夹(字母顺序)

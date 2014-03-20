@@ -1,8 +1,7 @@
 commandlinefu_id: 11456
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pushd /path/to/dir ; command_to_execute; popd
 summary: |-
-  Jump to a directory, execute a command and jump back to current dir
+  去某个目录执行命令然后回来

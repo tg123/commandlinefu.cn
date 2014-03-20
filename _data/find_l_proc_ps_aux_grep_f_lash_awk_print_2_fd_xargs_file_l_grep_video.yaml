@@ -1,8 +1,0 @@
-commandlinefu_id: 8898
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -L /proc/`ps aux | grep [f]lash | awk '{print $2}'`/fd/ | xargs file -L | grep Video |  awk '{sub(/:/, ""); print $1}' | xargs vlc
-summary: |-
-  Play flash videos in  VLC
