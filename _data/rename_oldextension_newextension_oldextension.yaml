@@ -1,8 +1,7 @@
 commandlinefu_id: 415
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename .oldextension .newextension *.oldextension
 summary: |-
-  Files extension change
+  只更换文件的扩展名

@@ -1,8 +1,7 @@
 commandlinefu_id: 1648
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   seq 100 | awk '{sum+=$1} END {print sum}'
 summary: |-
-  Calculating series with awk: add numbers from 1 to 100
+  使用awk求和

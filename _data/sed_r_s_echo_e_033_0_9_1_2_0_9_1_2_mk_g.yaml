@@ -1,8 +1,7 @@
 commandlinefu_id: 9995
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g'
 summary: |-
-  Remove color codes (special characters) with sed
+  清除代码里边的颜色码
