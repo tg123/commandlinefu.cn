@@ -1,8 +1,7 @@
 commandlinefu_id: 7355
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   man -t manpage | ps2pdf - filename.pdf
 summary: |-
-  Create a pdf version of a manpage
+  创建一个pdf版本的man

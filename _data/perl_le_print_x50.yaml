@@ -1,8 +1,7 @@
 commandlinefu_id: 4499
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -le'print"-"x50'
 summary: |-
-  Print a row of 50 hyphens
+  输出50个-

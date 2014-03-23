@@ -1,8 +1,7 @@
 commandlinefu_id: 12750
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -MYAML -MJSON -0777 -wnl -e 'print YAML::Dump(decode_json($_))' package.json
 summary: |-
-  Convert JSON to YAML
+  使用perl转换jsonw到yaml
