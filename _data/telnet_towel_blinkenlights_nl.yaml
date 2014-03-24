@@ -1,8 +1,7 @@
 commandlinefu_id: 7251
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   telnet towel.blinkenlights.nl
 summary: |-
-  Play Star Wars Episode IV in your terminal ;)
+  星球大战

@@ -1,8 +1,7 @@
 commandlinefu_id: 1358
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo Print text vertically|sed 's/\(.\)/\1\n/g'
 summary: |-
-  Print text string vertically, one character per line.
+  垂直输出文本

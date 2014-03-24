@@ -1,8 +1,7 @@
 commandlinefu_id: 708
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   convert -bordercolor Transparent -border 1x1 in.png out.png
 summary: |-
-  Add a 1 pixel padding around an image.
+  图片周围加1像素的 padding
