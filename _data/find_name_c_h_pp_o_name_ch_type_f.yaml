@@ -1,8 +1,7 @@
 commandlinefu_id: 5046
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name '*.[c|h]pp' -o -name '*.[ch]' -type f
 summary: |-
-  Find C/C++ source files
+  查找cpp源码

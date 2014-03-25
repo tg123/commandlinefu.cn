@@ -1,8 +1,7 @@
 commandlinefu_id: 7212
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat file | tr -d "\n"
 summary: |-
-  Join lines
+  把文件内容变成 一行

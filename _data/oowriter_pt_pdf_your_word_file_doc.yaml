@@ -1,8 +1,7 @@
 commandlinefu_id: 9426
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   oowriter -pt pdf your_word_file.doc
 summary: |-
-  Create .pdf from .doc
+  把doc转pdf的工具

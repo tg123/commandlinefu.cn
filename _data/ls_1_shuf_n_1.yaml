@@ -1,8 +1,7 @@
 commandlinefu_id: 8090
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -1 | shuf -n 1
 summary: |-
-  Selecting a random file/folder of a folder
+  随机选一个目录

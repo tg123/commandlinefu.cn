@@ -1,8 +1,7 @@
 commandlinefu_id: 7725
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm *[!teste0,teste1,teste2]
 summary: |-
-  Remove all the files except abc in the directory
+  删除除了 特定的文件名的文件
