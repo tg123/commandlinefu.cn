@@ -1,6 +1,6 @@
 commandlinefu_id: 3260
 translator:
-  weibo: 没想到321
+  weibo: 没想到321 
 command: |-
   */15 * * * * /path/to/command
 summary: |-
