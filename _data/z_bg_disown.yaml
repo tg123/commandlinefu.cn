@@ -1,8 +1,0 @@
-commandlinefu_id: 9832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ^z; bg; disown
-summary: |-
-  Job Control

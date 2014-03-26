@@ -1,8 +1,7 @@
 commandlinefu_id: 5696
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -exec ls -tr {} +
 summary: |-
-  Find files and list them sorted by modification time
+  查找文件并按修改时间排序

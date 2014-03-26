@@ -1,8 +1,7 @@
 commandlinefu_id: 805
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apache2 -t -D DUMP_MODULES
 summary: |-
-  Know which modules are loaded on an Apache server
+  查看加载的模块 Apache

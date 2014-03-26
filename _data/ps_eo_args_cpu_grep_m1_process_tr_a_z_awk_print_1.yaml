@@ -1,8 +1,7 @@
 commandlinefu_id: 7191
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -eo args,%cpu | grep -m1 PROCESS | tr 'a-z-' ' ' | awk '{print $1}'
 summary: |-
-  print a cpu of a process
+  查看一个进程的cpu

@@ -1,8 +1,7 @@
 commandlinefu_id: 711
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-get moo
 summary: |-
-  ubuntu easter eggs
+  彩蛋
