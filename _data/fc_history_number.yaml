@@ -1,8 +1,7 @@
 commandlinefu_id: 1561
 translator:
-  weibo: ''
-hide: true
+  weibo: 没想到321  
 command: |-
   fc [history-number]
 summary: |-
-  Edit the last or previous command line in an editor then execute
+  可以编辑并执行上一次执行的命令
