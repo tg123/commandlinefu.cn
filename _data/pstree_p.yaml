@@ -1,8 +1,7 @@
 commandlinefu_id: 3124
 translator:
-  weibo: ''
-hide: true
+  weibo: 没想到321 
 command: |-
   pstree -p
 summary: |-
-  View Processeses like a fu, fu
+  树型结构展示进程间的父子关系
