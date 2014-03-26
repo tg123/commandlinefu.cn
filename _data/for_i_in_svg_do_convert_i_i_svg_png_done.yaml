@@ -1,0 +1,8 @@
+commandlinefu_id: 13287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.svg; do convert "$i" "${i%.svg}.png"; done
+summary: |-
+  Batch Convert SVG to PNG

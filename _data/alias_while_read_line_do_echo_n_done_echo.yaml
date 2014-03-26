@@ -1,0 +1,8 @@
+commandlinefu_id: 13272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ...='while read line; do echo -n "."; done && echo ""'
+summary: |-
+  Print one . instead of each line

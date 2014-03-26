@@ -1,0 +1,8 @@
+commandlinefu_id: 13273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psql -h <SERVER NAME HERE> -c 'SELECT version();' | grep -v 'version\|---\|row\|^ *$' | sed 's/^\s*//'
+summary: |-
+  Get a PostgreSQL servers version

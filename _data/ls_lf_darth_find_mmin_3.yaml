@@ -1,0 +1,8 @@
+commandlinefu_id: 13285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lF -darth `find . -mmin -3`
+summary: |-
+  Find everything updated in the last minute recursively within the current directory and sort by time, newest at the bottom.

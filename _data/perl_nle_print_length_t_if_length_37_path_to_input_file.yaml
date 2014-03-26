@@ -1,0 +1,8 @@
+commandlinefu_id: 13278
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -nle 'print length,"\t",$_ if length > 37' < /path/to/input/file
+summary: |-
+  find which lines in a file are longer than N characters

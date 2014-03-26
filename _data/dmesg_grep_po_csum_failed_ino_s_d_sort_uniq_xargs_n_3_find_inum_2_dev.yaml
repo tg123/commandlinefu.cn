@@ -1,0 +1,8 @@
+commandlinefu_id: 13277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmesg | grep -Po 'csum failed ino\S* \d+' | sort | uniq | xargs -n 3 find / -inum 2> /dev/null
+summary: |-
+  Btrfs: Find file names with checksum errors

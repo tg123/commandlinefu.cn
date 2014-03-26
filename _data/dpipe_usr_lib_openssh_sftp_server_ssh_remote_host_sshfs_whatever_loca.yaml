@@ -1,0 +1,8 @@
+commandlinefu_id: 13289
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpipe /usr/lib/openssh/sftp-server = ssh $REMOTE_HOST sshfs whatever:$LOCAL_PATH $REMOTE_PATH -o slave
+summary: |-
+  Reverse SSHfs mount,

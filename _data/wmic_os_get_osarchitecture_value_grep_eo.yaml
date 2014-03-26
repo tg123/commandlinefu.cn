@@ -1,0 +1,8 @@
+commandlinefu_id: 13264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wmic OS get OSArchitecture /value | grep -Eo '[^=]*$'
+summary: |-
+  get Windows OS architecture using Cygwin
