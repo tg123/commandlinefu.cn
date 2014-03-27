@@ -1,8 +1,0 @@
-commandlinefu_id: 11946
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping xxx.xxx.xxx.xxx size 1024 repeat 100000
-summary: |-
-  Ping xxx.xxx.xxx.xxx ip 100000 times with size 1024bytes

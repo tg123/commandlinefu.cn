@@ -1,8 +1,0 @@
-commandlinefu_id: 8789
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat my.cnf | sed '/^#/d' | sed '/^$/d' | sed -e 's/[ \t]\+//g'
-summary: |-
-  MySQL: Strip a my.cnf file from comments, remove blank lines, normalize spaces:

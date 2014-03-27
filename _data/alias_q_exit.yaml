@@ -1,8 +1,7 @@
 commandlinefu_id: 3356
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias ':q'='exit'
 summary: |-
-  alias to close terminal with :q
+  让终端能像vim一样退出

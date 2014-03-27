@@ -1,8 +1,0 @@
-commandlinefu_id: 7688
-translator:
-  weibo: ''
-hide: true
-command: |-
-  In MySQL client, \P less -S
-summary: |-
-  Change MySQL Pager For Nicer Output

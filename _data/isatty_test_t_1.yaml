@@ -1,8 +1,7 @@
 commandlinefu_id: 4492
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   isatty(){ test -t $1; }
 summary: |-
-  Is it a terminal?
+  是否tty

@@ -1,8 +1,7 @@
 commandlinefu_id: 8950
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -e ${PATH//:/\\n}
 summary: |-
-  Show directories in the PATH, one per line
+  显示PATH中的目录
