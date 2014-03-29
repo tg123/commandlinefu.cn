@@ -1,8 +1,7 @@
 commandlinefu_id: 983
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -n 1 df
 summary: |-
-  Watch the disk fill up
+  监控磁盘空间

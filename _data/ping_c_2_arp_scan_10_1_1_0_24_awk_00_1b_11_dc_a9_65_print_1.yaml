@@ -1,8 +1,7 @@
 commandlinefu_id: 5599
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ping -c 2 `arp-scan 10.1.1.0/24 | awk '/00:1b:11:dc:a9:65/ {print $1}'`
 summary: |-
-  ping MAC ADDRESS
+  如何ping一个mac地址

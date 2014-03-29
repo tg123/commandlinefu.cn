@@ -1,8 +1,7 @@
 commandlinefu_id: 9611
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo 00:29:36 | nawk -F: '{seconds=($1*60)*60; seconds=seconds+($2*60); seconds=seconds+$3; print seconds}'
 summary: |-
-  Convert HH:MM:SS into seconds
+  转换HHMMSS为 秒
