@@ -1,8 +1,7 @@
 commandlinefu_id: 1044
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  ^r in bash begins a reverse-search-history with command completion
+  CTRL + r
 summary: |-
-  Press ctrl+r in a bash shell and type a few letters of a previous command
+  查找以前输入的命令

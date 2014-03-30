@@ -1,8 +1,7 @@
 commandlinefu_id: 7637
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo ${SSH_CLIENT%% *}
 summary: |-
-  Get the IP of the host your coming from when logged in remotely
+  显示登录ssh的源 IP

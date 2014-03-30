@@ -1,8 +1,0 @@
-commandlinefu_id: 1328
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gunzip -c /var/log/auth.log.*.gz | cat - /var/log/auth.log /var/log/auth.log.0 | grep "Invalid user" | awk '{print $8;}' | sort | uniq -c | less
-summary: |-
-  Quickly find a count of how many times invalid users have attempted to access your system

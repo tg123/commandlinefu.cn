@@ -1,8 +1,0 @@
-commandlinefu_id: 131
-translator:
-  weibo: ''
-hide: true
-command: |-
-  C:\WINDOWS\system32\cmd.exe /t:0A /k cd /d
-summary: |-
-  [WinXP]Use as a shortcut in the SendTo menu to open a cmd window for a given folder.

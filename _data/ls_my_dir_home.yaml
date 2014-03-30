@@ -1,8 +1,7 @@
 commandlinefu_id: 9789
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls ${my_dir:=/home}
 summary: |-
-  Use default value if unassigned
+  默认值 当 my_dir 无值 则为/home
