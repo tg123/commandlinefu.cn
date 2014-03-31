@@ -1,8 +1,7 @@
 commandlinefu_id: 13151
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while ps -p $PID; do sleep 1; done; script2
 summary: |-
-  Schedule one job after another (running).
+  当一个进程结束后执行

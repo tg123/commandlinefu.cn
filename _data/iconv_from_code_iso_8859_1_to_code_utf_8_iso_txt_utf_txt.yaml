@@ -1,8 +1,7 @@
 commandlinefu_id: 2950
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   iconv --from-code=ISO-8859-1 --to-code=UTF-8 iso.txt > utf.txt
 summary: |-
-  Convert one file from ISO-8859-1 to UTF-8.
+  转换文件编码

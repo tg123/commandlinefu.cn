@@ -1,8 +1,7 @@
 commandlinefu_id: 5915
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /sbin/ifconfig eth0 | grep 'inet6 addr:' | awk {'print $3'}
 summary: |-
-  Get IPv6 of eth0 for use with scripts
+  获取eth0 的 IPv6
