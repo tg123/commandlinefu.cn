@@ -1,8 +1,7 @@
 commandlinefu_id: 4105
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -l | awk '$5 > 1000000' | sort -k5n
 summary: |-
-  Show sorted list of files with sizes more than 1MB in the current dir
+  现实大于1M 的文件

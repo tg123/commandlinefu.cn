@@ -1,8 +1,0 @@
-commandlinefu_id: 1760
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo firefox -install-global-extension /path/to/add-on
-summary: |-
-  Install a Firefox add-on/theme to all users

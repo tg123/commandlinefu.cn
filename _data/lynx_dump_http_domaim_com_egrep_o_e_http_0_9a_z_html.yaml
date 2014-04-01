@@ -1,8 +1,7 @@
 commandlinefu_id: 6524
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lynx -dump http://domaim.com | egrep -o -e 'http://[/0-9a-z.]+html'
 summary: |-
-  Get all links of a website
+  获取网页的全部链接

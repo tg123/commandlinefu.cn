@@ -1,8 +1,7 @@
 commandlinefu_id: 10016
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   history | sed -e 's/^sudo //' | awk '{print $2}' | sort | uniq -c | sort -rn | head
 summary: |-
-  Rank top 10 most frequently used commands
+  你使用最多的10个命令

@@ -1,8 +1,7 @@
 commandlinefu_id: 8188
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   http_proxy=<proxy.server:port> wget <url>
 summary: |-
-  Pass the proxy server address as a prefix to wget
+  带有proxy 的weget
