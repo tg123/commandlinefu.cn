@@ -1,8 +1,7 @@
 commandlinefu_id: 5844
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /proc/acpi/battery/*/state
 summary: |-
-  Check whether laptop is running on battery or cable
+  查看电源还是电池

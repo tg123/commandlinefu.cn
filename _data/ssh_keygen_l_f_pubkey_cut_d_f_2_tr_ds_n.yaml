@@ -1,8 +1,7 @@
 commandlinefu_id: 11039
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh-keygen -l -f [pubkey] | cut -d ' ' -f 2 | tr -ds '\n:' ''
 summary: |-
-  Validate openssh key & print checksum
+  校验ssh key 
