@@ -1,8 +1,7 @@
 commandlinefu_id: 2364
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh $HOST -l$USER cat /REMOTE/FILE | sdiff /LOCAL/FILE -
 summary: |-
-  remote diff with side-by-side ordering.
+  远程diff
