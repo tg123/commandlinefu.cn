@@ -1,8 +1,0 @@
-commandlinefu_id: 3628
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bchunk IMAGE.bin IMAGE.cue IMAGE.iso
-summary: |-
-  convert .bin / .cue into .iso image
