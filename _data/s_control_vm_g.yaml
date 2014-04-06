@@ -1,8 +1,7 @@
 commandlinefu_id: 848
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :%s/<control-VM>//g
 summary: |-
-  strip ^M character from files in VI
+  如何在vim清理^M

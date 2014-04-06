@@ -1,8 +1,7 @@
 commandlinefu_id: 10620
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   convert image1 image2 -resize '400x300!' MIFF:- | compare -metric AE -fuzz '10%' - null:
 summary: |-
-  Compare / diff two images
+  如何diff两个image

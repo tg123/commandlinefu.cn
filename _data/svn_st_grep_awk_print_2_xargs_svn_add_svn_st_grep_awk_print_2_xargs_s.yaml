@@ -1,8 +1,7 @@
 commandlinefu_id: 2172
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn st | grep '^\?' | awk '{print $2}' | xargs svn add; svn st | grep '^\!' | awk '{print $2}' | xargs svn rm
 summary: |-
-  automatically add and remove files in subversion
+  自动添加或者删除文件到svn

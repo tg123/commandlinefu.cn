@@ -1,8 +1,0 @@
-commandlinefu_id: 7096
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !-2 && !-1
-summary: |-
-  history manipulation

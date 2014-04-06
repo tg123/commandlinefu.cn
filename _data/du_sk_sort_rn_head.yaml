@@ -1,8 +1,7 @@
 commandlinefu_id: 7543
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -sk * | sort -rn | head
 summary: |-
-  Find the biggest files
+  查找大文件

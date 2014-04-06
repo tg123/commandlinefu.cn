@@ -1,8 +1,7 @@
 commandlinefu_id: 5339
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   !!:gs/Original/New/
 summary: |-
-  Unix commandline history substitution like ^foo^bar BUT for multiple replacements
+  执行上一次命令也可以使用替换的

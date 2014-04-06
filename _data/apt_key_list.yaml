@@ -1,8 +1,7 @@
 commandlinefu_id: 3317
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-key list
 summary: |-
-  Check the apt security keys
+  检查apt key
