@@ -1,8 +1,7 @@
 commandlinefu_id: 335
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -al /proc/<PID>/fd
 summary: |-
-  list file descriptors opened by a process
+  查看进程打开的文件描述符

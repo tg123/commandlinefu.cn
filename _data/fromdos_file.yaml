@@ -1,8 +1,7 @@
 commandlinefu_id: 7885
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fromdos <file>
 summary: |-
-  Convert DOS newlines (CR/LF) to Unix format
+  转换 dos 文本格式 到 unix

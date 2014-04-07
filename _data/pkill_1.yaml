@@ -1,8 +1,7 @@
 commandlinefu_id: 2700
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pkill $1
 summary: |-
-  Kill a process with its name
+  使用进程名称kill

@@ -1,8 +1,7 @@
 commandlinefu_id: 11406
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo rpm -e `rpm -qa | grep keyword`
 summary: |-
-  Remove any RPMs matching a pattern
+  卸载grep 到的rpm
