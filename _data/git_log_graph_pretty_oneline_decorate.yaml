@@ -1,8 +1,7 @@
 commandlinefu_id: 5084
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log --graph --pretty=oneline --decorate
 summary: |-
-  Display condensed log  in a tree-like format.
+  创建一个树结构的git log

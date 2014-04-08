@@ -1,8 +1,7 @@
 commandlinefu_id: 659
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cd /d d:\Windows
 summary: |-
-  Directly change directory without having to specify drive letter change command
+  在windows上转移目录自动转移盘符

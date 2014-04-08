@@ -1,8 +1,7 @@
 commandlinefu_id: 11711
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat list.txt | pax -wd > archive.tar
 summary: |-
-  Create a tar archive from a text list without trailing slash in directories
+  从一个列表创建一个tar
