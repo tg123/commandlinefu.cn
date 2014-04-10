@@ -1,8 +1,7 @@
 commandlinefu_id: 8975
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type d -maxdepth 1
 summary: |-
-  List only directories, one per line
+  仅列出目录

@@ -1,8 +1,7 @@
 commandlinefu_id: 782
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -name "*" -mtime +10 -print -exec gzip {} \;
 summary: |-
-  Gzip files older than 10 days matching *
+  压缩10天前的文件

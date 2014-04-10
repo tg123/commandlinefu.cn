@@ -1,8 +1,7 @@
 commandlinefu_id: 3996
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   utime(){ perl -e "print localtime($1).\"\n\"";}
 summary: |-
-  Easily decode unix-time (funtion)
+  使用perl转换unixtime

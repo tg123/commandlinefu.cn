@@ -1,8 +1,7 @@
 commandlinefu_id: 4190
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pwgen -Bs 10 1
 summary: |-
-  generate random password
+  生成密码
