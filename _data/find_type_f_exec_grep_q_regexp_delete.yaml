@@ -1,0 +1,8 @@
+commandlinefu_id: 13317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f -exec grep -q "regexp" {} \; -delete
+summary: |-
+  Write a shell script that removes files that contain a string

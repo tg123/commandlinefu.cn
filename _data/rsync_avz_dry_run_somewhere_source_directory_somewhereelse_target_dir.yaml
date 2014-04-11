@@ -1,0 +1,8 @@
+commandlinefu_id: 13302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -avz --dry-run /somewhere/source_directory /somewhereelse/target_directory
+summary: |-
+  shows which files differ in two direcories

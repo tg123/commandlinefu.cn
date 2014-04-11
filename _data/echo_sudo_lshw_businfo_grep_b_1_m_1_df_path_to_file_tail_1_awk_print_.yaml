@@ -1,0 +1,8 @@
+commandlinefu_id: 13313
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(sudo lshw -businfo | grep -B 1 -m 1 $(df "/path/to/file" | tail -1 | awk '{print $1}' | cut -c 6-8) | head -n 1 | awk '{print $1}' | cut -c 5- | tr ":" "-") | sudo tee /sys/bus/usb/drivers/usb/unbind
+summary: |-
+  Given a file path, unplug the USB device on which the file is located (the file must be on an USB device !)

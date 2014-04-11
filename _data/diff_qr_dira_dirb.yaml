@@ -1,0 +1,8 @@
+commandlinefu_id: 13303
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff -qr /dirA /dirB
+summary: |-
+  shows which files differ in two direcories

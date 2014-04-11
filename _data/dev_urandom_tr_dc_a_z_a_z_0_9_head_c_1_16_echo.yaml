@@ -1,0 +1,8 @@
+commandlinefu_id: 13318
+translator:
+  weibo: ''
+hide: true
+command: |-
+  < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-16};echo;
+summary: |-
+  16 Character Random Password

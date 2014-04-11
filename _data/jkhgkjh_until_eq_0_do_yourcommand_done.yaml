@@ -1,0 +1,8 @@
+commandlinefu_id: 13319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jkhgkjh; until [[ $? -eq 0 ]]; do YOURCOMMAND; done
+summary: |-
+  keep trying a command until it is successful

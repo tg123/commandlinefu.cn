@@ -1,0 +1,8 @@
+commandlinefu_id: 13310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {1..256};do p="  $i";echo -e "${p: -3} \\0$(($i/64*100+$i%64/8*10+$i%8))";done|cat -t|column -c120
+summary: |-
+  Print ASCII Character Chart

@@ -1,0 +1,8 @@
+commandlinefu_id: 13293
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '$1=$1' FS=" " OFS=":" file
+summary: |-
+  awk change field separator

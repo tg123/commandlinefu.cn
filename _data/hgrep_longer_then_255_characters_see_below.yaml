@@ -1,0 +1,8 @@
+commandlinefu_id: 13307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hgrep() {   ... }  longer then 255 characters, see below
+summary: |-
+  define a function for searching bash history

@@ -1,0 +1,8 @@
+commandlinefu_id: 13290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 1395767373016 | gawk '{print strftime("%c", ( $0 + 500 ) / 1000 )}'
+summary: |-
+  Convert from unixtime in millisecond

@@ -1,0 +1,8 @@
+commandlinefu_id: 13311
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command_line 2>&1 | tee -a output_file
+summary: |-
+  redirect STDOUT and STDERR to STDOUT and also to a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 13312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  VAR=$(head -5)
+summary: |-
+  Multiline read

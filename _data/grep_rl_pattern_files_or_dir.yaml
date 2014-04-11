@@ -1,0 +1,8 @@
+commandlinefu_id: 13316
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Rl "pattern" files_or_dir
+summary: |-
+  Search for string through files

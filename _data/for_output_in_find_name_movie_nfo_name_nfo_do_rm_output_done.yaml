@@ -1,0 +1,8 @@
+commandlinefu_id: 13301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for output in $(find . ! -name movie.nfo -name "*.nfo") ; do rm $output ; done
+summary: |-
+  find all files of a type which don't match a specific name

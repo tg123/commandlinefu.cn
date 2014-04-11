@@ -1,0 +1,8 @@
+commandlinefu_id: 13308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  C:\> shutdown /f /r /t 0
+summary: |-
+  Shutdown and restart Windoze from the command line

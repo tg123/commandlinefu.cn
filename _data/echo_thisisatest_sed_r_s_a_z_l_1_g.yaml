@@ -1,0 +1,8 @@
+commandlinefu_id: 13320
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo thisIsATest | sed -r 's/([A-Z])/_\L\1/g'
+summary: |-
+  camelcase to underscore

@@ -1,0 +1,8 @@
+commandlinefu_id: 13300
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find directory -maxdepth 1 -iname "*" | awk 'NR >= 2'
+summary: |-
+  List dot-files and dirs, but not . or ..

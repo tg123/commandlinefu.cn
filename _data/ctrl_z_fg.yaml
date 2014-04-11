@@ -1,0 +1,8 @@
+commandlinefu_id: 13314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <CTRL+Z>; fg
+summary: |-
+  Push current task to background (paused) and resume it.
