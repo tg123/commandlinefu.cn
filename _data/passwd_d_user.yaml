@@ -1,8 +1,7 @@
 commandlinefu_id: 5577
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   passwd -d $USER
 summary: |-
-  Enable passwordless login
+  允许空密码登录

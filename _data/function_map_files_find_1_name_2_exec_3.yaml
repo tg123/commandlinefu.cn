@@ -1,7 +1,0 @@
-commandlinefu_id: 8209
-translator:
-  weibo: ''
-hide: true
-command: "function map-files() { \tfind $1 -name $2 -exec ${@:3} {} \\; }"
-summary: |-
-  map a command over a list of files - map-files /lib *.so ls -la
