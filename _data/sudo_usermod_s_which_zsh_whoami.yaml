@@ -1,8 +1,7 @@
 commandlinefu_id: 11258
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo usermod -s `which zsh` `whoami`
 summary: |-
-  Change my shell to zsh
+  改变shell 为 zsh

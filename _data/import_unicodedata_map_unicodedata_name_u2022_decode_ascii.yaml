@@ -1,8 +1,7 @@
 commandlinefu_id: 11254
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   import unicodedata; map(unicodedata.name, '\u2022'.decode('ascii'))
 summary: |-
-  Python unicode `explain`
+  显示unicode 的名字

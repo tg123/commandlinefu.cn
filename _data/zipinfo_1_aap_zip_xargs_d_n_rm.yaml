@@ -1,8 +1,7 @@
 commandlinefu_id: 13074
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   zipinfo -1 aap.zip | xargs -d '\n' rm
 summary: |-
-  Remove files unpacked by unzip
+  混滚一次unzip操作

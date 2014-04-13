@@ -1,8 +1,7 @@
 commandlinefu_id: 1438
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function cdls { cd $1; ls; }
 summary: |-
-  Fast command-line directory browsing
+  合并cd 和 ls

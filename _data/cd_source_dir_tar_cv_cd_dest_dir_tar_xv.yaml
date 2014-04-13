@@ -1,8 +1,7 @@
 commandlinefu_id: 2691
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   (cd /source/dir ; tar cv .)|(cd /dest/dir ; tar xv)
 summary: |-
-  Duplicate a directory tree using tar and pipes
+  使用tar 复制一个目录

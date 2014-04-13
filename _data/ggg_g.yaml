@@ -1,8 +1,0 @@
-commandlinefu_id: 6565
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ggg?G
-summary: |-
-  ROT13 whole file in vim.

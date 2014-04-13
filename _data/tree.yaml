@@ -1,8 +1,7 @@
 commandlinefu_id: 12727
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tree
 summary: |-
-  Graphical tree of sub-directories
+  打印树形子目录
