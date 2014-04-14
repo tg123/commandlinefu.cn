@@ -1,8 +1,7 @@
 commandlinefu_id: 7578
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   shuf -i 1-49 -n 6 | sort -n | xargs
 summary: |-
-  lotto generator
+  彩票 49 选6 

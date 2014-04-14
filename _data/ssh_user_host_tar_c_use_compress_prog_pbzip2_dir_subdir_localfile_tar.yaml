@@ -1,8 +1,7 @@
 commandlinefu_id: 6360
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh user@host 'tar -c --use-compress-prog=pbzip2 /<dir>/<subdir>' > <localfile>.tar.bz2
 summary: |-
-  remote-pbzip2 and transfer a directory to local file
+  远程tar bz2一个文件写到本地

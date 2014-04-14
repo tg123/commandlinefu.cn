@@ -1,8 +1,7 @@
 commandlinefu_id: 1227
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fold -s <filename>
 summary: |-
-  Wrap text files on the command-line for easy reading
+  软换行一个文本

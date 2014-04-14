@@ -1,8 +1,7 @@
 commandlinefu_id: 2817
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sort -t. -k1,1n -k2,2n -k3,3n -k4,4n
 summary: |-
-  Sort IPV4 ip addresses
+  排序ipv4地址
