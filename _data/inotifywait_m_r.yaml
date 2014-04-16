@@ -1,8 +1,7 @@
 commandlinefu_id: 12310
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   inotifywait -m -r .
 summary: |-
-  Debug how files are being accessed by a process
+  现实进程如何访问当前目录的文件(调试)

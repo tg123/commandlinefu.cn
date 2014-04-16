@@ -1,8 +1,0 @@
-commandlinefu_id: 5190
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /proc/acpi/thermal_zone/*/temperature
-summary: |-
-  Show thermal info

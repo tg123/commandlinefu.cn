@@ -1,8 +1,7 @@
 commandlinefu_id: 7239
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   macchanger -A (nic)
 summary: |-
-  Generate random valid mac addresses
+  生成mac地址

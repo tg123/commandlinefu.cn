@@ -1,8 +1,7 @@
 commandlinefu_id: 3298
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo sortmeplease | awk '{l=split($1,a,"");asort(a);while(x<=l){printf "%s",a[x];x++ }print "";}'
 summary: |-
-  Sort a character string
+  排序字符串里的字符
