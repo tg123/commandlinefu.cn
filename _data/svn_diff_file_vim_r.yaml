@@ -1,8 +1,7 @@
 commandlinefu_id: 2420
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn diff <file> | vim -R -
 summary: |-
-  Colored SVN diff
+  使用vim查看svn diff

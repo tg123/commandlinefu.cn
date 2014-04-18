@@ -1,8 +1,0 @@
-commandlinefu_id: 64
-translator:
-  weibo: ''
-hide: true
-command: |-
-  screen -ls | grep main && urxvt -name screen -e screen -x main || urxvt -name screen -e screen -R -S main
-summary: |-
-  Start urxvt and do whatever is needed to open the screen session named "main"

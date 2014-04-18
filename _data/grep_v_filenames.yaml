@@ -1,8 +1,7 @@
 commandlinefu_id: 841
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -v "^\($\|#\)" <filenames>
 summary: |-
-  Output files without comments or empty lines
+  清理注释和空行

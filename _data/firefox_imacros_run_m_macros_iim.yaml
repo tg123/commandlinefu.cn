@@ -1,8 +1,0 @@
-commandlinefu_id: 12482
-translator:
-  weibo: ''
-hide: true
-command: |-
-  firefox imacros://run/?m=macros.iim &
-summary: |-
-  Run iMacros from terminal

@@ -1,8 +1,7 @@
 commandlinefu_id: 2509
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch 'netstat -aniv'
 summary: |-
-  Monitor RX/TX packets and any subsquent errors
+  监控RT/TX

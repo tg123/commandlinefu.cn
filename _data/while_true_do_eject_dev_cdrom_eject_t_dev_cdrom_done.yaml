@@ -1,8 +1,7 @@
 commandlinefu_id: 592
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while true; do eject /dev/cdrom && eject -t /dev/cdrom; done
 summary: |-
-  Eject the CD Rom Device
+  弹出cdrom
