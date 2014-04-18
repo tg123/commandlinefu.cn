@@ -1,8 +1,7 @@
 commandlinefu_id: 2802
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   recode ..HTML < file.txt > file.html
 summary: |-
-  txt2html
+  文本转换为html (比如< 转 lt)

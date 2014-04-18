@@ -1,8 +1,7 @@
 commandlinefu_id: 2233
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mvn archetype:create -DgroupId=my.work -DartifactId=MyProject
 summary: |-
-  Creating a Maven project
+  创建一个空的Maven工程

@@ -1,8 +1,7 @@
 commandlinefu_id: 10579
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pv -tpreb /dev/urandom | dd of=file.img
 summary: |-
-  Watch the progress of 'dd'
+  有进度的dd
