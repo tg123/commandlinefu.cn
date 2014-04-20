@@ -1,8 +1,0 @@
-commandlinefu_id: 3118
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx http://shell-fu.org/
-summary: |-
-  Visit another command line g&#333;ngfu site

@@ -1,8 +1,0 @@
-commandlinefu_id: 3479
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cdrecord -v path_to_iso_image.iso
-summary: |-
-  burn an iso to cd or dvd

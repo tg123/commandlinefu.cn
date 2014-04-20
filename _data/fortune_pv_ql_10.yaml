@@ -1,8 +1,7 @@
 commandlinefu_id: 7558
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fortune | pv -qL 10
 summary: |-
-  type fortune in real time
+  动画效果的算命

@@ -1,8 +1,7 @@
 commandlinefu_id: 3953
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   absolute_path () { readlink -f "$1"; };
 summary: |-
-  Get the absolute path of a file
+  获取绝对路径
