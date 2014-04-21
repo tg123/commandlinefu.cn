@@ -1,8 +1,0 @@
-commandlinefu_id: 10755
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl ifconfig.me/all
-summary: |-
-  Get your external IP and Network Info

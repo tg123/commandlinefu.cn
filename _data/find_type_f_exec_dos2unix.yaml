@@ -1,8 +1,7 @@
 commandlinefu_id: 3227
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -exec dos2unix {} +
 summary: |-
-  dos2unix recursively
+  对整个目录的文件dos2unix

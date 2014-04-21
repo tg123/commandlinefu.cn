@@ -1,8 +1,7 @@
 commandlinefu_id: 2671
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   7z x -so testfile.tar.7z | tar tvf -
 summary: |-
-  List contents of tar archive within a compressed 7zip archive
+  查看7z内容

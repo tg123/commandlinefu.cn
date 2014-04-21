@@ -1,8 +1,7 @@
 commandlinefu_id: 12343
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/sda of=mbr.bk bs=512 count=1
 summary: |-
-  backup your BMR info
+  备份BMR

@@ -1,8 +1,7 @@
 commandlinefu_id: 3041
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   printf '%*s\n' 20 | tr ' ' '#'
 summary: |-
-  Emulate perl 'print "#" x 20, "\n"'
+  打印20个++++
