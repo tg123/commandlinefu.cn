@@ -1,8 +1,7 @@
 commandlinefu_id: 2048
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ac -p
 summary: |-
-  Display time of accounts connection on a system
+  现实每个账户的连接时间

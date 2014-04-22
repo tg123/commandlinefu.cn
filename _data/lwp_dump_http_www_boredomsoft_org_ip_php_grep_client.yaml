@@ -1,8 +1,0 @@
-commandlinefu_id: 6779
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lwp-dump http://www.boredomsoft.org/ip.php|grep Client
-summary: |-
-  Get My Public IP Address

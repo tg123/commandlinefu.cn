@@ -1,8 +1,7 @@
 commandlinefu_id: 4987
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep "^V<TAB>" your_file
 summary: |-
-  grep tab chars
+  查找TAB
