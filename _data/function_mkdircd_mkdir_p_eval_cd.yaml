@@ -1,8 +1,0 @@
-commandlinefu_id: 10908
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
-summary: |-
-  mkdir and cd
