@@ -1,8 +1,7 @@
 commandlinefu_id: 9370
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -rnA 10 TODO *
 summary: |-
-  Show all TODOs and a few relative lines after it.
+  显示所有TODO

@@ -1,8 +1,7 @@
 commandlinefu_id: 10346
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen -x `screen -ls | grep Detached | cut -c -10`
 summary: |-
-  Automatically find and re-attach to a detached screen session
+  自动重新attach一个screen

@@ -1,8 +1,7 @@
 commandlinefu_id: 4215
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat </dev/tcp/time.nist.gov/13
 summary: |-
-  Get the time from NIST.GOV
+  通过tcp nist 获取时间
