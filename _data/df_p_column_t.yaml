@@ -1,8 +1,7 @@
 commandlinefu_id: 8268
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   df -P | column -t
 summary: |-
-  df without line wrap on long FS name
+  如何对齐显示结果

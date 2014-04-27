@@ -1,8 +1,7 @@
 commandlinefu_id: 1840
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cal -3
 summary: |-
-  Displays a 3-Month Calendar
+  现实3个月的日历
