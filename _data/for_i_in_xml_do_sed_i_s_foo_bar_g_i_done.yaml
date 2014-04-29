@@ -1,8 +1,7 @@
 commandlinefu_id: 2698
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in *.xml; do sed -i 's/foo/bar/g' "$i"; done
 summary: |-
-  Change password in list of xml files with for and sed
+  批量替换xml中关键字

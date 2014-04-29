@@ -1,8 +1,7 @@
 commandlinefu_id: 2404
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cd <YOUR_DIRECTORY>; for i in `ls ./`; do tar czvf "$i".tar.gz "$i" ; done
 summary: |-
-  tar per directory
+  每个目录一个tar

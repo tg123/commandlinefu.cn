@@ -1,8 +1,7 @@
 commandlinefu_id: 3708
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{print(substr($0,1,5))}' file
 summary: |-
-  Laminate a file
+  把文件分成5个字母一行
