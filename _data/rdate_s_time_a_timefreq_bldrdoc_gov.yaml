@@ -1,8 +1,0 @@
-commandlinefu_id: 1624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rdate -s time-A.timefreq.bldrdoc.gov
-summary: |-
-  set the system date
