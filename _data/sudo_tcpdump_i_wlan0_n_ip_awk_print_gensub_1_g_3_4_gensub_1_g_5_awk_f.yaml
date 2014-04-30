@@ -1,0 +1,8 @@
+commandlinefu_id: 13324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tcpdump -i wlan0 -n ip | awk '{ print gensub(/(.*)\..*/,"\\1","g",$3), $4, gensub(/(.*)\..*/,"\\1","g",$5) }' | awk -F " > " '{print $1"\n"$2}'
+summary: |-
+  sniff network traffic on a given interface and displays the IP addresses of the machines communicating with the current host (one IP per line)

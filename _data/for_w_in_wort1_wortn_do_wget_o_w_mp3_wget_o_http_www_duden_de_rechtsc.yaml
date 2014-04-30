@@ -1,0 +1,8 @@
+commandlinefu_id: 13323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for w in [WORT1] [WORTn]; do wget -O $w.mp3 $(wget -O - "http://www.duden.de/rechtschreibung/$w" | grep -o "http://www.duden.de/_media_/audio/[^\.]*\.mp3"); done
+summary: |-
+  Download German word pronounciation as mp3 file

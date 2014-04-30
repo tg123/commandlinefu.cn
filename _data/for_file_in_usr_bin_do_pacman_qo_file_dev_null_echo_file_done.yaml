@@ -1,0 +1,8 @@
+commandlinefu_id: 13349
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in /usr/bin/*; do pacman -Qo "$file" &> /dev/null || echo "$file"; done
+summary: |-
+  List files that are not owned by any installed package

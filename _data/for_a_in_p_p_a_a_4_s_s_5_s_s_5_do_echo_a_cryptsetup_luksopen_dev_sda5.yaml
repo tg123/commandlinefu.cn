@@ -1,0 +1,8 @@
+commandlinefu_id: 13333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for a in {p,P}{a,A,4}{s,S,5}{s,S,5}; do echo $a|cryptsetup luksOpen /dev/sda5 $a && echo KEY FOUND: $a; done
+summary: |-
+  Bruteforce dm-crypt using shell expansion

@@ -1,0 +1,8 @@
+commandlinefu_id: 13325
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parallel convert {} {.}.png ::: *.svg
+summary: |-
+  Batch Convert SVG to PNG (in parallel)

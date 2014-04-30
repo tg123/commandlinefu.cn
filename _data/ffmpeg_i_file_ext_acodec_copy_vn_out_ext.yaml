@@ -1,0 +1,8 @@
+commandlinefu_id: 13359
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i file.ext -acodec copy -vn out.ext
+summary: |-
+  Dump audio from video without re-encoding.

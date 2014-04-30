@@ -1,0 +1,8 @@
+commandlinefu_id: 13329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $(find . -name *.mp4); do ogv=${file%%.mp4}.ogv; if test "$file" -nt "$ogv"; then echo $file' is newer then '$ogv; ffmpeg2theora $file; fi done
+summary: |-
+  Recursive find all mp4s in a folder and convert to ogv if the ogv does not exist or the mp4 is newer then the current ogv

@@ -1,0 +1,8 @@
+commandlinefu_id: 13337
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cf - file1 dir1/ dir2/ | md5sum
+summary: |-
+  checksum a directory / files

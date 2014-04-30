@@ -1,0 +1,8 @@
+commandlinefu_id: 13357
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -xvpf file.tar.gz
+summary: |-
+  Extract tar.gz file with original permission

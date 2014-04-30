@@ -1,0 +1,8 @@
+commandlinefu_id: 13336
+translator:
+  weibo: ''
+hide: true
+command: |-
+  google() {   Q="$@"; GOOG_URL='https://www.google.com/search?q=';  AGENT="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36" elinks -dump "${GOOG_URL}${Q//\ /+}" | grep "\*" | head -1 }
+summary: |-
+  Return the one-liner google response for queries like "12*24" or "what time is it in the uk"

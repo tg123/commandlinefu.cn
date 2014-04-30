@@ -1,0 +1,8 @@
+commandlinefu_id: 13347
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree /dev/disk
+summary: |-
+  bash: display disks by id, UUID and HW path

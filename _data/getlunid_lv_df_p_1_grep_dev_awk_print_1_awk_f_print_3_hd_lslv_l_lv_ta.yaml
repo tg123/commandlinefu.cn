@@ -1,0 +1,8 @@
+commandlinefu_id: 13346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getlunid() { lv=$(df -P $1|grep "^/dev/"|awk '{print $1}'|awk -F/ '{print $3}'); hd=$(lslv -l $lv|tail -1|awk '{print $1}');id=$(odmget -q "name like $hd AND attribute=unique_id" CuAt|grep "value ="|awk -F= '{print $2}'|tr -d '"');echo $id;}
+summary: |-
+  AIX: get LUN ID for a given filesystem

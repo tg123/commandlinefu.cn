@@ -1,0 +1,8 @@
+commandlinefu_id: 13342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history |awk '{print $3}' |awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c |sort -rn |head -10
+summary: |-
+  &#26368;&#24120;&#20351;&#29992;&#30340;10&#20010;&#21629;&#20196;

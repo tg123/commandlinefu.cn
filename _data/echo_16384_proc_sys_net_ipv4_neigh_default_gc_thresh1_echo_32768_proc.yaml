@@ -1,0 +1,8 @@
+commandlinefu_id: 13354
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 16384 > /proc/sys/net/ipv4/neigh/default/gc_thresh1; echo 32768 > /proc/sys/net/ipv4/neigh/default/gc_thresh2; echo 65535 > /proc/sys/net/ipv4/neigh/default/gc_thresh3; echo 1 > /proc/sys/net/ipv4/icmp_ignore_bogus_error_responses
+summary: |-
+  Protect against buffer overflow

@@ -1,0 +1,8 @@
+commandlinefu_id: 13348
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -rrubygems/commands/mirror_command -S gem mirror
+summary: |-
+  Mirror rubygems.org

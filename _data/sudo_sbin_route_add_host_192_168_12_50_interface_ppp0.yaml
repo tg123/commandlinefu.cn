@@ -1,0 +1,8 @@
+commandlinefu_id: 13327
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo /sbin/route add -host 192.168.12.50 -interface ppp0
+summary: |-
+  Route some ips (or domain names) over VPN

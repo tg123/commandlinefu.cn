@@ -1,0 +1,8 @@
+commandlinefu_id: 13332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for id in `ls -1 ~/.ssh | grep -v "authorized\|known_hosts\|config\|\."` ; do echo -n "$id: " ; ssh-keygen -l -f .ssh/$id ; done
+summary: |-
+  Check SSH fingerprints

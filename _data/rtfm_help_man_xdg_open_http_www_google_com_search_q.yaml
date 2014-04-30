@@ -1,0 +1,8 @@
+commandlinefu_id: 13355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rtfm() { help $@ || man $@ || xdg-open "http://www.google.com/search?q=$@"; }
+summary: |-
+  RTFM function

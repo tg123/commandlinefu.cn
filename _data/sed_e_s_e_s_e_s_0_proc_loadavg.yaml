@@ -1,0 +1,8 @@
+commandlinefu_id: 13339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e 's/ .*//' -e 's/\.//' -e 's/^0*//' /proc/loadavg
+summary: |-
+  Shows cpu load in percent

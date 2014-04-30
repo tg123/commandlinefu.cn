@@ -1,0 +1,8 @@
+commandlinefu_id: 13353
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo add-apt-repository ppa:PPA_TO_ADD
+summary: |-
+  Add Ubuntu Launchpad PPA and its PGP keys at the same time

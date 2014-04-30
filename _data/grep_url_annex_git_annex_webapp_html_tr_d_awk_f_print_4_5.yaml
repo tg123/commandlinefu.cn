@@ -1,0 +1,8 @@
+commandlinefu_id: 13343
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep URL ~/annex/.git/annex/webapp.html | tr -d '">' | awk -F= '{print $4 "=" $5}'
+summary: |-
+  Get the URL for the git-annex webapp

@@ -1,0 +1,8 @@
+commandlinefu_id: 13344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n test@example.com | md5sum | (read hash dash ; echo "https://secure.gravatar.com/avatar/${hash}")
+summary: |-
+  Get the gravatar UTL for a given email address

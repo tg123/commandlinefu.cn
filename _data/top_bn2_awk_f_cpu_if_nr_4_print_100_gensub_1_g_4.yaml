@@ -1,0 +1,8 @@
+commandlinefu_id: 13338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -bn2|awk -F, '/Cpu/{if (NR>4){print 100-gensub(/.([^ ]+).*/,"\\1","g",$4)}}'
+summary: |-
+  Shows cpu load in percent
