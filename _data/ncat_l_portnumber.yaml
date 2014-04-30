@@ -1,8 +1,7 @@
 commandlinefu_id: 4928
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  ncat -l portnumber
+  nc -l portnumber
 summary: |-
-  Simple server which listens on a port and prints out received data
+  简单的socket服务器用户可以接受telnet数据

@@ -1,8 +1,7 @@
 commandlinefu_id: 630
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find * -type d -exec mkdir /where/you/wantem/\{\} \;
 summary: |-
-  Copy a file structure without files
+  只复制目录结构

@@ -1,8 +1,7 @@
 commandlinefu_id: 2893
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  schedtool 1
+  schedtool PID
 summary: |-
-  command to display info about the core specified
+  显示进程的调度信息

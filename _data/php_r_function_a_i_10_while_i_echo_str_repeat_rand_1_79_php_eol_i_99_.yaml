@@ -1,8 +1,7 @@
 commandlinefu_id: 8328
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  php -r 'function a(){$i=10;while($i--)echo str_repeat(" ",rand(1,79))."*".PHP_EOL;}$i=99;while($i--){a();echo str_repeat(" ",34)."Happy New Year 2011".PHP_EOL;a();usleep(200000);}'
+  php -r 'function a(){$i=10;while($i--)echo str_repeat(" ",rand(1,79))."*".PHP_EOL;}$i=99;while($i--){a();echo str_repeat(" ",34)."Happy New Year".PHP_EOL;a();usleep(200000);}'
 summary: |-
-  Congratulations on new year
+  新年快乐(动画)

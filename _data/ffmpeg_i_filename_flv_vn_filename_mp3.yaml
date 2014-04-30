@@ -1,8 +1,7 @@
 commandlinefu_id: 2176
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -i <filename>.flv -vn <filename>.mp3
 summary: |-
-  Dumping Audio stream from flv (using ffmpeg)
+  从flv中 dump 音频 

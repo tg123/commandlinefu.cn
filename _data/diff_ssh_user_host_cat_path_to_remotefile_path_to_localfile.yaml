@@ -1,8 +1,7 @@
 commandlinefu_id: 10880
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff <(ssh user@host cat /path/to/remotefile) /path/to/localfile
 summary: |-
-  Compare a remote file with a local file
+  比较远程和本地文件

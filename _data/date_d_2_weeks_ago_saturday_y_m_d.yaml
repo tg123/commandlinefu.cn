@@ -1,8 +1,7 @@
 commandlinefu_id: 1142
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date -d '2 weeks ago Saturday' +%Y-%m-%d
 summary: |-
-  Calculates the date 2 weeks ago from Saturday the specified format.
+  两周前的周六 是几号 (本周没过完也算一周)

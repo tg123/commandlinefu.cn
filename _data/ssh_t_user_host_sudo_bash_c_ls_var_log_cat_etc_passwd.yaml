@@ -1,8 +1,7 @@
 commandlinefu_id: 11652
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -t user@host 'sudo bash -c "ls /var/log && cat /etc/passwd"'
 summary: |-
-  Run multiple commands on a remote host with sudo
+  通过ssh在多个机器上运行 sudo
