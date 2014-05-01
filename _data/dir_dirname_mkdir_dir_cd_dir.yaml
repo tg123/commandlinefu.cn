@@ -1,8 +1,0 @@
-commandlinefu_id: 8243
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Dir=dirname; mkdir $Dir && cd $Dir
-summary: |-
-  Create a directory and cd into it

@@ -1,8 +1,7 @@
 commandlinefu_id: 3239
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh user@remotehost [anycommand](i.e uptime,w)
 summary: |-
-  How to run a specific command in remote server by ssh
+  在远端执行命令
