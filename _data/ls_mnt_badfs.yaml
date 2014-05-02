@@ -1,8 +1,7 @@
 commandlinefu_id: 2529
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls /mnt/badfs &
 summary: |-
-  Check if filesystem hangs
+  检查文件系统是否hang

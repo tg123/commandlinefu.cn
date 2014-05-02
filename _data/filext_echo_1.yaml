@@ -1,8 +1,7 @@
 commandlinefu_id: 9529
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   filext () { echo ${1##*.}; }
 summary: |-
-  Extract extention of a file
+  文件扩展名

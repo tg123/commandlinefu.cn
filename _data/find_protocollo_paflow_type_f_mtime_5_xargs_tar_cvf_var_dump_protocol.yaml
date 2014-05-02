@@ -1,8 +1,7 @@
 commandlinefu_id: 5939
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /protocollo/paflow -type f -mtime +5 | xargs tar -cvf /var/dump-protocollo/`date '+%d%m%Y'_archive.tar`
 summary: |-
-  How to archive all the files that are not modified in the last x number of days?
+  存档过去x天没有修改的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 6848
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -i '[^script$]' 1.txt
-summary: |-
-  GREP a PDF file.

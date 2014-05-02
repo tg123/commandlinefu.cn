@@ -1,8 +1,7 @@
 commandlinefu_id: 8678
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -d */* | wc -l
 summary: |-
-  Count all the files in the directory and child directories
+  计算子目录数量
