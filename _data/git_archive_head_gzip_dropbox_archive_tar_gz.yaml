@@ -1,8 +1,0 @@
-commandlinefu_id: 8600
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git archive HEAD | gzip > ~/Dropbox/archive.tar.gz
-summary: |-
-  bash script to zip a folder while ignoring git files and copying it to dropbox

@@ -1,8 +1,7 @@
 commandlinefu_id: 12903
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -tln | grep :25
 summary: |-
-  Check if TCP port 25 is open
+  检查25端口是否打开

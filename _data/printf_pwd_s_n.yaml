@@ -1,8 +1,7 @@
 commandlinefu_id: 9909
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   printf "$PWD/%s\n" *
 summary: |-
-  list with full path
+  全路径ls

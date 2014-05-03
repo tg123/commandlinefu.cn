@@ -1,8 +1,7 @@
 commandlinefu_id: 1818
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rsync --partial --progress --rsh=ssh  $file_source $user@$host:$destination_file
 summary: |-
-  Resume scp of a big file
+  续传scp中断的文件

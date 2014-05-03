@@ -1,8 +1,7 @@
 commandlinefu_id: 10053
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for FILE in `ls -1`; do if [ -L "$FILE" ]; then cp $(readlink "$FILE") ${FILE}_rf; rm -f $FILE; mv ${FILE}_rf "$FILE"; fi; done
 summary: |-
-  Convert all the symbolic links in $PWD to copies of the referenced files
+  复制所有符号链接指向的文件
