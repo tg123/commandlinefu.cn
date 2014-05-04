@@ -1,8 +1,7 @@
 commandlinefu_id: 1915
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat <filename> | perl -e '$/ = ""; $_ = <>; s/<!--.*?-->//gs; print;'
 summary: |-
-  remove comments from xml
+  清理xml中的注释

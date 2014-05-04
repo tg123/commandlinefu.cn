@@ -1,8 +1,7 @@
 commandlinefu_id: 1388
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -e -o pcpu,cpu,nice,state,cputime,args --sort pcpu | sed "/^ 0.0 /d"
 summary: |-
-  Processes by CPU usage
+  按cpu利用率ps

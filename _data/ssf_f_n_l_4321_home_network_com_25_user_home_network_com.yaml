@@ -1,8 +1,0 @@
-commandlinefu_id: 2366
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssf -f -N -L 4321:home.network.com:25 user@home.network.com
-summary: |-
-  Setup an ssh tunnel
