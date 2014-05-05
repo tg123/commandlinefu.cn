@@ -1,8 +1,0 @@
-commandlinefu_id: 9207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(grep "^[^'A-Z]\{3,7\}$" /usr/share/dict/words|shuf -n4)
-summary: |-
-  Generate an XKCD #936 style 4 word passphrase (fast)

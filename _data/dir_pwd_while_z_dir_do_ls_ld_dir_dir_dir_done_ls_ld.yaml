@@ -1,8 +1,7 @@
 commandlinefu_id: 4343
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dir=$(pwd); while [ ! -z "$dir" ]; do ls -ld "$dir"; dir=${dir%/*}; done; ls -ld /
 summary: |-
-  Show permissions of current directory and all directories upwards to /
+  显示当前目录的权限直到 / (可以用来检查x权限)

@@ -1,8 +1,7 @@
 commandlinefu_id: 7288
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl base64 -d < file.txt > out
 summary: |-
-  Decode base64-encoded file in one line of Perl
+  解码bas64

@@ -1,8 +1,7 @@
 commandlinefu_id: 4891
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-get --just-print upgrade
 summary: |-
-  List available upgrades from apt without upgrading the system
+  不实际更新 (apt)
