@@ -1,8 +1,7 @@
 commandlinefu_id: 9312
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof +D <dirname>
 summary: |-
-  Discovering all open files/dirs underneath a directory
+  看看目录下有那些打开的文件

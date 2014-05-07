@@ -1,8 +1,7 @@
 commandlinefu_id: 4422
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   b(){ echo "scale=${2:-2}; $1" | bc -l; }
 summary: |-
-  floating point bash calculator w/o precision
+  用bash做浮点数计算
