@@ -1,8 +1,7 @@
 commandlinefu_id: 12166
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   parallel -j 50 ssh {} "ls" ::: host1 host2 hostn | sort | uniq -c
 summary: |-
-  Mapreduce style processing
+  命令行map reduce

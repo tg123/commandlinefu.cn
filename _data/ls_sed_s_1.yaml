@@ -1,8 +1,7 @@
 commandlinefu_id: 6346
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls | sed 's,\(.*\),"\1",'
 summary: |-
-  List files with quotes around each filename
+  给ls结果加上引号

@@ -1,8 +1,7 @@
 commandlinefu_id: 2068
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cd $(dirname $(find ~ -name emails.txt))
 summary: |-
-  Search for a single file and go to it
+  查找并cd到只有特定文件的目录
