@@ -1,8 +1,7 @@
 commandlinefu_id: 5456
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vi +/pattern [file]
 summary: |-
-  Opens vi/vim at pattern in file
+  打开vim 并搜索 pattern

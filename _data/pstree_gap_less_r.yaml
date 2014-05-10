@@ -1,8 +1,7 @@
 commandlinefu_id: 2252
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pstree -Gap | less -r
 summary: |-
-  View and review the system process tree.
+  查看进程树

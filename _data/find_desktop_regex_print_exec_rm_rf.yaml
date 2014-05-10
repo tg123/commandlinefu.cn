@@ -1,8 +1,7 @@
 commandlinefu_id: 2340
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ~/Desktop/ \( -regex '.*/\..*' \) -print -exec rm -Rf {} \;
 summary: |-
-  Search for all files that begin with . and delete them.
+  查找删除隐藏文件 

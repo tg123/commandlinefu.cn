@@ -1,8 +1,7 @@
 commandlinefu_id: 8137
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pacman -Qo /etc/yaourtrc
 summary: |-
-  archlinux: shows which package created a given file
+  显示那个包创建了 特定文件
