@@ -1,8 +1,7 @@
 commandlinefu_id: 2480
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name "*.sql" -print0 | wc -l --files0-from=-
 summary: |-
-  Get lines count of a list of files
+  计算一组文件得行数

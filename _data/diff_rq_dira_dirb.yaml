@@ -1,8 +1,7 @@
 commandlinefu_id: 9116
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff -rq dirA dirB
 summary: |-
-  Compare directories via diff
+  用diff比较两个目录

@@ -1,8 +1,7 @@
 commandlinefu_id: 203
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tidy -xml -i -m [file]
 summary: |-
-  Prettify an XML file
+  格式化xml

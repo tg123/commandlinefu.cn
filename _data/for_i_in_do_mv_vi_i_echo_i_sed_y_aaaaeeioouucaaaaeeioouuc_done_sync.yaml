@@ -1,8 +1,0 @@
-commandlinefu_id: 7980
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *; do mv -vi "$i" "`echo "$i"|sed y/????????????????????????/AAAAEEIOOUUCaaaaeeioouuc/`"; done; sync
-summary: |-
-  Remove acentuation from file names in a directory.
