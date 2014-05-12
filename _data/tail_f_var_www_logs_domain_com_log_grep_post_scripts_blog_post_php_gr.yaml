@@ -1,8 +1,0 @@
-commandlinefu_id: 7193
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f /var/www/logs/domain.com.log | grep "POST /scripts/blog-post.php" | grep -v 192.168. | awk '{print $1}' | xargs -I{}  iptables -I DDOS -s {} -j DROP
-summary: |-
-  Anti DDOS

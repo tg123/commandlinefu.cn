@@ -1,8 +1,7 @@
 commandlinefu_id: 282
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git diff HEAD..rev | git apply --index; git commit
 summary: |-
-  Undo several commits by committing an inverse patch.
+  撤销一些提交
