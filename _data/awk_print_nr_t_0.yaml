@@ -1,8 +1,7 @@
 commandlinefu_id: 11404
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{print NR "\t" $0}'
 summary: |-
-  prints line numbers
+  带有行号打印
