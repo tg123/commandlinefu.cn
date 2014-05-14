@@ -1,8 +1,7 @@
 commandlinefu_id: 8381
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename 's/foo/bar/g' ./*
 summary: |-
-  Rename all files which contain the sub-string 'foo', replacing it with 'bar'
+  替换文件名中的 foo 为 bar

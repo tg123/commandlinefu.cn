@@ -1,8 +1,7 @@
 commandlinefu_id: 12924
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -lntp
 summary: |-
-  Check if TCP port 25 is open
+  查看打开的端口

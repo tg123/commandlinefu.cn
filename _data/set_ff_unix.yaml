@@ -1,8 +1,7 @@
 commandlinefu_id: 6152
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :set ff=unix
 summary: |-
-  Delete DOS Characters via VIM (^M)
+  在vim中清除^M
