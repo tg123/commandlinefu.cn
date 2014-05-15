@@ -1,8 +1,7 @@
 commandlinefu_id: 12827
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{ c=NR%n; a[c]=$0 } END{ for(i=1; i<=n; i++) print a[(c+i)%n] }' n=10 File
 summary: |-
-  Emulate tail using awk.
+  用awk模拟tail

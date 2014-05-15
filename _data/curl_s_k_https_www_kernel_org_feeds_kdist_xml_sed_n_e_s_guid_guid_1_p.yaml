@@ -1,8 +1,0 @@
-commandlinefu_id: 13011
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -k https://www.kernel.org/feeds/kdist.xml | sed -n -e 's@.*<guid>\(.*\)</guid>.*@\1@p' | grep 'stable' | head -1 | awk -F , '{print $3}'
-summary: |-
-  Get current stable kernel version string from kernel.org

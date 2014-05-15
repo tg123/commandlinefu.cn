@@ -1,8 +1,7 @@
 commandlinefu_id: 7700
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -nle 'printf "%0*v8b\n"," ",$_;'
 summary: |-
-  String to binary
+  字符串转bin

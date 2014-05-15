@@ -1,8 +1,7 @@
 commandlinefu_id: 13040
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -n 10 free -m
 summary: |-
-  A simple overview of memory usage refreshed at user designated intervals.
+  简单的内存变化监控

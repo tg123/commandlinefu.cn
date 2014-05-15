@@ -1,8 +1,7 @@
 commandlinefu_id: 11823
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sleep `shuf -i 0-3600 -n 1`
 summary: |-
-  sleep for a random amount of time up to an hour
+  随机sleep一段时间
