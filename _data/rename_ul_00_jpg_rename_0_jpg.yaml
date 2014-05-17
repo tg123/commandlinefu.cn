@@ -1,8 +1,7 @@
 commandlinefu_id: 9123
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rename.ul "" 00 ?.jpg; rename "" 0 ??.jpg;
 summary: |-
-  Adding leading zeros to a filename (1.jpg -> 001.jpg)
+  给数字文件名加上开头的0

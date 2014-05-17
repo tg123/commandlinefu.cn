@@ -1,8 +1,7 @@
 commandlinefu_id: 10684
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -l | sort +4n for ascending order or ls -l | sort +4nr for descending order
 summary: |-
-  Sort files by size
+  按文件大小排序

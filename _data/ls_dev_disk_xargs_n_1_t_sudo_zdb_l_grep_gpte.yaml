@@ -1,8 +1,7 @@
 commandlinefu_id: 11355
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls /dev/disk* | xargs -n 1 -t sudo zdb -l | grep GPTE_
 summary: |-
-  Show the UUID of a filesystem or partition
+  查看分区的uuid
