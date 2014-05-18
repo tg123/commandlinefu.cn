@@ -1,8 +1,7 @@
 commandlinefu_id: 9768
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for f in *; do clear; cat $f; sleep .3; done
 summary: |-
-  Cat files in a directory; for loop command
+  幻灯现实目录中的文件

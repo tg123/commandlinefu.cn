@@ -1,8 +1,7 @@
 commandlinefu_id: 11471
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tidy -i -xml <inputfile>
 summary: |-
-  Adding formatting to an xml document for easier reading
+  格式化xml

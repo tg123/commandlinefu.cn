@@ -1,8 +1,7 @@
 commandlinefu_id: 9518
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /etc/passwd | grep "bash" | cut -d: -f1
 summary: |-
-  List all username for accounts using bash shell
+  列出所有用户

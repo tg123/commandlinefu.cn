@@ -1,8 +1,7 @@
 commandlinefu_id: 9757
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   top -p `pgrep pidgin`
 summary: |-
-  Monitor especific process with top
+  用top监控指定进程

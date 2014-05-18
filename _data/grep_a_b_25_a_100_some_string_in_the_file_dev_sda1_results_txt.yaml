@@ -1,8 +1,7 @@
 commandlinefu_id: 6371
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -a -B 25 -A 100 'some string in the file' /dev/sda1 > results.txt
 summary: |-
-  Recover a deleted file
+  用grep恢复出删除的文件内容
