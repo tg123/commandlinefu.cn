@@ -1,8 +1,7 @@
 commandlinefu_id: 5698
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tac -r -s "." FILENAME
 summary: |-
-  Reverse a file
+  把一个文件的内容翻转

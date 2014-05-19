@@ -1,8 +1,7 @@
 commandlinefu_id: 6308
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /path/to/dir -type f | grep -o '\.[^./]*$' | sort | uniq
 summary: |-
-  list all file extensions in a directory
+  列出目录中所有的扩展名

@@ -1,8 +1,7 @@
 commandlinefu_id: 6313
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -Xp /path/to/dir | grep -Eo "\.[^/]+$" | uniq
 summary: |-
-  list all file extensions in a directory
+  列出一个目录里边的扩展名

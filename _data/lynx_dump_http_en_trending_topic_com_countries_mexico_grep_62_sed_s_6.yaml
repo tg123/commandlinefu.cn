@@ -1,8 +1,0 @@
-commandlinefu_id: 12001
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --dump http://en.trending-topic.com/countries/Mexico/ | grep "62]#" | sed 's/\[62\]//g'
-summary: |-
-  Get Top Trending Topic on Twiter by location
