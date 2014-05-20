@@ -1,8 +1,7 @@
 commandlinefu_id: 7828
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   seq 10 | paste -sd* | bc
 summary: |-
-  Calculate N!
+  计算n的阶乘

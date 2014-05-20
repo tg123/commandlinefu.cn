@@ -1,8 +1,7 @@
 commandlinefu_id: 3378
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat testfile | hexdump -C
 summary: |-
-  Hexadecimal dump of a file, pipe, or anything
+  二进制打印文件内容

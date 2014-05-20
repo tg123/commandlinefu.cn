@@ -1,8 +1,0 @@
-commandlinefu_id: 11396
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm ^*.(tex|pdf)(.)
-summary: |-
-  Remove auxillary files from you LaTeX directory
