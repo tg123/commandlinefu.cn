@@ -1,0 +1,8 @@
+commandlinefu_id: 13379
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function google () { st="$@"; open "http://www.google.com/search?q=${st}"; }
+summary: |-
+  search google on os x

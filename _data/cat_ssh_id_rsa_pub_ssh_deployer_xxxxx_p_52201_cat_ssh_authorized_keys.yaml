@@ -1,0 +1,8 @@
+commandlinefu_id: 13392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat ~/.ssh/id_rsa.pub | ssh deployer@xxxxx -p 52201 'cat >> ~/.ssh/authorized_keys'
+summary: |-
+  ssh copy

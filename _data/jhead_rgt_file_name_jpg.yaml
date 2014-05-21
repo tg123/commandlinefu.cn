@@ -1,0 +1,8 @@
+commandlinefu_id: 13388
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jhead -rgt file-name.jpg
+summary: |-
+  Regnerate Exif thumbnail.

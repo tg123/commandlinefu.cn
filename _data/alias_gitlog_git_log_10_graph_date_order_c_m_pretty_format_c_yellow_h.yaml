@@ -1,0 +1,8 @@
+commandlinefu_id: 13386
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias gitlog='git log -10 --graph --date-order -C -M --pretty=format:"%C(yellow)%h%C(reset) - %C(bold green)%ad%C(reset) - %C(dim yellow)%an%C(reset) %C(bold red)>%C(reset) %C(white)%s%C(reset) %C(bold red)%d%C(reset) " --abbrev-commit --date=short'
+summary: |-
+  git log with color and path

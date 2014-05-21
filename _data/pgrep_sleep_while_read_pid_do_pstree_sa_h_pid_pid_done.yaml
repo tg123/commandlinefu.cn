@@ -1,0 +1,8 @@
+commandlinefu_id: 13364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep 'sleep' | while read pid; do pstree -sa -H$pid $pid ; done
+summary: |-
+  Display the tree of all instance of a particular  process

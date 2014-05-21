@@ -1,0 +1,8 @@
+commandlinefu_id: 13385
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git status --porcelain | sed -ne 's/^ M //p' | tr '\n' '\0' | tr -d '"' | xargs -0 vim
+summary: |-
+  Open (in vim) all modified files in a git repository

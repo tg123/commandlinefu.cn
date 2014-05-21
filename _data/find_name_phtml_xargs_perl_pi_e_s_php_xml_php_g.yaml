@@ -1,0 +1,8 @@
+commandlinefu_id: 13383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.phtml' | xargs perl -pi -e 's/(?!(<\?(php|xml|=)))<\?/<\?php/g;'
+summary: |-
+  Replace php short open tags

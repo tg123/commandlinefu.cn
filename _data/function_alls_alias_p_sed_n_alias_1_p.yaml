@@ -1,0 +1,8 @@
+commandlinefu_id: 13397
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function alls() { alias -p | sed -n "/^alias $1/p" }
+summary: |-
+  List aliases that match a regexp

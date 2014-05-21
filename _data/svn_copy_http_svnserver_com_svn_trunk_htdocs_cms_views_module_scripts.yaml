@@ -1,0 +1,8 @@
+commandlinefu_id: 13401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  svn copy http://svnserver.com/svn/trunk/htdocs/CMS/views/module/scripts/modal/dialog-settings-items.phtml@3143 -r 3143 htdocs/CMS/views/module/scripts/modal/dialog-settings-items.phtml
+summary: |-
+  svn resume deleted file

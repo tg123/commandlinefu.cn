@@ -1,0 +1,8 @@
+commandlinefu_id: 13391
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ ! -d /squashed/usr ] && mkdir -p /squashed/usr/{ro,rw} ; mksquashfs /usr /squashed/usr/usr.sfs.new -b 65536 ; mv /squashed/usr/usr.sfs.new /squashed/usr/usr.sfs ; reboot
+summary: |-
+  Performance tip: compress /usr/

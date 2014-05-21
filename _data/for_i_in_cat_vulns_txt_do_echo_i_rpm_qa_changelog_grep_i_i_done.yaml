@@ -1,0 +1,8 @@
+commandlinefu_id: 13365
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(cat vulns.txt); do echo $i; rpm -qa ?changelog | grep -i $i; done
+summary: |-
+  To Find CVE fix from the rpm log

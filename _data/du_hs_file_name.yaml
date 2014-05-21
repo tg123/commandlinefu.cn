@@ -1,0 +1,8 @@
+commandlinefu_id: 13387
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hs file-name
+summary: |-
+  get size of a file

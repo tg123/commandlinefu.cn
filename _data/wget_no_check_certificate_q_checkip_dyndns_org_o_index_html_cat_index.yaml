@@ -1,0 +1,8 @@
+commandlinefu_id: 13393
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ wget --no-check-certificate -q checkip.dyndns.org -O index.html && cat index.html|cut -d ' ' -f 6 | cut -d '<' -f 1
+summary: |-
+  Get own public IP address

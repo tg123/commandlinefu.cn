@@ -1,0 +1,8 @@
+commandlinefu_id: 13360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -efa | grep httpd | grep -v grep | awk '{ print $2 }' |xargs
+summary: |-
+  get process id with program name

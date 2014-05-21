@@ -1,0 +1,8 @@
+commandlinefu_id: 13370
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psql -X -A -t -c "SELECT version();"
+summary: |-
+  Get a PostgreSQL servers version

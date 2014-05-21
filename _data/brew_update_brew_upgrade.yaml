@@ -1,0 +1,8 @@
+commandlinefu_id: 13375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  brew update && brew upgrade
+summary: |-
+  Update all packages installed via homebrew

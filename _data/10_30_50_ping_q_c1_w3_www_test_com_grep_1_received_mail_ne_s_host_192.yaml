@@ -1,0 +1,8 @@
+commandlinefu_id: 13367
+translator:
+  weibo: ''
+hide: true
+command: |-
+  10,30,50 * * * * ping -q -c1 -w3 www.test.com | grep '1 received' - || mail -ne -s'Host 192.168.0.14 not reachable' test@gmail.com
+summary: |-
+  Check reachable sites

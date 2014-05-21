@@ -1,0 +1,8 @@
+commandlinefu_id: 13396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -e -o pid,vsz,comm= | sort -n -k 2
+summary: |-
+  Sort all processes by the amount of virtual memory they are using

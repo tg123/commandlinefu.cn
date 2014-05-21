@@ -1,0 +1,8 @@
+commandlinefu_id: 13406
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh [remote-machine] "cat file" | xclip -selection c
+summary: |-
+  copy remote ssh session output to local clipboard

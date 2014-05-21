@@ -1,0 +1,8 @@
+commandlinefu_id: 13398
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep 'httpd' | awk '{print $6/1024 " MB";}'
+summary: |-
+  To get the average httpd process size, log into your server and run the following on the command line

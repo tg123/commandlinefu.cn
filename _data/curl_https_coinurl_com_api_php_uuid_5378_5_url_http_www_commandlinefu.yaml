@@ -1,0 +1,8 @@
+commandlinefu_id: 13404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl "https://coinurl.com/api.php?uuid=5378..........5&url=http://www.commandlinefu.com"
+summary: |-
+  Shorten Links to make Bitcoin

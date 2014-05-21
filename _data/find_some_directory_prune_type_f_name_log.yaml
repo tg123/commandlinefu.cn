@@ -1,0 +1,8 @@
+commandlinefu_id: 13371
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /some/directory/* -prune -type f -name *.log
+summary: |-
+  find only current directory (universal)

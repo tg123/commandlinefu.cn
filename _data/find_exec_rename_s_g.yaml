@@ -1,0 +1,8 @@
+commandlinefu_id: 13376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec rename 's/_/\ /g' {} +
+summary: |-
+  Replace underscores with spaces in filenames and dirnames, recursively into subdirs.
