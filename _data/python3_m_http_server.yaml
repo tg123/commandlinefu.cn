@@ -1,8 +1,7 @@
 commandlinefu_id: 9841
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   python3 -m http.server
 summary: |-
-  An alternative to: python -m SimpleHTTPServer for Arch Linux
+  临时下载服务器 python3
