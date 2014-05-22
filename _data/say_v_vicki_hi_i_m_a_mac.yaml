@@ -1,8 +1,7 @@
 commandlinefu_id: 1108
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   say -v Vicki "Hi, I'm a mac"
 summary: |-
-  Get your mac to talk to you
+  让你的mac跟你说话

@@ -1,8 +1,7 @@
 commandlinefu_id: 6332
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   man !!:0
 summary: |-
-  See The MAN page for the last command
+  查看刚才命令的man

@@ -1,8 +1,7 @@
 commandlinefu_id: 10262
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for num in `seq 2 100`;do if [ `factor $num|awk '{print $2}'` == $num ];then echo -n "$num ";fi done;echo
 summary: |-
-  List prime numbers from 2 to 100
+  列出2到100的素数

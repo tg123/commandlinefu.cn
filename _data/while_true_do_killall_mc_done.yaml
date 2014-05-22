@@ -1,8 +1,0 @@
-commandlinefu_id: 10587
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true ; do killall mc ; done
-summary: |-
-  run a command repeatedly indefinately
