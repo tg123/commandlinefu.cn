@@ -1,8 +1,0 @@
-commandlinefu_id: 11405
-translator:
-  weibo: ''
-hide: true
-command: |-
-  https://yourserver.com:8443/login_up.php3?login_name=admin&passwd=yourpassword
-summary: |-
-  Automatic Plesk login:

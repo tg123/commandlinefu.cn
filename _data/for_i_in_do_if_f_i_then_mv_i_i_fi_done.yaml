@@ -1,8 +1,7 @@
 commandlinefu_id: 4469
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in *\ *; do if [ -f "$i" ]; then mv "$i" ${i// /_}; fi; done
 summary: |-
-  Replace spaces in filename
+  清除文件名中的空格

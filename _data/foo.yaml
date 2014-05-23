@@ -1,8 +1,0 @@
-commandlinefu_id: 9343
-translator:
-  weibo: ''
-hide: true
-command: |-
-  \foo
-summary: |-
-  bypass any aliases and functions for the command

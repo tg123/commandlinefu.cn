@@ -1,8 +1,0 @@
-commandlinefu_id: 10387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  GET www.example.com
-summary: |-
-  view HTML code of a web page

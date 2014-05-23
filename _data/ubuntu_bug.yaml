@@ -1,8 +1,7 @@
 commandlinefu_id: 5513
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ubuntu-bug
 summary: |-
-  Report bugs in Ubuntu
+  向ubuntu汇报bug
