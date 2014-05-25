@@ -1,8 +1,7 @@
 commandlinefu_id: 7872
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed "s/<[^>]\+>//g" file
 summary: |-
-  Remove all HTML tags from a file
+  清除所有html标签

@@ -1,8 +1,0 @@
-commandlinefu_id: 6772
-translator:
-  weibo: ''
-hide: true
-command: |-
-  links2 -dump http://checkip.dyndns.com | cut -d ' ' -f7
-summary: |-
-  Get My Public IP Address

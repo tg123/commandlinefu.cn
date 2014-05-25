@@ -1,8 +1,0 @@
-commandlinefu_id: 9026
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort -R /usr/share/dict/british | grep -v -m4 ^\{1,10\}$ | tr [:upper:] [:lower:] | tr "\n" " " | tr -d "'s" | xargs -0 echo
-summary: |-
-  Generate an XKCD #936 style 4 word password

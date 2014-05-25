@@ -1,8 +1,0 @@
-commandlinefu_id: 13402
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export NEWUSER=newuser; mkdir /home/$NEWUSER; useradd -d /home/$NEWUSER -s /bin/bash -G sudo $NEWUSER; passwd $NEWUSER
-summary: |-
-  Create new user with sudo rights with home dir, bash shell

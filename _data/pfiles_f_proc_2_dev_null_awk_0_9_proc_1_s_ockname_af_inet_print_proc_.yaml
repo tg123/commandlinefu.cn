@@ -1,8 +1,0 @@
-commandlinefu_id: 4482
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pfiles -F /proc/* 2>/dev/null | awk '/^[0-9]+/{proc=$1};/[s]ockname: AF_INET/{print proc $0}'
-summary: |-
-  Solaris get PID socket

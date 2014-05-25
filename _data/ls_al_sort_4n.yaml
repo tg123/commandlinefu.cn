@@ -1,8 +1,7 @@
 commandlinefu_id: 10918
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -al | sort +4n
 summary: |-
-  Sort files by size
+  按大小排序

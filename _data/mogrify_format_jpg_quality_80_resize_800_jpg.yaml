@@ -1,8 +1,7 @@
 commandlinefu_id: 1735
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -format jpg -quality 80 -resize 800 *.jpg
 summary: |-
-  Resize photos without changing exif
+  修改图片的大小
