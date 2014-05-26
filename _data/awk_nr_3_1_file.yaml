@@ -1,8 +1,7 @@
 commandlinefu_id: 4527
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk 'NR%3==1' file
 summary: |-
-  Every Nth line position # (AWK)
+  打印每N行

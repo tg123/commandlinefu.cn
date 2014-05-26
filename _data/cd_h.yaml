@@ -1,8 +1,0 @@
-commandlinefu_id: 2917
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd !$:h
-summary: |-
-  Go to parent directory of filename edited in last command

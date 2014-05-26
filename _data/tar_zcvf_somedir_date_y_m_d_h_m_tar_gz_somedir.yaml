@@ -1,8 +1,7 @@
 commandlinefu_id: 412
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar zcvf somedir-$(date +%Y%m%d-%H%M).tar.gz somedir/
 summary: |-
-  Archive a directory with datestamp on filename
+  压缩成带有时间文件名的文件

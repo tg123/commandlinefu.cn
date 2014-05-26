@@ -1,8 +1,0 @@
-commandlinefu_id: 13109
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fping -ga 192.168.1.0/24 2> /dev/null
-summary: |-
-  Ping all hosts on 192.168.1.0/24
