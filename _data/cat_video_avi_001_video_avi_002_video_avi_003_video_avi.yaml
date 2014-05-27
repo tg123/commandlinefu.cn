@@ -1,8 +1,7 @@
 commandlinefu_id: 8831
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat video.avi.001 video.avi.002 video.avi.003 >> video.avi
 summary: |-
-  Combining video file part downloaded separately using cat command
+  合并小电影

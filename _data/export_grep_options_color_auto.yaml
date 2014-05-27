@@ -1,8 +1,7 @@
 commandlinefu_id: 8888
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   export GREP_OPTIONS='--color=auto'
 summary: |-
-  Enable color pattern match highlighting in grep(1)
+  给grep加上颜色

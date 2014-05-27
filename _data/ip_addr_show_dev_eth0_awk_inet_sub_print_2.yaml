@@ -1,8 +1,7 @@
 commandlinefu_id: 11643
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip addr show dev eth0 | awk '/inet/ {sub(/\//, " "); print $2}'
 summary: |-
-  Get eth0 ip
+  获取 eth0 的ip

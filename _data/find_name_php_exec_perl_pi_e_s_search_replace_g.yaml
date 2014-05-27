@@ -1,8 +1,7 @@
 commandlinefu_id: 5000
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -name ".php" -exec perl -pi -e 's/search/replace/g/' {} \;
 summary: |-
-  perl find and replace
+  使用perl 查找替换

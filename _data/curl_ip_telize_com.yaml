@@ -1,8 +1,0 @@
-commandlinefu_id: 13127
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl ip.telize.com
-summary: |-
-  Get external IP address (supports IPv4 and IPv6)

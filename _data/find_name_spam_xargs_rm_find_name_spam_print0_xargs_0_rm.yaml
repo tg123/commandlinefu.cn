@@ -1,8 +1,0 @@
-commandlinefu_id: 7703
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name 'spam-*' |xargs rm;find . -name 'spam-*' -print0 | xargs -0 rm
-summary: |-
-  /bin/rm: Argument list too long.

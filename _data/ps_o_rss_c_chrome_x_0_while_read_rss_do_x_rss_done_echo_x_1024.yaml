@@ -1,8 +1,0 @@
-commandlinefu_id: 12290
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -o rss= -C Chrome | (x=0; while read rss; do ((x+=$rss)); done; echo $((x/1024)))
-summary: |-
-  Chrome sucks

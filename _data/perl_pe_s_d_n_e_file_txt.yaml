@@ -1,8 +1,7 @@
 commandlinefu_id: 876
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -pe 's/\d+/++$n/e' file.txt
 summary: |-
-  re-assign line numbers
+  给文件加上行号

@@ -1,8 +1,0 @@
-commandlinefu_id: 1181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c6
-summary: |-
-  Generate Random Passwords
