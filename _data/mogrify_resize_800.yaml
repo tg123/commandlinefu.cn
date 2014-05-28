@@ -1,8 +1,7 @@
 commandlinefu_id: 1359
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -resize 800\> *
 summary: |-
-  Batch resize all images in the current directory that are bigger than 800px, height or weight.
+  批量修订图片大小 把比800(高 宽) 大的都放到800

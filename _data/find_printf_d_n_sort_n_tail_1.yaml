@@ -1,8 +1,7 @@
 commandlinefu_id: 8342
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -printf '%d\n' | sort -n  | tail -1
 summary: |-
-  Find directory depth
+  查看目录深度
