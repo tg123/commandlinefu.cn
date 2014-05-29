@@ -1,8 +1,7 @@
 commandlinefu_id: 7235
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo `cat /dev/urandom | base64 | tr -dc "[:alnum:]" | head -c64`
 summary: |-
-  create random string from /dev/urandom (or another length)
+  创建固定长度的随机字符

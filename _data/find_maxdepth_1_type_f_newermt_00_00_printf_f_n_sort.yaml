@@ -1,8 +1,7 @@
 commandlinefu_id: 12075
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -maxdepth 1 -type f -newermt "00:00" -printf "%f\n" | sort
 summary: |-
-  Find today created files
+  查看今天创建的文件

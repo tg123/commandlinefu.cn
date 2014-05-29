@@ -1,8 +1,7 @@
 commandlinefu_id: 13073
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -v rootfs /proc/mounts > /etc/mtab
 summary: |-
-  Regenerate the /etc/mtab file
+  刷新mtab
