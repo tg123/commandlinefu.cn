@@ -1,8 +1,7 @@
 commandlinefu_id: 3620
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   lynx "futz.me/xxx hey this is a test"
 summary: |-
-  futz.me - Send yourself notes from the command line
+  利用futz.me网站的功能，通过命令行来发送笔记给自己

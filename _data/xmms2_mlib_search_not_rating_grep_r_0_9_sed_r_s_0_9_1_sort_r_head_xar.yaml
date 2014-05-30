@@ -1,8 +1,7 @@
 commandlinefu_id: 1928
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   xmms2 mlib search NOT +rating | grep -r '^[0-9]' | sed -r 's/^([0-9]+).*/\1/' | sort -R | head | xargs -L 1 xmms2 addid
 summary: |-
-  Add 10 random unrated songs to xmms2 playlist
+  随机添加10首未评级的音乐到xmms2播放列表

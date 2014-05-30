@@ -1,8 +1,7 @@
 commandlinefu_id: 2918
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   dd if=/dev/urandom count=200 bs=1 2>/dev/null | tr "\n" " " | sed 's/[^a-zA-Z0-9]//g' | cut -c-16
 summary: |-
-  Generate Random Passwords
+  生成任意密码

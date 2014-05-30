@@ -1,8 +1,7 @@
 commandlinefu_id: 10309
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   redshiftgui -o -b 0.5
 summary: |-
-  Protect your eye
+  保护双眼

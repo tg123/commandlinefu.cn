@@ -1,8 +1,7 @@
 commandlinefu_id: 11705
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for ARG in * ; do sudo -u USER 7z x -o"$(echo $ARG|sed 's/\(.*\)\..*/\1/')" "$ARG" ; done
 summary: |-
-  Extract all archives from current folder, each archive in its own folder.
+  解压当前目录下的所有的压缩文件，各个压缩文件都解压在自己的目录中。

@@ -1,8 +1,7 @@
 commandlinefu_id: 5858
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find ~/Music/iTunes/iTunes\ Media/. -name \*.ipa -exec basename {} \; | cut -d \. -f 1 > ~/Desktop/MyAppList`date +%s.txt`
 summary: |-
-  print your iTunes App for iPhone/iTouch/iPad to show your friends which ones you have
+  输出你的iPhone/iTouch/iPad版本的iTunes应用名，向你的朋友显示你拥有哪些版本。

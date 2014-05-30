@@ -1,8 +1,7 @@
 commandlinefu_id: 2908
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo snmptrap -m ALL -v 2c -c public trapserver "" UCD-DEMO-MIB::ucdDemoPublic SNMPv2-MIB::sysLocation.0 s "Just here"
 summary: |-
-  Send SNMP traps
+  发送简单网络管理协议（SNMP）陷入信号
