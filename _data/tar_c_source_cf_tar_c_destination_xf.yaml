@@ -1,8 +1,7 @@
 commandlinefu_id: 2622
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tar -C <source> -cf - . | tar -C <destination> -xf -
 summary: |-
-  Move files around local filesystem with tar without wasting space using an intermediate tarball.
+  在本地文件系统间用tar移动文件时，使用一个一次性tarball来避免浪费空间

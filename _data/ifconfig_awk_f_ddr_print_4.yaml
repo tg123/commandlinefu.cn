@@ -1,8 +1,7 @@
 commandlinefu_id: 2765
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ifconfig | awk -F':| +'  '/ddr:/{print $4}'
 summary: |-
-  Get all IPs via ifconfig
+  通过ifconfig获取所有的IP地址

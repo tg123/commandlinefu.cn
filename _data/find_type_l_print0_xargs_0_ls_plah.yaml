@@ -1,8 +1,7 @@
 commandlinefu_id: 13281
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find ./ -type l -print0 | xargs -0 ls -plah
 summary: |-
-  Show all symlinks
+  显示所有的符号链接

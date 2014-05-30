@@ -1,8 +1,7 @@
 commandlinefu_id: 2118
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   pwsafe -qa "gpg keys"."$(finger `whoami` | grep Name | awk '{ print $4" "$5 }')"
 summary: |-
-  Safely store your gpg key passphrase.
+  安全地储存你的GPG密钥。

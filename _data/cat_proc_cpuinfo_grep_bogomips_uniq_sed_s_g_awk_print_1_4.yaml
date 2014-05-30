@@ -1,8 +1,7 @@
 commandlinefu_id: 13219
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat /proc/cpuinfo | grep BogoMIPS | uniq | sed 's/^.*://g' | awk '{print($1 / 4) }'
 summary: |-
-  calculate how much bogomips one cpu core has (assuming you have 4 cores).
+  计算每个CPU的BooMips（伪MIPS）的值（假设你有4个CPU）

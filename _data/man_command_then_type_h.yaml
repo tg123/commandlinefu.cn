@@ -1,8 +1,7 @@
 commandlinefu_id: 9492
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   man <command> then type h
 summary: |-
-  Learn searching and navigating in man like a boss
+  学习如何在man page中搜索和浏览

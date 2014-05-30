@@ -1,8 +1,7 @@
 commandlinefu_id: 11285
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo $(find <directory> -name '*.<extension>' -exec du -s {} \; | tee $(tty) | cut -f1 | tr '\n' '+') 0 | bc
 summary: |-
-  Sum files of certain extension in given directory
+  求给定目录下特定拓展名的文件的总大小

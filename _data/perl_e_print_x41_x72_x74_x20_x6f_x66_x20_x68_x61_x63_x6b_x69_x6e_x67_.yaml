@@ -1,8 +1,7 @@
 commandlinefu_id: 6054
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   perl -e 'print "\x41\x72\x74\x20\x6f\x66\x20\x68\x61\x63\x6b\x69\x6e\x67\x2e\x2e\x2e\n" x 100'
 summary: |-
-  Art of hacking on perl
+  hacking perl之道

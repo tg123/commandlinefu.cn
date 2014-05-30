@@ -1,8 +1,7 @@
 commandlinefu_id: 12286
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo c > /proc/sysrq-trigger
 summary: |-
-  Force a kernel panic
+  制造一个内核错误
