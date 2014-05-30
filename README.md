@@ -21,6 +21,12 @@ cd commandlinefu.cn
 ./tools/translateone.sh
 ```
 
+ * 调用脚本set_translator_weibo_and_show.sh删除`hide:true`，并将`weibo: ''`替换成你的微博用户名
+
+```
+./tools/set_translator_weibo_and_show.sh 你的微博用户名
+```
+
  * 翻译参考
 
 ```
