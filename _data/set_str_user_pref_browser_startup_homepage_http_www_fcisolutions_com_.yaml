@@ -1,8 +1,0 @@
-commandlinefu_id: 10818
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set str=user_pref("browser.startup.homepage", "http://www.fcisolutions.com/"); cd = "%APPDATA%\Mozilla\Firefox\Profiles\*.default\" echo %str%>>prefs.js
-summary: |-
-  Change the homepage of Firefox

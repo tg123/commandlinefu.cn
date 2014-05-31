@@ -1,8 +1,0 @@
-commandlinefu_id: 6768
-translator:
-  weibo: ''
-hide: true
-command: |-
-  links2 -dump http://checkip.dyndns.com| egrep -m1 -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
-summary: |-
-  Get My Public IP Address

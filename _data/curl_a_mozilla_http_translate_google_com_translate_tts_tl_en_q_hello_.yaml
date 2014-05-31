@@ -1,7 +1,0 @@
-commandlinefu_id: 8760
-translator:
-  weibo: codepiano
-command: |-
-  curl -A "Mozilla" "http://translate.google.com/translate_tts?tl=en&q=hello+world" | play -t mp3 -
-summary: |-
-  获取英语读音

@@ -1,8 +1,0 @@
-commandlinefu_id: 5078
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn co http://svn.ellislab.com/CodeIgniter/trunk/user_guide
-summary: |-
-  Download all files under http://codeigniter.com/user_guide/ to the current directory

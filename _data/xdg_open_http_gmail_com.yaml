@@ -1,8 +1,0 @@
-commandlinefu_id: 2627
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdg-open http://gmail.com
-summary: |-
-  Use xdg-open to avoid hard coding browser commands

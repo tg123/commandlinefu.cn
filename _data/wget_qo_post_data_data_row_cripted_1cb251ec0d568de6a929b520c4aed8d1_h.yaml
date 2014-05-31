@@ -1,8 +1,0 @@
-commandlinefu_id: 9456
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - --post-data "data[Row][cripted]=1cb251ec0d568de6a929b520c4aed8d1" http://md5-decrypter.com/  | grep -A1 "Decrypted text"  | tail -n1 | cut -d '"' -f3 | sed 's/>//g; s/<\/b//g'
-summary: |-
-  Decrypt MD5

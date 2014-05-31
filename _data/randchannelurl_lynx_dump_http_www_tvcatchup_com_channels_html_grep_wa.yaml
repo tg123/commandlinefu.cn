@@ -1,8 +1,0 @@
-commandlinefu_id: 12576
-translator:
-  weibo: ''
-hide: true
-command: |-
-  randchannelurl=$(lynx -dump http://www.tvcatchup.com/channels.html | grep watch | sed 's/^......//'| awk 'BEGIN { srand() } int(rand() * NR) == 0 { x = $0 } END { print x }') && firefox -new-window $randchannelurl
-summary: |-
-  Start a random channel from the uk site tvcatchup.com

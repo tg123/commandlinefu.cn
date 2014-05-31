@@ -1,8 +1,0 @@
-commandlinefu_id: 8758
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -A "Mozilla" "http://translate.google.com.br/translate_a/t?client=t&text=Hi+world&hl=pt-BR&sl=en&tl=pt&multires=1&ssel=0&tsel=0&sc=1" | awk -F'"' '{print $2}'
-summary: |-
-  Translates a phrase from English to Portuguese

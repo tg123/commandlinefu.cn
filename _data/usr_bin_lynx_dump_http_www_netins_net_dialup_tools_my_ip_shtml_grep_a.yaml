@@ -1,8 +1,0 @@
-commandlinefu_id: 7362
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/lynx -dump http://www.netins.net/dialup/tools/my_ip.shtml | grep -A2 "Your current IP Address is:" | tail -n1 | tr -d ' '|sed '/^$/d'| sed 's/^ *//g'
-summary: |-
-  get you public ip address

@@ -1,8 +1,0 @@
-commandlinefu_id: 13091
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O- http://bitinfocharts.com/markets/btc-e/btc-usd-1m.html |grep -o -P 'lastTrade">([0-9]{1,})(.){0,1}[0-9]{0,}USD' | cut -c 12-
-summary: |-
-  grep BTC last trading price from BTC-E, but u can change it.. they got em all

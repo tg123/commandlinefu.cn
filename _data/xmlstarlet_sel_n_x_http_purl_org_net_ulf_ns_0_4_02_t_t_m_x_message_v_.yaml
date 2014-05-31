@@ -1,8 +1,0 @@
-commandlinefu_id: 4904
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmlstarlet sel -N x="http://purl.org/net/ulf/ns/0.4-02" -T -t -m "//x:message" -v "concat(substring(@time,12,5),' &lt; ',@sender,'&gt;', ' ',.)" -n
-summary: |-
-  Extract a IRC like chat log out of an Adium xml logfile

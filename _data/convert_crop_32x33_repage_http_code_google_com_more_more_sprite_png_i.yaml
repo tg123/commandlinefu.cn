@@ -1,8 +1,0 @@
-commandlinefu_id: 9093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert -crop 32x33 +repage http://code.google.com/more/more-sprite.png icon.png
-summary: |-
-  crop google's icons

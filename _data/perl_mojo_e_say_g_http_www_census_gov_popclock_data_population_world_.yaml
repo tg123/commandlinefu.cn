@@ -1,7 +1,0 @@
-commandlinefu_id: 12649
-translator:
-  weibo: codepiano
-command: |-
-  perl -Mojo -E 'say g("http://www.census.gov/popclock/data/population/world")->json->{'world'}{'population'};'
-summary: |-
-  获取地球上当前的总人口

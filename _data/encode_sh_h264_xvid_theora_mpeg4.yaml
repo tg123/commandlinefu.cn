@@ -1,8 +1,0 @@
-commandlinefu_id: 4187
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ./encode.sh [ h264 | xvid | theora | mpeg4 ]
-summary: |-
-  http://xname.cc/text/video-streaming-on-wan.pdf   (encode.sh)

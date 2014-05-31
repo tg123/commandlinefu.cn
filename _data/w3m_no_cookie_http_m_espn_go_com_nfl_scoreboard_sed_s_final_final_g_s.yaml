@@ -1,8 +1,0 @@
-commandlinefu_id: 7038
-translator:
-  weibo: ''
-hide: true
-command: |-
-  w3m -no-cookie http://m.espn.go.com/nfl/scoreboard?|sed 's/ Final/ : Final/g'|sed 's/ F\// : F\//g'|sed 's/, / : /g'|grep -i ':'
-summary: |-
-  Get NFL/MLB Scores/Time

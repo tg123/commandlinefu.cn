@@ -1,7 +1,0 @@
-commandlinefu_id: 12659
-translator:
-  weibo: codepiano
-command: |-
-  say () { mpv $(sed -E "s;([a-Z]*)( |$);http://ssl.gstatic.com/dictionary/static/sounds/de/0/\1.mp3 ;g" <<< $*); }; say hello world "how is it" going
-summary: |-
-  让谷歌替你说话（mpv可以被替换为任何mp3解码器）

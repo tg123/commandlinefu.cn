@@ -1,7 +1,0 @@
-commandlinefu_id: 6319
-translator:
-  weibo: tgic
-command: |-
-  lucky(){ url=$(echo "http://www.google.com/search?hl=en&q=$@&btnI=I%27m+Feeling+Lucky&aq=f&oq=" | sed 's/ /+/g'); lynx $url; }; lucky "Emperor Norton"
-summary: |-
-  命令行的Google I'm Feeling Lucky

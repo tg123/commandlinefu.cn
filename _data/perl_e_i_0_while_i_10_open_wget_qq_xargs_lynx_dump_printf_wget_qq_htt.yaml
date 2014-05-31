@@ -1,8 +1,0 @@
-commandlinefu_id: 3815
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e '$i=0;while($i<10){open(WGET,qq/|xargs lynx -dump/);printf WGET qq{http://www.google.com/search?q=site:g33kinfo.com&hl=en&start=$i&sa=N},$i+=10}'|grep '\/\/g33kinfo.com\/'
-summary: |-
-  google search

@@ -1,8 +1,0 @@
-commandlinefu_id: 8206
-translator:
-  weibo: ''
-hide: true
-command: |-
-  plowdown http://www.megaupload.com/?d=abc1234567
-summary: |-
-  Plowshare, download files from cyberlocker like rapidshare megaupload ...etc

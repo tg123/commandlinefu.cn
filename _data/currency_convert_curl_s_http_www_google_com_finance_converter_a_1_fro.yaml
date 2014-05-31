@@ -1,7 +1,0 @@
-commandlinefu_id: 5122
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  currency_convert() { curl -s "http://www.google.com/finance/converter?a=$1&from=$2&to=$3" | sed '/res/!d;s/<[^>]*>//g'; }
-summary: |-
-  兑换汇率查询

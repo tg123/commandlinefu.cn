@@ -1,8 +1,0 @@
-commandlinefu_id: 2680
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  curl -A Mozilla http://www.google.com/search?q=test |html2text -width 80
-summary: |-
-  从命令行模式从Google检索

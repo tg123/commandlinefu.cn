@@ -1,7 +1,0 @@
-commandlinefu_id: 7590
-translator:
-  weibo: tgic
-command: |-
-  rtfm() { help $@ || info $@ || man $@ || $BROWSER "http://www.google.com/search?q=$@"; }
-summary: |-
-  恩... RTFM

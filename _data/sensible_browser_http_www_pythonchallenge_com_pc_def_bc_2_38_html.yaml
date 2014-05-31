@@ -1,8 +1,0 @@
-commandlinefu_id: 4767
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sensible-browser http://www.pythonchallenge.com/pc/def/$(bc <<< 2^38).html
-summary: |-
-  Python Challenge Problem 0

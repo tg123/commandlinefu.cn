@@ -1,8 +1,0 @@
-commandlinefu_id: 4211
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx --dump --source http://www.xkcd.com | grep `lynx --dump http://www.xkcd.com | egrep '(png|jpg)'` | grep title | cut -d = -f2,3 | cut -d '"' -f2,4 | sed -e 's/"/|/g' | awk -F"|" ' { system("display " $1);system("echo "$2); } '
-summary: |-
-  View the newest xkcd comic.

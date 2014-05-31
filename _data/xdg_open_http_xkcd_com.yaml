@@ -1,8 +1,0 @@
-commandlinefu_id: 6445
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdg-open http://xkcd.com/
-summary: |-
-  View the newest xkcd comic.
