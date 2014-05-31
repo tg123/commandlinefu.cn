@@ -1,8 +1,7 @@
 commandlinefu_id: 2166
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   alias lso="sudo lsof -i -T -n"
 summary: |-
-  alias for lsof -i -T -n
+  给lsof -i -T -n设置别名

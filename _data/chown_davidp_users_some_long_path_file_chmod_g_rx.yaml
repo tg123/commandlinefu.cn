@@ -1,8 +1,7 @@
 commandlinefu_id: 10888
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   chown davidp:users /some/long/path/file && chmod g+rx $_
 summary: |-
-  Get last argument of last comman using $_ var
+  使用$_特殊变量获得上一个命令的最后的参数

@@ -1,8 +1,7 @@
 commandlinefu_id: 12178
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   dd if=/dev/cdrom bs=1 skip=32808 count=32 conv=unblock cbs=32 2>/dev/null
 summary: |-
-  Get Volume ID (Label) of ISO9660 CD-ROM
+  获取ISO9660标准的CD-ROM的的Volume ID（标签）

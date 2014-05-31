@@ -1,8 +1,7 @@
 commandlinefu_id: 9179
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ffmpeg -i input.mp4 -vn -acodec copy output.m4a
 summary: |-
-  Extract audio from a video
+  从视频中提取音频

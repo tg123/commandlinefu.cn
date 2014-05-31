@@ -1,8 +1,7 @@
 commandlinefu_id: 6994
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   lynx -dump http://www.domain.com | awk '/http/{print $2}' | egrep "^https{0,1}"
 summary: |-
-  Get all links of a website
+  获取一个网站上的所有链接

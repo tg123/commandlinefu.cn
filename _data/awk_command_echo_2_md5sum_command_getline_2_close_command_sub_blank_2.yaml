@@ -1,8 +1,7 @@
 commandlinefu_id: 8436
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   awk '{command="echo "$2"|md5sum" ;command | getline $2; close(command);sub(/[[:blank:]].*/,"",$2); print $0}'
 summary: |-
-  use awk to replace field with it's md5sum
+  使用awk来替换一个域成它对应的md5sum的值

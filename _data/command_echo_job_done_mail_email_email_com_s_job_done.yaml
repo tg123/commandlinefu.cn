@@ -1,8 +1,7 @@
 commandlinefu_id: 8413
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   <command>; echo "job done"|mail email@email.com -s'job done'
 summary: |-
-  Email yourself after a job is done
+  在一个作业完成后给你自己发邮件

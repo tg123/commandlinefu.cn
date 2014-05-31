@@ -1,8 +1,7 @@
 commandlinefu_id: 4901
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   SITE="www.google.com"; curl --silent "http://www.shadyurl.com/create.php?myUrl=$SITE&shorten=on" | awk -F\' '/is now/{print $6}'
 summary: |-
-  ShadyURL via CLI
+  通过命令行的方式使用ShadyURL的服务创建短网址

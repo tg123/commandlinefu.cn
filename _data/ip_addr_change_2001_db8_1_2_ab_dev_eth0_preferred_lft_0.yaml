@@ -1,8 +1,7 @@
 commandlinefu_id: 7081
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ip addr change 2001:db8:1:2::ab dev eth0 preferred_lft 0
 summary: |-
-  Prevent an IPv6 address on an interface from being used as source address of packets.
+  防止接口的IPv6地址被作为网络包的源地址。

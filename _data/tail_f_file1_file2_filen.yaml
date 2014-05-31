@@ -1,8 +1,7 @@
 commandlinefu_id: 1302
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tail -f file1 (file2 .. fileN)
 summary: |-
-  Prints new content of files
+  将文件的内容拼接在一起

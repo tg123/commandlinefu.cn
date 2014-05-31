@@ -1,8 +1,7 @@
 commandlinefu_id: 7687
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   script -t /tmp/mylog.out 2>/tmp/mylog.time; <do your work>; <CTRL-D>; scriptreplay /tmp/mylog.time /tmp/mylog.out
 summary: |-
-  Shell recorder with replay
+  记录Shell操作，然后回放

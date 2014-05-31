@@ -1,8 +1,7 @@
 commandlinefu_id: 11590
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat myfile | tee dest1 dest2 > /dev/null 2>&1
 summary: |-
-  Copy file to multiple destinations
+  将文件复制到多个位置

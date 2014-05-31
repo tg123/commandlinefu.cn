@@ -1,8 +1,7 @@
 commandlinefu_id: 5407
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   X='pattern'; vim +/"$X" `egrep -lr "$X" *`
 summary: |-
-  Grep recursively for a pattern and open all files that match, in order, in Vim, landing on 1st match
+  用一个模式递归地用Grep搜索，并在Vim中按顺序打开所有匹配的文件
