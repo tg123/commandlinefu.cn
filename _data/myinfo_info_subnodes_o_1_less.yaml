@@ -1,8 +1,7 @@
 commandlinefu_id: 4868
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   myinfo() { info --subnodes -o - $1 | less; }
 summary: |-
-  shell function to make gnu info act like man.
+  一个让GNU info像man一样显示的shell函数。

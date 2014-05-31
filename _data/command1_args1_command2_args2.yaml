@@ -1,8 +1,7 @@
 commandlinefu_id: 8280
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   { command1 args1 ; command2 args2 ; ... }
 summary: |-
-  redirecting stdout of multiple commands
+  重定向stdout到多个命令

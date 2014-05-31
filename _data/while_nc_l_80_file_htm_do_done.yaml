@@ -1,8 +1,7 @@
 commandlinefu_id: 9978
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   while ( nc -l 80 < /file.htm > : ) ; do : ; done &
 summary: |-
-  Daemonize nc - Transmit a file like a http server
+  让nc成为守护进程 - 像一个http服务器一样传输文件
