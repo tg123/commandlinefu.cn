@@ -1,8 +1,7 @@
 commandlinefu_id: 9142
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   debconf-copydb configdb copydb --pattern=<PACKAGE> --config="Name: copydb" --config="Driver: File" --config="Filename: ~/copydebconf.dat"
 summary: |-
-  Save the debconf configuration of an installed package
+  保存一个已安装的包的debconf配置

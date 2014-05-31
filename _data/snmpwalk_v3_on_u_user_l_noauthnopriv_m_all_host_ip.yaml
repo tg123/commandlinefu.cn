@@ -1,8 +1,7 @@
 commandlinefu_id: 1650
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   snmpwalk -v3 -On -u <user> -l NoAuthNoPriv -m ALL <HOST_IP> .
 summary: |-
-  Snmpwalk a hosts's entire OID tree with SNMP V3 without Authentication or Privacy
+  通过SNMP V3协议，无需验证或私有协议，用snmpwalk遍历主机的整个OID（对象标识）树。

@@ -1,8 +1,7 @@
 commandlinefu_id: 9428
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep -c ^processor /proc/cpuinfo
 summary: |-
-  Number of CPU's in a system
+  获取系统中的CPU数目

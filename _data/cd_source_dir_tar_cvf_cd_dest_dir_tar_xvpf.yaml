@@ -1,8 +1,7 @@
 commandlinefu_id: 2656
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   (cd /source/dir ; tar cvf - .)|(cd /dest/dir ; tar xvpf -)
 summary: |-
-  Duplicate a directory tree using tar and pipes
+  使用tar和管道备份一个目录树

@@ -1,8 +1,7 @@
 commandlinefu_id: 4911
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   any_script.sh < <(some command)
 summary: |-
-  create a temporary file in a command line call
+  通过命令行调用创建一个临时文件

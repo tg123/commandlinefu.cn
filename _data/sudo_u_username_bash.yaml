@@ -1,8 +1,7 @@
 commandlinefu_id: 226
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo -u username bash
 summary: |-
-  Switch to a user with "nologin" shell
+  切换到某个用户的nologin shell

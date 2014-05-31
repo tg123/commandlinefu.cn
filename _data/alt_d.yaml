@@ -1,8 +1,7 @@
 commandlinefu_id: 9243
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ALT + d
 summary: |-
-  erase next word
+  删除下一个词
