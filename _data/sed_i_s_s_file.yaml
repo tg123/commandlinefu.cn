@@ -1,8 +1,7 @@
 commandlinefu_id: 6429
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
-  sed -i 's/^\s\+//' <file>
+  sed -i 's/\s\+$//' <file>
 summary: |-
-  delete all trailing whitespace from each line in file
+  删除文件中每行末尾的空格

@@ -1,8 +1,7 @@
 commandlinefu_id: 2447
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep -v "^\W$" <filename>
 summary: |-
-  Match non-empty lines
+  匹配非空行

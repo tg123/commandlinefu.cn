@@ -1,8 +1,7 @@
 commandlinefu_id: 5439
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo StrinG | tr '[:upper:]' '[:lower:]'
 summary: |-
-  Converts uppercase chars in a string to lowercase
+  将一个字符串中的大写字母转换成小写
