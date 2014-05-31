@@ -1,8 +1,7 @@
 commandlinefu_id: 1052
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps aux | grep -i firefox | grep -v grep | awk '{print $2}' | xargs -t -i kill -9 {}
 summary: |-
-  This is a nice way to kill processes.. the example below is for firefox!!! substitute firefox for whatever the process name is...
+  杀死所有进程(用firefox举例)
