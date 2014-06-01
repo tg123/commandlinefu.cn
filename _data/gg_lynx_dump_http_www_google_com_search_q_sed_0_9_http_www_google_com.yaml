@@ -1,8 +1,0 @@
-commandlinefu_id: 10640
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gg(){ lynx -dump http://www.google.com/search?q=$@ | sed '/[0-9]*\..http:\/\/www.google.com\/search?q=related:/!d;s/...[0-9]*\..http:\/\/www.google.com\/search?q=related://;s/&hl=//';}
-summary: |-
-  Search google and show only urls

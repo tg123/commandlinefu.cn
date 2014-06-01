@@ -1,8 +1,0 @@
-commandlinefu_id: 6940
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sunrise() { city=${1-Seattle}; w3m "google.com/search?q=sunrise:$city" | sed -r '1,/^\s*1\./d; /^\s*2\./,$d; /^$/d' ;}
-summary: |-
-  Get sunrise time for any city, by name

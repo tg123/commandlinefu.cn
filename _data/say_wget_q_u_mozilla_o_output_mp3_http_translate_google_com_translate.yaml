@@ -1,8 +1,0 @@
-commandlinefu_id: 9205
-translator:
-  weibo: ''
-hide: true
-command: |-
-  say() { wget -q -U Mozilla -O output.mp3 "http://translate.google.com/translate_tts?tl=en&q=$1"; gnome-terminal -x bash -c "totem output.mp3"; sleep 4; totem --quit;}
-summary: |-
-  Gets the english pronunciation of a phrase

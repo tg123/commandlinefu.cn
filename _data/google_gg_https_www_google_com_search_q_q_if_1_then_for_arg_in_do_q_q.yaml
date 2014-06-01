@@ -1,8 +1,0 @@
-commandlinefu_id: 12588
-translator:
-  weibo: ''
-hide: true
-command: |-
-  google() { gg="https://www.google.com/search?q=";q="";if [[ $1 ]]; then for arg in "$@" ; do q="$q+$arg"; done ; if [[ -f /usr/bin/chromium ]]; then chromium "$gg"$q; else firefox -new-tab "$gg"$q; fi else echo 'Usage: google "[seach term]"'; fi }
-summary: |-
-  Do Google search from the shell, opening into Chromium or a new Firefox tab if not installed.

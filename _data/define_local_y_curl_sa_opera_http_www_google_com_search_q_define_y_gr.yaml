@@ -1,7 +1,0 @@
-commandlinefu_id: 4745
-translator:
-  weibo: tgic
-command: |-
-  define(){ local y="$@";curl -sA"Opera" "http://www.google.com/search?q=define:${y// /+}"|grep -Eo '<li>[^<]+'|sed 's/^<li>//g'|nl|/usr/bin/perl -MHTML::Entities -pe 'decode_entities($_)';}
-summary: |-
-  翻译单词

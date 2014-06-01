@@ -1,8 +1,0 @@
-commandlinefu_id: 9326
-translator:
-  weibo: ''
-hide: true
-command: |-
-  p=$(echo "hello world, how r u?"|sed 's/ /+/g');wget -U Mozilla -q -O - "$@" translate.google.com/translate_tts?tl=en\&q=$p|mpg123 -
-summary: |-
-  Google text-to-speech in mp3 format

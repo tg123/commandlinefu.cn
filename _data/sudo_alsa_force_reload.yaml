@@ -1,8 +1,7 @@
 commandlinefu_id: 736
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo alsa force-reload
 summary: |-
-  reloads sound when it stop playing
+  重启声卡

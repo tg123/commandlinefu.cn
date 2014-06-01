@@ -1,8 +1,0 @@
-commandlinefu_id: 6728
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/man $* || w3m -dump http://google.com/search?q="$*"\&btnI | less
-summary: |-
-  Extended man command

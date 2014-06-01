@@ -1,8 +1,0 @@
-commandlinefu_id: 12120
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Q="YOURSEARCH"; GOOG_URL="http://www.google.com/search?q="; AGENT="Mozilla/4.0"; stream=$(curl -A "$AGENT" -skLm 10 "${GOOG_URL}\"${Q/\ /+}\"" | grep -oP '\/url\?q=.+?&amp' | sed 's/\/url?q=//;s/&amp//'); echo -e "${stream//\%/\x}"
-summary: |-
-  Search google.com on your terminal

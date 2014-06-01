@@ -1,8 +1,0 @@
-commandlinefu_id: 12578
-translator:
-  weibo: ''
-hide: true
-command: |-
-  google() { gg="https://www.google.com/search?q="; ff="firefox"; if [[ $1 ]]; then "$ff" -new-tab "$gg"$(echo ${1//[^a-zA-Z0-9]/+}); else echo 'Usage: google "[seach term]"'; fi }
-summary: |-
-  Do Google search from that command line opening into a new Firefox tab.

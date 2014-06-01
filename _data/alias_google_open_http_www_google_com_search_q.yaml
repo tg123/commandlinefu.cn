@@ -1,7 +1,0 @@
-commandlinefu_id: 8744
-translator:
-  weibo: tgic
-command: |-
-  alias google='open http://www.google.com/search?q="'
-summary: |-
-  在OS X的命令行中使用google

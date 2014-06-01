@@ -1,8 +1,0 @@
-commandlinefu_id: 9771
-translator:
-  weibo: ''
-hide: true
-command: |-
-  say() { curl -sA Mozilla -d q=`python3 -c 'from urllib.parse import quote_plus; from sys import stdin; print(quote_plus(stdin.read()[:100]))' <<<"$@"` 'http://translate.google.com/translate_tts' | mpg123 -q -; }
-summary: |-
-  google tts
