@@ -1,8 +1,7 @@
 commandlinefu_id: 10465
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -name "*.*" -exec cat {} > totalLines 2> /dev/null \; && wc -l totalLines && rm totalLines
 summary: |-
-  Get Total Line Count Of All Files In Subdirectory (Recursive)
+  获取目录和子目录的文件总行数

@@ -1,8 +1,0 @@
-commandlinefu_id: 1312
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/zero > /dev/null &
-summary: |-
-  put nothing nowhere

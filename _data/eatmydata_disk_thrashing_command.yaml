@@ -1,8 +1,0 @@
-commandlinefu_id: 10363
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eatmydata disk_thrashing_command
-summary: |-
-  Do stuff on disk more quickly

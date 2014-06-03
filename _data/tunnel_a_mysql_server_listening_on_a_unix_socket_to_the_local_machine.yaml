@@ -1,7 +1,0 @@
-commandlinefu_id: 9436
-translator:
-  weibo: tgic
-command: |-
-  Tunnel a MySQL server listening on a UNIX socket to the local machine
-summary: |-
-  把远程的socket映射到本地
