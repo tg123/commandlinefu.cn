@@ -1,8 +1,7 @@
 commandlinefu_id: 11567
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vi scp://username@host//path/to/somefile
 summary: |-
-  vi a remote file
+  用vi打开远程的文件

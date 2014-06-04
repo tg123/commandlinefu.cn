@@ -1,8 +1,0 @@
-commandlinefu_id: 9171
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep . *
-summary: |-
-  cat a bunch of small files with file indication

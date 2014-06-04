@@ -1,8 +1,7 @@
 commandlinefu_id: 2316
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apropos keyword
 summary: |-
-  greps the man pages to find utilities
+  从manpage中找到想要的工具

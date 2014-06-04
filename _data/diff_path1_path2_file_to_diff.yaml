@@ -1,8 +1,7 @@
 commandlinefu_id: 4737
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff {$path1,$path2}/file_to_diff
 summary: |-
-  diff the same file in two directories.
+  比较两个目录的同名文件
