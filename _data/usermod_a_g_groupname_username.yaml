@@ -1,8 +1,7 @@
 commandlinefu_id: 627
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   usermod -a -G groupname username
 summary: |-
-  Add existing user to a group
+  把用户加入组

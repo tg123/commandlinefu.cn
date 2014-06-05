@@ -1,8 +1,0 @@
-commandlinefu_id: 1221
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mii-tool [if]
-summary: |-
-  Check the status of a network interface

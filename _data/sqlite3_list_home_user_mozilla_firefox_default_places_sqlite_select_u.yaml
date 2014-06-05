@@ -1,8 +1,0 @@
-commandlinefu_id: 4603
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sqlite3  -list /home/$USER/.mozilla/firefox/*.default/places.sqlite 'select url from moz_places ;' | grep http
-summary: |-
-  change dinosaur poop into gold

@@ -1,8 +1,7 @@
 commandlinefu_id: 11978
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ifconfig eth0|awk '/HWaddr/{gsub(/:/,"",$5);print $5}'
 summary: |-
-  easy seach ip
+  获取ip

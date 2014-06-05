@@ -1,8 +1,7 @@
 commandlinefu_id: 11942
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./ -type f -mtime +365 -exec rm -f {} \;
 summary: |-
-  Find and remove files older than 365 days
+  删除1年前的文件
