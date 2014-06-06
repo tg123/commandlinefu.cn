@@ -1,8 +1,7 @@
 commandlinefu_id: 5088
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fromdos *
 summary: |-
-  Convert files from DOS line endings to UNIX line endings
+  把文本文件转成unix格式(deb CRLF->LF)

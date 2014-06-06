@@ -1,8 +1,7 @@
 commandlinefu_id: 5120
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn up | sed 's/\.//g' | cut -d ' ' -f3 | xargs svn log -r
 summary: |-
-  show last revision log on svn update
+  显示最后更新的版本
