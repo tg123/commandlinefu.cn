@@ -1,8 +1,7 @@
 commandlinefu_id: 11601
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn log -l1000 SVN_URL | sed -n '/USERNAME/,/-----$/ p'
 summary: |-
-  get svn log by the user
+  按用户获取svn日志

@@ -1,8 +1,7 @@
 commandlinefu_id: 6013
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -eo user | sort -u
 summary: |-
-  Shows users and 'virtual users' on your a unix-type system
+  显示所有有活动进程的用户

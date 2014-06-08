@@ -1,8 +1,7 @@
 commandlinefu_id: 8996
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wc -L
 summary: |-
-  output length of longest line
+  输出最长行
