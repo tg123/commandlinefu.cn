@@ -1,8 +1,7 @@
 commandlinefu_id: 1654
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   seq 50| awk 'BEGIN {a=1; b=1} {print a; c=a+b; a=b; b=c}'
 summary: |-
-  Fibonacci numbers with awk
+  使用awk生成Fibonacci数列

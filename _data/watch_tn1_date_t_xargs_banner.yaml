@@ -1,8 +1,7 @@
 commandlinefu_id: 9732
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -tn1 'date +%T | xargs banner'
 summary: |-
-  ascii digital clock
+  数字时钟

@@ -1,8 +1,7 @@
 commandlinefu_id: 8419
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :33,61 !sort
 summary: |-
-  Sort specific lines while editing within vi
+  在vim中排序特定的行 33-61行

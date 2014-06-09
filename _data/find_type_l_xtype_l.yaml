@@ -1,8 +1,7 @@
 commandlinefu_id: 10742
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type l -xtype l
 summary: |-
-  Find broken symlinks
+  查找失效的符号链接

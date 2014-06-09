@@ -1,8 +1,0 @@
-commandlinefu_id: 6938
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo dpkg -P  $(dpkg -l | grep -i adobeair)
-summary: |-
-  uninstall Air on Ubuntu
