@@ -1,8 +1,7 @@
 commandlinefu_id: 1449
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -n $HEXBYTES | xxd -r -p | dd of=$FILE seek=$((0x$OFFSET)) bs=1 conv=notrunc
 summary: |-
-  Binary injection
+  在文件插入二进制内容

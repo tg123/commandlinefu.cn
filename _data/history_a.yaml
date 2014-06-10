@@ -1,8 +1,7 @@
 commandlinefu_id: 11047
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   history -a
 summary: |-
-  Save history without logout
+  保存历史记录

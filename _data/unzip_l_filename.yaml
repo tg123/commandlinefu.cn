@@ -1,8 +1,7 @@
 commandlinefu_id: 3941
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   unzip -l <filename>
 summary: |-
-  List files contained within a zip archive
+  查看zip中内容

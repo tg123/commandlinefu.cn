@@ -1,8 +1,7 @@
 commandlinefu_id: 1755
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apg -a 0 -n 10
 summary: |-
-  Generate 10 pronunciable passwords
+  生成10个容易发音的密码(好记)

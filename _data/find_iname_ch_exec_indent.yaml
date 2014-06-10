@@ -1,8 +1,7 @@
 commandlinefu_id: 6562
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -iname \*.[ch] -exec indent "{}" \;
 summary: |-
-  Indent all the files in a project using indent
+  统一工程中文件的缩进
