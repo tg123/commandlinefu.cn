@@ -1,8 +1,7 @@
 commandlinefu_id: 10028
 translator:
-  weibo: ''
-hide: true
+  weibo: 没想到321 
 command: |-
   type -t $1
 summary: |-
-  Determine command type (alias, keyword, function, builtin, or file)
+  确定此命令的类型 (alias, keyword, function, builtin, or file)

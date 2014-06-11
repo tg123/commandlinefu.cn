@@ -1,8 +1,7 @@
 commandlinefu_id: 10480
 translator:
-  weibo: ''
-hide: true
+  weibo: 没想到321 
 command: |-
   fc
 summary: |-
-  Rapidly invoke an editor to write a long, complex, or tricky command
+  提供了一个快速方法，来打开编辑器，书写一段你想写的命令. 最近一次的命令行会被写进编辑器里

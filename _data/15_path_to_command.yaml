@@ -1,8 +1,7 @@
 commandlinefu_id: 3260
 translator:
-  weibo: ''
-hide: true
+  weibo: 没想到321 
 command: |-
   */15 * * * * /path/to/command
 summary: |-
-  Run a cron job every 15 mins past the hour
+  每隔15分钟跑一个定时程序  
