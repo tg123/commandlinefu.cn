@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ "$(uname)" == "Darwin" ]; then
 	BASEDIR=$(dirname $0)
 else
@@ -29,3 +28,6 @@ while true; do
     c=$((c+1))
     c=$((c%total))
 done
+
+
+

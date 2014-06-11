@@ -1,8 +1,8 @@
 commandlinefu_id: 3271
 translator:
-  weibo: ''
+  weibo: '没想到321'
 hide: true
 command: |-
   awk '{print substr($0, index($0,$N))}'
 summary: |-
-  Print all fields in a file/output from field N to the end of the line
+  awk会根据分隔符（默认是空格，\t）将字符串分割成类似于字符串数组，每一个数组成员被称为“域”。此命令会将输入文件逐行处理，即逐行输出第N个域，到行末尾的字符串 
