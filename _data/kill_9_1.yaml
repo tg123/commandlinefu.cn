@@ -1,8 +1,7 @@
 commandlinefu_id: 6970
 translator:
-  weibo: ''
-hide: true
+  weibo: 没想到321
 command: |-
   kill -9 -1
 summary: |-
-  kill all process that belongs to you
+  停止所有由你运行的进程
