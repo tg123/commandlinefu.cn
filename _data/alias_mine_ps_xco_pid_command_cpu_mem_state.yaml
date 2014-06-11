@@ -1,8 +1,7 @@
 commandlinefu_id: 1124
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias mine='ps xco pid,command,%cpu,%mem,state'
 summary: |-
-  quickly show me interesting data about my processes
+  自己启动的进程的有用信息
