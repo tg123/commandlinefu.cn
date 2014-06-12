@@ -1,8 +1,7 @@
 commandlinefu_id: 937
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -exec chmod 0644 {} \;
 summary: |-
-  "Reset" file permissions
+  把所有文件权限修订为0644

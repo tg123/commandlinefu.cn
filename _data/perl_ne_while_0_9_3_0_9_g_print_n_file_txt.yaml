@@ -1,8 +1,7 @@
 commandlinefu_id: 1820
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -ne 'while (/([0-9]+\.){3}[0-9]+/g) {print "$&\n"};' file.txt
 summary: |-
-  Prints any IP out of a file
+  从文件中提取ip

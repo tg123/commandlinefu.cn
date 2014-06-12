@@ -1,8 +1,7 @@
 commandlinefu_id: 3730
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tr '[:lower:]' '[:upper:]' <"$1"
 summary: |-
-  Transforms a file to all uppercase.
+  转换文件为全部大写

@@ -1,8 +1,0 @@
-commandlinefu_id: 9489
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ^Rssh
-summary: |-
-  Print without executing the last command that starts with...

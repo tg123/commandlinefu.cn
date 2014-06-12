@@ -1,8 +1,7 @@
 commandlinefu_id: 12131
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   man <COMMAND>
 summary: |-
-  Get some useful Information
+  找男人

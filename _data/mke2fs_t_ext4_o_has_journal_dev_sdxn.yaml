@@ -1,8 +1,7 @@
 commandlinefu_id: 11898
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mke2fs -t ext4 -O ^has_journal /dev/sdXN
 summary: |-
-  Format partition with ext4 but without a journal
+  格式化成非日志ext4
