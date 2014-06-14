@@ -1,8 +1,7 @@
 commandlinefu_id: 4331
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/sda | tee >(dd of=/dev/sdb) | dd of=/dev/sdc
 summary: |-
-  Duplicate several drives concurrently
+  并发复制硬盘

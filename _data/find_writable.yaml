@@ -1,8 +1,7 @@
 commandlinefu_id: 1893
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find -writable
 summary: |-
-  Find writable files
+  寻找可写的文件

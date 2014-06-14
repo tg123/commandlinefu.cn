@@ -1,8 +1,0 @@
-commandlinefu_id: 12764
-translator:
-  weibo: ''
-hide: true
-command: |-
-  host -t TXT _netblocks.google.com 8.8.8.8
-summary: |-
-  grab all of google IPv4 network blocks

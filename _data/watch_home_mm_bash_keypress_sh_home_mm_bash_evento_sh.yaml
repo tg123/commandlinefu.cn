@@ -1,8 +1,0 @@
-commandlinefu_id: 2377
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch '/home/mm/bash/keypress.sh |/home/mm/bash/evento.sh'
-summary: |-
-  alarm central using keyboard as zone inputs ( output spoken out aloud )

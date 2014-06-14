@@ -1,8 +1,7 @@
 commandlinefu_id: 5996
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim !$
 summary: |-
-  use !$ to retrieve filename used with last command
+  用vim打开刚才命令使用的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 10313
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias sortfast='sort -S$(($(sed '\''/MemF/!d;s/[^0-9]*//g'\'' /proc/meminfo)/2048)) $([ `nproc` -gt 1 ]&&echo -n --parallel=`nproc`)'
-summary: |-
-  Fastest Sort. Sort Faster, Max Speed
