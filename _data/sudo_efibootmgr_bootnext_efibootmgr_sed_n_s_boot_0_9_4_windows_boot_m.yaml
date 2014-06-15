@@ -1,0 +1,8 @@
+commandlinefu_id: 13435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo efibootmgr --bootnext `efibootmgr | sed -n "s/^Boot\([0-9]\{4\}\)\* Windows Boot Manager$/\1/p"` && reboot
+summary: |-
+  Reboot to Windows (UEFI)

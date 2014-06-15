@@ -1,0 +1,8 @@
+commandlinefu_id: 13483
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wakeonlan 00:00:DE:AD:BE:EF
+summary: |-
+  Wake up a remote computer

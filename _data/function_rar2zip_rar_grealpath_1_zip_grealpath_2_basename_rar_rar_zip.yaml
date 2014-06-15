@@ -1,0 +1,8 @@
+commandlinefu_id: 13434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function rar2zip { rar="$(grealpath "$1")"; zip="$(grealpath "${2:-$(basename "$rar" .rar).zip}")"; d=$(mktemp -d /tmp/rar2zip.XXXXXX); cd "$d"; unrar x "$rar"; zip -r "$zip" *; cd -; rm -r "$d"; }
+summary: |-
+  convert rar to zip

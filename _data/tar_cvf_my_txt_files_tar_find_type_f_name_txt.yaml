@@ -1,0 +1,8 @@
+commandlinefu_id: 13442
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvf my_txt_files.tar `find . -type f -name ".txt"`
+summary: |-
+  Create a tar archive with all files of a certain type found in present dir and subdirs

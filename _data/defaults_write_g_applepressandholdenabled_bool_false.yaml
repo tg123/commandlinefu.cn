@@ -1,0 +1,8 @@
+commandlinefu_id: 13457
+translator:
+  weibo: ''
+hide: true
+command: |-
+  defaults write -g ApplePressAndHoldEnabled -bool false
+summary: |-
+  Make keyboard keys repeat properly

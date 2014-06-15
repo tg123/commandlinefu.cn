@@ -1,0 +1,8 @@
+commandlinefu_id: 13472
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mktemp!() { mktemp $TMPDIR$1.XXXXXXXXXX }
+summary: |-
+  Shorthand for proper mktemp inside $TMPDIR

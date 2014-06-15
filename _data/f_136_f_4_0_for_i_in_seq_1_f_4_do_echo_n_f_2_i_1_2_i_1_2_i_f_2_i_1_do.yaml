@@ -1,0 +1,8 @@
+commandlinefu_id: 13471
+translator:
+  weibo: ''
+hide: true
+command: |-
+  F=136; [[ $(($F % 4)) == 0 ]] && for i in $(seq 1 $(($F/4))); do echo -n $(($F-2*($i-1))),$((2*$i-1)),$((2*$i)),$(($F-2*$i+1)),; done | sed 's/,$/\n/' || echo "Make F a multiple of 4."
+summary: |-
+  Adequately order the page numbers to print a booklet

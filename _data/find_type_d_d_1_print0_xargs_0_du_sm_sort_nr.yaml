@@ -1,0 +1,8 @@
+commandlinefu_id: 13454
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -d 1 -print0 | xargs -0 du -sm | sort -nr
+summary: |-
+  Find directories in pwd, get disk usage, sort results

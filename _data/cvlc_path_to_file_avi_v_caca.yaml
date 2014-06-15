@@ -1,0 +1,8 @@
+commandlinefu_id: 13482
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cvlc /path/to/file.avi -V caca
+summary: |-
+  Watch Video Files in the Terminal

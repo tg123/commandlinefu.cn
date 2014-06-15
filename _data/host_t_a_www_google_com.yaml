@@ -1,0 +1,8 @@
+commandlinefu_id: 13436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host -t a www.google.com
+summary: |-
+  url to ip

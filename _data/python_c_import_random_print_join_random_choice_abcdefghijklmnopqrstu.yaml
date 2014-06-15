@@ -1,0 +1,8 @@
+commandlinefu_id: 13470
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c 'import random; print "".join([random.choice("abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*-_=+") for i in range(10)])'
+summary: |-
+  Generate a random password using python and random lib.

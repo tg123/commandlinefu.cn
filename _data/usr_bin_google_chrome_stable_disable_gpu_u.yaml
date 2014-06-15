@@ -1,0 +1,8 @@
+commandlinefu_id: 13445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/bin/google-chrome-stable --disable-gpu %U
+summary: |-
+  disable gpu acceleration for google chrome browser

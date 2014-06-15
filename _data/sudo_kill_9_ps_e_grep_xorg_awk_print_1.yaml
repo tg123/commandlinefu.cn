@@ -1,0 +1,8 @@
+commandlinefu_id: 13437
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo kill -9 $( ps -e | grep Xorg | awk '{ print $1 }' )
+summary: |-
+  Kill the X Server

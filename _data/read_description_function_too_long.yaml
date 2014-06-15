@@ -1,0 +1,8 @@
+commandlinefu_id: 13484
+translator:
+  weibo: ''
+hide: true
+command: |-
+  READ DESCRIPTION (Function too long)
+summary: |-
+  Use wbinfo to output a table with basic user information from the default domain controller.

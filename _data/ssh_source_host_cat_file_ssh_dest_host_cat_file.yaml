@@ -1,0 +1,8 @@
+commandlinefu_id: 13430
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh <source host> "cat file" | ssh <dest host> "cat - > file"
+summary: |-
+  Copy files between hosts while on a proxy host

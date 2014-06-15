@@ -1,0 +1,8 @@
+commandlinefu_id: 13420
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do clear;awk '{a[$3]+=1};END{for(x in a){print x,a[x]}}' /proc/[0-9]*/stat; sleep 1; done
+summary: |-
+  Displays the number of processes per state

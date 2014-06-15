@@ -1,0 +1,8 @@
+commandlinefu_id: 13415
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp username@computer:"path/To/File1 path/To/File2" destination/
+summary: |-
+  copy multiple files using SCP

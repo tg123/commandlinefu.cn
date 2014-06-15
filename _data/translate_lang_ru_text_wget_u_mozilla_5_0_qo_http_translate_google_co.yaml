@@ -1,0 +1,8 @@
+commandlinefu_id: 13468
+translator:
+  weibo: ''
+hide: true
+command: |-
+  translate () {lang="ru"; text=$*; wget -U "Mozilla/5.0" -qO - "http://translate.google.com/translate_a/t?client=t&text=$text&sl=auto&tl=$lang" | sed 's/\[\[\[\"//' | cut -d \" -f 1}
+summary: |-
+  Google Translate

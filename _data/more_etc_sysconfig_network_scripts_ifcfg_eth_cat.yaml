@@ -1,0 +1,8 @@
+commandlinefu_id: 13465
+translator:
+  weibo: ''
+hide: true
+command: |-
+  more /etc/sysconfig/network-scripts/ifcfg-eth* | cat
+summary: |-
+  aggregate several small files together with headers

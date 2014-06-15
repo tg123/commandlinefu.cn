@@ -1,0 +1,8 @@
+commandlinefu_id: 13443
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig MX example.com +short | cut -d' ' -f2 | sed '1q;d' | xargs dig +short
+summary: |-
+  extracting the email-server's ip-address.

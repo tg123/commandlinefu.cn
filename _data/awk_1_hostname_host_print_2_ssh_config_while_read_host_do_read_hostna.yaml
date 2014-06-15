@@ -1,0 +1,8 @@
+commandlinefu_id: 13416
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '$1 ~ "^(HostName|Host)$" { print $2 }' ~/.ssh/config  | while read Host; do read HostName; echo "$Host ->  $HostName"; done | column -t
+summary: |-
+  Extract shortcuts and hostnames from .ssh/config

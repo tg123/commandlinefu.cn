@@ -1,0 +1,8 @@
+commandlinefu_id: 13408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd <mntpoint>; find . -xdev -size +10000000c -exec ls -l {} \; | sort -n -k 5
+summary: |-
+  for a particular file system, find all files > 10MBytes, sorted by size

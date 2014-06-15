@@ -1,0 +1,8 @@
+commandlinefu_id: 13461
+translator:
+  weibo: ''
+hide: true
+command: |-
+  NUM=-1; while NUM=`echo $NUM + 1 | bc`; do echo $NUM && sleep 1; done
+summary: |-
+  Chronometer

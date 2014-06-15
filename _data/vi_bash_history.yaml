@@ -1,0 +1,8 @@
+commandlinefu_id: 13417
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ vi .bash_history
+summary: |-
+  allows you to view your .bash_history file

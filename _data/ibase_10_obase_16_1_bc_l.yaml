@@ -1,0 +1,8 @@
+commandlinefu_id: 13438
+translator:
+  weibo: ''
+hide: true
+command: |-
+  "ibase=10;obase=16;$1" | bc -l
+summary: |-
+  Converts from base 10 to base 16

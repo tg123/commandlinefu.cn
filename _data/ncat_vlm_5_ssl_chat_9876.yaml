@@ -1,0 +1,8 @@
+commandlinefu_id: 13460
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ncat -vlm 5 --ssl --chat 9876
+summary: |-
+  Simple multi-user encrypted chat server for 5 users

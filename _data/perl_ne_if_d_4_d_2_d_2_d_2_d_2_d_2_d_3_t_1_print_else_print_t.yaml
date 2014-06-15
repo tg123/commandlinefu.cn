@@ -1,0 +1,8 @@
+commandlinefu_id: 13409
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -ne 'if (/^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3} )/ ) { $t=$1; print $_ } else { print $t . $_ }'
+summary: |-
+  Copy timestamps to all lines in a log file
