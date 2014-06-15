@@ -1,8 +1,7 @@
 commandlinefu_id: 11003
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat ~/.ssh/id_rsa.pub | ssh tester@10.2.6.10 "mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys; chmod 600 ~/.ssh/authorized_keys"
 summary: |-
-  Copy your ssh public key to a server from a machine that doesn't have ssh-copy-id
+  从一个没有ssh-copy-id的机器上，复制你的ssh public key到服务器。

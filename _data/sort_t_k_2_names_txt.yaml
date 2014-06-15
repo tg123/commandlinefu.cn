@@ -1,8 +1,7 @@
 commandlinefu_id: 10917
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sort -t: -k 2 names.txt
 summary: |-
-  Sort using kth column using : delimiter
+  使用`:`作为分隔符。排序第k列

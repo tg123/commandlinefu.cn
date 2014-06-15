@@ -1,8 +1,7 @@
 commandlinefu_id: 2563
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   rsync -rtvu --modify-window=1 --progress /media/SOURCE/ /media/TARGET/
 summary: |-
-  Backup files incremental with rsync to a NTFS-Partition
+  使用rsync来增量备份文件到一个NTFS分区中

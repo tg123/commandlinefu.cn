@@ -1,8 +1,7 @@
 commandlinefu_id: 11654
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   mencoder "${file}" -of rawaudio -oac mp3lame -ovc copy -o "${file%.*}.mp3"
 summary: |-
-  Extract audio stream from an video file using mencoder
+  使用mencoder来从视频文件中提取音频流

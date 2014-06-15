@@ -1,8 +1,7 @@
 commandlinefu_id: 9835
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cvs -Q status | perl -ne 'print if m/^File.+Status: (?!Up-to-date)/ .. m/^=/;'
 summary: |-
-  List only locally modified files with CVS
+  列出在CVS中，本地已经修改过的文件

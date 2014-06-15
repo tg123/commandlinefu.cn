@@ -1,8 +1,7 @@
 commandlinefu_id: 5327
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   awk '{a[$1] += $2} END { for (i in a) {print i " " a[i]}}' /path/to/file
 summary: |-
-  Take a file as input (two columns data format) and sum values on the 2nd column for all lines that have the same value in 1st column
+  接受一个（两列数据格式的）文件作为输入，并以第一列中值相同的行数作为第二列的值。

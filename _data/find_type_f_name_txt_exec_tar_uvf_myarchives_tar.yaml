@@ -1,8 +1,7 @@
 commandlinefu_id: 11062
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find ./ -type f -name "*.txt" -exec tar uvf myarchives.tar {} +
 summary: |-
-  Create a tar archive with all files of a certain type found in present dir and subdirs
+  以当前文件夹及其子文件夹内的特定类型文件创建一个tar存档
