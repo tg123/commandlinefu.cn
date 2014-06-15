@@ -1,8 +1,7 @@
 commandlinefu_id: 11331
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   brd = "! f() { for k in $(git branch $@ | sed 's/^..//; s/ .*//'); do  echo "$(git log -1 --pretty='%Cgreen%ci %Cblue(%cr)%Creset ' $k) $k" ;  done | sort -r; }; f"
 summary: |-
-  Show git branches by date - useful for showing active branches
+  依据日期来展示git分支 - 在查看当前活跃分支时会有用。

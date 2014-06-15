@@ -1,8 +1,7 @@
 commandlinefu_id: 10317
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   diff -dbByw $COLUMNS FILE1 FILE2
 summary: |-
-  Display diffed files sidebyside, with minimal differences, using the full width of the terminal.
+  在跟终端同宽的宽度下，背靠背展示两个文件的最小差异。

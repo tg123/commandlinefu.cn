@@ -1,8 +1,7 @@
 commandlinefu_id: 11159
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sed 's/#.*//' /etc/fstab | column -t
 summary: |-
-  list all available disks and disk partitions
+  列出所有可用的磁盘和磁盘分区

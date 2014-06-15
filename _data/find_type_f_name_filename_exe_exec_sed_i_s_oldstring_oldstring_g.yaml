@@ -1,8 +1,7 @@
 commandlinefu_id: 12353
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -type f -name filename.exe -exec sed -i "s/oldstring/oldstring/g" {} +;
 summary: |-
-  Recursively search and replace old with new string, inside every instance of filename.ext
+  在任何跟'filename.exe'同名的文件中查找并替换目标字符串。

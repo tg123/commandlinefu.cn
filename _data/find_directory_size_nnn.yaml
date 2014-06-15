@@ -1,8 +1,7 @@
 commandlinefu_id: 2446
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find directory -size +nnn
 summary: |-
-  Find Files That Exceed a Specified Size Limit
+  查找超过指定大小的文件

@@ -1,8 +1,8 @@
 commandlinefu_id: 12956
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   clush -w 192.168.100.[1-50] -t 10 'uptime'
 summary: |-
-  for ssh uptime
+  简化通过ssh进行uptime的操作。
+  等价于for k in `seq -w 1 50` ; do ssh 192.168.100.$k uptime ; done
