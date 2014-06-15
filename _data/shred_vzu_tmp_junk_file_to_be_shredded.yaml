@@ -1,8 +1,7 @@
 commandlinefu_id: 2450
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   shred -vzu /tmp/junk-file-to-be-shredded
 summary: |-
-  securely overwrite a file with random junk, rename it to clear the directory entry and finally delete it
+  安全的重写一个文件

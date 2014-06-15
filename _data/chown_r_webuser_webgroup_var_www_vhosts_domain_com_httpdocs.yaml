@@ -1,8 +1,7 @@
 commandlinefu_id: 4430
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   chown -R webuser:webgroup  /var/www/vhosts/domain.com/httpdocs
 summary: |-
-  Set Permission to user and group
+  批量修订一个目录的所有者

@@ -1,8 +1,0 @@
-commandlinefu_id: 371
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert +adjoin animatedImage.gif test.gif ; convert +append test*.gif
-summary: |-
-  Separates each frame of a animated gif file to a counted file, then appends the frames together into one sheet file. Useful for making sprite sheets for games.

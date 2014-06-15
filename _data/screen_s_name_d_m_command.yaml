@@ -1,8 +1,7 @@
 commandlinefu_id: 11117
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen -S [name] -d -m [<command>]
 summary: |-
-  starts a detached screen with name
+  创建screen 时候带一个别名
