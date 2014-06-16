@@ -1,8 +1,7 @@
 commandlinefu_id: 3025
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mkdir 0{0..9}{0..9};mv 000 100
 summary: |-
-  make 100 directories with leading zero, 001...100, using bash3.X
+  创建 001 ... 100 个目录

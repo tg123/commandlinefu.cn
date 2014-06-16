@@ -1,8 +1,7 @@
 commandlinefu_id: 1099
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -tap | grep mysql
 summary: |-
-  Find out if MySQL is up and listening on Linux
+  检查mysql是否在监听

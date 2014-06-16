@@ -1,8 +1,7 @@
 commandlinefu_id: 3231
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed 's/:/\n/g' <<<$PATH
 summary: |-
-  Terminal - Show directories in the PATH, one per line with sed and bash3.X `here string'
+  每行一个现实PATH内容

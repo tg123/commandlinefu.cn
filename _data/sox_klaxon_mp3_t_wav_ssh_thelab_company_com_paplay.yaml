@@ -1,8 +1,7 @@
 commandlinefu_id: 6190
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sox Klaxon.mp3 -t wav - |ssh thelab@company.com paplay
 summary: |-
-  Stream audio over ssh
+  在远端播放mp3

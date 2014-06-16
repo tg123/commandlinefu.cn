@@ -1,8 +1,7 @@
 commandlinefu_id: 12129
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   shutdown now -r
 summary: |-
-  Reboot
+  重启

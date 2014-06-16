@@ -1,8 +1,0 @@
-commandlinefu_id: 5482
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep <something> logfile | cut -c2-18 | uniq -c
-summary: |-
-  Count occurrences per minute in a log file

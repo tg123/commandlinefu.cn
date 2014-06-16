@@ -1,8 +1,0 @@
-commandlinefu_id: 10551
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd / && touch ./\-i
-summary: |-
-  annoy your sysadmin colleague

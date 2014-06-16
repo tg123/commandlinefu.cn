@@ -1,8 +1,7 @@
 commandlinefu_id: 3822
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   chr () { echo -en "\0$(printf %x $1)"}
 summary: |-
-  Function to output an ASCII character given its decimal equivalent
+  函数chr shell 版本
