@@ -1,8 +1,7 @@
 commandlinefu_id: 11618
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name "*.[ch]" -exec grep -i /dev/null "search pharse" {} \;
 summary: |-
-  Search recursively to find a word or phrase in certain file types, such as C code
+  在c代码中grep

@@ -1,8 +1,7 @@
 commandlinefu_id: 3172
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar dfz horde-webmail-1.2.3.tar.gz
 summary: |-
-  Compare an archive with filesystem
+  比较tar和文件系统上得文件 (tar d)
