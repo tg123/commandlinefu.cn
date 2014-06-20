@@ -1,8 +1,7 @@
 commandlinefu_id: 5286
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git tag -l --contains 18f6f2 live*
 summary: |-
-  which git tags include this commit?
+  查看那个tag含有这个 commit

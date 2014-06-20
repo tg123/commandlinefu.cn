@@ -1,8 +1,0 @@
-commandlinefu_id: 2428
-translator:
-  weibo: ''
-hide: true
-command: |-
-  opendiff <file1> <file2>
-summary: |-
-  Use FileMerge to compare two files

@@ -1,8 +1,7 @@
 commandlinefu_id: 7321
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bash -x script.sh
 summary: |-
-  print line and execute it in BASH
+  调试脚本

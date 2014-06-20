@@ -1,8 +1,7 @@
 commandlinefu_id: 9292
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n 13p /etc/services
 summary: |-
-  Go to the Nth line of file
+  第n行

@@ -1,8 +1,0 @@
-commandlinefu_id: 2813
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -E ":(`cat bnd-ips.txt | sed 's/\./\\./g' | tr '\n' '|'`)"  access.log
-summary: |-
-  Search for specific IPs taken form a text file within the apache access log

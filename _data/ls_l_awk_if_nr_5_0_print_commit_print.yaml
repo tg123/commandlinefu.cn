@@ -1,8 +1,7 @@
 commandlinefu_id: 5083
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -l | awk '{if (NR % 5 == 0) print "-- COMMIT --"; print}'
 summary: |-
-  Insert a line for each n lines
+  每n行插入一条数据
