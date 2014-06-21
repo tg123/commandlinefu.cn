@@ -1,8 +1,7 @@
 commandlinefu_id: 2223
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mytop --prompt
 summary: |-
-  Top like mysql monitor
+  跟top相似的mysql监控工具

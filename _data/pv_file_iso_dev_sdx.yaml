@@ -1,8 +1,0 @@
-commandlinefu_id: 10140
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pv file.iso >/dev/sdX
-summary: |-
-  copy hybrid iso images to USB key for booting from it, progress bar and remaining time are displayed while copying

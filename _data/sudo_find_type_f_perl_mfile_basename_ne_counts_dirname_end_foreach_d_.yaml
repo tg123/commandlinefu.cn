@@ -1,8 +1,0 @@
-commandlinefu_id: 9266
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo find / -type f | perl -MFile::Basename -ne '$counts{dirname($_)}++; END { foreach $d (sort keys %counts) {printf("%d\t%s\n",$counts{$d},$d);} }'|sort -rn | tee /tmp/sortedfilecount.out | head
-summary: |-
-  Find directories with lots of files in them

@@ -1,8 +1,0 @@
-commandlinefu_id: 11457
-translator:
-  weibo: ''
-hide: true
-command: |-
-  soft hangup Zap/1-1
-summary: |-
-  SoftHangup --Request a hangup on a given channel - in Asterisk 1.6.2:

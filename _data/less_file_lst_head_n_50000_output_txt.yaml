@@ -1,8 +1,7 @@
 commandlinefu_id: 9186
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   less file.lst | head -n 50000 > output.txt
 summary: |-
-  Cut a large wordlist into smaller chunks
+  分割大文件

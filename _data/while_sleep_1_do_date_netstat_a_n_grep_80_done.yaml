@@ -1,8 +1,7 @@
 commandlinefu_id: 8461
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while sleep 1; do  date; (netstat -a -n | grep 80) ; done
 summary: |-
-  Polls fos network port usage
+  检查端口可用

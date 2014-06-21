@@ -1,8 +1,7 @@
 commandlinefu_id: 8569
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git push origin :featureless
 summary: |-
-  Deleting a remote git branch (say, by name 'featureless')
+  删除远端分支
