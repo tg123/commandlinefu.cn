@@ -1,8 +1,7 @@
 commandlinefu_id: 3054
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   :%s/^/\=line('.').'  '
 summary: |-
-  Insert line number in vim
+  在vim中插入行号
