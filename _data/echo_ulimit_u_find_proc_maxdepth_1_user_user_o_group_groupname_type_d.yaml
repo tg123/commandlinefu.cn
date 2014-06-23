@@ -1,8 +1,7 @@
 commandlinefu_id: 5052
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   echo $(( `ulimit -u` - `find /proc -maxdepth 1 \( -user $USER -o -group $GROUPNAME \) -type d|wc -l` ))
 summary: |-
-  See how many more processes are allowed, awesome!
+  查看还允许开多少进程，超赞！

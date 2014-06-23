@@ -1,8 +1,7 @@
 commandlinefu_id: 9706
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   mkpasswd -5 pa33w0rd saltsalt
 summary: |-
-  generate /etc/shadow-style password
+  产生/etc/shadow风格的密码

@@ -1,8 +1,7 @@
 commandlinefu_id: 10883
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   gcc -E code.c | sed '/^\#/d' | indent -st -i2 > code-x.c
 summary: |-
-  Apply only preprocessor for .c file and beautify output
+  对.c文件只进行预处理，并美化输出到文件
