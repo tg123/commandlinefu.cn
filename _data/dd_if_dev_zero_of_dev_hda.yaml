@@ -1,8 +1,7 @@
 commandlinefu_id: 721
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero of=/dev/hda
 summary: |-
-  Delete everything on hda
+  安全清理硬盘

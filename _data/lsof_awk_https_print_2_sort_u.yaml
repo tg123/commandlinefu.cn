@@ -1,8 +1,7 @@
 commandlinefu_id: 7795
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof | awk '/*:https?/{print $2}' | sort -u
 summary: |-
-  pid list by httpd listen port
+  根据监听端口查看httpd进程号

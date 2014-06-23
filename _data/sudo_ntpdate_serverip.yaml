@@ -1,8 +1,7 @@
 commandlinefu_id: 13424
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo ntpdate serverip
 summary: |-
-  Synchronize date and time with a server
+  同步时间
