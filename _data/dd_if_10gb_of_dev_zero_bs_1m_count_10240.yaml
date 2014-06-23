@@ -1,7 +1,6 @@
 commandlinefu_id: 952
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   dd if=10gb of=/dev/zero bs=1M count=10240
 summary: |-
