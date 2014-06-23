@@ -5,4 +5,4 @@ hide: true
 command: |-
   dd if=10gb of=/dev/zero bs=1M count=10240
 summary: |-
-  HDD Performance Read Test
+  硬盘读性能测试

@@ -1,8 +1,7 @@
 commandlinefu_id: 657
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   echo $PATH | tr : \\n
 summary: |-
-  Display your ${PATH}, one directory per line
+  显示你的环境变量PATH，一个目录一行
