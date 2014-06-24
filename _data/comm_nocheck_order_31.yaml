@@ -1,8 +1,7 @@
 commandlinefu_id: 8572
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   comm --nocheck-order -31
 summary: |-
-  Describe differences between files
+  比较两个文件，只显示第二个文件独有的行
