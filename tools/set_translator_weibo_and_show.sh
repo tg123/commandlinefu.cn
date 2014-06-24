@@ -1,17 +1,26 @@
 #!/bin/bash
 
-TRANSLATOR_WEIBO=$1
-TO_REPLACE=${2:-"''"}
+BASEDIR=$(dirname $(readlink -f $0)) 
 
+TRANSLATOR_WEIBO=''
+TO_REPLACE=''
+
+# if no arguments and weibo.conf exits
+if [ $# -eq 0 -a -f $BASEDIR/weibo.conf ]; then
+	TRANSLATOR_WEIBO=`cat $BASEDIR/weibo.conf`
+else
+	TRANSLATOR_WEIBO=$1
+	TO_REPLACE=${2:-"''"}
+fi
 
 if [ -z $TRANSLATOR_WEIBO ];then
 
-    echo "Usage: $0 TRANSLATOR_WEIBO"
+    echo "Usage: $0 [TRANSLATOR_WEIBO]"
+	echo "You can ignore TRANSLATOR_WEIBO if your weibo_id is kept in tools/weibo.conf"
     exit;
 fi
 
 
-BASEDIR=$(dirname $(readlink -f $0)) 
 DATADIR="$BASEDIR/../_data"
 
 LIST=`git status -s $DATADIR | grep "^ ?M" -P | cut -d ' ' -f 3`
