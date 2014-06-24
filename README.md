@@ -27,10 +27,10 @@ cd commandlinefu.cn
 ./tools/set_translator_weibo_and_show.sh 你的微博用户名
 ```
 
-* 还可以在tools下创建weibo.conf，保存你的微博用户名，以后调用set_translator_weibo_and_show.sh的时候，就可以省略用户名了
+* 还可以创建$HOME/.commandlinefu/weibo.conf，保存你的微博用户名，以后调用set_translator_weibo_and_show.sh的时候，就可以省略用户名了
 
 ```
-echo "weibo_id" > ./tools/weibo.conf
+mkdir ~/.commandlinefu && echo "weibo_id" > ~/.commandlinefu/weibo.conf
 ./tools/set_translator_weibo_and_show.sh
 ```
 
