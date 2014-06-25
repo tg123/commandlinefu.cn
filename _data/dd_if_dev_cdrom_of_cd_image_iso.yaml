@@ -1,8 +1,7 @@
 commandlinefu_id: 9348
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/cdrom of=~/cd_image.iso
 summary: |-
-  Creating ISO Images from CDs/DVDs
+  制作iso

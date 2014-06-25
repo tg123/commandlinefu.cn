@@ -1,8 +1,0 @@
-commandlinefu_id: 10421
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exiftool '-comment<=ubuntu-11.10-alternate-i386.iso.torrent' hello.jpg
-summary: |-
-  Embed .torrent in a .jpg file

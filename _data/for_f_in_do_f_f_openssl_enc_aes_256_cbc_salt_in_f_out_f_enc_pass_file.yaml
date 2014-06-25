@@ -1,8 +1,0 @@
-commandlinefu_id: 7119
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in * ; do [ -f $f ] && openssl enc -aes-256-cbc -salt -in $f -out $f.enc -pass file:/tmp/password-file ; done
-summary: |-
-  Encrypt every file in the current directory with 256-bit AES, retaining the original.

@@ -1,8 +1,7 @@
 commandlinefu_id: 9064
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /var/spool/mqueue -type f -mtime +7 | perl -lne unlink
 summary: |-
-  Find all e-mails older than 7 days in the queue and delete them
+  清理邮件队列

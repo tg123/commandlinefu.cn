@@ -1,8 +1,0 @@
-commandlinefu_id: 4743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  #Client# cat "The Meters - People Say.mp3" | nc -vv 192.168.1.100 8080; #Server# nc -vv -l -s 192.168.1.100 -p 8080 | mpg123 -v -
-summary: |-
-  Pipe music over netcat with mpg123

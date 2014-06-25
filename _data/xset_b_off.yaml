@@ -1,8 +1,0 @@
-commandlinefu_id: 1082
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xset b off
-summary: |-
-  Mute xterm

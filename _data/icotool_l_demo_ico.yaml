@@ -1,8 +1,7 @@
 commandlinefu_id: 10594
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   icotool -l demo.ico
 summary: |-
-  List all images in icon/cursor files
+  查看ico里边全部的图像

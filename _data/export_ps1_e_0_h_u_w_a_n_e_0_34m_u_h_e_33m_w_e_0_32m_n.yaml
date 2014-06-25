@@ -1,8 +1,0 @@
-commandlinefu_id: 677
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PS1='\[\e]0;\h \u \w\a\]\n\[\e[0;34m\]\u@\h \[\e[33m\]\w\[\e[0;32m\]\n\$ '
-summary: |-
-  set prompt and terminal title to display hostname, user ID and pwd

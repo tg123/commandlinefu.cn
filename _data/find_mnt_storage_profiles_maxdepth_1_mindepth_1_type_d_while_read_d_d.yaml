@@ -1,8 +1,0 @@
-commandlinefu_id: 12968
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /mnt/storage/profiles/ -maxdepth 1 -mindepth 1 -type d | while read d; do tarfile=`echo "$d" | cut -d "/" -f5`; destdir="/local/backupdir/"; tar -czpf $destdir/"$tarfile"_full.tgz $d; done
-summary: |-
-  Create full backups of individual folders using find and tar-gzip

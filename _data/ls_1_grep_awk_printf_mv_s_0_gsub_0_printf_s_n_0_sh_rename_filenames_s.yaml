@@ -1,8 +1,0 @@
-commandlinefu_id: 1492
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -1 | grep " " | awk '{printf("mv \"%s\" ",$0); gsub(/ /,"_",$0); printf("%s\n",$0)}' | sh # rename filenames: spaces to "_"
-summary: |-
-  Convert embedded spaces in filenames to "_" (underscore)

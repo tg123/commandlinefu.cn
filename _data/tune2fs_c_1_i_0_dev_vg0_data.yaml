@@ -1,8 +1,0 @@
-commandlinefu_id: 5716
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tune2fs -c -1 -i 0 /dev/VG0/data
-summary: |-
-  turn off auto hard disc boot scanning for ext3

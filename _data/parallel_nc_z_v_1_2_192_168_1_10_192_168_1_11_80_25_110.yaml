@@ -1,8 +1,0 @@
-commandlinefu_id: 8601
-translator:
-  weibo: ''
-hide: true
-command: |-
-  parallel 'nc -z -v {1} {2}' ::: 192.168.1.10 192.168.1.11 ::: 80 25 110
-summary: |-
-  simple port check command
