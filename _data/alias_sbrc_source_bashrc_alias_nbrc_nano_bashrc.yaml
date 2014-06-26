@@ -1,8 +1,0 @@
-commandlinefu_id: 2163
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias sbrc="source ~/.bashrc" && alias nbrc="nano ~/.bashrc"
-summary: |-
-  alias source .bashrc and nano .bashrc

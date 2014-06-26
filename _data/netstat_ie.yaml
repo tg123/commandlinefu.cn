@@ -1,8 +1,0 @@
-commandlinefu_id: 11092
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -ie
-summary: |-
-  Network Interfaces

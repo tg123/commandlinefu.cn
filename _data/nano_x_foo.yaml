@@ -1,8 +1,0 @@
-commandlinefu_id: 5466
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nano +X foo
-summary: |-
-  Jump to line X in file in Nano.

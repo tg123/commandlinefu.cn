@@ -1,8 +1,0 @@
-commandlinefu_id: 1535
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PS1='\[\033[0;35m\]\h\[\033[0;33m\] \w\[\033[00m\]: '
-summary: |-
-  colored prompt

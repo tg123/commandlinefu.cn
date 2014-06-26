@@ -1,8 +1,0 @@
-commandlinefu_id: 12195
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lvextend -r -L+100G /dev/VG/LV
-summary: |-
-  Lvextend logical volume

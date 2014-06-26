@@ -1,8 +1,7 @@
 commandlinefu_id: 9986
 translator:
   weibo: ''
-hide: true
 command: |-
   sed "s/\([a-zA-Z]*\:\/\/[^ ]*\)\(.*\)/\<a href=\"\1\"\>\1\<\/a\>\2/"
 summary: |-
-  regex for turning a URL into a real hyperlink (i.e. for posting somewhere that accepts basic html)
+  替换url为html 超链接

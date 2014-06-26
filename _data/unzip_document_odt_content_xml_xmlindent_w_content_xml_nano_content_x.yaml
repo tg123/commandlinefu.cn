@@ -1,8 +1,0 @@
-commandlinefu_id: 11608
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unzip document.odt content.xml && xmlindent -w content.xml && nano content.xml
-summary: |-
-  Open/modify .odt in nano with indentation
