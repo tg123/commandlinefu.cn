@@ -1,8 +1,7 @@
 commandlinefu_id: 231
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   cat -A
 summary: |-
-  make non-printable characters visible
+  使不可打印字符可见

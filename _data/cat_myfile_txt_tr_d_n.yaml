@@ -1,8 +1,7 @@
 commandlinefu_id: 2522
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   cat myfile.txt | tr -d '\n'
 summary: |-
-  Trim linebreaks
+  把文件中的换行符(\n)去掉
