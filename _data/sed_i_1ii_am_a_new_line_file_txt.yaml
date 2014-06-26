@@ -1,8 +1,7 @@
 commandlinefu_id: 13195
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   sed -i '1iI am a new line' file.txt
 summary: |-
-  Insert line(s) at top of file using sed
+  用sed在文件首插入行

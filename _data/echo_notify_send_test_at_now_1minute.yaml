@@ -1,8 +1,7 @@
 commandlinefu_id: 6270
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   echo notify-send test | at now+1minute
 summary: |-
-  I finally found out how to use notify-send with at or cron
+  1分钟后发送桌面消息给用户
