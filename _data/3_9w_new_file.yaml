@@ -5,4 +5,4 @@ hide: true
 command: |-
   :3,9w new_file
 summary: |-
-  Copy the text from the 3rd line to the 9th line into a new file with VI
+  在vi中，把3~9行写入一个新文件

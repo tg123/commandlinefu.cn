@@ -5,4 +5,4 @@ hide: true
 command: |-
   find * ! -name abc | xargs rm
 summary: |-
-  Remove all the files except abc in the directory
+  删除除了abc之外的所有文件
