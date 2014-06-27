@@ -1,8 +1,7 @@
 commandlinefu_id: 13229
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log origin/master..master --name-only --pretty="format:" | sort | uniq | xargs tar -rf mytarfile.tar
 summary: |-
-  Export unpushed files list
+  导出没有push的文件列表

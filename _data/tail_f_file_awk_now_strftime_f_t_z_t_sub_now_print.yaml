@@ -1,8 +1,7 @@
 commandlinefu_id: 7151
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tail -f file | awk '{now=strftime("%F %T%z\t");sub(/^/, now);print}'
 summary: |-
-  Monitor a file with tail with timestamps added
+  在tail的同时加上时间

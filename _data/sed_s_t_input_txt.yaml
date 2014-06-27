@@ -1,8 +1,7 @@
 commandlinefu_id: 5264
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed 's/^[ \t]*//' input.txt
 summary: |-
-  Delete leading whitespace from the start of each line
+  删除每行开头的空白
