@@ -1,8 +1,0 @@
-commandlinefu_id: 8913
-translator:
-  weibo: ''
-hide: true
-command: |-
-  defaults write com.apple.terminal FocusFollowsMouse -string YES
-summary: |-
-  Terminal window focus on mouseover (mimicking X11 behavior) in Mac OS X

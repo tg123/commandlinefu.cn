@@ -1,8 +1,7 @@
 commandlinefu_id: 4511
 translator:
   weibo: ''
-hide: true
 command: |-
   printf "%50s\n"|tr ' ' -
 summary: |-
-  Print a row of 50 hyphens
+  打印50个-
