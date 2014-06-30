@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TRANSLATOR_WEIBO=''
-TO_REPLACE=''
+TO_REPLACE="''"
 CONFIG=$HOME/.commandlinefu/weibo.conf
 
 # if no arguments and weibo.conf exits
