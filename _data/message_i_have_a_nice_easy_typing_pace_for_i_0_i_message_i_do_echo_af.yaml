@@ -1,0 +1,8 @@
+commandlinefu_id: 13499
+translator:
+  weibo: ''
+hide: true
+command: |-
+  message="I have a nice easy typing pace"; for ((i=0; i<${#message}; i++)); do echo "after 200" | tclsh; printf "${message:$i:1}"; done; echo;
+summary: |-
+  Mac osx friendly version of this terminal typing command at 200ms per key

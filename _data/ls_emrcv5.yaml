@@ -1,0 +1,8 @@
+commandlinefu_id: 13510
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls /EMRCV5/
+summary: |-
+  ls /EMRCV5/

@@ -1,0 +1,8 @@
+commandlinefu_id: 13515
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for a in $(find . -maxdepth 1 -name "*.mp4" -type f -printf "%f\n" | rev | cut -d '.' -f2- | rev | sort -u); do if [ ! -f "$a.mp3" ]; then  avconv -i "$a."* -vn  -ab 128 "$a.mp3"; fi done
+summary: |-
+  Convert mp4 to mp3 in a directory

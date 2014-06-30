@@ -1,0 +1,8 @@
+commandlinefu_id: 13489
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O "quote" https://www.goodreads.com/quotes_of_the_day;notify-send "$(echo "Quote of the Day";cat quote | grep '&ldquo;\|/author/show' | sed -e 's/<[a-zA-Z\/][^>]*>//g' | sed 's/&ldquo;//g' | sed 's/&rdquo;//g')"; rm -f quote
+summary: |-
+  Display a quote of the day in notification bubble
