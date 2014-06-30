@@ -4,4 +4,4 @@ translator:
 command: |-
   awk '{gsub("<[^>]*>", "")}1' file
 summary: |-
-  清楚所有html 标记
+  清除所有html 标记

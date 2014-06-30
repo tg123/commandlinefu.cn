@@ -1,8 +1,0 @@
-commandlinefu_id: 12725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude search ~n^s.*
-summary: |-
-  Search packages beginning with the letter

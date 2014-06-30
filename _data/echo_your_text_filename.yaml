@@ -1,8 +1,7 @@
 commandlinefu_id: 5768
 translator:
   weibo: ''
-hide: true
 command: |-
   echo "your text" > filename
 summary: |-
-  Quickly create simple text file from command line w/o using vi/emacs
+  创建一个特定内容的文件 
