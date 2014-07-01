@@ -1,8 +1,7 @@
 commandlinefu_id: 8179
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   svn diff -r M:N file.php | patch -p0
 summary: |-
-  Revert an SVN file to previous revision
+  把一个SVN文件恢复到之前的版本
