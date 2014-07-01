@@ -1,8 +1,7 @@
 commandlinefu_id: 5472
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find . \( -iname '*.[ch]' -o -iname '*.php' -o -iname '*.pl' \) -exec wc -l {} \; | sort
 summary: |-
-  Count lines of code across multiple file types, sorted by least amount of code to greatest
+  统计当前目录下多种语言文件的代码行数，并按从少到多的顺序输出

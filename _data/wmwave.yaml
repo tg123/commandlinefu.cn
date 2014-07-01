@@ -1,8 +1,7 @@
 commandlinefu_id: 2140
 translator:
   weibo: ''
-hide: true
 command: |-
   wmwave
 summary: |-
-  Graphical display of wireless links
+  显示无线链接图像

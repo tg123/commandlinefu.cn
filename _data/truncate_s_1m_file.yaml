@@ -1,8 +1,7 @@
 commandlinefu_id: 6850
 translator:
   weibo: ''
-hide: true
 command: |-
   truncate -s 1M file
 summary: |-
-  Create a file of a given size in linux
+  创建特定大小的文件

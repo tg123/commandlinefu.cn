@@ -34,6 +34,14 @@ mkdir ~/.commandlinefu && echo "weibo_id" > ~/.commandlinefu/weibo.conf
 ./tools/set_translator_weibo_and_show.sh
 ```
 
+* 可以添加pre-commit钩子脚本，在没有运行set_translator_weibo_and_show.sh就commit的情况下，出错并提醒自己
+
+```
+cp tools/pre-commit .git/hooks/
+sudo chmod u+x .git/hooks/pre-commit
+```
+
+
  * 翻译参考
 
 ```

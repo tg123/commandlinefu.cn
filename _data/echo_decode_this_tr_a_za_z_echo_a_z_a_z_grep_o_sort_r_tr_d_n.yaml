@@ -1,8 +1,0 @@
-commandlinefu_id: 3529
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Decode this"| tr [a-zA-Z] $(echo {a..z} {A..Z}|grep -o .|sort -R|tr -d "\n ")
-summary: |-
-  Substitution cipher

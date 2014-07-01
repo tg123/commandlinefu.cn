@@ -1,8 +1,0 @@
-commandlinefu_id: 6411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  @reboot <yourscript.sh>
-summary: |-
-  Running scripts after a reboot for non-root users .

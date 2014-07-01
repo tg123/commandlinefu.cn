@@ -1,0 +1,8 @@
+commandlinefu_id: 13487
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -P ./dl/ -A jpg,jpeg http://captivates.com
+summary: |-
+  download specific files only from a website

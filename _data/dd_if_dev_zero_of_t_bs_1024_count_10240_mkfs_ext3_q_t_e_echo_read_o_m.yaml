@@ -1,8 +1,0 @@
-commandlinefu_id: 11827
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/zero of=T bs=1024 count=10240;mkfs.ext3 -q T;E=$(echo 'read O;mount -o loop,offset=$O F /mnt;'|base64|tr -d '\n');echo "E=\$(echo $E|base64 -d);eval \$E;exit;">F;cat <(dd if=/dev/zero bs=$(echo 9191-$(stat -c%s F)|bc) count=1) <(cat T;rm T)>>F
-summary: |-
-  Create executable, automountable filesystem in a file, with password!

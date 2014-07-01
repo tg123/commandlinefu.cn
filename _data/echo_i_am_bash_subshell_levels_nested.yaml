@@ -1,0 +1,8 @@
+commandlinefu_id: 13496
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "I am $BASH_SUBSHELL levels nested";
+summary: |-
+  Find how far nested you are in subshells

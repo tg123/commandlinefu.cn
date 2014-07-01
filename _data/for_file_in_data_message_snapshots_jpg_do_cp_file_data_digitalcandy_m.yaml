@@ -1,0 +1,8 @@
+commandlinefu_id: 13486
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in ./data/message-snapshots/*.jpg; do cp "$file" /data/digitalcandy/ml/images/; done
+summary: |-
+  walk in a directory for specific files and copy it to desired destination

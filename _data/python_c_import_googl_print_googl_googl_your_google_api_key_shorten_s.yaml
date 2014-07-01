@@ -1,8 +1,0 @@
-commandlinefu_id: 10820
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c 'import googl; print googl.Googl("<your_google_api_key>").shorten("'$someurl'")[u"id"]'
-summary: |-
-  Google URL shortener

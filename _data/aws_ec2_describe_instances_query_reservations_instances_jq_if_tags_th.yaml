@@ -1,0 +1,8 @@
+commandlinefu_id: 13513
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aws ec2 describe-instances --query "Reservations[*].Instances[*]" | jq '.[]|.[]|(if .Tags then (.Tags[]|select(.Key == "Name").Value) else empty end)+", " +.InstanceId'
+summary: |-
+  List EC2 servers by tag name and instanceId

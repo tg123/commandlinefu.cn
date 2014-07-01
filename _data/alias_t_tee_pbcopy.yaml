@@ -1,8 +1,0 @@
-commandlinefu_id: 13085
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias t="tee >(pbcopy)"
-summary: |-
-  Copy to clipboard in addition to stdout (OSX).

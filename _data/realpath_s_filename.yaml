@@ -1,8 +1,7 @@
 commandlinefu_id: 7999
 translator:
   weibo: ''
-hide: true
 command: |-
   realpath -s <filename>
 summary: |-
-  Get the absolute path of a file
+  获取文件的绝对路径

@@ -1,8 +1,7 @@
 commandlinefu_id: 11811
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find /var/www/ -name file -exec cp {}{,.bak} \;
 summary: |-
-  Recursively backup files
+  递归备份文件

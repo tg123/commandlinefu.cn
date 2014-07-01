@@ -1,8 +1,0 @@
-commandlinefu_id: 1983
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mvn deploy:deploy-file -DgroupId=groupId -DartifactId=artifactId -Dversion=1.0 -Dpackaging=jar   -Dfile=pathtolib -DrepositoryId=repository -Durl=url
-summary: |-
-  Install a library to a remote repository

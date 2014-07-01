@@ -1,0 +1,8 @@
+commandlinefu_id: 13505
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mco ping | head -n -4 | awk '{print $1}' | sort
+summary: |-
+  Show an alphabetized list of all mcollective nodes

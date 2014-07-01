@@ -1,0 +1,8 @@
+commandlinefu_id: 13501
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkfifo /tmp/view; nc -l 9876 < /tmp/view& script -f /tmp/view
+summary: |-
+  Viewable terminal session over network.

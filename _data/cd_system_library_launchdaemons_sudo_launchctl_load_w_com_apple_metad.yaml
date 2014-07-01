@@ -1,8 +1,0 @@
-commandlinefu_id: 10753
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /System/Library/LaunchDaemons; sudo launchctl load -w com.apple.metadata.mds.plist
-summary: |-
-  Spotlight Server Disabled

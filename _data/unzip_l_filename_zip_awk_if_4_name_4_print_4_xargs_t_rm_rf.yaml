@@ -1,8 +1,0 @@
-commandlinefu_id: 9536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unzip -l filename.zip |awk '{ if($4 != "Name" && $4 != "----") print $4}'|xargs -t rm -rf {}
-summary: |-
-  un-unzip a file
