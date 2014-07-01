@@ -1,8 +1,7 @@
 commandlinefu_id: 294
 translator:
   weibo: ''
-hide: true
 command: |-
   apt-cache search someregex
 summary: |-
-  search package descriptions (apt)
+  查找需要的包 (apt)

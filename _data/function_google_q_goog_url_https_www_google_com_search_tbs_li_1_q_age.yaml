@@ -1,0 +1,8 @@
+commandlinefu_id: 13492
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function google { Q="$@";GOOG_URL='https://www.google.com/search?tbs=li:1&q=';AGENT="Mozilla/4.0";stream=$(curl -A "$AGENT" -skLm 10 "${GOOG_URL}${Q//\ /+}");echo "$stream" | grep -o "href=\"/url[^\&]*&amp;" | sed 's/href=".url.q=\([^\&]*\).*/\1/';}
+summary: |-
+  Search google.com on your terminal

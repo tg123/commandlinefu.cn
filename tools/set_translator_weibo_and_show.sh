@@ -6,7 +6,7 @@ CONFIG=$HOME/.commandlinefu/weibo.conf
 
 # if no arguments and weibo.conf exits
 if [ $# -eq 0 -a -f $CONFIG ]; then
-	TRANSLATOR_WEIBO=`cat $CONFIG`
+	TRANSLATOR_WEIBO=`cat $CONFIG | head -1`
 else
 	TRANSLATOR_WEIBO=$1
 	TO_REPLACE=${2:-"''"}

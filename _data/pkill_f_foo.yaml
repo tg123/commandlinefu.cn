@@ -1,8 +1,0 @@
-commandlinefu_id: 122
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -f foo
-summary: |-
-  kill all processes with name or argument

@@ -1,0 +1,8 @@
+commandlinefu_id: 13497
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wbinfo - Get all users group membership, with primary group starred (Red description for full command)
+summary: |-
+  A way to query from the CLI all users in a Active Directory domain using wbinfo.

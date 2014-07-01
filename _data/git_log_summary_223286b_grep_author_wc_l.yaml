@@ -1,8 +1,0 @@
-commandlinefu_id: 10959
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --summary 223286b.. | grep 'Author:' | wc -l
-summary: |-
-  Count git commits since specific commit

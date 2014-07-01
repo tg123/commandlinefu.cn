@@ -1,8 +1,7 @@
 commandlinefu_id: 7244
 translator:
   weibo: ''
-hide: true
 command: |-
   ps -o user,%cpu,%mem,command
 summary: |-
-  'micro' ps aux (by mem/cpu)
+  显示mem cpu 的ps

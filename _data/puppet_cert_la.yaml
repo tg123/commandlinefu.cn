@@ -1,0 +1,8 @@
+commandlinefu_id: 13517
+translator:
+  weibo: ''
+hide: true
+command: |-
+  puppet cert -la
+summary: |-
+  List all certified agents on the current puppet master

@@ -1,8 +1,7 @@
 commandlinefu_id: 10105
 translator:
   weibo: ''
-hide: true
 command: |-
   curl $URL -s -L -o /dev/null -w '%{url_effective}'
 summary: |-
-  Retrieve the final URL after redirect
+  获取重定向后的url

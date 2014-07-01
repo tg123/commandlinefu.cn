@@ -1,8 +1,0 @@
-commandlinefu_id: 6102
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fdiff() { ${DIFFCMD:-diff} <( $1 $2 ) <( $1 $3 ); }
-summary: |-
-  fdiff is a 'filtered diff'. Given a text filter and two inputs, will run the filter across the input files and diff the output.

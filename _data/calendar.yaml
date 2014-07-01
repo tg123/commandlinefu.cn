@@ -1,8 +1,0 @@
-commandlinefu_id: 4723
-translator:
-  weibo: ''
-hide: true
-command: |-
-  calendar
-summary: |-
-  Show some trivia related to the current date

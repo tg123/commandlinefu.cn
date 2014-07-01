@@ -1,0 +1,8 @@
+commandlinefu_id: 13512
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -ch `cat test_file.txt`
+summary: |-
+  calculate file as describe in one txt file

@@ -1,8 +1,7 @@
 commandlinefu_id: 8178
 translator:
   weibo: ''
-hide: true
 command: |-
   vim -u NONE yourfile
 summary: |-
-  Start vim without initialization
+  忽略vimrc启动vim

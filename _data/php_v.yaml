@@ -1,0 +1,8 @@
+commandlinefu_id: 13495
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -v
+summary: |-
+  Look PHP Version
