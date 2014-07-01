@@ -1,8 +1,7 @@
 commandlinefu_id: 11395
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   head -c7 /dev/urandom|base64|tr -d '='
 summary: |-
-  generate a randome 10 character password
+  随机生成10个字符的密码

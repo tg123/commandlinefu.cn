@@ -1,8 +1,0 @@
-commandlinefu_id: 909
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -9 wineserver
-summary: |-
-  Kill a naughty process

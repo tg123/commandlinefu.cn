@@ -1,8 +1,8 @@
 commandlinefu_id: 11891
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /sbin/sysctl -p
 summary: |-
-  Reload all sysctl variables without reboot
+  重新载入sysctl变量
+

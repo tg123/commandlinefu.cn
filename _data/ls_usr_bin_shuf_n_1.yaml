@@ -1,8 +1,7 @@
 commandlinefu_id: 7615
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls /usr/bin | shuf -n 1
 summary: |-
-  get a random command
+  随便看看有什么命令
