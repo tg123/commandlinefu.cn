@@ -2,21 +2,31 @@
 
 TRANSLATOR_WEIBO=''
 TO_REPLACE="''"
-CONFIG=$HOME/.commandlinefu/weibo.conf
 
-# if no arguments and weibo.conf exits
-if [ $# -eq 0 -a -f $CONFIG ]; then
-	TRANSLATOR_WEIBO=`cat $CONFIG | head -1`
+# import the global variable such as $CONFIG
+if [[ -n $(pwd | grep 'tools$')  ]]; then
+    . ./config.sh
 else
-	TRANSLATOR_WEIBO=$1
-	TO_REPLACE=${2:-"''"}
+    . ./tools/config.sh
 fi
 
-if [ -z $TRANSLATOR_WEIBO ];then
+# if no arguments and weibo.conf exits
+if [ $# -eq 0 -a -f "$CONFIG" ]; then
+    TRANSLATOR_WEIBO=`head -1 "$CONFIG"`
+else
+    TRANSLATOR_WEIBO=$1
+    TO_REPLACE=${2:-"''"}
 
-    echo "Usage: $0 [TRANSLATOR_WEIBO]"
-	echo "You can ignore TRANSLATOR_WEIBO if your weibo_id is kept in \$HOME/.commandlinefu/weibo.conf"
-    exit;
+    # create .commandlinefu for future need
+    if [ ! -d $HOME/.commandlinefu ];then
+        mkdir $HOME/.commandlinefu
+    fi
+fi
+
+if [ -z "$TRANSLATOR_WEIBO" ];then
+    echo "please input your weibo username as the name of contributor:"
+    read TRANSLATOR_WEIBO
+    echo "$TRANSLATOR_WEIBO" > "$CONFIG"
 fi
 
 BASEDIR=$(dirname $(readlink -f $0)) 
