@@ -1,8 +1,7 @@
 commandlinefu_id: 7635
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   echo $SSH_CLIENT | cut -f 1 -d ' '
 summary: |-
-  Get the IP of the host your coming from when logged in remotely
+  当时你用ssh登陆到远程计算机，该命令获取你所来自的主机IP
