@@ -1,8 +1,0 @@
-commandlinefu_id: 7380
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=mfsbsd.iso | ssh distant.server dd of=/dev/sda
-summary: |-
-  Install a basic FreeBSD system

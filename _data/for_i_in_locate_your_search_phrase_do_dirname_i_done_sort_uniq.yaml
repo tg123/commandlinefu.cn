@@ -1,8 +1,7 @@
 commandlinefu_id: 92
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   for i in $(locate your_search_phrase); do dirname $i; done | sort | uniq
 summary: |-
-  search for files or directories, then show a sorted list of just the unique directories where the matches occur
+  搜索文件或目录，排序显示匹配项所在的目录(去掉重复)

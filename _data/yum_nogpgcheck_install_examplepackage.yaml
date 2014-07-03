@@ -1,8 +1,0 @@
-commandlinefu_id: 3263
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yum --nogpgcheck install "examplePackage"
-summary: |-
-  Intall not signed packeges with yum

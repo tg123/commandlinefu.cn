@@ -1,8 +1,7 @@
 commandlinefu_id: 7562
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   awk '{printf("/* %02d */ %s\n", NR,$0)}' inputfile > outputfile
 summary: |-
-  Add line number count as C-style comments
+  C语言注释的风格给文件加行号
