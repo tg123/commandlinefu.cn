@@ -1,8 +1,0 @@
-commandlinefu_id: 946
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim scp://username@host//path/to/somefile
-summary: |-
-  Edit a file on a remote host using vim

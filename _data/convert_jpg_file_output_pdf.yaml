@@ -1,8 +1,7 @@
 commandlinefu_id: 11461
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   convert *.jpg File_Output.pdf
 summary: |-
-  convert several jpg into one pdf file
+  合并jpg为pdf

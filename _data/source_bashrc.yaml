@@ -1,8 +1,0 @@
-commandlinefu_id: 4443
-translator:
-  weibo: ''
-hide: true
-command: |-
-  source .bashrc
-summary: |-
-  reload config

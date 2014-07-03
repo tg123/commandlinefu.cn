@@ -1,8 +1,7 @@
 commandlinefu_id: 12210
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo su; sync; echo 3 > /proc/sys/vm/drop_caches
 summary: |-
-  Clear linux cache
+  放弃cache

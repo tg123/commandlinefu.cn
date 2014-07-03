@@ -1,8 +1,0 @@
-commandlinefu_id: 7992
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :! <bash_command>
-summary: |-
-  run a command from within vi without exiting
