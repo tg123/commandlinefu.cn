@@ -1,8 +1,7 @@
 commandlinefu_id: 13437
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
-  sudo kill -9 $( ps -e | grep Xorg | awk '{ print $1 }' )
+  pkill X
 summary: |-
-  Kill the X Server
+  杀死X Server

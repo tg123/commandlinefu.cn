@@ -1,8 +1,7 @@
 commandlinefu_id: 11126
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   ff() { find -maxdepth 3 -type f | grep -i "$1"; }; fd() { find -maxdepth 4 -type d | grep -i "$1"; }
 summary: |-
-  Quickly find files and folders in the current directory
+  快速在当前文件夹下查找文件和目录(忽略大小写)
