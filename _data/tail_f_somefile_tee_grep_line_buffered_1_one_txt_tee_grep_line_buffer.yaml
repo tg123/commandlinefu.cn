@@ -1,8 +1,7 @@
 commandlinefu_id: 8224
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tail -f somefile |tee >(grep --line-buffered '1' > one.txt) |tee >(grep --line-buffered '2' > two.txt)
 summary: |-
-  monitor a tail -f command with multiple processes
+  把tail -f 结果发送给多个进程

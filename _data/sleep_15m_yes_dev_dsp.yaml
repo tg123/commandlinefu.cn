@@ -1,8 +1,7 @@
 commandlinefu_id: 8308
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sleep 15m; yes > /dev/dsp
 summary: |-
-  Timer with sound alarm
+  带有声音的计时器

@@ -1,8 +1,0 @@
-commandlinefu_id: 9605
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias me="echo '`ifconfig | grep inet | grep broadcast | awk '{print $2}'`' && uname -n"
-summary: |-
-  get ip and hostname for this computer

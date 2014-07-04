@@ -1,8 +1,7 @@
 commandlinefu_id: 12728
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cut -d ' ' -f 1 /var/log/apache2/access_logs |  uniq -c | sort -n
 summary: |-
-  Filter IP's in apache access logs based on use
+  过滤apache日志中的ip
