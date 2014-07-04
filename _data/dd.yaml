@@ -1,8 +1,0 @@
-commandlinefu_id: 5436
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd
-summary: |-
-  check the status of 'dd' in progress

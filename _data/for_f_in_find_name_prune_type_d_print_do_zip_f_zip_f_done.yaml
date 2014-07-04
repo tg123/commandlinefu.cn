@@ -1,8 +1,7 @@
 commandlinefu_id: 1579
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   for f in `find . \( ! -name . -prune \) -type d -print`; do zip $f.zip $f; done
 summary: |-
-  Zip all subdirectories into zipfiles
+  把所有子目录打包成zip格式文件
