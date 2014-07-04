@@ -1,8 +1,7 @@
 commandlinefu_id: 3321
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   watch 'cat /proc/loadavg'
 summary: |-
-  Watching Command
+  每隔2s的周期，查看系统负载

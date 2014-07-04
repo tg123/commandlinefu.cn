@@ -1,8 +1,7 @@
 commandlinefu_id: 849
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   some_command | tee >(command1) >(command2) >(command3) ... | command4
 summary: |-
-  Use tee + process substitution to split STDOUT to multiple commands
+  用tee命令和进程替换机制，把标准输出传给多个命令当作输入文件
