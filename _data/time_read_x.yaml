@@ -1,8 +1,7 @@
 commandlinefu_id: 6691
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   time read x
 summary: |-
-  Fast CLI Timer
+  计时器

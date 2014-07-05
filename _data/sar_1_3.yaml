@@ -1,8 +1,0 @@
-commandlinefu_id: 12806
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sar 1 3
-summary: |-
-  checking cpu utilization (what total idle is cpu)

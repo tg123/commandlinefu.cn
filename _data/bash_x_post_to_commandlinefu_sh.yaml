@@ -1,8 +1,0 @@
-commandlinefu_id: 1210
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bash -x ./post_to_commandlinefu.sh
-summary: |-
-  runs a bash script in debugging mode

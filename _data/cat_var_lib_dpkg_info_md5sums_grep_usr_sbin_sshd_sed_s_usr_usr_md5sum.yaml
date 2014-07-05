@@ -1,8 +1,7 @@
 commandlinefu_id: 12000
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /var/lib/dpkg/info/*.md5sums|grep usr/sbin/sshd|sed 's,usr,/usr,'|md5sum -c
 summary: |-
-  Verify a file has not been tampered with since dpkg installation
+  校验文件是否被修改

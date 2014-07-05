@@ -1,8 +1,7 @@
 commandlinefu_id: 7732
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -mtime +100 -exec tar rvf my.tar --remove-files {} \;
 summary: |-
-  tar and remove files which are older that 100 days
+  把100天前的文件tar并且删除

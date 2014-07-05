@@ -1,8 +1,7 @@
 commandlinefu_id: 9917
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -a | sed "s#^#${PWD}/#"
 summary: |-
-  list with full path
+  全路径的ls
