@@ -1,8 +1,7 @@
 commandlinefu_id: 8738
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   git branch -a | grep "remotes/origin" | grep -v master | awk -F / '{print $3}' | xargs -I % git clone -b % git://github.com/jamesotron/DevWorld-2010-Cocoa-Workshop %
 summary: |-
-  Clone all remote branches of a specific GitHub repository
+  拷贝远程版本库origin下，master之外的分支

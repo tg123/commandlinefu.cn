@@ -1,8 +1,0 @@
-commandlinefu_id: 3715
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -alh #mycomment
-summary: |-
-  Insert a comment on command line for reminder
