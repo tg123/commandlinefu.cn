@@ -1,8 +1,7 @@
 commandlinefu_id: 9109
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   mount /dev/root /mnt/root; rsync -avHX /mnt/root/ /mnt/target/
 summary: |-
-  copy root to new device
+  把root文件夹拷贝到新设备上

@@ -1,8 +1,0 @@
-commandlinefu_id: 6400
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm ^'name with spaces'
-summary: |-
-  Remove all the files except abc in the directory
