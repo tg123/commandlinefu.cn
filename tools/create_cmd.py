@@ -21,6 +21,11 @@ def create(cmd,trans):
         filename+=token.translate(None,token.translate(None,string.ascii_letters+string.digits))+'_'
     filename=filename[0:len(filename)-1]+'.yaml'
     pathname=sys.path[0][0:sys.path[0].rfind('/')]+'/_data/'+filename
+    
+    # file exists
+    if os.path.isfile(pathname):
+        print 'create fail: maybe a similar command exists'
+        return
 
     try:
         wfile=open(pathname,'w')
