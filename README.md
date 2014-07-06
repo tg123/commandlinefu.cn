@@ -41,6 +41,11 @@ cp tools/pre-commit .git/hooks/
 sudo chmod u+x .git/hooks/pre-commit
 ```
 
+* 创建自己发现或总结的命令
+
+```
+./tools/create_cmd.py
+```
 
  * 翻译参考
 
