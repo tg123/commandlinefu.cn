@@ -1,8 +1,0 @@
-commandlinefu_id: 5750
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -fY user@REMOTESERVER firefox -no-remote
-summary: |-
-  Launch firefox on a remote linux server
