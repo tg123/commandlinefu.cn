@@ -1,8 +1,7 @@
 commandlinefu_id: 13350
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl rand -hex 6 | sed 's/\(..\)/:\1/g; s/^.\(.\)[0-3]/\12/; s/^.\(.\)[4-7]/\16/; s/^.\(.\)[89ab]/\1a/; s/^.\(.\)[cdef]/\1e/'
 summary: |-
-  Generate random valid mac addresses
+  生成随机的mac地址

@@ -1,8 +1,7 @@
 commandlinefu_id: 3299
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -lct /etc | tail -1 | awk '{print $6, $7}'
 summary: |-
-  When was your OS installed?
+  查看系统安装时间

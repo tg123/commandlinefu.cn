@@ -1,8 +1,7 @@
 commandlinefu_id: 10444
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diskutil erasevolume HFS+ "ramdisk" `hdiutil attach -nomount ram://8000000`
 summary: |-
-  Create a RAM Disk in OSX
+  创建内存盘 OSX

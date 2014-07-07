@@ -1,8 +1,7 @@
 commandlinefu_id: 9418
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diffxml() { diff -wb <(xmllint --format "$1") <(xmllint --format "$2"); }
 summary: |-
-  Diff XML files
+  比较xml文件

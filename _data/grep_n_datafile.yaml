@@ -1,8 +1,7 @@
 commandlinefu_id: 4267
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -n . datafile ;
 summary: |-
-  prints line numbers
+  打印行号

@@ -1,8 +1,7 @@
 commandlinefu_id: 11861
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i 's/http:\/\/old\/new\///g' index.html
 summary: |-
-  a find and replace within text-based files
+  替换文本中内容
