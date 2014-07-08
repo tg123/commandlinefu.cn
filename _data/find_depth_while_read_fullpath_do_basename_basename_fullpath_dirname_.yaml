@@ -1,8 +1,7 @@
 commandlinefu_id: 1656
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find -depth . | (while read FULLPATH; do BASENAME=`basename "${FULLPATH}"`; DIRNAME=`dirname "${FULLPATH}"`; mv "${DIRNAME}/${BASENAME}" "${DIRNAME}/${BASENAME// /_}"; done)
 summary: |-
-  Replace spaces with '_' in filenames
+  把文件名中的空格用下划线代替
