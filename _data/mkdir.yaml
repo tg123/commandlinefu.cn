@@ -1,8 +1,7 @@
 commandlinefu_id: 9767
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   mkdir *
 summary: |-
-  Just kidding for you
+  跟你开个玩笑(mkdir：创建目录)
