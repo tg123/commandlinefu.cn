@@ -1,8 +1,7 @@
 commandlinefu_id: 9290
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   bash --rcfile /a/special/bashrc
 summary: |-
-  Launch an interactive shell with special aliases and functions.
+  启动一个交互shell并指定aliases和functions配置文件

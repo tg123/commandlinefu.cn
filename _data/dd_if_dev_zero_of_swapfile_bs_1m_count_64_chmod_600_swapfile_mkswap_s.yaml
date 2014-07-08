@@ -1,8 +1,7 @@
 commandlinefu_id: 811
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   dd if=/dev/zero of=/swapfile bs=1M count=64; chmod 600 /swapfile; mkswap /swapfile; swapon /swapfile
 summary: |-
-  Add temporary swap space
+  增加临时交换空间
