@@ -4,4 +4,4 @@ translator:
 command: |-
   date -ud "1970/01/01 00:29:36" +%s
 summary: |-
-  把格林威治日期时间转化成秒数
+  把格林威治日期时间转化成unix时间
