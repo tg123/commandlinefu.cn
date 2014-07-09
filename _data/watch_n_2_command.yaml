@@ -1,8 +1,7 @@
 commandlinefu_id: 10454
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -n 2 command
 summary: |-
-  Watch command
+  监控命令结果变化

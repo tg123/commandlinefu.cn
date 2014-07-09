@@ -1,8 +1,7 @@
 commandlinefu_id: 12117
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -i -n | grep ESTABLISHED
 summary: |-
-  find established tcp connections without using netstat!!
+  查看连接状态的TCP链接

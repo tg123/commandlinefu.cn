@@ -1,8 +1,7 @@
 commandlinefu_id: 2391
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   stty cbreak -echo; KEY=$(dd bs=1 count=1 2>/dev/null); stty -cbreak echo
 summary: |-
-  Read a keypress without echoing it
+  读取但不echo (密码)

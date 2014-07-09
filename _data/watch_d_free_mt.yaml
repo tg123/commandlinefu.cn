@@ -1,8 +1,7 @@
 commandlinefu_id: 940
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -d "free -mt"
 summary: |-
-  what the free memory grow or shink
+  监控剩余内存
