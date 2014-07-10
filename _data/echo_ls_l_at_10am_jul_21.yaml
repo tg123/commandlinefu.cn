@@ -1,8 +1,0 @@
-commandlinefu_id: 12241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo ?ls -l? | at 10am Jul 21
-summary: |-
-  Run a command at a certain time

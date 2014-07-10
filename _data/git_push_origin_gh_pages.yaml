@@ -1,8 +1,7 @@
 commandlinefu_id: 8672
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git push origin :gh-pages
 summary: |-
-  Delete specific remote 'origin' branch 'gh-pages'
+  如何删除远端分支
