@@ -1,8 +1,0 @@
-commandlinefu_id: 11679
-translator:
-  weibo: ''
-hide: true
-command: |-
-  CTRL+~ then .
-summary: |-
-  Terminate a dead ssh connection with out restarting the termainal

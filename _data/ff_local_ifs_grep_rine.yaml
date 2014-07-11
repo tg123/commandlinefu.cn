@@ -1,8 +1,7 @@
 commandlinefu_id: 8615
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ff() { local IFS='|'; grep -rinE "$*" . ; }
 summary: |-
-  Content search.
+  内容搜索

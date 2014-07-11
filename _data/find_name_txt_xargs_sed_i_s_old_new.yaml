@@ -1,8 +1,0 @@
-commandlinefu_id: 3610
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.txt" | xargs sed -i "s/old/new/"
-summary: |-
-  find . -name "*.txt" | xargs sed -i "s/old/new/"

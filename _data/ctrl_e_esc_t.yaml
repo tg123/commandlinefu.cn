@@ -1,8 +1,0 @@
-commandlinefu_id: 10412
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl+e> <esc+t>
-summary: |-
-  Swap the two last arguments of the current command line

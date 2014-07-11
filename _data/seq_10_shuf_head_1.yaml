@@ -1,8 +1,7 @@
 commandlinefu_id: 11551
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  seq 10| shuf | head -1
+  seq 10| shuf | head -n 5
 summary: |-
-  Generate random number with shuf
+  产生5个不重复的随机数

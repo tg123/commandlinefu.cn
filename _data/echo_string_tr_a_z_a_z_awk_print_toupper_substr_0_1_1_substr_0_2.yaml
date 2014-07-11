@@ -4,4 +4,4 @@ translator:
 command: |-
   echo "${STRING}" | tr '[A-Z]' '[a-z]' | awk '{print toupper(substr($0,1,1))substr($0,2);}'
 summary: |-
-  转换字符串变成大写
+  转换字符仅首字母大写
