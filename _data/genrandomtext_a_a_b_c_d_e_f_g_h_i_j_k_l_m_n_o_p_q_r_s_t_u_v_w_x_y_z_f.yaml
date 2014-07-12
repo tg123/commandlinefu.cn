@@ -1,8 +1,0 @@
-commandlinefu_id: 10077
-translator:
-  weibo: ''
-hide: true
-command: |-
-  genRandomText() { a=( a b c d e f g h i j k l m n o p q r s t u v w x y z );f=0;for i in $(seq 1 $(($1-1))); do r=$(($RANDOM%26)); if [ "$f" -eq 1 -a $(($r%$i)) -eq 0 ]; then echo -n " ";f=0;continue; else f=1;fi;echo -n ${a[$r]};done;echo"";}
-summary: |-
-  Generate Random Text based on Length

@@ -1,8 +1,7 @@
 commandlinefu_id: 4906
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -sh some/directory
 summary: |-
-  Show the size of a directory
+  统计目录大小

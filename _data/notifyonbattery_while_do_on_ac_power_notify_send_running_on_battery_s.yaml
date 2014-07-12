@@ -1,8 +1,7 @@
 commandlinefu_id: 9122
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   NotifyOnBATTERY () { while :; do on_ac_power||notify-send "Running on BATTERY"; sleep 1m; done }
 summary: |-
-  Notify on Battery power
+  在使用电池时候提示

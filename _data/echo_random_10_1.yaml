@@ -1,8 +1,7 @@
 commandlinefu_id: 3139
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $(( $RANDOM % 10 + 1 ))
 summary: |-
-  Random number generation within a range N, here N=10
+  生成 1 到 10 的随机数
