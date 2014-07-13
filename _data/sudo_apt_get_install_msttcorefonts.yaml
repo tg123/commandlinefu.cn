@@ -1,8 +1,0 @@
-commandlinefu_id: 13448
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get install msttcorefonts
-summary: |-
-  How To Install Microsoft Text Fonts In Ubuntu Linux

@@ -1,8 +1,7 @@
 commandlinefu_id: 9461
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lynx -dump http://example.com/ | awk '/http/{print $2}' | sort -u
 summary: |-
-  Get all links of a website
+  获取网页的所有链接

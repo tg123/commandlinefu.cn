@@ -1,8 +1,7 @@
 commandlinefu_id: 9196
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i 's/[ \t]\+$//g' file.txt
 summary: |-
-  Remove trailing whitespaces (or tabs) from a text file
+  删除结尾空白
