@@ -1,8 +1,7 @@
 commandlinefu_id: 6216
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "<your twit>" | wc -c -
 summary: |-
-  Count your Twit length before posting
+  字数

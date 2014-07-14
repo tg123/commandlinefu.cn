@@ -1,8 +1,0 @@
-commandlinefu_id: 8265
-translator:
-  weibo: ''
-hide: true
-command: |-
-  psql
-summary: |-
-  lazy SQL QUERYING

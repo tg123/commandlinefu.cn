@@ -1,8 +1,7 @@
 commandlinefu_id: 8721
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -newermt "2010-01-01" ! -newermt "2010-06-01"
 summary: |-
-  find files in a date range
+  查找一个日期范围的文件
