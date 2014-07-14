@@ -23,6 +23,7 @@ while true; do
     target="$DATADIR/${a[c]}"
     t=`grep "hide: true" $target`
     if [ -n "$t" ];then
+        echo "Opening $target"
         $EDITOR $target
         break
     fi
