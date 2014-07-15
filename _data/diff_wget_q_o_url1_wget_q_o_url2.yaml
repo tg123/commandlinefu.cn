@@ -1,8 +1,7 @@
 commandlinefu_id: 6856
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff <(wget -q -O - URL1) <(wget -q -O - URL2)
 summary: |-
-  Diff remote webpages using wget
+  比较两个远程的网页

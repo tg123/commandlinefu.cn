@@ -1,8 +1,0 @@
-commandlinefu_id: 9472
-translator:
-  weibo: ''
-hide: true
-command: |-
-  #!/bin/bash find | grep -P -v "(class)|(zip)|(png)|(gz)|(gif)|(jpeg)|(jpg)" | xargs -I @ grep -H $1 @
-summary: |-
-  find&grep all in once

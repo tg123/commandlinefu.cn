@@ -1,8 +1,7 @@
 commandlinefu_id: 8169
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero of=testfile bs=1024 count=5000
 summary: |-
-  Create a 5 MB blank file
+  创建一个5m的文件

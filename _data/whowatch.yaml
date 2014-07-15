@@ -1,8 +1,0 @@
-commandlinefu_id: 8747
-translator:
-  weibo: ''
-hide: true
-command: |-
-  whowatch
-summary: |-
-  whowatch: Linux and UNIX interactive, process and users monitoring tool

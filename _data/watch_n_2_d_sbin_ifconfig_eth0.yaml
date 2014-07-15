@@ -1,8 +1,0 @@
-commandlinefu_id: 9027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 2 -d '/sbin/ifconfig eth0'
-summary: |-
-  Highlight network TX, RX information change

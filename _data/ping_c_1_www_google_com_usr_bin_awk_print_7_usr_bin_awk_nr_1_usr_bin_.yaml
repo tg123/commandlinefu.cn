@@ -1,8 +1,0 @@
-commandlinefu_id: 7305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping -c 1 www.google.com | /usr/bin/awk '{print $7}' | /usr/bin/awk 'NR > 1' | /usr/bin/awk 'NR < 2' | /usr/bin/awk -F"=" '{print $2}'
-summary: |-
-  Do one ping to a URL,  I use this in a MRTG gauge graph to monitor connectivity

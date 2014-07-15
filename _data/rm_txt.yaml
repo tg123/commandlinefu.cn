@@ -1,8 +1,7 @@
 commandlinefu_id: 8752
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm !(*.txt)
 summary: |-
-  remove all files except *.txt
+  删除所有文件除了*.txt

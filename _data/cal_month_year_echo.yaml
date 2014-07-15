@@ -1,8 +1,7 @@
 commandlinefu_id: 13345
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   : $(cal [$month $year]) ; echo $_
 summary: |-
-  Get the number of days in a given month and year
+  获取指定月份的天数

@@ -1,8 +1,0 @@
-commandlinefu_id: 8187
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wineserver -k
-summary: |-
-  Stop All Wine Apps and Processes
