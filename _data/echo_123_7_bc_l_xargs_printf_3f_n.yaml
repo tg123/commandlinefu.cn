@@ -1,8 +1,7 @@
 commandlinefu_id: 1528
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo '123/7' |bc -l |xargs printf "%.3f\n"
 summary: |-
-  Doing some floating point calculations with rounding (e.g. at the 3rd decimal)
+  获取指定精度下浮点数运算的结果(比如精确到小数点第三位)

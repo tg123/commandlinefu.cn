@@ -1,8 +1,7 @@
 commandlinefu_id: 951
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   dd if=/dev/zero of=10gb bs=1M count=10240
 summary: |-
-  HDD Performance Write Test
+  硬盘驱动器(HDD)写性能测试

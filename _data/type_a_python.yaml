@@ -1,8 +1,7 @@
 commandlinefu_id: 8062
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   type -a python
 summary: |-
-  Show all "python" executables
+  显示所有的"python"可执行文件

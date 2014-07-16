@@ -1,8 +1,7 @@
 commandlinefu_id: 8126
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   RES=`xrandr | grep '*' | sed 's/\s*\([0-9x]*\).*/\1/'`; echo $RES
 summary: |-
-  Gets the X11 Screen resolution
+  获取X11桌面的屏幕分辨率

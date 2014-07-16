@@ -1,8 +1,7 @@
 commandlinefu_id: 12485
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -name ".DS_Store" -print0 | xargs -0 rm -rf
 summary: |-
-  Recursive remove files by mask
+  递归删除".DS_Store"文件

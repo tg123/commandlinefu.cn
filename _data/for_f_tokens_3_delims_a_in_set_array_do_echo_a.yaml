@@ -1,8 +1,7 @@
 commandlinefu_id: 6296
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   FOR /F "tokens=3* delims=[]=" %A IN ('SET ARRAY[') DO ( echo %A )
 summary: |-
-  MS-DOS only: Loop over array of system variable
+  在MS-DOS下，遍历系统变量数组

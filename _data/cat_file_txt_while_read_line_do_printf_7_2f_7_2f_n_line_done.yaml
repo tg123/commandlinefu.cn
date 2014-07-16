@@ -1,8 +1,7 @@
 commandlinefu_id: 3713
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat file.txt | while read line; do printf "%7.2f -> %7.2f\n" $line; done
 summary: |-
-  Bashbuiltin printf
+  显示Bash内置的printf函数的用法

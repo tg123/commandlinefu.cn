@@ -1,8 +1,7 @@
 commandlinefu_id: 4880
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   export DISPLAY=":0.0" && import -window root screenshot.png
 summary: |-
-  Remote Screenshot
+  远程截屏

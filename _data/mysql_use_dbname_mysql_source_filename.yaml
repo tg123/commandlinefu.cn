@@ -1,8 +1,7 @@
 commandlinefu_id: 5095
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   mysql>use DBNAME;  mysql>source FILENAME
 summary: |-
-  import database
+  导入数据库

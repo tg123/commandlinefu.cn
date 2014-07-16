@@ -1,8 +1,7 @@
 commandlinefu_id: 12540
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   $ apg -m 40 -a 1
 summary: |-
-  20char long alpahnumeric
+  生成40个字符组成的随机序列
