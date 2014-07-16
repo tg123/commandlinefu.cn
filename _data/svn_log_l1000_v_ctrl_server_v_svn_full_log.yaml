@@ -1,8 +1,7 @@
 commandlinefu_id: 11583
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   svn log -l1000 <V CTRL SERVER> -v > svn_full.log
 summary: |-
-  Get svn log from remote server
+  从远程服务器中获取svn提交记录

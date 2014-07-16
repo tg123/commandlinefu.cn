@@ -1,8 +1,7 @@
 commandlinefu_id: 2283
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ffmpeg -i source_movie.flv -vcodec mpeg2video target_video.m2v -acodec copy target_audio.mp3
 summary: |-
-  extracting audio and video from a movie
+  从电影中提取音频和视频
