@@ -1,8 +1,7 @@
 commandlinefu_id: 10295
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i 's/$/\r/' file
 summary: |-
-  Convert an UNIX file to a DOS file.
+  转换为dos格式

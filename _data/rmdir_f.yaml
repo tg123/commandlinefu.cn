@@ -1,8 +1,7 @@
 commandlinefu_id: 3148
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rmdir **/*(/^F)
 summary: |-
-  Remove empty directories
+  清除空目录 

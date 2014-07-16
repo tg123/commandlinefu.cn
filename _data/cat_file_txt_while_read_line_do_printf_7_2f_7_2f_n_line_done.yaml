@@ -1,7 +1,0 @@
-commandlinefu_id: 3713
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat file.txt | while read line; do printf "%7.2f -> %7.2f\n" $line; done
-summary: |-
-  显示Bash内置的printf函数的用法

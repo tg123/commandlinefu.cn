@@ -1,8 +1,7 @@
 commandlinefu_id: 7941
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   $ hash="foo:bar"; key=${hash%:*}; value=${hash#*:}; echo "Key: $key Value: $value"
 summary: |-
-  Create key/value pairs in bash
+  在bash中使用map

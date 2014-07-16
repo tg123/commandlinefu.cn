@@ -1,8 +1,7 @@
 commandlinefu_id: 13293
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '$1=$1' FS=" " OFS=":" file
 summary: |-
-  awk change field separator
+  改变awk分割符 
