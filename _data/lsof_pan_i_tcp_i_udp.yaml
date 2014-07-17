@@ -1,8 +1,7 @@
 commandlinefu_id: 5795
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -Pan -i tcp -i udp
 summary: |-
-  Lists all listening ports together with the PID of the associated process
+  查看打开端口的进程

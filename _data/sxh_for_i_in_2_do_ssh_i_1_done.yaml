@@ -1,8 +1,7 @@
 commandlinefu_id: 12165
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sxh () { for i in "${@:2}"; do ssh "$i" "$1"; done ; }
 summary: |-
-  Oneliner to run commands on multiple servers
+  在多个机器上执行命令
