@@ -1,8 +1,0 @@
-commandlinefu_id: 5650
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias a=" killall rapidly_spawning_process"; a; a; a;
-summary: |-
-  kills rapidly spawning processes that spawn faster than you can repeat the killall command

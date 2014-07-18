@@ -1,8 +1,7 @@
 commandlinefu_id: 11468
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh-add ~/.ssh/KEY_PAIR_NAME.pem
 summary: |-
-  Add EC2 pem key to SSH
+  添加一个sshkey

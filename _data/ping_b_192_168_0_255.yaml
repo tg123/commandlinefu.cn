@@ -1,8 +1,7 @@
 commandlinefu_id: 13093
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ping -b 192.168.0.255
 summary: |-
-  Ping all hosts on 192.168.1.0/24
+  一次ping 192.168.1.0/24

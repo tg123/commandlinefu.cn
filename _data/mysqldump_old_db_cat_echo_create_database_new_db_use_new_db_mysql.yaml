@@ -1,8 +1,7 @@
 commandlinefu_id: 8463
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mysqldump OLD_DB | cat <(echo "CREATE DATABASE NEW_DB; USE NEW_DB;") - | mysql
 summary: |-
-  Create a backup copy of a MySQL database on the same host
+  备份数据库
