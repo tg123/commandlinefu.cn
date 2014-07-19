@@ -1,8 +1,0 @@
-commandlinefu_id: 8837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  plink -v -ssh -N -D 8580 -l USERNAME -pw PASSWARD 192.168.2.12
-summary: |-
-  pass CHINA GFW

@@ -1,8 +1,7 @@
 commandlinefu_id: 9216
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   param=${param:-$(read -p "Enter parameter: "; echo "$REPLY")}
 summary: |-
-  Enter parameter if empty (script becomes interactive when parameters are missing)
+  脚本中获取参数

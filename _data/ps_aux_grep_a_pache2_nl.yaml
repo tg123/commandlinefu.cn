@@ -1,8 +1,7 @@
 commandlinefu_id: 4367
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps aux | grep [a]pache2 | nl
 summary: |-
-  count and number lines of output, useful for counting number of matches
+  计算apache进程数量

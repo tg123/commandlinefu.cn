@@ -1,8 +1,0 @@
-commandlinefu_id: 2224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tiger
-summary: |-
-  Unix security checker

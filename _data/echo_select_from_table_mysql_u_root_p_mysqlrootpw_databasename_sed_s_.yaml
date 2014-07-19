@@ -1,8 +1,7 @@
 commandlinefu_id: 817
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "SELECT * FROM table; " | mysql -u root -p${MYSQLROOTPW} databasename | sed 's/\t/","/g;s/^/"/;s/$/"/;s/\n//g' > outfile.csv
 summary: |-
-  Export MySQL query as .csv file
+  导出mysql为.csv
