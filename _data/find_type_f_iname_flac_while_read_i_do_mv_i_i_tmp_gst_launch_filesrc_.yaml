@@ -1,0 +1,8 @@
+commandlinefu_id: 13548
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -iname '*.flac' | while read i; do mv -- "$i" "$i.tmp"; gst-launch filesrc location="$i.tmp" ! flacdec ! flacenc quality=8 ! filesink location="${i%.tmp}"; rm -- "$i.tmp"; done
+summary: |-
+  Re-encode all flac files below

@@ -1,0 +1,8 @@
+commandlinefu_id: 13532
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpaste | say -v Alex -o /tmp/say.aiff && sox /tmp/say.aiff say.mp3
+summary: |-
+  Create MP3 from text on clipboard (OS X)

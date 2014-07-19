@@ -1,0 +1,8 @@
+commandlinefu_id: 13570
+translator:
+  weibo: ''
+hide: true
+command: |-
+  blkid
+summary: |-
+  bash: display disks by id, UUID and HW path

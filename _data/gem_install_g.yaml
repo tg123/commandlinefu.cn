@@ -1,0 +1,8 @@
+commandlinefu_id: 13564
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gem install -g
+summary: |-
+  Install Ruby dependencies from a Gemfile without Bundler

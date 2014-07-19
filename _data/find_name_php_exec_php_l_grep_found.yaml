@@ -1,0 +1,8 @@
+commandlinefu_id: 13552
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.php" -exec php -l {} \; | grep found
+summary: |-
+  scan folder to check syntax error in php files

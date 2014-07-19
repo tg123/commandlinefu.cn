@@ -1,0 +1,8 @@
+commandlinefu_id: 13533
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pbpate | sort | pbcopy
+summary: |-
+  Sort lines on clipboard

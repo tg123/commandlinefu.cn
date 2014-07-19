@@ -1,0 +1,8 @@
+commandlinefu_id: 13556
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pssh -h RemoteHosts.txt -P -I < ~/LocalScript.sh
+summary: |-
+  Run a script in parrallel over ssh

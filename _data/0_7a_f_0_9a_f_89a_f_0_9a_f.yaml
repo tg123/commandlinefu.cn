@@ -1,0 +1,8 @@
+commandlinefu_id: 13545
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /^........  \([0-7a-f][0-9a-f] *\)*[89a-f][0-9a-f]
+summary: |-
+  VI regex for searching non-ascii characters in hexdump -C output file

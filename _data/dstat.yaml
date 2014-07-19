@@ -1,0 +1,8 @@
+commandlinefu_id: 13526
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # dstat
+summary: |-
+  Tool for generating system resource statistic

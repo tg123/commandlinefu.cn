@@ -1,0 +1,8 @@
+commandlinefu_id: 13567
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --graph --decorate --pretty=oneline --abbrev-commit
+summary: |-
+  My git log alias

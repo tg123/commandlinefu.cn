@@ -1,0 +1,8 @@
+commandlinefu_id: 13529
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget www.google.com
+summary: |-
+  wget

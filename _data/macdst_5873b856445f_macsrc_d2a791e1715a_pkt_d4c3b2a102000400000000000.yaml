@@ -1,0 +1,8 @@
+commandlinefu_id: 13525
+translator:
+  weibo: ''
+hide: true
+command: |-
+  macdst="5873b856445f";macsrc="d2a791e1715a";pkt="d4c3b2a1020004000000000000000000ffff000001000000e3eab353fa1f 0b007400000074000000$macdst $macsrc 0842ffffffffffff";for i in {1..16}; do pkt="$pkt $macdst"; done; echo "$pkt" | xxd -r -p > magicpacket.pcap
+summary: |-
+  use xxd to create the wake on lan magicpacket and write to pcap file

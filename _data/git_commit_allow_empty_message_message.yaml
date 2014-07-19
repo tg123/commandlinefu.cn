@@ -1,0 +1,8 @@
+commandlinefu_id: 13566
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git commit --allow-empty-message --message ""
+summary: |-
+  Create a git commit with no message

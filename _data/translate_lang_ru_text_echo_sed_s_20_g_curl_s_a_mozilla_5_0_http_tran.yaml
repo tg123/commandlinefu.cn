@@ -1,0 +1,8 @@
+commandlinefu_id: 13547
+translator:
+  weibo: ''
+hide: true
+command: |-
+  translate () {lang="ru"; text=`echo $* | sed 's/ /%20/g'`; curl -s -A "Mozilla/5.0" "http://translate.google.com/translate_a/t?client=t&text=$text&sl=auto&tl=$lang" | sed 's/\[\[\[\"//' | cut -d \" -f 1}
+summary: |-
+  Google Translate

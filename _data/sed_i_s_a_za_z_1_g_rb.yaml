@@ -1,0 +1,8 @@
+commandlinefu_id: 13569
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i "s/:\([a-zA-Z_]*\) =>/\1:/g" **/*.rb
+summary: |-
+  Edit Ruby files within the current directory to use Ruby 1.9+ style symbol keys instead of rockets

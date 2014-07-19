@@ -1,0 +1,8 @@
+commandlinefu_id: 13562
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fn() { find . -iname "*$1*" -print; }
+summary: |-
+  A function to find a file in the pwd downwards

@@ -1,0 +1,8 @@
+commandlinefu_id: 13530
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -r -nd -q -A "*.ext" http://www.example.org/
+summary: |-
+  Get all files with a certain extension linked to on a page

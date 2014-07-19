@@ -1,0 +1,8 @@
+commandlinefu_id: 13519
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e '\x2Hello, folks\t!\r' | sed "y/\x2\x9\xD\x20/&#9218;&#9225;&#9229;&#9248;/"
+summary: |-
+  Convert control codes to visible Unicode Control Pictures

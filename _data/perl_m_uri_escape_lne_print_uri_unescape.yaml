@@ -1,0 +1,8 @@
+commandlinefu_id: 13522
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -M URI::Escape -lne 'print uri_unescape($_)'
+summary: |-
+  urldecoding

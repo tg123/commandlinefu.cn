@@ -1,0 +1,8 @@
+commandlinefu_id: 13537
+translator:
+  weibo: ''
+hide: true
+command: |-
+  puppet config print modulepath
+summary: |-
+  Get puppet modules path

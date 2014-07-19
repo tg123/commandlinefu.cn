@@ -1,0 +1,8 @@
+commandlinefu_id: 13523
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh <user>@<ip address> $(echo wmic process where \"name like \'%<process to kill>%\'\" delete)
+summary: |-
+  SSH/wmic to remotely kill a process on a windows box

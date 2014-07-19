@@ -1,0 +1,8 @@
+commandlinefu_id: 13544
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . |xargs grep '<html\|<body\|<table' |sed '/~/d;s/:.*//' |sed 's/.*/mv & &.html/' |uniq >run.sh; sh run.sh
+summary: |-
+  Append html-extension to all files in a directory structure that contains html-code.
