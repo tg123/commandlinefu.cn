@@ -1,8 +1,7 @@
 commandlinefu_id: 13469
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -a | sort -nr | head -10
 summary: |-
-  Find directories in pwd, get disk usage, sort results
+  统计当前目录下的磁盘利用

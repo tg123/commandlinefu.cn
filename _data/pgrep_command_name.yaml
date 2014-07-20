@@ -1,8 +1,7 @@
 commandlinefu_id: 3037
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pgrep command_name
 summary: |-
-  Find the process you are looking for minus the grepped one
+  查找指定名字的进程 ps + grep

@@ -1,8 +1,7 @@
 commandlinefu_id: 233
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   kill -HUP `ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]' | awk '{print $2}'`
 summary: |-
-  find and kill a zombie process
+  清理僵尸进程

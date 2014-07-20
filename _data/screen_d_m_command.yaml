@@ -1,8 +1,7 @@
 commandlinefu_id: 5897
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen -d -m command &
 summary: |-
-  Runs a command without hangups.
+  在screen内运行命令

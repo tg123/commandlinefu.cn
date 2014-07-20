@@ -1,8 +1,7 @@
 commandlinefu_id: 9012
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync
 summary: |-
-  Test disk I/O
+  测试IO能力
