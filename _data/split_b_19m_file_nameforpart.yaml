@@ -1,8 +1,7 @@
 commandlinefu_id: 1202
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   split -b 19m file Nameforpart
 summary: |-
-  Split File in parts
+  把文件按照给定大小切成片段
