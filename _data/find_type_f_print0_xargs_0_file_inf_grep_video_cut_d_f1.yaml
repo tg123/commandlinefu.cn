@@ -1,8 +1,7 @@
 commandlinefu_id: 4086
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find ./ -type f -print0 | xargs -0 file -iNf - | grep video | cut -d: -f1
 summary: |-
-  Find all videos under current directory
+  显示当前目录下的所有视频文件

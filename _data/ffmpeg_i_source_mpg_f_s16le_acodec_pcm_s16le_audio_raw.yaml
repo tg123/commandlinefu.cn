@@ -1,8 +1,7 @@
 commandlinefu_id: 11741
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ffmpeg -i source.mpg -f s16le -acodec pcm_s16le audio.raw
 summary: |-
-  Extract raw audio from video
+  从视频中提取原生的音频

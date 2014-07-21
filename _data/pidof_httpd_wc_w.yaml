@@ -1,8 +1,7 @@
 commandlinefu_id: 7956
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   pidof httpd | wc -w
 summary: |-
-  Count httpd processes
+  计算httpd进程数

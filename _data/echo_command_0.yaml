@@ -1,8 +1,7 @@
 commandlinefu_id: 8365
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   $ echo "command"; `!#:0-$
 summary: |-
-  print line and execute it in BASH
+  输出一行命令并在Bash中执行

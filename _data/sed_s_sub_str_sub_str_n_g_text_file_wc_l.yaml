@@ -1,8 +1,7 @@
 commandlinefu_id: 12104
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sed ?s/[sub_str]/[sub_str]\n/g? [text_file] | wc -l
 summary: |-
-  count the number of times you match a substring in a larger text file
+  计算在一个大的文本文件中某个字符串被匹配的次数

@@ -1,8 +1,7 @@
 commandlinefu_id: 4477
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   (bzcat BZIP2_FILES && cat TEXT_FILES) | grep -E "Invalid user|PAM" | grep -o -E "from .+" | awk '{print $2}' | sort | uniq >> /etc/hosts.deny
 summary: |-
-  Block all IP addresses and domains that have attempted brute force SSH login to computer
+  屏蔽掉所有尝试通过暴力法SSH登录到计算机的IP地址和域名
