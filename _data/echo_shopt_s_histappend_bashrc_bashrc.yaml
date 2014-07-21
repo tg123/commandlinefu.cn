@@ -1,8 +1,7 @@
 commandlinefu_id: 9630
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo "shopt -s histappend" >> ~/.bashrc ; . ~/.bashrc
 summary: |-
-  Prevent command history file from being overwritten by multiple shell sessions.
+  防止命令历史文件被不同的shell会话覆盖

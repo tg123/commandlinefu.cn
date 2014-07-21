@@ -1,8 +1,7 @@
 commandlinefu_id: 2272
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   scanimage -d mustek_usb --resolution 100 --mode Color > image.pnm
 summary: |-
-  using scanner device from command line
+  通过命令行使用扫描仪

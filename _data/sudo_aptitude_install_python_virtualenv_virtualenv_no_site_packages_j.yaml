@@ -1,8 +1,7 @@
 commandlinefu_id: 8329
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   $sudo aptitude install python-virtualenv; virtualenv --no-site-packages jpaenv; source jpaenv/bin/activate
 summary: |-
-  Python virtual-env creation
+  创建Python的虚拟环境

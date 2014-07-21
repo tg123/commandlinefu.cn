@@ -1,8 +1,7 @@
 commandlinefu_id: 5250
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   function wherepath () { for DIR in `echo $PATH | tr ":" "\n" | awk '!x[$0]++ {print $0}'`; do  ls ${DIR}/$1 2>/dev/null; done }
 summary: |-
-  list all instances of a file in your PATH directories (without duplicates) in PATH order
+  不带重复地列出你的PATH文件夹下所有的文件（按照PATH的顺序）
