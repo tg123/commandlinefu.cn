@@ -1,8 +1,7 @@
 commandlinefu_id: 12308
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch 'ls -tr1 | tail -n1 | xargs tail'
 summary: |-
-  Poll and print end of lates modified file
+  监控最新修改的文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 3927
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -size 0 -exec rm '{}' \;
 summary: |-
-  Erase empty files
+  清理空文件

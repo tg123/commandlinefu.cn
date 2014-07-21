@@ -1,8 +1,7 @@
 commandlinefu_id: 13425
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   MYURL=http://test.example.com ; awk -F/ '{ print $3 }' <<< $MYURL | awk -F. '{ if ( $(NF-1) == "co" || $(NF-1) == "com" ) printf $(NF-2)"."; print $(NF-1)"."$(NF); }'
 summary: |-
-  Extract domain from URl
+  提取获取url中的域名

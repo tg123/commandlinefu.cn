@@ -1,8 +1,7 @@
 commandlinefu_id: 13466
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ip route list 0/0
 summary: |-
-  Find default gateway
+  默认网关
