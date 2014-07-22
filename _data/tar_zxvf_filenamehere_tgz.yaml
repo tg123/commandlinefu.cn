@@ -1,8 +1,7 @@
 commandlinefu_id: 13097
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar zxvf fileNameHere.tgz
 summary: |-
-  Unpack .tgz File On Linux
+  解压缩tgz

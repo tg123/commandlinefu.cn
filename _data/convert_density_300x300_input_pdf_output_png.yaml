@@ -1,8 +1,7 @@
 commandlinefu_id: 7744
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   convert -density 300x300 input.pdf output.png
 summary: |-
-  Convert a single-page PDF to a hi-res PNG, at 300dpi
+  把pdf转化成png
