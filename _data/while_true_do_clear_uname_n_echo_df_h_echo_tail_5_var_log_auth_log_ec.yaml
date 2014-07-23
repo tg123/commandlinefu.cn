@@ -1,8 +1,7 @@
 commandlinefu_id: 6409
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while (true); do clear; uname -n; echo ""; df -h /; echo ""; tail -5 /var/log/auth.log; echo ""; vmstat 1 5; sleep 15; done
 summary: |-
-  Continually monitor things
+  监控一些东西

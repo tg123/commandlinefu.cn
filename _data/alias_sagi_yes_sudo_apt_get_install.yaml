@@ -1,8 +1,0 @@
-commandlinefu_id: 8022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias sagi="yes | sudo apt-get install"
-summary: |-
-  easier sudo apt-get install

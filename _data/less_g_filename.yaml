@@ -1,8 +1,7 @@
 commandlinefu_id: 1323
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   less +G <filename>
 summary: |-
-  View a file with less, starting at the end of the file
+  在less之后先到文件尾部

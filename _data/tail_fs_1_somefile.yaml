@@ -1,8 +1,7 @@
 commandlinefu_id: 5645
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tail -fs 1 somefile
 summary: |-
-  Tail -f at your own pace
+  设定tail -f 的检查频率(默认1)

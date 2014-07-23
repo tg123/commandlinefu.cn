@@ -1,8 +1,0 @@
-commandlinefu_id: 10923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  stat /etc/my.cnf
-summary: |-
-  Status of a file/directory
