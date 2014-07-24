@@ -1,8 +1,7 @@
 commandlinefu_id: 8949
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "!!" | pbcopy
 summary: |-
-  copy last command to clipboard
+  复制上一个命令
