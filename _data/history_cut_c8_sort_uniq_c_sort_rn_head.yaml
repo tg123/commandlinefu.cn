@@ -1,8 +1,7 @@
 commandlinefu_id: 10000
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   history | cut -c8- | sort | uniq -c | sort -rn | head
 summary: |-
-  Rank top 10 most frequently used commands
+  列出前十个最常用的命令
