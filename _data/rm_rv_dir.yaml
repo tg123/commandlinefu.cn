@@ -1,8 +1,7 @@
 commandlinefu_id: 11183
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   rm -rv dir
 summary: |-
-  Recursive delete
+  递归删除指定目录
