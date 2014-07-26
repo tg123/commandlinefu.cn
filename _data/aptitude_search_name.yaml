@@ -1,8 +1,7 @@
 commandlinefu_id: 4030
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   aptitude search NAME
 summary: |-
-  Search for available software on a debian package system (Ubuntu)
+  查找包(ubuntu)
