@@ -1,8 +1,7 @@
 commandlinefu_id: 1812
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perror NUMBER
 summary: |-
-  Explanation of system and MySQL error codes
+  查看错误代码含义
