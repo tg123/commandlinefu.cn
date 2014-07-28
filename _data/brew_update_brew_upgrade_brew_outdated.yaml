@@ -1,8 +1,0 @@
-commandlinefu_id: 10390
-translator:
-  weibo: ''
-hide: true
-command: |-
-  brew update && brew upgrade `brew outdated`
-summary: |-
-  Update all packages installed via homebrew

@@ -1,8 +1,7 @@
 commandlinefu_id: 11839
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   FULLPATH=$(perl -e "use Cwd 'abs_path';print abs_path('$0');")
 summary: |-
-  Get full directory path of a script regardless of where it is run from
+  获取绝对路径(perl)

@@ -1,8 +1,7 @@
 commandlinefu_id: 13101
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -l linux-* | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e [0-9] | xargs sudo apt-get -y purge
 summary: |-
-  Remove old kernel packages
+  清理老内核(deb)

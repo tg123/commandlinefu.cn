@@ -1,8 +1,7 @@
 commandlinefu_id: 11257
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xclip -sel clip < ~/.ssh/id_rsa.pub
 summary: |-
-  Copy your public key to clipboard
+  复制公钥到剪切版

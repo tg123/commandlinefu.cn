@@ -1,8 +1,0 @@
-commandlinefu_id: 5202
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gorecord() {   if [ $# != 1 ]; then     echo 'gorecord video.mp4'     return   fi    ffmpeg -f x11grab -s <resolution> -r 25 -i :0.0 -sameq -vcodec mpeg4 "$1"  }
-summary: |-
-  High resolution video screen recording
