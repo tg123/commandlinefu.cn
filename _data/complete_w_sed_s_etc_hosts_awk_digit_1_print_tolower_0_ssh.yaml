@@ -1,8 +1,7 @@
 commandlinefu_id: 8675
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   complete -W "$(sed 's/;.*//;' /etc/hosts | awk ' /^[[:digit:]]/ {$1 = "";print tolower($0)}')" ssh
 summary: |-
-  Enable tab completion for known SSH hosts
+  让ssh支持known host 自动完成

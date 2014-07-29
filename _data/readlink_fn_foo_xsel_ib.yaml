@@ -1,8 +1,7 @@
 commandlinefu_id: 11987
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   readlink -fn foo | xsel -ib
 summary: |-
-  Copy canonical path of file 'foo' in the clipboard
+  复制文件的全路径到剪切版

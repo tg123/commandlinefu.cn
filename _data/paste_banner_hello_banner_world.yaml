@@ -1,8 +1,7 @@
 commandlinefu_id: 9742
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   paste <(banner hello,\ ) <(banner world)
 summary: |-
-  Prints "hello, world" to the console in very large letters
+  巨大的hello world

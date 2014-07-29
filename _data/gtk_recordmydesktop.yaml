@@ -1,8 +1,0 @@
-commandlinefu_id: 12432
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gtk-recordMyDesktop
-summary: |-
-  Capture video of a linux desktop

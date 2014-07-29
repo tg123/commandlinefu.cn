@@ -1,8 +1,0 @@
-commandlinefu_id: 11747
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tshark -r *.eth -S -R "ajp13" -d tcp.port==9009,ajp13  -s 0 -l -V | awk '/Apache JServ/ {p=1} /^ *$/ {p=0;printf "\n"} (p){printf "%s\n", $0} /^(Frame|Internet Pro|Transmission Control)/ {print $0}'
-summary: |-
-  read ajp13 packet contents on terminal using tshark 1.4.15

@@ -1,8 +1,0 @@
-commandlinefu_id: 6590
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -9 search_criteria
-summary: |-
-  kill some pids without specific pid
