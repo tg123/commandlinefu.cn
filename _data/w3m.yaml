@@ -1,8 +1,7 @@
 commandlinefu_id: 1080
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   w3m
 summary: |-
-  test
+  在命令行访问页面
