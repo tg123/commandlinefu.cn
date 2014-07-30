@@ -1,8 +1,0 @@
-commandlinefu_id: 12177
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo shutdown 3600 -P
-summary: |-
-  Wait a moment and then Power off
