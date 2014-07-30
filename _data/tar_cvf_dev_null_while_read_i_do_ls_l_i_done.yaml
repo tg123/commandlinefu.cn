@@ -1,8 +1,7 @@
 commandlinefu_id: 3516
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar -cvf /dev/null . | while read i; do ls -l $i; done
 summary: |-
-  ls -lR with a full path
+  输出完全路径的ls (做法有点诡异)
