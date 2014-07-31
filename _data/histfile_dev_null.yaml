@@ -1,8 +1,7 @@
 commandlinefu_id: 7906
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   HISTFILE=/dev/null
 summary: |-
-  disable history for current shell session
+  关闭当前shell会话的历史记录
