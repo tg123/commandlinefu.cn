@@ -1,8 +1,0 @@
-commandlinefu_id: 13225
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill `pidof conky`
-summary: |-
-  kill a process(e.g. conky) by its name, useful when debugging conky:)
