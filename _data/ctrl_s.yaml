@@ -1,8 +1,7 @@
 commandlinefu_id: 10371
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   CTRL+s
 summary: |-
-  Stop and continue processing on a terminal
+  暂停和继续终端上的处理

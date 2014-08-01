@@ -1,8 +1,7 @@
 commandlinefu_id: 12986
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   wget -r -l1 -H -t1 -nd -N -np -A.mp3 -erobots=off [url of website]
 summary: |-
-  Download all mp3's listed in an html page
+  下载某个网址下的所有map3
