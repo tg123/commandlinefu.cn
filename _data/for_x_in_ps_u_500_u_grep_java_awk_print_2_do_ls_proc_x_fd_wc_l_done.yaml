@@ -1,8 +1,7 @@
 commandlinefu_id: 11841
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for x in `ps -u 500 u | grep java | awk '{ print $2 }'`;do ls /proc/$x/fd|wc -l;done
 summary: |-
-  Count open file handles for a specific user ID
+  查看指定用户打开的文件数量

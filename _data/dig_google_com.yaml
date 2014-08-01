@@ -1,8 +1,0 @@
-commandlinefu_id: 3226
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig google.com
-summary: |-
-  Use dig instead of nslookup

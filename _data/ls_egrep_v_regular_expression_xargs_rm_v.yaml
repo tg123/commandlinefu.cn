@@ -1,8 +1,7 @@
 commandlinefu_id: 5237
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls | egrep -v "[REGULAR EXPRESSION]" | xargs rm -v
 summary: |-
-  Remove everything except that file
+  删除除了文件名含有指定pattern的文件

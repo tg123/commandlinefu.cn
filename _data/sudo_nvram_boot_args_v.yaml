@@ -1,8 +1,0 @@
-commandlinefu_id: 6503
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo nvram boot-args="-v"
-summary: |-
-  Enable verbose boot in Mac OS X Open Firmware
