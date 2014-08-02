@@ -1,8 +1,7 @@
 commandlinefu_id: 12167
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   ifdata -pN eth0
 summary: |-
-  Get the IP address of a machine
+  获取ip地址

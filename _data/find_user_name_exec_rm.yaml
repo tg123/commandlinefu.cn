@@ -1,8 +1,0 @@
-commandlinefu_id: 2136
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ~user/ -name "*~" -exec rm {} \;
-summary: |-
-  Remove all backup files in my home directory

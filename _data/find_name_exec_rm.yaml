@@ -1,8 +1,7 @@
 commandlinefu_id: 4954
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find . -name "*~" -exec rm {} \;
 summary: |-
-  Remove VIM temp files
+  删除vim的临时文件
