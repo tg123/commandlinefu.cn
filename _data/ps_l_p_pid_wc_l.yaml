@@ -1,8 +1,7 @@
 commandlinefu_id: 1974
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   ps -L -p <pid> | wc -l
 summary: |-
-  Get thread count for process on Solaris
+  得到Solaris系统上某个进程的线程个数
