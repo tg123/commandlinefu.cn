@@ -1,6 +1,6 @@
 commandlinefu_id: 2789
 translator:
-  weibo: '玄文处幽'
+  weibo: 玄文处幽
 command: |-
   cdparanoia -B
 summary: |-
