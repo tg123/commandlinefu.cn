@@ -1,8 +1,7 @@
 commandlinefu_id: 9770
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   read -s PASS; echo $PASS | convert sensitive.jpg -encipher - -depth 8 png24:hidden.png
 summary: |-
-  encrypt sensitive image using password
+  加密图像
