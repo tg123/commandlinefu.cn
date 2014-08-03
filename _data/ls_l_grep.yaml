@@ -1,8 +1,7 @@
 commandlinefu_id: 5102
 translator:
-  weibo: ''
-hide: true
+  weibo: 玄文处幽
 command: |-
   ls -l | grep ^-
 summary: |-
-  List only files in long format.
+  以长格式只列出文件
