@@ -1,8 +1,0 @@
-commandlinefu_id: 692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  doskey l=dir /OD $*
-summary: |-
-  Equivalent of alias in cmd.exe: doskey (macros)
