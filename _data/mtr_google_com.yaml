@@ -1,8 +1,7 @@
 commandlinefu_id: 1132
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mtr google.com
 summary: |-
-  mtr, better than traceroute and ping combined
+  混合ping和traceroute的工具
