@@ -1,8 +1,7 @@
 commandlinefu_id: 3732
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm ~/.bash_history && kill -9 $$
 summary: |-
-  Sneaky logout
+  潜行...

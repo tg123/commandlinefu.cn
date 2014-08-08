@@ -1,8 +1,7 @@
 commandlinefu_id: 8295
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   MyVAR=84; awk '{ print "'"$MyVAR"'" }'
 summary: |-
-  BASH: Print shell variable into AWK
+  如何在awk中使用环境变量

@@ -1,8 +1,7 @@
 commandlinefu_id: 11626
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ifconfig | grep inet
 summary: |-
-  get LAN ip
+  获取LAN ip
