@@ -1,8 +1,7 @@
 commandlinefu_id: 3506
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -u<user>
 summary: |-
-  get users process list
+  获取用户进程

@@ -1,8 +1,7 @@
 commandlinefu_id: 9977
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -ne 's/\^.{1,7}?m//g;print'
 summary: |-
-  Remove color codes (special characters) with perl
+  移除颜色代码
