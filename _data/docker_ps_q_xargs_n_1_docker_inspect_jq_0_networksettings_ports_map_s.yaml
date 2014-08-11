@@ -1,0 +1,8 @@
+commandlinefu_id: 13599
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker ps -q | xargs -n 1 docker inspect  | jq '.[0].NetworkSettings.Ports +{} | map(select(. != null)[0].HostPort) | map("-L \(.):localhost:\(.)") ' | sed -n 's/.*"\(.*\)".*/\1/p' |xargs boot2docker ssh -N
+summary: |-
+  Automatically tunnel all ports of running docker instances in boot2docker

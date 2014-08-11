@@ -1,0 +1,8 @@
+commandlinefu_id: 13622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  journalctl --unit=named --follow
+summary: |-
+  follow DNS Bind named log

@@ -1,0 +1,8 @@
+commandlinefu_id: 13572
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat h.txt| while read line; do curl -s -X POST 'https://www.virustotal.com/vtapi/v2/file/report' --form apikey="APIKEY" --form resource="$line"|awk -F'positives\":' '{print "VTHits"$2}'|awk -F' ' '{print $1" "$2$5$6}'|sed 's/["}]//g' && sleep 15; done
+summary: |-
+  Query VirusTotal Hash DB using a Public APIKEY

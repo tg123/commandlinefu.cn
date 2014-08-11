@@ -1,0 +1,8 @@
+commandlinefu_id: 13626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eval echo $(echoprint-codegen "/path/to/file.mp3"| jq ' .[0].metadata | "mp3info -a \"" + .artist + "\" -t \"" + .title + "\" -l \"" + .release + "\" \"" + .filename + "\"" ' ) | bash
+summary: |-
+  Update music info with public database data

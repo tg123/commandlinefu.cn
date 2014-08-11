@@ -1,0 +1,8 @@
+commandlinefu_id: 13613
+translator:
+  weibo: ''
+hide: true
+command: |-
+  On target: "nc -l 4000 | lz4c -d - | tar xvf -" On source: "tar -cf - . | lz4c | nc target_ip 4000"
+summary: |-
+  Using netcat and lz4c to copy files between servers
