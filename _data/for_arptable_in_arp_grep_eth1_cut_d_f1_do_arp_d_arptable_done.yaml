@@ -1,8 +1,7 @@
 commandlinefu_id: 7293
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for arptable in `arp | grep "eth1" | cut -d " " -f1`; do arp -d $arptable; done
 summary: |-
-  Clear ARP table in linux.
+  清除ARP

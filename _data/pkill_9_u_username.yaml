@@ -1,8 +1,7 @@
 commandlinefu_id: 10326
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pkill -9 -u username
 summary: |-
-  all out
+  杀死用户所有进程
