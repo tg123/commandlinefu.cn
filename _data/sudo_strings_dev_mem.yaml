@@ -1,8 +1,7 @@
 commandlinefu_id: 2945
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo strings /dev/mem
 summary: |-
-  A fun thing to do with ram is actually open it up and take a peek. This command will show you all the string (plain text) values in ram
+  看看内存里边的文字

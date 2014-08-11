@@ -1,8 +1,7 @@
 commandlinefu_id: 9524
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date -d "$(uptime | awk '{gsub(/,/,"",$3);gsub(/:/," hours ",$3); print "- " $3 " minutes"}')"
 summary: |-
-  Get the time and date of the last server reboot
+  服务器启动时间

@@ -1,8 +1,0 @@
-commandlinefu_id: 4088
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git remote add origin git@SSH-HOST:<USER>/<REPOSITORY>.git
-summary: |-
-  github push-ing behind draconian proxies!

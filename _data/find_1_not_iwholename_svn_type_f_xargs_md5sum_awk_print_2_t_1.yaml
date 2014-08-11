@@ -1,8 +1,7 @@
 commandlinefu_id: 13152
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find $1 -not -iwholename "*.svn*" -type f | xargs md5sum | awk '{print $2 "\t" $1}'
 summary: |-
-  get md5sum for all files, skipping svn directories
+  获取所有文件的md5

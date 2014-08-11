@@ -1,8 +1,7 @@
 commandlinefu_id: 948
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   diff <(sort file1.txt) <(sort file2.txt)
 summary: |-
-  diff two sorted files
+  比较两个已排序的文件

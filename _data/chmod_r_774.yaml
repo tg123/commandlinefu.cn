@@ -1,8 +1,0 @@
-commandlinefu_id: 4420
-translator:
-  weibo: ''
-hide: true
-command: |-
-  chmod -R 774 .
-summary: |-
-  Recursive chmod all files and directories within the current directory

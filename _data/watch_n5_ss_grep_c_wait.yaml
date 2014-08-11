@@ -1,0 +1,8 @@
+commandlinefu_id: 13606
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n5 ss \| grep -c WAIT
+summary: |-
+  Show a running count of CLOSE_WAIT and TIME_WAIT connections for debugging network apps

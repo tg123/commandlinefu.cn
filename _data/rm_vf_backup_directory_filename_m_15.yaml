@@ -1,8 +1,0 @@
-commandlinefu_id: 3161
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm -vf /backup/directory/**/FILENAME_*(m+15)
-summary: |-
-  Verbosely delete files matching specific name pattern, older than 15 days.

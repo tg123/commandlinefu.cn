@@ -1,8 +1,7 @@
 commandlinefu_id: 271
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -e "use SOAP::Lite"
 summary: |-
-  Perl check if library is installed
+  检查perl是否安装了某个包

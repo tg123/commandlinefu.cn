@@ -1,0 +1,8 @@
+commandlinefu_id: 13597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker kill $(docker ps -q)
+summary: |-
+  docker kill all containers

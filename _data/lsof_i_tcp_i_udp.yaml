@@ -1,8 +1,7 @@
 commandlinefu_id: 3711
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -i tcp -i udp
 summary: |-
-  List open TCP/UDP ports
+  查看开启的端口

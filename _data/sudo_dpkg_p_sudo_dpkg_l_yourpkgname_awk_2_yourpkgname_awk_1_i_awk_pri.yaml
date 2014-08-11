@@ -1,0 +1,8 @@
+commandlinefu_id: 13614
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dpkg -P $(sudo dpkg -l yourPkgName* | awk '$2 ~ /yourPkgName.*/' | awk '$1 ~ /.i/' | awk '{print $2}')
+summary: |-
+  dpkg: purge all packages matching some name

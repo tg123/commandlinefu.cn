@@ -1,0 +1,8 @@
+commandlinefu_id: 13573
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sch .[!.]* * |sort -h
+summary: |-
+  Sort content of a directory including hidden files.

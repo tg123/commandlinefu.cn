@@ -1,0 +1,8 @@
+commandlinefu_id: 13579
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cj / -X /tmp/exclude.txt | cstream -v 1 -c 3 -T 10 | ssh user@host 'tar -xj -C /backupDestination'
+summary: |-
+  Full  remote server backup over cstream using tar (excluding unnecessary files) (reports every 10 seconds)

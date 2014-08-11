@@ -1,0 +1,8 @@
+commandlinefu_id: 13596
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount_smbfs '//user:p%40ss@server/share' /Volumes/share
+summary: |-
+  Mount SMB share with password containing special characters

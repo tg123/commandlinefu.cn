@@ -1,0 +1,8 @@
+commandlinefu_id: 13612
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function say { wget -q -U Mozilla -O google-tts.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&tl=$1&q=$2" open google-tts.mp3 &>/dev/null || mplayer google-tts.mp3 &>/dev/null; rm google-tts.mp3; }
+summary: |-
+  Google's Text-To-Speech in command line

@@ -1,8 +1,0 @@
-commandlinefu_id: 8246
-translator:
-  weibo: ''
-hide: true
-command: |-
-  LANG=fr_FR.iso8859-1 find . -name '*['$'\xe9'$'\xea'$'\xeb'$'\xc9'']*'|while read f; do a="$(echo $f|iconv -f iso8859-1 -t ascii//TRANSLIT)"; echo "move $f => $a"; done
-summary: |-
-  Convert filenames from ISO-8859-1 to UTF-8

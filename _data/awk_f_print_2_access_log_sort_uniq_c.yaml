@@ -1,0 +1,8 @@
+commandlinefu_id: 13603
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F: '{print $2}' access_log | sort | uniq -c
+summary: |-
+  Hits per hour apache log

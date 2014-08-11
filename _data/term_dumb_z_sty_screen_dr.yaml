@@ -1,0 +1,8 @@
+commandlinefu_id: 13589
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ "$TERM" != "dumb" ] && [ -z "$STY" ] && screen -dR
+summary: |-
+  makes screen your default shell without breaking SCP or SFTP

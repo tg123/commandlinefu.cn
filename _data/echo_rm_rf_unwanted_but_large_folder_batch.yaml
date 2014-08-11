@@ -1,8 +1,7 @@
 commandlinefu_id: 49
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "rm -rf /unwanted-but-large/folder" | batch
 summary: |-
-  Run a command only when load average is below a certain threshold
+  负载低时候执行某个命令

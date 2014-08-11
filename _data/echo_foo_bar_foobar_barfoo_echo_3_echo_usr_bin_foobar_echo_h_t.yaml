@@ -1,8 +1,0 @@
-commandlinefu_id: 862
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo foo bar foobar barfoo && echo !$ !^  !:3 !* &&  echo /usr/bin/foobar&& echo !$:h !$:t
-summary: |-
-  bash shortcut: !$ !^ !* !:3 !:h and !:t

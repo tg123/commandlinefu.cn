@@ -1,0 +1,8 @@
+commandlinefu_id: 13592
+translator:
+  weibo: ''
+hide: true
+command: |-
+  system_profiler SPHardwareDataType | awk '/UUID/ { print $3; }'
+summary: |-
+  Get Hardware UUID in Mac OS X

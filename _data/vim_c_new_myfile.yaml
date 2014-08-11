@@ -1,8 +1,7 @@
 commandlinefu_id: 2552
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim -c new myfile
 summary: |-
-  Open Vim with two windows
+  用vim同时打开多个文件

@@ -1,0 +1,8 @@
+commandlinefu_id: 13607
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar cvzf - dir | ssh my_server 'tar xzf -'
+summary: |-
+  oneliner to transfer a directory using ssh and tar

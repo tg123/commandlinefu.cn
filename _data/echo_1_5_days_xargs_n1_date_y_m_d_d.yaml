@@ -1,0 +1,8 @@
+commandlinefu_id: 13584
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo {-1..-5}days | xargs -n1 date +"%Y-%m-%d" -d
+summary: |-
+  List the most recent dates in reverse-chronological order

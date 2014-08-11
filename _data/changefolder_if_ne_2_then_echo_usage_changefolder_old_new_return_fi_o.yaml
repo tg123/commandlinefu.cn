@@ -1,0 +1,8 @@
+commandlinefu_id: 13604
+translator:
+  weibo: ''
+hide: true
+command: |-
+  changeFolder() { if [ $# -ne 2 ]; then echo "Usage: changeFolder old new"; return; fi; old=$(pwd); folder=$(echo "$old" | sed -e "s/$1/$2/g"); if [ ! -d "$folder" ]; then echo "Folder '$folder' not found."; return; fi; echo "$old -> $folder"; cd $folder;}
+summary: |-
+  Change directory for current path (in bash)

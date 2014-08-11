@@ -1,0 +1,8 @@
+commandlinefu_id: 13621
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum list installed| awk '{print $1}'| grep -e "x86" -e "noarch" | grep -v -e '^@'| sort
+summary: |-
+  List all Centos intalled packages

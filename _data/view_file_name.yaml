@@ -1,8 +1,7 @@
 commandlinefu_id: 12364
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   view /file/name
 summary: |-
-  Open a file using vim in read only (like less)
+  在read only 模式下打开文件

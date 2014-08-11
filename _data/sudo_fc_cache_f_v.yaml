@@ -1,8 +1,7 @@
 commandlinefu_id: 3721
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo fc-cache -f -v
 summary: |-
-  Refresh the cache of font directory
+  刷新字体缓存

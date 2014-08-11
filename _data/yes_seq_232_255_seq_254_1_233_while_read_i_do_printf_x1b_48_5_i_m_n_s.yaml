@@ -1,8 +1,7 @@
 commandlinefu_id: 72
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  yes "$(seq 232 255;seq 254 -1 233)" | while read i; do printf "\x1b[48;5;${i}m\n"; sleep .01; done
+  yes "$(seq 0 255;seq 254 -1 0)" | while read i; do printf "\x1b[48;5;${i}m\n"; sleep .01; done
 summary: |-
-  cycle through a 256 colour palette
+  循环显示256色

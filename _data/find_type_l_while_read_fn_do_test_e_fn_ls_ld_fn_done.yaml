@@ -1,8 +1,7 @@
 commandlinefu_id: 8957
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type l | (while read FN ; do test -e "$FN" || ls -ld "$FN"; done)
 summary: |-
-  find broken symbolic links
+  查找失效符号连接

@@ -1,8 +1,7 @@
 commandlinefu_id: 9028
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   curl -I -H "Accept-Encoding: gzip,deflate" http://example.org
 summary: |-
-  Check if your webserver supports gzip compression with curl
+  检查网站是否支持gzip

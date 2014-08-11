@@ -1,0 +1,8 @@
+commandlinefu_id: 13623
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f LOG_FILE | grep --line-buffered SEARCH_STR | cut -d " " -f 7-
+summary: |-
+  Tail -f: truncate and search

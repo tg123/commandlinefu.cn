@@ -1,0 +1,8 @@
+commandlinefu_id: 13574
+translator:
+  weibo: ''
+hide: true
+command: |-
+  subl $(pwd)
+summary: |-
+  Open Sublime-text in current directory

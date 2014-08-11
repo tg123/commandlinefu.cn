@@ -1,0 +1,8 @@
+commandlinefu_id: 13598
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker inspect -f "{{ .NetworkSettings.IPAddress }}" $CONTAINERID
+summary: |-
+  docker get ip of container

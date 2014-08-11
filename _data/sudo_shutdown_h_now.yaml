@@ -1,8 +1,0 @@
-commandlinefu_id: 12207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo shutdown -h now
-summary: |-
-  Shutdown ubuntu

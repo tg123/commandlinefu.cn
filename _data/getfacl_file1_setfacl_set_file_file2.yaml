@@ -1,8 +1,7 @@
 commandlinefu_id: 5234
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   getfacl file1 | setfacl --set-file=- file2
 summary: |-
-  Makes the permissions of file2 the same as file1
+  复制文件权限

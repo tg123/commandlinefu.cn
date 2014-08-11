@@ -1,8 +1,7 @@
 commandlinefu_id: 11658
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -lSr
 summary: |-
-  ls sort by human readable size (redhat)
+  按大小排序的ll

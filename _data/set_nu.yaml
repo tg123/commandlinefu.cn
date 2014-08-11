@@ -1,8 +1,7 @@
 commandlinefu_id: 12803
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   :set nu
 summary: |-
-  vi show line numbers
+  显示行号

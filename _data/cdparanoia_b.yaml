@@ -1,8 +1,7 @@
 commandlinefu_id: 2789
 translator:
-  weibo: ''
-hide: true
+  weibo: 玄文处幽
 command: |-
   cdparanoia -B
 summary: |-
-  Rip audio tracks from CD to wav files in current dir
+  在当前目录下翻录CD音轨为wav文件

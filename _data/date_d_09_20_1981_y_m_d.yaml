@@ -1,8 +1,7 @@
 commandlinefu_id: 384
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date -d 09/20/1981 +"%Y-%m-%d"
 summary: |-
-  Change date from MM/DD/YYYY to YYYY-MM-DD (mysql like)
+  转换日期格式

@@ -1,0 +1,8 @@
+commandlinefu_id: 13580
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tlpn | sort -t: -k2 -n
+summary: |-
+  List Listen Port by numbers

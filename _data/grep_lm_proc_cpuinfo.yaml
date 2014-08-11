@@ -1,8 +1,7 @@
 commandlinefu_id: 1068
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep lm /proc/cpuinfo
 summary: |-
-  determine if CPU is 32-bit or 64-bit
+  查看cpu位数

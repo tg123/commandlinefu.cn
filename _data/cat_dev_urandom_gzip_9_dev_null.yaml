@@ -1,8 +1,7 @@
 commandlinefu_id: 779
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /dev/urandom | gzip -9 > /dev/null &
 summary: |-
-  useless load
+  给机器添加load

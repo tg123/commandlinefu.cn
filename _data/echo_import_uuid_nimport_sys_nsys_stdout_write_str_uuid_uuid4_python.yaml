@@ -1,0 +1,8 @@
+commandlinefu_id: 13588
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "import uuid\nimport sys\nsys.stdout.write(str(uuid.uuid4()))" | python
+summary: |-
+  generate a uuid
