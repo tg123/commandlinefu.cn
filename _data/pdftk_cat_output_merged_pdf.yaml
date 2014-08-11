@@ -1,8 +1,7 @@
 commandlinefu_id: 2505
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   pdftk $* cat output $merged.pdf
 summary: |-
-  Merge several pdf files into a single file
+  将几个pdf文件合并到一个文件里

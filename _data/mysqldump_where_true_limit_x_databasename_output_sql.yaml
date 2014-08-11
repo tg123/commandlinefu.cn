@@ -1,8 +1,7 @@
 commandlinefu_id: 165
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   mysqldump --where="true LIMIT X" databasename > output.sql
 summary: |-
-  Export a subset of a database
+  导出数据库子集
