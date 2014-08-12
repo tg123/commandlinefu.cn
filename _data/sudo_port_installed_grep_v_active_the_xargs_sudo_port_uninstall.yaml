@@ -1,8 +1,0 @@
-commandlinefu_id: 2603
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo port installed | grep -v 'active\|The' | xargs sudo port uninstall
-summary: |-
-  Uninstall all MacPorts that are no longer active

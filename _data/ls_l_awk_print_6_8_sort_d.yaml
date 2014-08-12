@@ -1,8 +1,7 @@
 commandlinefu_id: 1484
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -l|awk '{print $6,$8}'|sort -d
 summary: |-
-  display most recently modified files
+  显示最近修改的文件
