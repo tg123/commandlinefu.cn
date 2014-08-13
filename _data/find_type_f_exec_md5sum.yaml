@@ -1,8 +1,7 @@
 commandlinefu_id: 12564
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find . -type f -exec md5sum {} \;
 summary: |-
-  md5sum for files with bad characters
+  对所有文件执行md5校验
