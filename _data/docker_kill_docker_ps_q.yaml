@@ -1,8 +1,7 @@
 commandlinefu_id: 13597
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   docker kill $(docker ps -q)
 summary: |-
-  docker kill all containers
+  停止所有容器

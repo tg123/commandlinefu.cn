@@ -1,8 +1,7 @@
 commandlinefu_id: 4204
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   openssl rand -base64 6
 summary: |-
-  generate random password
+  生成密码

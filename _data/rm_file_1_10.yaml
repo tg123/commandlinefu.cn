@@ -1,8 +1,7 @@
 commandlinefu_id: 1306
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm file{1..10}
 summary: |-
-  Remove several files with ease
+  删除多个文件
