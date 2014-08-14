@@ -5,4 +5,4 @@ hide: true
 command: |-
   echo <percentage> | sudo dd of=/proc/acpi/video/VGA/LCD/brightness
 summary: |-
-  Set laptop display brightness
+  设置笔记本显示亮度。

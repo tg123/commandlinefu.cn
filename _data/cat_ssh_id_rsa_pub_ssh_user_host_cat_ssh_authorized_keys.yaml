@@ -5,4 +5,4 @@ hide: true
 command: |-
   cat ~/.ssh/id_rsa.pub | ssh user@host 'cat >> ~/.ssh/authorized_keys'
 summary: |-
-  Copy ssh keys to user@host to enable password-less ssh logins.
+  将ssh keys复制到user@host主机上来免密码登陆。

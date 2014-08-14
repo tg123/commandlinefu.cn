@@ -5,4 +5,4 @@ hide: true
 command: |-
   cat /dev/ttyS2 | hexdump -C
 summary: |-
-  Hex Dump
+  十六进制转换
