@@ -5,4 +5,4 @@ hide: true
 command: |-
   ls -l `whereis gcc`
 summary: |-
-  Get the dir listing of an executable without knowing its location
+  获取一程序所在目录的列表

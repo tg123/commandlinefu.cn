@@ -5,4 +5,4 @@ hide: true
 command: |-
   echo -n 'text' | xxd -ps | sed 's/[[:xdigit:]]\{2\}/\\x&/g'
 summary: |-
-  Convert ascii string to hex
+  将ascii格式字符串转换为hex格式

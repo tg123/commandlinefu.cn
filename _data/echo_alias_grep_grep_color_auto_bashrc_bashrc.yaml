@@ -5,4 +5,4 @@ hide: true
 command: |-
   echo alias grep=\'grep --color=auto\' >> ~/.bashrc ; . ~/.bashrc
 summary: |-
-  permanently let grep colorize its output
+  使grep一直彩色打印输出

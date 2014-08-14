@@ -1,8 +1,7 @@
 commandlinefu_id: 9328
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   echo "command lines" | rev | cut -c 2- | rev
 summary: |-
-  Remove the last string  character using rev and cut
+  用rev和cut移除字符串最后一个字符
