@@ -1,8 +1,7 @@
 commandlinefu_id: 9707
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   touch --date "2010-01-05" /tmp/filename
 summary: |-
-  Change/Modify timestamp
+  修改文件的atime和mtime

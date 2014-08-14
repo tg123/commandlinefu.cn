@@ -1,8 +1,7 @@
 commandlinefu_id: 13103
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -c diff -o -r1 | grep $file
 summary: |-
-  Keep track of diff progress
+  跟踪diff进度

@@ -1,8 +1,7 @@
 commandlinefu_id: 12369
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $[RANDOM % 2]
 summary: |-
-  get a random 0/1, use it for on/off, yes/no
+  随机出现 0 就上床睡觉 1 就开始做梦

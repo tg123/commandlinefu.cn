@@ -1,8 +1,7 @@
 commandlinefu_id: 2840
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -aB1m|awk '$1 >= 100'
 summary: |-
-  Which files/dirs waste my disk space
+  找出大文件夹
