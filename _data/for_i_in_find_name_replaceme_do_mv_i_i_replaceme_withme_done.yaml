@@ -1,8 +1,7 @@
 commandlinefu_id: 6367
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in $(find . -name *replaceme*);do mv "$i" "${i//replaceme/withme}"; done
 summary: |-
-  replace strings in file names
+  用给定字符串替换文件名

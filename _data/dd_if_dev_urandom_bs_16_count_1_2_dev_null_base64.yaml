@@ -1,8 +1,7 @@
 commandlinefu_id: 183
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   dd if=/dev/urandom bs=16 count=1 2>/dev/null | base64
 summary: |-
-  Create a hard-to-guess password
+  创建一个难以猜中的密码

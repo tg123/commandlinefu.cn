@@ -1,8 +1,7 @@
 commandlinefu_id: 8703
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo .DS_Store >> ~/.gitignore
 summary: |-
-  ignore .DS_Store forever in GIT
+  在git中忽略.DS_Store

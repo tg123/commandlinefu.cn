@@ -1,8 +1,7 @@
 commandlinefu_id: 992
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in **/*.gif; convert $i $i:r.jpg
 summary: |-
-  Convert images (foo.gif => foo.jpg)
+  转换图片（foo.gif => fo.jpg）
