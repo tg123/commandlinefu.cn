@@ -1,8 +1,7 @@
 commandlinefu_id: 6939
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in $(file * | grep broken | cut -d : -f 1); do rm $i; done
 summary: |-
-  remove all dead symbolic links in a directory
+  清理无效符号连接
