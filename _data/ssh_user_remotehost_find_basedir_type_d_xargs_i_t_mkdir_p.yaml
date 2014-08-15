@@ -1,8 +1,7 @@
 commandlinefu_id: 12508
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ssh user@remotehost "find basedir -type d" | xargs -I {} -t mkdir -p {}
 summary: |-
-  Replicate a directory structure from a 'basedir' in a remote server.
+  在远程主机上复制'basedir'的目录结构

@@ -1,8 +1,7 @@
 commandlinefu_id: 7261
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   mmv "*.txt" "#1.md"
 summary: |-
-  Batch rename extension of all files in a folder, in the example from .txt to .md
+  批重命名文件夹下的所有文件的拓展名，比如把txt文件重命名为md文件
