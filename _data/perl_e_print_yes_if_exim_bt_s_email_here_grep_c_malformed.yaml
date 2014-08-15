@@ -1,8 +1,7 @@
 commandlinefu_id: 10321
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -e "print 'yes' if `exim -bt $s_email_here | grep -c malformed`;"
 summary: |-
-  Validate an email address
+  校验邮箱地址

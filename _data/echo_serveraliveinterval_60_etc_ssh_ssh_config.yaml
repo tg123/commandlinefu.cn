@@ -1,8 +1,7 @@
 commandlinefu_id: 5229
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo 'ServerAliveInterval 60' >> /etc/ssh/ssh_config
 summary: |-
-  Avoids ssh timeouts by sending a keep alive message to the server every 60 seconds
+  每60秒发送keep alive信息给服务器来避免ssh连接超时

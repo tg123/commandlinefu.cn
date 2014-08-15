@@ -1,8 +1,7 @@
 commandlinefu_id: 10841
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   parted /dev/sda print
 summary: |-
-  See size of partitions as human readable
+  以可读性良好的格式输出分区大小

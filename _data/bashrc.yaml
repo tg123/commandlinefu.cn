@@ -1,8 +1,7 @@
 commandlinefu_id: 11373
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   . ~/.bashrc
 summary: |-
-  Make changes in .bashrc immediately available
+  刷新配置 使修改后的配置生效

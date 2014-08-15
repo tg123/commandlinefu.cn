@@ -1,8 +1,7 @@
 commandlinefu_id: 3282
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   fdisk -l |grep -e '^/' |awk '{print $1}'|sed -e "s|/dev/||g"
 summary: |-
-  list all hd partitions
+  列出所有的hd分区

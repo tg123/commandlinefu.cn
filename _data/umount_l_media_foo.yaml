@@ -1,8 +1,7 @@
 commandlinefu_id: 733
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   umount -l /media/foo
 summary: |-
-  Unmount locked filesystems.
+  卸载锁住的文件系统
