@@ -1,8 +1,7 @@
 commandlinefu_id: 12200
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   sudo !-1
 summary: |-
-  Run the last command as root
+  以root身份运行上一条命令

@@ -1,8 +1,7 @@
 commandlinefu_id: 2408
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   mysqldump [options] |gzip ->mysqldump-$(date +%Y-%m-%d-%H.%M.%S).gz
 summary: |-
-  get a mysqldump with a timestamp in the filename and gzip it all in one go
+  转存mysql数据库
