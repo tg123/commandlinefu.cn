@@ -1,8 +1,0 @@
-commandlinefu_id: 2800
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apache2ctl graceful
-summary: |-
-  Restart web server

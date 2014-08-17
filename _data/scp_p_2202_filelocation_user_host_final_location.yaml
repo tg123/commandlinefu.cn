@@ -1,8 +1,0 @@
-commandlinefu_id: 8288
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scp -P 2202 /$filelocation user@host:/$final/$location
-summary: |-
-  scp

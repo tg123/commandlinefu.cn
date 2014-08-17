@@ -1,8 +1,0 @@
-commandlinefu_id: 8725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for c in gcc bison dialog bc asdf; do if ! which $c >/dev/null; then echo Required program $c is missing ; exit 1; fi; done
-summary: |-
-  Check if commands are available on your system

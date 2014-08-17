@@ -1,8 +1,0 @@
-commandlinefu_id: 1307
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !date
-summary: |-
-  Launch a command from a manpage

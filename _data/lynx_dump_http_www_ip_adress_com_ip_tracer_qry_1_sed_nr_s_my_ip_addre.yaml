@@ -1,8 +1,0 @@
-commandlinefu_id: 2727
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump http://www.ip-adress.com/ip_tracer/?QRY=$1|sed -nr s/'^.*My IP address city: (.+)$/\1/p'
-summary: |-
-  find geographical location of an ip address
