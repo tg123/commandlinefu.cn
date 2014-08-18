@@ -1,8 +1,7 @@
 commandlinefu_id: 29
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wget -r -l1 --no-parent -nH -nd -P/tmp -A".gif,.jpg" http://example.com/images
 summary: |-
-  Download all images from a site
+  下载所有图片

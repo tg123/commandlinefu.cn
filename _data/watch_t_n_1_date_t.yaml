@@ -1,8 +1,7 @@
 commandlinefu_id: 11336
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -t -n 1 date +%T
 summary: |-
-  Create a continuous digital clock in Linux terminal
+  时钟
