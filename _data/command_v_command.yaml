@@ -1,8 +1,7 @@
 commandlinefu_id: 12400
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   command -v <command>
 summary: |-
-  Check to see if a command exists
+  检查一个命令是否存在
