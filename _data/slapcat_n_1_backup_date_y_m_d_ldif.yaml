@@ -1,8 +1,7 @@
 commandlinefu_id: 5579
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   slapcat -n 1 > /backup/`date "+%Y%m%d"`.ldif
 summary: |-
-  Backup your LDAP
+  备份LDAP

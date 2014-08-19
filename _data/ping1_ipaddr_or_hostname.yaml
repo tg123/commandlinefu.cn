@@ -1,8 +1,7 @@
 commandlinefu_id: 10225
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   ping1 IPaddr_or_hostname
 summary: |-
-  Check if a machine is online
+  检查设备是否在线
