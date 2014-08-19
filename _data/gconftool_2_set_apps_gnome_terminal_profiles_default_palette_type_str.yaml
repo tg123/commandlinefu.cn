@@ -1,8 +1,0 @@
-commandlinefu_id: 10455
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gconftool-2 --set "/apps/gnome-terminal/profiles/Default/palette" --type string "#070736364242:#D3D301010202:#858599990000:#B5B589890000:#26268B8BD2D2:#D3D336368282:#2A2AA1A19898
-summary: |-
-  Setting up colors for solarized color scheme

@@ -1,8 +1,0 @@
-commandlinefu_id: 11507
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in `ls -t \`find . -name "*.zip" -type f\``; do         found=`unzip -c "$file" | grep --color=always "PATTERN"`;         if [[ $found ]]; then echo -e "${file}\n${found}\n"; fi done
-summary: |-
-  Grep through zip files

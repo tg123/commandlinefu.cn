@@ -1,8 +1,0 @@
-commandlinefu_id: 2044
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gethostip 208.69.34.230 -x
-summary: |-
-  Convert ip address in hexadecimal
