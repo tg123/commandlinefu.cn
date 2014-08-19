@@ -2,6 +2,6 @@ commandlinefu_id: 10225
 translator:
   weibo: gdqyn
 command: |-
-  ping1 IPaddr_or_hostname
+  ping IPaddr_or_hostname
 summary: |-
   检查设备是否在线
