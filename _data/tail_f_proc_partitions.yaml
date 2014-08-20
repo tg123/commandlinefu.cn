@@ -1,8 +1,7 @@
 commandlinefu_id: 11154
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tail -f /proc/partitions
 summary: |-
-  detect partitions
+  发现分区

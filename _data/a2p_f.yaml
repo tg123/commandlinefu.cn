@@ -1,8 +1,7 @@
 commandlinefu_id: 5338
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   a2p -F:
 summary: |-
-  a2p converts awk scripts to perl programs
+  转换awk为perl

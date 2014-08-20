@@ -1,8 +1,7 @@
 commandlinefu_id: 6116
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -exec md5sum {}\; > <filename>
 summary: |-
-  Use md5sum to check your music and movie files. Also use diff.
+  为所有文件做md5
