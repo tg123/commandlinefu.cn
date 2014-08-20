@@ -1,8 +1,7 @@
 commandlinefu_id: 7676
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   echo $((RANDOM%256)).$((RANDOM%256)).$((RANDOM%256)).$((RANDOM%256))
 summary: |-
-  Perl One Liner to Generate a Random IP Address
+  产生一个随机的IP地址
