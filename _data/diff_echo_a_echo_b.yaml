@@ -1,8 +1,7 @@
 commandlinefu_id: 2662
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   diff <(echo "$a") <(echo "$b")
 summary: |-
-  Diff on two variables
+  对两个变量运行diff
