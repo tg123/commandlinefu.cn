@@ -1,8 +1,7 @@
 commandlinefu_id: 13282
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   find ./ -type l -ls
 summary: |-
-  Show all symlinks
+  找出所有符号链接文件

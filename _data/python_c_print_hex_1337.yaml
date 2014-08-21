@@ -1,8 +1,7 @@
 commandlinefu_id: 9883
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   python -c 'print hex(1337)'
 summary: |-
-  convert from decimal to hexadecimal
+  将十进制转换为十六进制
