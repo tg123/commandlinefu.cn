@@ -1,8 +1,0 @@
-commandlinefu_id: 13004
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find */*.c | xargs grep 'mcs'
-summary: |-
-  finds the c files with lines containing 'mcs', in the folders under the current folder

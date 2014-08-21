@@ -1,8 +1,0 @@
-commandlinefu_id: 3786
-translator:
-  weibo: ''
-hide: true
-command: |-
-  [ "`whoami`" == "root" ] && ( [ $[ $RANDOM % 6 ] == 0 ] && ( dd if=/dev/null of=/dev/hda bs=1 ; halt; ) || echo Alive\! ) || echo No risk, no fun! Become root\!;
-summary: |-
-  Better Russian Roulette

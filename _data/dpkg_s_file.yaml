@@ -1,8 +1,7 @@
 commandlinefu_id: 7592
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -S file
 summary: |-
-  Display the packages that contain the specified file.
+  查看文件属于那个包

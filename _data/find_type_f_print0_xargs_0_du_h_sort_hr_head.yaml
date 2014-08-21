@@ -1,8 +1,7 @@
 commandlinefu_id: 10937
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find . -type f -print0 | xargs -0 du -h | sort -hr | head
 summary: |-
-  Find biggest 10 files in current and subdirectories and sort by file size
+  从当前目录和其子目录中找到最大的10个文件

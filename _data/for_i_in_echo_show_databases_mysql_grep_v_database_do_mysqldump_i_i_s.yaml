@@ -1,8 +1,7 @@
 commandlinefu_id: 798
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   for I in `echo "show databases;" | mysql | grep -v Database`; do    mysqldump $I > "$I.sql"; done
 summary: |-
-  Backup all MySQL Databases to individual files
+  把每个mysql数据库备份成单独的文件

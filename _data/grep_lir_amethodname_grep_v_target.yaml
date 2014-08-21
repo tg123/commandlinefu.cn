@@ -1,8 +1,7 @@
 commandlinefu_id: 11380
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -lir 'aMethodName' * | grep -v 'target'
 summary: |-
-  Find text in all files, except in files matching a pattern
+  查找一个关键词同时排除一个关键词

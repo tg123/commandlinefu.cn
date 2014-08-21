@@ -1,8 +1,0 @@
-commandlinefu_id: 11055
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude search '?and( ?automatic(?reverse-recommends(?installed)), ?not(?automatic(?reverse-depends(?installed))) )'
-summary: |-
-  Shows all packages installed that are recommended by other packages
