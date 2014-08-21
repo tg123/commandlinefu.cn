@@ -1,8 +1,7 @@
 commandlinefu_id: 9601
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   du -sh `pwd`
 summary: |-
-  Show size of in MB of the current directory.
+  显示当前目录占用的空间(MB)。

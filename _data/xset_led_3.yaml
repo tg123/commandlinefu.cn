@@ -1,8 +1,7 @@
 commandlinefu_id: 3869
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   xset led 3
 summary: |-
-  Turn On/Off Keyboard LEDs via commandline
+  通过命令行来控制键盘LED开关
