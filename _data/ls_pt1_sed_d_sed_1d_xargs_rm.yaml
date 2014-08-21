@@ -1,8 +1,7 @@
 commandlinefu_id: 2798
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   ls -pt1 | sed '/.*\//d' | sed 1d | xargs rm
 summary: |-
-  Delete all but latest file in a directory
+  删除目录下除了最新的文件之外的文件
