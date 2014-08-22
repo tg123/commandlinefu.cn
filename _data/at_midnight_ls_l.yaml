@@ -1,8 +1,7 @@
 commandlinefu_id: 10604
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   at midnight<<<'ls -l'
 summary: |-
-  Execute a command at a given time
+  指定时间执行
