@@ -1,8 +1,7 @@
 commandlinefu_id: 8924
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $?
 summary: |-
-  Echo exit status (a.k.a. return code)
+  显示上次执行的退出码

@@ -1,8 +1,7 @@
 commandlinefu_id: 7804
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -o comm= -p $$
 summary: |-
-  Figure out what shell you're running
+  查看你使用的shell
