@@ -1,8 +1,7 @@
 commandlinefu_id: 90
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   alias s='screen -X screen'; s top; s vi; s man ls;
 summary: |-
-  Start a new command in a new screen window
+  在一个新的screen窗口执行新的命令

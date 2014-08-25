@@ -1,8 +1,7 @@
 commandlinefu_id: 12229
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   mv data.{json,yaml}
 summary: |-
-  Convert JSON to YAML
+  把 JSON 转换为 YAML
