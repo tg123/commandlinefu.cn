@@ -1,8 +1,7 @@
 commandlinefu_id: 7333
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   vimcmd() { $1 > $2 && vim $2; }
 summary: |-
-  Run a command, redirecting output to a file, then edit the file with vim.
+  运行一条命令，把输出重定向到一个文件中，然后使用vim对这个文件进行编辑

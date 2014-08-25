@@ -1,8 +1,7 @@
 commandlinefu_id: 157
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   find . -name "*.py" | xargs wc -l
 summary: |-
-  Get line count for any file ending with extension recursively rooted at the current directory.
+  递归的查找当前目录下所有以"py"为后缀的文件，统计其行数

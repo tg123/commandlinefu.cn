@@ -1,8 +1,7 @@
 commandlinefu_id: 13359
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   ffmpeg -i file.ext -acodec copy -vn out.ext
 summary: |-
-  Dump audio from video without re-encoding.
+  从视频中抽取音频，但是不进行重新编码
