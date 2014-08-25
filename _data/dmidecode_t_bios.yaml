@@ -1,8 +1,7 @@
 commandlinefu_id: 5911
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   dmidecode -t bios
 summary: |-
-  Display BIOS Information
+  显示BIOS信息

@@ -1,8 +1,7 @@
 commandlinefu_id: 4017
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   for i in *.avi; do echo -n "$i:";mediainfo $i|head | grep PlayTime | cut -d: -f2 ; done | sort -t: -k2 -r
 summary: |-
-  Sort movies by length, longest first
+  按照时长递减顺序排列电影文件
