@@ -1,8 +1,7 @@
 commandlinefu_id: 10954
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   ssh user@hostname.domain "> ~/.bash_history"
 summary: |-
-  Don't save commands in bash history (only for current session)
+  不在bash历史文件中保存历史命令(只对当前会话有效)

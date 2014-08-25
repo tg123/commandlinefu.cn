@@ -1,8 +1,7 @@
 commandlinefu_id: 12912
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   find ~ -type f -size +500M -exec ls -ls {} \; | sort -n
 summary: |-
-  find all file larger than 500M in home dir
+  在home目录下找出所有大于500M的文件
