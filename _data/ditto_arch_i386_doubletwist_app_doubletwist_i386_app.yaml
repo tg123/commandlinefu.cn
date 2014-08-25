@@ -1,8 +1,0 @@
-commandlinefu_id: 2483
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ditto --arch i386 doubleTwist.app doubleTwist_i386.app
-summary: |-
-  remove unnecessary architecture code from Mac OS X Universal binaries

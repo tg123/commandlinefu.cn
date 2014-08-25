@@ -1,8 +1,7 @@
 commandlinefu_id: 12665
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   port=32768; while netstat -atn | grep -q :$port; do port=$(expr $port + 1); done; echo $port
 summary: |-
-  find an unused unprivileged TCP port
+  找一个可以用的端口

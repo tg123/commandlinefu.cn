@@ -1,8 +1,7 @@
 commandlinefu_id: 3700
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -ltun
 summary: |-
-  List open TCP/UDP ports
+  查看监听的端口
