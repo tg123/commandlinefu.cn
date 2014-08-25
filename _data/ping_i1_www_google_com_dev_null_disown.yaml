@@ -1,8 +1,0 @@
-commandlinefu_id: 6985
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping -i1 www.google.com &> /dev/null & disown
-summary: |-
-  Detach a process from the current shell

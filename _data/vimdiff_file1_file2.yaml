@@ -1,8 +1,7 @@
 commandlinefu_id: 11198
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vimdiff file1 file2
 summary: |-
-  use vim to get colorful diff output
+  使用vim diff 两个文件(好像是废话)
