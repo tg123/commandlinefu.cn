@@ -1,8 +1,0 @@
-commandlinefu_id: 12259
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat -n install | head -n 150 | tac | head -n 50 | tac
-summary: |-
-  cut log with row number,like from row number to another row number.
