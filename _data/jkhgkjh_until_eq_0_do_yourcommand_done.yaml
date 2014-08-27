@@ -1,8 +1,7 @@
 commandlinefu_id: 13319
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   jkhgkjh; until [[ $? -eq 0 ]]; do YOURCOMMAND; done
 summary: |-
-  keep trying a command until it is successful
+  一直尝试一个命令直到成功
