@@ -1,8 +1,7 @@
 commandlinefu_id: 4995
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find . -type f -exec sed -i 's/gw10./gw17./g' {} \;
 summary: |-
-  finds all files in dir and replaces
+  对当前目录下的所有文件进行替换

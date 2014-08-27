@@ -1,8 +1,7 @@
 commandlinefu_id: 9151
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find . -type f | xargs grep -l "string"
 summary: |-
-  egrep -r replacement for UNIX systems
+  UNIX系统中egrep -r的替代方法
