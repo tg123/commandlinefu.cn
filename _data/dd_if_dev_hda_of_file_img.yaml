@@ -1,8 +1,7 @@
 commandlinefu_id: 4020
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/hda of=file.img
 summary: |-
-  Make an iso file out of your entire hard drive
+  镜像硬盘

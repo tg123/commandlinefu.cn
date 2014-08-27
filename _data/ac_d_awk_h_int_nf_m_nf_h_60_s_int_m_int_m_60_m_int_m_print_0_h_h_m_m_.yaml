@@ -1,8 +1,7 @@
 commandlinefu_id: 5908
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   ac -d | awk '{h=int($NF); m=($NF-h)*60; s=int((m-int(m))*60); m=int(m); print $0" = "h"h "m"m "s"s "}'
 summary: |-
-  print statistics about users' connect time
+  输出用户的连接时间的信息

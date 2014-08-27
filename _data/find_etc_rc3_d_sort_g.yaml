@@ -1,8 +1,7 @@
 commandlinefu_id: 7230
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find /etc/rc3.d/ | sort -g
 summary: |-
-  List of services sorted by boot order in Redhat-based systems
+  列出服务(Redhat)

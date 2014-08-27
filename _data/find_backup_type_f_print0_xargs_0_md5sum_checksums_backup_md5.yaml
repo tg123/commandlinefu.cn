@@ -1,8 +1,7 @@
 commandlinefu_id: 633
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./backup -type f -print0 | xargs -0 md5sum > /checksums_backup.md5
 summary: |-
-  recurisvely md5 all files in a tree
+  递归创建MD5

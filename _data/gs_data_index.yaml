@@ -1,8 +1,0 @@
-commandlinefu_id: 8053
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !!:gs/data/index/
-summary: |-
-  Replace all in last command

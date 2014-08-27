@@ -1,8 +1,7 @@
 commandlinefu_id: 8669
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   export PS1="C:\\>"; clear
 summary: |-
-  Windows person acting like an idiot in Linux?
+  变成DOS

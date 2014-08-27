@@ -1,8 +1,7 @@
 commandlinefu_id: 969
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm ./-filename
 summary: |-
-  Remove a file whose name begins with a dash ( - ) character
+  如何删除一个-开头的文件

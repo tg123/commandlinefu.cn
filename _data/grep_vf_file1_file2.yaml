@@ -1,8 +1,7 @@
 commandlinefu_id: 5851
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -vf file1 file2
 summary: |-
-  find the difference in 2 files with grep (diff alternative)
+  查看两个文件的不同
