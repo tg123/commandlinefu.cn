@@ -6,3 +6,4 @@ command: |-
   du -ch `cat test_file.txt`
 summary: |-
   calculate file as describe in one txt file
+  计算一个文本文件中列出的文件的空间耗用
