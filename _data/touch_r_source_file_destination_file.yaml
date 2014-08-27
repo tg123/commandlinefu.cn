@@ -1,8 +1,7 @@
 commandlinefu_id: 13087
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   touch -r "source_file" "destination_file"
 summary: |-
-  Copy modification timestamp from one file to another.
+  复制修改时间

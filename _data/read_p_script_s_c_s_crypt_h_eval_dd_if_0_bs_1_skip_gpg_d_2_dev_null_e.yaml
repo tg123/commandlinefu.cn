@@ -1,8 +1,0 @@
-commandlinefu_id: 11991
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read -p 'Script: ' S && C=$S.crypt H='eval "$((dd if=$0 bs=1 skip=//|gpg -d)2>/dev/null)"; exit;' && gpg -c<$S|cat >$C <(echo $H|sed s://:$(echo "$H"|wc -c):) - <(chmod +x $C)
-summary: |-
-  Encrypt and password-protect execution of any bash script, Version 2

@@ -1,8 +1,7 @@
 commandlinefu_id: 2684
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -i -n -P | grep :80
 summary: |-
-  what?s running on a given port on your machine?
+  查看那个程序占用了特定端口
