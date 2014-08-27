@@ -1,7 +1,6 @@
 commandlinefu_id: 13512
 translator:
-  weibo: ''
-hide: true
+  weibo: 'dbalex'
 command: |-
   du -ch `cat test_file.txt`
 summary: |-
