@@ -1,8 +1,0 @@
-commandlinefu_id: 5391
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cowsay Linux rocks!
-summary: |-
-  pimp text output e.g. "Linux rocks!" to look nice

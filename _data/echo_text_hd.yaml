@@ -1,8 +1,7 @@
 commandlinefu_id: 6132
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "text" | hd
 summary: |-
-  Convert ascii string to hex
+  转换成hex格式
