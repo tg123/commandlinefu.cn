@@ -1,8 +1,7 @@
 commandlinefu_id: 1168
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   mpg123 "`locate -r '\.mp3$'|awk '{a[NR]=$0}END{print a['"$RANDOM"' % NR]}'`"
 summary: |-
-  Random play a mp3 file
+  随机播放mp3文件
