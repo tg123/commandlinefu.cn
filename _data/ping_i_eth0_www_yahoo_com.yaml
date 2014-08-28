@@ -1,8 +1,7 @@
 commandlinefu_id: 5337
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ping -I eth0 www.yahoo.com
 summary: |-
-  How to check network connection from one interface
+  如何使用特定设备ping

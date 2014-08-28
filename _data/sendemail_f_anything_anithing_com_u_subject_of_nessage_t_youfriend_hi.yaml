@@ -1,8 +1,8 @@
 commandlinefu_id: 8028
 translator:
-  weibo: ''
-hide: true
+  weibo: 'dbalex'
 command: |-
   sendEmail -f anything@anithing.com -u subject of nessage -t youfriend@hisdomain -m message to him
 summary: |-
   sendEmail - easiest commandline way to send e-mail
+  一条命令发送一封邮件

@@ -1,8 +1,7 @@
 commandlinefu_id: 2775
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   find -name '*oldname*' -print0 | xargs -0 rename 's/oldname/newname/'
 summary: |-
-  Recursive replace of directory and file names in the current directory.
+  递归替换当前目录下的目录和文件名

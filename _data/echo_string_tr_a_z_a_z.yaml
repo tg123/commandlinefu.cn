@@ -1,8 +1,7 @@
 commandlinefu_id: 6309
 translator:
-  weibo: ''
-hide: true
+  weibo: 'codepiano'
 command: |-
   echo StrinG | tr 'A-Z' 'a-z'
 summary: |-
-  Converts uppercase chars in a string to lowercase
+  把字符串中的大写字符转换为小写

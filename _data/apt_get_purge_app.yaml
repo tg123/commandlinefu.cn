@@ -1,8 +1,7 @@
 commandlinefu_id: 11304
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-get purge <app>
 summary: |-
-  clean installed apps
+  干净卸载应用(deb)

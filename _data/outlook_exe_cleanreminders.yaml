@@ -1,8 +1,0 @@
-commandlinefu_id: 10193
-translator:
-  weibo: ''
-hide: true
-command: |-
-  outlook.exe /cleanreminders
-summary: |-
-  Remove duplicate reminders in Outlook 2007
