@@ -1,8 +1,7 @@
 commandlinefu_id: 5818
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   acpi -b
 summary: |-
-  Check whether laptop is running on battery or cable
+  检查笔记本是电池供电还是线缆供电
