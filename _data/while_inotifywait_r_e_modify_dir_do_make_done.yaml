@@ -1,8 +1,7 @@
 commandlinefu_id: 5800
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while inotifywait -r -e MODIFY dir/; do make; done;
 summary: |-
-  make, or run a script, everytime a file in a directory is modified
+  有改动时候自动make

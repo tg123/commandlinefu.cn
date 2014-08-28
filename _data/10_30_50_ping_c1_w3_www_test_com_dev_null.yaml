@@ -1,8 +1,0 @@
-commandlinefu_id: 13368
-translator:
-  weibo: ''
-hide: true
-command: |-
-  10,30,50 * * * * ping -c1 -w3 www.test.com >/dev/null
-summary: |-
-  check site if not reachable

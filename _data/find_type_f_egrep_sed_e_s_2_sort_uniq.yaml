@@ -1,8 +1,7 @@
 commandlinefu_id: 11508
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f |egrep '^./.*\.' |sed -e "s/\(^.*\.\)\(.*$\)/\2/" |sort |uniq
 summary: |-
-  list uniq extensions of files from the current directory
+  列出所有扩展名
