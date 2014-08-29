@@ -1,8 +1,7 @@
 commandlinefu_id: 10662
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   gvim --remote-send ":q!<CR>"
 summary: |-
-  quit gvim remotely
+  从命令行关闭gvim
