@@ -1,8 +1,8 @@
 commandlinefu_id: 6617
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   ps -a |grep cat |wc -l
 summary: |-
   count how many cat processes are running
+  计算多少个cat进程正在执行
