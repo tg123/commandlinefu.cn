@@ -1,8 +1,7 @@
 commandlinefu_id: 9988
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   partprobe
 summary: |-
-  Re-read partition table on specified device without rebooting system (here /dev/sda).
+  无需重启系统就能让操作系统重新读取指定设备的分区表的命令

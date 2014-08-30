@@ -1,8 +1,7 @@
 commandlinefu_id: 9198
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cp --sparse=always <SRC> <DST>
 summary: |-
-  Copy sparse files
+  复制稀疏的文件
