@@ -1,8 +1,0 @@
-commandlinefu_id: 1747
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -atn | awk ' /tcp/ {printf("%s\n",substr($4,index($4,":")+1,length($4) )) }' | sed -e "s/://g" | sort -rnu | awk '{array [$1] = $1} END {i=32768; again=1; while (again == 1) {if (array[i] == i) {i=i+1} else {print i; again=0}}}'
-summary: |-
-  find an unused unprivileged TCP port

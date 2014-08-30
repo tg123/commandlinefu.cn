@@ -1,8 +1,7 @@
 commandlinefu_id: 10807
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat-nat -n
 summary: |-
-  List state of NAT.
+  列出nat 的状态
