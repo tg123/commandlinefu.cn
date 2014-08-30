@@ -1,8 +1,7 @@
 commandlinefu_id: 3848
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   teste.txt < cut -d : -f 1,5 /etc/passwd | tr : \\t | tr a-z A-Z | cat teste.txt
 summary: |-
-  List system's users
+  列出系统的用户们

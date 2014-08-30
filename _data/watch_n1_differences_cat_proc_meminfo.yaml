@@ -1,8 +1,7 @@
 commandlinefu_id: 1708
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   watch -n1 --differences cat /proc/meminfo
 summary: |-
-  easly monitor mem usage
+  简单可行地监控内存使用情况

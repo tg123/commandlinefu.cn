@@ -1,8 +1,7 @@
 commandlinefu_id: 4876
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   xhost +local:
 summary: |-
-  Allow any local (non-network) connection to running X server
+  运行如何本地（非网络）连接运行X服务器

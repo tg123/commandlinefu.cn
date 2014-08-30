@@ -1,8 +1,7 @@
 commandlinefu_id: 11893
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   while true; do sleep $(($RANDOM%50)); timeout 1 speaker-test -f 20000 -t sine 2>/dev/null; done&
 summary: |-
-  A fun little harmless prank to pull on your friends.
+  吓哭你的朋友们的一个好办法（确保他们没患有心脏病）
