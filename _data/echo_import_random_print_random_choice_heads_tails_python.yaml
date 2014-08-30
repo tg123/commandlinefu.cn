@@ -1,8 +1,7 @@
 commandlinefu_id: 196
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo "import random; print(random.choice(['heads', 'tails']))"  | python
 summary: |-
-  a pseudo-random coin flip in python
+  用python模拟抛硬币的伪随机过程

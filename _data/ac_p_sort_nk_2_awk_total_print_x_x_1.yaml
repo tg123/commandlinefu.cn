@@ -1,8 +1,7 @@
 commandlinefu_id: 9891
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ac -p | sort -nk 2 | awk '/total/{print x};{x=$1}'
 summary: |-
-  Show which user has the most accumulated login time
+  显示累计登录时间最长的用户

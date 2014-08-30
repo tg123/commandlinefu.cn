@@ -1,8 +1,7 @@
 commandlinefu_id: 737
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo dmidecode | more
 summary: |-
-  print indepth hardware info
+  显示硬件配置信息
