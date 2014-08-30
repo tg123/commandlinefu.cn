@@ -1,8 +1,7 @@
 commandlinefu_id: 9512
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   expandurl() { wget -S $1 2>&1 | grep ^Location; }
 summary: |-
-  Expand shortened URLs
+  回复短网址
