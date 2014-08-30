@@ -4,5 +4,4 @@ translator:
 command: |-
   openssl s_client -connect www.example.com:443 > /tmp/example.com.cert
 summary: |-
-  Download SSL server certificate with openssl
   用openssl下载服务器端证书
