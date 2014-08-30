@@ -1,8 +1,8 @@
 commandlinefu_id: 6426
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   sed 's/^[ \t]*//;s/[ \t]*$//' < <file> > <file>.out; mv <file>.out <file>
 summary: |-
   delete all leading and trailing whitespace from each line in file
+  删除文件中每行首位的空格

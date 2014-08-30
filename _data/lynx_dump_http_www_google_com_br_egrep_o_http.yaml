@@ -1,8 +1,8 @@
 commandlinefu_id: 9185
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   lynx --dump "http://www.google.com.br" | egrep -o "http:.*"
 summary: |-
   Get all URLs from webpage via Regular Expression
+  提供一个正则表达式，获取一个网站上所有匹配该模式的URL
