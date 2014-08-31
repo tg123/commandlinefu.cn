@@ -1,8 +1,8 @@
 commandlinefu_id: 4672
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   grep -rni string dir
 summary: |-
   Recursively grep thorugh directory for string in file.
+  在一个目录下的所有文件中搜索字符串

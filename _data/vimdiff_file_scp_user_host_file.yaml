@@ -1,8 +1,8 @@
 commandlinefu_id: 2601
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   vimdiff <file> scp://[<user>@]<host>/<file>
 summary: |-
   Compare a remote file with a local file
+  比较一个本地文件与一个远端文件
