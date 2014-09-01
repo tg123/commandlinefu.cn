@@ -1,8 +1,7 @@
 commandlinefu_id: 2426
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   (uuencode foo.txt foo.txt; uuencode /etc/passwd passwd.txt)|mailx -s "Pandaren!" someone@cmdfu.com
 summary: |-
-  Send multiple attachments using mailx
+  使用mailx发送多个附件

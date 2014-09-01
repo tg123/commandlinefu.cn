@@ -1,8 +1,7 @@
 commandlinefu_id: 7995
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ssh -tq -o "BatchMode yes" $HOST  <some_command> >> to_a_file
 summary: |-
-  ssh batch jobs: query hundreds of hosts with an ssh command
+  ssh批处理作业： 让每一个主机执行同个ssh命令

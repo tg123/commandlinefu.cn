@@ -1,8 +1,7 @@
 commandlinefu_id: 13285
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ls -lF -darth `find . -mmin -3`
 summary: |-
-  Find everything updated in the last minute recursively within the current directory and sort by time, newest at the bottom.
+  在当前文件夹下查找最近一分钟内更新的文件，并以时间先后顺序排序输出，最新的在最底部

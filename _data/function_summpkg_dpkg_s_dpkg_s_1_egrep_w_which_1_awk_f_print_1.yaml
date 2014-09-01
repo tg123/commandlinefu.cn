@@ -1,7 +1,6 @@
 commandlinefu_id: 8777
 translator:
   weibo: titikaka723 
-hide: true
 command: |-
   function summpkg { dpkg -s $(dpkg -S $1 | egrep -w $(which $1)$ | awk -F: '{print $1}') ; }
 summary: |-

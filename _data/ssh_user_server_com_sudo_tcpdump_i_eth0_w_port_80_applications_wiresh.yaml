@@ -1,8 +1,7 @@
 commandlinefu_id: 10094
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ssh user@server.com sudo tcpdump -i eth0  -w - 'port 80'| /Applications/Wireshark.app/Contents/Resources/bin/wireshark -k -i -
 summary: |-
-  analyze traffic remotely over ssh w/ wireshark
+  使用ssh和wireshark远程分析流量情况

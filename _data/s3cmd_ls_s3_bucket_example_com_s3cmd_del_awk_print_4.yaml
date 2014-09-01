@@ -1,8 +1,0 @@
-commandlinefu_id: 5572
-translator:
-  weibo: ''
-hide: true
-command: |-
-  s3cmd ls s3://bucket.example.com | s3cmd del `awk '{print $4}'`
-summary: |-
-  Delete All Objects From An S3 Bucket Using S3cmd

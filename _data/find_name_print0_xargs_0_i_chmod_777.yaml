@@ -1,8 +1,7 @@
 commandlinefu_id: 6792
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -name "*" -print0 | xargs -0 -I {} chmod 777 {}
 summary: |-
-  Recursive chmod all files and directories within the current directory
+  在当前目录下递归修改所有文件和目录的权限
