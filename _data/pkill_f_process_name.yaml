@@ -1,8 +1,7 @@
 commandlinefu_id: 5880
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pkill -f <process name>
 summary: |-
-  Kill process by searching something from 'ps' command
+  PS + KILL
