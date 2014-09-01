@@ -1,8 +1,7 @@
 commandlinefu_id: 1850
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"
 summary: |-
-  Show live HTTP requests being made on OS X
+  捕获http请求
