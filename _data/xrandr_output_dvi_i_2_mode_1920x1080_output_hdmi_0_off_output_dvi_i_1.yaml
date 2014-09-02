@@ -1,0 +1,8 @@
+commandlinefu_id: 13645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xrandr --output DVI-I-2 --mode 1920x1080 --output HDMI-0 --off --output DVI-I-1 --mode 1280x1024 --pos 1920x0
+summary: |-
+  xrandr dual screen desktop

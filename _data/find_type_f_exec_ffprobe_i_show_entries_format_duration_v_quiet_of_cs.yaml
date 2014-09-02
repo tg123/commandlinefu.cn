@@ -1,0 +1,8 @@
+commandlinefu_id: 13669
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f -exec ffprobe -i "{}" -show_entries format=duration -v quiet -of csv="p=0" \; | paste -sd+ | bc
+summary: |-
+  Count total running time for all media files in your directory

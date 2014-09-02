@@ -1,0 +1,8 @@
+commandlinefu_id: 13629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysqldump -pyourpass --single-transaction  --master-data=2 -q  --flush-logs --databases db_for_doslave |tee /home/db_bak.sql |ssh mysqladmin@slave.db.com "mysql"
+summary: |-
+  do replication and sql backup

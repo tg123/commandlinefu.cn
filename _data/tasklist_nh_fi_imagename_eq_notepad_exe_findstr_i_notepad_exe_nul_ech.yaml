@@ -1,0 +1,8 @@
+commandlinefu_id: 13654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tasklist /nh /fi "imagename eq notepad.exe" | findstr /i "notepad.exe" >nul && (echo Notepad is running)|| (Echo Notepad is not running)
+summary: |-
+  Check if a process is running (Windows)

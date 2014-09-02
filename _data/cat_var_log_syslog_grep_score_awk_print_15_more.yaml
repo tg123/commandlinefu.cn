@@ -1,0 +1,8 @@
+commandlinefu_id: 13653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/log/syslog | grep score= | awk '{print $15}' | more
+summary: |-
+  search system log for spamassassin score and list only 15th column

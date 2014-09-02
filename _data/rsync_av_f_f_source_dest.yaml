@@ -1,0 +1,8 @@
+commandlinefu_id: 13651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -av -f"+ */" -f"- *" [source] [dest]
+summary: |-
+  Sync the existing directory structure to destination, without transferring any files
