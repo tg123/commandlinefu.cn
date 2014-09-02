@@ -1,8 +1,7 @@
 commandlinefu_id: 13385
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   git status --porcelain | sed -ne 's/^ M //p' | tr '\n' '\0' | tr -d '"' | xargs -0 vim
 summary: |-
-  Open (in vim) all modified files in a git repository
+  用vim打开git仓库中所有修改过的文件

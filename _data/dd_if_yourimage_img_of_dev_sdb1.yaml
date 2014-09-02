@@ -1,8 +1,7 @@
 commandlinefu_id: 1944
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   dd if=yourimage.img of=/dev/sdb1
 summary: |-
-  Burn an image to a USB stick
+  将镜像文件烧录到U盘里
