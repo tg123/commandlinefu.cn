@@ -1,8 +1,0 @@
-commandlinefu_id: 4440
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python2 <<< $'import json\nf = open("sessionstore.js", "r")\njdata = json.loads(f.read())\nf.close()\nfor win in jdata.get("windows"):\n\tfor tab in win.get("tabs"):\n\t\ti = tab.get("index") - 1\n\t\tprint tab.get("entries")[i].get("url")'
-summary: |-
-  Display the list of all opened tabs from Firefox via a python one-liner and a shell hack to deal with python indentation.
