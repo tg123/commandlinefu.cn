@@ -1,0 +1,8 @@
+commandlinefu_id: 13655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -anp | grep ":<port>"
+summary: |-
+  monitor all open connections to specific port

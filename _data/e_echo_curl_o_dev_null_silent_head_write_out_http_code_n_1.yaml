@@ -1,0 +1,8 @@
+commandlinefu_id: 13630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  e() { echo $(curl -o /dev/null --silent --head --write-out '%{http_code}\n' $1); }
+summary: |-
+  Give webpage status code

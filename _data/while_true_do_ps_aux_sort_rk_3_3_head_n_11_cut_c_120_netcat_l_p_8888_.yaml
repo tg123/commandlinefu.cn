@@ -1,0 +1,8 @@
+commandlinefu_id: 13667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do ps aux | sort -rk 3,3 | head -n 11 | cut -c -120 | netcat -l -p 8888 2>&1 >/dev/null; done &
+summary: |-
+  view the 10 most cpu using processes in browser

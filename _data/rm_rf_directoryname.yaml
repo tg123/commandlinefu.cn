@@ -1,0 +1,8 @@
+commandlinefu_id: 13646
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm -rf directoryname
+summary: |-
+  remove directory and sub directory

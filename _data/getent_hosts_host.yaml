@@ -1,0 +1,8 @@
+commandlinefu_id: 13643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  getent hosts <host>
+summary: |-
+  Perform a reverse DNS lookup

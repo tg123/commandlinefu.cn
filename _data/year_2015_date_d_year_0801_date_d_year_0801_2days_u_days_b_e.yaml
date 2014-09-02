@@ -1,0 +1,8 @@
+commandlinefu_id: 13636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  YEAR=2015; date -d${YEAR}0801-$(date -d${YEAR}0801+2days +%u)days +%b\ %e
+summary: |-
+  Sysadmin day date of any given year
