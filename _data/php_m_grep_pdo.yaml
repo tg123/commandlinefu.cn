@@ -1,8 +1,7 @@
 commandlinefu_id: 12641
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   php -m|grep pdo
 summary: |-
-  php show list pdo module
+  查看是否安装了php的pdo模块

@@ -1,8 +1,7 @@
 commandlinefu_id: 8934
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -nPi | txt2html  > ~/lsof.html | gnome-open lsof.html
 summary: |-
-  View internet connection activity in a browser
+  把网络使用情况打印到网页中
