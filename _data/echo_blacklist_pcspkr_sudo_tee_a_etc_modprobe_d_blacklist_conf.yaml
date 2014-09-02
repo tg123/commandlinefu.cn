@@ -1,8 +1,7 @@
 commandlinefu_id: 3648
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   echo "blacklist pcspkr"|sudo tee -a /etc/modprobe.d/blacklist.conf
 summary: |-
-  Disable beep sound from your computer
+  禁用电脑蜂鸣器
