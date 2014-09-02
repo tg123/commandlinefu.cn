@@ -1,8 +1,0 @@
-commandlinefu_id: 6167
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "export DISPLAY=:0; export XAUTHORITY=~/.Xauthority; notify-send test" | at now+1minute
-summary: |-
-  I finally found out how to use notify-send with at or cron

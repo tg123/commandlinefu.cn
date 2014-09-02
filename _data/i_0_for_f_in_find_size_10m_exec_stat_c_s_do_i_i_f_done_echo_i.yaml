@@ -1,8 +1,7 @@
 commandlinefu_id: 4524
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   i=0; for f in $(find ./ -size -10M -exec stat -c %s {} \; ); do i=$(($i + $f)); done; echo $i
 summary: |-
-  Find all files <10MB and sum up their size
+  所有10m以下文件的占用的磁盘空间
