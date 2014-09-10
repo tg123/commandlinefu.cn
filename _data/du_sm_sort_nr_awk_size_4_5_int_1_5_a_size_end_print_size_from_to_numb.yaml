@@ -1,0 +1,9 @@
+commandlinefu_id: 13644
+translator:
+  weibo: ''
+hide: true
+command: "du -sm *| sort -nr | awk '{ size=4+5*int($1/5); a[size]++ }; END { print
+  \"size(from->to) \tnumber \tgraph\"; for(i in a){ printf(\"%d \t%d \t\",i,a[i])
+  ; hist=a[i]; while(hist>0){printf(\"#\") ; hist=hist-5} ; printf(\"\\n\")}}'"
+summary: |-
+  histogram of file size

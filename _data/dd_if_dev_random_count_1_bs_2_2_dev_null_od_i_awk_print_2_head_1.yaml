@@ -1,0 +1,8 @@
+commandlinefu_id: 13660
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/random count=1 bs=2 2>/dev/null | od -i | awk '{print $2}' | head -1
+summary: |-
+  Random unsigned integer from /dev/random (0-65535)

@@ -1,0 +1,8 @@
+commandlinefu_id: 13631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 1 > /proc/sys/sunrpc/nfs_debug
+summary: |-
+  Turn on NFS Debugging

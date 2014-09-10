@@ -1,8 +1,7 @@
 commandlinefu_id: 11384
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   date +%:z
 summary: |-
-  Get the UTC offset
+  获取时区与UTC的差

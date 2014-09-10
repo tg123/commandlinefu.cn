@@ -1,8 +1,7 @@
 commandlinefu_id: 5274
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   open-command $(ls -rt *.type | tail -n 1)
 summary: |-
-  Open the last modified file of a certain type
+  打开最后修改的特定扩展名的文件

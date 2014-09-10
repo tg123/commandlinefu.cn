@@ -1,0 +1,8 @@
+commandlinefu_id: 13668
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function findOlderThan () { find . -mmin -$((($(date "+%s") - $(stat -c %Y $1))/60)) -type f ; }
+summary: |-
+  Find all files modified after a given files last modification time

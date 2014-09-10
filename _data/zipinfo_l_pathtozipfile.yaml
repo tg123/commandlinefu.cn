@@ -1,8 +1,7 @@
 commandlinefu_id: 9906
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   zipinfo -l <pathtozipfile>
 summary: |-
-  List detailed information about a ZIP archive
+  查看zip信息

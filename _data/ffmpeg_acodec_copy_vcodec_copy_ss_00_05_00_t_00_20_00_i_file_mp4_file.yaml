@@ -1,0 +1,8 @@
+commandlinefu_id: 13649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -acodec copy -vcodec copy -ss 00:05:00 -t 00:20:00 -i file.mp4 file_cropped.mp4
+summary: |-
+  Crop video starting at 00:05:00 with duration of 20 mins

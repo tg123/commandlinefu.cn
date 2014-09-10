@@ -1,8 +1,0 @@
-commandlinefu_id: 12237
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fsarchvier probe simple
-summary: |-
-  fsarchiver - probe disks and partitions

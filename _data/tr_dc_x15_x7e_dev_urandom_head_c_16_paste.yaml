@@ -1,0 +1,8 @@
+commandlinefu_id: 13641
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc '\x15-\x7e' < /dev/urandom| head -c 16 | paste
+summary: |-
+  A random password generator

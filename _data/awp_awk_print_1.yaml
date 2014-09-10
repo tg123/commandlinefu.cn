@@ -1,0 +1,8 @@
+commandlinefu_id: 13634
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awp () { awk '{print $'$1'}'; }
+summary: |-
+  Don't like the cut command? Tired of typing awk '{print $xxx}', try this

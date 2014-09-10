@@ -1,8 +1,7 @@
 commandlinefu_id: 4008
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . ! -type d -exec chmod -x {}\;
 summary: |-
-  Remove executable bit from all files in the current directory recursively, excluding other directories
+  清除所有文件的执行权限 不影响目录
