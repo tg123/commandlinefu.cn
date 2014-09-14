@@ -5,4 +5,4 @@ hide: true
 command: |-
   echo "($(date +%s)-$(date +%s -d "march 1"))/86400"|bc
 summary: |-
-  find out how many days since given date
+  找出给定时间距现在的天数
