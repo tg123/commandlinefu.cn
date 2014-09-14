@@ -5,4 +5,4 @@ hide: true
 command: |-
   find /tmp -type f -atime +1 -delete
 summary: |-
-  cleanup /tmp directory
+  清理/tmp目录

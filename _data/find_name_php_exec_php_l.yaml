@@ -5,4 +5,4 @@ hide: true
 command: |-
   find . -name \*.php -exec php -l "{}" \;
 summary: |-
-  Check syntax for all PHP files in the current directory and all subdirectories
+  在当前文件夹和其子文件夹下检查php语法
