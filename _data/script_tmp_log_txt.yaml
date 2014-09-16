@@ -1,8 +1,0 @@
-commandlinefu_id: 7681
-translator:
-  weibo: ''
-hide: true
-command: |-
-  script /tmp/log.txt
-summary: |-
-  Bash logger

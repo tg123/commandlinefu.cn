@@ -1,8 +1,7 @@
 commandlinefu_id: 12019
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tr '[:upper:]' '[:lower:]' < input.txt > output.txt
 summary: |-
-  convert uppercase to lowercase
+  大写转小写

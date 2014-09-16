@@ -1,8 +1,0 @@
-commandlinefu_id: 13511
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FOR /F "delims==" %%A IN ('type ips.txt') DO  wmic /Node:%%A wmic /user:username /password:yourpassword /FAILFAST:ON process where "name like '%.exe'" call  getowner
-summary: |-
-  wmic search systems for running 'exe' to hijack migrate
