@@ -1,8 +1,0 @@
-commandlinefu_id: 8465
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(find . -name *md5checksum_file* | sed 's/\(\.\/.*\)md5checksum_file.txt/\1/'); do cd "$i"; md5sum -c "md5checksum_file.txt"; cd -; done | tee ~/checksum_results.txt | grep -v "<current directory>"
-summary: |-
-  use md5sum -c recursively through subdirectory tree when every directory has its own checksum file

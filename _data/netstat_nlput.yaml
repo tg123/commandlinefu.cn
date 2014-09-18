@@ -1,8 +1,7 @@
 commandlinefu_id: 12299
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -nlput
 summary: |-
-  Prints tcp and udp connections
+  查看tcp和udp 链接

@@ -1,8 +1,7 @@
 commandlinefu_id: 3521
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   %s/@/^v[M]/g
 summary: |-
-  replace @ symbol with new line character, to get new line character press Ctrl+v+enter --> ^M
+  输入^M CTRL + v + 回车

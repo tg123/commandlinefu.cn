@@ -1,8 +1,7 @@
 commandlinefu_id: 772
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/zero of=/dev/null bs=1M count=32768
 summary: |-
-  Processor / memory bandwidthd? in GB/s
+  内存和处理器的带宽
