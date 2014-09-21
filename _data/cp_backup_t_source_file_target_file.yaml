@@ -1,8 +1,7 @@
 commandlinefu_id: 1455
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cp --backup=t source.file target.file
 summary: |-
-  Never rewrites a file while copying (or moving)
+  复制时不覆盖

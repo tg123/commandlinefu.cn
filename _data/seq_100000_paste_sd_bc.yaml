@@ -1,8 +1,7 @@
 commandlinefu_id: 7827
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   seq 100000 | paste -sd+ | bc
 summary: |-
-  Calculate sum of N numbers (Thanks to flatcap)
+  求和n个数
