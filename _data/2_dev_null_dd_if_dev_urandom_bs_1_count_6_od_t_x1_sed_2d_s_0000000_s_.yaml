@@ -1,8 +1,7 @@
 commandlinefu_id: 5500
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   2>/dev/null dd if=/dev/urandom bs=1 count=6 | od -t x1|sed '2d;s/0000000 *//;s/  /:/g;s/::*$//'
 summary: |-
-  generate random mac address
+  生成随机mac地址
