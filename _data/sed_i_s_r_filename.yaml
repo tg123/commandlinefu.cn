@@ -1,8 +1,7 @@
 commandlinefu_id: 10297
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i 's/\r//' <filename>
 summary: |-
-  Convert Windows/DOS Text Files to Unix
+  转化为unix格式
