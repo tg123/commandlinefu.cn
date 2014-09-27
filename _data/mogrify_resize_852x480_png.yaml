@@ -1,8 +1,7 @@
 commandlinefu_id: 13020
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -resize 852x480 *.png
 summary: |-
-  Batch resize images (overwriting)
+  批量修改大小

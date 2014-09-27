@@ -1,8 +1,7 @@
 commandlinefu_id: 787
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   man -k <keyword>
 summary: |-
-  Search manpages for a keyword
+  在 man 里边搜索关键字

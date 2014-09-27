@@ -1,8 +1,7 @@
 commandlinefu_id: 2384
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bash -x script.sh 2> log
 summary: |-
-  Run a bash script in debug mode, show output and save it on a file
+  以debug 模式运行脚本
