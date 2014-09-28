@@ -1,8 +1,7 @@
 commandlinefu_id: 12235
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   groups $(cut -f1 -d":" /etc/passwd) | sort
 summary: |-
-  List all users and groups
+  显示所有用户和组
