@@ -1,8 +1,7 @@
 commandlinefu_id: 8931
 translator:
-  weibo: ''
-hide: true
+  weibo: particle128
 command: |-
   lsof -nPi | txt2html  > ~/lsof.html
 summary: |-
-  View internet connection activity in a browser
+  在浏览器上查看网络连接情况
