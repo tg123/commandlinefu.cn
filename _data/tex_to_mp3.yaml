@@ -1,0 +1,8 @@
+commandlinefu_id: 13694
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tex-to-mp3
+summary: |-
+  text-to-mp3

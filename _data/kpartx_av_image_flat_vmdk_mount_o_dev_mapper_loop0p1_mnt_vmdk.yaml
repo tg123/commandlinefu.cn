@@ -1,0 +1,8 @@
+commandlinefu_id: 13718
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kpartx -av <image-flat.vmdk>; mount -o /dev/mapper/loop0p1 /mnt/vmdk
+summary: |-
+  Mount a VMware virtual disk (.vmdk) file on a Linux box

@@ -1,0 +1,8 @@
+commandlinefu_id: 13696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/[0-9]\+/ [&] /g'
+summary: |-
+  separate (emphasize) digital strings from other text

@@ -1,0 +1,8 @@
+commandlinefu_id: 13720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -arvz -e 'ssh -p 2233' --progress --delete remote-user@remote-server.org:/path/to/folder /path/to/local/folder
+summary: |-
+  rsync over ssh using alternative port number

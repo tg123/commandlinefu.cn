@@ -1,0 +1,8 @@
+commandlinefu_id: 13671
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ss -ntpl
+summary: |-
+  To check system send and receive tcp queue current size

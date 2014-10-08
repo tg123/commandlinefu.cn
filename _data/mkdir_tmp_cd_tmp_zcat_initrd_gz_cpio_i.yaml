@@ -1,0 +1,8 @@
+commandlinefu_id: 13712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir tmp ; cd tmp ; zcat ../initrd.gz | cpio -i
+summary: |-
+  extract and initrd image

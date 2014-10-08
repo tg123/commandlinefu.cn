@@ -1,0 +1,8 @@
+commandlinefu_id: 13685
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -efL | grep <Process Name>
+summary: |-
+  ps to show child thread PIDs

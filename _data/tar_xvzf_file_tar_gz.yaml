@@ -1,0 +1,8 @@
+commandlinefu_id: 13703
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar xvzf <file.tar.gz>
+summary: |-
+  Untar file in current directory
