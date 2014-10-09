@@ -1,8 +1,0 @@
-commandlinefu_id: 10067
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/zero of=filename.file bs=1024 count=10240
-summary: |-
-  Create dummy file

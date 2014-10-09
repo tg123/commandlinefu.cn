@@ -1,8 +1,7 @@
 commandlinefu_id: 7159
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -name '*.htm' -delete
 summary: |-
-  recursive remove all htm files
+  递归删除所有的htm
