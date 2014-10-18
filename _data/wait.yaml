@@ -1,8 +1,7 @@
 commandlinefu_id: 5796
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   wait $!
 summary: |-
-  Wait for an already launched program to stop before starting a new command.
+  在开始新的命令之前，等待一个已经启动的程序结束

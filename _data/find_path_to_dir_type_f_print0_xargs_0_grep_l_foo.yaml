@@ -1,8 +1,7 @@
 commandlinefu_id: 10885
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find /path/to/dir -type f -print0 | xargs -0 grep -l "foo"
 summary: |-
-  List files containing given search string recursively
+  递归列出包含给定搜索字符串的文件

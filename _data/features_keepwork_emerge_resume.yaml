@@ -1,8 +1,7 @@
 commandlinefu_id: 2558
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   FEATURES=keepwork emerge --resume
 summary: |-
-  Resume an emerge, and keep all object files that are already built
+  保留已编译出来的object文件，重新启动emerge

@@ -1,8 +1,7 @@
 commandlinefu_id: 3453
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   diff <(ssh server01 'cd config; find . -type f -exec md5sum {} \;| sort -k 2') <(ssh server02 'cd config;find . -type f -exec md5sum {} \;| sort -k 2')
 summary: |-
-  Identify differences between directories (possibly on different servers)
+  显示位于不同的服务器的文件夹的之间的差异

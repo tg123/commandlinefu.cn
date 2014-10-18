@@ -1,8 +1,7 @@
 commandlinefu_id: 6164
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   alias onlyx='nohup startx & disown ; exit'
 summary: |-
-  Alias to securely run X from tty and close that tty afterwards.
+  一个别名，可以安全地从终端运行X窗口环境，然后关闭终端

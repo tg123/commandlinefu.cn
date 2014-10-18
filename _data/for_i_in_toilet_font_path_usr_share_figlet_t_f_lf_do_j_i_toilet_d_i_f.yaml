@@ -1,8 +1,7 @@
 commandlinefu_id: 9953
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in ${TOILET_FONT_PATH:=/usr/share/figlet}/*.{t,f}lf; do j=${i##*/}; toilet -d "${i%/*}" -f "$j" "${j%.*}"; done
 summary: |-
-  Show demo of toilet fonts
+  显示toilet字体样例。（toilet是一个命令行玩具，可以输出ASCII码风格的字符艺术）
