@@ -1,8 +1,7 @@
 commandlinefu_id: 978
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ls |while read line ; do mpg321 -w "$line.wav" "$line" ; done
 summary: |-
-  Convert *.mp3 files to *.wav for recording audio cd's
+  转换*.mp3文件成*.wav文件

@@ -1,8 +1,7 @@
 commandlinefu_id: 9175
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -name "*.pbt" -exec grep -Hirn "declareObject.*Common_Down" {} \;
 summary: |-
-  Grep for regular expression globally, list files and positions.
+  在特定文件中grep相关的内容，列出匹配的文件名和位置

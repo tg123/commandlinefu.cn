@@ -1,8 +1,7 @@
 commandlinefu_id: 2844
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ssh -t user@host screen -x <screen name>
 summary: |-
-  ssh and attach to a screen in one line.
+  在一行内启动ssh和screen
