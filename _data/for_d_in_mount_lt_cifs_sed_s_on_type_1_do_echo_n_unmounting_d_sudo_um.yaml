@@ -1,8 +1,0 @@
-commandlinefu_id: 9520
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for D in `mount -lt cifs | sed 's/.*on \(\/.\+\) type.*/\1/'`; do echo -n "UNMOUNTING $D..."; sudo umount $D; echo " [DONE]"; done;
-summary: |-
-  Unmount all CIFS drives

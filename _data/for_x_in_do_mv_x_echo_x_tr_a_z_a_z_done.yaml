@@ -1,8 +1,7 @@
 commandlinefu_id: 8343
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for x in *;do mv "$x" "`echo $x|tr [A-Z] [a-z]`";done
 summary: |-
-  convert uppercase filenames in current directory to lowercase
+  将文件名小写
