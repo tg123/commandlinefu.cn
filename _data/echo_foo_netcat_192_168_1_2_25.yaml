@@ -1,8 +1,7 @@
 commandlinefu_id: 3467
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo foo | netcat 192.168.1.2 25
 summary: |-
-  send echo to socket network
+  发送到 socket
