@@ -1,8 +1,7 @@
 commandlinefu_id: 4510
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -n1 "du -hs /home/$USER | cut -f1 -d'/' | figlet -k"
 summary: |-
-  Watch the size of a directory using figlet
+  监控一个用户目录的大小

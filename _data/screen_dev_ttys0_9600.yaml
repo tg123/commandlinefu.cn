@@ -1,8 +1,7 @@
 commandlinefu_id: 8048
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen /dev/ttyS0 9600
 summary: |-
-  connects to a serial console
+  链接到一个串行console上

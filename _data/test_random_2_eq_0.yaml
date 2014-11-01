@@ -1,8 +1,7 @@
 commandlinefu_id: 8745
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   test $((RANDOM%2)) -eq 0
 summary: |-
-  Succeed or fail randomly (Schr?dinger's code)
+  随机决定true or false
