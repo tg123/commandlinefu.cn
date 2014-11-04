@@ -1,8 +1,7 @@
 commandlinefu_id: 11085
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /sbin/sysctl -w vm.drop_caches=3
 summary: |-
-  Release memory used by the Linux kernel on caches
+  释放cache
