@@ -1,8 +1,7 @@
 commandlinefu_id: 1366
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -type d \( -name DIR1 -o -name DIR2 \) -prune -o -type f -print0 | xargs -r0 md5sum
 summary: |-
-  Create md5sum of files under the current dir excluding some directories
+  除了某些目录之外的当前目录下的所有文件创建md5sum。
