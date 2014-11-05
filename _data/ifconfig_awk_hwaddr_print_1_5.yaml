@@ -1,8 +1,7 @@
 commandlinefu_id: 8565
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ifconfig | awk '/HWaddr/ { print $1, $5 }'
 summary: |-
-  List your interfaces and MAC addresses
+  列出你的网络接口和MAC地址

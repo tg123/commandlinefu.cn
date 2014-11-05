@@ -1,8 +1,7 @@
 commandlinefu_id: 8732
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   parallel -a <(seq 0 20) mkdir /tmp/dir1/{}
 summary: |-
-  make directory
+  并行创建文件夹

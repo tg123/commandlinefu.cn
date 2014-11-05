@@ -1,8 +1,7 @@
 commandlinefu_id: 2413
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in *.tar.gz; do tar -xzf $i; done
 summary: |-
-  Extract multiple file in a directory
+  解压目录下的多个tar.gz文件
