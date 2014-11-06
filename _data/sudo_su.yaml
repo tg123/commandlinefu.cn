@@ -1,8 +1,7 @@
 commandlinefu_id: 930
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   sudo su
 summary: |-
-  Start a new shell as root
+  以root身份启动一个shell
