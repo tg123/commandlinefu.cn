@@ -1,8 +1,8 @@
 commandlinefu_id: 8645
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   sudo bash -c "sleep 1h ; command"
 summary: |-
   Run a command as root, with a delay
+  用root身份延迟一段时间后运行一个命令

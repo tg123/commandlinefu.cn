@@ -1,8 +1,8 @@
 commandlinefu_id: 5351
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   rm !(*.foo|*.bar|*.baz)
 summary: |-
   Delete all files in a folder that don't match a certain file extension
+  删除一个目录下所有不匹配特定扩展名的文件
