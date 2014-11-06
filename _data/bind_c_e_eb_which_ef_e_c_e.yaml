@@ -1,8 +1,7 @@
 commandlinefu_id: 7738
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   bind '"\C-e":"\eb `which \ef`\e\C-e"'
 summary: |-
-  expand a program-name into an absolute path on the bash command-line, using ctrl-e
+  使用Ctrl+e拓展bash命令行下的程序名成相应的绝对路径名

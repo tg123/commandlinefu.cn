@@ -1,0 +1,8 @@
+commandlinefu_id: 13675
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cpf - ./sourceFile | tar -xpf - -C ./targetDir/
+summary: |-
+  Clone perms and owner group from one file to another

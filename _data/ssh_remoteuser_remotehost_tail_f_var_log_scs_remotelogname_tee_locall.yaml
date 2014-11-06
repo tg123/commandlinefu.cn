@@ -1,8 +1,7 @@
 commandlinefu_id: 12772
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh remoteUser@remoteHost "tail -f /var/log/scs/remoteLogName" | tee localLogName
 summary: |-
-  Get and read log from remote host (works with log on pipe, too)
+  远程tail

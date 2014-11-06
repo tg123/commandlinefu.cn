@@ -1,0 +1,8 @@
+commandlinefu_id: 13737
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git reflog --date=local | grep "Oct 2 .* checkout: moving from .* to" | grep -o "[a-zA-Z0-9\-]*$" | sort | uniq
+summary: |-
+  Git branches I checked-out on a specific date

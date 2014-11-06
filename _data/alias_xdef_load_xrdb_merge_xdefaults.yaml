@@ -1,8 +1,0 @@
-commandlinefu_id: 2095
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias xdef_load='xrdb -merge ~/.Xdefaults'
-summary: |-
-  Reads in the ~/.Xdefaults

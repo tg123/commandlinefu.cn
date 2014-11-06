@@ -1,8 +1,7 @@
 commandlinefu_id: 2256
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $BASH_VERSION
 summary: |-
-  Which Version Is My Bash Shell?
+  显示bash版本

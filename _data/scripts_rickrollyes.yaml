@@ -1,8 +1,0 @@
-commandlinefu_id: 1693
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /scripts/rickrollyes
-summary: |-
-  Mass Suspends Cpanel Users and Redirects to Rick Roll

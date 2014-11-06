@@ -1,8 +1,7 @@
 commandlinefu_id: 3593
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   export PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/~}\007";'
 summary: |-
-  Show current pathname in title of terminal
+  带有路径的提示符

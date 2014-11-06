@@ -1,8 +1,7 @@
 commandlinefu_id: 1154
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   read VAR1 VAR2 VAR3 < <(echo aa bb cc); echo $VAR2
 summary: |-
-  split a string (2)
+  切分字符串

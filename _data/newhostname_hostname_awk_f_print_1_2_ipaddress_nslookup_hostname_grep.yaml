@@ -1,8 +1,0 @@
-commandlinefu_id: 824
-translator:
-  weibo: ''
-hide: true
-command: |-
-  newhostname=$(hostname | awk -F. '{print $1 "." $2}'); ipaddress=$(nslookup `hostname` | grep -i address | awk -F" " '{print $2}' | awk -F. '{print $3 "." $4}' | grep -v 64.142);PS1="[`id -un`.$newhostname.$ipaddress]"' (${PWD}): '; export PS1
-summary: |-
-  change your PS1 to look better :)

@@ -1,8 +1,0 @@
-commandlinefu_id: 2667
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vi `!!`
-summary: |-
-  edit list of files in last command

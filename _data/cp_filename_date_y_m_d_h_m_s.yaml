@@ -1,8 +1,7 @@
 commandlinefu_id: 13192
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cp filename{,.`date +%Y%m%d-%H%M%S`}
 summary: |-
-  quickly backup or copy a file with bash
+  快速备份文件 

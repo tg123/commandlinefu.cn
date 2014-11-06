@@ -1,8 +1,7 @@
 commandlinefu_id: 2353
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   lshw -html > hardware.html
 summary: |-
-  Create a nifty overview of the hardware in your computer
+  以html形式获取你的电脑的硬件配置报告

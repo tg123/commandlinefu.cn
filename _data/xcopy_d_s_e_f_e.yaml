@@ -1,8 +1,0 @@
-commandlinefu_id: 3553
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xcopy D:\*.* /s/e/f E:\
-summary: |-
-  Create Bootable USB from ISO file

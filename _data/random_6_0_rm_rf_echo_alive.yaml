@@ -1,8 +1,8 @@
 commandlinefu_id: 12869
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   # [ $[ $RANDOM % 6 ] == 0 ] && rm -rf / || echo "Alive"
 summary: |-
-  Russian rullette: Warning! Don't run, if not sure what are you doing
+  俄罗斯轮盘 (Russian Roulette) 
+

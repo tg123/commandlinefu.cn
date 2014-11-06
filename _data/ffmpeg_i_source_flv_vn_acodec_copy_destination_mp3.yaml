@@ -1,8 +1,7 @@
 commandlinefu_id: 2280
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -i source.flv -vn acodec copy destination.mp3
 summary: |-
-  Copy the sound content of a video to an mp3 file
+  提取声音

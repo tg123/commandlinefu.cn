@@ -1,8 +1,7 @@
 commandlinefu_id: 10802
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   php -m
 summary: |-
-  Check which modules your PHP is using
+  查看php安装的模块

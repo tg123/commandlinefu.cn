@@ -1,8 +1,0 @@
-commandlinefu_id: 10315
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Opening_tag((?:(?!Unwanted_tag).)*)Closing_tag
-summary: |-
-  Regex snippet to do multi-character [^x]*

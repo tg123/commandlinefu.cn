@@ -1,8 +1,7 @@
 commandlinefu_id: 7135
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   command | ssh myHost xsel -i --display :0
 summary: |-
-  Send remote command output to your local clipboard
+  远程剪切版

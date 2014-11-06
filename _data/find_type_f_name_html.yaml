@@ -1,8 +1,7 @@
 commandlinefu_id: 2647
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f ! -name "*html"
 summary: |-
-  find all non-html files
+  寻找非html

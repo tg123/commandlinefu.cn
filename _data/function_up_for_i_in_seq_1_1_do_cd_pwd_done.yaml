@@ -1,8 +1,7 @@
 commandlinefu_id: 11780
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   function up { for i in `seq 1 $1`; do cd ../ && pwd; done }
 summary: |-
-  move up through directories faster (set in your /etc/profile or .bash_profile)
+  快速的up多层目录

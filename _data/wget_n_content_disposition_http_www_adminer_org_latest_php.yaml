@@ -1,0 +1,8 @@
+commandlinefu_id: 13686
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -N --content-disposition http://www.adminer.org/latest.php
+summary: |-
+  download newest adminer and rename to it's version accordingly

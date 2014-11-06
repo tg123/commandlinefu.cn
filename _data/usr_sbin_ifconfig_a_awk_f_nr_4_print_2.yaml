@@ -1,8 +1,7 @@
 commandlinefu_id: 4218
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /usr/sbin/ifconfig -a|awk -F" " 'NR==4{print $2}'
 summary: |-
-  Return IP Address
+  获取IP地址

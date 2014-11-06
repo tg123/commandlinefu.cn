@@ -1,8 +1,7 @@
 commandlinefu_id: 12246
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   nc -w 5 -v -l -p 80 < file.ext
 summary: |-
-  Sharing a file through http 80 port:
+  简单的http服务器

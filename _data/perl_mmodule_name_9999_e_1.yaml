@@ -1,7 +1,6 @@
 commandlinefu_id: 11771
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -MModule::Name\ 9999 -e 1
 summary: |-

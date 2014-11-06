@@ -1,8 +1,0 @@
-commandlinefu_id: 6787
-translator:
-  weibo: ''
-hide: true
-command: |-
-  liveh(){ tcpdump -lnAs512 ${1-} tcp |sed ' s/.*GET /GET /;s/.*Host: /Host: /;s/.*POST /POST /;/[GPH][EOo][TSs]/!d;w '"${2-liveh.txt}"' ' >/dev/null ;} # usage: liveh [-i interface] [output-file] && firefox &
-summary: |-
-  livehttpheaders (firefox addon) replacement

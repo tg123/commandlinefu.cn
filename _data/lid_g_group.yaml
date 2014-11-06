@@ -1,8 +1,7 @@
 commandlinefu_id: 10342
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lid -g <group>
 summary: |-
-  List users in a group
+  查看组内用户

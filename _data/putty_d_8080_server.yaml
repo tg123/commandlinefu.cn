@@ -1,8 +1,7 @@
 commandlinefu_id: 3799
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   Putty -d 8080 [server]
 summary: |-
-  Proxy all web traffic via ssh
+  使用putty做ssh 代理

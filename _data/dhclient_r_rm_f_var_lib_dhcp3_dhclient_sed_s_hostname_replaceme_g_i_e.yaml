@@ -1,8 +1,0 @@
-commandlinefu_id: 3659
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dhclient -r && rm -f /var/lib/dhcp3/dhclient* && sed "s=$(hostname)=REPLACEME=g" -i /etc/hosts && hostname "$(echo $RANDOM | md5sum  | cut -c 1-7 | tr a-z A-Z)" && sed "s=REPLACEME=$(hostname)=g" -i /etc/hosts && macchanger -e eth0 && dhclient
-summary: |-
-  randomize hostname and mac address, force dhcp renew. (for anonymous networking)

@@ -1,0 +1,8 @@
+commandlinefu_id: 13706
+translator:
+  weibo: ''
+hide: true
+command: |-
+  avconv -loop 1 -i company-logo-1920x992.png -t 2 -r 2 logo.avi
+summary: |-
+  Create video clip from single image.

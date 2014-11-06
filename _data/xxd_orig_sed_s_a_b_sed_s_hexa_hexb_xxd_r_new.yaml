@@ -1,8 +1,7 @@
 commandlinefu_id: 194
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xxd < orig | sed 's/A/B/' | sed 's/HEXA/HEXB/' | xxd -r > new
 summary: |-
-  Binary search/replace
+  二进制替换

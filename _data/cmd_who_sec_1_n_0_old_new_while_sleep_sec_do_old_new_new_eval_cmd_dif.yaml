@@ -1,8 +1,0 @@
-commandlinefu_id: 7048
-translator:
-  weibo: ''
-hide: true
-command: |-
-  CMD="who";SEC=1;N=0;OLD="";NEW=""; while `sleep $SEC`; do OLD="$NEW"; NEW="$(eval $CMD)"; DIFF=`diff <( echo "$OLD" ) <( echo "$NEW" )`; if [ -n "$DIFF" ]; then date; echo "Diff #$N (${SEC}s): $CMD"; echo "$DIFF"; fi; N=$[$N+1]; done | tee /tmp/keepr
-summary: |-
-  Watch and keep history of a command

@@ -1,0 +1,8 @@
+commandlinefu_id: 13689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zgrep -i "string" log.tar.gz
+summary: |-
+  grep compressed log files without extracting

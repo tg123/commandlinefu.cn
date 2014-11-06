@@ -1,0 +1,8 @@
+commandlinefu_id: 13698
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker ps -a | grep 'Exit' | awk '{print $1}' | xargs docker rm
+summary: |-
+  Docker - delete all non-running container

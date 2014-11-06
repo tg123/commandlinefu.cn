@@ -1,8 +1,7 @@
 commandlinefu_id: 4658
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -maxdepth 1 -type f| xargs sha1sum | sed 's/^\(\w*\)\s*\(.*\)/\2 \1/' | while read LINE; do mv $LINE; done
 summary: |-
-  Rename all the files in the current directory into their sha1sum
+  对当前目录下所有文件求对应的sha1sum，并以其结果重命名文件

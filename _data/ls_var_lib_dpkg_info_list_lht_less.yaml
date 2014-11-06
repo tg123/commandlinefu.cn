@@ -1,8 +1,7 @@
 commandlinefu_id: 2753
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls /var/lib/dpkg/info/*.list -lht |less
 summary: |-
-  Find the dates your debian/ubuntu packages were installed.
+  查看包的安装日期

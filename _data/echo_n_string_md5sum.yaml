@@ -1,8 +1,7 @@
 commandlinefu_id: 1440
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -n "string" | md5sum -
 summary: |-
-  Generate MD5 hash for a string
+  生成md5

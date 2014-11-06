@@ -1,8 +1,0 @@
-commandlinefu_id: 11523
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get  install lamp-server^ phpmyadmin
-summary: |-
-  Installs lamp on Ubuntu

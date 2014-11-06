@@ -1,8 +1,7 @@
 commandlinefu_id: 1505
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :!cp % %-
 summary: |-
-  Create a backup of file being edited while using vi
+  在使用vi时候创建一个备份

@@ -1,8 +1,0 @@
-commandlinefu_id: 7771
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh USER@REMOTESYSTEM arecord - | aplay -
-summary: |-
-  eavesdrop

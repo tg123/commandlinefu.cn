@@ -1,8 +1,0 @@
-commandlinefu_id: 7022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo sh /usr/share/doc/libdvdread4/install-css.sh
-summary: |-
-  Enabling some DVD playback enhancements in Ubuntu

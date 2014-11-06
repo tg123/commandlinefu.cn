@@ -1,8 +1,7 @@
 commandlinefu_id: 6605
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   gzip -cd file.gz | ssh user@host 'dd of=~/file'
 summary: |-
-  unzip file on local machine copy to remote machine with ssh
+  解压文件到远端

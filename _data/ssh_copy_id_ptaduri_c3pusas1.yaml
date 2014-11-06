@@ -1,8 +1,0 @@
-commandlinefu_id: 8475
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ssh-copy-id ptaduri@c3pusas1
-summary: |-
-  Copy your SSH public key on a remote machine for passwordless login - the easy way

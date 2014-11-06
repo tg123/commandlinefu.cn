@@ -1,8 +1,7 @@
 commandlinefu_id: 6852
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /proc/version
 summary: |-
-  Find out my Linux distribution name and version
+  显示发行版

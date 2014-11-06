@@ -1,8 +1,0 @@
-commandlinefu_id: 5302
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pack.sh -domain=[PATH]/domains/mydomain -template=[PATH]/mydomain.jar -template_name="mydomain"
-summary: |-
-  Create a template for WebLogic 9 or 10

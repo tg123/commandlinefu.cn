@@ -1,8 +1,7 @@
 commandlinefu_id: 4271
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat -n
 summary: |-
-  prints line numbers
+  带有行号的cat

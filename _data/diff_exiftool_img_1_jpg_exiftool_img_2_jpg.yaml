@@ -1,8 +1,7 @@
 commandlinefu_id: 10147
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   diff <(exiftool img_1.jpg) <(exiftool img_2.jpg)
 summary: |-
-  diff the outputs of two programs
+  查看两个图片的exif不同

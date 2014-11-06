@@ -1,8 +1,7 @@
 commandlinefu_id: 2111
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in {1..5}; do cp test{,$i};done
 summary: |-
-  Create several copies of a file
+  创建文件的记份拷贝

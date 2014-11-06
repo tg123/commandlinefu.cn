@@ -1,8 +1,7 @@
 commandlinefu_id: 11122
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias ':q'='exit'; alias ':e'='vim';
 summary: |-
-  Alias nasty quick vim habits
+  获得vim风格的命令行

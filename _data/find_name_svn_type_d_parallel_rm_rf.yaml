@@ -1,8 +1,7 @@
 commandlinefu_id: 8768
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name .svn -type d | parallel rm -rf
 summary: |-
-  Recursively remove all .svn directories
+  清除.svn

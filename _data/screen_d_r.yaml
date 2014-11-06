@@ -1,8 +1,7 @@
 commandlinefu_id: 10348
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen -D -R
 summary: |-
-  Automatically find and re-attach to a detached screen session
+  自动寻找并attach一个screen

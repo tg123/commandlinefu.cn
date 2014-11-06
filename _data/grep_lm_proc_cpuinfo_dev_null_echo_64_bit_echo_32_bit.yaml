@@ -1,8 +1,7 @@
 commandlinefu_id: 11919
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep " lm " /proc/cpuinfo > /dev/null && echo "64-bit" || echo "32-bit"
 summary: |-
-  Check if *hardware* is 32bit or 64bit
+  查看是32还是64

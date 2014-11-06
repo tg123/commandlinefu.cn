@@ -1,8 +1,7 @@
 commandlinefu_id: 1489
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  gcal -K -q GB_EN 2009 # display holidays in UK/England for 2009 (with week numbers)
+  gcal -K -q GB_EN 2009 
 summary: |-
-  Display calendar with specific national holidays and week numbers
+  显示指定国家的节日
