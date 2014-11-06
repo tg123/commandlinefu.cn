@@ -1,8 +1,7 @@
 commandlinefu_id: 772
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   dd if=/dev/zero of=/dev/null bs=1M count=32768
 summary: |-
-  Processor / memory bandwidthd? in GB/s
+  计算处理器到内存带宽(GB/s)

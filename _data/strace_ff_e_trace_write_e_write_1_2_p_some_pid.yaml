@@ -1,8 +1,7 @@
 commandlinefu_id: 5410
 translator:
-  weibo: ''
-hide: true
+  weibo: gdqyn
 command: |-
   strace -ff -e trace=write -e write=1,2 -p SOME_PID
 summary: |-
-  intercept stdout/stderr of another process
+  截取某个进程的stdout/stderr
