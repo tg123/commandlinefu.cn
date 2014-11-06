@@ -1,8 +1,0 @@
-commandlinefu_id: 1448
-translator:
-  weibo: ''
-hide: true
-command: |-
-  instfix -icq | grep 5300-07_AIX_ML | grep ":-:"
-summary: |-
-  AIX: Determine what filesets are missing to reach a TL

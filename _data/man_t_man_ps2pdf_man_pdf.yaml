@@ -1,8 +1,0 @@
-commandlinefu_id: 2804
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man -t man | ps2pdf - > man.pdf
-summary: |-
-  Save man pages to pdf

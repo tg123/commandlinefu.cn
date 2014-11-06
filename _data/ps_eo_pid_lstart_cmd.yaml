@@ -1,8 +1,0 @@
-commandlinefu_id: 12417
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -eo pid,lstart,cmd
-summary: |-
-  Discover the process start time

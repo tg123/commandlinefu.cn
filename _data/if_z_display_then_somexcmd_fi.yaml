@@ -1,8 +1,0 @@
-commandlinefu_id: 621
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ ! -z "${DISPLAY}" ]; then someXcmd ; fi
-summary: |-
-  Check if running in an X session

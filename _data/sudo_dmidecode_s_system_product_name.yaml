@@ -1,8 +1,7 @@
 commandlinefu_id: 10210
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo dmidecode -s system-product-name
 summary: |-
-  what model of computer I'm using?
+  机器型号

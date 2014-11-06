@@ -1,0 +1,8 @@
+commandlinefu_id: 13734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo tee /path/to/file < /dev/null
+summary: |-
+  Null a file with sudo

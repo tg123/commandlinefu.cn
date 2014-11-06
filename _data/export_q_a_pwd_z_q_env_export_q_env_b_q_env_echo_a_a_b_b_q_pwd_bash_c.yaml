@@ -1,0 +1,8 @@
+commandlinefu_id: 13721
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export Q='() { a=$(pwd); [ -z "$Q_env" ] && export Q_env=$*; b=$Q_env; echo "a=$a, b=$b,"; }; Q $(pwd)'; bash -c "Q; cd ~/Desktop; Q"
+summary: |-
+  bash: not a bug, a feature .... (?)

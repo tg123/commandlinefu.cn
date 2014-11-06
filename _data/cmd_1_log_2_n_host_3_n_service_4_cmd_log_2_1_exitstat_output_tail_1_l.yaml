@@ -1,8 +1,0 @@
-commandlinefu_id: 5072
-translator:
-  weibo: ''
-hide: true
-command: |-
-  CMD="${1}"; LOG="${2}"; N_HOST="${3}"; N_SERVICE="${4}"; ${CMD} >${LOG} 2>&1; EXITSTAT=${?}; OUTPUT="$(tail -1 ${LOG})";echo "${HOSTNAME}:${N_SERVICE}:${EXITSTAT}:${OUTPUT}" | send_nsca -H ${N_HOST} -d : -c /etc/nagios/send_nsca.cfg >/dev/null 2>&1
-summary: |-
-  nagios wrapper for any script/cron etc

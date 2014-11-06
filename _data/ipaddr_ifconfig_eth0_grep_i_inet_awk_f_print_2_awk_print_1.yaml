@@ -1,8 +1,7 @@
 commandlinefu_id: 1214
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   IPADDR=`ifconfig eth0 | grep -i inet | awk -F: '{print $2}'| awk '{print $1}'`
 summary: |-
-  Filtering IP address from ifconfig usefule in scripts
+  获取绑定的IP

@@ -1,8 +1,7 @@
 commandlinefu_id: 8369
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cal | sed -E "2,8s/(^|[^0-9])($(date +%e))( |$)/\1$(echo "\033[0;36m\2\033[0m")\3/g"
 summary: |-
-  Colored cal output
+  有色日历

@@ -1,8 +1,7 @@
 commandlinefu_id: 5218
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   hdiutil convert /path/imagefile.dmg -format UDTO -o /path/convertedimage.iso
 summary: |-
-  Convert a DMG file to ISO in OS X Terminal
+  在OS X的终端下，将DMG文件转换成ISO文件

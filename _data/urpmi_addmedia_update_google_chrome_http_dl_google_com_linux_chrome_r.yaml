@@ -1,8 +1,0 @@
-commandlinefu_id: 8373
-translator:
-  weibo: ''
-hide: true
-command: |-
-  urpmi.addmedia --update google-chrome http://dl.google.com/linux/chrome/rpm/stable/$(uname -m | sed -e "s/i.86/i386/")
-summary: |-
-  Define Google Chrome urpmi media source for Mandriva/Mageia (works for both 32-bit and 64-bit systems)

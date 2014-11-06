@@ -1,8 +1,7 @@
 commandlinefu_id: 10325
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '{cmd="date --date=\""$1"\" +\"%Y/%m/%d %H:%M:%S\" "; cmd | getline convdate; print cmd";"convdate }' file.txt
 summary: |-
-  awk date convert
+  用awk做日期转换

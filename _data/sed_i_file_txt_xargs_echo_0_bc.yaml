@@ -1,8 +1,7 @@
 commandlinefu_id: 7821
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed i"+" file.txt | xargs echo 0 |bc
 summary: |-
-  Compute the numeric sum of a file
+  对一个全是数的文件求和

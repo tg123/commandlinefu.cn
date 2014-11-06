@@ -1,8 +1,7 @@
 commandlinefu_id: 3286
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ~/Library/Application\ Support/Firefox/ -type f -name "*.sqlite" -exec sqlite3 {} VACUUM \;
 summary: |-
-  Cleanup firefox's database.
+  清空firefox数据(MAC)

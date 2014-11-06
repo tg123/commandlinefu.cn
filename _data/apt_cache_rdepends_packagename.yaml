@@ -1,8 +1,7 @@
 commandlinefu_id: 8858
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-cache rdepends <packagename>
 summary: |-
-  Show package reverse dependencies with apt
+  查看包的依赖

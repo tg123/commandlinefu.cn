@@ -1,8 +1,7 @@
 commandlinefu_id: 7986
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xargs < [inputfile]
 summary: |-
-  Remove new lines
+  清除换行

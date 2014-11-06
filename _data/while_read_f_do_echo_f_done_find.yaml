@@ -1,8 +1,7 @@
 commandlinefu_id: 5002
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   while read f;do echo "$f";done < <(find .)
 summary: |-
-  Read directory contents recursively
+  显示目录内容

@@ -1,8 +1,7 @@
 commandlinefu_id: 3481
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   : ${VAR:?unset variable}
 summary: |-
-  Check variable has been set
+  检查变量是否存在

@@ -1,8 +1,7 @@
 commandlinefu_id: 5909
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -regextype posix-extended -not -regex '.*/[A-Za-z_]*([.][A-Za-z_]*)?'
 summary: |-
-  find filenames and directory names that doesn't conform ISO 9660 level 2
+  查找不符合ISO 9660（一种光盘文件系统） Level 2的文件名和文件夹名

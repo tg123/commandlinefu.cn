@@ -1,0 +1,8 @@
+commandlinefu_id: 13739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eog someimg.jpg
+summary: |-
+  Open image file from command line

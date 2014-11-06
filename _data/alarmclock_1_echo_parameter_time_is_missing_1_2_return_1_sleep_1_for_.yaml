@@ -1,8 +1,0 @@
-commandlinefu_id: 11148
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alarmclock() {  [ $1 ] || echo Parameter TIME is missing. 1>&2 && return 1 ;  ( sleep $1  ; for x in 9 8 7 6 5 4 3 2 1 ; do for y in `seq 0 $[ 10 - $x ] ` ; do printf "\a"; sleep 0.$x ; done ; done ) & }
-summary: |-
-  Alarmclock  function makes usage of a BEL (\a) character.

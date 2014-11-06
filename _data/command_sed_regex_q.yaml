@@ -1,8 +1,7 @@
 commandlinefu_id: 4449
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   command | sed '/regex/q'
 summary: |-
-  Display the output of a command from the first line until the first instance of a regular expression.
+  显示命令的输出直到一个regex

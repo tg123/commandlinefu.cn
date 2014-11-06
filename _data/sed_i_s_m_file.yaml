@@ -1,8 +1,7 @@
 commandlinefu_id: 5163
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -i 's/^M//' file
 summary: |-
-  Convert files from DOS line endings to UNIX line endings
+  转换为unix换行

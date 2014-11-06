@@ -1,8 +1,7 @@
 commandlinefu_id: 1947
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dpkg -S /usr/bin/ls
 summary: |-
-  (Debian/Ubuntu) Discover what package a file belongs to
+  查看文件属于哪个包

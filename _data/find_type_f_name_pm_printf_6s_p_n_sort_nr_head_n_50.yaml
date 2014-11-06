@@ -1,8 +1,7 @@
 commandlinefu_id: 7825
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -name '*.pm' -printf '%6s %p\n' | sort -nr | head -n 50
 summary: |-
-  List 50 largest source files in a project
+  列出50个大文件

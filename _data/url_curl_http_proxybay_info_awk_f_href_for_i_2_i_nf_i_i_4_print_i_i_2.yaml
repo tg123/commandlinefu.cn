@@ -1,0 +1,8 @@
+commandlinefu_id: 13738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  url=`curl http://proxybay.info/ | awk -F'href="|"  |">|</' '{for(i=2;i<=NF;i=i+4) print $i,$(i+2)}' | grep follow|sed 's/^.\{19\}//'|shuf -n 1` && firefox $url
+summary: |-
+  open a random pirate bay mirror site

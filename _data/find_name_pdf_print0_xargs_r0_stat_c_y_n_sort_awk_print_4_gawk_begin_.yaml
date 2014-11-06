@@ -1,0 +1,8 @@
+commandlinefu_id: 13705
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "*.pdf" -print0 | xargs -r0 stat -c %y\ %n | sort|awk '{print $4}'|gawk 'BEGIN{ a=1 }{ printf "mv %s %04d.pdf\n", $0, a++ }' | bash
+summary: |-
+  rename files (in this case pdfs) numerically in date order

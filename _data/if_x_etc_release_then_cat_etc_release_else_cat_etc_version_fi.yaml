@@ -1,8 +1,7 @@
 commandlinefu_id: 8690
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   if [ -x /etc/*-release ]; then cat /etc/*-release ; else cat /etc/*-version ; fi
 summary: |-
-  Find Out My Linux Distribution Name and Version
+  操作系统发行版

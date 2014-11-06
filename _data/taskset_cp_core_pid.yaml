@@ -1,8 +1,7 @@
 commandlinefu_id: 2992
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   taskset -cp <core> <pid>
 summary: |-
-  Change proccess affinity.
+  修改进程亲和

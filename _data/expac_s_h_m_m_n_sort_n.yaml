@@ -1,8 +1,7 @@
 commandlinefu_id: 10871
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   expac -S -H M "%m %n"|sort -n
 summary: |-
-  Arch Linux sort installed packages by size
+  安装的包大小(arch)

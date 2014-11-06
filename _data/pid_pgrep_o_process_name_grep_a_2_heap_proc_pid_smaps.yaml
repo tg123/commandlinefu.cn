@@ -1,8 +1,7 @@
 commandlinefu_id: 10142
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   PID=`pgrep -o <process_name>`; grep -A 2 heap /proc/$PID/smaps
 summary: |-
-  Print heap addresses and size
+  输出堆地址和大小

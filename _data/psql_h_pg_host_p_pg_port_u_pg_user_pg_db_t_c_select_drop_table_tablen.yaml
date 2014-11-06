@@ -1,8 +1,0 @@
-commandlinefu_id: 12989
-translator:
-  weibo: ''
-hide: true
-command: |-
-  psql -h <pg_host> -p <pg_port> -U <pg_user> <pg_db> -t -c "select 'drop table \"' || tablename || '\" cascade;' from pg_tables where schemaname='public'" | psql -h <pg_host> -p <pg_port> -U <pg_user> <pg_db>
-summary: |-
-  postgresql : drop all tables from a schema

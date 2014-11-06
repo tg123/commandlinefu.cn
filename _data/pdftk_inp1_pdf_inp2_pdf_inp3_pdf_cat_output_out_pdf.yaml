@@ -1,8 +1,7 @@
 commandlinefu_id: 8311
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pdftk inp1.pdf inp2.pdf inp3.pdf cat output out.pdf
 summary: |-
-  Concating pdf files
+  连接pdf

@@ -1,8 +1,7 @@
 commandlinefu_id: 1462
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   $EDITOR `perldoc -l Module::Name`
 summary: |-
-  Open Perl module source in your editor
+  编辑perl模块代码

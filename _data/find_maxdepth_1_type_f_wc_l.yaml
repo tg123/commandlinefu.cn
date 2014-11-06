@@ -1,8 +1,7 @@
 commandlinefu_id: 2827
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -maxdepth 1 -type f | wc -l
 summary: |-
-  How many files in the current directory ?
+  当前目录里边有多少文件

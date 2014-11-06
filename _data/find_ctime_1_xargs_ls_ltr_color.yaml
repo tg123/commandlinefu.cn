@@ -1,8 +1,7 @@
 commandlinefu_id: 2361
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find ./* -ctime -1 | xargs ls -ltr --color
 summary: |-
-  files and directories in the last 1 hour
+  寻找一个小时前创建的目录和文件

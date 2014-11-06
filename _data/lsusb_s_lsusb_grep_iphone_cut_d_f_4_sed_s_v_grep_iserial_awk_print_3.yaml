@@ -1,8 +1,7 @@
 commandlinefu_id: 9632
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   lsusb -s :`lsusb | grep iPhone | cut -d ' ' -f 4 | sed 's/://'` -v | grep iSerial | awk '{print $3}'
 summary: |-
-  Show UDID of iPhone
+  显示iPhone的UDID

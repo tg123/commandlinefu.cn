@@ -1,8 +1,7 @@
 commandlinefu_id: 6124
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log --format='%aN <%aE>' | awk '{arr[$0]++} END{for (i in arr){print arr[i], i;}}' | sort -rn | cut -d\  -f2-
 summary: |-
-  List all authors of a particular git project
+  查看所有作者

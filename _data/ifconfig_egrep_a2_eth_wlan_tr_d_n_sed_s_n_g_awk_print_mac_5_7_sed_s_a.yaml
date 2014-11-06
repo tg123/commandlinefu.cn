@@ -1,0 +1,8 @@
+commandlinefu_id: 13684
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | egrep -A2 "eth|wlan" | tr -d "\n"| sed 's/\-\-/\n/g'|awk '{print "mac: "$5 " " $7}' | sed 's/addr:/addr: /g'
+summary: |-
+  Print all interfaces IP and Mac address in the same line

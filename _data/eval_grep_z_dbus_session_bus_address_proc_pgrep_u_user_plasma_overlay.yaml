@@ -1,0 +1,8 @@
+commandlinefu_id: 13672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( eval $(grep -z '^DBUS_SESSION_BUS_ADDRESS' /proc/$(pgrep -u $USER plasma-overlay)/environ); export DBUS_SESSION_BUS_ADDRESS; kquitapp plasma-overlay )
+summary: |-
+  Unlock your KDE4 session over SSH

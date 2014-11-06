@@ -1,8 +1,0 @@
-commandlinefu_id: 7603
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /opt/google/chrome/google-chrome --user-data-dir=$HOME/.config/google-chrome/`zenity --entry --text="Enter a profile name:"`
-summary: |-
-  Start a Google Chrome profile with an X11 based interactive prompt

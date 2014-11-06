@@ -1,0 +1,8 @@
+commandlinefu_id: 13719
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -tnn -c 2000 -i eth0  | awk -F "." '{print $1"."$2"."$3"."$4}' | sort | uniq -c | sort -nr | awk ' $1 > 10 '
+summary: |-
+  tcpdump top 10 talkers

@@ -1,8 +1,7 @@
 commandlinefu_id: 1511
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in `find /sys/devices/*/*/usb* -name level` ; do echo -n "$i: " ; cat $i ; done
 summary: |-
-  Display usb power mode on all devices
+  显示所有设备的usb充电模式

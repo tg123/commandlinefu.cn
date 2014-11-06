@@ -1,0 +1,8 @@
+commandlinefu_id: 13683
+translator:
+  weibo: ''
+hide: true
+command: |-
+  EXT=MOV; for i in *.$EXT; do HandBrakeCLI -Z Normal --optimize --use-opencl --width 1280 --height 720 -i "${i}" -o "${i//.$EXT}.mp4"; done
+summary: |-
+  Downscale 1080p quicktime MOV files to 720p MP4 files

@@ -1,8 +1,0 @@
-commandlinefu_id: 13223
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk *.pdf cat output merged.pdf
-summary: |-
-  Merge Multiple PDFs

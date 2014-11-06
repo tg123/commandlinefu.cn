@@ -1,8 +1,7 @@
 commandlinefu_id: 4943
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -e "Some Text Line1\nSome Text Line 2" | convert -background none -density 196  -resample 72 -unsharp 0x.5 -font "Courier" text:- -trim +repage -bordercolor white -border 3  text.gif
 summary: |-
-  Convert text to picture
+  文字转图片

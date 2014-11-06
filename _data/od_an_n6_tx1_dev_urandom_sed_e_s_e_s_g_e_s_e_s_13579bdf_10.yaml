@@ -1,8 +1,7 @@
 commandlinefu_id: 11221
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   od -An -N6 -tx1 /dev/urandom | sed -e 's/^  *//' -e 's/  */:/g' -e 's/:$//' -e 's/^\(.\)[13579bdf]/\10/'
 summary: |-
-  Generate a Random (unicast) MAC address
+  随即mac地址

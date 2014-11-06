@@ -1,8 +1,7 @@
 commandlinefu_id: 6350
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in *; do echo '"'$i'"'; done
 summary: |-
-  List files with names in quotes.
+  用引号括住列出的文件名

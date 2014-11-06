@@ -1,8 +1,7 @@
 commandlinefu_id: 1811
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wget --server-response --spider http://www.example.com/
 summary: |-
-  Dump HTTP header using wget
+  使用wget抓取http头

@@ -1,8 +1,7 @@
 commandlinefu_id: 13034
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias ?=concalc
 summary: |-
-  Define a quick calculator function
+  命令行计算器

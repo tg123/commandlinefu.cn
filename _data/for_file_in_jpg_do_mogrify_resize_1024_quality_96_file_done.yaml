@@ -1,8 +1,7 @@
 commandlinefu_id: 339
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for File in *.jpg; do mogrify -resize 1024 -quality 96 $File; done
 summary: |-
-  Change size of lots of image files.
+  改变一批图片的尺寸

@@ -1,8 +1,7 @@
 commandlinefu_id: 2884
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   colormake, colorgcc, colordiff
 summary: |-
-  Colorize make, gcc, and diff output
+  各种编译工具的色情版本

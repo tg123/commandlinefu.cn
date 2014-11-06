@@ -1,8 +1,7 @@
 commandlinefu_id: 8360
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   chage -d 0 -m 0 -M 60 [user]
 summary: |-
-  How to expire the password to force her change [Linux]
+  强制用户定期修改密码

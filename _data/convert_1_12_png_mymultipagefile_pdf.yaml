@@ -1,7 +1,6 @@
 commandlinefu_id: 12089
 translator:
   weibo: particle128
-hide: true
 command: |-
   convert {1..12}.png MyMultiPageFile.pdf
 summary: |-

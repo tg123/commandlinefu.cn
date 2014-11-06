@@ -1,8 +1,7 @@
 commandlinefu_id: 9586
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n '1~5{N;N;p}' file.txt
 summary: |-
-  pick up 3 lines start at every 5th line of file.txt
+  每5行打印其中3行

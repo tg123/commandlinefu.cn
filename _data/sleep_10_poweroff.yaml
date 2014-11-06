@@ -1,8 +1,7 @@
 commandlinefu_id: 12175
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sleep 10; poweroff
 summary: |-
-  Wait a moment and then Power off
+  一会关机

@@ -1,8 +1,7 @@
 commandlinefu_id: 3083
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   say -f file.txt
 summary: |-
-  Read aloud a text file in Mac OS X
+  读文本 (mac)

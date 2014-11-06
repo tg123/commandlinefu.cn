@@ -1,8 +1,7 @@
 commandlinefu_id: 2886
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "Body goes here" | mutt -s "A subject" -a /path/to/file.tar.gz recipient@example.com
 summary: |-
-  Send email with one or more binary attachments
+  发送带有附件的邮件

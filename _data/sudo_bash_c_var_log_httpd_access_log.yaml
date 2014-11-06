@@ -1,0 +1,8 @@
+commandlinefu_id: 13732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo bash -c "> /var/log/httpd/access_log"
+summary: |-
+  Null a file with sudo

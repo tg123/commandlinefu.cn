@@ -1,0 +1,8 @@
+commandlinefu_id: 13673
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git stash save --keep-index
+summary: |-
+  git discard unstaged changes

@@ -1,8 +1,0 @@
-commandlinefu_id: 666
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch ccache -s
-summary: |-
-  Make sure your compiler is using ccache

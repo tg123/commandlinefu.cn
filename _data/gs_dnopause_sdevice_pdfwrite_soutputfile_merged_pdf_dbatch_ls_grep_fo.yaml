@@ -1,0 +1,8 @@
+commandlinefu_id: 13700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=merged.pdf -dBATCH `ls | grep foo`
+summary: |-
+  Merge only certain pdfs in a directory

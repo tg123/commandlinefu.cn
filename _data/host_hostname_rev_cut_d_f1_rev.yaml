@@ -1,0 +1,8 @@
+commandlinefu_id: 13731
+translator:
+  weibo: ''
+hide: true
+command: |-
+  host `hostname` | rev | cut -d' ' f1 | rev
+summary: |-
+  Get the IP address of a machine. Just the IP, no junk.

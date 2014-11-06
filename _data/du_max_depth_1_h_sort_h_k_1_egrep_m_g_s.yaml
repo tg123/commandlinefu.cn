@@ -1,8 +1,7 @@
 commandlinefu_id: 11890
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du --max-depth=1 -h * |sort -h -k 1 |egrep '(M|G)\s'
 summary: |-
-  Shows size of dirs and files, hidden or not, sorted.
+  显示目录和文件的大小是否隐藏
