@@ -1,8 +1,7 @@
 commandlinefu_id: 1826
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   import -pause 5 -window root desktop_screenshot.jpg
 summary: |-
-  Quick screenshot
+  命令行截屏

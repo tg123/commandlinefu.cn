@@ -4,4 +4,4 @@ translator:
 command: |-
   pdfimages -j foo.pdf bar
 summary: |-
-  从PDF中提取JREG图像
+  从PDF中提取JPEG图像

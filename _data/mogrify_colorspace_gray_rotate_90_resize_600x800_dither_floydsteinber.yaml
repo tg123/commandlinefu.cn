@@ -1,8 +1,7 @@
 commandlinefu_id: 10158
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -colorspace Gray -rotate '-90>' -resize 600x800 -dither FloydSteinberg -colors 16 -format png *
 summary: |-
-  Format images for Kindle
+  为kindle格式化图片
