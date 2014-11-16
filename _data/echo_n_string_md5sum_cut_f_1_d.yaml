@@ -1,8 +1,7 @@
 commandlinefu_id: 13189
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo -n "string" | md5sum|cut -f 1 -d " "
 summary: |-
-  Use php and md5 to generate a password
+  生成字符的md5
