@@ -1,0 +1,8 @@
+commandlinefu_id: 13797
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Eoa "\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b" Filetosearch.txt
+summary: |-
+  Regex to reliably search a file for valid IP addresses (and external IP addresses)

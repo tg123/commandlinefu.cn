@@ -1,0 +1,8 @@
+commandlinefu_id: 13749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e '/4.2.2.2/ s/^;//' -i test.txt
+summary: |-
+  Uncomment line based on string match

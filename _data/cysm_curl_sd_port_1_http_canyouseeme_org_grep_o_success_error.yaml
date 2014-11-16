@@ -1,0 +1,8 @@
+commandlinefu_id: 13831
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cysm() { curl -sd port="$1" http://canyouseeme.org |grep -o 'Success\|Error' }
+summary: |-
+  Check if a port is open to the internet using canyouseeme.org

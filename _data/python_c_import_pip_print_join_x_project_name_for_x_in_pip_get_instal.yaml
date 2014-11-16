@@ -1,0 +1,8 @@
+commandlinefu_id: 13840
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "import pip; print(' '.join([x.project_name for x in pip.get_installed_distributions()]))" | xargs sudo pip install -U
+summary: |-
+  Upgrade pip-installed python packages

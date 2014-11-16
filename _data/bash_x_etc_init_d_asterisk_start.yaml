@@ -1,0 +1,8 @@
+commandlinefu_id: 13813
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash -x /etc/init.d/asterisk start
+summary: |-
+  To debug asterisk start process

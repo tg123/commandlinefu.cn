@@ -1,0 +1,8 @@
+commandlinefu_id: 13779
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git branch -r | awk -F'/' '{print "git fetch "$1,$2}' | xargs -I {} sh -c {}
+summary: |-
+  Git fetch all remote branches

@@ -1,0 +1,8 @@
+commandlinefu_id: 13758
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo hdparm -B 200 /dev/sda
+summary: |-
+  Set APM_level for HDD to prevent frequent parking

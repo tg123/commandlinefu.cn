@@ -1,0 +1,8 @@
+commandlinefu_id: 13818
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s -o /dev/null -w "%{http_code}\n" localhost
+summary: |-
+  Get HTTP status code with curl AND print response on new line

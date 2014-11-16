@@ -1,0 +1,8 @@
+commandlinefu_id: 13809
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grcat conf.ps < /var/log/apache2/error.log | tail -f
+summary: |-
+  grc tail -f

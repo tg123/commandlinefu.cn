@@ -1,0 +1,8 @@
+commandlinefu_id: 13742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  firefox $(grep -i ^url=* file.url | cut -b 5-)
+summary: |-
+  Opens Windows internet shortcut files (*.url) in Firefox.

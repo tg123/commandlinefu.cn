@@ -1,0 +1,8 @@
+commandlinefu_id: 13827
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PID=$(ps -ef | grep processName | grep -v grep | awk '{print $2'}); kill -9 $PID
+summary: |-
+  Find a process by name and automatically kill it

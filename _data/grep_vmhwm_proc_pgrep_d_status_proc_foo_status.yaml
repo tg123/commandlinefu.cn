@@ -1,0 +1,8 @@
+commandlinefu_id: 13810
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep VmHWM /proc/$(pgrep -d '/status /proc/' FOO)/status
+summary: |-
+  peak amount of memory occupied by any process with "FOO" in its name

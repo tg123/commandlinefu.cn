@@ -1,0 +1,8 @@
+commandlinefu_id: 13752
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip a s eth0 | awk -F'[/ ]+' '/inet[^6]/{print $3}'
+summary: |-
+  Print the IPv4 address of a given interface

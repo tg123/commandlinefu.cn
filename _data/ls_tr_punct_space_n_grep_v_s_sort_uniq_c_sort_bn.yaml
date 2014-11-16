@@ -1,0 +1,8 @@
+commandlinefu_id: 13756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | tr '[[:punct:][:space:]]' '\n' | grep -v "^\s*$" | sort | uniq -c | sort -bn
+summary: |-
+  Show most common words in filenames

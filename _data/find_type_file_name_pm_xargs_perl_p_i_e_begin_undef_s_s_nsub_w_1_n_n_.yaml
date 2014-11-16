@@ -1,0 +1,8 @@
+commandlinefu_id: 13811
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type file -name '*.pm' | xargs perl -p -i -e 'BEGIN{undef $/;} s/([;}])\s*\nsub (\w+)/$1\n\n=head2 $2\n\n=cut\n\nsub $2/g'
+summary: |-
+  add POD stubs recursively to all Perl modules

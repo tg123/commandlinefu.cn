@@ -1,0 +1,8 @@
+commandlinefu_id: 13791
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f -exec ffmpeg -i "{}" "{}".mp3 \;
+summary: |-
+  Convert all files media to mp3

@@ -1,0 +1,8 @@
+commandlinefu_id: 13769
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dmesg
+summary: |-
+  easiest way to get kernel version without uname

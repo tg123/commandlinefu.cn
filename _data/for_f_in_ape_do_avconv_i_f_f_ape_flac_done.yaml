@@ -1,0 +1,8 @@
+commandlinefu_id: 13744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in */*.ape; do avconv -i "$f" "${f%.ape}.flac"; done
+summary: |-
+  Recursively convert all APE to FLAC

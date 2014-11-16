@@ -1,0 +1,8 @@
+commandlinefu_id: 13808
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo to_camel_case__variable | sed -r 's/(.)_+(.)/\1\U\2/g;s/^[a-z]/\U&/'
+summary: |-
+  underscore to camelCase
