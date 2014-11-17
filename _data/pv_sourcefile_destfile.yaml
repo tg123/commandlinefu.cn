@@ -1,8 +1,7 @@
 commandlinefu_id: 5107
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pv sourcefile > destfile
 summary: |-
-  Copy a file using pv and watch its progress
+  带有进度条的复制

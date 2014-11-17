@@ -1,8 +1,7 @@
 commandlinefu_id: 213
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   myLongScript && echo -e '\a' || (echo -e '\a'; sleep 1; echo -e '\a')
 summary: |-
-  Ring the system bell after finishing a long script/compile
+  长耗时脚本执行完发出声音
