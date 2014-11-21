@@ -1,8 +1,7 @@
 commandlinefu_id: 6645
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   yes n | cp something toSomeWhereElse
 summary: |-
-  Say no to overwriting if cp -i is the default alias.
+  是否覆盖时候自动选择不覆盖

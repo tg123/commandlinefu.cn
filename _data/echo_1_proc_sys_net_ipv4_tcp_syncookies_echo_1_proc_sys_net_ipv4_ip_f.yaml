@@ -1,8 +1,0 @@
-commandlinefu_id: 7759
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 1 > /proc/sys/net/ipv4/tcp_syncookies echo 1 > /proc/sys/net/ipv4/ip_forward iptables -A FORWARD -p tcp ?syn -m limit -j ACCEPT
-summary: |-
-  Anti Syn Ddos
