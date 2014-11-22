@@ -1,8 +1,7 @@
 commandlinefu_id: 5087
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   perl -ne 'BEGIN{undef $/}; print "$ARGV\t$.\t$1\n" if m/(first line.*\n.*second line)/mg'
 summary: |-
-  Multi-line grep
+  多行grep

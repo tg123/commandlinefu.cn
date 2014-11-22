@@ -1,8 +1,7 @@
 commandlinefu_id: 11387
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   export proc=chrome && ps aux | grep $proc | grep -v grep |awk '{print $2}'
 summary: |-
-  List process ids (including parent and child process) of a process given its name. Similar to pgrep
+  列出给定名字的进程（以chrome为例）的pid（包括其子进程）。就像pgrep
