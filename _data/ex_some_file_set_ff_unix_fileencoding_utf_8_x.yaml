@@ -1,8 +1,7 @@
 commandlinefu_id: 1029
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ex some_file "+set ff=unix fileencoding=utf-8" "+x"
 summary: |-
-  Convert file type to unix utf-8
+  转换文件类型为Unix utf-8

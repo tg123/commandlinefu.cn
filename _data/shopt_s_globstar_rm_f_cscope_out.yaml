@@ -1,8 +1,7 @@
 commandlinefu_id: 6040
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   shopt -s globstar ; rm -f **/cscope.out
 summary: |-
-  Delete a file/directory walking subdirectories (bash4 or zsh)
+  递归删除文件/文件夹（适用于bash 4或zsh）

@@ -1,8 +1,7 @@
 commandlinefu_id: 3072
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   wget -q -O- PAGE_URL | grep -o 'WORD_OR_STRING' | wc -w
 summary: |-
-  count the appearance of a word or a string  in a given webpage
+  计算给定网页下某个字符串出现的次数

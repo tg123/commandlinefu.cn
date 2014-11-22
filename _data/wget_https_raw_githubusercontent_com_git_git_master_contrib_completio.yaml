@@ -1,8 +1,7 @@
 commandlinefu_id: 13581
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash; mv git-completion.bash ~/.git-completion.bash; echo "source ~/.git-completion.bash" > ~/.bashrc; source ~/.git-completion.bash
 summary: |-
-  Git autocomplete
+  获取Git命令自动补全脚本

@@ -1,8 +1,7 @@
 commandlinefu_id: 13327
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo /sbin/route add -host 192.168.12.50 -interface ppp0
 summary: |-
-  Route some ips (or domain names) over VPN
+  针对一些ips（或域名）通过ppp0端口进行转发
