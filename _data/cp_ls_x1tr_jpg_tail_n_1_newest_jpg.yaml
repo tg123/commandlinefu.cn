@@ -1,8 +1,7 @@
 commandlinefu_id: 2443
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cp `ls -x1tr *.jpg | tail -n 1` newest.jpg
 summary: |-
-  get newest jpg picture in a folder
+  获取目录中最新的图片

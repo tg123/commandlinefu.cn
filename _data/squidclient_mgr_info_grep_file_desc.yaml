@@ -1,8 +1,0 @@
-commandlinefu_id: 6187
-translator:
-  weibo: ''
-hide: true
-command: |-
-  squidclient mgr:info | grep "file desc"
-summary: |-
-  Display file descriptors in Squid

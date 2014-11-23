@@ -1,8 +1,0 @@
-commandlinefu_id: 914
-translator:
-  weibo: ''
-hide: true
-command: |-
-  CONVERT D: /FS:NTFS
-summary: |-
-  [WinXP] Convert FAT32 Hard Drive to NTFS without losing all data

@@ -1,8 +1,7 @@
 commandlinefu_id: 1958
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in sys dev proc; do sudo mount --bind /$i /mnt/xxx/$i; done
 summary: |-
-  Mount important virtual system directories under chroot'ed directory
+  在chroot里边mount
