@@ -1,8 +1,7 @@
 commandlinefu_id: 13435
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo efibootmgr --bootnext `efibootmgr | sed -n "s/^Boot\([0-9]\{4\}\)\* Windows Boot Manager$/\1/p"` && reboot
 summary: |-
-  Reboot to Windows (UEFI)
+  通过UEFI，重启到Windows系统

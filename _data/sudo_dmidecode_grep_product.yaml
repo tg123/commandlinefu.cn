@@ -1,8 +1,7 @@
 commandlinefu_id: 11664
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo dmidecode | grep Product
 summary: |-
-  Check if you work on a virtual/physical machine in Linux
+  测试你是在一台Linux虚拟机上还是在实体机上

@@ -1,8 +1,7 @@
 commandlinefu_id: 12698
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   vim test.c && gcc -x c -o a.out test.c && ./a.out && rm a.out test.c
 summary: |-
-  Quickly write and run a C program.
+  尝试写下一个C程序（其实可以考虑下cd /tmp再进行尝试）
