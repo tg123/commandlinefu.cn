@@ -1,8 +1,7 @@
 commandlinefu_id: 5336
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   vim $(find . ! -path \*.svn\* -type f -iname \*foo\*)
 summary: |-
-  Load all files (including in subdirs), whose name matches a substring, into Vim
+  用Vim打开所有文件（包括子目录下的）中，名字匹配给定的字符串的文件。

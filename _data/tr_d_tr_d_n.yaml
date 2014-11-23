@@ -1,8 +1,7 @@
 commandlinefu_id: 9466
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tr -d '\\' | tr -d '\n'
 summary: |-
-  Join lines split with backslash at the end
+  将用'\'分割开的行连接到一起

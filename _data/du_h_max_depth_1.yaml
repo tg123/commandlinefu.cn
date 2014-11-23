@@ -1,8 +1,7 @@
 commandlinefu_id: 11095
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   du -h --max-depth=1
 summary: |-
-  Gets directory size on sub directories in current dir with human readable size
+  以适合人类的格式输出当前目录的子目录大小
