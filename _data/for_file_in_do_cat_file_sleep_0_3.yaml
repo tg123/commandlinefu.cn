@@ -1,8 +1,7 @@
 commandlinefu_id: 9776
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  for file in ./*; do cat "$file"; sleep 0.3
+  for file in ./*; do cat "$file"; done
 summary: |-
-  Cat files in a directory; for loop command
+  把目录里边的文件全部贴到一起
