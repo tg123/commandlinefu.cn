@@ -1,8 +1,7 @@
 commandlinefu_id: 4548
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -e `date +%Y-%m-%d` /var/log/dpkg.log | awk '/install / {print $4}' | uniq | xargs apt-get -y remove
 summary: |-
-  Remove today's Debian installed packages
+  删除今天安装的包(deb)

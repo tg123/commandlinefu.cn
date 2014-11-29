@@ -1,8 +1,7 @@
 commandlinefu_id: 7342
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ar -x package.deb
 summary: |-
-  extract content of a Debian package
+  解压缩deb

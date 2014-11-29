@@ -1,8 +1,0 @@
-commandlinefu_id: 11341
-translator:
-  weibo: ''
-hide: true
-command: |-
-  newgrp -
-summary: |-
-  Make changes in any profile available immediately/Change to default group
