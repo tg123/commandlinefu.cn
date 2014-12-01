@@ -1,8 +1,0 @@
-commandlinefu_id: 12608
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eyeD3 --lyrics=eng:these_lyrics:"$(cat lyrics_file.txt)" some_file.mp3
-summary: |-
-  add lyrics

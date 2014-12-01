@@ -1,8 +1,0 @@
-commandlinefu_id: 8253
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd () { cdop=""; while [ "$1" != "${1#-}" ]; do cdop="${cdop} ${1}"; shift; done; if [ $# -eq 2 ]; then newdir="${PWD/$1/$2}"; [ -d "${newdir}" ] || { echo "no ${newdir}"; return 1; }; builtin cd $cdop "${newdir}"; else builtin cd $cdop "$@"; fi }
-summary: |-
-  cd to (or operate on) a file across parallel directories

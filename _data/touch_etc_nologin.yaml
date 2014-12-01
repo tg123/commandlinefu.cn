@@ -1,8 +1,0 @@
-commandlinefu_id: 2051
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch /etc/nologin
-summary: |-
-  Prevent non-root users from logging in
