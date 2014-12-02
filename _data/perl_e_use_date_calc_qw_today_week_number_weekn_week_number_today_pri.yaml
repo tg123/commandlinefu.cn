@@ -1,8 +1,7 @@
 commandlinefu_id: 4195
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   perl -e 'use Date::Calc qw(Today Week_Number); $weekn = Week_Number(Today); print "$weekn\n"'
 summary: |-
-  perl one-liner to get the current week number
+  perl的一行道：获知现在是第几周

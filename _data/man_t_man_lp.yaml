@@ -1,8 +1,7 @@
 commandlinefu_id: 1636
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   man -t man | lp
 summary: |-
-  Print out a man page
+  打印一个man page

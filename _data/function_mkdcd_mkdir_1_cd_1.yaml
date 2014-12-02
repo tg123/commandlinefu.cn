@@ -1,8 +1,7 @@
 commandlinefu_id: 12669
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   function mkdcd () {     mkdir "$1" && cd "$1" }
 summary: |-
-  Create a directory and change into it at the same time
+  创建一个文件夹并接着切换进去

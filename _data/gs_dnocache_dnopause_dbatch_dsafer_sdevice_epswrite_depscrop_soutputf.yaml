@@ -1,8 +1,7 @@
 commandlinefu_id: 190
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   gs -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=epswrite -dEPSCrop -sOutputFile=out.eps in.pdf
 summary: |-
-  Convert PDFLaTeX PDF to Illustrator-usable EPS
+  转换PDF到可用于Illustrator软件的eps格式文件
