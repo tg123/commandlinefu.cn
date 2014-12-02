@@ -1,8 +1,7 @@
 commandlinefu_id: 9720
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sed -i '$a\FOOBAR' *
 summary: |-
-  Append a new line "FOOBAR" in all files matching the glob*
+  给匹配通配符*的所有文件添加新行"FOOBAR"
