@@ -1,8 +1,7 @@
 commandlinefu_id: 3281
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cal -y
 summary: |-
-  Today's date on a yearly calendar...
+  全年日历高亮今天

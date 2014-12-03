@@ -1,8 +1,7 @@
 commandlinefu_id: 9877
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   hex() { printf "%X\n" $1; }
 summary: |-
-  convert from decimal to hexadecimal
+  十进制转十六进制

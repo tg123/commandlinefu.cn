@@ -1,8 +1,7 @@
 commandlinefu_id: 10838
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   zcat `man -w manpage` | groff -mandoc -T html - > filename.html
 summary: |-
-  save manpage as html file
+  把man变成html
