@@ -1,8 +1,7 @@
 commandlinefu_id: 11775
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   xbacklight -10%
 summary: |-
-  adjust laptop display hardware brightness [non root]
+  调整笔记本显示器亮度
