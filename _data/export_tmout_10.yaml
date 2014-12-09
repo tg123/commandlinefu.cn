@@ -1,8 +1,7 @@
 commandlinefu_id: 7136
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   export TMOUT=10
 summary: |-
-  Sets shell timeout
+  设置shell超时时间

@@ -1,8 +1,7 @@
 commandlinefu_id: 168
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   ps auxf
 summary: |-
-  ps with parent/child process tree
+  带父子进程树的ps输出

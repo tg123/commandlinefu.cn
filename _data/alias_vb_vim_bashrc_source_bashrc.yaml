@@ -1,8 +1,7 @@
 commandlinefu_id: 1318
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   alias vb='vim ~/.bashrc; source ~/.bashrc'
 summary: |-
-  Alias to edit and source your .bashrc file
+  设置"编辑并导入.bashrc文件"别名
