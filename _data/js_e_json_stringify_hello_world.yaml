@@ -1,8 +1,7 @@
 commandlinefu_id: 10576
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   js -e 'JSON.stringify({hello:"world"})'
 summary: |-
-  convert javascript DICT to JSON
+  转化成json

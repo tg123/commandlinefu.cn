@@ -1,8 +1,7 @@
 commandlinefu_id: 1591
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   addfunction () { declare -f $1 >> ~/.bashrc ; }
 summary: |-
-  Add a function you've defined to .bashrc
+  添加函数到.bashrc

@@ -1,0 +1,8 @@
+commandlinefu_id: 13839
+translator:
+  weibo: ''
+hide: true
+command: |-
+  brew outdated | cut -f1 | xargs brew upgrade
+summary: |-
+  Upgrade all expired homebrew packages

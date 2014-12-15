@@ -1,8 +1,7 @@
 commandlinefu_id: 13086
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   phpunit --log-json php://stdout | awk '$NF ~ '/,/' && $1 ~ /"(test|time)"/' | cut -d: -f2- | sed "N;s/\n/--/" | sed "s/,//"| awk 'BEGIN{FS="--"}; {print $2 $1}' | sort -r | head -n 5
 summary: |-
-  PHPUnit: Show the 5 slowest tests with their runtime
+  显示耗时最长的5个PHPUnit测试

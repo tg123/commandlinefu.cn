@@ -1,8 +1,0 @@
-commandlinefu_id: 13476
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n10 --no-title "w3m http://www.livescore.com/ |egrep 'live [0-9H]+[^ ]'"
-summary: |-
-  World Cup Live Score

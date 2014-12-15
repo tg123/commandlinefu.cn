@@ -1,8 +1,7 @@
 commandlinefu_id: 2430
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ruby -i.bkp -pe "gsub(/search/, 'replace')" *.php
 summary: |-
-  Search and replace text in all php files with ruby
+  使用Ruby搜索并替换PHP文件中的文本

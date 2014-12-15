@@ -1,8 +1,7 @@
 commandlinefu_id: 11578
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -regex '.*html$' -exec sed -i 's/\xEF\xBB\xBF//' '{}' \;
 summary: |-
-  Remove UTF-8 Byte Order Mark BOM
+  清除utf8 bom

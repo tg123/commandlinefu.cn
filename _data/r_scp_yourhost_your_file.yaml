@@ -1,8 +1,7 @@
 commandlinefu_id: 12722
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   :r scp://yourhost//your/file
 summary: |-
-  Include a remote file (in vim)
+  读入一个远程文件vim

@@ -1,0 +1,8 @@
+commandlinefu_id: 13775
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.jar' | xargs -l jar vtf | grep XXX.java
+summary: |-
+  Find class in jar

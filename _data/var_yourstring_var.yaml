@@ -1,8 +1,7 @@
 commandlinefu_id: 12406
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   [[ ${var##*yourstring*} != ${var} ]]
 summary: |-
-  Check if a string is into a variable
+  检查一个变量中是否包括某个字符串

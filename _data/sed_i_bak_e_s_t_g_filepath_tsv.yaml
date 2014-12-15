@@ -1,0 +1,8 @@
+commandlinefu_id: 13805
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i.bak -e s/\|/\\t/g filepath.tsv
+summary: |-
+  Search and replace pipes for tabs in file with backup

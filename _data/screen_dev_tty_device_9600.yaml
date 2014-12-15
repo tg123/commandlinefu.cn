@@ -1,8 +1,7 @@
 commandlinefu_id: 6130
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   screen /dev/tty<device> 9600
 summary: |-
-  use screen as a terminal emulator to connect to serial consoles
+  用screen连接到一个串行console

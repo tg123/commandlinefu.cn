@@ -1,0 +1,8 @@
+commandlinefu_id: 13759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lftp -u user,pwd -e "set sftp:connect-program 'ssh -a -x -T -c arcfour -o Compression=no'; mirror -v -c --loop --use-pget-n=3 -P 2 /remote/dir/ /local/dir/; quit" sftp://remotehost:22
+summary: |-
+  Fastest segmented parallel sync of a remote directory over ssh

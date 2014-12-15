@@ -1,8 +1,7 @@
 commandlinefu_id: 6135
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tee >(cat - >&2)
 summary: |-
-  tee to a file descriptor
+  将tee指定到某个文件描述符

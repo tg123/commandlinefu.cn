@@ -1,0 +1,8 @@
+commandlinefu_id: 13786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cvf bind9-config-`date +%s`.tar *
+summary: |-
+  backup file with tar

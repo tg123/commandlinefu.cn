@@ -1,0 +1,8 @@
+commandlinefu_id: 13764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  smartctl  -a /dev/sda |grep Writ |awk '{print $NF/2/1024/1024/1024 " TeraBytes Written"}'
+summary: |-
+  Find total Terabytes written to a SSD

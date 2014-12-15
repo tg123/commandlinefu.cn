@@ -1,8 +1,0 @@
-commandlinefu_id: 13521
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "btrfs checksum error(s) on: " && grep "btrfs: checksum error at logical" /var/log/messages |  sed -e 's/^.*\( dev .*\)\(, sector.*\)\(path\: .*\))/\t\1, \3/' | sort | uniq
-summary: |-
-  Btrfs: Find file names with checksum errors

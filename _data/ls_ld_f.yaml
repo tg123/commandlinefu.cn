@@ -1,8 +1,7 @@
 commandlinefu_id: 993
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -ld **/*(/^F)
 summary: |-
-  List empty any directories
+  列出空目录

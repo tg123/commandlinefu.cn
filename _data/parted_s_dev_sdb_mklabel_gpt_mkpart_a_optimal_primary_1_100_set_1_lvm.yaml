@@ -1,0 +1,8 @@
+commandlinefu_id: 13803
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parted -s /dev/sdb mklabel gpt mkpart -a optimal primary 1 100% set 1 lvm on
+summary: |-
+  Create a new gpt disk as all one partition, with a lvm using parted

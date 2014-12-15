@@ -1,8 +1,7 @@
 commandlinefu_id: 12461
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   convert_path2uri () { echo -n 'file://'; echo -n "$1"  | perl -pe 's/([^a-zA-Z0-9_\/.])/sprintf("%%%.2x", ord($1))/eg'  ;}   #convert2uri '/tmp/a b'   ### convert file path to URI
 summary: |-
-  Encode file path to URL
+  将文件路径转换成URL编码

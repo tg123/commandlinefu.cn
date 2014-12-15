@@ -1,0 +1,8 @@
+commandlinefu_id: 13765
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <command> | curl -F 'clbin=<-' https://clbin.com
+summary: |-
+  clbin: command line pastebin and image host

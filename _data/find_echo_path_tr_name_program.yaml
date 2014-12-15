@@ -1,8 +1,7 @@
 commandlinefu_id: 7616
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find $(echo "$PATH" | tr ':' ' ') -name "*program*"
 summary: |-
-  get a random command
+  随机显示PATH里的一个命令

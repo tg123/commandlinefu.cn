@@ -1,8 +1,7 @@
 commandlinefu_id: 10266
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   identify -format "%[fx:w]x%[fx:h]" logo:
 summary: |-
-  Resolution of a image
+  图片分辨率

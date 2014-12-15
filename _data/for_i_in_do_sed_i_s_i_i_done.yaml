@@ -1,8 +1,7 @@
 commandlinefu_id: 10401
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in *; do sed -i "s/^/$i: /" $i; done
 summary: |-
-  Prefix file contents with filename
+  给文件内容加上文件名前缀

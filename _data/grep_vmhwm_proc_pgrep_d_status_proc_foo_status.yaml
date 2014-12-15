@@ -1,0 +1,7 @@
+commandlinefu_id: 13810
+translator:
+  weibo: Spacewander__罗泽轩
+command: |-
+  grep VmHWM /proc/$(pgrep -d '/status /proc/' FOO)/status
+summary: |-
+  查看所有名字中含有"FOO"的进程的内存占用

@@ -1,8 +1,7 @@
 commandlinefu_id: 11801
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -crop <width>x<height>+<X-offset>+<Y-offset> *.png
 summary: |-
-  batch crop images whit ImageMagick
+  批量修订图片大小

@@ -1,8 +1,7 @@
 commandlinefu_id: 2490
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mii-tool eth0
 summary: |-
-  Check if network cable is plugged in and working correctly
+  检查网线是否插入

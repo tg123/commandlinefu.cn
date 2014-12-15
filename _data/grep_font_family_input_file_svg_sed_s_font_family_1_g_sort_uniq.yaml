@@ -1,0 +1,8 @@
+commandlinefu_id: 13804
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep 'font-family:[^;]*' <input file.svg> | sed 's/.*font-family:\([^;]*\).*/\1/g' | sort | uniq
+summary: |-
+  List fonts used by an SVG file

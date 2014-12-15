@@ -1,8 +1,7 @@
 commandlinefu_id: 7898
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -n1 'date "+%T"'
 summary: |-
-  Console clock
+  时钟

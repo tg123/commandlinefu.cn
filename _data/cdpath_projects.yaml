@@ -1,8 +1,0 @@
-commandlinefu_id: 1560
-translator:
-  weibo: ''
-hide: true
-command: |-
-  CDPATH=:..:~:~/projects
-summary: |-
-  Set CDPATH to ease navigation

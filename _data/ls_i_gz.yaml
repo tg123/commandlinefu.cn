@@ -1,8 +1,7 @@
 commandlinefu_id: 6189
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -I "*.gz"
 summary: |-
-  ls not pattern
+  反向ls (ls 除了 *.gz)

@@ -1,0 +1,8 @@
+commandlinefu_id: 13748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psql -U quassel quassel -c "SELECT message FROM backlog ORDER BY time DESC LIMIT 1000;" | grep my-query
+summary: |-
+  Basic search for Quassel PostgreSQL database

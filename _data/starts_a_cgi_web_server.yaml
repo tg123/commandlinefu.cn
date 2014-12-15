@@ -1,0 +1,8 @@
+commandlinefu_id: 13812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  starts a CGI web server
+summary: |-
+  python2 -m CGIHTTPServer

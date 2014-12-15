@@ -1,0 +1,8 @@
+commandlinefu_id: 13746
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr show enp3s0 | awk '/inet[^6]/{print $2}' | awk -F'/' '{print $1}'
+summary: |-
+  Print the IPv4 address of a given interface

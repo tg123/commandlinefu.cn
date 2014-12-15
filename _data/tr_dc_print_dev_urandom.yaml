@@ -1,8 +1,7 @@
 commandlinefu_id: 210
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tr -dc '[:print:]' < /dev/urandom
 summary: |-
-  Printable random characters
+  随机输出可打印(printable)的字符

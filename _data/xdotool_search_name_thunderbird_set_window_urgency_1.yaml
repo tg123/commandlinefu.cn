@@ -1,8 +1,7 @@
 commandlinefu_id: 12826
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   xdotool search --name Thunderbird set_window --urgency 1 %@
 summary: |-
-  find an X11 window by its title and highlight it
+  根据标题栏的名字找到对应的X11窗口，然后触发它

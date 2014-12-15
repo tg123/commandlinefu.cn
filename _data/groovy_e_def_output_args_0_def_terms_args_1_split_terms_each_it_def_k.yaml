@@ -1,8 +1,0 @@
-commandlinefu_id: 10479
-translator:
-  weibo: ''
-hide: true
-command: |-
-  groovy -e "def output=args[0]; def terms = args[1].split(','); terms.each { it -> def keyValues = it.split(':'); output = output.replaceAll(keyValues[0],keyValues[1]); } println output;" "`diff -rq . SRC DEST`" "old1:new1,old2:new2"
-summary: |-
-  Print to standard output file paths different between SRC and DEST and replacing terms if needed

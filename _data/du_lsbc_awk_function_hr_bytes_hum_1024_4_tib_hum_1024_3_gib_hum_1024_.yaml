@@ -1,8 +1,0 @@
-commandlinefu_id: 12621
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -Lsbc * |awk 'function hr(bytes){hum[1024**4]="TiB";hum[1024**3]="GiB";hum[1024**2]="MiB";hum[1024]="kiB";for(x=1024**4;x>=1024;x/=1024){if(bytes>=x){return sprintf("%8.3f %s",bytes/x,hum[x]);}}return sprintf("%4d     B",bytes);}{print hr($1) "\t" $2}'
-summary: |-
-  Display the human-readable sizes of all files and folders in the current directory with 3 decimal places

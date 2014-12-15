@@ -1,8 +1,7 @@
 commandlinefu_id: 8005
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo -n "String to get MD5" | md5sum | sed "s/  -//"
 summary: |-
-  Generate MD5 of string and output only the hash checksum
+  生成给定字符串的MD5，并且只显示生成的校验和。也可用`cut -f1 -d' '`过滤

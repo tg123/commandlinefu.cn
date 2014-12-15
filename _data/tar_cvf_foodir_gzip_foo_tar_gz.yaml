@@ -1,8 +1,7 @@
 commandlinefu_id: 2217
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tar cvf - foodir | gzip > foo.tar.gz
 summary: |-
-  Create a tar.gz in a single command
+  在一行命令中创建一个tar.gz文件

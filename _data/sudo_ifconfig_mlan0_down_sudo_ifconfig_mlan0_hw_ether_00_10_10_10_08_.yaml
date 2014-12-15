@@ -1,0 +1,8 @@
+commandlinefu_id: 13802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ifconfig mlan0 down; sudo ifconfig mlan0 hw ether 00:10:10:10:08:88; sudo ifconfig mlan0 up;
+summary: |-
+  mac address change

@@ -1,8 +1,8 @@
 commandlinefu_id: 2161
 translator:
-  weibo: ''
-hide: true
+  weibo: dbalex
 command: |-
   du -sb *|sort -nr|head|awk '{print $2}'|xargs du -sh
 summary: |-
   List top ten files/directories sorted by size
+  列出当前目录下占用空间最大的十个文件或目录

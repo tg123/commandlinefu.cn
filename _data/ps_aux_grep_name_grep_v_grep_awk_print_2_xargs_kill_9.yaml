@@ -1,0 +1,8 @@
+commandlinefu_id: 13829
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep name | grep -v grep | awk '{print $2}' | xargs kill -9
+summary: |-
+  Find a process by name and automatically kill it

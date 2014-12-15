@@ -1,8 +1,7 @@
 commandlinefu_id: 7105
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for file in $( vmrun list | grep 'vmx$' | sort ); do printf "% 40s %s M\n" $(echo "$( echo -n ${file}:\ ; grep memsize $file )" | sed -e 's/.*\///' -e 's/"//g' -e 's/memsize.=//'); done;
 summary: |-
-  get memory configuration (not consumption) for all running VMware virtual machines
+  获取所有正在运行的VMware虚拟机的内存配置（不是内存消耗）

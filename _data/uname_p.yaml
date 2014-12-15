@@ -1,0 +1,8 @@
+commandlinefu_id: 13755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uname -p
+summary: |-
+  32 bits or 64 bits?

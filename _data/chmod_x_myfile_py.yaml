@@ -1,0 +1,8 @@
+commandlinefu_id: 13807
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod +x myfile.py
+summary: |-
+  Make a python file executable

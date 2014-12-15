@@ -1,8 +1,7 @@
 commandlinefu_id: 6707
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   TZ="$tz_dest" date -d "$(TZ="$tz_orig" date -d "$tm")"
 summary: |-
-  Timezone conversions (eg: what time was @tz_dest when it was $tm @tz_orig)
+  转换时区

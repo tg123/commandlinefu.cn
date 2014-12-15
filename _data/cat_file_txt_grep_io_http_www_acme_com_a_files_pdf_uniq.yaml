@@ -1,0 +1,8 @@
+commandlinefu_id: 13796
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat File.txt | grep -io 'http://www.acme.com/a/files/.*.pdf'| uniq
+summary: |-
+  Get all URL With Extension from File

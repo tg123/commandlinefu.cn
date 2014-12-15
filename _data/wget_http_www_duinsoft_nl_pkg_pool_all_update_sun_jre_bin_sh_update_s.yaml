@@ -1,0 +1,8 @@
+commandlinefu_id: 13817
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://www.duinsoft.nl/pkg/pool/all/update-sun-jre.bin && sh ./update-sun-jre.bin
+summary: |-
+  oracle-java install with one line ( prompt for sudo if needed)

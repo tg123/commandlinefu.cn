@@ -1,8 +1,0 @@
-commandlinefu_id: 7622
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c "print 'this is a test'.title()"
-summary: |-
-  Convert a string to

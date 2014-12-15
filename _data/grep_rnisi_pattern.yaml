@@ -1,8 +1,7 @@
 commandlinefu_id: 3573
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep -RnisI <pattern> *
 summary: |-
-  Search for a <pattern> string inside all files in the current directory
+  在当前文件夹下的所有文件中搜索匹配的字符串

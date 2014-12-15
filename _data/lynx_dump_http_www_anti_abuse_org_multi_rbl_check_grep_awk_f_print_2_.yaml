@@ -1,8 +1,0 @@
-commandlinefu_id: 9377
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump http://www.anti-abuse.org/multi-rbl-check/ | grep ']' | awk -F\] '{ print $2 }' | sed '/^\[/d' | egrep -v ^[A-Z]
-summary: |-
-  Scrape all RBLs off the anti-abuse.org site
