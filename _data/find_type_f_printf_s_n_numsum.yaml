@@ -1,8 +1,7 @@
 commandlinefu_id: 8724
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -type f -printf %s\\n | numsum
 summary: |-
-  Sum file sizes
+  文件大小求和

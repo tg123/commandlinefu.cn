@@ -1,8 +1,0 @@
-commandlinefu_id: 3847
-translator:
-  weibo: ''
-hide: true
-command: |-
-  defaults write com.macromates.textmate OakDefaultLanguage 17994EC8-6B1D-11D9-AC3A-000D93589AF6
-summary: |-
-  Set default "New Page" as HTML in TextMate

