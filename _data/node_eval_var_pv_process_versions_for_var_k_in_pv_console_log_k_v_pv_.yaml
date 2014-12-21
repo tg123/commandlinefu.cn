@@ -1,0 +1,8 @@
+commandlinefu_id: 13852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  node --eval "var pv = process.versions;for(var k in pv){console.log(k, 'v' + pv[k])}"
+summary: |-
+  print node & node dependencies version

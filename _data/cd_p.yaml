@@ -1,0 +1,8 @@
+commandlinefu_id: 13917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd -P .
+summary: |-
+  Convert current symbolic directory into physical directory

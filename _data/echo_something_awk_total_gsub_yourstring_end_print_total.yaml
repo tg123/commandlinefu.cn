@@ -1,0 +1,8 @@
+commandlinefu_id: 13918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo something | awk '{ total += gsub(/yourstring/,"") } END { print total }'
+summary: |-
+  Search count how many times a number, character or string is present on a stream

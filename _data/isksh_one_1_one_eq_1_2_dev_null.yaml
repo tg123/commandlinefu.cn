@@ -1,0 +1,8 @@
+commandlinefu_id: 13847
+translator:
+  weibo: ''
+hide: true
+command: |-
+  isKsh () { one=1; [ one -eq 1 ] 2> /dev/null; }
+summary: |-
+  test for ksh/bash

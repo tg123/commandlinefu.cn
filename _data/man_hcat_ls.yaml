@@ -1,0 +1,8 @@
+commandlinefu_id: 13851
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -Hcat ls
+summary: |-
+  print man pages as html to stdout

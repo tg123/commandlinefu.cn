@@ -1,0 +1,8 @@
+commandlinefu_id: 13871
+translator:
+  weibo: ''
+hide: true
+command: |-
+  socat TCP4-LISTEN:25,fork EXEC:'bash -c \"echo 220;sleep 1;echo 250;sleep 1;echo 250;sleep 1;echo 250;sleep 1;echo 354;sleep 1;echo 250; timeout 5 cat >> /tmp/socat.log\"'
+summary: |-
+  Use socat to emulate an SMTP mail SERVER

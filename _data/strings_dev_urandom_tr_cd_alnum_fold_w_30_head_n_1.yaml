@@ -1,0 +1,8 @@
+commandlinefu_id: 13902
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strings /dev/urandom | tr -cd '[:alnum:]' | fold -w 30 | head -n 1
+summary: |-
+  Generate a random password 30 characters long

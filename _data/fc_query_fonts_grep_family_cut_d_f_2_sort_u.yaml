@@ -1,0 +1,8 @@
+commandlinefu_id: 13842
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fc-query ./fonts/* | grep "family:" | cut -d '"' -f 2 | sort -u
+summary: |-
+  Show your font name list

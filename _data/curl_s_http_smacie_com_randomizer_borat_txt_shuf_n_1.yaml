@@ -1,0 +1,8 @@
+commandlinefu_id: 13915
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s "http://smacie.com/randomizer/borat.txt" | shuf -n 1 -
+summary: |-
+  Random quote from Borat -- no html parsing

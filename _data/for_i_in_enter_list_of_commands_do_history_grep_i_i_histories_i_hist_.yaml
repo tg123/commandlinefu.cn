@@ -1,0 +1,8 @@
+commandlinefu_id: 13910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in [enter list of commands]; do history |grep -i "$i" >> ~/histories/"${i}"_hist.txt;done
+summary: |-
+  Parse History For specified Commands, Persist to Individual Log Files

@@ -1,0 +1,8 @@
+commandlinefu_id: 13841
+translator:
+  weibo: ''
+hide: true
+command: |-
+  locate -0 -i *barthes* | xargs -0 mv -t ~/'Library/Books/Barthes, Roland'
+summary: |-
+  Move all located items to folder

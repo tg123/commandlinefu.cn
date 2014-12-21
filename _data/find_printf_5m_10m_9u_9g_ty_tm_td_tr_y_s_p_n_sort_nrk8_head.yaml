@@ -1,0 +1,8 @@
+commandlinefu_id: 13900
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -printf '%.5m %10M %#9u %-9g %TY-%Tm-%Td+%Tr [%Y] %s %p\n'|sort -nrk8|head
+summary: |-
+  BIGGEST Files in a Directory

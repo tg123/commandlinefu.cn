@@ -1,0 +1,8 @@
+commandlinefu_id: 13846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch -t 197001010000 ./tmp && find . -newer ./tmp && rm -f ./tmp
+summary: |-
+  Find files/directories newer than X

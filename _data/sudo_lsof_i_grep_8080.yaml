@@ -1,0 +1,8 @@
+commandlinefu_id: 13909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -i | grep :8080
+summary: |-
+  Look for the process bound to a certain port
