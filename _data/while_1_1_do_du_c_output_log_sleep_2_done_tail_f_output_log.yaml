@@ -1,8 +1,0 @@
-commandlinefu_id: 6063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while (( 1==1 )); do du -c . >> output.log; sleep 2; done; tail -f output.log
-summary: |-
-  show space used by postgres

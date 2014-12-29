@@ -1,8 +1,0 @@
-commandlinefu_id: 688
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch <filename>
-summary: |-
-  create any empty file in the current path

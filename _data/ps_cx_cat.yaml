@@ -1,8 +1,0 @@
-commandlinefu_id: 6626
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -cx cat
-summary: |-
-  count how many cat processes are running

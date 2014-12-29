@@ -1,8 +1,0 @@
-commandlinefu_id: 2019
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias h='history'
-summary: |-
-  it's an alias to summon the command history only for lazy people well for busy too

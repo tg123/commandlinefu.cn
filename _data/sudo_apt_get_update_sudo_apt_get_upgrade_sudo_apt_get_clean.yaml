@@ -1,8 +1,0 @@
-commandlinefu_id: 12023
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get update && sudo apt-get upgrade && sudo apt-get clean
-summary: |-
-  system update

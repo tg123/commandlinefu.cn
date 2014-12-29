@@ -1,8 +1,0 @@
-commandlinefu_id: 9272
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat aaaaaa 2>&-
-summary: |-
-  close stderr

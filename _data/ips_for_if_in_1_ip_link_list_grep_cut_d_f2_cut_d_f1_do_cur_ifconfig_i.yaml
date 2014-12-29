@@ -1,8 +1,0 @@
-commandlinefu_id: 2924
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ips(){ for if in ${1:-$(ip link list|grep '^.: '|cut -d\  -f2|cut -d: -f1)};do cur=$(ifconfig $if|grep "inet addr"|sed 's/.*inet addr:\([0-9\.]*\).*/\1/g');printf '%-5s%-15s%-15s\n' $if $cur $(nc -s $cur sine.cluenet.org 128 2>/dev/null||echo $cur);done;}
-summary: |-
-  Get internal and external IP addresses

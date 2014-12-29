@@ -1,8 +1,0 @@
-commandlinefu_id: 5170
-translator:
-  weibo: ''
-hide: true
-command: |-
-  show optic <slot #>
-summary: |-
-  fiber power levels on Foundry (Brocade) RX and MLX BigIron L3 (routers & switches)

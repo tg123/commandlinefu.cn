@@ -1,8 +1,0 @@
-commandlinefu_id: 1111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  type C:\WINNT\system32\inetsrv\MetaBase.xml | find "DEBUG"
-summary: |-
-  Checks for Debug HTTP Verbs in IIS settings

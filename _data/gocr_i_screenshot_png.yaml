@@ -1,8 +1,0 @@
-commandlinefu_id: 11951
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gocr -i ~/Screenshot.png
-summary: |-
-  Extract text from picture [OCR reader]

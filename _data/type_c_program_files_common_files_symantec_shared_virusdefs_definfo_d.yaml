@@ -1,8 +1,0 @@
-commandlinefu_id: 1113
-translator:
-  weibo: ''
-hide: true
-command: |-
-  type "C:\Program Files\Common Files\Symantec Shared\VirusDefs\definfo.dat"
-summary: |-
-  See what date Symantec definitions were last updated on a WIndows system

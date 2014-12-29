@@ -1,8 +1,0 @@
-commandlinefu_id: 3915
-translator:
-  weibo: ''
-hide: true
-command: |-
-  TIMEUNIT=$( cat a | grep -n "timescale" | awk -F ":" '{ print $1 } ' )
-summary: |-
-  Get a text on a position on the file and store in a variable with a specific separator

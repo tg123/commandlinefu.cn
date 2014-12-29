@@ -1,8 +1,0 @@
-commandlinefu_id: 9251
-translator:
-  weibo: ''
-hide: true
-command: |-
-  less file.ext
-summary: |-
-  Common key binding for 'less' to search for a string

@@ -1,8 +1,0 @@
-commandlinefu_id: 6697
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -ef | grep [j]boss | awk '{print $2}'|xargs kill -9
-summary: |-
-  Kill any process with one command using program name

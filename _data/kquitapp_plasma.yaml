@@ -1,8 +1,0 @@
-commandlinefu_id: 838
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kquitapp plasma
-summary: |-
-  Cleanly quit KDE4 apps

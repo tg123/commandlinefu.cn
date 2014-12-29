@@ -1,8 +1,0 @@
-commandlinefu_id: 8444
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do /bin/ping -q -c1 -w3 8.8.8.8 2>&1 > /dev/null || echo "8.8.8.8 ping failed at $(date +%d/%m/%y) $(date +%H:%M:%S)" >> /var/log/ping.log; sleep 10; done &
-summary: |-
-  Check a internet connetion is up. If it isn't write a log.

@@ -1,8 +1,0 @@
-commandlinefu_id: 9120
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert input.png -pointsize 32 -gravity center -annotate 45 "hello, world" output.png
-summary: |-
-  draw 45deg rotated text at the center of image

@@ -1,8 +1,0 @@
-commandlinefu_id: 2114
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Boot up destination machine with Knoppix live CD and run nc -l -p 9000 | dd of=/dev/sda Then on the master  dd if=/dev/sda | nc <dest-ip> 9000 You can monitor bandwidth usage to see  progress: nload eth0 -u M
-summary: |-
-  Cloning hard disks over the network:

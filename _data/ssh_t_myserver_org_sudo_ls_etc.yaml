@@ -1,8 +1,0 @@
-commandlinefu_id: 12148
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -t myserver.org 'sudo ls /etc'
-summary: |-
-  Execute sudo command remotely with ssh

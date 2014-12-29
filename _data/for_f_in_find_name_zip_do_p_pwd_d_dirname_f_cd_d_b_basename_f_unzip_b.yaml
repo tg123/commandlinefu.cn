@@ -1,8 +1,0 @@
-commandlinefu_id: 2328
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in `find ./ -name "*.zip"` ; do p=`pwd`; d=`dirname $f`; cd $d; b=`basename $f`; unzip $b; cd $p; done
-summary: |-
-  unzip all zip files under a current directory in the directory those files were in

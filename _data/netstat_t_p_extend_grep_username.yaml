@@ -1,8 +1,0 @@
-commandlinefu_id: 11093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -t -p --extend | grep USERNAME
-summary: |-
-  Get connections from a SSH tunnel

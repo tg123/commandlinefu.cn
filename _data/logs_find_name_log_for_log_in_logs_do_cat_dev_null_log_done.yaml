@@ -1,8 +1,0 @@
-commandlinefu_id: 1347
-translator:
-  weibo: ''
-hide: true
-command: |-
-  logs=$(find . -name *.log);for log in $logs; do cat /dev/null > $log;done
-summary: |-
-  Truncate logs in unix

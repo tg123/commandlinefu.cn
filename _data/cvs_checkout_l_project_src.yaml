@@ -1,8 +1,0 @@
-commandlinefu_id: 9208
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs checkout -l project/src/
-summary: |-
-  checkout directory and the files it contains, without any further subdirectories

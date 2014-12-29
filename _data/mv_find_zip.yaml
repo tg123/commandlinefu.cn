@@ -1,8 +1,0 @@
-commandlinefu_id: 1721
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv `find .zip ./` .
-summary: |-
-  Move all files with common extension to current directory

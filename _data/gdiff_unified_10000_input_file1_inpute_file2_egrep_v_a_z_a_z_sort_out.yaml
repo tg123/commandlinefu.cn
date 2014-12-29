@@ -1,8 +1,0 @@
-commandlinefu_id: 2455
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gdiff --unified=10000 input.file1 inpute.file2 | egrep -v "(^\+[a-z]|^\-[a-z])"| sort > outputfile.sorted
-summary: |-
-  Using gdiff only select lines that are common between two files

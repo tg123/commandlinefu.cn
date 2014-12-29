@@ -1,8 +1,0 @@
-commandlinefu_id: 7045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-get remove `deborphan`
-summary: |-
-  Remove unused libs/packages in debian-based distros

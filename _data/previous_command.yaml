@@ -1,8 +1,0 @@
-commandlinefu_id: 1093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !previous_command
-summary: |-
-  run a previous command

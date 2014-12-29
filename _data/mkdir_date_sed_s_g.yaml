@@ -1,8 +1,0 @@
-commandlinefu_id: 2053
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir `date | sed 's/[: ]/_/g'`
-summary: |-
-  journaling directories

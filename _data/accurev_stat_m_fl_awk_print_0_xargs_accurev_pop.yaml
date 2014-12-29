@@ -1,8 +1,0 @@
-commandlinefu_id: 388
-translator:
-  weibo: ''
-hide: true
-command: |-
-  accurev stat -M -fl | awk '{print "\"" $0 "\""}' | xargs accurev pop
-summary: |-
-  Execute AccuRev pop command to retrieve missing files from a workspace.

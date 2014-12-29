@@ -1,8 +1,0 @@
-commandlinefu_id: 11879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [[ lm = $(cat /proc/cpuinfo | grep " lm ") ]] ; then echo "64 bits" ; else echo "32 bits" ; fi
-summary: |-
-  Check if *hardware* is 32bit or 64bit

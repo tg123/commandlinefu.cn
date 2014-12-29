@@ -1,8 +1,0 @@
-commandlinefu_id: 12107
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /Applications -type d -maxdepth 1 -exec sh -c 'echo "{}"; (plutil -convert xml1 -o - "{}/Contents/Info.plist" | xpath /dev/stdin "concat(\"v\", /plist/dict/string[preceding-sibling::key[1]=\"CFBundleShortVersionString\"]/node())" 2>/dev/null)' \;
-summary: |-
-  List OSX applications and versions.

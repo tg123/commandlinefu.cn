@@ -1,8 +1,0 @@
-commandlinefu_id: 11484
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -maxdepth 2 -type d -name '.git' -print0 | while read -d ''; do (cd "$REPLY"; git gc); done
-summary: |-
-  free some harddrive space by garbage collecting in all your git repos

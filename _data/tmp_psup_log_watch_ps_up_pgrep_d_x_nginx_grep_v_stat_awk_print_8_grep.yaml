@@ -1,8 +1,0 @@
-commandlinefu_id: 8113
-translator:
-  weibo: ''
-hide: true
-command: |-
-  > /tmp/psup.log; watch "ps up $(pgrep -d, -x nginx) | grep -v STAT | awk '{print $8}' | grep -c  [ZUTD] >> /tmp/psup.log; tail -n 22 /tmp/psup.log"
-summary: |-
-  Watch for blocked NGINX processes for tuning purposes

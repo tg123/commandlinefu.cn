@@ -1,8 +1,0 @@
-commandlinefu_id: 11719
-translator:
-  weibo: ''
-hide: true
-command: |-
-  di
-summary: |-
-  df without line wrap on long FS name

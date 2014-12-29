@@ -1,8 +1,0 @@
-commandlinefu_id: 5873
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps ux|grep <process name>|awk '{print $2}'|xargs -n 1 kill
-summary: |-
-  Kill process by searching something from 'ps' command

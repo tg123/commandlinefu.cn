@@ -1,8 +1,0 @@
-commandlinefu_id: 4686
-translator:
-  weibo: ''
-hide: true
-command: |-
-  long_command; say I am all done
-summary: |-
-  MAC OS X: audible notification after a long command

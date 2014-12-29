@@ -1,8 +1,0 @@
-commandlinefu_id: 2323
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gmetric -n $METRIC_NAME -v foo -t string -d 10
-summary: |-
-  Remove an old gmetric statistic

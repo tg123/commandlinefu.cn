@@ -1,8 +1,0 @@
-commandlinefu_id: 7056
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | grep .gz >> list.txt && cat list.txt | while read x ; do gunzip -d $x ; done && rm -rf list.txt
-summary: |-
-  gunzip all .gz file in current dir

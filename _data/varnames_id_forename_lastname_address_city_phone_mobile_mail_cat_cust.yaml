@@ -1,8 +1,0 @@
-commandlinefu_id: 2214
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VARNAMES='ID FORENAME LASTNAME ADDRESS CITY PHONE MOBILE MAIL' ; cat customer.csv | while read LINE ; do COUNT=1 ; for VAR in $VARNAMES ; do eval "${VAR}=`echo $LINE | /usr/bin/awk {'print $'$COUNT''}`" ; let COUNT=COUNT+1 ; done ; done
-summary: |-
-  Create variables from a list of names

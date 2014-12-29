@@ -1,8 +1,0 @@
-commandlinefu_id: 9952
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias o='xdg-open "$@" 2>/dev/null'
-summary: |-
-  Open any file and suppress error warnings message

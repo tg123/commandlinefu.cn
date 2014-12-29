@@ -1,8 +1,0 @@
-commandlinefu_id: 7231
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | grep -o "inet [^ ]*" | cut -d: -f2
-summary: |-
-  Get your IP addresses

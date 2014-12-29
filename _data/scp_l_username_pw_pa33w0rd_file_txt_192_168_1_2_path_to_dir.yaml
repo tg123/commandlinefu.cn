@@ -1,8 +1,0 @@
-commandlinefu_id: 9899
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scp -l username -pw pa33w0rd file.txt 192.168.1.2:/path/to/dir
-summary: |-
-  copy `file.txt` to remote server

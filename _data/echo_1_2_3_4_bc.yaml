@@ -1,8 +1,0 @@
-commandlinefu_id: 7955
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "1+2+3+4" | bc
-summary: |-
-  Add a list of numbers

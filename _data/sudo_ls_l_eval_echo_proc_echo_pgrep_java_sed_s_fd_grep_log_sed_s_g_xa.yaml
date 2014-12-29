@@ -1,8 +1,0 @@
-commandlinefu_id: 6200
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ls -l $(eval echo "/proc/{$(echo $(pgrep java)|sed 's/ /,/')}/fd/")|grep log|sed 's/[^/]* //g'|xargs -r tail -f
-summary: |-
-  tail all logs opened by all java processes

@@ -1,8 +1,0 @@
-commandlinefu_id: 625
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps gv [pid] | head -2
-summary: |-
-  mem leak check

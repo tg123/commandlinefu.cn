@@ -1,8 +1,0 @@
-commandlinefu_id: 8632
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/ls *.png | xargs -l1 -I {} convert {} -modulate 100,100,70 ../../icons/32x32/{}
-summary: |-
-  use ImageMagik to convert tint (hue rotation) of an icon set directory.

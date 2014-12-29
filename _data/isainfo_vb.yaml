@@ -1,8 +1,0 @@
-commandlinefu_id: 3685
-translator:
-  weibo: ''
-hide: true
-command: |-
-  isainfo -vb
-summary: |-
-  Are 64-bit applications supported on my Solaris OS?

@@ -1,8 +1,0 @@
-commandlinefu_id: 9858
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iostat -En $(iostat -en|grep c#t|awk '$2 > 0 {print $NF}')
-summary: |-
-  Get info `iostat -En` for all disks with Hardware Errors - works on Solaris and Solaris forks

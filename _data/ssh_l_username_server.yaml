@@ -1,8 +1,0 @@
-commandlinefu_id: 8411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -l <username> <server>
-summary: |-
-  Login via SSH

@@ -1,8 +1,0 @@
-commandlinefu_id: 3334
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -name '*.c' -exec wc -l {} \; | awk '{sum+=$1} END {print sum}'
-summary: |-
-  Make a statistic about the lines of code

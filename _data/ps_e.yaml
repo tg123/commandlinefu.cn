@@ -1,8 +1,0 @@
-commandlinefu_id: 910
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -e
-summary: |-
-  List running procceses

@@ -1,8 +1,0 @@
-commandlinefu_id: 661
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xcopy /e/h/y /z/i /k /f src dest
-summary: |-
-  Copy directories and files just like

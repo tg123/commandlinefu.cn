@@ -1,8 +1,0 @@
-commandlinefu_id: 327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setenv GREP_COLOR '1;37;41'
-summary: |-
-  color grep with specification of colors with GREP_COLOR env variable

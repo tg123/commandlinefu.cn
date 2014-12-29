@@ -1,8 +1,0 @@
-commandlinefu_id: 68
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -auwx|egrep hunger|grep -v grep| awk '{print "kill -9",$1}' > ~/fu.bar
-summary: |-
-  find all processes named hunger and force kill, minus the grep itself and output to a file called fu.bar

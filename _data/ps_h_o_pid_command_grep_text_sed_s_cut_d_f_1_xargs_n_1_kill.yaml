@@ -1,8 +1,0 @@
-commandlinefu_id: 5871
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps h -o pid,command | grep 'TEXT' | sed 's/^ \+//' | cut -d ' ' -f 1 | xargs -n 1 kill
-summary: |-
-  Kill process by searching something from 'ps' command

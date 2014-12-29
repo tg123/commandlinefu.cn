@@ -1,8 +1,0 @@
-commandlinefu_id: 1149
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff3 -a file1 file2 file3
-summary: |-
-  compare three file

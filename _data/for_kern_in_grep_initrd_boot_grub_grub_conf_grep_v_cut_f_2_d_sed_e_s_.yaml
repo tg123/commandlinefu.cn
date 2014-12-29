@@ -1,8 +1,0 @@
-commandlinefu_id: 3094
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for kern in $(grep "initrd " /boot/grub/grub.conf|grep -v ^#|cut -f 2- -d-|sed -e 's/\.img//g'); do mkinitrd -v -f /boot/initrd-$kern.img $kern; done
-summary: |-
-  Recreate all initrd files

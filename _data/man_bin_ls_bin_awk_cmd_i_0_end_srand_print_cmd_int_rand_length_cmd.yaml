@@ -1,8 +1,0 @@
-commandlinefu_id: 6392
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man $(/bin/ls /bin | awk '{ cmd[i++] = $0 } END { srand(); print cmd[int(rand()*length(cmd))]; }')
-summary: |-
-  Display a random man page

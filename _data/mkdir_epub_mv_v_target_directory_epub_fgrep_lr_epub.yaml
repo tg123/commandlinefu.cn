@@ -1,8 +1,0 @@
-commandlinefu_id: 13055
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir Epub ; mv -v --target-directory=Epub $(fgrep -lr epub *)
-summary: |-
-  Move all epub keyword containing files to Epub folder

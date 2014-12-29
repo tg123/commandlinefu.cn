@@ -1,8 +1,0 @@
-commandlinefu_id: 12270
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -r 12 -i img%03d.jpg -sameq -s hd720 -vcodec libx264 -crf 25 OUTPUT.MP4
-summary: |-
-  Timelapse with ffmpeg (after symlinking pictures as per ffmpeg FAQ)

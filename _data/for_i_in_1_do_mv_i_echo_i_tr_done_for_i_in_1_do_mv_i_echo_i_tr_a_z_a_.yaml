@@ -1,8 +1,0 @@
-commandlinefu_id: 7032
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in ./*.$1; do mv "$i" `echo $i | tr ' ' '_'`; done for i in ./*.$1; do mv "$i" `echo $i | tr '[A-Z]' '[a-z]'`; done for i in ./*.$1; do mv "$i" `echo $i | tr  '-' '_'`; done for i in ./*.$1; do mv "$i" `echo $i | tr -s  '_' `; done
-summary: |-
-  Remove spaces and convert to lowercase filename with a certain extension, to be saved and called as a script with the extension as an argument.

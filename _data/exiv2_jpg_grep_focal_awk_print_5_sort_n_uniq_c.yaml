@@ -1,8 +1,0 @@
-commandlinefu_id: 8772
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exiv2 *JPG | grep Focal | awk '{print $5}' | sort -n | uniq -c
-summary: |-
-  Find most used focal lengths in a directory of photos

@@ -1,8 +1,0 @@
-commandlinefu_id: 6402
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -k $URL
-summary: |-
-  transform relative URLs (shoddy hack but it works)

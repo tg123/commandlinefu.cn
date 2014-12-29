@@ -1,8 +1,0 @@
-commandlinefu_id: 8506
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/`head -n 500 foo.log`//' foo.log
-summary: |-
-  truncate files without output redirection or temporary file creation

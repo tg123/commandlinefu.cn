@@ -1,8 +1,0 @@
-commandlinefu_id: 136
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl ans1parse -inform DER < [priv key]
-summary: |-
-  Identify a PKCS#8 Private Key

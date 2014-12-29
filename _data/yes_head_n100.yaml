@@ -1,8 +1,0 @@
-commandlinefu_id: 6551
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yes '' | head -n100
-summary: |-
-  Echo several blank lines

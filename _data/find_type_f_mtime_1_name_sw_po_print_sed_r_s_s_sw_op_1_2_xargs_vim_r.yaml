@@ -1,8 +1,0 @@
-commandlinefu_id: 5857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -type f -mtime -1 -name .*.sw[po] -print | sed -r 's/^(.+)\/\.(\S+)\.sw[op]$/\1\/\2/' | xargs vim -r
-summary: |-
-  recursivly open all recently crashed vim buffers in restore mode

@@ -1,8 +1,0 @@
-commandlinefu_id: 8107
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(grep 'mystring' myfile1)|awk '{print $1}'); do grep $1 myfile2;done
-summary: |-
-  for i in $(grep 'mystring' myfile1)|awk '{print $1}'); do grep $1 myfile2;done

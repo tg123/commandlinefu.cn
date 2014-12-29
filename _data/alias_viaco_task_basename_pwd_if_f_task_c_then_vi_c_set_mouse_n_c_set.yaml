@@ -1,8 +1,0 @@
-commandlinefu_id: 8456
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias viaco='task="$(basename "$(pwd)")"; if [ -f "$task.c" ]; then vi -c "set mouse=n" -c "set autoread" -c "vsplit $task.out" -c "split $task.in" -c "wincmd l" -c "wincmd H" $task.c; fi'
-summary: |-
-  Setup Vim environment for USACO coding

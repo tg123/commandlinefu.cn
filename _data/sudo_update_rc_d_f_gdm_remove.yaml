@@ -1,8 +1,0 @@
-commandlinefu_id: 9904
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo update-rc.d -f gdm remove
-summary: |-
-  don't auto run gdm

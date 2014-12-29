@@ -1,8 +1,0 @@
-commandlinefu_id: 10710
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd "~/Music/iTunes/iTunes Media/Mobile Applications";ls > filepath
-summary: |-
-  export iPad App list to txt file

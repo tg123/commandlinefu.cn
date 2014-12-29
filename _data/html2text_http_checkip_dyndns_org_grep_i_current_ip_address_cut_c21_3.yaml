@@ -1,8 +1,0 @@
-commandlinefu_id: 2896
-translator:
-  weibo: ''
-hide: true
-command: |-
-  html2text http://checkip.dyndns.org | grep -i 'Current IP Address:'|cut -c21-36
-summary: |-
-  Get your external IP address

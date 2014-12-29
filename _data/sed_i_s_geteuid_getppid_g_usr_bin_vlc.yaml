@@ -1,8 +1,0 @@
-commandlinefu_id: 13858
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/geteuid/getppid/g' /usr/bin/vlc
-summary: |-
-  run vlc as root

@@ -1,8 +1,0 @@
-commandlinefu_id: 716
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo aptitude -y install iasl && sudo cat /sys/firmware/acpi/tables/DSDT > dsdt.dat && iasl -d dsdt.dat
-summary: |-
-  View your motherboard's ACPI tables (in Debian & Ubuntu)

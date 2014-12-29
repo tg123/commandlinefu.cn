@@ -1,8 +1,0 @@
-commandlinefu_id: 9265
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /path/to/pmwiki/wiki.d;/bin/ls -1 | perl -ne 'my ($group,$name)=split(/\./);$counts{$group}++;' -e  'END { foreach $group (sort keys %counts) {printf("%d\t%s\n",$counts{$group},$group);} }'|sort -rn
-summary: |-
-  Group page count in pmwiki data base

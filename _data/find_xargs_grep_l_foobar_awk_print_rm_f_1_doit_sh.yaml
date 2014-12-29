@@ -1,8 +1,0 @@
-commandlinefu_id: 13315
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . | xargs grep -l "FOOBAR" | awk '{print "rm -f "$1}' > doit.sh
-summary: |-
-  Write a shell script that removes files that contain a string

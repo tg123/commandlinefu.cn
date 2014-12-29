@@ -1,8 +1,0 @@
-commandlinefu_id: 10292
-translator:
-  weibo: ''
-hide: true
-command: |-
-  puppetd -t
-summary: |-
-  Run puppet agent in one-off debug mode

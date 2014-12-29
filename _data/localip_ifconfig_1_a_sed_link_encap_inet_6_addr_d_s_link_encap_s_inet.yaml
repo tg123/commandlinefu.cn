@@ -1,8 +1,0 @@
-commandlinefu_id: 8127
-translator:
-  weibo: ''
-hide: true
-command: |-
-  localIP() { ifconfig ${1:--a} | sed '/Link encap\|inet\|6 addr/!d;s/Link encap.*$//;s/.*inet addr:\([0-9\.]*\).*/\1/g;s/.*inet6 addr: \(.*\) .*/\1/g' ; }
-summary: |-
-  Get your local/private IP

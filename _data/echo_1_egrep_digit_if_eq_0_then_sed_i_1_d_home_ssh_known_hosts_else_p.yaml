@@ -1,8 +1,0 @@
-commandlinefu_id: 6058
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "${1}" | egrep '^[[:digit:]]*$' ; if [ "$?" -eq 0 ] ; then sed -i "${1}"d $HOME/.ssh/known_hosts ; else printf "\tYou must enter a number!\n\n" ; exit 1 ; fi
-summary: |-
-  Remove "ssh host"  from known hosts file.

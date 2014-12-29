@@ -1,8 +1,0 @@
-commandlinefu_id: 1145
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function encode4phone() { ffmpeg -acodec libamr_nb -vcodec h263 -i "$1" -s qcif -b 200k -ac 1 -ab 7.4k -ar 8000 "$1.3gp" }
-summary: |-
-  watch porn on older mobile phones

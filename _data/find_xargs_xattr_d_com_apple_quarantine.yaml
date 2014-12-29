@@ -1,8 +1,0 @@
-commandlinefu_id: 10729
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . | xargs xattr -d com.apple.quarantine
-summary: |-
-  Remove the Apple quarantine

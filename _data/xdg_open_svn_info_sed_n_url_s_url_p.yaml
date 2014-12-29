@@ -1,8 +1,0 @@
-commandlinefu_id: 7600
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdg-open $(svn info | sed -n '/URL:/s/URL: //p')
-summary: |-
-  From an SVN working directory, open the corresponding repository directory in your favorite browser

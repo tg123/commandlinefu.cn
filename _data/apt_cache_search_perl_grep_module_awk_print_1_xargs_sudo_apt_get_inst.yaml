@@ -1,8 +1,0 @@
-commandlinefu_id: 7172
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-cache search perl | grep module | awk '{print $1;}' | xargs sudo apt-get install -y
-summary: |-
-  Bulk install

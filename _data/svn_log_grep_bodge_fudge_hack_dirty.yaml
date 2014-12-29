@@ -1,8 +1,0 @@
-commandlinefu_id: 2177
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log | grep "bodge\|fudge\|hack\|dirty"
-summary: |-
-  Quickly assess quality of project by greping the SVN commit logs

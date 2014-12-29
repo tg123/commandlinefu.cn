@@ -1,8 +1,0 @@
-commandlinefu_id: 1732
-translator:
-  weibo: ''
-hide: true
-command: |-
-  on the listening side: sudo nc -lp 2022 | sudo tar -xvf -    and on the sending side:      tar -cvzf - ./*| nc -w 3 name_of_listening_host 2022
-summary: |-
-  Copy files over network using compression

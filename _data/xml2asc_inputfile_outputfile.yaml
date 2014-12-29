@@ -1,8 +1,0 @@
-commandlinefu_id: 7951
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xml2asc < inputfile > outputfile
-summary: |-
-  encode/decode HTML entities

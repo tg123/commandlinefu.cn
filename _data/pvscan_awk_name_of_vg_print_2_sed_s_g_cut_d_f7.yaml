@@ -1,8 +1,0 @@
-commandlinefu_id: 5895
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pvscan | awk '/name_of_vg/ {print $2}' | sed 's/[-|/|]/ /g' | cut -d " " -f7
-summary: |-
-  Quickly check a device in a LVM volume group against multipath

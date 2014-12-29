@@ -1,8 +1,0 @@
-commandlinefu_id: 11462
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -XfC -c blowfish user@host Xephyr dpms -fullscreen  -query localhost :5
-summary: |-
-  remote ssh xdmcp session

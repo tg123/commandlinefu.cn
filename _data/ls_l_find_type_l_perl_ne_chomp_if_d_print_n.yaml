@@ -1,8 +1,0 @@
-commandlinefu_id: 6105
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l $(find ./ -type l | perl -ne 'chomp; if (-d) { print "$_\n" }')
-summary: |-
-  Find all symlinks that link to directories

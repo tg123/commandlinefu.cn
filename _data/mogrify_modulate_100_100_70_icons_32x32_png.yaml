@@ -1,8 +1,0 @@
-commandlinefu_id: 8633
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mogrify -modulate 100,100,70 ../../icons/32x32/*.png
-summary: |-
-  use ImageMagik to convert tint (hue rotation) of an icon set directory.

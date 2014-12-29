@@ -1,8 +1,0 @@
-commandlinefu_id: 660
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if="\\?\Device\CdRom0" of=c:\temp\disc1.iso bs=1M --progress
-summary: |-
-  Rip an ISO from a CD/DVD using the freeware dd for Windows

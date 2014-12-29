@@ -1,8 +1,0 @@
-commandlinefu_id: 4981
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep <name>
-summary: |-
-  psgrep

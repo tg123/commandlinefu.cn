@@ -1,8 +1,0 @@
-commandlinefu_id: 3856
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder mf://image1.jpg,image2.jpg,image3.jpg -mf w=800:h=600:fps=25:type=jpeg -ovc copy -oac copy -o output.avi
-summary: |-
-  create a motion jpeg (MJPEG) with the jpg file from current directory with mencoder

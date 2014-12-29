@@ -1,8 +1,0 @@
-commandlinefu_id: 879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 $$
-summary: |-
-  Kill the terminal(window/tab) you work in [suicide]

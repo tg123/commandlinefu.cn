@@ -1,8 +1,0 @@
-commandlinefu_id: 6997
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo `lcg-infosites --vo lhcb ce | cut -f 1| grep [[:digit:]]| tr '\n' '+' |sed -e 's/\ //g' -e 's/+$//'`|bc -l
-summary: |-
-  count number of CPU available for members of a given Virtual Organization

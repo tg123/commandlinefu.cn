@@ -1,8 +1,0 @@
-commandlinefu_id: 5677
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $grep -hIr -m 1 em:name ~/.mozilla/firefox/*.default/extensions|sed 's#\s*##'|tr '<>=' '"""'|cut -f3 -d'"'|sort -u
-summary: |-
-  List your installed Firefox extensions

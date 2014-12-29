@@ -1,8 +1,0 @@
-commandlinefu_id: 3236
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vipw
-summary: |-
-  Securely seeing the password file over the network

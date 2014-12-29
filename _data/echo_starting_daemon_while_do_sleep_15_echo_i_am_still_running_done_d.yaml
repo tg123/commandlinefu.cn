@@ -1,8 +1,0 @@
-commandlinefu_id: 4920
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Starting Daemon"; ( while :; do sleep 15; echo "I am still running =]"; done ) & disown -h $!
-summary: |-
-  A little bash daemon =)

@@ -1,8 +1,0 @@
-commandlinefu_id: 12751
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for ff in directory; do numLines=`wc -l $ff`; numLines=$(echo $numLines | sed 's/ .*//g'); min=$(sort -nrk 1 $ff | tail -1); if [ $numLines -gt 100 ]; then echo $min >> minValues; fi;done;
-summary: |-
-  find all minimum values in file with at least 100 lines

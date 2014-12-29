@@ -1,8 +1,0 @@
-commandlinefu_id: 4973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  psgrep() { if [ ! -z $1 ] ; then echo "Grepping for processes matching $1..." ps aux | grep -i $1 | grep -v grep else echo "!! Need name to grep for" fi }
-summary: |-
-  psgrep

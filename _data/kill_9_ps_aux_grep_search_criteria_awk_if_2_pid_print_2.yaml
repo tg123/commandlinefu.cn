@@ -1,8 +1,0 @@
-commandlinefu_id: 6588
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 `ps aux | grep "search_criteria" | awk '{if ($2 != pid) print $2}'`
-summary: |-
-  kill some pids without specific pid

@@ -1,8 +1,0 @@
-commandlinefu_id: 6706
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gnome-open .
-summary: |-
-  bored of listing files with ls wanna see them in file browser in gnome try this

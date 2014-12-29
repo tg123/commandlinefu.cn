@@ -1,8 +1,0 @@
-commandlinefu_id: 11467
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/Xephyr :5 -query localhost -once -fullscreen -ac -keybd "ephyr,,,xkbmodel=pc105,xkblayout=it,xkbrules=evdev,xkboption="
-summary: |-
-  nested XDMCP login

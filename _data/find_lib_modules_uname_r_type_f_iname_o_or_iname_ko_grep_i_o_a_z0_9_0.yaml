@@ -1,8 +1,0 @@
-commandlinefu_id: 4564
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /lib/modules/`uname -r`/ -type f -iname '*.o' -or -iname '*.ko' |grep -i -o '[a-z0-9]*[-|_]*[0-9a-z]*\.ko$' |xargs -I {} echo '# {}' >>/etc/modules.autoload.d/kernel-2.6
-summary: |-
-  [Gentoo] Input modules, commented, in your module.autoload file

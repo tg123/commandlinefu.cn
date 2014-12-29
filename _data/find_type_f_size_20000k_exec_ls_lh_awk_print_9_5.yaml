@@ -1,8 +1,0 @@
-commandlinefu_id: 7320
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -type f -size +20000k -exec ls -lh {} \; | awk '{ print $9 ": " $5 }'
-summary: |-
-  Find Files over 20Meg

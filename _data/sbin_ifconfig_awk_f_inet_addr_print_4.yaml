@@ -1,8 +1,0 @@
-commandlinefu_id: 2717
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /sbin/ifconfig | awk -F'[ :]+' '/inet addr/{print $4}'
-summary: |-
-  Read just the IP address of a device

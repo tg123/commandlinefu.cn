@@ -1,8 +1,0 @@
-commandlinefu_id: 2146
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unalias
-summary: |-
-  unalias previously aliased command

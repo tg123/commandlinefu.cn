@@ -1,8 +1,0 @@
-commandlinefu_id: 701
-translator:
-  weibo: ''
-hide: true
-command: |-
-  clgrep keyword
-summary: |-
-  grep the command-line-fu archive

@@ -1,8 +1,0 @@
-commandlinefu_id: 7873
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ 1 ]; do clear; echo 'YOUR TEXT HERE' | figlet -f banner -t | while IFS="\n" read l; do echo "$l"; sleep 0.01; done; done
-summary: |-
-  bash screensaver revised

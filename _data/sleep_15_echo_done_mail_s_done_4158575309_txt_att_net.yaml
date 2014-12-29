@@ -1,8 +1,0 @@
-commandlinefu_id: 10605
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 15 ; `echo "done" | mail -s "done" 4158575309@txt.att.net`
-summary: |-
-  Notify by text-message when command completes

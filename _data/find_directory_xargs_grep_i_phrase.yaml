@@ -1,8 +1,0 @@
-commandlinefu_id: 4668
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find directory/ |xargs grep -i "phrase"
-summary: |-
-  Recursively grep thorugh directory for string in file.

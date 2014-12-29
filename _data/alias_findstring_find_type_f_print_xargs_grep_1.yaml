@@ -1,8 +1,0 @@
-commandlinefu_id: 2399
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias findstring="find . -type f -print | xargs grep $1"
-summary: |-
-  Quick findstring recursively in dirs (Alias from long find with xargs cmd)

@@ -1,8 +1,0 @@
-commandlinefu_id: 4699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status |grep '\?' |awk '{print $2}'| parallel -Xj1 svn add
-summary: |-
-  add all files not under version control to repository

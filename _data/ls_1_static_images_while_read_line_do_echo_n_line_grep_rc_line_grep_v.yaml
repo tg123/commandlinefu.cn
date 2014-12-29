@@ -1,8 +1,0 @@
-commandlinefu_id: 1566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -1 static/images/ | while read line; do echo -n $line' '[; grep -rc $line *|grep -v ".svn"|cut -d":" -f2|grep -vc 0| tr "\n" -d; echo -n ]; echo ; done
-summary: |-
-  Recursively grep a subdirectory for a list of files

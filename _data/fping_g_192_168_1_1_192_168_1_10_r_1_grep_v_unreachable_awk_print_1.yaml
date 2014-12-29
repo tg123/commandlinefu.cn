@@ -1,8 +1,0 @@
-commandlinefu_id: 9724
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fping -g 192.168.1.1 192.168.1.10 -r 1 | grep -v unreachable | awk '{print $1}'
-summary: |-
-  To know the IP address of the machine current running on the network

@@ -1,8 +1,0 @@
-commandlinefu_id: 12748
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for menu in {1..4}; do echo -e "<ul>\n <li>menu $menu</li>\n  <ul>"; for items in {1..5}; do echo "   <li>item $items</li>"; if [ $items -eq 5 ];then echo -e "  </ul>";fi;done; echo "</ul>";done | xclip
-summary: |-
-  Creating rapidly an html menu

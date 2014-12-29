@@ -1,8 +1,0 @@
-commandlinefu_id: 11527
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -xdev \( -perm -4000 \) -type f -print0 | xargs -0 ls -l
-summary: |-
-  Find all files with setuid bit

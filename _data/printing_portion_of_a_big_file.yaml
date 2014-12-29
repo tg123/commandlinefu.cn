@@ -1,8 +1,0 @@
-commandlinefu_id: 1785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Printing portion of a big file
-summary: |-
-  sed -n "$LINE1,${LINE2}p;${LINEA2}q;" "$FILE"

@@ -1,8 +1,0 @@
-commandlinefu_id: 4000
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -c '^From ' mbox_file
-summary: |-
-  Count emails in an MBOX file

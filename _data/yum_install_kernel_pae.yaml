@@ -1,8 +1,0 @@
-commandlinefu_id: 4885
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yum install kernel-PAE
-summary: |-
-  RHEL / CentOS Support 4GB or more RAM ( memory )

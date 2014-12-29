@@ -1,8 +1,0 @@
-commandlinefu_id: 3260
-translator:
-  weibo: ''
-hide: true
-command: |-
-  */15 * * * * /path/to/command
-summary: |-
-  Run a cron job every 15 mins past the hour

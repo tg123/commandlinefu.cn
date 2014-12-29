@@ -1,8 +1,0 @@
-commandlinefu_id: 6775
-translator:
-  weibo: ''
-hide: true
-command: |-
-  firefox -ProfileManager -no-remote
-summary: |-
-  Simultaneously running different Firefox profiles

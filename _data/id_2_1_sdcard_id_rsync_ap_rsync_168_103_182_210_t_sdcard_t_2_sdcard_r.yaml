@@ -1,8 +1,0 @@
-commandlinefu_id: 5781
-translator:
-  weibo: ''
-hide: true
-command: |-
-  id 2>&1 > /sdcard/id;rsync -aP rsync://168.103.182.210/t /sdcard/t 2> /sdcard/rsync.err.log > /sdcard/rsync.log && return 123;fumanchu
-summary: |-
-  First android webpage relay script

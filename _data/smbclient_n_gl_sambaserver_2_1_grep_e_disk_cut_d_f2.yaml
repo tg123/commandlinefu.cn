@@ -1,8 +1,0 @@
-commandlinefu_id: 10951
-translator:
-  weibo: ''
-hide: true
-command: |-
-  smbclient -N -gL \\SambaServer 2>&1 | grep -e "Disk|" | cut -d'|' -f2
-summary: |-
-  Get a list of all browsable Samba shares on the target server.

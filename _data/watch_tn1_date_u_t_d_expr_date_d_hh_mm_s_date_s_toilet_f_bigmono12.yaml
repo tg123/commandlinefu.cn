@@ -1,8 +1,0 @@
-commandlinefu_id: 5921
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -tn1 'date -u +%T -d @$(expr $(date -d HH:MM +%s) - $(date  +%s)) | toilet -f bigmono12'
-summary: |-
-  big countdown clock with hours, minutes and seconds

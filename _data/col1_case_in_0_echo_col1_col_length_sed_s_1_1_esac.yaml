@@ -1,8 +1,0 @@
-commandlinefu_id: 9967
-translator:
-  weibo: ''
-hide: true
-command: |-
-  col1(){ case $# in 0)echo col1 col-length;;*) sed 's/\(.\{'"$1"'\}\)\(.*\)/\1/' esac;}
-summary: |-
-  tty columns

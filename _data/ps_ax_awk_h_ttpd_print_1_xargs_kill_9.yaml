@@ -1,8 +1,0 @@
-commandlinefu_id: 4248
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps ax| awk '/[h]ttpd/{print $1}'| xargs kill -9
-summary: |-
-  Killing multiplpe process for one program like apache, wget, postfix etc.

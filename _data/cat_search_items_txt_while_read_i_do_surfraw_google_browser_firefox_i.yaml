@@ -1,8 +1,0 @@
-commandlinefu_id: 8446
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat search_items.txt | while read i; do surfraw google -browser=firefox $i; done
-summary: |-
-  automate web search and open tabs in firefox

@@ -1,8 +1,0 @@
-commandlinefu_id: 9843
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat *
-summary: |-
-  Cat files in a directory; for loop command
