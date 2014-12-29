@@ -1,8 +1,7 @@
 commandlinefu_id: 10960
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log --pretty=oneline b56b83.. | wc -l
 summary: |-
-  Count git commits since specific commit
+  计算某个commit以来有多少 commit 
