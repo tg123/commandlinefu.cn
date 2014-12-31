@@ -1,8 +1,7 @@
 commandlinefu_id: 3632
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep . filename > newfilename
 summary: |-
-  Remove blank lines from a file using grep and save output to new file
+  用grep去除空行

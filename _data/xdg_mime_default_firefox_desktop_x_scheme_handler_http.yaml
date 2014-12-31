@@ -1,7 +1,0 @@
-commandlinefu_id: 9958
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  xdg-mime default firefox.desktop x-scheme-handler/http
-summary: |-
-  使用xdg-mime来设置你的默认浏览器。

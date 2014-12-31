@@ -1,8 +1,0 @@
-commandlinefu_id: 13321
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name \*.svg -print0 | xargs -0 -n1 -P4 -I{} bash -c 'X={}; convert "$X" "${X%.svg}.png"'
-summary: |-
-  Batch Convert SVG to PNG (in parallel)

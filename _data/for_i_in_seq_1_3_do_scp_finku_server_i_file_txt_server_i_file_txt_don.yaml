@@ -1,8 +1,0 @@
-commandlinefu_id: 2619
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `seq 1 3`; do scp finku@server$i:file.txt server$i-file.txt; done
-summary: |-
-  Copy 3 files from 3 different servers and adds server name tag to file copied

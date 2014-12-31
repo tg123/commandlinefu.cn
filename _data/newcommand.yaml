@@ -1,8 +1,7 @@
 commandlinefu_id: 9173
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   newcommand $(!!)
 summary: |-
-  Re-use the previous command output
+  重用上个命令的参数

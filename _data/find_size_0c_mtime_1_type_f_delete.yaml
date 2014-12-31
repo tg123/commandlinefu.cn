@@ -1,8 +1,0 @@
-commandlinefu_id: 6194
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . ! -size 0c -mtime +1 -type f -delete
-summary: |-
-  deleter

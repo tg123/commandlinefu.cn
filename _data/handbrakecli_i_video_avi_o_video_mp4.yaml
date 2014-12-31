@@ -1,8 +1,0 @@
-commandlinefu_id: 5081
-translator:
-  weibo: ''
-hide: true
-command: |-
-  HandBrakeCLI -i video.avi -o video.mp4
-summary: |-
-  Encode a file to MPEG4 format

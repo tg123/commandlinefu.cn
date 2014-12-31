@@ -1,8 +1,0 @@
-commandlinefu_id: 13407
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl "https://coinurl.com/api.php?uuid=5378..........5&url=http://www.commandlinefu.com"
-summary: |-
-  copy remote ssh session output to local clipboard

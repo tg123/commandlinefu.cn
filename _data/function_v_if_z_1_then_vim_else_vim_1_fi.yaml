@@ -1,8 +1,0 @@
-commandlinefu_id: 1895
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function v { if [ -z $1 ]; then vim; else vim *$1*; fi }
-summary: |-
-  Lazy man's vim

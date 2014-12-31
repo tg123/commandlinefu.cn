@@ -1,8 +1,0 @@
-commandlinefu_id: 1030
-translator:
-  weibo: ''
-hide: true
-command: |-
-  time { <command1> ; <command2> ; <command...> ; }
-summary: |-
-  take execution time of several commands
