@@ -1,8 +1,7 @@
 commandlinefu_id: 9087
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   c=blue;convert -size 50x50 xc:$c $c.png; for i in red green yellow; do convert $c.png -background $i -rotate 20 $i.png; rm $c".png"; c=$i; done; mv $i".png" logo.png; display logo.png
 summary: |-
-  create a colorful image
+  画一个logo
