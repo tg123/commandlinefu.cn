@@ -1,8 +1,7 @@
 commandlinefu_id: 13714
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -iname "*.mp4" -print0 | xargs -0 mv --verbose -t /media/backup/
 summary: |-
-  find xargs mv
+  使用find和xargs组合执行mv，等价于mv *.mp4 --verbose -t /media/backup/

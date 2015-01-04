@@ -1,8 +1,7 @@
 commandlinefu_id: 3089
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   script -f /dev/pts/3
 summary: |-
-  Terminal redirection
+  终端重定向

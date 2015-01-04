@@ -1,8 +1,7 @@
 commandlinefu_id: 4238
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   pmap -d <<pid>>
 summary: |-
-  Determining the excat memory usages by certain PID
+  输出某个进程的内存分配情况

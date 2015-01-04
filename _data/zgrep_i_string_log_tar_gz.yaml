@@ -1,8 +1,7 @@
 commandlinefu_id: 13689
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   zgrep -i "string" log.tar.gz
 summary: |-
-  grep compressed log files without extracting
+  无需解压缩，即可直接grep日志文件
