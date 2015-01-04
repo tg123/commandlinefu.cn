@@ -1,8 +1,0 @@
-commandlinefu_id: 13658
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"GUI.ShowNotification","params":{"title":"This is the title of the message","message":"This is the body of the message"},"id":1}' http://i3c.pla.lcl:8080/jsonrpc
-summary: |-
-  Send a message to Kodi (XBMC)

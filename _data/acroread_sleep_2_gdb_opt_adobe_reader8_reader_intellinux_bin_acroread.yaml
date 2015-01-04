@@ -1,8 +1,0 @@
-commandlinefu_id: 2047
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (acroread &);sleep 2;gdb /opt/Adobe/Reader8/Reader/intellinux/bin/acroread `pidof ld-linux.so.2`
-summary: |-
-  One liner gdb attach to Acrobat

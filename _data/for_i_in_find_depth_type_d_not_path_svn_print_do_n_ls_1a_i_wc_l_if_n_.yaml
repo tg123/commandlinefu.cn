@@ -1,8 +1,0 @@
-commandlinefu_id: 11579
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for I in $(find . -depth -type d -not -path  "*/.svn*" -print) ; do N="$(ls -1A ${I} | wc -l)"; if [[ "${N}" -eq 0 || "${N}" -eq 1 &&  -n $(ls -1A | grep .svn) ]] ; then svn rm --force "${I}"; fi ; done
-summary: |-
-  Deleting directory recurcive. Directories will be deleled when empty or contains only .svn subdirectory

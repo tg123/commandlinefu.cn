@@ -1,8 +1,7 @@
 commandlinefu_id: 8131
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   quota -q $(cat /etc/passwd|cut -d ':' -f 1)
 summary: |-
-  Report all quota usage
+  报告quota信息

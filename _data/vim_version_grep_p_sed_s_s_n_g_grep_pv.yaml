@@ -1,8 +1,7 @@
 commandlinefu_id: 5977
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   vim --version | grep -P '^(\+|\-)' | sed 's/\s/\n/g' | grep -Pv '^ ?$'
 summary: |-
-  List of all vim features
+  列出所有vim的功能

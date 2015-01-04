@@ -1,8 +1,7 @@
 commandlinefu_id: 5160
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -d $(echo ${PATH//:/ }) > /dev/null
 summary: |-
-  Show Directories in the PATH Which does NOT Exist
+  显示PATH中失效的目录

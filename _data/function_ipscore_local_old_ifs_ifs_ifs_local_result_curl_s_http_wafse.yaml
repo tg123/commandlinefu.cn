@@ -1,8 +1,0 @@
-commandlinefu_id: 13856
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ipscore() { local OLD_IFS="$IFS" IFS=","; local result="`curl -s "http://wafsec.com/api?ip=$1"`" && local results=(${result}) && printf -- '%s\n' "${results[@]}" | grep '"Score":' | cut -d':' -f2; IFS="$OLD_IFS"; }; ipscore ${target_ip}
-summary: |-
-  Get ipv4 remote address bad score using wafsec.com free reputation service api
