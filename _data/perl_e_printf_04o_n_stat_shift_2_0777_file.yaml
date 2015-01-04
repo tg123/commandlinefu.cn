@@ -1,8 +1,7 @@
 commandlinefu_id: 10466
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   perl -e 'printf "%04o\n", (stat shift)[2] & 0777;' file
 summary: |-
-  Perl oneliner to print access rights in octal format
+  perl一行道，以八进制输出访问权限

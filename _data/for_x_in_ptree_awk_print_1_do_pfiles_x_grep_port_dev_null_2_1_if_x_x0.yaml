@@ -1,8 +1,7 @@
 commandlinefu_id: 4490
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for x in `ptree | awk '{print $1}'`; do pfiles $x | grep ${PORT} > /dev/null 2>&1; if [ x"$?" == "x0" ]; then ps -ef | grep $x | grep -v grep; fi; done 2> /dev/null
 summary: |-
-  Determine what process is listening on a port on Solaris, without lsof
+  不使用lsof，在Solaris里查找监听某个端口的进程
