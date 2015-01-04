@@ -1,8 +1,7 @@
 commandlinefu_id: 10877
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   [ $V ] || : $((V++)) && echo $V
 summary: |-
-  Use the builtin ':' bash command to increment variables
+  变量++ (冒号的奇特用法)

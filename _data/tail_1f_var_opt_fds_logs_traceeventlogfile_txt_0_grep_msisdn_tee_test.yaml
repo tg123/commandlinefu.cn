@@ -1,8 +1,0 @@
-commandlinefu_id: 13652
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -1f /var/opt/fds/logs/TraceEventLogFile.txt.0 | grep <msisdn> | tee <test-case-id>.trace |  tr '|' '\n'
-summary: |-
-  This is a specialized command for Ericsson CS5.2 - Getting the test case trace on SDP

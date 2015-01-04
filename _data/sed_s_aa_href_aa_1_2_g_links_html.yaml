@@ -1,8 +1,7 @@
 commandlinefu_id: 10143
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed 's!<[Aa] *href*=*"\([^"]*\)"*>\([^<>]*\)</[Aa]>!\1,\2!g' links.html
 summary: |-
-  convert html links into plain text with link anchor
+  清除html链接
