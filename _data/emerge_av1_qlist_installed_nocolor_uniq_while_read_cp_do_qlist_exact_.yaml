@@ -1,8 +1,0 @@
-commandlinefu_id: 5988
-translator:
-  weibo: ''
-hide: true
-command: |-
-  emerge -av1 `qlist --installed --nocolor | uniq | while read cp; do qlist --exact $cp | while read file; do test -e $file || { echo $cp; echo "$cp: missing $file (and maybe more)" 1>&2; break; }; done; done`
-summary: |-
-  Re-emerge all ebuilds with missing files (Gentoo Linux)

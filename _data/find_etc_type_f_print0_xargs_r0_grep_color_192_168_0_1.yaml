@@ -1,8 +1,0 @@
-commandlinefu_id: 12253
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /etc -type f -print0 | xargs -r0 grep --color '192.168.0.1'
-summary: |-
-  find ip address in all files in /etc directory

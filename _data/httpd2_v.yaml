@@ -1,8 +1,7 @@
 commandlinefu_id: 3247
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   httpd2 -V
 summary: |-
-  To find how Apache has been compiled from commandline
+  查看apache编译参数

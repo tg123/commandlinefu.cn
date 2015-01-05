@@ -1,8 +1,7 @@
 commandlinefu_id: 6030
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   head -n X | tail -n 1
 summary: |-
-  Print just line 4 from a textfile
+  打印第X行
