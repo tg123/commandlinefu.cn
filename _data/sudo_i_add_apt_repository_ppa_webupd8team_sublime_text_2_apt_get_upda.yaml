@@ -1,8 +1,0 @@
-commandlinefu_id: 8114
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo -i; add-apt-repository ppa:webupd8team/sublime-text-2; apt-get update; apt-get install sublime-text-2
-summary: |-
-  installing sublime-text-2 on Ubuntu 10.04

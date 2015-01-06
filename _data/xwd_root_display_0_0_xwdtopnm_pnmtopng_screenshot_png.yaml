@@ -1,8 +1,7 @@
 commandlinefu_id: 6911
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xwd -root -display :0.0| xwdtopnm | pnmtopng > Screenshot.png
 summary: |-
-  Take screenshot through SSH
+  通过ssh截图

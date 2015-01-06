@@ -1,8 +1,7 @@
 commandlinefu_id: 8680
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -nt | awk '{print $6}' | sort | uniq -c | sort -n -k 1 -r
 summary: |-
-  Summarize the number of open TCP connections by state
+  按状态统计tcp连接数量

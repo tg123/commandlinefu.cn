@@ -1,8 +1,7 @@
 commandlinefu_id: 11938
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   smem --pie name -s pss
 summary: |-
-  graphical memory usage
+  图形化内存使用

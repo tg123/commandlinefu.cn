@@ -1,8 +1,7 @@
 commandlinefu_id: 2049
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps auxf | grep httpd | grep -v grep | grep -v defunct | awk '{sum=sum+$6}; END {print sum/1024}'
 summary: |-
-  Apache memory usage
+  查看apache内存使用 

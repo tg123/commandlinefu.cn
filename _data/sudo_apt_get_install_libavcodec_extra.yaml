@@ -1,8 +1,0 @@
-commandlinefu_id: 13446
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get install libavcodec-extra
-summary: |-
-  Install Restricted Multimedia Codecs in Ubuntu 14.04
