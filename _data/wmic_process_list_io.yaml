@@ -1,8 +1,7 @@
 commandlinefu_id: 6380
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   wmic process list IO
 summary: |-
-  ps for windows
+  windows版本的ps

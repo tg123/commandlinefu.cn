@@ -1,8 +1,7 @@
 commandlinefu_id: 9804
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find /usr/include/ -name '*.[c|h]pp' -o -name '*.[ch]' -print0 | xargs -0  wc -l | tail -1
 summary: |-
-  Counting the source code's line numbers C/C++ Java
+  计算C和C++文件的总行数
