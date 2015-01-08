@@ -1,8 +1,7 @@
 commandlinefu_id: 3682
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   (crontab -l; echo '* * * * * dmesg -c'; ) | crontab -
 summary: |-
-  send kernel log (dmesg) notifications to root via cron
+  通过cron发送dmesg输出的内核日志到root

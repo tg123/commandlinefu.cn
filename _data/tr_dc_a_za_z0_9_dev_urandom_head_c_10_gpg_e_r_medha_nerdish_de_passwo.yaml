@@ -1,8 +1,7 @@
 commandlinefu_id: 1195
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tr -dc "a-zA-Z0-9-_\$\?" < /dev/urandom | head -c 10 | gpg -e -r medha@nerdish.de > password.gpg
 summary: |-
-  Create passwords and store safely with gpg
+  创建密码并用GPG加密存储

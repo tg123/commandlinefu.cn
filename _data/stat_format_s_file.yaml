@@ -1,8 +1,7 @@
 commandlinefu_id: 9681
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   stat --format "%s" <file>
 summary: |-
-  File size
+  显示文件大小

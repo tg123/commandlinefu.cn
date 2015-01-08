@@ -1,8 +1,7 @@
 commandlinefu_id: 13752
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ip a s eth0 | awk -F'[/ ]+' '/inet[^6]/{print $3}'
 summary: |-
-  Print the IPv4 address of a given interface
+  输出给定接口（以eth0为例）的IPv4地址
