@@ -1,8 +1,0 @@
-commandlinefu_id: 297
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sqlite3 ~/.liferea_1.4/liferea.db 'VACUUM;'
-summary: |-
-  Speed up launch of liferea

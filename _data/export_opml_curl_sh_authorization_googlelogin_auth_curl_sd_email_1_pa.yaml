@@ -1,8 +1,0 @@
-commandlinefu_id: 5082
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export-opml(){ curl -sH "Authorization: GoogleLogin auth=$(curl -sd "Email=$1&Passwd=$2&service=reader" https://www.google.com/accounts/ClientLogin | grep Auth | sed 's/Auth=\(.*\)/\1/')" http://www.google.com/reader/subscriptions/export; }
-summary: |-
-  Export OPML from Google Reader

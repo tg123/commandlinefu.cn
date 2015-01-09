@@ -1,8 +1,0 @@
-commandlinefu_id: 678
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ 0 ]; do expr 2365200000 \- `date +%s` \- `date --date "YYYY-mm-dd HH:MM:ss" +%s`; sleep 1; clear; done
-summary: |-
-  Mortality Countdown
