@@ -1,8 +1,7 @@
 commandlinefu_id: 6238
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find /DirectoryWhereMyMp3sAre/ -name *.mp3 | grep "andy" > ~/mylist
 summary: |-
-  Make a playlistfile for mpg321 or other CLI player
+  给mpg321或其他命令行播放器创建一个播放列表

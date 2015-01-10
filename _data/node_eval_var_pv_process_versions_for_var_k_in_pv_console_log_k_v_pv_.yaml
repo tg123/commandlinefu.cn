@@ -1,8 +1,7 @@
 commandlinefu_id: 13852
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   node --eval "var pv = process.versions;for(var k in pv){console.log(k, 'v' + pv[k])}"
 summary: |-
-  print node & node dependencies version
+  输出node以及node的依赖的版本

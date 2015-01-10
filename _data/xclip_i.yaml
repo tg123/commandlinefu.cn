@@ -1,8 +1,7 @@
 commandlinefu_id: 5254
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   !xclip -i %
 summary: |-
-  Copy file content to X clipboard
+  复制当前文件的内容到X window的剪贴板（在Vim命令行模式中使用）

@@ -1,8 +1,7 @@
 commandlinefu_id: 3392
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   zip -r foo.zip DIR -x "*/.svn/*"
 summary: |-
-  Create a zip file ignoring .svn files
+  创建一个不包含.svn文件夹的zip文件

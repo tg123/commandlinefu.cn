@@ -1,8 +1,7 @@
 commandlinefu_id: 396
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep -lir "text to find" *
 summary: |-
-  Find files containing "text"
+  查找包含"test to find"字串的文件
