@@ -1,8 +1,7 @@
 commandlinefu_id: 2414
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   chronic () { t=$1; shift; while true; do $@; sleep $t; done & }
 summary: |-
-  The Chronic: run a command every N seconds in the background
+  每隔N秒在后台慢悠悠地执行一个命令

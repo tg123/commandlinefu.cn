@@ -1,8 +1,7 @@
 commandlinefu_id: 11807
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo nethogs eth0
 summary: |-
-  network usage per process
+  显示每个进程的网络使用状况
