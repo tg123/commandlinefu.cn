@@ -1,8 +1,0 @@
-commandlinefu_id: 12761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /Applications/SuperCollider/SuperCollider.app/Contents/Resources/sclang ~/path/to/your/scfile.scd
-summary: |-
-  Opening & evaluating a SuperCollider file from commandline (Mac)

@@ -1,8 +1,7 @@
 commandlinefu_id: 5910
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dmidecode -t baseboard
 summary: |-
-  Display Motherboard Info
+  现实主板信息
