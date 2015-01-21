@@ -1,8 +1,7 @@
 commandlinefu_id: 11166
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   history > ~/history-save-$(date +%d-%m-%y-%T)
 summary: |-
-  backup your history
+  备份命令历史

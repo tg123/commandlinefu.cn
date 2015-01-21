@@ -1,8 +1,7 @@
 commandlinefu_id: 3101
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  watch -n1 'cat /proc/interrupts
+  watch -n1 'cat /proc/interrupts'
 summary: |-
-  Watch changeable interrupts continuously
+  观察中断
