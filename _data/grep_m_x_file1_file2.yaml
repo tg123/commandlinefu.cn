@@ -1,8 +1,0 @@
-commandlinefu_id: 1577
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep '' -m X file1 > file2
-summary: |-
-  extract a certain number of lines from a file and dump them to another file

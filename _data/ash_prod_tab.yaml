@@ -1,8 +1,0 @@
-commandlinefu_id: 10733
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ash prod<tab>
-summary: |-
-  OSX Terminal helper with tab completion, ssh tunneling, and now screen re-attach

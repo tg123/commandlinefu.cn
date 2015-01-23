@@ -1,8 +1,0 @@
-commandlinefu_id: 4433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  i="0";  while [ $i  -lt  5 ]  ;  do xpenguins &  i=$[$i+1] ; done
-summary: |-
-  oneliner to open several times same application

@@ -1,8 +1,0 @@
-commandlinefu_id: 13286
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *; do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-summary: |-
-  Batch Convert SVG to PNG

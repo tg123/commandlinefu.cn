@@ -1,8 +1,0 @@
-commandlinefu_id: 11751
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir r1 && sshfs remote1:/home/user r1 && rsync r1/stuff remote2:~/backups/
-summary: |-
-  rsync from one remote to another remote, only local computer has an open ssh key

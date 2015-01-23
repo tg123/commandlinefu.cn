@@ -1,8 +1,0 @@
-commandlinefu_id: 8877
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -sP -PR -oG - `/sbin/ip -4 addr show | awk '/inet/ {print $2}' | sed 1d`
-summary: |-
-  Display only hosts up in network

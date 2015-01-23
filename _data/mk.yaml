@@ -1,8 +1,0 @@
-commandlinefu_id: 13576
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mk
-summary: |-
-  tiny proxy in shell to receive on port and write on unix socket

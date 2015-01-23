@@ -1,8 +1,0 @@
-commandlinefu_id: 8588
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sqlite3 $HOME/.dropbox/config.db "select value from config where key like '%dropbox_path%'"
-summary: |-
-  Return Dropbox folder location.

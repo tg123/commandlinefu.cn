@@ -1,8 +1,7 @@
 commandlinefu_id: 9551
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   grep -Ilr "<?php" .
 summary: |-
-  find php files even without extension
+  寻找php文件 (按内容而不是扩展名)

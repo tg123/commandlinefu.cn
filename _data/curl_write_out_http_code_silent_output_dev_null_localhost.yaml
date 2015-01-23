@@ -1,8 +1,7 @@
 commandlinefu_id: 13816
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   curl --write-out %{http_code} --silent --output /dev/null localhost
 summary: |-
-  Get HTTP status code with curl
+  获取http反回码

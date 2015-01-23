@@ -1,8 +1,0 @@
-commandlinefu_id: 1083
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FLOOR=0; RANGE=10; number=0; while [ "$number" -le $FLOOR ]; do number=$RANDOM; let "number %= $RANGE"; done; echo $number
-summary: |-
-  Random integer number between FLOOR and RANGE

@@ -1,8 +1,0 @@
-commandlinefu_id: 725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -F | grep '\''\*'\'' | sed '\''s/\*$//'\
-summary: |-
-  List all executable files in the current directory

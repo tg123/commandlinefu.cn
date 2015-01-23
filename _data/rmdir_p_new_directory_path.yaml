@@ -1,8 +1,7 @@
 commandlinefu_id: 12356
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rmdir -p new/directory/path
 summary: |-
-  Undo mkdir -p new/directory/path
+  对应 mkdir -p 的逆过程

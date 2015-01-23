@@ -1,8 +1,0 @@
-commandlinefu_id: 9905
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo iptables -I INPUT -p tcp --dport 3000 -j ACCEPT
-summary: |-
-  open ports with iptables

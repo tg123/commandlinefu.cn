@@ -1,8 +1,0 @@
-commandlinefu_id: 12141
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-get install phpmyadmin; echo "Include /etc/phpmyadmin/apache.conf" >> /etc/apache2/apache2.conf; service apache2 restart
-summary: |-
-  Install phpmyadmin in Debian 6

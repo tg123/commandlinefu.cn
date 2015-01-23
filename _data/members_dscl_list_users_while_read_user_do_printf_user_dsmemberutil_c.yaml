@@ -1,8 +1,0 @@
-commandlinefu_id: 10771
-translator:
-  weibo: ''
-hide: true
-command: |-
-  members () { dscl . -list /Users | while read user; do printf "$user "; dsmemberutil checkmembership -U "$user" -G "$*"; done | grep "is a member" | cut -d " " -f 1; };
-summary: |-
-  OSX - Function to list all members for a given group

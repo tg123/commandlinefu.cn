@@ -1,8 +1,0 @@
-commandlinefu_id: 1718
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/dsp > /dev/dsp
-summary: |-
-  Work music

@@ -1,8 +1,7 @@
 commandlinefu_id: 1043
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   grep -v "^$" file
 summary: |-
-  Remove blank lines from a file
+  从文件中移除所有空行

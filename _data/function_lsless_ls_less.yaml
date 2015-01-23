@@ -1,8 +1,0 @@
-commandlinefu_id: 4069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function lsless() { ls "$@" | less; }
-summary: |-
-  Pipe ls output into less

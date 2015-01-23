@@ -1,8 +1,0 @@
-commandlinefu_id: 5706
-translator:
-  weibo: ''
-hide: true
-command: |-
-  logfile=/var/log/gputemp.log; timestamp=$( date +%T );temps=$(nvidia-smi -lsa | grep Temperature | awk -F: ' { print $2 } '| cut -c2-4 | tr "\n" " ");echo "${timestamp} ${temps}" >> ${logfile}
-summary: |-
-  Create a log file of Nvidia graphics card temperatures using nvidia-smi

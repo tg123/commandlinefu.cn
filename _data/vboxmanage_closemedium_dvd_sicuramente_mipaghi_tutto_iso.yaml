@@ -1,8 +1,7 @@
 commandlinefu_id: 10152
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   VBoxManage closemedium dvd "/sicuramente/mipaghi/tutto.iso
 summary: |-
-  How to remove an ISO image from media database
+  从VirtualBox的媒体数据库中移除一个ISO镜像

@@ -1,8 +1,0 @@
-commandlinefu_id: 1844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  history | grep ssh
-summary: |-
-  Search The History for a Particular Command (ssh in this case)

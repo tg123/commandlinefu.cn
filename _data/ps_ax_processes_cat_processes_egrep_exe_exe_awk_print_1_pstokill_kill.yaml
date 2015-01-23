@@ -1,8 +1,0 @@
-commandlinefu_id: 7968
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps ax > processes && cat processes | egrep "*.exe |*exe]" | awk '{ print $1 }' > pstokill && kill $(cat pstokill) && rm processes && rm pstokill
-summary: |-
-  kill all running instances of wine and programs runned by it (exe)

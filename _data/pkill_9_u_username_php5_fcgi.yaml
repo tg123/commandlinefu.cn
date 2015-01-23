@@ -1,8 +1,0 @@
-commandlinefu_id: 8985
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -9 -u username php5-fcgi
-summary: |-
-  kills all php5-fcgi processes for user per name

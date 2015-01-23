@@ -1,8 +1,0 @@
-commandlinefu_id: 3753
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -ef | grep pmon
-summary: |-
-  Count the total number of files in each immediate subdirectory

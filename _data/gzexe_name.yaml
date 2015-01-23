@@ -1,8 +1,0 @@
-commandlinefu_id: 6669
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gzexe name ...
-summary: |-
-  Compress excutable files in place.

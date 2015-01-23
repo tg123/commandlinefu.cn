@@ -1,8 +1,0 @@
-commandlinefu_id: 984
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (cd /Applications/Firefox.app/Contents/MacOS; ./firefox-bin -p default --no-remote)
-summary: |-
-  Run a second copy of Firefox using the same profile on Mac OS X

@@ -1,8 +1,0 @@
-commandlinefu_id: 2094
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias b='cd -'
-summary: |-
-  Brings you back to previous directory

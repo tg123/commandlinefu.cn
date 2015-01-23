@@ -1,8 +1,0 @@
-commandlinefu_id: 2059
-translator:
-  weibo: ''
-hide: true
-command: |-
-  p=$(netstat -nate 2>/dev/null | awk '/LISTEN/ {gsub (/.*:/, "", $4); if ($4 == "4444") {print $8}}'); for i in $(ls /proc/|grep "^[1-9]"); do [[ $(ls -l /proc/$i/fd/|grep socket|sed -e 's|.*\[\(.*\)\]|\1|'|grep $p) ]] && cat /proc/$i/cmdline && echo; done
-summary: |-
-  netstat -p recoded (totaly useless..)

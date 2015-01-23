@@ -1,8 +1,0 @@
-commandlinefu_id: 304
-translator:
-  weibo: ''
-hide: true
-command: |-
-  plink lyu0@mysshserver -pw 123456
-summary: |-
-  plink ssh connect

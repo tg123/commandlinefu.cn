@@ -1,8 +1,0 @@
-commandlinefu_id: 13201
-translator:
-  weibo: ''
-hide: true
-command: |-
-  edrv() { N=${1:-edrv}; truncate -s ${2:-256m} $N.img && L=$(losetup -f) && losetup $L $N.img && cryptsetup luksFormat --batch-mode $L && cryptsetup luksOpen $L $N && mkfs.vfat /dev/mapper/$N -n $N; cryptsetup luksClose $N; echo losetup -d $L to unmount; }
-summary: |-
-  Create named LUKS encrypted volume

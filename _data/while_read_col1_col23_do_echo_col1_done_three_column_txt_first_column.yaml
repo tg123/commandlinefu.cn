@@ -1,8 +1,0 @@
-commandlinefu_id: 6037
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while read col1 col23; do echo $col1; done < three-column.txt > first-column.txt
-summary: |-
-  Short one line while loop that outputs parameterized content from one file to another

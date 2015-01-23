@@ -1,8 +1,0 @@
-commandlinefu_id: 13221
-translator:
-  weibo: ''
-hide: true
-command: |-
-  esxcli network ip interface ipv4 set -i vmk1 -I 10.27.51.143 -N 255.255.255.0 -t static
-summary: |-
-  Change IP on an ESX interface

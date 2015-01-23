@@ -1,8 +1,0 @@
-commandlinefu_id: 10310
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hi! link Comment Ignore
-summary: |-
-  Ignore all Comment in Vim

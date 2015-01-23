@@ -1,8 +1,0 @@
-commandlinefu_id: 5636
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.c" -exec sed -i "/\/sh/a\####################################\n#Date:2010-05-18\n#Company:XXXXX tech Co.\n#Author:Wangjunling\n#Copyright:gpl\n####################################" {} \;
-summary: |-
-  bat add copyright info

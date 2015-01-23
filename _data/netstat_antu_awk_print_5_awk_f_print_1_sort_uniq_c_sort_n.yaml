@@ -1,8 +1,0 @@
-commandlinefu_id: 12145
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -antu | awk '{print $5}' | awk -F: '{print $1}' | sort | uniq -c | sort -n
-summary: |-
-  Show number of connections per remote IP

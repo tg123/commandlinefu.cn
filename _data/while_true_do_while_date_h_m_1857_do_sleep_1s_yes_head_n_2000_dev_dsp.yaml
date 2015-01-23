@@ -1,8 +1,0 @@
-commandlinefu_id: 8336
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do while [ `date +%H%M` == "1857" ] ; do sleep 1s; yes | head -n 2000 > /dev/dsp; done; done;
-summary: |-
-  a simple alarm

@@ -1,8 +1,0 @@
-commandlinefu_id: 1795
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm -rf ~/.local/share/Trash/files/*
-summary: |-
-  Empty Trash in Gnome When the Trash Can Refuses to Clear

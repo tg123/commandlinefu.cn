@@ -1,8 +1,7 @@
 commandlinefu_id: 4108
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   printf "%s\n" ${PATH//:/\/* }
 summary: |-
-  List all available commands (bash, ksh93)
+  列出所有可用的命令

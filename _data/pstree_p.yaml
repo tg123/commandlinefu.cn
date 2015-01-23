@@ -1,8 +1,7 @@
 commandlinefu_id: 3124
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pstree -p
 summary: |-
-  View Processeses like a fu, fu
+  进程树

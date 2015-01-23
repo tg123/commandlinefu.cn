@@ -1,8 +1,0 @@
-commandlinefu_id: 1463
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function dpan () { PKG=`perl -e '$_=lc($ARGV[0]); s/::/-/g; print "lib$_-perl\n"' $1`; apt-get install $PKG; }
-summary: |-
-  Install the Debian-packaged version of a Perl module

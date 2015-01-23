@@ -1,8 +1,0 @@
-commandlinefu_id: 9624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find `pwd` -name '.*' -prune -o \( -name *.h -o -name *.cpp \) -print | cscope -bi-
-summary: |-
-  build cscope.out from all *.{h,cpp}, but ignore hidden files

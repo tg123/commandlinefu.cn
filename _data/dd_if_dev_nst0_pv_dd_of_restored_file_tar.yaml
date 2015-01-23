@@ -1,8 +1,7 @@
 commandlinefu_id: 5293
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/nst0 |pv|dd of=restored_file.tar
 summary: |-
-  dd with progress bar
+  带有进度条的dd

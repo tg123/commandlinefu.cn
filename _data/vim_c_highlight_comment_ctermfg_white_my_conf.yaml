@@ -1,8 +1,0 @@
-commandlinefu_id: 9537
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim -c'highlight Comment ctermfg=white' my.conf
-summary: |-
-  make comments invisible when editing a file

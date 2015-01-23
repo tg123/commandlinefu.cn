@@ -1,0 +1,8 @@
+commandlinefu_id: 13887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pipi () {pip install $1 && echo $(pip freeze | grep -i $1) >> requirements.txt;}
+summary: |-
+  pip shortcut to download a package and append it to your requirement.txt file in that project folder

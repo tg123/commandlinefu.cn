@@ -1,8 +1,0 @@
-commandlinefu_id: 2719
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /sbin/ifconfig | grep inet | cut -f 2 -d ":" | cut -f 1 -d " "
-summary: |-
-  Read just the IP address of a device

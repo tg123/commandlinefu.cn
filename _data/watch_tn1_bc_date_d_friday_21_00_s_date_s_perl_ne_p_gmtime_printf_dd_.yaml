@@ -1,8 +1,0 @@
-commandlinefu_id: 1778
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -tn1 'bc<<<"`date -d'\''friday 21:00'\'' +%s`-`date +%s`"|perl -ne'\''@p=gmtime($_);printf("%dd %02d:%02d:%02d\n",@p[7,2,1,0]);'\'
-summary: |-
-  Not so simple countdown from a given date

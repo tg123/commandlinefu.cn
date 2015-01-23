@@ -1,8 +1,7 @@
 commandlinefu_id: 6532
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof /folder
 summary: |-
-  Show which process is blocking umount (Device or resource is busy)
+  查看谁占用了某个目录(比如导致unmount busy)

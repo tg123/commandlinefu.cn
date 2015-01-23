@@ -1,8 +1,7 @@
 commandlinefu_id: 7080
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   alias whichall='{ command alias; command declare -f; } | command which --read-functions --read-alias -a'
 summary: |-
-  5 Which Aliases
+  更全面的which

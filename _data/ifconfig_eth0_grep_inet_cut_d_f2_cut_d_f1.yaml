@@ -1,8 +1,0 @@
-commandlinefu_id: 4229
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | grep "inet:" | cut -d ":" -f2 | cut -d " " -f1
-summary: |-
-  Show local IP

@@ -1,8 +1,0 @@
-commandlinefu_id: 12473
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mogrify -resize SIZE_IN_PIXELS *.jpg
-summary: |-
-  Batch resize all images to a width of 'X' pixels while maintaing the aspect ratio

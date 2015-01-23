@@ -1,0 +1,8 @@
+commandlinefu_id: 13868
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -type f ! -name "*.gz" ! -exec fuser -s {} ';' -exec gzip {} \;
+summary: |-
+  gzip only that files that are not gzipped and are not open by any process

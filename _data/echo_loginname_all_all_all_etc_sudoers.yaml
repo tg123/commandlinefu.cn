@@ -1,8 +1,0 @@
-commandlinefu_id: 1540
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'loginname ALL=(ALL) ALL' >> /etc/sudoers
-summary: |-
-  Add a line for your username in the /etc/sudoers file, allowing you to sudo in Fedora

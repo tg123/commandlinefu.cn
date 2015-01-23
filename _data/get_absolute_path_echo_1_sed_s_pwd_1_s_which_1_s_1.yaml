@@ -1,8 +1,0 @@
-commandlinefu_id: 9253
-translator:
-  weibo: ''
-hide: true
-command: |-
-  get_absolute_path() { echo $1 | sed "s|^\([^/].*/.*\)|$(pwd)/\1|;s|^\([^/]*\)$|$(which -- $1)|;s|^$|$1|"; }
-summary: |-
-  Returns the absolute path to a command, using which if needed

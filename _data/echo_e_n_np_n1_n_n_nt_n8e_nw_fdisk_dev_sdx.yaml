@@ -1,8 +1,0 @@
-commandlinefu_id: 3849
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "n\np\n1\n\n\nt\n8e\nw" | fdisk /dev/sdX
-summary: |-
-  Partition a new disk as all one partition tagged as "LInux LVM"

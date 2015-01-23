@@ -1,8 +1,0 @@
-commandlinefu_id: 6717
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vboxmanage clonehd --format VMDK <source image|uuid> <destination image>
-summary: |-
-  convert vdi to vmdk (virtualbox v3.2 hard disk conversion to vmware hard disk format)

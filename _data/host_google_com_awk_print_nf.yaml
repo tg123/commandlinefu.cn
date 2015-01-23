@@ -1,8 +1,0 @@
-commandlinefu_id: 6942
-translator:
-  weibo: ''
-hide: true
-command: |-
-  host google.com|awk '{print $NF}'
-summary: |-
-  Get just the IP for a hostname

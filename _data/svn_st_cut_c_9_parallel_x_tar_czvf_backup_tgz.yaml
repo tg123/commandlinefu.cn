@@ -1,8 +1,0 @@
-commandlinefu_id: 4705
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn st | cut -c 9- | parallel -X tar -czvf ../backup.tgz
-summary: |-
-  archive all files containing local changes (svn)

@@ -1,8 +1,0 @@
-commandlinefu_id: 6535
-translator:
-  weibo: ''
-hide: true
-command: |-
-  feh --bg-center `ls | shuf -n 1`
-summary: |-
-  Set background image to random file from current dir.

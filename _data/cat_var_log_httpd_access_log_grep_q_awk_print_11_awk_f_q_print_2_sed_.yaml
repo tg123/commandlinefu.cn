@@ -1,8 +1,0 @@
-commandlinefu_id: 4116
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /var/log/httpd/access_log | grep q= | awk '{print $11}' | awk -F 'q=' '{print $2}' | sed 's/+/ /g;s/%22/"/g;s/q=//' | cut -d "&" -f 1 | mail youremail@isp.com -s "[your-site] search strings for `date`"
-summary: |-
-  Checks apache's access_log file, strips the search queries and shoves them up your e-mail

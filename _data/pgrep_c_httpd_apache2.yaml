@@ -1,8 +1,0 @@
-commandlinefu_id: 7957
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep -c 'httpd|apache2'
-summary: |-
-  Count httpd processes

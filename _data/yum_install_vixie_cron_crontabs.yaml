@@ -1,8 +1,0 @@
-commandlinefu_id: 4887
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yum install vixie-cron crontabs
-summary: |-
-  How to install cron (crond, crontab)

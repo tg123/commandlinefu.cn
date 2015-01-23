@@ -1,8 +1,0 @@
-commandlinefu_id: 8388
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 4h && halt
-summary: |-
-  shutdown pc in a 4 hours

@@ -1,8 +1,7 @@
 commandlinefu_id: 2065
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perm=( 6 4 4 ) ; for elem in ${perm[@]}; do echo `expr 7 - $elem` ; done
 summary: |-
-  Convert from octal format to umask
+  权限数字转换成umask

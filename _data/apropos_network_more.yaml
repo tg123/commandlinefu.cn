@@ -1,8 +1,7 @@
 commandlinefu_id: 3637
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   apropos network |more
 summary: |-
-  List Network Tools in Linux
+  列出Linux上跟网络有关的工具

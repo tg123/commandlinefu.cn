@@ -1,8 +1,0 @@
-commandlinefu_id: 7729
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scselect <location>
-summary: |-
-  Select MacOSX Network Location

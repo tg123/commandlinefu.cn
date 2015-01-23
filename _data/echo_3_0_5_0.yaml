@@ -1,8 +1,0 @@
-commandlinefu_id: 3309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $((3.0/5.0))
-summary: |-
-  floating point operations in shell scripts

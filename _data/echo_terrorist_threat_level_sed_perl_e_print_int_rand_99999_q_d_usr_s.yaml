@@ -1,8 +1,0 @@
-commandlinefu_id: 7746
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Terrorist threat level: `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`"
-summary: |-
-  Terrorist threat level text

@@ -1,8 +1,0 @@
-commandlinefu_id: 8644
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svmon -P [PID] -O filename=on
-summary: |-
-  Display the open files for a process in AIX

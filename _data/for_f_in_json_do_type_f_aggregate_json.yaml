@@ -1,8 +1,0 @@
-commandlinefu_id: 11182
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for %%f in (*.json) do type %%f >> aggregate.json
-summary: |-
-  Concatenate Multiple Text Files in Windows

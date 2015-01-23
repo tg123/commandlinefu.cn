@@ -1,8 +1,7 @@
 commandlinefu_id: 4468
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in *.png; do convert "$i" "${i%.png}.jpg" && rm "$i" && echo "$i is converted."; done
 summary: |-
-  Batch convert PNG to JPEG
+  批量转png 为 jpg

@@ -1,8 +1,0 @@
-commandlinefu_id: 8047
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -maxdepth 1 -type d | grep -Pv "^.$" | sort -rn --field-separator="-" | sed -n '3,$p' | xargs rm -rf
-summary: |-
-  Clean-up release directories keeping the only the latest two

@@ -1,0 +1,8 @@
+commandlinefu_id: 13860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <directory> -print -iname "*.jar" -exec jar -ftv '{}' \;|grep -E "jar|<classname>"
+summary: |-
+  Find for jar's containing a class file

@@ -1,8 +1,0 @@
-commandlinefu_id: 4884
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 0 >/selinux/enforce
-summary: |-
-  How to Disable SELinux

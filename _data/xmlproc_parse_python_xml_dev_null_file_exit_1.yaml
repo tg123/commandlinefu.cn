@@ -1,8 +1,0 @@
-commandlinefu_id: 4330
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmlproc_parse.python-xml &>/dev/null <FILE> || exit 1
-summary: |-
-  validate xml in a shell script.

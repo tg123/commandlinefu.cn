@@ -1,8 +1,0 @@
-commandlinefu_id: 12285
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nethogs
-summary: |-
-  Find out what is using the bandwidth

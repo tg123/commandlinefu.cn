@@ -1,8 +1,0 @@
-commandlinefu_id: 11639
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-copy-id [-i [identity_file]] [user@]machine
-summary: |-
-  Copy ssh keys to user@host to enable password-less ssh logins.

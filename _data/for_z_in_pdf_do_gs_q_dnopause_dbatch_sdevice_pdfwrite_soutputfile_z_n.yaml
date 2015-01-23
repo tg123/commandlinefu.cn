@@ -1,8 +1,0 @@
-commandlinefu_id: 6866
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for z in */*.pdf; do gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="$z new" -c .setpdfwrite -f "$z" mv "$z new" "$z"; done
-summary: |-
-  Remove password from any pdf in current or sub directories

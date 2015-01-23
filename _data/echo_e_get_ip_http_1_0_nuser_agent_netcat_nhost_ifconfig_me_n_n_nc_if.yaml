@@ -1,8 +1,0 @@
-commandlinefu_id: 5859
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "GET /ip HTTP/1.0\nUser-Agent: netcat\nHOST: ifconfig.me\n\n" | nc ifconfig.me 80 | sed -n '/^[0-9]/p'
-summary: |-
-  Get your external IP address

@@ -1,8 +1,0 @@
-commandlinefu_id: 12694
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tac ~/.bash_history | grep -w
-summary: |-
-  find previously entered commands

@@ -1,8 +1,0 @@
-commandlinefu_id: 13806
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PATH=$PATH:/home/user/my_prog
-summary: |-
-  Add a folder to PATH

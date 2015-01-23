@@ -1,8 +1,0 @@
-commandlinefu_id: 3049
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vi ~/.crontab && crontab ~/.crontab
-summary: |-
-  Edit Crontab

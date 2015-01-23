@@ -1,8 +1,0 @@
-commandlinefu_id: 9308
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg --verify file.txt.asc file.txt
-summary: |-
-  verify a file using its detached signature

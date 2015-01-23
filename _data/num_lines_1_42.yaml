@@ -1,8 +1,0 @@
-commandlinefu_id: 10230
-translator:
-  weibo: ''
-hide: true
-command: |-
-  num_lines=${1:-42}
-summary: |-
-  Default value or argument

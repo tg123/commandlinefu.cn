@@ -1,8 +1,0 @@
-commandlinefu_id: 4595
-translator:
-  weibo: ''
-hide: true
-command: |-
-  removedir () { echo "Deleting the current directory $PWD Are you sure?"; read human; if [[ "$human" = "yes" ]]; then blah=$(echo "$PWD" | sed 's/ /\\ /g'); foo=$(basename "$blah"); rm -Rf ../$foo/ && cd ..; else echo "I'm watching you" | pv -qL 10; fi; }
-summary: |-
-  Remove current directory

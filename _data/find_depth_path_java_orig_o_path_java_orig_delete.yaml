@@ -1,8 +1,0 @@
-commandlinefu_id: 8481
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -depth \( -path '*/*.java.orig' -o -path '*/*.java.orig/*' \) -delete
-summary: |-
-  Recursively remove all '.java.orig' directories (scalable)

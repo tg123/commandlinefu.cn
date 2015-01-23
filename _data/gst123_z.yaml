@@ -1,8 +1,0 @@
-commandlinefu_id: 5638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gst123 -z **/*
-summary: |-
-  Play random playlist

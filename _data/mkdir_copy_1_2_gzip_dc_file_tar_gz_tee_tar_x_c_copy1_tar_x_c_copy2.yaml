@@ -1,8 +1,0 @@
-commandlinefu_id: 8298
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir copy{1,2}; gzip -dc file.tar.gz | tee >( tar x -C copy1/ ) | tar x -C copy2/
-summary: |-
-  Extract 2 copies of .tar.gz content

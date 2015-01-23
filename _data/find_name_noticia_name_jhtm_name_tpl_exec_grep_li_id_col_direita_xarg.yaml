@@ -1,8 +1,0 @@
-commandlinefu_id: 6597
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*noticia*" -name "*jhtm*" -name "*.tpl" -exec grep -li "id=\"col-direita\"" '{}' \; | xargs -n1 mate
-summary: |-
-  find files containing specifc pattern on filename and specific patternts in its content, open all in textmate

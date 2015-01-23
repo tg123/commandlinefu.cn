@@ -1,8 +1,7 @@
 commandlinefu_id: 6943
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pdftohtml -i -stdout FILE.pdf | w3m -T text/html
 summary: |-
-  Read PDFs in the command line
+  命令行中查看pdf

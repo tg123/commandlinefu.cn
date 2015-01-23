@@ -1,8 +1,0 @@
-commandlinefu_id: 1369
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 1 2 3 > FILE; while read -a line; do echo ${line[2]}; done < FILE
-summary: |-
-  read a file with table like data

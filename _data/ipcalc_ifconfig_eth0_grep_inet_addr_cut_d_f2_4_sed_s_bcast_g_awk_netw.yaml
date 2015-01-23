@@ -1,8 +1,0 @@
-commandlinefu_id: 4234
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ipcalc $(ifconfig eth0 | grep "inet addr:" | cut -d':' -f2,4 | sed 's/.+Bcast:/\//g') | awk '/Network/ { print $2 } '
-summary: |-
-  Show Network IP and Subnet

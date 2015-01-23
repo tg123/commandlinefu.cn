@@ -1,8 +1,0 @@
-commandlinefu_id: 4300
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e 's/{"url":/\n&/g' ~/.mozilla/firefox/*/sessionstore.js | cut -d\" -f4
-summary: |-
-  Extract all urls from the last firefox sessionstore.js file used.

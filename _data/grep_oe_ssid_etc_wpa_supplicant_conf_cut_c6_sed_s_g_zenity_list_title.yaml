@@ -1,8 +1,0 @@
-commandlinefu_id: 3353
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -oE "ssid=\".*\"" /etc/wpa_supplicant.conf | cut -c6- | sed s/\"//g | zenity --list --title="Choose Access Point" --column="SSID"
-summary: |-
-  Makes a Zenity select list based on entries in your wpa_supplicant.conf

@@ -1,8 +1,0 @@
-commandlinefu_id: 9313
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ngrep -lqi -p -W none ^get\|^post tcp dst port 80 -d eth0 | egrep '(flv|mp4|m4v|mov|mp3|wmv)'
-summary: |-
-  Discover media files from a web page

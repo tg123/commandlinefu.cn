@@ -1,8 +1,0 @@
-commandlinefu_id: 7886
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while $i;do `notify-send -t 200 "You are awesome :)"`;sleep 60; done;
-summary: |-
-  Get Informed by your box that you are awesome ;)

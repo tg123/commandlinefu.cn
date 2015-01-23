@@ -1,8 +1,0 @@
-commandlinefu_id: 3237
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vigr
-summary: |-
-  Securely look at the group file over the network

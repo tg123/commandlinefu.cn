@@ -1,8 +1,0 @@
-commandlinefu_id: 9194
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (set -e; while true; do TEST_COMMAND; done) | tee log
-summary: |-
-  Reproduce test failure by running the test in loop

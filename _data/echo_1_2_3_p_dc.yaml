@@ -1,8 +1,0 @@
-commandlinefu_id: 7972
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "1 2 3+p" | dc
-summary: |-
-  Add a list of numbers

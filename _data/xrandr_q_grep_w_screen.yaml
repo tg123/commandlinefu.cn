@@ -1,8 +1,0 @@
-commandlinefu_id: 4848
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr -q | grep -w Screen
-summary: |-
-  Get minimum, current, maximum possible resolution of Xorg

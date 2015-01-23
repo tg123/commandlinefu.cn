@@ -1,8 +1,0 @@
-commandlinefu_id: 11606
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mail -s "myip" youremail@domain.com
-summary: |-
-  send an email through linux command line van be achieved by

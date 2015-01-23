@@ -1,8 +1,0 @@
-commandlinefu_id: 4360
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nohup VBoxHeadless -p 3052 -startvm ServidorProducao &
-summary: |-
-  Running VirtualBox as headless

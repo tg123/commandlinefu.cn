@@ -1,8 +1,7 @@
 commandlinefu_id: 125
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pathrm() { PATH=`echo $PATH | sed -e "s=^${1}:==;s=:${1}$==;s=:${1}:=:="`; }
 summary: |-
-  Function to remove a directory from your PATH
+  从path中删除

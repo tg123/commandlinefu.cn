@@ -1,8 +1,0 @@
-commandlinefu_id: 10029
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -print0 | xargs -0r awk '/^\xEF\xBB\xBF/ {print FILENAME} {nextfile}'
-summary: |-
-  recursively detecting files with a BOM

@@ -1,8 +1,0 @@
-commandlinefu_id: 3734
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -pi -e 's/([[:lower:]]+)/uc $1/gsex' file
-summary: |-
-  Transforms a file to all uppercase.

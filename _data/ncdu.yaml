@@ -1,8 +1,0 @@
-commandlinefu_id: 3324
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ncdu
-summary: |-
-  Ultimate current directory usage command

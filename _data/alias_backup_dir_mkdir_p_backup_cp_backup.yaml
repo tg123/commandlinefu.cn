@@ -1,8 +1,0 @@
-commandlinefu_id: 1861
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias backup_dir='mkdir -p .backup && cp * .backup'
-summary: |-
-  Quickly backup your current directory

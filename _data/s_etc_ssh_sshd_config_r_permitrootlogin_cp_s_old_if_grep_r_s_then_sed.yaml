@@ -1,8 +1,0 @@
-commandlinefu_id: 7762
-translator:
-  weibo: ''
-hide: true
-command: |-
-  s=/etc/ssh/sshd_config;r=PermitRootLogin;cp $s{,.old}&& if grep $r $s;then sed "s/$r yes/$r no/" $s.old > $s; else echo $r no >> $s;fi
-summary: |-
-  Root Security

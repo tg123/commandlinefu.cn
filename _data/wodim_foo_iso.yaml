@@ -1,8 +1,0 @@
-commandlinefu_id: 4921
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wodim foo.iso
-summary: |-
-  Burn an ISO on commandline with wodim instead cdrecord

@@ -1,8 +1,0 @@
-commandlinefu_id: 11274
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp foo.txt foo.txt.tmp; sed '$ d' foo.txt.tmp > foo.txt; rm -f foo.txt.tmp
-summary: |-
-  Deleting / Ignoring tailer record from the file

@@ -1,8 +1,0 @@
-commandlinefu_id: 5708
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while :; do integer i=0; COL=$((RANDOM%$(tput cols))); ROW=$((RANDOM%$(tput cols))); while (( i <= COL)) do tput cup $i $ROW; echo "\033[1;34m" $(cat /dev/urandom | head -1 | cut -c1-1) 2>/dev/null; i=$(expr $i + 1); done done
-summary: |-
-  Blue Matrix

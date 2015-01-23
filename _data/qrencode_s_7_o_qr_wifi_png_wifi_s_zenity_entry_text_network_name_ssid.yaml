@@ -1,8 +1,7 @@
 commandlinefu_id: 13028
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   qrencode -s 7 -o qr-wifi.png "WIFI:S:$(zenity --entry --text="Network name (SSID)" --title="Create WiFi QR");T:WPA;P:$(zenity --password --title="Wifi Password");;"
 summary: |-
-  Generate QR code for a WiFi hotspot
+  生成wifi热点二维码

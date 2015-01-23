@@ -1,8 +1,0 @@
-commandlinefu_id: 7410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias connectAllMachines='Terminal  --maximize -e "ssh server1" --tab -e "ssh server2" --tab -e "ssh server3"'
-summary: |-
-  Alias to connect every single node of cluster

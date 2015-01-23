@@ -1,8 +1,0 @@
-commandlinefu_id: 7726
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -w /media/KINGSTON /proc/mounts | cut -d " " -f
-summary: |-
-  find the device when you only know the mount point

@@ -1,8 +1,0 @@
-commandlinefu_id: 4361
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VBoxManage controlvm ServidorProducao savestate
-summary: |-
-  Save VM running as headless

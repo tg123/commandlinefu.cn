@@ -1,8 +1,0 @@
-commandlinefu_id: 1422
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar cf - . | (cd /new/dir; tar xvf -)
-summary: |-
-  Copy files from one dir to another using tar.

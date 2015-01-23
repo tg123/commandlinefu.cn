@@ -1,8 +1,0 @@
-commandlinefu_id: 6511
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim txt.gz
-summary: |-
-  read txt or txt.gz files

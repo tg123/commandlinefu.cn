@@ -1,8 +1,0 @@
-commandlinefu_id: 4479
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-get install most && update-alternatives --set pager /usr/bin/most
-summary: |-
-  Colorful man

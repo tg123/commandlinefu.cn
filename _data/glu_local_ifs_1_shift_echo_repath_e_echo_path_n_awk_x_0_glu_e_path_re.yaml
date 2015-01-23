@@ -1,8 +1,0 @@
-commandlinefu_id: 8606
-translator:
-  weibo: ''
-hide: true
-command: |-
-  glu() { (local IFS="$1"; shift && echo "$*") }; repath() { ( _E=`echo "${PATH//:/$'\n'}" | awk '!x[$0]++'`; glu ":" $_E ) ; } ; PATH=`repath` ; export PATH
-summary: |-
-  Speed up builds and scripts, remove duplicate entries in $PATH.  Users scripts are oftern bad:  PATH=/apath:$PATH type of thing cause diplicate.

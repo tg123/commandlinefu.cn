@@ -1,8 +1,0 @@
-commandlinefu_id: 312
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.jpg" | perl -ne'chomp; $name = $_; $quote = chr(39); s/[$quote\\!]/_/ ; print "mv \"$name\" \"$_\"\n"'
-summary: |-
-  Renaming jpg extension files at bunch

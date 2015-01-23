@@ -1,8 +1,0 @@
-commandlinefu_id: 9306
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg -ser 'myfriend@gmail.com' file.txt
-summary: |-
-  encrypt file.txt using myfriend's pubkey && add your signature

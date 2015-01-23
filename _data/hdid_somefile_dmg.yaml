@@ -1,8 +1,0 @@
-commandlinefu_id: 4588
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hdid somefile.dmg
-summary: |-
-  Mount a disk image (dmg) file in Mac OSX

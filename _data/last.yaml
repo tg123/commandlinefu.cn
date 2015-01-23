@@ -1,8 +1,0 @@
-commandlinefu_id: 3243
-translator:
-  weibo: ''
-hide: true
-command: |-
-  last
-summary: |-
-  This command will tell the last login and reboot related information

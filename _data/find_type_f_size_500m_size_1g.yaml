@@ -1,8 +1,7 @@
 commandlinefu_id: 9749
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find / -type f -size +500M -size -1G
 summary: |-
-  Find all files larger than 500M and less than 1GB
+  查找所有大于500小于1G的文件

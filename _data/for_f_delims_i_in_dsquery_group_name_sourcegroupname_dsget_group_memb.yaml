@@ -1,8 +1,0 @@
-commandlinefu_id: 3638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for /F "DELIMS=""" %i in ('dsquery group -name SourceGroupName ^| dsget group -members') do dsquery group -name TargetGroupName | dsmod group -addmbr %i
-summary: |-
-  Get all members from one AD group and put them in another AD group

@@ -1,8 +1,7 @@
 commandlinefu_id: 6818
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   lsof -i -P | grep -i "listen"
 summary: |-
-  List all open ports and their owning executables
+  查看打开的端口

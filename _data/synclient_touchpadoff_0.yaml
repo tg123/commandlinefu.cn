@@ -1,8 +1,0 @@
-commandlinefu_id: 12111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  synclient TouchPadOff=0
-summary: |-
-  enable touchpad

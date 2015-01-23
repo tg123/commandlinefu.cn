@@ -1,8 +1,0 @@
-commandlinefu_id: 872
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for FILE in $(ls); do [COMMAND]; done
-summary: |-
-  small one-line loop, change for different taste :P

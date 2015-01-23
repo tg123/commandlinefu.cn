@@ -1,8 +1,7 @@
 commandlinefu_id: 1116
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps aux | awk '/name/ {print $2}'
 summary: |-
-  find a process id by name
+  通过名字找进程id

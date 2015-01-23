@@ -1,8 +1,7 @@
 commandlinefu_id: 13104
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed -n 's/.*\(\(\(^\| \)[0-9]\{1,3\}\.\)\{1\}\([0-9]\{1,3\}\.\)\{2\}[0-9]\{1,3\}\) .*/\1/gp'
 summary: |-
-  Extract ip addresses with sed
+  提取ip

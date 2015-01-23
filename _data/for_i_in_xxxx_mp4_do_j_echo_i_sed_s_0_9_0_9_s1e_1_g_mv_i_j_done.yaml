@@ -1,8 +1,0 @@
-commandlinefu_id: 13119
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in xxxx*.mp4; do j=`echo $i | sed 's/ - \([0-9][0-9]\). / S1E\1 - /g'`; mv "$i" "$j"; done
-summary: |-
-  File rename with regexp

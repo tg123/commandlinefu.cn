@@ -1,8 +1,0 @@
-commandlinefu_id: 10617
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd $OLDPWD
-summary: |-
-  change to the previous working directory

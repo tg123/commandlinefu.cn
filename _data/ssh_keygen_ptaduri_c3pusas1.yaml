@@ -1,8 +1,0 @@
-commandlinefu_id: 8476
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-keygen ptaduri@c3pusas1
-summary: |-
-  Copy ssh keys to user@host to enable password-less ssh logins.

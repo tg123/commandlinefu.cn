@@ -1,8 +1,0 @@
-commandlinefu_id: 13326
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (mountpoint -q "/media/mpdr1" && df /media/mpdr1/* > /dev/null 2>&1) || ((sudo umount "/media/mpdr1" > /dev/null 2>&1 || true) && (sudo mkdir "/media/mpdr1" > /dev/null 2>&1 || true) && sudo mount "/dev/sdd1" "/media/mpdr1")
-summary: |-
-  Silently ensures that a FS is mounted on the given mount point (checks if it's OK, otherwise unmount, create dir and mount)

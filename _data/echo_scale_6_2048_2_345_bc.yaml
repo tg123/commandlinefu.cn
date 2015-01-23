@@ -1,8 +1,0 @@
-commandlinefu_id: 5278
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "scale=6;2048 / 2.345" | bc
-summary: |-
-  get value after comma from an arithmetic operation

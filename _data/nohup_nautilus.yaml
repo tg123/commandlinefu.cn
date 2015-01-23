@@ -1,8 +1,0 @@
-commandlinefu_id: 5116
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nohup nautilus &
-summary: |-
-  nautilus

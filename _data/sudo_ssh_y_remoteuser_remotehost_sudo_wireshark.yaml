@@ -1,8 +1,0 @@
-commandlinefu_id: 4487
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ssh -Y remoteuser@remotehost sudo wireshark
-summary: |-
-  analyze traffic remotely over ssh w/ wireshark

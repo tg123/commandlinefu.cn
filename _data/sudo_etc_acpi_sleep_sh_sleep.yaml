@@ -1,8 +1,0 @@
-commandlinefu_id: 6233
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo /etc/acpi/sleep.sh sleep
-summary: |-
-  Suspend to ram

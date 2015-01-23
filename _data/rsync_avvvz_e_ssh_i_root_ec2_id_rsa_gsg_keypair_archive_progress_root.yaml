@@ -1,8 +1,0 @@
-commandlinefu_id: 4639
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -avvvz -e "ssh -i /root/.ec2/id_rsa-gsg-keypair" --archive --progress /root/.ec2/id_rsa-gsg-keypair root@ec2-75-101-212-113.compute-1.amazonaws.com:/root
-summary: |-
-  Upload - rsync using key pair

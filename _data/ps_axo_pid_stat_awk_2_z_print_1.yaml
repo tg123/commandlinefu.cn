@@ -1,0 +1,7 @@
+commandlinefu_id: 13872
+translator:
+  weibo: tgic
+command: |-
+  ps axo pid=,stat= | awk '$2~/^Z/ { print $1 }'
+summary: |-
+  所有僵尸进程

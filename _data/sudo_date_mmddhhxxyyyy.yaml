@@ -1,8 +1,0 @@
-commandlinefu_id: 405
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo date mmddhhxxyyyy
-summary: |-
-  set the time of system

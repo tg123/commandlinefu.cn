@@ -1,8 +1,0 @@
-commandlinefu_id: 4011
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while killall -USR1 dd; do sleep 5; done
-summary: |-
-  check the status of 'dd' in progress

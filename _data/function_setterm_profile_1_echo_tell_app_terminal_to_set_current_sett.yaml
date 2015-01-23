@@ -1,8 +1,0 @@
-commandlinefu_id: 5049
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function setTerm() { PROFILE=${1}; echo "tell app \"Terminal\" to set current settings of first window to settings set \"${PROFILE}\""|osascript; };
-summary: |-
-  OSX script to change Terminal profiles based on machine name;  use with case statement parameter matching

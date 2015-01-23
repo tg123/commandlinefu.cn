@@ -1,8 +1,0 @@
-commandlinefu_id: 11772
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Find files that have been changed by a Chef run today.
-summary: |-
-  find /var/chef/backup -name "*$(date +%Y%m%d)*"

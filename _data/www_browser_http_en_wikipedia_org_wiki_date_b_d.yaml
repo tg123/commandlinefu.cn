@@ -1,8 +1,0 @@
-commandlinefu_id: 8430
-translator:
-  weibo: ''
-hide: true
-command: |-
-  www-browser http://en.wikipedia.org/wiki/$(date +'%b_%d')
-summary: |-
-  What happened on this day in history?

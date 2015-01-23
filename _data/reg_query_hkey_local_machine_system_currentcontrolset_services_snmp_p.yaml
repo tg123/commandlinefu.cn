@@ -1,8 +1,0 @@
-commandlinefu_id: 1112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\ValidCommunities
-summary: |-
-  Verify Windows SNMP settings

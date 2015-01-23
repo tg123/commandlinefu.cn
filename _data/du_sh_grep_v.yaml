@@ -1,8 +1,7 @@
 commandlinefu_id: 5326
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -sh * | grep -v '\.\/\.'
 summary: |-
-  List complete size of directories (do not consider hidden directories)
+  统计目录大小 不算隐藏文件夹

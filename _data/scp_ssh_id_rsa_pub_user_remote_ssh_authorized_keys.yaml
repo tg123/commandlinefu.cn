@@ -1,8 +1,0 @@
-commandlinefu_id: 6447
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scp ~/.ssh/id_rsa.pub user@remote:.ssh/authorized_keys
-summary: |-
-  Install your ssh key file on a remote system

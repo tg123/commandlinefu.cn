@@ -1,8 +1,0 @@
-commandlinefu_id: 300
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Use history -S in your .logout file
-summary: |-
-  Save and merge tcsh history across windows and sessions

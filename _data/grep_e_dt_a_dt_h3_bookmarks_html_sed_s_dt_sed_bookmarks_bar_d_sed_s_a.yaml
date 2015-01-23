@@ -1,8 +1,0 @@
-commandlinefu_id: 8535
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -E '<DT><A|<DT><H3' bookmarks.html | sed 's/<DT>//' | sed '/Bookmarks bar/d' | sed 's/ ADD_DATE=\".*\"//g' | sed 's/^[ \t]*//' | tr '<A HREF' '<a href'
-summary: |-
-  convert chrome html export to folders, links and descriptions

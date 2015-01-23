@@ -1,8 +1,0 @@
-commandlinefu_id: 5944
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FOR /L %i IN (1,1,254) DO ping -n 1 10.254.254.%i | FIND /i "Reply">> c:\ipaddresses.txt
-summary: |-
-  find all active ip?s in a subnet

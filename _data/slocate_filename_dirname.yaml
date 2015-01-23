@@ -1,8 +1,0 @@
-commandlinefu_id: 3235
-translator:
-  weibo: ''
-hide: true
-command: |-
-  slocate filename/dirname
-summary: |-
-  securely locate file and dir

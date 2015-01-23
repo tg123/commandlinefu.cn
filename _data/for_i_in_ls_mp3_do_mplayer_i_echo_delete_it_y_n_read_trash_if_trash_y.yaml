@@ -1,8 +1,0 @@
-commandlinefu_id: 13022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(ls *.mp3); do mplayer $i && echo "delete it? [y/n]" && read trash && if [ "$trash" == "y" ]; then rm $i; fi; do
-summary: |-
-  Listen and sort your music, with prompt for deleting

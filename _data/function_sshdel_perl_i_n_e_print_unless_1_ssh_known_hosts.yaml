@@ -1,8 +1,0 @@
-commandlinefu_id: 44
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function sshdel { perl -i -n -e "print unless (\$. == $1)" ~/.ssh/known_hosts; }
-summary: |-
-  creates a bash function to remove certain lines from SSH known_hosts file

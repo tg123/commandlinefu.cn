@@ -1,0 +1,8 @@
+commandlinefu_id: 13869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  authplain() { echo -n "AUTH PLAIN "; echo -n \\0$1\\0$2\\0 | base64; }
+summary: |-
+  Create AUTH PLAIN string to test SMTP AUTH session

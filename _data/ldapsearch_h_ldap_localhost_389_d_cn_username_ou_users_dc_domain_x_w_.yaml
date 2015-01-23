@@ -1,8 +1,0 @@
-commandlinefu_id: 2403
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ldapsearch -H ldap://localhost:389 -D cn=username,ou=users,dc=domain -x -W -b ou=groups,dc=domain  '(member=cn=username,ou=users,dc=domain)' | grep ^dn | sed "s/dn\: cn=\([^,]*\),ou=\([^,]*\),.*/\2 \1/"
-summary: |-
-  search for groups in ldap

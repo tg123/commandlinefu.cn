@@ -1,0 +1,8 @@
+commandlinefu_id: 13908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -mtrace --trace aa.py
+summary: |-
+  python

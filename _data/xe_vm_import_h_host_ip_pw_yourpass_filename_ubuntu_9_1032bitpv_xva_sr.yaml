@@ -1,8 +1,0 @@
-commandlinefu_id: 6682
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xe vm-import -h <host ip> -pw <yourpass> filename=./Ubuntu-9.1032bitPV.xva sr-uuid=<your SR UUID>
-summary: |-
-  Import a virtual machine with XenServer

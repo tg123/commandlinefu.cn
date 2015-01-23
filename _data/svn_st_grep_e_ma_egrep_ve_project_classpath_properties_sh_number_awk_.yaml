@@ -1,8 +1,0 @@
-commandlinefu_id: 8058
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn st | grep -e [MA] | egrep -ve '.project|.classpath|.properties|.sh|.number'   | awk -F' ' '{ print $2}' | xargs svn ci -m "message"
-summary: |-
-  this svn script will commit all files excluding those with extensions {.project .classpath .properties .sh .number} and those with Status Modified or Added {M or A}

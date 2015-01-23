@@ -1,8 +1,7 @@
 commandlinefu_id: 2270
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ffmpeg -i input.flv -f mp3 -vn -acodec copy ouput.mp3
 summary: |-
-  extract audio from flv to mp3
+  从flv 中提取mp3

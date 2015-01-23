@@ -1,8 +1,0 @@
-commandlinefu_id: 3878
-translator:
-  weibo: ''
-hide: true
-command: |-
-  genpass() { local h x y;h=${1:-8};x=( {a..z} {A..Z} {0..9} );y=$(echo ${x[@]} | tr ' ' '\n' | shuf -n$h | xargs);echo -e "${y// /}"; }
-summary: |-
-  password generator

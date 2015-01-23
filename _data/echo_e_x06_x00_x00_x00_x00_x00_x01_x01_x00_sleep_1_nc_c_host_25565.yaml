@@ -1,8 +1,0 @@
-commandlinefu_id: 13616
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (echo -e '\x06\x00\x00\x00\x00\x00\x01\x01\x00'; sleep 1)|nc -c $host 25565
-summary: |-
-  Get Minecraft &#8805;1.7 Server info (online players etc.) JSON

@@ -1,8 +1,0 @@
-commandlinefu_id: 8312
-translator:
-  weibo: ''
-hide: true
-command: |-
-  current_dir=$(cd $(dirname $BASH_SOURCE);pwd)
-summary: |-
-  Find out the starting directory of a script

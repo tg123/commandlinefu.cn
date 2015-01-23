@@ -1,8 +1,7 @@
 commandlinefu_id: 3794
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ls | xargs -n1 gzip
 summary: |-
-  GZip all files in a directory separately
+  对文件夹下的每一个文件使用gzip进行压缩

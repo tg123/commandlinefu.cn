@@ -1,8 +1,0 @@
-commandlinefu_id: 13140
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -a -v --delete sending_directory target_directory
-summary: |-
-  Sync two directories

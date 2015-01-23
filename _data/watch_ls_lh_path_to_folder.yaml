@@ -1,8 +1,7 @@
 commandlinefu_id: 13294
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch ls -lh /path/to/folder
 summary: |-
-  Forgot to use pv or rsync
+  监控目录变化

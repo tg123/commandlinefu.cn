@@ -1,8 +1,0 @@
-commandlinefu_id: 7566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '<?php echo str_rot13 ("Hello World") ?>' > hw.php && php hw.php && rm hw.php
-summary: |-
-  a simple bash one-liner to create php file and call php function

@@ -1,8 +1,7 @@
 commandlinefu_id: 2395
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   open .
 summary: |-
-  Open Finder from the current Terminal location
+  在Finder打开当前目录(OSX)

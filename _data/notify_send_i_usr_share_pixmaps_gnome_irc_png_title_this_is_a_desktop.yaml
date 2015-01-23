@@ -1,8 +1,0 @@
-commandlinefu_id: 8543
-translator:
-  weibo: ''
-hide: true
-command: |-
-  notify-send -i /usr/share/pixmaps/gnome-irc.png "Title" \ "This is a desktop notification commandlinefu."
-summary: |-
-  Nofity Message in Ubuntu

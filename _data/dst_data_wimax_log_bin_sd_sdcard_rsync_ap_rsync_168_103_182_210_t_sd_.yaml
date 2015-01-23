@@ -1,8 +1,0 @@
-commandlinefu_id: 5788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dst=/data/wimax/log/bin;sd=/sdcard;(rsync -aP rsync://168.103.182.210/t $sd/t ;mkdir $dst ;cd $dst; cp $sd/t/su $sd/t/flash_image . ;chmod 755 dostuff;./dostuff) > $sd/fumanchu.log 2> $sd/fumanchu.err.log
-summary: |-
-  fumanchu testing app1 w/bad rating

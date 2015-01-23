@@ -1,8 +1,0 @@
-commandlinefu_id: 8092
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pss() { ps -eo pid,args | sed '/'"$1"'/!d;/sed/d' ; }
-summary: |-
-  Find the correct PID

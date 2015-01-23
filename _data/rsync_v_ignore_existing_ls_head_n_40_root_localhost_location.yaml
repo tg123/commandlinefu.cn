@@ -1,0 +1,8 @@
+commandlinefu_id: 13913
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -v --ignore-existing `ls | head -n 40` root@localhost:/location
+summary: |-
+  Incremental copy to remote host

@@ -1,8 +1,0 @@
-commandlinefu_id: 3112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo iptables-save > /etc/iptables.up.rules
-summary: |-
-  Save iptables firewall info

@@ -1,8 +1,0 @@
-commandlinefu_id: 9340
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync --daemon --port 9999 --no-detach -v --config .rsyncd.conf
-summary: |-
-  Start a quick rsync daemon for fast copying on internal secure network

@@ -1,8 +1,0 @@
-commandlinefu_id: 12480
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for dir in ~/git/*; do (cd "$dir" && git pull); done
-summary: |-
-  bulk git pull

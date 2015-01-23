@@ -1,8 +1,0 @@
-commandlinefu_id: 4437
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/ucb/ps -auxgww
-summary: |-
-  View entire process string

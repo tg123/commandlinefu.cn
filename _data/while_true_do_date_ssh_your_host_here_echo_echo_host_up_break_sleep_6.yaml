@@ -1,8 +1,0 @@
-commandlinefu_id: 8551
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do date; ssh <YOUR HOST HERE> "echo" && echo "HOST UP" && break; sleep 60; done
-summary: |-
-  monitor when target host will be up
