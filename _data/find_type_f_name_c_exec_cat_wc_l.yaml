@@ -1,8 +1,7 @@
 commandlinefu_id: 2812
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   find . -type f -name "*.c" -exec cat {} \; | wc -l
 summary: |-
-  Make a statistic about the lines of code
+  统计代码行数

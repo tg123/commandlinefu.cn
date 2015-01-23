@@ -1,8 +1,7 @@
 commandlinefu_id: 4650
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   dpkg -l | grep ^rc | awk '{print $2}' | sudo xargs dpkg -P
 summary: |-
-  Delete residues configuration files
+  删除残留的配置文件
