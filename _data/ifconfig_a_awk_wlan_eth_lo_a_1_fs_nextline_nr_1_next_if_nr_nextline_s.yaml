@@ -1,8 +1,7 @@
 commandlinefu_id: 5371
 translator:
-  weibo: ''
-hide: true
+  weibo: 'gdqyn'
 command: |-
   ifconfig -a| awk '/^wlan|^eth|^lo/ {;a=$1;FS=":"; nextline=NR+1; next}{ if (NR==nextline) { split($2,b," ")}{ if ($2 ~ /[0-9]\./) {print a,b[1]}; FS=" "}}'
 summary: |-
-  Show interface/ip using awk
+  列出接口的IP地址
