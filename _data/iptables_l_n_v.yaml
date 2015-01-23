@@ -1,8 +1,0 @@
-commandlinefu_id: 765
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -L -n -v
-summary: |-
-  View your machine firewall settings

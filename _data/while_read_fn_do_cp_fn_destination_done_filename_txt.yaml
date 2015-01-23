@@ -1,8 +1,0 @@
-commandlinefu_id: 12271
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (while read fn; do; cp "$fn" $DESTINATION\.; done<filename.txt)
-summary: |-
-  copy files listed in a text file

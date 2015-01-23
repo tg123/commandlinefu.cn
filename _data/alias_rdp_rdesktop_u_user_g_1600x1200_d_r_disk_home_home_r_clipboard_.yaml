@@ -1,8 +1,0 @@
-commandlinefu_id: 7799
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias rdp='rdesktop -u <user> -g 1600x1200 -D -r disk:home=/home -r clipboard:PRIMARYCLIPBOARD'
-summary: |-
-  Quick Full Screen RDP connection

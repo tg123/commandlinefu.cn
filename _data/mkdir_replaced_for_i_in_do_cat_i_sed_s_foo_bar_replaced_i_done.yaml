@@ -1,8 +1,0 @@
-commandlinefu_id: 9150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir replaced;for i in *; do cat "$i"| sed 's/foo/bar/' > "replaced/$i"; done
-summary: |-
-  replace text in all files in folder, into subfolder

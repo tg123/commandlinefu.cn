@@ -1,8 +1,0 @@
-commandlinefu_id: 6111
-translator:
-  weibo: particle128
-hide: true
-command: |-
-  find * ! -name abc | xargs rm
-summary: |-
-  删除除了abc之外的所有文件

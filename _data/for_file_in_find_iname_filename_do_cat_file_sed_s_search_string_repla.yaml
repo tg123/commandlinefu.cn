@@ -1,8 +1,0 @@
-commandlinefu_id: 4930
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in `find . -iname "FILENAME"`; do cat $file | sed "s/SEARCH_STRING/REPLACE_STRING/" > $file.tmp; mv $file.tmp $file; done
-summary: |-
-  a find and replace within text-based files, for batch text replacement, not using perl

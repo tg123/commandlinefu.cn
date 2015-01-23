@@ -1,8 +1,7 @@
 commandlinefu_id: 3834
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo start > battery.txt; watch -n 60 'date >> battery.txt ; acpi -b >> battery.txt'
 summary: |-
-  Battery real life energy vs predicted remaining plotted
+  每隔一段时间，显示电池电源的使用状况

@@ -1,8 +1,0 @@
-commandlinefu_id: 13577
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mknod replypipe p; nc -k -lp 1234 < replypipe| nc -U /var/run/mysocket.sock > replypipe
-summary: |-
-  tiny proxy in shell to receive on port and write on unix socket

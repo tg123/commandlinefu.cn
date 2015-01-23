@@ -1,8 +1,0 @@
-commandlinefu_id: 5401
-translator:
-  weibo: ''
-hide: true
-command: |-
-  APP=wine; if [ $(sudo apt-get --print-uris -y install $APP | sed -ne 's/^After this operation, \([0-9]\{1,\}\).*MB.*/\1/p') -gt 50 ]; then gnometris 2>/dev/null & sudo apt-get install $APP; else sudo apt-get install $APP; fi
-summary: |-
-  Launch a game, like Tetris, when apt-get installing an app larger than 50 Megabytes

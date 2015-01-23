@@ -1,8 +1,7 @@
 commandlinefu_id: 7017
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps uw --ppid $PID
 summary: |-
-  Given $PID, print all child processes on stdout
+  查看进程PID 的 孩子们

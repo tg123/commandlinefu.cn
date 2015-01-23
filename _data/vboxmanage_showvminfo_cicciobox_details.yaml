@@ -1,8 +1,0 @@
-commandlinefu_id: 5445
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VBoxManage showvminfo "cicciobox" --details
-summary: |-
-  Verify the virtual machine status

@@ -1,8 +1,7 @@
 commandlinefu_id: 10980
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ifconfig | grep "inet" | tail -1 | awk '{print $2}'
 summary: |-
-  Get the IP address
+  获取ip地址

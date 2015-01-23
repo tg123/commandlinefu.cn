@@ -1,8 +1,0 @@
-commandlinefu_id: 1695
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls \\someserver\c$\inetpub\wwwroot -r -i web.config | Select-String "SomeMachineName"
-summary: |-
-  find all references to a server in web.config files with powershell

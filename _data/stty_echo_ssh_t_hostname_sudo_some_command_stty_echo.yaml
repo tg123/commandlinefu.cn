@@ -1,8 +1,7 @@
 commandlinefu_id: 1355
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   stty -echo; ssh -t HOSTNAME "sudo some_command"; stty echo
 summary: |-
-  Execute a sudo command remotely, without displaying the password
+  远程执行一个sudo命令，并且不回显密码（stty -echo关闭回显）

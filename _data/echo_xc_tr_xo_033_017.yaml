@@ -1,8 +1,0 @@
-commandlinefu_id: 326
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Xc" | tr "Xo" "\033\017
-summary: |-
-  reset the bizzarre gone junk terminal to normal

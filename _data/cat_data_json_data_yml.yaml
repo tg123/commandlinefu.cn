@@ -1,8 +1,0 @@
-commandlinefu_id: 12227
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat data.json >data.yml
-summary: |-
-  Convert JSON to YAML

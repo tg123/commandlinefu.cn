@@ -1,8 +1,7 @@
 commandlinefu_id: 9534
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo $0
 summary: |-
-  Displays what shell you are using.
+  显示shell名字

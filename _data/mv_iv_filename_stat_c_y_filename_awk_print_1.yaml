@@ -1,0 +1,8 @@
+commandlinefu_id: 13883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv -iv $FILENAME{,.$(stat -c %y $FILENAME | awk '{print $1}')}
+summary: |-
+  Rename file to same name plus datestamp of last modification.

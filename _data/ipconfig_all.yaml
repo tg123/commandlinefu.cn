@@ -1,8 +1,0 @@
-commandlinefu_id: 1374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ipconfig /all
-summary: |-
-  get all the data about your IP configuration across all network cards

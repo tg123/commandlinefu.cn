@@ -1,8 +1,0 @@
-commandlinefu_id: 10475
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while :; do :; done
-summary: |-
-  CPU sucker

@@ -1,8 +1,0 @@
-commandlinefu_id: 8915
-translator:
-  weibo: ''
-hide: true
-command: |-
-  locate -i yourfilename | sed 's/ /\\ /g' | xargs ls -lah | less
-summary: |-
-  do a full file listing of every file found with locate

@@ -1,8 +1,0 @@
-commandlinefu_id: 11426
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls /var/log/sa/sa[0-9]*|xargs -I '{}' sar -u -f {}|awk '/^[0-9]/&&!/^12:00:01|RESTART|CPU/{print "%user: "$4" %system: "$6" %iowait: "$7" %nice: "$5" %idle: "$9}'|sort -nk10|head
-summary: |-
-  SAR - List top CPU usage spikes over the last month using sar.

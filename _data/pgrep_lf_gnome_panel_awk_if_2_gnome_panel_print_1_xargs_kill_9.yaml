@@ -1,8 +1,0 @@
-commandlinefu_id: 8626
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep -lf gnome-panel | awk '{if ($2=="gnome-panel") print $1}' | xargs kill -9
-summary: |-
-  Reload gnome-panel

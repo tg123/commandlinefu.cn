@@ -1,8 +1,0 @@
-commandlinefu_id: 5299
-translator:
-  weibo: ''
-hide: true
-command: |-
-  prefix="10.0.0" && for i in `seq 25`; do ping -c 1 $prefix.$i &> /dev/null && echo "Answer from: $prefix.$i" ; done
-summary: |-
-  Ping scanning without nmap

@@ -1,8 +1,7 @@
 commandlinefu_id: 4970
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   svn status | grep -v ? | awk '{print $2}' > file.svn.txt && svn ci --targets file.svn.txt -m "[your commit message here]"
 summary: |-
-  Commit current modified or added files in current svn repository
+  提交被修改或新增的文件到当前svn版本库中

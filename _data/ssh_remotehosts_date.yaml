@@ -1,8 +1,0 @@
-commandlinefu_id: 11498
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh remotehosts;date
-summary: |-
-  show you the time when you lost the remote server.

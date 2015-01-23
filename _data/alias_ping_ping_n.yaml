@@ -1,8 +1,0 @@
-commandlinefu_id: 7692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias ping='ping -n'
-summary: |-
-  make ping run a little faster

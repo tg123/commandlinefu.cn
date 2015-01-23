@@ -1,0 +1,8 @@
+commandlinefu_id: 13882
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [ -e ~/.ssh/id_rsa.pub ] ; then echo $'\033[1;31m' ; cat ~/.ssh/id_rsa.pub ; echo $'\033[0m' ; else ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -t rsa -P ""; echo $'\033[1;31m' ; cat ~/.ssh/id_rsa.pub ; echo $'\033[0m'; fi
+summary: |-
+  Have a user generate an ssh key if it does not already exist and spit it in bold red to stdout

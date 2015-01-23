@@ -1,8 +1,0 @@
-commandlinefu_id: 5648
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall rapidly_spawning_process ; killall rapidly_spawning_process ; killall rapidly_spawning_process
-summary: |-
-  kills rapidly spawning processes that spawn faster than you can repeat the killall command

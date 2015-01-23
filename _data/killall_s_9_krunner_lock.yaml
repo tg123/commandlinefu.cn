@@ -1,8 +1,0 @@
-commandlinefu_id: 2264
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -s 9 krunner_lock
-summary: |-
-  Unlock your KDE4 session remotely (for boxes locked by KDE lock utility)

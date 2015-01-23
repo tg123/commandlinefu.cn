@@ -1,8 +1,0 @@
-commandlinefu_id: 2061
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c "import socket; print '\n'.join(socket.gethostbyname_ex(socket.gethostname())[2])"
-summary: |-
-  One-Liner to Display IP Addresses

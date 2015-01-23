@@ -1,0 +1,8 @@
+commandlinefu_id: 13896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hs * |egrep -i "^(\s?\d+\.?\d+G)"
+summary: |-
+  List only X byte files in the current directory

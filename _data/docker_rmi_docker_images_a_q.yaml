@@ -1,0 +1,8 @@
+commandlinefu_id: 13853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker rmi $(docker images -a -q)
+summary: |-
+  Docker - delete unused images

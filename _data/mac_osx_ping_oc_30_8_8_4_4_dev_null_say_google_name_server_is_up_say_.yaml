@@ -1,8 +1,0 @@
-commandlinefu_id: 13611
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Mac OSX: ping -oc 30 8.8.4.4  > /dev/null && say "Google name server is up" || say "This host is down"
-summary: |-
-  ping a host until it responds, then play a sound, then exit

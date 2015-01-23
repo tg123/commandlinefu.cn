@@ -1,8 +1,0 @@
-commandlinefu_id: 4635
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zip -r -9 /var/www/html/project.zip /var/www/html/project
-summary: |-
-  Project Zipped

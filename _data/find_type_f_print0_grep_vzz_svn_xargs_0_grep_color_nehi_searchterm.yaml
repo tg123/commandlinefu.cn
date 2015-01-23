@@ -1,8 +1,0 @@
-commandlinefu_id: 59
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -print0 | grep -vzZ '.svn' | xargs -0 grep --color -nEHi "SEARCHTERM"
-summary: |-
-  Search through files, ignoring .svn

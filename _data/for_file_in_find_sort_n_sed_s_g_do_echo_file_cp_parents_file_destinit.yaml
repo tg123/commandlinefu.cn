@@ -1,8 +1,0 @@
-commandlinefu_id: 8511
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in `find *| sort -n | sed 's% %?%g'`; do echo "${file//?/ }"; cp --parents "${file//?/ }" /destinity_folder/ ;done
-summary: |-
-  Recursive and alphabetical orderly cp

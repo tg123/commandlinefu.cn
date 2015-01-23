@@ -1,8 +1,0 @@
-commandlinefu_id: 7252
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unrar x *.rar
-summary: |-
-  unpack all rars in current folder

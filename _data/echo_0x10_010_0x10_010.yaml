@@ -1,8 +1,7 @@
 commandlinefu_id: 2385
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "$(( 0x10 )) - $(( 010 )) = $(( 0x10 - 010 ))"
 summary: |-
-  Super Speedy Hexadecimal or Octal Calculations and Conversions to Decimal.
+  快速的16 和 8 进制计算器

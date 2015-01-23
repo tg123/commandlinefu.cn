@@ -1,8 +1,7 @@
 commandlinefu_id: 10060
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -t | head
 summary: |-
-  Show last changed files in a directory
+  查看最后修改的文件

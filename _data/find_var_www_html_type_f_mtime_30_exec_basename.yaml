@@ -1,8 +1,7 @@
 commandlinefu_id: 2126
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find /var/www/html/ -type f -mtime +30 -exec basename {} \;
 summary: |-
-  Search for files  older than 30 days in a directory and list only their names not the full path
+  搜索文件夹中修改时间在30天之前的文件，仅列出它们的文件名而非完整路径

@@ -1,8 +1,0 @@
-commandlinefu_id: 923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  airmon-ng start <interface> <channel>
-summary: |-
-  Put the wireless card into monitor mode

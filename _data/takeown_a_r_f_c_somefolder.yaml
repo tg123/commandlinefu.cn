@@ -1,8 +1,0 @@
-commandlinefu_id: 12661
-translator:
-  weibo: ''
-hide: true
-command: |-
-  TAKEOWN /A /R /F c:\SomeFolder
-summary: |-
-  Reset ownership of a folder/subfolders

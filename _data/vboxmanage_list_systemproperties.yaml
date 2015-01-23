@@ -1,8 +1,0 @@
-commandlinefu_id: 5444
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VBoxManage list systemproperties
-summary: |-
-  Show the system properties in a Sun VirtualBox server

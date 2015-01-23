@@ -1,8 +1,0 @@
-commandlinefu_id: 5168
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rstp priority 0
-summary: |-
-  802-1w (RSTP) 'root port' hard code, Foundry (Brocade) RX and MLX BigIron L3 (routers & switches)

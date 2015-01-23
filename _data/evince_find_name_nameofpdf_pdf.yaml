@@ -1,8 +1,0 @@
-commandlinefu_id: 5275
-translator:
-  weibo: ''
-hide: true
-command: |-
-  evince "$(find -name 'NameOfPdf.pdf')"
-summary: |-
-  Find a specific pdf file (given part of its name) and open it

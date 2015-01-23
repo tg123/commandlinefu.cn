@@ -1,8 +1,7 @@
 commandlinefu_id: 8200
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   nc -z <IP> <TCP port>  OR   nc -zu <IP> <UDP port>
 summary: |-
-  test connection to a remote IP / port
+  检查远端端口

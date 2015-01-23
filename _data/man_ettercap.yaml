@@ -1,8 +1,0 @@
-commandlinefu_id: 4725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man ettercap
-summary: |-
-  ettercap manual

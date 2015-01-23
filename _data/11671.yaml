@@ -1,8 +1,0 @@
-commandlinefu_id: 11678
-translator:
-  weibo: ''
-hide: true
-command: |-
-  #11671
-summary: |-
-  Command to find filesystem type

@@ -1,8 +1,0 @@
-commandlinefu_id: 4715
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `netstat -rn |grep lan |cut -c55-60 |sort |uniq`; do ifconfig $i; done
-summary: |-
-  Equivalent to ifconfig -a in HPUX

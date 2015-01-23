@@ -1,8 +1,0 @@
-commandlinefu_id: 608
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn st | grep /main/java | awk '{print $2}' | xargs echo | xargs svn ci -m "my comment here"
-summary: |-
-  Commit all the changes in your java code

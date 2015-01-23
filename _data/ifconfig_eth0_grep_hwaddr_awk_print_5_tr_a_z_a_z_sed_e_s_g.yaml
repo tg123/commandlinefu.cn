@@ -1,8 +1,0 @@
-commandlinefu_id: 5918
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | grep 'HWaddr' | awk '{print $5}' | tr 'a-z' 'A-Z' | sed -e 's/://g'
-summary: |-
-  Get the mac address of eth0 in uppercase minus the colons

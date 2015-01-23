@@ -1,8 +1,0 @@
-commandlinefu_id: 10930
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "fullcalib4.csv" -exec tail -n1 \{\} \; >>all.csv
-summary: |-
-  collect fullcalib data

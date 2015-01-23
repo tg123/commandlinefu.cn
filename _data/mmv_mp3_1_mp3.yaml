@@ -1,8 +1,0 @@
-commandlinefu_id: 8026
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mmv "*-*.mp3" "#1.mp3"
-summary: |-
-  Batch file suffix renaming

@@ -1,8 +1,0 @@
-commandlinefu_id: 12283
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch w
-summary: |-
-  Show who is logged on and find out what they are doing

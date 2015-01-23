@@ -1,8 +1,0 @@
-commandlinefu_id: 695
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perfmon.msc
-summary: |-
-  Performance Monitor: Windows 2000, XP

@@ -1,8 +1,0 @@
-commandlinefu_id: 5699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -rl --time-style=+%s * | sed '/^$/,/^total [0-9]*$/d' | sort -nk6
-summary: |-
-  Find files and list them sorted by modification time

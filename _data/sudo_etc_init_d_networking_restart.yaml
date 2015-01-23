@@ -1,8 +1,0 @@
-commandlinefu_id: 750
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo /etc/init.d/networking restart
-summary: |-
-  restart network manager

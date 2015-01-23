@@ -1,8 +1,0 @@
-commandlinefu_id: 8447
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gconf-editor /apps/evolution/mail/composer/no_signature_delim false
-summary: |-
-  Remove two dashes ('--') before signature in Evolution Mail (>2.30.x)

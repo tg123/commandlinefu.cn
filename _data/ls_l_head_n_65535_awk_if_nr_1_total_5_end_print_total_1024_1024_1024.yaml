@@ -1,0 +1,8 @@
+commandlinefu_id: 13914
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l | head -n 65535 | awk '{if (NR > 1) total += $5} END {print total/(1024*1024*1024)}'
+summary: |-
+  Calculate files' size

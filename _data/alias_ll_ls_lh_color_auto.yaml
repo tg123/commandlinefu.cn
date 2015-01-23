@@ -1,8 +1,0 @@
-commandlinefu_id: 409
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias ll="ls -lh --color=auto"
-summary: |-
-  Nice directory listings

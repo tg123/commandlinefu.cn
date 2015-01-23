@@ -1,8 +1,0 @@
-commandlinefu_id: 8832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  MAC=$((date +'%Y%m%d%H%M%S%N'; cat /proc/interrupts) | md5sum | sed -r 's/(..)/\1:/g' | cut -d: -f 1-6)
-summary: |-
-  Generat a Random MAC address

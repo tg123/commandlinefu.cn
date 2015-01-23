@@ -1,8 +1,0 @@
-commandlinefu_id: 4413
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sfdisk /dev/sdb <(sfdisk -d /dev/sda| perl -pi -e 's/sda/sdb/g')
-summary: |-
-  copy partition table from /dev/sda to /dev/sdb

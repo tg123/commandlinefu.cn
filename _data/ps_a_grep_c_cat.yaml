@@ -1,8 +1,7 @@
 commandlinefu_id: 6620
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -a | grep -c cat
 summary: |-
-  count how many cat processes are running
+  查看有多少个cat进程

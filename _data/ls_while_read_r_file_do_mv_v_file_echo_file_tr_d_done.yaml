@@ -1,8 +1,0 @@
-commandlinefu_id: 6329
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | while read -r FILE; do mv -v "$FILE" `echo $FILE | tr -d ' '`; done
-summary: |-
-  Replace spaces in filename

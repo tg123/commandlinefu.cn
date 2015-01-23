@@ -1,8 +1,0 @@
-commandlinefu_id: 5957
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zip -r homard homard -x homard/.git\*; cp ./homard.zip /path_to_dropbox_public_folder/homard.zip
-summary: |-
-  bash script to zip a folder while ignoring git files and copying it to dropbox

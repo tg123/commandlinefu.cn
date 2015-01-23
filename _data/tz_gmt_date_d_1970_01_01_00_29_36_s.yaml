@@ -1,8 +1,0 @@
-commandlinefu_id: 9613
-translator:
-  weibo: ''
-hide: true
-command: |-
-  TZ=GMT date -d "1970/01/01 00:29:36" +%s
-summary: |-
-  Convert HH:MM:SS into seconds

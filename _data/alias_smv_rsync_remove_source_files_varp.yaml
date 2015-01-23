@@ -1,0 +1,8 @@
+commandlinefu_id: 13843
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias smv="rsync --remove-source-files -varP"
+summary: |-
+  securely move with rsync

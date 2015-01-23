@@ -1,8 +1,0 @@
-commandlinefu_id: 12252
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -X -l user 192.168.1.25
-summary: |-
-  Running applications require X in ssh

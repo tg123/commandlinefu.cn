@@ -1,8 +1,0 @@
-commandlinefu_id: 2496
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "-------------" >> nicinfo.txt; echo "computer name x" >> nicinfo.txt; ifconfig | grep status >> nicinfo.txt; ifconfig | grep inet >> nicinfo.txt; ifconfig | grep ether >> nicinfo.txt; hostinfo | grep type >> nicinfo.txt;
-summary: |-
-  get linkspeed, ip-adress, mac-address and processor type from osx

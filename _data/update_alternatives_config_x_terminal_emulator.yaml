@@ -1,8 +1,0 @@
-commandlinefu_id: 650
-translator:
-  weibo: ''
-hide: true
-command: |-
-  update-alternatives --config x-terminal-emulator
-summary: |-
-  Change default terminal emulator

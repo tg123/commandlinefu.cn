@@ -1,8 +1,0 @@
-commandlinefu_id: 11717
-translator:
-  weibo: ''
-hide: true
-command: |-
-  copy /b part.1 + part.2 + part.n file.extension
-summary: |-
-  Join multipart archive in binary mode under Windows with command line

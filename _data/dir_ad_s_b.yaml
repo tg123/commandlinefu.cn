@@ -1,8 +1,0 @@
-commandlinefu_id: 11089
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dir /ad /s /b
-summary: |-
-  Make a list of files, folders and subfolders from windows command prompt

@@ -1,8 +1,7 @@
 commandlinefu_id: 9384
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   netstat -plnt
 summary: |-
-  check open ports (both ipv4 and ipv6)
+  显示当前激活的tcp连接（支持IPv4和IPv6）

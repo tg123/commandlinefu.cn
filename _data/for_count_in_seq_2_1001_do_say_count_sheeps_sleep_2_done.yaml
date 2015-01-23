@@ -1,8 +1,7 @@
 commandlinefu_id: 11809
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for count in $(seq 2 1001); do say "$count sheeps";sleep 2;done
 summary: |-
-  Hypnosis
+  催眠

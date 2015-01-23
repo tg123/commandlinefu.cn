@@ -1,8 +1,0 @@
-commandlinefu_id: 4451
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c "import socket; s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM); s.connect(('google.com', 80)); print s.getsockname()[0]"
-summary: |-
-  Get your public ip

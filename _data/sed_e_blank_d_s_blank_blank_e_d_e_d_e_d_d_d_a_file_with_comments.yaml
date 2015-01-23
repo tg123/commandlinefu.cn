@@ -1,8 +1,0 @@
-commandlinefu_id: 4031
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e '/^[[:blank:]]*#/d; s/[[:blank:]][[:blank:]]*#.*//'  -e '/^$/d' -e '/^\/\/.*/d' -e '/^\/\*/d;/^ \* /d;/^ \*\//d' /a/file/with/comments
-summary: |-
-  Show a script or config file without comments

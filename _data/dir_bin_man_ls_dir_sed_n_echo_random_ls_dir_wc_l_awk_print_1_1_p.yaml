@@ -1,8 +1,0 @@
-commandlinefu_id: 6387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dir="/bin"; man $(ls $dir |sed -n "$(echo $(( $RANDOM % $(ls $dir |wc -l | awk "{ print $1; }" ) + 1 )) )p")
-summary: |-
-  Display a random man page

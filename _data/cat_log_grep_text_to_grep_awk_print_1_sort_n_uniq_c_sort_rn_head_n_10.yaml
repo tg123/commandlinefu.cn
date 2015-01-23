@@ -1,8 +1,0 @@
-commandlinefu_id: 13539
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat "log" | grep "text to grep" | awk '{print $1}' |  sort -n | uniq -c | sort -rn | head -n 100
-summary: |-
-  Parse logs for IP addresses and how many hits from each IP

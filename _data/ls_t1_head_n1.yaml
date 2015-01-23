@@ -1,8 +1,7 @@
 commandlinefu_id: 8539
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -t1 | head -n1
 summary: |-
-  get newest file in current directory
+  查看最新的文件

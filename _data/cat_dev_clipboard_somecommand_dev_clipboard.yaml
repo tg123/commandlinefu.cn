@@ -1,8 +1,7 @@
 commandlinefu_id: 2621
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat /dev/clipboard; $(somecommand) > /dev/clipboard
 summary: |-
-  Use Cygwin to talk to the Windows clipboard
+  在cygwin 使用剪切版

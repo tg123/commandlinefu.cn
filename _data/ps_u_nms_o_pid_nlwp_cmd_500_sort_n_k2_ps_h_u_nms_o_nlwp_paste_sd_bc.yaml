@@ -1,0 +1,8 @@
+commandlinefu_id: 13873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ( ps -U nms -o pid,nlwp,cmd:500 | sort -n -k2) && (ps h -U nms -o nlwp | paste -sd+ | bc)
+summary: |-
+  Thread count by process, sorted + total

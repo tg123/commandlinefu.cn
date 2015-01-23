@@ -1,8 +1,0 @@
-commandlinefu_id: 11443
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for k in `git branch -r|awk '{print $1}'`;do echo -e `git show --pretty=format:"%Cgreen%ci_%C(blue)%c r_%Cred%cn_%Creset" $k|head -n 1`$k;done|sort -r|awk -F"_" '{printf("%s %17s %-22s %s\n",$1,$2,$3,$4)}'
-summary: |-
-  Show git branches by date - useful for showing active branches

@@ -1,8 +1,0 @@
-commandlinefu_id: 8994
-translator:
-  weibo: ''
-hide: true
-command: |-
-  TIME=$( { time redis-cli PING; } 2>&1 ) ; echo $TIME | awk '{print $3}' | sed 's/0m//; s/\.//; s/s//; s/^0.[^[1-9]*//g;'
-summary: |-
-  Time redis ping in thousands of a second.

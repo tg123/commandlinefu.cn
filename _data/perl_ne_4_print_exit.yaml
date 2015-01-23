@@ -1,8 +1,0 @@
-commandlinefu_id: 9191
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -ne '$. == 4 && print && exit'
-summary: |-
-  Print just line 4 from a textfile

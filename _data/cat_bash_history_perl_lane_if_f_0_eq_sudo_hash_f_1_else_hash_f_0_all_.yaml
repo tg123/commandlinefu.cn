@@ -1,8 +1,7 @@
 commandlinefu_id: 10942
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat ~/.bash_history | perl -lane 'if($F[0] eq "sudo"){$hash{$F[1]}++}else{$hash{$F[0]}++};$all++;END {@top = map {[$_, $hash{$_}]} sort {$hash{$b}<=>$hash{$a}} keys %hash;printf("%10s%10d%10.2f%%\n", $_->[0],$_->[1],$_->[1]/$all*100) for @top[0..9]}'
 summary: |-
-  top ten shell command in bash shell
+  显示你在Bash中最常用的10个命令，perl版本

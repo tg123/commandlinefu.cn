@@ -1,8 +1,0 @@
-commandlinefu_id: 8783
-translator:
-  weibo: ''
-hide: true
-command: |-
-  SEARCHPATH=/var/; find $SEARCHPATH -type d -print0 | xargs -0 du -s 2> /dev/null | sort -nr | sed 's|^.*'$SEARCHPATH'|'$SEARCHPATH'|' | xargs du -sh 2> /dev/null
-summary: |-
-  List by size all of the directories in a given tree.

@@ -1,7 +1,0 @@
-commandlinefu_id: 8247
-translator:
-  weibo: tgic
-command: |-
-  function command_not_found_handle(){ apt-get install $( apt-file search "$1" | grep bin | grep -w "$1" | head -n1 | cut -d ':' -f 1 ) && $* ; }
-summary: |-
-  找不到命令时候自动安装(apt)

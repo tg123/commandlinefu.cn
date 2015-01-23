@@ -1,8 +1,0 @@
-commandlinefu_id: 8279
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ack hoge .
-summary: |-
-  grep 'hoge' **/*  => Argument list too long

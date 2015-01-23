@@ -1,8 +1,7 @@
 commandlinefu_id: 8327
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -tulpnc
 summary: |-
-  showing opened ports on machine
+  查看开放的端口

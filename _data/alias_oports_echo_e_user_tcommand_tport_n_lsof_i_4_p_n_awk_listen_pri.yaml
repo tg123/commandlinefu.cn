@@ -1,8 +1,0 @@
-commandlinefu_id: 8963
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias oports="echo -e "User:\tCommand:\tPort:\n----------------------------" && lsof -i 4 -P -n | awk '/LISTEN/ {print $3, $1, $9}' | sed 's/ [a-z0-9\.\*]*:/ /' | sort -u -k 3 -n | xargs printf '%-10s %-10s %-10s\n'"
-summary: |-
-  lsof - cleaned up for just open listening ports, the process, and the owner of the process

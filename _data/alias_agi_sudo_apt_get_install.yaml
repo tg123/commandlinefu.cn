@@ -1,8 +1,0 @@
-commandlinefu_id: 332
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias agi='sudo apt-get install'
-summary: |-
-  Fast install software in Ubuntu

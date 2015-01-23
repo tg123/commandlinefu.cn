@@ -1,8 +1,0 @@
-commandlinefu_id: 10027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  makeself <archive_dir> <file_name> <label>
-summary: |-
-  self-extractable archives

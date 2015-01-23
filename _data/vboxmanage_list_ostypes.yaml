@@ -1,8 +1,0 @@
-commandlinefu_id: 5446
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VBoxManage list ostypes
-summary: |-
-  List the supported OS in VirtualBox

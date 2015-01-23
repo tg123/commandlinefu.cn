@@ -1,8 +1,0 @@
-commandlinefu_id: 9300
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo service bluetooth restart
-summary: |-
-  restart Bluetooth from terminal

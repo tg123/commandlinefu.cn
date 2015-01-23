@@ -1,8 +1,0 @@
-commandlinefu_id: 1901
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la
-summary: |-
-  List all files & directories in the current directory

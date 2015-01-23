@@ -1,8 +1,0 @@
-commandlinefu_id: 9082
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkfifo ._b; nc -lk 4201 0<._b | /bin/bash &>._b;
-summary: |-
-  execute a shell with netcat without -e

@@ -1,8 +1,0 @@
-commandlinefu_id: 6646
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --proxy-server=socks5://HOST:PORT
-summary: |-
-  Start Chrome with socks on Mac OSX

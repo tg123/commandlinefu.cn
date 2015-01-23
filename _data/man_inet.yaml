@@ -1,8 +1,0 @@
-commandlinefu_id: 13377
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man inet
-summary: |-
-  A description of internet protocol

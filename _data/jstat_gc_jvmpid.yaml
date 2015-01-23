@@ -1,8 +1,7 @@
 commandlinefu_id: 204
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   jstat -gc [jvmpid]
 summary: |-
-  JVM Garbage Collector Stats
+  JVM垃圾回收的状态

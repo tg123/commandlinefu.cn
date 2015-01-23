@@ -1,8 +1,0 @@
-commandlinefu_id: 2347
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while (( $i != 0 )) { smbstatus; sleep 5; clear }
-summary: |-
-  See smbstatus all the time

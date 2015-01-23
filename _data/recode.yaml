@@ -1,8 +1,0 @@
-commandlinefu_id: 7093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  recode
-summary: |-
-  Modificar o enconding de todos arquivos de um diret?rio

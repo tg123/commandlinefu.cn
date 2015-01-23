@@ -1,8 +1,0 @@
-commandlinefu_id: 1187
-translator:
-  weibo: ''
-hide: true
-command: |-
-  declare -i aa ; aa=3*8 ; echo $aa
-summary: |-
-  declare variable as integer

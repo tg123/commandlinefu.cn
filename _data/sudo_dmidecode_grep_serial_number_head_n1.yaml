@@ -1,8 +1,7 @@
 commandlinefu_id: 944
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo dmidecode | grep Serial\ Number | head -n1
 summary: |-
-  Get Dell Service Tag Number from a Dell Machine
+  获取dell服务编号

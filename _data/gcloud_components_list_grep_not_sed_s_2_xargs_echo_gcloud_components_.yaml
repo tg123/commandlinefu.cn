@@ -1,8 +1,0 @@
-commandlinefu_id: 13753
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gcloud components list | grep "^| Not" | sed "s/|\(.*\)|\(.*\)|\(.*\)|/\2/" | xargs echo gcloud components update
-summary: |-
-  Install every (not already installed) component of the Google Cloud SDK

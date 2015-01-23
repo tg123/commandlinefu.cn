@@ -1,8 +1,0 @@
-commandlinefu_id: 12507
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ 1 ]; do echo -e "220 ProFTPD 1.3.3c Server [ProFTPD] \nFAILED FTP ATTEMPT  -  PORT 21" | nc -vvv -l 192.168.1.65 21 >> /var/log/honeylog.log 2>> /var/log/honeylog.log; done
-summary: |-
-  Netcat ftp honeypot centos linux (use port 22 for SSH)

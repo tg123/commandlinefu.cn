@@ -1,8 +1,0 @@
-commandlinefu_id: 74
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo rm -rf /
-summary: |-
-  Best line eva!

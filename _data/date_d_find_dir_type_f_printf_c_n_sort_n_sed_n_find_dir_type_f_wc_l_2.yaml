@@ -1,8 +1,0 @@
-commandlinefu_id: 1633
-translator:
-  weibo: ''
-hide: true
-command: |-
-  date -d "@$(find dir -type f -printf '%C@\n' | sort -n | sed -n "$(($(find dir -type f | wc -l)/2))p")" +%F
-summary: |-
-  Find the median file modification time of files in a directory tree

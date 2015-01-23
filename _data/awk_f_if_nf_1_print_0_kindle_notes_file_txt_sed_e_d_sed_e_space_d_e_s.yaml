@@ -1,8 +1,0 @@
-commandlinefu_id: 9021
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk -F" " '{ if ( NF == 1 ) { print $0 } }' KINDLE_NOTES_FILE.txt | sed -e '/^=/d' | sed -e '/^[[:space:]]*$/d' -e 's/,//g' | sort | comm -12 List_of_language_words.txt - | uniq
-summary: |-
-  Single words from Amazon Kindle 3 notes

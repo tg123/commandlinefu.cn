@@ -1,8 +1,0 @@
-commandlinefu_id: 6327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if test -w $1; then vim $1; else sudo vim $1; fi
-summary: |-
-  Open file with sudo when there is no write-permission

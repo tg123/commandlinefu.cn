@@ -1,8 +1,7 @@
 commandlinefu_id: 2416
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   unrar e file.part1.rar; if [ $? -eq 0 ]; then rm file.part*.rar; fi
 summary: |-
-  Extract neatly a rar compressed file
+  优雅地提取一个rar压缩包的内容， 并且没有压缩包残留

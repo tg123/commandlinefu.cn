@@ -1,8 +1,7 @@
 commandlinefu_id: 1160
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   amixer -c 0 set PCM 2dB+
 summary: |-
-  sets volume via command line
+  命令行调节音量

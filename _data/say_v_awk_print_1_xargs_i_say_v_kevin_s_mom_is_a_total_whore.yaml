@@ -1,8 +1,0 @@
-commandlinefu_id: 9942
-translator:
-  weibo: ''
-hide: true
-command: |-
-  say -v ? |awk '{print $1}' |xargs -I% say -v % kevin\'s mom is a total whore
-summary: |-
-  all the voices agree..

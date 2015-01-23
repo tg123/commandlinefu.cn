@@ -1,8 +1,0 @@
-commandlinefu_id: 1914
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "aa\nbb\ncc\ndd\n123" | sed -e :a -e "/$/N; s/\n/;/; ta"
-summary: |-
-  Join lines

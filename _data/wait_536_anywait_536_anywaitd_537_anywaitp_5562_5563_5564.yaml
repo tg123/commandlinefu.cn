@@ -1,8 +1,0 @@
-commandlinefu_id: 13767
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wait 536; anywait 536; anywaitd 537; anywaitp 5562 5563 5564
-summary: |-
-  Wait for processes, even if not childs of current shell

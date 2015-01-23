@@ -1,0 +1,8 @@
+commandlinefu_id: 13906
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache pkgnames linux-
+summary: |-
+  print the name of each package APT knows [matching a prefix]

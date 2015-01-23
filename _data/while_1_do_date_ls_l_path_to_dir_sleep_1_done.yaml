@@ -1,8 +1,0 @@
-commandlinefu_id: 344
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ 1 ]; do date; ls -l /path/to/dir; sleep 1; done
-summary: |-
-  watch filesizes (c.f. logfiles, file downloading, etc.)

@@ -1,8 +1,0 @@
-commandlinefu_id: 9342
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do sleep 4 ; xdotool click 1 ; done
-summary: |-
-  Automation click every 4 second on a macro slot bar to world of warcraft for prospecting item

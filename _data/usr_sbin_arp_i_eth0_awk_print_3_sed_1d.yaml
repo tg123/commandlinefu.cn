@@ -1,8 +1,0 @@
-commandlinefu_id: 1634
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/sbin/arp -i eth0 | awk '{print $3}' | sed 1d
-summary: |-
-  List nearbies

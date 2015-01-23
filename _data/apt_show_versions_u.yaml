@@ -1,8 +1,0 @@
-commandlinefu_id: 285
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-show-versions -u
-summary: |-
-  Display a list of upgradeable packages (apt)

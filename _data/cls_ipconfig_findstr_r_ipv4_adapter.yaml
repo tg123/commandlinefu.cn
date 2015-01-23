@@ -1,8 +1,0 @@
-commandlinefu_id: 12961
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cls && ipconfig | findstr -R "[ IPv4 | adapter ]"
-summary: |-
-  Get windows IPv4 and nothing else

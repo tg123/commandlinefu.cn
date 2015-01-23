@@ -1,8 +1,0 @@
-commandlinefu_id: 3393
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nautilus `pwd`
-summary: |-
-  show current directory

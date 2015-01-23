@@ -1,8 +1,0 @@
-commandlinefu_id: 1452
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unlink <linkname>
-summary: |-
-  Remove a symbolic link

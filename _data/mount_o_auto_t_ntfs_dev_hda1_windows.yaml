@@ -1,8 +1,0 @@
-commandlinefu_id: 761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mount -o auto -t ntfs /dev/hda1  /windows
-summary: |-
-  Mount a windows partition in a dual boot linux installation...[Read Only Mounting]

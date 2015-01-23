@@ -1,8 +1,0 @@
-commandlinefu_id: 10539
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xfwm4 --replace
-summary: |-
-  Replace with XFCE Window Manager

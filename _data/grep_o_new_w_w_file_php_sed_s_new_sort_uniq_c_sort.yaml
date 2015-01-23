@@ -1,8 +1,0 @@
-commandlinefu_id: 17
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -o "\(new \(\w\+\)\|\w\+::\)" file.php | sed 's/new \|:://' | sort | uniq -c | sort
-summary: |-
-  Analyse a PHP file for instantations and static calls

@@ -1,8 +1,0 @@
-commandlinefu_id: 7206
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | grep "inet\ " | grep -v "127.0" | sed -e 's/inet\ addr://g' | sed -e 's/Bcast:/\ \ \ \ \ \ \ /g' | cut -c 1-29 | sed -e 's/\ //g'
-summary: |-
-  Get your local IP regardless of your network interface

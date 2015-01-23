@@ -1,8 +1,0 @@
-commandlinefu_id: 11386
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tshark -qr [cap] -z conv,tcp | awk '{printf("%s:%s:%s\n",$1,$3,$10)}' | awk -F: '{printf("%s %s %s\n",$1,$3,substr($5,1,length($5)-10))}' | sort | uniq -c | sort -nr
-summary: |-
-  Tshark to Generate Top Talkers by #TCP conv started per second.

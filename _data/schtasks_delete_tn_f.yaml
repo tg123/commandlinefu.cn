@@ -1,8 +1,0 @@
-commandlinefu_id: 9235
-translator:
-  weibo: ''
-hide: true
-command: |-
-  schtasks /delete /tn * /f
-summary: |-
-  delete all tasks scheduled for the local computer

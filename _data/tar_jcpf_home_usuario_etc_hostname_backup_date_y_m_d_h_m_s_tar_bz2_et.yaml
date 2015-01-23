@@ -1,8 +1,0 @@
-commandlinefu_id: 8367
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar jcpf /home/[usuario]/etc-$(hostname)-backup-$(date +%Y%m%d-%H%M%S).tar.bz2 /etc
-summary: |-
-  Compressed Backup of the /etc

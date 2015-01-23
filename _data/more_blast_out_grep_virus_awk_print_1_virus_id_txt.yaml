@@ -1,8 +1,0 @@
-commandlinefu_id: 11917
-translator:
-  weibo: ''
-hide: true
-command: |-
-  more blast.out| grep virus | awk '{print $1}' > virus_id.txt
-summary: |-
-  grep

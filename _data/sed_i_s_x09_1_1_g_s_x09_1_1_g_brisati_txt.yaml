@@ -1,8 +1,0 @@
-commandlinefu_id: 9871
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i "s/\(\x09\{1,\}\)\|\( \{1,\}\)/ /g;s/\(\x09\{1,\}$\)\|\( \{1,\}$\)//g" brisati.txt
-summary: |-
-  Get rid of multiple spaces/tabs in a text file

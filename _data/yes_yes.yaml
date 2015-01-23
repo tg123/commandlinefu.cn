@@ -1,8 +1,7 @@
 commandlinefu_id: 2412
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   yes `yes`
 summary: |-
-  fork bomb
+  又一个fork炸弹

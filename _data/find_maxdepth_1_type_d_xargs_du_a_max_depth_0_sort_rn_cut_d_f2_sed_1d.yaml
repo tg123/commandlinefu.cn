@@ -1,8 +1,0 @@
-commandlinefu_id: 3323
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -maxdepth 1 -type d|xargs du -a --max-depth=0|sort -rn|cut -d/ -f2|sed '1d'|while read i;do echo "$(du -h --max-depth=0 "$i")/";done;find . -maxdepth 1 -type f|xargs du -a|sort -rn|cut -d/ -f2|sed '$d'|while read i;do du -h "$i";done
-summary: |-
-  Ultimate current directory usage command

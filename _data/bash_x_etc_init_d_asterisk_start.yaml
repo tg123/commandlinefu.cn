@@ -1,8 +1,7 @@
 commandlinefu_id: 13813
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   bash -x /etc/init.d/asterisk start
 summary: |-
-  To debug asterisk start process
+  如何debug 脚本

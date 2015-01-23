@@ -1,8 +1,0 @@
-commandlinefu_id: 6731
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd ~/Desktop && for FILES in $(ls); do mv $FILES .${FILES}; done
-summary: |-
-  Hide files and folders on GNOME Desktop.

@@ -1,8 +1,0 @@
-commandlinefu_id: 913
-translator:
-  weibo: ''
-hide: true
-command: |-
-  host `hostname`
-summary: |-
-  Finding hostname and the IP Address of your machine

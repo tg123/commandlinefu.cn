@@ -1,0 +1,8 @@
+commandlinefu_id: 13897
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rpm -qa gpg-pubkey --qf "%{version}-%{release} %{summary}\n"
+summary: |-
+  List all gpg-pubkeys for yum

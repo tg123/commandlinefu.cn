@@ -1,8 +1,0 @@
-commandlinefu_id: 10061
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kded --version | awk -F: 'NR == 2 {print $2}' | sed 's/\s\+//g'
-summary: |-
-  Get KDE version

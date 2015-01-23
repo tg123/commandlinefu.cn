@@ -1,8 +1,0 @@
-commandlinefu_id: 13826
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scrot '%Y-%m-%d_$wx$h_scrot.png'
-summary: |-
-  scrot screenshot without window appearing

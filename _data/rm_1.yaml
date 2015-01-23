@@ -1,8 +1,0 @@
-commandlinefu_id: 1271
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :rm 1
-summary: |-
-  remove file named 1 after fat fingeriing :w! in vi

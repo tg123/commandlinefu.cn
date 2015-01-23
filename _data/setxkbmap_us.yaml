@@ -1,8 +1,0 @@
-commandlinefu_id: 4645
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setxkbmap us
-summary: |-
-  Restore the keyboard for qwerty users.

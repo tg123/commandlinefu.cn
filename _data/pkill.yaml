@@ -1,8 +1,0 @@
-commandlinefu_id: 2149
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill
-summary: |-
-  kill process by name

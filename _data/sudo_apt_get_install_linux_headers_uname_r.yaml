@@ -1,8 +1,0 @@
-commandlinefu_id: 8205
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get install linux-headers-$(uname -r)
-summary: |-
-  Install Linux Kernel Headers

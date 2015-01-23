@@ -1,8 +1,0 @@
-commandlinefu_id: 1882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  #!/bin/sh for dir in `ls -A | grep -v .sh`; do    chown -R $dir:$dir $dir done
-summary: |-
-  Chown script

@@ -1,8 +1,0 @@
-commandlinefu_id: 3302
-translator:
-  weibo: ''
-hide: true
-command: |-
-  O=$IFS;IFS=$'\n'; D=$(for f in *;do  [[ -d $f ]] && du -sh "$f";done | sort -gr);F=$(for f in *;do [[ -f $f ]] && du -sh "$f";done | sort -gr);IFS=$O;echo "$D";echo "$F"
-summary: |-
-  Ultimate current directory usage command

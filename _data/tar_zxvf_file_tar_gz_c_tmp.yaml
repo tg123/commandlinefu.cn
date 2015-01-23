@@ -1,8 +1,7 @@
 commandlinefu_id: 7063
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar -zxvf file.tar.gz -C /tmp
 summary: |-
-  Unzip and untar a *.tar.gz file in one go to a specific directory
+  解压文件到指定目录

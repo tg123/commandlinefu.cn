@@ -1,8 +1,0 @@
-commandlinefu_id: 5345
-translator:
-  weibo: ''
-hide: true
-command: |-
-  S='<iframe src=\"http:\/\/254.254.254.254\/bad\/index.php\" width=\"1\" height=\"1\" frameborder=\"0\"><\/iframe>' && R=''; find . -name "*.html" -exec grep -l "$S" {} \; | xargs sed -i -e "s/$S/$R/g"
-summary: |-
-  Remove string with several escaped characters from all files under given path

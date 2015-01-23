@@ -1,0 +1,8 @@
+commandlinefu_id: 13884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -H "Accept-Encoding: gzip" "http://192.168.1.225/tjx/a.php"|gunzip
+summary: |-
+  &#33719;&#21462;&#21387;&#32553;&#21518;&#30340;&#32593;&#39029;

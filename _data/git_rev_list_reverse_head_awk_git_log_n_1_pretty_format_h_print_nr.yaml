@@ -1,8 +1,0 @@
-commandlinefu_id: 9704
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git rev-list --reverse HEAD | awk "/$(git log -n 1 --pretty="format:%h")/ {print NR}"
-summary: |-
-  Sequential revision numbers in Git

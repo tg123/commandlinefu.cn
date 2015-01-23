@@ -1,8 +1,0 @@
-commandlinefu_id: 3522
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "123.32.12.134" | grep -P '([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])'
-summary: |-
-  regex to match an ip

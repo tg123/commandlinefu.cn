@@ -1,8 +1,0 @@
-commandlinefu_id: 6999
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo service vpnclient_init start
-summary: |-
-  Starting the VPN service

@@ -1,8 +1,0 @@
-commandlinefu_id: 8637
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mtop se -1
-summary: |-
-  monitor the operation of a MySQL application in real time

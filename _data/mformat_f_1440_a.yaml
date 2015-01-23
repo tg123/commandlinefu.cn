@@ -1,8 +1,0 @@
-commandlinefu_id: 4308
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mformat -f 1440 A:
-summary: |-
-  Format a flooppy with windows compatible disk

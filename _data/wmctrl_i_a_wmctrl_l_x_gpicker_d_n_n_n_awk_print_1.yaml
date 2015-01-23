@@ -1,8 +1,0 @@
-commandlinefu_id: 6473
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmctrl -i -a `wmctrl -l -x | gpicker -d "\n" -n "\n" - | awk '{print $1}'`
-summary: |-
-  Switch to windows using gpicker

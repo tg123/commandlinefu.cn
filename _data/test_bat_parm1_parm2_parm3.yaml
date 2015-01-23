@@ -1,8 +1,0 @@
-commandlinefu_id: 1677
-translator:
-  weibo: ''
-hide: true
-command: |-
-  test.bat parm1 parm2 parm3
-summary: |-
-  How to send parameters to a batch file

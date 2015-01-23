@@ -1,8 +1,0 @@
-commandlinefu_id: 6322
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | perl -lne '++$x{lc $1} if /[.](.+)$/ }{ print for keys %x'
-summary: |-
-  list all file extensions in a directory

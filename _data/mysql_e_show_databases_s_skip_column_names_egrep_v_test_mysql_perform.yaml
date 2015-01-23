@@ -1,8 +1,7 @@
 commandlinefu_id: 12527
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mysql -e 'show databases' -s --skip-column-names | egrep -v "^(test|mysql|performance_schema|information_schema)$" | parallel --gnu "mysqldump --routines {} > {}_daily.sql"
 summary: |-
-  Backup all MySQL Databases to individual files
+  把mysql的表备份到单独的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 1580
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status app/models/foo.rb; svn commit -m "Changed file" !$
-summary: |-
-  !$ - The last argument to the previous command

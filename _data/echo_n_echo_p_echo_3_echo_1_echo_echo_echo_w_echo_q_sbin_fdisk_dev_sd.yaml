@@ -1,0 +1,8 @@
+commandlinefu_id: 13890
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (echo n; echo p; echo 3; echo 1; echo; echo; echo w; echo q) | /sbin/fdisk /dev/sda
+summary: |-
+  Programmatically partition a new disk with fdisk

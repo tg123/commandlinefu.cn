@@ -1,8 +1,0 @@
-commandlinefu_id: 1791
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir() { /bin/mkdir $@ && eval cd "\$$#"; }
-summary: |-
-  Go to the created directory after using mkdir

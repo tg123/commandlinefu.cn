@@ -1,8 +1,0 @@
-commandlinefu_id: 6763
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log --stop-on-copy | grep r[0-9] | awk '{print $1}' | sed "s/r//" | sort -n | head -1
-summary: |-
-  Get the revision number at which the current branch is created.

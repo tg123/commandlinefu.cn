@@ -1,8 +1,0 @@
-commandlinefu_id: 9503
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -lFart |tail -n1
-summary: |-
-  Show the single most recently modified file in a directory

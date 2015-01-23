@@ -1,8 +1,0 @@
-commandlinefu_id: 2472
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo pmset -a hibernatemode 1
-summary: |-
-  Mac OS X (laptops ??) only :  control hibernation state more easily from Terminal.app

@@ -1,8 +1,7 @@
 commandlinefu_id: 3805
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   seq -w 100 | sed 's/^/login/'
 summary: |-
-  Create a list of sequential logins
+  创建1到100个login0xx序列

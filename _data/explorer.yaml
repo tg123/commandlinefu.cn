@@ -1,8 +1,0 @@
-commandlinefu_id: 3406
-translator:
-  weibo: ''
-hide: true
-command: |-
-  explorer .
-summary: |-
-  show current directory

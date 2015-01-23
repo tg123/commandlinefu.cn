@@ -1,8 +1,0 @@
-commandlinefu_id: 6836
-translator:
-  weibo: ''
-hide: true
-command: |-
-  s=`head -$i fileName | tail -1`
-summary: |-
-  to perform operation line by line in a file without using sed or awk

@@ -1,8 +1,0 @@
-commandlinefu_id: 8549
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ans=$(zenity  --title "Choose image:" --file-selection); exiftool -s ${ans} | zenity --width 800 --height 600 --text-info;
-summary: |-
-  Get EXIF data from image with zenity
