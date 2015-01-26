@@ -1,8 +1,7 @@
 commandlinefu_id: 6859
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   unzip -l file.jar
 summary: |-
-  List contents of jar
+  查看jar的内容

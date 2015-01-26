@@ -1,8 +1,7 @@
 commandlinefu_id: 11755
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perldoc -l Module::Name 2>/dev/null
 summary: |-
-  Find out if a module is installed in perl
+  查看是否安装了某个perl module

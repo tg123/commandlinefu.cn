@@ -1,8 +1,7 @@
 commandlinefu_id: 4425
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   calc() { awk 'BEGIN { OFMT="%f"; print '"$*"'; exit}'; }
 summary: |-
-  floating point shell calculator
+  浮点计算器

@@ -1,8 +1,7 @@
 commandlinefu_id: 5440
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   killall -INFO dd
 summary: |-
-  check the status of 'dd' in progress (OS X)
+  查看dd进度

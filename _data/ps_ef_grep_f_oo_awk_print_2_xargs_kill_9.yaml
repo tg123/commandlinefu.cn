@@ -1,8 +1,7 @@
 commandlinefu_id: 89
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -ef | grep [f]oo | awk '{print $2}' | xargs kill -9
 summary: |-
-  kill all foo process
+  清理所有叫foo的进程(killall)

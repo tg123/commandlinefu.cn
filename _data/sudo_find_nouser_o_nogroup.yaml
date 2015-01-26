@@ -1,8 +1,7 @@
 commandlinefu_id: 10982
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo find / \( -nouser -o -nogroup \)
 summary: |-
-  list any Linux files without users or groups
+  查找无主文件
