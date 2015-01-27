@@ -1,8 +1,7 @@
 commandlinefu_id: 10791
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   dmidecode -t system
 summary: |-
-  View Manufacturer, Model and Serial number of the equipment using dmidecode
+  使用dmidecode查看你的设备的制造商、型号和序列号

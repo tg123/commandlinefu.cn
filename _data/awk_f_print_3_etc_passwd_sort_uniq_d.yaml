@@ -1,8 +1,7 @@
 commandlinefu_id: 10058
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   awk -F: '{print $3}' /etc/passwd | sort |uniq -d
 summary: |-
-  Find duplicate UID in /etc/passwd
+  找出/etc/passwd中重复的UID

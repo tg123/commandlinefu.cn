@@ -1,8 +1,7 @@
 commandlinefu_id: 2959
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   du -hd 1
 summary: |-
-  Get the size of all the directories in current directory
+  获得当前目录下的所有子目录的大小
