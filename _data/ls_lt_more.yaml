@@ -1,8 +1,7 @@
 commandlinefu_id: 5694
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ls -lt | more
 summary: |-
-  list files in mtime order
+  按修改时间列出文件

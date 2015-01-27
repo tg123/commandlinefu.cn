@@ -1,8 +1,7 @@
 commandlinefu_id: 10986
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -name "*.php" -print | xargs sed -i 's/foo/bar/g'
 summary: |-
-  search and replace in multiple files
+  在多个文件当中查找并替换

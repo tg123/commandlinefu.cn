@@ -1,8 +1,7 @@
 commandlinefu_id: 11335
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find /path/to/search -xtype l
 summary: |-
-  Find broken symlinks
+  查找断掉的符号链接
