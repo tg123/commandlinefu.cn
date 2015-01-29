@@ -1,8 +1,7 @@
 commandlinefu_id: 6534
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   feh --bg-center `ls -U1 |sort -R |head -1`
 summary: |-
-  Set background image to random file from current dir.
+  以当前目录的任意文件作为背景图片

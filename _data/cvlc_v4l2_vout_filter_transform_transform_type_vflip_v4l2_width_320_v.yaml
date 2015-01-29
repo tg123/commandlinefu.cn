@@ -1,8 +1,7 @@
 commandlinefu_id: 3515
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cvlc  v4l2:// :vout-filter=transform :transform-type=vflip :v4l2-width=320 :v4l2-height=240 -f &
 summary: |-
-  Instant mirror from your laptop + webcam
+  即时备份笔记本上的摄像头的图像

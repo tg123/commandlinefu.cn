@@ -1,8 +1,7 @@
 commandlinefu_id: 1874
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   kill %1
 summary: |-
-  Kill a background job
+  向一个后台作业发出信号（默认是SIGTERM，也即终止作业）

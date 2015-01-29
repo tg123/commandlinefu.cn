@@ -1,8 +1,7 @@
 commandlinefu_id: 12388
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo /usr/sbin/exim -bp | sed -n '/\*\*\* frozen \*\*\*/,+1!p' | awk '{print $1}' | tr -d [:blank:] | grep @ | sort | uniq -c | sort -n
 summary: |-
-  Show counts of messages in exim mail queue, grouped by recipient
+  按收件人分组显示exim邮件队列中的信息数。exim是一个邮件传输代理，可以替代sendmail。

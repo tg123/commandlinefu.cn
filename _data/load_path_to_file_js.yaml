@@ -1,8 +1,7 @@
 commandlinefu_id: 11990
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   .load ./path/to/file.js
 summary: |-
-  load a js file in the nodejs REPL
+  在node的REPL环境中加载一个JS文件
