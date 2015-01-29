@@ -1,0 +1,8 @@
+commandlinefu_id: 14015
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sysctl --system
+summary: |-
+  Reload all sysctl variables without reboot

@@ -1,0 +1,8 @@
+commandlinefu_id: 13951
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psgrep() ... func to long, please look under "description"
+summary: |-
+  Search for a process by name

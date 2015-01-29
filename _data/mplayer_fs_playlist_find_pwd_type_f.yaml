@@ -1,0 +1,8 @@
+commandlinefu_id: 13970
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -fs -playlist <(find "$PWD" -type f)
+summary: |-
+  Play files with mplayer in fullscreen, including files in sub-directories, and have keyboard shortcuts work

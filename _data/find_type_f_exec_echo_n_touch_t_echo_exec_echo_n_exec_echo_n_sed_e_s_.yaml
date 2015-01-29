@@ -1,0 +1,8 @@
+commandlinefu_id: 13964
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec echo -n "touch -t \`echo " \; -exec echo -n {} \; -exec echo -n " | sed -E 's/.*([[:digit:]]{8})_([[:digit:]]{4})([[:digit:]]{2}).*/\1\2.\3/g'\` " \; -exec echo {} \; | sh
+summary: |-
+  set create time using file name for files pulled from android camera

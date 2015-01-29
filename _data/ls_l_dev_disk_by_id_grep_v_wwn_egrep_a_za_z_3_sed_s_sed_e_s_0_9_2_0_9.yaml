@@ -1,0 +1,8 @@
+commandlinefu_id: 14007
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l /dev/disk/by-id |grep -v "wwn-" |egrep "[a-zA-Z]{3}$" |sed 's/\.\.\/\.\.\///' |sed -E 's/.*[0-9]{2}:[0-9]{2}\s//' |sed -E 's/->\ //' |sort -k2 |awk '{print $2,$1}' |sed 's/\s/\t/'
+summary: |-
+  Show drive names next to their full serial number (and disk info)

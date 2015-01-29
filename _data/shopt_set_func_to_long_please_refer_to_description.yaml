@@ -1,0 +1,8 @@
+commandlinefu_id: 13953
+translator:
+  weibo: ''
+hide: true
+command: |-
+  shopt-set()  ... func to long, please refer to description
+summary: |-
+  activate bash feature if avail

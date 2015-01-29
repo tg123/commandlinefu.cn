@@ -1,0 +1,8 @@
+commandlinefu_id: 13962
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -name *.file -mtime +15 | xargs rm -f
+summary: |-
+  Find and delete files over 15 days

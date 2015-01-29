@@ -1,0 +1,8 @@
+commandlinefu_id: 13928
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -E -rn --color=always --exclude-dir=".svn" --exclude-dir="packages" --exclude="*.swp" "(emit|on)\([\'\"]leader" ~/project/ | less -R
+summary: |-
+  grep for specific function invocations

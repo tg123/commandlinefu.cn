@@ -1,0 +1,8 @@
+commandlinefu_id: 13988
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (df -Pk 2>/dev/null|| df -k) | cat
+summary: |-
+  df without line wrap on long FS name

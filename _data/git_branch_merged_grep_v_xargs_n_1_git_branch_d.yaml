@@ -1,0 +1,8 @@
+commandlinefu_id: 14004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+summary: |-
+  Delete all local git branches that have been merged

@@ -1,0 +1,8 @@
+commandlinefu_id: 13950
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psg(){ ps aux | grep -E "[${1:0:1}]${1:1}|^USER"; }
+summary: |-
+  Search for a process by name

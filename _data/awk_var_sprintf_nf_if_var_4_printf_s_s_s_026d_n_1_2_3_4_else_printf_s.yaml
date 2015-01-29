@@ -1,0 +1,8 @@
+commandlinefu_id: 13923
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{var = sprintf(NF); if (var == 4) printf "%s %s %s %026d\n" , $1,$2,$3,$4; else printf "%s %s %s %s %026d\n" , $1,$2,$3,$4,$5}' yourfilegoes.here >> yournewfilegoes.here
+summary: |-
+  awk zero pad last field in variable-length record

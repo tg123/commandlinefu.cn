@@ -1,0 +1,8 @@
+commandlinefu_id: 13956
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ ~/temp/foo/bar/baz ] $ .. 3
+summary: |-
+  ..(), go up in directory tree, func to long please refer to description

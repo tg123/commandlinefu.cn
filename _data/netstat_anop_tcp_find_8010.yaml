@@ -1,0 +1,8 @@
+commandlinefu_id: 13926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -anop tcp | find ":8010"
+summary: |-
+  [windows] list the open ports by port and display their PID

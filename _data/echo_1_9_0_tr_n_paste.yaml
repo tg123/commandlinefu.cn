@@ -1,0 +1,8 @@
+commandlinefu_id: 13936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo {1..9} '* 0 #' | tr ' ' '\n' |paste - - -
+summary: |-
+  generate a telephone keypad

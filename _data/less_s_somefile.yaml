@@ -1,0 +1,8 @@
+commandlinefu_id: 13978
+translator:
+  weibo: ''
+hide: true
+command: |-
+  less -S somefile
+summary: |-
+  Show a file in less without wrapping long lines

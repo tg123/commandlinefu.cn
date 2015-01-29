@@ -1,0 +1,8 @@
+commandlinefu_id: 13973
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i "$fin" -c copy -copyts "${fin%.*}.mp4"
+summary: |-
+  Convert flv without re-encoding

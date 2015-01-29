@@ -1,0 +1,8 @@
+commandlinefu_id: 13963
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Split-Path -Leaf ([xml](svn info --xml)).info.entry.url
+summary: |-
+  Get the current svn branch/tag (Good for PS1/PROMPT_COMMAND cases)

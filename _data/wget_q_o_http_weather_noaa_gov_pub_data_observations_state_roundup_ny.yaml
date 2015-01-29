@@ -1,0 +1,8 @@
+commandlinefu_id: 13992
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O - http://weather.noaa.gov/pub/data/observations/state_roundup/ny/nyz003.txt http://weather.noaa.gov/pub/data/forecasts/zone/ny/nyz003.txt | less
+summary: |-
+  Fetches NOAA text product weather data. (US only)

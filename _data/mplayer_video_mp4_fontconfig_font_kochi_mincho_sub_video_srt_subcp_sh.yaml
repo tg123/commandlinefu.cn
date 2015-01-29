@@ -1,0 +1,8 @@
+commandlinefu_id: 13989
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer video.mp4 -fontconfig -font 'Kochi Mincho' -sub 'video.srt' -subcp shift-jis
+summary: |-
+  Japanese shift-jis encoded subtitles in mplayer

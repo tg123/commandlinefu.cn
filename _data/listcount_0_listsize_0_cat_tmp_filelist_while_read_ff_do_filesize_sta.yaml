@@ -1,0 +1,8 @@
+commandlinefu_id: 13976
+translator:
+  weibo: ''
+hide: true
+command: |-
+  LISTCOUNT=0; LISTSIZE=0; cat /tmp/filelist | while read FF; do FILESIZE=$(stat -c%s "$FF"); LISTSIZE=$[LISTSIZE+${FILESIZE}]; echo listsize: $LISTSIZE; LISTCOUNT=$[LISTCOUNT+1]; echo listcount: $LISTCOUNT; done | tail -2
+summary: |-
+  compute the total disk space consumed by a list of files

@@ -1,0 +1,8 @@
+commandlinefu_id: 13965
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zip -r /tmp/filename-`date +%Y%m%d_%H%M%S`.zip /directory/
+summary: |-
+  Make a zip file with date/time created in the name of the file , zip all sub-directorys

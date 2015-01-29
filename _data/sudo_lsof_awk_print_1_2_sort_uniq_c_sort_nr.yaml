@@ -1,0 +1,8 @@
+commandlinefu_id: 13922
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof | awk '{print $1,$2}' | sort | uniq -c | sort -nr
+summary: |-
+  Show top of programms which are open file descriptors now, sorted by count DESC, grouped by process name and pid

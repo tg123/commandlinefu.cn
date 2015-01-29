@@ -1,0 +1,8 @@
+commandlinefu_id: 13968
+translator:
+  weibo: ''
+hide: true
+command: |-
+  import traceback sys.exit(traceback.print_exc())
+summary: |-
+  Print traceback when captured with except

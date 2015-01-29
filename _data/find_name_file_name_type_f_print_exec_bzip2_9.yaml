@@ -1,0 +1,8 @@
+commandlinefu_id: 13943
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -name "file.name" -type f -print -exec bzip2 -9 '{}' \;
+summary: |-
+  Find with compress logs

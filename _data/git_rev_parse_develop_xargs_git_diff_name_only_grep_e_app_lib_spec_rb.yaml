@@ -1,0 +1,8 @@
+commandlinefu_id: 14000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git rev-parse develop | xargs git diff --name-only | grep -E '^(app|lib|spec).*\.rb' | xargs rubocop -f simple
+summary: |-
+  Check Rubocop offenses in your working branch

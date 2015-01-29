@@ -1,0 +1,8 @@
+commandlinefu_id: 14009
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xset b 50 1700 10
+summary: |-
+  Nice beep

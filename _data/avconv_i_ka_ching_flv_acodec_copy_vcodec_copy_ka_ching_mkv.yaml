@@ -1,0 +1,8 @@
+commandlinefu_id: 13971
+translator:
+  weibo: ''
+hide: true
+command: |-
+  avconv -i ka-ching.flv -acodec copy -vcodec copy ka-ching.mkv
+summary: |-
+  Convert flv without re-encoding

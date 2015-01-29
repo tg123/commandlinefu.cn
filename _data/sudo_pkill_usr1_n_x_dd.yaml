@@ -1,0 +1,8 @@
+commandlinefu_id: 14005
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo pkill -USR1 -n -x dd
+summary: |-
+  Watch the progress of 'dd'

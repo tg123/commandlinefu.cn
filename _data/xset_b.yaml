@@ -1,0 +1,8 @@
+commandlinefu_id: 13979
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xset -b
+summary: |-
+  Disable system bell in an X session

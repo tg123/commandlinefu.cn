@@ -1,0 +1,8 @@
+commandlinefu_id: 13937
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf "%s\t%s\t%s\n" {1..9} '*' 0 '#'
+summary: |-
+  generate a telephone keypad

@@ -1,0 +1,8 @@
+commandlinefu_id: 14010
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo aptitude --purge remove ~i^foo ~i^bar
+summary: |-
+  Aptitude pattern match

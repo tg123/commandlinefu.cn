@@ -1,0 +1,8 @@
+commandlinefu_id: 13961
+translator:
+  weibo: ''
+hide: true
+command: |-
+  clear;while true;sleep 1;do for((a=1;a<=$(tput cols)/3;a++));do tput cup 0 $a;echo " " $(date);done;sleep 1;for((a;a>=1;a--));do tput cup 0 $a;echo $(date) " ";done;done
+summary: |-
+  pulsed terminal clock

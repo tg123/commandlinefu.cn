@@ -1,0 +1,8 @@
+commandlinefu_id: 13984
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh hostname nc -l 9876
+summary: |-
+  Secure netcat chat - SSH

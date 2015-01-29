@@ -1,0 +1,8 @@
+commandlinefu_id: 13940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for d in $(cd /sys/class/net && echo eth?) ; do echo "$d: $(ethtool $d |grep -w Speed)"; done
+summary: |-
+  List ethernet ports speed

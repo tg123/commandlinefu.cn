@@ -1,0 +1,8 @@
+commandlinefu_id: 14006
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sshcam --device=/dev/video0 --color --size=1280x720
+summary: |-
+  Streaming webcam in (SSH) terminal

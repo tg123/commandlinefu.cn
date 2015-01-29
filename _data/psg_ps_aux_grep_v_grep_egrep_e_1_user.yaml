@@ -1,0 +1,8 @@
+commandlinefu_id: 13947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psg(){ ps aux | grep -v grep | egrep -e "$1|USER"; }
+summary: |-
+  Shortcut to search a process by name

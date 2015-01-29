@@ -1,0 +1,8 @@
+commandlinefu_id: 13952
+translator:
+  weibo: ''
+hide: true
+command: |-
+  findfile() { find . -type f -iname "*${*}*" ; }
+summary: |-
+  Shortcut to find files with ease.

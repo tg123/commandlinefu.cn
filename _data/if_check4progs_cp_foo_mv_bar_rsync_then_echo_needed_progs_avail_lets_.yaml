@@ -1,0 +1,8 @@
+commandlinefu_id: 13954
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ if check4progs cp foo mv bar rsync; then echo "needed progs avail, lets do funky stuff"; else echo "oh oh better abort now"; fi
+summary: |-
+  check4progs(), func to long please refer to description

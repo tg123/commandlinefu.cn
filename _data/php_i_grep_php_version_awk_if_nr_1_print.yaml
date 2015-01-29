@@ -1,0 +1,8 @@
+commandlinefu_id: 14008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -i | grep  'PHP Version' | awk '{if(NR==1)print}'
+summary: |-
+  get php version in terminal

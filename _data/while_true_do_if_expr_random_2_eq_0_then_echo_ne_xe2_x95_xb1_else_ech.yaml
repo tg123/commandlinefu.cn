@@ -1,0 +1,8 @@
+commandlinefu_id: 13993
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while ( true ) ; do if [ $(expr $RANDOM % 2 ) -eq 0 ] ; then echo -ne "\xE2\x95\xB1" ; else echo -ne "\xE2\x95\xB2" ; fi ; done
+summary: |-
+  Labyrinth pattern

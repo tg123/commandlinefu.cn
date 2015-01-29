@@ -1,0 +1,8 @@
+commandlinefu_id: 13929
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget blah --progress=dot -e dotbytes=100M
+summary: |-
+  wget progress bar with customized data size for dots

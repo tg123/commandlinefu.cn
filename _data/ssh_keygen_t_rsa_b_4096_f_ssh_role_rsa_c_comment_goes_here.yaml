@@ -1,0 +1,8 @@
+commandlinefu_id: 13972
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -t rsa -b 4096 -f ~/.ssh/<ROLE>_rsa -C "Comment goes here"
+summary: |-
+  Generate SSH key

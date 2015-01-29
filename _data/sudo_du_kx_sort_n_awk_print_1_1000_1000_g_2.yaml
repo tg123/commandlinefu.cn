@@ -1,0 +1,8 @@
+commandlinefu_id: 13960
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo du -kx / |sort -n| awk '{print $1/(1000*1000) " G" ,$2}'
+summary: |-
+  show sorted large file list

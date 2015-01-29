@@ -1,0 +1,8 @@
+commandlinefu_id: 14013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lstopo -p -v --whole-system --whole-io output.svg
+summary: |-
+  Generate map of your hardware

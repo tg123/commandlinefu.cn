@@ -1,0 +1,8 @@
+commandlinefu_id: 13920
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -o 'pattern' | wc -l
+summary: |-
+  Search count how many times a character or string is present into a file

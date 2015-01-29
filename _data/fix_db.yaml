@@ -1,0 +1,8 @@
+commandlinefu_id: 14001
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fix db
+summary: |-
+  mysqlcheck --defaults-file=/etc/mysql/debian.cnf --auto-repair --all-databases

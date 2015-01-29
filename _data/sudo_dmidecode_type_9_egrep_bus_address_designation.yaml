@@ -1,0 +1,8 @@
+commandlinefu_id: 14012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo dmidecode --type 9 |egrep 'Bus Address|Designation'
+summary: |-
+  Map the slot of an I/O card to its PCI bus address
