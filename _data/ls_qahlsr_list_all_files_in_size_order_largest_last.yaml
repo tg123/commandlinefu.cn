@@ -1,8 +1,7 @@
 commandlinefu_id: 12008
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  ls -qahlSr    # list all files in size order - largest last
+  ls -qahlSr
 summary: |-
-  ls -qahlSr    # list all files in size order - largest last
+  按大小ls

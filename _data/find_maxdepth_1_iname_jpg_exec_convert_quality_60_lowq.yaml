@@ -1,8 +1,7 @@
 commandlinefu_id: 707
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -maxdepth 1 -iname '*jpg' -exec convert -quality 60 {} lowQ/{} \;
 summary: |-
-  Compress Images using convert (ImageMagick) in a bulk
+  有损压缩图片

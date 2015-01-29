@@ -1,8 +1,7 @@
 commandlinefu_id: 2036
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . | cpio -pumdv /destination
 summary: |-
-  Clone current directory into /destination verbosely
+  克隆目录

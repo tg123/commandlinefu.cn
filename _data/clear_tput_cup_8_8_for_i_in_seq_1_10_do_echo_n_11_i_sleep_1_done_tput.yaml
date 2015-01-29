@@ -1,8 +1,0 @@
-commandlinefu_id: 12777
-translator:
-  weibo: ''
-hide: true
-command: |-
-  clear; tput cup 8 8; for i in $(seq 1 10); do echo -n "$((11-$i))      ";sleep 1; done; tput cup 10 8; echo -e "DONE\n\n"
-summary: |-
-  countdown from 10 ...
