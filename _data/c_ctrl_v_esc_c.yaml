@@ -1,8 +1,7 @@
 commandlinefu_id: 1529
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ^[c (ctrl-v esc-c)
 summary: |-
-  Resets terminal in its original state
+  将终端重置成原初的状态

@@ -1,8 +1,7 @@
 commandlinefu_id: 3956
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sed -r "s/\x1B\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g
 summary: |-
-  Remove color codes (special characters) with sed
+  使用sed移除颜色符（什么是颜色符？试一下echo '\e[00;32mGreen\e[00m'）

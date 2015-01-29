@@ -1,8 +1,7 @@
 commandlinefu_id: 12792
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   awk 'BEGIN {count=0;prev=-1} {if(count>0) { if(int($1/100) > int(prev/100)) {print $1} } ; prev=$1; count++}' inputFile > rounded
 summary: |-
-  print nearest multiples of 100 in a file
+  以100为间隔打印文件中的行

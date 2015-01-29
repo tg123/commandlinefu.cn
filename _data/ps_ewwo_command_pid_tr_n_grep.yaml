@@ -1,8 +1,7 @@
 commandlinefu_id: 9280
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ps ewwo command PID | tr ' ' '\n' | grep \=
 summary: |-
-  Given process ID print its environment variables
+  输出给定PID的进程的环境变量
