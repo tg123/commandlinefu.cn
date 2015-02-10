@@ -1,8 +1,7 @@
 commandlinefu_id: 8277
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   du --max-depth=1 -B M |sort -rn
 summary: |-
-  simple du command to give size of next level of subfolder in MB
+  用du获取一级子目录的大小，以MB作为单位

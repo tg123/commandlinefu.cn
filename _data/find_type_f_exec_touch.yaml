@@ -1,8 +1,7 @@
 commandlinefu_id: 8720
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -type f -exec touch "{}" \;
 summary: |-
-  touch every file in current folder and subfolder
+  touch当前目录和子目录的所有文件

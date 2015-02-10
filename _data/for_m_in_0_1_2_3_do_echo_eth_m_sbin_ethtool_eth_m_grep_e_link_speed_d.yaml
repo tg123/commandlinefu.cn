@@ -1,8 +1,7 @@
 commandlinefu_id: 1978
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for M in 0 1 2 3 ; do echo eth$M ;/sbin/ethtool eth$M | grep -E "Link|Speed" ; done
 summary: |-
-  eth-tool summary of eth# devices
+  获取每个eth#设备的信息

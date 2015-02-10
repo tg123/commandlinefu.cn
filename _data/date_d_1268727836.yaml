@@ -1,8 +1,7 @@
 commandlinefu_id: 13405
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   date -d @1268727836
 summary: |-
-  Display EPOCH time in human readable format using AWK.
+  将EPOCH时间转换成人类可读的格式

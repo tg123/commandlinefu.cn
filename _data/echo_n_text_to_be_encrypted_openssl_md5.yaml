@@ -1,8 +1,7 @@
 commandlinefu_id: 1523
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   echo -n 'text to be encrypted' | openssl md5
 summary: |-
-  Quickly generate an MD5 hash for a text string using OpenSSL
+  使用OpenSSL快速生成一段文本相应的MD5串

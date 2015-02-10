@@ -1,8 +1,7 @@
 commandlinefu_id: 5809
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo lvdisplay |awk '/LV Name/{blockdev=$3} /Block device/{bdid=$3; sub("[0-9]*:","dm-",bdid); print bdid,blockdev;}'
 summary: |-
-  Show DeviceMapper names for LVM Volumes (to disambiguate iostat logs, etc)
+  显示逻辑分区管理器中，每个卷的DeviceMapper（这样阅读iostat日志时更清楚了）

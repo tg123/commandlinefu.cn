@@ -1,8 +1,7 @@
 commandlinefu_id: 11280
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo -u $USER kill -9 -1
 summary: |-
-  Kill all processes belonging to a user
+  杀死某个用户所有的进程

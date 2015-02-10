@@ -1,8 +1,7 @@
 commandlinefu_id: 10253
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   rename 's/ /-/g' *.mp3
 summary: |-
-  Tracklist reaplace backspace to '-'
+  将文件名中的空格转换成-

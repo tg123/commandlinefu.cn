@@ -1,8 +1,7 @@
 commandlinefu_id: 10741
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   for i in ?.ogg; do mv $i 0$i; done
 summary: |-
-  convert single digit to double digits
+  将个位数字转换成带0前缀的形式

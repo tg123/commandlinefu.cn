@@ -1,8 +1,7 @@
 commandlinefu_id: 4902
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   scp -l10 pippo@serverciccio:/home/zutaniddu/* .
 summary: |-
-  Restrict the bandwidth for the SCP command
+  限制scp所占用的带宽

@@ -1,8 +1,7 @@
 commandlinefu_id: 9849
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   du --max-depth=1 | sort -nr | awk ' BEGIN { split("KB,MB,GB,TB", Units, ","); } { u = 1; while ($1 >= 1024) { $1 = $1 / 1024; u += 1 } $1 = sprintf("%.1f %s", $1, Units[u]); print $0; } '
 summary: |-
-  Show total size of each subdirectory, broken down by KB,MB,GB,TB
+  显示每个子目录的总大小，按KB/MB/GB/TB分组

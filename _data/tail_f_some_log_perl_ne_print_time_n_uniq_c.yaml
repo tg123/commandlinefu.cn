@@ -1,8 +1,7 @@
 commandlinefu_id: 12315
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   tail -F some.log | perl -ne 'print time(), "\n";' | uniq -c
 summary: |-
-  Lines per second in a log file
+  监控一个日志文件每秒新增的行数

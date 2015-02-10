@@ -1,8 +1,7 @@
 commandlinefu_id: 2982
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   watch "ps auxw | grep [d]efunct"
 summary: |-
-  Get a regular updated list of zombies
+  监视系统中的僵尸进程
