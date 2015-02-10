@@ -1,8 +1,7 @@
 commandlinefu_id: 1786
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   du -xk | sort -n | tail -20
 summary: |-
-  Find the 20 biggest directories on the current filesystem
+  查找当前文件系统中20个最大的目录

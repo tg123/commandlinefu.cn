@@ -1,8 +1,7 @@
 commandlinefu_id: 3452
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   function nowrap { export COLS=`tput cols` ; cut -c-$COLS ; unset COLS ; }
 summary: |-
-  no more line wrapping in your terminal
+  设置终端不换行
