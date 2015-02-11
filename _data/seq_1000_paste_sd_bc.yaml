@@ -1,8 +1,7 @@
 commandlinefu_id: 7829
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   seq 1000 | paste -sd+- | bc
 summary: |-
-  1+2-3+4-5+6-7 Series
+  求和1..1000

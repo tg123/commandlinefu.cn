@@ -1,8 +1,0 @@
-commandlinefu_id: 13389
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ date --date='@1268727836'
-summary: |-
-  Display EPOCH time in human readable format using AWK.

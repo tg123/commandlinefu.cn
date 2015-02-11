@@ -1,8 +1,0 @@
-commandlinefu_id: 2510
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsop.msc
-summary: |-
-  Show your account and windows policy settings with Results of Policy msc.

@@ -1,8 +1,7 @@
 commandlinefu_id: 13162
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   srm() { if [[ -d $1 ]]; then rm -R $1; else rm $1; fi }
 summary: |-
-  Smart remove - Removes files and directories smarter. Put it in your ~/.bash_profile/~/.bash_*
+  自动根据目标选择rm方式
