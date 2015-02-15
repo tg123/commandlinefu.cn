@@ -1,0 +1,8 @@
+commandlinefu_id: 14033
+translator:
+  weibo: ''
+hide: true
+command: |-
+  PS1='(\t <\w>)\nYUKI.N>'
+summary: |-
+  Yuki Nagato bash promt.

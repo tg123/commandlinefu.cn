@@ -1,0 +1,8 @@
+commandlinefu_id: 14021
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /dev/urandom | strings | grep -o '[[:alnum:]]' | head -n 15 | tr -d '\n'; echo
+summary: |-
+  Generate a random alphanumeric string (works on Mac)

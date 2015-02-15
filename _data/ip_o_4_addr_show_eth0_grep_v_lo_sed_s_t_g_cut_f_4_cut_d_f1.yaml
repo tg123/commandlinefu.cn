@@ -1,0 +1,8 @@
+commandlinefu_id: 14048
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip -o -4 addr show eth0 | grep -v ": lo " | sed 's/ \+/\t/g' | cut -f 4 | cut -d\/ -f1
+summary: |-
+  Show your local ipv4 IP

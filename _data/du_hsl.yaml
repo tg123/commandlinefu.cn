@@ -1,0 +1,8 @@
+commandlinefu_id: 14023
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -hsL */
+summary: |-
+  View disk usage

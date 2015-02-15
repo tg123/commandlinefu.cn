@@ -1,0 +1,8 @@
+commandlinefu_id: 14046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in `find /path -name "*string*"`; do newfn=`echo "$f" | sed s/string/new_string/`; cp $f $newfn; done
+summary: |-
+  Copy files with a given string to a new set of files with a different string.

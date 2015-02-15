@@ -1,0 +1,8 @@
+commandlinefu_id: 14032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'function max(x){i=0;for(val in x){if(i<=x[val]){i=x[val];}}return i;} /^#/{next} {a[$<col_num>]=$<col_num>;next} END{maximum=max(a);print "Max = "maximum}' <file_name>
+summary: |-
+  Use awk to find max and min values of a list

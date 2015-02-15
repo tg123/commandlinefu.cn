@@ -1,0 +1,8 @@
+commandlinefu_id: 14043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig -a | grep inet | awk '{print $2}' | cut -d ":" -f 2 | grep -v 127.0.0.1
+summary: |-
+  Get non-localhost IPs from all Internet interfaces

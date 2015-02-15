@@ -1,0 +1,8 @@
+commandlinefu_id: 14026
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep --include=\*.html -R "some string" . 2>/dev/null
+summary: |-
+  Search recursively to find a word or phrase in certain file types, such as C code

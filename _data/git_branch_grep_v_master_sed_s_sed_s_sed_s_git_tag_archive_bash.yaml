@@ -1,0 +1,8 @@
+commandlinefu_id: 14018
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git branch | grep -v "master" | sed 's/^[ *]*//' | sed 's/.*/& &/' | sed 's/^/git tag archive\//' | bash
+summary: |-
+  Archive git branches in "arhive/" tags

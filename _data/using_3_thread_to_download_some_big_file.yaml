@@ -1,0 +1,8 @@
+commandlinefu_id: 14022
+translator:
+  weibo: ''
+hide: true
+command: |-
+  using 3 thread to download some big file
+summary: |-
+  axel -a -n 3 http://somelink-to-download/

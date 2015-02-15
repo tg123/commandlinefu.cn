@@ -1,0 +1,8 @@
+commandlinefu_id: 14044
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lt | grep ^- | awk 'NR>=N {print $9}' | xargs rm -rf -i
+summary: |-
+  Delete files sorted by dates. Delete all other files except latest N files.

@@ -1,0 +1,8 @@
+commandlinefu_id: 14040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo service network-manager start
+summary: |-
+  turn on/off wifi

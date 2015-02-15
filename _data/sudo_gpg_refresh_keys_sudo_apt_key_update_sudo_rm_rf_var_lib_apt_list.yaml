@@ -1,0 +1,8 @@
+commandlinefu_id: 14024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo gpg --refresh-keys; sudo apt-key update; sudo rm -rf /var/lib/apt/{lists,lists.old}; sudo mkdir -p /var/lib/apt/lists/partial; sudo apt-get clean all; sudo apt-get update
+summary: |-
+  Clean apt-get and gpg cache and keys
