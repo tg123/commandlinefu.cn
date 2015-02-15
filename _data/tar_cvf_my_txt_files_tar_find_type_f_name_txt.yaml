@@ -1,8 +1,7 @@
 commandlinefu_id: 13442
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cvf my_txt_files.tar `find . -type f -name ".txt"`
 summary: |-
-  Create a tar archive with all files of a certain type found in present dir and subdirs
+  从一个列表创建tar

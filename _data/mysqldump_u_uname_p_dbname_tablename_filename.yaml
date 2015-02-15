@@ -1,8 +1,7 @@
 commandlinefu_id: 5094
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mysqldump -u UNAME -p DBNAME TABLENAME> FILENAME
 summary: |-
-  dump a single table of a database to file
+  把表导出到文件里边

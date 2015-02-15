@@ -1,8 +1,7 @@
 commandlinefu_id: 12003
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn revert .
 summary: |-
-  Revert all modified files in an SVN repo
+  撤销svn改动

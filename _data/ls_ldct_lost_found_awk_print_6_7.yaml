@@ -1,8 +1,7 @@
 commandlinefu_id: 3385
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls -ldct /lost+found |awk '{print $6, $7}'
 summary: |-
-  When was your OS installed?
+  查看系统安装时间

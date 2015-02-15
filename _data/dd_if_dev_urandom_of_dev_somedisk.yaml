@@ -1,8 +1,7 @@
 commandlinefu_id: 10098
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/urandom of=/dev/somedisk
 summary: |-
-  Completly blank a disk
+  把硬盘送人前

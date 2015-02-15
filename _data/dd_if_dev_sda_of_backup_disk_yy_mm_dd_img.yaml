@@ -1,8 +1,7 @@
 commandlinefu_id: 6584
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/sda of=~/backup-disk-YY-MM-DD.img
 summary: |-
-  Back Up a disk to an image in your home directory
+  备份硬盘

@@ -1,8 +1,0 @@
-commandlinefu_id: 11372
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd.exe --progress if=\\.\Volume{0b1a0cbe-11da-11c0-ab53-003045c00008} of=pendrive.img
-summary: |-
-  Backup a pendrive or disk under windows with dd

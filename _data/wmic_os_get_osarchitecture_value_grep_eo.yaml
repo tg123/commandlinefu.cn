@@ -1,8 +1,7 @@
 commandlinefu_id: 13264
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wmic OS get OSArchitecture /value | grep -Eo '[^=]*$'
 summary: |-
-  get Windows OS architecture using Cygwin
+  获取windows 架构 [cygwin]

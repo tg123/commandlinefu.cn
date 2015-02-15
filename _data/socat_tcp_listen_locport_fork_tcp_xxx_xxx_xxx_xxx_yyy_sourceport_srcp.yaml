@@ -1,8 +1,7 @@
 commandlinefu_id: 7130
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   socat TCP-LISTEN:locport,fork TCP:XXX.XXX.XXX.XXX:YYY,sourceport=srcport
 summary: |-
-  Create a tunnel from a remote server to the local machine using a specific source port
+  端口映射隧道

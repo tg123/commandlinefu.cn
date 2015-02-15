@@ -1,8 +1,0 @@
-commandlinefu_id: 2785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  knock <host> 3000 4000 5000 && ssh -p <port> user@host && knock <host> 5000 4000 3000
-summary: |-
-  Port Knocking!

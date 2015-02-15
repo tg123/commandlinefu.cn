@@ -1,8 +1,7 @@
 commandlinefu_id: 9066
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   fileName()  { echo "$1" | grep -o "[^/]*$"; }
 summary: |-
-  Alternative for basename using grep to extract file name
+  另一种basename 的实现

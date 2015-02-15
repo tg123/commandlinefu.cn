@@ -1,8 +1,7 @@
 commandlinefu_id: 2267
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo dmidecode -t 5,16
 summary: |-
-  Lists the supported memory types and how much your board can support.
+  列出支持的内存类型
