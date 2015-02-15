@@ -1,8 +1,0 @@
-commandlinefu_id: 7083
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias tarred='( ( D=`builtin pwd`; F=$(date +$HOME/`sed "s,[/ ],#,g" <<< ${D/${HOME}/}`#-%F.tgz); tar --ignore-failed-read --transform "s,^${D%/*},`date +${D%/*}.%F`,S" -czPf "$F" "$D" &>/dev/null ) & )'
-summary: |-
-  Create date-based tgz of current dir, runs in the background, very very cool

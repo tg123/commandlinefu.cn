@@ -1,8 +1,0 @@
-commandlinefu_id: 7819
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exec 3<&0; ls -1N | while read a; do echo "Rename file: $a"; read -e -i "$a" -p "To: " b <&3 ; [ "$a" == "$b" ] ||  mv -vi "$a" "$b"; done
-summary: |-
-  Rename files in a directory in an edited list fashion

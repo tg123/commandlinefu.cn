@@ -1,8 +1,7 @@
 commandlinefu_id: 6865
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   mogrify -trim *png
 summary: |-
-  Trim png files in a folder
+  对一个目录里边的所有 png进行 trim

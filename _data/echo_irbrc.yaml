@@ -1,8 +1,7 @@
 commandlinefu_id: 11352
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "$: << '.'" >> $IRBRC
 summary: |-
-  Add current directory to Ruby load path
+  把当前目录加入ruby path

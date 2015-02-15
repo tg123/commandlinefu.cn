@@ -1,8 +1,7 @@
 commandlinefu_id: 5824
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  pmset -g batt    # os x version
+  pmset -g batt
 summary: |-
-  Check whether laptop is running on battery or cable
+  检查是电源还是电池(OSX)

@@ -1,8 +1,7 @@
 commandlinefu_id: 6277
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   perl -e 'print 1+1 ."\n";'
 summary: |-
-  calculate in commandline with perl
+  使用perl计算器

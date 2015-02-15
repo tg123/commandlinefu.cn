@@ -4,4 +4,4 @@ translator:
 command: |-
   wc -L
 summary: |-
-  输出最长行
+  输出最长行的长度
