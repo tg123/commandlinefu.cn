@@ -3,6 +3,5 @@ translator:
   weibo: Spacewander__罗泽轩
 command: |-
   bzcat ext_if.log.0.bz2 | tcpdump -n -e -tttt -r - | less
-  Show bz compressed PF binary log
-  显示bz压缩的PF的二进制日志
-  PF是Packet Filter， 见http://www.openbsd.org/faq/pf/
+summary: |-
+  显示bz压缩的PF的二进制日志 PF是Packet Filter， 见http://www.openbsd.org/faq/pf/

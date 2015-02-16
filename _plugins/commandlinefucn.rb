@@ -49,7 +49,7 @@ module Jekyll
 
     
     class CommandPostGenerator < Generator
-        priority :highest
+        #priority :highest
 
         def ts(dir)
             th = {}

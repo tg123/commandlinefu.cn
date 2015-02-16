@@ -1,7 +1,0 @@
-commandlinefu_id: 11687
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  CustomLog "|nc -u  IP PORT "<134>%{%b %d %X}t %h %l %u %t \"%r\"%>s %b \"%{Referer}i\" \"%{User-agent}i\""
-summary: |-
-  发送apache日志到syslog-ng日志系统

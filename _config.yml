@@ -1,6 +1,6 @@
 name: commandlinefu.cn
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 20
 permalink: '/post/:categories/:title.html'
 exclude: ['tools']
