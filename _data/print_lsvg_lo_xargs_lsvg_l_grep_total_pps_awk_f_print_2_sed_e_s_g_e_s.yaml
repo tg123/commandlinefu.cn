@@ -1,8 +1,0 @@
-commandlinefu_id: 10170
-translator:
-  weibo: ''
-hide: true
-command: |-
-  print "$(lsvg -Lo |xargs lsvg -L|grep "TOTAL PPs"|awk -F"(" '{print$2}'|sed -e "s/)//g" -e "s/megabytes/+/g"|xargs|sed -e "s/^/(/g" -e "s/+$/)\/1000/g"|bc ) GB"
-summary: |-
-  See the total amount of data on an AIX machine

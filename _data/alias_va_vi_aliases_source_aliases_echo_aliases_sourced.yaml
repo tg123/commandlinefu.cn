@@ -1,8 +1,0 @@
-commandlinefu_id: 8055
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias va='vi ~/.aliases; source ~/.aliases && echo "aliases sourced"'
-summary: |-
-  va - alias for editing aliases

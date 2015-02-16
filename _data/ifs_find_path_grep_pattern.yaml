@@ -1,8 +1,7 @@
 commandlinefu_id: 3021
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   IFS=:; find $PATH | grep pattern
 summary: |-
-  Searches $PATH for files using grep
+  查找$PATH里边的pattern

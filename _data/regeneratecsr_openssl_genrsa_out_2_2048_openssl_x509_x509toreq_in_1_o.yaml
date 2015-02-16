@@ -1,8 +1,0 @@
-commandlinefu_id: 10256
-translator:
-  weibo: ''
-hide: true
-command: |-
-  regenerateCSR () { openssl genrsa -out $2 2048; openssl x509 -x509toreq -in $1 -out $3 -signkey $2; }
-summary: |-
-  new ssl key and csr based on a previous ssl certificate

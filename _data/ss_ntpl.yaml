@@ -1,8 +1,7 @@
 commandlinefu_id: 13671
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ss -ntpl
 summary: |-
-  To check system send and receive tcp queue current size
+  查看发送接收queue

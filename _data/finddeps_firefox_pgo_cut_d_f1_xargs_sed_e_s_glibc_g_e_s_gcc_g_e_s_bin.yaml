@@ -1,8 +1,0 @@
-commandlinefu_id: 13892
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finddeps firefox-pgo | cut -d' ' -f1 | xargs | sed -e 's/glibc//g' -e 's/gcc//g' -e 's/binutils//g' -e 's/ \+ / /g'
-summary: |-
-  Print list of linked dependencies for package.

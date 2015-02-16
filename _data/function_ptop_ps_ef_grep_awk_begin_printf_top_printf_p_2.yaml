@@ -1,8 +1,0 @@
-commandlinefu_id: 11267
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ptop(){     `ps -ef | grep $*  | awk 'BEGIN{printf "top "}{printf "-p" $2  " " }'` }
-summary: |-
-  top with progame name

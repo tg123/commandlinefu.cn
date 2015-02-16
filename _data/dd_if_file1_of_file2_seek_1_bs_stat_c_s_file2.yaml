@@ -1,8 +1,7 @@
 commandlinefu_id: 5227
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=file1 of=file2 seek=1 bs=$(stat -c%s file2)
 summary: |-
-  &#23558;&#19968;&#20010;&#25991;&#20214;&#25335;&#36125;&#21040;&#21478;&#19968;&#20010;&#25991;&#20214;&#30340;&#26411;&#23614;
+  将一个文件拷贝到另一个文件的末尾
