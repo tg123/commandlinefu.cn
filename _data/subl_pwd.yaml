@@ -1,8 +1,7 @@
 commandlinefu_id: 13574
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   subl $(pwd)
 summary: |-
-  Open Sublime-text in current directory
+  在当前目录中打开sublime text

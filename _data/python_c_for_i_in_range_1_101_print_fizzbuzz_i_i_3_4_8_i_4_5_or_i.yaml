@@ -1,8 +1,7 @@
 commandlinefu_id: 9454
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   python -c'for i in range(1,101):print"FizzBuzz"[i*i%3*4:8--i**4%5]or i'
 summary: |-
-  FizzBuzz one-liner in Python
+  用Python一行秒杀FizzBuzz问题

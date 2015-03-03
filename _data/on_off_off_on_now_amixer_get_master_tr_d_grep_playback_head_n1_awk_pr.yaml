@@ -1,8 +1,7 @@
 commandlinefu_id: 1196
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   on="off"; off="on"; now=$(amixer get Master | tr -d '[]' | grep "Playback.*%" |head -n1 |awk '{print $7}'); amixer sset Master ${!now}
 summary: |-
-  this toggles mute on the Master channel of an alsa soundcard
+  在一个alsa（Advanced Linux Sound Architecture）声卡的主声道上切换静音

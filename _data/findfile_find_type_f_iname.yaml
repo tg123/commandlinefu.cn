@@ -1,8 +1,7 @@
 commandlinefu_id: 13952
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   findfile() { find . -type f -iname "*${*}*" ; }
 summary: |-
-  Shortcut to find files with ease.
+  查找文件的快捷命令

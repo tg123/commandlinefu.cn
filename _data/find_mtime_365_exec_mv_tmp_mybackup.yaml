@@ -1,8 +1,7 @@
 commandlinefu_id: 1889
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find ~ -mtime +365 -exec mv {} /tmp/mybackup \;
 summary: |-
-  exec option in find
+  在find中执行命令

@@ -1,8 +1,7 @@
 commandlinefu_id: 3762
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
 summary: |-
-  convert filenames in current directory to lowercase
+  将当前目录下的文件名转换成小写

@@ -1,8 +1,7 @@
 commandlinefu_id: 9124
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
-  find . -iname '*.conf' | xargs grep "searh string" -sl
+  find . -iname '*.conf' | xargs grep "search string" -sl
 summary: |-
-  Search recursively to find a word in certain file types
+  在指定文件类型中递归查找到目标字符串

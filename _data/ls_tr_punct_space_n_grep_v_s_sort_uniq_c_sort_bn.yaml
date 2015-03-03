@@ -1,8 +1,7 @@
 commandlinefu_id: 13756
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   ls | tr '[[:punct:][:space:]]' '\n' | grep -v "^\s*$" | sort | uniq -c | sort -bn
 summary: |-
-  Show most common words in filenames
+  查找文件名中出现最多的词
