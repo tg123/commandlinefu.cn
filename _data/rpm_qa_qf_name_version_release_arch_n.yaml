@@ -1,8 +1,7 @@
 commandlinefu_id: 1655
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   rpm -qa --qf '%{name}-%{version}-%{release}.%{arch}\n'
 summary: |-
-  List all rpms on system by name, version and release numbers, and architecture
+  列出系统上所有rpm包的名字、版本和发布号，以及架构

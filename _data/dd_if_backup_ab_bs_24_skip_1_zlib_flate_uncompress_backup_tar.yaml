@@ -1,8 +1,7 @@
 commandlinefu_id: 13974
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   dd if=backup.ab bs=24 skip=1 | zlib-flate -uncompress > backup.tar
 summary: |-
-  Extract android adb backup to tar format (only works for non encrypted backups)
+  将Android的adb备份提取成tar格式（仅对非加密备份起效）

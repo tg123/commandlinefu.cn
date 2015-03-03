@@ -1,8 +1,7 @@
 commandlinefu_id: 12800
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find -size +100M
 summary: |-
-  Recursivly search current directory for files larger than 100MB
+  在当前目录中递归查找大于100MB的文件

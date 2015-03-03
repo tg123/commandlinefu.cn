@@ -1,8 +1,7 @@
 commandlinefu_id: 2407
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sed '/MARKER/{N;s/THIS/THAT/}'
 summary: |-
-  Apply substitution only on the line following a marker
+  仅对MARKER之后的行进行替换

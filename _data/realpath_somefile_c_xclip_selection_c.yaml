@@ -1,8 +1,7 @@
 commandlinefu_id: 622
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
-  >realpath ./somefile.c | xclip -selection c
+  realpath ./somefile.c | xclip -selection c
 summary: |-
-  Copy the full path of a file to the clipboard (requires xclip or similar)
+  复制文件的完整路径到剪贴板中（需要安装realpath和xclip）
