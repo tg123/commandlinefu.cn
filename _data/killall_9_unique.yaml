@@ -1,8 +1,0 @@
-commandlinefu_id: 12877
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -9 unique
-summary: |-
-  Kill process you don't know the PID of, when pidof and pgrep are not available.

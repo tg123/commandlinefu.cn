@@ -1,8 +1,0 @@
-commandlinefu_id: 11591
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*" -print | xargs grep -s pattern
-summary: |-
-  find . -name "*" -print | xargs grep -s pattern

@@ -1,8 +1,7 @@
 commandlinefu_id: 3487
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo {'1,2,3',4}" o'clock" ROCK
 summary: |-
-  Happy Days
+  大括号的应用

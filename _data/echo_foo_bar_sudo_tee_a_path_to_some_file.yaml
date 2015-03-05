@@ -1,8 +1,7 @@
 commandlinefu_id: 928
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo "foo bar" | sudo tee -a /path/to/some/file
 summary: |-
-  Add a line to a file using sudo
+  如何echo到一个没有权限的文件里边

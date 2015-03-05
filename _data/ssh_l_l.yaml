@@ -1,8 +1,0 @@
-commandlinefu_id: 2482
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -L :: -L :: @
-summary: |-
-  Multiple SSH Tunnels

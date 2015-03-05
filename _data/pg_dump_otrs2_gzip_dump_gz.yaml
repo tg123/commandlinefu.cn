@@ -1,8 +1,7 @@
 commandlinefu_id: 2557
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   pg_dump otrs2 | gzip > dump.gz
 summary: |-
-  make pgsql backup and gzip it
+  备份pg数据库
