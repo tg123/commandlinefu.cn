@@ -1,8 +1,7 @@
 commandlinefu_id: 2705
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   print 'g/'delete this line'/delete\nwq' | ex file.txt
 summary: |-
-  Change a text files contents without opening it, or intermediate files.
+  直接修改文件内容

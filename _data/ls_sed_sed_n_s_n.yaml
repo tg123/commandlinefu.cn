@@ -1,8 +1,7 @@
 commandlinefu_id: 4494
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ls | sed "/^/=" | sed "N;s/\n/. /"
 summary: |-
-  prints line numbers
+  打印行号

@@ -1,8 +1,0 @@
-commandlinefu_id: 6795
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for p in `grep -v deinstall /var/mobile/Library/Preferences/aptbackup_dpkg-packages.txt | cut --fields=1`; do apt-get -y --force-yes install $p; done
-summary: |-
-  aptbackup restore

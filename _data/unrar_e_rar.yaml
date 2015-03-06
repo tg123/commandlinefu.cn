@@ -1,8 +1,7 @@
 commandlinefu_id: 7249
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   unrar e *.rar
 summary: |-
-  unpack all rars in current folder
+  解压缩全部rar

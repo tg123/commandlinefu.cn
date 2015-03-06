@@ -1,8 +1,7 @@
 commandlinefu_id: 2339
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   cat somefile.css | awk '{gsub(/{|}|;/,"&\n"); print}' >> uncompressed.css
 summary: |-
-  Uncompress a CSS file
+  正确查看压缩css的方法
