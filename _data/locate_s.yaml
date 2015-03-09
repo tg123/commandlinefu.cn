@@ -1,8 +1,7 @@
 commandlinefu_id: 5912
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   locate -S
 summary: |-
-  Get a brief overview of how many files and directories are installed
+  查看有多少文件和目录

@@ -1,8 +1,7 @@
 commandlinefu_id: 10632
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no username@host
 summary: |-
-  Temporarily ignore mismatched SSH host key
+  不记录knowhost 也不检查

@@ -1,8 +1,7 @@
 commandlinefu_id: 13854
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xrandr | sed -n '/\*/ s/\s*\([0-9x]*\).*/\1/ p'
 summary: |-
-  Gets the X11 Screen resolution
+  获取分辨率 

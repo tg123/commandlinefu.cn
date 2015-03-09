@@ -1,8 +1,0 @@
-commandlinefu_id: 10948
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping g.co|perl -ne'$|=/e=(\S+)/||next;(push@_,$1)>30&&shift@_;print"\r",(map{"\xe2\x96".chr(128+7*$_/(sort{$b<=>$a}@_)[0])." "}@_),"$1ms"'
-summary: |-
-  Text graphing ping output filter
