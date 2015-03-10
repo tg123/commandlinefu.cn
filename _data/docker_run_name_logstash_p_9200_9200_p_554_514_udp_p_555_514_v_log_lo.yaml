@@ -1,8 +1,0 @@
-commandlinefu_id: 13819
-translator:
-  weibo: ''
-hide: true
-command: |-
-  docker run  --name=logstash \    -p 9200:9200 -p 554:514/udp -p 555:514 \     -v /log:/log pblittle/docker-logstash
-summary: |-
-  run logstash with docker

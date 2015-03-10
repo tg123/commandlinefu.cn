@@ -1,8 +1,7 @@
 commandlinefu_id: 7820
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ifconfig eth3|sed 's/^eth3.*HWaddr //;q'
 summary: |-
-  Reading my nic's mac address
+  读取eth3 的 mac

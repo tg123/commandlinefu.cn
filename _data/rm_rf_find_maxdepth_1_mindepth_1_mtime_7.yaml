@@ -1,8 +1,7 @@
 commandlinefu_id: 2269
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   rm -rf `find -maxdepth 1 -mindepth 1 -mtime +7`
 summary: |-
-  Delete all files more t han 7 days old
+  删除7天前的文件

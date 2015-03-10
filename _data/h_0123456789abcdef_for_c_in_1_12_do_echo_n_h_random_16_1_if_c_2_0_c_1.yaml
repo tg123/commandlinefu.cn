@@ -1,8 +1,7 @@
 commandlinefu_id: 7225
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   h=0123456789ABCDEF;for c in {1..12};do echo -n ${h:$(($RANDOM%16)):1};if [[ $((c%2)) = 0 && $c != 12 ]];then echo -n :;fi;done;echo
 summary: |-
-  Generate random valid mac addresses
+  生成随机mac地址

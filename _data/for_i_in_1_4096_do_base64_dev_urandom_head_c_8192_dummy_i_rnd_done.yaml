@@ -1,8 +1,7 @@
 commandlinefu_id: 12896
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   for i in {1..4096}; do base64 /dev/urandom | head -c 8192 > dummy$i.rnd ; done
 summary: |-
-  Create a bunch of dummy text files
+  创建一批随机文本

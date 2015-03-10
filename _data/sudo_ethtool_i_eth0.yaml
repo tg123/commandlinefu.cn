@@ -1,8 +1,7 @@
 commandlinefu_id: 9800
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo  ethtool -i eth0
 summary: |-
-  Display standard information about device
+  获取 网卡信息

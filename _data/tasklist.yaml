@@ -1,8 +1,0 @@
-commandlinefu_id: 11115
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tasklist
-summary: |-
-  List tasks running
