@@ -4,4 +4,4 @@ translator:
 command: |-
   whereis somecommand
 summary: |-
-  命令查找源代码文件、二进制文件和说明文件
+  查找命令的源代码文件、二进制文件和说明文件的完整路径

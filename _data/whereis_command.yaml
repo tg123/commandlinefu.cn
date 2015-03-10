@@ -1,7 +1,0 @@
-commandlinefu_id: 4862
-translator:
-  weibo: 玄文处幽
-command: |-
-  whereis command
-summary: |-
-  显示shell命令的完整路径
