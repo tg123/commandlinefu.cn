@@ -1,8 +1,7 @@
 commandlinefu_id: 4862
 translator:
-  weibo: ''
-hide: true
+  weibo: 玄文处幽
 command: |-
   whereis command
 summary: |-
-  shows the full path of shell commands
+  显示shell命令的完整路径
