@@ -1,8 +1,7 @@
 commandlinefu_id: 61
 translator:
-  weibo: ''
-hide: true
+  weibo: 玄文处幽
 command: |-
   whereis somecommand
 summary: |-
-  locate bin, src, and man file for a command
+  命令查找源文件、二进制文件或手册
