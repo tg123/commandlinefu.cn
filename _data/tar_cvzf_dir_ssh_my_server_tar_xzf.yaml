@@ -1,8 +1,7 @@
 commandlinefu_id: 13607
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tar cvzf - dir | ssh my_server 'tar xzf -'
 summary: |-
-  oneliner to transfer a directory using ssh and tar
+  通过ssh 和 tar复制目录

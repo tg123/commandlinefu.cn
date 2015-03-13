@@ -1,8 +1,7 @@
 commandlinefu_id: 2787
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   svn ls -R | egrep -v -e "\/$" | xargs svn blame | awk '{print $2}' | sort | uniq -c | sort -r
 summary: |-
-  Prints total line count contribution per user for an SVN repository
+  查看svn用户贡献

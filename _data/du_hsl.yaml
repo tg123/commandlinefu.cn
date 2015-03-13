@@ -1,8 +1,7 @@
 commandlinefu_id: 14023
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   du -hsL */
 summary: |-
-  View disk usage
+  查看磁盘使用情况

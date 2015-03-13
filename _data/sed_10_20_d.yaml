@@ -1,8 +1,7 @@
 commandlinefu_id: 8196
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed '10,20!d'
 summary: |-
-  Print all the lines between 10 and 20 of a file
+  打印10-20行
