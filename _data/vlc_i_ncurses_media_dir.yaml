@@ -1,8 +1,7 @@
 commandlinefu_id: 4766
 translator:
-  weibo: ''
-hide: true
+  weibo: 玄文处幽
 command: |-
   vlc -I ncurses <MEDIA_DIR>
 summary: |-
-  Vlc ncurses mode browsing local directorys.
+  Vlc在ncurses模式下浏览本地目录
