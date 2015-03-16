@@ -1,8 +1,7 @@
 commandlinefu_id: 11127
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   alias rrm='/bin/rm -i'; alias rm='trash'
 summary: |-
-  Safely remove files from the terminal
+  妈妈再也不用担心我rm掉心爱的文件了

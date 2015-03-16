@@ -1,8 +1,7 @@
 commandlinefu_id: 7332
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   find . -depth -name .svn -type d -exec rm -fr {} \;
 summary: |-
-  Remove all .svn folders
+  跟.svn文件夹说永别

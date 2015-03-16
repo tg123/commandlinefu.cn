@@ -1,8 +1,7 @@
 commandlinefu_id: 8039
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   sudo update-alternatives --config java
 summary: |-
-  swap the java version being used
+  切换当前使用的java的版本

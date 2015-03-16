@@ -1,8 +1,7 @@
 commandlinefu_id: 14021
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   cat /dev/urandom | strings | grep -o '[[:alnum:]]' | head -n 15 | tr -d '\n'; echo
 summary: |-
-  Generate a random alphanumeric string (works on Mac)
+  随机生成一个字母数字串（能在OS X上工作）
