@@ -1,8 +1,7 @@
 commandlinefu_id: 1780
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   lsusb
 summary: |-
-  list connected usb devices
+  列出连接中的USB设备

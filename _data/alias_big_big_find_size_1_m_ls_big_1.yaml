@@ -1,8 +1,7 @@
 commandlinefu_id: 8054
 translator:
-  weibo: ''
-hide: true
+  weibo: Spacewander__罗泽轩
 command: |-
   alias big='BIG () { find . -size +${1}M -ls; }; BIG $1'
 summary: |-
-  Find large files in current directory
+  找出当前文件夹下最大的文件
