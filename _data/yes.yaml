@@ -1,8 +1,7 @@
 commandlinefu_id: 11351
 translator:
-  weibo: ''
-hide: true
+  weibo: 玄文处幽
 command: |-
   yes | !!
 summary: |-
-  Do the last command, but say 'y' to everything
+  执行最后的命令，并且所有提示项都选择'y'
