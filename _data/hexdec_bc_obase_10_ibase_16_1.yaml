@@ -1,8 +1,7 @@
 commandlinefu_id: 9934
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   hexdec() { bc <<< "obase=10; ibase=16; $1"; }
 summary: |-
-  Convert from hexa to decimal
+  进制转换

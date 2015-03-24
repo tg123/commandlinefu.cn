@@ -1,8 +1,0 @@
-commandlinefu_id: 5643
-translator:
-  weibo: ''
-hide: true
-command: |-
-  command ps wwo pid,user,group,vsize:8,size:8,sz:6,rss:6,pmem:7,pcpu:7,time:7,wchan,sched=,stat,flags,comm,args k -vsz -A|sed -u '/^ *PID/d;10q'
-summary: |-
-  Viewing Top Processes according to cpu, mem, swap size, etc.

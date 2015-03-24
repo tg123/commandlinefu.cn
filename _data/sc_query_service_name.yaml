@@ -1,8 +1,0 @@
-commandlinefu_id: 13067
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sc query service_name
-summary: |-
-  Check the state of a service

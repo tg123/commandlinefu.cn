@@ -1,8 +1,7 @@
 commandlinefu_id: 5178
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   say WORD
 summary: |-
-  OSX: Hear pronunciation of a word
+  读出单词 osx

@@ -1,8 +1,7 @@
 commandlinefu_id: 1090
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   yes 'Y'|gdb -ex 'p close(1)' -ex 'p creat("/tmp/output.txt",0600)' -ex 'q' -p pid
 summary: |-
-  Redirect a filehandle from a currently running process.
+  窃取别人家的文件描述符

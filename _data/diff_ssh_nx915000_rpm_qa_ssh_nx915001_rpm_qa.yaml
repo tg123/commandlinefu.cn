@@ -1,8 +1,7 @@
 commandlinefu_id: 356
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
-  diff <(ssh nx915000 "rpm -qa") <(ssh nx915001 "rpm -qa")
+  diff <(ssh node1 "rpm -qa") <(ssh node2 "rpm -qa")
 summary: |-
-  find the difference between two nodes
+  比较安装包的不同 
