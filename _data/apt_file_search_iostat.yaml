@@ -1,8 +1,7 @@
 commandlinefu_id: 8897
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   apt-file search iostat
 summary: |-
-  Find the package a command belongs to on debian-based distros
+  查看命令属于那个包

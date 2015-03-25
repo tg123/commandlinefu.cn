@@ -1,8 +1,7 @@
 commandlinefu_id: 11533
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   telnet 0 <port>
 summary: |-
-  Test against loopback address with the 0.0.0.0 default route.
+  检查本地端口 (0 可以代替 127 )

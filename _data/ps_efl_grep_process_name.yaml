@@ -1,8 +1,7 @@
 commandlinefu_id: 13685
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ps -efL | grep <Process Name>
 summary: |-
-  ps to show child thread PIDs
+  显示子进程

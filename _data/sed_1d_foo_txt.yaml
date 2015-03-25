@@ -1,8 +1,7 @@
 commandlinefu_id: 11278
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sed 1d foo.txt
 summary: |-
-  Deleting / Ignoring lines from the top of a file
+  不显示第一行
