@@ -1,8 +1,7 @@
 commandlinefu_id: 7780
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   watch -n 1 'date "+obase=2; print %H,\":\",%M,\":\",%S" |bc'
 summary: |-
-  Binary Clock
+  二进制时钟

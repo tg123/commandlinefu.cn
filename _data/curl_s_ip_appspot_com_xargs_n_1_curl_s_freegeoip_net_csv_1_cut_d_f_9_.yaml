@@ -1,8 +1,0 @@
-commandlinefu_id: 14025
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s ip.appspot.com | xargs -n 1 curl -s "freegeoip.net/csv/$1" | cut -d ',' -f '9 10' | sed 's/,/\&lon=/g' | xargs -n 1 echo "http://api.openweathermap.org/data/2.5/weather?mode=html&lat=$1" | sed 's/ //g' | xargs -n 1 curl -s $1 | lynx -stdin -dump
-summary: |-
-  What's the weather like?

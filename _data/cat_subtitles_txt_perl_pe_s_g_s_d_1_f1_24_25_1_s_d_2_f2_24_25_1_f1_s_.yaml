@@ -1,8 +1,0 @@
-commandlinefu_id: 8944
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat  subtitles.txt | perl -pe 's/} /}/g; s/{(\d+)}/=1=/; $f1=(24/25*$1); s/{(\d+)}/=2=/; $f2=(24/25*$1); $f1=~s/\..*//; $f2=~s/\..*//; s/=1=/{$f1}/;  s/=2=/{$f2}/; ' > subtitles_newfps.txt
-summary: |-
-  change microdvd subtitles framerate

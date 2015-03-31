@@ -1,8 +1,7 @@
 commandlinefu_id: 182
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   /usr/sbin/httpd -l
 summary: |-
-  See whether your compiled Apache is prefork or worker MPM
+  查看apache 编译的模块

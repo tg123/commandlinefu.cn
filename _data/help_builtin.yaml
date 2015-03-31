@@ -1,8 +1,7 @@
 commandlinefu_id: 9947
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   help builtin
 summary: |-
-  Display helpful information about builtin commands.
+  显示内部命令

@@ -1,8 +1,0 @@
-commandlinefu_id: 7456
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in ~/.adobe ~/.macromedia ; do ( rm $i/ -rf ; ln -s /dev/null $i ) ; done
-summary: |-
-  Stop Flash from tracking everything you do.

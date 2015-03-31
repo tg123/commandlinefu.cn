@@ -1,8 +1,7 @@
 commandlinefu_id: 13187
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   sudo lsof -i -n -P | grep TCP
 summary: |-
-  Wich program is listen on port OSX
+  查看tcp连接 osx也支持

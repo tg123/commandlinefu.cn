@@ -1,8 +1,7 @@
 commandlinefu_id: 5191
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   ifconfig | grep cast | cut -d':' -f2 | cut -d' ' -f1
 summary: |-
-  show your private/local ip address
+  现实本地ip
