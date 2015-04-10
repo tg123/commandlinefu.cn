@@ -1,0 +1,8 @@
+commandlinefu_id: 14085
+translator:
+  weibo: ''
+hide: true
+command: |-
+  groups user1 user2|cut -d: -f2|xargs -n1|sort|uniq -d
+summary: |-
+  Find common groups between two users

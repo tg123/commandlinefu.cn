@@ -1,0 +1,8 @@
+commandlinefu_id: 14112
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer $(youtube-dl -f best -g "$url" 2>/dev/null)
+summary: |-
+  Stream youtube videos

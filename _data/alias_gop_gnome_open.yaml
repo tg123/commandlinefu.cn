@@ -1,0 +1,8 @@
+commandlinefu_id: 14097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias gop='gnome-open'
+summary: |-
+  Start files with their application

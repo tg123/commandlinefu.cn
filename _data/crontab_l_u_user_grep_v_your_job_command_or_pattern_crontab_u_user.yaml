@@ -1,0 +1,8 @@
+commandlinefu_id: 14098
+translator:
+  weibo: ''
+hide: true
+command: |-
+  crontab -l -u USER | grep -v 'YOUR JOB COMMAND or PATTERN' | crontab -u USER -
+summary: |-
+  Remove job from crontab by commandline

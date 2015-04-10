@@ -1,0 +1,8 @@
+commandlinefu_id: 14065
+translator:
+  weibo: ''
+hide: true
+command: |-
+  vim `git diff --name-only`
+summary: |-
+  Open (in vim) all modified files in a git repository

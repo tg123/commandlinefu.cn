@@ -1,0 +1,8 @@
+commandlinefu_id: 14081
+translator:
+  weibo: ''
+hide: true
+command: |-
+  install -m 0400 foo bar/
+summary: |-
+  Backup file, create dir and set perms in one shot

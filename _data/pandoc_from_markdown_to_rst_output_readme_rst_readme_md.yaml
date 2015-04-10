@@ -1,0 +1,8 @@
+commandlinefu_id: 14148
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pandoc --from=markdown --to=rst --output=README.rst README.md
+summary: |-
+  Convert Markdown to reStructuredText

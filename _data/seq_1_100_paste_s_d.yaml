@@ -1,0 +1,8 @@
+commandlinefu_id: 14147
+translator:
+  weibo: ''
+hide: true
+command: |-
+  seq 1 100 | paste -s -d '*'
+summary: |-
+  paste numbers and operator to get an expression

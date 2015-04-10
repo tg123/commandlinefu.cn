@@ -1,0 +1,8 @@
+commandlinefu_id: 14086
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --author="$(git config user.name)" --pretty=format: --name-only --date=iso --no-merges develop.. | grep '.' | sort | uniq
+summary: |-
+  Get unique list of files that I've committed directly to the current branch

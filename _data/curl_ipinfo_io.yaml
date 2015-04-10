@@ -1,0 +1,8 @@
+commandlinefu_id: 14108
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl ipinfo.io
+summary: |-
+  Get your external IP address

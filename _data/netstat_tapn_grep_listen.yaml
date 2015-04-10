@@ -1,0 +1,8 @@
+commandlinefu_id: 14092
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -tapn|grep LISTEN
+summary: |-
+  Show which programs are listening on TCP ports

@@ -1,0 +1,8 @@
+commandlinefu_id: 14050
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias 'gst'=git status
+summary: |-
+  easier git status. better in .bash_profile

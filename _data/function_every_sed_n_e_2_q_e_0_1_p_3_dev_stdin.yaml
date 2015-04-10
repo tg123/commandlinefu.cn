@@ -1,0 +1,8 @@
+commandlinefu_id: 14141
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function every() { sed -n -e "${2}q" -e "0~${1}p" ${3:-/dev/stdin}; }
+summary: |-
+  Print every Nth line (to a maximum)

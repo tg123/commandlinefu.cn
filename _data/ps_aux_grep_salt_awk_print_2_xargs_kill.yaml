@@ -1,0 +1,8 @@
+commandlinefu_id: 14100
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps aux | grep salt | awk '{ print $2}' | xargs kill
+summary: |-
+  Kill all salt running processes

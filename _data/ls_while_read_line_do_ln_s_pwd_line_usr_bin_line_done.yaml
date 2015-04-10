@@ -1,0 +1,8 @@
+commandlinefu_id: 14128
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | while read line; do ln -s "$(pwd)/$line" "/usr/bin/$line"; done
+summary: |-
+  make soft links from a downloaded bin folder

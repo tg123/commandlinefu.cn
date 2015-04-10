@@ -1,0 +1,8 @@
+commandlinefu_id: 14079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in input/*; do BN=$(basename "$f"); ffmpeg -i "$f" -vn "temp/$BN.flac"...
+summary: |-
+  Remove excess noise from a set of mp4 videos.

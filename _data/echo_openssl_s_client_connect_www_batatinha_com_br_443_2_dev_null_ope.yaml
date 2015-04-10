@@ -1,0 +1,8 @@
+commandlinefu_id: 14089
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo | openssl s_client -connect www.batatinha.com.br:443 2>/dev/null | openssl x509 -noout -dates | tail -1 | tr -s " " |cut -d "=" -f2 | cut -d " " -f1,2,4
+summary: |-
+  Stores the certificate expiration date on the variable A

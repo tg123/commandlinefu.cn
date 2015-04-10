@@ -1,0 +1,8 @@
+commandlinefu_id: 14063
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command | awk '{gsub(" ", "", $0); print}'
+summary: |-
+  Remove spaces

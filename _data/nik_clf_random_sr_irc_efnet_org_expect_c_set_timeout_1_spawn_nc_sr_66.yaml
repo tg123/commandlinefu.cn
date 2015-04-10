@@ -1,0 +1,8 @@
+commandlinefu_id: 14116
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nik=clf$RANDOM;sr=irc.efnet.org;expect -c "set timeout -1;spawn nc $sr 6666;set send_human {.1 .2 1 .2 1};expect AUTH*\n ;send -h \"user $nik * * :$nik commandlinefu\nnick $nik\n\"; interact -o -re (PING.:)(.*\$) {send \"PONG :\$interact_out(2,string)\"}"
+summary: |-
+  Bare Metal IRC Client

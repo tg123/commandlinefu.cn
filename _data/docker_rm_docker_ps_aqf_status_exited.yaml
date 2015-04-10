@@ -1,0 +1,8 @@
+commandlinefu_id: 14075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker rm $(docker ps -aqf status=exited)
+summary: |-
+  Remove exited Docker containers

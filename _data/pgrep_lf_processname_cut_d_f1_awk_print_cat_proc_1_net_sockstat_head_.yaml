@@ -1,0 +1,8 @@
+commandlinefu_id: 14118
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -lf processname | cut -d' ' -f1 | awk '{print "cat /proc/" $1 "/net/sockstat | head -n1"}' | sh | cut -d' ' -f3 | paste -sd+ | bc
+summary: |-
+  Show sum of active sockets by process name or mask

@@ -1,0 +1,8 @@
+commandlinefu_id: 14059
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '/url/s#^.*url=\(.*://.*\)#\1#p' ~/.mozilla/firefox/*.[dD]efault/SDBackups/*.speeddial | sort | uniq
+summary: |-
+  Get your Speed Dial urls

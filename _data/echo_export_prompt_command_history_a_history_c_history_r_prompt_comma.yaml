@@ -1,0 +1,8 @@
+commandlinefu_id: 14090
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"' >> .bashrc
+summary: |-
+  Merge bash terminal histories

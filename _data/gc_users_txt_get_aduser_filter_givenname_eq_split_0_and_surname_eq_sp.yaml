@@ -1,0 +1,8 @@
+commandlinefu_id: 14115
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gc users.txt | %{get-aduser -filter "(givenname -eq '$($_.Split(",")[0])') -and (surname -eq '$($_.Split(",")[1])')"} | ft samaccountname,givenname,surname,enabled -auto
+summary: |-
+  Active Directory lookup by first name last name from a long list

@@ -1,0 +1,8 @@
+commandlinefu_id: 14121
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <control> + K
+summary: |-
+  Kill-Line

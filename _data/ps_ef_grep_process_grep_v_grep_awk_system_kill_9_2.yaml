@@ -1,0 +1,8 @@
+commandlinefu_id: 14123
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep PROCESS | grep -v grep | awk '{system "kill -9" $2}
+summary: |-
+  ps -ef | grep PROCESS | grep -v grep | awk '{system "kill -9" $2}

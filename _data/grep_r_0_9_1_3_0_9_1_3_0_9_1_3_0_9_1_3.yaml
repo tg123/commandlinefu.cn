@@ -1,0 +1,8 @@
+commandlinefu_id: 14101
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -R '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' *
+summary: |-
+  Find IPv4 addresses in files from current directory

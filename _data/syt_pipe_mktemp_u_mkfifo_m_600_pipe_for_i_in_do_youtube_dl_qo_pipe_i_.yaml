@@ -1,0 +1,8 @@
+commandlinefu_id: 14106
+translator:
+  weibo: ''
+hide: true
+command: |-
+  syt() { pipe=`mktemp -u`; mkfifo -m 600 "$pipe" && for i in "$@"; do youtube-dl -qo "$pipe" "$i" & mplayer "$pipe" || break; done; rm -f "$pipe"; }
+summary: |-
+  Stream youtube videos

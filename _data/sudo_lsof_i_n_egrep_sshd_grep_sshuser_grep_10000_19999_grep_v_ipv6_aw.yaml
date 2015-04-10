@@ -1,0 +1,8 @@
+commandlinefu_id: 14157
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -i -n | egrep '\<sshd\>' | grep sshuser | grep :[10000-19999] | grep -v IPv6 | awk -F\: '{print $2}' | grep -v http | awk -F" " '{print $1}'
+summary: |-
+  List ReverseSSH ports

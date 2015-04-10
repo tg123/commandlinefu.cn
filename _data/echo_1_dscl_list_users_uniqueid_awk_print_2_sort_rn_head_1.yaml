@@ -1,0 +1,8 @@
+commandlinefu_id: 14144
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $((1+$( dscl . -list /Users UniqueID| awk '{print $2}'  | sort -rn | head  -1 )))
+summary: |-
+  Find the next free user id in OS X

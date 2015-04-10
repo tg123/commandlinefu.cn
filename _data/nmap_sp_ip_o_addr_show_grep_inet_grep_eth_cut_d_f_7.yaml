@@ -1,0 +1,8 @@
+commandlinefu_id: 14142
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -sP $(ip -o addr show | grep inet\  | grep eth | cut -d\  -f 7)
+summary: |-
+  Scan all available IP addresses on network

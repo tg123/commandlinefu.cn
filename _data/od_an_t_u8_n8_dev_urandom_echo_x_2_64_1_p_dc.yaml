@@ -1,0 +1,8 @@
+commandlinefu_id: 14051
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (od -An -t u8 -N8 </dev/urandom; echo X '* 2 64^/1+p') | dc
+summary: |-
+  Random Number Between 1 And X

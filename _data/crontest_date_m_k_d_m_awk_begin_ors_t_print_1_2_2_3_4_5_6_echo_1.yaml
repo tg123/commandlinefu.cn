@@ -1,0 +1,8 @@
+commandlinefu_id: 14102
+translator:
+  weibo: ''
+hide: true
+command: |-
+  crontest () { date +'%M %k %d %m *' |awk 'BEGIN {ORS="\t"} {print $1+2,$2,$3,$4,$5,$6}'; echo $1;}
+summary: |-
+  Print a cron formatted time for 2 minutes in the future (for crontab testing)

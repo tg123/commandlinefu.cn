@@ -1,0 +1,8 @@
+commandlinefu_id: 14064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo nsenter -i <pid-of-process-in-that-namespace> -u -p -i -n -m /bin/bash
+summary: |-
+  Enter/attach any namespace/container, regardless of being Docker/LXC/Systemd...

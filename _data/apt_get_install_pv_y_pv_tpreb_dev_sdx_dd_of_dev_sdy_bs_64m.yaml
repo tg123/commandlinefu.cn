@@ -1,0 +1,8 @@
+commandlinefu_id: 14060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-get install pv -y && pv -tpreb /dev/sdX | dd of=/dev/sdY bs=64M
+summary: |-
+  dd copy from sdX to sdY with progressbar

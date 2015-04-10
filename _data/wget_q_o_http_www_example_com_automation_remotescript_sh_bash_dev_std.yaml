@@ -1,0 +1,8 @@
+commandlinefu_id: 14055
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O - http://www.example.com/automation/remotescript.sh | bash /dev/stdin parameter1 parameter2
+summary: |-
+  Run bash script from web in local machine

@@ -1,0 +1,8 @@
+commandlinefu_id: 14072
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mtime +7 -type f -print0 | xargs -0 ls -Sshl1
+summary: |-
+  Recursively find files over a certain age and list in descending size order
