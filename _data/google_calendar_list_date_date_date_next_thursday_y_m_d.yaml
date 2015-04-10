@@ -1,7 +1,0 @@
-commandlinefu_id: 6406
-translator:
-  weibo: codepiano
-command: |-
-  google calendar list --date `date --date="next thursday" +%Y-%m-%d`
-summary: |-
-  列出谷歌日历中将要到来的事件

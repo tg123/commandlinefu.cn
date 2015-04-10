@@ -1,8 +1,7 @@
 commandlinefu_id: 1764
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   awk '/start_pattern/,/stop_pattern/' file.txt
 summary: |-
-  Display a block of text with AWK
+  显示一个块内的内容

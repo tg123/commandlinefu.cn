@@ -1,8 +1,0 @@
-commandlinefu_id: 5888
-translator:
-  weibo: ''
-hide: true
-command: |-
-  google docs edit --title "To-Do List" --editor vim
-summary: |-
-  Edit a google doc with vim

@@ -1,8 +1,0 @@
-commandlinefu_id: 6893
-translator:
-  weibo: ''
-hide: true
-command: |-
-  google picasa list-albums |awk 'BEGIN { FS = "," }; {print "\""$1"\""}'|sed s/^/google\ picasa\ get\ /|awk ' {print $0,"."}'
-summary: |-
-  Create commands to download all of your Picasaweb albums

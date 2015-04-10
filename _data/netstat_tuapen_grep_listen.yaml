@@ -1,8 +1,7 @@
 commandlinefu_id: 12347
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   netstat -tuapen | grep LISTEN
 summary: |-
-  Check for listening services
+  检查监听的服务

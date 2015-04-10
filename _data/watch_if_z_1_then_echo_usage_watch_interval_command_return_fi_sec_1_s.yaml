@@ -1,8 +1,0 @@
-commandlinefu_id: 10335
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch() { if [ -z "$1" ]; then echo "usage: watch interval command" return fi sec=$1 shift while test :; do clear; date=$(date); echo -e "Every "$sec"s: $@ \t\t\t\t $date"; echo $@; sleep $sec; done }
-summary: |-
-  for all who don't have the watch command

@@ -1,8 +1,7 @@
 commandlinefu_id: 3871
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   calc(){ awk "BEGIN{ print $* }" ;}
 summary: |-
-  command line calculator
+  用awk当计算器
