@@ -1,8 +1,7 @@
 commandlinefu_id: 2243
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   find . -name "*.jar" | while read file; do echo "Processing ${file}"; jar -tvf $file | grep "Foo.class"; done
 summary: |-
-  Find which jars contain a class
+  查看哪个jar包含这个class

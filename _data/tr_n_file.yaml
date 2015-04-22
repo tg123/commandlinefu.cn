@@ -1,8 +1,7 @@
 commandlinefu_id: 7248
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   tr "\n" " " < file
 summary: |-
-  Join lines
+  连接行

@@ -1,8 +1,7 @@
 commandlinefu_id: 13751
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   dd if=/dev/hda | ssh root@4.2.2.2 'dd of=/root/server.img'
 summary: |-
-  Creating Harddisk image and saving on remote server
+  在远端生成本地镜像

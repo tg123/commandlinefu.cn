@@ -1,8 +1,7 @@
 commandlinefu_id: 9932
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   xmlstarlet sel -t -v "/path/to/element" file.xml
 summary: |-
-  extract element of xml
+  提取xml元素

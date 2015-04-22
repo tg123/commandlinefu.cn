@@ -1,8 +1,7 @@
 commandlinefu_id: 13530
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   wget -r -nd -q -A "*.ext" http://www.example.org/
 summary: |-
-  Get all files with a certain extension linked to on a page
+  抓去一个网页的所有特定扩展名的文件

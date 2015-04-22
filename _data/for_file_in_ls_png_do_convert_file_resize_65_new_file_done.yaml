@@ -1,8 +1,0 @@
-commandlinefu_id: 11856
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in `ls *.png`;do convert $file -resize 65% new_$file; done
-summary: |-
-  resize all the images returned by ls command and append "new_" to the resized images

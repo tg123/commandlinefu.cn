@@ -1,8 +1,7 @@
 commandlinefu_id: 13567
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   git log --graph --decorate --pretty=oneline --abbrev-commit
 summary: |-
-  My git log alias
+  美丽的git log

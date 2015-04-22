@@ -1,8 +1,7 @@
 commandlinefu_id: 7075
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   kill -l
 summary: |-
-  Signals list by NUMBER and NAME
+  查看所有信号
