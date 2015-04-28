@@ -1,8 +1,7 @@
 commandlinefu_id: 10544
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   seq -f  'echo %g' $NUM | sh
 summary: |-
-  shorter loop than for loop
+  另一种循环的方法 

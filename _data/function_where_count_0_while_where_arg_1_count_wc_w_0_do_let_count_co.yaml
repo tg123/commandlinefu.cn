@@ -1,8 +1,0 @@
-commandlinefu_id: 7247
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function where(){ COUNT=0; while [ `where_arg $1~$COUNT | wc -w` == 0 ]; do let COUNT=COUNT+1; done; echo "$1 is ahead of "; where_arg $1~$COUNT; echo "by $COUNT commits";};function where_arg(){ git log $@ --decorate -1 | head -n1 | cut -d ' ' -f3- ;}
-summary: |-
-  telling you from where your commit come from

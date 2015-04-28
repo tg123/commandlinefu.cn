@@ -1,8 +1,7 @@
 commandlinefu_id: 10782
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   usermod -g group user
 summary: |-
-  Change the primary group of a user
+  修改用户组

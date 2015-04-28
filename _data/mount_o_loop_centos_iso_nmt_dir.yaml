@@ -1,8 +1,0 @@
-commandlinefu_id: 12460
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mount -o loop centos.iso /nmt/dir
-summary: |-
-  mount iso file

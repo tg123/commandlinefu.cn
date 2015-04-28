@@ -1,8 +1,7 @@
 commandlinefu_id: 13698
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   docker ps -a | grep 'Exit' | awk '{print $1}' | xargs docker rm
 summary: |-
-  Docker - delete all non-running container
+  删除所有停止的container
