@@ -1,8 +1,8 @@
 commandlinefu_id: 12806
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   sar 1 3
 summary: |-
-  checking cpu utilization (what total idle is cpu)
+  sar:System Activity Reporter(系统活动状态报告) 的缩写，1指的是interval,即1s 报告(输出)一次，3是总共输出3次
+  用来监控 CPU 的使用率，比如CPU空闲时间,等待IO操作等，所占总时间的百分比
