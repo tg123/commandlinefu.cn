@@ -1,8 +1,8 @@
 commandlinefu_id: 204
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   jstat -gc [jvmpid]
 summary: |-
-  JVM Garbage Collector Stats
+  oh!no!难道这是保命用的 jstat -gcutil pid inteval count 的姐妹吗？
+  JVM 垃圾回收的状态, -gc 与 -gcutil 的区别，在于前者会告诉你每个区总大小是多少，用了多少，而不是给出百分比
