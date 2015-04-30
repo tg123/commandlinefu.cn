@@ -1,8 +1,7 @@
 commandlinefu_id: 13450
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   free -m
 summary: |-
-  Easy way to check memory consumption
+  以M为单位查看系统当前内存(free -b/m/g byte/M/G 为单位)
