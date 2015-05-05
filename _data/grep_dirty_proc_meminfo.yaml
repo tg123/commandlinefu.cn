@@ -1,8 +1,7 @@
 commandlinefu_id: 9105
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   grep ^Dirty /proc/meminfo
 summary: |-
-  Find out how much data is waiting to be written to disk
+  查看有多少数据等待写入磁盘。(注意：linux 的写操作是先写入page cache，这里的写入磁盘，指的其实是写入page cache)
