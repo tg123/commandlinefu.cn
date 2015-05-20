@@ -1,8 +1,0 @@
-commandlinefu_id: 8186
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get update 2> /tmp/keymissing; for key in $(grep "NO_PUBKEY" /tmp/keymissing |sed "s/.*NO_PUBKEY //"); do echo -e "\nProcessing key: $key"; gpg --keyserver pool.sks-keyservers.net --recv $key && gpg --export --armor $key |sudo apt-key add -; done
-summary: |-
-  Auto Get Missing Launchpad Keys

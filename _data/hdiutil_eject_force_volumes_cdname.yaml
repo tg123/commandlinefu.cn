@@ -1,8 +1,7 @@
 commandlinefu_id: 12213
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   hdiutil eject -force /Volumes/CDNAME
 summary: |-
-  Force eject of CD on OSX
+  强制弹出挂载(OSX)

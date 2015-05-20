@@ -1,8 +1,0 @@
-commandlinefu_id: 6750
-translator:
-  weibo: ''
-hide: true
-command: |-
-  calc() { bc <<< $*; }
-summary: |-
-  Command line calculator

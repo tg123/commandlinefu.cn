@@ -1,8 +1,7 @@
 commandlinefu_id: 3832
 translator:
-  weibo: ''
-hide: true
+  weibo: tgic
 command: |-
   echo start > battery.txt; watch -n 60 'date >> battery.txt'
 summary: |-
-  Do you really believe on Battery Remaining Time? Confirm it from time to time!
+  统计电池使用

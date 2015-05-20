@@ -1,8 +1,0 @@
-commandlinefu_id: 5582
-translator:
-  weibo: ''
-hide: true
-command: |-
-  resize
-summary: |-
-  Get size of terminal
