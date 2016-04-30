@@ -1,8 +1,8 @@
 commandlinefu_id: 1299
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   sar -u 2 5
 summary: |-
-  Generate the CPU utilization report
+  sar: System Activity Reporter(系统活动状况报告)的缩写，-u: CPU 监控, interval=2,count=5,即每隔2s输出，共输出5次
+  可以看到 CPU 的空闲率，IO等待时间等

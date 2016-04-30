@@ -1,8 +1,7 @@
 commandlinefu_id: 2936
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   du --max-depth=1
 summary: |-
-  Get the size of all the directories in current directory
+  统计当前目录下各一级子目录的大小,如果您在后面加上 -h,相信您会看得更真切.您也可以考虑将max-depth的值设成更大的整数

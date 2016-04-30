@@ -1,8 +1,7 @@
 commandlinefu_id: 337
 translator:
-  weibo: ''
-hide: true
+  weibo: '没想到321'
 command: |-
   ldd <executable binary>
 summary: |-
-  Check executable shared library usage
+  打印出可执行命令需要依赖的共享库信息,如 ldd /usr/bin/python
