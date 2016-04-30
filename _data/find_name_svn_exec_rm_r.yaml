@@ -1,8 +1,0 @@
-commandlinefu_id: 4917
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name .svn -exec rm -r {} +;
-summary: |-
-  Recursively remove .svn directories

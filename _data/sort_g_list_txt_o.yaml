@@ -1,8 +1,0 @@
-commandlinefu_id: 9700
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort -g list.txt -o $_
-summary: |-
-  sort the contents of a text file in place.

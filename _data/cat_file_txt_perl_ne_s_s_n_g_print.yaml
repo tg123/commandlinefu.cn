@@ -1,7 +1,0 @@
-commandlinefu_id: 252
-translator:
-  weibo: codepiano
-command: |-
-  cat file.txt|perl -ne '$_=~s/\s+/\n/g; print $_;'
-summary: |-
-  使用换行代替空格

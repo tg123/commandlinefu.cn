@@ -1,8 +1,0 @@
-commandlinefu_id: 6287
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  route -n | grep  "^0\." | awk '{print "Gateway to the World: "$2", via "$NF""}'
-summary: |-
-  显示默认网关

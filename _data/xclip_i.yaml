@@ -1,7 +1,0 @@
-commandlinefu_id: 5254
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  !xclip -i %
-summary: |-
-  复制当前文件的内容到X window的剪贴板（在Vim命令行模式中使用）

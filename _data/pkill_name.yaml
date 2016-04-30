@@ -1,7 +1,0 @@
-commandlinefu_id: 8067
-translator:
-  weibo: titikaka723 
-command: |-
-  pkill name
-summary: |-
-  根据部分名字杀死进程 

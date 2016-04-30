@@ -1,7 +1,0 @@
-commandlinefu_id: 11342
-translator:
-  weibo: tgic
-command: |-
-  while [ 1 ] ; do echo -en "$(date +%T)\r" ; sleep 1; done
-summary: |-
-  时钟

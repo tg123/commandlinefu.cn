@@ -1,7 +1,0 @@
-commandlinefu_id: 4269
-translator:
-  weibo: tgic
-command: |-
-  perl -pe 'print "$. "' file
-summary: |-
-  带行号的cat

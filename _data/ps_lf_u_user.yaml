@@ -1,7 +1,0 @@
-commandlinefu_id: 12584
-translator:
-  weibo: '猪了个去'
-command: |-
-  $ ps -LF -u user
-summary: |-
-  列出归属于user的用户的进程和线程

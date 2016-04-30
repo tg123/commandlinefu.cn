@@ -1,7 +1,0 @@
-commandlinefu_id: 3448
-translator:
-  weibo: tgic
-command: |-
-  date -ud @$[2**31-1]
-summary: |-
-  看看32位的unix末日

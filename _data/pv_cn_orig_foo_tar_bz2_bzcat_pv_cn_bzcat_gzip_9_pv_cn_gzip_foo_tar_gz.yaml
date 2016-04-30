@@ -1,8 +1,0 @@
-commandlinefu_id: 5376
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pv -cN orig < foo.tar.bz2 | bzcat | pv -cN bzcat | gzip -9 | pv -cN gzip > foo.tar.gz
-summary: |-
-  See multiple progress bars at once for multiple pipes with pv

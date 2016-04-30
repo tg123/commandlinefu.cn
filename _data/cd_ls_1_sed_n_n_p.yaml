@@ -1,8 +1,0 @@
-commandlinefu_id: 11822
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd $(ls -1 | sed -n '<N>p')
-summary: |-
-  cd Nst subdir

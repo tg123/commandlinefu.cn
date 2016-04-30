@@ -1,7 +1,0 @@
-commandlinefu_id: 11291
-translator:
-  weibo: tgic
-command: |-
-  end_w_nl() { [[ $(tail -c1 $1 | xxd -ps) == 0a ]] }
-summary: |-
-  检查文件是否以newline结尾

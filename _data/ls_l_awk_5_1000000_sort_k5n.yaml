@@ -1,7 +1,0 @@
-commandlinefu_id: 4105
-translator:
-  weibo: tgic
-command: |-
-  ls -l | awk '$5 > 1000000' | sort -k5n
-summary: |-
-  现实大于1M 的文件

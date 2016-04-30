@@ -1,8 +1,0 @@
-commandlinefu_id: 11309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $((0x$(head -c5 /dev/random|xxd -ps)%6+1))
-summary: |-
-  True Random Dice Roll

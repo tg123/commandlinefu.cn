@@ -1,8 +1,0 @@
-commandlinefu_id: 3635
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ack --pager='less -r'
-summary: |-
-  彩色的less

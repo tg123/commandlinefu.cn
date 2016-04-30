@@ -1,7 +1,0 @@
-commandlinefu_id: 9974
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  IMG="image.img";PART=1;mount -o loop,ro,offset=$(parted $IMG -s unit b print|awk '$1=='$PART' {sub(/B/,"",$2);print $2}') $IMG /mnt/whatever
-summary: |-
-  挂载一个已分区的磁盘映像文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 11458
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 'g/text/d' <filename>
-summary: |-
-  Remove lines ending or trailing slash (/)

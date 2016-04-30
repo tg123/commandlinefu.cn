@@ -1,8 +1,0 @@
-commandlinefu_id: 9928
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -d: -f1 /etc/passwd | sort
-summary: |-
-  Lists all users in alphabetical order

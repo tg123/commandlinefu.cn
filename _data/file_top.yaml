@@ -1,8 +1,0 @@
-commandlinefu_id: 2672
-translator:
-  weibo: ''
-hide: true
-command: |-
-  file =top
-summary: |-
-  zsh only: access a file when you don't know the path, if it is in PATH

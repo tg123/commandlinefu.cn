@@ -1,8 +1,0 @@
-commandlinefu_id: 6036
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while read l; do echo ${l%% *}; done < three-column-list.txt > only-first-column.txt
-summary: |-
-  Short one line while loop that outputs parameterized content from one file to another

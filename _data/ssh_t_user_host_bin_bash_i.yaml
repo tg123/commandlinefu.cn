@@ -1,7 +1,0 @@
-commandlinefu_id: 1320
-translator:
-  weibo: tgic
-command: |-
-  ssh -T user@host /bin/bash -i
-summary: |-
-  隐藏的远程登录(w 看不到)

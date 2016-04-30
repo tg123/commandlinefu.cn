@@ -1,7 +1,0 @@
-commandlinefu_id: 213
-translator:
-  weibo: tgic
-command: |-
-  myLongScript && echo -e '\a' || (echo -e '\a'; sleep 1; echo -e '\a')
-summary: |-
-  长耗时脚本执行完发出声音

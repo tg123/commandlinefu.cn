@@ -1,7 +1,0 @@
-commandlinefu_id: 3090
-translator:
-  weibo: '猪了个去'
-command: |-
-  command ps -Hacl -F S -A f
-summary: |-
-  像ps -fu一样显示进程

@@ -1,8 +1,0 @@
-commandlinefu_id: 1294
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f | while read file; do cp $file ${file}.bak; done
-summary: |-
-  Recurse through directories easily

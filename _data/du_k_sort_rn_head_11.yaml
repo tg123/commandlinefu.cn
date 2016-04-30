@@ -1,8 +1,0 @@
-commandlinefu_id: 13942
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -k . | sort -rn | head -11
-summary: |-
-  BIGGEST Files in a Directory

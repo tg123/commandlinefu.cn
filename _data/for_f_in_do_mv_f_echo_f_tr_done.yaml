@@ -1,7 +1,0 @@
-commandlinefu_id: 6857
-translator:
-  weibo: '猪了个去'
-command: |-
-  for f in * ; do mv "$f" $( echo $f | tr ' ' '-' ) ; done
-summary: |-
-  用连字符取代文件名里的空格

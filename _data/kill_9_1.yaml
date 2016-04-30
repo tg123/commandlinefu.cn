@@ -1,8 +1,0 @@
-commandlinefu_id: 6970
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 -1
-summary: |-
-  kill all process that belongs to you

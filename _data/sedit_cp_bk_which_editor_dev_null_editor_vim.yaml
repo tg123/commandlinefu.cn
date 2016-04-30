@@ -1,7 +1,0 @@
-commandlinefu_id: 9035
-translator:
-  weibo: tgic
-command: |-
-  sedit() { cp "$*"{,.bk}; which $EDITOR > /dev/null && $EDITOR "$*" || vim "$*"; }
-summary: |-
-  编辑之前先备份

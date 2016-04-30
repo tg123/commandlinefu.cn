@@ -1,8 +1,0 @@
-commandlinefu_id: 13876
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uchardet <filename>
-summary: |-
-  Detect encoding of a text file

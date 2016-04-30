@@ -1,8 +1,0 @@
-commandlinefu_id: 4551
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/sdc of=/dev/sdd  conv=notrunc & while killall -USR1 dd; do sleep 5; done
-summary: |-
-  clone an USB stick using dd + see its process

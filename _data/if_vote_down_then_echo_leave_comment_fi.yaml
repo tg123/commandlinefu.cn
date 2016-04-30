@@ -1,8 +1,0 @@
-commandlinefu_id: 1544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ "${vote}" = "down" ]; then echo leave comment; fi
-summary: |-
-  Leave a comment when voting down..

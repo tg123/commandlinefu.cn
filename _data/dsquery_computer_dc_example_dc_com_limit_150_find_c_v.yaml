@@ -1,8 +1,0 @@
-commandlinefu_id: 13276
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dsquery computer DC=example,DC=com -limit 150 | find /c /v ""
-summary: |-
-  Find number of computers in domain, OU, etc .

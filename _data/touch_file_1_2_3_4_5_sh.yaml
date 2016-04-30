@@ -1,7 +1,0 @@
-commandlinefu_id: 8587
-translator:
-  weibo: tgic
-command: |-
-  touch file{1,2,3,4,5}.sh
-summary: |-
-  如何同时操作多个文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 11007
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | sed -n 's/.*inet addr:\([0-9.]\+\)\s.*/\1/p'
-summary: |-
-  Get the IP address

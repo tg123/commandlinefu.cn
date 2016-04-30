@@ -1,8 +1,0 @@
-commandlinefu_id: 7262
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch --interval 1 "cat /proc/acpi/thermal_zone/THRM/*; cat /proc/cpuinfo | grep MHz; cat /proc/acpi/processor/*/throttling"
-summary: |-
-  Monitor cpu freq and temperature

@@ -1,8 +1,0 @@
-commandlinefu_id: 411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  archivefile=filename-$(date +%Y%m%d-%H%M).tar.gz
-summary: |-
-  Name a backup/archive file based on current date and time

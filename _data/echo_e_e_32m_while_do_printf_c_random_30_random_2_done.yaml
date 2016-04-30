@@ -1,7 +1,0 @@
-commandlinefu_id: 11318
-translator:
-  weibo: tgic
-command: |-
-  echo -e "\e[32m"; while :; do printf '%*c' $(($RANDOM % 30)) $(($RANDOM % 2)); done
-summary: |-
-  黑客帝国

@@ -1,7 +1,0 @@
-commandlinefu_id: 5381
-translator:
-  weibo: msccreater
-command: |-
-  ls | grep -E ".*\.txt" | while read file; do cat $file >> ./output.txt; done;
-summary: |-
-  把当前目录下所有以txt为后缀的文件中的内容写到output.txt中。

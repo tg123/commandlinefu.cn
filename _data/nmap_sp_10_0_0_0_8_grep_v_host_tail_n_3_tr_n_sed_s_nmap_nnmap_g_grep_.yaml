@@ -1,8 +1,0 @@
-commandlinefu_id: 13935
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -sP 10.0.0.0/8 | grep -v "Host" | tail -n +3 | tr '\n' ' ' | sed 's|Nmap|\nNmap|g' | grep "MAC Address" | cut -d " " -f5,8-15
-summary: |-
-  nmap scan hosts for IP, MAC Address and device Vendor/Manufacturer

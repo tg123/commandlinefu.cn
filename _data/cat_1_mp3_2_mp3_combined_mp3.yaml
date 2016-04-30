@@ -1,8 +1,0 @@
-commandlinefu_id: 2781
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat 1.mp3 2.mp3 > combined.mp3
-summary: |-
-  Combine two mp3's or more into 1 long mp3

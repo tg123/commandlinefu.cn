@@ -1,7 +1,0 @@
-commandlinefu_id: 3832
-translator:
-  weibo: tgic
-command: |-
-  echo start > battery.txt; watch -n 60 'date >> battery.txt'
-summary: |-
-  统计电池使用

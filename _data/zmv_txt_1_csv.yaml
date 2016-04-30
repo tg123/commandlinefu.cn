@@ -1,7 +1,0 @@
-commandlinefu_id: 12063
-translator:
-  weibo: codepiano
-command: |-
-  zmv '(*).txt' '$1.csv'
-summary: |-
-  将多个文件使用不同的名称重命名，比如把所有txt文件重命名为csv文件

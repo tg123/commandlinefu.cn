@@ -1,8 +1,0 @@
-commandlinefu_id: 12811
-translator:
-  weibo: ''
-hide: true
-command: |-
-  emacs -q
-summary: |-
-  open emacs with no init file

@@ -1,8 +1,0 @@
-commandlinefu_id: 12440
-translator:
-  weibo: ''
-hide: true
-command: |-
-  salt -G 'os_family:Debian' cmd.run 'apt-get dist-upgrade --dry-run | grep ^Inst | cut -d" " -f2'
-summary: |-
-  Get list of updateable packages on Debian/Ubuntu machines using salt stack

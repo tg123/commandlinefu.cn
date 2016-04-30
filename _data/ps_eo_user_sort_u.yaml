@@ -1,7 +1,0 @@
-commandlinefu_id: 6013
-translator:
-  weibo: tgic
-command: |-
-  ps -eo user | sort -u
-summary: |-
-  显示所有有活动进程的用户

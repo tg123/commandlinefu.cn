@@ -1,7 +1,0 @@
-commandlinefu_id: 1856
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r
-summary: |-
-  看看最常用的命令

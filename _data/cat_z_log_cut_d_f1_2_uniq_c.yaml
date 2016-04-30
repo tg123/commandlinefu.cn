@@ -1,8 +1,0 @@
-commandlinefu_id: 10329
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat z.log  | cut -d ':' -f1,2  | uniq -c
-summary: |-
-  Count loglines by time (minute)

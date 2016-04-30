@@ -1,8 +1,0 @@
-commandlinefu_id: 4463
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ..(){ for ((j=${1:-1},i=0;i<j;i++));do builtin cd ..;done;}
-summary: |-
-  cd up a number of levels

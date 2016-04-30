@@ -1,7 +1,0 @@
-commandlinefu_id: 13952
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  findfile() { find . -type f -iname "*${*}*" ; }
-summary: |-
-  查找文件的快捷命令

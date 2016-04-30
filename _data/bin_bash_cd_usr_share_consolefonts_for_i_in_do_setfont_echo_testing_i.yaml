@@ -1,7 +1,0 @@
-commandlinefu_id: 9568
-translator:
-  weibo: tgic
-command: |-
-  #!/bin/bash cd /usr/share/consolefonts/; for i in * ;  do setfont; echo "testing >> $i << font" ; setfont $i ; showconsolefont ; sleep 5 ; clear ; done
-summary: |-
-  查看所有console字体

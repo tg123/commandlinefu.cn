@@ -1,8 +1,0 @@
-commandlinefu_id: 7326
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name .svn -type d -exec rm -rf '{}' +
-summary: |-
-  Remove all .svn folders

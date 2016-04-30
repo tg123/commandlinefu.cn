@@ -1,7 +1,0 @@
-commandlinefu_id: 422
-translator:
-  weibo: tgic
-command: |-
-  mogrify -resize 1024 *.jpg
-summary: |-
-  调整目录中jpg的大小

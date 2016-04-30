@@ -1,7 +1,0 @@
-commandlinefu_id: 5090
-translator:
-  weibo: '猪了个去'
-command: |-
-  perl -pi -e 's/\r\n?/\n/g'
-summary: |-
-  转换文件的DOS换行符到UNIX换行符

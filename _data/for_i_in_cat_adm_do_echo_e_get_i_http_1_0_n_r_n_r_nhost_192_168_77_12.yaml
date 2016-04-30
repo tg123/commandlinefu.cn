@@ -1,8 +1,0 @@
-commandlinefu_id: 5510
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(cat adm);do echo -e "GET /${i} HTTP/1.0\n\r\n\r \nHost: 192.168.77.128\r\n\r\n \nConnection: close\r\n"|nc -w 1 192.168.77.128 80 |grep -i "200 OK" 2>/dev/null >/dev/null;[ $? -eq "0" ] && echo "Found ${i}" && break;echo "$i";sleep 1;done
-summary: |-
-  Netcat brute force on administration login panel

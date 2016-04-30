@@ -1,8 +1,0 @@
-commandlinefu_id: 11063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n10 "if test -e run.txt ; then chmod +x script.sh && ./script.sh && rm run.txt || rm run.txt && echo > failed.txt ; fi"
-summary: |-
-  How to run a shell script on a remote host using ftp

@@ -1,8 +1,0 @@
-commandlinefu_id: 9195
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zcat /usr/share/man/man1/man.1.gz | nroff -man | less
-summary: |-
-  Read manpages without the man(1) command

@@ -1,8 +1,0 @@
-commandlinefu_id: 13413
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias pp='python -mjson.tool|pygmentize -l js'
-summary: |-
-  Simple colourized JSON formatting for BASH

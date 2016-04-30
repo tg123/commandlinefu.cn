@@ -1,7 +1,0 @@
-commandlinefu_id: 10842
-translator:
-  weibo: codepiano
-command: |-
-  fdisk -l /dev/sda
-summary: |-
-  查看分区大小

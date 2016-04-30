@@ -1,8 +1,0 @@
-commandlinefu_id: 13754
-translator:
-  weibo: ''
-hide: true
-command: |-
-  youtube-dl -tci --write-info-json "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-summary: |-
-  Rip a video for archiving, from any site

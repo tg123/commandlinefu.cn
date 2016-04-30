@@ -1,8 +1,0 @@
-commandlinefu_id: 11303
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <cmd> | xargs -0 <cmd>
-summary: |-
-  route output as next command's parameters

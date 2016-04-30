@@ -1,7 +1,0 @@
-commandlinefu_id: 12696
-translator:
-  weibo: tgic
-command: |-
-  du -hd1 | sort -hr
-summary: |-
-  按大小排序文件夹

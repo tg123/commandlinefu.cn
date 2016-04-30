@@ -1,7 +1,0 @@
-commandlinefu_id: 11535
-translator:
-  weibo: tgic
-command: |-
-  for file in *.jpg; do identify -format '%f %b %Q %w %h' $file; done
-summary: |-
-  列出jpg得文件信息

@@ -1,8 +1,0 @@
-commandlinefu_id: 7176
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh root@host1 ?cd /somedir/tocopy/ && tar -cf ? .? | ssh root@host2 ?cd /samedir/tocopyto/ && tar -xf -?
-summary: |-
-  Copy from host 1 to host 2 through your host

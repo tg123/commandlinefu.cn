@@ -1,7 +1,0 @@
-commandlinefu_id: 5227
-translator:
-  weibo: tgic
-command: |-
-  dd if=file1 of=file2 seek=1 bs=$(stat -c%s file2)
-summary: |-
-  将一个文件拷贝到另一个文件的末尾

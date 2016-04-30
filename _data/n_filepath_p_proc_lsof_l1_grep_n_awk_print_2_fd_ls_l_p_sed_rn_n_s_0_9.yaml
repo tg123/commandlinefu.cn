@@ -1,7 +1,0 @@
-commandlinefu_id: 1131
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  N="filepath" ; P=/proc/$(lsof +L1 | grep "$N" | awk '{print $2}')/fd ; ls -l $P | sed -rn "/$N/s/.*([0-9]+) ->.*/\1/p" | xargs -I_ cat $P/_ > "$N"
-summary: |-
-  抢救已删除文件的内容（需要该文件的文件描述符被其他程序打开中）

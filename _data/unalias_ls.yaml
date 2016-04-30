@@ -1,8 +1,0 @@
-commandlinefu_id: 1428
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unalias ls
-summary: |-
-  Make ls output better visible on dark terminals in bash

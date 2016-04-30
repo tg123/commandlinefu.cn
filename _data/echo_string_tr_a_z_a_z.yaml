@@ -1,7 +1,0 @@
-commandlinefu_id: 6309
-translator:
-  weibo: 'codepiano'
-command: |-
-  echo StrinG | tr 'A-Z' 'a-z'
-summary: |-
-  把字符串中的大写字符转换为小写

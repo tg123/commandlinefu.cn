@@ -1,8 +1,0 @@
-commandlinefu_id: 13358
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PORT=11211; ss -an4 | grep -E "ESTAB.*$PORT" | awk '{print $5}' | awk -F: '{print $1}' | sort | uniq -c | sort -nr
-summary: |-
-  Report the established connections for a particular port

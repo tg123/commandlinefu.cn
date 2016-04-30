@@ -1,7 +1,0 @@
-commandlinefu_id: 7030
-translator:
-  weibo: codepiano
-command: |-
-  rename 's/\.jpeg/\.jpg/' *.jpeg; rename 's/\.JPG/\.jpg/' *.JPG
-summary: |-
-  重命名所有的.jpeg和.JPG扩展名到.jpg

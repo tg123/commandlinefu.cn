@@ -1,8 +1,0 @@
-commandlinefu_id: 3068
-translator:
-  weibo: ''
-hide: true
-command: |-
-  SELECT relname, reltuples, pg_relation_size(relname) FROM pg_class r JOIN pg_namespace n ON (relnamespace = n.oid) WHERE relkind = 'r' AND n.nspname = 'public' ORDER BY relname;
-summary: |-
-  postgresql SQL to show count of ALL tables (relations) including relation-size

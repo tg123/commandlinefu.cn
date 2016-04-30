@@ -1,8 +1,0 @@
-commandlinefu_id: 7
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo "ls -l" | at midnight
-summary: |-
-  用at在固定时间执行命令

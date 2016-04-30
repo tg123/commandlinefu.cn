@@ -1,7 +1,0 @@
-commandlinefu_id: 1592
-translator:
-  weibo: tgic
-command: |-
-  convert -colorspace gray face.jpg gray_face.jpg
-summary: |-
-  旧照片效果

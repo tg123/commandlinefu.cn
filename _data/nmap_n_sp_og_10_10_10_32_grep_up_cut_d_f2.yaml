@@ -1,8 +1,0 @@
-commandlinefu_id: 11129
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -n -sP -oG - 10.10.10.*/32 | grep ": Up" | cut -d' ' -f2
-summary: |-
-  Getting a list of active addresses in your own network.

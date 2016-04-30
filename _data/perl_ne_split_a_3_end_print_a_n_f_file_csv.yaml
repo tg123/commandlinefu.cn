@@ -1,8 +1,0 @@
-commandlinefu_id: 2923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl  -ne 'split /,/ ; $a+= $_[3]; END {print $a."\n";}' -f ./file.csv
-summary: |-
-  Sum columns from CSV column $COL

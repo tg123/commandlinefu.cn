@@ -1,7 +1,0 @@
-commandlinefu_id: 12510
-translator:
-  weibo: tgic
-command: |-
-  echo "q+werty%3D%2F%3B" | php -r "echo urldecode(file_get_contents('php://stdin'));"
-summary: |-
-  使用php做 url decode

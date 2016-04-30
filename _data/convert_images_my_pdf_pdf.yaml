@@ -1,8 +1,0 @@
-commandlinefu_id: 1906
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert images*.* <my_pdf>.pdf
-summary: |-
-  Convert images (jpg, png, ...) into a PDF

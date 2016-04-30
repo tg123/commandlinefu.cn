@@ -1,7 +1,0 @@
-commandlinefu_id: 6618
-translator:
-  weibo: '猪了个去'
-command: |-
-  od -An -N10 -x  /dev/random  | md5sum | sed -r 's/^(.{10}).*$/\1/; s/([0-9a-f]{2})/\1:/g; s/:$//;'
-summary: |-
-  生成一个随机MAC地址

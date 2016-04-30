@@ -1,8 +1,0 @@
-commandlinefu_id: 13948
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nohist(){ export HISTFILE=/dev/null; }
-summary: |-
-  Don't track history for the current session starting after the command

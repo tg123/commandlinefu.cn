@@ -1,8 +1,0 @@
-commandlinefu_id: 1012
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -n 20 ~/Library/Logs/FileSyncAgent.log
-summary: |-
-  Quick scrape of recent mobile home dir file sync for Mac Admins - tested with shell: bash, Mac OSX 10.5

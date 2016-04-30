@@ -1,8 +1,0 @@
-commandlinefu_id: 12149
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *.png; do mv $f  `basename  $f  .png`@2x.png; done
-summary: |-
-  Name retina images. if you get a bunch of retina images named like name.png, you can use this script to rename them properly. ie. name@2x.png

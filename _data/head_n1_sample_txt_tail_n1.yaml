@@ -1,8 +1,0 @@
-commandlinefu_id: 8634
-translator:
-  weibo: ''
-hide: true
-command: |-
-  head -n1 sample.txt | tail -n1
-summary: |-
-  Extract specific lines from a text file using Stream Editor (sed)

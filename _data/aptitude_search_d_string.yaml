@@ -1,7 +1,0 @@
-commandlinefu_id: 8952
-translator:
-  weibo: tgic
-command: |-
-  aptitude search ~d<string>
-summary: |-
-  查找包(deb)

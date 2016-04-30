@@ -1,8 +1,0 @@
-commandlinefu_id: 5212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  leapyear() { [ $(date -d "Dec 31, $1" +%j) == 366 ] && echo leap || echo not leap; }
-summary: |-
-  Leap year calculation

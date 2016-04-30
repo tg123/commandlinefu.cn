@@ -1,7 +1,0 @@
-commandlinefu_id: 7169
-translator:
-  weibo: tgic
-command: |-
-  gawk '{n=$1;a=0;b=1;c=1;for(i=1;i<n;i++){c=a+b;a=b;b=c};print c}' << eof
-summary: |-
-  用awk计算斐波那契

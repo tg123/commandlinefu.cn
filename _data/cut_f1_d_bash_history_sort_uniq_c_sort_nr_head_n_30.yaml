@@ -1,7 +1,0 @@
-commandlinefu_id: 8339
-translator:
-  weibo: tgic
-command: |-
-  cut -f1 -d" " ~/.bash_history | sort | uniq -c | sort -nr | head -n 30
-summary: |-
-  看看你最常用的命令是什么

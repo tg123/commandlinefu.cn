@@ -1,7 +1,0 @@
-commandlinefu_id: 11255
-translator:
-  weibo: tgic
-command: |-
-  du -sm /home/* | sort -nr | head -n 10
-summary: |-
-  寻找十大浪费硬盘的用户

@@ -1,7 +1,0 @@
-commandlinefu_id: 8220
-translator:
-  weibo: tgic
-command: |-
-  cp filename{,.`date +%Y%m%d`}
-summary: |-
-  备份文件

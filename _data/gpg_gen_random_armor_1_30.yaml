@@ -1,8 +1,0 @@
-commandlinefu_id: 8869
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg --gen-random --armor 1 30
-summary: |-
-  Generate a random password 30 characters long

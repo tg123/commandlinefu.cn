@@ -1,8 +1,0 @@
-commandlinefu_id: 6539
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function ldd(){ objdump -p $1 | grep -i need; }
-summary: |-
-  print shared library dependencies

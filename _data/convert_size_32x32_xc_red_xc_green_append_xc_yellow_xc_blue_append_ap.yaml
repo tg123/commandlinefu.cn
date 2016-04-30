@@ -1,8 +1,0 @@
-commandlinefu_id: 9097
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert -size 32x32 \( xc:red xc:green +append \) \( xc:yellow xc:blue +append \) -append output.png
-summary: |-
-  create a colorful &#30000; image

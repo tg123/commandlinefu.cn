@@ -1,8 +1,0 @@
-commandlinefu_id: 2045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  getfacl /mydir
-summary: |-
-  Get file access control list

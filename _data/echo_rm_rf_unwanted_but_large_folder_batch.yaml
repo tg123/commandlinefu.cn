@@ -1,7 +1,0 @@
-commandlinefu_id: 49
-translator:
-  weibo: tgic
-command: |-
-  echo "rm -rf /unwanted-but-large/folder" | batch
-summary: |-
-  负载低时候执行某个命令

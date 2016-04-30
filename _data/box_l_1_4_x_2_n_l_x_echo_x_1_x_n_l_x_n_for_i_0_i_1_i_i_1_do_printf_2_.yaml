@@ -1,7 +1,0 @@
-commandlinefu_id: 4948
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  box() { l=${#1}+4;x=${2:-=};n $l $x; echo "$x $1 $x"; n $l $x; }; n() { for (( i=0; $i<$1; i=$i+1)); do printf $2; done; printf "\n"; }
-summary: |-
-  一个在给定字符串周围创建由'='围起来的盒子

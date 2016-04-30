@@ -1,8 +1,0 @@
-commandlinefu_id: 6374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -n tcp {0..65535}
-summary: |-
-  For finding out if something is listening on a port and if so what the daemon is.

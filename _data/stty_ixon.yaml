@@ -1,8 +1,0 @@
-commandlinefu_id: 10805
-translator:
-  weibo: ''
-hide: true
-command: |-
-  stty -ixon
-summary: |-
-  Disable sending of start/stop characters

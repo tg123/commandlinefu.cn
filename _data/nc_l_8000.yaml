@@ -1,8 +1,0 @@
-commandlinefu_id: 1697
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l 8000
-summary: |-
-  Display information sent by browser

@@ -1,8 +1,0 @@
-commandlinefu_id: 5594
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for arquivo in `ls -1` ; do sed -i '/ErrorLog/a\ \ \ \ \ \ \ \ CustomLog \/var\/log\/apache2\/access_'"$file"'_log combined' /root/site-bak/${file} ; done
-summary: |-
-  Adding specific CustomLog for each Virtual Domain of Apache

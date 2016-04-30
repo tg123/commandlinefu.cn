@@ -1,8 +1,0 @@
-commandlinefu_id: 6736
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gconftool-2 --set /apps/nautilus/preferences/show_desktop --type bool 0
-summary: |-
-  Hide files and folders on GNOME Desktop.

@@ -1,7 +1,0 @@
-commandlinefu_id: 3582
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{$1=""; print}'
-summary: |-
-  打印第一列等于指定内容的信息 

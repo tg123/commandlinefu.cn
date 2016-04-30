@@ -1,8 +1,0 @@
-commandlinefu_id: 2777
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vmap <c-a> y:$<CR>o<Esc>map<Esc>:'a,$!awk '{sum+=$0}END{print "SUM:" sum}'<CR>dd'>p
-summary: |-
-  Get the SUM of visual blocked digits in vim

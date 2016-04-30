@@ -1,8 +1,0 @@
-commandlinefu_id: 10799
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqladmin -u root -p extended-status
-summary: |-
-  Mysql extended status

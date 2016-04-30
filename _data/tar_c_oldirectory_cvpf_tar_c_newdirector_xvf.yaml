@@ -1,8 +1,0 @@
-commandlinefu_id: 3152
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -C /oldirectory -cvpf - . | tar -C /newdirector -xvf -
-summary: |-
-  Copy via tar pipe while preserving file permissions (run this command as root!)

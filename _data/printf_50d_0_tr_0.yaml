@@ -1,8 +1,0 @@
-commandlinefu_id: 5157
-translator:
-  weibo: ''
-hide: true
-command: |-
-  printf "%.50d" 0 | tr 0 -
-summary: |-
-  Print a row of 50 hyphens

@@ -1,7 +1,0 @@
-commandlinefu_id: 12803
-translator:
-  weibo: particle128
-command: |-
-  :set nu
-summary: |-
-  显示行号

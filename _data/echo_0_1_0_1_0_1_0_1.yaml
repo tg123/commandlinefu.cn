@@ -1,8 +1,0 @@
-commandlinefu_id: 2485
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo {0..1}{0..1}{0..1}{0..1}
-summary: |-
-  Create a list of binary numbers

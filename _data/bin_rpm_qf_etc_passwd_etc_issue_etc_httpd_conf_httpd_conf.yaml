@@ -1,8 +1,0 @@
-commandlinefu_id: 150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/rpm -qf /etc/passwd /etc/issue /etc/httpd/conf/httpd.conf
-summary: |-
-  Search for in which package the specified file is included.

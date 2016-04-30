@@ -1,8 +1,0 @@
-commandlinefu_id: 1581
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | while read ITEM; do echo "$ITEM"; done
-summary: |-
-  loop over a set of items that contain spaces

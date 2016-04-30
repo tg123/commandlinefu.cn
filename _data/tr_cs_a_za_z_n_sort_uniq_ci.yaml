@@ -1,8 +1,0 @@
-commandlinefu_id: 6844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -cs A-Za-z '\n' | sort | uniq -ci
-summary: |-
-  Generate list of words and their frequencies in a text file.

@@ -1,8 +1,0 @@
-commandlinefu_id: 10757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zeros=3; from=1; to=15; for foo in $(seq $from $to); do echo mv "front${foo}back" "front$(printf "%0${zeros}d\n" $foo)back"; done
-summary: |-
-  pad file names with zeros so that files sort easily

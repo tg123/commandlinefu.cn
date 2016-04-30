@@ -1,8 +1,0 @@
-commandlinefu_id: 3627
-translator:
-  weibo: ''
-hide: true
-command: |-
-  arecord -q -f cd -r 44100 -c2 -t raw | lame -S -x -h -b 128 - `date +%Y%m%d%H%M`.mp3
-summary: |-
-  Record microphone input and output to date stamped mp3 file

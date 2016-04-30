@@ -1,7 +1,0 @@
-commandlinefu_id: 3428
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'length>72' file
-summary: |-
-  列出长度长于72的行 

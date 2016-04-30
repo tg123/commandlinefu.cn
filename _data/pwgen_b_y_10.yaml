@@ -1,7 +1,0 @@
-commandlinefu_id: 11441
-translator:
-  weibo: codepiano
-command: |-
-  pwgen -B -y 10
-summary: |-
-  生成一个十位的随机密码

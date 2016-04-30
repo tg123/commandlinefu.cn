@@ -1,8 +1,0 @@
-commandlinefu_id: 11531
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /path/to/search/directory -exec grep -Hn "pattern" {} \;
-summary: |-
-  If a directory contains softlinks, grep will give lot of warnings. So better use it along with find command so that softlinks are excluded. "Hn" operator will take care that both line number and filename is shown in grep output

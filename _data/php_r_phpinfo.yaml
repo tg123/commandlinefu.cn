@@ -1,8 +1,0 @@
-commandlinefu_id: 6889
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  php -r "phpinfo();"
-summary: |-
-  命令行显示php的信息

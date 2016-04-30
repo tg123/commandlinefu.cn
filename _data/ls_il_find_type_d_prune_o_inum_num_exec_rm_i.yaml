@@ -1,7 +1,0 @@
-commandlinefu_id: 11082
-translator:
-  weibo: '猪了个去'
-command: |-
-  ls -il; find * \( -type d -prune \) -o -inum <NUM> -exec rm -i {} \;
-summary: |-
-  删除文件名中带特殊字母或问号的文件

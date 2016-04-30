@@ -1,8 +1,0 @@
-commandlinefu_id: 13456
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n0.5 'ps -e -o pid,vsz,comm= | sort -n -k 2 | grep apache | wc -l'
-summary: |-
-  Number of apache2 processes running with memory usage filter (sorting asc)

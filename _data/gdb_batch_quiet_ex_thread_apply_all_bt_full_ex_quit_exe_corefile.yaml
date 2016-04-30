@@ -1,8 +1,0 @@
-commandlinefu_id: 6004
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gdb --batch --quiet -ex "thread apply all bt full" -ex "quit" ${exe} ${corefile}
-summary: |-
-  Print stack trace of a core file without needing to enter gdb interactively

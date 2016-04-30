@@ -1,7 +1,0 @@
-commandlinefu_id: 2172
-translator:
-  weibo: tgic
-command: |-
-  svn st | grep '^\?' | awk '{print $2}' | xargs svn add; svn st | grep '^\!' | awk '{print $2}' | xargs svn rm
-summary: |-
-  自动添加或者删除文件到svn

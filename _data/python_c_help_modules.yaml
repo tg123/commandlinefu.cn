@@ -1,7 +1,0 @@
-commandlinefu_id: 11758
-translator:
-  weibo: tgic
-command: |-
-  python -c "help('modules')"
-summary: |-
-  查询python某个模块的文档

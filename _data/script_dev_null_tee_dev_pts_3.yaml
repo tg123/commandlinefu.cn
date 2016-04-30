@@ -1,7 +1,0 @@
-commandlinefu_id: 1948
-translator:
-  weibo: tgic
-command: |-
-  script /dev/null | tee /dev/pts/3
-summary: |-
-  重定向 Terminal

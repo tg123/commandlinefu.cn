@@ -1,7 +1,0 @@
-commandlinefu_id: 11941
-translator:
-  weibo: tgic
-command: |-
-  ps aux | grep <process> | grep -v grep | awk '{print $2}' | xargs -i -t kill -9 {}
-summary: |-
-  一次清理到多个进程

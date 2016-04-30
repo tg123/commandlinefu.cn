@@ -1,8 +1,0 @@
-commandlinefu_id: 3749
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ 1 ]; do du /var/log/messages;sleep 60; done
-summary: |-
-  Monitor a file's size

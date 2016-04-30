@@ -1,8 +1,0 @@
-commandlinefu_id: 4844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function setx(){ sed '/[xv]/!Q2' <<< $- && { set +xv; export PS4=">>> "; } || { export PS4="`tput setaf 3`>>> `tput sgr0`"; set -xv; }; }
-summary: |-
-  Turn shell tracing and verbosity (set -xv) on/off with 1 command!

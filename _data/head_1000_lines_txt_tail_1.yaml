@@ -1,7 +1,0 @@
-commandlinefu_id: 348
-translator:
-  weibo: '猪了个去'
-command: |-
-  head -1000 < lines.txt | tail -1
-summary: |-
-  从文本中获取第1000行

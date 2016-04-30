@@ -1,7 +1,0 @@
-commandlinefu_id: 4191
-translator:
-  weibo: codepiano
-command: |-
-  sudo strace -pXXXX -e trace=file
-summary: |-
-  查看一个进程正在干什么

@@ -1,8 +1,0 @@
-commandlinefu_id: 1382
-translator:
-  weibo: ''
-hide: true
-command: |-
-  INFILE=/path/to/your/backup.img; MOUNTPT=/mnt/foo; PARTITION=1; mount "$INFILE" "$MOUNTPT" -o loop,offset=$[ `/sbin/sfdisk -d "$INFILE" | grep "start=" | head -n $PARTITION | tail -n1 | sed 's/.*start=[ ]*//' | sed 's/,.*//'` * 512 ]
-summary: |-
-  Mount a partition from within a complete disk dump

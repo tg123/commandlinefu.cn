@@ -1,7 +1,0 @@
-commandlinefu_id: 10708
-translator:
-  weibo: codepiano
-command: |-
-  hdparm --verbose /dev/sda1
-summary: |-
-  硬盘的详细信息

@@ -1,8 +1,0 @@
-commandlinefu_id: 11265
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(multipath -ll | grep "3PARdata,VV"|awk '{print $1}') ; do parted -a optimal /dev/mapper/$i --script -- mklabel gpt mkpart primary 1 -1 set 1 lvm on ; done
-summary: |-
-  parted - scripted partitioning (of all multipathed SAN LUNs)

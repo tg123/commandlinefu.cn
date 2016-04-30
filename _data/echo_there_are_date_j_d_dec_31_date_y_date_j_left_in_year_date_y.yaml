@@ -1,8 +1,0 @@
-commandlinefu_id: 4804
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo "There are $(($(date +%j -d"Dec 31, $(date +%Y)")-$(date +%j))) left in year $(date +%Y)."
-summary: |-
-  今年还有多少天

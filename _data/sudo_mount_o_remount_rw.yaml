@@ -1,8 +1,0 @@
-commandlinefu_id: 1288
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo mount -o remount,rw /
-summary: |-
-  Remount root in read-write mode.

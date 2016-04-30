@@ -1,7 +1,0 @@
-commandlinefu_id: 2339
-translator:
-  weibo: tgic
-command: |-
-  cat somefile.css | awk '{gsub(/{|}|;/,"&\n"); print}' >> uncompressed.css
-summary: |-
-  正确查看压缩css的方法

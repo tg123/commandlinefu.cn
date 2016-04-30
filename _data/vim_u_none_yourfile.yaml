@@ -1,7 +1,0 @@
-commandlinefu_id: 8178
-translator:
-  weibo: ''
-command: |-
-  vim -u NONE yourfile
-summary: |-
-  忽略vimrc启动vim

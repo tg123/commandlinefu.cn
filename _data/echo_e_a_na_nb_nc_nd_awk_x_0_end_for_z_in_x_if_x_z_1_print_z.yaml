@@ -1,8 +1,0 @@
-commandlinefu_id: 13516
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "a\na\nb\nc\nd" | awk '{x[$0]++}END{for (z in x){if(x[z]==1){print z}}}'
-summary: |-
-  Unique data (replacement: sort | uniq -u)

@@ -1,8 +1,0 @@
-commandlinefu_id: 3857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmsetbg -s -u path_to_wallpaper
-summary: |-
-  set wallpaper on windowmaker in one line

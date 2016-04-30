@@ -1,7 +1,0 @@
-commandlinefu_id: 11820
-translator:
-  weibo: tgic
-command: |-
-  readlink -f /proc/$pid/exe
-summary: |-
-  查看pid的执行文件

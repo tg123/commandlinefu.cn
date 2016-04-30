@@ -1,7 +1,0 @@
-commandlinefu_id: 876
-translator:
-  weibo: tgic
-command: |-
-  perl -pe 's/\d+/++$n/e' file.txt
-summary: |-
-  给文件加上行号

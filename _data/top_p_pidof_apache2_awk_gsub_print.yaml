@@ -1,8 +1,0 @@
-commandlinefu_id: 8933
-translator:
-  weibo: ''
-hide: true
-command: |-
-  top -p `pidof apache2 | awk '{gsub(/[ ]/,",");print}'`
-summary: |-
-  Monitor specific process (ie apache)  using Top

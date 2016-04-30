@@ -1,8 +1,0 @@
-commandlinefu_id: 6904
-translator:
-  weibo: ''
-hide: true
-command: |-
-  style TEXT-FILE
-summary: |-
-  Analyse writing style of writing style of a document

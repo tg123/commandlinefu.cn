@@ -1,8 +1,0 @@
-commandlinefu_id: 7002
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill `ps aux | grep xmms | grep -v grep | awk '{ print $2 }'`
-summary: |-
-  Kill XMMS for a cron job

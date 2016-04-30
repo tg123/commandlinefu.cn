@@ -1,8 +1,0 @@
-commandlinefu_id: 13661
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sprunge() { curl -F 'sprunge=<-' http://sprunge.us < "${1:-/dev/stdin}"; }
-summary: |-
-  Send a file to a pastebin from STDIN or a file, with a single function

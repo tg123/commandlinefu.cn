@@ -1,8 +1,0 @@
-commandlinefu_id: 9228
-translator:
-  weibo: ''
-hide: true
-command: |-
-  smartctl -A /dev/sda | grep Power_On_Hours
-summary: |-
-  How long has this disk been powered on

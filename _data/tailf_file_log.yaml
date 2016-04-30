@@ -1,8 +1,0 @@
-commandlinefu_id: 2123
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tailf file.log
-summary: |-
-  Follow the flow of a log file

@@ -1,7 +1,0 @@
-commandlinefu_id: 11354
-translator:
-  weibo: codepiano
-command: |-
-  sshfs user@host:/path/to/remote/dir local-mount-point
-summary: |-
-  挂载远程目录

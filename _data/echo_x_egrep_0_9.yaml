@@ -1,7 +1,0 @@
-commandlinefu_id: 3746
-translator:
-  weibo: codepiano
-command: |-
-  echo $X | egrep "^[0-9]+$"
-summary: |-
-  检查一个变量是否是数字

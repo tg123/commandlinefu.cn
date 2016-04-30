@@ -1,8 +1,0 @@
-commandlinefu_id: 12926
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do nc <ip address of server> <port>;done
-summary: |-
-  put command in a loop to keep trying a connection

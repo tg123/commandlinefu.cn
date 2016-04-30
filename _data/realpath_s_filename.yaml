@@ -1,7 +1,0 @@
-commandlinefu_id: 7999
-translator:
-  weibo: ''
-command: |-
-  realpath -s <filename>
-summary: |-
-  获取文件的绝对路径

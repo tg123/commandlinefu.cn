@@ -1,8 +1,0 @@
-commandlinefu_id: 13467
-translator:
-  weibo: ''
-hide: true
-command: |-
-  TMPFILE="/tmp/$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM" && arecord -d 1 -t raw -f cd -q | base64 > $TMPFILE && pwgen -ys 12 12 -H $TMPFILE $@ && rm $TMPFILE
-summary: |-
-  True random passwords using your microphone noise as seed

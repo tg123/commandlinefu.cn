@@ -1,8 +1,0 @@
-commandlinefu_id: 13509
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -D 8080 -f -N srv1
-summary: |-
-  Use a server as SOCKS5 proxy over SSH

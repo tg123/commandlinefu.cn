@@ -1,7 +1,0 @@
-commandlinefu_id: 2909
-translator:
-  weibo: tgic
-command: |-
-  find . -name "-help" -exec mv {} help.txt \;
-summary: |-
-  把叫做help的文件重命名为help.txt

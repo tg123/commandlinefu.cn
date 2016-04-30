@@ -1,8 +1,0 @@
-commandlinefu_id: 12233
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  du -h --time --max-depth=1 | sort -hr
-summary: |-
-  按大小排序目录

@@ -1,8 +1,0 @@
-commandlinefu_id: 3398
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh root@`for ((i=100; i<=110; i++));do arp -a 192.168.1.$i; done | grep 00:35:cf:56:b2:2g | awk '{print $2}' | sed -e 's/(//' -e 's/)//'`
-summary: |-
-  connect via ssh using mac address

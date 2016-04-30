@@ -1,8 +1,0 @@
-commandlinefu_id: 7840
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -type f -printf %s\\n | paste -sd+ | bc
-summary: |-
-  文件大小求和

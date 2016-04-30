@@ -1,7 +1,0 @@
-commandlinefu_id: 13598
-translator:
-  weibo: tgic
-command: |-
-  docker inspect -f "{{ .NetworkSettings.IPAddress }}" $CONTAINERID
-summary: |-
-  获取容器的ip

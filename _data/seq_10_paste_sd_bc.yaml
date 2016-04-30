@@ -1,7 +1,0 @@
-commandlinefu_id: 7828
-translator:
-  weibo: tgic
-command: |-
-  seq 10 | paste -sd* | bc
-summary: |-
-  计算n的阶乘

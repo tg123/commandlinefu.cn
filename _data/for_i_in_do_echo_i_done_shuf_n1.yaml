@@ -1,8 +1,0 @@
-commandlinefu_id: 8119
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *; do echo "$i"; done | shuf -n1
-summary: |-
-  Selecting a random file/folder of a folder

@@ -1,8 +1,0 @@
-commandlinefu_id: 1639
-translator:
-  weibo: ''
-hide: true
-command: |-
-  php -r 'echo strtotime("2009/02/13 15:31:30")."\n";'
-summary: |-
-  run php code inline from the command line

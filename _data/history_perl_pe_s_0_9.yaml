@@ -1,7 +1,0 @@
-commandlinefu_id: 11412
-translator:
-  weibo: codepiano
-command: |-
-  history | perl -pe "~s/ *[0-9]+ *//"
-summary: |-
-  显示命令行历史，不显示行号

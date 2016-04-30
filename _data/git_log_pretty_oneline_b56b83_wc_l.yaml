@@ -1,7 +1,0 @@
-commandlinefu_id: 10960
-translator:
-  weibo: tgic
-command: |-
-  git log --pretty=oneline b56b83.. | wc -l
-summary: |-
-  计算某个commit以来有多少 commit 

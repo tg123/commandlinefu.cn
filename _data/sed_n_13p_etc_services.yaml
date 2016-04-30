@@ -1,7 +1,0 @@
-commandlinefu_id: 9292
-translator:
-  weibo: tgic
-command: |-
-  sed -n 13p /etc/services
-summary: |-
-  第n行

@@ -1,7 +1,0 @@
-commandlinefu_id: 9062
-translator:
-  weibo: titikaka723 
-command: |-
-  VBoxManage internalcommands createrawvmdk -filename [path/to/file/name.vmdk] -rawdisk /dev/[block_device]
-summary: |-
-   在将硬件块用于虚拟box中的虚拟块 

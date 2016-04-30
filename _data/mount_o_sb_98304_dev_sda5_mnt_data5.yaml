@@ -1,7 +1,0 @@
-commandlinefu_id: 12444
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mount -o sb=98304 /dev/sda5 /mnt/data5
-summary: |-
-  使用备份的superblock来挂载文件系统

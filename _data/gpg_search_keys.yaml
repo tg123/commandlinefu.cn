@@ -1,8 +1,0 @@
-commandlinefu_id: 3257
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg --search-keys
-summary: |-
-  Search gpg keys from commandline

@@ -1,8 +1,0 @@
-commandlinefu_id: 7170
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for a in $(date +"%H%M"|cut -b1,2,3,4 --output-delimiter=" ");do case "$a" in 0)echo "....";;1)echo "...*";;2)echo "..*.";;3)echo "..**";;4)echo ".*..";;5)echo ".*.*";;6)echo ".**.";;7)echo ".***";;8)echo "*...";;9)echo "*..*";;esac;done
-summary: |-
-  Binary clock

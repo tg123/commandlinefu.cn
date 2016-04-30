@@ -1,7 +1,0 @@
-commandlinefu_id: 12787
-translator:
-  weibo: tgic
-command: |-
-  find . -name '*pdf*' -print0 | xargs -0 ls -lt | head -20
-summary: |-
-  寻找最新修改的文件

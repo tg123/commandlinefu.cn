@@ -1,7 +1,0 @@
-commandlinefu_id: 5042
-translator:
-  weibo: '猪了个去'
-command: |-
-  ruby -e "i=0;loop{puts ' '*(29*(Math.sin(i)/2+1))+'|'*(29*(Math.cos(i)/2+1)); i+=0.1}"
-summary: |-
-  显示一个波形图案

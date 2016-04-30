@@ -1,7 +1,0 @@
-commandlinefu_id: 10031
-translator:
-  weibo: tgic
-command: |-
-  ncat -l -p 1234 --sh-exec "tee -a to.log | nc machine port | tee -a from.log"
-summary: |-
-  用tcp传出日志

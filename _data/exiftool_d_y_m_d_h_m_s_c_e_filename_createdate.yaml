@@ -1,8 +1,0 @@
-commandlinefu_id: 8770
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exiftool -d %Y-%m-%d_%H.%M.%S%%-c.%%e "-filename<CreateDate" .
-summary: |-
-  Rename all images in current directory to filename based on year, month, day and time based on exif information

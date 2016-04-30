@@ -1,7 +1,0 @@
-commandlinefu_id: 2310
-translator:
-  weibo: codepiano
-command: |-
-  echo string | tr '[:lower:]' '[:upper:]'
-summary: |-
-  将字符串转换为大写

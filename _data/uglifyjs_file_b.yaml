@@ -1,8 +1,0 @@
-commandlinefu_id: 12592
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uglifyjs <file> -b
-summary: |-
-  pretty print JavaScript source code

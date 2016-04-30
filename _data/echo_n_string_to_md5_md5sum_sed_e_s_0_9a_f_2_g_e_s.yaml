@@ -1,7 +1,0 @@
-commandlinefu_id: 8020
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo -n "String to MD5" | md5sum | sed -e 's/[0-9a-f]\{2\}/& /g' -e 's/  -//'
-summary: |-
-  生成MD5串并以可读格式输出hash校验和

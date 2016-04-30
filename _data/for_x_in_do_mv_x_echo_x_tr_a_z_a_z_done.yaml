@@ -1,7 +1,0 @@
-commandlinefu_id: 8343
-translator:
-  weibo: tgic
-command: |-
-  for x in *;do mv "$x" "`echo $x|tr [A-Z] [a-z]`";done
-summary: |-
-  将文件名小写

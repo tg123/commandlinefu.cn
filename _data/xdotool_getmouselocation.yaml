@@ -1,8 +1,0 @@
-commandlinefu_id: 10071
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdotool getmouselocation
-summary: |-
-  Get mouse location (X,Y coordinates)

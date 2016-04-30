@@ -1,7 +1,0 @@
-commandlinefu_id: 2647
-translator:
-  weibo: tgic
-command: |-
-  find . -type f ! -name "*html"
-summary: |-
-  寻找非html

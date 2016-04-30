@@ -1,7 +1,0 @@
-commandlinefu_id: 2490
-translator:
-  weibo: tgic
-command: |-
-  mii-tool eth0
-summary: |-
-  检查网线是否插入

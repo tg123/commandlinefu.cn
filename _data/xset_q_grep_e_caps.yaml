@@ -1,8 +1,0 @@
-commandlinefu_id: 14107
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xset -q | grep -e Caps
-summary: |-
-  Know status of Caps, Num and Scroll Lock on Netbook w/o Leds

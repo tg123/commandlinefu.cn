@@ -1,7 +1,0 @@
-commandlinefu_id: 4280
-translator:
-  weibo: tgic
-command: |-
-  traceroute 2>/dev/null -n commandlinefu.cn | awk '/^ *1/{print $2;exit}'
-summary: |-
-  路由检查

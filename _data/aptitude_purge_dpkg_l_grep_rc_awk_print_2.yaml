@@ -1,7 +1,0 @@
-commandlinefu_id: 11731
-translator:
-  weibo: gdqyn
-command: |-
-  aptitude purge $(dpkg -l|grep ^rc|awk '{ print $2 }')
-summary: |-
-  清除ubuntu上所有坏的包

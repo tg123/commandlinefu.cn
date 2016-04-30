@@ -1,8 +1,0 @@
-commandlinefu_id: 11617
-translator:
-  weibo: '猪了个去'
-command: |-
-  ps -ef | awk -v OFS="\n" '{ for (i=8;i<=NF;i++) line = (line ? line FS : "") $i; print NR ":", $1, $2, $7, line, ""; line = "" }'
-summary: |-
-  漂亮的打印进程
-

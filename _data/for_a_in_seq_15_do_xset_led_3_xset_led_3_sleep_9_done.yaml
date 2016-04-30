@@ -1,8 +1,0 @@
-commandlinefu_id: 13600
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for a in $(seq 15); do (xset led 3);(xset -led 3);sleep .9;done
-summary: |-
-  Let keyboard LED blink

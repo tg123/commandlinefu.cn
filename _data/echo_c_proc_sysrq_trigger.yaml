@@ -1,7 +1,0 @@
-commandlinefu_id: 12286
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo c > /proc/sysrq-trigger
-summary: |-
-  制造一个内核错误

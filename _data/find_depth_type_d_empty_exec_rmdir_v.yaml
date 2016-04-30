@@ -1,7 +1,0 @@
-commandlinefu_id: 5127
-translator:
-  weibo: tgic
-command: |-
-  find . -depth -type d -empty -exec rmdir -v {} \;
-summary: |-
-  递归删除空目录

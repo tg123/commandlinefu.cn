@@ -1,8 +1,0 @@
-commandlinefu_id: 13784
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -d: -f1 /etc/group | sort
-summary: |-
-  List all groups

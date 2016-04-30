@@ -1,7 +1,0 @@
-commandlinefu_id: 12305
-translator:
-  weibo: titikaka723 
-command: |-
-  vim -R /etc/passwd
-summary: |-
-  用vim打开文件 

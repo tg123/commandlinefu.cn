@@ -1,7 +1,0 @@
-commandlinefu_id: 2332
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pdfinfo Virtualization_A_Beginner_Guide.pdf | awk /Pages/
-summary: |-
-  显示给定PDF文件的页数

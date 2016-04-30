@@ -1,8 +1,0 @@
-commandlinefu_id: 12101
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var/www/ -type f -print0 | xargs -0 chmod 644
-summary: |-
-  Recursively change permissions on directories, leave files alone.

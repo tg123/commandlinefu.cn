@@ -1,8 +1,0 @@
-commandlinefu_id: 14052
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sc query state= all | awk '/SERVICE_NAME/{printf"%s:",$2;getline;gsub(/DISP.*:\ /,"");printf"%s\n",$0}' | column -ts\:
-summary: |-
-  Output Windows services in a neatly formated list (cygwin)

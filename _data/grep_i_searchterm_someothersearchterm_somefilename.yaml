@@ -1,8 +1,0 @@
-commandlinefu_id: 2154
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -i '<searchTerm>\|<someOtherSearchTerm>' <someFileName>
-summary: |-
-  Do an OR search using grep to look for more than one search term

@@ -1,8 +1,0 @@
-commandlinefu_id: 12041
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /some/path -type f | gawk -F/ '{print $NF}' | gawk -F. '/\./{print $NF}' | sort | uniq -c | sort -rn
-summary: |-
-  list unique file extensions recursively for a path, include extension frequency stats

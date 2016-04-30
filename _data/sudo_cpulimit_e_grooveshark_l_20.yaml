@@ -1,8 +1,0 @@
-commandlinefu_id: 7046
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo cpulimit -e Grooveshark -l 20
-summary: |-
-  Stop Grooveshark destroying your CPU

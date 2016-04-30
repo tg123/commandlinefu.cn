@@ -1,8 +1,0 @@
-commandlinefu_id: 1041
-translator:
-  weibo: '猪了个去'
-command: |-
-  egrep '^[^#]' some_file
-summary: |-
-  显示一个文件的去掉注释和空行的正文部分
-

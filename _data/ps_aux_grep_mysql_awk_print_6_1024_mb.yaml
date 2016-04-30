@@ -1,8 +1,0 @@
-commandlinefu_id: 13400
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep 'mysql' | awk '{print $6/1024 " MB";}'
-summary: |-
-  find the full amount of ram associated with mysql

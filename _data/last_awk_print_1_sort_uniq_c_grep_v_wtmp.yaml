@@ -1,7 +1,0 @@
-commandlinefu_id: 310
-translator:
-  weibo: '猪了个去'
-command: |-
-  last | awk '{ print $1 }' | sort | uniq -c | grep -v wtmp
-summary: |-
-  了解有多少用户进行了多少次登入、登出

@@ -1,7 +1,0 @@
-commandlinefu_id: 4881
-translator:
-  weibo: tgic
-command: |-
-  DISPLAY=":0.0" import -window root screenshot.png
-summary: |-
-  远程截屏

@@ -1,8 +1,0 @@
-commandlinefu_id: 12182
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mtr -t -o "LSD NBAW" 8.8.8.8
-summary: |-
-  investigates the network connection between the host and google public dns server

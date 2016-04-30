@@ -1,7 +1,0 @@
-commandlinefu_id: 6267
-translator:
-  weibo: tgic
-command: |-
-  echo $[RANDOM%X+1]
-summary: |-
-  有范围的随机数 1..X

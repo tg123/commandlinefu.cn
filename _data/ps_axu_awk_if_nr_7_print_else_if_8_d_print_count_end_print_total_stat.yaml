@@ -1,7 +1,0 @@
-commandlinefu_id: 8142
-translator:
-  weibo: titikaka723 
-command: |-
-  ps axu | awk '{if (NR <=7) print; else if ($8 == "D") {print; count++} } END {print "Total status D: "count}'
-summary: |-
-  统计某种状态的进程数 

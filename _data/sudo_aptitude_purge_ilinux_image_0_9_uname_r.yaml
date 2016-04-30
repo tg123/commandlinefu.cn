@@ -1,7 +1,0 @@
-commandlinefu_id: 8177
-translator:
-  weibo: '猪了个去'
-command: |-
-  sudo aptitude purge ~ilinux-image-\[0-9\]\(\!`uname -r`\)
-summary: |-
-  Debian系:安全移除不再使用的kernel

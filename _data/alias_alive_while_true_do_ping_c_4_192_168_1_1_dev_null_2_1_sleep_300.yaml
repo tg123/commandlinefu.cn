@@ -1,7 +1,0 @@
-commandlinefu_id: 13478
-translator:
-  weibo: particle128
-command: |-
-  alias alive='(while true; do  ping -c 4 192.168.1.1 > /dev/null 2>&1 ; sleep 300 ; done)'
-summary: |-
-  定时进行保活检查

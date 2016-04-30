@@ -1,7 +1,0 @@
-commandlinefu_id: 7445
-translator:
-  weibo: tgic
-command: |-
-  cmp file1 file2
-summary: |-
-  比较两个文件内容

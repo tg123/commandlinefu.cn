@@ -1,7 +1,0 @@
-commandlinefu_id: 7973
-translator:
-  weibo: tgic
-command: |-
-  mkfs.vfat /dev/sdc1
-summary: |-
-  格式化闪存

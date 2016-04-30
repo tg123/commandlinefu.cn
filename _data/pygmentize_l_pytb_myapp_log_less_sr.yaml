@@ -1,8 +1,0 @@
-commandlinefu_id: 11743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pygmentize -l pytb myapp.log | less -SR
-summary: |-
-  Read Python logs with tracebacks in color

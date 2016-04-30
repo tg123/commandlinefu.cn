@@ -1,7 +1,0 @@
-commandlinefu_id: 9126
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  switchMonitor () { LF=/tmp/screen-lock; if [ -f $LF ]; then rm $LF; else touch $LF; sleep .5; while [ -f  $LF ]; do xset dpms force off; sleep 2; done; fi };
-summary: |-
-  简单易懂的关闭屏幕的方法

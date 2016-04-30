@@ -1,8 +1,0 @@
-commandlinefu_id: 759
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (cd /orignl/path tar -cf  - . ) | (cd /dst/dir;tar -xvf -)
-summary: |-
-  tar pipe to copy files, alternate to cp -Ra

@@ -1,8 +1,0 @@
-commandlinefu_id: 11418
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (comment:) $ sed -i 's/blah.*/#&/g' file.txt  (uncomment:) $ sed -i 's/.\(blah*.\)/\1/g' file.txt
-summary: |-
-  comment / uncomment a line in a file using sed.

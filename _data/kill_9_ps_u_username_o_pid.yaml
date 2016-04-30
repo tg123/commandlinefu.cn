@@ -1,8 +1,0 @@
-commandlinefu_id: 1604
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 `ps -u <username> -o "pid="`
-summary: |-
-  Kill all processes beloging to a single user.

@@ -1,8 +1,0 @@
-commandlinefu_id: 14117
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget --spider  -o wget.log  -e robots=off --wait 1 -r -p http://demo-royalgulf.weboapps.com
-summary: |-
-  create ec2 chef client

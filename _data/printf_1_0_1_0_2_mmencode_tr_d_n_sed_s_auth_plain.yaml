@@ -1,8 +1,0 @@
-commandlinefu_id: 2857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  printf '\!:1\0\!:1\0\!:2' | mmencode | tr -d '\n' | sed 's/^/AUTH PLAIN /'
-summary: |-
-  Create AUTH PLAIN string to test SMTP AUTH session

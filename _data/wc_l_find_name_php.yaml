@@ -1,7 +1,0 @@
-commandlinefu_id: 1681
-translator:
-  weibo: tgic
-command: |-
-  wc -l `find . -name *.php`
-summary: |-
-  统计PHP文件的总行数

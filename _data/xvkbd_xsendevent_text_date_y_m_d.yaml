@@ -1,8 +1,0 @@
-commandlinefu_id: 4417
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xvkbd -xsendevent -text $(date +%Y%m%d)
-summary: |-
-  Typing the current date ( or any string ) via a shortcut as if the keys had been actually typed with the hardware keyboard in any application.

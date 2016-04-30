@@ -1,7 +1,0 @@
-commandlinefu_id: 10039
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -exec md5 '{}' ';' | sort | uniq -f 3 -d | sed -e "s/.*(\(.*\)).*/\1/"
-summary: |-
-  查找重复文件 (基于md5)

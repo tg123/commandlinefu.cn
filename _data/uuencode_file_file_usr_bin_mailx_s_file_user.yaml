@@ -1,7 +1,0 @@
-commandlinefu_id: 744
-translator:
-  weibo: titikaka723 
-command: |-
-  uuencode $file $file | /usr/bin/mailx -s "$file" ${USER}
-summary: |-
-  将文件发送邮件给自己 

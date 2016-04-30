@@ -1,8 +1,0 @@
-commandlinefu_id: 5018
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (echo "" | xsel -o) ; (programa | wgetpaste -s dpaste | awk '{print $7}' | xsel -ai)
-summary: |-
-  Super Paste

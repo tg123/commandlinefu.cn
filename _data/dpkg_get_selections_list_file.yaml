@@ -1,8 +1,0 @@
-commandlinefu_id: 1766
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg --get-selections > LIST_FILE
-summary: |-
-  Generate a list of installed packages on Debian-based systems

@@ -1,7 +1,0 @@
-commandlinefu_id: 1579
-translator:
-  weibo: particle128
-command: |-
-  for f in `find . \( ! -name . -prune \) -type d -print`; do zip $f.zip $f; done
-summary: |-
-  把所有子目录打包成zip格式文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 3991
-translator:
-  weibo: tgic
-command: |-
-  umount -a -t nfs
-summary: |-
-  卸载所有nfs

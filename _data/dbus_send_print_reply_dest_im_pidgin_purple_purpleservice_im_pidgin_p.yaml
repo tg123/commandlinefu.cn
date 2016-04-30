@@ -1,8 +1,0 @@
-commandlinefu_id: 4544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dbus-send --print-reply --dest=im.pidgin.purple.PurpleService /im/pidgin/purple/PurpleObject im.pidgin.purple.PurpleInterface.PurpleSavedstatusActivate int32:<WANTED STATE>
-summary: |-
-  Change pidgin status

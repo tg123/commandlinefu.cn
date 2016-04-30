@@ -1,8 +1,0 @@
-commandlinefu_id: 11330
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim -p $(complicated command to list the files you want)
-summary: |-
-  Open multiple files from STDIN with VIM

@@ -1,8 +1,0 @@
-commandlinefu_id: 8906
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find public_html/ -type d -exec chmod 755 {} +
-summary: |-
-  Chmod all directories (excluding files)

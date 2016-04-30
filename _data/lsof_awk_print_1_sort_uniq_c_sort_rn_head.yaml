@@ -1,8 +1,0 @@
-commandlinefu_id: 1057
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof | awk '{print $1}' | sort | uniq -c | sort -rn | head
-summary: |-
-  Show top running processes by the number of open filehandles they have

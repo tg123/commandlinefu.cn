@@ -1,8 +1,0 @@
-commandlinefu_id: 14045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -t user@domain.com "ssh -t user2@domain2.com bash -l"
-summary: |-
-  Multiple level ssh

@@ -1,7 +1,0 @@
-commandlinefu_id: 11622
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ifconfig |grep broadcast  | awk '{print $2}'
-summary: |-
-  得到LAN(局域网)ip地址

@@ -1,8 +1,0 @@
-commandlinefu_id: 11140
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ff() { find -maxdepth 3 -type f -iname "$1"; }; fd() { find -maxdepth 4 -type d -iname "$1"; }
-summary: |-
-  Quickly find files and folders in the current directory

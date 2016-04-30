@@ -1,7 +1,0 @@
-commandlinefu_id: 1345
-translator:
-  weibo: tgic
-command: |-
-  mencoder -vf rotate=1 -ovc lavc -oac copy "$1" -o "$1"-rot.avi
-summary: |-
-  翻转视频文件

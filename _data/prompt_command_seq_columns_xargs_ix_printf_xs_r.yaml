@@ -1,8 +1,0 @@
-commandlinefu_id: 7145
-translator:
-  weibo: ''
-hide: true
-command: |-
-  PROMPT_COMMAND='seq $COLUMNS | xargs -IX printf "%Xs\r" @'
-summary: |-
-  Annoying PROMPT_COMMAND animation

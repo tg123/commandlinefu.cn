@@ -1,8 +1,0 @@
-commandlinefu_id: 6276
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dc -e "1 1 + p"
-summary: |-
-  calculate in commandline with dc

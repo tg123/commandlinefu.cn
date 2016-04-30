@@ -1,8 +1,0 @@
-commandlinefu_id: 10234
-translator:
-  weibo: ''
-hide: true
-command: |-
-  #(see sample) $ cat x | perl -pe 'BEGIN{ print "TIME;...\n"; } s!(\S+) - (\S+) - \[(\d\d)/(\S\S\S)/(\S+):(\d\d):(\d\d:\d\d) \S+\] "(\S+) (.*/)(\S+)(?:\.([^?]*)(\?\S*)?) HTTP/\S+" (\d+) (\S+)!$3-$4-$5 $6:$7;$6;$2;$1;$8;$13;1;$14;$11;$10;$9;$12;!' > x.csv
-summary: |-
-  Apache CLF access log format to CSV converter

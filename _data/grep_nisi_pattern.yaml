@@ -1,7 +1,0 @@
-commandlinefu_id: 12189
-translator:
-  weibo: titikaka723 
-command: |-
-  grep -nisI <pattern> * .[!.]*
-summary: |-
-  在当前目录中寻找所有文件中带有<pattern>字符串的文件 

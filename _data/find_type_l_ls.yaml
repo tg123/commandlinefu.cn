@@ -1,7 +1,0 @@
-commandlinefu_id: 13282
-translator:
-  weibo: gdqyn
-command: |-
-  find ./ -type l -ls
-summary: |-
-  找出所有符号链接文件

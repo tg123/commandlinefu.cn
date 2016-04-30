@@ -1,8 +1,0 @@
-commandlinefu_id: 4961
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -name '*.sw[op]' -delete
-summary: |-
-  Remove VIM temp files

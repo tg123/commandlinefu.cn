@@ -1,7 +1,0 @@
-commandlinefu_id: 6350
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in *; do echo '"'$i'"'; done
-summary: |-
-  用引号括住列出的文件名

@@ -1,7 +1,0 @@
-commandlinefu_id: 7637
-translator:
-  weibo: tgic
-command: |-
-  echo ${SSH_CLIENT%% *}
-summary: |-
-  显示登录ssh的源 IP

@@ -1,8 +1,0 @@
-commandlinefu_id: 13253
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/lynx -dump -width 500 http://127.0.0.1/whm-server-status | grep GET | awk '{print $12}' | sort | uniq -c | sort -rn | head
-summary: |-
-  List the busiest websites on a cPanel server

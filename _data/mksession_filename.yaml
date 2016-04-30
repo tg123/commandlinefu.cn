@@ -1,8 +1,0 @@
-commandlinefu_id: 1226
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :mksession! <filename>
-summary: |-
-  Save your sessions in vim to resume later

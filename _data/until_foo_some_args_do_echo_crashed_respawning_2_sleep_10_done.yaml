@@ -1,7 +1,0 @@
-commandlinefu_id: 7185
-translator:
-  weibo: tgic
-command: |-
-  until foo some args; do echo "crashed: $?  respawning..." >&2; sleep 10; done
-summary: |-
-  自动重启crash的进程

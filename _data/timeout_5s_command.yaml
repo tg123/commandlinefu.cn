@@ -1,8 +1,0 @@
-commandlinefu_id: 9721
-translator:
-  weibo: ''
-hide: true
-command: |-
-  timeout 5s COMMAND
-summary: |-
-  Start COMMAND, and kill it if still running after 5 seconds

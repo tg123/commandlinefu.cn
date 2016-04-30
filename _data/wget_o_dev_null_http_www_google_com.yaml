@@ -1,8 +1,0 @@
-commandlinefu_id: 3433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O /dev/null http://www.google.com
-summary: |-
-  Run remote web page, but don't save the results

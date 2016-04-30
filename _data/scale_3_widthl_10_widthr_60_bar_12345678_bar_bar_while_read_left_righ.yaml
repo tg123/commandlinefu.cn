@@ -1,8 +1,0 @@
-commandlinefu_id: 9092
-translator:
-  weibo: ''
-hide: true
-command: |-
-  SCALE=3; WIDTHL=10; WIDTHR=60; BAR="12345678"; BAR="${BAR//?/==========}"; while read LEFT RIGHT rest ; do RIGHT=$((RIGHT/SCALE)); printf "%${WIDTHL}s: %-${WIDTHR}s\n" "${LEFT:0:$WIDTHL}" "|${BAR:0:$RIGHT}*"; done < dataset.dat
-summary: |-
-  Print a bar graph

@@ -1,8 +1,0 @@
-commandlinefu_id: 6649
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  /bin/cp -n <from> <to>
-summary: |-
-  默认 cp 时候不要覆盖 (当有 cp -i 提示的时候)

@@ -1,7 +1,0 @@
-commandlinefu_id: 3025
-translator:
-  weibo: tgic
-command: |-
-  mkdir 0{0..9}{0..9};mv 000 100
-summary: |-
-  创建 001 ... 100 个目录

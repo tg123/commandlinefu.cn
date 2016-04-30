@@ -1,8 +1,0 @@
-commandlinefu_id: 10826
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git branch -d myfeature
-summary: |-
-  Incorporating a finished feature on develop : Deleted branch myfeature

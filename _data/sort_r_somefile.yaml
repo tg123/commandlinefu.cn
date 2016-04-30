@@ -1,8 +1,0 @@
-commandlinefu_id: 6593
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sort -R SOMEFILE
-summary: |-
-  随机排序一个文件 (等价命令 shuf)

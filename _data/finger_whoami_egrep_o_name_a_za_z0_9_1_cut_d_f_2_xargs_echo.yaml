@@ -1,8 +1,0 @@
-commandlinefu_id: 13707
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finger $(whoami) | egrep -o 'Name: [a-zA-Z0-9 ]{1,}' | cut -d ':' -f 2 | xargs echo
-summary: |-
-  Get user's full name in Mac OS X

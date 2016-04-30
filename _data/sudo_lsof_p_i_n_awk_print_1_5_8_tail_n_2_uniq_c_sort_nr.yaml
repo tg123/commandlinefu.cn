@@ -1,8 +1,0 @@
-commandlinefu_id: 13921
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lsof -P -i -n | awk '{print $1,$5,$8}' | tail -n +2 | uniq -c | sort -nr
-summary: |-
-  Show apps that use internet connection at the moment.

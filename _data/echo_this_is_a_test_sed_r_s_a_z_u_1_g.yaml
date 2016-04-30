@@ -1,7 +1,0 @@
-commandlinefu_id: 13309
-translator:
-  weibo: tgic
-command: |-
-  echo "this_is_a_test" | sed -r 's/_([a-z])/\U\1/g'
-summary: |-
-  下划线转驼峰

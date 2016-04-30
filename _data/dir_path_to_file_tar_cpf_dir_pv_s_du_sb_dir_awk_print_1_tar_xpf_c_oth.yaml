@@ -1,7 +1,0 @@
-commandlinefu_id: 4613
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dir='path to file'; tar cpf - "$dir" | pv -s $(du -sb "$dir" | awk '{print $1}') | tar xpf - -C /other/path
-summary: |-
-  在本地复制文件并确保文件权限不变。输出处理过程

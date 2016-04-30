@@ -1,8 +1,0 @@
-commandlinefu_id: 13725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/ls -lF "$@" |  sed -r ': top; s/. ([0-9]+)([0-9]{3}[,0-9]* \w{3} )/ \1,\2/ ; t top'
-summary: |-
-  Insert commas to make reading numbers easier in the output of ls

@@ -1,7 +1,0 @@
-commandlinefu_id: 12050
-translator:
-  weibo: tgic
-command: |-
-  alias cls='clear;ls'
-summary: |-
-  清屏然后ls

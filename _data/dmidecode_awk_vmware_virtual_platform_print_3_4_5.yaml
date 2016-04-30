@@ -1,7 +1,0 @@
-commandlinefu_id: 3636
-translator:
-  weibo: tgic
-command: |-
-  dmidecode | awk '/VMware Virtual Platform/ {print $3,$4,$5}'
-summary: |-
-  查看是否运行再vmvare上

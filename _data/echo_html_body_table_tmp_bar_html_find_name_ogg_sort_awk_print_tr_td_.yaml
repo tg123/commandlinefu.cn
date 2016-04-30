@@ -1,7 +1,0 @@
-commandlinefu_id: 5738
-translator:
-  weibo: tgic
-command: |-
-  echo '<html><body><table>' > /tmp/bar.html && find / -name '*.ogg' | sort | awk '{print "<tr><td>"$1"</td><td><audio src=\""$1"\" controls='controls'></audio></td></tr>" }' >> /tmp/bar.html &&  echo '</table></body></html>' >> /tmp/bar.html
-summary: |-
-  基于html的 ogg 播放器

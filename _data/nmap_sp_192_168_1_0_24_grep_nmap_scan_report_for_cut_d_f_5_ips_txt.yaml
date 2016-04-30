@@ -1,7 +1,0 @@
-commandlinefu_id: 11541
-translator:
-  weibo: tgic
-command: |-
-  nmap -sP 192.168.1.0/24 | grep "Nmap scan report for"| cut -d' ' -f 5  > ips.txt
-summary: |-
-  探测一个网段并保存结果

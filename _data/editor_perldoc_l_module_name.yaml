@@ -1,7 +1,0 @@
-commandlinefu_id: 1462
-translator:
-  weibo: tgic
-command: |-
-  $EDITOR `perldoc -l Module::Name`
-summary: |-
-  编辑perl模块代码

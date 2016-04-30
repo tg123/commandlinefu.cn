@@ -1,8 +1,0 @@
-commandlinefu_id: 1327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vlc  --one-instance --playlist-enqueue -q $(while read netcast; do wget -q $netcast -O - |grep enclosure | tr '\r' '\n' | tr \' \" | sed -n 's/.*url="\([^"]*\)".*/\1/p'|head -n1; done <netcast.txt)
-summary: |-
-  Stream the latest offering from your fave netcasts/podcasts

@@ -1,8 +1,0 @@
-commandlinefu_id: 3976
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -ec -o command,rss | grep Stainless | awk -F ' ' '{ x = x + $2 } END { print x/(1024) " MB."}'
-summary: |-
-  Sum of the total resident memory Stainless.app is using.

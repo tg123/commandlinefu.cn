@@ -1,7 +1,0 @@
-commandlinefu_id: 10223
-translator:
-  weibo: tgic
-command: |-
-  find . ! -name "*.tar.gz"
-summary: |-
-  在find时反向选择

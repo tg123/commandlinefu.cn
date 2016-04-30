@@ -1,8 +1,0 @@
-commandlinefu_id: 11358
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -town
-summary: |-
-  See KeepAlive counters on tcp connections

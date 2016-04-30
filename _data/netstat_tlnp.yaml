@@ -1,7 +1,0 @@
-commandlinefu_id: 702
-translator:
-  weibo: '猪了个去'
-command: |-
-  netstat -tlnp
-summary: |-
-  列出所有监听端口，并列出相关进程的PID

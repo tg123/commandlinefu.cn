@@ -1,8 +1,0 @@
-commandlinefu_id: 12254
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert infile.png \( +clone -channel GB -evaluate set 0 +channel \) +append -region 50%x100% -channel R -evaluate set 0 +channel outfile.png
-summary: |-
-  Convert red-cyan 3D anaglyph to side-by-side

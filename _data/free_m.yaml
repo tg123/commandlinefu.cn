@@ -1,8 +1,0 @@
-commandlinefu_id: 13450
-translator:
-  weibo: ''
-hide: true
-command: |-
-  free -m
-summary: |-
-  Easy way to check memory consumption

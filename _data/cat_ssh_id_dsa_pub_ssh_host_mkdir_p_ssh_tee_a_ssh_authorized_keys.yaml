@@ -1,7 +1,0 @@
-commandlinefu_id: 11367
-translator:
-  weibo: '猪了个去'
-command: |-
-  cat .ssh/id_dsa.pub | ssh <HOST> "mkdir -p .ssh && tee -a .ssh/authorized_keys"
-summary: |-
-  拷贝公钥到新主机，不进行bash重定向

@@ -1,7 +1,0 @@
-commandlinefu_id: 3548
-translator:
-  weibo: tgic
-command: |-
-  cat filename | mail -s "Email subject" user@example.com
-summary: |-
-  本地文件内容变邮件

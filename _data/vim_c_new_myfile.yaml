@@ -1,7 +1,0 @@
-commandlinefu_id: 2552
-translator:
-  weibo: tgic
-command: |-
-  vim -c new myfile
-summary: |-
-  用vim同时打开多个文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 2351
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '/match/{print NR}' file
-summary: |-
-  获取文件中的所有匹配的行数 

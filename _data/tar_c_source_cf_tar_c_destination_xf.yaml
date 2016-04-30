@@ -1,7 +1,0 @@
-commandlinefu_id: 2622
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tar -C <source> -cf - . | tar -C <destination> -xf -
-summary: |-
-  在本地文件系统间用tar移动文件时，使用一个一次性tarball来避免浪费空间

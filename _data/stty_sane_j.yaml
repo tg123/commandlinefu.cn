@@ -1,8 +1,0 @@
-commandlinefu_id: 6219
-translator:
-  weibo: ''
-hide: true
-command: |-
-  stty sane ^J
-summary: |-
-  Reset hosed terminal,

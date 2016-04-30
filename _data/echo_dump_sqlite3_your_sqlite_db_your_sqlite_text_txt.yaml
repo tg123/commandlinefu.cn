@@ -1,8 +1,0 @@
-commandlinefu_id: 4789
-translator:
-  weibo: '猪了个去'
-command: |-
-  echo '.dump' | sqlite3 your_sqlite.db > your_sqlite_text.txt
-summary: |-
-  备份一个sqlite数据库变成解释性文本格式
-

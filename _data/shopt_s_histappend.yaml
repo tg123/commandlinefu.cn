@@ -1,8 +1,0 @@
-commandlinefu_id: 2052
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shopt -s histappend
-summary: |-
-  Avoiding history file to be overwritten

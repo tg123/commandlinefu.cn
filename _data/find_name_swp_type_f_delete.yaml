@@ -1,8 +1,0 @@
-commandlinefu_id: 11782
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name \*.swp -type f -delete
-summary: |-
-  To remove all *.swp files underneath the current directory

@@ -1,7 +1,0 @@
-commandlinefu_id: 9775
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lsmod | perl -e 'print "digraph \"lsmod\" {";<>;while(<>){@_=split/\s+/; print "\"$_[0]\" -> \"$_\"\n" for split/,/,$_[3]}print "}"' | dot -Tpng | display -
-summary: |-
-  画出内核模块依赖图

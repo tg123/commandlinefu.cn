@@ -1,7 +1,0 @@
-commandlinefu_id: 9416
-translator:
-  weibo: tgic
-command: |-
-  jda() { cd $(pwd | sed "s/\(\/$@\/\).*/\1/g"); }
-summary: |-
-  向上n级目录

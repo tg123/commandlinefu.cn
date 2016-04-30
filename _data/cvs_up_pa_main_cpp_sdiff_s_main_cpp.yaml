@@ -1,8 +1,0 @@
-commandlinefu_id: 9886
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs up -pA main.cpp | sdiff -s - main.cpp
-summary: |-
-  cvs diff HEAD and current branch

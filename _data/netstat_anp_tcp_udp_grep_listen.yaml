@@ -1,7 +1,0 @@
-commandlinefu_id: 3699
-translator:
-  weibo: tgic
-command: |-
-  netstat -anp --tcp --udp | grep LISTEN
-summary: |-
-  查看打开的tcp udp端口

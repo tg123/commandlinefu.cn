@@ -1,7 +1,0 @@
-commandlinefu_id: 6279
-translator:
-  weibo: tgic
-command: |-
-  ffmpeg -i 100_0029.MOV -ss 00:00:00 -t 00:04:00 100_0029_1.MOV
-summary: |-
-  分割视频文件

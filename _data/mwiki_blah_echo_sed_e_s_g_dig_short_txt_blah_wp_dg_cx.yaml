@@ -1,8 +1,0 @@
-commandlinefu_id: 4591
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mwiki () { blah=`echo $@ | sed -e 's/ /_/g'`; dig +short txt $blah.wp.dg.cx; }
-summary: |-
-  Query Wikipedia via console over DNS

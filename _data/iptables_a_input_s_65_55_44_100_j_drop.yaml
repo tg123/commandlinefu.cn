@@ -1,8 +1,0 @@
-commandlinefu_id: 8501
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -A INPUT -s 65.55.44.100 -j DROP
-summary: |-
-  Block an IP address

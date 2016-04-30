@@ -1,8 +1,0 @@
-commandlinefu_id: 4546
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -ss <start point> -endpos <time from start point> -oac copy -ovc copy <invid> -o <outvid>
-summary: |-
-  Edit video by cutting the part you like without transcoding.

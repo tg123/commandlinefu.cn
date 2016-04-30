@@ -1,8 +1,0 @@
-commandlinefu_id: 13043
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -name '*:*' -exec rename 's/:/_/g' {} +
-summary: |-
-  Find all files in the current directory with colons and replace with underscores.

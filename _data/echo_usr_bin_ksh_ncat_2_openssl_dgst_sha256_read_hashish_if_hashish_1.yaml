@@ -1,8 +1,0 @@
-commandlinefu_id: 12736
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '#! /usr/bin/ksh\ncat $2 | openssl dgst -sha256 | read hashish; if [[ $hashish = $1 ]]; then echo $2: OK; else echo $2: FAILED; fi;' > shacheck; chmod +x shacheck; cat hashishes.sha256 | xargs -n 2 ./shacheck;
-summary: |-
-  Verify a sha256sum listing on IBM AIX with openssl

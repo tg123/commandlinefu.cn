@@ -1,8 +1,0 @@
-commandlinefu_id: 7345
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls *(.x)
-summary: |-
-  List just the executable files (or directories) in current directory

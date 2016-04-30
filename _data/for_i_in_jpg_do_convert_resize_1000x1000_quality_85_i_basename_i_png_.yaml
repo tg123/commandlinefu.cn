@@ -1,8 +1,0 @@
-commandlinefu_id: 13340
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.JPG; do convert -resize 1000x1000 -quality 85 $i `basename $i .png`-klein.png; done
-summary: |-
-  resize all images in a folder

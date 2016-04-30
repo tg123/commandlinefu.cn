@@ -1,8 +1,0 @@
-commandlinefu_id: 1114
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -i :80
-summary: |-
-  which process has a port open

@@ -1,7 +1,0 @@
-commandlinefu_id: 3408
-translator:
-  weibo: codepiano
-command: |-
-  svn propset svn:ignore "*" tool/templates_c; svn commit -m "Ignoring tool/templates_c"
-summary: |-
-  永久的在SVN中忽略一个目录

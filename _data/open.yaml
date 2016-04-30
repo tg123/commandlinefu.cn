@@ -1,7 +1,0 @@
-commandlinefu_id: 2395
-translator:
-  weibo: tgic
-command: |-
-  open .
-summary: |-
-  在Finder打开当前目录(OSX)

@@ -1,8 +1,0 @@
-commandlinefu_id: 8943
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read day month year < <(date +'%d %m %y')
-summary: |-
-  Multiple variable assignments from command output in BASH

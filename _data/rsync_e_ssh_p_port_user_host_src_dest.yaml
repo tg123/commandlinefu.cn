@@ -1,8 +1,0 @@
-commandlinefu_id: 2363
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -e 'ssh -p PORT' user@host:SRC DEST
-summary: |-
-  rsync over ssh via non-default ssh port

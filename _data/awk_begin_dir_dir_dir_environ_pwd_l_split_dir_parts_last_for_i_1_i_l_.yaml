@@ -1,7 +1,0 @@
-commandlinefu_id: 3866
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  awk 'BEGIN{dir=DIR?DIR:ENVIRON["PWD"];l=split(dir,parts,"/");last="";for(i=1;i<l+1;i++){d=last"/"parts[i];gsub("//","/",d);system("ls -ld \""d"\"");last=d}}'
-summary: |-
-  显示从根目录到当前目录间，各目录的权限，在处理ssh密钥权限问题帮得上

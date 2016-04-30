@@ -1,8 +1,0 @@
-commandlinefu_id: 3536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -ne "\033]0;`id -un`:`id -gn`@`hostname||uname -n|sed 1q` `who -m|sed -e "s%^.* \(pts/[0-9]*\).*(\(.*\))%[\1] (\2)%g"` [`uptime|sed -e "s/.*: \([^,]*\).*/\1/" -e "s/ //g"` / `ps aux|wc -l`]\007"
-summary: |-
-  Change Title of Terminal Window to Verbose Info useful at Login

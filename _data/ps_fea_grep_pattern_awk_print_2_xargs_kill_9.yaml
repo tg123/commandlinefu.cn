@@ -1,8 +1,0 @@
-commandlinefu_id: 10129
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -fea | grep PATTERN | awk {'print $2'} | xargs kill -9
-summary: |-
-  Kill processes associated with PATTERN

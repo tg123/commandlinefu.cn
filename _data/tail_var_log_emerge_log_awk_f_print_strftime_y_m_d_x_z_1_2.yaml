@@ -1,8 +1,0 @@
-commandlinefu_id: 5350
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail /var/log/emerge.log | awk -F: '{print strftime("%Y%m%d %X %Z", $1),$2}'
-summary: |-
-  display emerge.log date in a human friendly way

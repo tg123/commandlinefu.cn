@@ -1,7 +1,0 @@
-commandlinefu_id: 1672
-translator:
-  weibo: codepiano
-command: |-
-  arp -s $(route -n | awk '/^0.0.0.0/ {print $2}') \ $(arp -n | grep `route -n | awk '/^0.0.0.0/ {print $2}'`| awk '{print $3}')
-summary: |-
-  在默认网关加入静态arp条目，防止arp中毒

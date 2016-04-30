@@ -1,8 +1,0 @@
-commandlinefu_id: 7053
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps ax -L -o pid,tid,psr,pcpu,args | sort -nr -k4| head -15 | cut -c 1-90
-summary: |-
-  Show CPU usage for EACH cores

@@ -1,8 +1,0 @@
-commandlinefu_id: 2230
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr "[:upper:]" "[:lower:]" < file
-summary: |-
-  user 'tr' to convert mixed case in a file to lower case

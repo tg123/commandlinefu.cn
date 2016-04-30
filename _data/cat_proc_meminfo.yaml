@@ -1,7 +1,0 @@
-commandlinefu_id: 4634
-translator:
-  weibo: tgic
-command: |-
-  cat /proc/meminfo
-summary: |-
-  获取内存信息

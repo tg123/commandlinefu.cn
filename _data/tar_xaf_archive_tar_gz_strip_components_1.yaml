@@ -1,7 +1,0 @@
-commandlinefu_id: 9777
-translator:
-  weibo: tgic
-command: |-
-  tar -xaf archive.tar.gz --strip-components=1
-summary: |-
-  解压缩tar 时候不要最外层目录

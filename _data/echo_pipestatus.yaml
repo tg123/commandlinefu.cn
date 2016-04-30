@@ -1,8 +1,0 @@
-commandlinefu_id: 6936
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo ${PIPESTATUS[@]}
-summary: |-
-  Show exit status of all portions of a piped command eg. ls |this_doesn't_exist |wc

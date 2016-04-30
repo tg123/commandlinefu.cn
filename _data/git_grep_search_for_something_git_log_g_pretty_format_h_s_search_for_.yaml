@@ -1,8 +1,0 @@
-commandlinefu_id: 6452
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git grep "search for something" $(git log -g --pretty=format:%h -S"search for something")
-summary: |-
-  Search git repo for specified string

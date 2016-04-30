@@ -1,7 +1,0 @@
-commandlinefu_id: 12301
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find -iname "MyCProgram.c" -exec md5sum {} \;
-summary: |-
-  在find命令找到的文件上执行命令（比如md5sum）

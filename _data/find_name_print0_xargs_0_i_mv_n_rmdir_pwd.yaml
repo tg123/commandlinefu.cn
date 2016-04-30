@@ -1,8 +1,0 @@
-commandlinefu_id: 7327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . ! -name "." -print0 | xargs -0 -I '{}' mv -n '{}' ..; rmdir "$PWD"
-summary: |-
-  move contents of the current directory to the parent directory, then remove current directory.

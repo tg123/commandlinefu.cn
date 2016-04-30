@@ -1,8 +1,0 @@
-commandlinefu_id: 400
-translator:
-  weibo: ''
-hide: true
-command: |-
-  script
-summary: |-
-  make a log of a terminal session

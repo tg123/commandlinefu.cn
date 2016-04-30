@@ -1,7 +1,0 @@
-commandlinefu_id: 1573
-translator:
-  weibo: tgic
-command: |-
-  cat file.txt | sort | uniq -dc
-summary: |-
-  寻找文件中重复的行

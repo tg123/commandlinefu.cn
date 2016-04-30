@@ -1,7 +1,0 @@
-commandlinefu_id: 6613
-translator:
-  weibo: 'gdqyn'
-command: |-
-  ss -ln | awk '$3~/([0-9]+)/{print $3}' | sed 's/.*\:\([0-9]\+\)$/\1/'
-summary: |-
-  获取本地正在监听的端口

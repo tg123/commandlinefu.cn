@@ -1,7 +1,0 @@
-commandlinefu_id: 3573
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  grep -RnisI <pattern> *
-summary: |-
-  在当前文件夹下的所有文件中搜索匹配的字符串

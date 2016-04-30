@@ -1,7 +1,0 @@
-commandlinefu_id: 2319
-translator:
-  weibo: tgic
-command: |-
-  awk 'BEGIN{size=5} {mod=NR%size; if(NR<=size){count++}else{sum-=array[mod]};sum+=$1;array[mod]=$1;print sum/count}' file.dat
-summary: |-
-  用awk计算移动平均数

@@ -1,7 +1,0 @@
-commandlinefu_id: 10063
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  alias path="/usr/bin/perl -e 'use Cwd; foreach my \$file (@ARGV) {print Cwd::abs_path(\$file) .\"\n\" if(-e \$file);}'"
-summary: |-
-  创建一个输出文件完整路径的path命令

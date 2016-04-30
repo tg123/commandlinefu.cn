@@ -1,7 +1,0 @@
-commandlinefu_id: 6849
-translator:
-  weibo: tgic
-command: |-
-  grep ^[^#] /etc/file.conf
-summary: |-
-  清理文件中的注释

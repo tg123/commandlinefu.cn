@@ -1,8 +1,0 @@
-commandlinefu_id: 5370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'obase=16; C+F' | bc
-summary: |-
-  Hex math with bc

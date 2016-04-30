@@ -1,8 +1,0 @@
-commandlinefu_id: 2588
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat large.xml | xclip
-summary: |-
-  cat large file to clipboard

@@ -1,7 +1,0 @@
-commandlinefu_id: 5032
-translator:
-  weibo: '猪了个去'
-command: |-
-  ip route list match 0.0.0.0/0 | cut -d " " -f 3
-summary: |-
-  抓取网关IP地址

@@ -1,7 +1,0 @@
-commandlinefu_id: 10775
-translator:
-  weibo: tgic
-command: |-
-  ls -al | grep ^d
-summary: |-
-  只ls目录

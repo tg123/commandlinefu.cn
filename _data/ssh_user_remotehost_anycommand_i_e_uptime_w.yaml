@@ -1,7 +1,0 @@
-commandlinefu_id: 3239
-translator:
-  weibo: tgic
-command: |-
-  ssh user@remotehost [anycommand](i.e uptime,w)
-summary: |-
-  在远端执行命令

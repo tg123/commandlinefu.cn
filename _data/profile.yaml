@@ -1,7 +1,0 @@
-commandlinefu_id: 1975
-translator:
-  weibo: tgic
-command: |-
-  . ~/.profile
-summary: |-
-  刷新profile

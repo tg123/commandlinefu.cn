@@ -1,8 +1,0 @@
-commandlinefu_id: 10849
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lshw -C network
-summary: |-
-  Find installed network devices

@@ -1,7 +1,0 @@
-commandlinefu_id: 2750
-translator:
-  weibo: tgic
-command: |-
-  sort -R file.txt | head -1
-summary: |-
-  随机取一行

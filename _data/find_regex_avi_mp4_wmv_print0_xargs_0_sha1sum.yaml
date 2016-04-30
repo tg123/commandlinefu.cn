@@ -1,8 +1,0 @@
-commandlinefu_id: 13380
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -regex ".*\(avi\|mp4\|wmv\)$" -print0 | xargs -0 sha1sum
-summary: |-
-  Generate SHA1 hash for each file in a list

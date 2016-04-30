@@ -1,7 +1,0 @@
-commandlinefu_id: 4710
-translator:
-  weibo: tgic
-command: |-
-  du -s * | sort -nr | head | cut -f2 | parallel -k du -sh
-summary: |-
-  寻找最大的10个目录和文件

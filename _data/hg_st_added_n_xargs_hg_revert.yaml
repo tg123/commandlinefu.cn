@@ -1,8 +1,0 @@
-commandlinefu_id: 8560
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hg st --added -n |xargs hg revert
-summary: |-
-  Undo Mercurial add before commit

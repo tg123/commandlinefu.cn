@@ -1,8 +1,0 @@
-commandlinefu_id: 6365
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo tcpdump -i eth0 -n port 67 and 68
-summary: |-
-  So you are not sure are connected and iither your router or ethernet card are not working.

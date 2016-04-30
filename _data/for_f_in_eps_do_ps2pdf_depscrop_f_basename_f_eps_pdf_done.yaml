@@ -1,8 +1,0 @@
-commandlinefu_id: 2954
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *.eps;do ps2pdf -dEPSCrop $f `basename $f .eps`.pdf; done
-summary: |-
-  Convert every eps in a directory to pdf

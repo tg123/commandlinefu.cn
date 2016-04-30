@@ -1,7 +1,0 @@
-commandlinefu_id: 13530
-translator:
-  weibo: tgic
-command: |-
-  wget -r -nd -q -A "*.ext" http://www.example.org/
-summary: |-
-  抓去一个网页的所有特定扩展名的文件

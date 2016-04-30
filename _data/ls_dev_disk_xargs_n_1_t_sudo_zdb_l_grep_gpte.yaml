@@ -1,7 +1,0 @@
-commandlinefu_id: 11355
-translator:
-  weibo: tgic
-command: |-
-  ls /dev/disk* | xargs -n 1 -t sudo zdb -l | grep GPTE_
-summary: |-
-  查看分区的uuid

@@ -1,8 +1,0 @@
-commandlinefu_id: 6022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  c=0; n=8; while true; do r=`echo $RANDOM%5 |bc`; echo "sleep $r"; sleep $r& 2>&1 >/dev/null && ((c++)); [ `echo "$c%$n" | bc` -eq 0 ] && echo "$c waiting" && wait; done
-summary: |-
-  'hpc' in the box - starts a maximum of n compute commands modulo n controlled in parallel

@@ -1,7 +1,0 @@
-commandlinefu_id: 7738
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  bind '"\C-e":"\eb `which \ef`\e\C-e"'
-summary: |-
-  使用Ctrl+e拓展bash命令行下的程序名成相应的绝对路径名

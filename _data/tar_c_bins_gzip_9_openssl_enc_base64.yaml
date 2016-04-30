@@ -1,8 +1,0 @@
-commandlinefu_id: 7960
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -c bins/ | gzip -9 | openssl enc -base64
-summary: |-
-  copy paste multiple binary files

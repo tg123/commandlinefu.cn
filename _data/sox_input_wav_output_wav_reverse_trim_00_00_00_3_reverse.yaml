@@ -1,8 +1,0 @@
-commandlinefu_id: 5159
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sox input.wav output.wav reverse trim 00:00:00.3 reverse
-summary: |-
-  Truncate 0.3 sec from an audio file using sox

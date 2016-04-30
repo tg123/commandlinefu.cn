@@ -1,8 +1,0 @@
-commandlinefu_id: 11692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  soffice --headless -convert-to odt:"writer8" somefile.docx
-summary: |-
-  Commandline document conversion with Libreoffice

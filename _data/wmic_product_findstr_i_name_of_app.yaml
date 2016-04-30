@@ -1,8 +1,0 @@
-commandlinefu_id: 13102
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmic product | findstr /I "name_of_app"
-summary: |-
-  Find an installed app

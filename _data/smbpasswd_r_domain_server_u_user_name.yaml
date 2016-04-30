@@ -1,8 +1,0 @@
-commandlinefu_id: 2980
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  smbpasswd -r <domain-server> -U <user name>
-summary: |-
-  在linux上修改windows的域帐号密码

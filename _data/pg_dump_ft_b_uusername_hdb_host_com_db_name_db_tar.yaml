@@ -1,8 +1,0 @@
-commandlinefu_id: 955
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pg_dump -Ft -b -Uusername -hdb.host.com db_name > db.tar
-summary: |-
-  dump database from postgresql to a file

@@ -1,8 +1,0 @@
-commandlinefu_id: 6202
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -le 'chomp($w=`which $ARGV[0]`);$_=`file $w`;while(/link\b/){chomp($_=(split/`/,$_)[1]);chop$_;$w.=" -> $_";$_=`file $_`;}print "\n$w";' COMMAND_NAME
-summary: |-
-  Show full path followed by a command

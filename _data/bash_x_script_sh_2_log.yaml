@@ -1,7 +1,0 @@
-commandlinefu_id: 2384
-translator:
-  weibo: tgic
-command: |-
-  bash -x script.sh 2> log
-summary: |-
-  以debug 模式运行脚本

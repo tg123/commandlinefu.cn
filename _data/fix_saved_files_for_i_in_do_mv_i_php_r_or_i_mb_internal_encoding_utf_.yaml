@@ -1,8 +1,0 @@
-commandlinefu_id: 13938
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fix_saved_files() {  for i in "$@" ; do mv $i $(php -r '$or = "'$i'"; mb_internal_encoding("UTF-8"); echo mb_decode_mimeheader($or) . "\n";') ; done; }
-summary: |-
-  function to fix files starting with =?UTF-8 and ends with ?=

@@ -1,7 +1,0 @@
-commandlinefu_id: 10192
-translator:
-  weibo: particle128
-command: |-
-  dd if=/dev/disk1 of=disk1.iso
-summary: |-
-  把一个挂载的磁盘保存成iso镜像

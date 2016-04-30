@@ -1,8 +1,0 @@
-commandlinefu_id: 5414
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mkdir $(date +%F)
-summary: |-
-  创建当前日期的文件夹

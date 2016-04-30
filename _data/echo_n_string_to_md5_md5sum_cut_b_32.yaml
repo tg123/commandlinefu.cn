@@ -1,7 +1,0 @@
-commandlinefu_id: 8021
-translator:
-  weibo: tgic
-command: |-
-  echo -n "String to MD5" | md5sum | cut -b-32
-summary: |-
-  生成MD5

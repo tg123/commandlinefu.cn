@@ -1,8 +1,0 @@
-commandlinefu_id: 3439
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python fsrecovery.py -P 0 -f <path-to-instance>/Data.fs <path-to-instance-destination>/Data.fs.packed
-summary: |-
-  When need to compress the Zope Database

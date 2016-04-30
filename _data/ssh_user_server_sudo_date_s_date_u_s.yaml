@@ -1,8 +1,0 @@
-commandlinefu_id: 14135
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@server sudo date -s @`( date -u +"%s" )`
-summary: |-
-  Synchronize date and time with a server over ssh

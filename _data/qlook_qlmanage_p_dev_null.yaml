@@ -1,8 +1,0 @@
-commandlinefu_id: 2440
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qlook() { qlmanage -p "$@" >& /dev/null & }
-summary: |-
-  Use QuickLook from the command line without verbose output

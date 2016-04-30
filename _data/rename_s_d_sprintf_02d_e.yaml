@@ -1,7 +1,0 @@
-commandlinefu_id: 11892
-translator:
-  weibo: codepiano
-command: |-
-  rename 's/\d+/sprintf("%02d",$&)/e' -- $@
-summary: |-
-  转换单个数字为两位数

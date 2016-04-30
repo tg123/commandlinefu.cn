@@ -1,7 +1,0 @@
-commandlinefu_id: 9929
-translator:
-  weibo: titikaka723 
-command: |-
-  awk -F ':' '{print $1 | "sort";}' /etc/passwd
-summary: |-
-  按照顺序列出所有/etc/passwd下第一列的内容 

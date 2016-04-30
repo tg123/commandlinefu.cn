@@ -1,8 +1,0 @@
-commandlinefu_id: 6390
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch 'ls -tough --full-time *.vmdk'
-summary: |-
-  watch snapshots commit in VMware ESX

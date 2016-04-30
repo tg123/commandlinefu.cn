@@ -1,8 +1,0 @@
-commandlinefu_id: 2507
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -lnp
-summary: |-
-  Most simple way to get a list of open ports

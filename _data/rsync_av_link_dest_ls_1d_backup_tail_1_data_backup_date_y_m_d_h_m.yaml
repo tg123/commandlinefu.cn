@@ -1,8 +1,0 @@
-commandlinefu_id: 6258
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -av --link-dest=$(ls -1d /backup/*/ | tail -1) /data/ /backup/$(date +%Y%m%d%H%M)/
-summary: |-
-  How to backup hard disk timely?

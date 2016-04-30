@@ -1,8 +1,0 @@
-commandlinefu_id: 4566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'mkcd() { mkdir -p "$@" && cd "$_"; }' >> ~/.bashrc
-summary: |-
-  mkdir & cd into it as single command

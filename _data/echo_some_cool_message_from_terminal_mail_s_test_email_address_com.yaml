@@ -1,7 +1,0 @@
-commandlinefu_id: 13507
-translator:
-  weibo: tgic
-command: |-
-  echo "some cool message from terminal" | mail -s "test" email@address.com
-summary: |-
-  命令行发送邮件

@@ -1,7 +1,0 @@
-commandlinefu_id: 4756
-translator:
-  weibo: tgic
-command: |-
-  UNIX95=1 ps -eHf
-summary: |-
-  在HP-UX的ptree

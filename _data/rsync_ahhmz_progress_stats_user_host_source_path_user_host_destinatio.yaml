@@ -1,8 +1,0 @@
-commandlinefu_id: 13833
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -ahhmz --progress --stats [[user@]host:]/source/path/ [[user@]host:]/destination/path/
-summary: |-
-  Microsoft Robocopy imitation (with recursion, pruning, and compression)

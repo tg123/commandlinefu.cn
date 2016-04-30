@@ -1,8 +1,0 @@
-commandlinefu_id: 5434
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i -e 's/^#$//g' /path/to/file
-summary: |-
-  Remove "#' from configuration files.

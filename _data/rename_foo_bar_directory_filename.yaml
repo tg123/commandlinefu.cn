@@ -1,7 +1,0 @@
-commandlinefu_id: 8409
-translator:
-  weibo: codepiano
-command: |-
-  rename foo bar directory/filename
-summary: |-
-  重命名所有文件名包含字符串'foo'的文件，将'foo'替换为'bar'

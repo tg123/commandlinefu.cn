@@ -1,8 +1,0 @@
-commandlinefu_id: 9056
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <Ctrl+o>
-summary: |-
-  Display command options without typing --help

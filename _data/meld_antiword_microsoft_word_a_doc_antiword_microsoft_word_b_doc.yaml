@@ -1,7 +1,0 @@
-commandlinefu_id: 1982
-translator:
-  weibo: tgic
-command: |-
-  meld <(antiword microsoft_word_a.doc) <(antiword microsoft_word_b.doc)
-summary: |-
-  比较两个word文档

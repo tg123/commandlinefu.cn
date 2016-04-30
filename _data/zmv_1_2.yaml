@@ -1,7 +1,0 @@
-commandlinefu_id: 12136
-translator:
-  weibo: titikaka723 
-command: |-
-  zmv '(*.*)(.*)' '${1//./_}$2'
-summary: |-
- 将文件名中的 . 替换成 _ 

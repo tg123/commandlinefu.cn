@@ -1,7 +1,0 @@
-commandlinefu_id: 4888
-translator:
-  weibo: ''
-command: |-
-  arecord -f dat | ssh -C user@host aplay -f dat
-summary: |-
-  输出你的mic到远程的机器上

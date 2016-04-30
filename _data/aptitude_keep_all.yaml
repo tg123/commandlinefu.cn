@@ -1,8 +1,0 @@
-commandlinefu_id: 5412
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude keep-all
-summary: |-
-  Cancel all aptitude scheduled actions

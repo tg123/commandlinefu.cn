@@ -1,7 +1,0 @@
-commandlinefu_id: 771
-translator:
-  weibo: tgic
-command: |-
-  ssh-copy-id username@hostname
-summary: |-
-  复制公钥到目标服务器实现免密码登录

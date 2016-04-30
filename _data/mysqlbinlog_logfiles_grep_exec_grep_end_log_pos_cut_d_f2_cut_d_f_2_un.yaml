@@ -1,8 +1,0 @@
-commandlinefu_id: 10812
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqlbinlog <logfiles> | grep exec | grep end_log_pos | cut -d' ' -f2- | cut -d: -f-2 | uniq -c
-summary: |-
-  mysql bin log events per minute

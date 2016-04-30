@@ -1,7 +1,0 @@
-commandlinefu_id: 10559
-translator:
-  weibo: gdqyn
-command: |-
-  man -t ls > ls.ps && pdf2ps ls.ps && rm ls.ps
-summary: |-
-  将man文档输出为pdf格式

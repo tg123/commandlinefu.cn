@@ -1,7 +1,0 @@
-commandlinefu_id: 6584
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/sda of=~/backup-disk-YY-MM-DD.img
-summary: |-
-  备份硬盘

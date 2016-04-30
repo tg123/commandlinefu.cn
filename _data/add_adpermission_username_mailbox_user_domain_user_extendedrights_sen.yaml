@@ -1,8 +1,0 @@
-commandlinefu_id: 13269
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Add-ADPermission "username_mailbox" -User "Domain\User" -Extendedrights "Send As"
-summary: |-
-  Grant sendas permission to a mailbox

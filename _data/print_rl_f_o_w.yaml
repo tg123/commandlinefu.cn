@@ -1,8 +1,0 @@
-commandlinefu_id: 12113
-translator:
-  weibo: ''
-hide: true
-command: |-
-  print -rl /**/*(.f:o+w:)
-summary: |-
-  list all world-writeable Linux files

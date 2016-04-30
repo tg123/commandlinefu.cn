@@ -1,8 +1,0 @@
-commandlinefu_id: 11544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -nH "text" -r . --include *name.xml
-summary: |-
-  Find all files matching 'name.xml' and search for 'text' within them

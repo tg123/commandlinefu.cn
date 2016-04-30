@@ -1,8 +1,0 @@
-commandlinefu_id: 14077
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@host ffmpeg -f alsa -ac 1 -i plughw:0,0 -f ogg - \  | mplayer - -idle -demuxer ogg
-summary: |-
-  Live stream a remote audio device over ssh using only ffmpeg

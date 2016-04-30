@@ -1,8 +1,0 @@
-commandlinefu_id: 2814
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  md5sum * | sed 's/^\(\w*\)\s*\(.*\)/\2 \1/' | while read LINE; do mv $LINE; done
-summary: |-
-  将文件重命名为他的 md5 值

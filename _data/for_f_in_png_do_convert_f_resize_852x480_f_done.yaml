@@ -1,7 +1,0 @@
-commandlinefu_id: 13003
-translator:
-  weibo: tgic
-command: |-
-  for f in *.png; do convert $f -resize 852x480 $f; done
-summary: |-
-  批量修改图片大小

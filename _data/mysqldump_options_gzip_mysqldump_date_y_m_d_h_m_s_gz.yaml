@@ -1,7 +1,0 @@
-commandlinefu_id: 2408
-translator:
-  weibo: particle128
-command: |-
-  mysqldump [options] |gzip ->mysqldump-$(date +%Y-%m-%d-%H.%M.%S).gz
-summary: |-
-  转存mysql数据库

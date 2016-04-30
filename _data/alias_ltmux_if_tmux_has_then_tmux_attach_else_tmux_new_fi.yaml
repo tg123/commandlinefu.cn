@@ -1,8 +1,0 @@
-commandlinefu_id: 6121
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias ltmux="if tmux has; then tmux attach; else tmux new; fi"
-summary: |-
-  Alias for lazy tmux create/reattach

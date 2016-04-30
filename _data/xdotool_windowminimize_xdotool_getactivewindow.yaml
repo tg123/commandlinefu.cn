@@ -1,8 +1,0 @@
-commandlinefu_id: 12223
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdotool windowminimize $(xdotool getactivewindow)
-summary: |-
-  Minimize active window

@@ -1,8 +1,0 @@
-commandlinefu_id: 13893
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep -ir --include=*.{php,html,css} "(first|second)" .
-summary: |-
-  Search for a line of text in a directory of files recursively (while limiting to certain file extensions)

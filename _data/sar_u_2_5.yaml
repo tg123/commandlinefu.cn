@@ -1,8 +1,0 @@
-commandlinefu_id: 1299
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sar -u 2 5
-summary: |-
-  Generate the CPU utilization report

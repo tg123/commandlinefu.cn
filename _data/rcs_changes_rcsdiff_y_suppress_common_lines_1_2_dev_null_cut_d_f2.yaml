@@ -1,8 +1,0 @@
-commandlinefu_id: 12415
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rcs_changes(){ rcsdiff -y --suppress-common-lines "$1" 2>/dev/null | cut -d'|' -f2; }
-summary: |-
-  Shows you changes of an RCS file

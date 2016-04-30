@@ -1,7 +1,0 @@
-commandlinefu_id: 3871
-translator:
-  weibo: tgic
-command: |-
-  calc(){ awk "BEGIN{ print $* }" ;}
-summary: |-
-  用awk当计算器

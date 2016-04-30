@@ -1,8 +1,0 @@
-commandlinefu_id: 10352
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tail -f file | ts '%H:%M:%.S'
-summary: |-
-  让tail自动带上输出时间

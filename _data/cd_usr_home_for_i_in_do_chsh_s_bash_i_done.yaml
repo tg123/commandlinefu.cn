@@ -1,7 +1,0 @@
-commandlinefu_id: 4461
-translator:
-  weibo: tgic
-command: |-
-  cd /usr/home && for i in *;do chsh -s bash $i;done
-summary: |-
-  为所有用户更换默认shell (freebsd)

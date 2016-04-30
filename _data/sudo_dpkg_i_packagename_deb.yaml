@@ -1,7 +1,0 @@
-commandlinefu_id: 3633
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo dpkg -i packagename.deb
-summary: |-
-  安装deb包

@@ -1,8 +1,0 @@
-commandlinefu_id: 2577
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mount -t vfat /dev/sdx1 /media/psp/
-summary: |-
-  Creates and Mounts the PSP partition to the folder /media/psp/

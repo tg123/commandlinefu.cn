@@ -1,8 +1,0 @@
-commandlinefu_id: 2871
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  wget --spider -v http://www.server.com/path/file.ext
-summary: |-
-  用 wget 检查文件是不是存在

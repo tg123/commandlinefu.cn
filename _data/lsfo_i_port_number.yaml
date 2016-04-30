@@ -1,7 +1,0 @@
-commandlinefu_id: 6351
-translator:
-  weibo: tgic
-command: |-
-  lsof -i :[port number]
-summary: |-
-  查看谁开了端口

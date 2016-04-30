@@ -1,8 +1,0 @@
-commandlinefu_id: 12943
-translator:
-  weibo: ''
-hide: true
-command: |-
-  EXTRA_ECONF="--disable-libquadmath --enable-languages=c" crossdev --target x86_64-elf -s4
-summary: |-
-  Build a Stage 4 cross compiler for x86_64-elf with Gentoo's crossdev

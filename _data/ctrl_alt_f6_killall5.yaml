@@ -1,8 +1,0 @@
-commandlinefu_id: 9204
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <Ctrl><Alt><F6>  killall5
-summary: |-
-  Get rid from a blank display without reboot

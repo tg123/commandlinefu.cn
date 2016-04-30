@@ -1,7 +1,0 @@
-commandlinefu_id: 4052
-translator:
-  weibo: tgic
-command: |-
-  ls -al
-summary: |-
-  ls时候显示所有最后更新修改日期

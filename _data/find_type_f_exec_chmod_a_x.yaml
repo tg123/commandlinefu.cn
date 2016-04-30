@@ -1,7 +1,0 @@
-commandlinefu_id: 6123
-translator:
-  weibo: particle128
-command: |-
-  find . -type f -exec chmod a-x {} \;
-summary: |-
-  递归地把当前目录下的所有文件，去掉可执行权限

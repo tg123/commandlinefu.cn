@@ -1,8 +1,0 @@
-commandlinefu_id: 3880
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  pwgen --alt-phonics --capitalize 9 10
-summary: |-
-  密码生成器

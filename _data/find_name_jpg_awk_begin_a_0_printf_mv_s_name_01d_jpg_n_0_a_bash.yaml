@@ -1,8 +1,0 @@
-commandlinefu_id: 11857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name '*.jpg' | awk 'BEGIN{ a=0 }{ printf "mv %s name%01d.jpg\n", $0, a++ }' | bash
-summary: |-
-  Batch rename and number files

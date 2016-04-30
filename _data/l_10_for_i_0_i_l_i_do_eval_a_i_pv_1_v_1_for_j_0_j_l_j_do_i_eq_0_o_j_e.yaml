@@ -1,8 +1,0 @@
-commandlinefu_id: 7854
-translator:
-  weibo: ''
-hide: true
-command: |-
-  l=10;for((i=0;i<$l;i++));do eval "a$i=($(pv=1;v=1;for((j=0;j<$l;j++));do [ $i -eq 0 -o $j -eq 0 ]&&{ v=1 && pv=1; }||v=$((pv+a$((i-1))[$((j))]));echo -n "$v ";pv=$v;done;));";eval "echo \"\${a$i[@]}\"";done | column -t;
-summary: |-
-  Pascal's triangle

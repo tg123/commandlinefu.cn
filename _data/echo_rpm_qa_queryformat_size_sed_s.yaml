@@ -1,7 +1,0 @@
-commandlinefu_id: 8198
-translator:
-  weibo: tgic
-command: |-
-  echo $((`rpm -qa --queryformat='%{SIZE}+' | sed 's/+$//'`))
-summary: |-
-  rpm包安装后的大小

@@ -1,8 +1,0 @@
-commandlinefu_id: 8140
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo pacman -Scc
-summary: |-
-  archlinux: clear the package cache of all packages

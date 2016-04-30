@@ -1,7 +1,0 @@
-commandlinefu_id: 10742
-translator:
-  weibo: tgic
-command: |-
-  find . -type l -xtype l
-summary: |-
-  查找失效的符号链接

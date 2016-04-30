@@ -1,8 +1,0 @@
-commandlinefu_id: 10380
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysql --defaults-file=/etc/mysql/debian.cnf
-summary: |-
-  mysql login as privileged user on multiple machines with differend mysql root password

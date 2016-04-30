@@ -1,7 +1,0 @@
-commandlinefu_id: 231
-translator:
-  weibo: particle128
-command: |-
-  cat -A
-summary: |-
-  使不可打印字符可见

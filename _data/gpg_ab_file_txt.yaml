@@ -1,8 +1,0 @@
-commandlinefu_id: 9305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg -ab file.txt
-summary: |-
-  create a detached signature for file.txt

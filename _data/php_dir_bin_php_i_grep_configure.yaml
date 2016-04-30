@@ -1,8 +1,0 @@
-commandlinefu_id: 3278
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $php_dir/bin/php -i | grep configure
-summary: |-
-  to see about php configure

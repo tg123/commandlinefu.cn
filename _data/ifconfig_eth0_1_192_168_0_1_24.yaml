@@ -1,8 +1,0 @@
-commandlinefu_id: 4549
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0:1 192.168.0.1/24
-summary: |-
-  share internet connection with only one network interface

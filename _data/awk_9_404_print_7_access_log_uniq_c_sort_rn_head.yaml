@@ -1,7 +1,0 @@
-commandlinefu_id: 5311
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '$9 == 404 {print $7}' access_log | uniq -c | sort -rn | head
-summary: |-
-  输出apache中404的地址 

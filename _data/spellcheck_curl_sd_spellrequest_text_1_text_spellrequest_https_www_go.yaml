@@ -1,8 +1,0 @@
-commandlinefu_id: 4872
-translator:
-  weibo: ''
-hide: true
-command: |-
-  spellcheck(){ curl -sd "<spellrequest><text>$1</text></spellrequest>" https://www.google.com/tbproxy/spell | sed 's/.*<spellresult [^>]*>\(.*\)<\/spellresult>/\1/;s/<c \([^>]*\)>\([^<]*\)<\/c>/\1;\2\n/g' | grep 's="1"' | sed 's/^.*;\([^\t]*\).*$/\1/'; }
-summary: |-
-  Google Spell Checker

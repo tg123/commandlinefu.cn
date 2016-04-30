@@ -1,8 +1,0 @@
-commandlinefu_id: 7068
-translator:
-  weibo: ''
-hide: true
-command: |-
-  i=0;for s in `fuser -l`;do echo $((i++)) $s;done
-summary: |-
-  Signals list by NUMBER and NAME

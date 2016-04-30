@@ -1,8 +1,0 @@
-commandlinefu_id: 4852
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xv() { case $- in *[xv]*) set +xv;; *) set -xv ;; esac }
-summary: |-
-  Turn shell tracing and verbosity (set -xv) on/off with 1 command!

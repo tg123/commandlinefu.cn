@@ -1,7 +1,0 @@
-commandlinefu_id: 10830
-translator:
-  weibo: tgic
-command: |-
-  git log --graph --oneline --all --decorate --color
-summary: |-
-  有色的 git tree

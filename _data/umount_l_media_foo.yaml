@@ -1,7 +1,0 @@
-commandlinefu_id: 733
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  umount -l /media/foo
-summary: |-
-  卸载锁住的文件系统

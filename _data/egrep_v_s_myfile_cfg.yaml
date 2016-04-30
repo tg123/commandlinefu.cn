@@ -1,8 +1,0 @@
-commandlinefu_id: 9844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep -v "^\s*(#|$)" myfile.cfg
-summary: |-
-  Prints a file leaving out all blank lines and comment-only lines

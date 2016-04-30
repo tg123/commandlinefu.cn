@@ -1,8 +1,0 @@
-commandlinefu_id: 8889
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zgrep CONFIG_MAGIC_SYSRQ /proc/config.gz
-summary: |-
-  Figure out if your kernel has an option enabled

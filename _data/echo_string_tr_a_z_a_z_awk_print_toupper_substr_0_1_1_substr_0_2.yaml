@@ -1,7 +1,0 @@
-commandlinefu_id: 2489
-translator:
-  weibo: '猪了个去'
-command: |-
-  echo "${STRING}" | tr '[A-Z]' '[a-z]' | awk '{print toupper(substr($0,1,1))substr($0,2);}'
-summary: |-
-  转换字符仅首字母大写

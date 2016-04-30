@@ -1,7 +1,0 @@
-commandlinefu_id: 2623
-translator:
-  weibo: codepiano
-command: |-
-  tempo=33; slope=10; maxfreq=888; function sinus { echo "s($1/$slope)*$maxfreq"|bc -l|tr -d '-'; }; for((i=1;;i++)); do beep -l$tempo -f`sinus $i`; done
-summary: |-
-  警笛

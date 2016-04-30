@@ -1,8 +1,0 @@
-commandlinefu_id: 13647
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -L https://gist.github.com/westonruter/ea038141e46e017d280b/download | tar -xvz --strip-components=1
-summary: |-
-  Download all files from a Gist without Git

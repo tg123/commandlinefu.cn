@@ -1,8 +1,0 @@
-commandlinefu_id: 11207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  SUBNET="192.168.41" ; diff -y <(nmap -sP -n ${SUBNET}.0/24 | grep ${SUBNET}. | awk '{print $5}' | sort -t"." -k4 -n) <(for i in $(seq 1 254); do echo ${SUBNET}.$i; done)
-summary: |-
-  Look for free ip's in a given /24 subnet.

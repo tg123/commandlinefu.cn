@@ -1,8 +1,0 @@
-commandlinefu_id: 8491
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in /sys/class/net/*; do echo -e "$(basename $f)\t$(cat $f/address)"; done
-summary: |-
-  List your interfaces and MAC addresses

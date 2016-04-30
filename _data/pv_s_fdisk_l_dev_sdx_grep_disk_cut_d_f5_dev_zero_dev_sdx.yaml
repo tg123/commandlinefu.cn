@@ -1,8 +1,0 @@
-commandlinefu_id: 10102
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pv -s `fdisk -l /dev/sdX|grep "Disk /"|cut -d' ' -f5` /dev/zero >/dev/sdX
-summary: |-
-  1 pass wipe of a complete disk with status

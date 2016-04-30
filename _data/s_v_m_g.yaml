@@ -1,7 +1,0 @@
-commandlinefu_id: 3521
-translator:
-  weibo: tgic
-command: |-
-  %s/@/^v[M]/g
-summary: |-
-  输入^M CTRL + v + 回车

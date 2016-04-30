@@ -1,7 +1,0 @@
-commandlinefu_id: 2353
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lshw -html > hardware.html
-summary: |-
-  以html形式获取你的电脑的硬件配置报告

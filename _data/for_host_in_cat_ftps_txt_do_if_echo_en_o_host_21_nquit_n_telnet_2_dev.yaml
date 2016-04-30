@@ -1,8 +1,0 @@
-commandlinefu_id: 4669
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for host in $(cat ftps.txt) ; do if echo -en "o $host 21\nquit\n" |telnet 2>/dev/null |grep -v 'Connected to' >/dev/null; then echo -en "FTP $host KO\n"; fi done
-summary: |-
-  Testing ftp server status

@@ -1,7 +1,0 @@
-commandlinefu_id: 2106
-translator:
-  weibo: tgic
-command: |-
-  convert {$file_in} \( +clone -background black -shadow 60x5+10+10 \) +swap -background none -layers merge +repage  {$file_out}
-summary: |-
-  给图片加阴影

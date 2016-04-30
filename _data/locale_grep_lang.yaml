@@ -1,8 +1,0 @@
-commandlinefu_id: 4309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  locale | grep LANG=
-summary: |-
-  show your locale language keyboard setting

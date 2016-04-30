@@ -1,8 +1,0 @@
-commandlinefu_id: 13019
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set +e +u; dd if=/dev/urandom of="/media/usb1/$$";sync;sync
-summary: |-
-  Poor man's

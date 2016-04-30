@@ -1,8 +1,0 @@
-commandlinefu_id: 10996
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls *.png | while read line; do pngcrush -brute $line compressed/$line; done
-summary: |-
-  pngcrush all .png files in the directory

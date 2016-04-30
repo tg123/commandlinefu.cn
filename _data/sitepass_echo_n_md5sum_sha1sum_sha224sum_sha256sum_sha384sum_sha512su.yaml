@@ -1,8 +1,0 @@
-commandlinefu_id: 3690
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sitepass() { echo -n "$@" |  md5sum | sha1sum | sha224sum | sha256sum | sha384sum | sha512sum | gzip - | strings -n 1 | tr -d "[:space:]"  | tr -s '[:print:]' | tr '!-~' 'P-~!-O' | rev | cut -b 2-11; history -d $(($HISTCMD-1)); }
-summary: |-
-  generate a unique and secure password for every website that you login to

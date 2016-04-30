@@ -1,7 +1,0 @@
-commandlinefu_id: 8138
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pacman -Qdt
-summary: |-
-  在arch linux中列出不再需要的包

@@ -1,7 +1,0 @@
-commandlinefu_id: 848
-translator:
-  weibo: tgic
-command: |-
-  :%s/<control-VM>//g
-summary: |-
-  如何在vim清理^M

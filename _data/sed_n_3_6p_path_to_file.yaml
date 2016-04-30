@@ -1,7 +1,0 @@
-commandlinefu_id: 9890
-translator:
-  weibo: codepiano
-command: |-
-  sed -n '3,6p' /path/to/file
-summary: |-
-  打印指定行号之间的文件内容

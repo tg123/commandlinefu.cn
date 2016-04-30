@@ -1,8 +1,0 @@
-commandlinefu_id: 14150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xset -display :0 q | grep '  Monitor is On' > /dev/null && xset -display :0 dpms force off || xset -display :0 dpms force on
-summary: |-
-  Turn monitor on or off if off or on, respectively

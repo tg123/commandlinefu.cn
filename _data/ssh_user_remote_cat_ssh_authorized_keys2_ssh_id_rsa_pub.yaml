@@ -1,7 +1,0 @@
-commandlinefu_id: 6463
-translator:
-  weibo: tgic
-command: |-
-  ssh user@remote 'cat >> ~/.ssh/authorized_keys' < ~/.ssh/id_rsa.pub
-summary: |-
-  复制公钥到远程服务器的方法

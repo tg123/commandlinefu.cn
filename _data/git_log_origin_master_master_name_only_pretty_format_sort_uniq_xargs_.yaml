@@ -1,7 +1,0 @@
-commandlinefu_id: 13229
-translator:
-  weibo: tgic
-command: |-
-  git log origin/master..master --name-only --pretty="format:" | sort | uniq | xargs tar -rf mytarfile.tar
-summary: |-
-  导出没有push的文件列表

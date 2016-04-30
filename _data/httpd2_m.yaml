@@ -1,8 +1,0 @@
-commandlinefu_id: 3245
-translator:
-  weibo: ''
-hide: true
-command: |-
-  httpd2 -M
-summary: |-
-  Get the information about the Apache loaded modules from command line

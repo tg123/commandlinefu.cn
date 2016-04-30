@@ -1,8 +1,0 @@
-commandlinefu_id: 10460
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps h --ppid $(cat /var/run/apache2.pid) | awk '{print"-p " $1}' | xargs sudo strace
-summary: |-
-  easily strace all your apache *child* processes

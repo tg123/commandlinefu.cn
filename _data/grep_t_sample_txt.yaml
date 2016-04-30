@@ -1,8 +1,0 @@
-commandlinefu_id: 10276
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep $'\t' sample.txt
-summary: |-
-  grep tab (\t)

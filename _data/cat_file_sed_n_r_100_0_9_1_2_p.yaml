@@ -1,7 +1,0 @@
-commandlinefu_id: 5630
-translator:
-  weibo: tgic
-command: |-
-  cat file | sed -n -r '/^100$|^[0-9]{1,2}$/p'
-summary: |-
-  查看1 - 100 行文件

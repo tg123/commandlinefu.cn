@@ -1,8 +1,0 @@
-commandlinefu_id: 1955
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  dlocate [ package | string ]
-summary: |-
-  查找包中 deb包含的内容或者显示 deb包里边的文件

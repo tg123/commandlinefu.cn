@@ -1,8 +1,0 @@
-commandlinefu_id: 9761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -u username
-summary: |-
-  Kick user

@@ -1,7 +1,0 @@
-commandlinefu_id: 6855
-translator:
-  weibo: tgic
-command: |-
-  bash -i 2>&1 | tee /dev/stderr | nc -l 5000
-summary: |-
-  广播你的 shell

@@ -1,7 +1,0 @@
-commandlinefu_id: 7932
-translator:
-  weibo: tgic
-command: |-
-  awk -vRS="</Tag2>" '/<Tag2>/{gsub(/.*<Tag2>/,"");print}' file
-summary: |-
-  提取文件中的标签

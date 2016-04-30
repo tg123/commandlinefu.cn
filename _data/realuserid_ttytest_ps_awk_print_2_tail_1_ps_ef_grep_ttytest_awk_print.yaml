@@ -1,8 +1,0 @@
-commandlinefu_id: 8811
-translator:
-  weibo: ''
-hide: true
-command: |-
-  REALUSERID=`TTYTEST=$(ps | awk '{print $2}' |tail -1); ps -ef |grep "$TTYTEST$" |awk '{print $1}'`;echo $REALUSERID
-summary: |-
-  Find the USERid of a SUDOed user

@@ -1,8 +1,0 @@
-commandlinefu_id: 7673
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -xdev -path ./junk_dir -prune -o -type d -name "dir_name" -a -print
-summary: |-
-  find file/dir by excluding some unwanted dirs and filesystems

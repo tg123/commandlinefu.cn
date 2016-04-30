@@ -1,8 +1,0 @@
-commandlinefu_id: 12893
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yes 'echo $(( RANDOM%100+1 )); sleep 5' | bash
-summary: |-
-  Bingo-like raffle

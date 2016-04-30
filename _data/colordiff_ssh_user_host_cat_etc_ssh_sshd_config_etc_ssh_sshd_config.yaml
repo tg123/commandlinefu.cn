@@ -1,7 +1,0 @@
-commandlinefu_id: 12591
-translator:
-  weibo: '猪了个去'
-command: |-
-  colordiff <(ssh user@host cat /etc/ssh/sshd_config) /etc/ssh/sshd_config
-summary: |-
-  diff对比远端和本地的sshd_config配置文件

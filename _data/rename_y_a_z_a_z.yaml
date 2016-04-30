@@ -1,7 +1,0 @@
-commandlinefu_id: 3764
-translator:
-  weibo: tgic
-command: |-
-  rename 'y/A-Z/a-z/' *
-summary: |-
-  将当前目录文件全部重名为小写

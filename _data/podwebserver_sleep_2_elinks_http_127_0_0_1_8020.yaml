@@ -1,8 +1,0 @@
-commandlinefu_id: 4683
-translator:
-  weibo: ''
-hide: true
-command: |-
-  podwebserver& sleep 2; elinks 'http://127.0.0.1:8020'
-summary: |-
-  Do some Perl learning...

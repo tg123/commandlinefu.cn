@@ -1,8 +1,0 @@
-commandlinefu_id: 13174
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -exec grep -Hn what \{\} \; | less
-summary: |-
-  Recursive search inside the content of files under current directory - then view the result paginated with 'pess'

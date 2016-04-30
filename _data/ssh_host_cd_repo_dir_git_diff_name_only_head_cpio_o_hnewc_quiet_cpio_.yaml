@@ -1,7 +1,0 @@
-commandlinefu_id: 13114
-translator:
-  weibo: tgic
-command: |-
-  ssh HOST '(cd REPO_DIR && git diff --name-only HEAD | cpio -o -Hnewc --quiet)' | cpio -iduv --quiet -Hnewc
-summary: |-
-  从远端复制未提交的改动

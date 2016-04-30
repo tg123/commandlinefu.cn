@@ -1,8 +1,0 @@
-commandlinefu_id: 9982
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /etc/squid/squid.conf | grep -v '^#' | sed '/^$/d'
-summary: |-
-  cat without comments

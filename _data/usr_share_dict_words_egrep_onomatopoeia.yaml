@@ -1,8 +1,0 @@
-commandlinefu_id: 6318
-translator:
-  weibo: ''
-hide: true
-command: |-
-  < /usr/share/dict/words egrep onomatopoeia
-summary: |-
-  simple regex spell checker

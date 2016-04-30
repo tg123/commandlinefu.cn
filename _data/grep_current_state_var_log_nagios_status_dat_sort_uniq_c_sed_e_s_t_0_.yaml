@@ -1,8 +1,0 @@
-commandlinefu_id: 5047
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep current_state= /var/log/nagios/status.dat|sort|uniq -c|sed -e "s/[\t ]*\([0-9]*\).*current_state=\([0-9]*\)/\2:\1/"|tr "\n" " "
-summary: |-
-  display a one-liner of current nagios exit statuses. great with netcat/irccat

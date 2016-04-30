@@ -1,8 +1,0 @@
-commandlinefu_id: 9544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -r 'Activ'
-summary: |-
-  Kill a process by its partial name (BSD/Mac)

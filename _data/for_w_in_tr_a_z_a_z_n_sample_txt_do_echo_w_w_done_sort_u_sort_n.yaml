@@ -1,8 +1,0 @@
-commandlinefu_id: 10440
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for w in $(tr 'A-Z ,."()?!;:' 'a-z\n' < sample.txt); do echo ${#w} $w; done | sort -u | sort -n
-summary: |-
-  Print all words in a file sorted by length

@@ -1,7 +1,0 @@
-commandlinefu_id: 72
-translator:
-  weibo: tgic
-command: |-
-  yes "$(seq 0 255;seq 254 -1 0)" | while read i; do printf "\x1b[48;5;${i}m\n"; sleep .01; done
-summary: |-
-  循环显示256色

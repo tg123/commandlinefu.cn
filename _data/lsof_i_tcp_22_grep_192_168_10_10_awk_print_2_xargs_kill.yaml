@@ -1,7 +1,0 @@
-commandlinefu_id: 10730
-translator:
-  weibo: tgic
-command: |-
-  lsof -i tcp:22 | grep 192.168.10.10 | awk "{print $2}" |xargs kill
-summary: |-
-  杀死某个链接得进程

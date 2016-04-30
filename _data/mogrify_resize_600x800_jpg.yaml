@@ -1,7 +1,0 @@
-commandlinefu_id: 9222
-translator:
-  weibo: tgic
-command: |-
-  mogrify -resize 600x800! *.jpg
-summary: |-
-  批量修改图片地址

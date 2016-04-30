@@ -1,8 +1,0 @@
-commandlinefu_id: 2499
-translator:
-  weibo: ''
-hide: true
-command: |-
-  su - <user> -s /bin/sh -c "/bin/sh"
-summary: |-
-  Get a shell with a not available account

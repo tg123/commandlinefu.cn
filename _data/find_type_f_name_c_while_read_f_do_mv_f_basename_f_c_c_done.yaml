@@ -1,8 +1,0 @@
-commandlinefu_id: 863
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -type f -name \*.c | while read f; do mv $f "`basename $f .c`".C; done
-summary: |-
-  递归的改变扩展名

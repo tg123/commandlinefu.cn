@@ -1,8 +1,0 @@
-commandlinefu_id: 8153
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !!:gs/foo/bar
-summary: |-
-  Replace all occurences of a pattern with another one from previous command

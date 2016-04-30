@@ -1,8 +1,0 @@
-commandlinefu_id: 12194
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir -p /path/to/folder.d; \cd $_
-summary: |-
-  Make directory and change into immediately (No functions!)

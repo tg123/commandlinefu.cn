@@ -1,7 +1,0 @@
-commandlinefu_id: 5956
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo find . -maxdepth 1 -cnewer olderFilesNameToMove -and ! -cnewer newerFileNameToMove -exec mv -v {} /newDirectory/ \;
-summary: |-
-  移动给定日期之间的所有文件

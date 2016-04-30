@@ -1,8 +1,0 @@
-commandlinefu_id: 9094
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert input.png -mattecolor gold -frame 10x10+5+5 output.png
-summary: |-
-  add border to image

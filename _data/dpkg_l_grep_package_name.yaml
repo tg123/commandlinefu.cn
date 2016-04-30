@@ -1,7 +1,0 @@
-commandlinefu_id: 9618
-translator:
-  weibo: tgic
-command: |-
-  dpkg -l | grep (package name)
-summary: |-
-  检查是否安装了某个包

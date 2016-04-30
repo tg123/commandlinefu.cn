@@ -1,8 +1,0 @@
-commandlinefu_id: 3963
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth1 | grep inet\ addr | awk '{print $2}' | cut -d: -f2 | sed s/^/eth1:\ /g
-summary: |-
-  Grab an interface's IP from ifconfig without screen clutter

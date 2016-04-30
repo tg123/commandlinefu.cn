@@ -1,8 +1,0 @@
-commandlinefu_id: 9053
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -size 1400c -exec rm {} \;
-summary: |-
-  remove files of a specific size

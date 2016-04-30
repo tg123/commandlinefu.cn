@@ -1,7 +1,0 @@
-commandlinefu_id: 10487
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo dpkg-reconfigure keyboard-configuration
-summary: |-
-  重置GNU/Linux的键盘配置

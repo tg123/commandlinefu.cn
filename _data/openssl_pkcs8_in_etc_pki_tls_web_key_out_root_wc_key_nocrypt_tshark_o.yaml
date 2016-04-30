@@ -1,8 +1,0 @@
-commandlinefu_id: 12474
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl pkcs8 -in /etc/pki/tls/web.key -out /root/wc.key -nocrypt && tshark -o "ssl.desegment_ssl_records:TRUE" -o "ssl.desegment_ssl_application_data:TRUE" -o "ssl.keys_list:,443,http,/root/wc.key" -o "ssl.debug_file:rsa.log" -R "(tcp.port eq 443)"
-summary: |-
-  Decrypt SSL

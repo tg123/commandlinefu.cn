@@ -1,8 +1,0 @@
-commandlinefu_id: 7699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  df | grep -w '/media/armadillo' | cut -d " " -f 1
-summary: |-
-  find the device when you only know the mount point

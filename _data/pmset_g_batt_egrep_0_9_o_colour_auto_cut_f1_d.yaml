@@ -1,7 +1,0 @@
-commandlinefu_id: 10477
-translator:
-  weibo: codepiano
-command: |-
-  pmset -g batt | egrep "([0-9]+\%).*" -o --colour=auto | cut -f1 -d';'
-summary: |-
-  返回OSX电池电量

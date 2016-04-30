@@ -1,8 +1,0 @@
-commandlinefu_id: 3456
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for L in `echo :$PATH | tr : '\n'`; do F=${L:-"."}/fileName; if [ -f ${F} -o -h ${F} ]; then echo ${F}; break; fi; done
-summary: |-
-  search for a file in PATH

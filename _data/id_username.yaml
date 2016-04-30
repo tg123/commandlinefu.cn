@@ -1,7 +1,0 @@
-commandlinefu_id: 6822
-translator:
-  weibo: tgic
-command: |-
-  id <username>
-summary: |-
-  查看账户详情

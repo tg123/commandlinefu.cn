@@ -1,8 +1,0 @@
-commandlinefu_id: 1339
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -t reachable_host ssh unreachable_host
-summary: |-
-  SSH connection through host in the middle

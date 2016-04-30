@@ -1,7 +1,0 @@
-commandlinefu_id: 12
-translator:
-  weibo: tgic
-command: |-
-  : > file.txt
-summary: |-
-  清空文件

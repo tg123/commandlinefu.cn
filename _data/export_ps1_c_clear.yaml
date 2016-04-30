@@ -1,7 +1,0 @@
-commandlinefu_id: 8669
-translator:
-  weibo: tgic
-command: |-
-  export PS1="C:\\>"; clear
-summary: |-
-  变成DOS

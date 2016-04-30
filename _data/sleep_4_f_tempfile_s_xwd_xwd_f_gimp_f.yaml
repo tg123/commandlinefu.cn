@@ -1,8 +1,0 @@
-commandlinefu_id: 6628
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 4; F="$(tempfile -s '.xwd')"; xwd > "$F" ; gimp "$F"
-summary: |-
-  Instant editing screenshot with Gimp

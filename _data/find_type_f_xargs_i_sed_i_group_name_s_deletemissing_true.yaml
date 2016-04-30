@@ -1,8 +1,0 @@
-commandlinefu_id: 4765
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f |xargs -I% sed -i '/group name/s/>/ deleteMissing="true">/' %
-summary: |-
-  Recursively replace a string in files with lines matching string

@@ -1,8 +1,0 @@
-commandlinefu_id: 1023
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"
-summary: |-
-  auto terminal title change

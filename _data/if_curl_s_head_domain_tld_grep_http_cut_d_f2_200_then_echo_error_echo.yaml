@@ -1,8 +1,0 @@
-commandlinefu_id: 13633
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ "`curl -s --head domain.tld | grep HTTP | cut -d" " -f2`" != "200" ];then echo "error"; echo "doing else" ;fi
-summary: |-
-  check web site status

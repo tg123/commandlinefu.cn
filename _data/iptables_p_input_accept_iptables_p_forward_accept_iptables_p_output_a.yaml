@@ -1,8 +1,0 @@
-commandlinefu_id: 9898
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -P INPUT ACCEPT; iptables -P FORWARD ACCEPT; iptables -P OUTPUT ACCEPT; for table in `cat /proc/net/ip_tables_names`; do iptables -t $table -F; iptables -t $table -Z; iptables -t $table -X; done
-summary: |-
-  Stop iptables completely

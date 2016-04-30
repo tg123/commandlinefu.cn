@@ -1,8 +1,0 @@
-commandlinefu_id: 416
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -zav --progress original_files_directory/ root@host(IP):/path/to/destination/
-summary: |-
-  Rsync between two servers

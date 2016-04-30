@@ -1,8 +1,0 @@
-commandlinefu_id: 13899
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder output.avi -o out+sound.avi -ovc copy -oac copy -audiofile myaudiofile.mp3
-summary: |-
-  Add video to file

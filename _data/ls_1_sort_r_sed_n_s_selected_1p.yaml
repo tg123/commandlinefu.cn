@@ -1,7 +1,0 @@
-commandlinefu_id: 8086
-translator:
-  weibo: tgic
-command: |-
-  ls -1 | sort -R | sed -n 's/^/Selected /;1p'
-summary: |-
-  随机选择一个目录

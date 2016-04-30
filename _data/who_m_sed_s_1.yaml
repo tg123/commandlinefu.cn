@@ -1,7 +1,0 @@
-commandlinefu_id: 9334
-translator:
-  weibo: lzz36
-command: |-
-  who -m | sed 's/.*(\(.*\)).*/\1/'
-summary: |-
-  获取你登陆到此的源主机

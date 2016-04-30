@@ -1,8 +1,0 @@
-commandlinefu_id: 11268
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l /proc/*/fd/* | grep 'deleted'| grep "\/proc.*\file-name-part"
-summary: |-
-  Find removed files still in use via /proc

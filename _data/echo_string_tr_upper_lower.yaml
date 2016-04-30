@@ -1,7 +1,0 @@
-commandlinefu_id: 5439
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo StrinG | tr '[:upper:]' '[:lower:]'
-summary: |-
-  将一个字符串中的大写字母转换成小写

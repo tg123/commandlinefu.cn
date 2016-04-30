@@ -1,8 +1,0 @@
-commandlinefu_id: 11125
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias irc="screen -D -R -S chatclient irssi"
-summary: |-
-  Keep one instance of an irc chat client in a screen session

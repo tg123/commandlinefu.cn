@@ -1,7 +1,0 @@
-commandlinefu_id: 7826
-translator:
-  weibo: tgic
-command: |-
-  xmodmap -e "pointer = 3 2 1"
-summary: |-
-  左右呼唤鼠标按钮

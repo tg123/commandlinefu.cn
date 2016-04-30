@@ -1,8 +1,0 @@
-commandlinefu_id: 5359
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim -o file1 file2...
-summary: |-
-  Open files in a split windowed Vim

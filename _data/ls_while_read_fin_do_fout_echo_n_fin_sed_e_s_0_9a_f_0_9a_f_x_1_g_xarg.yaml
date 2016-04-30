@@ -1,8 +1,0 @@
-commandlinefu_id: 8472
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls * | while read fin;do fout=$(echo -n $fin | sed -e's/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g' | xargs echo -e);if [ "$fout" != "$fin" ];then echo "mv '$fin' '$fout'";fi;done | bash -x
-summary: |-
-  urldecoding

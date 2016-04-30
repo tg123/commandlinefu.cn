@@ -1,7 +1,0 @@
-commandlinefu_id: 1848
-translator:
-  weibo: tgic
-command: |-
-  svn merge -r {rev_num}:HEAD https://{host}/{project}/branches/{branch_name} .
-summary: |-
-  合并分支svn

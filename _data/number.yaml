@@ -1,8 +1,0 @@
-commandlinefu_id: 9048
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !<number>
-summary: |-
-  Execute the command given by history event number

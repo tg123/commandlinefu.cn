@@ -1,8 +1,0 @@
-commandlinefu_id: 13895
-translator:
-  weibo: ''
-hide: true
-command: |-
-  x="() { :; }; echo x" bash -c :
-summary: |-
-  Check your bash shell for vulnerability to the ShellShock exploit

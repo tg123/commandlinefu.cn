@@ -1,8 +1,0 @@
-commandlinefu_id: 882
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls -1 . dir2 dir3|sort|uniq -d
-summary: |-
-  列出目录中同名文件

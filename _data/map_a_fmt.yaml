@@ -1,8 +1,0 @@
-commandlinefu_id: 4150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  map ^A !}fmt
-summary: |-
-  In (any) vi, add a keystroke to format the current paragraph.

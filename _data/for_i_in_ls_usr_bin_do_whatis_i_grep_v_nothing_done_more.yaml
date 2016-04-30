@@ -1,7 +1,0 @@
-commandlinefu_id: 4661
-translator:
-  weibo: '猪了个去'
-command: |-
-  for i in $(ls /usr/bin); do whatis $i 2>/dev/null ; done | more
-summary: |-
-  学习一下/usr/bin下的东西是干啥的

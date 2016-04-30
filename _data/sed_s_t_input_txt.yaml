@@ -1,7 +1,0 @@
-commandlinefu_id: 5264
-translator:
-  weibo: tgic
-command: |-
-  sed 's/^[ \t]*//' input.txt
-summary: |-
-  删除每行开头的空白

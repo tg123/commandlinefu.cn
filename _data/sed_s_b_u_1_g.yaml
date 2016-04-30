@@ -1,7 +1,0 @@
-commandlinefu_id: 12037
-translator:
-  weibo: tgic
-command: |-
-  sed "s/\b\(.\)/\u\1/g"
-summary: |-
-  将每个单词的首字幕大写

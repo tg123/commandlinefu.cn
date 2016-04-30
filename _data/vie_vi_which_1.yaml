@@ -1,7 +1,0 @@
-commandlinefu_id: 9396
-translator:
-  weibo: tgic
-command: |-
-  vie(){vi $(which $1)}
-summary: |-
-  编辑命令

@@ -1,8 +1,0 @@
-commandlinefu_id: 11374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'print map { $_ .= "$ENV{$_}\n" } (keys %ENV)'
-summary: |-
-  Print environment information.

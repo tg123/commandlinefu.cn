@@ -1,7 +1,0 @@
-commandlinefu_id: 11176
-translator:
-  weibo: tgic
-command: |-
-  curl -d "a1=v1&a2=v2" url
-summary: |-
-  使用curl post 数据

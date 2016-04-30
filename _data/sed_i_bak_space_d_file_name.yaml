@@ -1,7 +1,0 @@
-commandlinefu_id: 1864
-translator:
-  weibo: tgic
-command: |-
-  sed -i.bak '/^[[:space:]]*$/d' file_name
-summary: |-
-  清除空行

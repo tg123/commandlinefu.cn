@@ -1,7 +1,0 @@
-commandlinefu_id: 735
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for (( i = 0; i < 100; i++ )); do echo "$i"; done
-summary: |-
-  在Bash中使用C风格的循环

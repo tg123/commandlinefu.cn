@@ -1,8 +1,0 @@
-commandlinefu_id: 13027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.djvu; do djvu2pdf $i && echo "Finished -> $i"; done;
-summary: |-
-  Just convert your all books DJVU format to PDF, with one line

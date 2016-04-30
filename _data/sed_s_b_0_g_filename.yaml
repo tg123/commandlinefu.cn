@@ -1,8 +1,0 @@
-commandlinefu_id: 1645
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 's/\b\(0*\)//g' filename
-summary: |-
-  Remove leading zeros in multiple columns with sed

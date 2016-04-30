@@ -1,8 +1,0 @@
-commandlinefu_id: 12839
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do ls -lah && sleep 1; done
-summary: |-
-  Execute ls -lah every one second

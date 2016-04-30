@@ -1,8 +1,0 @@
-commandlinefu_id: 63
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping localip -c 1 -W 1 &> /dev/null && ssh localip || ssh globalip
-summary: |-
-  SSH to a machine's internet address if it is not present on your local network

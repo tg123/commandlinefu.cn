@@ -1,8 +1,0 @@
-commandlinefu_id: 14017
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh root@host.domain.tld "date -s '"$(date)"'";
-summary: |-
-  Sync local machine date to remote machine over ssh

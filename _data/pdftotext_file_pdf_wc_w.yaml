@@ -1,8 +1,0 @@
-commandlinefu_id: 12383
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftotext file.pdf - | wc -w
-summary: |-
-  Count words in a TeX/LaTeX document.

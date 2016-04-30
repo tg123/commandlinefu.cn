@@ -1,8 +1,0 @@
-commandlinefu_id: 3549
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmms2 mlib search added \> $(echo $(date +%s) - 604800|bc)
-summary: |-
-  list the last week's added files in xmms2's library

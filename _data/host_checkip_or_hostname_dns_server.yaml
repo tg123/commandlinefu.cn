@@ -1,7 +1,0 @@
-commandlinefu_id: 4395
-translator:
-  weibo: codepiano
-command: |-
-  host {checkIp or hostname} [dns server]
-summary: |-
-  反向域名解析

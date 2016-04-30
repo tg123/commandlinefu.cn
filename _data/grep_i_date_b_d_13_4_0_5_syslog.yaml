@@ -1,7 +1,0 @@
-commandlinefu_id: 5673
-translator:
-  weibo: tgic
-command: |-
-  grep -i "$(date +%b" "%d )13:4[0-5]" syslog
-summary: |-
-  查看一段时间的日志

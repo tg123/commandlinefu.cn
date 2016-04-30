@@ -1,7 +1,0 @@
-commandlinefu_id: 2812
-translator:
-  weibo: 'gdqyn'
-command: |-
-  find . -type f -name "*.c" -exec cat {} \; | wc -l
-summary: |-
-  统计代码行数

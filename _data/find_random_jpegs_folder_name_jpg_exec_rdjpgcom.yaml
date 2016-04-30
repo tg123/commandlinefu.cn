@@ -1,8 +1,0 @@
-commandlinefu_id: 365
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ~/random_jpegs/folder -name "*.jpg" -exec rdjpgcom {} \;
-summary: |-
-  displays comments from random jpeg files.

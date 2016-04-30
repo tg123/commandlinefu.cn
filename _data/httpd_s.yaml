@@ -1,7 +1,0 @@
-commandlinefu_id: 3261
-translator:
-  weibo: tgic
-command: |-
-  httpd -S
-summary: |-
-  显示所有Apache 虚拟主机

@@ -1,8 +1,0 @@
-commandlinefu_id: 7868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yes "echo -ne '\r'\`date\`;sleep 1" | sh
-summary: |-
-  Console clock

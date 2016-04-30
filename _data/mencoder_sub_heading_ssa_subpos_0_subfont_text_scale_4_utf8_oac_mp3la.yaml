@@ -1,8 +1,0 @@
-commandlinefu_id: 3559
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -sub heading.ssa -subpos 0 -subfont-text-scale 4 -utf8 -oac mp3lame -lameopts cbr=128 -ovc lavc -lavcopts vcodec=mjpeg -vf scale=320:-2,expand=:240:::1 -o output.avi input.flv
-summary: |-
-  Use heading subtitle file as watermark using mencoder

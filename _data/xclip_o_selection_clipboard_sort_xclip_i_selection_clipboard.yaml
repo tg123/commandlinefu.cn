@@ -1,8 +1,0 @@
-commandlinefu_id: 13534
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xclip -o -selection clipboard | sort | xclip -i -selection clipboard
-summary: |-
-  Sort lines on clipboard

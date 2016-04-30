@@ -1,8 +1,0 @@
-commandlinefu_id: 10434
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  strings -f sample.txt
-summary: |-
-  打印可显示的字符

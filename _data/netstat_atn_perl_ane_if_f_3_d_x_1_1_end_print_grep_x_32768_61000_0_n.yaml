@@ -1,8 +1,0 @@
-commandlinefu_id: 7310
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -atn | perl -ane 'if ( $F[3] =~ /(\d+)$/ ) { $x{$1}=1 } END{ print( (grep {!$x{$_}} 32768..61000)[0] . "\n" )}'
-summary: |-
-  find an unused unprivileged TCP port

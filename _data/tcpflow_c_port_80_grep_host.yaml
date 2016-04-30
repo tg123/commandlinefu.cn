@@ -1,8 +1,0 @@
-commandlinefu_id: 9997
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpflow -c port 80 | grep Host
-summary: |-
-  Realtime apache hits per second

@@ -1,7 +1,0 @@
-commandlinefu_id: 3620
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lynx "futz.me/xxx hey this is a test"
-summary: |-
-  利用futz.me网站的功能，通过命令行来发送笔记给自己

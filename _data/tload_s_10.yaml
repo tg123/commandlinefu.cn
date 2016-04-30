@@ -1,8 +1,0 @@
-commandlinefu_id: 4601
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tload -s 10
-summary: |-
-  monitor system load

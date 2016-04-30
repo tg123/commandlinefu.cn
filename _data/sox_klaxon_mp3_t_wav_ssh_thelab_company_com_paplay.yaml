@@ -1,7 +1,0 @@
-commandlinefu_id: 6190
-translator:
-  weibo: tgic
-command: |-
-  sox Klaxon.mp3 -t wav - |ssh thelab@company.com paplay
-summary: |-
-  在远端播放mp3

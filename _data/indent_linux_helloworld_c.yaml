@@ -1,7 +1,0 @@
-commandlinefu_id: 2873
-translator:
-  weibo: tgic
-command: |-
-  indent -linux helloworld.c
-summary: |-
-  格式化代码

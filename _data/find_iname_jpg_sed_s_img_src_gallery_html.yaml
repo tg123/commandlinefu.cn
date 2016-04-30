@@ -1,7 +1,0 @@
-commandlinefu_id: 5983
-translator:
-  weibo: tgic
-command: |-
-  find . -iname '*.jpg' | sed 's/.*/<img src="&">/' > gallery.html
-summary: |-
-  生成html 相册

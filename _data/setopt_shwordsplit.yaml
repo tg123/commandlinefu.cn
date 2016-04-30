@@ -1,8 +1,0 @@
-commandlinefu_id: 5040
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setopt shwordsplit
-summary: |-
-  zsh variable behave like bash variable

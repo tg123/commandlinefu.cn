@@ -1,7 +1,0 @@
-commandlinefu_id: 1384
-translator:
-  weibo: tgic
-command: |-
-  ls -1 *.part1.rar | xargs -d '\n' -L 1 unrar e
-summary: |-
-  解压缩*.part1.rar

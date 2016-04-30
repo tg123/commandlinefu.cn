@@ -1,7 +1,0 @@
-commandlinefu_id: 8795
-translator:
-  weibo: tgic
-command: |-
-  curl --verbose -d "hello=world" http://commandlinefu.cn
-summary: |-
-  使用curl 发送 POST 请求

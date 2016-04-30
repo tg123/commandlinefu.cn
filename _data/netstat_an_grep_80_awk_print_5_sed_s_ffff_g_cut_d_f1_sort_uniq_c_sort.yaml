@@ -1,8 +1,0 @@
-commandlinefu_id: 8928
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -an |grep ":80" |awk '{print $5}' | sed s/::ffff://g | cut -d: -f1 |sort |uniq -c |sort -n | tail -1000 | grep -v "0.0.0.0"
-summary: |-
-  Find all IP connected to my host through TCP connection and count it

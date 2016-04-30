@@ -1,8 +1,0 @@
-commandlinefu_id: 12095
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aria2c --max-download-limit=100K file.metalink
-summary: |-
-  Throttle download speed (at speed x )

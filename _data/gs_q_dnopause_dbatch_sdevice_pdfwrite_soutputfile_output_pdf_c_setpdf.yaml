@@ -1,8 +1,0 @@
-commandlinefu_id: 4345
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=OUTPUT.pdf -c .setpdfwrite -f INPUT.pdf
-summary: |-
-  Remove security limitations from PDF documents using ghostscript

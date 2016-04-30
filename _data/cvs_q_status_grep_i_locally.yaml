@@ -1,8 +1,0 @@
-commandlinefu_id: 202
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs -Q status | grep -i locally
-summary: |-
-  List only locally modified files with CVS

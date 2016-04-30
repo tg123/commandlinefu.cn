@@ -1,7 +1,0 @@
-commandlinefu_id: 2731
-translator:
-  weibo: tgic
-command: |-
-  ssh -t remote_host screen -r
-summary: |-
-  通过ssh挂一个screen

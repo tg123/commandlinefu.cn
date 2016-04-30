@@ -1,7 +1,0 @@
-commandlinefu_id: 6830
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -d1a /var/www/*/web | xargs du -hs
-summary: |-
-  计算各个网站的文件夹大小

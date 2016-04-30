@@ -1,8 +1,0 @@
-commandlinefu_id: 12837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git reset --hard <commidId> && git clean -f
-summary: |-
-  100% rollback files to a specific revision

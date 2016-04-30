@@ -1,7 +1,0 @@
-commandlinefu_id: 5342
-translator:
-  weibo: codepiano
-command: |-
-  find . -mtime +10 -delete
-summary: |-
-  列出指定目录汇总比X古老的文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 1827
-translator:
-  weibo: tgic
-command: |-
-  true && { echo success;} || { echo failed; }
-summary: |-
-  命令行的问好冒号表达式

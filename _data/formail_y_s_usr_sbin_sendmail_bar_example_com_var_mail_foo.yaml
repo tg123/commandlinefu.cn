@@ -1,8 +1,0 @@
-commandlinefu_id: 289
-translator:
-  weibo: ''
-hide: true
-command: |-
-  formail -Y -s /usr/sbin/sendmail bar@example.com < /var/mail/foo
-summary: |-
-  E-mail a traditional Berkeley mbox to another recipient as individual e-mails.

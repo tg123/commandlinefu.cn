@@ -1,8 +1,0 @@
-commandlinefu_id: 3035
-translator:
-  weibo: ''
-hide: true
-command: |-
-  printf "%'d\n" 1234567
-summary: |-
-  formatting number with comma

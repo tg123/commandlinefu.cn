@@ -1,7 +1,0 @@
-commandlinefu_id: 7143
-translator:
-  weibo: tgic
-command: |-
-  mailq |awk '/MAILER-DAEMON/{gsub("*","");printf("postsuper -d %s\n",$1)}'|bash
-summary: |-
-  清空mail queue

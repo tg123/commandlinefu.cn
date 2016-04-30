@@ -1,8 +1,0 @@
-commandlinefu_id: 2618
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh root@server 'tail --max-unchanged-stats=10 -n0 -F /var/log/auth.log ' | grep Accepted | while read l ; do kdialog --title "SSH monitor" --passivepopup "$l" 3; done
-summary: |-
-  SSH monitor

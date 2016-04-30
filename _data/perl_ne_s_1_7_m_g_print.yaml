@@ -1,7 +1,0 @@
-commandlinefu_id: 9977
-translator:
-  weibo: tgic
-command: |-
-  perl -ne 's/\^.{1,7}?m//g;print'
-summary: |-
-  移除颜色代码

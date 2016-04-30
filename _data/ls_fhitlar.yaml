@@ -1,8 +1,0 @@
-commandlinefu_id: 8817
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -Fhitlar
-summary: |-
-  list files in 'hitlar' mode

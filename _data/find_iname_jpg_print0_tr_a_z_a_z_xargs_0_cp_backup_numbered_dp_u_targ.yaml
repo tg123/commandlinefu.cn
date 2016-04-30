@@ -1,7 +1,0 @@
-commandlinefu_id: 4310
-translator:
-  weibo: tgic
-command: |-
-  find . -iname "*.jpg" -print0 | tr '[A-Z]' '[a-z]' | xargs -0 cp --backup=numbered -dp -u --target-directory {location} &
-summary: |-
-  集中放置图片

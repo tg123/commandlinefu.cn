@@ -1,7 +1,0 @@
-commandlinefu_id: 6935
-translator:
-  weibo: tgic
-command: |-
-  lsof -Pnl +M -i6 | grep 8080
-summary: |-
-  监听再ipv6 8080的进程

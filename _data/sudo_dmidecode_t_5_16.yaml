@@ -1,7 +1,0 @@
-commandlinefu_id: 2267
-translator:
-  weibo: tgic
-command: |-
-  sudo dmidecode -t 5,16
-summary: |-
-  列出支持的内存类型

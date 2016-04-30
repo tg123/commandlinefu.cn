@@ -1,8 +1,0 @@
-commandlinefu_id: 12335
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo mhwd-kernel linux00
-summary: |-
-  Install a new kernel in Manjaro linux

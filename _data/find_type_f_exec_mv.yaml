@@ -1,7 +1,0 @@
-commandlinefu_id: 9320
-translator:
-  weibo: tgic
-command: |-
-  find ./ -type f -exec mv {} . \;
-summary: |-
-  将子目录的所有内容都移动到当前目录

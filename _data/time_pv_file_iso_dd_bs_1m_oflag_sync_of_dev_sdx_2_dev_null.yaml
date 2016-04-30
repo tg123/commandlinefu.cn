@@ -1,8 +1,0 @@
-commandlinefu_id: 10135
-translator:
-  weibo: ''
-hide: true
-command: |-
-  time (pv file.iso | dd bs=1M oflag=sync of=/dev/sdX 2>/dev/null)
-summary: |-
-  copy hybrid iso images to USB key for booting from it, progress bar and remaining time are displayed while copying

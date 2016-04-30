@@ -1,8 +1,0 @@
-commandlinefu_id: 8550
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | grep HWaddr | awk '{print $1,$5}'
-summary: |-
-  List your interfaces and MAC addresses

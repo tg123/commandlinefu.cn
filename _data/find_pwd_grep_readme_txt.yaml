@@ -1,8 +1,0 @@
-commandlinefu_id: 13991
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find $(pwd) | grep README.txt
-summary: |-
-  List all directories recursively that have a specif file

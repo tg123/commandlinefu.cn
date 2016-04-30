@@ -1,7 +1,0 @@
-commandlinefu_id: 1469
-translator:
-  weibo: tgic
-command: |-
-  find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
-summary: |-
-  模拟DOS  的 tree

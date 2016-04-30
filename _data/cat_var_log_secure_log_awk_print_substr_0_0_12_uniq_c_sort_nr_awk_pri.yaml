@@ -1,8 +1,0 @@
-commandlinefu_id: 2757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /var/log/secure.log | awk '{print substr($0,0,12)}' | uniq -c | sort -nr | awk '{printf("\n%s ",$0) ; for (i = 0; i<$1 ; i++) {printf("*")};}'
-summary: |-
-  Show me a histogram of the busiest minutes in a log file:

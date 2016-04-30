@@ -1,8 +1,0 @@
-commandlinefu_id: 5665
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -R usepackage * | cut -d']' -f2 | cut -s -d'{' -f 2 | sed s/"}"/.sty"}"/g | cut -d'}' -f1 | sort | uniq | xargs dpkg -S | cut -d':' -f1 | sort | uniq
-summary: |-
-  Get debian package names corresponding to latex packages used in a document

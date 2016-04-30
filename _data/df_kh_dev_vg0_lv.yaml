@@ -1,7 +1,0 @@
-commandlinefu_id: 4778
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  df -kh /dev/vg0*/lv*
-summary: |-
-  显示全部已挂载的逻辑卷所占用的空间

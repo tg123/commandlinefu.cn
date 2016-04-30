@@ -1,7 +1,0 @@
-commandlinefu_id: 11326
-translator:
-  weibo: codepiano
-command: |-
-  perl -e '$|++; while (1) { print " " x (rand(35) + 1), int(rand(2)) }'
-summary: |-
-  二进制数字黑客帝国效果

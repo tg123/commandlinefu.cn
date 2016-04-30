@@ -1,8 +1,0 @@
-commandlinefu_id: 9975
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -sP  192.168.1.0/24 | awk "/^Host/"'{ print $3 }' |nawk -F'[()]' '{print $2}'
-summary: |-
-  A list of IPs (only) that are online in a specific subnet.

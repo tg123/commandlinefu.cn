@@ -1,8 +1,0 @@
-commandlinefu_id: 13781
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(wget http://ipecho.net/plain -q -O -)
-summary: |-
-  Get your external IP address

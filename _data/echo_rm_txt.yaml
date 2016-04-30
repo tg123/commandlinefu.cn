@@ -1,7 +1,0 @@
-commandlinefu_id: 6901
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo rm *.txt
-summary: |-
-  使用echo检查你的命令，避免一回车成千古恨

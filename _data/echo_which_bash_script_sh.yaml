@@ -1,8 +1,0 @@
-commandlinefu_id: 10186
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '#!'$(which bash) > script.sh
-summary: |-
-  before writing a new script

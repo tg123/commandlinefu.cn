@@ -1,7 +1,0 @@
-commandlinefu_id: 2346
-translator:
-  weibo: particle128
-command: |-
-  find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1 | sed -e's/:$//g' | grep -v '[0-9]$' | xargs tail -f
-summary: |-
-  在Linux下监控日志

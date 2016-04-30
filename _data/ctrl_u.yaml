@@ -1,7 +1,0 @@
-commandlinefu_id: 7280
-translator:
-  weibo: tgic
-command: |-
-  Ctrl + u
-summary: |-
-  清除当前行

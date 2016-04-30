@@ -1,7 +1,0 @@
-commandlinefu_id: 12760
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find -f . png | while read line; do pngcrush -ow -brute $line; done
-summary: |-
-  使用pngcrush压缩文件夹下的png图片

@@ -1,8 +1,0 @@
-commandlinefu_id: 9950
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ettercap -i wlan0 -T -q -P dns_spoof -M ARP:remote // //
-summary: |-
-  DNS spoof with ettercap (etter.dns configured)

@@ -1,7 +1,0 @@
-commandlinefu_id: 9019
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '(length > n) {n = length} END {print n}'
-summary: |-
-  输出最长的那一行 

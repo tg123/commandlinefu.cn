@@ -1,8 +1,0 @@
-commandlinefu_id: 5923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | perl -ne "print if m/inet addr:((\d+\.){3})+/" | sed "s/inet addr//" | sed "s/Bcast//" |awk -F: '{print $2}'
-summary: |-
-  Get IPv4 of eth0 for use with scripts

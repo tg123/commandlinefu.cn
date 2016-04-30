@@ -1,8 +1,0 @@
-commandlinefu_id: 2926
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VBoxManage list vms
-summary: |-
-  Get a list of all your VirtualBox virtual machines by name and UUID from the shell

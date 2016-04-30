@@ -1,8 +1,0 @@
-commandlinefu_id: 837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff dir1 dir2 | diffstat
-summary: |-
-  See which files differ in a diff

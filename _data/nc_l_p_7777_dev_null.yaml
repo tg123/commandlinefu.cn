@@ -1,8 +1,0 @@
-commandlinefu_id: 7712
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l -p 7777 > /dev/null
-summary: |-
-  live netcat network throughput test

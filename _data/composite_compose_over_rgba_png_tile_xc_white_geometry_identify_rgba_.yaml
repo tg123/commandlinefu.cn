@@ -1,7 +1,0 @@
-commandlinefu_id: 709
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  composite -compose Over rgba.png -tile xc:white -geometry `identify rgba.png  | sed 's/[^ ]* [^ ]* \([^ ]*\) .*/\1/g'` rgb-white.png
-summary: |-
-  将一幅RGBA图像平铺到白色背景上。

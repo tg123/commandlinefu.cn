@@ -1,7 +1,0 @@
-commandlinefu_id: 2134
-translator:
-  weibo: codepiano
-command: |-
-  tar -cf  - folder/ | gpg -c > folder.tpg
-summary: |-
-  加密Tarballs

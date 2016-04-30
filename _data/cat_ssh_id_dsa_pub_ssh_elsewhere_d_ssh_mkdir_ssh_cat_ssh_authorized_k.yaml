@@ -1,7 +1,0 @@
-commandlinefu_id: 989
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat .ssh/id_dsa.pub | ssh elsewhere "[ -d .ssh ] || mkdir .ssh ; cat >> .ssh/authorized_keys"
-summary: |-
-  妈妈再也不用担心我忘了ssh密码

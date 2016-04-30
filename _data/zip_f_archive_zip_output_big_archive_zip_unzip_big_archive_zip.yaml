@@ -1,8 +1,0 @@
-commandlinefu_id: 6782
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zip -F archive.zip --output big_archive.zip && unzip big_archive.zip
-summary: |-
-  Unzip multi-part zip archive

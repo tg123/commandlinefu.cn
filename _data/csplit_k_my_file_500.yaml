@@ -1,7 +1,0 @@
-commandlinefu_id: 4842
-translator:
-  weibo: tgic
-command: |-
-  csplit -k my_file 500 {*}
-summary: |-
-  每500行分成一个文件

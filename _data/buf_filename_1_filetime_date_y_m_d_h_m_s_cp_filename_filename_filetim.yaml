@@ -1,7 +1,0 @@
-commandlinefu_id: 7292
-translator:
-  weibo: tgic
-command: |-
-  buf () { filename=$1; filetime=$(date +%Y%m%d_%H%M%S); cp ${filename} ${filename}_${filetime}; }
-summary: |-
-  按文件时间戳备份

@@ -1,8 +1,0 @@
-commandlinefu_id: 184
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -pi -e 's/THIS/THAT/g' fileglob*
-summary: |-
-  modify a file in place with perl

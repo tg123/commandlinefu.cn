@@ -1,7 +1,0 @@
-commandlinefu_id: 13388
-translator:
-  weibo: tgic
-command: |-
-  jhead -rgt file-name.jpg
-summary: |-
-  重新生成exif

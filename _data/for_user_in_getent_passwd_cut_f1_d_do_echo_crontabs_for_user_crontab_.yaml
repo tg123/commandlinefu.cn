@@ -1,7 +1,0 @@
-commandlinefu_id: 10962
-translator:
-  weibo: tgic
-command: |-
-  for user in $(getent passwd|cut -f1 -d:); do echo "### Crontabs for $user ####"; crontab -u $user -l; done
-summary: |-
-  现实所有用户的cron

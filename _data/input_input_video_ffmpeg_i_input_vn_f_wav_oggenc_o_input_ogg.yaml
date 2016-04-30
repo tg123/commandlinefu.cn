@@ -1,8 +1,0 @@
-commandlinefu_id: 2210
-translator:
-  weibo: ''
-hide: true
-command: |-
-  INPUT=<input_video> && ffmpeg -i "$INPUT"  -vn -f wav - | oggenc -o ${INPUT%%.*}.ogg -
-summary: |-
-  Convert a videos audio track to ogg vorbis.

@@ -1,8 +1,0 @@
-commandlinefu_id: 4941
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo "pretty realistic virtual typing" | randtype -m 4
-summary: |-
-  模拟打字输入的效果

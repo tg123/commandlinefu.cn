@@ -1,7 +1,0 @@
-commandlinefu_id: 3721
-translator:
-  weibo: tgic
-command: |-
-  sudo fc-cache -f -v
-summary: |-
-  刷新字体缓存

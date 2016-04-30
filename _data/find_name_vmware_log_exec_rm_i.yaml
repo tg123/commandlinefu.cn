@@ -1,8 +1,0 @@
-commandlinefu_id: 11211
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name vmware-*.log -exec rm -i {} \;
-summary: |-
-  Delete all files matching a pattern

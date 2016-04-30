@@ -1,8 +1,0 @@
-commandlinefu_id: 12402
-translator:
-  weibo: ''
-hide: true
-command: |-
-  info --subnodes -o - <item> | less
-summary: |-
-  Use GNU info with a pager

@@ -1,7 +1,0 @@
-commandlinefu_id: 11948
-translator:
-  weibo: tgic
-command: |-
-  tar -zcvf <archive<.tar.gz --exclude /home/szimbaro/tmp /home/szimbaro
-summary: |-
-  如何tar时候排除一个文件夹

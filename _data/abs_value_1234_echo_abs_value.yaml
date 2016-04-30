@@ -1,7 +1,0 @@
-commandlinefu_id: 5793
-translator:
-  weibo: titikaka723 
-command: |-
-  abs_value=-1234; echo ${abs_value#-}
-summary: |-
-  如何得到一个绝对值 

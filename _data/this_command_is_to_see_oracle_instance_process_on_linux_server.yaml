@@ -1,7 +1,0 @@
-commandlinefu_id: 1076
-translator:
-  weibo: codepiano
-command: |-
-  ps- ef | grep pmon
-summary: |-
-  在linux服务器上查看oracle实例的进程号

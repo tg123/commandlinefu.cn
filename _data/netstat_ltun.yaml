@@ -1,7 +1,0 @@
-commandlinefu_id: 3700
-translator:
-  weibo: tgic
-command: |-
-  netstat -ltun
-summary: |-
-  查看监听的端口

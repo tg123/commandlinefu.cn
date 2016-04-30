@@ -1,8 +1,0 @@
-commandlinefu_id: 3706
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hardinfo -am benchmark.so -f html > report.html
-summary: |-
-  Benchmark report generator

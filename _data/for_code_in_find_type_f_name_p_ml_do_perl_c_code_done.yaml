@@ -1,7 +1,0 @@
-commandlinefu_id: 5722
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for code in $(find . -type f -name '*.p[ml]'); do perl -c "$code"; done
-summary: |-
-  检查当前目录下的所有Perl文件的语法

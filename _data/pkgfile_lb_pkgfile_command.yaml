@@ -1,8 +1,0 @@
-commandlinefu_id: 6702
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkgfile -lb `pkgfile <command>`
-summary: |-
-  archlinux: find more commands provided by the package owning some command

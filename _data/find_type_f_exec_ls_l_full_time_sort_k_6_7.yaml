@@ -1,8 +1,0 @@
-commandlinefu_id: 11081
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find .  -type f -exec ls -l --full-time {} + | sort -k 6,7
-summary: |-
-  多目录中按日期排序

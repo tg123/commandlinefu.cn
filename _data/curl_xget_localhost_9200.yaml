@@ -1,8 +1,0 @@
-commandlinefu_id: 14003
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -XGET 'localhost:9200'
-summary: |-
-  Get ElasticSearch configuration and version details

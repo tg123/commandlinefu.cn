@@ -1,7 +1,0 @@
-commandlinefu_id: 13026
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  watch -n1 dig google.com
-summary: |-
-  监视dig查找的过程

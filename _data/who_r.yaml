@@ -1,8 +1,0 @@
-commandlinefu_id: 5564
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  who -r
-summary: |-
-  查看当前的 runlevel

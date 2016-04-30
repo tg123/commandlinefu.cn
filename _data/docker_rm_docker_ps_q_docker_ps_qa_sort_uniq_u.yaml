@@ -1,8 +1,0 @@
-commandlinefu_id: 13691
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ docker rm `(docker ps -q && docker ps -qa) | sort | uniq -u`
-summary: |-
-  Remove non-running Docker containers

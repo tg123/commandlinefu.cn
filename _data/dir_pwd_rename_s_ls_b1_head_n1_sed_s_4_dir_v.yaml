@@ -1,8 +1,0 @@
-commandlinefu_id: 13535
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dir=${PWD##*/}; rename "s/`ls -b1 | head -n1 | sed 's/.\{4\}$//'`/$dir/" -v *
-summary: |-
-  Take current directory name and rename files that exist in the folder to the same

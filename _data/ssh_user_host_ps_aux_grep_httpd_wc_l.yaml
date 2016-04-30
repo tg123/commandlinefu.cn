@@ -1,8 +1,0 @@
-commandlinefu_id: 26
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@host "ps aux | grep httpd | wc -l"
-summary: |-
-  Run a command on a remote machine

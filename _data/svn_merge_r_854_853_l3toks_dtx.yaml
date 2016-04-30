@@ -1,8 +1,0 @@
-commandlinefu_id: 13618
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn merge -r 854:853 l3toks.dtx
-summary: |-
-  revert a file with svn

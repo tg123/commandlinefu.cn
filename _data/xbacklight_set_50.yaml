@@ -1,8 +1,0 @@
-commandlinefu_id: 13138
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xbacklight -set 50
-summary: |-
-  while using lxde and being blinded by your laptop screen, you can type:

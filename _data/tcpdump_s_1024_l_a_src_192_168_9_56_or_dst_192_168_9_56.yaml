@@ -1,8 +1,0 @@
-commandlinefu_id: 11837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -s 1024 -l -A src 192.168.9.56 or dst 192.168.9.56
-summary: |-
-  Show header HTTP with tcpdump

@@ -1,8 +1,0 @@
-commandlinefu_id: 14070
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ip addr show dev eth0 | grep -E '\binet\b' | sed 's|.*inet \([^/]*\)/.*|\1|' | head -n 1
-summary: |-
-  Show first IPv4 address for an interface without CIDR mask

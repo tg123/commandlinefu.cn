@@ -1,7 +1,0 @@
-commandlinefu_id: 4539
-translator:
-  weibo: tgic
-command: |-
-  ps -ef | grep user | awk '{print $2}' | while read pid; do echo $pid ; pfiles $pid| grep portnum; done
-summary: |-
-  查看使用端口的进程(solaris)

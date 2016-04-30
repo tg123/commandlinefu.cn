@@ -1,8 +1,0 @@
-commandlinefu_id: 3232
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr : '\n' <<<$PATH
-summary: |-
-  Terminal - Show directories in the PATH, one per line with sed and bash3.X `here string'

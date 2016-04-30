@@ -1,8 +1,0 @@
-commandlinefu_id: 5946
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gnome-open [path]
-summary: |-
-  open path with your default GNOME program

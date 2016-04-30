@@ -1,8 +1,0 @@
-commandlinefu_id: 9387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  comm -13 <(sort file1) <(sort file2) > file-new
-summary: |-
-  Save lines unique to file2

@@ -1,7 +1,0 @@
-commandlinefu_id: 5052
-translator:
-  weibo: particle128
-command: |-
-  echo $(( `ulimit -u` - `find /proc -maxdepth 1 \( -user $USER -o -group $GROUPNAME \) -type d|wc -l` ))
-summary: |-
-  查看还允许开多少进程，超赞！

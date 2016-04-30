@@ -1,7 +1,0 @@
-commandlinefu_id: 11616
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -printf "%T@ %Tc %p\n" |sort -n |cut -d' ' -f2- |tail -n20
-summary: |-
-  显示最新修改的20个文件

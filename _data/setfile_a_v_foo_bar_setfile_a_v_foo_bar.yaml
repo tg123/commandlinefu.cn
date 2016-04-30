@@ -1,8 +1,0 @@
-commandlinefu_id: 2988
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setfile -a V foo.bar; setfile -a v foo.bar;
-summary: |-
-  Hiding and Show files on Mac OS X

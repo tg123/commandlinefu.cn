@@ -1,8 +1,0 @@
-commandlinefu_id: 2838
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -maxdepth 2 -name "*somepattern" -print0 | xargs -0 -I "{}" echo mv "{}" /destination/path
-summary: |-
-  Faster find and move using the find and xargs commands. Almost as fast as locate.

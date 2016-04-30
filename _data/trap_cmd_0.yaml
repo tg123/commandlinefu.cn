@@ -1,7 +1,0 @@
-commandlinefu_id: 1871
-translator:
-  weibo: tgic
-command: |-
-  trap cmd 0
-summary: |-
-  再命令退出时执行

@@ -1,8 +1,0 @@
-commandlinefu_id: 12789
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rvm --default use ruby-1.9.3
-summary: |-
-  Use Ruby version permanently

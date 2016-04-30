@@ -1,7 +1,0 @@
-commandlinefu_id: 233
-translator:
-  weibo: tgic
-command: |-
-  kill -HUP `ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]' | awk '{print $2}'`
-summary: |-
-  清理僵尸进程

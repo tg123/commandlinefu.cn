@@ -1,8 +1,0 @@
-commandlinefu_id: 5474
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -3 PID
-summary: |-
-  How to get full tread dump for java process

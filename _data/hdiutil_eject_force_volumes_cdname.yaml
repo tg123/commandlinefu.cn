@@ -1,7 +1,0 @@
-commandlinefu_id: 12213
-translator:
-  weibo: tgic
-command: |-
-  hdiutil eject -force /Volumes/CDNAME
-summary: |-
-  强制弹出挂载(OSX)

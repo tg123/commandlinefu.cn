@@ -1,8 +1,0 @@
-commandlinefu_id: 11766
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uses all cpu cycles for one core. good for testing your cpu or just warming yourself up
-summary: |-
-  yes > /dev/null

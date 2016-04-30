@@ -1,7 +1,0 @@
-commandlinefu_id: 12800
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find -size +100M
-summary: |-
-  在当前目录中递归查找大于100MB的文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 12000
-translator:
-  weibo: tgic
-command: |-
-  cat /var/lib/dpkg/info/*.md5sums|grep usr/sbin/sshd|sed 's,usr,/usr,'|md5sum -c
-summary: |-
-  校验文件是否被修改

@@ -1,7 +1,0 @@
-commandlinefu_id: 2969
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  whois domainnametocheck.com | grep match
-summary: |-
-  在一行脚本内检查一个域名是否存在并获取回复

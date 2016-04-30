@@ -1,7 +1,0 @@
-commandlinefu_id: 2934
-translator:
-  weibo: codepiano
-command: |-
-  nc $telnetserver 23 < $commandfile
-summary: |-
-  使用netcat把文本文件中的命令发送到一个telnet服务器上

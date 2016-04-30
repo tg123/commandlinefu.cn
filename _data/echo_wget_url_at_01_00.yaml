@@ -1,7 +1,0 @@
-commandlinefu_id: 1570
-translator:
-  weibo: tgic
-command: |-
-  echo 'wget url' | at 01:00
-summary: |-
-  定时启动wget下载

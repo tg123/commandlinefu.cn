@@ -1,8 +1,0 @@
-commandlinefu_id: 4163
-translator:
-  weibo: ''
-hide: true
-command: |-
-  colordiff -yW"`tput cols`" /path/to/file1 /path/to/file2
-summary: |-
-  Use colordiff in side-by-side mode, and with automatic column widths.

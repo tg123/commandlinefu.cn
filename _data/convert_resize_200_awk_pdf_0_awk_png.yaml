@@ -1,7 +1,0 @@
-commandlinefu_id: 9753
-translator:
-  weibo: tgic
-command: |-
-  convert -resize 200 awk.pdf[0] awk.png
-summary: |-
-  创建pdf 的缩略图

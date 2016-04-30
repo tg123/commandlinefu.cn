@@ -1,8 +1,0 @@
-commandlinefu_id: 12634
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ldapsearch -x -LLL uid=*
-summary: |-
-  LDAP list of users and their details

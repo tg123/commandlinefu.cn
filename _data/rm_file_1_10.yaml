@@ -1,7 +1,0 @@
-commandlinefu_id: 1306
-translator:
-  weibo: tgic
-command: |-
-  rm file{1..10}
-summary: |-
-  删除多个文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc localhost 10000 <<< "message"
-summary: |-
-  send substituted text to a command without echo, pipe

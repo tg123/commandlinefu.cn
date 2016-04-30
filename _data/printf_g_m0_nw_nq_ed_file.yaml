@@ -1,8 +1,0 @@
-commandlinefu_id: 8538
-translator:
-  weibo: ''
-hide: true
-command: |-
-  printf "g/^/m0\nw\nq"|ed $FILE
-summary: |-
-  reverse order of file

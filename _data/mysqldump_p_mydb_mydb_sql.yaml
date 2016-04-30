@@ -1,7 +1,0 @@
-commandlinefu_id: 11446
-translator:
-  weibo: tgic
-command: |-
-  mysqldump -p MYDB > MYDB.sql
-summary: |-
-  备份整个数据库

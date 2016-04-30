@@ -1,8 +1,0 @@
-commandlinefu_id: 11910
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -c   or wget --continue
-summary: |-
-  wget with resume

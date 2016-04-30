@@ -1,8 +1,0 @@
-commandlinefu_id: 6732
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ true ]; do head -n 100 /dev/urandom; sleep .1; done | hexdump -C | grep "ca fe"
-summary: |-
-  pretend to be busy in office to enjoy a cup of coffee

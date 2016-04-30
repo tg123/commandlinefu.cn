@@ -1,7 +1,0 @@
-commandlinefu_id: 3044
-translator:
-  weibo: '猪了个去'
-command: |-
-  x86info
-summary: |-
-  打印CPU信息

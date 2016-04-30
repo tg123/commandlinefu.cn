@@ -1,8 +1,0 @@
-commandlinefu_id: 4483
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls -lah --color=always | most
-summary: |-
-  让ls 翻页并带颜色

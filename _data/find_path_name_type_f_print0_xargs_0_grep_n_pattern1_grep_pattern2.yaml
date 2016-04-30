@@ -1,8 +1,0 @@
-commandlinefu_id: 11064
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find path -name '*' -type f -print0 | xargs -0 grep -n pattern1 | grep pattern2
-summary: |-
-  Find inside files two different patterns in the same line and for matched files show number of matched lines

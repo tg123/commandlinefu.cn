@@ -1,7 +1,0 @@
-commandlinefu_id: 5364
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  [ -n "$SSH_CLIENT" ] && export DISPLAY=$(echo $SSH_CLIENT | awk '{ print $1 }'):0.0
-summary: |-
-  当SSH登录时，自动导入DISPLAY变量

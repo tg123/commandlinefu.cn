@@ -1,8 +1,0 @@
-commandlinefu_id: 13025
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *; do mplayer "$i" && rm -i "$i"; done
-summary: |-
-  Listen and sort your music, with prompt for deleting (minimal alternative version)

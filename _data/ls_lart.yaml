@@ -1,8 +1,0 @@
-commandlinefu_id: 8548
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -lart
-summary: |-
-  get newest file in current directory

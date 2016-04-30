@@ -1,8 +1,0 @@
-commandlinefu_id: 850
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /source/directory; tar cf - . | tar xf - -C /destination/directory
-summary: |-
-  Recursively move folders/files and preserve their permissions and ownership perfectly

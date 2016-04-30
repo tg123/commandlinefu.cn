@@ -1,7 +1,0 @@
-commandlinefu_id: 1926
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sort -u filename > newfilename
-summary: |-
-  读取文件并排序，删除重复的条目，把新的内容输出到新文件里。

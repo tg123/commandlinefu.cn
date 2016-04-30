@@ -1,8 +1,0 @@
-commandlinefu_id: 8920
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls *.zip|awk '{$a="zip -fo "$1" FILENAME"; system($a);}'
-summary: |-
-  Updates file in all the zips

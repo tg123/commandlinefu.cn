@@ -1,8 +1,0 @@
-commandlinefu_id: 13766
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync --recursive --info=progress2 <src> <dst>
-summary: |-
-  rsync progress indicator which updates in-place

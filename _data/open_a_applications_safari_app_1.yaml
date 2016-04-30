@@ -1,7 +1,0 @@
-commandlinefu_id: 10803
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  open -a /Applications/Safari.app $1
-summary: |-
-  通过OS X命令行打开一个OS X的应用

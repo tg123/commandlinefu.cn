@@ -1,7 +1,0 @@
-commandlinefu_id: 3918
-translator:
-  weibo: tgic
-command: |-
-  gcc -dM -E - <<<''
-summary: |-
-  显示所有GCC 的宏

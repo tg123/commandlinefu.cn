@@ -1,8 +1,0 @@
-commandlinefu_id: 11243
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -c23-37 /var/log/squid3/access.log | cut -d' ' -f1 | sort | uniq
-summary: |-
-  Lists all clients of a Squid proxy

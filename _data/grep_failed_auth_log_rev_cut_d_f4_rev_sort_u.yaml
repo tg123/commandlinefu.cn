@@ -1,8 +1,0 @@
-commandlinefu_id: 13632
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep Failed auth.log | rev | cut -d\  -f4 | rev | sort -u
-summary: |-
-  Grep auth log and print ip of attackers

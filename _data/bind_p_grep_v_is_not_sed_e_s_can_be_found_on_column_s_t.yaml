@@ -1,8 +1,0 @@
-commandlinefu_id: 13015
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bind -P | grep -v "is not" | sed -e 's/can be found on/:/' | column -s: -t
-summary: |-
-  List all bash shortcuts

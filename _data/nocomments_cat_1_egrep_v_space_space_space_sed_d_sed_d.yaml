@@ -1,7 +1,0 @@
-commandlinefu_id: 9635
-translator:
-  weibo: particle128
-command: |-
-  nocomments () { cat $1 | egrep -v '^[[:space:]]*#|^[[:space:]]*$|^[[:space:]]*;' | sed '/<!--.*-->/d' | sed '/<!--/,/-->/d'; }
-summary: |-
-  去掉注释

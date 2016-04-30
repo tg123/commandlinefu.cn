@@ -1,7 +1,0 @@
-commandlinefu_id: 8257
-translator:
-  weibo: tgic
-command: |-
-  find . -type l | xargs file  | grep broken
-summary: |-
-  查找实效的符号链接

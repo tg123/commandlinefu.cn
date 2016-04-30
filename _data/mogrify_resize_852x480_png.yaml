@@ -1,7 +1,0 @@
-commandlinefu_id: 13020
-translator:
-  weibo: tgic
-command: |-
-  mogrify -resize 852x480 *.png
-summary: |-
-  批量修改大小

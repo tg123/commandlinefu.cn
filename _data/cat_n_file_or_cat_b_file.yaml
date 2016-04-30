@@ -1,8 +1,0 @@
-commandlinefu_id: 3604
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  cat -n file  or cat -b file
-summary: |-
-  显示文件文件时候带上行号

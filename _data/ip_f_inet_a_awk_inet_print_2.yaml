@@ -1,8 +1,0 @@
-commandlinefu_id: 11006
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ip -f inet a | awk '/inet / { print $2 }'
-summary: |-
-  Get the IP address

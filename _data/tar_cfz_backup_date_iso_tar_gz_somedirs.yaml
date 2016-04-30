@@ -1,7 +1,0 @@
-commandlinefu_id: 7072
-translator:
-  weibo: codepiano
-command: |-
-  tar cfz backup-$(date --iso).tar.gz somedirs
-summary: |-
-  创建一个文件名中有当前日期的tar.gz包

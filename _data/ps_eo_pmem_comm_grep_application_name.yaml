@@ -1,8 +1,0 @@
-commandlinefu_id: 13199
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -eo pmem,comm | grep application-name
-summary: |-
-  Show concurrent memory usage for individual instances of an application

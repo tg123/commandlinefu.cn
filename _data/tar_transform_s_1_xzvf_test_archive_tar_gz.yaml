@@ -1,8 +1,0 @@
-commandlinefu_id: 7192
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar --transform 's#.*/\([^/]*\)$#\1#' -xzvf test-archive.tar.gz
-summary: |-
-  strip non-constant number of directories from tar archive while decompressing

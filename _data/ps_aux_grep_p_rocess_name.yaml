@@ -1,8 +1,0 @@
-commandlinefu_id: 2997
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep [p]rocess-name
-summary: |-
-  Find the process you are looking for minus the grepped one

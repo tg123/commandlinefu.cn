@@ -1,8 +1,0 @@
-commandlinefu_id: 6016
-translator:
-  weibo: ''
-hide: true
-command: |-
-  __disown(){ local cmd=$1 ; shift ; $cmd "$@" &> /dev/null &disown }; for i in gvim ; do alias $i="__disown $i"; done
-summary: |-
-  Define dettaching commands in bashrc

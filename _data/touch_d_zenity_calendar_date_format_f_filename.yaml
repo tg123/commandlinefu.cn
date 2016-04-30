@@ -1,7 +1,0 @@
-commandlinefu_id: 9717
-translator:
-  weibo: tgic
-command: |-
-  touch -d $(zenity --calendar --date-format=%F) filename
-summary: |-
-  交互的改变文件的时间戳

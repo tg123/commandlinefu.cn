@@ -1,8 +1,0 @@
-commandlinefu_id: 6623
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo Good $(i=`date +%H` ; if [ $i -lt 12 ] ; then echo morning ; else if [ $i -lt 15 ] ; then echo afternoon ; else echo evening ; fi ; fi)
-summary: |-
-  Greets the user appropriately

@@ -1,7 +1,0 @@
-commandlinefu_id: 9441
-translator:
-  weibo: tgic
-command: |-
-  sed -e '/\\$/{:0;N;s/\\\n//;t0}'
-summary: |-
-  合并行

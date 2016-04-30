@@ -1,8 +1,0 @@
-commandlinefu_id: 4067
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  psu(){ command ps -Hcl -F S f -u ${1:-$USER}; }
-summary: |-
-  None

@@ -1,7 +1,0 @@
-commandlinefu_id: 12256
-translator:
-  weibo: tgic
-command: |-
-  grep -E "(.*)(ERROR)(.*)(FAULT)(.*)" log.txt
-summary: |-
-  同时grep两个词

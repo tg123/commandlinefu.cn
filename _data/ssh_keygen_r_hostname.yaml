@@ -1,7 +1,0 @@
-commandlinefu_id: 7778
-translator:
-  weibo: tgic
-command: |-
-  ssh-keygen -R hostname
-summary: |-
-  从 known_hosts 清除域名

@@ -1,7 +1,0 @@
-commandlinefu_id: 3072
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  wget -q -O- PAGE_URL | grep -o 'WORD_OR_STRING' | wc -w
-summary: |-
-  计算给定网页下某个字符串出现的次数

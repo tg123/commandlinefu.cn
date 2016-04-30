@@ -1,8 +1,0 @@
-commandlinefu_id: 8668
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat > file.txt << EOF
-summary: |-
-  First file editor for newbies

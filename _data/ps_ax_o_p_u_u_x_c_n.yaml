@@ -1,8 +1,0 @@
-commandlinefu_id: 2653
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps ax -o "%p %U %u %x %c %n"
-summary: |-
-  Format ps command output

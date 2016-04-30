@@ -1,8 +1,0 @@
-commandlinefu_id: 11955
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec echo echo rm {} '|' batch ';'|bash
-summary: |-
-  Delete all files in folder without affecting load

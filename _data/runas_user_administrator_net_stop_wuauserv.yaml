@@ -1,8 +1,0 @@
-commandlinefu_id: 2525
-translator:
-  weibo: ''
-hide: true
-command: |-
-  runas /user:administrator net stop wuauserv
-summary: |-
-  stop windows update

@@ -1,7 +1,0 @@
-commandlinefu_id: 13316
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  grep -Rl "pattern" files_or_dir
-summary: |-
-  在多文件间查找字符串

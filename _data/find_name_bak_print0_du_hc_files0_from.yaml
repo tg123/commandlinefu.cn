@@ -1,8 +1,0 @@
-commandlinefu_id: 12644
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -name *.bak -print0 | du -hc --files0-from=-
-summary: |-
-  Show sizes and calculate sum of all files found by find

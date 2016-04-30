@@ -1,8 +1,0 @@
-commandlinefu_id: 6714
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rd(){ while read a ;do printf "$a\n";sleep ${1-1};done ;} # usage: rd < file ; or ... | rd
-summary: |-
-  scroll file one line at a time (w/only UNIX base utilities)

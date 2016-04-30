@@ -1,8 +1,0 @@
-commandlinefu_id: 13728
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finger $(whoami) | perl -ne '/Name: ([a-zA-Z0-9 ]{1,})/ && print "$1\n"'
-summary: |-
-  Get user's full name in Mac OS X

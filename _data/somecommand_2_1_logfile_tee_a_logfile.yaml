@@ -1,8 +1,0 @@
-commandlinefu_id: 1352
-translator:
-  weibo: ''
-hide: true
-command: |-
-  somecommand 2>&1 >> logfile | tee -a logfile
-summary: |-
-  Append stdout and stderr to a file, and print stderr to the screen [bash]

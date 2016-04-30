@@ -1,7 +1,0 @@
-commandlinefu_id: 3708
-translator:
-  weibo: tgic
-command: |-
-  awk '{print(substr($0,1,5))}' file
-summary: |-
-  把文件分成5个字母一行

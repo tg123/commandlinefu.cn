@@ -1,8 +1,0 @@
-commandlinefu_id: 7912
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (echo foobar; echo farboo) | perl -E 'say[sort<>=~/./g]~~[sort<>=~/./g]?"anagram":"not anagram"'
-summary: |-
-  Are the two lines anagrams?

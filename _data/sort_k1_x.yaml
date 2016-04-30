@@ -1,8 +1,0 @@
-commandlinefu_id: 2427
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sort -k1.x
-summary: |-
-  以每行的第X个字母排序

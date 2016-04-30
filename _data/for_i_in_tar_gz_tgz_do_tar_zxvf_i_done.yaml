@@ -1,8 +1,0 @@
-commandlinefu_id: 920
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.tar.gz *.tgz; do tar -zxvf $i; done
-summary: |-
-  Uncompress a directory full of tarred files (*.gz)

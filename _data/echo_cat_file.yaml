@@ -1,7 +1,0 @@
-commandlinefu_id: 9941
-translator:
-  weibo: codepiano
-command: |-
-  echo $(cat file)
-summary: |-
-  把文件内容显示在一行中

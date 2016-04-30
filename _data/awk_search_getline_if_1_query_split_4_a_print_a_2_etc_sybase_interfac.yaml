@@ -1,8 +1,0 @@
-commandlinefu_id: 7339
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '/^'$SEARCH'[ ]*$/{getline;if ($1 ~ /query/) {split($4,a,".");print a[2]}}' /etc/sybase/interfaces
-summary: |-
-  Prints the second part of the hostname of a given database in /etc/sybase/interfaces

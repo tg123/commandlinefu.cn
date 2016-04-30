@@ -1,8 +1,0 @@
-commandlinefu_id: 10878
-translator:
-  weibo: ''
-hide: true
-command: |-
-  up() { [ $(( $1 + 0 )) -gt 0 ] && cd $(eval "printf '../'%.0s {1..$1}"); }
-summary: |-
-  Quickly CD Out Of Directories

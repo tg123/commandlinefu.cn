@@ -1,7 +1,0 @@
-commandlinefu_id: 6125
-translator:
-  weibo: tgic
-command: |-
-  perltidy foo.pl
-summary: |-
-  格式化 perl

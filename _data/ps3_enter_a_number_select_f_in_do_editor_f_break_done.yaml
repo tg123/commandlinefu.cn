@@ -1,8 +1,0 @@
-commandlinefu_id: 3429
-translator:
-  weibo: ''
-hide: true
-command: |-
-  PS3="Enter a number: "; select f in *;do $EDITOR $f; break; done
-summary: |-
-  Select and Edit a File in the Current Directory

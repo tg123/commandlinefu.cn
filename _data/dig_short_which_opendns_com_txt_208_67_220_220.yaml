@@ -1,8 +1,0 @@
-commandlinefu_id: 13142
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig +short which.opendns.com txt @208.67.220.220
-summary: |-
-  Check if your ISP is intercepting DNS queries

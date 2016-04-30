@@ -1,8 +1,0 @@
-commandlinefu_id: 845
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f /path/to/timestamped/files/file-*(om[1])
-summary: |-
-  Always tail/edit/grep the latest file in a directory of timestamped files

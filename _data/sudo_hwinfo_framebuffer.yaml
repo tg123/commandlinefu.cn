@@ -1,8 +1,0 @@
-commandlinefu_id: 6715
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo hwinfo --framebuffer
-summary: |-
-  show framebuffer console modes to use in grub vga option

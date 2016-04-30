@@ -1,8 +1,0 @@
-commandlinefu_id: 2515
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '/regex/{print x};{x=$0}'
-summary: |-
-  Print line immediately before a matching regex.

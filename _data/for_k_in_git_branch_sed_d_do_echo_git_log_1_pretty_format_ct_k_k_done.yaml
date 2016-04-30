@@ -1,8 +1,0 @@
-commandlinefu_id: 10554
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for k in $(git branch | sed /\*/d); do echo "$(git log -1 --pretty=format:"%ct" $k) $k"; done | sort -r | awk '{print $2}'
-summary: |-
-  Show git branches by date - useful for showing active branches

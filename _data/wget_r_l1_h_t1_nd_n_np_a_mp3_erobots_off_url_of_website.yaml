@@ -1,7 +1,0 @@
-commandlinefu_id: 12986
-translator:
-  weibo: particle128
-command: |-
-  wget -r -l1 -H -t1 -nd -N -np -A.mp3 -erobots=off [url of website]
-summary: |-
-  下载某个网址下的所有map3

@@ -1,8 +1,0 @@
-commandlinefu_id: 9451
-translator:
-  weibo: ''
-hide: true
-command: |-
-  multitail -l 'ssh machine1 "tail -f /var/log/apache2/error.log"' -l 'ssh machine2 "tail -f /var/log/apache2/error.log"'
-summary: |-
-  Watch several log files of different machines in a single multitail window on your own machine

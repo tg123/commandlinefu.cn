@@ -1,8 +1,0 @@
-commandlinefu_id: 9996
-translator:
-  weibo: ''
-hide: true
-command: |-
-  \ls
-summary: |-
-  temporarily override alias of any command

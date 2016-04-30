@@ -1,8 +1,0 @@
-commandlinefu_id: 1564
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xvkbd -xsendevent -text "Hello world"
-summary: |-
-  Send keypresses to an X application

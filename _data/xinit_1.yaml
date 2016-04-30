@@ -1,7 +1,0 @@
-commandlinefu_id: 2836
-translator:
-  weibo: titikaka723 
-command: |-
-  xinit -- :1
-summary: |-
-   在控制台开启另一个X server

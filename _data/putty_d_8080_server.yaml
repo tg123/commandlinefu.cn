@@ -1,7 +1,0 @@
-commandlinefu_id: 3799
-translator:
-  weibo: tgic
-command: |-
-  Putty -d 8080 [server]
-summary: |-
-  使用putty做ssh 代理

@@ -1,8 +1,0 @@
-commandlinefu_id: 8379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls *.jpg | awk -F'.' '{ printf "%s %04d.%s\n", $0, $1, $2; }' | xargs -n2 mv
-summary: |-
-  Numeric zero padding file rename

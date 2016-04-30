@@ -1,8 +1,0 @@
-commandlinefu_id: 4407
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <command> | perl -pe '/<regex/ && exit;'
-summary: |-
-  Display the output of a command from the first line until the first instance of a regular expression.

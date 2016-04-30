@@ -1,7 +1,0 @@
-commandlinefu_id: 8792
-translator:
-  weibo: tgic
-command: |-
-  openssl rand -base64 12
-summary: |-
-  随机密码

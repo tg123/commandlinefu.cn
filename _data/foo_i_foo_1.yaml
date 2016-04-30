@@ -1,7 +1,0 @@
-commandlinefu_id: 3689
-translator:
-  weibo: tgic
-command: |-
-  $foo[(I)$foo[-1]]
-summary: |-
-  数组大小(zsh)

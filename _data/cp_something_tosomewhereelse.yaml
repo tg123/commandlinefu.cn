@@ -1,7 +1,0 @@
-commandlinefu_id: 6647
-translator:
-  weibo: '猪了个去'
-command: |-
-  \cp something toSomeWhereElse
-summary: |-
-  如果cp -i提示选项打开,在覆盖提醒时说不

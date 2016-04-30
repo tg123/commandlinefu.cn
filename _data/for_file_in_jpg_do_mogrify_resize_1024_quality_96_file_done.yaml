@@ -1,7 +1,0 @@
-commandlinefu_id: 339
-translator:
-  weibo: tgic
-command: |-
-  for File in *.jpg; do mogrify -resize 1024 -quality 96 $File; done
-summary: |-
-  改变一批图片的尺寸

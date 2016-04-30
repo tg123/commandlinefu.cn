@@ -1,7 +1,0 @@
-commandlinefu_id: 6562
-translator:
-  weibo: tgic
-command: |-
-  find . -iname \*.[ch] -exec indent "{}" \;
-summary: |-
-  统一工程中文件的缩进

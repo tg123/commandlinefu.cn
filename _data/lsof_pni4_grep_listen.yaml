@@ -1,7 +1,0 @@
-commandlinefu_id: 3136
-translator:
-  weibo: tgic
-command: |-
-  lsof -Pni4 | grep LISTEN
-summary: |-
-  检查开放的端口

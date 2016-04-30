@@ -1,8 +1,0 @@
-commandlinefu_id: 13518
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/echo -e '\002Hello,  Folks\t!\r' | perl -pwle 'use v5.14; s/([\N{U+0000}-\N{U+0020}])/chr(9216+ord($1))/ge;'
-summary: |-
-  Convert control codes to visible Unicode Control Pictures

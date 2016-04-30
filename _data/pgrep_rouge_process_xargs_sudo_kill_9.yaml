@@ -1,7 +1,0 @@
-commandlinefu_id: 5591
-translator:
-  weibo: codepiano
-command: |-
-  pgrep rouge-process | xargs sudo kill -9
-summary: |-
-  杀死一个运行状态的进程的多个实例

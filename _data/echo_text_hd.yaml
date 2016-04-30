@@ -1,7 +1,0 @@
-commandlinefu_id: 6132
-translator:
-  weibo: tgic
-command: |-
-  echo "text" | hd
-summary: |-
-  转换成hex格式

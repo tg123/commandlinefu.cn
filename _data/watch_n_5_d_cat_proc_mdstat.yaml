@@ -1,8 +1,0 @@
-commandlinefu_id: 1335
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 5 -d cat /proc/mdstat
-summary: |-
-  Monitor Linux/MD RAID Rebuild

@@ -1,8 +1,0 @@
-commandlinefu_id: 7817
-translator:
-  weibo: ''
-hide: true
-command: |-
-  digest -a -v md5 <file-name>
-summary: |-
-  md5 checksum check

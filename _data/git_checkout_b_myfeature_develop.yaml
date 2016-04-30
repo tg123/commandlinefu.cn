@@ -1,7 +1,0 @@
-commandlinefu_id: 10824
-translator:
-  weibo: tgic
-command: |-
-  git checkout -b myfeature develop
-summary: |-
-  开启一个新分支

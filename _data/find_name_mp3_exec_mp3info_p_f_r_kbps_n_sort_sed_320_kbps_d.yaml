@@ -1,7 +1,0 @@
-commandlinefu_id: 12354
-translator:
-  weibo: tgic
-command: |-
-  find -name '*.mp3' -exec mp3info {} -p "%F: %r kbps\n" \;  | sort | sed '/320 kbps/d'
-summary: |-
-  找出320kbps以下质量的mp3

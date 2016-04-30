@@ -1,8 +1,0 @@
-commandlinefu_id: 4348
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -d 'sudo smartctl -a /dev/sda | grep Load_Cycle_Count ; sudo smartctl -a /dev/sda | grep Temp'
-summary: |-
-  Expedient hard disk temprature and load cycle stats

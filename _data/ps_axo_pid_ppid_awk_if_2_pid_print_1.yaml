@@ -1,8 +1,0 @@
-commandlinefu_id: 7016
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps axo pid,ppid | awk "{ if ( \$2 == $PID ) { print \$1 }}")
-summary: |-
-  Given $PID, print all child processes on stdout

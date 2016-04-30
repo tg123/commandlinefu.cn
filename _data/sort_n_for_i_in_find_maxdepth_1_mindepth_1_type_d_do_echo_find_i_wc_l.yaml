@@ -1,8 +1,0 @@
-commandlinefu_id: 2309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort -n <( for i in $(find . -maxdepth 1 -mindepth 1 -type d); do echo $(find $i | wc -l) ": $i"; done;)
-summary: |-
-  List of directories sorted by number of files they contain.

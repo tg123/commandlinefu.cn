@@ -1,7 +1,0 @@
-commandlinefu_id: 4366
-translator:
-  weibo: '猪了个去'
-command: |-
-  p(){ printf "\033[%d;%dH\033[4%dm \033[m" $((RANDOM%LINES+1)) $((RANDOM%COLUMNS+1)) $((RANDOM%8)); }; clear;while :;do p; sleep .001;done
-summary: |-
-  随机在shell屏幕中随机改变颜色

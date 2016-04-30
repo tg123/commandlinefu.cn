@@ -1,7 +1,0 @@
-commandlinefu_id: 8782
-translator:
-  weibo: tgic
-command: |-
-  dirname `pwd`
-summary: |-
-  获取当目录的父目录

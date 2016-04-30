@@ -1,7 +1,0 @@
-commandlinefu_id: 12016
-translator:
-  weibo: josephok
-command: |-
-  ${0##-}
-summary: |-
-  不使用任何字母启动bash

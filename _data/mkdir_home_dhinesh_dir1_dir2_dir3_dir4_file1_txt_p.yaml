@@ -1,7 +1,0 @@
-commandlinefu_id: 8473
-translator:
-  weibo: tgic
-command: |-
-  mkdir  /home/commandlinefu/dir1/{dir2,dir3,dir4}/file1.txt -p
-summary: |-
-  递归创建目录

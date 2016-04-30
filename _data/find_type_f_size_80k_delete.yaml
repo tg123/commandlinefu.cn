@@ -1,7 +1,0 @@
-commandlinefu_id: 11173
-translator:
-  weibo: codepiano
-command: |-
-  find . -type f -size -80k -delete
-summary: |-
-  查找并删除小于指定大小的文件

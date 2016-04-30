@@ -1,8 +1,0 @@
-commandlinefu_id: 10593
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f \! -name "*.md5" -exec sh -c 'md5sum "$1" > $1.md5' -- {} \;
-summary: |-
-  Recreate md5 checksum files for files in folder and subfolders

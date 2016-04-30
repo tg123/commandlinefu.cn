@@ -1,7 +1,0 @@
-commandlinefu_id: 10883
-translator:
-  weibo: particle128
-command: |-
-  gcc -E code.c | sed '/^\#/d' | indent -st -i2 > code-x.c
-summary: |-
-  对.c文件只进行预处理，并美化输出到文件

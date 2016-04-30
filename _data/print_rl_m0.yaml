@@ -1,8 +1,0 @@
-commandlinefu_id: 12076
-translator:
-  weibo: ''
-hide: true
-command: |-
-  print -rl **/*(.m0)
-summary: |-
-  Find today created files

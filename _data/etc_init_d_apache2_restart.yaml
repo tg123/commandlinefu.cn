@@ -1,8 +1,0 @@
-commandlinefu_id: 10092
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /etc/init.d/apache2 restart
-summary: |-
-  Red?marrage apache dans ubuntu

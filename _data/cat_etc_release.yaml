@@ -1,7 +1,0 @@
-commandlinefu_id: 8688
-translator:
-  weibo: tgic
-command: |-
-  cat /etc/*-release
-summary: |-
-  显示发行版

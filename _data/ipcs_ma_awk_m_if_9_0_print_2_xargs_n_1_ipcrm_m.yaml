@@ -1,7 +1,0 @@
-commandlinefu_id: 8916
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ipcs -ma | awk '/^m / { if ($9 == 0) { print $2 }}' | xargs -n 1 ipcrm -m
-summary: |-
-  清除当前用户所有未使用的共享内存段

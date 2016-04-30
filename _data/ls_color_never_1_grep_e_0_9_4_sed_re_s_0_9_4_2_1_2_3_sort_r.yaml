@@ -1,7 +1,0 @@
-commandlinefu_id: 13041
-translator:
-  weibo: 'codepiano'
-command: |-
-  ls --color=never -1| grep -E "[0-9]{4}"|sed -re "s/^(.*)([0-9]{4})(.*)$/\2 \1\2\3/" | sort -r
-summary: |-
-  按照文件名中的年份对当前目录下的文件进行排序

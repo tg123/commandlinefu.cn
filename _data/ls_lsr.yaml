@@ -1,7 +1,0 @@
-commandlinefu_id: 11658
-translator:
-  weibo: tgic
-command: |-
-  ls -lSr
-summary: |-
-  按大小排序的ll

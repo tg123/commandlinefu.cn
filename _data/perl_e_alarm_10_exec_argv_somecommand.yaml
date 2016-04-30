@@ -1,8 +1,0 @@
-commandlinefu_id: 3583
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e "alarm 10; exec @ARGV" "somecommand"
-summary: |-
-  Execute a command with a timeout

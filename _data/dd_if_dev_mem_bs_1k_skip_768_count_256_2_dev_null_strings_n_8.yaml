@@ -1,7 +1,0 @@
-commandlinefu_id: 5979
-translator:
-  weibo: tgic
-command: |-
-  # dd if=/dev/mem bs=1k skip=768 count=256 2>/dev/null | strings -n 8
-summary: |-
-  现实BIOS信息

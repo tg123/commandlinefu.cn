@@ -1,7 +1,0 @@
-commandlinefu_id: 8106
-translator:
-  weibo: '猪了个去'
-command: |-
-  rpm -qa kernel
-summary: |-
-  列出已安装的kernel包

@@ -1,7 +1,0 @@
-commandlinefu_id: 2022
-translator:
-  weibo: tgic
-command: |-
-  lshw -C display
-summary: |-
-  获取图形芯片信息

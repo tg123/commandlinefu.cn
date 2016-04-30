@@ -1,7 +1,0 @@
-commandlinefu_id: 13173
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  $ screen -S test -d -m -- sh -c 'date; exec $SHELL'
-summary: |-
-  新建一个分离的screen会话来在后台运行命令

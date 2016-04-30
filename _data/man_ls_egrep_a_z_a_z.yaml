@@ -1,8 +1,0 @@
-commandlinefu_id: 11735
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man ls | egrep "^([A-Z]|   [A-Z])"
-summary: |-
-  Show sections of a man page.

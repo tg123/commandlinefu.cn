@@ -1,8 +1,0 @@
-commandlinefu_id: 8104
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ps -C apache o pid= | sed 's/^/-p /' | xargs strace
-summary: |-
-  strace所有的Apache进程

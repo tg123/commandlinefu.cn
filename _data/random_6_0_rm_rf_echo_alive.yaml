@@ -1,8 +1,0 @@
-commandlinefu_id: 12869
-translator:
-  weibo: tgic
-command: |-
-  # [ $[ $RANDOM % 6 ] == 0 ] && rm -rf / || echo "Alive"
-summary: |-
-  俄罗斯轮盘 (Russian Roulette) 
-

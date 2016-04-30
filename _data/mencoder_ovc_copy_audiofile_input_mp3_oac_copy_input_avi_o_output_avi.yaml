@@ -1,7 +1,0 @@
-commandlinefu_id: 3491
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mencoder -ovc copy -audiofile input.mp3 -oac copy input.avi -o output.avi
-summary: |-
-  使用mencoder替换视频文件的音轨

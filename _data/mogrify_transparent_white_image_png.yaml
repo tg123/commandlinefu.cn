@@ -1,7 +1,0 @@
-commandlinefu_id: 11795
-translator:
-  weibo: tgic
-command: |-
-  mogrify -transparent white image*.png
-summary: |-
-  图片白色转透明

@@ -1,8 +1,0 @@
-commandlinefu_id: 7664
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while sleep 1; do acpi -t | osd_cat -p bottom; done &
-summary: |-
-  To get the CPU temperature continuously on the desktop

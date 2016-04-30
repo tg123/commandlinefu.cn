@@ -1,7 +1,0 @@
-commandlinefu_id: 6238
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find /DirectoryWhereMyMp3sAre/ -name *.mp3 | grep "andy" > ~/mylist
-summary: |-
-  给mpg321或其他命令行播放器创建一个播放列表

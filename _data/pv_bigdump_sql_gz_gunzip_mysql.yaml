@@ -1,8 +1,0 @@
-commandlinefu_id: 5823
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pv bigdump.sql.gz | gunzip | mysql
-summary: |-
-  MySQL dump restore with progress bar and ETA

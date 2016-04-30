@@ -1,8 +1,0 @@
-commandlinefu_id: 1439
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(ls *.od{tp}); do unoconv -f pdf $i; done
-summary: |-
-  Converts to PDF all the OpenOffice.org files in the directory

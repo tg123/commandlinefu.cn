@@ -1,7 +1,0 @@
-commandlinefu_id: 137
-translator:
-  weibo: tgic
-command: |-
-  tac file.txt
-summary: |-
-  倒过来显示文件 (cat 倒过来)

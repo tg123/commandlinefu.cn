@@ -1,7 +1,0 @@
-commandlinefu_id: 9558
-translator:
-  weibo: tgic
-command: |-
-  diff -ru originDir updateDir > result.patch
-summary: |-
-  创建目录的diff

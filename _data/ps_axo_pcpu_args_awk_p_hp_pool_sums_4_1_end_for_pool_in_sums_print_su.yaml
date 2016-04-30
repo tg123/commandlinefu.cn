@@ -1,8 +1,0 @@
-commandlinefu_id: 13901
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps axo pcpu,args | awk '/[p]hp.*pool/ { sums[$4] += $1 } END { for (pool in sums) { print sums[pool], pool } }' | sort -rn | column -t
-summary: |-
-  List PHP-FPM pools by total CPU usage

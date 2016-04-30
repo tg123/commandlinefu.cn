@@ -1,7 +1,0 @@
-commandlinefu_id: 5084
-translator:
-  weibo: tgic
-command: |-
-  git log --graph --pretty=oneline --decorate
-summary: |-
-  创建一个树结构的git log

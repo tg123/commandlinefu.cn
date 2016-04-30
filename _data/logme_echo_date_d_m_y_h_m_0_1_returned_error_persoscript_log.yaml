@@ -1,8 +1,0 @@
-commandlinefu_id: 12848
-translator:
-  weibo: ''
-hide: true
-command: |-
-  logme(){         echo "$(date +%d-%m-%Y-%H:%M) => $0 @ $1 returned error" >> persoscript.log }
-summary: |-
-  creating you're logging function for your script

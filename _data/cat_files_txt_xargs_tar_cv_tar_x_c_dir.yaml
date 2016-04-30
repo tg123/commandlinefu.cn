@@ -1,7 +1,0 @@
-commandlinefu_id: 2912
-translator:
-  weibo: codepiano
-command: |-
-  cat files.txt | xargs tar -cv | tar -x -c $DIR/
-summary: |-
-  从列表中复制文件并保留目录结构

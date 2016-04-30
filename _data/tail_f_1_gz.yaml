@@ -1,8 +1,0 @@
-commandlinefu_id: 1372
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f *[!.1][!.gz]
-summary: |-
-  useful tail on /var/log to avoid old logs or/and gzipped files

@@ -1,8 +1,0 @@
-commandlinefu_id: 10028
-translator:
-  weibo: ''
-hide: true
-command: |-
-  type -t $1
-summary: |-
-  Determine command type (alias, keyword, function, builtin, or file)

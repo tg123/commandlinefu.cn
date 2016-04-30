@@ -1,7 +1,0 @@
-commandlinefu_id: 12232
-translator:
-  weibo: '猪了个去'
-command: |-
-  xset dpms force off
-summary: |-
-  用命令关闭你的笔记本屏幕

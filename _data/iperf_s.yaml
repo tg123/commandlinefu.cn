@@ -1,8 +1,0 @@
-commandlinefu_id: 7713
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iperf -s
-summary: |-
-  network throughput test

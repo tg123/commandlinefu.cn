@@ -1,8 +1,0 @@
-commandlinefu_id: 9785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'set term dumb; unset border; unset xtics; unset ytics; p "< seq 10 | shuf" u 1:(rand(0)) w l notitle' | gnuplot
-summary: |-
-  generate random ascii shape(no x11 needed!)

@@ -1,8 +1,0 @@
-commandlinefu_id: 7662
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'printf qq{%d\n}, time/86400;'
-summary: |-
-  Perl one-liner to determine number of days since the Unix epoch

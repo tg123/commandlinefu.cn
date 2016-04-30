@@ -1,7 +1,0 @@
-commandlinefu_id: 5103
-translator:
-  weibo: tgic
-command: |-
-  watch -n1 'ifconfig eth0|grep bytes'
-summary: |-
-  查看网络流量

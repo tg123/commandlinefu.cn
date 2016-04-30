@@ -1,8 +1,0 @@
-commandlinefu_id: 8895
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aumix -v +5
-summary: |-
-  Ramp the system volume up 5%

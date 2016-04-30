@@ -1,8 +1,0 @@
-commandlinefu_id: 1973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  screen -ls | grep pts | gawk '{ split($1, x, "."); print x[1] }' | while read i; do gnome-terminal -e screen\ -dx\ $i; done
-summary: |-
-  connect to all screen instances running

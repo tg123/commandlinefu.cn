@@ -1,7 +1,0 @@
-commandlinefu_id: 10904
-translator:
-  weibo: codepiano
-command: |-
-  du -x / | sort -rn | less
-summary: |-
-  使用du和sort查找文件系统中最大的目录

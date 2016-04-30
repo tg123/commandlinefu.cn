@@ -1,8 +1,0 @@
-commandlinefu_id: 13005
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -xm --max-depth 2 /var/log | sort -rn | head
-summary: |-
-  Which files/dirs waste my disk space

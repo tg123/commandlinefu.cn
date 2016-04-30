@@ -1,8 +1,0 @@
-commandlinefu_id: 13565
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.DS_Store" -type f -delete
-summary: |-
-  Remove all .DS_Store files from the current directory (recursive)

@@ -1,7 +1,0 @@
-commandlinefu_id: 9830
-translator:
-  weibo: codepiano
-command: |-
-  svn info -R --xml file:///path/to/rep | grep kind=\"file\"|wc -l
-summary: |-
-  svn仓库中的文件个数

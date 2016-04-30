@@ -1,8 +1,0 @@
-commandlinefu_id: 12921
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `ls -r *.png`; do mv $i `printf "%03d.png" $(( 10#${i%.png}+1 ))`; done
-summary: |-
-  Increment the filename of png in a given directory by one

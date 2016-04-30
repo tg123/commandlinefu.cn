@@ -1,7 +1,0 @@
-commandlinefu_id: 2269
-translator:
-  weibo: tgic
-command: |-
-  rm -rf `find -maxdepth 1 -mindepth 1 -mtime +7`
-summary: |-
-  删除7天前的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 1185
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name '*.txt' -exec sed -ir 's/this/that/g' {} \;
-summary: |-
-  find .txt files inside a directory and replace every occurrance of a word inside them via sed

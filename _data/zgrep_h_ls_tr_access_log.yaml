@@ -1,8 +1,0 @@
-commandlinefu_id: 5883
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zgrep -h "" `ls -tr access.log*`
-summary: |-
-  concatenate compressed and uncompressed logs

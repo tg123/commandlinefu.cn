@@ -1,8 +1,0 @@
-commandlinefu_id: 12134
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name *js -type f | xargs yardstick | sort -k6 -n
-summary: |-
-  Yardstick static analysis report sorted by which JavaScript files have the highest ratio of comments to code.

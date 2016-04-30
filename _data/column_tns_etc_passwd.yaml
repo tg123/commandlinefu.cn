@@ -1,7 +1,0 @@
-commandlinefu_id: 9159
-translator:
-  weibo: tgic
-command: |-
-  column -tns: /etc/passwd
-summary: |-
-  格式化成表格

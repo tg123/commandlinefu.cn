@@ -1,7 +1,0 @@
-commandlinefu_id: 7878
-translator:
-  weibo: tgic
-command: |-
-  find . -type f | awk -F'.' '{print $NF}' | sort| uniq -c | sort -g
-summary: |-
-  列出全部扩展名

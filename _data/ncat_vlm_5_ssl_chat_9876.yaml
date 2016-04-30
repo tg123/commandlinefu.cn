@@ -1,7 +1,0 @@
-commandlinefu_id: 13460
-translator:
-  weibo: tgic
-command: |-
-  ncat -vlm 5 --ssl --chat 9876
-summary: |-
-  多人聊天工具

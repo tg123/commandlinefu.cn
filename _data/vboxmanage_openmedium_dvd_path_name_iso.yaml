@@ -1,7 +1,0 @@
-commandlinefu_id: 5448
-translator:
-  weibo: tgic
-command: |-
-  VBoxManage openmedium dvd "/path/name.iso"
-summary: |-
-  创建虚拟磁盘(iso) VirtualBox

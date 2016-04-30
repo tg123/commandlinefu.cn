@@ -1,8 +1,0 @@
-commandlinefu_id: 12378
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /srcfolder;  tar -czf - . | pv -s `du -sb . | awk '{print $1}'` | ssh -c arcfour,blowfish-cbc -p 50005 root@destination.com "tar -xzvf - -C /dstfolder"
-summary: |-
-  SSH folder with progress bar and faster encryption with compression

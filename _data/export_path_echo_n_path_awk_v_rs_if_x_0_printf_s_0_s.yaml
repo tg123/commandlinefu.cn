@@ -1,7 +1,0 @@
-commandlinefu_id: 11988
-translator:
-  weibo: tgic
-command: |-
-  export PATH=`echo -n $PATH | awk -v RS=":" '{ if (!x[$0]++) {printf s $0; s=":"} }'`
-summary: |-
-  清理重复的PATH

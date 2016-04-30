@@ -1,8 +1,0 @@
-commandlinefu_id: 10157
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fdupes -R -1 path | while read -r line; do (echo $line | xargs -n 1 | (first="true"; firstfile=""; while read file; do if [ "$first" == "true" ]; then first="false"; firstfile=$file; else ln --force "$firstfile" "$file"; fi; done)); done
-summary: |-
-  Replace duplicate files by hardlinks

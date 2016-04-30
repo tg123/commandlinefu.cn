@@ -1,7 +1,0 @@
-commandlinefu_id: 3532
-translator:
-  weibo: '猪了个去'
-command: |-
-  printf "%02u " {3..20}; echo
-summary: |-
-  bash 3以上版本：以零补全的数字输出

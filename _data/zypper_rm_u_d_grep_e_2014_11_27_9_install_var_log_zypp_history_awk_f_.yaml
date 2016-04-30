@@ -1,8 +1,0 @@
-commandlinefu_id: 13881
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zypper rm -u -D `grep -E "^2014-11-27.{9}[|]install" /var/log/zypp/history|awk -F \| '{print $3" "}'`
-summary: |-
-  Zypper: Remove all packets installed on a certain date

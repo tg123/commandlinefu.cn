@@ -1,8 +1,0 @@
-commandlinefu_id: 2697
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gzip -dc /tmp/pavanlimo.gz | psql -U user db
-summary: |-
-  Run gunzipped sql file in PostGres, adding to the library since I couldnt find this command anywhere else on the web.

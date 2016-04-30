@@ -1,7 +1,0 @@
-commandlinefu_id: 8996
-translator:
-  weibo: tgic
-command: |-
-  wc -L
-summary: |-
-  输出最长行的长度

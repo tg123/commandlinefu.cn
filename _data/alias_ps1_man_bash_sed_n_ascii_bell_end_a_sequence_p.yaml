@@ -1,7 +1,0 @@
-commandlinefu_id: 4589
-translator:
-  weibo: tgic
-command: |-
-  alias PS1="man bash | sed -n '/ASCII bell/,/end a sequence/p'"
-summary: |-
-  显示特殊字符

@@ -1,8 +1,0 @@
-commandlinefu_id: 5715
-translator:
-  weibo: ''
-hide: true
-command: |-
-  declare -F | cut -d ' ' -f 3
-summary: |-
-  List bash functions defined in .bash_profile or .bashrc

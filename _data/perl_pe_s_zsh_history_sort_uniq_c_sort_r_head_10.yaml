@@ -1,8 +1,0 @@
-commandlinefu_id: 270
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -pe 's/.+;//' ~/.zsh_history | sort | uniq -c | sort -r|head -10
-summary: |-
-  The top ten commands you use

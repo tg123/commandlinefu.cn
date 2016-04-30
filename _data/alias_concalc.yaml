@@ -1,7 +1,0 @@
-commandlinefu_id: 13034
-translator:
-  weibo: tgic
-command: |-
-  alias ?=concalc
-summary: |-
-  命令行计算器

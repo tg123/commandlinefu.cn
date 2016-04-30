@@ -1,8 +1,0 @@
-commandlinefu_id: 11286
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lpstat -p | cut -d' ' -f2 | xargs -I{} lpadmin -x {}
-summary: |-
-  Removes all existing printers

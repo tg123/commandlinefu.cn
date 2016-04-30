@@ -1,7 +1,0 @@
-commandlinefu_id: 639
-translator:
-  weibo: codepiano
-command: |-
-  pwd
-summary: |-
-  显示当前的工作路径

@@ -1,8 +1,0 @@
-commandlinefu_id: 13334
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat dictionary.txt|while read a; do echo $a|cryptsetup luksOpen /dev/sda5 sda5 $a && echo KEY FOUND: $a; done
-summary: |-
-  Bruteforce dm-crypt using dictionary

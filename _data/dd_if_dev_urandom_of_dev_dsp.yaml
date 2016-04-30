@@ -1,8 +1,0 @@
-commandlinefu_id: 6907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/urandom of=/dev/dsp
-summary: |-
-  Random Beeps on Your Audio Card's Output

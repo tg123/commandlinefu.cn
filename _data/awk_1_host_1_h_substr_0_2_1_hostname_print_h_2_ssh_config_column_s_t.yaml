@@ -1,7 +1,0 @@
-commandlinefu_id: 13419
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  awk '$1=="Host"{$1="";H=substr($0,2)};$1=="HostName"{print H,"$",$2}' ~/.ssh/config | column -s '$' -t
-summary: |-
-  从.ssh/config中提取快捷方式和主机名

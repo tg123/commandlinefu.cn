@@ -1,7 +1,0 @@
-commandlinefu_id: 2553
-translator:
-  weibo: tgic
-command: |-
-  cat /var/log/auth.log | logtool -o HTML > auth.html
-summary: |-
-  输出日志到html格式

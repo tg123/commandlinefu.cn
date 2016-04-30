@@ -1,8 +1,0 @@
-commandlinefu_id: 13924
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch file1{1..34}
-summary: |-
-  create a number of files at once in one command

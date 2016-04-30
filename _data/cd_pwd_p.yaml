@@ -1,8 +1,0 @@
-commandlinefu_id: 885
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd `pwd -P`
-summary: |-
-  change directory to actual path instead of symlink path

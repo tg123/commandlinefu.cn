@@ -1,8 +1,0 @@
-commandlinefu_id: 4410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh HOST cat < LOCALFILE ">" REMOTEFILE
-summary: |-
-  Copy a file over SSH without SCP

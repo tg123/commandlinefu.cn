@@ -1,7 +1,0 @@
-commandlinefu_id: 6928
-translator:
-  weibo: tgic
-command: |-
-  du -b filename
-summary: |-
-  获取文件的大小

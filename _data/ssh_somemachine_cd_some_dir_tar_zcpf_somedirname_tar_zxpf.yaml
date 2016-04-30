@@ -1,8 +1,0 @@
-commandlinefu_id: 54
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh somemachine "cd some dir; tar zcpf - somedirname" |tar zxpf -
-summary: |-
-  get a directory from one machine to another using tar and ssh

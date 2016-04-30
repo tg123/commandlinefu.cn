@@ -1,8 +1,0 @@
-commandlinefu_id: 6542
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'print "\n"x100'
-summary: |-
-  Echo several blank lines

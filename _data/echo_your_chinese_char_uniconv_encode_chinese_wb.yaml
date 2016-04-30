@@ -1,7 +1,0 @@
-commandlinefu_id: 5277
-translator:
-  weibo: codepiano
-command: |-
-  echo Your_Chinese_Char | uniconv -encode Chinese-WB
-summary: |-
-  转换汉字为86五笔码

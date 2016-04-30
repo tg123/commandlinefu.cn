@@ -1,8 +1,0 @@
-commandlinefu_id: 3067
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ vim ... :help 42
-summary: |-
-  vim easter egg

@@ -1,8 +1,0 @@
-commandlinefu_id: 2993
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mate - `find * -type f -regex 'REGEX_A' | grep -v -E 'REGEX_B'`
-summary: |-
-  Open in TextMate Sidebar files (recursively) with names matching REGEX_A and not matching REGEX_B

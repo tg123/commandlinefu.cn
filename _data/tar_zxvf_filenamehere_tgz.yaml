@@ -1,7 +1,0 @@
-commandlinefu_id: 13097
-translator:
-  weibo: tgic
-command: |-
-  tar zxvf fileNameHere.tgz
-summary: |-
-  解压缩tgz

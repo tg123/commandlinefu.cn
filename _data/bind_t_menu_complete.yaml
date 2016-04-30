@@ -1,8 +1,0 @@
-commandlinefu_id: 7195
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bind '"\t":menu-complete'
-summary: |-
-  Direct auto-complete in bash

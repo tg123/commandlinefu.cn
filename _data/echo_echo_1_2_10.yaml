@@ -1,7 +1,0 @@
-commandlinefu_id: 7845
-translator:
-  weibo: tgic
-command: |-
-  echo $(( $(echo 1 "* "{2..10}) ))
-summary: |-
-  计算n!

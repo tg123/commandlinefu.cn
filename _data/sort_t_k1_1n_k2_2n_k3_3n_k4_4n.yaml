@@ -1,7 +1,0 @@
-commandlinefu_id: 2817
-translator:
-  weibo: tgic
-command: |-
-  sort -t. -k1,1n -k2,2n -k3,3n -k4,4n
-summary: |-
-  排序ipv4地址

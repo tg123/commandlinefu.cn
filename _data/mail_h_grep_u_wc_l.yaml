@@ -1,7 +1,0 @@
-commandlinefu_id: 8281
-translator:
-  weibo: tgic
-command: |-
-  mail -H | grep '^.U' | wc -l
-summary: |-
-  查看新邮件数量

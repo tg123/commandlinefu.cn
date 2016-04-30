@@ -1,7 +1,0 @@
-commandlinefu_id: 10465
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -name "*.*" -exec cat {} > totalLines 2> /dev/null \; && wc -l totalLines && rm totalLines
-summary: |-
-  获取目录和子目录的文件总行数

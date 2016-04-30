@@ -1,8 +1,0 @@
-commandlinefu_id: 320
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la | awk '$3 == "oracle" || $3 == "root" {print $9}'
-summary: |-
-  list files by testing the ownership

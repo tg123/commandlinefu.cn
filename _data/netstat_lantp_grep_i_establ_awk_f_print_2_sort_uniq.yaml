@@ -1,7 +1,0 @@
-commandlinefu_id: 3538
-translator:
-  weibo: tgic
-command: |-
-  netstat -lantp | grep -i establ | awk -F/ '{print $2}' | sort | uniq
-summary: |-
-  查看当前使用网络的程序

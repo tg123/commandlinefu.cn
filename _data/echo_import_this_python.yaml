@@ -1,7 +1,0 @@
-commandlinefu_id: 3031
-translator:
-  weibo: tgic
-command: |-
-  echo "import this" | python
-summary: |-
-  Python之禅

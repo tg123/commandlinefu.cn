@@ -1,8 +1,0 @@
-commandlinefu_id: 12841
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find *.less | xargs -I {} lessc {} {}.css && ls *.less.css | sed -e 'p;s/less.css/css/' | xargs -n2 mv
-summary: |-
-  Compile all .less files to .css

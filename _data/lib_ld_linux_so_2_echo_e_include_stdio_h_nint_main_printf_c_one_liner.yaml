@@ -1,8 +1,0 @@
-commandlinefu_id: 1078
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /lib/ld-linux.so.2 =(echo -e '#include <stdio.h>\nint main(){printf("c one liners\\n");}' | gcc -x c -o /dev/stdout -)
-summary: |-
-  C one-liners

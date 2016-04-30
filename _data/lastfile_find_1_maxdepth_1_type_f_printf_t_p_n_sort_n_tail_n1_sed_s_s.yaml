@@ -1,8 +1,0 @@
-commandlinefu_id: 9498
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  lastfile () { find ${1:-.} -maxdepth 1 -type f -printf "%T+ %p\n" | sort -n | tail -n1 | sed 's/[^[:space:]]\+ //'; }
-summary: |-
-  None

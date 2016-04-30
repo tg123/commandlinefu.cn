@@ -1,7 +1,0 @@
-commandlinefu_id: 4354
-translator:
-  weibo: '猪了个去'
-command: |-
-  tar -cvf /path/dir.tar /path/dir* --exclude "/path/dir/name" --exclude "/path/dir/opt"
-summary: |-
-  Tar 压缩,排除一些目录

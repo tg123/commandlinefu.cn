@@ -1,7 +1,0 @@
-commandlinefu_id: 8273
-translator:
-  weibo: tgic
-command: |-
-  find -iname '*.jpg' -print0 | xargs -0 feh -d
-summary: |-
-  查看所有图片

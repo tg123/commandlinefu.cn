@@ -1,7 +1,0 @@
-commandlinefu_id: 6165
-translator:
-  weibo: tgic
-command: |-
-  netstat -l -p --tcp | egrep -e 'www.*[0-9]{3,4}\/(apache2|httpd)' | awk '{print$7}'
-summary: |-
-  查看当前httpd进程数量

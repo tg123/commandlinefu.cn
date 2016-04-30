@@ -1,8 +1,0 @@
-commandlinefu_id: 2239
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hddtemp /dev/sda /dev/sdb /dev/hda /dev/hdb | gawk '{print $NF}' | perl -n -e '$_ =~ s/(\d+)/print "$1 "/eg }{ print "\n"'
-summary: |-
-  get the list of temps for your hard-drives

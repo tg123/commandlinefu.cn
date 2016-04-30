@@ -1,8 +1,0 @@
-commandlinefu_id: 6193
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -maxdepth 1 -mtime 0 -type f
-summary: |-
-  LIST FILENAMES OF FILES CREATED TODAY IN CURRENT DIRECTORY

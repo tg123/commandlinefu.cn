@@ -1,8 +1,0 @@
-commandlinefu_id: 10232
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tag() { local t="$HOME/tags/$1"; [ -d $t ] || mkdir -p $t; shift; local i; for i in $*; do ln -s $(readlink -f $i) $t;done}
-summary: |-
-  shell function which allows you to tag files by creating symbolic links directories in a 'tags' folder.

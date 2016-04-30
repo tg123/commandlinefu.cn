@@ -1,7 +1,0 @@
-commandlinefu_id: 11883
-translator:
-  weibo: tgic
-command: |-
-  diff -u <(grep -vE '^(#|$)' file1) <(grep -vE '^(#|$)' file2)
-summary: |-
-  在diff时候忽略注释

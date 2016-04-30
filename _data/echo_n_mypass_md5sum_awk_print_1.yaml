@@ -1,8 +1,0 @@
-commandlinefu_id: 1429
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -n $mypass | md5sum | awk {'print $1'}
-summary: |-
-  Create a random password encrypted with md5 with custom lenght

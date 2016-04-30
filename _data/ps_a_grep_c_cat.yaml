@@ -1,7 +1,0 @@
-commandlinefu_id: 6620
-translator:
-  weibo: tgic
-command: |-
-  ps -a | grep -c cat
-summary: |-
-  查看有多少个cat进程

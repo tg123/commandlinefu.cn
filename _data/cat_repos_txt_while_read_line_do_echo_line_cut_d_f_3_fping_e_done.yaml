@@ -1,8 +1,0 @@
-commandlinefu_id: 14057
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat repos.txt | while read line; do echo $line | cut -d"/" -f 3 | fping -e  ;done
-summary: |-
-  check repos list for fastest ping

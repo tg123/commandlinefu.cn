@@ -1,8 +1,0 @@
-commandlinefu_id: 8266
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find <folder> -type f -name '*.jpg' -exec bash -c 'ext="${0##*.}";path="$(dirname "$0")";name="$(basename "$0"|sed "s/.jpg//")";folder="$(dirname "$0"|tr / \\n |tail -1)";new="${path}/${name}_${folder}.${ext}"; mv "$0" "${new}"' {} \;
-summary: |-
-  find pictures and renames them appending the containing folder name

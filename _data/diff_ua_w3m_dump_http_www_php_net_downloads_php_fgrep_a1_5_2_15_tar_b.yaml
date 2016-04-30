@@ -1,8 +1,0 @@
-commandlinefu_id: 7266
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff -ua <(w3m -dump http://www.php.net/downloads.php|fgrep -A1 '5.2.15 (tar.bz2)'|awk '/md5:/{print $2}') <(md5sum php-5.2.15.tar.bz2|awk '{print $1}')
-summary: |-
-  Check the MD5

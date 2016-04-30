@@ -1,8 +1,0 @@
-commandlinefu_id: 10005
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 's/$/uniqueString/' file.old | sed 's/,/\n/g' | sed ':loop;/^\"[^\"]*$/N;s/\n/,/;/[^\"]$/t loop' | sed ':loop;N;s/\n/@/g;/uniqueString$/!b loop;s/uniqueString$//' > file.new
-summary: |-
-  Rebuild a Delimited File with a Unique Delimiter

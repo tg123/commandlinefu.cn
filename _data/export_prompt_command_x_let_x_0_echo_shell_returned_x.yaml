@@ -1,8 +1,0 @@
-commandlinefu_id: 3910
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PROMPT_COMMAND='( x=$? ; let x!=0 && echo shell returned $x )'
-summary: |-
-  Receiving alerts about commands who exit with failure

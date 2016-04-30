@@ -1,7 +1,0 @@
-commandlinefu_id: 2711
-translator:
-  weibo: tgic
-command: |-
-  /usr/sbin/apache2ctl -S
-summary: |-
-  查看有多少 virtualhost

@@ -1,7 +1,0 @@
-commandlinefu_id: 1995
-translator:
-  weibo: tgic
-command: |-
-  for i in /sys/class/net/*; do e=`basename $i`; echo "# $e"; sudo ethtool $e | grep -E "Link|Speed" ; done
-summary: |-
-  网络设备详情

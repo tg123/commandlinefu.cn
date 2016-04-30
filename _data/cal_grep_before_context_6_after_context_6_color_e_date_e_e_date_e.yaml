@@ -1,8 +1,0 @@
-commandlinefu_id: 1342
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  cal | grep --before-context 6 --after-context 6 --color -e " $(date +%e)" -e "^$(date +%e)"
-summary: |-
-  今天高亮的日历

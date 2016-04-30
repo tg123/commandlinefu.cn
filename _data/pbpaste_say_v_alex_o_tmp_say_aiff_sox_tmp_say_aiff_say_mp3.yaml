@@ -1,8 +1,0 @@
-commandlinefu_id: 13532
-translator:
-  weibo: dbalex
-command: |-
-  pbpaste | say -v Alex -o /tmp/say.aiff && sox /tmp/say.aiff say.mp3
-summary: |-
-  Create MP3 from text on clipboard (OS X)
-  用OS X下的say命令朗诵剪贴板中的内容并记录为mp3

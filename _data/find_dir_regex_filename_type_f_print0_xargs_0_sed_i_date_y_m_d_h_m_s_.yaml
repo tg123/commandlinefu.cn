@@ -1,8 +1,0 @@
-commandlinefu_id: 699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find "$DIR" -regex "$FILENAME" -type f -print0 | xargs -0 sed -i _`date "+%y%m%d%H%M%S"` -E "s/$TEXT1/$TEXT2/g"
-summary: |-
-  Search specified $TEXT1 and Replace that by specified arg ($TEXT2)

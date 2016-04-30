@@ -1,8 +1,0 @@
-commandlinefu_id: 12753
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l -p 3003 -e /bin/bash
-summary: |-
-  spawn shell listener service with nc

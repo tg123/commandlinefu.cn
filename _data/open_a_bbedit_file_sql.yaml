@@ -1,7 +1,0 @@
-commandlinefu_id: 5503
-translator:
-  weibo: tgic
-command: |-
-  open -a BBEdit file.sql
-summary: |-
-  使用特定程序打开(OSX)

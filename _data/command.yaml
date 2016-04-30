@@ -1,8 +1,0 @@
-commandlinefu_id: 13987
-translator:
-  weibo: ''
-hide: true
-command: |-
-  \[command]
-summary: |-
-  Run a command that has been aliased without the alias

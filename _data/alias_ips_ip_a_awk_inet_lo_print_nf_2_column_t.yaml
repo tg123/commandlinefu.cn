@@ -1,8 +1,0 @@
-commandlinefu_id: 5023
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  alias ips='ip a | awk '\''/inet /&&!/ lo/{print $NF,$2}'\'' | column -t'
-summary: |-
-  查看所有 ipv4d 地址

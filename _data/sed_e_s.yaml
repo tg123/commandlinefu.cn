@@ -1,8 +1,0 @@
-commandlinefu_id: 3777
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e "$ ! s/$/,/"
-summary: |-
-  Perform sed substitution on all but the last line of input

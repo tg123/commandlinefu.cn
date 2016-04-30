@@ -1,8 +1,0 @@
-commandlinefu_id: 9828
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -i eth0 -n  | head
-summary: |-
-  see what traffic is mostly hitting you

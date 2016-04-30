@@ -1,7 +1,0 @@
-commandlinefu_id: 8801
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find /myfs -size +209715200c -exec du -m {} \; |sort -nr |head -10
-summary: |-
-  列出文件系统或挂载点中的大于200MB的前10个文件

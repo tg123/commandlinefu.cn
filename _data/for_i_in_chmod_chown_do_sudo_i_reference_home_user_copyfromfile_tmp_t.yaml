@@ -1,8 +1,0 @@
-commandlinefu_id: 13666
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in chmod chown; do sudo "$i" --reference=/home/user/copyfromfile /tmp/targetfile; done
-summary: |-
-  Clone perms and owner group from one file to another

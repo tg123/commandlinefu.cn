@@ -1,8 +1,0 @@
-commandlinefu_id: 13062
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "pattern" -type f -exec du -ch {} + | tail -n1
-summary: |-
-  Find files and calculate size of result in shell

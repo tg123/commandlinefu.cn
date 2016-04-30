@@ -1,8 +1,0 @@
-commandlinefu_id: 4822
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ps aux | sed -n '/USER/!s/\([^ ]\) .*/\1/p' | sort -u
-summary: |-
-  列出当前user 正在运行的的Processes

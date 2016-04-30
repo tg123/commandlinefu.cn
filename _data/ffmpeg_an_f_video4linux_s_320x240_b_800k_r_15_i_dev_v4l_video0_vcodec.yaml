@@ -1,8 +1,0 @@
-commandlinefu_id: 2467
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -an -f video4linux -s 320x240 -b 800k -r 15 -i /dev/v4l/video0 -vcodec mpeg4 myvideo.avi
-summary: |-
-  Record a webcam output into a video file.

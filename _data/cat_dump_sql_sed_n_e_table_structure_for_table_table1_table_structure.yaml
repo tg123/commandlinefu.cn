@@ -1,7 +1,0 @@
-commandlinefu_id: 11566
-translator:
-  weibo: tgic
-command: |-
-  cat dump.sql | sed -n -e '/Table structure for table .table1./,/Table structure for table .table2./p'
-summary: |-
-  从MySQL dump中过滤表

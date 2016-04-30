@@ -1,8 +1,0 @@
-commandlinefu_id: 8609
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"
-summary: |-
-  Python: Quickly locate site-packages

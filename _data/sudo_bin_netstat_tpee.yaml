@@ -1,8 +1,0 @@
-commandlinefu_id: 3223
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo /bin/netstat -tpee
-summary: |-
-  To get  internet connection information .

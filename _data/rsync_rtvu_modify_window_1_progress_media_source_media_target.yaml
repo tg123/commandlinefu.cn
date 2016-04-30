@@ -1,7 +1,0 @@
-commandlinefu_id: 2563
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  rsync -rtvu --modify-window=1 --progress /media/SOURCE/ /media/TARGET/
-summary: |-
-  使用rsync来增量备份文件到一个NTFS分区中

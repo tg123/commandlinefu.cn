@@ -1,8 +1,0 @@
-commandlinefu_id: 1039
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ionice -c3 find /
-summary: |-
-  ionice limits process I/O, to keep it from swamping the system (Linux)

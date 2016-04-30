@@ -1,7 +1,0 @@
-commandlinefu_id: 2296
-translator:
-  weibo: codepiano
-command: |-
-  skill -KILL -t ttyS0
-summary: |-
-  关闭孤儿终端

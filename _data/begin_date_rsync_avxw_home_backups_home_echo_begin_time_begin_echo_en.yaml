@@ -1,8 +1,0 @@
-commandlinefu_id: 12477
-translator:
-  weibo: tgic
-hide: false
-command: |
-  BEGIN=`date`; rsync -avxW /home/ /backups/home ; echo "Begin time: $BEGIN" ; echo "End time..: `date`"
-summary: |-
-  备份目录结构

@@ -1,8 +1,0 @@
-commandlinefu_id: 2858
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | grep "0xffffffff" | awk '{ print $2 }' | xargs -n 1 ifconfig em0 delete
-summary: |-
-  Delete all aliases for a network interface on a (Free)BSD system

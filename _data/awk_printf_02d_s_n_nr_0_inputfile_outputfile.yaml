@@ -1,7 +1,0 @@
-commandlinefu_id: 7562
-translator:
-  weibo: particle128
-command: |-
-  awk '{printf("/* %02d */ %s\n", NR,$0)}' inputfile > outputfile
-summary: |-
-  C语言注释的风格给文件加行号

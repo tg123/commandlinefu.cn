@@ -1,8 +1,0 @@
-commandlinefu_id: 6766
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(seq 0 5 100); do echo $i; sleep 1; done | zenity --progress --title "Installing Foobar" --text "Pleae wait until process has finished."
-summary: |-
-  pretend to be busy in office to enjoy a cup of coffee

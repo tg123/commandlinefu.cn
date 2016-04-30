@@ -1,8 +1,0 @@
-commandlinefu_id: 316
-translator:
-  weibo: ''
-hide: true
-command: |-
-  psnup -2 file.ps | lpr
-summary: |-
-  Using psnup to get two pages per page

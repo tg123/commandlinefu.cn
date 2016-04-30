@@ -1,7 +1,0 @@
-commandlinefu_id: 10642
-translator:
-  weibo: tgic
-command: |-
-  echo "[some repository]" | sudo tee -a /etc/apt/sources.list
-summary: |-
-  如何echo到一个需要sudo权限的地方

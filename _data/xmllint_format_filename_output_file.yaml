@@ -1,8 +1,0 @@
-commandlinefu_id: 2451
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmllint --format <filename> > <output file>
-summary: |-
-  Adding formatting to an xml document for easier reading

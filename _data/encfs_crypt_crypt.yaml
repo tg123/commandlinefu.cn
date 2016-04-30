@@ -1,8 +1,0 @@
-commandlinefu_id: 3634
-translator:
-  weibo: ''
-hide: true
-command: |-
-  encfs ~/.crypt ~/crypt
-summary: |-
-  Create/open/use encrypted directory

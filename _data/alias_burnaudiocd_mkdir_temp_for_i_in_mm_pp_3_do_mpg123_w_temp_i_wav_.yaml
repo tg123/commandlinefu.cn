@@ -1,8 +1,0 @@
-commandlinefu_id: 4114
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias burnaudiocd='mkdir ./temp && for i in *.[Mm][Pp]3;do mpg123 -w "./temp/${i%%.*}.wav" "$i";done;cdrecord -pad ./temp/* && rm -r ./temp'
-summary: |-
-  Burn a directory of mp3s to an audio cd.

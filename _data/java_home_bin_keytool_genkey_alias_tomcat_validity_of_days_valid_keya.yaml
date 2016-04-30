@@ -1,8 +1,0 @@
-commandlinefu_id: 9468
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ${JAVA_HOME}/bin/keytool -genkey -alias tomcat [-validity (# of days valid)] -keyalg RSA -keystore (Path to keystore)
-summary: |-
-  Create a self-signed certificate for Apache Tomcat

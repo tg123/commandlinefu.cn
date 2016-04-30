@@ -1,8 +1,0 @@
-commandlinefu_id: 8998
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -d, -f5
-summary: |-
-  extract column from csv file

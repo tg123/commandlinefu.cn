@@ -1,8 +1,0 @@
-commandlinefu_id: 12416
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /usr/include/ -name '*.[c|h]pp' -o -name '*.[ch]' -print0 | xargs -0 cat | grep -v "^ *$" | grep -v "^ *//" | grep -v "^ */\*.*\*/" | wc -l
-summary: |-
-  Counting the source code's line numbers C/C++ Java

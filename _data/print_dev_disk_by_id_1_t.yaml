@@ -1,8 +1,0 @@
-commandlinefu_id: 12083
-translator:
-  weibo: ''
-hide: true
-command: |-
-  print /dev/disk/by-id/*(@[1]:t)
-summary: |-
-  Get the /dev/disk/by-id fragment for a physical drive

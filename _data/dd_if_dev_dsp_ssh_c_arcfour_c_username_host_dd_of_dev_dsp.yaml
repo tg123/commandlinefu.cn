@@ -1,7 +1,0 @@
-commandlinefu_id: 350
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/dsp | ssh -c arcfour -C username@host dd of=/dev/dsp
-summary: |-
-  把你的mic 在远端机器上音响上发生

@@ -1,7 +1,0 @@
-commandlinefu_id: 282
-translator:
-  weibo: tgic
-command: |-
-  git diff HEAD..rev | git apply --index; git commit
-summary: |-
-  撤销一些提交

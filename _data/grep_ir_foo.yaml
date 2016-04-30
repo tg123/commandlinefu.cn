@@ -1,8 +1,0 @@
-commandlinefu_id: 2683
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -Ir foo *
-summary: |-
-  recursive grep of text files

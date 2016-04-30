@@ -1,8 +1,0 @@
-commandlinefu_id: 1176
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zcat a_big_file.gz | sed -ne "$(zcat a_big_file.gz | tr -d "[:print:]" | cat -n | grep -vP "^ *\d+\t$" | cut -f 1 | sed -e "s/\([0-9]\+\)/\1=;\1p;/" | xargs)" | tr -c "[:print:]\n" "?"
-summary: |-
-  Scan a gz file for non-printable characters and display each line number and line that contains them.

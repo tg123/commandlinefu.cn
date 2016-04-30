@@ -1,8 +1,0 @@
-commandlinefu_id: 915
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -d "\n" < file1 > file2
-summary: |-
-  Delete newline

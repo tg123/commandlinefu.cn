@@ -1,8 +1,0 @@
-commandlinefu_id: 11322
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bind '"\C-l": "\C-u cat <<EOT | pbcopy \n \C-y \nEOT\n"'
-summary: |-
-  Copy Current Command Line to Clipboard

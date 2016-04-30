@@ -1,8 +1,0 @@
-commandlinefu_id: 10283
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -le 'print ~~ map {-s} <*>'
-summary: |-
-  Count number of files in a directory

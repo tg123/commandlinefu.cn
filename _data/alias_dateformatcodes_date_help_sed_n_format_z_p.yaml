@@ -1,7 +1,0 @@
-commandlinefu_id: 9531
-translator:
-  weibo: codepiano
-command: |-
-  alias dateformatcodes="date --help | sed -n '/^FORMAT/,/%Z/p'"
-summary: |-
-  快速查看日期格式化字符串的注释

@@ -1,7 +1,0 @@
-commandlinefu_id: 10060
-translator:
-  weibo: tgic
-command: |-
-  ls -t | head
-summary: |-
-  查看最后修改的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 13778
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -hL --max-depth=1
-summary: |-
-  View disk usage

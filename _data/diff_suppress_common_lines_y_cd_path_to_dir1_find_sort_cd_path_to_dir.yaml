@@ -1,8 +1,0 @@
-commandlinefu_id: 10243
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  diff --suppress-common-lines -y <(cd path_to_dir1; find .|sort) <(cd path_to_dir2; find .|sort)
-summary: |-
-  比较目录

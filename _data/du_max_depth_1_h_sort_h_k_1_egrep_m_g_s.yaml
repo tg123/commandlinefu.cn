@@ -1,7 +1,0 @@
-commandlinefu_id: 11890
-translator:
-  weibo: tgic
-command: |-
-  du --max-depth=1 -h * |sort -h -k 1 |egrep '(M|G)\s'
-summary: |-
-  显示目录和文件的大小是否隐藏

@@ -1,8 +1,0 @@
-commandlinefu_id: 12010
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export l=$1; shift; rename 'my $l=$ENV{'l'}; my $z="0" x $l; s/\d+/substr("$z$&",-$l,$l)/e' "$@"
-summary: |-
-  convert finenames containing a numeric index from differing to fixed index-length; padding required zeroes in front of first number

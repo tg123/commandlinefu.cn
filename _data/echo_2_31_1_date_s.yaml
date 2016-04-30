@@ -1,8 +1,0 @@
-commandlinefu_id: 1828
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $( (( $( (2**31 -1) ) - $(date +%s) )) )
-summary: |-
-  Number of seconds to certain unix date

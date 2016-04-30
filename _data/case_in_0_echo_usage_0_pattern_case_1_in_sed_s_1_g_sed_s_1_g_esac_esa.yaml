@@ -1,8 +1,0 @@
-commandlinefu_id: 9968
-translator:
-  weibo: ''
-hide: true
-command: |-
-  case $# in 0) echo usage: $0 pattern ;; *)case $1 in */*)sed ' s,'"$1"',\ ,g';; *) sed ' s/'"$1"'/\ /g' ;;esac;esac;
-summary: |-
-  multichar tr string1 '\n'

@@ -1,8 +1,0 @@
-commandlinefu_id: 8052
-translator:
-  weibo: ''
-hide: true
-command: |-
-  flvtool2 -C -i 1140000 -o 1200000 input output
-summary: |-
-  Cut flv video from minute 19 to minute 20 using flvtool2

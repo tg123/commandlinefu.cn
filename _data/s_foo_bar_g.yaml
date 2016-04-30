@@ -1,8 +1,0 @@
-commandlinefu_id: 9063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :%s/foo/bar/g
-summary: |-
-  Search and replace in VIM

@@ -1,8 +1,0 @@
-commandlinefu_id: 5297
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . \( -type d -empty \) -and \( -not -regex ./\.git.* \) -exec touch {}/.gitignore \;
-summary: |-
-  Add .gitignore files to all empty directories recursively from your current directory

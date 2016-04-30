@@ -1,8 +1,0 @@
-commandlinefu_id: 7049
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -type f -newer 201011151300.txt -exec head -1 {} \;
-summary: |-
-  打印当前目录比特定文件新的文件的第一行

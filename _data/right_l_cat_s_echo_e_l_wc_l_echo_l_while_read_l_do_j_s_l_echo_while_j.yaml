@@ -1,8 +1,0 @@
-commandlinefu_id: 7883
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ right(){ l="$(cat -)"; s=$(echo -e "$l"| wc -L); echo "$l" | while read l;do j=$(((s-${#l})));echo "$(while ((j-->0)); do printf " ";done;)$l";done;}; ls --color=none / | right
-summary: |-
-  Right-align text in console using pipe like ( command | right )

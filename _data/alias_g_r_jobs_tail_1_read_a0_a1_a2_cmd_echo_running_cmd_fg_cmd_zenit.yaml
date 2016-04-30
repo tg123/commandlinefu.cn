@@ -1,8 +1,0 @@
-commandlinefu_id: 7284
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias -g R=' &; jobs | tail -1 | read A0 A1 A2 cmd; echo "running $cmd"; fg "$cmd"; zenity --info --text "$cmd done"; unset A0 A1 A2 cmd'
-summary: |-
-  zsh suffix to inform you about long command ending

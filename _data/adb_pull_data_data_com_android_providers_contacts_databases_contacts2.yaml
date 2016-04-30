@@ -1,7 +1,0 @@
-commandlinefu_id: 11688
-translator:
-  weibo: '猪了个去'
-command: |-
-  adb pull /data/data/com.android.providers.contacts/databases/contacts2.db ; sqlite3 -batch <<EOF contacts2.db <CR> .header on <CR> .mode tabs <CR> select * from data; <CR> EOF
-summary: |-
-  备份android通讯录和短信

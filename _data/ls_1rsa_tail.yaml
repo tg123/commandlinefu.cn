@@ -1,8 +1,0 @@
-commandlinefu_id: 3913
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -1rSA | tail
-summary: |-
-  Get the 10 biggest files/folders for the current direcotry

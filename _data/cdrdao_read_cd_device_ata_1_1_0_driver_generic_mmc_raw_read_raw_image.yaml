@@ -1,7 +1,0 @@
-commandlinefu_id: 3387
-translator:
-  weibo: tgic
-command: |-
-  cdrdao read-cd --device ATA:1,1,0 --driver generic-mmc-raw --read-raw image.toc
-summary: |-
-  在linux上烧cd

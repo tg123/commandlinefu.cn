@@ -1,7 +1,0 @@
-commandlinefu_id: 10486
-translator:
-  weibo: '猪了个去'
-command: |-
-  timeout -k 1m 30s some_command
-summary: |-
-  带有超时设置的执行命令

@@ -1,8 +1,0 @@
-commandlinefu_id: 12151
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(objdump -d binary -M intel |grep "^ " |cut -f2); do echo -n '\x'$i; done;echo
-summary: |-
-  Get shellcode of the binary using objdump

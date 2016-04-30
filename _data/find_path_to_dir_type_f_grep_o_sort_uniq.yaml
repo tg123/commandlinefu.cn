@@ -1,7 +1,0 @@
-commandlinefu_id: 6308
-translator:
-  weibo: tgic
-command: |-
-  find /path/to/dir -type f | grep -o '\.[^./]*$' | sort | uniq
-summary: |-
-  列出目录中所有的扩展名

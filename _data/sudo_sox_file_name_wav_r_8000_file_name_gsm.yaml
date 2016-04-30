@@ -1,7 +1,0 @@
-commandlinefu_id: 8993
-translator:
-  weibo: tgic
-command: |-
-  sox <file name>.wav -r 8000 <file name>.gsm
-summary: |-
-  转换wav为gsm

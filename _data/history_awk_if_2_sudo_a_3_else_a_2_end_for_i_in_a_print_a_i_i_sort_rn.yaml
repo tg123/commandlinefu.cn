@@ -1,7 +1,0 @@
-commandlinefu_id: 11703
-translator:
-  weibo: tgic
-command: |-
-  history | awk '{if ($2 == "sudo") a[$3]++; else a[$2]++}END{for(i in a){print a[i] " " i}}' |  sort -rn | head
-summary: |-
-  使用最多的命令

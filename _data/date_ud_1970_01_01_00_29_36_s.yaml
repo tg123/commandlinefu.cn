@@ -1,7 +1,0 @@
-commandlinefu_id: 9617
-translator:
-  weibo: particle128
-command: |-
-  date -ud "1970/01/01 00:29:36" +%s
-summary: |-
-  把格林威治日期时间转化成unix时间

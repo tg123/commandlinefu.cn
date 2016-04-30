@@ -1,7 +1,0 @@
-commandlinefu_id: 5971
-translator:
-  weibo: tgic
-command: |-
-  function mg(){ man ${1} | egrep ${2} | more; }
-summary: |-
-  查找man的函数

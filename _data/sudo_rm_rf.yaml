@@ -1,8 +1,0 @@
-commandlinefu_id: 14020
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo rm -rf /
-summary: |-
-  Delete everything!

@@ -1,7 +1,0 @@
-commandlinefu_id: 3930
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -size 0 -delete
-summary: |-
-  删除空文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 2527
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp -bfS.bak filename filename
-summary: |-
-  quickly backup or copy a file with bash

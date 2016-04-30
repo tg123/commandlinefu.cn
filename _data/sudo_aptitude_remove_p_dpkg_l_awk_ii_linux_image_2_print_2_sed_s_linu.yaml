@@ -1,7 +1,0 @@
-commandlinefu_id: 8340
-translator:
-  weibo: '猪了个去'
-command: |-
-  sudo aptitude remove -P $(dpkg -l|awk '/^ii  linux-image-2/{print $2}'|sed 's/linux-image-//'|awk -v v=`uname -r` 'v>$0'|sed 's/-generic//'|awk '{printf("linux-headers-%s\nlinux-headers-%s-generic\nlinux-image-%s-generic\n",$0,$0,$0)}')
-summary: |-
-  用apt-get移除所有不再使用的linux-kernel包

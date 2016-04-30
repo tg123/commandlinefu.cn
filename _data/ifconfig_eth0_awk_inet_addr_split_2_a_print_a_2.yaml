@@ -1,7 +1,0 @@
-commandlinefu_id: 651
-translator:
-  weibo: tgic
-command: |-
-  ifconfig eth0 | awk '/inet addr/ {split ($2,A,":"); print A[2]}'
-summary: |-
-  获取 eth0 绑定的地址

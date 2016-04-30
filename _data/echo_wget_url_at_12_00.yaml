@@ -1,7 +1,0 @@
-commandlinefu_id: 1907
-translator:
-  weibo: tgic
-command: |-
-  echo 'wget url' | at 12:00
-summary: |-
-  下载的计划任务

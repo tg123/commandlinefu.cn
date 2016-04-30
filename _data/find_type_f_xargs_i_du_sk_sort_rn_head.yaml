@@ -1,7 +1,0 @@
-commandlinefu_id: 7548
-translator:
-  weibo: tgic
-command: |-
-  find -type f | xargs -I{} du -sk "{}" | sort -rn | head
-summary: |-
-  寻找大文件

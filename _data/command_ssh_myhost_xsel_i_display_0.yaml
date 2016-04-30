@@ -1,7 +1,0 @@
-commandlinefu_id: 7135
-translator:
-  weibo: tgic
-command: |-
-  command | ssh myHost xsel -i --display :0
-summary: |-
-  远程剪切版

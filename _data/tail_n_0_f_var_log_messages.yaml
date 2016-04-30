@@ -1,7 +1,0 @@
-commandlinefu_id: 1304
-translator:
-  weibo: codepiano
-command: |-
-  tail -n 0 -f /var/log/messages
-summary: |-
-  查看文件内容增长

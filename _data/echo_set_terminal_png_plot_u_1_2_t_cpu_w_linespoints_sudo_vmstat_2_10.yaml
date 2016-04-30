@@ -1,8 +1,0 @@
-commandlinefu_id: 3594
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (echo "set terminal png;plot '-' u 1:2 t 'cpu' w linespoints;"; sudo vmstat 2 10 | awk 'NR > 2 {print NR, $13}') | gnuplot > plot.png
-summary: |-
-  Visualizing system performance data

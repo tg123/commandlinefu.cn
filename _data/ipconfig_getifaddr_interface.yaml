@@ -1,8 +1,0 @@
-commandlinefu_id: 2960
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ipconfig getifaddr <Interface>
-summary: |-
-  Get Interface's IP on Mac

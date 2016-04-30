@@ -1,7 +1,0 @@
-commandlinefu_id: 2156
-translator:
-  weibo: tgic
-command: |-
-  tcs -f 8859-1 -t utf /some/file
-summary: |-
-  文件编码转换

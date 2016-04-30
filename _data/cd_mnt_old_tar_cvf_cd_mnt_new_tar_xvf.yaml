@@ -1,7 +1,0 @@
-commandlinefu_id: 2064
-translator:
-  weibo: tgic
-command: |-
-  cd /mnt/old && tar cvf - . | ( cd /mnt/new && tar xvf - )
-summary: |-
-  备份分区

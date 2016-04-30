@@ -1,8 +1,0 @@
-commandlinefu_id: 5739
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo $(($(tr '\n' '+')0))
-summary: |-
-  将文件里边的数求和

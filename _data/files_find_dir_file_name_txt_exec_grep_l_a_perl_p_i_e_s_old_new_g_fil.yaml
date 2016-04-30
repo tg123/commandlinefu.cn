@@ -1,8 +1,0 @@
-commandlinefu_id: 8304
-translator:
-  weibo: ''
-hide: true
-command: |-
-  files=$(find /dir/file -name *.txt -exec grep -l a {} \;) && perl -p -i -e 's/old/new/g;' $files
-summary: |-
-  find multiple files in directory and perform search and replace on each of them

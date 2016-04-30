@@ -1,8 +1,0 @@
-commandlinefu_id: 3150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch --interval 0 'iptables -nvL | grep -v "0     0"'
-summary: |-
-  watch iptables counters

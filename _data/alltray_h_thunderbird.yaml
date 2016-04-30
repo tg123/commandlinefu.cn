@@ -1,8 +1,0 @@
-commandlinefu_id: 9033
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alltray -H thunderbird
-summary: |-
-  Dock Thunderbird in system tray and hide main window

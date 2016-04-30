@@ -1,7 +1,0 @@
-commandlinefu_id: 11568
-translator:
-  weibo: ''
-command: |-
-  vi scp://username@host:12345//path/to/somefile
-summary: |-
-  编辑远程文件

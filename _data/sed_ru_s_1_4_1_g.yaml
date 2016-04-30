@@ -1,8 +1,0 @@
-commandlinefu_id: 13125
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -ru 's/(.)\1{4,}/\1/g'
-summary: |-
-  more than 4 repeated characters to a single character

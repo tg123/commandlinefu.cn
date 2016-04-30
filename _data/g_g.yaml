@@ -1,8 +1,0 @@
-commandlinefu_id: 13757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  g?g?
-summary: |-
-  encrypt whole line with ROT13 in vim

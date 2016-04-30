@@ -1,8 +1,0 @@
-commandlinefu_id: 4180
-translator:
-  weibo: ''
-hide: true
-command: |-
-  some_command > >(/bin/cmd_for_stdout) 2> >(/bin/cmd_for_stderr)
-summary: |-
-  Pipe stdout and stderr, etc., to separate commands

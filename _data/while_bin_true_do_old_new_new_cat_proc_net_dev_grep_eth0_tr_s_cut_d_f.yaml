@@ -1,8 +1,0 @@
-commandlinefu_id: 8148
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  while [ /bin/true ]; do OLD=$NEW; NEW=`cat /proc/net/dev | grep eth0 | tr -s ' ' | cut -d' ' -f "3 11"`; echo $NEW $OLD | awk '{printf("\rin
-summary: |-
-  监控 RT/TX

@@ -1,8 +1,0 @@
-commandlinefu_id: 13967
-translator:
-  weibo: ''
-hide: true
-command: |-
-  printf "\e[7m%-`tput cols`s\e[0m\n" "Full width highlighted line"
-summary: |-
-  Show highlighted text with full terminal width

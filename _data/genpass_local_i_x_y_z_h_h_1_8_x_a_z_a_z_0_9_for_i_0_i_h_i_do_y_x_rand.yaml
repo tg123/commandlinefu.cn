@@ -1,8 +1,0 @@
-commandlinefu_id: 3879
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  genpass(){local i x y z h;h=${1:-8};x=({a..z} {A..Z} {0..9});for ((i=0;i<$h;i++));do y=${x[$((RANDOM%${#x[@]}))]};z=$z$y;done;echo $z ;}
-summary: |-
-  密码生成器

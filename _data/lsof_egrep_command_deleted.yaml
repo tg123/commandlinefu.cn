@@ -1,8 +1,0 @@
-commandlinefu_id: 1471
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof | egrep "^COMMAND|deleted"
-summary: |-
-  List all the files that have been deleted while they were still open.

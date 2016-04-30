@@ -1,8 +1,0 @@
-commandlinefu_id: 3723
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname ".project"| xargs -I {} dirname {} | LC_ALL=C xargs -I {} svn info {} | grep "Last Changed Rev\|Path" | sed "s/Last Changed Rev: /;/" | sed "s/Path: //" | sed '$!N;s/\n//'
-summary: |-
-  Get last changed revision to all eclipse projects in a SVN working copy

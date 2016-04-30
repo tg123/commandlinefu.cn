@@ -1,7 +1,0 @@
-commandlinefu_id: 2565
-translator:
-  weibo: tgic
-command: |-
-  find / -type f -size +1000000000c
-summary: |-
-  找出大于1G的文件

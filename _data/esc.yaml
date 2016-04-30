@@ -1,7 +1,0 @@
-commandlinefu_id: 9256
-translator:
-  weibo: tgic
-command: |-
-  <ESC> #
-summary: |-
-  插入上次命令的参数

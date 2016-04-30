@@ -1,8 +1,0 @@
-commandlinefu_id: 8930
-translator:
-  weibo: ''
-hide: true
-command: |-
-  parallel  echo -n {}"\ "\;echo '$(du -s {} | awk  "{print \$1}") /  $(find {} | wc -l)' \| bc -l ::: *
-summary: |-
-  Compute the average number of KB per file for each dir

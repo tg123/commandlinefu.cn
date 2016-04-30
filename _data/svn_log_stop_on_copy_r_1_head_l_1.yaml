@@ -1,8 +1,0 @@
-commandlinefu_id: 11576
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log --stop-on-copy -r 1:HEAD -l 1
-summary: |-
-  get the info which branch was created

@@ -1,8 +1,0 @@
-commandlinefu_id: 13670
-translator:
-  weibo: ''
-hide: true
-command: |-
-  SIZE=1; dd if=/dev/zero bs=1M count=$((SIZE*1024)) | pv -pters $((SIZE*1024*1024*1024)) | openssl enc -aes-256-ctr -pass pass:"$(dd if=/dev/urandom bs=128 count=1 2>/dev/null | base64)" -nosalt > randomfile
-summary: |-
-  Create a random file of a certain, and display progress along the way.

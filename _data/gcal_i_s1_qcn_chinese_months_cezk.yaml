@@ -1,8 +1,0 @@
-commandlinefu_id: 7336
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gcal -i -s1 -qcn --chinese-months -cezk .
-summary: |-
-  &#38468;&#24102;&#33410;&#20551;&#26085;&#21644;&#38452;&#21382;&#30340;&#21629;&#20196;&#34892;&#31243;&#24207;

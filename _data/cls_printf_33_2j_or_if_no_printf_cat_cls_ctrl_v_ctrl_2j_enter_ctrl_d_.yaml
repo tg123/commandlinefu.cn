@@ -1,8 +1,0 @@
-commandlinefu_id: 8241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cls(){ printf "\33[2J";} or, if no printf, cat >cls;<ctrl-v><ctrl+[>[2J<enter><ctrl+d> cls(){ cat cls;}
-summary: |-
-  clear screen, keep prompt at eye-level (faster than clear(1), tput cl, etc.)

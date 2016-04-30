@@ -1,8 +1,0 @@
-commandlinefu_id: 6879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ( di $TOFSCK -h ; /bin/umount $TOFSCK ; time /sbin/e2fsck -y -f -v $FSCKDEV ; /bin/mount $TOFSCK ) |& /bin/mail $MAILTO -s "$MAILSUB"
-summary: |-
-  Easy to extend one-liner for cron scripts that automate filesystem checking

@@ -1,7 +1,0 @@
-commandlinefu_id: 3670
-translator:
-  weibo: 玄文处幽
-command: |-
-  ls -A
-summary: |-
-  列出除了.和..以外的文件和目录

@@ -1,8 +1,0 @@
-commandlinefu_id: 13063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l /usr/share/xsessions/
-summary: |-
-  To show which desktop environment I have installed

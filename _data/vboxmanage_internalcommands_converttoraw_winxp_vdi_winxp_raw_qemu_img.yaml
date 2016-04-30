@@ -1,7 +1,0 @@
-commandlinefu_id: 3773
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  VBoxManage internalcommands converttoraw winxp.vdi winxp.raw && qemu-img convert -O vmdk winxp.raw winxp.vmdk && rm winxp.raw
-summary: |-
-  将virtualBox硬盘文件转换成vmware硬盘文件

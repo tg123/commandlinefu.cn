@@ -1,8 +1,0 @@
-commandlinefu_id: 13231
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -o -P '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\:[0-9]{1,5}\s->\s{5}[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\:[0-9]{1,5}' <capture file> | tr -d ' ' | sed  's/:.....//g' | sort -n | uniq -c | sort -nr
-summary: |-
-  Sort netflow packet capture

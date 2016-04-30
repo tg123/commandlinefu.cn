@@ -1,8 +1,0 @@
-commandlinefu_id: 3320
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ioreg -l -p IODeviceTree | grep -o EFI[0-9].  && system_profiler SPSoftwareDataType |grep 64
-summary: |-
-  See if your mac can run 64-bit && if it the kernel is loaded 64-bit

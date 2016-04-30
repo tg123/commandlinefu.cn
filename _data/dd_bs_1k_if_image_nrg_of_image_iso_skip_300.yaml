@@ -1,7 +1,0 @@
-commandlinefu_id: 5220
-translator:
-  weibo: tgic
-command: |-
-  dd bs=1k if=image.nrg of=image.iso skip=300
-summary: |-
-  转换nero 为iso

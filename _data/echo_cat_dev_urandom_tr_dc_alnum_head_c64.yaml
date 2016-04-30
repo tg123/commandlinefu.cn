@@ -1,7 +1,0 @@
-commandlinefu_id: 7234
-translator:
-  weibo: tgic
-command: |-
-  echo `cat /dev/urandom |tr -dc "[:alnum:]" | head -c64`
-summary: |-
-  使用/dev/urandom创建随机字符串

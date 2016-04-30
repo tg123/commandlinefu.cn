@@ -1,8 +1,0 @@
-commandlinefu_id: 309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -qa --qf '%{name}'
-summary: |-
-  To get the different name field nformation on rpm packages

@@ -1,7 +1,0 @@
-commandlinefu_id: 3750
-translator:
-  weibo: tgic
-command: |-
-  watch -n60 du /var/log/messages
-summary: |-
-  监控文件大小

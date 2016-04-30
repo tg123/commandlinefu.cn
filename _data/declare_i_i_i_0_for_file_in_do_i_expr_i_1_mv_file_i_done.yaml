@@ -1,7 +1,0 @@
-commandlinefu_id: 6453
-translator:
-  weibo: '猪了个去'
-command: |-
-  declare -i i; i=0; for file in *; do i=`expr $i+1`; mv "$file" $i; done;
-summary: |-
-  读出一个目录的文件，以递增的数字重命名

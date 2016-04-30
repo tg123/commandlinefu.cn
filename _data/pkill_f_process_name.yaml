@@ -1,7 +1,0 @@
-commandlinefu_id: 5880
-translator:
-  weibo: tgic
-command: |-
-  pkill -f <process name>
-summary: |-
-  PS + KILL

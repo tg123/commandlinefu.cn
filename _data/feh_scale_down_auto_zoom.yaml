@@ -1,8 +1,0 @@
-commandlinefu_id: 13568
-translator:
-  weibo: ''
-hide: true
-command: |-
-  feh --scale-down --auto-zoom
-summary: |-
-  Open an image in feh, automatically scaling it to its window's size

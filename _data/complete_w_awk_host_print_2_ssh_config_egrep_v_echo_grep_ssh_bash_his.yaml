@@ -1,8 +1,0 @@
-commandlinefu_id: 10330
-translator:
-  weibo: ''
-hide: true
-command: |-
-  complete -W "$( { awk '/^Host / { print $2 }' ~/.ssh/config | egrep -v '\*|,'      echo $( grep '^ssh ' .bash_history | sort -u | sed 's/^ssh //' )      while IFS=' ,' read host t; do echo $host; done < ~/.ssh/known_hosts ;} )" ssh
-summary: |-
-  Multi (file)source SSH host tab-completion

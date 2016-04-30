@@ -1,7 +1,0 @@
-commandlinefu_id: 9095
-translator:
-  weibo: particle128
-command: |-
-  convert input.png -shave 10x10 output.png
-summary: |-
-  裁剪掉图片的边缘

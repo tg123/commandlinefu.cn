@@ -1,7 +1,0 @@
-commandlinefu_id: 12920
-translator:
-  weibo: gdqyn
-command: |-
-  sudo lsof -iTCP:25
-summary: |-
-  检查TCP端口25是否打开

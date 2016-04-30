@@ -1,7 +1,0 @@
-commandlinefu_id: 188
-translator:
-  weibo: '猪了个去'
-command: |-
-  cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
-summary: |-
-  从一台没有ssh-copy-id命令的机器上，拷贝你的ssh公钥到服务器上

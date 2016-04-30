@@ -1,7 +1,0 @@
-commandlinefu_id: 11816
-translator:
-  weibo: tgic
-command: |-
-  find . -iname '*jpg' -print0  | xargs -0 exiftool -warning; find . -iname '*jpg' -print0  | xargs -0 jpeginfo -c
-summary: |-
-  查找损坏的jpg

@@ -1,8 +1,0 @@
-commandlinefu_id: 13857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias ga='git archive --prefix=${PWD##*/}/ -o %{PWD##*/}-`git rev-parse --short HEAD`.tar.gz HEAD .'
-summary: |-
-  Create alias to quickly archive git HEAD in current directory.

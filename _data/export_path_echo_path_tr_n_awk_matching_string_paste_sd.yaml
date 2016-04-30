@@ -1,8 +1,0 @@
-commandlinefu_id: 11060
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PATH= $(echo $PATH | tr ':' '\n' | awk '!/matching string/' | paste -sd:)
-summary: |-
-  Remove from PATH paths containing a string

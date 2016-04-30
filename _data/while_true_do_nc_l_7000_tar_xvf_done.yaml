@@ -1,8 +1,0 @@
-commandlinefu_id: 9589
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do nc -l 7000 | tar -xvf -; done
-summary: |-
-  Create a file server, listening in port 7000

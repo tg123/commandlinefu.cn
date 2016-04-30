@@ -1,8 +1,0 @@
-commandlinefu_id: 9911
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -v 80/tcp
-summary: |-
-  Show what PID is listening on port 80 on Linux

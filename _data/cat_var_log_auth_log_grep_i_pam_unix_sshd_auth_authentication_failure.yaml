@@ -1,8 +1,0 @@
-commandlinefu_id: 9570
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /var/log/auth.log | grep -i "pam_unix(sshd:auth): authentication failure;" | cut -d' ' -f14,15 | cut -d= -f2 | sort | uniq
-summary: |-
-  Get a list of IP Addresses that have failed to login via SSH

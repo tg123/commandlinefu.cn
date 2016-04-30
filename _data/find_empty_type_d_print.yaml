@@ -1,7 +1,0 @@
-commandlinefu_id: 11110
-translator:
-  weibo: tgic
-command: |-
-  find ./ -empty -type d -print
-summary: |-
-  显示所有空文件夹

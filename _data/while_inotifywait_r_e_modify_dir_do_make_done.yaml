@@ -1,7 +1,0 @@
-commandlinefu_id: 5800
-translator:
-  weibo: tgic
-command: |-
-  while inotifywait -r -e MODIFY dir/; do make; done;
-summary: |-
-  有改动时候自动make

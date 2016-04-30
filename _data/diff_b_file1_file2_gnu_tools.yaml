@@ -1,8 +1,0 @@
-commandlinefu_id: 6744
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff -b $file1 $file2 # GNU Tools
-summary: |-
-  diff files while disregarding indentation and trailing white space

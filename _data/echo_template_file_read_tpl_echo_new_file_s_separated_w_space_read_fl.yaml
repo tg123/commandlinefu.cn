@@ -1,8 +1,0 @@
-commandlinefu_id: 11980
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "template file: ";read tpl;echo "new file(s separated w. space):"; read fl;touch $fl;find $fl -exec cp -ap $tpl "{}" \;
-summary: |-
-  make a bunch of files based on a template file

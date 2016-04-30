@@ -1,7 +1,0 @@
-commandlinefu_id: 7638
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  whois -H $(cat ./list_of_domains) | awk 'BEGIN{RS=""}/Registrant/,/Registration Service Provider:/ {print} END{print "----------------\n"}'
-summary: |-
-  列出域名列表的相关信息

@@ -1,8 +1,0 @@
-commandlinefu_id: 11710
-translator:
-  weibo: ''
-hide: true
-command: |-
-  arch
-summary: |-
-  Check if system is 32bit or 64bit

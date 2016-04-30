@@ -1,8 +1,0 @@
-commandlinefu_id: 3843
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat private-file | gpg2 --encrypt --armor --recipient "Disposable Key" | mailx -s "Email Subject" user@email.com
-summary: |-
-  Quickly Encrypt a file with gnupg and email it with mailx

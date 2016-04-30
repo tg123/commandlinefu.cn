@@ -1,7 +1,0 @@
-commandlinefu_id: 12299
-translator:
-  weibo: tgic
-command: |-
-  netstat -nlput
-summary: |-
-  查看tcp和udp 链接

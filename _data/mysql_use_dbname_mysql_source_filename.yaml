@@ -1,7 +1,0 @@
-commandlinefu_id: 5095
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mysql>use DBNAME;  mysql>source FILENAME
-summary: |-
-  导入数据库

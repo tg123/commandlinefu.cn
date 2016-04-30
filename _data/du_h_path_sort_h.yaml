@@ -1,7 +1,0 @@
-commandlinefu_id: 9177
-translator:
-  weibo: tgic
-command: |-
-  du -h /path | sort -h
-summary: |-
-  查看所有目录大小

@@ -1,8 +1,0 @@
-commandlinefu_id: 7668
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl+h> and <ctrl+j>
-summary: |-
-  same as backspace and return

@@ -1,8 +1,0 @@
-commandlinefu_id: 4115
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsusb -v | grep -o "[0-9A-Z]{16}"
-summary: |-
-  Find iPod's fwguid

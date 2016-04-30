@@ -1,7 +1,0 @@
-commandlinefu_id: 2652
-translator:
-  weibo: tgic
-command: |-
-  pbpaste | ssh user@hostname 'cat > ~/my_new_file.txt'
-summary: |-
-  粘贴到远程的机器(OSX)

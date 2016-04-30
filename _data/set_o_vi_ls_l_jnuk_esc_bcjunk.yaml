@@ -1,8 +1,0 @@
-commandlinefu_id: 216
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set -o vi; ls -l jnuk<ESC>bCjunk
-summary: |-
-  Use vi commands to edit your command lines

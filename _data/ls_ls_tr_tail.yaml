@@ -1,7 +1,0 @@
-commandlinefu_id: 12987
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -ls -tr | tail
-summary: |-
-  按最后修改时间列出文件夹下的文件。打印其结尾（即最后修改的前10个文件）

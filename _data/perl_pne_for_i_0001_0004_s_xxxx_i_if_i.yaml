@@ -1,8 +1,0 @@
-commandlinefu_id: 4827
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :.,$!perl -pne 'for $i ("0001".."0004"){ s/XXXX/$i/ if($i == $.) }'
-summary: |-
-  Create a series of incrementing numbers in vim

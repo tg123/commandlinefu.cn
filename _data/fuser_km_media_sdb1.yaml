@@ -1,8 +1,0 @@
-commandlinefu_id: 10311
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -km /media/sdb1
-summary: |-
-  Force unmount occupied partition

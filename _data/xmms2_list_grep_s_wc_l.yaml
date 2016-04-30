@@ -1,8 +1,0 @@
-commandlinefu_id: 8682
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmms2 list | grep '^\s\+\[' | wc -l
-summary: |-
-  Get length of current playlist in xmms2

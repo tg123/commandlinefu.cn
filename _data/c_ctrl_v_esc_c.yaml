@@ -1,7 +1,0 @@
-commandlinefu_id: 1529
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ^[c (ctrl-v esc-c)
-summary: |-
-  将终端重置成原初的状态

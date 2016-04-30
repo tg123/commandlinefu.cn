@@ -1,7 +1,0 @@
-commandlinefu_id: 4040
-translator:
-  weibo: codepiano
-command: |-
-  dd if=/dev/<device location> | gzip -c /<path to backup location>/<disk image name>.img.gz
-summary: |-
-  压缩并备份一个磁盘映像

@@ -1,8 +1,0 @@
-commandlinefu_id: 9178
-translator:
-  weibo: ''
-hide: true
-command: |-
-  get_duration() { durline=$(sox "$1" -n stat 2>&1|grep "Length (seconds):");echo ${durline#*\: }; }
-summary: |-
-  Get duration of an audio file in seconds.

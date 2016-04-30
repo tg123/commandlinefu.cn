@@ -1,8 +1,0 @@
-commandlinefu_id: 9099
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(grep "^[^']\{3,5\}$" /usr/share/dict/words|shuf -n4)
-summary: |-
-  Generate an XKCD #936 style 4 word password

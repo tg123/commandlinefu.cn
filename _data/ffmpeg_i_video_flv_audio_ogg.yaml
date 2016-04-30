@@ -1,8 +1,0 @@
-commandlinefu_id: 10376
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i video.flv audio.ogg
-summary: |-
-  Convert flv/mp4 video to ogg/mp3

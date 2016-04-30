@@ -1,8 +1,0 @@
-commandlinefu_id: 11947
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync  -arl  --rsh=ssh --progress --exclude-from=/etc/localbin/exclude_files.txt  /var/www/html/source/* <user>@<server>:/var/www/html/source/
-summary: |-
-  Sync files in /var/www/html dir with other server excluding files in exclude_files.txt

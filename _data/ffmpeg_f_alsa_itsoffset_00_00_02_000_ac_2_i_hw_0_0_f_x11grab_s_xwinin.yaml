@@ -1,8 +1,0 @@
-commandlinefu_id: 5230
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -f alsa -itsoffset 00:00:02.000 -ac 2 -i hw:0,0 -f x11grab -s $(xwininfo -root | grep 'geometry' | awk '{print $2;}') -r 10 -i :0.0 -sameq -f mp4 -s wvga -y intro.mp4
-summary: |-
-  Capture screen and mic input using FFmpeg and ALSA

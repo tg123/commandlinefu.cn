@@ -1,8 +1,0 @@
-commandlinefu_id: 14130
-translator:
-  weibo: ''
-hide: true
-command: |-
-  reboot
-summary: |-
-  Reboot or Restart environment immediately

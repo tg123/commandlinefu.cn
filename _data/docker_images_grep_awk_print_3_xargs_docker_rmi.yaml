@@ -1,8 +1,0 @@
-commandlinefu_id: 13699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  docker images | grep '' | awk '{print $3}' | xargs docker rmi
-summary: |-
-  Docker - delete unused images

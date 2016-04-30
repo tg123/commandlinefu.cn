@@ -1,8 +1,0 @@
-commandlinefu_id: 2375
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ( nw=192.168.0 ; h=1; while [ $h -lt 255 ] ; do ( ping -c2 -i 0.2 -W 0.5 -n $nw.$h & ); h=$[ $h + 1 ] ; done ) | awk '/^64 bytes.*/ { gsub( ":","" ); print $4 }' | sort -u
-summary: |-
-  Poor man's nmap for a class C network from rfc1918

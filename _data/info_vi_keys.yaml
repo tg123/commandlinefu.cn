@@ -1,8 +1,0 @@
-commandlinefu_id: 1892
-translator:
-  weibo: '猪了个去'
-command: |-
-  info --vi-keys
-summary: |-
-  使用vi快捷键的info
-

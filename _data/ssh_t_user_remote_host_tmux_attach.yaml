@@ -1,7 +1,0 @@
-commandlinefu_id: 11371
-translator:
-  weibo: tgic
-command: |-
-  ssh -t user@remote_host tmux attach
-summary: |-
-  ssh 后立即绑定到上次的tmux回话

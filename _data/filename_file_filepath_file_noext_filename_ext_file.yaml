@@ -1,7 +1,0 @@
-commandlinefu_id: 2396
-translator:
-  weibo: particle128
-command: |-
-  FILENAME=${FILE##*/};FILEPATH=${FILE%/*};NOEXT=${FILENAME%\.*};EXT=${FILE##*.}
-summary: |-
-  对FILE变量，提取其路径、文件名、不带扩展后缀的文件名、后缀

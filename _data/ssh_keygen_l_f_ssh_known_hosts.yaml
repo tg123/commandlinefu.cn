@@ -1,7 +1,0 @@
-commandlinefu_id: 7226
-translator:
-  weibo: tgic
-command: |-
-  ssh-keygen -l -f ~/.ssh/known_hosts
-summary: |-
-  查看known_hosts信息

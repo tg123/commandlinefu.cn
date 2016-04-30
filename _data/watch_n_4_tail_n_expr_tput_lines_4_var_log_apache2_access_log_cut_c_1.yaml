@@ -1,8 +1,0 @@
-commandlinefu_id: 12964
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 4 "tail -n $(expr $(tput lines) - 4) /var/log/apache2/access.log | cut -c 1-$(tput cols)"
-summary: |-
-  Monitor a log file, filling up all available space in the terminal window and preventing line wrap

@@ -1,7 +1,0 @@
-commandlinefu_id: 6954
-translator:
-  weibo: codepiano
-command: |-
-  find /mountpoint -type f -iregex '.*\.\(doc\|xls\)'
-summary: |-
-  在windows分区中查找所有的doc和xls文件

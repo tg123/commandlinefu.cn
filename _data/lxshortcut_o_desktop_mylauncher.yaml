@@ -1,8 +1,0 @@
-commandlinefu_id: 13830
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lxshortcut -o ~/Desktop/myLauncher
-summary: |-
-  Create shortcut with lubuntu

@@ -1,7 +1,0 @@
-commandlinefu_id: 5097
-translator:
-  weibo: tgic
-command: |-
-  vim suite.js -c '%s!/\*\_.\{-}\*/!!g'
-summary: |-
-  使用vim删除注释

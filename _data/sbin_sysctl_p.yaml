@@ -1,8 +1,0 @@
-commandlinefu_id: 11891
-translator:
-  weibo: tgic
-command: |-
-  /sbin/sysctl -p
-summary: |-
-  重新载入sysctl变量
-

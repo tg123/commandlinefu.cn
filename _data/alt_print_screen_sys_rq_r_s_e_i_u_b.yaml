@@ -1,8 +1,0 @@
-commandlinefu_id: 1081
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <alt> + <print screen/sys rq> + <R> - <S> - <E> - <I> - <U> - <B>
-summary: |-
-  Reboot machine when everything is hanging

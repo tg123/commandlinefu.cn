@@ -1,7 +1,0 @@
-commandlinefu_id: 8451
-translator:
-  weibo: tgic
-command: |-
-  echo $(( $( date +%s ) - $( stat -c %Y * | sort -nr | head -n 1 ) ))
-summary: |-
-  查看最新文件的年龄(按秒计算)

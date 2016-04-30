@@ -1,8 +1,0 @@
-commandlinefu_id: 10724
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in  * ; do mv "$file" `echo "$file" | tr ' ' '_' | tr '[A-Z]' '[a-z]'`; done
-summary: |-
-  Replaces spaces in filename with _ and converts upper to lower case

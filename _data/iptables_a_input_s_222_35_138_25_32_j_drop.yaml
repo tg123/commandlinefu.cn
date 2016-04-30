@@ -1,8 +1,0 @@
-commandlinefu_id: 41
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -A INPUT -s 222.35.138.25/32 -j DROP
-summary: |-
-  Block an IP address from connecting to a server

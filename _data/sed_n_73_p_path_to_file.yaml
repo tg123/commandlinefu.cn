@@ -1,8 +1,0 @@
-commandlinefu_id: 13280
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -n "/^.\{73,\}/p" < /path/to/file
-summary: |-
-  find which lines in a file are longer than N characters

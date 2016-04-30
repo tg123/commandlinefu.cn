@@ -1,8 +1,0 @@
-commandlinefu_id: 2113
-translator:
-  weibo: ''
-hide: true
-command: |-
-  screen -d -m nautilus --no-desktop `pwd`
-summary: |-
-  Start a file browser in the current directory

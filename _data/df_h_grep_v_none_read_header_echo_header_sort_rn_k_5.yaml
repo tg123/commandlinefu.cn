@@ -1,8 +1,0 @@
-commandlinefu_id: 8111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  df -h | grep -v ^none | ( read header ; echo "$header" ; sort -rn -k 5)
-summary: |-
-  df output, sorted by Use% and correctly maintaining header row

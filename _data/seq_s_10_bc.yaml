@@ -1,8 +1,0 @@
-commandlinefu_id: 7837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  seq -s* 10 |bc
-summary: |-
-  Calculate N!

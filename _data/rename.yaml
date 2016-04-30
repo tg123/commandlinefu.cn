@@ -1,8 +1,0 @@
-commandlinefu_id: 10134
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rename ' ' '_' *
-summary: |-
-  space to underscore across single directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 7163
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  dpkg -l | grep ^rc | awk '{print $2}' | xargs dpkg -P
-summary: |-
-  清理已经卸载的包的 配置信息

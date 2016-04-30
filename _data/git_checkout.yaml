@@ -1,7 +1,0 @@
-commandlinefu_id: 3001
-translator:
-  weibo: tgic
-command: |-
-  git checkout -
-summary: |-
-  切换回刚才的分支

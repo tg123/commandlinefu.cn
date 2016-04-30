@@ -1,7 +1,0 @@
-commandlinefu_id: 7835
-translator:
-  weibo: tgic
-command: |-
-  sw_vers [-productName|-productVersion|-buildVersion]
-summary: |-
-  获取系统版本(OS X)

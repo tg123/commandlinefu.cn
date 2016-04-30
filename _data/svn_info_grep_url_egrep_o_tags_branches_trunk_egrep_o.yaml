@@ -1,8 +1,0 @@
-commandlinefu_id: 1877
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn info | grep '^URL:' | egrep -o '(tags|branches)/[^/]+|trunk' | egrep -o '[^/]+$'
-summary: |-
-  Get the current svn branch/tag (Good for PS1/PROMPT_COMMAND cases)

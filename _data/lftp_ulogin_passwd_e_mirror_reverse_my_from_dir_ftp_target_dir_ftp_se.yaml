@@ -1,8 +1,0 @@
-commandlinefu_id: 8207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lftp -ulogin,passwd -e "mirror --reverse /my/from/dir/ /ftp/target/dir/" ftp.server.xx
-summary: |-
-  mirrors directory to a ftp server

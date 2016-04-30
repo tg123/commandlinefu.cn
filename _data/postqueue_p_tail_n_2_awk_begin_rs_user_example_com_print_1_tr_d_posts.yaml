@@ -1,8 +1,0 @@
-commandlinefu_id: 14047
-translator:
-  weibo: ''
-hide: true
-command: |-
-  postqueue -p | tail -n +2 | awk 'BEGIN { RS = "" } / user@example\.com/ { print $1 }' | tr -d '*!' | postsuper -d -
-summary: |-
-  Delete specific sender in mailq

@@ -1,8 +1,0 @@
-commandlinefu_id: 12897
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (echo >/dev/tcp/localhost/25) &>/dev/null && echo "TCP port 25 open" || echo "TCP port 25 close"
-summary: |-
-  Check if TCP port 25 is open

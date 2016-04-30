@@ -1,8 +1,0 @@
-commandlinefu_id: 166
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in */*.rar; do unrar x $x; done
-summary: |-
-  Unrar multiple directories into current working directory

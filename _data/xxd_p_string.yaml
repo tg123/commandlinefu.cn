@@ -1,8 +1,0 @@
-commandlinefu_id: 8900
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xxd -p <<< <STRING>
-summary: |-
-  convert ascii string to hex

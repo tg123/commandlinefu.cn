@@ -1,8 +1,0 @@
-commandlinefu_id: 12494
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . | sort | awk 'NR%2==0' | xargs rm $1
-summary: |-
-  purge half of files in backup directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -c -e '^cpu[0-9]\+' /proc/stat
-summary: |-
-  Finding the number of cpu's

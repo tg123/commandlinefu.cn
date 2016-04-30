@@ -1,7 +1,0 @@
-commandlinefu_id: 13491
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,LaunchTime]' --output text | sort -n -k 2
-summary: |-
-  使用AWS命令行和JQ来获取以启动时间排序的instances列表

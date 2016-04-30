@@ -1,8 +1,0 @@
-commandlinefu_id: 753
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -type f -exec grep -l pattern {} \; | xargs vi +/pattern
-summary: |-
-  找到包含 pattern 的所有文件，使用vi打开它们并把光标置于第一个匹配的位置(使用'n'和':n'进行导航)

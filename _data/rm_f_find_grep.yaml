@@ -1,7 +1,0 @@
-commandlinefu_id: 7052
-translator:
-  weibo: tgic
-command: |-
-  rm -f `find ./ | grep "\.\_.*"`
-summary: |-
-  清理 osx 的 ._ 文件

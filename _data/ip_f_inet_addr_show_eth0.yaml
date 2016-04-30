@@ -1,7 +1,0 @@
-commandlinefu_id: 10525
-translator:
-  weibo: tgic
-command: |-
-  ip -f inet addr show eth0
-summary: |-
-  显示ip地址

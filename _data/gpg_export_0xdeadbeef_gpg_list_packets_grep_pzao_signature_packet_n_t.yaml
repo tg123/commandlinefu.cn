@@ -1,8 +1,0 @@
-commandlinefu_id: 11966
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg --export 0xDEADBEEF | gpg --list-packets | grep -Pzao ':signature packet:.*\n\t.*sigclass 0x20(\n\t.*)*'
-summary: |-
-  Show reason of revocation for 0xDEADBEEF with gpg.

@@ -1,7 +1,0 @@
-commandlinefu_id: 1622
-translator:
-  weibo: tgic
-command: |-
-  find / -nouser -o -nogroup -print
-summary: |-
-  列出没有主人的文件

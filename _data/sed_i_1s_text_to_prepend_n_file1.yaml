@@ -1,7 +1,0 @@
-commandlinefu_id: 8714
-translator:
-  weibo: tgic
-command: |-
-  sed -i '1s/^/text to prepend\n/' file1
-summary: |-
-  文件尾部添加文本

@@ -1,8 +1,0 @@
-commandlinefu_id: 9098
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ $EUID -ne 0 ]; then if [ -t 0 ]; then exec sudo $0; else exec gksu $0; fi; fi;
-summary: |-
-  Force the script to be started as root

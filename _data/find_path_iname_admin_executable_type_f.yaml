@@ -1,8 +1,0 @@
-commandlinefu_id: 5199
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ${PATH//:/ } -iname "*admin*" -executable -type f
-summary: |-
-  List all execs in $PATH, usefull for grepping the resulting list

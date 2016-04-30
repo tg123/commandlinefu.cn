@@ -1,7 +1,0 @@
-commandlinefu_id: 10600
-translator:
-  weibo: codepiano
-command: |-
-  read -p "Question that you want an answer to?" yn
-summary: |-
-  向用户请求输入，用户输入y/n后继续

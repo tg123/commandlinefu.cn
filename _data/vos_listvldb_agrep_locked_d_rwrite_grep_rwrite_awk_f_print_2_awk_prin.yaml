@@ -1,8 +1,0 @@
-commandlinefu_id: 1518
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vos listvldb | agrep LOCKED -d RWrite | grep RWrite: | awk -F: '{print $2}' | awk '{printf("%s ",$1)} END {printf("\n")}'
-summary: |-
-  Display list of locked AFS volumes (if any)

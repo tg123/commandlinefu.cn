@@ -1,8 +1,0 @@
-commandlinefu_id: 8063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setxkbmap -layout us,ru -variant basic,phonetic -option -option grp:switch,grp:caps_toggle
-summary: |-
-  For setting of double keyboard layouts: us, ru, but you can write in phonetic like www.translit.ru

@@ -1,8 +1,0 @@
-commandlinefu_id: 13904
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for USER in /var/spool/cron/*; do echo "--- crontab for $USER ---"; cat "$USER"; done
-summary: |-
-  See crontabs for all users that have one

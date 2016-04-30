@@ -1,7 +1,0 @@
-commandlinefu_id: 5684
-translator:
-  weibo: tgic
-command: |-
-  getent passwd | awk -F: '($3>600) && ($3<10000) && ($3>maxuid) { maxuid=$3; } END { print maxuid+1; }'
-summary: |-
-  寻找下一个可用的uid

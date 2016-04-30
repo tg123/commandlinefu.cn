@@ -1,7 +1,0 @@
-commandlinefu_id: 8552
-translator:
-  weibo: tgic
-command: |-
-  tail /var/log/auth.log -n 100
-summary: |-
-  显示倒数100行

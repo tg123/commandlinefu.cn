@@ -1,8 +1,0 @@
-commandlinefu_id: 11873
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (echo -e "HTTP/1.1 200 Ok\n\r"; tail -f /var/log/syslog) | nc -l 1234
-summary: |-
-  Tail a log-file over the network

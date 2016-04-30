@@ -1,8 +1,0 @@
-commandlinefu_id: 9255
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in *.mp4; do mv "$file" "${file%.*} [$(cksfv -b -q "$file" | egrep -o "\b[A-F0-9]{8}\b$")].${file#*.}"; done
-summary: |-
-  Add crc32 checksum in the filenames of all mp4

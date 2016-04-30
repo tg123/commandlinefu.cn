@@ -1,7 +1,0 @@
-commandlinefu_id: 1502
-translator:
-  weibo: codepiano
-command: |-
-  convert -font -misc-fixed-*-*-*-*-*-*-*-*-*-*-*-* -fill black -draw "text 270,260 \" `cal` \"" testpic.jpg newtestpic.jpg
-summary: |-
-  在桌面壁纸上添加日历

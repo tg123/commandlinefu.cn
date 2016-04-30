@@ -1,8 +1,0 @@
-commandlinefu_id: 1059
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vncviewer -via root@your.dyndns.com 192.168.1.1
-summary: |-
-  Simple way to envoke a secure vnc session through ssh enabled router.

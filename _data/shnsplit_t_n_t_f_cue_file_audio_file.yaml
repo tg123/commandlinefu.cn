@@ -1,8 +1,0 @@
-commandlinefu_id: 12914
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shnsplit -t "%n-%t" -f <cue file> <audio file>
-summary: |-
-  Split lossless audio (ape, flac, wav, wv) by cue file

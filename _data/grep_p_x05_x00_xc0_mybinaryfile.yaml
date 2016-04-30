@@ -1,8 +1,0 @@
-commandlinefu_id: 5959
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -P "\x05\x00\xc0" mybinaryfile
-summary: |-
-  grep binary (hexadecimal) patterns

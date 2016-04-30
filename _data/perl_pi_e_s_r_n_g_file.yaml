@@ -1,7 +1,0 @@
-commandlinefu_id: 6186
-translator:
-  weibo: '猪了个去'
-command: |-
-  perl -pi -e "s/\r/\n/g" <file>
-summary: |-
-  使用perl内联替换，替换DOS字符回车符\r变成换行符\n

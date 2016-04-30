@@ -1,8 +1,0 @@
-commandlinefu_id: 11559
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -E 'say $_,`tput setb $_`," "x(`tput cols`-length("$_")),`tput sgr0` for 0..(`tput colors`-1)'
-summary: |-
-  Show all available colors on your terminal.

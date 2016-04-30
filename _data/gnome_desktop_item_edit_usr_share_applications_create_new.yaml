@@ -1,8 +1,0 @@
-commandlinefu_id: 13131
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gnome-desktop-item-edit /usr/share/applications/ --create-new
-summary: |-
-  Add new software to Gnome search menu thing

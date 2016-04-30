@@ -1,8 +1,0 @@
-commandlinefu_id: 2098
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Q="reddit|digg"; F=*.log; awk -F\" '{print $4}' $F | egrep $Q | wc -l
-summary: |-
-  Count how many times a certain referer appears in your apache log

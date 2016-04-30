@@ -1,7 +1,0 @@
-commandlinefu_id: 9856
-translator:
-  weibo: tgic
-command: |-
-  hex() { bc <<< "obase=16; $1"; }
-summary: |-
-  转换为16进制

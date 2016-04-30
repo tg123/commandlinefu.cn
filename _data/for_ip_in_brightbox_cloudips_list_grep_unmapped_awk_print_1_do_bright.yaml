@@ -1,8 +1,0 @@
-commandlinefu_id: 9045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for ip in `brightbox-cloudips list |grep unmapped|awk '{ print $1}'`;do brightbox-cloudips destroy $ip;done
-summary: |-
-  Destroy all unmapped Brightbox Cloud IPs

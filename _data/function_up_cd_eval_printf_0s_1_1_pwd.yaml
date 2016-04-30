@@ -1,7 +1,0 @@
-commandlinefu_id: 11786
-translator:
-  weibo: tgic
-command: |-
-  function up { cd $(eval printf '../'%.0s {1..$1}) && pwd; }
-summary: |-
-  快速到达上一级目录

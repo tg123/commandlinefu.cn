@@ -1,8 +1,0 @@
-commandlinefu_id: 14095
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.cbr ; do mkdir ${i/\.cbr/} ; cp $i ${i/\.cbr/}/${i/cbr/rar} ; cd ${i/\.cbr/} ; unrar e ${i/cbr/rar}  ; rm ${i/cbr/rar} ; cd .. ; zip -r ${i/cbr/cbz} ${i/\.cbr/} ; rm -r ${i/\.cbr/} ; done
-summary: |-
-  Convert a bunch of file from cbr to cbz

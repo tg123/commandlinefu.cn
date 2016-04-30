@@ -1,7 +1,0 @@
-commandlinefu_id: 7551
-translator:
-  weibo: codepiano
-command: |-
-  grep -i "$*" /usr/lib/perl5/Unicode/CharName.pm | while read a b; do /usr/bin/printf "\u$a\tU+%s\t%s\n"  "$b"; done
-summary: |-
-  使用名称来查找字符的unicode码

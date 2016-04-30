@@ -1,8 +1,0 @@
-commandlinefu_id: 6490
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rename 'y/ /_/' *
-summary: |-
-  Convert spaces in file names to underscores

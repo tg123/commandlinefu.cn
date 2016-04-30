@@ -1,7 +1,0 @@
-commandlinefu_id: 12528
-translator:
-  weibo: tgic
-command: |-
-  find /var/scripts -name 'backup*' -exec {} ';'
-summary: |-
-  运行多个脚本

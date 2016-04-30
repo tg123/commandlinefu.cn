@@ -1,8 +1,0 @@
-commandlinefu_id: 10123
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo cpupower frequency-set -f <frequency in MHz>
-summary: |-
-  Manual CPU Frequency/Speed/Clock Set

@@ -1,7 +1,0 @@
-commandlinefu_id: 2701
-translator:
-  weibo: tgic
-command: |-
-  sed -n '/<Tag>/,/<\/Tag>/p' logfile.log
-summary: |-
-  从日志中提取xml

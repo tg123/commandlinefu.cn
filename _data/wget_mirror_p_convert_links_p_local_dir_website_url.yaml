@@ -1,7 +1,0 @@
-commandlinefu_id: 9051
-translator:
-  weibo: tgic
-command: |-
-  wget --mirror -p --convert-links -P ./<LOCAL-DIR> <WEBSITE-URL>
-summary: |-
-  用wget作网站的镜像

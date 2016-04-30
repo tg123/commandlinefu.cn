@@ -1,8 +1,0 @@
-commandlinefu_id: 5821
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /proc/acpi/battery/BAT0/state
-summary: |-
-  Check whether laptop is running on battery or cable

@@ -1,8 +1,0 @@
-commandlinefu_id: 8613
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :bufdo %s/foo/bar/ge | up
-summary: |-
-  substitute in each buffer in the buffer list

@@ -1,7 +1,0 @@
-commandlinefu_id: 4008
-translator:
-  weibo: tgic
-command: |-
-  find . ! -type d -exec chmod -x {}\;
-summary: |-
-  清除所有文件的执行权限 不影响目录

@@ -1,7 +1,0 @@
-commandlinefu_id: 2178
-translator:
-  weibo: tgic
-command: |-
-  mkdir `date --iso`
-summary: |-
-  使用当前日期创建目录

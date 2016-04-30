@@ -1,8 +1,0 @@
-commandlinefu_id: 1379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in `find /path/ -type d | cut -b bytesoffoldername-`; do mkdir -p newpath/$x; done
-summary: |-
-  Replicate a directory structure dropping the files

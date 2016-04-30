@@ -1,7 +1,0 @@
-commandlinefu_id: 9933
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  fping -r1 -Aag <network>/<cidr_mask> 2>/dev/null | sort -gt. -k4
-summary: |-
-  查询在当前网络中运行的机器的IP地址

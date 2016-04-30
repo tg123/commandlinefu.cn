@@ -1,8 +1,0 @@
-commandlinefu_id: 1493
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -qa --qf '%{SIZE} %{NAME}\n' | sort -nr | nl | head -6 # six largest RPMs
-summary: |-
-  Display 6 largest installed RPMs sorted by size (descending)

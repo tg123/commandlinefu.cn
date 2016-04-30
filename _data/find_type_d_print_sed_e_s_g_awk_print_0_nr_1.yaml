@@ -1,7 +1,0 @@
-commandlinefu_id: 3756
-translator:
-  weibo: tgic
-command: |-
-  find . -type d -print | sed -e 's;[^/]*/;..........;g'|awk '{print $0"-("NR-1")"}'
-summary: |-
-  打印目录树

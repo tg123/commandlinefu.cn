@@ -1,8 +1,0 @@
-commandlinefu_id: 1413
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export PS1='\n[\u@\h \! \w]\n\[\e[32m\]$ \[\e[0m\]'
-summary: |-
-  Bash prompt with user name, host, history number, current dir and just a touch of color

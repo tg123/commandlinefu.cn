@@ -1,7 +1,0 @@
-commandlinefu_id: 11087
-translator:
-  weibo: tgic
-command: |-
-  cat index.html | grep -o '<a .*href=.*>' | sed -e 's/<a /\n<a /g' | sed -e 's/<a .*href=['"'"'"]//' -e 's/["'"'"'].*$//' -e '/^$/ d'
-summary: |-
-  提取锚点

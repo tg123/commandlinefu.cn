@@ -1,7 +1,0 @@
-commandlinefu_id: 8662
-translator:
-  weibo: tgic
-command: |-
-  mem(){ { case $1 in st*|[vgid]*) printf "%s " "$@";; *) dd if=$3 2>&1|sed '$!d;/^0/d;s/ .*//;s/^/'"$1"' '"$2"' 1 0 /; r '"$3"'' 2>/dev/null;;esac;printf "\r\nquit\r\n";}|nc -n 127.0.0.1 11211; }
-summary: |-
-  使用 dd sed nc 制作一个memcached client

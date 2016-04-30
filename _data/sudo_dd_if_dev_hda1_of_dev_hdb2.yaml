@@ -1,7 +1,0 @@
-commandlinefu_id: 3351
-translator:
-  weibo: tgic
-command: |-
-  sudo dd if=/dev/hda1 of=/dev/hdb2
-summary: |-
-  克隆硬盘

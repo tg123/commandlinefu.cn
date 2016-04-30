@@ -1,7 +1,0 @@
-commandlinefu_id: 1810
-translator:
-  weibo: tgic
-command: |-
-  lynx -dump -head http://www.example.com/
-summary: |-
-  使用lynx dump http 头

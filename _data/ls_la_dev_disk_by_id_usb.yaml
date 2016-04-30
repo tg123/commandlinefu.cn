@@ -1,8 +1,0 @@
-commandlinefu_id: 4159
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la /dev/disk/by-id/usb-*
-summary: |-
-  Get names of files in /dev, a USB device is attached to

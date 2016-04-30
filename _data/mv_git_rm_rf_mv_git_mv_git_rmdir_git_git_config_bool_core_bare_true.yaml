@@ -1,8 +1,0 @@
-commandlinefu_id: 7981
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv .git .. && rm -rf * && mv ../.git . && mv .git/* . && rmdir .git && git config --bool core.bare true
-summary: |-
-  Convert an existing Git repo to a bare repo

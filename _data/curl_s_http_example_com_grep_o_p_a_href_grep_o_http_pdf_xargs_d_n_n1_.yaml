@@ -1,7 +1,0 @@
-commandlinefu_id: 8608
-translator:
-  weibo: tgic
-command: |-
-  curl -s http://example.com | grep -o -P "<a.*href.*>" | grep -o "http.*.pdf" |  xargs -d"\n" -n1  wget -c
-summary: |-
-  从目标网页上提取所有的pdf 链接 并 wget

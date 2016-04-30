@@ -1,8 +1,0 @@
-commandlinefu_id: 6574
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname '*.jpg' -type f -print0 |perl -0 -ne '$a+=-s $_;END{print "$a\n"}'
-summary: |-
-  Summarize size of all files of given type in all subdirectories (in bytes)

@@ -1,8 +1,0 @@
-commandlinefu_id: 1876
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo update-alternatives --config editor
-summary: |-
-  Change the default editor for modifying the sudoers list.

@@ -1,7 +1,0 @@
-commandlinefu_id: 13047
-translator:
-  weibo: particle128
-command: |-
-  netstat -tup -W | column -t
-summary: |-
-  netstat输出中显示完整的URL

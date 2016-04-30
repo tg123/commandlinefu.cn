@@ -1,8 +1,0 @@
-commandlinefu_id: 9023
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp httpd.conf{,.bk}
-summary: |-
-  Short and elegant way to backup a single file before you change it.

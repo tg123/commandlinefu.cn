@@ -1,7 +1,0 @@
-commandlinefu_id: 10326
-translator:
-  weibo: tgic
-command: |-
-  pkill -9 -u username
-summary: |-
-  杀死用户所有进程

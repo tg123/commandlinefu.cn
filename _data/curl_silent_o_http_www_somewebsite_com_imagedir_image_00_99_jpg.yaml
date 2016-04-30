@@ -1,7 +1,0 @@
-commandlinefu_id: 9088
-translator:
-  weibo: tgic
-command: |-
-  curl --silent -O "http://www.somewebsite.com/imagedir/image_[00-99].jpg"
-summary: |-
-  批量下载有序的文件

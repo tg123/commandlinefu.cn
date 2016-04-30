@@ -1,8 +1,0 @@
-commandlinefu_id: 3785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rlwrap mosml
-summary: |-
-  MoscowML with editable input-line and history

@@ -1,8 +1,0 @@
-commandlinefu_id: 4220
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  for f in *.jar; do if jar -tf $f | grep -q javax.servlet; then echo $f; fi; done
-summary: |-
-  在jar文件中寻找指定的 namespace

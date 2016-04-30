@@ -1,8 +1,0 @@
-commandlinefu_id: 7181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pushd .
-summary: |-
-  Save the current directory without leaving it

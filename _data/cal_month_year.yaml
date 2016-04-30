@@ -1,8 +1,0 @@
-commandlinefu_id: 789
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  cal [[month] year]
-summary: |-
-  显示日历

@@ -1,7 +1,0 @@
-commandlinefu_id: 8981
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lsof -iTCP -sTCP:LISTEN
-summary: |-
-  用lsof列出正在监听的端口，对应的进程和进程的所有者

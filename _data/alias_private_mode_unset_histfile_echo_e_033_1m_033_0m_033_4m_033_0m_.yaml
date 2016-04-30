@@ -1,8 +1,0 @@
-commandlinefu_id: 11906
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  alias private_mode='unset HISTFILE && echo -e "\033[1m[\033[0m\033[4m*\033[0m\033[1m] \033[0m\033[4mprivate mode activated.\033[0m"'
-summary: |-
-  隐私模式（进入不纪录命令历史的模式）

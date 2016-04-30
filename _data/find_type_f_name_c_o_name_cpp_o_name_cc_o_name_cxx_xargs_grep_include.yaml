@@ -1,8 +1,0 @@
-commandlinefu_id: 10994
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f \( -name '*.c' -o -name '*.cpp' -o -name '*.cc' -o -name '*.cxx' \) | xargs grep "#include.*\.c.*" 2>&1 | tee source_inside_source_list.txt
-summary: |-
-  List down source files which include another source file

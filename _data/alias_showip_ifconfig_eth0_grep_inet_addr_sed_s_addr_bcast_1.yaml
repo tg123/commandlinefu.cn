@@ -1,7 +1,0 @@
-commandlinefu_id: 1669
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  alias showip="ifconfig eth0 | grep 'inet addr:' | sed 's/.*addr\:\(.*\) Bcast\:.*/\1/'"
-summary: |-
-  一个显示我自己的ip配置的别名

@@ -1,8 +1,0 @@
-commandlinefu_id: 1070
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `recode -l | cut -d" " -f 1`; do echo $i": ?" | recode utf-8..$i -s -p >> temp; done; vim temp
-summary: |-
-  List encoding of ? in all avalible char sets

@@ -1,7 +1,0 @@
-commandlinefu_id: 9943
-translator:
-  weibo: lzz36
-command: |-
-  who am i
-summary: |-
-  获取当前tty名

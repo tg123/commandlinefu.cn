@@ -1,8 +1,0 @@
-commandlinefu_id: 13711
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in $(find /var/backup -name "backup*" -type f |sort -r | tail -n +10); do rm -f $file; done ; tar czf /var/backup/backup-system-$(date "+\%Y\%m\%d\%H\%M-\%N").tgz  --exclude /home/dummy /etc /home /opt 2>&- && echo "system backup ok"
-summary: |-
-  10 files backup rotate in crontab

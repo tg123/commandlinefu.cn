@@ -1,8 +1,0 @@
-commandlinefu_id: 4898
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/sbin/dmidecode | grep -i "current speed"
-summary: |-
-  See your current RAM frequency

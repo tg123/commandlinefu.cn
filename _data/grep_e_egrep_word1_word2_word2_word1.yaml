@@ -1,8 +1,0 @@
-commandlinefu_id: 12137
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -E/egrep 'word1.*word2|word2.*word1' "$@"
-summary: |-
-  grep 2 words existing on the same line

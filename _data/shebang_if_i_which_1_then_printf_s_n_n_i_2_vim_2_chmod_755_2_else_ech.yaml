@@ -1,8 +1,0 @@
-commandlinefu_id: 8050
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shebang() { if i=$(which $1); then printf '#!%s\n\n' $i >  $2 && vim + $2 && chmod 755 $2; else echo "'which' could not find $1, is it in your \$PATH?"; fi; }
-summary: |-
-  create a new script, automatically populating the shebang line, editing the script, and making it executable.

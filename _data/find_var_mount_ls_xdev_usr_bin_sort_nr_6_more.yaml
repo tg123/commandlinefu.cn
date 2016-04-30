@@ -1,8 +1,0 @@
-commandlinefu_id: 2188
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var -mount -ls -xdev | /usr/bin/sort -nr +6 | more
-summary: |-
-  find largest file in /var

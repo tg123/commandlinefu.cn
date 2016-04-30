@@ -1,7 +1,0 @@
-commandlinefu_id: 3860
-translator:
-  weibo: tgic
-command: |-
-  touch -r "$FILE1" "$FILE2"
-summary: |-
-  复制修改时间

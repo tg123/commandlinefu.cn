@@ -1,7 +1,0 @@
-commandlinefu_id: 8041
-translator:
-  weibo: tgic
-command: |-
-  until (ssh root@host 2> /dev/null); do date; sleep 15; done
-summary: |-
-  在等待ssh响应的时候做一些别的事情

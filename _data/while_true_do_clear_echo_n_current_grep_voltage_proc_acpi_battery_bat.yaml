@@ -1,8 +1,0 @@
-commandlinefu_id: 5820
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true;do clear;echo -n Current\ `grep voltage /proc/acpi/battery/BAT0/state | awk '{print $2" "$3" "$4}'`;for i in `seq 1 5`;do sleep 1;echo -n .;done;done
-summary: |-
-  Check whether laptop is running on battery or cable

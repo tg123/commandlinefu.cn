@@ -1,7 +1,0 @@
-commandlinefu_id: 5339
-translator:
-  weibo: tgic
-command: |-
-  !!:gs/Original/New/
-summary: |-
-  执行上一次命令也可以使用替换的

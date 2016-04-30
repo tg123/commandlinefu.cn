@@ -1,7 +1,0 @@
-commandlinefu_id: 3598
-translator:
-  weibo: tgic
-command: |-
-  perl -MCPAN -e 'CPAN::Shell->install(CPAN::Shell->r)'
-summary: |-
-  升级所有perl mod

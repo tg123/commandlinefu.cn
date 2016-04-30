@@ -1,8 +1,0 @@
-commandlinefu_id: 3162
-translator:
-  weibo: ''
-hide: true
-command: |-
-  locate -e somefile | xargs ls -l
-summary: |-
-  locate a filename, make sure it exists and display it with full details

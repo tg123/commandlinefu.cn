@@ -1,7 +1,0 @@
-commandlinefu_id: 7838
-translator:
-  weibo: codepiano
-command: |-
-  seq -s^2+ 11 |rev| cut -d'+' -f2- | rev | bc
-summary: |-
-  计算平方和

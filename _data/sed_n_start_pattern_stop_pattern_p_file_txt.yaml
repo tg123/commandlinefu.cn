@@ -1,7 +1,0 @@
-commandlinefu_id: 3885
-translator:
-  weibo: tgic
-command: |-
-  sed -n /start_pattern/,/stop_pattern/p file.txt
-summary: |-
-  显示文本得一块

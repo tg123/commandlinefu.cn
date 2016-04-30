@@ -1,8 +1,0 @@
-commandlinefu_id: 5009
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps axo rss,comm,pid | awk '{ proc_list[$2]++; proc_list[$2 "," 1] += $1; } END { for (proc in proc_list) { printf("%d\t%s\n", proc_list[proc "," 1],proc); }}' | sort -n | tail -n 10
-summary: |-
-  Top ten (or whatever) memory utilizing processes (with children aggregate)

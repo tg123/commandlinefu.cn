@@ -1,8 +1,0 @@
-commandlinefu_id: 3972
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tty > /dev/null 2>&1 || { aplay error.wav ; exit 1 ;}
-summary: |-
-  确认脚本在terminal中运行

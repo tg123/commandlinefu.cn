@@ -1,8 +1,0 @@
-commandlinefu_id: 12302
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -n '1!G;h;$p' techie.txt
-summary: |-
-  Print file content in reverse order

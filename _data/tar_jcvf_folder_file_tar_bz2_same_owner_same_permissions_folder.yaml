@@ -1,8 +1,0 @@
-commandlinefu_id: 981
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -jcvf /folder/file.tar.bz2 --same-owner --same-permissions /folder/
-summary: |-
-  Compress a file or directory keeping the owner and permissions

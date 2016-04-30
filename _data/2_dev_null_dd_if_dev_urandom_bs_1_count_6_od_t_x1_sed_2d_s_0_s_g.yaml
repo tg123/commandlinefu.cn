@@ -1,7 +1,0 @@
-commandlinefu_id: 8471
-translator:
-  weibo: tgic
-command: |-
-  2>/dev/null dd if=/dev/urandom bs=1 count=6 | od -t x1 |sed '2d;s/^0\+ //;s/ /:/g'
-summary: |-
-  生成随机的mac地址

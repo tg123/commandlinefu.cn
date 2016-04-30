@@ -1,7 +1,0 @@
-commandlinefu_id: 10006
-translator:
-  weibo: tgic
-command: |-
-  sed "s/\([a-zA-Z]*\:\/\/[^,]*\),\(.*\)/\<a href=\"\1\"\>\2\<\/a\>/"
-summary: |-
-  把url转换成超链接

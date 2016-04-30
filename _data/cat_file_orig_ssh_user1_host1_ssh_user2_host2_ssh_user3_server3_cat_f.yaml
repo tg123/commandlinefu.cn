@@ -1,7 +1,0 @@
-commandlinefu_id: 9344
-translator:
-  weibo: tgic
-command: |-
-  cat file.orig | ssh user1@host1 "ssh user2@host2 \"ssh user3@server3 'cat >file.dest'\""
-summary: |-
-  三次跳板复制文件的方法

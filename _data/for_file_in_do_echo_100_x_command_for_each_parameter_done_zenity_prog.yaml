@@ -1,8 +1,0 @@
-commandlinefu_id: 6725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (for FILE in $@; do echo $[100*++x/$#]; command-for-each-parameter; done)|zenity --progress --auto-close
-summary: |-
-  Zenity percent progressbar for scripts accepting parameters

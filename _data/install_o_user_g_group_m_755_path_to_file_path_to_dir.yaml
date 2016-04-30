@@ -1,7 +1,0 @@
-commandlinefu_id: 918
-translator:
-  weibo: tgic
-command: |-
-  install -o user -g group -m 755 /path/to/file /path/to/dir/
-summary: |-
-  复制文件同时设置权限

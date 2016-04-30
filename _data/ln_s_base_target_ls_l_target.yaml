@@ -1,8 +1,0 @@
-commandlinefu_id: 11188
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ln -s /base/* /target && ls -l /target
-summary: |-
-  Symlink all files from a base directory to a target directory

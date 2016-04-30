@@ -1,7 +1,0 @@
-commandlinefu_id: 2789
-translator:
-  weibo: 玄文处幽
-command: |-
-  cdparanoia -B
-summary: |-
-  在当前目录下翻录CD音轨为wav文件

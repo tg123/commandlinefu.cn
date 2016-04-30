@@ -1,8 +1,0 @@
-commandlinefu_id: 8711
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cdd [NAMED_OPTIONS] [FREEFORM_OPTIONS]
-summary: |-
-  Cd Deluxe - improved cd command for *nix and windows

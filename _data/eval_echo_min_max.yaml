@@ -1,8 +1,0 @@
-commandlinefu_id: 13194
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $(eval "echo {${min}..${max}}")
-summary: |-
-  Dynamic Range in Bash

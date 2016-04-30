@@ -1,8 +1,0 @@
-commandlinefu_id: 4236
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert sample.pdf sample.jpg
-summary: |-
-  convert pdf to graphic file format (jpg , png , tiff ... )

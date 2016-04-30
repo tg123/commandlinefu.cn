@@ -1,7 +1,0 @@
-commandlinefu_id: 2340
-translator:
-  weibo: tgic
-command: |-
-  find ~/Desktop/ \( -regex '.*/\..*' \) -print -exec rm -Rf {} \;
-summary: |-
-  查找删除隐藏文件 

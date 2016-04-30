@@ -1,7 +1,0 @@
-commandlinefu_id: 10177
-translator:
-  weibo: tgic
-command: |-
-  VBoxManage modifyvm "vm-name" --vrdp on --vrdpport 3389 --vrdpauthtype external
-summary: |-
-  启动vm时候同时启动 rdp

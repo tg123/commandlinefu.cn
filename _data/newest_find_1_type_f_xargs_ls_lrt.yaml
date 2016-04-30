@@ -1,7 +1,0 @@
-commandlinefu_id: 4792
-translator:
-  weibo: tgic
-command: |-
-  newest () { find ${1:-\.} -type f |xargs ls -lrt ; }
-summary: |-
-  最新的文件

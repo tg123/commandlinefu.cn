@@ -1,7 +1,0 @@
-commandlinefu_id: 1523
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo -n 'text to be encrypted' | openssl md5
-summary: |-
-  使用OpenSSL快速生成一段文本相应的MD5串

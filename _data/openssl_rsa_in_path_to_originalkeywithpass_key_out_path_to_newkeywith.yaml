@@ -1,7 +1,0 @@
-commandlinefu_id: 11282
-translator:
-  weibo: codepiano
-command: |-
-  openssl rsa -in /path/to/originalkeywithpass.key -out /path/to/newkeywithnopass.key
-summary: |-
-  从openssl密钥文件中移除密码

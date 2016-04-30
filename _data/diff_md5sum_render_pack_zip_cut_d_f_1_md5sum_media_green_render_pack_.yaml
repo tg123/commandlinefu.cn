@@ -1,7 +1,0 @@
-commandlinefu_id: 7415
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  diff <(md5sum render_pack.zip| cut -d " " -f 1) <(md5sum /media/green/render_pack.zip| cut -d " " -f 1);echo $?
-summary: |-
-  使用md5来校验文件副本的正确性

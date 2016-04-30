@@ -1,8 +1,0 @@
-commandlinefu_id: 10472
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo text | sed $"s/./&\xCC\xB6/g"
-summary: |-
-  Add strikethrough to text

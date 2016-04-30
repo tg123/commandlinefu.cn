@@ -1,7 +1,0 @@
-commandlinefu_id: 8808
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -type f -name "*.py" -exec wc -l {} \; | awk '{ SUM += $1} END {print SUM }'
-summary: |-
-  查找项目中特定类型的文件的LOC总数

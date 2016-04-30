@@ -1,7 +1,0 @@
-commandlinefu_id: 3819
-translator:
-  weibo: '猪了个去'
-command: |-
-  argv=("$@"); rest=${argv[@]:1}; less -JMN +"/$1" `grep -l $1 $rest`
-summary: |-
-  less查看grep的结果，将会直接查看第一个文件的第一个匹配项

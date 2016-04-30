@@ -1,7 +1,0 @@
-commandlinefu_id: 1556
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mount | column -t
-summary: |-
-  以表格的形式列出当前已挂载的文件系统

@@ -1,8 +1,0 @@
-commandlinefu_id: 4018
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/hda > ~/hda.iso
-summary: |-
-  Make an iso file out of your entire hard drive

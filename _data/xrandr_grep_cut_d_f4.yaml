@@ -1,8 +1,0 @@
-commandlinefu_id: 5727
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr  | grep \* | cut -d' ' -f4
-summary: |-
-  Get current Xorg resolution via xrandr

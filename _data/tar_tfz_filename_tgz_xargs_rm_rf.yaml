@@ -1,8 +1,0 @@
-commandlinefu_id: 6210
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tar tfz filename.tgz |xargs rm -Rf
-summary: |-
-  撤销解压tar的方法

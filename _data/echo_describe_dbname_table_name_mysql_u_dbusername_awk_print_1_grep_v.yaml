@@ -1,8 +1,0 @@
-commandlinefu_id: 11048
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "DESCRIBE dbname.table_name" | mysql -u dbusername | awk '{print $1}' | grep -v Field
-summary: |-
-  Displays all the fields of a table, really usefull to run it inside editor (Emacs or vim)

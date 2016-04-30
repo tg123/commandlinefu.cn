@@ -1,7 +1,0 @@
-commandlinefu_id: 13796
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat File.txt | grep -io 'http://www.acme.com/a/files/.*.pdf'| uniq
-summary: |-
-  从文件中提取所有的url

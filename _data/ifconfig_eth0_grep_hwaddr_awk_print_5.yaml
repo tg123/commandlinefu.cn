@@ -1,8 +1,0 @@
-commandlinefu_id: 5917
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | grep 'HWaddr' | awk '{print $5}'
-summary: |-
-  mac address for eth0

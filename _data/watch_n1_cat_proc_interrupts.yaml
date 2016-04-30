@@ -1,7 +1,0 @@
-commandlinefu_id: 3101
-translator:
-  weibo: tgic
-command: |-
-  watch -n1 'cat /proc/interrupts'
-summary: |-
-  观察中断

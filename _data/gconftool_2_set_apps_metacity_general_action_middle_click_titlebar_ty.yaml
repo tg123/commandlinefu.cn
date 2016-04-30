@@ -1,8 +1,0 @@
-commandlinefu_id: 8192
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gconftool-2 --set "/apps/metacity/general/action_middle_click_titlebar" --type string "minimize"
-summary: |-
-  Minimize Apps When Middle Clicking on Titlebar

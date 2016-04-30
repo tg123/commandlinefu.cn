@@ -1,8 +1,0 @@
-commandlinefu_id: 319
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la | awk '{print $5, " " ,$9}' | sort -rn
-summary: |-
-  file sizes of current directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 9542
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  rndc flush
-summary: |-
-  清理bind9缓存

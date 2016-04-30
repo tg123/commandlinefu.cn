@@ -1,7 +1,0 @@
-commandlinefu_id: 11123
-translator:
-  weibo: tgic
-command: |-
-  alias md='mkdir -p'; alias rd='rmdir'; mcd () { mkdir "$@" && cd "$_"; }
-summary: |-
-  目录管理

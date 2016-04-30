@@ -1,7 +1,0 @@
-commandlinefu_id: 13567
-translator:
-  weibo: tgic
-command: |-
-  git log --graph --decorate --pretty=oneline --abbrev-commit
-summary: |-
-  美丽的git log

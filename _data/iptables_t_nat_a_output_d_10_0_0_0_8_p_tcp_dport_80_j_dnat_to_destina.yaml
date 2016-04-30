@@ -1,8 +1,0 @@
-commandlinefu_id: 662
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -t nat -A OUTPUT -d ! 10.0.0.0/8 -p tcp --dport 80 -j DNAT --to-destination 10.1.1.123:3128
-summary: |-
-  Tired of switching between proxy and no proxy? here's the solution.

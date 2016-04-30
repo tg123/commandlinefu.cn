@@ -1,8 +1,0 @@
-commandlinefu_id: 6833
-translator:
-  weibo: ''
-hide: true
-command: |-
-  findlocation() {place=`echo $@`; lynx -dump "http://maps.google.com/maps/geo?output=json&oe=utf-8&q=$place" | egrep "address|coordinates" | sed -e 's/^ *//' -e 's/"//g' -e 's/address/Full Address/';}
-summary: |-
-  find co-ordinates of a location

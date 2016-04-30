@@ -1,7 +1,0 @@
-commandlinefu_id: 12019
-translator:
-  weibo: tgic
-command: |-
-  tr '[:upper:]' '[:lower:]' < input.txt > output.txt
-summary: |-
-  大写转小写

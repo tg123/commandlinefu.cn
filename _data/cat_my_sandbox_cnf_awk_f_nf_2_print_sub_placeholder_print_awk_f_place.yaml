@@ -1,8 +1,0 @@
-commandlinefu_id: 8790
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat my.sandbox.cnf | awk -F "=" 'NF < 2 {print} sub("=", "=~placeholder~=") {print}' | awk -F "=~placeholder~=" 'NF < 2 {gsub("-", "_", $0); print} NF==2 {gsub("-", "_", $1); print $1 "=" $2}'
-summary: |-
-  MySQL: normalize parameter names on my.cnf configuration file

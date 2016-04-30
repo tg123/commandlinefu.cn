@@ -1,7 +1,0 @@
-commandlinefu_id: 5156
-translator:
-  weibo: tgic
-command: |-
-  python -c 'print "-"*50'
-summary: |-
-  打印50个-

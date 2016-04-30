@@ -1,7 +1,0 @@
-commandlinefu_id: 7099
-translator:
-  weibo: tgic
-command: |-
-  dlocate /path/to/file
-summary: |-
-  检查文件属于那个包(deb)

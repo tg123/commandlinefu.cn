@@ -1,8 +1,0 @@
-commandlinefu_id: 2947
-translator:
-  weibo: ''
-hide: true
-command: |-
-  update-java-alternatives
-summary: |-
-  Update program providing java on Debian

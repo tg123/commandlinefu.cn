@@ -1,8 +1,0 @@
-commandlinefu_id: 590
-translator:
-  weibo: ''
-hide: true
-command: |-
-  i=0; f=$(find . -type f -iregex ".*jpg");c=$(echo $f|sed "s/ /\n/g"| wc -l);for x in $f;do i=$(($i + 1));echo "$x $i of $c"; mogrify -strip $x;done
-summary: |-
-  Remove EXIF data from images with progress

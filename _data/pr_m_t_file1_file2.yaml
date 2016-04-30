@@ -1,8 +1,0 @@
-commandlinefu_id: 11825
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pr -m -t file1 file2 ...
-summary: |-
-  Merge files, joining each line in one line

@@ -1,8 +1,0 @@
-commandlinefu_id: 7598
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "this is a test" | sed 's/.*/\L&/; s/[a-z]*/\u&/g'
-summary: |-
-  Convert a string to "Title Case"

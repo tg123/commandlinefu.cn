@@ -1,8 +1,0 @@
-commandlinefu_id: 13528
-translator:
-  weibo: ''
-hide: true
-command: |-
-  csi -R uri-common -p '(uri-decode-string (read-line))'
-summary: |-
-  decode uri

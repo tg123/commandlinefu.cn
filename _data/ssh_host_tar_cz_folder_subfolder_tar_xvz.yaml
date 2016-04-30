@@ -1,7 +1,0 @@
-commandlinefu_id: 4034
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ssh <host> 'tar -cz /<folder>/<subfolder>' | tar -xvz
-summary: |-
-  在ssh连接中复制目录树，通过压缩流来完成，避免产生临时文件

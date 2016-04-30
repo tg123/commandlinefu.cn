@@ -1,8 +1,0 @@
-commandlinefu_id: 13894
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while sleep 1; do if [ $(echo "$(cat /proc/loadavg | cut -d' ' -f1) > .8 " | bc) -gt 0 ]; then echo -e "\n\a"$(date)"       \e[5m"$(cat /proc/loadavg)"\e[0m"; ps aux  --sort=-%cpu|head -n 5; fi; done
-summary: |-
-  Monitor system load and print out top offending processes

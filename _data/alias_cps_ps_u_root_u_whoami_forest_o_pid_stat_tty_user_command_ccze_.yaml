@@ -1,8 +1,0 @@
-commandlinefu_id: 8829
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias cps="ps -u root U `whoami` --forest -o pid,stat,tty,user,command |ccze -m ansi"
-summary: |-
-  Tree based ps view "painted" by ccze

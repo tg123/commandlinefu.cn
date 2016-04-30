@@ -1,8 +1,0 @@
-commandlinefu_id: 7085
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -print0 | (cd $DESTDIR; xargs -0 mkdir)
-summary: |-
-  Replicate a directory structure dropping the files

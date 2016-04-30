@@ -1,8 +1,0 @@
-commandlinefu_id: 10181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir rotated; for v in *.3gp; do ffmpeg -i $v -vf transpose=2 -vcodec ffv1 rotated/${v/3gp/avi} ; done
-summary: |-
-  Losslessly rotate videos from your phone by 90 degrees.

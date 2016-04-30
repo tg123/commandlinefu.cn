@@ -1,7 +1,0 @@
-commandlinefu_id: 5580
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  changing_assets = `s3cmd sync --dry-run -P -M --exclude=*.php --delete-removed #{preprod_release_dir}/web/ #{s3_bucket} | grep -E 'delete:|upload:' | awk '{print $2}' | sed s_#{preprod_release_dir}/web__`
-summary: |-
-  在Amazon S3 bucket上，获取在最近一次上传之后，有变动的文件的列表

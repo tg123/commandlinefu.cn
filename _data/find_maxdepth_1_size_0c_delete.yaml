@@ -1,7 +1,0 @@
-commandlinefu_id: 10629
-translator:
-  weibo: '猪了个去'
-command: |-
-  find . -maxdepth 1 -size 0c -delete
-summary: |-
-  从当前文件夹移除所有零尺寸的文件(非递归)

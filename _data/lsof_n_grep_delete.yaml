@@ -1,7 +1,0 @@
-commandlinefu_id: 9110
-translator:
-  weibo: tgic
-command: |-
-  lsof -n |grep delete
-summary: |-
-  查找已经删除的文件 但是还在使用的

@@ -1,8 +1,0 @@
-commandlinefu_id: 2989
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in *.ex1; do mv "${x}" "${x%ex1}ex2"; done
-summary: |-
-  Batch file name renaming (copying or moving) w/ glob matching.

@@ -1,8 +1,0 @@
-commandlinefu_id: 1129
-translator:
-  weibo: ''
-hide: true
-command: |-
-  "some line input" | sort | uniq -c | sort -nr
-summary: |-
-  Quickest way to sort/display # of occurences

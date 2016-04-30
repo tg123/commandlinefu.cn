@@ -1,8 +1,0 @@
-commandlinefu_id: 6726
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo -K
-summary: |-
-  Make sudo forget password instantly

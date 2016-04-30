@@ -1,8 +1,0 @@
-commandlinefu_id: 10813
-translator:
-  weibo: ''
-hide: true
-command: "wki () { \tdig +short txt \"${*// /_}\".wp.dg.cx | sed -e 's/^\"\\(.*\\\
-  )\"$/\\1/' -e 's/\\([^\\]\\)\"[^\\]*\"/\\1/g' -e 's/\\\\\\(.\\)/\\1/g' }"
-summary: |-
-  Query Wikipedia via console over DNS

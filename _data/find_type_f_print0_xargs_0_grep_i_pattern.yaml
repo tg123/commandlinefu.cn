@@ -1,8 +1,0 @@
-commandlinefu_id: 3568
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -print0 | xargs -0 grep -i <pattern>
-summary: |-
-  Search for a <pattern> string inside all files in the current directory

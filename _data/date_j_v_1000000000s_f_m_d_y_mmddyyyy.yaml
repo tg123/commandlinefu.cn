@@ -1,7 +1,0 @@
-commandlinefu_id: 3057
-translator:
-  weibo: '猪了个去'
-command: |-
-  date -d "+1000000000 second now"
-summary: |-
-  寻找你的十亿秒纪念日

@@ -1,8 +1,0 @@
-commandlinefu_id: 9225
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  od -c <file>
-summary: |-
-  打印所有的 字符

@@ -1,7 +1,0 @@
-commandlinefu_id: 8762
-translator:
-  weibo: tgic
-command: |-
-  rename 's/ /_/g' *
-summary: |-
-  清除文件名中的－

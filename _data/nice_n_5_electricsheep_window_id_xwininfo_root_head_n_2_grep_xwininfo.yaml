@@ -1,8 +1,0 @@
-commandlinefu_id: 7875
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nice -n 5 electricsheep -window-id `xwininfo -root|head -n 2|grep xwininfo|cut -c 22-26`
-summary: |-
-  Animated Desktop: electricsheep

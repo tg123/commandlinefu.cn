@@ -1,8 +1,0 @@
-commandlinefu_id: 11707
-translator:
-  weibo: tgic
-command: |-
-  sed  '/foo/ s/foo/foobar/g' <filename>
-summary: |-
-  优化的sed (先查找)
-

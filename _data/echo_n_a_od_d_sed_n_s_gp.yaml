@@ -1,8 +1,0 @@
-commandlinefu_id: 3825
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -n a | od -d | sed -n "s/^.* //gp"
-summary: |-
-  Get decimal ascii code from character

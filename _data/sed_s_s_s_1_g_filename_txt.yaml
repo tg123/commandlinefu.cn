@@ -1,8 +1,0 @@
-commandlinefu_id: 8049
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed "s/^ *//;s/ *$//;s/ \{1,\}/ /g" filename.txt
-summary: |-
-  Remove multiple spaces

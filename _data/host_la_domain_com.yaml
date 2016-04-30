@@ -1,8 +1,0 @@
-commandlinefu_id: 1762
-translator:
-  weibo: ''
-hide: true
-command: |-
-  host -la domain.com
-summary: |-
-  Dns zone transfer

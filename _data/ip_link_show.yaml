@@ -1,7 +1,0 @@
-commandlinefu_id: 4991
-translator:
-  weibo: tgic
-command: |-
-  ip link show
-summary: |-
-  获取所有mac地址

@@ -1,7 +1,0 @@
-commandlinefu_id: 7180
-translator:
-  weibo: tgic
-command: |-
-  wget  -q -O- --header\="Accept-Encoding: gzip" <url> | gunzip > out.html
-summary: |-
-  以gz方式下载网页

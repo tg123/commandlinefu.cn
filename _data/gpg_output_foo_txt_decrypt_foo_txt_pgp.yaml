@@ -1,7 +1,0 @@
-commandlinefu_id: 821
-translator:
-  weibo: tgic
-command: |-
-  gpg --output foo.txt --decrypt foo.txt.pgp
-summary: |-
-  使用GPG解码

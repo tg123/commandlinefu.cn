@@ -1,7 +1,0 @@
-commandlinefu_id: 8012
-translator:
-  weibo: codepiano
-command: |-
-  cgrep() { GREP_COLOR="1;3$((RANDOM%6+1))" grep --color=always "$@" }
-summary: |-
-  随机的GNU grep颜色

@@ -1,7 +1,0 @@
-commandlinefu_id: 4021
-translator:
-  weibo: tgic
-command: |-
-  reset
-summary: |-
-  如果 terminal 被 二进制字符污染了 可以实验下

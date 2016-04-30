@@ -1,8 +1,0 @@
-commandlinefu_id: 7954
-translator:
-  weibo: tgic
-command: |-
-  paste -sd'+' file|bc -l
-summary: |-
-  Add a list of numbers
-  数字文件求和

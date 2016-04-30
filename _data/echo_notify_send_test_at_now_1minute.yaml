@@ -1,7 +1,0 @@
-commandlinefu_id: 6270
-translator:
-  weibo: particle128
-command: |-
-  echo notify-send test | at now+1minute
-summary: |-
-  1分钟后发送桌面消息给用户

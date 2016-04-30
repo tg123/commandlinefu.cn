@@ -1,8 +1,0 @@
-commandlinefu_id: 5501
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -MDigest::SHA -e 'print substr( Digest::SHA::sha256_base64( time() ), 0, $ARGV[0] ) . "\n"' <length>
-summary: |-
-  Produce a pseudo random password with given length in base 64

@@ -1,7 +1,0 @@
-commandlinefu_id: 12552
-translator:
-  weibo: tgic
-command: |-
-  sysctl -a | grep sleeptime
-summary: |-
-  查看上次休眠时间 mac

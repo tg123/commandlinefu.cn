@@ -1,8 +1,0 @@
-commandlinefu_id: 8775
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo env ARCHFLAGS="-arch x86_64" gem install mysql
-summary: |-
-  Install mysql-2.8.1 rubygem on Mac OS X 10.6 (Snow Leopard)

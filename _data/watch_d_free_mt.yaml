@@ -1,7 +1,0 @@
-commandlinefu_id: 940
-translator:
-  weibo: tgic
-command: |-
-  watch -d "free -mt"
-summary: |-
-  监控剩余内存

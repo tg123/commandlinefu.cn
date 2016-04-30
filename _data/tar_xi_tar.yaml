@@ -1,8 +1,0 @@
-commandlinefu_id: 6260
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -xi < *.tar
-summary: |-
-  Extract multiple tar files at once in zsh

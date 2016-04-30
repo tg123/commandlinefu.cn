@@ -1,8 +1,0 @@
-commandlinefu_id: 10242
-translator:
-  weibo: ''
-hide: true
-command: |-
-  [[ $string =~ regex ]]; : for example; [[ $string =~ --.+ ]]
-summary: |-
-  bash regex match

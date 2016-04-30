@@ -1,7 +1,0 @@
-commandlinefu_id: 9369
-translator:
-  weibo: gdqyn
-command: |-
-  watch -n1 'netstat -tn | grep -P :22'
-summary: |-
-  监视一个端口链接

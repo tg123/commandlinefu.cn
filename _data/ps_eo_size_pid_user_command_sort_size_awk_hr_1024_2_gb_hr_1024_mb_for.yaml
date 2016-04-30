@@ -1,8 +1,0 @@
-commandlinefu_id: 11580
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -eo size,pid,user,command --sort -size |awk '{hr[1024**2]="GB";hr[1024]="MB";for (x=1024**3; x>=1024; x/=1024){if ($1>=x){printf ("%-6.2f %s ", $1/x, hr[x]);break}}}{printf ("%-6s %-10s ", $2, $3)}{for (x=4;x<=NF;x++){printf ("%s ",$x)} print ("\n")}'
-summary: |-
-  Find processes utilizing high memory in human readable format

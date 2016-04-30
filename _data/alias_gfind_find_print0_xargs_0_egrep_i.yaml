@@ -1,8 +1,0 @@
-commandlinefu_id: 12028
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias gfind='find . -print0  | xargs -0 egrep -I '
-summary: |-
-  Recursively search your directory tree files for a string

@@ -1,8 +1,0 @@
-commandlinefu_id: 9080
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ettercap -T -w out.pcap -i wlan0 -M ARP // //
-summary: |-
-  Sniff who are using wireless. Use wireshark to watch out.pcap :]

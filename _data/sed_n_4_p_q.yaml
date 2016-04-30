@@ -1,8 +1,0 @@
-commandlinefu_id: 6043
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -n '4{p;q}'
-summary: |-
-  显示文件的第4行

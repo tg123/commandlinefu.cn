@@ -1,8 +1,0 @@
-commandlinefu_id: 8291
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -q -sPAPERSIZE=a4 -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=out.pdf 1.pdf 2.pdf 3.pdf 4.pdf
-summary: |-
-  Concating pdf files

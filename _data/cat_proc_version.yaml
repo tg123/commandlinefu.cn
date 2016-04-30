@@ -1,7 +1,0 @@
-commandlinefu_id: 6852
-translator:
-  weibo: tgic
-command: |-
-  cat /proc/version
-summary: |-
-  显示发行版

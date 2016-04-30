@@ -1,7 +1,0 @@
-commandlinefu_id: 8720
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -type f -exec touch "{}" \;
-summary: |-
-  touch当前目录和子目录的所有文件

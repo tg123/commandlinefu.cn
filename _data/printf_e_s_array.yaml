@@ -1,7 +1,0 @@
-commandlinefu_id: 13202
-translator:
-  weibo: tgic
-command: |-
-  printf -- " -e %s" ${ARRAY[*]}
-summary: |-
-  用逗号把bash array连接起来

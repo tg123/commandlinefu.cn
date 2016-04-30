@@ -1,8 +1,0 @@
-commandlinefu_id: 6139
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo ${fullpath##*/}
-summary: |-
-  Isolate file name from full path/find output

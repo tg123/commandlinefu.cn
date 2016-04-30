@@ -1,8 +1,0 @@
-commandlinefu_id: 3133
-translator:
-  weibo: ''
-hide: true
-command: |-
-  id=<XXXX>; find /var/spool/postfix/ -name $id -exec less {} \;
-summary: |-
-  less an message on a postfix mailsystem with a specific message-id

@@ -1,8 +1,0 @@
-commandlinefu_id: 5480
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps hax -o user | sort | uniq -c
-summary: |-
-  processes per user counter

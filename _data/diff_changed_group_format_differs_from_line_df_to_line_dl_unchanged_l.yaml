@@ -1,8 +1,0 @@
-commandlinefu_id: 8570
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff --changed-group-format='differs from line %dF to line %dL|' --unchanged-line-format='' $FILE1 $FILE2 | sed 's/|/\n/'
-summary: |-
-  Describe differences between files

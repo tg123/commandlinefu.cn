@@ -1,7 +1,0 @@
-commandlinefu_id: 2886
-translator:
-  weibo: tgic
-command: |-
-  echo "Body goes here" | mutt -s "A subject" -a /path/to/file.tar.gz recipient@example.com
-summary: |-
-  发送带有附件的邮件

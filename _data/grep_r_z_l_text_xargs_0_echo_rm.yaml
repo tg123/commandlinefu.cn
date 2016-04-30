@@ -1,8 +1,0 @@
-commandlinefu_id: 10869
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r -Z -l "<text>" . | xargs -0 echo rm
-summary: |-
-  delete files containing matching text

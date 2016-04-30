@@ -1,7 +1,0 @@
-commandlinefu_id: 11875
-translator:
-  weibo: tgic
-command: |-
-  grep -q '\<lm\>' /proc/cpuinfo && echo 64 bits || echo 32 bits
-summary: |-
-  是32位还是64位

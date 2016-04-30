@@ -1,7 +1,0 @@
-commandlinefu_id: 6921
-translator:
-  weibo: tgic
-command: |-
-  alias sshv='ssh -vvv -o LogLevel=DEBUG3'
-summary: |-
-  让ssh输出更多调试信息

@@ -1,7 +1,0 @@
-commandlinefu_id: 10979
-translator:
-  weibo: tgic
-command: |-
-  ifconfig | grep "inet" | grep "broadcast" | awk '{print $2}'
-summary: |-
-  获取IP

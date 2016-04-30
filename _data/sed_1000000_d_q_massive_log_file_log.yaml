@@ -1,8 +1,0 @@
-commandlinefu_id: 16
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed '1000000!d;q' < massive-log-file.log
-summary: |-
-  如何查看大文件的某行

@@ -1,7 +1,0 @@
-commandlinefu_id: 50
-translator:
-  weibo: tgic
-command: |-
-  diff <(sort file1) <(sort file2)
-summary: |-
-  比较两个未排序的文件

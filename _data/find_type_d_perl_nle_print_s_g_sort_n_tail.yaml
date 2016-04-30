@@ -1,8 +1,0 @@
-commandlinefu_id: 1174
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d | perl -nle 'print s,/,/,g," $_"' | sort -n | tail
-summary: |-
-  Print the 10 deepest directory paths

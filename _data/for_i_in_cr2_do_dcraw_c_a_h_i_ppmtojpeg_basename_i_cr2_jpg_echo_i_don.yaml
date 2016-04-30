@@ -1,8 +1,0 @@
-commandlinefu_id: 12532
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.CR2; do dcraw -c -a -h $i | ppmtojpeg > `basename $i CR2`JPG; echo $i done; done
-summary: |-
-  Convert Canon CR2 raw pictures to JPG

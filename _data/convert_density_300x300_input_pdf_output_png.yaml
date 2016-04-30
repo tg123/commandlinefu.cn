@@ -1,7 +1,0 @@
-commandlinefu_id: 7744
-translator:
-  weibo: tgic
-command: |-
-  convert -density 300x300 input.pdf output.png
-summary: |-
-  把pdf转化成png

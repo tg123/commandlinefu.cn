@@ -1,8 +1,0 @@
-commandlinefu_id: 13814
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -speed 2 -o output.avi -ovc lavc -oac mp3lame input.avi
-summary: |-
-  slow down/speed up video file

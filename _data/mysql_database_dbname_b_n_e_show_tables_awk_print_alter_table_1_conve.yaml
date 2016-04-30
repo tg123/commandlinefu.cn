@@ -1,7 +1,0 @@
-commandlinefu_id: 1575
-translator:
-  weibo: tgic
-command: |-
-  mysql --database=dbname -B -N -e "SHOW TABLES"  | awk '{print "ALTER TABLE", $1, "CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;"}' | mysql --database=dbname &
-summary: |-
-  批量转换到utf8编码

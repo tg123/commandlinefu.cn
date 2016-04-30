@@ -1,8 +1,0 @@
-commandlinefu_id: 13903
-translator:
-  weibo: ''
-hide: true
-command: |-
-  df -h /home | grep -v Filesystem | awk '{print $5}' | sed -n '/%/p' for disk usage
-summary: |-
-  Check home disk usage

@@ -1,7 +1,0 @@
-commandlinefu_id: 9291
-translator:
-  weibo: '猪了个去'
-command: |-
-  alias cn='cat > /dev/null'
-summary: |-
-  一个alias给拷贝数据到终端却不做任何事情，可以添加到.bashrc

@@ -1,8 +1,0 @@
-commandlinefu_id: 9893
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /proc/PID/limits
-summary: |-
-  Find ulimit values of currently running process

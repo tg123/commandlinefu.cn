@@ -1,8 +1,0 @@
-commandlinefu_id: 4629
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fping -r1 -g <subnet> 2> /dev/null | grep unreachable | cut -f1 -d' '
-summary: |-
-  Find unused IPs on a given subnet

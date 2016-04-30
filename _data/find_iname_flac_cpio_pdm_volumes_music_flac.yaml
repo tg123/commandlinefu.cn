@@ -1,8 +1,0 @@
-commandlinefu_id: 8955
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname "*.flac" | cpio -pdm /Volumes/Music/FLAC
-summary: |-
-  Find all files of a type and copy them elsewhere while keeping intact their full directory structure using find and cpio

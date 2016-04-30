@@ -1,7 +1,0 @@
-commandlinefu_id: 873
-translator:
-  weibo: tgic
-command: |-
-  ls -1 /bin | xargs -l1 whatis 2>/dev/null | grep -v "nothing appropriate"
-summary: |-
-  解释所有/bin 下的命令

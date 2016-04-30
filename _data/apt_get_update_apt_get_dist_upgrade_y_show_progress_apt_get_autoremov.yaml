@@ -1,8 +1,0 @@
-commandlinefu_id: 13595
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-get update && apt-get dist-upgrade -y --show-progress && apt-get autoremove -y && apt-get check && apt-get autoclean -y
-summary: |-
-  AllInOne package maintainance

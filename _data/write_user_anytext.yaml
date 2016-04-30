@@ -1,7 +1,0 @@
-commandlinefu_id: 1260
-translator:
-  weibo: tgic
-command: |-
-  write user hello
-summary: |-
-  给用户发消息

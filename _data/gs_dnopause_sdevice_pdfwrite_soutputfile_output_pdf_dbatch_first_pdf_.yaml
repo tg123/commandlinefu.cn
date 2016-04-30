@@ -1,8 +1,0 @@
-commandlinefu_id: 6487
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=output.pdf -dBATCH first.pdf second.pdf
-summary: |-
-  Merge various PDF files

@@ -1,7 +1,0 @@
-commandlinefu_id: 12364
-translator:
-  weibo: tgic
-command: |-
-  view /file/name
-summary: |-
-  在read only 模式下打开文件

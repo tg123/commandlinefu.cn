@@ -1,8 +1,0 @@
-commandlinefu_id: 13158
-translator:
-  weibo: ''
-hide: true
-command: |-
-  icacls directory_or_file /grant user_or_group:(OI)(CI)rx /t / l /q
-summary: |-
-  Grant read-only permissions to user or group

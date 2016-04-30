@@ -1,8 +1,0 @@
-commandlinefu_id: 11482
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -ayz -e ssh --exclude=/proc --exclude=/sys --exclude=/dev / root@NEWHOST:/MNTDIR
-summary: |-
-  Migrate Server with rsync

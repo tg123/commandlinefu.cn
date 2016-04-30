@@ -1,7 +1,0 @@
-commandlinefu_id: 2256
-translator:
-  weibo: tgic
-command: |-
-  echo $BASH_VERSION
-summary: |-
-  显示bash版本

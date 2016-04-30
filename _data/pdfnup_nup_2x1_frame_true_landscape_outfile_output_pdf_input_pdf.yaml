@@ -1,8 +1,0 @@
-commandlinefu_id: 7365
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdfnup --nup 2x1 --frame true --landscape --outfile output.pdf input.pdf
-summary: |-
-  Transform a portrait pdf in a landscape one with 2 pages per page

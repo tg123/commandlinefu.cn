@@ -1,8 +1,0 @@
-commandlinefu_id: 10655
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -printf '%p\n' | perl -ne 'if( m/(.*)\/(.*)/ ) { $p = $1; $f = $2; $p =~ s/[^\/]/ /g; $p =~ s/\//|/g; print "$p/$f\n"; } elsif( m/(.*)/ ) { print "$1\n"; } else { print "error interpreting: \"$_\"\n"; }'
-summary: |-
-  Display directory hierarchy listing as a tree

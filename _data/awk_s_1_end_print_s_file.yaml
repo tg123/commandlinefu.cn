@@ -1,7 +1,0 @@
-commandlinefu_id: 11744
-translator:
-  weibo: tgic
-command: |-
-  awk '{s+=$1}END{print s}' <file>
-summary: |-
-  列求和

@@ -1,7 +1,0 @@
-commandlinefu_id: 2153
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  fold -s -w 90 file.txt
-summary: |-
-  给文本中超过90字符的行折行

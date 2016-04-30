@@ -1,7 +1,0 @@
-commandlinefu_id: 12046
-translator:
-  weibo: titikaka723 
-command: |-
-  netstat -an | grep --color -i -E 'listen|listening'
-summary: |-
-  打开制定端口的网络链接信息 

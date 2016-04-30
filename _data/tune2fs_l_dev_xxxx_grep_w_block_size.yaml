@@ -1,8 +1,0 @@
-commandlinefu_id: 7844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tune2fs -l /dev/XXXX | grep -w ^"Block size:"
-summary: |-
-  Check default block size on ext2/ext3 filesystems

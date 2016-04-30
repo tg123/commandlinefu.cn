@@ -1,7 +1,0 @@
-commandlinefu_id: 12292
-translator:
-  weibo: tgic
-command: |-
-  watch "ls -al myfile"
-summary: |-
-  监控文件变化

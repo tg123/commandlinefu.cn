@@ -1,8 +1,0 @@
-commandlinefu_id: 5117
-translator:
-  weibo: tgic
-command: |-
-  [VIM] :/\c{pattern}
-summary: |-
-  大小写不敏感的替换
-  

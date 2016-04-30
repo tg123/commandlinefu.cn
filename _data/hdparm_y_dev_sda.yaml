@@ -1,8 +1,0 @@
-commandlinefu_id: 13553
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hdparm -y /dev/sda
-summary: |-
-  Force spin-down of external hard-drive

@@ -1,8 +1,0 @@
-commandlinefu_id: 11930
-translator:
-  weibo: ''
-hide: true
-command: |-
-  melt colour:black out=24 vid.mp4 -mix 25 -mixer luma colour:black out=24 -mix 25 -mixer luma -consumer avformat:out.mp4
-summary: |-
-  Add fade in/out to first & last 25 frames of a video

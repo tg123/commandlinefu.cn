@@ -1,8 +1,0 @@
-commandlinefu_id: 13500
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Dave" | grep -o "bob" | sed 's/D/f/'; echo ${PIPESTATUS[1]};
-summary: |-
-  Get result of command in pipe sequence

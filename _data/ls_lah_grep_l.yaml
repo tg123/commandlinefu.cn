@@ -1,7 +1,0 @@
-commandlinefu_id: 4135
-translator:
-  weibo: particle128
-command: |-
-  ls -lah | grep ^l
-summary: |-
-  列出当前目录下的所有符号链接

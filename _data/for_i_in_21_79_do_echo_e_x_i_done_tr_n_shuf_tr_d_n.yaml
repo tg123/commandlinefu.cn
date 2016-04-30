@@ -1,8 +1,0 @@
-commandlinefu_id: 8287
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {21..79};do echo -e "\x$i";done | tr " " "\n" | shuf | tr -d "\n"
-summary: |-
-  Random Password Generator (uses all chars, no repeated chars)

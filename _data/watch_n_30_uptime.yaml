@@ -1,8 +1,0 @@
-commandlinefu_id: 28
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 30 uptime
-summary: |-
-  Command to keep an SSH connection open

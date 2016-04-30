@@ -1,7 +1,0 @@
-commandlinefu_id: 1692
-translator:
-  weibo: tgic
-command: |-
-  rsync --rsync-path 'sudo rsync' username@source:/folder/ /local/
-summary: |-
-  同步时候带上sudo

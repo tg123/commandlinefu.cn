@@ -1,7 +1,0 @@
-commandlinefu_id: 6867
-translator:
-  weibo: tgic
-command: |-
-  cut -f5 --complement
-summary: |-
-  使用cut反选一列

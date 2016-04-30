@@ -1,7 +1,0 @@
-commandlinefu_id: 6431
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -exec md5sum {} \; > sum.md5
-summary: |-
-  计算目录文件中的md5

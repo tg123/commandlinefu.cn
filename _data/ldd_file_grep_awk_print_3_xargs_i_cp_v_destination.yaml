@@ -1,8 +1,0 @@
-commandlinefu_id: 10238
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ldd file | grep "=> /" | awk '{print $3}' | xargs -I '{}' cp -v '{}' /destination
-summary: |-
-  Copy all shared libraries for a binary to directory

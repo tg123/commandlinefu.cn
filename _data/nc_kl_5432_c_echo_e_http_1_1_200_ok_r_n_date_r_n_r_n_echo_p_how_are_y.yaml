@@ -1,8 +1,0 @@
-commandlinefu_id: 12900
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -kl 5432 -c 'echo -e "HTTP/1.1 200 OK\r\n$(date)\r\n\r\n";echo "<p>How are you today?</p>"'
-summary: |-
-  One command line web server on port 80 using nc (netcat)

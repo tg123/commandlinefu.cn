@@ -1,8 +1,0 @@
-commandlinefu_id: 11135
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git diff -U10 |wdiff --diff-input -a -n -w $'\e[1;91m' -x $'\e[0m' -y $'\e[1;94m' -z $'\e[0m' |less -R
-summary: |-
-  Better git diff, word delimited and colorized

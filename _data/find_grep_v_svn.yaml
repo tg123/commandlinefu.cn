@@ -1,7 +1,0 @@
-commandlinefu_id: 7671
-translator:
-  weibo: tgic
-command: |-
-  find . | grep -v svn
-summary: |-
-  排除.svn的find

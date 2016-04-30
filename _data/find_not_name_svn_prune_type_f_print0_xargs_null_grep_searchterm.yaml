@@ -1,7 +1,0 @@
-commandlinefu_id: 2592
-translator:
-  weibo: tgic
-command: |-
-  find . -not \( -name .svn -prune \) -type f -print0 | xargs --null grep <searchTerm>
-summary: |-
-  查找时候避开.svn

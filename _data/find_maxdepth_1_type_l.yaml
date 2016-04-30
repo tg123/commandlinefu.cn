@@ -1,7 +1,0 @@
-commandlinefu_id: 11701
-translator:
-  weibo: tgic
-command: |-
-  find . -maxdepth 1 -type l
-summary: |-
-  查找所有符号连接

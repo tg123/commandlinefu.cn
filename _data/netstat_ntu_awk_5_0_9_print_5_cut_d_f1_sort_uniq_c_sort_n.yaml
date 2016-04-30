@@ -1,7 +1,0 @@
-commandlinefu_id: 8767
-translator:
-  weibo: tgic
-command: |-
-  netstat -ntu | awk ' $5 ~ /^[0-9]/ {print $5}' | cut -d: -f1 | sort | uniq -c | sort -n
-summary: |-
-  按ip分组的 netstat

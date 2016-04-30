@@ -1,8 +1,0 @@
-commandlinefu_id: 12327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  until !!; do :; done
-summary: |-
-  Retry the previous command until it exits successfully

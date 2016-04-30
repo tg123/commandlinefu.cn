@@ -1,8 +1,0 @@
-commandlinefu_id: 12689
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mdadm --assemble --scan --config /proc/partitions
-summary: |-
-  Assemble version 0.90 metadata RAID autodetect like in boot

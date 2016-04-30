@@ -1,8 +1,0 @@
-commandlinefu_id: 133
-translator:
-  weibo: ''
-hide: true
-command: |-
-  chgrp -R [projgroup] ; find /path/to/dir -type d -exec chmod g+s {} \;
-summary: |-
-  Turn /path/to/dir and subdirectories into a project tree

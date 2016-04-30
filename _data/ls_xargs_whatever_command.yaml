@@ -1,8 +1,0 @@
-commandlinefu_id: 13258
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | xargs WHATEVER_COMMAND
-summary: |-
-  Arguments too long

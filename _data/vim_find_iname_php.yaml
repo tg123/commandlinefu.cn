@@ -1,7 +1,0 @@
-commandlinefu_id: 8441
-translator:
-  weibo: tgic
-command: |-
-  vim `find . -iname '*.php'`
-summary: |-
-  用vim打开所有php

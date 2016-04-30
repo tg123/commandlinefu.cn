@@ -1,7 +1,0 @@
-commandlinefu_id: 1849
-translator:
-  weibo: tgic
-command: |-
-  diff <(ssh alice cat /etc/apt/sources.list) <(ssh bob cat /etc/apt/sources.list)
-summary: |-
-  比较两个远程文件

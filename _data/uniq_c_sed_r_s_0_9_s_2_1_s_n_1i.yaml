@@ -1,8 +1,0 @@
-commandlinefu_id: 12173
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uniq -c | sed -r 's/([0-9]+)\s(.*)/"\2": \1,/;$s/,/\n}/;1i{'
-summary: |-
-  Convert uniq output to json

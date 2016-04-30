@@ -1,8 +1,0 @@
-commandlinefu_id: 5433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -v ^# file.conf | grep -v ^$ > new_file.conf
-summary: |-
-  remove comment '#' in conf files.

@@ -1,8 +1,0 @@
-commandlinefu_id: 2892
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder "mf://frame_*.bmp" -mf w=720:h=480:fps=30:type=bmp -ovc lavc -lavcopts vcodec=mpeg4 -o number_video.mp4
-summary: |-
-  Convert a batch of images to a Video

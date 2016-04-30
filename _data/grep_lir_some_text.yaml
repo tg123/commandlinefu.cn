@@ -1,7 +1,0 @@
-commandlinefu_id: 2244
-translator:
-  weibo: 'gdqyn'
-command: |-
-  grep -lir "some text" *
-summary: |-
-  找出包含某字符串的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 10014
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VAR="%23%21%2fbin%2fbash" ; printf -v VAR "%b" "${VAR//\%/\x}" ; echo $VAR
-summary: |-
-  urldecoding with one pure BASH builtin

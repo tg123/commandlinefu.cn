@@ -1,8 +1,0 @@
-commandlinefu_id: 4369
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep [h]ttpd | cat -n
-summary: |-
-  count and number lines of output, useful for counting number of matches

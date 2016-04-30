@@ -1,7 +1,0 @@
-commandlinefu_id: 4337
-translator:
-  weibo: codepiano
-command: |-
-  cpan -r
-summary: |-
-  通过CPAN更新所有perl模块

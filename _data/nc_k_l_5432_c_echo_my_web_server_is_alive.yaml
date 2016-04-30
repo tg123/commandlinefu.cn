@@ -1,8 +1,0 @@
-commandlinefu_id: 12902
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -k -l 5432 -c 'echo My Web Server is Alive'
-summary: |-
-  Simplest web server ever!

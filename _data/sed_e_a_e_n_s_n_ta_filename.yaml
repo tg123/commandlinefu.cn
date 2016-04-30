@@ -1,8 +1,0 @@
-commandlinefu_id: 669
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e :a -e '/$/N;s/\n/ /;ta' <filename>
-summary: |-
-  Concatenates lines using sed

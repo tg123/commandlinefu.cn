@@ -1,7 +1,0 @@
-commandlinefu_id: 6676
-translator:
-  weibo: tgic
-command: |-
-  for net in $(ip route show | cut -f1 -d\  | grep -v default); do ipcalc $net | grep Broadcast | cut -d\  -f 2; done
-summary: |-
-  查看所有广播地址

@@ -1,8 +1,0 @@
-commandlinefu_id: 12788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/java -Xmx256M -XstartOnFirstThread -Dcom.android.sdkmanager.toolsdir=android-sdk/tools -classpath android-sdk/tools/lib/sdkmanager.jar:android-sdk/tools/lib/swtmenubar.jar:android-sdk/tools/lib/x86_64/swt.jar com.android.sdkmanager.Main avd
-summary: |-
-  Open Android Virtual Device Manager (Mac OS)

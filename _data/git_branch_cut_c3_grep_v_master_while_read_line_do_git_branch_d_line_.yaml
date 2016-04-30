@@ -1,8 +1,0 @@
-commandlinefu_id: 9010
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git branch | cut -c3- | grep -v "^master$" | while read line; do git branch -d $line; done | grep 'Deleted branch' | awk '{print $3;}' | while read line; do git push <target_remote> :$line; done
-summary: |-
-  delete local *and* remote git repos if merged into local master

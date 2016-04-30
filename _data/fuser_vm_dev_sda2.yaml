@@ -1,8 +1,0 @@
-commandlinefu_id: 1821
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -vm /dev/sda2
-summary: |-
-  Desmontando um dispositivo ocupado

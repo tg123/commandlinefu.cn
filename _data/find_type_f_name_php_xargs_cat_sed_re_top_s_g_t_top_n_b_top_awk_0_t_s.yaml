@@ -1,8 +1,0 @@
-commandlinefu_id: 8410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -name '*.php' | xargs cat | sed -re ':top /\/\*.*\*\// { s/\/\*.*\*\///g ; t top }; /\/\*/ { N ; b top }' | awk '$0 !~ /^[\t[:space:]]*($|(\/\/)|(#))/' | wc -l
-summary: |-
-  How many lines in your PHP project without comments

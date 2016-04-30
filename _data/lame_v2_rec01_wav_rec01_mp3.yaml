@@ -1,8 +1,0 @@
-commandlinefu_id: 4462
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lame -V2 rec01.wav rec01.mp3
-summary: |-
-  convert wav into mp3 using lame

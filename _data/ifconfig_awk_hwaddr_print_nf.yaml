@@ -1,8 +1,0 @@
-commandlinefu_id: 4976
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | awk '/HWaddr/ { print $NF }'
-summary: |-
-  Get all mac address

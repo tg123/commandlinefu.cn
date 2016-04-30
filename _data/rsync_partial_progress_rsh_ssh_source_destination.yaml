@@ -1,8 +1,0 @@
-commandlinefu_id: 795
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync --partial --progress --rsh=ssh SOURCE DESTINATION
-summary: |-
-  Resume aborted scp file transfers

@@ -1,7 +1,0 @@
-commandlinefu_id: 7064
-translator:
-  weibo: tgic
-command: |-
-  python -c 'import datetime; print(datetime.date.today().isocalendar()[1])'
-summary: |-
-  当前是第几周

@@ -1,7 +1,0 @@
-commandlinefu_id: 6537
-translator:
-  weibo: tgic
-command: |-
-  svn log 2>&1 | egrep '^r[0-9]+' | cut -d "|" -f2 | sort | uniq -c
-summary: |-
-  查看用户提交的数量

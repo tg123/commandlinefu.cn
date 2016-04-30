@@ -1,7 +1,0 @@
-commandlinefu_id: 5149
-translator:
-  weibo: tgic
-command: |-
-  aptitude search '~i!~E' | grep -v "i A" | cut -d " " -f 4
-summary: |-
-  列出手工安装的包

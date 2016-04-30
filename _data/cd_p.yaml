@@ -1,7 +1,0 @@
-commandlinefu_id: 13917
-translator:
-  weibo: tgic
-command: |-
-  cd -P .
-summary: |-
-  切换到物理目录(当你在一个符号链接目录时候)

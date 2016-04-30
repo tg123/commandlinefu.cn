@@ -1,8 +1,0 @@
-commandlinefu_id: 10245
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export GREP_COLOR='1;32';while [ true ]; do head -n 100 /dev/urandom; sleep .1; done | hexdump -C | grep --color=auto "ca fe"
-summary: |-
-  pretend to be busy in office to enjoy a cup of coffee

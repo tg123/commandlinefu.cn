@@ -1,7 +1,0 @@
-commandlinefu_id: 5682
-translator:
-  weibo: tgic
-command: |-
-  echo Y29tbWFuZGxpbmVmdS5jbgo= | base64 -d
-summary: |-
-  解码Base64

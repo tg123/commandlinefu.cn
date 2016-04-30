@@ -1,8 +1,0 @@
-commandlinefu_id: 2810
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/^.*DEBUG.*/#&/'  $file
-summary: |-
-  put all lines in comment where de word DEBUG is found

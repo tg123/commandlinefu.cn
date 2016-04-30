@@ -1,7 +1,0 @@
-commandlinefu_id: 1364
-translator:
-  weibo: tgic
-command: |-
-  /usr/proc/bin/pfiles $PID
-summary: |-
-  在solaris的lsof

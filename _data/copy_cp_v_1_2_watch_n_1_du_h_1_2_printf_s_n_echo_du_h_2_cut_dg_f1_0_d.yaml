@@ -1,8 +1,0 @@
-commandlinefu_id: 2851
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  copy(){ cp -v "$1" "$2"&watch -n 1 'du -h "$1" "$2";printf "%s%%\n" $(echo `du -h "$2"|cut -dG -f1`/0.`du -h "$1"|cut -dG -f1`|bc)';}
-summary: |-
-  带进度条的复制命令

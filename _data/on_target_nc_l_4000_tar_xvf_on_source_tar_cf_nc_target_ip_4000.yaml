@@ -1,8 +1,0 @@
-commandlinefu_id: 2536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  On target: "nc -l 4000 | tar xvf -" On source: "tar -cf - . | nc target_ip 4000"
-summary: |-
-  Using netcat to copy files between servers

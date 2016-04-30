@@ -1,8 +1,0 @@
-commandlinefu_id: 3887
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nethogs -p eth0
-summary: |-
-  Monitor bandwidth by pid

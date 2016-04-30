@@ -1,8 +1,0 @@
-commandlinefu_id: 5312
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias head='head -n $((${LINES:-`tput lines 2>/dev/null||echo -n 12`} - 2))'
-summary: |-
-  Alias HEAD for automatic smart output

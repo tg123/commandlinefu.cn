@@ -1,8 +1,0 @@
-commandlinefu_id: 13305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function hg () { history | grep $* ; }  # define a function combining history and grep to save typing :-)
-summary: |-
-  define a function "hg" combining history and grep to save typing

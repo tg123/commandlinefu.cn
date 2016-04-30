@@ -1,7 +1,0 @@
-commandlinefu_id: 210
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tr -dc '[:print:]' < /dev/urandom
-summary: |-
-  随机输出可打印(printable)的字符

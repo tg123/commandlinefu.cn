@@ -1,8 +1,0 @@
-commandlinefu_id: 13770
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fortune | cowsay $(ls/usr/share/cowsay | shuf -n1)
-summary: |-
-  Have a random

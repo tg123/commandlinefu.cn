@@ -1,8 +1,0 @@
-commandlinefu_id: 10072
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-keygen -R $(dig +short host.domain.tld)
-summary: |-
-  Remove invalid key from the known_hosts file for the IP address of a host

@@ -1,8 +1,0 @@
-commandlinefu_id: 9221
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /sbin/parted -m /dev/sdX unit b print | grep '^[1234]' | sed 's/:/ --offset=/; s/B:[[:digit:]]*B:/ --sizelimit=/; s/B:/ [/; s/:.*/]/'
-summary: |-
-  print offsets of file disk for losetup/loop-mount

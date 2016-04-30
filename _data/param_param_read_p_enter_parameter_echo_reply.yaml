@@ -1,7 +1,0 @@
-commandlinefu_id: 9216
-translator:
-  weibo: tgic
-command: |-
-  param=${param:-$(read -p "Enter parameter: "; echo "$REPLY")}
-summary: |-
-  脚本中获取参数

@@ -1,8 +1,0 @@
-commandlinefu_id: 8150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while :; do OLD=$NEW; NEW=`cat /proc/net/dev | grep eth0 | tr -s ' ' | cut -d' ' -f "3 11"`; echo $NEW $OLD | awk '{printf("\rin: % 9.2g\t\tout: % 9.2g", ($1-$3)/1024, ($2-$4)/1024)}'; sleep 1; done
-summary: |-
-  Watch RX/TX rate of an interface in kb/s

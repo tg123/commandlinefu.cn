@@ -1,8 +1,0 @@
-commandlinefu_id: 1496
-translator:
-  weibo: ''
-hide: true
-command: |-
-  less textfile.gz
-summary: |-
-  Read a gzipped text file directly with less.

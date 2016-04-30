@@ -1,7 +1,0 @@
-commandlinefu_id: 7884
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dos2unix <file>
-summary: |-
-  把DOS的换行符(CR/LF)转换成Unix格式

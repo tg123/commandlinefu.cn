@@ -1,8 +1,0 @@
-commandlinefu_id: 656
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sc queryex type= service state= all | find "_NAME"
-summary: |-
-  列出所有windows 的服务

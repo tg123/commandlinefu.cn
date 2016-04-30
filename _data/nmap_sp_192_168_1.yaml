@@ -1,8 +1,0 @@
-commandlinefu_id: 13536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -sP 192.168.1.*
-summary: |-
-  Get a list of all valid ip address in a local network?

@@ -1,8 +1,0 @@
-commandlinefu_id: 9638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pacof -e rlogin
-summary: |-
-  (Debian/Ubuntu) Discover what package a file belongs to

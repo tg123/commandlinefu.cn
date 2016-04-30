@@ -1,8 +1,0 @@
-commandlinefu_id: 13735
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FILE=file_name; CHUNK=$((64*1024*1024)); SIZE=$(stat -c "%s" $FILE); for ((i=0; i < $SIZE; i+=$CHUNK)); do losetup --find --show --offset=$i --sizelimit=$CHUNK $FILE; done
-summary: |-
-  Split a large file, without wasting disk space

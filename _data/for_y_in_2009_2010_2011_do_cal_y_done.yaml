@@ -1,7 +1,0 @@
-commandlinefu_id: 2616
-translator:
-  weibo: tgic
-command: |-
-  for y in 2009 2010 2011; do cal $y; done
-summary: |-
-  打印多年的日历

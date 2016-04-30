@@ -1,8 +1,0 @@
-commandlinefu_id: 4391
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . \! -type d | rev | sort | rev | tar c --files-from=- --format=ustar | bzip2 --best > a.tar.bz2
-summary: |-
-  Slightly better compressed archives

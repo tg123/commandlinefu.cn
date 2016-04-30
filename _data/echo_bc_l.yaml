@@ -1,8 +1,0 @@
-commandlinefu_id: 2520
-translator:
-  weibo: tgic
-hide: false
-command: |
-  ? () { echo "$*" | bc -l; }
-summary: |-
-  None

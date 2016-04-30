@@ -1,8 +1,0 @@
-commandlinefu_id: 31
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log master | awk '/commit/ {id=$2} /\s+\w+/ {print id, $0}'
-summary: |-
-  Display summary of git commit ids and messages for a given branch

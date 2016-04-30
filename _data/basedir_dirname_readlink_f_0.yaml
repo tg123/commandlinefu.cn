@@ -1,8 +1,0 @@
-commandlinefu_id: 9798
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  BASEDIR=$(dirname $(readlink -f $0))
-summary: |-
-  获得脚本的运行路径

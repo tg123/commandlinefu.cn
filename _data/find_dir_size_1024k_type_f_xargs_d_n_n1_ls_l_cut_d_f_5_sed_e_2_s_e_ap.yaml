@@ -1,8 +1,0 @@
-commandlinefu_id: 4435
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find dir -size -1024k -type f | xargs -d $'\n' -n1 ls -l | cut -d ' ' -f 5  | sed -e '2,$s/$/+/' -e '$ap' | dc
-summary: |-
-  find out how much space are occuipied by files smaller than 1024K

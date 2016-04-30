@@ -1,7 +1,0 @@
-commandlinefu_id: 8743
-translator:
-  weibo: tgic
-command: |-
-  find ~ -name '*.sqlite' -exec sqlite3 '{}' 'VACUUM;' \;
-summary: |-
-  对所有的 sqlite 数据库执行 VACUUM

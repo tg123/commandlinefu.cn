@@ -1,8 +1,0 @@
-commandlinefu_id: 1404
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo cat /proc/kcore | strings | awk 'length > 20' | less
-summary: |-
-  Browse system RAM in a human readable form

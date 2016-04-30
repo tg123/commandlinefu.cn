@@ -1,8 +1,0 @@
-commandlinefu_id: 13351
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `grep -ri "?\|?\|?\|?\|?" * --col | cut -d: -f1 |sort -u `;do sed -i "s/?/\&aacute;/g" $i; sed -i "s/?/\&eacute;/g" $i; sed -i "s/?/\&iacute;/g" $i; sed -i "s/?/\&oacute;/g" $i; sed -i "s/?/\&uacute;/g" $i; echo "HTMLizing file [$i]";done
-summary: |-
-  How to HTMLize many files containing accents ?|?|?|?|?

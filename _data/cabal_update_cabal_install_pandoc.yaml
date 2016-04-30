@@ -1,8 +1,0 @@
-commandlinefu_id: 12651
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cabal update && cabal install pandoc
-summary: |-
-  Update pandoc via cabal

@@ -1,8 +1,0 @@
-commandlinefu_id: 7183
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  du -hs */ | sort -hr | head
-summary: |-
-  列出目录里的 前10大文件

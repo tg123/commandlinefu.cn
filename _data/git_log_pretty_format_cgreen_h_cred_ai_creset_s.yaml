@@ -1,8 +1,0 @@
-commandlinefu_id: 3640
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --pretty='format:%Cgreen%H %Cred%ai %Creset- %s'
-summary: |-
-  Display summary of git commit ids and messages for a given branch

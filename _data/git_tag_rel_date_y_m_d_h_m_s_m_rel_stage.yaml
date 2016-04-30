@@ -1,8 +1,0 @@
-commandlinefu_id: 13216
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git tag rel--`date +%Y-%m-%d--%H-%M-%S` -m "(%) rel: stage"
-summary: |-
-  autocreate git tag

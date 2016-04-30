@@ -1,8 +1,0 @@
-commandlinefu_id: 2794
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pfexec !!
-summary: |-
-  Run the last command as root - (Open)Solaris version with RBAC

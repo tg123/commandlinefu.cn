@@ -1,8 +1,0 @@
-commandlinefu_id: 1649
-translator:
-  weibo: ''
-hide: true
-command: |-
-  snmpwalk -v2c -c <community> -m ALL <HOST_IP> .
-summary: |-
-  Snmpwalk a hosts's entire OID tree with SNMP V2

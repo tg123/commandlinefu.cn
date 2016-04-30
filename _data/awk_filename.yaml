@@ -1,7 +1,0 @@
-commandlinefu_id: 2943
-translator:
-  weibo: tgic
-command: |-
-  awk /./ filename
-summary: |-
-  删除文件的空行

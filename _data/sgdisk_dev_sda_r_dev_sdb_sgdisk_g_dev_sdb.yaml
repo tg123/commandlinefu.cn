@@ -1,8 +1,0 @@
-commandlinefu_id: 9696
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sgdisk /dev/sda -R /dev/sdb && sgdisk -G /dev/sdb
-summary: |-
-  copy GPT partition table from /dev/sda to /dev/sdb

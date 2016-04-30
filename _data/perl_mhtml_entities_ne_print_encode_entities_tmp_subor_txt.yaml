@@ -1,7 +1,0 @@
-commandlinefu_id: 265
-translator:
-  weibo: tgic
-command: |-
-  perl -MHTML::Entities -ne 'print encode_entities($_)' /tmp/subor.txt
-summary: |-
-  使用perl encode html

@@ -1,8 +1,0 @@
-commandlinefu_id: 9924
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  xml2 < file.xml | grep ^/path/to/element | cut -f2- -d=
-summary: |-
-  读取xml元素

@@ -1,8 +1,0 @@
-commandlinefu_id: 4785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "DISPLAY=$DISPLAY xmessage convert db to innodb" | at 00:00
-summary: |-
-  displays a reminder message at the specified time

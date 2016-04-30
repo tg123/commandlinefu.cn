@@ -1,7 +1,0 @@
-commandlinefu_id: 7988
-translator:
-  weibo: tgic
-command: |-
-  ps ax | egrep "*.exe|*exe]" | awk '{ print $1 }' | xargs kill
-summary: |-
-  杀死所有wine的实例

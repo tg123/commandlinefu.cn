@@ -1,7 +1,0 @@
-commandlinefu_id: 9116
-translator:
-  weibo: tgic
-command: |-
-  diff -rq dirA dirB
-summary: |-
-  用diff比较两个目录

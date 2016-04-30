@@ -1,7 +1,0 @@
-commandlinefu_id: 2220
-translator:
-  weibo: lzz36
-command: |-
-  who -b
-summary: |-
-  最近一次系统启动的时间点

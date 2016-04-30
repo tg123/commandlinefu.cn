@@ -1,8 +1,0 @@
-commandlinefu_id: 8382
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ip addr show eth0 | grep ether | awk '{print $2}'
-summary: |-
-  List your MACs address

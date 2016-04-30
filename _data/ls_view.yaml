@@ -1,7 +1,0 @@
-commandlinefu_id: 9989
-translator:
-  weibo: codepiano
-command: |-
-  ls | view -
-summary: |-
-  在vim中读取标准输入

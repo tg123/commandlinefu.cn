@@ -1,8 +1,0 @@
-commandlinefu_id: 9918
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp -r * .??* /dest
-summary: |-
-  Copy all files, including hidden files, recursively without traversing backward

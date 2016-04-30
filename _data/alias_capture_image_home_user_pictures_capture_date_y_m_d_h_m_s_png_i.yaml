@@ -1,8 +1,0 @@
-commandlinefu_id: 7126
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias capture='IMAGE="/home/user/Pictures/capture-`date +%Y%m%d%H%M%S`.png"; import -frame $IMAGE; echo "Image saved as $IMAGE"'
-summary: |-
-  An alias to select a portion of your desktop and save it as an image.

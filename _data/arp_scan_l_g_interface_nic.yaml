@@ -1,8 +1,0 @@
-commandlinefu_id: 7651
-translator:
-  weibo: ''
-hide: true
-command: |-
-  arp-scan -l -g -interface (nic)
-summary: |-
-  arp-scan -l without duplicates

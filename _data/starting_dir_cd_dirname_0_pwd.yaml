@@ -1,8 +1,0 @@
-commandlinefu_id: 9793
-translator:
-  weibo: ''
-hide: true
-command: |-
-  STARTING_DIR=$(cd $(dirname $0) && pwd)
-summary: |-
-  Get full directory path of a script regardless of where it is run from

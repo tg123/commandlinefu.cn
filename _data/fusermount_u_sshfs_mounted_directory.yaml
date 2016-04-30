@@ -1,8 +1,0 @@
-commandlinefu_id: 5379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fusermount -u ~/sshfs_mounted_directory
-summary: |-
-  umount sshfs mounted directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 6529
-translator:
-  weibo: ''
-hide: true
-command: |-
-  blkid /dev/sda7
-summary: |-
-  Show the UUID of a filesystem or partition

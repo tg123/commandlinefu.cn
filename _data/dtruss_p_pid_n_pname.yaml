@@ -1,7 +1,0 @@
-commandlinefu_id: 11929
-translator:
-  weibo: '猪了个去'
-command: |-
-  dtruss [ -p <pid> | -n <pname> ]
-summary: |-
-  Mac OS X中替代strace的命令

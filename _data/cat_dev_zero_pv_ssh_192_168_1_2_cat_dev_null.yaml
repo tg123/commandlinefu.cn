@@ -1,8 +1,0 @@
-commandlinefu_id: 8128
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/zero | pv | ssh 192.168.1.2 "cat > /dev/null"
-summary: |-
-  Checks throughput between two nodes

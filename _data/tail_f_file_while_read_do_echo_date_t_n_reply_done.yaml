@@ -1,8 +1,0 @@
-commandlinefu_id: 10263
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f file | while read; do echo "$(date +%T.%N) $REPLY"; done
-summary: |-
-  Annotate tail -f with timestamps

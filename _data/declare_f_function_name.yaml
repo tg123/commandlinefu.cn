@@ -1,8 +1,0 @@
-commandlinefu_id: 8252
-translator:
-  weibo: ''
-hide: true
-command: |-
-  declare -f <function name>
-summary: |-
-  Indent a one-liner.

@@ -1,8 +1,0 @@
-commandlinefu_id: 1557
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed /BEGIN/,/END/s/xxx/yyy/g input.txt
-summary: |-
-  Replace words with sed

@@ -1,7 +1,0 @@
-commandlinefu_id: 12157
-translator:
-  weibo: tgic
-command: |-
-  cut -d',' -f6 file.csv | sort | uniq
-summary: |-
-  去重列的值

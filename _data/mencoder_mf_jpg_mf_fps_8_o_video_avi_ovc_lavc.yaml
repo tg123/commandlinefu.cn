@@ -1,7 +1,0 @@
-commandlinefu_id: 5432
-translator:
-  weibo: tgic
-command: |-
-  mencoder "mf://*.jpg" -mf fps=8 -o ./video.avi -ovc lavc
-summary: |-
-  使用jpg生成avi

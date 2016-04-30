@@ -1,8 +1,0 @@
-commandlinefu_id: 9730
-translator:
-  weibo: ''
-hide: true
-command: |-
-  file <filename>
-summary: |-
-  Get a file's type and metadata

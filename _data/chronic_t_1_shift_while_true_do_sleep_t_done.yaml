@@ -1,7 +1,0 @@
-commandlinefu_id: 2414
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  chronic () { t=$1; shift; while true; do $@; sleep $t; done & }
-summary: |-
-  每隔N秒在后台慢悠悠地执行一个命令

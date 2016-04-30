@@ -1,8 +1,0 @@
-commandlinefu_id: 7902
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yes 'clear;printf "\n\n`date`\n" | figlet -f starwars;sleep 1' | sh
-summary: |-
-  Console clock -- Beautiful

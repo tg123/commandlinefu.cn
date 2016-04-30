@@ -1,8 +1,0 @@
-commandlinefu_id: 334
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dscacheutil -flushcache
-summary: |-
-  Flush DNS cache on OS X 10.5 Leopard

@@ -1,8 +1,0 @@
-commandlinefu_id: 2702
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Add to ~/.inputrc: set match-hidden-files off
-summary: |-
-  ignore hidden directory in bash completion (e.g.  .svn)

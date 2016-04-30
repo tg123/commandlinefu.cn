@@ -1,7 +1,0 @@
-commandlinefu_id: 11047
-translator:
-  weibo: tgic
-command: |-
-  history -a
-summary: |-
-  保存历史记录

@@ -1,7 +1,0 @@
-commandlinefu_id: 4933
-translator:
-  weibo: tgic
-command: |-
-  cat /proc/$(lsof -ti:8888)/cmdline | tr "\0" " "
-summary: |-
-  查看打开指定端口的进程的启动命令行

@@ -1,7 +1,0 @@
-commandlinefu_id: 3666
-translator:
-  weibo: tgic
-command: |-
-  s=124890; array=($(echo $s | sed 's/./& /g')); echo ${array[@]}; echo ${!array[@]}
-summary: |-
-  字符转数组

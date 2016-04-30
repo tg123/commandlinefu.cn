@@ -1,8 +1,0 @@
-commandlinefu_id: 2478
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do { $(which logger) -p local4.notice `free -m | grep Mem`; sleep 60; } done &
-summary: |-
-  Log the current memory statistics frequently to syslog

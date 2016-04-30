@@ -1,8 +1,0 @@
-commandlinefu_id: 6611
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo ondemand | sudo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-summary: |-
-  using tee to echo to a system file with sudo privileges

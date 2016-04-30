@@ -1,8 +1,0 @@
-commandlinefu_id: 4065
-translator:
-  weibo: ''
-hide: true
-command: |-
-  slice(){ cut -c$((${#1}+1))-; }; ls -l | slice "-rw-r--r--"
-summary: |-
-  slice a fixed number of characters from the output of a command, where the width of the slice is the number of characters in $slice

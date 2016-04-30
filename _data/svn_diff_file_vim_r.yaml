@@ -1,7 +1,0 @@
-commandlinefu_id: 2420
-translator:
-  weibo: tgic
-command: |-
-  svn diff <file> | vim -R -
-summary: |-
-  使用vim查看svn diff

@@ -1,7 +1,0 @@
-commandlinefu_id: 728
-translator:
-  weibo: tgic
-command: |-
-  echo 'example' | sed -e 's/^\(.\)/\U\1/'
-summary: |-
-  首字母大写

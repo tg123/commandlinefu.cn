@@ -1,7 +1,0 @@
-commandlinefu_id: 3233
-translator:
-  weibo: tgic
-command: |-
-  rename -v 's/ /_/g' *
-summary: |-
-  替换文件名中的空格为下划线

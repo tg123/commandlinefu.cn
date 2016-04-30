@@ -1,8 +1,0 @@
-commandlinefu_id: 10924
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nohup ./my-shell-script.sh &
-summary: |-
-  Nohup

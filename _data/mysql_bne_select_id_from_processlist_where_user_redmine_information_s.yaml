@@ -1,7 +1,0 @@
-commandlinefu_id: 10408
-translator:
-  weibo: tgic
-command: |-
-  mysql -BNe "SELECT id FROM processlist WHERE user = 'redmine';" information_schema | while read id; do mysqladmin kill $id; done
-summary: |-
-  杀死一个MYSQL用户的链接

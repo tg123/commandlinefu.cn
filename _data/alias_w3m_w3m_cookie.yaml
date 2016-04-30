@@ -1,8 +1,0 @@
-commandlinefu_id: 2607
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias w3m='w3m -cookie'
-summary: |-
-  let w3m usecookie

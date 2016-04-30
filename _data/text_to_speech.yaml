@@ -1,8 +1,0 @@
-commandlinefu_id: 13695
-translator:
-  weibo: ''
-hide: true
-command: |-
-  text-to-speech
-summary: |-
-  Google text-to-speech in mp3 format

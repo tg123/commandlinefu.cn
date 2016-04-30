@@ -1,8 +1,0 @@
-commandlinefu_id: 10306
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr ' ' '\n' < <filename> > <output>
-summary: |-
-  replace all spaces with new lines

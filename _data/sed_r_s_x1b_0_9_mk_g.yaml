@@ -1,8 +1,0 @@
-commandlinefu_id: 6141
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -r "s:\x1B\[[0-9;]*[mK]::g"'
-summary: |-
-  Remove color codes (special characters) with sed

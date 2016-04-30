@@ -1,7 +1,0 @@
-commandlinefu_id: 7028
-translator:
-  weibo: codepiano
-command: |-
-  string="${string^}"
-summary: |-
-  转换字符串的第一个字符为大写

@@ -1,7 +1,0 @@
-commandlinefu_id: 5730
-translator:
-  weibo: tgic
-command: |-
-  cowsay $(fortune)
-summary: |-
-  牛说啥

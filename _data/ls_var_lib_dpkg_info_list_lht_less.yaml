@@ -1,7 +1,0 @@
-commandlinefu_id: 2753
-translator:
-  weibo: tgic
-command: |-
-  ls /var/lib/dpkg/info/*.list -lht |less
-summary: |-
-  查看包的安装日期

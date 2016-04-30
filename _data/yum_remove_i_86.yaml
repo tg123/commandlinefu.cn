@@ -1,7 +1,0 @@
-commandlinefu_id: 9591
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  yum remove \*.i\?86
-summary: |-
-  从x86_64的CentOS/RHEL中移除i386的RPM包

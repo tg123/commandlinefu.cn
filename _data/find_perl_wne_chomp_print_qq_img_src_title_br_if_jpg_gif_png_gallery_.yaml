@@ -1,7 +1,0 @@
-commandlinefu_id: 5984
-translator:
-  weibo: tgic
-command: |-
-  find . | perl -wne 'chomp; print qq|<img src="$_" title="$_" /><br />| if /\.(jpg|gif|png)$/;'> gallery.html
-summary: |-
-  生成一个html相册

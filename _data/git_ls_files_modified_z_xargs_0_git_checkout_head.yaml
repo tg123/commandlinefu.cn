@@ -1,8 +1,0 @@
-commandlinefu_id: 13825
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git ls-files --modified -z | xargs -0 git checkout HEAD
-summary: |-
-  Checkout all modified files with spaces with git

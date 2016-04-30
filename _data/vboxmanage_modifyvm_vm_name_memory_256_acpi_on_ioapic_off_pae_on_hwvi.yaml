@@ -1,8 +1,0 @@
-commandlinefu_id: 8659
-translator:
-  weibo: ''
-hide: true
-command: |-
-  VBoxManage modifyvm "vm-name" --memory 256 --acpi on --ioapic off --pae on --hwvirtex on --nestedpaging on
-summary: |-
-  Virtualbox: setup hardware

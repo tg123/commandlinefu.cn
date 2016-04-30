@@ -1,8 +1,0 @@
-commandlinefu_id: 10217
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -f -N -R 8888:localhost:22 user@somedomain.org
-summary: |-
-  Reverse SSH

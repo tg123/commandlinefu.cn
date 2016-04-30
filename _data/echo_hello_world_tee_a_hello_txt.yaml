@@ -1,7 +1,0 @@
-commandlinefu_id: 2504
-translator:
-  weibo: tgic
-command: |-
-  echo "Hello World." | tee -a hello.txt
-summary: |-
-  同时输入到 stdout 和 文件

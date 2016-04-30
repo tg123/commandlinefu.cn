@@ -1,8 +1,0 @@
-commandlinefu_id: 5686
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $COMMAND 2>&1 >/dev/null & WPID=$!; sleep $TIMEOUT && kill $! & KPID=$!; wait $WPID
-summary: |-
-  Execute a command with a timeout

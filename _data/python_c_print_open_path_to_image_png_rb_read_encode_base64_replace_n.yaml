@@ -1,8 +1,0 @@
-commandlinefu_id: 10637
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  python -c 'print open("path/to/image.png", "rb").read().encode("base64").replace("\n","")'
-summary: |-
-  把图片转换成base64 uri

@@ -1,8 +1,0 @@
-commandlinefu_id: 11436
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f /var/log/messages.log | while read line ; do echo $line | cut -d \  -f5- | sed s/\\[[0-9]*\\]// | espeak ; done
-summary: |-
-  Pipe system log to espeak

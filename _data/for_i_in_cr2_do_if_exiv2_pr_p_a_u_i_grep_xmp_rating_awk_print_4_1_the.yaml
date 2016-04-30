@@ -1,8 +1,0 @@
-commandlinefu_id: 13682
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for I in *.CR2; do if [ `exiv2 pr -p a -u $I | grep 'xmp.Rating' | awk '{ print $4 }'` == "1" ]; then echo $I; fi; done
-summary: |-
-  List Canon CR2 raw files which have been in-camera rated (5Dmk3+)

@@ -1,7 +1,0 @@
-commandlinefu_id: 9459
-translator:
-  weibo: tgic
-command: |-
-  cat .ssh/id_rsa.pub | ssh user@server "cat >>.ssh/authorized_keys"
-summary: |-
-  给目标机器装免密码钥匙 (ssh-copy-id)

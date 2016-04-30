@@ -1,7 +1,0 @@
-commandlinefu_id: 6240
-translator:
-  weibo: codepiano
-command: |-
-  java -jar compiler.jar  --js file.js
-summary: |-
-  压缩CSS/JS文件

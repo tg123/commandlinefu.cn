@@ -1,8 +1,0 @@
-commandlinefu_id: 7250
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo mount -t vfat -o umask=000,uid=YOUR_UID,gid=users /dev/sdb1 /media/usb
-summary: |-
-  Mount Fat USB with RWX

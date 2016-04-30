@@ -1,7 +1,0 @@
-commandlinefu_id: 3088
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  git diff --numstat -w --no-abbrev | perl -a -ne '$F[0] != 0 && $F[1] !=0 && print $F[2] . "\n";'
-summary: |-
-  显示被修改的文件，忽略那些只是修改了权限、时间和空白字符的文件

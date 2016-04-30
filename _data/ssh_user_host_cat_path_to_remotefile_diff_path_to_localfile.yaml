@@ -1,7 +1,0 @@
-commandlinefu_id: 47
-translator:
-  weibo: tgic
-command: |-
-  ssh user@host cat /path/to/remotefile | diff /path/to/localfile -
-summary: |-
-  比较远程和本地文件

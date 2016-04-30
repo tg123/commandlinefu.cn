@@ -1,7 +1,0 @@
-commandlinefu_id: 12488
-translator:
-  weibo: codepiano
-command: |-
-  du -h --max-depth=1 /path/folder/
-summary: |-
-  列出目录的大小

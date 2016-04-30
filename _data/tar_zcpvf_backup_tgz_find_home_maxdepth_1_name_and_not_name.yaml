@@ -1,7 +1,0 @@
-commandlinefu_id: 10692
-translator:
-  weibo: codepiano
-command: |-
-  tar zcpvf backup.tgz $(find $HOME -maxdepth 1 -name '.*' -and -not -name '.')
-summary: |-
-  备份用户目录内的隐藏文件和目录

@@ -1,7 +1,0 @@
-commandlinefu_id: 12418
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mysql -uuser -ppass -e 'use information_schema; SELECT table_name FROM tables where table_schema="DB-NAME" and table_name NOT LIKE "PREFIX";' | grep -v table_name | xargs mysqldump DB-NAME -uuser -ppass > dump.sql
-summary: |-
-  从一个数据库中提取出有同样前缀的表的备份文件

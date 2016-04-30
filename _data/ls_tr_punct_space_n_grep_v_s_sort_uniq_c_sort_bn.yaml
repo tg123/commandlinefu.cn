@@ -1,7 +1,0 @@
-commandlinefu_id: 13756
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls | tr '[[:punct:][:space:]]' '\n' | grep -v "^\s*$" | sort | uniq -c | sort -bn
-summary: |-
-  查找文件名中出现最多的词

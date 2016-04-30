@@ -1,8 +1,0 @@
-commandlinefu_id: 9572
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . ! -name "$(printf '*[\001-\037\177]*')"
-summary: |-
-  Skip filenames with control characters, a.k.a tab,newline etc

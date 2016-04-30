@@ -1,7 +1,0 @@
-commandlinefu_id: 2036
-translator:
-  weibo: tgic
-command: |-
-  find . | cpio -pumdv /destination
-summary: |-
-  克隆目录

@@ -1,7 +1,0 @@
-commandlinefu_id: 3732
-translator:
-  weibo: tgic
-command: |-
-  rm ~/.bash_history && kill -9 $$
-summary: |-
-  潜行...

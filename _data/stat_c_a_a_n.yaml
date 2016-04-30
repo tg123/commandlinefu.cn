@@ -1,7 +1,0 @@
-commandlinefu_id: 1873
-translator:
-  weibo: '猪了个去'
-command: |-
-  stat -c '%A 0%a %n' *
-summary: |-
-  显示文件的八进制格式权限

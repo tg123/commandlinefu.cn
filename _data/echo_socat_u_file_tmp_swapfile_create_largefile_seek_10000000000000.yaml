@@ -1,8 +1,0 @@
-commandlinefu_id: 7813
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo | socat -u - file:/tmp/swapfile,create,largefile,seek=10000000000000
-summary: |-
-  创建大文件的方法

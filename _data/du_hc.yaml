@@ -1,8 +1,0 @@
-commandlinefu_id: 142
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -hc *
-summary: |-
-  Display total Kb/Mb/Gb of a folder and each file

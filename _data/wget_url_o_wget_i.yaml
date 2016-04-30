@@ -1,8 +1,0 @@
-commandlinefu_id: 2685
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget <URL> -O- | wget -i -
-summary: |-
-  Donwload media from *.rm from an url of type htttp://.../*.ram

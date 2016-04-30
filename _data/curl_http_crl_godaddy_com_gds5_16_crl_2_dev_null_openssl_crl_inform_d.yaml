@@ -1,8 +1,0 @@
-commandlinefu_id: 13624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  [ `curl 'http://crl.godaddy.com/gds5-16.crl' 2>/dev/null | openssl crl -inform DER -noout -nextupdate | awk -F= '{print $2}' | xargs -I{} date -d {} +%s` -gt `date -d '8 hours' +%s` ] && echo "OK" || echo "Expires soon"
-summary: |-
-  Check CRL expiration time

@@ -1,8 +1,0 @@
-commandlinefu_id: 12024
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tr -dc 'A-Za-z0-9!@#$%^&*' < /dev/urandom | fold -w 12 | head -n 1
-summary: |-
-  生成密码

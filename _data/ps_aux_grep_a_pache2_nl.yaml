@@ -1,7 +1,0 @@
-commandlinefu_id: 4367
-translator:
-  weibo: tgic
-command: |-
-  ps aux | grep [a]pache2 | nl
-summary: |-
-  计算apache进程数量

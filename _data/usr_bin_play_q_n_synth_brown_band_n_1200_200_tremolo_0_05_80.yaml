@@ -1,8 +1,0 @@
-commandlinefu_id: 8352
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/play -q -n synth brown band -n 1200 200 tremolo 0.05 80
-summary: |-
-  Generate soothing noise

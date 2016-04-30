@@ -1,7 +1,0 @@
-commandlinefu_id: 9768
-translator:
-  weibo: tgic
-command: |-
-  for f in *; do clear; cat $f; sleep .3; done
-summary: |-
-  幻灯现实目录中的文件

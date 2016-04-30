@@ -1,7 +1,0 @@
-commandlinefu_id: 12218
-translator:
-  weibo: tgic
-command: |-
-  python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout, indent=4)' < file.yaml > file.json
-summary: |-
-  转换YAML为json

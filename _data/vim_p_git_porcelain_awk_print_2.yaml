@@ -1,8 +1,0 @@
-commandlinefu_id: 12248
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim -p `git --porcelain | awk {print $2}`
-summary: |-
-  Open (in vim) all modified files in a git repository

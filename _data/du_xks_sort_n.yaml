@@ -1,8 +1,0 @@
-commandlinefu_id: 12514
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -xks * | sort -n
-summary: |-
-  Summary of disk usage, excluding other filesystems, summarised and sorted by size

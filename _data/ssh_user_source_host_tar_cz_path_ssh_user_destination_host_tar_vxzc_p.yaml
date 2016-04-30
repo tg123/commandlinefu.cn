@@ -1,8 +1,0 @@
-commandlinefu_id: 5415
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@<source_host> -- tar cz <path> | ssh user@<destination_host> -- tar vxzC <path>
-summary: |-
-  copy from host1 to host2, through your host

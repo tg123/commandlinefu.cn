@@ -1,7 +1,0 @@
-commandlinefu_id: 2904
-translator:
-  weibo: tgic
-command: |-
-  cp path/filename{,-$(date +%Y-%m-%d)}
-summary: |-
-  创建备份

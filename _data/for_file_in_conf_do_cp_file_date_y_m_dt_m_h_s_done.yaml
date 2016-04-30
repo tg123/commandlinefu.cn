@@ -1,7 +1,0 @@
-commandlinefu_id: 12052
-translator:
-  weibo: tgic
-command: |-
-  for FILE in *.conf; do cp $FILE{,.`date +%Y%m%dt%M:%H:%S`}; done
-summary: |-
-  给所有文件加个时间戳(backup用)

@@ -1,7 +1,0 @@
-commandlinefu_id: 3966
-translator:
-  weibo: 'codepiano'
-command: |-
-  !?<string>?
-summary: |-
-  执行包含 string 的最近的一条命令

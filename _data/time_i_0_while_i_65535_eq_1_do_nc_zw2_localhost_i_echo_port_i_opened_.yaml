@@ -1,8 +1,0 @@
-commandlinefu_id: 4296
-translator:
-  weibo: ''
-hide: true
-command: |-
-  time { i=0; while [ $(( i < 65535 )) -eq 1 ] ; do nc -zw2 localhost $((++i)) && echo port $i opened ; done; }
-summary: |-
-  list all opened ports on host

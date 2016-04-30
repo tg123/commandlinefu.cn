@@ -1,8 +1,0 @@
-commandlinefu_id: 7324
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -size +20000k -print0 | xargs -0 du -h | awk -F"\t" '{printf "%s : %s\n", $2, $1}'
-summary: |-
-  Find Files over 20Meg

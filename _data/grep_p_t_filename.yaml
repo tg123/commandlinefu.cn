@@ -1,8 +1,0 @@
-commandlinefu_id: 5508
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -P '\t' filename
-summary: |-
-  grep for tabs without using Ctrl-V trick

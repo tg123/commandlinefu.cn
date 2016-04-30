@@ -1,8 +1,0 @@
-commandlinefu_id: 13116
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo passwd <username>
-summary: |-
-  Change user's password

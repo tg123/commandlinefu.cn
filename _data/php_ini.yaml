@@ -1,8 +1,0 @@
-commandlinefu_id: 8954
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  php --ini
-summary: |-
-  看看 php.ini 在什么地方

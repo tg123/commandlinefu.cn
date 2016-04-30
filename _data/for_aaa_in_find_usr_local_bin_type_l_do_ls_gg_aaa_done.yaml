@@ -1,8 +1,0 @@
-commandlinefu_id: 12776
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for AAA in $(find /usr/local/bin -type l); do ls -gG "${AAA}"; done
-summary: |-
-  Display a list of local shell scripts soft-linked to /usr/local/bin

@@ -1,8 +1,0 @@
-commandlinefu_id: 13907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -printf '%s %p\n'|sort -nr| head -1
-summary: |-
-  BIGGEST Files in a Directory

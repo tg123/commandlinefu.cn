@@ -1,7 +1,0 @@
-commandlinefu_id: 9426
-translator:
-  weibo: tgic
-command: |-
-  oowriter -pt pdf your_word_file.doc
-summary: |-
-  把doc转pdf的工具

@@ -1,7 +1,0 @@
-commandlinefu_id: 1541
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  PLAYLIST=$(ls -1) ; mpg123 -C $PLAYLIST
-summary: |-
-  将所有的MP3文件存储在歌单中，并使用mpg123播放

@@ -1,8 +1,0 @@
-commandlinefu_id: 12407
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -tn | awk '{print $5}' | egrep -v '(localhost|\*\:\*|Address|and|servers|fff|127\.0\.0)' | sed 's/:[0-99999999].*//g'
-summary: |-
-  Netstat List out Remote IP's Connected to Server Only

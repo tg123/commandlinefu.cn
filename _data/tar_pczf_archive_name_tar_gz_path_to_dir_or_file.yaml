@@ -1,8 +1,0 @@
-commandlinefu_id: 2687
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -pczf archive_name.tar.gz /path/to/dir/or/file
-summary: |-
-  create tar.gz archive

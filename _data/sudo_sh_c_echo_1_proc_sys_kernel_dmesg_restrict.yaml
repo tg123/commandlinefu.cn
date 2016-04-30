@@ -1,8 +1,0 @@
-commandlinefu_id: 14104
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo sh -c 'echo 1 > /proc/sys/kernel/dmesg_restrict'
-summary: |-
-  Restrict the use of dmesg for current user/session

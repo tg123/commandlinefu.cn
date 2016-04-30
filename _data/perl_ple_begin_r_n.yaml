@@ -1,7 +1,0 @@
-commandlinefu_id: 7987
-translator:
-  weibo: particle128
-command: |-
-  perl -ple 'BEGIN { $\ = "\r\n" }'
-summary: |-
-  把Unix换行替换成Dos换行

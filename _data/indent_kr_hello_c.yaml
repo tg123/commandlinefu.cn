@@ -1,8 +1,0 @@
-commandlinefu_id: 6072
-translator:
-  weibo: ''
-hide: true
-command: |-
-  indent -kr hello.c
-summary: |-
-  Use Kernighan & Ritchie coding style in C program

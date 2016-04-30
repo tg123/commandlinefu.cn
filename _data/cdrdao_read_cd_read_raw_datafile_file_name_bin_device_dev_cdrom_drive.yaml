@@ -1,8 +1,0 @@
-commandlinefu_id: 3607
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ cdrdao read-cd --read-raw --datafile FILE_NAME.bin --device /dev/cdrom --driver generic-mmc-raw FILE_NAME.toc
-summary: |-
-  backup your playstation game using rip

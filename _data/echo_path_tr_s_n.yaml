@@ -1,8 +1,0 @@
-commandlinefu_id: 13697
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $PATH | tr -s ':' '\n'
-summary: |-
-  "Pretty print" $PATH, separate path per line

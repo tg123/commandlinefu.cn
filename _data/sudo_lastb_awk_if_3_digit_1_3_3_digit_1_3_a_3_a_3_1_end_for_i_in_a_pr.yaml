@@ -1,8 +1,0 @@
-commandlinefu_id: 11256
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lastb | awk '{if ($3 ~ /([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}/)a[$3] = a[$3]+1} END {for (i in a){print i " : " a[i]}}' | sort -nk 3
-summary: |-
-  Display IP : Count of failed login attempts

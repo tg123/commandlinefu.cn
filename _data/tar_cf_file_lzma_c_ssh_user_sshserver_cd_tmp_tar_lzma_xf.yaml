@@ -1,8 +1,0 @@
-commandlinefu_id: 6325
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -cf - ./file | lzma -c | ssh user@sshserver $(cd /tmp; tar --lzma -xf -)
-summary: |-
-  send a file or directory via ssh compressing with lzma for low trafic

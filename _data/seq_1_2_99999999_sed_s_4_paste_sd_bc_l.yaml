@@ -1,7 +1,0 @@
-commandlinefu_id: 7833
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  seq 1 2 99999999 | sed 's!^!4/!' | paste -sd-+ | bc -l
-summary: |-
-  计算超越数π

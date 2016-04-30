@@ -1,7 +1,0 @@
-commandlinefu_id: 6943
-translator:
-  weibo: tgic
-command: |-
-  pdftohtml -i -stdout FILE.pdf | w3m -T text/html
-summary: |-
-  命令行中查看pdf

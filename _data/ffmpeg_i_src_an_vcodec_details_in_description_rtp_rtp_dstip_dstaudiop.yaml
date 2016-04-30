@@ -1,8 +1,0 @@
-commandlinefu_id: 8938
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i $src -an -vcodec [...details in description...] rtp rtp://$dstIP:$dstAudioPort4 -newaudio
-summary: |-
-  create 4 RTP streams (H264/AAC) from a single source with a single ffmpeg instance...

@@ -1,7 +1,0 @@
-commandlinefu_id: 8733
-translator:
-  weibo: tgic
-command: |-
-  pidof httpd | sed 's/ / -p /g' | xargs strace -fp
-summary: |-
-  查看apache在干什么

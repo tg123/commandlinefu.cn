@@ -1,8 +1,0 @@
-commandlinefu_id: 13983
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn propset svn:mergeinfo "/trunk:4" .
-summary: |-
-  svn propset mergeinfo

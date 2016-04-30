@@ -1,8 +1,0 @@
-commandlinefu_id: 3684
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias nl2space="perl -ne 'push @F, \$_; END { chomp @F; print join(qq{ }, @F) , qq{\n};}' "
-summary: |-
-  change newlines to spaces (or commas or whatever). Acts as a filter or can have c/l args

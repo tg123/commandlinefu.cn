@@ -1,7 +1,0 @@
-commandlinefu_id: 11439
-translator:
-  weibo: tgic
-command: |-
-  dd if=mybackup.ab bs=24 skip=1 | openssl zlib -d > mybackup.tar
-summary: |-
-  备份android adb 为 tar

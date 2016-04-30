@@ -1,8 +1,0 @@
-commandlinefu_id: 13815
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git reset --hard origin/master
-summary: |-
-  Force Git to overwrite local files after fetch

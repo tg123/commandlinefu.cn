@@ -1,8 +1,0 @@
-commandlinefu_id: 10920
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort namesd.txt | uniq ?cd
-summary: |-
-  Show duplicate lines in a file

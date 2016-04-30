@@ -1,8 +1,0 @@
-commandlinefu_id: 9181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i video.mp4 -i audio.mp3 -vcodec copy -acodec copy -map 0.0:0 -map 1.0:1 mix.mp4
-summary: |-
-  mix video and audio

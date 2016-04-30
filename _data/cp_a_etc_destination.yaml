@@ -1,7 +1,0 @@
-commandlinefu_id: 9501
-translator:
-  weibo: tgic
-command: |-
-  cp -a /etc /destination
-summary: |-
-  备份/etc

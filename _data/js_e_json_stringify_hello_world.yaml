@@ -1,7 +1,0 @@
-commandlinefu_id: 10576
-translator:
-  weibo: tgic
-command: |-
-  js -e 'JSON.stringify({hello:"world"})'
-summary: |-
-  转化成json

@@ -1,8 +1,0 @@
-commandlinefu_id: 5248
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -t server 'cd /etc && $SHELL'
-summary: |-
-  ssh: change directory while connecting

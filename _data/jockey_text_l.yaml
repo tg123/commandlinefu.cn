@@ -1,8 +1,0 @@
-commandlinefu_id: 12017
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jockey-text -l
-summary: |-
-  Find out which driver is in use

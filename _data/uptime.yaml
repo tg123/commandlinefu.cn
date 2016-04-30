@@ -1,7 +1,0 @@
-commandlinefu_id: 3125
-translator:
-  weibo: tgic
-command: |-
-  uptime
-summary: |-
-  系统运行实践

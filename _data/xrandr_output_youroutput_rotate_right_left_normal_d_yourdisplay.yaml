@@ -1,8 +1,0 @@
-commandlinefu_id: 175
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr  --output [youroutput] --rotate [right|left|normal] -d [yourdisplay]
-summary: |-
-  Rotate the X screen via xrandr

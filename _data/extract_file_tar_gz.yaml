@@ -1,8 +1,0 @@
-commandlinefu_id: 14036
-translator:
-  weibo: ''
-hide: true
-command: |-
-  extract file.tar.gz
-summary: |-
-  a function that extracts packt files

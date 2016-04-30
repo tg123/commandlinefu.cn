@@ -1,8 +1,0 @@
-commandlinefu_id: 10635
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -maxdepth 1 -empty -delete
-summary: |-
-  清理大小为0的文件

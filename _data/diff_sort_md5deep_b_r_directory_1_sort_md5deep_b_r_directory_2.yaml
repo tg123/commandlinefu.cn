@@ -1,7 +1,0 @@
-commandlinefu_id: 12631
-translator:
-  weibo: tgic
-command: |-
-  diff <(sort <(md5deep -b -r /directory/1/) ) <(sort <(md5deep -b -r /directory/2/)
-summary: |-
-  基于md5 diff目录

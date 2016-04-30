@@ -1,8 +1,0 @@
-commandlinefu_id: 8579
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof | grep 'DEL.*lib' | sort -k1,1 -u
-summary: |-
-  Find out which process uses an old lib and needs a restart after a system update

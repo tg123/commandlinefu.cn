@@ -1,7 +1,0 @@
-commandlinefu_id: 12368
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo $[RANDOM % 100]  # range 0-99
-summary: |-
-  在Bash中获得一个随机数

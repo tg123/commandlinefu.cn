@@ -1,8 +1,0 @@
-commandlinefu_id: 13844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nslookup . ifcfg.me
-summary: |-
-  return external ip

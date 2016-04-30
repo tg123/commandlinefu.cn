@@ -1,8 +1,0 @@
-commandlinefu_id: 1141
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e "s/| /\n/g" ~/.bash_history | cut -d ' ' -f 1 | sort | uniq -c | sort -nr | head
-summary: |-
-  See the 10 programs the most used

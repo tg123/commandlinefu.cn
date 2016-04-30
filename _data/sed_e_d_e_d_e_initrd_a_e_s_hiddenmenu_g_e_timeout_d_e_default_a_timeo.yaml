@@ -1,8 +1,0 @@
-commandlinefu_id: 8731
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e '/^$/d' -e '/^#/d' -e '/initrd/ a\ ' -e 's/hiddenmenu//g' -e '/^timeout/d' -e '/default/ a\timeout\t\t15' -e 's/quiet//g' -e 's/splash/rootdelay=60/g' /boot/grub/menu.lst > /boot/grub/menu.lst.new
-summary: |-
-  Update grub menu.lst

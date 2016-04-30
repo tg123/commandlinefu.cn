@@ -1,8 +1,0 @@
-commandlinefu_id: 6106
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find -type l -xtype d
-summary: |-
-  寻找所有指向目录的软link

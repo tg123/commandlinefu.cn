@@ -1,8 +1,0 @@
-commandlinefu_id: 12379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -i eth0 -w - | ssh savelocation.com -c arcfour,blowfish-cbc -C -p 50005 "cat - > /tmp/eth0.pcap"
-summary: |-
-  TCPDUMP & Save Capture to Remote Server

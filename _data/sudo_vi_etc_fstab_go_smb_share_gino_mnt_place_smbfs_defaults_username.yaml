@@ -1,8 +1,0 @@
-commandlinefu_id: 1838
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo vi /etc/fstab; Go//smb-share/gino /mnt/place smbfs defaults,username=gino,password=pass 0 0<esc>:wq; mount //smb-share/gino
-summary: |-
-  automount samba shares as devices in /mnt/

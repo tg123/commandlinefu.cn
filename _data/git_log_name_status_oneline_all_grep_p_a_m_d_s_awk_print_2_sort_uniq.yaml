@@ -1,8 +1,0 @@
-commandlinefu_id: 13543
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --name-status --oneline --all | grep -P "^[A|M|D]\s" | awk '{print $2}' | sort | uniq
-summary: |-
-  List all files ever added in git repository

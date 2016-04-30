@@ -1,7 +1,0 @@
-commandlinefu_id: 13278
-translator:
-  weibo: tgic
-command: |-
-  perl -nle 'print length,"\t",$_ if length > 37' < /path/to/input/file
-summary: |-
-  找出多余N个字符的行

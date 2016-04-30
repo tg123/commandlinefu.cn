@@ -1,8 +1,0 @@
-commandlinefu_id: 1183
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man -t UNIX_COMMAND | open -f -a preview
-summary: |-
-  read manpage of a unix command as pdf in preview (Os X)

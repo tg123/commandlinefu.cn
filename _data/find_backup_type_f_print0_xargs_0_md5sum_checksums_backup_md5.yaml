@@ -1,7 +1,0 @@
-commandlinefu_id: 633
-translator:
-  weibo: tgic
-command: |-
-  find ./backup -type f -print0 | xargs -0 md5sum > /checksums_backup.md5
-summary: |-
-  递归创建MD5

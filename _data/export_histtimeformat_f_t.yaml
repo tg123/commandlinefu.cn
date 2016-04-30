@@ -1,8 +1,0 @@
-commandlinefu_id: 3646
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export HISTTIMEFORMAT='%F %T '
-summary: |-
-  save  date and time for each command in history

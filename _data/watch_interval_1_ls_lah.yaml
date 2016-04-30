@@ -1,7 +1,0 @@
-commandlinefu_id: 12824
-translator:
-  weibo: tgic
-command: |-
-  watch --interval 1 ls -lah
-summary: |-
-  每秒执行一次ls -lah

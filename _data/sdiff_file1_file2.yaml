@@ -1,8 +1,0 @@
-commandlinefu_id: 5847
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sdiff file1 file2
-summary: |-
-  Compare two files side-by-side

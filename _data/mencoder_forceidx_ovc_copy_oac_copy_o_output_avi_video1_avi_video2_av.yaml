@@ -1,8 +1,0 @@
-commandlinefu_id: 715
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -forceidx -ovc copy -oac copy -o output.avi video1.avi video2.avi
-summary: |-
-  Concatenate (join) video files

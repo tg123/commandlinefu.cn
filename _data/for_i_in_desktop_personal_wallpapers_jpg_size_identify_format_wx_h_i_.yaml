@@ -1,7 +1,0 @@
-commandlinefu_id: 3811
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in ~/Desktop/Personal/Wallpapers/*.jpg ; { size=$((`identify -format "%wx%h" $i | sed 's/x/*/'`)) ; if [[ $size -lt 800001 ]] then ; rm -f "$i" ; fi; }
-summary: |-
-  利用Shell命令清除不够清晰的壁纸文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 14080
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill $(ps x | grep '\/chrome *.* --type=renderer ' | awk '{print $1}')
-summary: |-
-  Kill google chrome process

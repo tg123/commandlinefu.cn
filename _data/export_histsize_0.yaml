@@ -1,7 +1,0 @@
-commandlinefu_id: 7029
-translator:
-  weibo: tgic
-command: |-
-  export HISTSIZE=0
-summary: |-
-  不保存历史

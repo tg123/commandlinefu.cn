@@ -1,8 +1,0 @@
-commandlinefu_id: 1788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /var/log/secure | grep sshd | grep Failed | sed 's/invalid//' | sed 's/user//' | awk '{print $11}' | sort | uniq -c | sort -n
-summary: |-
-  Find brute force attempts on SSHd

@@ -1,8 +1,0 @@
-commandlinefu_id: 854
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  grep "processor" /proc/cpuinfo | wc -l
-summary: |-
-  显示cpu 核数

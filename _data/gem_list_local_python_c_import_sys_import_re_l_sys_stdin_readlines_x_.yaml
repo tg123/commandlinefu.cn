@@ -1,8 +1,0 @@
-commandlinefu_id: 4156
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gem list --local | python -c "import sys;import re;l=sys.stdin.readlines();x=['config.gem \"'+line[:-1][:line.index(' ')] + '\" , ' +line[:-1][line.index(' '):].replace('(',':version => \"').replace(')','')+'\"' for line in l];print '\n'.join(x)"
-summary: |-
-  configify the list of gems on ur machine. the quick hack

@@ -1,8 +1,0 @@
-commandlinefu_id: 9065
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  manswitch () { man $1 | less -p "^ +$2"; }
-summary: |-
-  直接定位到 man 中的 开关解释

@@ -1,8 +1,0 @@
-commandlinefu_id: 11319
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(seq 1 100 | sort -R); do echo $i; sleep 5; done
-summary: |-
-  Bingo-like raffle

@@ -1,8 +1,0 @@
-commandlinefu_id: 13609
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "scale=1000; 4*a(1)" | bc -l
-summary: |-
-  Calculate pi to an arbitrary number of decimal places

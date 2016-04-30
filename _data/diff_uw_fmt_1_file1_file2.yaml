@@ -1,8 +1,0 @@
-commandlinefu_id: 2277
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff -uw <(fmt -1 {file1, file2})
-summary: |-
-  Word-based diff on reformatted text files

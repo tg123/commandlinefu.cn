@@ -1,8 +1,0 @@
-commandlinefu_id: 3867
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set | fgrep " ()"
-summary: |-
-  List bash functions defined in .bash_profile or .bashrc

@@ -1,7 +1,0 @@
-commandlinefu_id: 1156
-translator:
-  weibo: tgic
-command: |-
-  echo *.log | xargs <command>
-summary: |-
-  提示 too many arguments 参数过多时候怎么解决

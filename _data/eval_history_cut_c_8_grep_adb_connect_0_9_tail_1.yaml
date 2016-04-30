@@ -1,8 +1,0 @@
-commandlinefu_id: 13211
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eval $(history | cut -c 8- | grep "adb connect [0-9]" | tail -1)
-summary: |-
-  adb connect to last IP address

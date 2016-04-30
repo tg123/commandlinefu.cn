@@ -1,8 +1,0 @@
-commandlinefu_id: 10425
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qdbus org.kde.ksmserver /KSMServer logout 0 2 2
-summary: |-
-  Halt system with KDE?4

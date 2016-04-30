@@ -1,8 +1,0 @@
-commandlinefu_id: 3663
-translator:
-  weibo: ''
-hide: true
-command: |-
-  s="124890";for i in $(seq 0 1 $((${#s}-1))); do arr[$i]=${s:$i:1}; done
-summary: |-
-  convert string to array

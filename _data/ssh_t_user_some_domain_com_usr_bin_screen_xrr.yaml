@@ -1,8 +1,0 @@
-commandlinefu_id: 1123
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -t user@some.domain.com /usr/bin/screen -xRR
-summary: |-
-  How to establish a remote Gnu screen session that you can re-connect to

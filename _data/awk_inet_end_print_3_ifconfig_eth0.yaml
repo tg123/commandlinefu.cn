@@ -1,7 +1,0 @@
-commandlinefu_id: 4232
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  awk '/inet end/ {print $3}' <(ifconfig eth0)
-summary: |-
-  返回IP地址

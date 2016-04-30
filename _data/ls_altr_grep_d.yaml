@@ -1,8 +1,0 @@
-commandlinefu_id: 11594
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -altr | grep ^d
-summary: |-
-  ls -altr | grep ^d

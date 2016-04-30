@@ -1,7 +1,0 @@
-commandlinefu_id: 7058
-translator:
-  weibo: tgic
-command: |-
-  history | awk '{print $2,$3}' | sed s/sudo// | awk '{print $1}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr
-summary: |-
-  排序最多使用的命令

@@ -1,8 +1,0 @@
-commandlinefu_id: 3085
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rar a -v[SIZE] [archivename] [files]
-summary: |-
-  Create a multi-part RAR archive

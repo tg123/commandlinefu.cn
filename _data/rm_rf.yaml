@@ -1,7 +1,0 @@
-commandlinefu_id: 895
-translator:
-  weibo: codepiano
-command: |-
-  rm -rf /*
-summary: |-
-  彪悍的命令不需要解释

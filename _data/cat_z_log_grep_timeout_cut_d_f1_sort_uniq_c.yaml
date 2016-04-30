@@ -1,8 +1,0 @@
-commandlinefu_id: 10327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat z.log | grep Timeout | cut -d ':' -f1 | sort | uniq -c
-summary: |-
-  Report summary of string occurrence by time period (hour)

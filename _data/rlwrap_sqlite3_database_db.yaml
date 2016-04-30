@@ -1,8 +1,0 @@
-commandlinefu_id: 6783
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rlwrap sqlite3 database.db
-summary: |-
-  Make any command read line enabled (on *nix)

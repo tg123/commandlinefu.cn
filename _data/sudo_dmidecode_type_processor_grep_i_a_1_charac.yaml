@@ -1,7 +1,0 @@
-commandlinefu_id: 5316
-translator:
-  weibo: tgic
-command: |-
-  sudo dmidecode --type=processor | grep -i -A 1 charac
-summary: |-
-  检查cpu是否支持64位指令

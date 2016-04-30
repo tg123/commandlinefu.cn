@@ -1,8 +1,0 @@
-commandlinefu_id: 5141
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e '$now=time; system "chsec -f /etc/security/passwd -s aixuser -a \"lastupdate=$now\""'
-summary: |-
-  AIX : reset aixuser password lastupdate to now using perl

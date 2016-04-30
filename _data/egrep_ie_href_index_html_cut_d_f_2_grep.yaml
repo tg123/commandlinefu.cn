@@ -1,7 +1,0 @@
-commandlinefu_id: 8182
-translator:
-  weibo: tgic
-command: |-
-  egrep -ie "<*HREF=(.*?)>" index.html | cut -d "\"" -f 2 | grep ://
-summary: |-
-  提取url

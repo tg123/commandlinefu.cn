@@ -1,8 +1,0 @@
-commandlinefu_id: 13995
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hexdump -n6 -e '/1 ":%02X"' /dev/random|sed s/^://g
-summary: |-
-  Generat a Random MAC address

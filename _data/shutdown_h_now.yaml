@@ -1,8 +1,0 @@
-commandlinefu_id: 14129
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shutdown -h now
-summary: |-
-  Shutdown immediately

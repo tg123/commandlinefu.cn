@@ -1,7 +1,0 @@
-commandlinefu_id: 3434
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  perl -lne '$l{$_}=length;END{for(sort{$l{$a}<=>$l{$b}}keys %l){print}}' < /usr/share/dict/words | tail
-summary: |-
-  根据长度来排序每一行

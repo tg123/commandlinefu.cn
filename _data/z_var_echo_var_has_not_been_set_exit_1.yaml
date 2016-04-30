@@ -1,8 +1,0 @@
-commandlinefu_id: 3476
-translator:
-  weibo: ''
-hide: true
-command: |-
-  [ -z "$VAR" ] && echo "VAR has not been set" && exit 1
-summary: |-
-  Check variable has been set

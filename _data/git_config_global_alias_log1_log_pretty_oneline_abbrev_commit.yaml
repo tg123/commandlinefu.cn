@@ -1,8 +1,0 @@
-commandlinefu_id: 684
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git config --global alias.log1 "log --pretty=oneline --abbrev-commit"
-summary: |-
-  git log1 alias

@@ -1,7 +1,0 @@
-commandlinefu_id: 11015
-translator:
-  weibo: '猪了个去'
-command: |-
-  dvdisaster -vr --defective-dump . --internal-rereads 5 --raw-mode 20 --read-attempts 1-23 --read-raw --speed-warning 12 --adaptive-read --auto-suffix --read-medium 2   &&   dvdisaster -vc -mRS02 --raw-mode 20 --read-raw --auto-suffix
-summary: |-
-  读取CD/DVD然后创建一个使用RS02方法dvdisaster的iso镜像

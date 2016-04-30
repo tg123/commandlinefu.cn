@@ -1,7 +1,0 @@
-commandlinefu_id: 3560
-translator:
-  weibo: tgic
-command: |-
-  echo "see attached file" | mail -a filename -s "subject" email@address
-summary: |-
-  发送附件

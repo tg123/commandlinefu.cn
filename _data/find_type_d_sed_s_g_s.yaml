@@ -1,7 +1,0 @@
-commandlinefu_id: 10592
-translator:
-  weibo: codepiano
-command: |-
-  find . -type d |sed 's:[^-][^/]*/:--:g; s:^-: |:'
-summary: |-
-  图形化的目录树

@@ -1,8 +1,0 @@
-commandlinefu_id: 8007
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git filter-branch --index-filter 'git rm --cached --ignore-unmatch FileToRemove' HEAD
-summary: |-
-  Removing sensitive data from the entire repo history.

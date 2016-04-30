@@ -1,7 +1,0 @@
-commandlinefu_id: 3280
-translator:
-  weibo: tgic
-command: |-
-  free -m | awk '/Swap/ {print $4}'
-summary: |-
-  释放swap

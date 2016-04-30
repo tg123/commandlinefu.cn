@@ -1,8 +1,0 @@
-commandlinefu_id: 3692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  md5sum --check MD5SUMS | grep -v ": OK"
-summary: |-
-  Verify MD5SUMS but only print failures

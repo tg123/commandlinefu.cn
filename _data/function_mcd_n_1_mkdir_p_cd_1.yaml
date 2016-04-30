@@ -1,7 +1,0 @@
-commandlinefu_id: 2241
-translator:
-  weibo: tgic
-command: |-
-  function mcd() {   [ -n "$1" ] && mkdir -p "$@" && cd "$1";   }
-summary: |-
-  创建目录并cd

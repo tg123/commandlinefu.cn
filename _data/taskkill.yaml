@@ -1,7 +1,0 @@
-commandlinefu_id: 9386
-translator:
-  weibo: codepiano
-command: |-
-  Taskkill /?
-summary: |-
-  在Windows 7中杀死进程

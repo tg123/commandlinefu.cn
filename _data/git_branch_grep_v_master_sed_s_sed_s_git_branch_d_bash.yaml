@@ -1,8 +1,0 @@
-commandlinefu_id: 14019
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git branch | grep -v "master" | sed 's/^[ *]*//' | sed 's/^/git branch -D /' | bash
-summary: |-
-  Delete all git branches except master

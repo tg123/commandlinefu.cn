@@ -1,8 +1,0 @@
-commandlinefu_id: 11444
-translator:
-  weibo: ''
-hide: true
-command: |-
-  java -jar app.jar  -cp $(echo lib/*.jar | tr ' ' ':')
-summary: |-
-  Java app with dynamic classpath

@@ -1,8 +1,0 @@
-commandlinefu_id: 9427
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wvPDF test.doc test.pdf
-summary: |-
-  Create .pdf from .doc

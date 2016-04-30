@@ -1,7 +1,0 @@
-commandlinefu_id: 5173
-translator:
-  weibo: tgic
-command: |-
-  ifconfig | sed '/.*addr.*Bcast.*/ ! d'| sed 's/.*addr:\([0-9\.]*\).*/\1/'
-summary: |-
-  限制你的ip

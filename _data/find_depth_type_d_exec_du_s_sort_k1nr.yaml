@@ -1,8 +1,0 @@
-commandlinefu_id: 2488
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -depth -type d -exec du -s {} \; | sort -k1nr
-summary: |-
-  Size(k) of directories(Biggest first)

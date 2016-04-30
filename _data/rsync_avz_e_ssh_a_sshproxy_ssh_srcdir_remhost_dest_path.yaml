@@ -1,7 +1,0 @@
-commandlinefu_id: 1694
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  rsync -avz -e 'ssh -A sshproxy ssh' srcdir remhost:dest/path/
-summary: |-
-  通过SSH通道远程同步文件和文件夹

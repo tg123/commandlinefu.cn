@@ -1,8 +1,0 @@
-commandlinefu_id: 8797
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "alias topu='top -u USERNAME'" >>  ~/.bash_aliases && source .bashrc
-summary: |-
-  Create an alias, store it in ~/.bash_aliases and source your new alias into the ~/.bashrc

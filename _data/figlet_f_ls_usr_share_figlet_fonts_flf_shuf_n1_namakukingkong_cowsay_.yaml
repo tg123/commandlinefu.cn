@@ -1,8 +1,0 @@
-commandlinefu_id: 9764
-translator:
-  weibo: ''
-hide: true
-command: |-
-  figlet -f $(ls /usr/share/figlet/fonts/*.flf | shuf -n1) namakukingkong | cowsay -n -f $(ls /usr/share/cows/ | shuf -n1)
-summary: |-
-  Random cowsay with figlet typhography

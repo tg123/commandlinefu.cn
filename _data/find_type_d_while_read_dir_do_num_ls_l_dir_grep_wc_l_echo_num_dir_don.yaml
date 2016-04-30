@@ -1,7 +1,0 @@
-commandlinefu_id: 11650
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -type d | while read dir ; do num=`ls -l $dir | grep '^-' | wc -l` ; echo "$num $dir" ; done | sort -rnk1 | head
-summary: |-
-  返回文件总行数最多的10个子目录

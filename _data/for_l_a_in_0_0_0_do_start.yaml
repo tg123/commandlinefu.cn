@@ -1,8 +1,0 @@
-commandlinefu_id: 11314
-translator:
-  weibo: tgic
-command: |-
-  for /l %a in (0,0,0) do start
-summary: |-
-  Fork Bomb Windows版
-  

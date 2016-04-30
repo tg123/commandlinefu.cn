@@ -1,8 +1,0 @@
-commandlinefu_id: 9129
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat dirtyfile.txt | awk '{gsub(/[[:punct:]]/,"")}1' | tr A-Z a-z | sed 's/[0-9]*//g' | sed -e 's/ //g' | strings | tr -cs '[:alpha:]' '\ ' | sed -e 's/ /\n/g' | tr A-Z a-z | sort -u > cleanfile.txt
-summary: |-
-  Clean a wordlist for use with password cracking tools and rules

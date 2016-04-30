@@ -1,8 +1,0 @@
-commandlinefu_id: 3463
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . \( ! -name . -prune \) \( -type f -o -type l \)
-summary: |-
-  find only current directory (universal)

@@ -1,8 +1,0 @@
-commandlinefu_id: 1772
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch --no-title -d -n 1 'echo `date -d "next Thursday" +%s` "-" `date +%s` | bc -l'
-summary: |-
-  Simple countdown from a given date

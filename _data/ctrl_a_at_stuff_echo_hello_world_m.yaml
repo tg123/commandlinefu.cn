@@ -1,8 +1,0 @@
-commandlinefu_id: 10552
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl+a>:at "#" stuff "echo hello world^M"
-summary: |-
-  Send command to all terminals in a screen session

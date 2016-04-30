@@ -1,7 +1,0 @@
-commandlinefu_id: 12671
-translator:
-  weibo: '猪了个去'
-command: |-
-  curl ${URL} 2>/dev/null|grep "<${BLOCK}>"|sed -e "s/.*\<${BLOCK}\>\(.*\)\<\/${BLOCK}\>.*/\1/g"
-summary: |-
-  通过标签<title>/<code>/<description>提取XML中的RSS等信息

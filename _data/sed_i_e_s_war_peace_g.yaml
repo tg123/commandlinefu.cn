@@ -1,8 +1,0 @@
-commandlinefu_id: 4465
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i -e 's/war/peace/g' *
-summary: |-
-  Replace strings in files

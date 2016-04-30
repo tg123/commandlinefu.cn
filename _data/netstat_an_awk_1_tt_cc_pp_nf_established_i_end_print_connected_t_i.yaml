@@ -1,7 +1,0 @@
-commandlinefu_id: 3551
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  netstat -an | awk '$1 ~ /[Tt][Cc][Pp]/ && $NF ~ /ESTABLISHED/{i++}END{print "Connected:\t", i}'
-summary: |-
-  统计机器上已经建立的tcp连接

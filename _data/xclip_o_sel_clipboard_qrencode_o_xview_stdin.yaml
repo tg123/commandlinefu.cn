@@ -1,8 +1,0 @@
-commandlinefu_id: 12907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xclip -o -sel clipboard | qrencode -o - | xview stdin
-summary: |-
-  Show URL/text in clipboard as QR code

@@ -1,8 +1,0 @@
-commandlinefu_id: 262
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -av --progress ./file.txt user@host:/path/to/dir
-summary: |-
-  rsync with progress bar.

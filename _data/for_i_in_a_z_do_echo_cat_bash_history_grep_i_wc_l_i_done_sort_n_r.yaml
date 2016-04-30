@@ -1,8 +1,0 @@
-commandlinefu_id: 11796
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {a..z}; do echo $(cat ~/.bash_history | grep ^$i.* | wc -l) $i; done | sort -n -r
-summary: |-
-  The letter your commands most often start with

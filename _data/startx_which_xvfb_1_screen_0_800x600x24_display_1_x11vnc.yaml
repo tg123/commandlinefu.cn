@@ -1,8 +1,0 @@
-commandlinefu_id: 1816
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  startx -- `which Xvfb` :1 -screen 0 800x600x24 && DISPLAY=:1 x11vnc
-summary: |-
-  没有显示硬件时候如何运行 X window

@@ -1,8 +1,0 @@
-commandlinefu_id: 12031
-translator:
-  weibo: ''
-hide: true
-command: |-
-  DATE=`date +"%H:%M" --date '-1 min'`; egrep "\ $DATE\:..\ " /var/log/dhcpd.log |awk '/DHCPREQUEST/ {split($3,t,":"); printf("%02d:%02d\n",t[1],t[2]);}' |uniq -c;
-summary: |-
-  Display count of log entries via the previous minute for graphing purposes.  Example given is for DHCPREQUESTS on an ISC dhcp service log.

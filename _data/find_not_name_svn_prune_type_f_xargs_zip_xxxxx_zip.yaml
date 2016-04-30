@@ -1,7 +1,0 @@
-commandlinefu_id: 3390
-translator:
-  weibo: codepiano
-command: |-
-  find . -not \( -name .svn -prune \) -type f | xargs zip XXXXX.zip
-summary: |-
-  制作一个zip压缩包，将.svn目录排除在

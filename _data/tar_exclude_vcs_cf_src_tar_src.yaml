@@ -1,8 +1,0 @@
-commandlinefu_id: 4619
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar --exclude-vcs -cf src.tar src/
-summary: |-
-  Exclude .svn, .git and other VCS junk for a pristine tarball

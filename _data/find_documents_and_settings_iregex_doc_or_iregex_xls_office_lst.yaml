@@ -1,7 +1,0 @@
-commandlinefu_id: 6953
-translator:
-  weibo: tgic
-command: |-
-  find Documents\ and\ Settings -iregex .+\.doc -or -iregex .+\.xls > office.lst
-summary: |-
-  只查找*.doc 和*.xls (Windows)

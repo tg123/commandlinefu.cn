@@ -1,7 +1,0 @@
-commandlinefu_id: 6859
-translator:
-  weibo: tgic
-command: |-
-  unzip -l file.jar
-summary: |-
-  查看jar的内容

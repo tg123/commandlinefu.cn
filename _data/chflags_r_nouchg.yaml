@@ -1,8 +1,0 @@
-commandlinefu_id: 9042
-translator:
-  weibo: ''
-hide: true
-command: |-
-  chflags -R nouchg ./
-summary: |-
-  make a samba shared folder writable, when doing an svn commit on OSX

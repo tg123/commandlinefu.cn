@@ -1,8 +1,0 @@
-commandlinefu_id: 1512
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <space>command
-summary: |-
-  Execute a command without saving it in the history

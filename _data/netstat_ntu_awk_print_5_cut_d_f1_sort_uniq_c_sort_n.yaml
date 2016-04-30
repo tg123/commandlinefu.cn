@@ -1,7 +1,0 @@
-commandlinefu_id: 8526
-translator:
-  weibo: particle128
-command: |-
-  netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort  | uniq -c | sort -n
-summary: |-
-  显示连接到本机上的IP列表（在检测应当被阻挡的IP时很有用）

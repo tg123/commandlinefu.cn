@@ -1,8 +1,0 @@
-commandlinefu_id: 12810
-translator:
-  weibo: ''
-hide: true
-command: |-
-  emacs -nw
-summary: |-
-  open emacs within terminal

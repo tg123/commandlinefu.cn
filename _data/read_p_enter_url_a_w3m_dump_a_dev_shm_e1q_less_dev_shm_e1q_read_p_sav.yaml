@@ -1,8 +1,0 @@
-commandlinefu_id: 6067
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read -p "enter url:" a ; w3m -dump $a > /dev/shm/e1q ; less /dev/shm/e1q ; read -p "save file as text (y/n)?" b ; if [ $b = "y" ] ; then read -p "enter path with filename:" c && touch $(eval echo "$c")  ; mv /dev/shm/e1q $(eval echo "$c") ; fi ; echo DONE
-summary: |-
-  Get a url, preview it, and save as text - with prompts

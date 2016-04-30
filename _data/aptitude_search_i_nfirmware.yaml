@@ -1,7 +1,0 @@
-commandlinefu_id: 11228
-translator:
-  weibo: tgic
-command: |-
-  aptitude search ~i ~nfirmware
-summary: |-
-  显示所有安装的fireware (deb)

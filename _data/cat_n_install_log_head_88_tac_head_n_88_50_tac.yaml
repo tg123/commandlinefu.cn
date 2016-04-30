@@ -1,8 +1,0 @@
-commandlinefu_id: 12260
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat -n install.log | head -88 | tac | head -n $(( 88 - 50 )) | tac
-summary: |-
-  cut log from  line  50 to line 88

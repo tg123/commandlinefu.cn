@@ -1,8 +1,0 @@
-commandlinefu_id: 8042
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.java" -type f -perm +600 -print | xargs -I _ sh -c 'grep -q hexianmao _ && iconv -f gb2312 -t utf8 -o _ -c _ '
-summary: |-
-  Convert one's Java source file encoding

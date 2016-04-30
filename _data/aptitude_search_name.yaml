@@ -1,7 +1,0 @@
-commandlinefu_id: 4030
-translator:
-  weibo: tgic
-command: |-
-  aptitude search NAME
-summary: |-
-  查找包(ubuntu)

@@ -1,7 +1,0 @@
-commandlinefu_id: 6925
-translator:
-  weibo: tgic
-command: |-
-  dpkg -L iptables | perl -lne 'print if -f && -x'
-summary: |-
-  列出包中的可执行文件(deb)

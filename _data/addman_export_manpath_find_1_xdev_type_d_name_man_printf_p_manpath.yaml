@@ -1,8 +1,0 @@
-commandlinefu_id: 5837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  addman () { export MANPATH=`find $1 -xdev -type d -name man -printf %p:`${MANPATH}; }
-summary: |-
-  Load "missing" man pages for your stuff.

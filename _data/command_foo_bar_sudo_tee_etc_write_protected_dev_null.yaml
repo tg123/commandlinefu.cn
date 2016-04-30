@@ -1,8 +1,0 @@
-commandlinefu_id: 14035
-translator:
-  weibo: ''
-hide: true
-command: |-
-  command foo bar | sudo tee /etc/write-protected > /dev/null
-summary: |-
-  Redirect output to a write-protected file with sudo but without sh -c, using tee.

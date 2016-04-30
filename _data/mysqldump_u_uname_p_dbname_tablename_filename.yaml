@@ -1,7 +1,0 @@
-commandlinefu_id: 5094
-translator:
-  weibo: tgic
-command: |-
-  mysqldump -u UNAME -p DBNAME TABLENAME> FILENAME
-summary: |-
-  把表导出到文件里边

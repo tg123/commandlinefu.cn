@@ -1,8 +1,0 @@
-commandlinefu_id: 12843
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hg commit --close-branch -m 'close badbranch, this approach never worked'
-summary: |-
-  mercurial close branch

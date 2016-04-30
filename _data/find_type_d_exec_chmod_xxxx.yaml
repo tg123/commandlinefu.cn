@@ -1,8 +1,0 @@
-commandlinefu_id: 6432
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -exec chmod XXXX {} \;
-summary: |-
-  change current directory permissions and only sub-directories recursively (not files)

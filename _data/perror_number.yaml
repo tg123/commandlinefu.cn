@@ -1,7 +1,0 @@
-commandlinefu_id: 1812
-translator:
-  weibo: tgic
-command: |-
-  perror NUMBER
-summary: |-
-  查看错误代码含义

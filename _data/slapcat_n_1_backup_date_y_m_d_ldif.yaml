@@ -1,7 +1,0 @@
-commandlinefu_id: 5579
-translator:
-  weibo: gdqyn
-command: |-
-  slapcat -n 1 > /backup/`date "+%Y%m%d"`.ldif
-summary: |-
-  备份LDAP

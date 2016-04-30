@@ -1,8 +1,0 @@
-commandlinefu_id: 975
-translator:
-  weibo: tgic
-command: |-
-  cp /really/long/path/and/file/name{,-`date -I`}
-summary: |-
-  把文件复制到文件名-今天日期
-

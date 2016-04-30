@@ -1,8 +1,0 @@
-commandlinefu_id: 14122
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man bash | grep -A 9 "Keyboard Macros"
-summary: |-
-  Keyboard Macros

@@ -1,7 +1,0 @@
-commandlinefu_id: 9128
-translator:
-  weibo: tgic
-command: |-
-  tcpdump | aplay -c 2
-summary: |-
-  倾听网络上的字节

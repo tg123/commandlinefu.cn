@@ -1,8 +1,0 @@
-commandlinefu_id: 1308
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l -p 2000 < song.mp3
-summary: |-
-  mp3 streaming

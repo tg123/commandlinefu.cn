@@ -1,8 +1,0 @@
-commandlinefu_id: 2466
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder video.avi lavc -lavcopts vcodec=mpeg4:vbitrate=800 newvideo.avi
-summary: |-
-  Encode a file to MPEG4 format

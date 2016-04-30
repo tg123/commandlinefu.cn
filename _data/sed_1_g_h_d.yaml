@@ -1,8 +1,0 @@
-commandlinefu_id: 832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed '1!G;h;$!d'
-summary: |-
-  reverse order of file

@@ -1,7 +1,0 @@
-commandlinefu_id: 3310
-translator:
-  weibo: tgic
-command: |-
-  bash -x test.sh 2>&1 | tee out.test
-summary: |-
-  在debug模式下运行 shell

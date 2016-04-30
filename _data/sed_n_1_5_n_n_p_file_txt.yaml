@@ -1,7 +1,0 @@
-commandlinefu_id: 9586
-translator:
-  weibo: tgic
-command: |-
-  sed -n '1~5{N;N;p}' file.txt
-summary: |-
-  每5行打印其中3行

@@ -1,7 +1,0 @@
-commandlinefu_id: 10743
-translator:
-  weibo: tgic
-command: |-
-  sed -i -e '1i \# -*- coding: utf-8 -*-' yourfile.py
-summary: |-
-  给你的py加上 coding: utf-8

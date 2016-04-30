@@ -1,8 +1,0 @@
-commandlinefu_id: 8370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *; do mv "$f" "${f/foo/bar}"; done
-summary: |-
-  bulk rename files with sed, one-liner

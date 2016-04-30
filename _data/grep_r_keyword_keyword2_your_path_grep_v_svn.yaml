@@ -1,8 +1,0 @@
-commandlinefu_id: 2594
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r 'keyword keyword2' your/path/ | grep -v svn
-summary: |-
-  find a word in multiple files avoiding svn

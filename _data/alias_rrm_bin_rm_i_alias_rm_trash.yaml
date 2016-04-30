@@ -1,7 +1,0 @@
-commandlinefu_id: 11127
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  alias rrm='/bin/rm -i'; alias rm='trash'
-summary: |-
-  妈妈再也不用担心我rm掉心爱的文件了

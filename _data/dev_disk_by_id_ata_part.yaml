@@ -1,8 +1,0 @@
-commandlinefu_id: 13135
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /dev/disk/by-id/ata!(*part*)
-summary: |-
-  Get the /dev/disk/by-id fragment for a physical drive

@@ -1,7 +1,0 @@
-commandlinefu_id: 2327
-translator:
-  weibo: tgic
-command: |-
-  for i in `svn status | egrep '^(M|A)' | sed -r 's/\+\s+//' | awk '{ print $2 }'` ; do if [ ! -d $i ] ; then php -l $i ; fi ; done
-summary: |-
-  提交之前检查PHP语法

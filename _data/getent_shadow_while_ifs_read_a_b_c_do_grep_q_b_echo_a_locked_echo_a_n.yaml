@@ -1,8 +1,0 @@
-commandlinefu_id: 4377
-translator:
-  weibo: ''
-hide: true
-command: |-
-  getent shadow | while IFS=: read a b c; do grep -q '!' <<< "$b" && echo "$a LOCKED" || echo "$a not locked"; done
-summary: |-
-  Sometimes you just want a quick way to find out if a certain user account is locked [Linux].

@@ -1,7 +1,0 @@
-commandlinefu_id: 12085
-translator:
-  weibo: particle128
-command: |-
-  vim sftp://[user@]host.domain.tld:[port]/[path/][file]
-summary: |-
-  用vim打开一个远程文件

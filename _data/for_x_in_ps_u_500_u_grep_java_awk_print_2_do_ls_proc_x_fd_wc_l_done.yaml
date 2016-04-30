@@ -1,7 +1,0 @@
-commandlinefu_id: 11841
-translator:
-  weibo: tgic
-command: |-
-  for x in `ps -u 500 u | grep java | awk '{ print $2 }'`;do ls /proc/$x/fd|wc -l;done
-summary: |-
-  查看指定用户打开的文件数量

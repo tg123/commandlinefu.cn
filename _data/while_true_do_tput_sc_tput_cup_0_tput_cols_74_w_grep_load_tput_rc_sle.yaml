@@ -1,8 +1,0 @@
-commandlinefu_id: 8355
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do tput sc; tput cup 0 $(($(tput cols)-74)); w | grep load; tput rc; sleep 10; done &
-summary: |-
-  Put a console clock in top right corner

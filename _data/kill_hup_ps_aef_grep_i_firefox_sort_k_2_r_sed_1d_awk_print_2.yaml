@@ -1,8 +1,0 @@
-commandlinefu_id: 295
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -HUP ` ps -aef | grep -i firefox | sort -k 2 -r | sed 1d | awk ' { print $2 } ' `
-summary: |-
-  UNIX one-liner to kill a hanging Firefox process

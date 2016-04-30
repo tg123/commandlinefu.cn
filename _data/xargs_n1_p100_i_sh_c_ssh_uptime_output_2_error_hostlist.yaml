@@ -1,8 +1,0 @@
-commandlinefu_id: 6379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xargs -n1 -P100 -I{} sh -c 'ssh {} uptime >output/{} 2>error/{}' <hostlist
-summary: |-
-  run command on a group of nodes in parallel redirecting outputs

@@ -1,8 +1,0 @@
-commandlinefu_id: 10527
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 5 "upower -d | grep energy -A 4"
-summary: |-
-  Quick Battery Power Monitor

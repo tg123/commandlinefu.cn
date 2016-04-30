@@ -1,7 +1,0 @@
-commandlinefu_id: 8137
-translator:
-  weibo: tgic
-command: |-
-  pacman -Qo /etc/yaourtrc
-summary: |-
-  显示那个包创建了 特定文件

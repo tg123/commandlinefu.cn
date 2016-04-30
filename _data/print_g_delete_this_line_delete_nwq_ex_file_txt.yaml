@@ -1,7 +1,0 @@
-commandlinefu_id: 2705
-translator:
-  weibo: tgic
-command: |-
-  print 'g/'delete this line'/delete\nwq' | ex file.txt
-summary: |-
-  直接修改文件内容

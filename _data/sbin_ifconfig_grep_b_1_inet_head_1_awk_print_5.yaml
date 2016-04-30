@@ -1,8 +1,0 @@
-commandlinefu_id: 5437
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  /sbin/ifconfig|grep -B 1 inet |head -1 | awk '{print $5}'
-summary: |-
-  查看mac地址

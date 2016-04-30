@@ -1,8 +1,0 @@
-commandlinefu_id: 10685
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for wrd in `cat file2` ; do   sed -i .bk "/^$wrd/d" file1; done
-summary: |-
-  Remove all lines beginning with words from another file

@@ -1,7 +1,0 @@
-commandlinefu_id: 8745
-translator:
-  weibo: tgic
-command: |-
-  test $((RANDOM%2)) -eq 0
-summary: |-
-  随机决定true or false

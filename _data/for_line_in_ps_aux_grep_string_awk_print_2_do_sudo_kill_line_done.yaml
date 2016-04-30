@@ -1,8 +1,0 @@
-commandlinefu_id: 12938
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for line in `ps aux | grep <string> | awk '{print $2}'`; do sudo kill $line; done;
-summary: |-
-  Kill all processes found in grep

@@ -1,8 +1,0 @@
-commandlinefu_id: 6368
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  rename 's/foo/bar/g' foobar
-summary: |-
-  替换文件名中的字符串

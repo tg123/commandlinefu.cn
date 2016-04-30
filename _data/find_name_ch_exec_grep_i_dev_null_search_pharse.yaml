@@ -1,7 +1,0 @@
-commandlinefu_id: 11618
-translator:
-  weibo: tgic
-command: |-
-  find . -name "*.[ch]" -exec grep -i /dev/null "search pharse" {} \;
-summary: |-
-  在c代码中grep

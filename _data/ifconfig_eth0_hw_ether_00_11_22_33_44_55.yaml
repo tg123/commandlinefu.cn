@@ -1,7 +1,0 @@
-commandlinefu_id: 2148
-translator:
-  weibo: codepiano
-command: |-
-  ifconfig eth0 hw ether 00:11:22:33:44:55
-summary: |-
-  修改物理地址

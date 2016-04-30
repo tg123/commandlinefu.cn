@@ -1,7 +1,0 @@
-commandlinefu_id: 11290
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{a[$3]++} END {for(i in a) print i}' /var/log/squid/access.log
-summary: |-
-  列出所有代理客户端 

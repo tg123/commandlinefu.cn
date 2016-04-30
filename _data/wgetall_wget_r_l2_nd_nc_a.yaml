@@ -1,7 +1,0 @@
-commandlinefu_id: 9364
-translator:
-  weibo: gdqyn
-command: |-
-  wgetall () { wget -r -l2 -nd -Nc -A.$@ $@ }
-summary: |-
-  用wget下载某一类型的所有文件

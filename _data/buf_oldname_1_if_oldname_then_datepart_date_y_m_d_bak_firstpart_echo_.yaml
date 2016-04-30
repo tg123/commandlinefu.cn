@@ -1,7 +1,0 @@
-commandlinefu_id: 11137
-translator:
-  weibo: tgic
-command: |-
-  buf () { oldname=$1; if [ "$oldname" != "" ]; then datepart="$(date +%Y-%m-%d).bak"; firstpart=`echo $oldname | cut -d "." -f 1`; newname=`echo $oldname | sed s/$firstpart/$firstpart.$datepart/`; cp -iv ${oldname} ${newname}; fi }
-summary: |-
-  创建一个时间戳命名的备份文件

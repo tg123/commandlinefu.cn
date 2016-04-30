@@ -1,8 +1,0 @@
-commandlinefu_id: 11494
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -d '\r' < <input> > <output>
-summary: |-
-  Convert DOS newlines (CR/LF) to Unix format

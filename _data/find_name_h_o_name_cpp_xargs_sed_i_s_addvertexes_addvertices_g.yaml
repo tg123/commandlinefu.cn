@@ -1,8 +1,0 @@
-commandlinefu_id: 12585
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.h" -o -name "*.cpp" | xargs sed -i 's/addVertexes/addVertices/g'
-summary: |-
-  Recursive find and replace in h an cpp files

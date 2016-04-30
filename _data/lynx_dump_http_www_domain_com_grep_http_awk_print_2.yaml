@@ -1,7 +1,0 @@
-commandlinefu_id: 6519
-translator:
-  weibo: tgic
-command: |-
-  lynx -dump http://www.domain.com | grep http| awk '{print $2 }'
-summary: |-
-  获取网页的所有连接

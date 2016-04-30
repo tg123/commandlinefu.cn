@@ -1,7 +1,0 @@
-commandlinefu_id: 8160
-translator:
-  weibo: '猪了个去'
-command: |-
-  svcadm disable cde-login
-summary: |-
-  Solaris操作系统:禁用图像登录

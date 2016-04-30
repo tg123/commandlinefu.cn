@@ -1,7 +1,0 @@
-commandlinefu_id: 12400
-translator:
-  weibo: particle128
-command: |-
-  command -v <command>
-summary: |-
-  检查一个命令是否存在

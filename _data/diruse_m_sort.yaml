@@ -1,8 +1,0 @@
-commandlinefu_id: 6636
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diruse /,/M/* .|sort
-summary: |-
-  count directory space usage in current directory with sort for microsoft windows

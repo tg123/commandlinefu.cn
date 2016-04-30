@@ -1,8 +1,0 @@
-commandlinefu_id: 5681
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo tmp%date:~4,2%-%date:~7,2%-%date:~10,4%_%time%
-summary: |-
-  (windows) Append date and Time to a file name use ren temp.txt instead of echo

@@ -1,7 +1,0 @@
-commandlinefu_id: 9551
-translator:
-  weibo: tgic
-command: |-
-  grep -Ilr "<?php" .
-summary: |-
-  寻找php文件 (按内容而不是扩展名)

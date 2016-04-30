@@ -1,8 +1,0 @@
-commandlinefu_id: 1666
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -sDEVICE=pswrite -sOutputFile=- -q -dNOPAUSE With-Fonts.pdf -c quit | ps2pdf - > No-Fonts.pdf
-summary: |-
-  Remove embedded fonts from a pdf.

@@ -1,7 +1,0 @@
-commandlinefu_id: 805
-translator:
-  weibo: tgic
-command: |-
-  apache2 -t -D DUMP_MODULES
-summary: |-
-  查看加载的模块 Apache

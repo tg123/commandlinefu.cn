@@ -1,8 +1,0 @@
-commandlinefu_id: 3936
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd() { if [[ "$1" =~ ^\.\.+$ ]];then local a dir;a=${#1};while [ $a -ne 1 ];do dir=${dir}"../";((a--));done;builtin cd $dir;else builtin cd "$@";fi ;}
-summary: |-
-  Go up multiple levels of directories quickly and easily.

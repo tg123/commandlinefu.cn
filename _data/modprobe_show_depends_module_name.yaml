@@ -1,8 +1,0 @@
-commandlinefu_id: 11162
-translator:
-  weibo: ''
-hide: true
-command: |-
-  modprobe --show-depends module_name
-summary: |-
-  Show linux kernel modules dependencies

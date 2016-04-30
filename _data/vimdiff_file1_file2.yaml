@@ -1,7 +1,0 @@
-commandlinefu_id: 11198
-translator:
-  weibo: tgic
-command: |-
-  vimdiff file1 file2
-summary: |-
-  使用vim diff 两个文件(好像是废话)

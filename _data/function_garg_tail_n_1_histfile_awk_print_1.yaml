@@ -1,7 +1,0 @@
-commandlinefu_id: 12701
-translator:
-  weibo: tgic
-command: |-
-  function garg () { tail -n 1 ${HISTFILE} | awk "{ print \$$1 }" }
-summary: |-
-  获取第n个参数

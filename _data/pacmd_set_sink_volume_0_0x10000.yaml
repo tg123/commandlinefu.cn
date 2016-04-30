@@ -1,7 +1,0 @@
-commandlinefu_id: 10995
-translator:
-  weibo: tgic
-command: |-
-  pacmd set-sink-volume 0 0x10000
-summary: |-
-  命令行调节音量

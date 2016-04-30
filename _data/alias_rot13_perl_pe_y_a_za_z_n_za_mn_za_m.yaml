@@ -1,7 +1,0 @@
-commandlinefu_id: 269
-translator:
-  weibo: tgic
-command: |-
-  alias rot13='perl -pe "y/A-Za-z/N-ZA-Mn-za-m/;"'
-summary: |-
-  使用perl完成rot13

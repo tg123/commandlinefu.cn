@@ -1,7 +1,0 @@
-commandlinefu_id: 10851
-translator:
-  weibo: tgic
-command: |-
-  watch -n 1 "awk 'NR==3 {print \"Signal strength = \" \$3 \"00 %\"}''' /proc/net/wireless"
-summary: |-
-  无线信号

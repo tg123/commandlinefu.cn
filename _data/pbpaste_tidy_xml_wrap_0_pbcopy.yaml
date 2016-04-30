@@ -1,7 +1,0 @@
-commandlinefu_id: 2706
-translator:
-  weibo: tgic
-command: |-
-  pbpaste | tidy -xml -wrap 0 | pbcopy
-summary: |-
-  格式化剪切版里边的xml

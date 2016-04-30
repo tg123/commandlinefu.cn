@@ -1,8 +1,0 @@
-commandlinefu_id: 12365
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -mx [directory] | grep -P '^\d{4}' | sort -rn
-summary: |-
-  list the top 15 folders by decreasing size in MB

@@ -1,8 +1,0 @@
-commandlinefu_id: 3575
-translator:
-  weibo: tgic
-hide: false
-command: |
-  perl -le 'use Config; foreach $i (keys %Config) {print "$i : @Config{$i}"}'
-summary: |-
-  输出所有的perl配置

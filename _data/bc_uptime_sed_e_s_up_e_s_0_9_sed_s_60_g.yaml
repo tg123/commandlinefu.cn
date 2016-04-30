@@ -1,7 +1,0 @@
-commandlinefu_id: 9140
-translator:
-  weibo: tgic
-command: |-
-  bc <<<  `uptime | sed -e 's/^.*up //' -e 's/[^0-9:].*//' | sed 's/:/*60+/g'`
-summary: |-
-  用分钟显示uptime

@@ -1,7 +1,0 @@
-commandlinefu_id: 8721
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -newermt "2010-01-01" ! -newermt "2010-06-01"
-summary: |-
-  查找一个日期范围的文件

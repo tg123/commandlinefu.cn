@@ -1,8 +1,0 @@
-commandlinefu_id: 9748
-translator:
-  weibo: ''
-hide: true
-command: |-
-  script -f /tmp/foo; tail -f /tmp/foo
-summary: |-
-  Script Terminal Session

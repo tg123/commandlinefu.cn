@@ -1,8 +1,0 @@
-commandlinefu_id: 4181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  defaults write /Library/Preferences/com.apple.NetworkAuthorization UseShortName -bool YES
-summary: |-
-  use the short username by default for network authentication

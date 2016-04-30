@@ -1,7 +1,0 @@
-commandlinefu_id: 4299
-translator:
-  weibo: tgic
-command: |-
-  grep -oP '"url":"\K[^"]+' $(ls -t ~/.mozilla/firefox/*/sessionstore.js | sed q)
-summary: |-
-  从firefox中提取cookie

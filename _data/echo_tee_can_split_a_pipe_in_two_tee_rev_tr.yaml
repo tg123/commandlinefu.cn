@@ -1,8 +1,0 @@
-commandlinefu_id: 6334
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "tee can split a pipe in two"|tee >(rev) >(tr ' ' '_')
-summary: |-
-  Use tee to process a pipe with two or more processes

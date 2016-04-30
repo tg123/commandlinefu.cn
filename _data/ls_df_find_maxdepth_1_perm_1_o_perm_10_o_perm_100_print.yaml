@@ -1,8 +1,0 @@
-commandlinefu_id: 139
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -dF `find . -maxdepth 1 \( -perm -1 -o \( -perm -10 -o -perm -100 \) \) -print`
-summary: |-
-  List just the executable files (or directories) in current directory

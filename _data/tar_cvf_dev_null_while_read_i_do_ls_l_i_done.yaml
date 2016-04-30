@@ -1,7 +1,0 @@
-commandlinefu_id: 3516
-translator:
-  weibo: tgic
-command: |-
-  tar -cvf /dev/null . | while read i; do ls -l $i; done
-summary: |-
-  输出完全路径的ls (做法有点诡异)

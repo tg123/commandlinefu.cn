@@ -1,7 +1,0 @@
-commandlinefu_id: 4530
-translator:
-  weibo: '猪了个去'
-command: |-
-  find / -name *.conf | tee salida
-summary: |-
-  用来查看一个命令的屏幕输出，同时将输出保存到一个文件中

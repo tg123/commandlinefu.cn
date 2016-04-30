@@ -1,8 +1,0 @@
-commandlinefu_id: 11224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git status|awk '/modified:/ { printf("git add %s\n",$3) }; NF ==2 { printf("git add %s\n",$2) }'|sh
-summary: |-
-  add untracked/changed items to a git repository before doing a commit and/or sending upstream

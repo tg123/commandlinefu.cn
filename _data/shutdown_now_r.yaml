@@ -1,7 +1,0 @@
-commandlinefu_id: 12129
-translator:
-  weibo: tgic
-command: |-
-  shutdown now -r
-summary: |-
-  重启

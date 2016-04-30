@@ -1,8 +1,0 @@
-commandlinefu_id: 3969
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  watch -n 1 'echo "obase=2;`date +%s`" | bc'
-summary: |-
-  二进制电子钟

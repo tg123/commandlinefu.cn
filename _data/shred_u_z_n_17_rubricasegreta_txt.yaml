@@ -1,7 +1,0 @@
-commandlinefu_id: 4753
-translator:
-  weibo: tgic
-command: |-
-  shred -u -z -n 17 rubricasegreta.txt
-summary: |-
-  安全删除文件

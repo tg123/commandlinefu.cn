@@ -1,7 +1,0 @@
-commandlinefu_id: 8163
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  (pv -n long_running > output) 2>&1 | zenity --progress
-summary: |-
-  使用图形对话框显示长期运行的命令的进度

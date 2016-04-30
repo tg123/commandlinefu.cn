@@ -1,7 +1,0 @@
-commandlinefu_id: 3767
-translator:
-  weibo: '猪了个去'
-command: |-
-  tree -dL 1
-summary: |-
-  仅列出目录

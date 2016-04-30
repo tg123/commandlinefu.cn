@@ -1,8 +1,0 @@
-commandlinefu_id: 3531
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for s in `seq -f %02.0f 5 15`; do echo $s; done
-summary: |-
-  for loop with leading zeros

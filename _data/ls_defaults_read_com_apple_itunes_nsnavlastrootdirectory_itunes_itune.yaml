@@ -1,7 +1,0 @@
-commandlinefu_id: 10719
-translator:
-  weibo: '猪了个去'
-command: |-
-  ls "`defaults read com.apple.itunes NSNavLastRootDirectory`/iTunes/iTunes Music/Mobile Applications/" > filepath
-summary: |-
-  导出iPad, iPhone 应用列表到文本文件

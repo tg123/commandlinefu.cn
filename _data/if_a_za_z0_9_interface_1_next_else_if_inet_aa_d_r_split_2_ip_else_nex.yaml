@@ -1,8 +1,0 @@
-commandlinefu_id: 7296
-translator:
-  weibo: ''
-hide: true
-command: |-
-  { if (/^[A-Za-z0-9]/) { interface=$1; next } else { if (/inet [Aa][d]*r/) { split($2,ip,":") } else { next } } print interface"\t: "ip[2] }
-summary: |-
-  Get your IP addresses

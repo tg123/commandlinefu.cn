@@ -1,7 +1,0 @@
-commandlinefu_id: 2824
-translator:
-  weibo: codepiano
-command: |-
-  ifconfig | awk '/ddr:[0-9]/ {sub(/addr:/, ""); print $2}'
-summary: |-
-  使用ifconfig获取所有ip

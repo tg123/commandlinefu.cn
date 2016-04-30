@@ -1,8 +1,0 @@
-commandlinefu_id: 13423
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ruby -ruri -e 'u=URI(ARGV[0]).host.split("."); puts u[(u[-2] =~ /^com?$/ ? -3 : -2)..-1].join(".")' http://test.example.com
-summary: |-
-  Extract domain from URl

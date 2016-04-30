@@ -1,8 +1,0 @@
-commandlinefu_id: 8394
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -name *.\[c\|h\] | xargs wc -l
-summary: |-
-  How many lines in your c project?

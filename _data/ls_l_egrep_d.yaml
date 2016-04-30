@@ -1,8 +1,0 @@
-commandlinefu_id: 360
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l | egrep ^d
-summary: |-
-  List only the directories

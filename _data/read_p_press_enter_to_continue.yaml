@@ -1,7 +1,0 @@
-commandlinefu_id: 5349
-translator:
-  weibo: codepiano
-command: |-
-  read -p "Press enter to continue.."
-summary: |-
-  暂停bash的命令

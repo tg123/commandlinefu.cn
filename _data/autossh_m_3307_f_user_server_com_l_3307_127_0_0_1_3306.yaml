@@ -1,8 +1,0 @@
-commandlinefu_id: 13427
-translator:
-  weibo: ''
-hide: true
-command: |-
-  autossh -M 3307 -f user@server.com -L 3307:127.0.0.1:3306
-summary: |-
-  Permanent mysql ssh tunnel  to server

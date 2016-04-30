@@ -1,8 +1,0 @@
-commandlinefu_id: 5043
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git reflog show | grep '}: commit' | nl | sort -nr | nl | sort -nr | cut --fields=1,3 | sed s/commit://g | sed -e 's/HEAD*@{[0-9]*}://g'
-summary: |-
-  show git commit history

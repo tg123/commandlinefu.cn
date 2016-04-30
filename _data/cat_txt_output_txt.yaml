@@ -1,8 +1,0 @@
-commandlinefu_id: 5383
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat *.txt >output.txt
-summary: |-
-  Combining text files into one file

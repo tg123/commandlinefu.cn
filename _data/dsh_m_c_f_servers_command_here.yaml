@@ -1,7 +1,0 @@
-commandlinefu_id: 3266
-translator:
-  weibo: codepiano
-command: |-
-  dsh -M -c -f servers -- "command HERE"
-summary: |-
-  从文件中读取远程服务器的列表并在其中执行命令

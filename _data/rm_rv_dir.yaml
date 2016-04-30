@@ -1,7 +1,0 @@
-commandlinefu_id: 11183
-translator:
-  weibo: gdqyn
-command: |-
-  rm -rv dir
-summary: |-
-  递归删除指定目录

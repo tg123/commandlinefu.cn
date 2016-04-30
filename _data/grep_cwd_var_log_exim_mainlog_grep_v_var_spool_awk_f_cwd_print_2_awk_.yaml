@@ -1,8 +1,0 @@
-commandlinefu_id: 12817
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep cwd /var/log/exim_mainlog | grep -v /var/spool | awk -F"cwd=" '{print $2}' | awk '{print $1}' | sort | uniq -c | sort -n
-summary: |-
-  Check where mail was sent from

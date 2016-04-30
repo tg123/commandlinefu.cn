@@ -1,7 +1,0 @@
-commandlinefu_id: 611
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  nmap -sT -p 80 -oG - 192.168.1.* | grep open
-summary: |-
-  获取开放了指定端口的服务器列表

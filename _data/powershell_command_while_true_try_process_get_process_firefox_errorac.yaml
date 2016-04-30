@@ -1,8 +1,0 @@
-commandlinefu_id: 13527
-translator:
-  weibo: ''
-hide: true
-command: |-
-  powershell -Command "while (\$true){Try{\$process=Get-Process firefox -ErrorAction Stop}Catch [Microsoft.PowerShell.Commands.ProcessCommandException]{break;}if (\$process) {\$whateva=\$process.CloseMainWindow()}else {break;}Start-Sleep -m 500}"
-summary: |-
-  Gracefully close all windows of an application

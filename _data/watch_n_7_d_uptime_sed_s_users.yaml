@@ -1,7 +1,0 @@
-commandlinefu_id: 4597
-translator:
-  weibo: tgic
-command: |-
-  watch -n 7 -d 'uptime | sed s/.*users?, //'
-summary: |-
-  实时监控 load

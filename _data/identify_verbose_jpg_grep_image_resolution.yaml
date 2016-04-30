@@ -1,8 +1,0 @@
-commandlinefu_id: 1885
-translator:
-  weibo: ''
-hide: true
-command: |-
-  identify  -verbose *.jpg|grep "\(Image:\|Resolution\)"
-summary: |-
-  Identify name and resolution of all jpgs in current directory

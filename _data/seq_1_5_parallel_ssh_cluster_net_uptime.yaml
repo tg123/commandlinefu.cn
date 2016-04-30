@@ -1,8 +1,0 @@
-commandlinefu_id: 4695
-translator:
-  weibo: ''
-hide: true
-command: |-
-  seq 1 5 | parallel ssh {}.cluster.net uptime
-summary: |-
-  run command on a group of nodes in parallel

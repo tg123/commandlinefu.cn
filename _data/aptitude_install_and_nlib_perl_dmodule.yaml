@@ -1,7 +1,0 @@
-commandlinefu_id: 7174
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  aptitude install '?and(~nlib.*perl, ~Dmodule)'
-summary: |-
-  批量安装

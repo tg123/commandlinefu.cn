@@ -1,7 +1,0 @@
-commandlinefu_id: 7351
-translator:
-  weibo: tgic
-command: |-
-  rename .txt .md *.txt
-summary: |-
-  批量重命名

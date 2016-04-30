@@ -1,7 +1,0 @@
-commandlinefu_id: 6534
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  feh --bg-center `ls -U1 |sort -R |head -1`
-summary: |-
-  以当前目录的任意文件作为背景图片

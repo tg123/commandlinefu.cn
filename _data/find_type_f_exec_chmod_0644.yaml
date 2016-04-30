@@ -1,7 +1,0 @@
-commandlinefu_id: 937
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -exec chmod 0644 {} \;
-summary: |-
-  把所有文件权限修订为0644

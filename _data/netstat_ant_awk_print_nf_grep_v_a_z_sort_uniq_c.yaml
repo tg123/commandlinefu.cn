@@ -1,8 +1,0 @@
-commandlinefu_id: 167
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -ant | awk '{print $NF}' | grep -v '[a-z]' | sort | uniq -c
-summary: |-
-  List the number and type of active network connections

@@ -1,7 +1,0 @@
-commandlinefu_id: 1929
-translator:
-  weibo: tgic
-command: |-
-  xmlstarlet ed -d '//comment()' $XML_FILE
-summary: |-
-  清理 xml 里边的注释

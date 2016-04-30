@@ -1,8 +1,0 @@
-commandlinefu_id: 4947
-translator:
-  weibo: ''
-hide: true
-command: |-
-  underline() { echo $1; for (( i=0; $i<${#1}; i=$i+1)); do printf "${2:-=}"; done; printf "\n"; }
-summary: |-
-  shell function to underline a given string.

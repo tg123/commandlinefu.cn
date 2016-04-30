@@ -1,7 +1,0 @@
-commandlinefu_id: 11376
-translator:
-  weibo: tgic
-command: |-
-  printenv
-summary: |-
-  打印所有环境变量

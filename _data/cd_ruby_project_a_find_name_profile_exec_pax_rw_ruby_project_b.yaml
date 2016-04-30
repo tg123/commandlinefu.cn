@@ -1,8 +1,0 @@
-commandlinefu_id: 9676
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd ~/ruby/project_a ; find . -name "*profile*" -exec pax -rw {} ~/ruby/project_b/ \;
-summary: |-
-  Copy files from one tree to another (say, project to project) while preserving their directory structure.

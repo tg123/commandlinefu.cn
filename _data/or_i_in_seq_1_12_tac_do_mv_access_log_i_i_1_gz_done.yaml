@@ -1,7 +1,0 @@
-commandlinefu_id: 10867
-translator:
-  weibo: tgic
-command: |-
-  or i in `seq 1 12| tac` ; do mv access_log.{$i,$((i+1))}.gz ; done
-summary: |-
-  手动轮转日志

@@ -1,8 +1,0 @@
-commandlinefu_id: 3007
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr " " "\n" | nl
-summary: |-
-  Analyze awk fields

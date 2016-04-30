@@ -1,8 +1,0 @@
-commandlinefu_id: 9013
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ack; pcregrep
-summary: |-
-  Use Perl like grep

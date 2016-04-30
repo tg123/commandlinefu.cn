@@ -1,8 +1,0 @@
-commandlinefu_id: 4488
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkfifo /tmp/fifo; ssh-keygen; ssh-copyid root@remotehostaddress; sudo ssh root@remotehost "tshark -i eth1 -f 'not tcp port 22' -w -" > /tmp/fifo &; sudo wireshark -k -i /tmp/fifo;
-summary: |-
-  analyze traffic remotely over ssh w/ wireshark

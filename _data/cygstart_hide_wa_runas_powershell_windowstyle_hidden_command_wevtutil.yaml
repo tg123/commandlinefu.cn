@@ -1,8 +1,0 @@
-commandlinefu_id: 14053
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cygstart --hide -wa runas powershell -WindowStyle Hidden -Command '"&{wevtutil el | foreach{wevtutil cl $_}}"'
-summary: |-
-  Clear all Windows Event Log entries (cygwin)

@@ -1,7 +1,0 @@
-commandlinefu_id: 4667
-translator:
-  weibo: codepiano
-command: |-
-  ls /usr/bin | xargs whatis | grep -v nothing | less
-summary: |-
-  显示/usr/bin目录下文件的用途

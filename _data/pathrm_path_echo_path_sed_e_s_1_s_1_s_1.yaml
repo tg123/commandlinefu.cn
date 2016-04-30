@@ -1,7 +1,0 @@
-commandlinefu_id: 125
-translator:
-  weibo: tgic
-command: |-
-  pathrm() { PATH=`echo $PATH | sed -e "s=^${1}:==;s=:${1}$==;s=:${1}:=:="`; }
-summary: |-
-  从path中删除

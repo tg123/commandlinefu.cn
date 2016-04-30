@@ -1,7 +1,0 @@
-commandlinefu_id: 328
-translator:
-  weibo: tgic
-command: |-
-  cat /proc/<PID>/environ
-summary: |-
-  查看某个进程的环境信息

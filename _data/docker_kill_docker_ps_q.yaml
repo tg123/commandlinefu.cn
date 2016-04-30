@@ -1,7 +1,0 @@
-commandlinefu_id: 13597
-translator:
-  weibo: tgic
-command: |-
-  docker kill $(docker ps -q)
-summary: |-
-  停止所有容器

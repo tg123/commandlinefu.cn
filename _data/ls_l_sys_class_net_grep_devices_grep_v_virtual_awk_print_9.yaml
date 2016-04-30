@@ -1,8 +1,0 @@
-commandlinefu_id: 14069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l /sys/class/net/ | grep /devices/ | grep -v /virtual/ | awk '{print $9}'
-summary: |-
-  Linux: find names non non-virtual network interfaces

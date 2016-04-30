@@ -1,8 +1,0 @@
-commandlinefu_id: 7203
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -fND localhost:PORT USER@SSH_ENABLED_SERVER
-summary: |-
-  Create a persistent remote Proxy server through an SSH channel

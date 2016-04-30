@@ -1,7 +1,0 @@
-commandlinefu_id: 10369
-translator:
-  weibo: ''
-command: |-
-  awk 'FNR==100 {print;exit}' file
-summary: |-
-  打印指定的行 (大文件有意义)

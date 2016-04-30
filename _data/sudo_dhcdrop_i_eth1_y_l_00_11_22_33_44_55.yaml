@@ -1,8 +1,0 @@
-commandlinefu_id: 7168
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo dhcdrop -i eth1 -y -l 00:11:22:33:44:55
-summary: |-
-  dhcdrop - testing/suppression/tracking false DHCP servers

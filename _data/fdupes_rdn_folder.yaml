@@ -1,8 +1,0 @@
-commandlinefu_id: 8582
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fdupes -rdN $folder
-summary: |-
-  delete duplicate files

@@ -1,8 +1,0 @@
-commandlinefu_id: 6008
-translator:
-  weibo: ''
-hide: true
-command: |-
-  filterous -dntb --tag Bash < bookmarks.xml
-summary: |-
-  Delicious search with human readable output

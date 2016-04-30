@@ -1,7 +1,0 @@
-commandlinefu_id: 8799
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pdfimages -j foo.pdf bar
-summary: |-
-  从PDF中提取JPEG图像

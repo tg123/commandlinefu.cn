@@ -1,8 +1,0 @@
-commandlinefu_id: 9526
-translator:
-  weibo: ''
-hide: true
-command: |-
-  last reboot
-summary: |-
-  Get the time and date of the last server reboot

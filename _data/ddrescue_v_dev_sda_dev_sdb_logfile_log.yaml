@@ -1,8 +1,0 @@
-commandlinefu_id: 7606
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ddrescue -v /dev/sda /dev/sdb logfile.log
-summary: |-
-  Clone or rescue a block device

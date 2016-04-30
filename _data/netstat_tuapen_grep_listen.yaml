@@ -1,7 +1,0 @@
-commandlinefu_id: 12347
-translator:
-  weibo: tgic
-command: |-
-  netstat -tuapen | grep LISTEN
-summary: |-
-  检查监听的服务

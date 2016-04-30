@@ -1,8 +1,0 @@
-commandlinefu_id: 9069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apropos <part_rember> | less
-summary: |-
-  Get full from half remembered commands

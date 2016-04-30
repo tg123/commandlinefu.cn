@@ -1,8 +1,0 @@
-commandlinefu_id: 13559
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n1 iptables -vnL
-summary: |-
-  Monitor iptables in realtime

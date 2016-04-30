@@ -1,7 +1,0 @@
-commandlinefu_id: 1793
-translator:
-  weibo: tgic
-command: |-
-  date -d @$(echo $((2 ** 31 - 1)))
-summary: |-
-  看看unix世界末日的时间

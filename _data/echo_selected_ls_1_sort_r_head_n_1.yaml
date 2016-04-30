@@ -1,7 +1,0 @@
-commandlinefu_id: 8089
-translator:
-  weibo: tgic
-command: |-
-  echo Selected $(ls -1 | sort -R | head -n 1)
-summary: |-
-  随机选一个目录

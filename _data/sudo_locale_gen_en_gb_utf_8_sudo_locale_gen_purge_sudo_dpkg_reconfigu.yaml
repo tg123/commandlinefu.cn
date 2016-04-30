@@ -1,7 +1,0 @@
-commandlinefu_id: 10568
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo locale-gen en_GB.UTF-8 && sudo locale-gen --purge && sudo dpkg-reconfigure locales
-summary: |-
-  解决perl的“warning： Setting locate failed”错误。

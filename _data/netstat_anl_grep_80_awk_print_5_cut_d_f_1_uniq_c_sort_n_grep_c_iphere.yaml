@@ -1,8 +1,0 @@
-commandlinefu_id: 756
-translator:
-  weibo: '猪了个去'
-command: |-
-  netstat -anl | grep :80 | awk '{print $5}' | cut -d ":" -f 1 | uniq -c | sort -n | grep -c IPHERE
-summary: |-
-  Who has the most Apache connections.
-  谁用了大部分Apache连接

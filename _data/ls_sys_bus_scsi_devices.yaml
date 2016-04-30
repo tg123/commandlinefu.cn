@@ -1,8 +1,0 @@
-commandlinefu_id: 1208
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls /sys/bus/scsi/devices
-summary: |-
-  Shows physically connected drives (SCSI or SATA)

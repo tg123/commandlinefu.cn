@@ -1,7 +1,0 @@
-commandlinefu_id: 11508
-translator:
-  weibo: tgic
-command: |-
-  find . -type f |egrep '^./.*\.' |sed -e "s/\(^.*\.\)\(.*$\)/\2/" |sort |uniq
-summary: |-
-  列出所有扩展名

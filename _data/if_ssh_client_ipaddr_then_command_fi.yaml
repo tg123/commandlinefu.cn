@@ -1,8 +1,0 @@
-commandlinefu_id: 13981
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ "${SSH_CLIENT%% *}" == "ipaddr" ]; then command; fi
-summary: |-
-  Do command when logged in from certain ips using ssh

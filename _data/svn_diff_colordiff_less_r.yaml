@@ -1,8 +1,0 @@
-commandlinefu_id: 958
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn diff $* | colordiff | less -r
-summary: |-
-  Paged, colored svn diff

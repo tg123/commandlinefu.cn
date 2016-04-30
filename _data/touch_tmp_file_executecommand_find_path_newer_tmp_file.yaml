@@ -1,8 +1,0 @@
-commandlinefu_id: 3270
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch /tmp/file ; $EXECUTECOMMAND ; find /path -newer /tmp/file
-summary: |-
-  Find files that were modified by a given command

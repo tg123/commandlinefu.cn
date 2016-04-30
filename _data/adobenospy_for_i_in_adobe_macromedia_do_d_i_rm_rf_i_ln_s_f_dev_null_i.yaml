@@ -1,7 +1,0 @@
-commandlinefu_id: 8603
-translator:
-  weibo: codepiano
-command: |-
-  adobenospy() { for I in ~/.adobe ~/.macromedia ; do ( [ -d $I ] && rm -rf $I ;  ln -s -f /dev/null $I ) ; done }
-summary: |-
-  让adobe和Flash停止对你进行跟踪

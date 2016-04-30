@@ -1,8 +1,0 @@
-commandlinefu_id: 1745
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :g:^\s*#.*:m0
-summary: |-
-  Move all comments the top of the file in vim

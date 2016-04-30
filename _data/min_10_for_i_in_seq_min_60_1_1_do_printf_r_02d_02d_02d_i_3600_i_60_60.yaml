@@ -1,7 +1,0 @@
-commandlinefu_id: 7937
-translator:
-  weibo: codepiano
-command: |-
-  MIN=10 && for i in $(seq $(($MIN*60)) -1 1); do printf "\r%02d:%02d:%02d" $((i/3600)) $(( (i/60)%60)) $((i%60)); sleep 1; done
-summary: |-
-  倒计时

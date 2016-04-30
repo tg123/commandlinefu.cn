@@ -1,8 +1,0 @@
-commandlinefu_id: 20
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -av -e ssh user@host:/path/to/file.txt .
-summary: |-
-  Synchronise a file from a remote server

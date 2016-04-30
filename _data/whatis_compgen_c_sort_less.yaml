@@ -1,8 +1,0 @@
-commandlinefu_id: 11834
-translator:
-  weibo: ''
-hide: true
-command: |-
-  whatis $(compgen -c) | sort | less
-summary: |-
-  Do some learning...

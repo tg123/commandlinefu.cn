@@ -1,8 +1,0 @@
-commandlinefu_id: 2259
-translator:
-  weibo: ''
-hide: true
-command: |-
-  expr $(fdisk  -s ` grep  ' / ' /etc/mtab |cut -d " " -f1`) / 1024
-summary: |-
-  Alternative way to get the root directory size in megabytes

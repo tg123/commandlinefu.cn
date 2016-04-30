@@ -1,8 +1,0 @@
-commandlinefu_id: 13888
-translator:
-  weibo: ''
-hide: true
-command: |-
-  youtube-dl --extract-audio --audio-format mp3 <video URL>
-summary: |-
-  Download mp3 from youtube with youtube-dl

@@ -1,8 +1,0 @@
-commandlinefu_id: 6587
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scrot -ucd4 -e 'eog $f'
-summary: |-
-  Take a screenshot of the focused window with a 4 second countdown

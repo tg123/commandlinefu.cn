@@ -1,7 +1,0 @@
-commandlinefu_id: 8159
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  psbook file.ps | psnup -2 -l -m0.5cm | pstops '2:0,1U(210mm,297mm)' > file.booklet.ps
-summary: |-
-  从普通的ps文件(A4大小)中创建小册子大小的ps文件

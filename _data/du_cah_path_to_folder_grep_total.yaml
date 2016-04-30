@@ -1,7 +1,0 @@
-commandlinefu_id: 10809
-translator:
-  weibo: tgic
-command: |-
-  du -cah /path/to/folder/ | grep total
-summary: |-
-  目录的大小

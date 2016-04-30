@@ -1,8 +1,0 @@
-commandlinefu_id: 1268
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status | grep '^\?' | sed -e 's/^\?//g' | xargs svn add
-summary: |-
-  Add new files/directory to subversion repository

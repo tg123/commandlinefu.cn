@@ -1,7 +1,0 @@
-commandlinefu_id: 875
-translator:
-  weibo: tgic
-command: |-
-  cat /proc/cpuinfo
-summary: |-
-  查看cpu详情

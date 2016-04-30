@@ -1,8 +1,0 @@
-commandlinefu_id: 7959
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo $((1+2+3+4))
-summary: |-
-  命令行中计算

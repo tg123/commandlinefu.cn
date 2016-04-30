@@ -1,8 +1,0 @@
-commandlinefu_id: 5307
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -o UserKnownHostsFile=/dev/null root@192.168.1.1
-summary: |-
-  Temporarily ignore known SSH hosts

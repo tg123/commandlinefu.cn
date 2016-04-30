@@ -1,7 +1,0 @@
-commandlinefu_id: 3333
-translator:
-  weibo: tgic
-command: |-
-  bc -l <<< "x=2; p=0.5; e(l(x)*p)"
-summary: |-
-  计算pow

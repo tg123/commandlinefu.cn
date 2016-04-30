@@ -1,7 +1,0 @@
-commandlinefu_id: 12369
-translator:
-  weibo: tgic
-command: |-
-  echo $[RANDOM % 2]
-summary: |-
-  随机出现 0 就上床睡觉 1 就开始做梦

@@ -1,7 +1,0 @@
-commandlinefu_id: 395
-translator:
-  weibo: tgic
-command: |-
-  sudo date -s "26 OCT 2008 19:30:00"
-summary: |-
-  设置时间

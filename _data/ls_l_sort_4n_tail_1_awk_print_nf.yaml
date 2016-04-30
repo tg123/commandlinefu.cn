@@ -1,8 +1,0 @@
-commandlinefu_id: 10785
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l| sort +4n|tail -1| awk '{print $NF}'
-summary: |-
-  Get the file name having biggest size in directory.

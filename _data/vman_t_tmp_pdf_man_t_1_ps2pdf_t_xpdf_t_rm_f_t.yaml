@@ -1,8 +1,0 @@
-commandlinefu_id: 4507
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vman(){ T=/tmp/$$.pdf;man -t $1 |ps2pdf - >$T; xpdf $T; rm -f $T; }
-summary: |-
-  Pretty man pages under X

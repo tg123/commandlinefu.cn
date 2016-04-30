@@ -1,7 +1,0 @@
-commandlinefu_id: 9765
-translator:
-  weibo: tgic
-command: |-
-  watch -tn1 'figlet -f slant  `date +%T` | cowsay -n -f telebears'
-summary: |-
-  报时牛

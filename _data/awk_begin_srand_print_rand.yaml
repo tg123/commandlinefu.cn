@@ -1,7 +1,0 @@
-commandlinefu_id: 6269
-translator:
-  weibo: tgic
-command: |-
-  awk 'BEGIN { srand(); print rand() }'
-summary: |-
-  随机数

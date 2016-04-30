@@ -1,7 +1,0 @@
-commandlinefu_id: 9351
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pacman -Q | grep -v pacman | cut -d' ' -f1 > packages.txt && pacman -Sy `cat packages.txt` --noconfirm
-summary: |-
-  使用pacman安装一系列包

@@ -1,7 +1,0 @@
-commandlinefu_id: 1543
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cmp -l file1.bin file2.bin | wc -l
-summary: |-
-  计算两个二进制文件间不同的字节数

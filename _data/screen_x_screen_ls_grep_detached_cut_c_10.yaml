@@ -1,7 +1,0 @@
-commandlinefu_id: 10346
-translator:
-  weibo: tgic
-command: |-
-  screen -x `screen -ls | grep Detached | cut -c -10`
-summary: |-
-  自动重新attach一个screen

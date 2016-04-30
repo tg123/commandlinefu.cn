@@ -1,7 +1,0 @@
-commandlinefu_id: 6924
-translator:
-  weibo: tgic
-command: |-
-  find $(dpkg -L iptables) -maxdepth 0 -executable -type f
-summary: |-
-  查看deb中安装的可执行文件

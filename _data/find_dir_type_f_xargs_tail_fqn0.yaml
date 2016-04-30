@@ -1,7 +1,0 @@
-commandlinefu_id: 3128
-translator:
-  weibo: tgic
-command: |-
-  find dir/ -type f | xargs tail -fqn0
-summary: |-
-  一次tail一个目录的所有文件

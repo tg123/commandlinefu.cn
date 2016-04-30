@@ -1,8 +1,0 @@
-commandlinefu_id: 408
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd XX YY
-summary: |-
-  replace XX by YY in the the current directory and cd to it. ( in ZSH )

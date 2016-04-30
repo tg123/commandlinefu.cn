@@ -1,8 +1,0 @@
-commandlinefu_id: 13864
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd ~; fn=$(date "+ screen-%H-%M-%S"); sdb shell xwd -root -out /tmp/"$fn".xwd;  sdb pull /tmp/"$fn".xwd ~/;  convert "$fn".xwd  "$fn".png
-summary: |-
-  Take Screenshot with Tizen SDK

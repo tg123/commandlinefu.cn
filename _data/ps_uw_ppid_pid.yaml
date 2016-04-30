@@ -1,7 +1,0 @@
-commandlinefu_id: 7017
-translator:
-  weibo: tgic
-command: |-
-  ps uw --ppid $PID
-summary: |-
-  查看进程PID 的 孩子们

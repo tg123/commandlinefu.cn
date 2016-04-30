@@ -1,7 +1,0 @@
-commandlinefu_id: 1218
-translator:
-  weibo: tgic
-command: |-
-  CTRL+Z then bg
-summary: |-
-  使前台任务变成后台任务

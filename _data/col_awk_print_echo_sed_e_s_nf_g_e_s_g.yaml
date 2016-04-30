@@ -1,8 +1,0 @@
-commandlinefu_id: 13449
-translator:
-  weibo: ''
-hide: true
-command: |-
-  col() { awk '{print $('$(echo $* | sed -e s/-/NF-/g -e 's/ /),$(/g')')}'; }
-summary: |-
-  A simple function to conveniently extract columns from an input stream

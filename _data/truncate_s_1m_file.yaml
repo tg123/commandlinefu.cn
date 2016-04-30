@@ -1,7 +1,0 @@
-commandlinefu_id: 6850
-translator:
-  weibo: ''
-command: |-
-  truncate -s 1M file
-summary: |-
-  创建特定大小的文件

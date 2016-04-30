@@ -1,8 +1,0 @@
-commandlinefu_id: 4576
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . ! -name <FILENAME> -delete
-summary: |-
-  用find删除文件时候排除特定文件

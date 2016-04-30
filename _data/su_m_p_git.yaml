@@ -1,7 +1,0 @@
-commandlinefu_id: 7350
-translator:
-  weibo: tgic
-command: |-
-  su - -m -p git
-summary: |-
-  改变用户但是不要切换环境

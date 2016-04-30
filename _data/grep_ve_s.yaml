@@ -1,7 +1,0 @@
-commandlinefu_id: 10013
-translator:
-  weibo: tgic
-command: |-
-  grep -vE '^$|^[\s]*[;#]'
-summary: |-
-  清除配置文件的注释

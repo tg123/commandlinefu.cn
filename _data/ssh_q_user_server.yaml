@@ -1,7 +1,0 @@
-commandlinefu_id: 5140
-translator:
-  weibo: tgic
-command: |-
-  ssh -q user@server
-summary: |-
-  跳过ssh banner

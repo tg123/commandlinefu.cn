@@ -1,8 +1,0 @@
-commandlinefu_id: 5504
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl rand -base64 <length>
-summary: |-
-  Produce a pseudo random password with given length in base 64

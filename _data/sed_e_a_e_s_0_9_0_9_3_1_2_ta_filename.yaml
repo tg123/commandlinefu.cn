@@ -1,7 +1,0 @@
-commandlinefu_id: 1644
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta' filename
-summary: |-
-  在文件或管道中，用sed添加上千分隔符

@@ -1,7 +1,0 @@
-commandlinefu_id: 13106
-translator:
-  weibo: particle128
-command: |-
-  ls | tr [:upper:] [:lower:] | grep -oP '\.[^\.]+$'  | sort | uniq -c | sort
-summary: |-
-  按类型统计文件数量

@@ -1,7 +1,0 @@
-commandlinefu_id: 11053
-translator:
-  weibo: codepiano
-command: |-
-  = () { pushd ${1:+"$1"}; }
-summary: |-
-  把一个目录压到目录栈的函数

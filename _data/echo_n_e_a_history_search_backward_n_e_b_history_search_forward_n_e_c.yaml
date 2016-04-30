@@ -1,8 +1,0 @@
-commandlinefu_id: 13985
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '\n"\e[A": history-search-backward\n"\e[B": history-search-forward\n"\e[C": forward-char\n"\e[D": backward-char\n' >> ~/.inputrc
-summary: |-
-  Save memory and typing when arrow searching through history

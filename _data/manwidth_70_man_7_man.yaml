@@ -1,7 +1,0 @@
-commandlinefu_id: 10038
-translator:
-  weibo: tgic
-command: |-
-  MANWIDTH=70 man 7 man
-summary: |-
-  修改man的宽度

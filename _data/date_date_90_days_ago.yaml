@@ -1,8 +1,0 @@
-commandlinefu_id: 10385
-translator:
-  weibo: ''
-hide: true
-command: |-
-  date --date="90 days ago"
-summary: |-
-  Perpetual calendar

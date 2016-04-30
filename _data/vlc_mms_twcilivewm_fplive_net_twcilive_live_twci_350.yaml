@@ -1,8 +1,0 @@
-commandlinefu_id: 9130
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vlc mms://twcilivewm.fplive.net/twcilive-live/twci_350
-summary: |-
-  Watch Weather Channel live video stream without a browser

@@ -1,8 +1,0 @@
-commandlinefu_id: 9015
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -type f -printf '%TY-%Tm-%Td %TT %p\n' | sort
-summary: |-
-  递归列出最新修改的文件

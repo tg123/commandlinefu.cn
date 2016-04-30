@@ -1,7 +1,0 @@
-commandlinefu_id: 9866
-translator:
-  weibo: tgic
-command: |-
-  sort --random-sort file
-summary: |-
-  随机排序

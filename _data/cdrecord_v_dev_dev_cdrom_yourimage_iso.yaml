@@ -1,8 +1,0 @@
-commandlinefu_id: 1668
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  cdrecord -v dev=/dev/cdrom yourimage.iso
-summary: |-
-  将iso烧到cd上

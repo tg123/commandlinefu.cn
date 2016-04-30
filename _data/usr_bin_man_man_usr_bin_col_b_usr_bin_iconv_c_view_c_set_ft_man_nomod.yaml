@@ -1,8 +1,0 @@
-commandlinefu_id: 4481
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/man man | /usr/bin/col -b | /usr/bin/iconv -c | view -c 'set ft=man nomod nolist nospell nonu
-summary: |-
-  Colorful man

@@ -1,8 +1,0 @@
-commandlinefu_id: 13874
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl req -new -newkey rsa:4096 -days 3650 -nodes -x509 -subj "/C=<Country Code>/ST=<State>/L=<City>/O=<Organization>/CN=<Common Name>" -keyout certificate.key -out certificate.crt
-summary: |-
-  One-liner to generate Self-Signed SSL Certificate+Key without any annoying prompts or CSRs

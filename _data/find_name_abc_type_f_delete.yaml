@@ -1,7 +1,0 @@
-commandlinefu_id: 6114
-translator:
-  weibo: particle128
-command: |-
-  find * ! -name abc -type f -delete
-summary: |-
-  递归删除当前目录下除了abc之外的文件

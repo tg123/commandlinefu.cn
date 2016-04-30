@@ -1,8 +1,0 @@
-commandlinefu_id: 8133
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i movie.mkv -target vcd movie.avi
-summary: |-
-  Convert mkv to SVCD/DivX

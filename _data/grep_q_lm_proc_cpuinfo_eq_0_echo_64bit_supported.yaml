@@ -1,7 +1,0 @@
-commandlinefu_id: 11804
-translator:
-  weibo: codepiano
-command: |-
-  grep -q ' lm ' /proc/cpuinfo; [ $? -eq 0 ] && echo '64bit supported'
-summary: |-
-  查看你的CPU是否支持64位模式

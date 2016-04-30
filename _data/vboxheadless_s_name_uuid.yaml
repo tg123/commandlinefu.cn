@@ -1,7 +1,0 @@
-commandlinefu_id: 2925
-translator:
-  weibo: tgic
-command: |-
-  VBoxHeadless -s <name|uuid>
-summary: |-
-  不用gui启动virtualbox

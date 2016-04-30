@@ -1,7 +1,0 @@
-commandlinefu_id: 1595
-translator:
-  weibo: '猪了个去'
-command: |-
-  for f in *.mp3 ; do lame --mp3input -b 128 "$f" ./resamp/"$f" ; done
-summary: |-
-  缩减mp3采样率至128k(需要安装lame)

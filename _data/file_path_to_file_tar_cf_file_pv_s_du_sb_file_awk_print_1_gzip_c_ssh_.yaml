@@ -1,8 +1,0 @@
-commandlinefu_id: 4611
-translator:
-  weibo: ''
-hide: true
-command: |-
-  file='path to file'; tar -cf - "$file" | pv -s $(du -sb "$file" | awk '{print $1}') | gzip -c | ssh -c blowfish user@host tar -zxf - -C /opt/games
-summary: |-
-  improve copy file over ssh showing progress

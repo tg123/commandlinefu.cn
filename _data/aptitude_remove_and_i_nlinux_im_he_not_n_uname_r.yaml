@@ -1,8 +1,0 @@
-commandlinefu_id: 5829
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude remove ?and(~i~nlinux-(im|he) ?not(~n`uname -r`))
-summary: |-
-  Remove all unused kernels with apt-get

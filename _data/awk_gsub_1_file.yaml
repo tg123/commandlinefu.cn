@@ -1,7 +1,0 @@
-commandlinefu_id: 7599
-translator:
-  weibo: tgic
-command: |-
-  awk '{gsub("<[^>]*>", "")}1' file
-summary: |-
-  清除所有html 标记

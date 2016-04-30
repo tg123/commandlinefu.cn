@@ -1,7 +1,0 @@
-commandlinefu_id: 8936
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  VBoxBlockBoot()  { sudo umount "$2"*; sudo chmod 777 "$2"; VBoxManage storageattach "$1" --medium ~/.rawHD4VB_`basename "$2"`.vmdk --type hdd --storagectl "IDE Controller" --device 0 --port 0 ; VBoxManage startvm "$1";}
-summary: |-
-  无需把root权限给Virtual Box就能从一个块设备启动系统

@@ -1,8 +1,0 @@
-commandlinefu_id: 14014
-translator:
-  weibo: ''
-hide: true
-command: |-
-  udevadm info -q all -n /dev/sdc | grep ID_PATH | cut -d'-' -f 2 | xargs -n 1 lspci -s
-summary: |-
-  Find which fibre HBA a disk is connected to

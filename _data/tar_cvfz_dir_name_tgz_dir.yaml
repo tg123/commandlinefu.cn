@@ -1,7 +1,0 @@
-commandlinefu_id: 3488
-translator:
-  weibo: tgic
-command: |-
-  tar cvfz dir_name.tgz dir/
-summary: |-
-  如何tar gz 一个目录

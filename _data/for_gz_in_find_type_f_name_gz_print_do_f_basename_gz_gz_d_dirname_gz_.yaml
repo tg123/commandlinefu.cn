@@ -1,7 +1,0 @@
-commandlinefu_id: 13260
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for gz in `find . -type f -name '*.gz' -print`; do f=`basename $gz .gz` && d=`dirname $gz` && echo -n `ls -s $gz` "... " && gunzip -c $gz | bzip2 - -c > $d/$f.bz2 && rm -f $gz && echo `ls -s $d/$f.bz2`; done
-summary: |-
-  将当前文件夹下的所有gzip文件重新压缩成bzip2文件

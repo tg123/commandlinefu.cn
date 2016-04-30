@@ -1,7 +1,0 @@
-commandlinefu_id: 11101
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lsof -p `pidof pidgin` | awk '{ print $9 }'|egrep `hostname` | grep -o ">[^:]\+:" | tr -d ":>" | while read line; do host $line; done;
-summary: |-
-  显示Pidgin客户端所连接的IP地址

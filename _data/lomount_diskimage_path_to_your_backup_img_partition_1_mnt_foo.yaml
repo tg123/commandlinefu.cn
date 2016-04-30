@@ -1,8 +1,0 @@
-commandlinefu_id: 2725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lomount -diskimage /path/to/your/backup.img -partition 1 /mnt/foo
-summary: |-
-  Mount a partition from within a complete disk dump

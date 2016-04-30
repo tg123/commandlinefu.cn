@@ -1,7 +1,0 @@
-commandlinefu_id: 6773
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed -i -e '/foo/p' -e 's/foo/barfoo/' file
-summary: |-
-  重复file中的特定行，并替换掉重复的行的一部分

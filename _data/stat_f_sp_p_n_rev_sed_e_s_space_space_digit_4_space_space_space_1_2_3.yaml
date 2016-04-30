@@ -1,8 +1,0 @@
-commandlinefu_id: 2865
-translator:
-  weibo: ''
-hide: true
-command: |-
-  stat -f '%Sp %p %N' * | rev | sed -E 's/^([^[:space:]]+)[[:space:]]([[:digit:]]{4})[^[:space:]]*[[:space:]]([^[:space:]]+)/\1 \2 \3/' | rev
-summary: |-
-  Nicely display permissions in octal format with filename

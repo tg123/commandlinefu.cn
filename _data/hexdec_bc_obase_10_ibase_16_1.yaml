@@ -1,7 +1,0 @@
-commandlinefu_id: 9934
-translator:
-  weibo: tgic
-command: |-
-  hexdec() { bc <<< "obase=10; ibase=16; $1"; }
-summary: |-
-  进制转换

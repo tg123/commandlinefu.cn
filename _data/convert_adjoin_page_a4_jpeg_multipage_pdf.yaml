@@ -1,8 +1,0 @@
-commandlinefu_id: 1459
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert -adjoin -page A4 *.jpeg multipage.pdf
-summary: |-
-  Convert images to a multi-page pdf

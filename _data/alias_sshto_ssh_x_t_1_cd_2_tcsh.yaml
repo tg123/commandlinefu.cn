@@ -1,8 +1,0 @@
-commandlinefu_id: 10456
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias sshto 'ssh -X -t \!:1 "cd \!:2 ; tcsh"'
-summary: |-
-  SSH to remote machine and cd to a specific directory

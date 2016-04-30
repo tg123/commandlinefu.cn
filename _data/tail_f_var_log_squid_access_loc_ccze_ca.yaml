@@ -1,8 +1,0 @@
-commandlinefu_id: 8846
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f /var/log/squid/access.loc | ccze -CA
-summary: |-
-  read squid logs with human-readable timestamp

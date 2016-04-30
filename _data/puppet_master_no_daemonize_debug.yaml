@@ -1,8 +1,0 @@
-commandlinefu_id: 10290
-translator:
-  weibo: ''
-hide: true
-command: |-
-  puppet master --no-daemonize --debug
-summary: |-
-  Run puppet master in foreground in debug mode

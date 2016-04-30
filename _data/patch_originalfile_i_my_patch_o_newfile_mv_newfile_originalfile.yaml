@@ -1,8 +1,0 @@
-commandlinefu_id: 9554
-translator:
-  weibo: ''
-hide: true
-command: |-
-  patch originalfile -i my.patch -o newfile; mv newfile originalfile
-summary: |-
-  Update file with patch

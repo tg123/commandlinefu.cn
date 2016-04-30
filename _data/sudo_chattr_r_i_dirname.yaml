@@ -1,7 +1,0 @@
-commandlinefu_id: 8467
-translator:
-  weibo: '猪了个去'
-command: |-
-  sudo chattr -R +i dirname
-summary: |-
-  从一个过激的rm -rf *命令下保护文件夹

@@ -1,8 +1,0 @@
-commandlinefu_id: 11907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff -BI '^#' file{1,2}
-summary: |-
-  diff files ignoring comments and blank lines (lines starting with #)

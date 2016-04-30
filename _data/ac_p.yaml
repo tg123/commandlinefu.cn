@@ -1,7 +1,0 @@
-commandlinefu_id: 2048
-translator:
-  weibo: tgic
-command: |-
-  ac -p
-summary: |-
-  现实每个账户的连接时间

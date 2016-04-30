@@ -1,7 +1,0 @@
-commandlinefu_id: 7258
-translator:
-  weibo: tgic
-command: |-
-  for f in *.txt; do mv $f `basename $f .txt`.md; done;
-summary: |-
-  批量重命名.txt -> .md

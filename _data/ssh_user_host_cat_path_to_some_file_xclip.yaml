@@ -1,8 +1,0 @@
-commandlinefu_id: 919
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@host cat /path/to/some/file | xclip
-summary: |-
-  Copy stdin to your X11 buffer

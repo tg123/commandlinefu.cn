@@ -1,7 +1,0 @@
-commandlinefu_id: 5709
-translator:
-  weibo: tgic
-command: |-
-  grep -Fxv -f file1 file2
-summary: |-
-  仅在file2中的行(不在file1中出现)

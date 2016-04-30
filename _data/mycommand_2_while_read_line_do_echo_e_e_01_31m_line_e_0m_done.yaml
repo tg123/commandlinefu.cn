@@ -1,8 +1,0 @@
-commandlinefu_id: 7518
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mycommand 2> >(while read line; do echo -e "\e[01;31m$line\e[0m"; done)
-summary: |-
-  让stderr 带上色彩

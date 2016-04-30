@@ -1,8 +1,0 @@
-commandlinefu_id: 10712
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg-buildpackage -b -rfakeroot -us -uc
-summary: |-
-  Generate debian package without signing and only binaries

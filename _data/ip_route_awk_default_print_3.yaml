@@ -1,8 +1,0 @@
-commandlinefu_id: 6301
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ip route | awk '/default/{print $3}'
-summary: |-
-  Find default gateway

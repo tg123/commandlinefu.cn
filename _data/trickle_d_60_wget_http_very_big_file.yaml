@@ -1,8 +1,0 @@
-commandlinefu_id: 5197
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  trickle -d 60 wget http://very.big/file
-summary: |-
-  限速下载 当然 其他程序也可以

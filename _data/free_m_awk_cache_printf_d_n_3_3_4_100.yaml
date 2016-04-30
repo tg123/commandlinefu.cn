@@ -1,7 +1,0 @@
-commandlinefu_id: 10723
-translator:
-  weibo: tgic
-command: |-
-  free -m | awk '/cache:/ { printf("%d%\n",$3/($3+$4)*100)}'
-summary: |-
-  空闲内存百分比

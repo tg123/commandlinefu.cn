@@ -1,8 +1,0 @@
-commandlinefu_id: 13540
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -n "arrname\[[[:digit:]]\+\]" filename
-summary: |-
-  grep an array item, like a_var[11], in a file

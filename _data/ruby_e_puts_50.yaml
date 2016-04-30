@@ -1,7 +1,0 @@
-commandlinefu_id: 4505
-translator:
-  weibo: titikaka723 
-command: |-
-  ruby -e 'puts "-" * 50'
-summary: |-
-  打印一行50个连字符 

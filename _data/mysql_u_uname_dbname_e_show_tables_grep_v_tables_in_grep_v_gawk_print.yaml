@@ -1,8 +1,0 @@
-commandlinefu_id: 105
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mysql -u uname dbname -e "show tables" | grep -v Tables_in | grep -v "+" | gawk '{print "optimize table " $1 ";"}' | mysql -u uname dbname
-summary: |-
-  全库运行 optimize table 简单方法 mysqlcheck -A

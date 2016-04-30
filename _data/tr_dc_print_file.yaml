@@ -1,8 +1,0 @@
-commandlinefu_id: 11560
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -dc '[:print:]' < <file>
-summary: |-
-  Delete all non-printing characters from a file

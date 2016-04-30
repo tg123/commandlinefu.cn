@@ -1,8 +1,0 @@
-commandlinefu_id: 11902
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg-query -Wf '${Installed-Size}\t${Package}\n' | grep "\-dev" | sort -n | awk '{ sum+=$1} END {print sum/1024 "MB"}'
-summary: |-
-  (DEBIAN-BASED DISTROS) Find total installed size of packages given a search term

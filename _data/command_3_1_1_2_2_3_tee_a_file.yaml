@@ -1,7 +1,0 @@
-commandlinefu_id: 11451
-translator:
-  weibo: tgic
-command: |-
-  command 3>&1 1>&2 2>&3 | tee -a file
-summary: |-
-  只把stderr保存到文件

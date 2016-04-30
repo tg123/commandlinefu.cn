@@ -1,7 +1,0 @@
-commandlinefu_id: 8884
-translator:
-  weibo: tgic
-command: |-
-  du -h / | grep -w "[0-9]*G"
-summary: |-
-  寻找占用空间大的目录

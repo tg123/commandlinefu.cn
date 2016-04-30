@@ -1,8 +1,0 @@
-commandlinefu_id: 152
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mount /path/to/file.iso /mnt/cdrom -oloop
-summary: |-
-  挂载iso

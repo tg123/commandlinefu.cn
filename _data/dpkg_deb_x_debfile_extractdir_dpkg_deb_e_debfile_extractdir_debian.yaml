@@ -1,8 +1,0 @@
-commandlinefu_id: 2931
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg-deb -x $debfile $extractdir; dpkg-deb -e $debfile $extractdir/DEBIAN;
-summary: |-
-  complete extraction of a debian-package

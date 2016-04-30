@@ -1,8 +1,0 @@
-commandlinefu_id: 11452
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -m SimpleHTTPServer 8000 &; sudo localtunnel -k ~/.ssh/id_rsa.pub 8000
-summary: |-
-  Simple way to share a directory over http without touching your router

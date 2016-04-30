@@ -1,8 +1,0 @@
-commandlinefu_id: 13701
-translator:
-  weibo: ''
-hide: true
-command: |-
-  complete -W "$(echo $(grep ^Host ~/.ssh/config | sed -e 's/Host //' | grep -v "\*"))" ssh
-summary: |-
-  ssh autocomplete

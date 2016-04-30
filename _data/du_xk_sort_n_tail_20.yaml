@@ -1,7 +1,0 @@
-commandlinefu_id: 1786
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  du -xk | sort -n | tail -20
-summary: |-
-  查找当前文件系统中20个最大的目录

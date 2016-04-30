@@ -1,8 +1,0 @@
-commandlinefu_id: 2806
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /proc/net/ip_conntrack | grep ESTABLISHED | grep -c -v ^#
-summary: |-
-  Count all conections estabilished on gateway

@@ -1,7 +1,0 @@
-commandlinefu_id: 1752
-translator:
-  weibo: tgic
-command: |-
-  chmod +x FILES
-summary: |-
-  添加执行权限

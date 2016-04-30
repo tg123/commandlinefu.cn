@@ -1,8 +1,0 @@
-commandlinefu_id: 6065
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /usr/share/figlet -name *.?lf -exec basename {}  \; | sed -e "s/\..lf$//" | xargs -I{} toilet -f {} {}
-summary: |-
-  Show demo of toilet fonts

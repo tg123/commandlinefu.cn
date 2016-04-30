@@ -1,8 +1,0 @@
-commandlinefu_id: 11382
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -maxdepth 3 -type d | while read -r dir; do printf "%s:\t" "$dir"; find "$dir" | wc -l; done
-summary: |-
-  Count all files in directories recursively with find

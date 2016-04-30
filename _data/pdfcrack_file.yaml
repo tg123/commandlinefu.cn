@@ -1,7 +1,0 @@
-commandlinefu_id: 9796
-translator:
-  weibo: gdqyn
-command: |-
-  pdfcrack <FILE>
-summary: |-
-  找回PDF文件密码

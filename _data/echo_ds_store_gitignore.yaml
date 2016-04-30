@@ -1,7 +1,0 @@
-commandlinefu_id: 8703
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo .DS_Store >> ~/.gitignore
-summary: |-
-  在git中忽略.DS_Store

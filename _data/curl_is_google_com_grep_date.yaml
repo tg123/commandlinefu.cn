@@ -1,8 +1,0 @@
-commandlinefu_id: 8702
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  curl -Is google.com | grep Date
-summary: |-
-  获取时间的另类方法

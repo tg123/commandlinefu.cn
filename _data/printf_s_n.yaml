@@ -1,7 +1,0 @@
-commandlinefu_id: 4132
-translator:
-  weibo: tgic
-command: |-
-  printf "%s\n" .*
-summary: |-
-  列出.开头的文件

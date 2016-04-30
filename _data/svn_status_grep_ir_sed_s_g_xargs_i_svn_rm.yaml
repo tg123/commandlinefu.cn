@@ -1,8 +1,0 @@
-commandlinefu_id: 9419
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status|grep -iR '^!'|sed 's/!/ /g'|xargs -i svn rm '{}'
-summary: |-
-  Mark manually deleted files as deleted in svn

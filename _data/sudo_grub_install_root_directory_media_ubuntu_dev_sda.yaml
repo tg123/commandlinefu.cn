@@ -1,7 +1,0 @@
-commandlinefu_id: 9360
-translator:
-  weibo: particle128
-command: |-
-  sudo grub-install --root-directory=/media/ubuntu /dev/sda
-summary: |-
-  用live cd修复grub2启动失败

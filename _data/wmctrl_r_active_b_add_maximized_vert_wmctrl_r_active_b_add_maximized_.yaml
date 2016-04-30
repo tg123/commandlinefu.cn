@@ -1,8 +1,0 @@
-commandlinefu_id: 12224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmctrl -r :ACTIVE: -b add,maximized_vert; wmctrl -r :ACTIVE: -b add,maximized_horz
-summary: |-
-  Maximize active window

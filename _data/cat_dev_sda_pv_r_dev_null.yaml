@@ -1,8 +1,0 @@
-commandlinefu_id: 7711
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/sda | pv -r > /dev/null
-summary: |-
-  Detect your computer's harddisk read speed without disk cache speed

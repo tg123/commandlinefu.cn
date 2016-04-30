@@ -1,8 +1,0 @@
-commandlinefu_id: 3985
-translator:
-  weibo: ''
-hide: true
-command: |-
-  htlatex MyFile.tex "xhtml,ooffice" "ooffice/! -cmozhtf" "-coo -cvalidate"
-summary: |-
-  convert a latex source file (.tex)  into opendocument (.odt ) format

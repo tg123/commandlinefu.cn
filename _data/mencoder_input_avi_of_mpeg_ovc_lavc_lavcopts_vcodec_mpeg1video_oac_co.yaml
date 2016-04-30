@@ -1,8 +1,0 @@
-commandlinefu_id: 4602
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder input.avi -of mpeg -ovc lavc -lavcopts vcodec=mpeg1video \     -oac copy other_options -o output.mpg
-summary: |-
-  Encoding from AVI to MPEG format

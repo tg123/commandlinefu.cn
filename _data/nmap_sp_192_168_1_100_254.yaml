@@ -1,8 +1,0 @@
-commandlinefu_id: 619
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  nmap -sP 192.168.1.100-254
-summary: |-
-  批量ping

@@ -1,8 +1,0 @@
-commandlinefu_id: 8023
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *; do j=`echo $i | cut -d "-" -f1`; j=$j; mv $i $j; done
-summary: |-
-  Batch file suffix renaming

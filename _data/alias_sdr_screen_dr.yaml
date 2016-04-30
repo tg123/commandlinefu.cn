@@ -1,7 +1,0 @@
-commandlinefu_id: 11409
-translator:
-  weibo: tgic
-command: |-
-  alias sdr="screen -dR"
-summary: |-
-  挂起screen 的快捷方式

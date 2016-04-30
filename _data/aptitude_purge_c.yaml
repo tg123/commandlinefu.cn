@@ -1,7 +1,0 @@
-commandlinefu_id: 6576
-translator:
-  weibo: '猪了个去'
-command: |-
-  aptitude purge '~c'
-summary: |-
-  删除已经移除的软件包的配置文件(debian系)

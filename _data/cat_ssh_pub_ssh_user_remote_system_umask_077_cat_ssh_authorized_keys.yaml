@@ -1,7 +1,0 @@
-commandlinefu_id: 769
-translator:
-  weibo: '猪了个去'
-command: |-
-  cat ~/.ssh/*.pub | ssh user@remote-system 'umask 077; cat >>.ssh/authorized_keys'
-summary: |-
-  拷贝你的SSH公钥到远端机器上,实现无密码登录

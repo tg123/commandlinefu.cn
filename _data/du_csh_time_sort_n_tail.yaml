@@ -1,8 +1,0 @@
-commandlinefu_id: 13341
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -csh --time *|sort -n|tail
-summary: |-
-  get date time of foler/file created  with du -csh

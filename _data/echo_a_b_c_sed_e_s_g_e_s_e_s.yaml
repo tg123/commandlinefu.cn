@@ -1,7 +1,0 @@
-commandlinefu_id: 3494
-translator:
-  weibo: tgic
-command: |-
-  echo a,b,c  | sed -e s/,/\',\'/g  -e s/^/\(\'/ -e s/$/\'\)/
-summary: |-
-  转换 a,b,c 为 ('a','b','c') 用于SQL

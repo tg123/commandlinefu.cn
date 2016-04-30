@@ -1,7 +1,0 @@
-commandlinefu_id: 2447
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  grep -v "^\W$" <filename>
-summary: |-
-  匹配非空行

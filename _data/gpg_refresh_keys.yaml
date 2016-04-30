@@ -1,8 +1,0 @@
-commandlinefu_id: 8621
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg --refresh-keys
-summary: |-
-  Update all GPG keys in your keyring

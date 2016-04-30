@@ -1,8 +1,0 @@
-commandlinefu_id: 8190
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while (true) ; do pwgen 1 ; done
-summary: |-
-  Poor's man Matrix script

@@ -1,8 +1,0 @@
-commandlinefu_id: 10185
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  pv -i 1 -p -t -e /path/to/sql/dump | mysql -u USERNAME -p DATABASE_NAME
-summary: |-
-  pv 是进度条命令 比如mysql 导入时候显示一个进度条

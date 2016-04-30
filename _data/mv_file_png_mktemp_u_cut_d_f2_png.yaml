@@ -1,8 +1,0 @@
-commandlinefu_id: 8685
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv file.png  $( mktemp -u | cut -d'.' -f2 ).png
-summary: |-
-  Random file naming

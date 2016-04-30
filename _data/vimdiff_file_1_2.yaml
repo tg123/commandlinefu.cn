@@ -1,8 +1,0 @@
-commandlinefu_id: 1587
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vimdiff file{1,2}
-summary: |-
-  start vim in diff mode

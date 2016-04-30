@@ -1,8 +1,0 @@
-commandlinefu_id: 1561
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fc [history-number]
-summary: |-
-  Edit the last or previous command line in an editor then execute

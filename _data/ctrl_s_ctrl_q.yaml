@@ -1,8 +1,0 @@
-commandlinefu_id: 1829
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  Ctrl+S Ctrl+Q
-summary: |-
-  大家在vim 里边ctrl+s后死掉 可以ctrl +q 解决 他们的意思是 块发送 s 开始收集 q 结束手机统一发送

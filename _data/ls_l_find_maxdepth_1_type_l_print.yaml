@@ -1,8 +1,0 @@
-commandlinefu_id: 12805
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l `find . -maxdepth 1 -type l -print`
-summary: |-
-  List all symbolic links in the current directory

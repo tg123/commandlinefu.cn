@@ -1,8 +1,0 @@
-commandlinefu_id: 13328
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -hsx * | sort -rh | head -10
-summary: |-
-  Provide the ten largest subfolders in the current folder

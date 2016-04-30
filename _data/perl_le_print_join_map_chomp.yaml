@@ -1,7 +1,0 @@
-commandlinefu_id: 267
-translator:
-  weibo: codepiano
-command: |-
-  perl -le 'print join ", ", map { chomp; $_ } <>'
-summary: |-
-  行转换为列

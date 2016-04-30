@@ -1,7 +1,0 @@
-commandlinefu_id: 232
-translator:
-  weibo: '猪了个去'
-command: |-
-  ps aux | awk '{ print $8 " " $2 " " $11}' | grep -w Z
-summary: |-
-  找出僵尸进程

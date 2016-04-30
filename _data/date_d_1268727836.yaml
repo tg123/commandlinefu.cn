@@ -1,7 +1,0 @@
-commandlinefu_id: 13405
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  date -d @1268727836
-summary: |-
-  将EPOCH时间转换成人类可读的格式

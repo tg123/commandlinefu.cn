@@ -1,8 +1,0 @@
-commandlinefu_id: 1287
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ethtool -S eth0
-summary: |-
-  eth0 流量详情

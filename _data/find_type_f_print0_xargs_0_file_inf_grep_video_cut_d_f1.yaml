@@ -1,7 +1,0 @@
-commandlinefu_id: 4086
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find ./ -type f -print0 | xargs -0 file -iNf - | grep video | cut -d: -f1
-summary: |-
-  显示当前目录下的所有视频文件

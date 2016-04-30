@@ -1,7 +1,0 @@
-commandlinefu_id: 7239
-translator:
-  weibo: tgic
-command: |-
-  macchanger -A (nic)
-summary: |-
-  生成mac地址

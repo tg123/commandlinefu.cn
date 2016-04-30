@@ -1,8 +1,0 @@
-commandlinefu_id: 12319
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i "concat:$(find . -name "*.mp3" | sort | tr '\n' '|')" -acodec copy ../$(basename $(pwd)).mp3 && mp3val -f ../$(basename $(pwd)).mp3
-summary: |-
-  Losslessly combine all MP3s in a directory (e.g. an audiobook)

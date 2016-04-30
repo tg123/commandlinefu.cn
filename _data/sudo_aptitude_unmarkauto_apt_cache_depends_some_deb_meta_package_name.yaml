@@ -1,7 +1,0 @@
-commandlinefu_id: 3203
-translator:
-  weibo: tgic
-command: |-
-  sudo aptitude unmarkauto $(apt-cache depends some-deb-meta-package-name | grep Depends | cut -d: -f2)
-summary: |-
-  标记所有依赖包为手动安装

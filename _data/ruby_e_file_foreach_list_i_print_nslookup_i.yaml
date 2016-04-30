@@ -1,7 +1,0 @@
-commandlinefu_id: 4251
-translator:
-  weibo: tgic
-command: |-
-  ruby -e 'File.foreach("list") {|i| print `nslookup #{i}`}'
-summary: |-
-  用 ruby 按行 nslookup

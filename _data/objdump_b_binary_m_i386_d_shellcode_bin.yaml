@@ -1,8 +1,0 @@
-commandlinefu_id: 5469
-translator:
-  weibo: ''
-hide: true
-command: |-
-  objdump -b binary -m i386 -D shellcode.bin
-summary: |-
-  disassemble binary shellcode

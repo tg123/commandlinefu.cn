@@ -1,7 +1,0 @@
-commandlinefu_id: 1067
-translator:
-  weibo: tgic
-command: |-
-  ps auxww |grep " dd " |grep -v grep |awk '{print $2}' |while read pid; do kill -USR1 $pid; done
-summary: |-
-  查看dd的进度

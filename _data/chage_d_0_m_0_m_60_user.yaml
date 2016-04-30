@@ -1,7 +1,0 @@
-commandlinefu_id: 8360
-translator:
-  weibo: tgic
-command: |-
-  chage -d 0 -m 0 -M 60 [user]
-summary: |-
-  强制用户定期修改密码

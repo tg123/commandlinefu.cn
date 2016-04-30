@@ -1,8 +1,0 @@
-commandlinefu_id: 5386
-translator:
-  weibo: ''
-hide: true
-command: |-
-  printf "\n%25s%10sTOTAL\n" 'FILE TYPE' ' '; for ext in $(find . -iname \*.* | egrep -o '\.[^[:space:].]+$' | egrep -v '\.svn*' | sort -f | uniq -i); do count=$(find . -iname \*$ext | wc -l); printf "%25s%10s%d\n" $ext ' '  $count; done
-summary: |-
-  Get a count of how many file types a project has

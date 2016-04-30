@@ -1,8 +1,0 @@
-commandlinefu_id: 8942
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(($(ulimit -u)-$(pgrep -u $USER|wc -l))
-summary: |-
-  See how many more processes are allowed, awesome!

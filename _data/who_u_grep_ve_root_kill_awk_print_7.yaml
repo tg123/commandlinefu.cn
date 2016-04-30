@@ -1,7 +1,0 @@
-commandlinefu_id: 6961
-translator:
-  weibo: tgic
-command: |-
-  who -u | grep -vE "^root " | kill `awk '{print $7}'`
-summary: |-
-  登出所有用户

@@ -1,8 +1,0 @@
-commandlinefu_id: 6055
-translator:
-  weibo: '猪了个去'
-command: |-
-  sudo ping -f -c 999 -s 4500 target.com
-summary: |-
-  通过ping发送报文
-

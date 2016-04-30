@@ -1,7 +1,0 @@
-commandlinefu_id: 2144
-translator:
-  weibo: tgic
-command: |-
-  echo '{"json":"obj"}' | python -m simplejson.tool
-summary: |-
-  格式化json

@@ -1,7 +1,0 @@
-commandlinefu_id: 4485
-translator:
-  weibo: tgic
-command: |-
-  echo 50 > /proc/sys/vm/swappiness
-summary: |-
-  改变 swappiness 

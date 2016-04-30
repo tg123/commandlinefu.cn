@@ -1,7 +1,0 @@
-commandlinefu_id: 6758
-translator:
-  weibo: codepiano
-command: |-
-  convert -density 300 input.pdf -fill "rgb(255,255,255)" -opaque "rgb(0,0,0)" output.pdf
-summary: |-
-  替换PDF文件中的颜色，可以用来在打印文件前移除暗色的背景

@@ -1,7 +1,0 @@
-commandlinefu_id: 5824
-translator:
-  weibo: tgic
-command: |-
-  pmset -g batt
-summary: |-
-  检查是电源还是电池(OSX)

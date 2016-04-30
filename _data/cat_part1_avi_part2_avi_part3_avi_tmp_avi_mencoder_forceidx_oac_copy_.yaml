@@ -1,7 +1,0 @@
-commandlinefu_id: 12678
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat part1.avi part2.avi part3.avi > tmp.avi && mencoder -forceidx -oac copy -ovc copy tmp.avi -o output.avi && rm -f tmp.avi
-summary: |-
-  无需重新解码，合并avi文件

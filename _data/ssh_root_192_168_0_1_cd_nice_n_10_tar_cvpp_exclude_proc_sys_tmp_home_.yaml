@@ -1,8 +1,0 @@
-commandlinefu_id: 6557
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh root@192.168.0.1 "cd /;nice -n 10 tar cvpP ?exclude={"/proc/*","/sys*","/tmp/*","/home/user/*"} /">backup.tar.gz
-summary: |-
-  backup system over ssh, exlucde common dirs

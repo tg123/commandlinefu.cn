@@ -1,8 +1,0 @@
-commandlinefu_id: 9184
-translator:
-  weibo: ''
-hide: true
-command: |-
-  composite -geometry 96x96+250+70 foreground.jpg background.jpg image.jpg
-summary: |-
-  Compose 2 images to 1

@@ -1,7 +1,0 @@
-commandlinefu_id: 12508
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ssh user@remotehost "find basedir -type d" | xargs -I {} -t mkdir -p {}
-summary: |-
-  在远程主机上复制'basedir'的目录结构

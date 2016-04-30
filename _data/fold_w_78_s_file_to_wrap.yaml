@@ -1,7 +1,0 @@
-commandlinefu_id: 2228
-translator:
-  weibo: tgic
-command: |-
-  fold -w 78 -s file-to-wrap
-summary: |-
-  每行78个字母

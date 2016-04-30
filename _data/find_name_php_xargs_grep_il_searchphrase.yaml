@@ -1,7 +1,0 @@
-commandlinefu_id: 4584
-translator:
-  weibo: tgic
-command: |-
-  find . -name "*.php" | xargs grep -il searchphrase
-summary: |-
-  查找所有包含特定单词的代码

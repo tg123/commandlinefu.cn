@@ -1,8 +1,0 @@
-commandlinefu_id: 1997
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `screen -ls | perl -ne'if(/^\s+\d+\.([^\s]+)/){print $1, " "}'`; do gnome-terminal -e "screen -x $i"; done
-summary: |-
-  Connect to all running screen instances

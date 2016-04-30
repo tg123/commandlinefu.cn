@@ -1,7 +1,0 @@
-commandlinefu_id: 5975
-translator:
-  weibo: codepiano
-command: |-
-  TZ=PST8PDT+72 date '+%Y_%m_%d'
-summary: |-
-  三年前的今天

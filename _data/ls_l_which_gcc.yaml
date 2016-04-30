@@ -1,8 +1,0 @@
-commandlinefu_id: 9689
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l `which gcc`
-summary: |-
-  Get the dir listing of an executable without knowing its location

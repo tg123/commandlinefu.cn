@@ -1,8 +1,0 @@
-commandlinefu_id: 6074
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -i '^DocumentRoot' /etc/httpd/conf/httpd.conf | cut -f2 -d'"'
-summary: |-
-  How To Get the Apache Document Root

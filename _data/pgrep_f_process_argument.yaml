@@ -1,7 +1,0 @@
-commandlinefu_id: 9951
-translator:
-  weibo: codepiano
-command: |-
-  pgrep -f 'process.*argument.*'
-summary: |-
-  根据名称和参数获取进程id

@@ -1,8 +1,0 @@
-commandlinefu_id: 2110
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -i | grep -i estab
-summary: |-
-  Show established network connections

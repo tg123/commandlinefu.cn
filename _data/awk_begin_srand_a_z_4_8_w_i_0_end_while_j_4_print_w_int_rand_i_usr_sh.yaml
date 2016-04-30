@@ -1,7 +1,0 @@
-commandlinefu_id: 9050
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'BEGIN {srand} /^[a-z]{4,8}$/ {w[i++]=$0} END {while (j++<4) print w[int(rand*i)]}' /usr/share/dict/words
-summary: |-
-  创建XKCD #936类型的4字密码 

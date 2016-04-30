@@ -1,8 +1,0 @@
-commandlinefu_id: 5232
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo date -s  "$(ssh user@server.com "date -u")"
-summary: |-
-  Sync the date of one server to that of another.

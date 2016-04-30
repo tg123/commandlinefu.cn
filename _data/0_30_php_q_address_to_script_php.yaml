@@ -1,7 +1,0 @@
-commandlinefu_id: 4538
-translator:
-  weibo: josephok
-command: |-
-  0,30 * * * * php -q /address/to/script.php
-summary: |-
-  使用crontab，每隔30分钟运行一次PHP脚本

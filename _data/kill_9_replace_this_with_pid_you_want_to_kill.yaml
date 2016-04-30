@@ -1,7 +1,0 @@
-commandlinefu_id: 3676
-translator:
-  weibo: tgic
-command: |-
-  kill -9 <replace this with pid you want to kill>
-summary: |-
-  强制杀死进程

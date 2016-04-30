@@ -1,8 +1,0 @@
-commandlinefu_id: 13191
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -n text | hexdump -C
-summary: |-
-  Convert ascii string to hex

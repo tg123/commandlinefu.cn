@@ -1,8 +1,0 @@
-commandlinefu_id: 13861
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -s * | sort -n | cut -f2 | tr '\n' '\0' | xargs -0 -I {} du -sh "{}"
-summary: |-
-  Numerically sorted human readable disk usage

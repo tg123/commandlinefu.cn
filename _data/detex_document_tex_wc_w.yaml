@@ -1,8 +1,0 @@
-commandlinefu_id: 7055
-translator:
-  weibo: ''
-hide: true
-command: |-
-  detex document.tex|wc -w
-summary: |-
-  Count words in a TeX/LaTeX document.

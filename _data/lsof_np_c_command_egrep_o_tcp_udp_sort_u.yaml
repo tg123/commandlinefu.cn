@@ -1,8 +1,0 @@
-commandlinefu_id: 7720
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -nP -c COMMAND | egrep -o '(TCP|UDP).*$' | sort -u
-summary: |-
-  Display any udp/tcp connections by process name or by process id

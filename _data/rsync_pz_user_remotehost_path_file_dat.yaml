@@ -1,7 +1,0 @@
-commandlinefu_id: 1106
-translator:
-  weibo: tgic
-command: |-
-  rsync -Pz user@remotehost:/path/file.dat .
-summary: |-
-  同步一个文件（on-the-fly 压缩解压缩）

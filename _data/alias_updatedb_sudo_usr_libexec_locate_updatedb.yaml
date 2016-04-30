@@ -1,8 +1,0 @@
-commandlinefu_id: 11788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias updatedb="sudo /usr/libexec/locate.updatedb"
-summary: |-
-  updatedb for MAC OSX

@@ -1,7 +1,0 @@
-commandlinefu_id: 2669
-translator:
-  weibo: tgic
-command: |-
-  print -s "PATH='$PATH'"
-summary: |-
-  把PATH写入history

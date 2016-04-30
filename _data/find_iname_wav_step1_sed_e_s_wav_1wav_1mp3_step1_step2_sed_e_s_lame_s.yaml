@@ -1,8 +1,0 @@
-commandlinefu_id: 1399
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname "*wav" > step1 ; sed -e 's/\(^.*\)wav/\"\1wav\" \"\1mp3\"/' step1 > step2 ; sed -e 's/^/lame  /' step2 > step3 ; chmod +x step3 ; ./step3
-summary: |-
-  command for converting wav files to mp3

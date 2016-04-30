@@ -1,8 +1,0 @@
-commandlinefu_id: 1432
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rename .JPG .jpg *.JPG
-summary: |-
-  Change the extension of a filename by using rename to convert

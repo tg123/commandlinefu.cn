@@ -1,8 +1,0 @@
-commandlinefu_id: 12636
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in */; do echo tar -cjf "${i%/}.tar.bz2" "$i"; done
-summary: |-
-  Archive all folders in a directory into their own tar.bz2 file

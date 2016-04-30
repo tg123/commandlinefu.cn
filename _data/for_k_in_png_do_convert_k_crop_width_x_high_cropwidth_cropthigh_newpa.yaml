@@ -1,8 +1,0 @@
-commandlinefu_id: 9690
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for k in *.png; do convert $k -crop <width>x<high>+<cropwidth>+<cropthigh> <newpath>/$k; done
-summary: |-
-  batch crop images whit imagemagik

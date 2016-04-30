@@ -1,8 +1,0 @@
-commandlinefu_id: 6860
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/ /-/g' *
-summary: |-
-  Replace spaces in a file with hyphens

@@ -1,7 +1,0 @@
-commandlinefu_id: 1124
-translator:
-  weibo: tgic
-command: |-
-  alias mine='ps xco pid,command,%cpu,%mem,state'
-summary: |-
-  自己启动的进程的有用信息

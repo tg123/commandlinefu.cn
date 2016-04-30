@@ -1,7 +1,0 @@
-commandlinefu_id: 10354
-translator:
-  weibo: codepiano
-command: |-
-  xloadimage <(ssh USER@HOSTNAME DISPLAY=:0.0 import -window root png:-)
-summary: |-
-  通过ssh加载远程桌面的截图

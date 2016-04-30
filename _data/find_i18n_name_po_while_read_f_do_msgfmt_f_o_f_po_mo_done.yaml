@@ -1,8 +1,0 @@
-commandlinefu_id: 13836
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./i18n -name "*.po" | while read f; do msgfmt $f -o ${f%.po}.mo; done
-summary: |-
-  Compile all gettext source files

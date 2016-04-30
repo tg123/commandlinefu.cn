@@ -1,7 +1,0 @@
-commandlinefu_id: 10985
-translator:
-  weibo: codepiano
-command: |-
-  nc -zvw 1 host port
-summary: |-
-  在指定的主机和端口完成TCP握手

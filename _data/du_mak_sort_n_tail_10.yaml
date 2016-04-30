@@ -1,8 +1,0 @@
-commandlinefu_id: 7220
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du . -mak|sort -n|tail -10
-summary: |-
-  List 10 largest directories in current directory

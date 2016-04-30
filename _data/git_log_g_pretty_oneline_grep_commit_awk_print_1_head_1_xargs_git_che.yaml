@@ -1,8 +1,0 @@
-commandlinefu_id: 5044
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log -g --pretty=oneline | grep '}: commit' | awk '{print $1}' | head -1 | xargs git checkout -f
-summary: |-
-  Update the working tree to the latest git commit

@@ -1,8 +1,0 @@
-commandlinefu_id: 4380
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo tcpdump -nnvvXSs 1514 -i lo0 dst port 5432
-summary: |-
-  Watch postgresql calls from your application on localhost

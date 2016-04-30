@@ -1,8 +1,0 @@
-commandlinefu_id: 11932
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -size +0 -printf "%-25s%p\n" | sort -n | uniq -D -w 25 | sed 's/^\w* *\(.*\)/md5sum "\1"/' | sh | sort | uniq -w32 --all-repeated=separate
-summary: |-
-  Find Duplicate Files (based on size first, then MD5 hash)

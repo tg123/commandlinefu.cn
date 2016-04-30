@@ -1,8 +1,0 @@
-commandlinefu_id: 13838
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -i :portnumber
-summary: |-
-  Check which program is using certain port

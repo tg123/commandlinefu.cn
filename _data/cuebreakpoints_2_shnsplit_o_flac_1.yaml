@@ -1,8 +1,0 @@
-commandlinefu_id: 1389
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cuebreakpoints "$2" | shnsplit -o flac "$1"
-summary: |-
-  Converts a single FLAC file with associated cue file into multiple FLAC files

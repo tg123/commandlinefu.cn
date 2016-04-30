@@ -1,7 +1,0 @@
-commandlinefu_id: 6289
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  netstat -rn | grep UG | tr -s " " | cut -d" " -f2
-summary: |-
-  找到默认的网关

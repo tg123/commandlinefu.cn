@@ -1,8 +1,0 @@
-commandlinefu_id: 4814
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls . | xargs file | grep text | sed "s/\(.*\):.*/\1/" | xargs gedit
-summary: |-
-  Edit all "text" files (exclude binary and directories) in the current directory

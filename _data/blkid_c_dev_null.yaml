@@ -1,8 +1,0 @@
-commandlinefu_id: 11262
-translator:
-  weibo: ''
-hide: true
-command: |-
-  blkid -c /dev/null
-summary: |-
-  detect partitions

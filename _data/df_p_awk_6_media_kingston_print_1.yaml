@@ -1,7 +1,0 @@
-commandlinefu_id: 7697
-translator:
-  weibo: codepiano
-command: |-
-  df -P | awk '$6=="/media/KINGSTON" {print $1}'
-summary: |-
-  在你只知道挂载点的情况下找到设备

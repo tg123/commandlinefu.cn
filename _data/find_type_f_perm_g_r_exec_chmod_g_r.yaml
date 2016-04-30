@@ -1,8 +1,0 @@
-commandlinefu_id: 2438
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f ! -perm /g=r -exec chmod g+r {} +
-summary: |-
-  Give any files that don't already have it group read permission under the current folder (recursive)

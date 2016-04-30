@@ -1,8 +1,0 @@
-commandlinefu_id: 9425
-translator:
-  weibo: ''
-hide: true
-command: |-
-  command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
-summary: |-
-  Save a file you edited in vim without the needed permissions

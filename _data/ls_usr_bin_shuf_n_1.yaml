@@ -1,7 +1,0 @@
-commandlinefu_id: 7615
-translator:
-  weibo: tgic
-command: |-
-  ls /usr/bin | shuf -n 1
-summary: |-
-  随便看看有什么命令

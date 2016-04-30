@@ -1,8 +1,0 @@
-commandlinefu_id: 6211
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ethtool -s eth0 wol d
-summary: |-
-  Disable WoL on eth0

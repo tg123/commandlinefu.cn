@@ -1,7 +1,0 @@
-commandlinefu_id: 12722
-translator:
-  weibo: tgic
-command: |-
-  :r scp://yourhost//your/file
-summary: |-
-  读入一个远程文件vim

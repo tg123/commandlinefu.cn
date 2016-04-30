@@ -1,8 +1,0 @@
-commandlinefu_id: 6343
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bind '"\C-h": "\`fc\ \-s\`"'
-summary: |-
-  Use the last command's output as input to a command without piping and bind to it to a key sequence in bash.

@@ -1,8 +1,0 @@
-commandlinefu_id: 13877
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -name "*\?*" | while read f;do mv "$f" "${f//[^0-9A-Za-z.\/\(\)\ ]/_}";done
-summary: |-
-  rename all dirs with "?" char in name

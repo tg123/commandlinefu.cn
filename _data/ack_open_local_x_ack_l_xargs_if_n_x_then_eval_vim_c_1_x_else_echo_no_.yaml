@@ -1,8 +1,0 @@
-commandlinefu_id: 9400
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ack-open () { local x="$(ack -l $* | xargs)"; if [[ -n $x ]]; then eval vim -c "/$*[-1] $x"; else echo "No files found"; fi }
-summary: |-
-  Opens files containing search term in vim with search term highlighted

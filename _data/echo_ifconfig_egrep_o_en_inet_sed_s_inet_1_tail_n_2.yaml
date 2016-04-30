@@ -1,8 +1,0 @@
-commandlinefu_id: 13494
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(ifconfig) | egrep -o "en.*?inet [^ ]* " | sed 's/.*inet \(.*\)$/\1/' | tail -n +2
-summary: |-
-  Print machine's ipv4 addresses

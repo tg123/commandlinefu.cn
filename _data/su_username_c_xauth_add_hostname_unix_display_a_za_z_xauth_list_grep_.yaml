@@ -1,8 +1,0 @@
-commandlinefu_id: 5246
-translator:
-  weibo: ''
-hide: true
-command: |-
-  su username -c "xauth add ${HOSTNAME}/unix:${DISPLAY//[a-zA-Z:_-]/} $(xauth list | grep -o '[a-zA-Z0-9_-]*\ *[0-9a-zA-Z]*$'); bash"
-summary: |-
-  Change user within ssh session retaining the current MIT cookie for X-forwarding

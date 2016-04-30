@@ -1,8 +1,0 @@
-commandlinefu_id: 13412
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do clear; cat /proc/[0-9]*/stat | cut -d' ' -f 3 | sort | uniq -c | awk '{print $2" "$1}'; echo '---'; sleep 1; done
-summary: |-
-  Displays the number of processes per state

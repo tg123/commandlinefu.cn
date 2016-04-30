@@ -1,8 +1,0 @@
-commandlinefu_id: 13236
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sar -n DEV -f /var/log/sa/sa05 |awk '{if ($3 == "IFACE" || $3 == "eth0" || $2 == "eth0") {print}}'
-summary: |-
-  Show the network stats for a given day

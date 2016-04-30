@@ -1,7 +1,0 @@
-commandlinefu_id: 1764
-translator:
-  weibo: tgic
-command: |-
-  awk '/start_pattern/,/stop_pattern/' file.txt
-summary: |-
-  显示一个块内的内容

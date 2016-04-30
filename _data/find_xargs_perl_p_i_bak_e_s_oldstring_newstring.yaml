@@ -1,8 +1,0 @@
-commandlinefu_id: 11600
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . | xargs perl -p -i.bak -e 's/oldString/newString/;'
-summary: |-
-  Find and replace text within all files within a directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 10010
-translator:
-  weibo: dbalex
-command: |-
-  find $(pwd) -maxdepth 1 -name "*" -printf "%p\n"
-summary: |-
-  list with full path
-  以绝对路径方式显示find结果

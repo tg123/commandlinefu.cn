@@ -1,8 +1,0 @@
-commandlinefu_id: 5571
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias termsize='echo $COLUMNS x $LINES'
-summary: |-
-  Get size of terminal

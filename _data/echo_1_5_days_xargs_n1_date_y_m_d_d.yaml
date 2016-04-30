@@ -1,7 +1,0 @@
-commandlinefu_id: 13584
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo {-1..-5}days | xargs -n1 date +"%Y-%m-%d" -d
-summary: |-
-  以倒序列出过去几天的日期

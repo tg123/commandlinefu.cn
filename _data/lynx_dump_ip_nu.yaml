@@ -1,8 +1,0 @@
-commandlinefu_id: 10697
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump ip.nu
-summary: |-
-  Show external IP; Short and sweet.

@@ -1,8 +1,0 @@
-commandlinefu_id: 10022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -eo rss,vsz,pid,cputime,cmd --width 100 --sort rss,vsz | tail --lines 10
-summary: |-
-  Display the top 10 running processes - sorted by memory usage

@@ -1,7 +1,0 @@
-commandlinefu_id: 5759
-translator:
-  weibo: tgic
-command: |-
-  ls -l directory | awk 'BEGIN { SUM=0 } { SUM+=$5 } END { print SUM/1024/1024"M" }'
-summary: |-
-  计算目录大小

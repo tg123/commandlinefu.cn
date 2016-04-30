@@ -1,7 +1,0 @@
-commandlinefu_id: 9723
-translator:
-  weibo: tgic
-command: |-
-  sudo update-rc.d <scriptname> defaults
-summary: |-
-  开机运行

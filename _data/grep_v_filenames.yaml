@@ -1,7 +1,0 @@
-commandlinefu_id: 841
-translator:
-  weibo: tgic
-command: |-
-  grep -v "^\($\|#\)" <filenames>
-summary: |-
-  清理注释和空行

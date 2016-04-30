@@ -1,8 +1,0 @@
-commandlinefu_id: 342
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rak "what you're searching for" dir/path
-summary: |-
-  Better recursive grep with pretty colors... requires ruby and gems (run: "gem install rak")

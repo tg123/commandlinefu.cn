@@ -1,7 +1,0 @@
-commandlinefu_id: 10494
-translator:
-  weibo: tgic
-command: |-
-  alias man='man -S 2:3:1'
-summary: |-
-  优先man C函数

@@ -1,8 +1,0 @@
-commandlinefu_id: 10610
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv public_html{,~~} && mv public_html{~,} && mv public_html{~~,~}
-summary: |-
-  Swap a file or dir with quick resotre

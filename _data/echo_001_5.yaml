@@ -1,8 +1,0 @@
-commandlinefu_id: 3929
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo {001..5}
-summary: |-
-  enumerate with padding

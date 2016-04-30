@@ -1,8 +1,0 @@
-commandlinefu_id: 5181
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hwclock --systohc -utc
-summary: |-
-  Set the hardware date and time based on the system date

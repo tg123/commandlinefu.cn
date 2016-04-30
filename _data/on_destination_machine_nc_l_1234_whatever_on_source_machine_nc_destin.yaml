@@ -1,7 +1,0 @@
-commandlinefu_id: 207
-translator:
-  weibo: tgic
-command: |-
-  (目标机) nc -l 1234 > whatever; (源机器) nc destination 1234 < whatever;
-summary: |-
-  简单的网络通信

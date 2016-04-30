@@ -1,8 +1,0 @@
-commandlinefu_id: 9645
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fail () { ln -s /nonexistent 0_FAIL_${1}; }
-summary: |-
-  Mark a directory as one where something failed

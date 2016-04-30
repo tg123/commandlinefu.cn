@@ -1,7 +1,0 @@
-commandlinefu_id: 2406
-translator:
-  weibo: codepiano
-command: |-
-  function my_irc { tmp=`mktemp`; cat > $tmp; { echo -e "USER $username x x :$ircname\nNICK $nick\nJOIN $target"; while read line; do echo -e "PRIVMSG $target :$line"; done < $tmp; } | nc $server > /dev/null ; rm $tmp; }
-summary: |-
-  把命令输出通过管道发送到IRC（频道或查询）

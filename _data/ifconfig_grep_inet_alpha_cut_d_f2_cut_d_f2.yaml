@@ -1,7 +1,0 @@
-commandlinefu_id: 2761
-translator:
-  weibo: tgic
-command: |-
-  ifconfig | grep "inet [[:alpha:]]\+" | cut -d: -f2 | cut -d' ' -f2
-summary: |-
-  获取ip地址

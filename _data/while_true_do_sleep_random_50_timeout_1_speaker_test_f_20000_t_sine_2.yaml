@@ -1,7 +1,0 @@
-commandlinefu_id: 11893
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  while true; do sleep $(($RANDOM%50)); timeout 1 speaker-test -f 20000 -t sine 2>/dev/null; done&
-summary: |-
-  吓哭你的朋友们的一个好办法（确保他们没患有心脏病）

@@ -1,8 +1,0 @@
-commandlinefu_id: 9421
-translator:
-  weibo: ''
-hide: true
-command: |-
-  feh --bg-scale /path/to/wallpaper.jpg
-summary: |-
-  Change wallpaper

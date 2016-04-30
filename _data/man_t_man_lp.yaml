@@ -1,7 +1,0 @@
-commandlinefu_id: 1636
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  man -t man | lp
-summary: |-
-  打印一个man page

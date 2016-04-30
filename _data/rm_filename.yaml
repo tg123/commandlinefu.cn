@@ -1,7 +1,0 @@
-commandlinefu_id: 969
-translator:
-  weibo: tgic
-command: |-
-  rm ./-filename
-summary: |-
-  如何删除一个-开头的文件

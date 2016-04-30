@@ -1,8 +1,0 @@
-commandlinefu_id: 11098
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rd /S /Q directory
-summary: |-
-  Remove very large or problematic directories under Windows from Command Prompt

@@ -1,8 +1,0 @@
-commandlinefu_id: 13035
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqldump --force -uUSER -pPASS PRODUCTION_DB | mysql -uUSER -pPASS COPY_DB
-summary: |-
-  Dump a MySQL-Database to another Database

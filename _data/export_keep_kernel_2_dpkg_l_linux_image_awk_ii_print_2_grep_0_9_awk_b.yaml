@@ -1,8 +1,0 @@
-commandlinefu_id: 12937
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export KEEP_KERNEL=2; dpkg -l 'linux-image*' | awk '/^ii/ { print $2 }' | grep "[0-9]" | awk 'BEGIN{i=1}{print i++, $0}' | grep `uname -r` -B99 | sort -r | tail -n+$(($KEEP_KERNEL+2)) | awk '{print $2}'| xargs apt-get -y purge
-summary: |-
-  Remove all older kernels then the current running kernel for Ubuntu/Debian base system

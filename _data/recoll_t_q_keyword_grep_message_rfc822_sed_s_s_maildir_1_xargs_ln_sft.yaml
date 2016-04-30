@@ -1,7 +1,0 @@
-commandlinefu_id: 9859
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  recoll -t -q "keyword" | grep message/rfc822 | sed -s 's,^.*\('$MAILDIR'[^]]*\)\].*$,\"\1\",' | xargs ln -sft $MAILDIR/bingo/cur/
-summary: |-
-  在邮件中全文搜索，把结果链接到$MAILDIR/bingo/cur/

@@ -1,7 +1,0 @@
-commandlinefu_id: 12520
-translator:
-  weibo: tgic
-command: |-
-  find /logs -ls -xdev | sort -nrk 7 | head -10
-summary: |-
-  寻找大文件

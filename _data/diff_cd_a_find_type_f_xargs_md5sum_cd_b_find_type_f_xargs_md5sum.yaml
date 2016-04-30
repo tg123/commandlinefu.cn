@@ -1,8 +1,0 @@
-commandlinefu_id: 12463
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff <(cd A; find -type f|xargs md5sum ) <(cd B; find -type f | xargs md5sum )
-summary: |-
-  Diff 2 file struct - Useful for branch diff and jars diff(uncompressed)

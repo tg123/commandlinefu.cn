@@ -1,8 +1,0 @@
-commandlinefu_id: 9709
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -MExtUtils::Installed -E 'say for ExtUtils::Installed->new()->modules()'
-summary: |-
-  Print a list of installed Perl modules

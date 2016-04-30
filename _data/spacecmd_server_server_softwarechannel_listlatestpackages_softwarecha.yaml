@@ -1,8 +1,0 @@
-commandlinefu_id: 13390
-translator:
-  weibo: ''
-hide: true
-command: |-
-  spacecmd --server server softwarechannel_listlatestpackages softwarechannel.name | grep ^kernel-[[:digit:]]
-summary: |-
-  return the latest kernel version from a Satellite / Spacewalk server software channel

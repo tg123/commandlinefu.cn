@@ -1,7 +1,0 @@
-commandlinefu_id: 1750
-translator:
-  weibo: tgic
-command: |-
-  ls -Sl * | head
-summary: |-
-  寻找大文件

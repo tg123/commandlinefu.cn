@@ -1,7 +1,0 @@
-commandlinefu_id: 1044
-translator:
-  weibo: tgic
-command: |-
-  CTRL + r
-summary: |-
-  查找以前输入的命令

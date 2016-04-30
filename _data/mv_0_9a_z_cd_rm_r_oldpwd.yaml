@@ -1,8 +1,0 @@
-commandlinefu_id: 7010
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv * .[0-9a-Z]* ../; cd ..; rm -r $OLDPWD
-summary: |-
-  move contents of the current directory to the parent directory, then remove current directory.

@@ -1,8 +1,0 @@
-commandlinefu_id: 14099
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find filename -print0 | xargs -0 rm
-summary: |-
-  Find a file and delete it

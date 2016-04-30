@@ -1,8 +1,0 @@
-commandlinefu_id: 2574
-translator:
-  weibo: ''
-hide: true
-command: |-
-  < <infile> tr ' \t' '\n' | tr -s '\n' > <outfile>
-summary: |-
-  Puts every word from a file into a new line

@@ -1,8 +1,0 @@
-commandlinefu_id: 12993
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dmesg -xT -l err,crit,emerg
-summary: |-
-  Show errors in the kernel ring buffer

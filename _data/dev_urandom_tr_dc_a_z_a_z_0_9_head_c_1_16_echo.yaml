@@ -1,7 +1,0 @@
-commandlinefu_id: 13318
-translator:
-  weibo: gdqyn
-command: |-
-  < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-16};echo;
-summary: |-
-  生成16个字符的随机密码

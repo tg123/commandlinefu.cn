@@ -1,8 +1,0 @@
-commandlinefu_id: 6158
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep -c httpd
-summary: |-
-  Show the number of current httpd processes

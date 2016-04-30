@@ -1,8 +1,0 @@
-commandlinefu_id: 2833
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get -o Acquire::http::Dl-Limit=25 install <package>
-summary: |-
-  Cap apt-get download speed

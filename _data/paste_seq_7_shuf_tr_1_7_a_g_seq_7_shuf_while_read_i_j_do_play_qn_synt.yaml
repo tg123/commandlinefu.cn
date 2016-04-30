@@ -1,7 +1,0 @@
-commandlinefu_id: 10572
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  paste <(seq 7 | shuf | tr 1-7 A-G) <(seq 7 | shuf) | while read i j; do play -qn synth 1 pluck $i synth 1 pluck mix $2; done
-summary: |-
-  生成随机音调

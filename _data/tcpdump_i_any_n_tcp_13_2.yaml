@@ -1,8 +1,0 @@
-commandlinefu_id: 4623
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -i any -n tcp[13] == 2
-summary: |-
-  show  tcp syn packets on all network interfaces

@@ -1,8 +1,0 @@
-commandlinefu_id: 10872
-translator:
-  weibo: ''
-hide: true
-command: |-
-  atool -x filename
-summary: |-
-  Universal archive extractor

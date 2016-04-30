@@ -1,8 +1,0 @@
-commandlinefu_id: 5592
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -9 rouge-process
-summary: |-
-  Kill multiple instances of a running process

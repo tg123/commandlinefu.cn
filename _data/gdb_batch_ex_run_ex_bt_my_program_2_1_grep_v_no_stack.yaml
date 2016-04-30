@@ -1,7 +1,0 @@
-commandlinefu_id: 7500
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  gdb -batch -ex "run" -ex "bt" ${my_program} 2>&1 | grep -v ^"No stack."$
-summary: |-
-  无声无息地在gdb中运行程序，直到程序崩溃才打印出出错时的stack trace

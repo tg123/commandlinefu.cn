@@ -1,7 +1,0 @@
-commandlinefu_id: 9302
-translator:
-  weibo: '猪了个去'
-command: |-
-  ls -l
-summary: |-
-  显示当前目录的文件和文件夹

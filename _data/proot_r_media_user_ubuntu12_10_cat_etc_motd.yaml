@@ -1,8 +1,0 @@
-commandlinefu_id: 13070
-translator:
-  weibo: ''
-hide: true
-command: |-
-  proot -r /media/user/ubuntu12.10/  cat /etc/motd
-summary: |-
-  chroot, bind mount  without root privilege/setup

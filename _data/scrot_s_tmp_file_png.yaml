@@ -1,8 +1,0 @@
-commandlinefu_id: 9759
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scrot -s /tmp/file.png
-summary: |-
-  capture selected window

@@ -1,7 +1,0 @@
-commandlinefu_id: 14021
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat /dev/urandom | strings | grep -o '[[:alnum:]]' | head -n 15 | tr -d '\n'; echo
-summary: |-
-  随机生成一个字母数字串（能在OS X上工作）

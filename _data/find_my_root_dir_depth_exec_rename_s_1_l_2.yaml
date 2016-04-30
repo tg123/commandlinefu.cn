@@ -1,7 +1,0 @@
-commandlinefu_id: 3762
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
-summary: |-
-  将当前目录下的文件名转换成小写

@@ -1,8 +1,0 @@
-commandlinefu_id: 4130
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -ms * 2>/dev/null |sort -nr|head
-summary: |-
-  List the biggest accessible  files/dirs in current directory, sorted

@@ -1,7 +1,0 @@
-commandlinefu_id: 10128
-translator:
-  weibo: tgic
-command: |-
-  dd if=<device> | pv | nc <target> <port>
-summary: |-
-  把文件通过网络发送出去

@@ -1,7 +1,0 @@
-commandlinefu_id: 3199
-translator:
-  weibo: tgic
-command: |-
-  ping -n 1 -w 10000 224.0.0.0
-summary: |-
-  模拟sleep

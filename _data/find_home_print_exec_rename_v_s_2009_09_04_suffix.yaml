@@ -1,7 +1,0 @@
-commandlinefu_id: 6530
-translator:
-  weibo: codepiano
-command: |-
-  find /home -print -exec rename -v 's/_2009-09-04.suffix$//' {} \;
-summary: |-
-  列出用户目录下具有指定格式后缀的文件，然后移除文件后缀

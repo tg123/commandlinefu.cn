@@ -1,8 +1,0 @@
-commandlinefu_id: 5658
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep -cu ioggstream
-summary: |-
-  processes per user counter

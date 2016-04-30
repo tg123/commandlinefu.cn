@@ -1,7 +1,0 @@
-commandlinefu_id: 3917
-translator:
-  weibo: tgic
-command: |-
-  gcc -dM -E - < /dev/null
-summary: |-
-  显示所有预定义的宏

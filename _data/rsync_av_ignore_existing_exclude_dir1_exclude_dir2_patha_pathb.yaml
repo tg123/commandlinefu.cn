@@ -1,7 +1,0 @@
-commandlinefu_id: 7209
-translator:
-  weibo: tgic
-command: |-
-  rsync -av --ignore-existing --exclude="dir1" --exclude="dir2" /pathA /pathB
-summary: |-
-  同步目录

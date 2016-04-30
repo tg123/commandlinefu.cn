@@ -1,7 +1,0 @@
-commandlinefu_id: 227
-translator:
-  weibo: tgic
-command: |-
-  watch "df | grep /this/folder/"
-summary: |-
-  监控文件夹大小变化

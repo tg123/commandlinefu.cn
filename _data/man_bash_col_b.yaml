@@ -1,8 +1,0 @@
-commandlinefu_id: 3420
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man bash | col -b
-summary: |-
-  bash man page

@@ -1,7 +1,0 @@
-commandlinefu_id: 1932
-translator:
-  weibo: codepiano
-command: |-
-  lsof -c dhcpd
-summary: |-
-  列出所有被指定命令打开的文件

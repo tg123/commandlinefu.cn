@@ -1,8 +1,0 @@
-commandlinefu_id: 10971
-translator:
-  weibo: ''
-hide: true
-command: |-
-  smbclient -L sambaserver
-summary: |-
-  Get a list of all browsable Samba shares on the target server.

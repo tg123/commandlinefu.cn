@@ -1,7 +1,0 @@
-commandlinefu_id: 9146
-translator:
-  weibo: '猪了个去'
-command: |-
-  echo $(shuf -n4 /usr/share/dict/words)
-summary: |-
-  生成XKCD #936 类型的四单词密码短语(快速)

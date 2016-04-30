@@ -1,8 +1,0 @@
-commandlinefu_id: 10254
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'for (<*.mp3>) { $old = $_; s/ /-/g; rename $old, $_ }'
-summary: |-
-  Tracklist reaplace backspace to '-'

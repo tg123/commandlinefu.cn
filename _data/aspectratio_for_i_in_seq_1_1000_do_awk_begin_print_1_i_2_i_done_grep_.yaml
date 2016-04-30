@@ -1,8 +1,0 @@
-commandlinefu_id: 10384
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aspectRatio () { for i in `seq 1 1000 `; do awk "BEGIN {print $1/$i, $2/$i}"; done |grep -v "\."; }
-summary: |-
-  Aspect ratio of a resolution

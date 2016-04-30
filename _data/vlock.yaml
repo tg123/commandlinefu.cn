@@ -1,8 +1,0 @@
-commandlinefu_id: 6085
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  vlock
-summary: |-
-  给命令行来个锁

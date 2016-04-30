@@ -1,8 +1,0 @@
-commandlinefu_id: 3489
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -i -pe 's/\xef\xbb\xbf//g' <file>
-summary: |-
-  Fix UTF-8 text files misinterpreted as ISO 8859-1 due to Byte Order Mark (BOM) of the Unicode Standard.

@@ -1,8 +1,0 @@
-commandlinefu_id: 13480
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -lptu | grep -E "22.*ESTABLISHED" | cut -s -d ':' -f2 | awk '{print $2}'
-summary: |-
-  Detect Connections On Port - Android

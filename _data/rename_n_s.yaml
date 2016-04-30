@@ -1,7 +1,0 @@
-commandlinefu_id: 8024
-translator:
-  weibo: tgic
-command: |-
-  rename -n "s/-.*//" *
-summary: |-
-  批量前缀重命名

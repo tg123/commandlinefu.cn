@@ -1,7 +1,0 @@
-commandlinefu_id: 12008
-translator:
-  weibo: tgic
-command: |-
-  ls -qahlSr
-summary: |-
-  按大小ls

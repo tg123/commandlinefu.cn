@@ -1,8 +1,0 @@
-commandlinefu_id: 91
-translator:
-  weibo: ''
-hide: true
-command: |-
-  package-cleanup --leaves --all
-summary: |-
-  List all packages with no dependencies (yum based system)

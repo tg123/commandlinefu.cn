@@ -1,8 +1,0 @@
-commandlinefu_id: 2897
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ldapmodify  -Y "dn:uid=rob,dc=example.com" -g  -R -J 2.16.840.1.113730.3.4.16 ...
-summary: |-
-  modify (mozldap) with proxy authentication and no other controls

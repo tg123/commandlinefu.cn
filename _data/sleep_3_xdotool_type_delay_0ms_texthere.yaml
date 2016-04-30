@@ -1,8 +1,0 @@
-commandlinefu_id: 4892
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 3 && xdotool type --delay 0ms texthere
-summary: |-
-  Type a random string into a X11 window

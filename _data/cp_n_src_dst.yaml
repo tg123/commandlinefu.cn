@@ -1,7 +1,0 @@
-commandlinefu_id: 6527
-translator:
-  weibo: tgic
-command: |-
-  cp -n <src> <dst>
-summary: |-
-  复制但是不覆盖

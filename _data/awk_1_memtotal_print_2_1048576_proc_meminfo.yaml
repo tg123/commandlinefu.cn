@@ -1,7 +1,0 @@
-commandlinefu_id: 9661
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '( $1 == "MemTotal:" ) { print $2/1048576 }' /proc/meminfo
-summary: |-
-  获得内从总数 

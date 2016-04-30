@@ -1,8 +1,0 @@
-commandlinefu_id: 10341
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 $(pidof chrome)
-summary: |-
-  Kill google chrome process

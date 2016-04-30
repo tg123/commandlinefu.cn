@@ -1,8 +1,0 @@
-commandlinefu_id: 12791
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in "$@"; do   name=$(basename "$file" .webm)   echo ffmpeg -i $file -vn -c:a copy $name.ogg    ffmpeg -i "$file" -vn -c:a copy "$name.ogg" done
-summary: |-
-  strips ogg audio from webm video ( no reencoding )

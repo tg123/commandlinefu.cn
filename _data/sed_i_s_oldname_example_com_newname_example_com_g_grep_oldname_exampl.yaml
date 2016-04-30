@@ -1,7 +1,0 @@
-commandlinefu_id: 4895
-translator:
-  weibo: tgic
-command: |-
-  sed -i 's/oldname@example.com/newname@example.com/g' `grep oldname@example.com -rl .`
-summary: |-
-  多个文件替换邮件地址

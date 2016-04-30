@@ -1,7 +1,0 @@
-commandlinefu_id: 3364
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  prev=0;next=1;echo $prev;while(true);do echo $next;sum=$(($prev+$next));prev=$next;next=$sum;sleep 1;done
-summary: |-
-  shell版本的生成斐波那契数列

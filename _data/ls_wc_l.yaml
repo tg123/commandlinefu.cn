@@ -1,7 +1,0 @@
-commandlinefu_id: 11790
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls | wc -l
-summary: |-
-  统计文件夹下所有的文件数

@@ -1,7 +1,0 @@
-commandlinefu_id: 1338
-translator:
-  weibo: tgic
-command: |-
-  LC_ALL=fr_FR luit ssh root@remote_machine_ip
-summary: |-
-  连接到远端机器时候指定编码

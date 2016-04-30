@@ -1,7 +1,0 @@
-commandlinefu_id: 6818
-translator:
-  weibo: tgic
-command: |-
-  lsof -i -P | grep -i "listen"
-summary: |-
-  查看打开的端口

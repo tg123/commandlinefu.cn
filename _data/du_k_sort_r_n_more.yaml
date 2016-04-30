@@ -1,8 +1,0 @@
-commandlinefu_id: 1534
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -k | sort -r -n | more
-summary: |-
-  List the largest directories & subdirectoties in the current directory sorted from largest to smallest.

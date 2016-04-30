@@ -1,8 +1,0 @@
-commandlinefu_id: 13996
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /media/mmc/ -iname "*.JPG" -exec mogrify -quality 75 -resize '800x600' -path ~/Temp/ {} \;
-summary: |-
-  Resize and compress jpg images to another path with mogrify

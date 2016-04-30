@@ -1,8 +1,0 @@
-commandlinefu_id: 8577
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.png" | tee images.txt | grep book
-summary: |-
-  Find redirection and grep

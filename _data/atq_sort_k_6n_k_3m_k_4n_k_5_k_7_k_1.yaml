@@ -1,8 +1,0 @@
-commandlinefu_id: 10707
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  atq |sort -k 6n -k 3M -k 4n -k 5 -k 7 -k 1
-summary: |-
-  按时间排序任务

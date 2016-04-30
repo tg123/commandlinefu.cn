@@ -1,7 +1,0 @@
-commandlinefu_id: 12903
-translator:
-  weibo: tgic
-command: |-
-  netstat -tln | grep :25
-summary: |-
-  检查25端口是否打开

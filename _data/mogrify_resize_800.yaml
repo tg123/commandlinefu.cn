@@ -1,7 +1,0 @@
-commandlinefu_id: 1359
-translator:
-  weibo: tgic
-command: |-
-  mogrify -resize 800\> *
-summary: |-
-  批量修订图片大小 把比800(高 宽) 大的都放到800

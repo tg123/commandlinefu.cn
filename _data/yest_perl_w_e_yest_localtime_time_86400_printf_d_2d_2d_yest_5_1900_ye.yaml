@@ -1,8 +1,0 @@
-commandlinefu_id: 2211
-translator:
-  weibo: ''
-hide: true
-command: |-
-  YEST=`perl -w -e '@yest=localtime(time-86400);printf "%d%.2d%.2d",$yest[5]+1900,$yest[4]+1,$yest[3];'`
-summary: |-
-  Get Yesterday's Date

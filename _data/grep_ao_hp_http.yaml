@@ -1,8 +1,0 @@
-commandlinefu_id: 2236
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -ao -HP "http://[^/]*/" *
-summary: |-
-  Shows the torrent file name along with the trackers url

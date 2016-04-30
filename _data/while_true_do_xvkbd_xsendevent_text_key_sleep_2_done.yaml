@@ -1,7 +1,0 @@
-commandlinefu_id: 4691
-translator:
-  weibo: tgic
-command: |-
-  while true; do xvkbd -xsendevent -text "\[$KEY]" && sleep 2; done
-summary: |-
-  自动按键盘

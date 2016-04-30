@@ -1,7 +1,0 @@
-commandlinefu_id: 12171
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -name "*.gz" | while read line ; do gunzip --to-stdout "$line" | bzip2 > "$(echo $line | sed 's/gz$/bz2/g')" ; done
-summary: |-
-  将gz直接变成 bz2

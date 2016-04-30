@@ -1,7 +1,0 @@
-commandlinefu_id: 3065
-translator:
-  weibo: tgic
-command: |-
-  alien -r -c file.deb
-summary: |-
-  转deb到rpm

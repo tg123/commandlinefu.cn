@@ -1,7 +1,0 @@
-commandlinefu_id: 3816
-translator:
-  weibo: tgic
-command: |-
-  echo "" > .bash_history
-summary: |-
-  清空历史

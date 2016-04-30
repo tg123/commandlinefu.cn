@@ -1,7 +1,0 @@
-commandlinefu_id: 3148
-translator:
-  weibo: tgic
-command: |-
-  rmdir **/*(/^F)
-summary: |-
-  清除空目录 

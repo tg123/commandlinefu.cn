@@ -1,8 +1,0 @@
-commandlinefu_id: 1584
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gst-launch v4l2src
-summary: |-
-  Enable V4l2 Webcams

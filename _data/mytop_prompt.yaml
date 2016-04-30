@@ -1,7 +1,0 @@
-commandlinefu_id: 2223
-translator:
-  weibo: tgic
-command: |-
-  mytop --prompt
-summary: |-
-  跟top相似的mysql监控工具

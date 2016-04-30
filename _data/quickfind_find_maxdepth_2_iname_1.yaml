@@ -1,8 +1,0 @@
-commandlinefu_id: 5835
-translator:
-  weibo: ''
-hide: true
-command: |-
-  quickfind () { find . -maxdepth 2 -iname "*$1*" }
-summary: |-
-  Quick find function

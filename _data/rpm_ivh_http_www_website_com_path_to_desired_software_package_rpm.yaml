@@ -1,7 +1,0 @@
-commandlinefu_id: 3064
-translator:
-  weibo: gdqyn
-command: |-
-  rpm -ivh 'http://www.website.com/path/to/desired_software_package.rpm'
-summary: |-
-  一键下载并安装软件

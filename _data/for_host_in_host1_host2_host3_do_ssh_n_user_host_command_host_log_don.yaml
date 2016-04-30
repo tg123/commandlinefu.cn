@@ -1,8 +1,0 @@
-commandlinefu_id: 6078
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for host in host1 host2 host3; do ssh -n user@$host <command> > $host.log & done; wait
-summary: |-
-  Execute a command on multiple hosts in parallel

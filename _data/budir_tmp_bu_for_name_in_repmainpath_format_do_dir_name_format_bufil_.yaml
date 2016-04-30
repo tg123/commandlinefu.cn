@@ -1,8 +1,0 @@
-commandlinefu_id: 3503
-translator:
-  weibo: ''
-hide: true
-command: |-
-  budir=/tmp/bu.$$;for name in repMainPath/*/format;do dir=${name%/format};bufil=dumpPath/${dir##*/};svnadmin hotcopy --clean-logs $dir $budir;svnadmin dump --delta $budir>$bufil;rm -rf $budir;done
-summary: |-
-  Archive all SVN repositories in platform indepenent form

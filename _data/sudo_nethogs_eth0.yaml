@@ -1,7 +1,0 @@
-commandlinefu_id: 11807
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo nethogs eth0
-summary: |-
-  显示每个进程的网络使用状况

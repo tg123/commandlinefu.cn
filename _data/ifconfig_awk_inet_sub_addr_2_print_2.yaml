@@ -1,7 +1,0 @@
-commandlinefu_id: 9840
-translator:
-  weibo: tgic
-command: |-
-  ifconfig | awk '/inet / {sub(/addr:/, "", $2); print $2}'
-summary: |-
-  获取全部ip

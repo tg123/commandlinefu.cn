@@ -1,8 +1,0 @@
-commandlinefu_id: 6858
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  alias sshdo='ssh -q -t root@localhost -- cd $PWD \&\& sudo'
-summary: |-
-  另外一种 sudo 的方法

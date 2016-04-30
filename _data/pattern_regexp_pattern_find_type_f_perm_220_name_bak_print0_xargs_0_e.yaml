@@ -1,8 +1,0 @@
-commandlinefu_id: 5048
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pattern='regexp_pattern'; find . -type f -perm +220 ! -name '*.bak' -print0 | xargs -0 egrep -lZ $pattern | xargs -0 sed -i.bak -e "/$pattern/d"
-summary: |-
-  Remove lines matching a pattern in files (backup any modified files)

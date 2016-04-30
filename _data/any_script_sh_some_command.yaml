@@ -1,7 +1,0 @@
-commandlinefu_id: 4911
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  any_script.sh < <(some command)
-summary: |-
-  通过命令行调用创建一个临时文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 12866
-translator:
-  weibo: tgic
-command: |-
-  redis-cli KEYS "user*" | xargs redis-cli DEL
-summary: |-
-  按前缀删除redis key

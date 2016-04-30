@@ -1,7 +1,0 @@
-commandlinefu_id: 65
-translator:
-  weibo: '猪了个去'
-command: |-
-  du -s * | sort -n | tail
-summary: |-
-  获取当前目录最大的十个文件/文件夹

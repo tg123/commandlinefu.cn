@@ -1,8 +1,0 @@
-commandlinefu_id: 9391
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder vcd://2 -o sample.avi -oac copy -ovc lavc -lavcopts vcodec=mpeg4
-summary: |-
-  Convert vcd to avi format

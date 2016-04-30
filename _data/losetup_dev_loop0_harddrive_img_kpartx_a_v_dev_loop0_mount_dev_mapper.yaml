@@ -1,8 +1,0 @@
-commandlinefu_id: 6922
-translator:
-  weibo: ''
-hide: true
-command: |-
-  losetup /dev/loop0 harddrive.img; kpartx -a -v /dev/loop0; mount /dev/mapper/loop0p1 /mountpoint/
-summary: |-
-  Mount partition from image (without offset mount)

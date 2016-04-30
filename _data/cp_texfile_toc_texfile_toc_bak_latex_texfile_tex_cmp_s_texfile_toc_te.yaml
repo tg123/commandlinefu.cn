@@ -1,8 +1,0 @@
-commandlinefu_id: 2576
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp texfile.toc texfile.toc.bak; latex texfile.tex; cmp -s texfile.toc texfile.toc.bak; if [ $? -ne 0 ]; then latex texfile.tex; fi
-summary: |-
-  Check if you need to run LaTeX to update the TOC

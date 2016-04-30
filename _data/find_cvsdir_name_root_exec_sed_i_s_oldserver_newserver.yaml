@@ -1,8 +1,0 @@
-commandlinefu_id: 1008
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find cvsdir -name Root -exec sed -i 's/oldserver/newserver/' {} \;
-summary: |-
-  Update obsolete CVS Root files

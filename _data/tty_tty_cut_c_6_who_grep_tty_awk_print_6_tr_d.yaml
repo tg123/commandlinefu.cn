@@ -1,7 +1,0 @@
-commandlinefu_id: 6264
-translator:
-  weibo: tgic
-command: |-
-  TTY=$(tty | cut -c 6-);who | grep "$TTY " | awk '{print $6}' | tr -d '()'
-summary: |-
-  查看从什么地方跳过来的

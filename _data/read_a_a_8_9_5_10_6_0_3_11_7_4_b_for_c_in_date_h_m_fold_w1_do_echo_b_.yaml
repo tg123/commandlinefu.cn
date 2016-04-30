@@ -1,8 +1,0 @@
-commandlinefu_id: 7171
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read -a A <<<"8 9 5 10 6 0 3 11 7 4";B='.*.**..*....***';for C in $(date +"%H%M"|fold -w1);do echo "${B:${A[C]}:4}";done
-summary: |-
-  Binary clock

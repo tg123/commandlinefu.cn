@@ -1,7 +1,0 @@
-commandlinefu_id: 8342
-translator:
-  weibo: tgic
-command: |-
-  find . -printf '%d\n' | sort -n  | tail -1
-summary: |-
-  查看目录深度

@@ -1,8 +1,0 @@
-commandlinefu_id: 244
-translator:
-  weibo: ''
-hide: true
-command: |-
-  trap '' 1 2 20 24(signal number)
-summary: |-
-  Ignore the specified signal

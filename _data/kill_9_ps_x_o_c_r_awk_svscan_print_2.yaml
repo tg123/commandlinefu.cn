@@ -1,8 +1,0 @@
-commandlinefu_id: 10788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 -$(ps x -o  "%c %r" | awk '/svscan/{print $2}')
-summary: |-
-  Kill the process *group* containing a process named svscan (djb's daemontools)

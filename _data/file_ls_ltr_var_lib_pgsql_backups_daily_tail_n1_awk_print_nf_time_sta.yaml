@@ -1,8 +1,0 @@
-commandlinefu_id: 8449
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FILE=`ls -ltr /var/lib/pgsql/backups/daily/ | tail -n1 | awk '{print $NF}'`; TIME=`stat -c %Y /var/lib/pgsql/backups/daily/$FILE`; NOW=`date +%s`; echo $((NOW-TIME))
-summary: |-
-  Show seconds since modified of newest modified file in directory

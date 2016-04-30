@@ -1,8 +1,0 @@
-commandlinefu_id: 2658
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg -S `which nm` | cut -d':' -f1 | (read PACKAGE; echo "[${PACKAGE}]"; dpkg -s "${PACKAGE}"; dpkg -L "${PACKAGE}") | less
-summary: |-
-  A command's package details

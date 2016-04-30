@@ -1,7 +1,0 @@
-commandlinefu_id: 7441
-translator:
-  weibo: '猪了个去'
-command: |-
-  file -s /dev/sd*
-summary: |-
-  使用file查看设备信息(man file查看更多关于file的信息)

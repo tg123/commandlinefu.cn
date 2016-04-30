@@ -1,8 +1,0 @@
-commandlinefu_id: 10023
-translator:
-  weibo: ''
-hide: true
-command: |-
-  comm -13 <(od -vw1 -tu1 dummy.txt|cut -c9-|sort -u) <(seq 0 127|sort)|perl -pe '$_=chr($_)'|od -c
-summary: |-
-  Delimiter Hunting

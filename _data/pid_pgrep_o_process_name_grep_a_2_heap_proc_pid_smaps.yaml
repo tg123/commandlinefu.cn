@@ -1,7 +1,0 @@
-commandlinefu_id: 10142
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  PID=`pgrep -o <process_name>`; grep -A 2 heap /proc/$PID/smaps
-summary: |-
-  输出堆地址和大小

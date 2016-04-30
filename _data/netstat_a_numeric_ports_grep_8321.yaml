@@ -1,7 +1,0 @@
-commandlinefu_id: 10079
-translator:
-  weibo: tgic
-command: |-
-  netstat -a --numeric-ports | grep 8321
-summary: |-
-  检查端口是否被占用

@@ -1,7 +1,0 @@
-commandlinefu_id: 1279
-translator:
-  weibo: codepiano
-command: |-
-  wrestool -x --output . -t14 /path/to/your-file.exe
-summary: |-
-  从windows exe/dll中提取图标

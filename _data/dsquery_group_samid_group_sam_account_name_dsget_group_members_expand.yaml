@@ -1,8 +1,0 @@
-commandlinefu_id: 13051
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dsquery group -samid "Group_SAM_Account_Name" | dsget group -members -expand
-summary: |-
-  List members of a group

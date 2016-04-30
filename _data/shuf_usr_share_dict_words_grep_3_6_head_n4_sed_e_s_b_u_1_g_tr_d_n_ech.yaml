@@ -1,8 +1,0 @@
-commandlinefu_id: 12683
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  shuf /usr/share/dict/words  |grep "^[^']\{3,6\}$" |head -n4 | sed -e "s/\b\(.\)/\u\1/g" | tr -d '\n'; echo
-summary: |-
-  生成xkcd #936 风格的4个词密码
-  注：这是一种易记的风格，见http://www.explainxkcd.com/wiki/index.php/936:_Password_Strength

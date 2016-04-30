@@ -1,8 +1,0 @@
-commandlinefu_id: 1870
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :<C-R><C-W>
-summary: |-
-  Bring the word under the cursor on the :ex line in Vim

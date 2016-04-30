@@ -1,8 +1,0 @@
-commandlinefu_id: 3126
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cc -march=native -E -v - </dev/null 2>&1 | grep cc1
-summary: |-
-  Show GCC-generated optimization commands when using the "-march=native" or "-mtune=native" switches for compilation.

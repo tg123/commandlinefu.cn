@@ -1,8 +1,0 @@
-commandlinefu_id: 311
-translator:
-  weibo: ''
-hide: true
-command: |-
-  last | awk '$1!~/wtmp/{logs[$1]++}END{for (i in logs) print i, logs[i]}'
-summary: |-
-  to get how many users logged in and logged out and how many times purely using awk

@@ -1,8 +1,0 @@
-commandlinefu_id: 11235
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -rt | tail -n 1
-summary: |-
-  Find latest file in a directory

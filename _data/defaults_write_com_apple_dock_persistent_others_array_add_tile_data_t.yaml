@@ -1,8 +1,0 @@
-commandlinefu_id: 8911
-translator:
-  weibo: ''
-hide: true
-command: |-
-  defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-summary: |-
-  Add spacer to right side of Dock

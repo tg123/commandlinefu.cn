@@ -1,8 +1,0 @@
-commandlinefu_id: 13664
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ogr2ogr -f GeoJSON output.geojson  input.shp
-summary: |-
-  How to convert a Shapefile to GeoJSON

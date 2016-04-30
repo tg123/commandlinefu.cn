@@ -1,8 +1,0 @@
-commandlinefu_id: 12257
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do filechanged=$(inotifywait -e close_write,moved_to --format "%w%f" .); haml $filechanged -q --no-escape-attrs > ${filechanged/.haml/.html}; done
-summary: |-
-  Convert HAML to HTML on file change

@@ -1,7 +1,0 @@
-commandlinefu_id: 2452
-translator:
-  weibo: tgic
-command: |-
-  cut -d: -f1 /etc/passwd | grep -vE "#" | xargs -i{} crontab -u {} -l
-summary: |-
-  列出所有用户的所有crontab

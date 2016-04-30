@@ -1,8 +1,0 @@
-commandlinefu_id: 4609
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lgrep() { string=$1; file=$2; awk -v String=${string} '$0 ~ String' ${file}; }
-summary: |-
-  Search big files with long lines

@@ -1,8 +1,0 @@
-commandlinefu_id: 13780
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /etc/named.conf | grep -Po '(?<=(named/)).*(?=\.db)'
-summary: |-
-  Get domains on the server

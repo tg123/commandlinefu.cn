@@ -1,8 +1,0 @@
-commandlinefu_id: 56
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias beep='echo -en "\007"'
-summary: |-
-  ring the bell

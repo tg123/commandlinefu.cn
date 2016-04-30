@@ -1,8 +1,0 @@
-commandlinefu_id: 5409
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zsync -i existing-file-on-disk.iso http://example.com/new-release.iso.zsync
-summary: |-
-  Download a new release of a program that you already have very quickly

@@ -1,8 +1,0 @@
-commandlinefu_id: 2190
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do cat /usr/src/linux/kernel/signal.c > /dev/dsp; done
-summary: |-
-  Listen to a file

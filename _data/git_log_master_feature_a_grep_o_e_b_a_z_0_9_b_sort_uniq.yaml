@@ -1,8 +1,0 @@
-commandlinefu_id: 13531
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log master...feature-a | grep -o -E '\b([A-Z]+)-[0-9]+\b' | sort | uniq
-summary: |-
-  Grab all JIRA ticket numbers (e.g. ABC-123) mentioned in commits added in feature branch off of master

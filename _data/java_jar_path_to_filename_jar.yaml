@@ -1,8 +1,0 @@
-commandlinefu_id: 8202
-translator:
-  weibo: ''
-hide: true
-command: |-
-  java -jar /path/to/filename.jar
-summary: |-
-  Launch a Java .jar App

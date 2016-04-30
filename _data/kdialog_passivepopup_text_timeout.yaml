@@ -1,8 +1,0 @@
-commandlinefu_id: 786
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kdialog --passivepopup <text> <timeout>
-summary: |-
-  Show a passive popup in KDE

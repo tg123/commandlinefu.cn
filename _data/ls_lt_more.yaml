@@ -1,7 +1,0 @@
-commandlinefu_id: 5694
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -lt | more
-summary: |-
-  按修改时间列出文件

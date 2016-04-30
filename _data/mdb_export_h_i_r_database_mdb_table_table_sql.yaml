@@ -1,7 +1,0 @@
-commandlinefu_id: 8270
-translator:
-  weibo: tgic
-command: |-
-  mdb-export -H -I -R database.mdb table >table.sql
-summary: |-
-  导出mdb

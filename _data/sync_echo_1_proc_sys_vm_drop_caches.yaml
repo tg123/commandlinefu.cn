@@ -1,8 +1,0 @@
-commandlinefu_id: 8614
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sync && echo 1 > /proc/sys/vm/drop_caches
-summary: |-
-  clean up memory of unnecessary things (Kernerl 2.6.16 or newer)

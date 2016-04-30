@@ -1,7 +1,0 @@
-commandlinefu_id: 645
-translator:
-  weibo: tgic
-command: |-
-  cat /dev/null >filename
-summary: |-
-  创建一个空文件

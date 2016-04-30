@@ -1,8 +1,0 @@
-commandlinefu_id: 12214
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dvgrab -t -noavc -nostop -f hdv capturefile - | ffplay -x 640 -y 360
-summary: |-
-  Grabs video from HD firewire camera, saves it on file and plays it scaled down on ffplayer.

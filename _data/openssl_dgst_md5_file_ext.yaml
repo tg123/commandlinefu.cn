@@ -1,8 +1,0 @@
-commandlinefu_id: 12752
-translator:
-  weibo: tgic
-command: |-
-  openssl dgst -md5 file.ext
-summary: |-
-  计算md5
-

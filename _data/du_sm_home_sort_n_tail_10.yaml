@@ -1,7 +1,0 @@
-commandlinefu_id: 11368
-translator:
-  weibo: tgic
-command: |-
-  du -sm /home/* | sort -n | tail -10
-summary: |-
-  查找10个home目录大的用户

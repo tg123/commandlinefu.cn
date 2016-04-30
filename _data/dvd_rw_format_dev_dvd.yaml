@@ -1,8 +1,0 @@
-commandlinefu_id: 394
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dvd+rw-format /dev/dvd
-summary: |-
-  Erase DVD RW

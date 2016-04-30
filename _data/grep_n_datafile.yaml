@@ -1,7 +1,0 @@
-commandlinefu_id: 4267
-translator:
-  weibo: tgic
-command: |-
-  grep -n . datafile ;
-summary: |-
-  打印行号

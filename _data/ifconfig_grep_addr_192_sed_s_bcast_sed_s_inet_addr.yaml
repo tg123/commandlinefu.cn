@@ -1,7 +1,0 @@
-commandlinefu_id: 5172
-translator:
-  weibo: '猪了个去'
-command: |-
-  ifconfig | grep addr:192 | sed s/Bcast.*// | sed 's/^.*inet addr://'
-summary: |-
-  显示你的私有/本地IP地址(本条命令的文字处理部分根据系统的语言而不同，比如addr在中文环境中叫做地址)

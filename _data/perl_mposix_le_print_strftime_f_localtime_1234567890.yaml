@@ -1,8 +1,0 @@
-commandlinefu_id: 13681
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -MPOSIX -le 'print strftime "%F", localtime 1234567890'
-summary: |-
-  Convert epoch time to full date with Perl

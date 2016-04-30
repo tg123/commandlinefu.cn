@@ -1,8 +1,0 @@
-commandlinefu_id: 6760
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat dvd_output/Layer0/IMAGE.DAT dvd_output/Layer1/IMAGE.DAT > dvd.iso
-summary: |-
-  Combine DVD Studio Pro DDP layers back into a DVD disc image for testing

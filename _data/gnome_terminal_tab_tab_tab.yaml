@@ -1,7 +1,0 @@
-commandlinefu_id: 3319
-translator:
-  weibo: tgic
-command: |-
-  gnome-terminal --tab --tab --tab
-summary: |-
-  开启一个有3个tab 的 terminal

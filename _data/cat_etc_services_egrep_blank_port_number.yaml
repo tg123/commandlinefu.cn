@@ -1,8 +1,0 @@
-commandlinefu_id: 7152
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /etc/services  | egrep [[:blank:]]<port_number>/
-summary: |-
-  Find which service was used by which port number

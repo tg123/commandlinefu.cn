@@ -1,7 +1,0 @@
-commandlinefu_id: 10604
-translator:
-  weibo: tgic
-command: |-
-  at midnight<<<'ls -l'
-summary: |-
-  指定时间执行

@@ -1,7 +1,0 @@
-commandlinefu_id: 5407
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  X='pattern'; vim +/"$X" `egrep -lr "$X" *`
-summary: |-
-  用一个模式递归地用Grep搜索，并在Vim中按顺序打开所有匹配的文件

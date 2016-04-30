@@ -1,7 +1,0 @@
-commandlinefu_id: 3188
-translator:
-  weibo: tgic
-command: |-
-  date -d @1234567890
-summary: |-
-  读取unix时间

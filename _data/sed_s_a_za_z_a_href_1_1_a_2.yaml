@@ -1,7 +1,0 @@
-commandlinefu_id: 9986
-translator:
-  weibo: ''
-command: |-
-  sed "s/\([a-zA-Z]*\:\/\/[^ ]*\)\(.*\)/\<a href=\"\1\"\>\1\<\/a\>\2/"
-summary: |-
-  替换url为html 超链接

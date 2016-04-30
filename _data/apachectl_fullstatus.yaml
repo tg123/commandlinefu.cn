@@ -1,7 +1,0 @@
-commandlinefu_id: 8470
-translator:
-  weibo: tgic
-command: |-
-  apachectl fullstatus
-summary: |-
-  检查apache状态

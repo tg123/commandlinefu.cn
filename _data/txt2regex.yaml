@@ -1,8 +1,0 @@
-commandlinefu_id: 2040
-translator:
-  weibo: ''
-hide: true
-command: |-
-  txt2regex
-summary: |-
-  Interactively build regular expressions

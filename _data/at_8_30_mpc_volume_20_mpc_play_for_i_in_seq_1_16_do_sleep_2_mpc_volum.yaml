@@ -1,8 +1,0 @@
-commandlinefu_id: 9794
-translator:
-  weibo: ''
-hide: true
-command: |-
-  at 8:30 <<<'mpc volume 20; mpc play; for i in `seq 1 16`; do sleep 2; mpc volume +5; done'
-summary: |-
-  Set up alarm with fade-in, for graceful awakening

@@ -1,8 +1,0 @@
-commandlinefu_id: 2066
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pr -l 40 bitree.c > printcode; split -40 printcode -d page_
-summary: |-
-  split source code to page with numbers

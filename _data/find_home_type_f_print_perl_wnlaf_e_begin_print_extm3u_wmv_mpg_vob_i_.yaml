@@ -1,8 +1,0 @@
-commandlinefu_id: 1270
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find $HOME -type f -print | perl -wnlaF'/' -e 'BEGIN{ print "#EXTM3U"; } /.+\.wmv$|.+\.mpg$|.+\.vob$/i and print "#EXTINF:$F[-1]\nfile://$&";' > movies.m3u
-summary: |-
-  make a list of movies(.m3u).

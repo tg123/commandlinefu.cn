@@ -1,8 +1,0 @@
-commandlinefu_id: 2333
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ i != 0 ]; do sleep 1 | dialog --clear --gauge "Quality: " 0 0 $(cat /proc/net/wireless | grep $WIRELESSINTERFACE | awk '{print $3}' | tr -d "."); done
-summary: |-
-  Check wireless link quality with dialog box

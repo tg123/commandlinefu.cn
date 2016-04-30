@@ -1,8 +1,0 @@
-commandlinefu_id: 10845
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n1 "uptime && ps auxw|grep http|grep -v grep | grep -v watch|wc -l && netstat -ntup|grep :80 |grep ESTABLISHED|wc -l && netstat -ntup|grep :80|grep WAIT|wc -l && free -mo && ps -ylC httpd --sort:rss|tail -3|awk '{print \$8}'"
-summary: |-
-  Server load and process monitoring

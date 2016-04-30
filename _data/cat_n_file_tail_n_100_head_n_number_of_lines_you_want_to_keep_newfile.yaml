@@ -1,8 +1,0 @@
-commandlinefu_id: 693
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat -n $file | tail -n 100 &&  head -n number-of-lines-you-want-to-keep > newfile
-summary: |-
-  removing those pesky malformed lines at the end of a text file..

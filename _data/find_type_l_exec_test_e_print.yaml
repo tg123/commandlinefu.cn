@@ -1,8 +1,0 @@
-commandlinefu_id: 954
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type l ! -exec test -e {} \; -print
-summary: |-
-  Find broken symlinks

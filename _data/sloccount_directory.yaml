@@ -1,7 +1,0 @@
-commandlinefu_id: 8421
-translator:
-  weibo: tgic
-command: |-
-  sloccount <directory>
-summary: |-
-  计算行数(不算空行和注释)

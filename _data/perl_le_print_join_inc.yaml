@@ -1,8 +1,0 @@
-commandlinefu_id: 3576
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -le 'print join $/, @INC'
-summary: |-
-  Show which include directories your installation of Perl is using.

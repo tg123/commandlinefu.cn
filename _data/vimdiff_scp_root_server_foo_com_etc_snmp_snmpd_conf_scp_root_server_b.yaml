@@ -1,8 +1,0 @@
-commandlinefu_id: 4502
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vimdiff scp://root@server-foo.com//etc/snmp/snmpd.conf scp://root@server-bar.com//etc/snmp/snmpd.conf
-summary: |-
-  Colored diff ( via vim ) on 2 remotes files on your local computer.

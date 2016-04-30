@@ -1,8 +1,0 @@
-commandlinefu_id: 10722
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i input.ogv -vol $((256*4)) -vcodec copy output.ogv
-summary: |-
-  video volume boost

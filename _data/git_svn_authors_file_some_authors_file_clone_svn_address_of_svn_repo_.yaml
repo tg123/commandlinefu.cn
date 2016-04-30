@@ -1,7 +1,0 @@
-commandlinefu_id: 283
-translator:
-  weibo: codepiano
-command: |-
-  git svn --authors-file=some-authors-file clone svn://address/of/svn/repo new-git-dir
-summary: |-
-  导入/克隆一个svn仓库到git仓库

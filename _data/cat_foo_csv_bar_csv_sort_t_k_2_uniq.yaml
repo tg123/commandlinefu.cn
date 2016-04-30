@@ -1,7 +1,0 @@
-commandlinefu_id: 1061
-translator:
-  weibo: tgic
-command: |-
-  cat foo.csv bar.csv | sort -t "," -k 2 | uniq
-summary: |-
-  比较两个csv

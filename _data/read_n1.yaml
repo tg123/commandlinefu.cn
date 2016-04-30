@@ -1,7 +1,0 @@
-commandlinefu_id: 12820
-translator:
-  weibo: tgic
-command: |-
-  read -N1
-summary: |-
-  读取用户输入

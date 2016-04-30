@@ -1,8 +1,0 @@
-commandlinefu_id: 3695
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls [FILENAME] | xargs openssl sha1
-summary: |-
-  生成文件的 sha1

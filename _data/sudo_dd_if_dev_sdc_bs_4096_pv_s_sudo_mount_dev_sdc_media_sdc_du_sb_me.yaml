@@ -1,8 +1,0 @@
-commandlinefu_id: 11850
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo dd if=/dev/sdc bs=4096 | pv -s  `sudo mount /dev/sdc /media/sdc && du -sb /media/sdc/ |awk '{print $1}' && sudo umount /media/sdc`| sudo dd bs=4096 of=~/USB_BLACK_BACKUP.IMG
-summary: |-
-  dd with progress bar and statistics to gzipped image

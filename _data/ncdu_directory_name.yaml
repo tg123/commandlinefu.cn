@@ -1,8 +1,0 @@
-commandlinefu_id: 2387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ncdu directory_name
-summary: |-
-  ncdu - ncurses disk usage

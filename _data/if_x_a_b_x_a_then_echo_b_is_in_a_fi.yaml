@@ -1,8 +1,0 @@
-commandlinefu_id: 5426
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ "x${a/$b/}" != "x$a" ]; then echo "'$b' is in '$a'"; fi
-summary: |-
-  Find if $b is in $a in bash

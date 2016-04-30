@@ -1,8 +1,0 @@
-commandlinefu_id: 11548
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo ettercap -T -Q -M arp -i wlan0 // //
-summary: |-
-  Ettercap MITM

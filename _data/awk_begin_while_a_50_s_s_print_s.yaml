@@ -1,7 +1,0 @@
-commandlinefu_id: 4496
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'BEGIN{while (a++<50) s=s "-"; print s}'
-summary: |-
-  打印一行50个连字符 

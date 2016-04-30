@@ -1,8 +1,0 @@
-commandlinefu_id: 10168
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -r 's/(\[|])//g' | awk ' { $1=strftime("%D %T",$1); print }'
-summary: |-
-  Change time format in log, UNIX Timestamp to Human readable

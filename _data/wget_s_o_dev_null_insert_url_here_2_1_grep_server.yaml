@@ -1,7 +1,0 @@
-commandlinefu_id: 1406
-translator:
-  weibo: tgic
-command: |-
-  wget -S -O/dev/null "INSERT_URL_HERE" 2>&1 | grep Server
-summary: |-
-  查看服务器软件(比如 Apache)

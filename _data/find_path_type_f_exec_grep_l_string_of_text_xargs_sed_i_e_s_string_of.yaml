@@ -1,7 +1,0 @@
-commandlinefu_id: 11862
-translator:
-  weibo: tgic
-command: |-
-  find /path/ -type f -exec grep -l '<string of text>' {} \; | xargs sed -i -e 's%<string of text>%<new text string>%g'
-summary: |-
-  查找并替换

@@ -1,8 +1,0 @@
-commandlinefu_id: 11455
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat file.txt | grep -v /$ > newfile.txt
-summary: |-
-  Remove lines ending or trailing at least one slash (/)

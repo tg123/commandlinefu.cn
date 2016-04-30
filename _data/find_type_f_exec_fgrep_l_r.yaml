@@ -1,8 +1,0 @@
-commandlinefu_id: 6398
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec fgrep -l $'\r' "{}" \;
-summary: |-
-  finding cr-lf files aka dos files with ^M characters

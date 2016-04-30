@@ -1,7 +1,0 @@
-commandlinefu_id: 7062
-translator:
-  weibo: codepiano
-command: |-
-  find . -empty -type f -execdir rm -f {} +
-summary: |-
-  递归目录，移除0kb大小的文件

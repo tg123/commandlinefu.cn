@@ -1,8 +1,0 @@
-commandlinefu_id: 2534
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -v "\ *#\|^$" /etc/path/to.config
-summary: |-
-  Dump a configuration file without comments or whitespace...

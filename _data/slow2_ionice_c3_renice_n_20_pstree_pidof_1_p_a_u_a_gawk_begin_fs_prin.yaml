@@ -1,7 +1,0 @@
-commandlinefu_id: 7090
-translator:
-  weibo: tgic
-command: |-
-  slow2() { ionice -c3 renice -n 20 $(pstree `pidof $1` -p -a -u -A|gawk 'BEGIN{FS=","}{print $2}'|cut -f1 -d " ") ; }
-summary: |-
-  使一个进程和他的子进程的cpu和io都nice (越nice 获得的资源的能力越弱)

@@ -1,7 +1,0 @@
-commandlinefu_id: 1215
-translator:
-  weibo: tgic
-command: |-
-  dmidecode | grep -i prod
-summary: |-
-  计算机型号

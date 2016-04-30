@@ -1,8 +1,0 @@
-commandlinefu_id: 11005
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "properly_escaped_command" | ssh user@host $(< /dev/fd/0)
-summary: |-
-  run complex remote shell cmds over ssh, without escaping quotes

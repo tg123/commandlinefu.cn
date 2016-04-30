@@ -1,8 +1,0 @@
-commandlinefu_id: 6988
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(openssl rand 4 | od -DAn)
-summary: |-
-  Random unsigned integer

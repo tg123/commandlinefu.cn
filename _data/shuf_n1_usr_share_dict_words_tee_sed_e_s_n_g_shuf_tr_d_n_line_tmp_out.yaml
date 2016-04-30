@@ -1,8 +1,0 @@
-commandlinefu_id: 1854
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shuf -n1 /usr/share/dict/words | tee >(sed -e 's/./&\n/g' | shuf | tr -d '\n' | line) > /tmp/out
-summary: |-
-  Simple word scramble

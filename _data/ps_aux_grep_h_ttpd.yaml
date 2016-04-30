@@ -1,8 +1,0 @@
-commandlinefu_id: 402
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep [h]ttpd
-summary: |-
-  Exclude grep from your grepped output of ps (alias included in description)

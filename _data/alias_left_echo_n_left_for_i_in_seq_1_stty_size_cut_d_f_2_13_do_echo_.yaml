@@ -1,8 +1,0 @@
-commandlinefu_id: 13939
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias left='echo -n "<-left"; for I in $(seq 1 $(($(stty size | cut -d " " -f 2) - 13)));  do echo -n " " ; done ; echo -n "right->";'
-summary: |-
-  Where is left (or right)

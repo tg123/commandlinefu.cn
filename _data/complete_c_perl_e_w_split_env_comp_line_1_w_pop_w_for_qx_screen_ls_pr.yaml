@@ -1,8 +1,0 @@
-commandlinefu_id: 12160
-translator:
-  weibo: ''
-hide: true
-command: |-
-  complete -C "perl -e '@w=split(/ /,\$ENV{COMP_LINE},-1);\$w=pop(@w);for(qx(screen -ls)){print qq/\$1\n/ if (/^\s*\$w/&&/(\d+\.\w+)/||/\d+\.(\$w\w*)/)}'" screen
-summary: |-
-  bash auto-complete your screen sessions

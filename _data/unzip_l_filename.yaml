@@ -1,7 +1,0 @@
-commandlinefu_id: 3941
-translator:
-  weibo: tgic
-command: |-
-  unzip -l <filename>
-summary: |-
-  查看zip中内容

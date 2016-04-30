@@ -1,8 +1,0 @@
-commandlinefu_id: 5683
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dvgrab --format raw - | tee dvstream.dv | ffmpeg2theora -A 45 -V 400 -c 1 -f dv -x 360 -y 288 -o /dev/stdout - | tee savelivestream.ogv | oggfwd -p -d "Stream description" -n "Streamname" my.icecastserver.com 80 icecastpassword /stream.ogv
-summary: |-
-  Streaming HTML5 video to icecast server using dvgrab, ffmpeg2theora and oggfwd

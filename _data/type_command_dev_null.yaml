@@ -1,8 +1,0 @@
-commandlinefu_id: 8694
-translator:
-  weibo: ''
-hide: true
-command: |-
-  type {command} >/dev/null
-summary: |-
-  Check if a command is available in your system

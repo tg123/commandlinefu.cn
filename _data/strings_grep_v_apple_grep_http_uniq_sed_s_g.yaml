@@ -1,8 +1,0 @@
-commandlinefu_id: 13352
-translator:
-  weibo: ''
-hide: true
-command: |-
-  strings * |grep -v "Apple" |grep http |uniq |sed "s/<[^>]\+>//g"
-summary: |-
-  Convert all .weblock files in present directory  (Apple url) to a url on the stdout.

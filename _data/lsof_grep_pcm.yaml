@@ -1,7 +1,0 @@
-commandlinefu_id: 5634
-translator:
-  weibo: '猪了个去'
-command: |-
-  lsof | grep pcm
-summary: |-
-  列出正在播放声音的进程

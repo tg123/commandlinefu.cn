@@ -1,7 +1,0 @@
-commandlinefu_id: 108
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '/pattern1/ && /pattern2/ && !/pattern3/ {print}'
-summary: |-
-  用awk模拟grep类似的功能，模式匹配 

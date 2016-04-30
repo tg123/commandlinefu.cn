@@ -1,7 +1,0 @@
-commandlinefu_id: 9280
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ps ewwo command PID | tr ' ' '\n' | grep \=
-summary: |-
-  输出给定PID的进程的环境变量

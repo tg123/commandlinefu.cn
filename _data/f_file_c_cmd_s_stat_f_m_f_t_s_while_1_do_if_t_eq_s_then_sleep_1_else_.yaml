@@ -1,8 +1,0 @@
-commandlinefu_id: 236
-translator:
-  weibo: ''
-hide: true
-command: |-
-  f="FILE";c="CMD";s="stat -f %m $f";t=`$s`;while [ 1 ];do if [ $t -eq `$s` ];then sleep 1;else echo `$c`;t=`$s`;fi;done
-summary: |-
-  Fire CMD every time FILE (or directory) is updated (on *BSD)

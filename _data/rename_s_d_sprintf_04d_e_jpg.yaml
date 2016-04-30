@@ -1,7 +1,0 @@
-commandlinefu_id: 8383
-translator:
-  weibo: tgic
-command: |-
-  rename 's/\d+/sprintf("%04d",$&)/e' *.jpg
-summary: |-
-  带有0填充的重命名

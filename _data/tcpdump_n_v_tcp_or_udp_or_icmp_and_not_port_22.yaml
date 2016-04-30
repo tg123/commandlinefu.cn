@@ -1,8 +1,0 @@
-commandlinefu_id: 3327
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -n -v tcp or udp or icmp and not port 22
-summary: |-
-  show all upd tcp an icmp traffic but ssh

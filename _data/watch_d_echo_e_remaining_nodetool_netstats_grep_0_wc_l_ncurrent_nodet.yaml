@@ -1,8 +1,0 @@
-commandlinefu_id: 13032
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -d 'echo -e "Remaining: `(nodetool netstats | grep " 0%" | wc -l)` \nCurrent: `(nodetool netstats | grep "%" | grep -v " 0%")`"'
-summary: |-
-  See what a cassandra node is streaming

@@ -1,7 +1,0 @@
-commandlinefu_id: 10348
-translator:
-  weibo: tgic
-command: |-
-  screen -D -R
-summary: |-
-  自动寻找并attach一个screen

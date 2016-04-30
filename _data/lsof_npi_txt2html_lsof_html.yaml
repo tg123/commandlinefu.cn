@@ -1,7 +1,0 @@
-commandlinefu_id: 8931
-translator:
-  weibo: particle128
-command: |-
-  lsof -nPi | txt2html  > ~/lsof.html
-summary: |-
-  在浏览器上查看网络连接情况

@@ -1,7 +1,0 @@
-commandlinefu_id: 9271
-translator:
-  weibo: tgic
-command: |-
-  cat -n file.txt
-summary: |-
-  cat 时候带上行号

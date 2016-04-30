@@ -1,8 +1,0 @@
-commandlinefu_id: 1241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort -bdf
-summary: |-
-  sort ugly text

@@ -1,8 +1,0 @@
-commandlinefu_id: 6204
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat  $(ls -c | grep  ogg | tac ) > directory/test.ogg
-summary: |-
-  merge ogg file into a new one according to their download time

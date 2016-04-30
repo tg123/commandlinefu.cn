@@ -1,7 +1,0 @@
-commandlinefu_id: 1438
-translator:
-  weibo: tgic
-command: |-
-  function cdls { cd $1; ls; }
-summary: |-
-  合并cd 和 ls

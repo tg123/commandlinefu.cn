@@ -1,7 +1,0 @@
-commandlinefu_id: 4918
-translator:
-  weibo: tgic
-command: |-
-  lsli() { ls -l --color "$@" | awk '{ for(i=9;i<NF;i++){ printf("%s ",$i) } printf("%s\n",$NF) }'; }
-summary: |-
-  查看符号链接的目标

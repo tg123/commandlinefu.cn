@@ -1,8 +1,0 @@
-commandlinefu_id: 11736
-translator:
-  weibo: ''
-hide: true
-command: |-
-  twurl /1/statuses/update.json -d status="$1"
-summary: |-
-  Tweet your status from the command line

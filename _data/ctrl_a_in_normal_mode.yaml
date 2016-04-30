@@ -1,8 +1,0 @@
-commandlinefu_id: 11329
-translator:
-  weibo: ''
-hide: true
-command: |-
-  CTRL + A   ( in normal mode )
-summary: |-
-  Increment next number in vim

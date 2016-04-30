@@ -1,8 +1,0 @@
-commandlinefu_id: 10915
-translator:
-  weibo: ''
-hide: true
-command: |-
-  join employee.txt bonus.txt
-summary: |-
-  Join command like SQL

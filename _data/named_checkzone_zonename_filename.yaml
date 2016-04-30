@@ -1,8 +1,0 @@
-commandlinefu_id: 11597
-translator:
-  weibo: ''
-hide: true
-command: |-
-  named-checkzone {zonename} {filename}
-summary: |-
-  Check Zone File

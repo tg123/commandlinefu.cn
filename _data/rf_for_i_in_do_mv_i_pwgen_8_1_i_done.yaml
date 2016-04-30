@@ -1,8 +1,0 @@
-commandlinefu_id: 8686
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rf() { for i in "$@"; do mv "$i" "$(pwgen 8 1).${i##*.}"; done }
-summary: |-
-  Rename a file with a random name

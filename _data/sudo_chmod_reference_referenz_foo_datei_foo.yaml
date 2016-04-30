@@ -1,8 +1,0 @@
-commandlinefu_id: 13149
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo chmod --reference=Referenz.foo Datei.foo
-summary: |-
-  Berechtigungen nach einer Referenz ?ndern

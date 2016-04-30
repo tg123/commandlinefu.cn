@@ -1,7 +1,0 @@
-commandlinefu_id: 8070
-translator:
-  weibo: tgic
-command: |-
-  sort -t"," -n -k5 file.csv  # according to the 5th field NUMERICALLY!!
-summary: |-
-  按第5列排序csv

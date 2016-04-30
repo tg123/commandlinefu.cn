@@ -1,7 +1,0 @@
-commandlinefu_id: 6297
-translator:
-  weibo: tgic
-command: |-
-  echo "$(od -An -N4 -tu4 /dev/urandom) % 5 + 1" | bc
-summary: |-
-  随机 1 到 5

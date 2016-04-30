@@ -1,7 +1,0 @@
-commandlinefu_id: 2893
-translator:
-  weibo: tgic
-command: |-
-  schedtool PID
-summary: |-
-  显示进程的调度信息

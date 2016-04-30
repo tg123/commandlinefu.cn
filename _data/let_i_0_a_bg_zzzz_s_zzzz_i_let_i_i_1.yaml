@@ -1,8 +1,0 @@
-commandlinefu_id: 2514
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :let i=0 | 'a,'bg/ZZZZ/s/ZZZZ/\=i/ | let i=i+1
-summary: |-
-  VIM: Replace a string with an incrementing number between marks 'a and 'b (eg, convert string ZZZZ to 1, 2, 3, ...)

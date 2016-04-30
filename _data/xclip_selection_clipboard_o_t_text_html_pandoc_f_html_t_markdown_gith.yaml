@@ -1,8 +1,0 @@
-commandlinefu_id: 13639
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xclip -selection clipboard -o -t text/html | pandoc -f html -t markdown_github -
-summary: |-
-  Convert clipboard HTML content to markdown (for github, trello, etc)

@@ -1,8 +1,0 @@
-commandlinefu_id: 10291
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/urandom of=file.img bs=4KB& sleep 1 && pid=`pidof dd`; while [[ -d /proc/$pid ]]; do kill -USR1 $pid && sleep 10 && clear; done
-summary: |-
-  Watch the progress of 'dd'

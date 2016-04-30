@@ -1,7 +1,0 @@
-commandlinefu_id: 8110
-translator:
-  weibo: tgic
-command: |-
-  aptitude search \~ilinux-image
-summary: |-
-  列出安装的内核 (deb)

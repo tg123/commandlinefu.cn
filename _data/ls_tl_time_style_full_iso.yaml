@@ -1,8 +1,0 @@
-commandlinefu_id: 10699
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -tl --time-style=full-iso
-summary: |-
-  List visible files ordered by modification date and shows date in full iso format

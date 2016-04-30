@@ -1,8 +1,0 @@
-commandlinefu_id: 6133
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -MExtUtils::Installed -e '$inst = ExtUtils::Installed->new(); @modules = $inst->modules(); print join("\n", @modules);'
-summary: |-
-  Print a list of installed Perl modules

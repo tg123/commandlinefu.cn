@@ -1,8 +1,0 @@
-commandlinefu_id: 4580
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  wget -r -l1 -np -nd http://yoururl.com/yourfolder/
-summary: |-
-  从远程目录下载到当前目录

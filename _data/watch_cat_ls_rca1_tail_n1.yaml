@@ -1,8 +1,0 @@
-commandlinefu_id: 8164
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch "cat `ls -rcA1 | tail -n1`"
-summary: |-
-  Watch and cat the last file to enter a directory

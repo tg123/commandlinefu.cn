@@ -1,8 +1,0 @@
-commandlinefu_id: 5411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  true || false && echo true || echo false
-summary: |-
-  Juste a reminder that this works.

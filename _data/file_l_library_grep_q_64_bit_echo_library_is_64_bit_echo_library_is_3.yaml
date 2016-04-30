@@ -1,8 +1,0 @@
-commandlinefu_id: 5027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  file -L <library> | grep -q '64-bit' && echo 'library is 64 bit' || echo 'library is 32 bit'
-summary: |-
-  determine if a shared library is compiled as 32bit or 64bit

@@ -1,8 +1,0 @@
-commandlinefu_id: 11217
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*" | xargs grep "mystring"
-summary: |-
-  find all files in the current directory matching name * and searching for a string "mystring". outputs all the filenames that contain the search string.

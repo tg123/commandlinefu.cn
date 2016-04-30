@@ -1,8 +1,0 @@
-commandlinefu_id: 13638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f FILE | ccze
-summary: |-
-  coloured tail

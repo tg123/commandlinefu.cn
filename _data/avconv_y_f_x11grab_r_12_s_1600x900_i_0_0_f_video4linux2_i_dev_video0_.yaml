@@ -1,8 +1,0 @@
-commandlinefu_id: 12370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  avconv  -y -f x11grab -r 12 -s 1600x900 -i :0.0 -f video4linux2 -i /dev/video0 -f alsa -i pulse -map 0:0 -vcodec rawvideo -pix_fmt yuv420p desktop.y4m -map 1:0 -vcodec rawvideo -pix_fmt yuv420p camera.y4m -map 2:0 audio.mp3
-summary: |-
-  Capture desktop at resolution 1600x900 and camera video files also captures mic audio to file

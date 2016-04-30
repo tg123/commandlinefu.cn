@@ -1,8 +1,0 @@
-commandlinefu_id: 7371
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -cf ~/out.tar --no-recursion --files-from <(find . -type d)
-summary: |-
-  Create a tar of directory structure only

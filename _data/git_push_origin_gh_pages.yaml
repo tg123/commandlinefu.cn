@@ -1,7 +1,0 @@
-commandlinefu_id: 8672
-translator:
-  weibo: tgic
-command: |-
-  git push origin :gh-pages
-summary: |-
-  如何删除远端分支

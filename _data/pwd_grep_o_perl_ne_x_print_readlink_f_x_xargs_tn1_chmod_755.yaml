@@ -1,8 +1,0 @@
-commandlinefu_id: 12015
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pwd|grep -o '/'|perl -ne '$x.="./.";print`readlink -f $x`'|xargs -tn1 chmod 755
-summary: |-
-  Ensure path permissions from '.' prior to root

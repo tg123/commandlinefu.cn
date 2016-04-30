@@ -1,8 +1,0 @@
-commandlinefu_id: 6388
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man $(ls /bin | sed -n $((RANDOM % $(ls /bin | wc -l) + 1))p)
-summary: |-
-  Display a random man page

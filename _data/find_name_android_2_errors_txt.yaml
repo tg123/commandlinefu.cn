@@ -1,7 +1,0 @@
-commandlinefu_id: 10032
-translator:
-  weibo: '猪了个去'
-command: |-
-  find / -name '*android*' 2>errors.txt
-summary: |-
-  简单的find命令示例

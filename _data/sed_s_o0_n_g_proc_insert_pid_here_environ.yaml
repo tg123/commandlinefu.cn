@@ -1,7 +1,0 @@
-commandlinefu_id: 1984
-translator:
-  weibo: tgic
-command: |-
-  sed 's/\o0/\n/g' /proc/INSERT_PID_HERE/environ
-summary: |-
-  打印某个pid的环境变量

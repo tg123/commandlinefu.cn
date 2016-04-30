@@ -1,8 +1,0 @@
-commandlinefu_id: 10557
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ntfs-3g /dev/da0s1 /mnt
-summary: |-
-  Write and read HDD external  (OS FreeBSD)

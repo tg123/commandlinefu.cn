@@ -1,7 +1,0 @@
-commandlinefu_id: 7680
-translator:
-  weibo: tgic
-command: |-
-  wget http://URL/FILE.tar.gz -O - | tar xfz -
-summary: |-
-  下载同时解压缩

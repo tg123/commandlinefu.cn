@@ -1,8 +1,0 @@
-commandlinefu_id: 3725
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i '19375 s/^/#/' file
-summary: |-
-  Comment out a line in a file

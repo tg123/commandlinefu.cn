@@ -1,8 +1,0 @@
-commandlinefu_id: 11180
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e :a -e '$!N;s/\n/ /;ta'
-summary: |-
-  Replace nelines with spaces

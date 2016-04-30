@@ -1,7 +1,0 @@
-commandlinefu_id: 5970
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ifconfig eth0 | grep -o "inet [^ ]*" | cut -d: -f2
-summary: |-
-  通过脚本输出eth0的IPv4地址

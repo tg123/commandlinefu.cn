@@ -1,7 +1,0 @@
-commandlinefu_id: 640
-translator:
-  weibo: '猪了个去'
-command: |-
-  alias chop="tr -d '\r\n'"
-summary: |-
-  bash删除回车

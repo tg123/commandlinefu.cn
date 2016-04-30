@@ -1,7 +1,0 @@
-commandlinefu_id: 10160
-translator:
-  weibo: tgic
-command: |-
-  sed -re '/^#/d ; s/#.*$//'
-summary: |-
-  清理注释

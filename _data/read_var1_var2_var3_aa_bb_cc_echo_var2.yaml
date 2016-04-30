@@ -1,8 +1,0 @@
-commandlinefu_id: 8899
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read VAR1 VAR2 VAR3 <<< aa bb cc; echo $VAR2
-summary: |-
-  split a string (2)

@@ -1,8 +1,0 @@
-commandlinefu_id: 10553
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed G input.txt | cat -s
-summary: |-
-  insert blank lines

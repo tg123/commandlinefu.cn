@@ -1,8 +1,0 @@
-commandlinefu_id: 9203
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wallpaperWarn() { BG="/desktop/gnome/background/picture_filename"; convert "`gconftool-2 -g $BG`" -pointsize 70 -draw "gravity center fill red  text 0,-360 'Warn' fill white  text 0,360 'Warn'" /tmp/w.jpg; gconftool-2 --set $BG -t string "/tmp/w.jpg"; }
-summary: |-
-  Text message on wallpaper

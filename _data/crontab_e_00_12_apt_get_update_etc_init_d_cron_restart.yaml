@@ -1,7 +1,0 @@
-commandlinefu_id: 3921
-translator:
-  weibo: tgic
-command: |-
-  (crontab -e) 00 12 * * * apt-get update (/etc/init.d/cron restart)
-summary: |-
-  添加一个cron 每天更新系统

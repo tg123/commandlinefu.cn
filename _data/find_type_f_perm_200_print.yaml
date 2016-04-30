@@ -1,7 +1,0 @@
-commandlinefu_id: 4198
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -perm +200 -print
-summary: |-
-  查找所有可写的文件

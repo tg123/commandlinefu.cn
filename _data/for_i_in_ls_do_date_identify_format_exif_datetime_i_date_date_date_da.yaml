@@ -1,8 +1,0 @@
-commandlinefu_id: 13792
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `ls` ; do date=$(identify -format %[exif:DateTime] $i); date=${date//:/-}; date=${date// /_}; mv $i ${date}__$i; done
-summary: |-
-  rename all images in folder with prefix of date and time from exif data

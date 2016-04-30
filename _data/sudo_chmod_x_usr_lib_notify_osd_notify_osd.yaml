@@ -1,7 +1,0 @@
-commandlinefu_id: 6995
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo chmod -x /usr/lib/notify-osd/notify-osd
-summary: |-
-  禁掉Ubuntu的桌面提示

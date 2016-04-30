@@ -1,8 +1,0 @@
-commandlinefu_id: 13590
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | grep inet | awk '{ print $2 }'
-summary: |-
-  List Server IP address

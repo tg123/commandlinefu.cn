@@ -1,7 +1,0 @@
-commandlinefu_id: 7287
-translator:
-  weibo: 'codepiano'
-command: |-
-  perl -MMIME::Base64 -ne 'print decode_base64($_)' < file.txt > out
-summary: |-
-  一行perl代码实现解码base64编码的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 11088
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo /etc/init.d/dns-clean
-summary: |-
-  Flush DNS

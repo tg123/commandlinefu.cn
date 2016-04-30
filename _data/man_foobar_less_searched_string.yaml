@@ -1,8 +1,0 @@
-commandlinefu_id: 12882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man foobar | less +/searched_string
-summary: |-
-  open manpage and search for a string

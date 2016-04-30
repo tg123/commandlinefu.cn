@@ -1,7 +1,0 @@
-commandlinefu_id: 12244
-translator:
-  weibo: tgic
-command: |-
-  find -maxdepth 1 -type d | while read dir; do echo $dir; echo cmd2; done
-summary: |-
-  每个文件用多个命令处理

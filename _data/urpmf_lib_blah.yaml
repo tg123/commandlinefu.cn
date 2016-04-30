@@ -1,8 +1,0 @@
-commandlinefu_id: 1332
-translator:
-  weibo: ''
-hide: true
-command: |-
-  urpmf lib/blah
-summary: |-
-  Search for files in rpm repositorys. (Mandriva linux)

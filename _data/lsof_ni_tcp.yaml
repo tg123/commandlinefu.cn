@@ -1,8 +1,0 @@
-commandlinefu_id: 12060
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -ni TCP
-summary: |-
-  Open Port Check

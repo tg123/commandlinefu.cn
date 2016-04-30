@@ -1,7 +1,0 @@
-commandlinefu_id: 8794
-translator:
-  weibo: codepiano
-command: |-
-  ssh-keygen -C hello@world
-summary: |-
-  在rsa公钥文件的末尾添加一个注释（默认是域名）

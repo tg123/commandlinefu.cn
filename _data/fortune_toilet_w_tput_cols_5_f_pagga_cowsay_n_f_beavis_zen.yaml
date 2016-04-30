@@ -1,8 +1,0 @@
-commandlinefu_id: 10680
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  fortune | toilet -w $(($(tput cols)-5)) -f pagga | cowsay -n -f beavis.zen
-summary: |-
-  老人的话……神奇的linx 居然有这么多变态的命令

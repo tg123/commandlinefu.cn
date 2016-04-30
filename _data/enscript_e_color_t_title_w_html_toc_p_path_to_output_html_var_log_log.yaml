@@ -1,8 +1,0 @@
-commandlinefu_id: 2359
-translator:
-  weibo: ''
-hide: true
-command: |-
-  enscript -E --color -t "title" -w html --toc -p /PATH/to/output.html /var/log/*log
-summary: |-
-  Convert the output of one or more (log, source code ...) files into html,

@@ -1,8 +1,0 @@
-commandlinefu_id: 13793
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jhead -n%Y-%m-%d_%H-%M-%S__%f *.JPG
-summary: |-
-  rename all images in folder with prefix of date and time from exif data

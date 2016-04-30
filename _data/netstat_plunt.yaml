@@ -1,8 +1,0 @@
-commandlinefu_id: 241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -plunt
-summary: |-
-  Show which programs are listening on TCP and UDP ports

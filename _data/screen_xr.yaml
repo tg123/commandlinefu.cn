@@ -1,8 +1,0 @@
-commandlinefu_id: 214
-translator:
-  weibo: ''
-hide: true
-command: |-
-  screen -xR
-summary: |-
-  Reconnect to screen without disconnecting other sessions

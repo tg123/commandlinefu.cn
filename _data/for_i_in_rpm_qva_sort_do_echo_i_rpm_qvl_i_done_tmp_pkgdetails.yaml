@@ -1,7 +1,0 @@
-commandlinefu_id: 2660
-translator:
-  weibo: codepiano
-command: |-
-  for i in `rpm -qva | sort ` ; do ; echo "===== $i =====" ; rpm -qvl $i ; done > /tmp/pkgdetails
-summary: |-
-  在类ReaHat操作系统中将所有安装的软件包的列表存入文件以方便使用grep查找

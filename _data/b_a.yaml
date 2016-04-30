@@ -1,7 +1,0 @@
-commandlinefu_id: 3264
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  B <<< $(A)
-summary: |-
-  管道的替代方案

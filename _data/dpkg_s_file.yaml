@@ -1,7 +1,0 @@
-commandlinefu_id: 7592
-translator:
-  weibo: tgic
-command: |-
-  dpkg -S file
-summary: |-
-  查看文件属于那个包

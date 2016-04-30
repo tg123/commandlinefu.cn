@@ -1,7 +1,0 @@
-commandlinefu_id: 4525
-translator:
-  weibo: codepiano
-command: |-
-  xdg-open $(ls . | dmenu)
-summary: |-
-  文件浏览器

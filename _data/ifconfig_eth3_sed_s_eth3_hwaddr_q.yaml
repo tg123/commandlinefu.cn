@@ -1,7 +1,0 @@
-commandlinefu_id: 7820
-translator:
-  weibo: tgic
-command: |-
-  ifconfig eth3|sed 's/^eth3.*HWaddr //;q'
-summary: |-
-  读取eth3 的 mac

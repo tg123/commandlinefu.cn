@@ -1,7 +1,0 @@
-commandlinefu_id: 3988
-translator:
-  weibo: tgic
-command: |-
-  ip link show eth0 | grep "link/ether" | awk '{print $2}'
-summary: |-
-  获取特定设备的mac地址

@@ -1,7 +1,0 @@
-commandlinefu_id: 12200
-translator:
-  weibo: particle128
-command: |-
-  sudo !-1
-summary: |-
-  以root身份运行上一条命令

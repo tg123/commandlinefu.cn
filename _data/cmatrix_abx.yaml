@@ -1,8 +1,0 @@
-commandlinefu_id: 5841
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cmatrix -abx
-summary: |-
-  matrix in your term

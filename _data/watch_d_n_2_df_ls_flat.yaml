@@ -1,8 +1,0 @@
-commandlinefu_id: 164
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -d -n 2 'df; ls -FlAt;'
-summary: |-
-  Like top, but for files

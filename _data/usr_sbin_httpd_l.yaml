@@ -1,7 +1,0 @@
-commandlinefu_id: 182
-translator:
-  weibo: tgic
-command: |-
-  /usr/sbin/httpd -l
-summary: |-
-  查看apache 编译的模块

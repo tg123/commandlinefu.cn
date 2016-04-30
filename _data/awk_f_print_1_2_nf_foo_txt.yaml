@@ -1,7 +1,0 @@
-commandlinefu_id: 7012
-translator:
-  weibo: tgic
-command: |-
-  awk -F, '{print $1" "$2" "$NF}' foo.txt
-summary: |-
-  使用逗号作为分隔符

@@ -1,7 +1,0 @@
-commandlinefu_id: 11278
-translator:
-  weibo: tgic
-command: |-
-  sed 1d foo.txt
-summary: |-
-  不显示第一行

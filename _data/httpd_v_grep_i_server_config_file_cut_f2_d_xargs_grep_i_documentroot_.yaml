@@ -1,8 +1,0 @@
-commandlinefu_id: 9011
-translator:
-  weibo: ''
-hide: true
-command: |-
-  httpd -V | grep -i SERVER_CONFIG_FILE | cut -f2 -d'"' | xargs grep -i '^DocumentRoot' | cut -f2 -d'"'
-summary: |-
-  How To Get the Apache Document Root

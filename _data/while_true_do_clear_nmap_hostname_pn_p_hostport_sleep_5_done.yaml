@@ -1,8 +1,0 @@
-commandlinefu_id: 3029
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do clear; nmap ${hostname} -PN -p ${hostport}; sleep 5; done
-summary: |-
-  checks if host /service is up on a host that doesn't respond to ping

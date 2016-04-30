@@ -1,7 +1,0 @@
-commandlinefu_id: 2436
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -name *.ext -exec cat {} > file.txt \;
-summary: |-
-  递归的cat

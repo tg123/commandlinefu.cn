@@ -1,8 +1,0 @@
-commandlinefu_id: 12958
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh remoteserver 'nohup /path/to/script `</dev/null` >nohup.out 2>&1 &'
-summary: |-
-  execute/start some scripts on a remote machine/server (which will terminate automatically) and disconnect from the server

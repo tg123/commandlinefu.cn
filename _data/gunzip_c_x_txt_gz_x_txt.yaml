@@ -1,8 +1,0 @@
-commandlinefu_id: 13776
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gunzip -c x.txt.gz >x.txt
-summary: |-
-  Keep gz file after uncompressing

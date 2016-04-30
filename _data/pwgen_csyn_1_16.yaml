@@ -1,8 +1,0 @@
-commandlinefu_id: 13642
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pwgen -CsyN 1 16
-summary: |-
-  A random password generator

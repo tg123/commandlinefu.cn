@@ -1,8 +1,0 @@
-commandlinefu_id: 3557
-translator:
-  weibo: ''
-hide: true
-command: |-
-  declare -ax CC; for i in `seq 0 7`;do ii=$(($i+7)); CC[$i]="\033[1;3${i}m"; CC[$ii]="\033[0;3${i}m"; done
-summary: |-
-  Adding Color Escape Codes to global CC array for use by echo -e

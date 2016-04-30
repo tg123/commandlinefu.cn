@@ -1,8 +1,0 @@
-commandlinefu_id: 11505
-translator:
-  weibo: ''
-hide: true
-command: |-
-  genpassdeep() { cat /dev/urandom | tr -dc [:alnum:] | head -c64 | whirlpooldeep; echo; }
-summary: |-
-  Create a secure password using /dev/urandom and whirlpool

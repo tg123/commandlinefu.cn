@@ -1,8 +1,0 @@
-commandlinefu_id: 740
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoclean && sudo apt-get autoremove
-summary: |-
-  Does a full update and cleaning in one line

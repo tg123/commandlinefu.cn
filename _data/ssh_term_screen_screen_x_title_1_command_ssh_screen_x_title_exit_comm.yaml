@@ -1,8 +1,0 @@
-commandlinefu_id: 12387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh() { [ $TERM == screen ] && (screen -X title "${1##*@}"; command ssh "$@"; screen -X title '';exit;) || command ssh "$@"; }
-summary: |-
-  Set window name when SSH'ing while using screen

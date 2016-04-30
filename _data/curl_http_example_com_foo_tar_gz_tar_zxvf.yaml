@@ -1,7 +1,0 @@
-commandlinefu_id: 924
-translator:
-  weibo: tgic
-command: |-
-  curl http://example.com/foo.tar.gz | tar zxvf -
-summary: |-
-  不下载直接解压缩到本地

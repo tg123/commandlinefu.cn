@@ -1,8 +1,0 @@
-commandlinefu_id: 11885
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -hs * | sort -h
-summary: |-
-  Sort contents of a directory with human readable output

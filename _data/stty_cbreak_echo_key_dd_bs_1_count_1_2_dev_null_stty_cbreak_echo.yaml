@@ -1,7 +1,0 @@
-commandlinefu_id: 2391
-translator:
-  weibo: tgic
-command: |-
-  stty cbreak -echo; KEY=$(dd bs=1 count=1 2>/dev/null); stty -cbreak echo
-summary: |-
-  读取但不echo (密码)

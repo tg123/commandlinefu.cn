@@ -1,7 +1,0 @@
-commandlinefu_id: 5997
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'NR==linenumber' filename
-summary: |-
-  显示指定行的内容 

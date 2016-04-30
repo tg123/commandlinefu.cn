@@ -1,7 +1,0 @@
-commandlinefu_id: 10665
-translator:
-  weibo: tgic
-command: |-
-  find . ! -regex '.*/\(unit-test\|android\)/.*' \( -name '*.c' -o -name '*.cpp' \)
-summary: |-
-  寻找不在 unit-test 和 android 子文件夹中的c文件

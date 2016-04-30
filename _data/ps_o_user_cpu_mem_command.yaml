@@ -1,7 +1,0 @@
-commandlinefu_id: 7244
-translator:
-  weibo: ''
-command: |-
-  ps -o user,%cpu,%mem,command
-summary: |-
-  显示mem cpu 的ps

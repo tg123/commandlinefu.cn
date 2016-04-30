@@ -1,7 +1,0 @@
-commandlinefu_id: 4076
-translator:
-  weibo: tgic
-command: |-
-  mp32ogg file.mp3
-summary: |-
-  转换mp3到ogg

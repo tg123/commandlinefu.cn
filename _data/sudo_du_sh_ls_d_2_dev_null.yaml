@@ -1,8 +1,0 @@
-commandlinefu_id: 2930
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sudo du -sh $(ls -d */) 2> /dev/null
-summary: |-
-  查看当前目录下所有子目录的大小

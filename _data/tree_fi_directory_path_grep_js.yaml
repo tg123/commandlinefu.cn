@@ -1,7 +1,0 @@
-commandlinefu_id: 6498
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tree -fi /directory/path/* | grep "\.js"
-summary: |-
-  列出给定路径下的所有javascript文件的完整路径名

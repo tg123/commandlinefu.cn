@@ -1,8 +1,0 @@
-commandlinefu_id: 6710
-translator:
-  weibo: ''
-hide: true
-command: |-
-  joinargs() { (IFS="$1"; shift && echo "$*") }
-summary: |-
-  Joins args together using the first arg as glue

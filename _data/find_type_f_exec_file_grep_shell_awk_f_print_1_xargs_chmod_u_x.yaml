@@ -1,8 +1,0 @@
-commandlinefu_id: 11114
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec file '{}' + | grep shell | awk -F':' '{print $1}' | xargs chmod u+x
-summary: |-
-  Add executable bit to all shell scripts under current directory recursively.

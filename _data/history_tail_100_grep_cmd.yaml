@@ -1,7 +1,0 @@
-commandlinefu_id: 12202
-translator:
-  weibo: tgic
-command: |-
-  history | tail -100 | grep cmd
-summary: |-
-  查找你执行过的命令

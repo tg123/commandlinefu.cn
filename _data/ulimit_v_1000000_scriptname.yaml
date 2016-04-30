@@ -1,7 +1,0 @@
-commandlinefu_id: 7742
-translator:
-  weibo: '猪了个去'
-command: |-
-  (ulimit -v 1000000; scriptname)
-summary: |-
-  限制脚本或程序的内存使用(括号是必须的)

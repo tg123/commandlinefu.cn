@@ -1,8 +1,0 @@
-commandlinefu_id: 14137
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -sIL http://bit.ly/1aalcwX | grep 'Location: '
-summary: |-
-  Check the destination of a shortened URL without opening it

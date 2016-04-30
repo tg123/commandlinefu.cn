@@ -1,7 +1,0 @@
-commandlinefu_id: 333
-translator:
-  weibo: tgic
-command: |-
-  alias acs='apt-cache search'
-summary: |-
-  搜索deb仓库的方法

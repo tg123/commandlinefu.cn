@@ -1,7 +1,0 @@
-commandlinefu_id: 1658
-translator:
-  weibo: tgic
-command: |-
-  awk '{sum1+=$1; sum2+=$2} END {print sum1/NR, sum2/NR}' file.dat
-summary: |-
-  平均数

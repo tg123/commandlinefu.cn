@@ -1,7 +1,0 @@
-commandlinefu_id: 14023
-translator:
-  weibo: tgic
-command: |-
-  du -hsL */
-summary: |-
-  查看磁盘使用情况

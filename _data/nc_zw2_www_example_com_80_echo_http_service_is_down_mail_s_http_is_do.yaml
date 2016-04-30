@@ -1,8 +1,0 @@
-commandlinefu_id: 6548
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  nc -zw2 www.example.com 80 || echo http service is down | mail -s 'http is down' admin@example.com
-summary: |-
-  简单的监控检查服务器是否up

@@ -1,8 +1,0 @@
-commandlinefu_id: 13331
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cdn() { cd $(ls -1d */ | sed -n $@p); }
-summary: |-
-  cd Nst subdir

@@ -1,8 +1,0 @@
-commandlinefu_id: 13410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'flush_all' | nc localhost 11211
-summary: |-
-  Flush memcache cache

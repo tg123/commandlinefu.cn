@@ -1,8 +1,0 @@
-commandlinefu_id: 368
-translator:
-  weibo: ''
-hide: true
-command: |-
-  enscript -E -B -3 -r -s 0 --borders -fCourier4.8 --mark-wrapped-lines=arrow
-summary: |-
-  print code 3-up and syntax-highlighted for easy beach-time study

@@ -1,8 +1,0 @@
-commandlinefu_id: 11459
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -print | awk -F'.' '{print $NF}' | sort | uniq -c
-summary: |-
-  List all the unique extensions in a folder and print their count

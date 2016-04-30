@@ -1,7 +1,0 @@
-commandlinefu_id: 5011
-translator:
-  weibo: codepiano
-command: |-
-  ifconfig | awk '/inet addr/ {print $2 }' | sed 's/.*://g'
-summary: |-
-  显示机器的IPv4地址

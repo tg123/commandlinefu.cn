@@ -1,7 +1,0 @@
-commandlinefu_id: 10807
-translator:
-  weibo: tgic
-command: |-
-  netstat-nat -n
-summary: |-
-  列出nat 的状态

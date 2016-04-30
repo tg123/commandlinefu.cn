@@ -1,8 +1,0 @@
-commandlinefu_id: 10350
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git diff --color-words file1 file2
-summary: |-
-  diff color words

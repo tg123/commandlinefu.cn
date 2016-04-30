@@ -1,7 +1,0 @@
-commandlinefu_id: 1953
-translator:
-  weibo: '猪了个去'
-command: |-
-  find -type f -printf '%P\000' | egrep -iz '\.(avi|mpg|mov|flv|wmv|asf|mpeg|m4v|divx|mp4|mkv)$' | sort -z | xargs -0 ls -1
-summary: |-
-  显示当前目录和子目录的所有视频文件

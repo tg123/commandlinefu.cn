@@ -1,8 +1,0 @@
-commandlinefu_id: 10922
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -s ' '
-summary: |-
-  Squeeze repeats

@@ -1,7 +1,0 @@
-commandlinefu_id: 10065
-translator:
-  weibo: tgic
-command: |-
-  netstat -plantu
-summary: |-
-  显示所有使用 tcp 和 udp 进程

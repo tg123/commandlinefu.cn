@@ -1,8 +1,0 @@
-commandlinefu_id: 3877
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  grep 'test' somefile | grep -vE '(error|critical|warning)'
-summary: |-
-  一次grep -v 中使用多个 匹配词

@@ -1,7 +1,0 @@
-commandlinefu_id: 4478
-translator:
-  weibo: tgic
-command: |-
-  silent(){ $@ > /dev/null 2>&1; }; alias shh=silent
-summary: |-
-  静默执行快捷方式

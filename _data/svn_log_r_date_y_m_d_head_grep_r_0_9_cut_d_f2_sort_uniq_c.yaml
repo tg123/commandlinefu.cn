@@ -1,8 +1,0 @@
-commandlinefu_id: 4890
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log -r {`date "+%Y-%m-%d"`}:HEAD|grep '^r[0-9]' |cut -d\| -f2|sort|uniq -c
-summary: |-
-  Show top committers for SVN repositority for today

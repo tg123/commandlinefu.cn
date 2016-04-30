@@ -1,7 +1,0 @@
-commandlinefu_id: 10373
-translator:
-  weibo: tgic
-command: |-
-  find / -lname path/to/foo.txt
-summary: |-
-  查找指向某个文件的符号链接

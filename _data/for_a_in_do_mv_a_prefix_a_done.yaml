@@ -1,8 +1,0 @@
-commandlinefu_id: 2995
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  for a in *; do mv $a prefix${a}; done
-summary: |-
-  给每个文件加个前缀

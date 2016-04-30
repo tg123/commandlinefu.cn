@@ -1,8 +1,0 @@
-commandlinefu_id: 9652
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '{"json":"obj"}' | python -mjson.tool
-summary: |-
-  Using json.tool from the shell to validate and pretty-print

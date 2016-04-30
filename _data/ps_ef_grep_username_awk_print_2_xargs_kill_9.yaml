@@ -1,7 +1,0 @@
-commandlinefu_id: 896
-translator:
-  weibo: tgic
-command: |-
-  ps -ef | grep $USERNAME | awk {'print $2'} | xargs kill [-9]
-summary: |-
-  清理某个用户的进程

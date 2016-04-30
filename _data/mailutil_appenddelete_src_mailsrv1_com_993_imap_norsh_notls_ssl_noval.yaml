@@ -1,8 +1,0 @@
-commandlinefu_id: 7816
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mailutil appenddelete '{src.mailsrv1.com:993/imap/norsh/notls/ssl/novalidate-cert/user="username"}INBOX' '{dest.mailsrv2.com:143/imap/norsh/notls/user="username"}INBOX'
-summary: |-
-  move messages directly from one IMAP inbox to another

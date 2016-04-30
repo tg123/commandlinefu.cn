@@ -1,8 +1,0 @@
-commandlinefu_id: 6875
-translator:
-  weibo: ''
-hide: true
-command: |-
-  7zr a -mx=9 -ms=on -mhc=on -mtc=off db_backup.sql.7z db_dump.sql
-summary: |-
-  Best option set for 7zip compression of database dumps or generic text files

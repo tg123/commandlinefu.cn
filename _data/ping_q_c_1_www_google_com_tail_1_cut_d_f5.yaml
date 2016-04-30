@@ -1,8 +1,0 @@
-commandlinefu_id: 7315
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping -q -c 1 www.google.com|tail -1|cut -d/ -f5
-summary: |-
-  Do one ping to a URL,  I use this in a MRTG gauge graph to monitor connectivity

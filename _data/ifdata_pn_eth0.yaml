@@ -1,7 +1,0 @@
-commandlinefu_id: 12167
-translator:
-  weibo: particle128
-command: |-
-  ifdata -pN eth0
-summary: |-
-  获取ip地址

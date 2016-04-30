@@ -1,8 +1,0 @@
-commandlinefu_id: 11094
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vlc $(for f in /proc/$(pgrep -f libflashplayer.so |head -n 1)/fd/*; do ;if  $(file ${f} |grep -q "broken symbolic link to \`/tmp/FlashXX"); then echo  ${f};fi;done)
-summary: |-
-  Opens up cached flash plugin video files(linux)

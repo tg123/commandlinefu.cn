@@ -1,7 +1,0 @@
-commandlinefu_id: 10262
-translator:
-  weibo: tgic
-command: |-
-  for num in `seq 2 100`;do if [ `factor $num|awk '{print $2}'` == $num ];then echo -n "$num ";fi done;echo
-summary: |-
-  列出2到100的素数

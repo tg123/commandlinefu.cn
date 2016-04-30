@@ -1,8 +1,0 @@
-commandlinefu_id: 1233
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -MNf <user>@<host>
-summary: |-
-  Create a persistent connection to a machine

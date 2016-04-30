@@ -1,8 +1,0 @@
-commandlinefu_id: 10825
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git checkout develop; git merge --no-ff myfeature
-summary: |-
-  Incorporating a finished feature on develop

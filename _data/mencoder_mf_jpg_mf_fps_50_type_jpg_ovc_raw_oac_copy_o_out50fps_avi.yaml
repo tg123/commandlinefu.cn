@@ -1,7 +1,0 @@
-commandlinefu_id: 12381
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mencoder mf://*.jpg -mf fps=50:type=jpg -ovc raw -oac copy -o out50fps.avi
-summary: |-
-  按照字母表顺序将所有jpeg文件合并成一个50帧每秒的视频

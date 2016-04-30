@@ -1,8 +1,0 @@
-commandlinefu_id: 1703
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/cdrom > ~/mydisk.iso
-summary: |-
-  Create a iso from the disk.

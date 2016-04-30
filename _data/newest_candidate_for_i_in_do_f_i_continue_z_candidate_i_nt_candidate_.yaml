@@ -1,8 +1,0 @@
-commandlinefu_id: 3932
-translator:
-  weibo: ''
-hide: true
-command: |-
-  newest () { candidate=''; for i in "$@"; do [[ -f $i ]] || continue;  [[ -z $candidate || $i -nt $candidate ]] && candidate="$i"; done; echo "$candidate"; }
-summary: |-
-  A function to find the newest file of a set.

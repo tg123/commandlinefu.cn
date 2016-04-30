@@ -1,8 +1,0 @@
-commandlinefu_id: 10469
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in *.flac; do flac -cd "$file" | lame -h -b 320 - "${file%.flac}.mp3"; done
-summary: |-
-  Convert flac to mp3

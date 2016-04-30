@@ -1,7 +1,0 @@
-commandlinefu_id: 13804
-translator:
-  weibo: tgic
-command: |-
-  grep 'font-family:[^;]*' <input file.svg> | sed 's/.*font-family:\([^;]*\).*/\1/g' | sort | uniq
-summary: |-
-  查看svn用到的字体

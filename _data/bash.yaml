@@ -1,7 +1,0 @@
-commandlinefu_id: 11130
-translator:
-  weibo: codepiano
-command: |-
-  :!bash
-summary: |-
-  在vi会话中执行bash，可以执行多个命令，而使用!命令的方式来每次只能执行一条命令，输入exit和回车来返回vi

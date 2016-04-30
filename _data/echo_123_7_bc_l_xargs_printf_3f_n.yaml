@@ -1,7 +1,0 @@
-commandlinefu_id: 1528
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo '123/7' |bc -l |xargs printf "%.3f\n"
-summary: |-
-  获取指定精度下浮点数运算的结果(比如精确到小数点第三位)

@@ -1,8 +1,0 @@
-commandlinefu_id: 1461
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'print map { $_ . "\n" } @INC;'
-summary: |-
-  print lib path of perl

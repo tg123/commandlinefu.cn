@@ -1,8 +1,0 @@
-commandlinefu_id: 7054
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dot_clean
-summary: |-
-  remove OSX resource forks ._ files

@@ -1,7 +1,0 @@
-commandlinefu_id: 1047
-translator:
-  weibo: tgic
-command: |-
-  cat somefilehere.txt | ssh-xfer nametocallfile.txt -
-summary: |-
-  通过ssh-xfer传输文件

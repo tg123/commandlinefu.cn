@@ -1,8 +1,0 @@
-commandlinefu_id: 13768
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dumpe2fs -h /dev/xvda1 | egrep -i 'mount count|check'
-summary: |-
-  Dumpe2fs, FSck running

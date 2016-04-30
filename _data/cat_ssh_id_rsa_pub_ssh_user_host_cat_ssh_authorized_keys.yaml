@@ -1,7 +1,0 @@
-commandlinefu_id: 11637
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat ~/.ssh/id_rsa.pub | ssh user@host 'cat >> ~/.ssh/authorized_keys'
-summary: |-
-  复制ssh密钥到user@host来开启免密码ssh登录

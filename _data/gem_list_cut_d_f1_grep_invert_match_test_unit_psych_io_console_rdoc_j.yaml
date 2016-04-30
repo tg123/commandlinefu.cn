@@ -1,8 +1,0 @@
-commandlinefu_id: 13050
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gem list | cut -d" " -f1 | grep --invert-match "test-unit\|psych\|io-console\|rdoc\|json\|bigdecimal\|rake\|minitest" | xargs gem uninstall -aIx
-summary: |-
-  Uninstall all gems

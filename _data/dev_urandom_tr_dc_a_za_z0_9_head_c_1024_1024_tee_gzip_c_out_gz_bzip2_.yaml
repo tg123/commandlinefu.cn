@@ -1,8 +1,0 @@
-commandlinefu_id: 1851
-translator:
-  weibo: ''
-hide: true
-command: |-
-  < /dev/urandom tr -dc A-Za-z0-9_ | head -c $((1024 * 1024)) | tee >(gzip -c > out.gz) >(bzip2 -c > out.bz) > /dev/null
-summary: |-
-  gzip vs bzip2 at compressing random strings?

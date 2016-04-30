@@ -1,8 +1,0 @@
-commandlinefu_id: 7116
-translator:
-  weibo: ''
-hide: true
-command: |-
-  { var="$( ls / | tee >(cat - >&2) )"; } 2>&1; echo -e "*** var=$var"
-summary: |-
-  get stdout to variable and stdout at sametime

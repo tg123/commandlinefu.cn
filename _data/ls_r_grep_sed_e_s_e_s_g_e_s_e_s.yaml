@@ -1,7 +1,0 @@
-commandlinefu_id: 710
-translator:
-  weibo: tgic
-command: |-
-  ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
-summary: |-
-  模拟tree

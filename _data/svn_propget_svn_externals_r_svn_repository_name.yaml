@@ -1,8 +1,0 @@
-commandlinefu_id: 9876
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn propget svn:externals -R [svn-repository-name]
-summary: |-
-  List all extneral depencies of an svn-repository

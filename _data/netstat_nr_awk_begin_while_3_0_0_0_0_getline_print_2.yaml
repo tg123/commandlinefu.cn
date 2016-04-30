@@ -1,7 +1,0 @@
-commandlinefu_id: 5025
-translator:
-  weibo: gdqyn
-command: |-
-  netstat -nr | awk 'BEGIN {while ($3!="0.0.0.0") getline; print $2}'
-summary: |-
-  获取网关ip地址

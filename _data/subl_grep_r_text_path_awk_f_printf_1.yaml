@@ -1,8 +1,0 @@
-commandlinefu_id: 13870
-translator:
-  weibo: ''
-hide: true
-command: |-
-  subl `grep -R <text> <path> | awk -F: '{ printf $1" " }'`
-summary: |-
-  Open all files in directory with sublime text

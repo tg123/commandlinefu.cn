@@ -1,7 +1,0 @@
-commandlinefu_id: 1921
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find /path/to/my/files/ -type f -name "*txt*" | xargs du -k | awk 'BEGIN{x=0}{x=x+$1}END{print x}'
-summary: |-
-  使用一个简单的正则表达式来统计所有匹配文件的大小

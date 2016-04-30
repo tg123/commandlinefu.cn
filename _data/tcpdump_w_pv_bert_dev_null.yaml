@@ -1,8 +1,0 @@
-commandlinefu_id: 9885
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tcpdump -w - |pv -bert >/dev/null
-summary: |-
-  查看网络吞吐量

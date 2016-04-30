@@ -1,8 +1,0 @@
-commandlinefu_id: 11792
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/tail -fn0 /path/to/apache_error.log | while read line; do /usr/local/bin/growlnotify --title "Apache Notice" --message "$line"; done &
-summary: |-
-  Use Growl to monitor your local apache error logs for new messages

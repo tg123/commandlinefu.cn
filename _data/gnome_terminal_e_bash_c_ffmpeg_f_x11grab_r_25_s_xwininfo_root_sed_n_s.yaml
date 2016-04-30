@@ -1,7 +1,0 @@
-commandlinefu_id: 9017
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  gnome-terminal -e "bash -c \"ffmpeg -f x11grab -r 25 -s $(xwininfo -root |sed -n 's/ -geometry \([0-9x]*\).*/\1/p') -i :0.0 -vcodec huffyuv -sameq ~/Desktop/screencast.avi; exec bash\""
-summary: |-
-  一个视频截取命令，可以给它设置一个快捷键

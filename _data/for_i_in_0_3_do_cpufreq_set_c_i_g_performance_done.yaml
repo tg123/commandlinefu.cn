@@ -1,8 +1,0 @@
-commandlinefu_id: 8523
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {0..3}; do cpufreq-set -c $i -g performance; done
-summary: |-
-  Sets performance CPU governer of all cores of a 4-core CPU.

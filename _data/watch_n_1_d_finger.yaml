@@ -1,7 +1,0 @@
-commandlinefu_id: 4262
-translator:
-  weibo: tgic
-command: |-
-  watch -n 1 -d "finger"
-summary: |-
-  监控登录的人

@@ -1,8 +1,0 @@
-commandlinefu_id: 13561
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ethtool -S eth0 | egrep "(drop|disc|err|fifo|buf|fail|miss|OOB|fcs|full|frags|hdr|tso).*: [^0]"
-summary: |-
-  Find errors and packet loss on network cards

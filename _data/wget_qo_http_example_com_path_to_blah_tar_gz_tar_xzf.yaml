@@ -1,8 +1,0 @@
-commandlinefu_id: 4855
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO - http://example.com/path/to/blah.tar.gz | tar xzf -
-summary: |-
-  download and unpack tarball without leaving it sitting on your hard drive

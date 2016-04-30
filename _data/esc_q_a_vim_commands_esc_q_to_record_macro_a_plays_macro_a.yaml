@@ -1,8 +1,0 @@
-commandlinefu_id: 5244
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <esc> q a ...vim commands... <esc> q (to record macro) @a (plays macro 'a').
-summary: |-
-  Create and replay macros in vim

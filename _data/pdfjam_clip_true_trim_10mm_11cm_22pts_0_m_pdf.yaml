@@ -1,8 +1,0 @@
-commandlinefu_id: 13538
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdfjam --clip true --trim '10mm 11cm 22pts 0' m.pdf
-summary: |-
-  Crop PDF with trim

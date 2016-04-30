@@ -1,8 +1,0 @@
-commandlinefu_id: 11515
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l $PORT | pv -b > archive.tar.bz2
-summary: |-
-  netcat - receive tar archive remotely

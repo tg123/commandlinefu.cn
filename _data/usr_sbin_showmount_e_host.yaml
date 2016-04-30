@@ -1,7 +1,0 @@
-commandlinefu_id: 6229
-translator:
-  weibo: tgic
-command: |-
-  /usr/sbin/showmount -e <host>
-summary: |-
-  查询NSF

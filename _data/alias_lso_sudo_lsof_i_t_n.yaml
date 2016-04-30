@@ -1,7 +1,0 @@
-commandlinefu_id: 2166
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  alias lso="sudo lsof -i -T -n"
-summary: |-
-  给lsof -i -T -n设置别名

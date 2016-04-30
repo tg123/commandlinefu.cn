@@ -1,8 +1,0 @@
-commandlinefu_id: 638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -e --allmatches filename.rpm
-summary: |-
-  Remove multiple same rpm packages

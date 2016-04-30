@@ -1,7 +1,0 @@
-commandlinefu_id: 4766
-translator:
-  weibo: 玄文处幽
-command: |-
-  vlc -I ncurses <MEDIA_DIR>
-summary: |-
-  Vlc在ncurses模式下浏览本地目录

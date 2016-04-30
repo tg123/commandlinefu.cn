@@ -1,8 +1,0 @@
-commandlinefu_id: 8354
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -L / -samefile /path/to/file -exec ls -ld {} +
-summary: |-
-  Find all the links to a file

@@ -1,8 +1,0 @@
-commandlinefu_id: 11042
-translator:
-  weibo: ''
-hide: true
-command: |-
-  prefix="169.254" && for i in {0..254}; do echo $prefix.$i/8; for j in {1..254}; do sh -c "ping -m 1 -c 1 -t 1 $prefix.$i.$j | grep \"icmp\" &" ; done; done
-summary: |-
-  Ping sweep without NMAP

@@ -1,8 +1,0 @@
-commandlinefu_id: 10320
-translator:
-  weibo: ''
-hide: true
-command: |-
-  overflow:auto;padding:5px;border-style:double;font-weight:bold;color:#00ff00;background-color:0;"><pre style="white-space:pre-wrap;white-space:-moz-pre-wrap !important;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;_white-space:pre;
-summary: |-
-  Style a block of code in a blog that accepts HTML.

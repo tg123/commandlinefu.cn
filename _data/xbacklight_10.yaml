@@ -1,7 +1,0 @@
-commandlinefu_id: 11775
-translator:
-  weibo: 'gdqyn'
-command: |-
-  xbacklight -10%
-summary: |-
-  调整笔记本显示器亮度

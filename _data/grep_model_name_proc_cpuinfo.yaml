@@ -1,7 +1,0 @@
-commandlinefu_id: 3984
-translator:
-  weibo: titikaka723 
-command: |-
-  grep "model name" /proc/cpuinfo
-summary: |-
-  显示 CPU model name

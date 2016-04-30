@@ -1,7 +1,0 @@
-commandlinefu_id: 10821
-translator:
-  weibo: tgic
-command: |-
-  apache2 -l
-summary: |-
-  查看apache加载的模块 

@@ -1,8 +1,0 @@
-commandlinefu_id: 3493
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm -rf [a-bd-zA-Z0-9]* c[b-zA-Z0-9]*
-summary: |-
-  Remove all files but one starting with a letter(s)

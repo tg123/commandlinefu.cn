@@ -1,7 +1,0 @@
-commandlinefu_id: 8883
-translator:
-  weibo: tgic
-command: |-
-  eval "mkdir test{$(seq -s, 1 10)}"
-summary: |-
-  创建test1 到 test10

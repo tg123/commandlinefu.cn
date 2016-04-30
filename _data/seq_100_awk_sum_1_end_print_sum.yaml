@@ -1,7 +1,0 @@
-commandlinefu_id: 1648
-translator:
-  weibo: tgic
-command: |-
-  seq 100 | awk '{sum+=$1} END {print sum}'
-summary: |-
-  使用awk求和

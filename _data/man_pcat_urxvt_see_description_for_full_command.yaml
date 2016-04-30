@@ -1,8 +1,0 @@
-commandlinefu_id: 13571
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man -Pcat urxvt | \ # see description for full command
-summary: |-
-  Print all available rxvt resources and their comments

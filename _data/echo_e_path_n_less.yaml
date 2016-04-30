@@ -1,7 +1,0 @@
-commandlinefu_id: 4534
-translator:
-  weibo: codepiano
-command: |-
-  echo -e ${PATH//:/\\n} | less
-summary: |-
-  以每条一行的方式显示环境变量

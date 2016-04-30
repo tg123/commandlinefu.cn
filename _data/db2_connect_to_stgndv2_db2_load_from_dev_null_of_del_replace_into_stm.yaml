@@ -1,8 +1,0 @@
-commandlinefu_id: 10854
-translator:
-  weibo: ''
-hide: true
-command: |-
-  db2 CONNECT TO stgndv2; db2 'load from /dev/null of del replace into STMOT.ST_MORT_ARRG_DELTA nonrecoverable'
-summary: |-
-  DB2 Load command instead of truncate or delete command, to get rid of table rows

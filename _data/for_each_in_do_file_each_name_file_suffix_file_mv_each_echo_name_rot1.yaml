@@ -1,7 +1,0 @@
-commandlinefu_id: 5105
-translator:
-  weibo: tgic
-command: |-
-  for each in *; do file="$each."; name=${file%%.*}; suffix=${file#*.}; mv "$each" "$(echo $name | rot13)${suffix:+.}${suffix%.}"; done
-summary: |-
-  对文件名做rot13

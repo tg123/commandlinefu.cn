@@ -1,7 +1,0 @@
-commandlinefu_id: 8057
-translator:
-  weibo: codepiano
-command: |-
-  php -s source.php > source.html
-summary: |-
-  高亮php文件

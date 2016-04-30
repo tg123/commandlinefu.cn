@@ -1,7 +1,0 @@
-commandlinefu_id: 10210
-translator:
-  weibo: tgic
-command: |-
-  sudo dmidecode -s system-product-name
-summary: |-
-  机器型号

@@ -1,8 +1,0 @@
-commandlinefu_id: 14039
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias Sound-volume='amixer -D pulse sset Master '
-summary: |-
-  change the volume with the pront

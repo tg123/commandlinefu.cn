@@ -1,7 +1,0 @@
-commandlinefu_id: 7829
-translator:
-  weibo: tgic
-command: |-
-  seq 1000 | paste -sd+- | bc
-summary: |-
-  求和1..1000

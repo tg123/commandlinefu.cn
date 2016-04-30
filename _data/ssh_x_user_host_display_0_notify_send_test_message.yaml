@@ -1,8 +1,0 @@
-commandlinefu_id: 13550
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -X user@host 'DISPLAY=:0 notify-send "TEST MESSAGE."'
-summary: |-
-  Send notification bubbles to the computers remotely.

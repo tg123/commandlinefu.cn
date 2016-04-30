@@ -1,8 +1,0 @@
-commandlinefu_id: 13463
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -nni eth0 -e icmp[icmptype] == 8
-summary: |-
-  tcmdump check ping

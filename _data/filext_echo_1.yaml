@@ -1,7 +1,0 @@
-commandlinefu_id: 9529
-translator:
-  weibo: tgic
-command: |-
-  filext () { echo ${1##*.}; }
-summary: |-
-  文件扩展名

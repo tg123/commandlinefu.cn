@@ -1,8 +1,0 @@
-commandlinefu_id: 3449
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/^/#/' FILENAME
-summary: |-
-  Simple Comment an entire file

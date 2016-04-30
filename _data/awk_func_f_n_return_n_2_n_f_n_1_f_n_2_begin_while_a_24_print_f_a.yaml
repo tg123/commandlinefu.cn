@@ -1,8 +1,0 @@
-commandlinefu_id: 7142
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  awk 'func f(n){return(n<2?n:f(n-1)+f(n-2))}BEGIN{while(a<24){print f(a++)}}'
-summary: |-
-  使用awk计算 Fibonacci 数

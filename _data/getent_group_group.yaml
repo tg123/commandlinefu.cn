@@ -1,8 +1,0 @@
-commandlinefu_id: 12871
-translator:
-  weibo: ''
-hide: true
-command: |-
-  getent group <group>
-summary: |-
-  See the members of a group

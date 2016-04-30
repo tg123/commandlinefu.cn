@@ -1,7 +1,0 @@
-commandlinefu_id: 6380
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  wmic process list IO
-summary: |-
-  windows版本的ps

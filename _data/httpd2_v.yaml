@@ -1,7 +1,0 @@
-commandlinefu_id: 3247
-translator:
-  weibo: tgic
-command: |-
-  httpd2 -V
-summary: |-
-  查看apache编译参数

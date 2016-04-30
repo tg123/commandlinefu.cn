@@ -1,8 +1,0 @@
-commandlinefu_id: 12740
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Ctrl+k
-summary: |-
-  removes characters from cursor to the end of line

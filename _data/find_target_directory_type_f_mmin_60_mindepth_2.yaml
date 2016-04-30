@@ -1,8 +1,0 @@
-commandlinefu_id: 13627
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /target_directory -type f -mmin -60 --mindepth 2
-summary: |-
-  find files that have been modified recently

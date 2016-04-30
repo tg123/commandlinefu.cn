@@ -1,8 +1,0 @@
-commandlinefu_id: 13949
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finame(){ find . -iname "*$1*"; }
-summary: |-
-  Shortcut to find files with ease.

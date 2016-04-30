@@ -1,8 +1,0 @@
-commandlinefu_id: 1690
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function headers { head -1 $* | tr ',' '\12' | pr -t -n ; }
-summary: |-
-  Show the ordered header line (with field names) of a CSV file

@@ -1,7 +1,0 @@
-commandlinefu_id: 3083
-translator:
-  weibo: tgic
-command: |-
-  say -f file.txt
-summary: |-
-  读文本 (mac)

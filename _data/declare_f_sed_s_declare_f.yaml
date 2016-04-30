@@ -1,7 +1,0 @@
-commandlinefu_id: 3883
-translator:
-  weibo: tgic
-command: |-
-  declare -F | sed 's/^declare -f //'
-summary: |-
-  列出 预定义的函数

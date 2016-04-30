@@ -1,8 +1,0 @@
-commandlinefu_id: 8657
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch vmstat -sSM
-summary: |-
-  monitor memory usage

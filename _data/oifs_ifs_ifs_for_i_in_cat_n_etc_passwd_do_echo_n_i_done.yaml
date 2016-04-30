@@ -1,8 +1,0 @@
-commandlinefu_id: 12164
-translator:
-  weibo: ''
-hide: true
-command: |-
-  OIFS=$IFS;IFS=$':';for i in $(cat -n /etc/passwd);do echo -n $i\ ** \ ;done
-summary: |-
-  about how using internal separate field and store file content on variable

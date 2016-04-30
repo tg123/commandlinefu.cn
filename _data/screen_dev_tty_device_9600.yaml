@@ -1,7 +1,0 @@
-commandlinefu_id: 6130
-translator:
-  weibo: tgic
-command: |-
-  screen /dev/tty<device> 9600
-summary: |-
-  用screen连接到一个串行console

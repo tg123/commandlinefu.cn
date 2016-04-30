@@ -1,8 +1,0 @@
-commandlinefu_id: 722
-translator:
-  weibo: ''
-hide: true
-command: |-
-  strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo
-summary: |-
-  Generate a random password 30 characters long

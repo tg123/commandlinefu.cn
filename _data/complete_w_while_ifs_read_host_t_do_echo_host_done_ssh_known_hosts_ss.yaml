@@ -1,7 +1,0 @@
-commandlinefu_id: 7836
-translator:
-  weibo: tgic
-command: |-
-  complete -W "$(while IFS=' ,' read host t; do echo $host; done < ~/.ssh/known_hosts)" ssh
-summary: |-
-  自动完成ssh (通过known_hosts)

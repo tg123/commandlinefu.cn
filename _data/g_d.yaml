@@ -1,7 +1,0 @@
-commandlinefu_id: 5109
-translator:
-  weibo: tgic
-command: |-
-  :g/^$/d
-summary: |-
-  在 [vim] 中清除空行

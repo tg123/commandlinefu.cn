@@ -1,7 +1,0 @@
-commandlinefu_id: 1777
-translator:
-  weibo: tgic
-command: |-
-  svn rm `svn status | grep "\!" | cut -c 8-`
-summary: |-
-  在svn中清理本地删除的文件

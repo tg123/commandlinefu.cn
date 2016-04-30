@@ -1,7 +1,0 @@
-commandlinefu_id: 5657
-translator:
-  weibo: tgic
-command: |-
-  diff -wubBEr -x .svn dirA dirB
-summary: |-
-  比较两个目录 忽略svn空格

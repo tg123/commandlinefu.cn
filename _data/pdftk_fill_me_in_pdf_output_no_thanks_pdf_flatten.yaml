@@ -1,8 +1,0 @@
-commandlinefu_id: 13727
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk fill_me_in.pdf output no_thanks.pdf flatten
-summary: |-
-  Take a PDF with form fields and create a flattened PDF that will print properly

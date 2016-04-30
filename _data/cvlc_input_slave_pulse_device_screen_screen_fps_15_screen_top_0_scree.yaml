@@ -1,8 +1,0 @@
-commandlinefu_id: 10638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvlc --input-slave pulse://<device> screen:// --screen-fps=15 --screen-top=0 --screen-left=0 --screen-width=640 --screen-height=480 --sout='#transcode{vcodec=FLV1,vb=1600,acodec=aac}:std{access=file,mux=ffmpeg{mux=flv},dst=viewport1.flv}'
-summary: |-
-  Create a video screencast (capture screen) of screen portion, with audio (the audio you hear, not your mic)

@@ -1,7 +1,0 @@
-commandlinefu_id: 689
-translator:
-  weibo: codepiano
-command: |-
-  cat welcome | wall
-summary: |-
-  向所有登录的终端用户广播信息

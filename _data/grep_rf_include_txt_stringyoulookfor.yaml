@@ -1,7 +1,0 @@
-commandlinefu_id: 4838
-translator:
-  weibo: tgic
-command: |-
-  grep -rF --include='*.txt' stringYouLookFor *
-summary: |-
-  在特定文件类型中grep

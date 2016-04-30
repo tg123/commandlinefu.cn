@@ -1,7 +1,0 @@
-commandlinefu_id: 1944
-translator:
-  weibo: gdqyn
-command: |-
-  dd if=yourimage.img of=/dev/sdb1
-summary: |-
-  将镜像文件烧录到U盘里

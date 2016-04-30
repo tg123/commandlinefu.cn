@@ -1,7 +1,0 @@
-commandlinefu_id: 112
-translator:
-  weibo: tgic
-command: |-
-  perl -pi -e 's/localhost/replacementhost/g' *.php
-summary: |-
-  批量替换php中内容

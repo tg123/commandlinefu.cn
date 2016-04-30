@@ -1,7 +1,0 @@
-commandlinefu_id: 1755
-translator:
-  weibo: tgic
-command: |-
-  apg -a 0 -n 10
-summary: |-
-  生成10个容易发音的密码(好记)

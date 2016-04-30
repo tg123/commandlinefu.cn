@@ -1,8 +1,0 @@
-commandlinefu_id: 6976
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed '/'"<opening tag>"'/,/'"<closing tag>"'/{/'"<closing tag>"'/d;p};d' "<file>"
-summary: |-
-  Multi line grep using sed and specifying open/close tags

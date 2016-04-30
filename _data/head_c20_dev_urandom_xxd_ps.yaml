@@ -1,7 +1,0 @@
-commandlinefu_id: 12506
-translator:
-  weibo: tgic
-command: |-
-  head -c20 /dev/urandom | xxd -ps
-summary: |-
-  生成密码

@@ -1,7 +1,0 @@
-commandlinefu_id: 8368
-translator:
-  weibo: particle128
-command: |-
-  ls * | sed -e 'p;s/foo/bar/' | xargs -n2 mv
-summary: |-
-  用sed批量重命名文件

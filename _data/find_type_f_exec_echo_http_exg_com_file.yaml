@@ -1,7 +1,0 @@
-commandlinefu_id: 4999
-translator:
-  weibo: tgic
-command: |-
-  find . type f -exec echo http://commandlinefu.cn/{} \; > file
-summary: |-
-  根据文件生成网址

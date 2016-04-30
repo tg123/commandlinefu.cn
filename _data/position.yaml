@@ -1,8 +1,0 @@
-commandlinefu_id: 5678
-translator:
-  weibo: tgic
-hide: false
-command: |
-  !!:[position]
-summary: |-
-  使用上一次命令的参数执行命令

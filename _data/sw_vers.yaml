@@ -1,8 +1,0 @@
-commandlinefu_id: 3250
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sw_vers
-summary: |-
-  Show Mac OS X version information

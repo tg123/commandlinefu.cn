@@ -1,8 +1,0 @@
-commandlinefu_id: 10546
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ssh user@remote "cat /path/to/archive.tgz" | tar zxvf -
-summary: |-
-  解压远程的tar

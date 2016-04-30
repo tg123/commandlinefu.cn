@@ -1,7 +1,0 @@
-commandlinefu_id: 9474
-translator:
-  weibo: particle128
-command: |-
-  svn log | perl -l40pe 's/^-+/\n/'
-summary: |-
-  格式化svn log

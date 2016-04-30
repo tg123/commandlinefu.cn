@@ -1,7 +1,0 @@
-commandlinefu_id: 3271
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  awk '{print substr($0, index($0,$N))}'
-summary: |-
-  输出每一行从第N个域到结尾的部分

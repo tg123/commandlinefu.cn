@@ -1,8 +1,0 @@
-commandlinefu_id: 13708
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for line in `docker ps | awk '{print $1}' | grep -v CONTAINER`; do docker ps | grep $line | awk '{printf $NF" "}' && echo $(( `cat /sys/fs/cgroup/memory/docker/$line*/memory.usage_in_bytes` / 1024 / 1024 ))MB ; done
-summary: |-
-  Show memory usage of all docker / lxc containers

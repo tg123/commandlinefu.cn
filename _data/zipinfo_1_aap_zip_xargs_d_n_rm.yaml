@@ -1,7 +1,0 @@
-commandlinefu_id: 13074
-translator:
-  weibo: tgic
-command: |-
-  zipinfo -1 aap.zip | xargs -d '\n' rm
-summary: |-
-  混滚一次unzip操作

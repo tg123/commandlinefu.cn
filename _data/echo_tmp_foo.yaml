@@ -1,8 +1,0 @@
-commandlinefu_id: 3687
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(</tmp/foo)
-summary: |-
-  Change newline to space in a file just using echo

@@ -1,8 +1,0 @@
-commandlinefu_id: 13433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jhead -autorot -ft -n"%Y_%m_%d-%H_%M_%S" *.[jJ][pP][gG]
-summary: |-
-  Rotate all jpeg images in current folder, rename them to EXIF datetime and set files timestamp to EXIF datetime

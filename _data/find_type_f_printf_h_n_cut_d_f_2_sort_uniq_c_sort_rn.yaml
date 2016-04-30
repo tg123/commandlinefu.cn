@@ -1,8 +1,0 @@
-commandlinefu_id: 3752
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -printf "%h\n" | cut -d/ -f-2 | sort | uniq -c | sort -rn
-summary: |-
-  Count the total number of files in each immediate subdirectory

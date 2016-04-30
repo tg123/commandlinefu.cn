@@ -1,7 +1,0 @@
-commandlinefu_id: 6039
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tail -n +4 | head -n 1
-summary: |-
-  只输出第4行

@@ -1,8 +1,0 @@
-commandlinefu_id: 10084
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -type f -size +100000k -exec ls -lh {} \; 2>/dev/null| awk '{ print $8 " : " $5}'
-summary: |-
-  Find files with size over 100MB and output with better lay-out

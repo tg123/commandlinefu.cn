@@ -1,7 +1,0 @@
-commandlinefu_id: 12199
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  du -h
-summary: |-
-  -h 表示“以人类友好的方式输出”

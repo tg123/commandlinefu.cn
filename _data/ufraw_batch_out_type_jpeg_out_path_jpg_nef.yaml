@@ -1,8 +1,0 @@
-commandlinefu_id: 1910
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ufraw-batch --out-type=jpeg --out-path=./jpg ./*.NEF
-summary: |-
-  batch convert Nikon RAW (nef) images to JPG

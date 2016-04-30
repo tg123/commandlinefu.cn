@@ -1,8 +1,0 @@
-commandlinefu_id: 4288
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ipcs
-summary: |-
-  Provide information on IPC (Inter-process communication) facilities

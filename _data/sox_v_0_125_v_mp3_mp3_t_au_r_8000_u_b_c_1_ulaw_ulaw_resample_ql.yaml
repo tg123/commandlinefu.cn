@@ -1,8 +1,0 @@
-commandlinefu_id: 3569
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sox -v 0.125 -V <mp3.mp3> -t au -r 8000 -U -b -c 1 <ulaw.ulaw> resample -ql
-summary: |-
-  Convert mp3/wav file to asterisk ulaw for music on hold (moh)

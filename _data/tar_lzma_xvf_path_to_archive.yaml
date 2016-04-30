@@ -1,8 +1,0 @@
-commandlinefu_id: 11379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar --lzma -xvf /path/to/archive
-summary: |-
-  Extract .tar.lzma archive

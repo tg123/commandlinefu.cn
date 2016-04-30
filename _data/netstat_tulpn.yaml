@@ -1,8 +1,0 @@
-commandlinefu_id: 12102
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -tulpn
-summary: |-
-  Show all LISTENing and open server connections, with port number and process name/pid

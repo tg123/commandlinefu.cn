@@ -1,8 +1,0 @@
-commandlinefu_id: 11671
-translator:
-  weibo: ''
-hide: true
-command: |-
-  file -sL /dev/sda7
-summary: |-
-  Command to find filesystem type

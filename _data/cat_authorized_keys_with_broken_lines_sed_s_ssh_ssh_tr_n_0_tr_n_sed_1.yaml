@@ -1,8 +1,0 @@
-commandlinefu_id: 4899
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat authorized_keys_with_broken_lines | sed 's,^ssh,%ssh,' | tr '\n' '\0'  | tr '%' '\n' | sed '1d' | sed "/^$/d"  > authorized_keys
-summary: |-
-  Reconstruct a malformed authorizated_keys for ssh

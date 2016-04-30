@@ -1,7 +1,0 @@
-commandlinefu_id: 11321
-translator:
-  weibo: codepiano
-command: |-
-  find site/ -type d | xargs sudo chmod 755
-summary: |-
-  修改当前目录中所有目录的权限

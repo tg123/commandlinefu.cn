@@ -1,8 +1,0 @@
-commandlinefu_id: 2232
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  cd "$(mktemp -d)"
-summary: |-
-  开启一个临时目录

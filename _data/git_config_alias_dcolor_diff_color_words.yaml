@@ -1,7 +1,0 @@
-commandlinefu_id: 11156
-translator:
-  weibo: '猪了个去'
-command: |-
-  git config alias.dcolor "diff --color-words"
-summary: |-
-  更好的git diff,分割开、有颜色的单词

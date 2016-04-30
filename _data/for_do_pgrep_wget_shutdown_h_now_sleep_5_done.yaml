@@ -1,8 +1,0 @@
-commandlinefu_id: 7306
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  for ((;;)) do pgrep wget ||shutdown -h now; sleep 5; done
-summary: |-
-  下载完成后自动关机

@@ -1,7 +1,0 @@
-commandlinefu_id: 5804
-translator:
-  weibo: codepiano
-command: |-
-  acpi -V
-summary: |-
-  显示笔记本电池信息

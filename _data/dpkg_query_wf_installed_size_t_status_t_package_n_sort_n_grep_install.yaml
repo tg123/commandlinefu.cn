@@ -1,8 +1,0 @@
-commandlinefu_id: 12770
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg-query -Wf '${Installed-Size}\t${Status}\t${Package}\n' | sort -n | grep installed
-summary: |-
-  List your largest installed packages.

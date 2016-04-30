@@ -1,7 +1,0 @@
-commandlinefu_id: 11062
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find ./ -type f -name "*.txt" -exec tar uvf myarchives.tar {} +
-summary: |-
-  以当前文件夹及其子文件夹内的特定类型文件创建一个tar存档

@@ -1,8 +1,0 @@
-commandlinefu_id: 10492
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk 1.pdf 2.pdf cat output 12.pdf
-summary: |-
-  pdfappend: append multiple pdf files

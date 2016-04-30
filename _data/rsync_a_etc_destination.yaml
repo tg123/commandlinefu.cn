@@ -1,8 +1,0 @@
-commandlinefu_id: 9507
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -a /etc /destination
-summary: |-
-  Real full backup copy of /etc folder

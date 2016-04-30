@@ -1,7 +1,0 @@
-commandlinefu_id: 5363
-translator:
-  weibo: tgic
-command: |-
-  rpm -qa --qf  "%-30{NAME} %-10{SIZE}\n" | sort -n | less
-summary: |-
-  按字母顺序排序安装的rpm

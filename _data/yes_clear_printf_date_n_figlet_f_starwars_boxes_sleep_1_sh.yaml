@@ -1,8 +1,0 @@
-commandlinefu_id: 7904
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yes 'clear;printf "`date`\n" | figlet -f starwars | boxes;sleep 1' | sh
-summary: |-
-  Console clock -- Beautiful 2

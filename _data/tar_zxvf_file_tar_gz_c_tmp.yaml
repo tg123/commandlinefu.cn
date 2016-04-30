@@ -1,7 +1,0 @@
-commandlinefu_id: 7063
-translator:
-  weibo: tgic
-command: |-
-  tar -zxvf file.tar.gz -C /tmp
-summary: |-
-  解压文件到指定目录

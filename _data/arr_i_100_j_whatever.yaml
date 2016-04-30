@@ -1,8 +1,0 @@
-commandlinefu_id: 7921
-translator:
-  weibo: ''
-hide: true
-command: |-
-  arr[i*100+j]="whatever"
-summary: |-
-  Tricky implementation of two-dimensional array in Bash.

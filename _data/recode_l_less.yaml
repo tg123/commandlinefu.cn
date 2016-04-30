@@ -1,8 +1,0 @@
-commandlinefu_id: 6370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  recode -l |less
-summary: |-
-  Show available conversions

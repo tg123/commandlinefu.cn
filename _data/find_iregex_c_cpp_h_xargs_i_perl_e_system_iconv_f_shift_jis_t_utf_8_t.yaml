@@ -1,8 +1,0 @@
-commandlinefu_id: 9806
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iregex ".+\.\(c\|cpp\|h\)" | xargs -I{} perl -e "system(\"iconv -f SHIFT_JIS -t UTF-8 {} > temp; mv temp {} \");"  ;
-summary: |-
-  Converts Character Set of Files in a Folder

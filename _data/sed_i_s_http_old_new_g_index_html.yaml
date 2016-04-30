@@ -1,7 +1,0 @@
-commandlinefu_id: 11861
-translator:
-  weibo: tgic
-command: |-
-  sed -i 's/http:\/\/old\/new\///g' index.html
-summary: |-
-  替换文本中内容

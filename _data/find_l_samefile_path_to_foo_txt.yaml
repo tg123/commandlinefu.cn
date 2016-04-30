@@ -1,7 +1,0 @@
-commandlinefu_id: 10366
-translator:
-  weibo: particle128
-command: |-
-  find -L / -samefile path/to/foo.txt
-summary: |-
-  找到一个文件的所有符号链接

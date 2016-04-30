@@ -1,8 +1,0 @@
-commandlinefu_id: 9837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tune2fs -m 1 /dev/sda6
-summary: |-
-  Unlock more space form your hard drive

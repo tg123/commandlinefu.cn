@@ -1,7 +1,0 @@
-commandlinefu_id: 8903
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -exec chmod -x {} \;
-summary: |-
-  递归清理执行权限

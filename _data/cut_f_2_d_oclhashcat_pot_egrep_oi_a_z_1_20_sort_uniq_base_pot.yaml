@@ -1,8 +1,0 @@
-commandlinefu_id: 13558
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -f 2 -d ':' oclHashcat.pot | egrep -oi '[a-z]{1,20}' | sort | uniq > base.pot
-summary: |-
-  Get unique basewords from Hashcat pot

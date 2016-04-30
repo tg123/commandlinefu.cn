@@ -1,8 +1,0 @@
-commandlinefu_id: 11756
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . | while read line; do test `stat -c %u $line` -eq 1003 && chown android:android $line && echo $line; done
-summary: |-
-  Change owner ship of files from 1003 to android under current directory recursively. 1003/android could be customized.

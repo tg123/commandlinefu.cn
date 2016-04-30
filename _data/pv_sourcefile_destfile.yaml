@@ -1,7 +1,0 @@
-commandlinefu_id: 5107
-translator:
-  weibo: tgic
-command: |-
-  pv sourcefile > destfile
-summary: |-
-  带有进度条的复制

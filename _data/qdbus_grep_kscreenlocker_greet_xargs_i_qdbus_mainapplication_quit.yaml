@@ -1,8 +1,0 @@
-commandlinefu_id: 12495
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qdbus | grep kscreenlocker_greet | xargs -I {} qdbus {} /MainApplication quit
-summary: |-
-  Unlock your KDE4 session remotely (for boxes locked by KDE lock utility)

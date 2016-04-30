@@ -1,8 +1,0 @@
-commandlinefu_id: 11480
-translator:
-  weibo: ''
-hide: true
-command: |-
-  knife node run_list add first-client "role[base]"
-summary: |-
-  add role to chef node

@@ -1,8 +1,0 @@
-commandlinefu_id: 8299
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git branch -D `git branch | awk  '{ if ($0 !~ /next|master/) printf "%s", $0 }'`
-summary: |-
-  Deletes all branches in a git repository except next and master (clean git repo)

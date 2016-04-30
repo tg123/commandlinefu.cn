@@ -1,7 +1,0 @@
-commandlinefu_id: 11152
-translator:
-  weibo: tgic
-command: |-
-  screen -x $(screen -ls | awk 'NR == 2 { print $1 }')
-summary: |-
-  重新attach 第一个创建的 screen

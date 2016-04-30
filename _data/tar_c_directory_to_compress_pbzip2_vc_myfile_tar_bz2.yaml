@@ -1,8 +1,0 @@
-commandlinefu_id: 6352
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -c directory_to_compress/ | pbzip2 -vc > myfile.tar.bz2
-summary: |-
-  tar+pbzip2 a dir

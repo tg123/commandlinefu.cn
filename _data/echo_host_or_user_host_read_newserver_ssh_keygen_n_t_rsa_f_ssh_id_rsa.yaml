@@ -1,8 +1,0 @@
-commandlinefu_id: 5576
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'Host or User@Host?:'; read newserver && ssh-keygen -N "" -t rsa -f ~/.ssh/id_rsa ; ssh $newserver cat <~/.ssh/id_rsa.pub ">>" ~/.ssh/authorized_keys ; ssh $newserver
-summary: |-
-  Automatd ssh public key setup without ssh-copy-id

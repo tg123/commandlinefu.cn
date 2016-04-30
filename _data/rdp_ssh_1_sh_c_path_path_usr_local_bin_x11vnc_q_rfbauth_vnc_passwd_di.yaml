@@ -1,8 +1,0 @@
-commandlinefu_id: 4153
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rdp() { ssh $1 sh -c 'PATH=$PATH:/usr/local/bin; x11vnc -q -rfbauth ~/.vnc/passwd -display :0' & sleep 4; vncviewer $1:0 & }
-summary: |-
-  Pull up remote desktop for other than gnome/kde eg fluxbox

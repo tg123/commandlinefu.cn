@@ -1,8 +1,0 @@
-commandlinefu_id: 11308
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-cache search php5
-summary: |-
-  Search for APT Packages

@@ -1,8 +1,0 @@
-commandlinefu_id: 7444
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias restoremod='chgrp users -R .;chmod u=rwX,g=rX,o=rX -R .;chown $(pwd |cut -d / -f 3) -R .'
-summary: |-
-  Restore user,group and mod of an entire website

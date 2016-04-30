@@ -1,8 +1,0 @@
-commandlinefu_id: 13557
-translator:
-  weibo: ''
-hide: true
-command: |-
-  php -r 'echo json_encode( unserialize( file_get_contents( "php://stdin" ) ) );'
-summary: |-
-  Convert serialized PHP data into JSON

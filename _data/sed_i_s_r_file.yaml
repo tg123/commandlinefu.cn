@@ -1,7 +1,0 @@
-commandlinefu_id: 10295
-translator:
-  weibo: tgic
-command: |-
-  sed -i 's/$/\r/' file
-summary: |-
-  转换为dos格式

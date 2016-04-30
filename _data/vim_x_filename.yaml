@@ -1,8 +1,0 @@
-commandlinefu_id: 2100
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  vim -x <FILENAME>
-summary: |-
-  vim也能给文件加密码

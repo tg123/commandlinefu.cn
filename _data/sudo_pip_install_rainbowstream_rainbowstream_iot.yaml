@@ -1,8 +1,0 @@
-commandlinefu_id: 13650
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo pip install rainbowstream && rainbowstream -iot
-summary: |-
-  Twitter the geek way

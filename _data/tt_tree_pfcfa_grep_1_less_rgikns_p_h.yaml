@@ -1,8 +1,0 @@
-commandlinefu_id: 6799
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tt(){tree -pFCfa . | grep "$1" | less -RgIKNs -P "H >>> "}
-summary: |-
-  Ease your directory exploration

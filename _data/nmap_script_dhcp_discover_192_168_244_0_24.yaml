@@ -1,8 +1,0 @@
-commandlinefu_id: 12266
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap --script dhcp-discover 192.168.244.0/24
-summary: |-
-  nmap --script

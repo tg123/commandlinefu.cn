@@ -1,8 +1,0 @@
-commandlinefu_id: 11084
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 3 > /proc/sys/vm/drop_caches
-summary: |-
-  free up memory

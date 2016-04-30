@@ -1,8 +1,0 @@
-commandlinefu_id: 11231
-translator:
-  weibo: ''
-hide: true
-command: |-
-  parcellite -c | sed 's/^/    /' | parcellite
-summary: |-
-  Using parcellite, indents the content of the clipboard manager

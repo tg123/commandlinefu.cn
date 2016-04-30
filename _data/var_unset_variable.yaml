@@ -1,7 +1,0 @@
-commandlinefu_id: 3481
-translator:
-  weibo: tgic
-command: |-
-  : ${VAR:?unset variable}
-summary: |-
-  检查变量是否存在

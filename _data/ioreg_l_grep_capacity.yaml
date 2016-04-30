@@ -1,8 +1,0 @@
-commandlinefu_id: 13414
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ioreg -l | grep Capacity
-summary: |-
-  The cycle count information is displayed among the other known battery information.

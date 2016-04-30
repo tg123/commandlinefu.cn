@@ -1,8 +1,0 @@
-commandlinefu_id: 11056
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude remove '?and( ?automatic(?reverse-recommends(?installed)), ?not(?automatic(?reverse-depends(?installed))) )'
-summary: |-
-  Removes all packages recommended by other packages

@@ -1,7 +1,0 @@
-commandlinefu_id: 2027
-translator:
-  weibo: codepiano
-command: |-
-  ls | sed -n -r 's/banana_(.*)_([0-9]*).asc/mv & banana_\2_\1.asc/gp' | sh
-summary: |-
-  智能重命名

@@ -1,7 +1,0 @@
-commandlinefu_id: 6711
-translator:
-  weibo: tgic
-command: |-
-  each() { (IFS=$'\n'; echo "$*") }
-summary: |-
-  每行一个打印参数

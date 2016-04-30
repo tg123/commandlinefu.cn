@@ -1,7 +1,0 @@
-commandlinefu_id: 9875
-translator:
-  weibo: tgic
-command: |-
-  ssh  -t remotebox "tail -f /var/log/remote.log"
-summary: |-
-  使用ssh 远程tail

@@ -1,7 +1,0 @@
-commandlinefu_id: 10189
-translator:
-  weibo: codepiano
-command: |-
-  10,30,50 * * * * ping -q -c1 -w3 192.168.0.14 | grep '1 received' - || mail -ne -s'Host 192.168.0.14 not reachable' admin@example.com
-summary: |-
-  当主机无法访问的时候发送邮件

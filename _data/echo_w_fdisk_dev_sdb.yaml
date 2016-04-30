@@ -1,8 +1,0 @@
-commandlinefu_id: 6544
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "w" | fdisk /dev/sdb
-summary: |-
-  Rescan partitions on a SCSI device

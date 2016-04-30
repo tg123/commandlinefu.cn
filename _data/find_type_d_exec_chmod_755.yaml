@@ -1,7 +1,0 @@
-commandlinefu_id: 2371
-translator:
-  weibo: tgic
-command: |-
-  find . -type d -exec chmod 755 {} \;
-summary: |-
-  改变目录的权限

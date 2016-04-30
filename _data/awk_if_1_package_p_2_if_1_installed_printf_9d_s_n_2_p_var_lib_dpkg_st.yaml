@@ -1,7 +1,0 @@
-commandlinefu_id: 7295
-translator:
-  weibo: tgic
-command: |-
-  awk '{if ($1 ~ /Package/) p = $2; if ($1 ~ /Installed/) printf("%9d %s\n", $2, p)}'  /var/lib/dpkg/status | sort -n | tail
-summary: |-
-  查看大的安装包deb

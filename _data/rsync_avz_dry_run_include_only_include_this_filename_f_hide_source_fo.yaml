@@ -1,8 +1,0 @@
-commandlinefu_id: 8112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -avz --dry-run --include="only-include-this-filename" -f 'hide,! */' source/folder/ target/folder/
-summary: |-
-  rsync a hierarchy but matching only one filename

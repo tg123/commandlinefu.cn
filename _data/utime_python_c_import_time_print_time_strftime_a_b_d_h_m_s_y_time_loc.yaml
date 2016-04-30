@@ -1,8 +1,0 @@
-commandlinefu_id: 5619
-translator:
-  weibo: ''
-hide: true
-command: |-
-  utime(){ python -c "import time; print(time.strftime('%a %b %d %H:%M:%S %Y', time.localtime($1)))"; }
-summary: |-
-  Easily decode unix-time (funtion)

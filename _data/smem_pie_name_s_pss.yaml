@@ -1,7 +1,0 @@
-commandlinefu_id: 11938
-translator:
-  weibo: tgic
-command: |-
-  smem --pie name -s pss
-summary: |-
-  图形化内存使用

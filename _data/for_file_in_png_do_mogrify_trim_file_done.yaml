@@ -1,8 +1,0 @@
-commandlinefu_id: 6864
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in *.png; do mogrify -trim "$file"; done
-summary: |-
-  Trim png files in a folder

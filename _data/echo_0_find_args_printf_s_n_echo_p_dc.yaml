@@ -1,8 +1,0 @@
-commandlinefu_id: 9041
-translator:
-  weibo: '猪了个去'
-command: |-
-  (echo 0; find [args...] -printf '%s +\n'; echo p) | dc
-summary: |-
-  Sum size of files returned from FIND
-  计算从find命令中选中的文件的总大小

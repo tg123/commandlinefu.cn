@@ -1,8 +1,0 @@
-commandlinefu_id: 5467
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "$1" | xxd -p | tr '0-9' '5-90-6'; echo "$1" | tr '0-9' '5-90-6' | xxd -r -p
-summary: |-
-  This is N5 sorta like rot13 but with numbers only

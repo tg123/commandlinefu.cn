@@ -1,7 +1,0 @@
-commandlinefu_id: 10607
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ps afx|grep [a]pache
-summary: |-
-  从ps的结果中移除grep

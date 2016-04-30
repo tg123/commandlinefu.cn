@@ -1,7 +1,0 @@
-commandlinefu_id: 2102
-translator:
-  weibo: tgic
-command: |-
-  ip route show dev ppp0 | awk '{ print $7 }'
-summary: |-
-  任意设备绑定的ip

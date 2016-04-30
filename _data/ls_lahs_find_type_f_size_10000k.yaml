@@ -1,8 +1,0 @@
-commandlinefu_id: 12205
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -lahS $(find / -type f -size +10000k)
-summary: |-
-  list all files are greater than 10mb

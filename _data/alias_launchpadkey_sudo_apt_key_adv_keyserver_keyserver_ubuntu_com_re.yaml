@@ -1,8 +1,0 @@
-commandlinefu_id: 2437
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias launchpadkey="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys"
-summary: |-
-  Alias for getting OpenPGP keys for Launchpad PPAs on Ubuntu

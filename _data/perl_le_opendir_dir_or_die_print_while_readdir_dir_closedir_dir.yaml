@@ -1,8 +1,0 @@
-commandlinefu_id: 8227
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -le 'opendir DIR, "." or die; print while $_ = readdir DIR; closedir DIR'
-summary: |-
-  Listing directory content of a directory with a lot of entries

@@ -1,7 +1,0 @@
-commandlinefu_id: 2573
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tar -tf <file.tar.gz> | xargs rm -r
-summary: |-
-  移除从一个tar归档文件中解压缩出来的所有文件

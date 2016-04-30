@@ -1,8 +1,0 @@
-commandlinefu_id: 6909
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar cfX - exclude_opt_weblogic . | ssh tmp-esxsb044 "cd /opt/weblogic ; tar xf -"
-summary: |-
-  tar via network

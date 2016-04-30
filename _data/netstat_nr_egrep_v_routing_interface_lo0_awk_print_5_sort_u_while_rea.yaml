@@ -1,8 +1,0 @@
-commandlinefu_id: 13794
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -nr|egrep -v "Routing|Interface|lo0"|awk '{print $5}'|sort -u| while read l; do ifconfig $l ; echo "        Station Addr: `lanscan -ia|grep "$l "|cut -d ' ' -f 1`" ; done
-summary: |-
-  Equivalent to ifconfig -a in HPUX

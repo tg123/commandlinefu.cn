@@ -1,8 +1,0 @@
-commandlinefu_id: 9609
-translator:
-  weibo: ''
-hide: true
-command: |-
-  totem-video-thumbnailer -pg 25 in_video out_png
-summary: |-
-  video thumbnail gallery

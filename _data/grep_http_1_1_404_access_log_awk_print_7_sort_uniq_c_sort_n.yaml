@@ -1,8 +1,0 @@
-commandlinefu_id: 9117
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep "HTTP/1.1\" 404" access_log | awk '{print $7 } ' | sort | uniq -c | sort -n
-summary: |-
-  Extract all 404 errors from your apache accesslog (prefix lines by occurrences number)

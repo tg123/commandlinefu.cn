@@ -1,8 +1,0 @@
-commandlinefu_id: 393
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wodim -v dev=/dev/dvd -blank=fast
-summary: |-
-  Erase CD RW

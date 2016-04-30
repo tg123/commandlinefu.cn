@@ -1,8 +1,0 @@
-commandlinefu_id: 977
-translator:
-  weibo: ''
-hide: true
-command: |-
-  psg()  { if [ -z "$2" ]; then psargs="aux"; greparg="$1"; else psargs="$1"; greparg="$2"; fi; ps $psargs | grep -i "$(echo $greparg | sed -e 's/^\(.\)/[\1]/')\|^$(ps $psargs | head -1)" ; }
-summary: |-
-  psg (ps grep) function if you don't have pgrep or don't know how to use it

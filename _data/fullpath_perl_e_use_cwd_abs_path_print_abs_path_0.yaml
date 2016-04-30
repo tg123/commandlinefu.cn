@@ -1,7 +1,0 @@
-commandlinefu_id: 11839
-translator:
-  weibo: tgic
-command: |-
-  FULLPATH=$(perl -e "use Cwd 'abs_path';print abs_path('$0');")
-summary: |-
-  获取绝对路径(perl)

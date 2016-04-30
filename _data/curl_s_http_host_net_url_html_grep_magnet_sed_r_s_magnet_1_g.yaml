@@ -1,8 +1,0 @@
-commandlinefu_id: 14146
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://host.net/url.html | grep magnet | sed -r 's/.*(magnet:[^"]*).*/\1/g'
-summary: |-
-  Get magnet link from URL

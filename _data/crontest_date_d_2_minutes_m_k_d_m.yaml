@@ -1,7 +1,0 @@
-commandlinefu_id: 9294
-translator:
-  weibo: tgic
-command: |-
-  crontest () { date '-d +2 minutes' +'%M %k %d %m *'; }
-summary: |-
-  制作一个2分钟后运行的 cron 表达式 (测试用)

@@ -1,7 +1,0 @@
-commandlinefu_id: 279
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tail -f <filename> | grep -C <# of lines to show above and below> <text>
-summary: |-
-  用grep实时过滤一个日志文件，并且显示找到的那一行的前/后#行。注意tail默认只输出末尾的10行。

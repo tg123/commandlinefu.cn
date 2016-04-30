@@ -1,8 +1,0 @@
-commandlinefu_id: 1931
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -p 15857
-summary: |-
-  List files opened by a PID

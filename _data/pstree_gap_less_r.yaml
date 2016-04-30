@@ -1,7 +1,0 @@
-commandlinefu_id: 2252
-translator:
-  weibo: tgic
-command: |-
-  pstree -Gap | less -r
-summary: |-
-  查看进程树

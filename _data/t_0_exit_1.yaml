@@ -1,8 +1,0 @@
-commandlinefu_id: 4110
-translator:
-  weibo: ''
-hide: true
-command: |-
-  [ -t 0 ] || exit 1
-summary: |-
-  Make sure a script is run in a terminal.

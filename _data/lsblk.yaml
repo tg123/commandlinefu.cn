@@ -1,8 +1,0 @@
-commandlinefu_id: 11463
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsblk
-summary: |-
-  list block level layout

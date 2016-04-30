@@ -1,8 +1,0 @@
-commandlinefu_id: 10300
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f production.log | perl -ne 'if (/^Completed.in.(\d+)/){$d = int($1/1000);print "\n";$f{$d}++;for $t (sort(keys(%f))){print $t."s: ".$f{$t}."\n"}}'
-summary: |-
-  filter rails log to count requests sliced in seconds

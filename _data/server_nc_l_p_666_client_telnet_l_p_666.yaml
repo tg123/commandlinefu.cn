@@ -1,8 +1,0 @@
-commandlinefu_id: 3026
-translator:
-  weibo: tgic
-command: |-
-  SERVER: nc -l p 6666 CLIENT: telnet -l -p 6666
-summary: |-
-  使用netcat 检查网络是否连通
-

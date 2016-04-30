@@ -1,7 +1,0 @@
-commandlinefu_id: 8039
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo update-alternatives --config java
-summary: |-
-  切换当前使用的java的版本

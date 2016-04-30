@@ -1,8 +1,0 @@
-commandlinefu_id: 4670
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r -i "phrase" directory/
-summary: |-
-  Recursively grep thorugh directory for string in file.

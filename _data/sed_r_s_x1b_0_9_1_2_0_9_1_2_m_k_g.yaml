@@ -1,8 +1,0 @@
-commandlinefu_id: 3584
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g"
-summary: |-
-  用sed 删除特殊字符 比如 颜色代码

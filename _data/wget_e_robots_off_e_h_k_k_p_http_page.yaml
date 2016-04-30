@@ -1,8 +1,0 @@
-commandlinefu_id: 7610
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -e robots=off -E -H -k -K -p http://<page>
-summary: |-
-  Use wget to download one page and all it's requisites for offline viewing

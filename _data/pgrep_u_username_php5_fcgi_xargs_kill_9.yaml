@@ -1,8 +1,0 @@
-commandlinefu_id: 8983
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep -u username php5-fcgi | xargs kill -9
-summary: |-
-  kills all php5-fcgi processes for user per name

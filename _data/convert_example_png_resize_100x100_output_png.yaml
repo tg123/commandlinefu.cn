@@ -1,7 +1,0 @@
-commandlinefu_id: 6274
-translator:
-  weibo: tgic
-command: |-
-  convert example.png -resize 100x100! output.png
-summary: |-
-  缩放图片

@@ -1,8 +1,0 @@
-commandlinefu_id: 2769
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  install -o user -g group -m 0700 -d /path/to/newdir
-summary: |-
-  创建并设置权限

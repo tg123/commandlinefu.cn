@@ -1,7 +1,0 @@
-commandlinefu_id: 1663
-translator:
-  weibo: tgic
-command: |-
-  mount -t smbfs //$server/share /local/mount -o rw,username=$USER
-summary: |-
-  挂载smb

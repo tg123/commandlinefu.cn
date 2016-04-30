@@ -1,8 +1,0 @@
-commandlinefu_id: 1996
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for img in $( ls *.CR2 ); do convert $img $img.jpg; done
-summary: |-
-  Convert Raw pictures to jpg

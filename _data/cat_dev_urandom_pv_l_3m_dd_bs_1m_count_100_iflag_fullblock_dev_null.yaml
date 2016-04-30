@@ -1,7 +1,0 @@
-commandlinefu_id: 11065
-translator:
-  weibo: tgic
-command: |-
-  cat /dev/urandom | pv -L 3m | dd bs=1M count=100 iflag=fullblock > /dev/null
-summary: |-
-  限制传输速率

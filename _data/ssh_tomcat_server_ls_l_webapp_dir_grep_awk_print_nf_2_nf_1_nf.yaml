@@ -1,7 +1,0 @@
-commandlinefu_id: 8502
-translator:
-  weibo: tgic
-command: |-
-  ssh tomcat-server ls -l webapp-dir | grep -- '->' | awk ' { print $(NF-2) " " $(NF-1) " " $NF; }'
-summary: |-
-  列出tomcat 的 webapps

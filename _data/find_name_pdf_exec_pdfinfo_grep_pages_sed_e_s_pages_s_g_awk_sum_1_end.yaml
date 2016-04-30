@@ -1,8 +1,0 @@
-commandlinefu_id: 2961
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name \*.pdf -exec pdfinfo {} \; | grep Pages | sed -e "s/Pages:\s*//g" | awk '{ sum += $1;} END { print sum; }'
-summary: |-
-  Count the number of pages of all PDFs in current directory and all subdirs, recursively

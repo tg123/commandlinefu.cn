@@ -1,7 +1,0 @@
-commandlinefu_id: 5310
-translator:
-  weibo: tgic
-command: |-
-  { rm -f file10 && nl > file10; } < file10
-summary: |-
-  不创建额外文件给文件添加行号

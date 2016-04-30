@@ -1,7 +1,0 @@
-commandlinefu_id: 13100
-translator:
-  weibo: tgic
-command: |-
-  nmap -sn 192.168.1.0/24
-summary: |-
-  一次ping 192.168.1.0/24

@@ -1,8 +1,0 @@
-commandlinefu_id: 10853
-translator:
-  weibo: ''
-hide: true
-command: |-
-  db2 CONNECT TO stgndv2 USER pmserver USING ********
-summary: |-
-  connects to db2 database instance/alias "stgndv2" user "pmserver" using password "xxxxxxx"

@@ -1,7 +1,0 @@
-commandlinefu_id: 7136
-translator:
-  weibo: 'gdqyn'
-command: |-
-  export TMOUT=10
-summary: |-
-  设置shell超时时间

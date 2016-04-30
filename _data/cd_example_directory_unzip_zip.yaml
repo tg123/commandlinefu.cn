@@ -1,7 +1,0 @@
-commandlinefu_id: 2636
-translator:
-  weibo: codepiano
-command: |-
-  cd /example/directory && unzip \*.zip
-summary: |-
-  解压/example/directory中所有的zip压缩文件

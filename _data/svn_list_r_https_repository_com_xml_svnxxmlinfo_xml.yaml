@@ -1,7 +1,0 @@
-commandlinefu_id: 1925
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  svn list -R https://repository.com --xml >> svnxxmlinfo.xml
-summary: |-
-  输出svn仓库列表到xml文件

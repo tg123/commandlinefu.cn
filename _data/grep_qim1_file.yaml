@@ -1,7 +1,0 @@
-commandlinefu_id: 12105
-translator:
-  weibo: codepiano
-command: |-
-  grep -qIm1 . $file
-summary: |-
-  检测一个文件是否是文本文件

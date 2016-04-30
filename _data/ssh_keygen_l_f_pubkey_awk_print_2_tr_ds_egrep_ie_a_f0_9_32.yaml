@@ -1,7 +1,0 @@
-commandlinefu_id: 160
-translator:
-  weibo: codepiano
-command: |-
-  ssh-keygen -l -f [pubkey] | awk '{print $2}' | tr -ds ':' '' | egrep -ie "[a-f0-9]{32}"
-summary: |-
-  验证openssh密钥并且输出校验码

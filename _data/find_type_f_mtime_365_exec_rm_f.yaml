@@ -1,7 +1,0 @@
-commandlinefu_id: 11942
-translator:
-  weibo: tgic
-command: |-
-  find ./ -type f -mtime +365 -exec rm -f {} \;
-summary: |-
-  删除1年前的文件

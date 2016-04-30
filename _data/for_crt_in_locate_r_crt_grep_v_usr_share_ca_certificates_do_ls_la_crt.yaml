@@ -1,8 +1,0 @@
-commandlinefu_id: 6412
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for crt in $(locate -r '.+\.crt' | grep -v "/usr/share/ca-certificates/"); do  ls -la $crt; done
-summary: |-
-  Find all relevant certificates (excluding some dirs) and list them each

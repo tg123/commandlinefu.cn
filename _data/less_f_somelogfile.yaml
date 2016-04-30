@@ -1,7 +1,0 @@
-commandlinefu_id: 1024
-translator:
-  weibo: tgic
-command: |-
-  less +F somelogfile
-summary: |-
-  还不知道less也能有tail的效果吧

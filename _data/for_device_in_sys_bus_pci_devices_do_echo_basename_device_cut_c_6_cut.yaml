@@ -1,8 +1,0 @@
-commandlinefu_id: 10586
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for device in /sys/bus/pci/devices/*; do echo "$(basename ${device} | cut -c '6-') $(cut -c '3-6' ${device}/class): $(cut -c '3-' ${device}/vendor):$(cut -c '3-' ${device}/device)"; done
-summary: |-
-  List PCI device with class and vendor/device IDs

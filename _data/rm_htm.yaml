@@ -1,7 +1,0 @@
-commandlinefu_id: 7162
-translator:
-  weibo: tgic
-command: |-
-  rm  **/*.htm
-summary: |-
-  递归删除

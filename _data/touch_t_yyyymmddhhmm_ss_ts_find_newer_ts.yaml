@@ -1,8 +1,0 @@
-commandlinefu_id: 6897
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch -t "YYYYMMDDhhmm.ss" ~/.ts ; find . -newer ~/.ts
-summary: |-
-  Lists all files and directories with modified time newer than a given date

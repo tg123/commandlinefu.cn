@@ -1,7 +1,0 @@
-commandlinefu_id: 11957
-translator:
-  weibo: tgic
-command: |-
-  sed -i.awkbak "s/\([:,]\)oldspiderman/\1newspiderman/" /etc/group
-summary: |-
-  给用户的组改名

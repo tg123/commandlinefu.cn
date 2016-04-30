@@ -1,8 +1,0 @@
-commandlinefu_id: 13218
-translator:
-  weibo: ''
-hide: true
-command: |-
-  locate *\\.php|xargs grep --color=always -i -5  "namespace\s.*\W"|less
-summary: |-
-  look some php code by some keywords

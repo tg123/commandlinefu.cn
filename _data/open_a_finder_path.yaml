@@ -1,7 +1,0 @@
-commandlinefu_id: 8912
-translator:
-  weibo: tgic
-command: |-
-  open -a Finder <path>
-summary: |-
-  命令行打开Finder到特定路径(OSX)

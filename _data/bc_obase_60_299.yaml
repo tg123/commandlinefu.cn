@@ -1,7 +1,0 @@
-commandlinefu_id: 9541
-translator:
-  weibo: tgic
-command: |-
-  bc <<< 'obase=60;299'
-summary: |-
-  进制转换 (60进制 时间转换)

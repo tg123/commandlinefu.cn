@@ -1,7 +1,0 @@
-commandlinefu_id: 4418
-translator:
-  weibo: codepiano
-command: |-
-  find . -print -exec chmod 777 {} \;
-summary: |-
-  递归的修改当前目录内所有文件和目录的权限为777

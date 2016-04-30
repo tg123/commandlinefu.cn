@@ -1,8 +1,0 @@
-commandlinefu_id: 11888
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for %1 in (*.dll) do regsvr32 /s  %1
-summary: |-
-  Register all DLLs in a given folder

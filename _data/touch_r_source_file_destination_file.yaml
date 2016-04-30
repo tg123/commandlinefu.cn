@@ -1,7 +1,0 @@
-commandlinefu_id: 13087
-translator:
-  weibo: tgic
-command: |-
-  touch -r "source_file" "destination_file"
-summary: |-
-  复制修改时间

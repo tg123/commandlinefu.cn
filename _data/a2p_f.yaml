@@ -1,7 +1,0 @@
-commandlinefu_id: 5338
-translator:
-  weibo: tgic
-command: |-
-  a2p -F:
-summary: |-
-  转换awk为perl

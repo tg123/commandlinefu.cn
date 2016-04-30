@@ -1,8 +1,0 @@
-commandlinefu_id: 891
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -size +10240k -exec ls -l {} \; | awk '{ print $5,"",$9 }'|sort -rn > message.out
-summary: |-
-  Find all the files more than 10MB, sort in descending order of size and record the output of filenames and size in a text file.

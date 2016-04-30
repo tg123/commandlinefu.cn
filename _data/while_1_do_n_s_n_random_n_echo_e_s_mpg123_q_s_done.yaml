@@ -1,8 +1,0 @@
-commandlinefu_id: 11777
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [[ 1 ]]; do n=( */* ); s=${n[$(($RANDOM%${#n[@]}))]}; echo -e " - $s"; mpg123 -q "$s"; done
-summary: |-
-  Play all the music in a folder, on shuffle

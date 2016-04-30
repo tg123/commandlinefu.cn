@@ -1,7 +1,0 @@
-commandlinefu_id: 4053
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  export HISTTIMEFORMAT='%Y.%m.%d-%T :: ' HISTFILESIZE=50000 HISTSIZE=50000
-summary: |-
-  更好地设置bash history

@@ -1,8 +1,0 @@
-commandlinefu_id: 12298
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name .git -print0 | while read -d $'\0' g; do echo "$g"; cd "$g"; git gc --aggressive; cd -; done
-summary: |-
-  Run git gc in all git repositories bellow .

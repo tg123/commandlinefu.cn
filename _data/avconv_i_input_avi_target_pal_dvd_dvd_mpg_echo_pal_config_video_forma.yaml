@@ -1,7 +1,0 @@
-commandlinefu_id: 11248
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  avconv -i input.avi -target pal-dvd dvd.mpg && echo PAL > ~/.config/video_format && dvdauthor -o dvd/ -t dvd.mpg && dvdauthor -o dvd/ -T && growisofs -Z /dev/dvd -dvd-video dvd/
-summary: |-
-  使用任意给定的视频文件，烧制一个简单的没有菜单的DVD视频光碟

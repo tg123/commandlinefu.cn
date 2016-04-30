@@ -1,7 +1,0 @@
-commandlinefu_id: 12261
-translator:
-  weibo: codepiano
-command: |-
-  awk '{ print $9 }' access.log | sort | uniq -c | sort -nr | head -n 10
-summary: |-
-  访问日志中出现次数最多的10条记录

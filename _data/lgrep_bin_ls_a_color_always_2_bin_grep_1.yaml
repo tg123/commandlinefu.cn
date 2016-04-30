@@ -1,8 +1,0 @@
-commandlinefu_id: 8093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lgrep() { /bin/ls -A --color=always ${2:-.} | /bin/grep $1 ; }
-summary: |-
-  Show regular expressions on directory list

@@ -1,8 +1,0 @@
-commandlinefu_id: 5520
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tree -d -I 'CVS' -f -i | sed 's/\//./g' | sed 's/\.\.//g'
-summary: |-
-  print java packages by using unix tree and sed

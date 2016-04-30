@@ -1,8 +1,0 @@
-commandlinefu_id: 6163
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep '(\[error\])+.*(PHP)+' /var/log/apache2/error.log
-summary: |-
-  Find errors in your php website

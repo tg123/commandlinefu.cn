@@ -1,7 +1,0 @@
-commandlinefu_id: 12356
-translator:
-  weibo: tgic
-command: |-
-  rmdir -p new/directory/path
-summary: |-
-  对应 mkdir -p 的逆过程

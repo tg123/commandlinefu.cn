@@ -1,7 +1,0 @@
-commandlinefu_id: 6290
-translator:
-  weibo: tgic
-command: |-
-  netstat -rn | awk '/UG/{print $2}'
-summary: |-
-  默认网关

@@ -1,8 +1,0 @@
-commandlinefu_id: 4944
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  pv file1 > file2
-summary: |-
-  带进度条的复制文件

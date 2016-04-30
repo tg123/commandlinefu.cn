@@ -1,7 +1,0 @@
-commandlinefu_id: 9752
-translator:
-  weibo: tgic
-command: |-
-  import -window `xwininfo | awk '/Window id/{print $4; exit}'` `uuidgen`.png
-summary: |-
-  当前X窗口截图

@@ -1,7 +1,0 @@
-commandlinefu_id: 5293
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/nst0 |pv|dd of=restored_file.tar
-summary: |-
-  带有进度条的dd

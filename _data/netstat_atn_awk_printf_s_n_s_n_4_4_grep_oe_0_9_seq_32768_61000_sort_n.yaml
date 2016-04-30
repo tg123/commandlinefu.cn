@@ -1,8 +1,0 @@
-commandlinefu_id: 7311
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (netstat  -atn | awk '{printf "%s\n%s\n", $4, $4}' | grep -oE '[0-9]*$'; seq 32768 61000) | sort -n | uniq -u | head -n 1
-summary: |-
-  find an unused unprivileged TCP port

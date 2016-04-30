@@ -1,7 +1,0 @@
-commandlinefu_id: 6261
-translator:
-  weibo: tgic
-command: |-
-  echo $PWD/*
-summary: |-
-  全目录文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 4118
-translator:
-  weibo: tgic
-command: |-
-  grep -Eio '([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})'
-summary: |-
-  提取email地址

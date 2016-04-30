@@ -1,8 +1,0 @@
-commandlinefu_id: 305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir -p a/long/directory/path
-summary: |-
-  Make directory including intermediate directories

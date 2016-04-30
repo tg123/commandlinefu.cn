@@ -1,7 +1,0 @@
-commandlinefu_id: 5976
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  */5 * * * * root    /usr/local/nagios/sbin/nsca_check_disk 2>&1 |/usr/bin/logger -t nsca_check_disk
-summary: |-
-  将cron job的输出定向到syslog，让root保持清净

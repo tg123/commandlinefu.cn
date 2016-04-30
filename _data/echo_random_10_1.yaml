@@ -1,7 +1,0 @@
-commandlinefu_id: 3139
-translator:
-  weibo: tgic
-command: |-
-  echo $(( $RANDOM % 10 + 1 ))
-summary: |-
-  生成 1 到 10 的随机数

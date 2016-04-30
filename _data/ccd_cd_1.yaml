@@ -1,8 +1,0 @@
-commandlinefu_id: 10939
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ccd () { cd *$1*; }
-summary: |-
-  Substring directory name match cd

@@ -1,8 +1,0 @@
-commandlinefu_id: 13740
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias lp="echo -n \"some text to copy\" | pbcopy; sleep 120 && echo -n \"done\" | pbcopy &"
-summary: |-
-  alias that copies text into clipboard and clears clipboard after X seconds

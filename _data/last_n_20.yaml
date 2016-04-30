@@ -1,8 +1,0 @@
-commandlinefu_id: 2297
-translator:
-  weibo: ''
-hide: true
-command: |-
-  last -n 20
-summary: |-
-  Show the last 20 sessions logged on the machine

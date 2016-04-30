@@ -1,7 +1,0 @@
-commandlinefu_id: 12563
-translator:
-  weibo: tgic
-command: |-
-  tree -ah --du . | ack '\[(\d{3,}M|\d+.*G)\]'
-summary: |-
-  寻找大于100M的文件

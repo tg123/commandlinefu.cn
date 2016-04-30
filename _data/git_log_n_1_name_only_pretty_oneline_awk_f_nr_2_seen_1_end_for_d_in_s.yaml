@@ -1,8 +1,0 @@
-commandlinefu_id: 13905
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log -n 1 --name-only --pretty=oneline | awk -F/ 'NR>=2 {seen[$1]}; END {for (d in seen); print d}'
-summary: |-
-  Print out all unique directories of path that had a file edited within.

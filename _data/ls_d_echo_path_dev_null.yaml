@@ -1,7 +1,0 @@
-commandlinefu_id: 5160
-translator:
-  weibo: tgic
-command: |-
-  ls -d $(echo ${PATH//:/ }) > /dev/null
-summary: |-
-  显示PATH中失效的目录

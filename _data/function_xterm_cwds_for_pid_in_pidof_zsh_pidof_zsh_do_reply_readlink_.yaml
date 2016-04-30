@@ -1,8 +1,0 @@
-commandlinefu_id: 10977
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function _xterm_cwds() { for pid in $(pidof -- -zsh) $(pidof zsh); do reply+=$(readlink /proc/$pid/cwd) done }; function xcd() { cd $1 }; compctl -K _xterm_cwds xcd
-summary: |-
-  Autocomplete directories (CWDs) of other ZSH processes

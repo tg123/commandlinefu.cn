@@ -1,7 +1,0 @@
-commandlinefu_id: 4357
-translator:
-  weibo: '猪了个去'
-command: |-
-  SOURCE: dd if=/dev/sda bs=16065b | netcat ip-target 1234 TARGET: netcat -l -p 1234 | dd of=/dev/mapper/laptop bs=16065b STATS on target: watch -n60 -- kill -USR1 $(pgrep dd)
-summary: |-
-  通过网络创建一个磁盘并且不使用临时文件(请知道你在干什么)

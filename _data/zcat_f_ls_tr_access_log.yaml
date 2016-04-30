@@ -1,8 +1,0 @@
-commandlinefu_id: 6929
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zcat -f $(ls -tr access.log*)
-summary: |-
-  concatenate compressed and uncompressed logs

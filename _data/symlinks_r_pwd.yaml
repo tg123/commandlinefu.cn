@@ -1,8 +1,0 @@
-commandlinefu_id: 2072
-translator:
-  weibo: ''
-hide: true
-command: |-
-  symlinks -r $(pwd)
-summary: |-
-  Find status of all symlinks

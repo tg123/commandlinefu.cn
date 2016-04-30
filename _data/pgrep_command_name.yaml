@@ -1,7 +1,0 @@
-commandlinefu_id: 3037
-translator:
-  weibo: tgic
-command: |-
-  pgrep command_name
-summary: |-
-  查找指定名字的进程 ps + grep

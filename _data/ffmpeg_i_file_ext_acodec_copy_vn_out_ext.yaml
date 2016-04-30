@@ -1,7 +1,0 @@
-commandlinefu_id: 13359
-translator:
-  weibo: 'codepiano'
-command: |-
-  ffmpeg -i file.ext -acodec copy -vn out.ext
-summary: |-
-  从视频中抽取音频，但是不进行重新编码

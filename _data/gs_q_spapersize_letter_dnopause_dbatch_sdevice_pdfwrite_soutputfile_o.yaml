@@ -1,7 +1,0 @@
-commandlinefu_id: 1485
-translator:
-  weibo: tgic
-command: |-
-  gs -q -sPAPERSIZE=letter -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=out.pdf `ls *.pdf`
-summary: |-
-  合并pdf

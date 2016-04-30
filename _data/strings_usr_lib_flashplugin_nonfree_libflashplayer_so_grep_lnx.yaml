@@ -1,7 +1,0 @@
-commandlinefu_id: 10660
-translator:
-  weibo: codepiano
-command: |-
-  strings /usr/lib/flashplugin-nonfree/libflashplayer.so |grep ^LNX
-summary: |-
-  显示安装的Adobe Flash插件的版本

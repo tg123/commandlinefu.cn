@@ -1,7 +1,0 @@
-commandlinefu_id: 3556
-translator:
-  weibo: '猪了个去'
-command: |-
-  cat filename | uuencode filename | mail -s "Email subject" user@example.com
-summary: |-
-  通过email发送一个本地文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 10201
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tmux show-buffer | pbcopy
-summary: |-
-  Copy buffer from tmux into OS X clipboard

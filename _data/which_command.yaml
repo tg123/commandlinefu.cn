@@ -1,8 +1,0 @@
-commandlinefu_id: 4861
-translator:
-  weibo: ''
-hide: true
-command: |-
-  which command
-summary: |-
-  shows the full path of shell commands

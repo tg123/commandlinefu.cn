@@ -1,8 +1,0 @@
-commandlinefu_id: 4960
-translator:
-  weibo: ''
-hide: true
-command: |-
-  smbmount //<ip>/<resource> <local_mount_point>
-summary: |-
-  Mount Windows shared folder (or Samba share)

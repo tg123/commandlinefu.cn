@@ -1,7 +1,0 @@
-commandlinefu_id: 8349
-translator:
-  weibo: tgic
-command: |-
-  du -kh --max-depth=1 | sort -n |head
-summary: |-
-  获取大的目录

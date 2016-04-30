@@ -1,8 +1,0 @@
-commandlinefu_id: 6286
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in $(qlist -IC); do stat /usr/portage/"$f" > /dev/null; done
-summary: |-
-  Find installed packages that are not in the portage tree anymore.

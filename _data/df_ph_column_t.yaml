@@ -1,7 +1,0 @@
-commandlinefu_id: 8285
-translator:
-  weibo: tgic
-command: |-
-  df -PH|column -t
-summary: |-
-  防止df时候太长

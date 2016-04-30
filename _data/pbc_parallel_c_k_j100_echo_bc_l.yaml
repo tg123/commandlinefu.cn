@@ -1,8 +1,0 @@
-commandlinefu_id: 13441
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pbc () { parallel -C, -k -j100% "echo '$@' | bc -l"; }
-summary: |-
-  Apply, in parallel, a bc expression to CSV

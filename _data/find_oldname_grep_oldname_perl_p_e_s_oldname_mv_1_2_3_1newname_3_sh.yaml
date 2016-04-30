@@ -1,8 +1,0 @@
-commandlinefu_id: 2767
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . *oldname* | grep oldname | perl -p -e 's/^(.*)(oldname)(.*$)/mv $1$2$3 $1newname$3/' | sh
-summary: |-
-  Recursive replace of directory and file names in the current directory.

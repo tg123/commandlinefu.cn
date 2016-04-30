@@ -1,7 +1,0 @@
-commandlinefu_id: 9671
-translator:
-  weibo: tgic
-command: |-
-  w !sudo tee %
-summary: |-
-  让你在vim里边可以写 只读文件

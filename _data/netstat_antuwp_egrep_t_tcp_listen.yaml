@@ -1,8 +1,0 @@
-commandlinefu_id: 1679
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -antuwp | egrep "(^[^t])|(^tcp.*LISTEN)"
-summary: |-
-  Lists open ports

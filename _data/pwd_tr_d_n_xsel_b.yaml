@@ -1,7 +1,0 @@
-commandlinefu_id: 9766
-translator:
-  weibo: '猪了个去'
-command: |-
-  pwd | tr -d '\n' | xsel -b
-summary: |-
-  拷贝当前/工作目录到剪切板(xsel需要安装)

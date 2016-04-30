@@ -1,8 +1,0 @@
-commandlinefu_id: 5093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqldump -u UNAME -p DBNAME > FILENAME
-summary: |-
-  dump the whole database

@@ -1,7 +1,0 @@
-commandlinefu_id: 1211
-translator:
-  weibo: titikaka723 
-command: |-
-  count=`wc -l file | cut -d ' ' -f1`
-summary: |-
-  将文件中的行说作为循环次数 

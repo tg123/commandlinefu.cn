@@ -1,7 +1,0 @@
-commandlinefu_id: 12012
-translator:
-  weibo: tgic
-command: |-
-  watch -d=c -n3 'lsof -itcp -iudp -c php'
-summary: |-
-  监控你的php网站

@@ -1,7 +1,0 @@
-commandlinefu_id: 6516
-translator:
-  weibo: tgic
-command: |-
-  dig +trace google.com
-summary: |-
-  跟踪dns 解析

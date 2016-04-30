@@ -1,8 +1,0 @@
-commandlinefu_id: 4168
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  iostat -m -d /dev/sda1
-summary: |-
-  统计硬盘的io

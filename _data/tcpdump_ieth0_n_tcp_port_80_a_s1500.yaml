@@ -1,8 +1,0 @@
-commandlinefu_id: 4226
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -ieth0 -n tcp port 80 -A -s1500
-summary: |-
-  Capture data in ASCII. 1500 bytes

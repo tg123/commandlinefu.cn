@@ -1,8 +1,0 @@
-commandlinefu_id: 3615
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find [path] [expression] -exec du -ab {} \; | awk '{total+=$0}END{print total}'
-summary: |-
-  Sum size of files returned from FIND

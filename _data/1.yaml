@@ -1,7 +1,0 @@
-commandlinefu_id: 7652
-translator:
-  weibo: josephok
-command: |-
-  %1 &!
-summary: |-
-  在后端执行当前任务

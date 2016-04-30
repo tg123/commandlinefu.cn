@@ -1,8 +1,0 @@
-commandlinefu_id: 9005
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn stat | grep "^\?" | awk '{ print "svn add " $2 }' | bash
-summary: |-
-  Add all unversioned files to svn

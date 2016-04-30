@@ -1,7 +1,0 @@
-commandlinefu_id: 1020
-translator:
-  weibo: tgic
-command: |-
-  du -sm *|sort -rn|head -10
-summary: |-
-  最大得10个文件

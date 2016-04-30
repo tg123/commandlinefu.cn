@@ -1,7 +1,0 @@
-commandlinefu_id: 9877
-translator:
-  weibo: tgic
-command: |-
-  hex() { printf "%X\n" $1; }
-summary: |-
-  十进制转十六进制

@@ -1,8 +1,0 @@
-commandlinefu_id: 10823
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --graph --oneline --all
-summary: |-
-  My Git Tree Command!

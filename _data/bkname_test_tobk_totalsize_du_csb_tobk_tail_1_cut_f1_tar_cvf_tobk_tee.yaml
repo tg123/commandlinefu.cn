@@ -1,8 +1,0 @@
-commandlinefu_id: 13582
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bkname="test"; tobk="*" ; totalsize=$(du -csb $tobk | tail -1 | cut -f1) ; tar cvf - $tobk | tee >(sha512sum > $bkname.sha512) >(tar -tv > $bkname.lst) | mbuffer -m 4G -P 100% | pv -s $totalsize -w 100 | dd of=/dev/nst0 bs=256k
-summary: |-
-  Backup to LTO Tape with progress, checksums and buffering

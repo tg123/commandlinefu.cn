@@ -1,7 +1,0 @@
-commandlinefu_id: 2369
-translator:
-  weibo: codepiano
-command: |-
-  find -L /path/to/check -type l -delete
-summary: |-
-  查找并删除损坏的链接

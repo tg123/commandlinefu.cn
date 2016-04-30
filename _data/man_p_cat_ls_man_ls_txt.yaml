@@ -1,7 +1,0 @@
-commandlinefu_id: 2778
-translator:
-  weibo: titikaka723 
-command: |-
-  man -P cat ls > man_ls.txt
-summary: |-
-  将ls命令的参考说明存入纯文本文件中 

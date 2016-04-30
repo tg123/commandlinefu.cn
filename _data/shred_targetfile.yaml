@@ -1,7 +1,0 @@
-commandlinefu_id: 2034
-translator:
-  weibo: tgic
-command: |-
-  shred targetfile
-summary: |-
-  安全删除文件(无法物理恢复)

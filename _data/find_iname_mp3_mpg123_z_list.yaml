@@ -1,7 +1,0 @@
-commandlinefu_id: 13006
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -iname "*.mp3" | mpg123 -Z --list -
-summary: |-
-  查找当前文件夹（和子文件夹）下的MP3文件并播放。

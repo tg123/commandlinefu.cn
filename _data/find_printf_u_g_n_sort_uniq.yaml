@@ -1,7 +1,0 @@
-commandlinefu_id: 683
-translator:
-  weibo: tgic
-command: |-
-  find -printf '%u %g\n' | sort | uniq
-summary: |-
-  获取当前目录的文件权限列表

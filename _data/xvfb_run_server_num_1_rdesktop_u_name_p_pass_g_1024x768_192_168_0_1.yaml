@@ -1,8 +1,0 @@
-commandlinefu_id: 12738
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xvfb-run --server-num=1 rdesktop -u name -p pass -g 1024x768 192.168.0.1
-summary: |-
-  open remote desktop connection without X

@@ -1,8 +1,0 @@
-commandlinefu_id: 9879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -iname "*.pdf" -exec pdfinfo -meta {} \;|awk '{if($1=="Pages:"){s+=$2}}END{print s}'
-summary: |-
-  Count the number of pages of all PDFs in current directory and all subdirs, recursively

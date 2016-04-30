@@ -1,8 +1,0 @@
-commandlinefu_id: 7001
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tshark -i any -T fields -R mysql.query -e mysql.query
-summary: |-
-  capture mysql queries sent to server

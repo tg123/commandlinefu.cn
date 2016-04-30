@@ -1,7 +1,0 @@
-commandlinefu_id: 8590
-translator:
-  weibo: tgic
-command: |-
-  dpkg -l | sed '/^rc/!d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/' | xargs -r sudo apt-get -y purge
-summary: |-
-  清理配置

@@ -1,8 +1,0 @@
-commandlinefu_id: 317
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /some/directory \&\& tar cf - |  cd /some/directory \&\& tar xvf - */
-summary: |-
-  move files without actually touching them

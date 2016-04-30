@@ -1,8 +1,0 @@
-commandlinefu_id: 13927
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FILE=somefile.js; LOG=~/changes.diff; truncate -s0 ${LOG}; for change in $(svn log ${FILE} | awk -F' | ' '/^r[0-9]+/{print $1}'); do svn log -c ${change} >> ${LOG}; printf "\n" >> ${LOG}; svn diff -c ${change} >> ${LOG}; printf "\n\n\n" >> ${LOG}; done
-summary: |-
-  something like 'git log -p' but for svn

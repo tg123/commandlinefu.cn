@@ -1,8 +1,0 @@
-commandlinefu_id: 4058
-translator:
-  weibo: ''
-hide: true
-command: |-
-  x11vnc -storepasswd your_new_apssword ~/my_vnc_pass
-summary: |-
-  Create x11vnc server authentication file

@@ -1,8 +1,0 @@
-commandlinefu_id: 9200
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while sleep 30; do tput sc;tput cup 0 $(($(tput cols)-15));echo -n " New Emails: $(curl -u username:password --silent https://mail.google.com/mail/feed/atom | grep 'fullcount' | grep -o '[0-9]\+')";tput rc; done &
-summary: |-
-  Displays the number of unread messages on your gmail at the top right corner of your terminal

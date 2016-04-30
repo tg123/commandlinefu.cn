@@ -1,7 +1,0 @@
-commandlinefu_id: 4511
-translator:
-  weibo: ''
-command: |-
-  printf "%50s\n"|tr ' ' -
-summary: |-
-  打印50个-

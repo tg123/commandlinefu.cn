@@ -1,8 +1,0 @@
-commandlinefu_id: 2791
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :w !pfexec tee %
-summary: |-
-  Save a file you edited in vim without the needed permissions - (Open)solaris version with RBAC

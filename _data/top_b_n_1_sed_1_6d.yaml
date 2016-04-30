@@ -1,7 +1,0 @@
-commandlinefu_id: 10344
-translator:
-  weibo: tgic
-command: |-
-  top -b -n 1 | sed 1,6d
-summary: |-
-  按cpu使用率排序进程

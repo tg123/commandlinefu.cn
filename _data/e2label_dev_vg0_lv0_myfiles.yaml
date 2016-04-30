@@ -1,7 +1,0 @@
-commandlinefu_id: 1267
-translator:
-  weibo: tgic
-command: |-
-  e2label /dev/vg0/lv0 MyFiles
-summary: |-
-  给文件系统贴名字

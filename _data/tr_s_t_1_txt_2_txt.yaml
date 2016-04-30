@@ -1,8 +1,0 @@
-commandlinefu_id: 11667
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -s ' \t' <1.txt >2.txt
-summary: |-
-  Convert any sequence of spaces/tabs to single space/tab

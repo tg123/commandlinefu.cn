@@ -1,7 +1,0 @@
-commandlinefu_id: 3367
-translator:
-  weibo: codepiano
-command: |-
-  find . -regex '.*\(h\|cpp\)'
-summary: |-
-  按照后缀查找文件

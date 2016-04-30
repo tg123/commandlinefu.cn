@@ -1,8 +1,0 @@
-commandlinefu_id: 14038
-translator:
-  weibo: ''
-hide: true
-command: |-
-  compress pictures/ pictures.tar.gz
-summary: |-
-  compress a file/folder to tar,zip,rar...

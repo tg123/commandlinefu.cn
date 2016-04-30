@@ -1,8 +1,0 @@
-commandlinefu_id: 7088
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status | grep '^?' | sed -e 's/^? */svn add "/g' -e 's/$/"/g'|sh ; svn status | grep '^!' | sed -e 's/^! */svn delete "/g' -e 's/$/"/g'|sh
-summary: |-
-  SVN script for automatically adding and deleting files

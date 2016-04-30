@@ -1,8 +1,0 @@
-commandlinefu_id: 8879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -lantp | grep ESTABLISHED |awk '{print $5}' | awk -F: '{print $1}' | sort -u
-summary: |-
-  All IP connected to  my host

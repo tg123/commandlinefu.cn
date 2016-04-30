@@ -1,7 +1,0 @@
-commandlinefu_id: 5910
-translator:
-  weibo: tgic
-command: |-
-  dmidecode -t baseboard
-summary: |-
-  现实主板信息

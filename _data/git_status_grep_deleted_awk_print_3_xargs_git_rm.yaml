@@ -1,7 +1,0 @@
-commandlinefu_id: 7334
-translator:
-  weibo: '猪了个去'
-command: |-
-  git status | grep deleted | awk '{print $3}' | xargs git rm
-summary: |-
-  从git index中删除多个已经在磁盘中被删除的文件

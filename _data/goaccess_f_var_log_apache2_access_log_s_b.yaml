@@ -1,8 +1,0 @@
-commandlinefu_id: 6888
-translator:
-  weibo: ''
-hide: true
-command: |-
-  goaccess -f /var/log/apache2/access.log -s -b
-summary: |-
-  CLI Visual Apache Web Log Analyzer

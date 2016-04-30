@@ -1,7 +1,0 @@
-commandlinefu_id: 4244
-translator:
-  weibo: tgic
-command: |-
-  dpkg -L  Your_Package
-summary: |-
-  看看你的安装包里边都有什么文件(deb)

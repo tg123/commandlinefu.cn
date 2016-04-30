@@ -1,7 +1,0 @@
-commandlinefu_id: 8268
-translator:
-  weibo: tgic
-command: |-
-  df -P | column -t
-summary: |-
-  如何对齐显示结果

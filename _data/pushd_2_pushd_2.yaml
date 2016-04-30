@@ -1,8 +1,0 @@
-commandlinefu_id: 1084
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pushd +2; pushd -2
-summary: |-
-  pushd rotates the stack so that the second directory comes at the top.

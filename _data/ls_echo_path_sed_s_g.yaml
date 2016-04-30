@@ -1,7 +1,0 @@
-commandlinefu_id: 1419
-translator:
-  weibo: tgic
-command: |-
-  ls `echo $PATH | sed 's/:/ /g'`
-summary: |-
-  所有PATH中的可执行文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 4131
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls -F | sed -n 's/@$//p'
-summary: |-
-  列出所有 符号链接

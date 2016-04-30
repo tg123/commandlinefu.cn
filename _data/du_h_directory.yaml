@@ -1,8 +1,0 @@
-commandlinefu_id: 5761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -h <Directory>
-summary: |-
-  calculate the total size of files in specified directory (in Megabytes)

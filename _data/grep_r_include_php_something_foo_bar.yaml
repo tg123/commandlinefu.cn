@@ -1,8 +1,0 @@
-commandlinefu_id: 13238
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r --include=*.php "something" /foo/bar
-summary: |-
-  look some php code by some keywords

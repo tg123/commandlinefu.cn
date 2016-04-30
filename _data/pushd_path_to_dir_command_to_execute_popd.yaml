@@ -1,7 +1,0 @@
-commandlinefu_id: 11456
-translator:
-  weibo: tgic
-command: |-
-  pushd /path/to/dir ; command_to_execute; popd
-summary: |-
-  去某个目录执行命令然后回来

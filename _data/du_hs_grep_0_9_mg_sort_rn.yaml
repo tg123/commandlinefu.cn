@@ -1,8 +1,0 @@
-commandlinefu_id: 706
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -hs * | grep '^[0-9,]*[MG]' | sort -rn
-summary: |-
-  Show sorted list of files with sizes more than 1MB in the current dir

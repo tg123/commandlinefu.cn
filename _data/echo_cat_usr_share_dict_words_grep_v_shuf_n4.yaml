@@ -1,8 +1,0 @@
-commandlinefu_id: 9160
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(cat /usr/share/dict/words |grep -v "'"|shuf -n4)
-summary: |-
-  Generate an XKCD #936 style 4 word passphrase (fast) w/o apostrophes

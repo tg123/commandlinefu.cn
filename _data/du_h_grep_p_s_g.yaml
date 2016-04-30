@@ -1,7 +1,0 @@
-commandlinefu_id: 7282
-translator:
-  weibo: '猪了个去'
-command: |-
-  du -h |grep -P "^\S*G"
-summary: |-
-  列出大文件和目录

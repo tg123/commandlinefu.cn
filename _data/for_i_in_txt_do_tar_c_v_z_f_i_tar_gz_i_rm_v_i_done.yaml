@@ -1,7 +1,0 @@
-commandlinefu_id: 8717
-translator:
-  weibo: tgic
-command: |-
-  for i in "*.txt"; do tar -c -v -z -f $i.tar.gz "$i" && rm -v "$i"; done
-summary: |-
-  压缩所有的txt 

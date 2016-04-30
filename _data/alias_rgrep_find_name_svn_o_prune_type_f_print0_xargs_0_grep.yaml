@@ -1,8 +1,0 @@
-commandlinefu_id: 66
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias rgrep="find . \( ! -name .svn -o -prune \) -type f -print0 | xargs -0 grep"
-summary: |-
-  rgrep: recursive grep without .svn

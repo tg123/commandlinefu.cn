@@ -1,8 +1,0 @@
-commandlinefu_id: 5051
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "ulimit `ulimit -a|sed -e 's/^.*\([a-z]\))\(.*\)$/-\1\2/'|tr "\n" ' '`"
-summary: |-
-  Quickly build ulimit command from current values

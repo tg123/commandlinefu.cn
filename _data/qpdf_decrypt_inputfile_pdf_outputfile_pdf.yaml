@@ -1,7 +1,0 @@
-commandlinefu_id: 12139
-translator:
-  weibo: codepiano
-command: |-
-  qpdf --decrypt inputfile.pdf outputfile.pdf
-summary: |-
-  使用QPDF移除PDF文件的安全限制

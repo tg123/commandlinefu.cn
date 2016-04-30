@@ -1,8 +1,0 @@
-commandlinefu_id: 224
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mount -t tmpfs tmpfs /mnt -o size=1024m
-summary: |-
-  挂一个临时ram分区

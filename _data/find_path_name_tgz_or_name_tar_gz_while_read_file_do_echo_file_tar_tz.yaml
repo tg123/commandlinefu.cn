@@ -1,7 +1,0 @@
-commandlinefu_id: 4035
-translator:
-  weibo: tgic
-command: |-
-  find <path> -name "*.tgz" -or -name "*.tar.gz" | while read file; do echo "$file: "; tar -tzf $file; done
-summary: |-
-  列出所有tar 里边的文件

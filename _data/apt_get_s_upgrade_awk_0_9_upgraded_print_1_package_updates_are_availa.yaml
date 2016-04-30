@@ -1,7 +1,0 @@
-commandlinefu_id: 10495
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  apt-get -s upgrade | awk '/[0-9]+ upgraded,/ {print $1 " package updates are available"}'
-summary: |-
-  无需真正地升级系统，就能从apt列出可以升级的包的数目

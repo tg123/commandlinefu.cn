@@ -1,8 +1,0 @@
-commandlinefu_id: 2155
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep -v "^$|^[[:space:]]*#" /etc/some/file
-summary: |-
-  Show a config file without comments

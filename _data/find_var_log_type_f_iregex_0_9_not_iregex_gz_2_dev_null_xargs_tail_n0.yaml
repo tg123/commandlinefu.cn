@@ -1,8 +1,0 @@
-commandlinefu_id: 13605
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var/log -type f -iregex '.*[^\.][^0-9]+$' -not -iregex '.*gz$' 2> /dev/null | xargs tail -n0 -f | ccze -A
-summary: |-
-  View all new log messages in real time with color

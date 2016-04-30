@@ -1,8 +1,0 @@
-commandlinefu_id: 4953
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert in.pdf out.jpg
-summary: |-
-  Extracts PDF pages as images

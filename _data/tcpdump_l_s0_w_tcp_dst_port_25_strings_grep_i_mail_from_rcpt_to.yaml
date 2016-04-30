@@ -1,7 +1,0 @@
-commandlinefu_id: 12045
-translator:
-  weibo: tgic
-command: |-
-  tcpdump -l -s0 -w - tcp dst port 25 | strings | grep -i 'MAIL FROM\|RCPT TO'
-summary: |-
-  分析SMTP

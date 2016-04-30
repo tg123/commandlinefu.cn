@@ -1,7 +1,0 @@
-commandlinefu_id: 7130
-translator:
-  weibo: tgic
-command: |-
-  socat TCP-LISTEN:locport,fork TCP:XXX.XXX.XXX.XXX:YYY,sourceport=srcport
-summary: |-
-  端口映射隧道

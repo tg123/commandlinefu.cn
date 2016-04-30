@@ -1,8 +1,0 @@
-commandlinefu_id: 128
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in `git status | grep deleted | awk '{print $3}'`; do git rm $x; done
-summary: |-
-  Using Git, stage all manually deleted files.

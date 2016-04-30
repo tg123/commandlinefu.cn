@@ -1,7 +1,0 @@
-commandlinefu_id: 2749
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  perl -e 'if(opendir D,"."){@a=readdir D;print $#a-1,"\n"}'
-summary: |-
-  显示文件夹中的文件数(非递归)

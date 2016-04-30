@@ -1,8 +1,0 @@
-commandlinefu_id: 9475
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true ; do echo -n "`date`";curl localhost:3000/site/sha;echo -e;sleep 1; done
-summary: |-
-  Repeat a command until stopped

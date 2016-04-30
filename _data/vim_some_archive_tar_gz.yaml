@@ -1,8 +1,0 @@
-commandlinefu_id: 10633
-translator:
-  weibo: tgic
-command: |-
-  vim some-archive.tar.gz
-summary: |-
-  在vim上可以直接编译压缩文件内容
-

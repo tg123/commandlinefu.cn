@@ -1,7 +1,0 @@
-commandlinefu_id: 4987
-translator:
-  weibo: tgic
-command: |-
-  grep "^V<TAB>" your_file
-summary: |-
-  查找TAB

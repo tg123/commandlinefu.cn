@@ -1,7 +1,0 @@
-commandlinefu_id: 7748
-translator:
-  weibo: tgic
-command: |-
-  hg diff -c $REV --reverse | hg patch --no-commit -
-summary: |-
-  撤销提交 (mercurial)

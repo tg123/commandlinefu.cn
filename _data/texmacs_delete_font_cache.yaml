@@ -1,8 +1,0 @@
-commandlinefu_id: 5063
-translator:
-  weibo: ''
-hide: true
-command: |-
-  texmacs --delete-font-cache
-summary: |-
-  refresh texmacs font cache after installing new fonts

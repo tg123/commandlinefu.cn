@@ -1,7 +1,0 @@
-commandlinefu_id: 7144
-translator:
-  weibo: tgic
-command: |-
-  md5sum <<<"test"
-summary: |-
-  生成字符串的md5

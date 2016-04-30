@@ -1,8 +1,0 @@
-commandlinefu_id: 11821
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git grep -l foo | xargs sed -i 's/foo/bar/g'
-summary: |-
-  Git Global search and replace

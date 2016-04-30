@@ -1,8 +1,0 @@
-commandlinefu_id: 4272
-translator:
-  weibo: dbalex
-command: |-
-  mogrify -geometry 800x600 *.jpg
-summary: |-
-  Quickly batch resize images
-  批量修改图片大小

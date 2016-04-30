@@ -1,8 +1,0 @@
-commandlinefu_id: 11761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkalias () { echo "alias $1=\"$2\"" >> ~\.bash_aliases }
-summary: |-
-  Function to create an alias on the fly

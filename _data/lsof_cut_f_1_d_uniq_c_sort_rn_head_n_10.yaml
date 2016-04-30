@@ -1,8 +1,0 @@
-commandlinefu_id: 13832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof | cut -f 1 -d ' ' | uniq -c | sort -rn | head -n 10
-summary: |-
-  List open file descriptor count by PID

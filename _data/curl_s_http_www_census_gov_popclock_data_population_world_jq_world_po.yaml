@@ -1,8 +1,0 @@
-commandlinefu_id: 14127
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://www.census.gov/popclock/data/population/world | jq '.world.population'
-summary: |-
-  Fetch the current human population of Earth

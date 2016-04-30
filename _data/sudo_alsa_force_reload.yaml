@@ -1,7 +1,0 @@
-commandlinefu_id: 736
-translator:
-  weibo: tgic
-command: |-
-  sudo alsa force-reload
-summary: |-
-  重启声卡

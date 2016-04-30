@@ -1,8 +1,0 @@
-commandlinefu_id: 770
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | awk '{sum+=$6} END {print sum/1024}'
-summary: |-
-  Pulls total current memory usage, including SWAP being used, by all active processes.

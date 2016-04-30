@@ -1,8 +1,0 @@
-commandlinefu_id: 10247
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find ~/path/to/apk/files -name '*.apk' -exec adb install {} \;
-summary: |-
-  在adb 上 安装整个文件夹中的.apk

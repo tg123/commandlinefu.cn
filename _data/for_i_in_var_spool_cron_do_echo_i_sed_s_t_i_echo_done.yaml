@@ -1,7 +1,0 @@
-commandlinefu_id: 10964
-translator:
-  weibo: tgic
-command: |-
-  for i in /var/spool/cron/*; do echo ${i##*/}; sed 's/^/\t/' $i; echo; done
-summary: |-
-  显示所有用户的cron

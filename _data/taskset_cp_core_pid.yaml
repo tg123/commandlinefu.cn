@@ -1,7 +1,0 @@
-commandlinefu_id: 2992
-translator:
-  weibo: tgic
-command: |-
-  taskset -cp <core> <pid>
-summary: |-
-  修改进程亲和

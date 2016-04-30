@@ -1,7 +1,0 @@
-commandlinefu_id: 1073
-translator:
-  weibo: tgic
-command: |-
-  if [[ `:$(cal);echo $_` == `date +%d` ]]; then ROTATE_MONTHLY_TABLES_SCRIPT;fi
-summary: |-
-  只有月末运行

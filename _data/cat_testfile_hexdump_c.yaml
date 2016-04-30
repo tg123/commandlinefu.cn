@@ -1,7 +1,0 @@
-commandlinefu_id: 3378
-translator:
-  weibo: tgic
-command: |-
-  cat testfile | hexdump -C
-summary: |-
-  二进制打印文件内容

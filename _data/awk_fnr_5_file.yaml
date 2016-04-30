@@ -1,7 +1,0 @@
-commandlinefu_id: 3853
-translator:
-  weibo: particle128
-command: |-
-  awk 'FNR==5' <file>
-summary: |-
-  打印文件中的特定行

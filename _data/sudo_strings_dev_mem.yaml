@@ -1,7 +1,0 @@
-commandlinefu_id: 2945
-translator:
-  weibo: tgic
-command: |-
-  sudo strings /dev/mem
-summary: |-
-  看看内存里边的文字

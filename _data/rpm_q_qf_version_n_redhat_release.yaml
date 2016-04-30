@@ -1,8 +1,0 @@
-commandlinefu_id: 1684
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -q --qf "%{VERSION}\n" redhat-release
-summary: |-
-  Determine the version of a specific package with RPM

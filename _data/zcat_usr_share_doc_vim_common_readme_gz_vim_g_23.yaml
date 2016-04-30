@@ -1,8 +1,0 @@
-commandlinefu_id: 727
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zcat /usr/share/doc/vim-common/README.gz | vim -g +23 -
-summary: |-
-  Pipe a textfile to vim and move the cursor to a certain line

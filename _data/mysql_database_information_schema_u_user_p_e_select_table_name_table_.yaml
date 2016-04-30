@@ -1,8 +1,0 @@
-commandlinefu_id: 9839
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysql --database=information_schema -u <user> -p -e "SELECT TABLE_NAME, TABLE_SCHEMA, SUM(DATA_LENGTH + INDEX_LENGTH)/1024/1024 mb FROM TABLES GROUP BY TABLE_NAME ORDER BY mb DESC LIMIT 10"
-summary: |-
-  Get a list of the top 10 heaviest tables in your mysql database - useful for performance diagnostics

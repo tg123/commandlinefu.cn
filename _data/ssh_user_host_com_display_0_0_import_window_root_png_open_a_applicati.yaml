@@ -1,8 +1,0 @@
-commandlinefu_id: 12179
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@host.com "DISPLAY=:0.0 import -window root png:-" | open -a /Applications/Preview.app -f
-summary: |-
-  Take a screenshot of x11 over ssh pipe to view on a mac in one line

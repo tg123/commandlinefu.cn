@@ -1,8 +1,0 @@
-commandlinefu_id: 1326
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -name "*.jpg" -print -exec rdjpgcom '{}' ';'
-summary: |-
-  Find commets in jpg files.

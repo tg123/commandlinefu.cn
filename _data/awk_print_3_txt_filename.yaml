@@ -1,7 +1,0 @@
-commandlinefu_id: 1803
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{print > $3".txt"}' FILENAME
-summary: |-
-  用awk分类制定内容到制定文件中 

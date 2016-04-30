@@ -1,7 +1,0 @@
-commandlinefu_id: 11603
-translator:
-  weibo: tgic
-command: |-
-  sed -r "s@\^\[{1,2}([0-9]{1,2}(;[0-9]{1,2})?(;[0-9])?(m|K){1,2})?@@g"
-summary: |-
-  清理颜色码

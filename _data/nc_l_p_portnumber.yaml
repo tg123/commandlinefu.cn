@@ -1,8 +1,0 @@
-commandlinefu_id: 4929
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l -p portnumber
-summary: |-
-  Simple server which listens on a port and prints out received data

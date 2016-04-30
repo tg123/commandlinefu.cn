@@ -1,8 +1,0 @@
-commandlinefu_id: 8595
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "GRUB_INIT_TUNE=\"480 440 4 440 4 440 4 349 3 523 1 440 4 349 3 523 1 440 8 659 4 659 4 659 4 698 3 523 1 415 4 349 3 523 1 440 8"\"" | sudo tee -a /etc/default/grub > /dev/null && sudo update-grub
-summary: |-
-  GRUB2: Set Imperial Death March as startup tune

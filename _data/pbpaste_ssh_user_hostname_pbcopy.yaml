@@ -1,7 +1,0 @@
-commandlinefu_id: 8337
-translator:
-  weibo: tgic
-command: |-
-  pbpaste | ssh user@hostname pbcopy
-summary: |-
-  把剪切版内容发送到另外的机器上(OS X)

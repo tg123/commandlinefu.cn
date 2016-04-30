@@ -1,7 +1,0 @@
-commandlinefu_id: 12064
-translator:
-  weibo: tgic
-command: |-
-  sudo port selfupdate ; echo '---------' ; sudo port upgrade outdated
-summary: |-
-  升级port的软件

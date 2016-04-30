@@ -1,8 +1,0 @@
-commandlinefu_id: 10896
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nl -ba FILE | sort -nr | cut -f2-
-summary: |-
-  The following commands can be used to reverse the sequence of lines in a file

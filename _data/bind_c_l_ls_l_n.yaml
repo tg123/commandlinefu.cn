@@ -1,7 +1,0 @@
-commandlinefu_id: 7107
-translator:
-  weibo: tgic
-command: |-
-  bind '"\C-l":"ls -l\n"'
-summary: |-
-  给命令绑定个快捷键

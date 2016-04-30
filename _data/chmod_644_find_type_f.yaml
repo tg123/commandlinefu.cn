@@ -1,7 +1,0 @@
-commandlinefu_id: 5806
-translator:
-  weibo: tgic
-command: |-
-  chmod 644 $(find . -type f)
-summary: |-
-  仅给文件添加644权限

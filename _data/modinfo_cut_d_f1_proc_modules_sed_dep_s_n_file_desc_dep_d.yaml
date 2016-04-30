@@ -1,8 +1,0 @@
-commandlinefu_id: 4085
-translator:
-  weibo: ''
-hide: true
-command: |-
-  modinfo $(cut -d' ' -f1 /proc/modules) | sed '/^dep/s/$/\n/; /^file\|^desc\|^dep/!d'
-summary: |-
-  Short Information about loaded kernel modules

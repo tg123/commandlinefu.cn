@@ -1,8 +1,0 @@
-commandlinefu_id: 2816
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  isoinfo -d -i filename.iso
-summary: |-
-  iso文件信息

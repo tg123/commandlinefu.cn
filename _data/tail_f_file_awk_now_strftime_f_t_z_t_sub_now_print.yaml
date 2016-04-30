@@ -1,7 +1,0 @@
-commandlinefu_id: 7151
-translator:
-  weibo: tgic
-command: |-
-  tail -f file | awk '{now=strftime("%F %T%z\t");sub(/^/, now);print}'
-summary: |-
-  在tail的同时加上时间

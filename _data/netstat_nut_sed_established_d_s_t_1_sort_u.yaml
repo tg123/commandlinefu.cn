@@ -1,8 +1,0 @@
-commandlinefu_id: 8919
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -nut | sed '/ESTABLISHED/!d;s/.*[\t ]\+\(.*\):.*/\1/' | sort -u
-summary: |-
-  All IP connected to  my host

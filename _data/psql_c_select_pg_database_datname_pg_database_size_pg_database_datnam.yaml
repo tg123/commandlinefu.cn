@@ -1,7 +1,0 @@
-commandlinefu_id: 9792
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  psql -c "SELECT pg_database.datname, pg_database_size(pg_database.datname), pg_size_pretty(pg_database_size(pg_database.datname)) FROM pg_database ORDER BY pg_database_size DESC;" -d <ANYDBNAME>
-summary: |-
-  列出所有的Postgres数据库以及它们的大小（字节或可读形式），以字节大小降序排列

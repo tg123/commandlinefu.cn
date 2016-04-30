@@ -1,7 +1,0 @@
-commandlinefu_id: 839
-translator:
-  weibo: tgic
-command: |-
-  awk -F'^"|", "|"$' '{ print $2,$3,$4 }' file.csv
-summary: |-
-  用 awk 解析.csv

@@ -1,8 +1,0 @@
-commandlinefu_id: 14058
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jshon -e addons -a -e defaultLocale -e name -u < ~/.mozilla/firefox/*.[dD]efault/extensions.json
-summary: |-
-  Show Firefox Addons

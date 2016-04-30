@@ -1,7 +1,0 @@
-commandlinefu_id: 2164
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  chkconfig --list | fgrep :on | sed -e 's/\(^.*\)*0:off/\1:/g' -e 's/\(.\):on/\1/g' -e 's/.:off//g' | tr -d [:blank:] | awk -F: '{print$2,$1}' | ssh host 'cat > foo'
-summary: |-
-  复制服务器的服务运行级别配置到另一台服务器

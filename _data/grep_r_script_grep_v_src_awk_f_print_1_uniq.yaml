@@ -1,8 +1,0 @@
-commandlinefu_id: 13587
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r "<script" | grep -v src | awk -F: '{print $1}' | uniq
-summary: |-
-  Search files with js declarations inside

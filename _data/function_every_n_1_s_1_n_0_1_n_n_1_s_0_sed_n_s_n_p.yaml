@@ -1,8 +1,0 @@
-commandlinefu_id: 14124
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function every() { N=$1; S=1; [ "${N:0:1}" = '-' ] && N="${N:1}" || S=0; sed -n "$S~${N}p"; }
-summary: |-
-  Print every Nth line

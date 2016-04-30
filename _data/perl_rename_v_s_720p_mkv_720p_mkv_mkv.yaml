@@ -1,8 +1,0 @@
-commandlinefu_id: 13716
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl-rename -v 's/720p.+mkv/720p\.mkv/' *.mkv
-summary: |-
-  rename bunch of movie and srt files to all work with each other

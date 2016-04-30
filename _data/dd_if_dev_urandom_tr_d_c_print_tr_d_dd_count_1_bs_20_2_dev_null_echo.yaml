@@ -1,7 +1,0 @@
-commandlinefu_id: 11956
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/urandom  | tr -d -c [:print:] | tr -d " " | dd count=1 bs=20  2> /dev/null; echo
-summary: |-
-  创建随机密码

@@ -1,8 +1,0 @@
-commandlinefu_id: 7644
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $(shuf -n 6 -i 1-49 | sort -n)
-summary: |-
-  lotto generator

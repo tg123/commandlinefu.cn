@@ -1,8 +1,0 @@
-commandlinefu_id: 12032
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsmod | grep -io MODULENAME| xargs modinfo | grep -iw version
-summary: |-
-  Get version of loaded kernel module

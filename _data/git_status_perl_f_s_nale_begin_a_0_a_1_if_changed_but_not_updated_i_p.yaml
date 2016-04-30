@@ -1,8 +1,0 @@
-commandlinefu_id: 6819
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git status | perl -F'\s' -nale 'BEGIN { $a = 0 }; $a = 1 if $_ =~ /changed but not updated/i; print $F[-1] if ( $a && -f $F[-1] )'
-summary: |-
-  Show the changed files in your GIT repo

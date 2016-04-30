@@ -1,7 +1,0 @@
-commandlinefu_id: 10298
-translator:
-  weibo: tgic
-command: |-
-  umount -t smbfs
-summary: |-
-  卸载所有samba

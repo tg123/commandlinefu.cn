@@ -1,8 +1,0 @@
-commandlinefu_id: 3781
-translator:
-  weibo: ''
-hide: true
-command: |-
-  PATH=$(cd ${0%/*}; pwd)
-summary: |-
-  Get absolut path to your bash-script

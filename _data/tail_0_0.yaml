@@ -1,7 +1,0 @@
-commandlinefu_id: 4249
-translator:
-  weibo: tgic
-command: |-
-  tail $0 >> $0
-summary: |-
-  填满你的磁盘(测试用图)

@@ -1,7 +1,0 @@
-commandlinefu_id: 4799
-translator:
-  weibo: codepiano
-command: |-
-  find . -name <pattern> -ls | awk 'BEGIN {i=0}; {i=i+$7}; END {print i}'
-summary: |-
-  查看指定类型的文件占用的磁盘大小

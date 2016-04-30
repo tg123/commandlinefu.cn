@@ -1,8 +1,0 @@
-commandlinefu_id: 12674
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump host <IP> -nXXv -s0 -w file.pcap
-summary: |-
-  tcpdump whole packets to file in ascii and hex with ip adresses instead of hostname

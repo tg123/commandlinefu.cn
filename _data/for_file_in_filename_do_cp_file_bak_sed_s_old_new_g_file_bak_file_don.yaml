@@ -1,8 +1,0 @@
-commandlinefu_id: 3192
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in <filename>; do cp $file{,.bak} && sed 's/old/new/g' $file.bak > $file; done
-summary: |-
-  Do a search-and-replace in a file after making a backup

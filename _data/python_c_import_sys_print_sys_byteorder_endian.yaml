@@ -1,8 +1,0 @@
-commandlinefu_id: 9650
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c "import sys;print (sys.byteorder) + ' endian'"
-summary: |-
-  find system's indianness

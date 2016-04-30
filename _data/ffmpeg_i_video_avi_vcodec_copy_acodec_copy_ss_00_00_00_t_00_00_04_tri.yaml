@@ -1,8 +1,0 @@
-commandlinefu_id: 9401
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i video.avi -vcodec copy -acodec copy -ss 00:00:00 -t 00:00:04 trimmed_video.avi
-summary: |-
-  How to trim a video using ffmpeg

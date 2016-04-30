@@ -1,7 +1,0 @@
-commandlinefu_id: 10827
-translator:
-  weibo: tgic
-command: |-
-  <ctrl+p> for previous command; <ctrl+n> for next command
-summary: |-
-  历史里边上一个/下一个命令

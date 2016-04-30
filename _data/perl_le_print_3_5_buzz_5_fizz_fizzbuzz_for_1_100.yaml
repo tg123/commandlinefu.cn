@@ -1,8 +1,0 @@
-commandlinefu_id: 10026
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -le 'print$_%3?$_%5?$_:"Buzz":$_%5?"Fizz":"FizzBuzz"for 1..100'
-summary: |-
-  FizzBuzz One-liner

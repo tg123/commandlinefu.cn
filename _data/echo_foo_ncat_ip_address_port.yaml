@@ -1,7 +1,0 @@
-commandlinefu_id: 11433
-translator:
-  weibo: tgic
-command: |-
-  echo foo | ncat [ip address] [port]
-summary: |-
-  直接发送到socket

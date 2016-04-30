@@ -1,8 +1,0 @@
-commandlinefu_id: 4233
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e '$_=`ifconfig eth0`;/\d+.\d+.\d+.\d+ /; print $&,"\n";'
-summary: |-
-  Return IP Address

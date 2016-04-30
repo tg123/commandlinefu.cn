@@ -1,7 +1,0 @@
-commandlinefu_id: 4813
-translator:
-  weibo: codepiano
-command: |-
-  echo "I'm going to paste this into WINDERS XP" | xsel -i
-summary: |-
-  使用PuTTY和XMing将文本复制到windows剪切板中

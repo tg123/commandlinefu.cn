@@ -1,8 +1,0 @@
-commandlinefu_id: 8242
-translator:
-  weibo: ''
-hide: true
-command: |-
-  se(){ while read a;do [ "$a" != "${a#*$@*}" ]&&echo $a;done ;} # usage: se pattern # use in place of sed /pat/!d where RE are overkill
-summary: |-
-  sed /pat/!d without using sed (no RE; limited to shell patterns aka globbing)

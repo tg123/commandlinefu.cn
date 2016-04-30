@@ -1,7 +1,0 @@
-commandlinefu_id: 657
-translator:
-  weibo: particle128
-command: |-
-  echo $PATH | tr : \\n
-summary: |-
-  显示你的环境变量PATH，一个目录一行

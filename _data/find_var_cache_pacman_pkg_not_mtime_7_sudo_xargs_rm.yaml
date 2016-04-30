@@ -1,8 +1,0 @@
-commandlinefu_id: 11305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var/cache/pacman/pkg -not -mtime -7 | sudo xargs rm
-summary: |-
-  archlinux:Delete packages from pacman cache that are older than 7 days

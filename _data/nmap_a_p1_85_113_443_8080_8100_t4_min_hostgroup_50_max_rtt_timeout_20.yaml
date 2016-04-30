@@ -1,8 +1,0 @@
-commandlinefu_id: 2498
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -A -p1-85,113,443,8080-8100 -T4 --min-hostgroup 50 --max-rtt-timeout 2000 --initial-rtt-timeout 300 --max-retries 3 --host-timeout 20m --max-scan-delay 1000 -oA wapscan 10.0.0.0/8
-summary: |-
-  Scan Network for Rogue APs.

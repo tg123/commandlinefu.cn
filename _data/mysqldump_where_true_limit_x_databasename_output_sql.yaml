@@ -1,8 +1,0 @@
-commandlinefu_id: 165
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqldump --where="true LIMIT X" databasename > output.sql
-summary: |-
-  Export a subset of a database

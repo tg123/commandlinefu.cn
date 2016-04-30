@@ -1,7 +1,0 @@
-commandlinefu_id: 2056
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo vol_id -u /dev/sda1
-summary: |-
-  显示文件系统或者分区的UUID

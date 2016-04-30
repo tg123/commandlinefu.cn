@@ -1,7 +1,0 @@
-commandlinefu_id: 389
-translator:
-  weibo: tgic
-command: |-
-  poweriso convert image.daa -o image.iso -ot iso
-summary: |-
-  转换.daa为 .iso

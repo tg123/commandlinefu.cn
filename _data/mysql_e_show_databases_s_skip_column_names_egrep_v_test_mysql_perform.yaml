@@ -1,7 +1,0 @@
-commandlinefu_id: 12527
-translator:
-  weibo: tgic
-command: |-
-  mysql -e 'show databases' -s --skip-column-names | egrep -v "^(test|mysql|performance_schema|information_schema)$" | parallel --gnu "mysqldump --routines {} > {}_daily.sql"
-summary: |-
-  把mysql的表备份到单独的文件

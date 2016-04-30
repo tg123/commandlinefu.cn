@@ -1,7 +1,0 @@
-commandlinefu_id: 8796
-translator:
-  weibo: tgic
-command: |-
-  mkdir /tmp/dir1/{0..20}
-summary: |-
-  批量创建目录

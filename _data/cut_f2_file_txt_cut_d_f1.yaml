@@ -1,7 +1,0 @@
-commandlinefu_id: 5064
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cut -f2  file.txt | cut -d " " -f1
-summary: |-
-  获取以空格分隔的嵌套的域

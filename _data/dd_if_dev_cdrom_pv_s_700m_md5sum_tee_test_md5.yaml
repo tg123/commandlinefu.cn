@@ -1,7 +1,0 @@
-commandlinefu_id: 1400
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/cdrom | pv -s 700m | md5sum | tee test.md5
-summary: |-
-  带有进度条的md5制作

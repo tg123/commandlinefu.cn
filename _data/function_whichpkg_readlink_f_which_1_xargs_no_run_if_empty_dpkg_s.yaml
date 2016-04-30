@@ -1,8 +1,0 @@
-commandlinefu_id: 9594
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function whichpkg() { readlink -f "$(which $1)" | xargs --no-run-if-empty dpkg -S; }
-summary: |-
-  Find out which debian package a command (executable) belongs to on debian-based distros

@@ -1,7 +1,0 @@
-commandlinefu_id: 3792
-translator:
-  weibo: tgic
-command: |-
-  seq 4|xargs -n1 -i bash -c "echo -n 164.85.216.{} - ; nslookup 164.85.216.{} |grep name"|tr -s '  ' ' '|awk '{print $1" - "$5}'|sed 's/.$//'
-summary: |-
-  如何用seq反解析一组ip地址

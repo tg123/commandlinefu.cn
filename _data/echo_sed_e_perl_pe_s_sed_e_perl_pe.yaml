@@ -1,7 +1,0 @@
-commandlinefu_id: 812
-translator:
-  weibo: tgic
-command: |-
-  echo "sed -e"|perl -pe 's/sed -e/perl -pe/'
-summary: |-
-  使用perl完成sed的功能

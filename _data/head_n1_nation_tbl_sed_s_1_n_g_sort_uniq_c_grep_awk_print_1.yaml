@@ -1,8 +1,0 @@
-commandlinefu_id: 10359
-translator:
-  weibo: ''
-hide: true
-command: |-
-  head -n1  nation.tbl | sed 's/\(.\)/\1\n/g' | sort | uniq -c | grep \| | awk  '{ print $1 }'
-summary: |-
-  Count Number of Columns in TPC-H table-file (or any pipe seperated file

@@ -1,7 +1,0 @@
-commandlinefu_id: 4315
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  { echo -e "$body"; uuencode "$outfile" "$outfile"; } | mail -s "$subject" "$destaddr" ;
-summary: |-
-  通过email发送本地文件

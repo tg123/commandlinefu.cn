@@ -1,7 +1,0 @@
-commandlinefu_id: 6019
-translator:
-  weibo: tgic
-command: |-
-  fortune | cowsay -f $(ls /usr/share/cowsay/cows/ | shuf -n1)
-summary: |-
-  让 cow 随机的 say 一下

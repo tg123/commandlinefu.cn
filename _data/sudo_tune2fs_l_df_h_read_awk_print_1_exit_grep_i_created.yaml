@@ -1,7 +1,0 @@
-commandlinefu_id: 12590
-translator:
-  weibo: tgic
-command: |-
-  sudo tune2fs -l $(df -h / |(read; awk '{print $1; exit}')) | grep -i created
-summary: |-
-  查看你的系统年龄

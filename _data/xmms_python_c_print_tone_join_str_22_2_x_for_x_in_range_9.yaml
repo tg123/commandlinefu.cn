@@ -1,8 +1,0 @@
-commandlinefu_id: 724
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmms `python -c "print \"tone://\" + \";\".join([str(22*(2**x)) for x in range(9)])"`
-summary: |-
-  Make a pipe organ sound using XMMS and Python

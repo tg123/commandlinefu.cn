@@ -1,7 +1,0 @@
-commandlinefu_id: 135
-translator:
-  weibo: tgic
-command: |-
-  openssl pkcs8 -inform DER -nocrypt -in [priv key] -out [pem priv key]
-summary: |-
-  转换私钥

@@ -1,7 +1,0 @@
-commandlinefu_id: 1080
-translator:
-  weibo: particle128
-command: |-
-  w3m
-summary: |-
-  在命令行访问页面

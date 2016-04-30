@@ -1,7 +1,0 @@
-commandlinefu_id: 6838
-translator:
-  weibo: particle128
-command: |-
-  sed 's/^\(.*\)\(.\)\(.\)$/\1\3/' fileName
-summary: |-
-  每一行去掉倒数第二个字符

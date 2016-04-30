@@ -1,8 +1,0 @@
-commandlinefu_id: 6196
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -name "*[^a-zA-Z0-9._-]*"
-summary: |-
-  Find all files that have nasty names

@@ -1,7 +1,0 @@
-commandlinefu_id: 7908
-translator:
-  weibo: tgic
-command: |-
-  watch -n 1 :
-summary: |-
-  命令行时钟

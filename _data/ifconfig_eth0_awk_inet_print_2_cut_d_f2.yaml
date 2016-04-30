@@ -1,8 +1,0 @@
-commandlinefu_id: 5948
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | awk '/inet / {print $2}' | cut -d ':' -f2
-summary: |-
-  Get IPv4 of eth0 for use with scripts

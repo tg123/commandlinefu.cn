@@ -1,8 +1,0 @@
-commandlinefu_id: 13175
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dmidecode --type memory
-summary: |-
-  Get information about memory modules

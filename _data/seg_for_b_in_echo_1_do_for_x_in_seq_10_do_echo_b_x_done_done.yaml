@@ -1,8 +1,0 @@
-commandlinefu_id: 3851
-translator:
-  weibo: ''
-hide: true
-command: |-
-  seg() { for b in $(echo $1); do for x in $(seq 10); do echo $b.$x; done; done }
-summary: |-
-  Command to build one or more network segments - with for

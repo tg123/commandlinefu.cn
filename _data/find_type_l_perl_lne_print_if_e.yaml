@@ -1,7 +1,0 @@
-commandlinefu_id: 4193
-translator:
-  weibo: tgic
-command: |-
-  find . -type l | perl -lne 'print if ! -e'
-summary: |-
-  查找实效的符号链接

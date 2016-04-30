@@ -1,8 +1,0 @@
-commandlinefu_id: 4166
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l `locate your_search_here`
-summary: |-
-  Find files and format them in detailed list

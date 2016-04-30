@@ -1,8 +1,0 @@
-commandlinefu_id: 11420
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "abcdefg"|awk 'BEGIN {FS="''"} {print $2}'
-summary: |-
-  Print a single character from a string with AWK.

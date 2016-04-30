@@ -1,7 +1,0 @@
-commandlinefu_id: 11987
-translator:
-  weibo: tgic
-command: |-
-  readlink -fn foo | xsel -ib
-summary: |-
-  复制文件的全路径到剪切版

@@ -1,8 +1,0 @@
-commandlinefu_id: 9149
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l /etc/**/*killall
-summary: |-
-  find builtin in bash v4+

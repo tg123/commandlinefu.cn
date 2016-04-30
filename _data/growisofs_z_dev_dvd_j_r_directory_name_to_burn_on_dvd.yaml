@@ -1,8 +1,0 @@
-commandlinefu_id: 2150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  growisofs -Z /dev/dvd -J -r "directory name to burn on DVD"
-summary: |-
-  burn initial session on a growable DVD using growisofs

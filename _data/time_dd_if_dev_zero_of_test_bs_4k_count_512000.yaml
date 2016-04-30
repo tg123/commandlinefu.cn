@@ -1,8 +1,0 @@
-commandlinefu_id: 3827
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  time dd if=/dev/zero of=TEST bs=4k count=512000
-summary: |-
-  测试硬盘的写速度

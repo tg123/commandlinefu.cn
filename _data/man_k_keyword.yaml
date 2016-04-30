@@ -1,7 +1,0 @@
-commandlinefu_id: 787
-translator:
-  weibo: tgic
-command: |-
-  man -k <keyword>
-summary: |-
-  在 man 里边搜索关键字

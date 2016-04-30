@@ -1,7 +1,0 @@
-commandlinefu_id: 4389
-translator:
-  weibo: tgic
-command: |-
-  awk '!x[$0]++' <file>
-summary: |-
-  删除重复的行 (不需要排序)

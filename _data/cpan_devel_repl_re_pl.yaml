@@ -1,8 +1,0 @@
-commandlinefu_id: 11870
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cpan Devel::REPL; re.pl
-summary: |-
-  Perl Command Line Interpreter

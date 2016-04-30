@@ -1,8 +1,0 @@
-commandlinefu_id: 9105
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep ^Dirty /proc/meminfo
-summary: |-
-  Find out how much data is waiting to be written to disk

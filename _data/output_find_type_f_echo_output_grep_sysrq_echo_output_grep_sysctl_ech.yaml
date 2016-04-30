@@ -1,8 +1,0 @@
-commandlinefu_id: 5151
-translator:
-  weibo: ''
-hide: true
-command: |-
-  OUTPUT="`find / -type f`" ; echo "$OUTPUT" | grep sysrq ; echo "$OUTPUT" | grep sysctl ; echo "$OUTPUT" | less
-summary: |-
-  Capture and re-use expensive multi-line output in shell

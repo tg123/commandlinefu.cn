@@ -1,8 +1,0 @@
-commandlinefu_id: 3578
-translator:
-  weibo: ''
-hide: true
-command: |-
-  snarf http://foo.bar.com/picture.jpg
-summary: |-
-  snarf is a command line resource grabber.

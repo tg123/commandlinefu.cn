@@ -1,7 +1,0 @@
-commandlinefu_id: 8221
-translator:
-  weibo: tgic
-command: |-
-  mysql -? | grep ".cnf"
-summary: |-
-  寻找my.cnf位置

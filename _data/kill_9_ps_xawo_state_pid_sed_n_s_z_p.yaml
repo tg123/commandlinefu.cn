@@ -1,8 +1,0 @@
-commandlinefu_id: 6903
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill -9 `ps xawo state=,pid=|sed -n 's/Z //p'`
-summary: |-
-  Kill all Zombie processes if they accept it!

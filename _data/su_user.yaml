@@ -1,8 +1,0 @@
-commandlinefu_id: 3654
-translator:
-  weibo: ''
-hide: true
-command: |-
-  su -- user
-summary: |-
-  Change user, assume environment, stay in current dir

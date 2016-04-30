@@ -1,7 +1,0 @@
-commandlinefu_id: 4521
-translator:
-  weibo: '猪了个去'
-command: |-
-  awk '{if (NR % 3 == 1) print $0}' foo > foo_every3_position1; awk '{if (NR % 3 == 2) print $0}' foo > foo_every3_position2; awk '{if (NR % 3 == 0) print $0}' foo > foo_every3_position3
-summary: |-
-  每N行的位置进行XXX操作(AWK)

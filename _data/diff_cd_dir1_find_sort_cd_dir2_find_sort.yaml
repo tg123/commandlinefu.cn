@@ -1,8 +1,0 @@
-commandlinefu_id: 2251
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff <(cd dir1 && find | sort) <(cd dir2 && find | sort)
-summary: |-
-  Compare two directory trees.

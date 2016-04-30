@@ -1,7 +1,0 @@
-commandlinefu_id: 6070
-translator:
-  weibo: tgic
-command: |-
-  echo 'some command' | batch
-summary: |-
-  当load 小于1.5 时执行命令

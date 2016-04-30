@@ -1,8 +1,0 @@
-commandlinefu_id: 11860
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i "0,/enabled/{s|enabled=0|enabled=1|}" /etc/yum.repos.d/remi.repo
-summary: |-
-  Only change the first occurrence of the pattern

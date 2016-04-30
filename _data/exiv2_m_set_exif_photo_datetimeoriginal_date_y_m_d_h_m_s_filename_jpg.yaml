@@ -1,7 +1,0 @@
-commandlinefu_id: 1527
-translator:
-  weibo: codepiano
-command: |-
-  exiv2 -M"set Exif.Photo.DateTimeOriginal `date "+%Y:%m:%d %H:%M:%S"`" filename.jpg
-summary: |-
-  设置图片EXIF信息中的时间戳

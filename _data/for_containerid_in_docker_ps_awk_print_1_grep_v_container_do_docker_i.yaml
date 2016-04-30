@@ -1,8 +1,0 @@
-commandlinefu_id: 13958
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for containerId in $(docker ps | awk '{print $1}' | grep -v CONTAINER); do docker inspect -f "{{ .Name }}" $containerId | sed 's#/##' ; docker port $containerId; done
-summary: |-
-  Get docker port mappings for all running containers

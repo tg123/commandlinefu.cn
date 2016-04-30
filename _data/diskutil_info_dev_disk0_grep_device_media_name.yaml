@@ -1,7 +1,0 @@
-commandlinefu_id: 11884
-translator:
-  weibo: tgic
-command: |-
-  diskutil info /dev/disk0 | grep 'Device / Media Name'
-summary: |-
-  检查硬盘厂商(Mac)

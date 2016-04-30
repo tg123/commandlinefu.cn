@@ -1,8 +1,0 @@
-commandlinefu_id: 7238
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {1..6}; do printf "%0.2X:" $[ $RANDOM % 0x100 ]; done | sed 's/:$/\n/'
-summary: |-
-  Generate random valid mac addresses

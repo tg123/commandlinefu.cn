@@ -1,7 +1,0 @@
-commandlinefu_id: 8258
-translator:
-  weibo: tgic
-command: |-
-  ssh user@remote-host "DISPLAY=:0.0 import -window root -format png -"|display -format png -
-summary: |-
-  远程截屏

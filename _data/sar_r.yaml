@@ -1,7 +1,0 @@
-commandlinefu_id: 2219
-translator:
-  weibo: tgic
-command: |-
-  sar -r
-summary: |-
-  内存统计

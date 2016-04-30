@@ -1,7 +1,0 @@
-commandlinefu_id: 10749
-translator:
-  weibo: tgic
-command: |-
-  find -type l | xargs ls -l
-summary: |-
-  查看所有的符号链接的目标

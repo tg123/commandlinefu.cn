@@ -1,8 +1,0 @@
-commandlinefu_id: 6956
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mdadm -X /tmp1/md2bitmap
-summary: |-
-  Determine status of a RAID write-intent bitmap

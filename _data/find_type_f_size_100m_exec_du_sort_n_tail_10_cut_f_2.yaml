@@ -1,7 +1,0 @@
-commandlinefu_id: 6991
-translator:
-  weibo: tgic
-command: |-
-  find / -type f -size +100M -exec du {} \; | sort -n | tail -10 | cut -f 2
-summary: |-
-  查找前10大的文件

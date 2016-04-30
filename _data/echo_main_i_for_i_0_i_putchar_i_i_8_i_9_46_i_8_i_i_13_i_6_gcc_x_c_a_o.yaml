@@ -1,8 +1,0 @@
-commandlinefu_id: 11911
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "main(i){for(i=0;;i++)putchar(((i*(i>>8|i>>9)&46&i>>8))^(i&i>>13|i>>6));}" | gcc -x c - && ./a.out | aplay
-summary: |-
-  Play awesome rythmic noise using aplay

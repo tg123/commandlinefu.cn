@@ -1,8 +1,0 @@
-commandlinefu_id: 14
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.php" -exec grep \-H "new filter_" {} \;
-summary: |-
-  Display PHP files that directly instantiate a given class

@@ -1,8 +1,0 @@
-commandlinefu_id: 13061
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zfs list -H -o name -t snapshot | xargs -n1 -t zfs destroy
-summary: |-
-  Destroy all ZFS snapshots

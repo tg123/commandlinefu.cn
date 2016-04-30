@@ -1,7 +1,0 @@
-commandlinefu_id: 3632
-translator:
-  weibo: tgic
-command: |-
-  grep . filename > newfilename
-summary: |-
-  用grep去除空行

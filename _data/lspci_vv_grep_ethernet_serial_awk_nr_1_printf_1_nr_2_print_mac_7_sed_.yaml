@@ -1,8 +1,0 @@
-commandlinefu_id: 13222
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lspci -vv | grep 'Ethernet\|Serial' | awk 'NR == 1{ printf $1 }  NR == 2 { print " mac " $7 }' | sed ?e 's/-/:/g' -e 's/:f[ef]:f[ef]//g' -e 's/01:00.0/eth0/g' -e 's/01:00.1/eth1/g' -e 's/01:00.2/eth2/g' -e 's/01:00.3/eth3/g' > /etc/iftab && ifrename
-summary: |-
-  Remap Nic aliases from PCI location

@@ -1,7 +1,0 @@
-commandlinefu_id: 5389
-translator:
-  weibo: codepiano
-command: |-
-  cat file1 ... fileN > combinedFile;
-summary: |-
-  合并多个文件到一个文件中

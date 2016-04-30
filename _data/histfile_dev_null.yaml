@@ -1,7 +1,0 @@
-commandlinefu_id: 7906
-translator:
-  weibo: particle128
-command: |-
-  HISTFILE=/dev/null
-summary: |-
-  关闭当前shell会话的历史记录

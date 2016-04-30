@@ -1,7 +1,0 @@
-commandlinefu_id: 7288
-translator:
-  weibo: tgic
-command: |-
-  openssl base64 -d < file.txt > out
-summary: |-
-  解码bas64

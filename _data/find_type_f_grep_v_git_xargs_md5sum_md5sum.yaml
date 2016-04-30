@@ -1,7 +1,0 @@
-commandlinefu_id: 12858
-translator:
-  weibo: codepiano
-command: |-
-  find -type f | grep -v "^./.git" | xargs md5sum | md5sum
-summary: |-
-  查找文件并计算md5

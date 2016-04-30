@@ -1,8 +1,0 @@
-commandlinefu_id: 6803
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hg diff -r$((`hg -q par | cut -d":" -f1`-1))
-summary: |-
-  diff from last committed revision in Mercurial

@@ -1,7 +1,0 @@
-commandlinefu_id: 7212
-translator:
-  weibo: tgic
-command: |-
-  cat file | tr -d "\n"
-summary: |-
-  把文件内容变成 一行

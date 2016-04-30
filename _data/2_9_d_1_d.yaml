@@ -1,8 +1,0 @@
-commandlinefu_id: 4242
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  /^\([2-9]\d*\|1\d+\)
-summary: |-
-  vim 中查找比 1 大的数

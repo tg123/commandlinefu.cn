@@ -1,8 +1,0 @@
-commandlinefu_id: 7182
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -o etime `pidof firefox` |grep -v ELAPSED | sed 's/\s*//g' | sed "s/\(.*\)-\(.*\):\(.*\):\(.*\)/\1d \2h/; s/\(.*\):\(.*\):\(.*\)/\1h \2m/;s/\(.*\):\(.*\)/\1m \2s/"
-summary: |-
-  To find the uptime of each process-id of particular service or process

@@ -1,7 +1,0 @@
-commandlinefu_id: 2774
-translator:
-  weibo: tgic
-command: |-
-  for i in `find -name '*oldname*'`; do "mv $i ${i/oldname/newname/}"; done
-summary: |-
-  批量递归的重命名

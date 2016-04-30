@@ -1,8 +1,0 @@
-commandlinefu_id: 2299
-translator:
-  weibo: ''
-hide: true
-command: |-
-  type -all command
-summary: |-
-  Find if the command has an alias

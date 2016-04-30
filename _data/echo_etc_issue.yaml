@@ -1,7 +1,0 @@
-commandlinefu_id: 3473
-translator:
-  weibo: tgic
-command: |-
-  echo "$(</etc/issue)"
-summary: |-
-  使用echo显示文件内容

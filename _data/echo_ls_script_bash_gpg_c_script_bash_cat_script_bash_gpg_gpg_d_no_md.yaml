@@ -1,7 +1,0 @@
-commandlinefu_id: 11993
-translator:
-  weibo: tgic
-command: |-
-  echo "ls" > script.bash; gpg -c script.bash; cat script.bash.gpg | gpg -d --no-mdc-warning | bash
-summary: |-
-  加密得bash 脚本

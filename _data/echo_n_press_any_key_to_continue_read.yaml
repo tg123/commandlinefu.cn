@@ -1,7 +1,0 @@
-commandlinefu_id: 3998
-translator:
-  weibo: tgic
-command: |-
-  echo -n "Press any key to continue..." && read
-summary: |-
-  按任意键继续

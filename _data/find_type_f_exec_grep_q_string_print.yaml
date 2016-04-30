@@ -1,8 +1,0 @@
-commandlinefu_id: 9473
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f ! -exec grep -q 'STRING' {} \; -print
-summary: |-
-  Find all plain text files that do not contain STRING

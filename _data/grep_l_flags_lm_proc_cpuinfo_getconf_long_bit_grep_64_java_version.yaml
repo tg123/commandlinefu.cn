@@ -1,8 +1,0 @@
-commandlinefu_id: 11662
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -l 'flags.*\<lm\>' /proc/cpuinfo && (getconf LONG_BIT | grep '64') && java -version
-summary: |-
-  checklist for 64-bit java on Linux

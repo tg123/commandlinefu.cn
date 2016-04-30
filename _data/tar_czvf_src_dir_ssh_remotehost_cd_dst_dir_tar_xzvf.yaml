@@ -1,8 +1,0 @@
-commandlinefu_id: 7343
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -czvf - /src/dir | ssh remotehost "(cd /dst/dir ; tar -xzvf -)"
-summary: |-
-  Secure copy from one server to another without rsync and preserve users, etc

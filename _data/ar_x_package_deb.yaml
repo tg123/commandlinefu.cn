@@ -1,7 +1,0 @@
-commandlinefu_id: 7342
-translator:
-  weibo: tgic
-command: |-
-  ar -x package.deb
-summary: |-
-  解压缩deb

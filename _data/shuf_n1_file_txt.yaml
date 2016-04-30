@@ -1,8 +1,0 @@
-commandlinefu_id: 2755
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shuf -n1 file.txt
-summary: |-
-  Pick a random line from a file

@@ -1,7 +1,0 @@
-commandlinefu_id: 10450
-translator:
-  weibo: tgic
-command: |-
-  wget -m -k -K -E http://url/of/web/site
-summary: |-
-  使用wget下载整个网站

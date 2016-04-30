@@ -1,7 +1,0 @@
-commandlinefu_id: 2031
-translator:
-  weibo: ''
-command: |-
-  sudo installer -pkg /Volumes/someapp/someapp.mpkg -target /
-summary: |-
-  通过命令行安装mpkg osx

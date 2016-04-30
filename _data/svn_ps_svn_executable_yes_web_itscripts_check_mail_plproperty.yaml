@@ -1,8 +1,0 @@
-commandlinefu_id: 12600
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn ps svn:executable yes /web/itscripts/check_mail.plproperty
-summary: |-
-  SVN - set exec bit on

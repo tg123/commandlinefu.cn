@@ -1,8 +1,0 @@
-commandlinefu_id: 7299
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat  -atn | perl -0777 -ne '@ports = /tcp.*?\:(\d+)\s+/imsg ; for $port (32768..61000) {if(!grep(/^$port$/, @ports)) { print $port; last } }'
-summary: |-
-  find an unused unprivileged TCP port

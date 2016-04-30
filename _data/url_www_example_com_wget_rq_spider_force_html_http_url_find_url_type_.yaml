@@ -1,8 +1,0 @@
-commandlinefu_id: 30
-translator:
-  weibo: ''
-hide: true
-command: |-
-  URL=www.example.com && wget -rq --spider --force-html "http://$URL" && find $URL -type d > url-list.txt && rm -rf $URL
-summary: |-
-  Retrieve a list of all webpages on a site

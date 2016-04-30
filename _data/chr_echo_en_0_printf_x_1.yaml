@@ -1,7 +1,0 @@
-commandlinefu_id: 3822
-translator:
-  weibo: tgic
-command: |-
-  chr () { echo -en "\0$(printf %x $1)"}
-summary: |-
-  函数chr shell 版本

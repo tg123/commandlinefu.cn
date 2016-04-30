@@ -1,7 +1,0 @@
-commandlinefu_id: 13813
-translator:
-  weibo: tgic
-command: |-
-  bash -x /etc/init.d/asterisk start
-summary: |-
-  如何debug 脚本

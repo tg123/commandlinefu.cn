@@ -1,7 +1,0 @@
-commandlinefu_id: 5669
-translator:
-  weibo: tgic
-command: |-
-  sed -n  's/\([0-9]\{1,3\}\.\)\{3\}[0-9]\{1,3\}/\nip&\n/gp' ips.txt  | grep ip | sed 's/ip//'| sort | uniq
-summary: |-
-  过滤IP地址

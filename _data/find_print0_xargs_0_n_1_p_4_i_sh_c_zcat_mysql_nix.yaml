@@ -1,8 +1,0 @@
-commandlinefu_id: 3191
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -print0 | xargs -0 -n 1 -P 4 -I {} sh -c "zcat '{}' | mysql nix"
-summary: |-
-  Parallel mysql dump restore

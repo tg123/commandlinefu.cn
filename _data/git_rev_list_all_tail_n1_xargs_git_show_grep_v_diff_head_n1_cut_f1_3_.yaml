@@ -1,8 +1,0 @@
-commandlinefu_id: 14027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git rev-list --all|tail -n1|xargs git show|grep -v diff|head -n1|cut -f1-3 -d' '
-summary: |-
-  Find the date of the first commit in a git repository

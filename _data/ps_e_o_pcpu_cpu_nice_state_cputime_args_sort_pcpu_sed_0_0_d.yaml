@@ -1,7 +1,0 @@
-commandlinefu_id: 1388
-translator:
-  weibo: tgic
-command: |-
-  ps -e -o pcpu,cpu,nice,state,cputime,args --sort pcpu | sed "/^ 0.0 /d"
-summary: |-
-  按cpu利用率ps

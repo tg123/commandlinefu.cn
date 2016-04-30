@@ -1,7 +1,0 @@
-commandlinefu_id: 8967
-translator:
-  weibo: tgic
-command: |-
-  rsync -rv <src> <dst> --progress
-summary: |-
-  有进度条的 rsync

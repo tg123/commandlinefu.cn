@@ -1,8 +1,0 @@
-commandlinefu_id: 2458
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :set nomore   :argdo %s/foo/bar/g | update
-summary: |-
-  %s across multiple files with Vim

@@ -1,8 +1,0 @@
-commandlinefu_id: 13680
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -L -vnx --line-numbers; iptables -t nat -D <chain-name> <number>
-summary: |-
-  Delete an IPtable rules based on row number

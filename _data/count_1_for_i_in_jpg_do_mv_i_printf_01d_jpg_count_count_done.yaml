@@ -1,8 +1,0 @@
-commandlinefu_id: 11922
-translator:
-  weibo: ''
-hide: true
-command: |-
-  count='1'; for i in *.jpg; do mv $i $(printf '%01d'.jpg $count); (( count++ )); done
-summary: |-
-  Batch rename and number files

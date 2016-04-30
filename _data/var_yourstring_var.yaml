@@ -1,7 +1,0 @@
-commandlinefu_id: 12406
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  [[ ${var##*yourstring*} != ${var} ]]
-summary: |-
-  检查一个变量中是否包括某个字符串

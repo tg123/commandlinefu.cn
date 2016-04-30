@@ -1,8 +1,0 @@
-commandlinefu_id: 3626
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  for i in {21..29}; do nc -v -n -z -w 1 192.168.0.$i 443; done
-summary: |-
-  使用nc作端口扫瞄

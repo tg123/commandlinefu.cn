@@ -1,8 +1,0 @@
-commandlinefu_id: 9781
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gnuplot -p <(echo "set style data hist; set xtic rot by -45; plot '<(stat -c \"%n %s\" *)' u 2:xtic(1)")
-summary: |-
-  histogram of file size

@@ -1,8 +1,0 @@
-commandlinefu_id: 4949
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cdrdao read-cd --read-raw --datafile "`volname /dev/hdc | sed 's/[ ^t]*$//'`".bin --device ATAPI:0,0,0 --driver generic-mmc-raw "`volname /dev/hdc | sed 's/[ ^t]*$//'`".toc
-summary: |-
-  Rips CDs (Playstation, etc.) and names the files the same as the volume name

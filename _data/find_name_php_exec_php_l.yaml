@@ -1,8 +1,0 @@
-commandlinefu_id: 8956
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name \*.php -exec php -l "{}" \;
-summary: |-
-  Check syntax for all PHP files in the current directory and all subdirectories

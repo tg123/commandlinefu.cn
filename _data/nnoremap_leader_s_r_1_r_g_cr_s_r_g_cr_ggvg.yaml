@@ -1,8 +1,0 @@
-commandlinefu_id: 13863
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nnoremap  <leader>= :%s~\({\\|}\\|\[\\|\]\)~\r\1\r~g<cr>:%s~,"~,\r"~g<cr>ggvG=
-summary: |-
-  format one line json to pretty json in vim

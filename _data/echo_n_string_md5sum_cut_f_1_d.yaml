@@ -1,7 +1,0 @@
-commandlinefu_id: 13189
-translator:
-  weibo: tgic
-command: |-
-  echo -n "string" | md5sum|cut -f 1 -d " "
-summary: |-
-  生成字符的md5

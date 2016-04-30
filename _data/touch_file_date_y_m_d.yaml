@@ -1,8 +1,0 @@
-commandlinefu_id: 5676
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch file-$(date +%Y%m%d)
-summary: |-
-  creeate file named after actual date

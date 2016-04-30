@@ -1,8 +1,0 @@
-commandlinefu_id: 9528
-translator:
-  weibo: ''
-hide: true
-command: |-
-  command > >(tee stdout.log) 2> >(tee stderr.log >&2)
-summary: |-
-  log a command to console and to 2 files separately stdout and stderr

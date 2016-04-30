@@ -1,8 +1,0 @@
-commandlinefu_id: 9127
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -lr -e '<oldword>' * | xargs sed -i 's/<oldword>/<newword>/g'
-summary: |-
-  Search and Replace across multiple files

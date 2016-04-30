@@ -1,7 +1,0 @@
-commandlinefu_id: 8358
-translator:
-  weibo: tgic
-command: |-
-  mydir=$(cd $(dirname ${BASH_SOURCE:-$0});pwd)
-summary: |-
-  启动目录

@@ -1,7 +1,0 @@
-commandlinefu_id: 8155
-translator:
-  weibo: tgic
-command: |-
-  eh () { history -a ; vi ~/.bash_history ; history -r ; }
-summary: |-
-  编辑命令历史

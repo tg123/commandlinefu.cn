@@ -1,7 +1,0 @@
-commandlinefu_id: 7924
-translator:
-  weibo: tgic
-command: |-
-  sudo usermod -a -G adm "$(whoami)"
-summary: |-
-  把自己加到adm组里边

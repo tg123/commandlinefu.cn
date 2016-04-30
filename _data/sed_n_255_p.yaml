@@ -1,7 +1,0 @@
-commandlinefu_id: 8997
-translator:
-  weibo: tgic
-command: |-
-  sed -n '/^.\{255\}/!p'
-summary: |-
-  清除多余255个字符的行

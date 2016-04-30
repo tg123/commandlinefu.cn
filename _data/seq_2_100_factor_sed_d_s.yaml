@@ -1,7 +1,0 @@
-commandlinefu_id: 11414
-translator:
-  weibo: codepiano
-command: |-
-  seq 2 100 | factor | sed '/ .* / d ; s/:.*//'
-summary: |-
-  列出2到100之间的质数

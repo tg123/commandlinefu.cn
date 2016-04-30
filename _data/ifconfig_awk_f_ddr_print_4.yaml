@@ -1,7 +1,0 @@
-commandlinefu_id: 2765
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ifconfig | awk -F':| +'  '/ddr:/{print $4}'
-summary: |-
-  通过ifconfig获取所有的IP地址

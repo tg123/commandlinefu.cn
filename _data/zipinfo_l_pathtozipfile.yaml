@@ -1,7 +1,0 @@
-commandlinefu_id: 9906
-translator:
-  weibo: tgic
-command: |-
-  zipinfo -l <pathtozipfile>
-summary: |-
-  查看zip信息

@@ -1,7 +1,0 @@
-commandlinefu_id: 9483
-translator:
-  weibo: '猪了个去'
-command: |-
-  IFS=$'\n' && for f in `find . -type f -exec md5sum "{}" \;`; do echo $f | sed -r 's/^[^ ]+/Checking:/'; echo $f | cut -f1 -d' ' | netcat hash.cymru.com 43 ; done
-summary: |-
-  通过MD5哈希结果寻找当前目录和子目录中的恶意软件

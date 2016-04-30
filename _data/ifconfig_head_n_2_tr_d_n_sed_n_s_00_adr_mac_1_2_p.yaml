@@ -1,8 +1,0 @@
-commandlinefu_id: 13674
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | head -n 2 | tr -d '\n' | sed -n 's/.*\(00:[^ ]*\).*\(adr:[^ ]*\).*/mac:\1 - \2/p'
-summary: |-
-  Print the IP address and the Mac address in the same line

@@ -1,7 +1,0 @@
-commandlinefu_id: 593
-translator:
-  weibo: codepiano
-command: |-
-  sh ~/.bash_history > /dev/null 2>&1
-summary: |-
-  一个狡猾的命令

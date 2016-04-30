@@ -1,8 +1,0 @@
-commandlinefu_id: 12062
-translator:
-  weibo: ''
-hide: true
-command: |-
-  i=1; for f (*.jpg) zmv $f '${(l:3::0:)$((++i))}'$f
-summary: |-
-  Batch rename and number files

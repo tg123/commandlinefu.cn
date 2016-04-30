@@ -1,8 +1,0 @@
-commandlinefu_id: 8146
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name '*.xml' -type f -print | xargs du -ch
-summary: |-
-  get disk usage sum for files of type

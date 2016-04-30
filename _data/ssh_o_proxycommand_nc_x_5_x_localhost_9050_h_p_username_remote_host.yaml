@@ -1,8 +1,0 @@
-commandlinefu_id: 13464
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -o ProxyCommand="nc -X 5 -x localhost:9050 %h %p" username@remote_host
-summary: |-
-  Anonymous ssh using tor proxy (or any socks based proxy)

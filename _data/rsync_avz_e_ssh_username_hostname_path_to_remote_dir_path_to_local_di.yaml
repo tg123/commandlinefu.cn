@@ -1,7 +1,0 @@
-commandlinefu_id: 987
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  rsync -avz -e ssh username@hostname:/path/to/remote/dir/ /path/to/local/dir/
-summary: |-
-  通过ssh进行rsync

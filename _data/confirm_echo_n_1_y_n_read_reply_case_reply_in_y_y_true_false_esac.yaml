@@ -1,8 +1,0 @@
-commandlinefu_id: 7131
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Confirm() { echo -n "$1 [y/n]? " ; read reply; case $reply in Y*|y*) true ;; *) false ;; esac }
-summary: |-
-  Ask user to confirm

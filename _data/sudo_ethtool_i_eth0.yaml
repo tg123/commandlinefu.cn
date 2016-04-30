@@ -1,7 +1,0 @@
-commandlinefu_id: 9800
-translator:
-  weibo: tgic
-command: |-
-  sudo  ethtool -i eth0
-summary: |-
-  获取 网卡信息

@@ -1,7 +1,0 @@
-commandlinefu_id: 7337
-translator:
-  weibo: tgic
-command: |-
-  hexdump -e '8/1 "%02X ""\t"" "' -e '8/1 "%c""\n"' /dev/sda1 | less /mystring
-summary: |-
-  不需要挂载查看分区内容(查字符串)

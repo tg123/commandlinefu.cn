@@ -1,8 +1,0 @@
-commandlinefu_id: 12688
-translator:
-  weibo: ''
-hide: true
-command: |-
-  color () { local color=39; local bold=0; case $1 in green) color=32;; cyan) color=36;; blue) color=34;; gray) color=37;; darkgrey) color=30;; red) color=31;; esac; if [[ "$2" == "bold" ]]; then bold=1; fi; echo -en "\033[${bold};${color}m"; }
-summary: |-
-  print text in colors green, cyan, blue or red (see sample output for usage)

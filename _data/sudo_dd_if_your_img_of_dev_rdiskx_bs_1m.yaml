@@ -1,8 +1,0 @@
-commandlinefu_id: 11447
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo dd if=/your.img of=/dev/rdiskx bs=1m
-summary: |-
-  creating an USB Image

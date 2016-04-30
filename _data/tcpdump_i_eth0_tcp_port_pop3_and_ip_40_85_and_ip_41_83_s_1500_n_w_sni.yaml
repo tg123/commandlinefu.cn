@@ -1,8 +1,0 @@
-commandlinefu_id: 7084
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -i eth0 "tcp port pop3 and ip[40] = 85 and ip[41] = 83"  -s 1500 -n -w "sniff"
-summary: |-
-  Sniff ONLY POP3 authentication by intercepting the USER command

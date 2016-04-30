@@ -1,8 +1,0 @@
-commandlinefu_id: 197
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ldconfig -p
-summary: |-
-  Show Shared Library Mappings

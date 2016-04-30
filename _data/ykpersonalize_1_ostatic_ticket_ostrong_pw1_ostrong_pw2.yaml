@@ -1,8 +1,0 @@
-commandlinefu_id: 8454
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ykpersonalize -1 -ostatic-ticket -ostrong-pw1 -ostrong-pw2
-summary: |-
-  Static Yubikey 2.2 Password Using Programming Slot 1

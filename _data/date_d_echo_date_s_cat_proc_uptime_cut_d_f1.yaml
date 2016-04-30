@@ -1,7 +1,0 @@
-commandlinefu_id: 9636
-translator:
-  weibo: tgic
-command: |-
-  date -d @$(echo $(($(date +%s)-$(cat /proc/uptime|cut -d. -f1))))
-summary: |-
-  查看开机时间

@@ -1,7 +1,0 @@
-commandlinefu_id: 9573
-translator:
-  weibo: tgic
-command: |-
-  export PS1="[\u@`hostname -I` \W]$ "
-summary: |-
-  提示符中现实IP

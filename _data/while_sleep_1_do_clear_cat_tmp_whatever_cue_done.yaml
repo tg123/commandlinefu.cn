@@ -1,7 +1,0 @@
-commandlinefu_id: 11575
-translator:
-  weibo: tgic
-command: |-
-  while sleep 1; do clear; cat /tmp/whatever.cue; done
-summary: |-
-  监控文件变化

@@ -1,7 +1,0 @@
-commandlinefu_id: 190
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  gs -dNOCACHE -dNOPAUSE -dBATCH -dSAFER -sDEVICE=epswrite -dEPSCrop -sOutputFile=out.eps in.pdf
-summary: |-
-  转换PDF到可用于Illustrator软件的eps格式文件

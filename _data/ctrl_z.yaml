@@ -1,7 +1,0 @@
-commandlinefu_id: 7124
-translator:
-  weibo: tgic
-command: |-
-  ~ ctrl-z
-summary: |-
-  暂停当前进程

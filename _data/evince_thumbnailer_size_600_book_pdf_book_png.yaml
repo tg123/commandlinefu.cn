@@ -1,8 +1,0 @@
-commandlinefu_id: 9755
-translator:
-  weibo: ''
-hide: true
-command: |-
-  evince-thumbnailer --size=600 book.pdf book.png
-summary: |-
-  Create thumbnail of PDF

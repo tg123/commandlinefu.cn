@@ -1,7 +1,0 @@
-commandlinefu_id: 13073
-translator:
-  weibo: tgic
-command: |-
-  grep -v rootfs /proc/mounts > /etc/mtab
-summary: |-
-  刷新mtab

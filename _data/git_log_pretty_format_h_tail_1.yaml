@@ -1,7 +1,0 @@
-commandlinefu_id: 6345
-translator:
-  weibo: tgic
-command: |-
-  git log --pretty=format:%H | tail -1
-summary: |-
-  获取首次git提交

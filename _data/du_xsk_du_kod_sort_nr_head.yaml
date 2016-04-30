@@ -1,8 +1,0 @@
-commandlinefu_id: 5069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ( du -xSk || du -kod ) | sort -nr | head
-summary: |-
-  Simple top directory usage with du flips for either Linux or base Solaris

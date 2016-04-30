@@ -1,8 +1,0 @@
-commandlinefu_id: 6045
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -i 8d ~/.ssh/known_hosts
-summary: |-
-  清理 known_hosts

@@ -1,8 +1,0 @@
-commandlinefu_id: 11041
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -l username server.tdl "tar -czf - /home/username/public_html" | tar -xzf -
-summary: |-
-  Get backup from remote host, then expand in current directory using tar

@@ -1,8 +1,0 @@
-commandlinefu_id: 1050
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -sS -O -oX /tmp/nmap.xml 10.1.1.0/24 -v -v && perl nmap2nagios.pl -v -r /tmp/10net.xml -o /etc/nagios/10net.cfg
-summary: |-
-  nmap IP block and autogenerate comprehensive Nagios service checks

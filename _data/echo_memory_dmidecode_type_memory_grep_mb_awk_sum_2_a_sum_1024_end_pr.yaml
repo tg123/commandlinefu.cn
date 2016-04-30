@@ -1,7 +1,0 @@
-commandlinefu_id: 13184
-translator:
-  weibo: tgic
-command: |-
-  echo "Memory:" $(dmidecode --type memory | grep " MB" | awk '{sum += $2; a=sum/1024} END {print a}') "GB"
-summary: |-
-  内存大小

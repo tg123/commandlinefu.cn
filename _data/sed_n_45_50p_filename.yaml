@@ -1,8 +1,0 @@
-commandlinefu_id: 13875
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -n '45,50p' filename
-summary: |-
-  &#26174;&#31034;&#31532;45&#21040;50&#34892;

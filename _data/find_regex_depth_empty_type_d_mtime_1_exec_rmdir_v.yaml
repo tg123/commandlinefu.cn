@@ -1,8 +1,0 @@
-commandlinefu_id: 1625
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find .  -regex "[^.]*" -depth -empty -type d -mtime +1 -exec rmdir -v {} \;
-summary: |-
-  Delete empty,  24-hours-old directories recursively, without consider hidden directories

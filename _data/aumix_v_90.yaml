@@ -1,8 +1,0 @@
-commandlinefu_id: 4122
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aumix -v 90
-summary: |-
-  Set the master volume to 90% (Ubuntu)

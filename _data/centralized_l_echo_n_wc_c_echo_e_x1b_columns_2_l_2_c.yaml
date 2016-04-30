@@ -1,7 +1,0 @@
-commandlinefu_id: 11150
-translator:
-  weibo: tgic
-command: |-
-  centralized(){ L=`echo -n $*|wc -c`; echo -e "\x1b[$[ ($COLUMNS / 2) - ($L / 2) ]C$*"; }
-summary: |-
-  在屏幕中间输出一段文字

@@ -1,8 +1,0 @@
-commandlinefu_id: 10017
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mutt -s "Subject" -a attachment -- example@tutorialarena.com
-summary: |-
-  发送附件 使用 mutt

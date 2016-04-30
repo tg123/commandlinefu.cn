@@ -1,8 +1,0 @@
-commandlinefu_id: 12583
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -print0 | xargs -0 stat -c'%Y :%y %12s %n' | sort -nr | cut -d: -f2- | head
-summary: |-
-  Find last modified files in a directory and its subdirectories

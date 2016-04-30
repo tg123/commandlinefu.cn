@@ -1,7 +1,0 @@
-commandlinefu_id: 8905
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  chmod 755 $(find public_html -type d)
-summary: |-
-  改变所有的文件夹的权限（而不包括其中的文件）

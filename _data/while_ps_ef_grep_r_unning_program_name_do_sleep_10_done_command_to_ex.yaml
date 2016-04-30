@@ -1,7 +1,0 @@
-commandlinefu_id: 4581
-translator:
-  weibo: tgic
-command: |-
-  while (ps -ef | grep [r]unning_program_name); do sleep 10; done; command_to_execute
-summary: |-
-  等待一个程序启动再执行

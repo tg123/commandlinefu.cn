@@ -1,7 +1,0 @@
-commandlinefu_id: 11210
-translator:
-  weibo: tgic
-command: |-
-  apt-get -y install/remove app
-summary: |-
-  无需确认安装或者卸载

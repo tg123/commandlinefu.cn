@@ -1,8 +1,0 @@
-commandlinefu_id: 6980
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find / -type f -size +548576 -printf "%s:%h%f\n"
-summary: |-
-  列出500m的文件

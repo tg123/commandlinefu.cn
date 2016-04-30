@@ -1,8 +1,0 @@
-commandlinefu_id: 4781
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'while(1){print"> ";eval<>}'
-summary: |-
-  Perl Command Line Interpreter

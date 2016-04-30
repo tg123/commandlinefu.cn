@@ -1,7 +1,0 @@
-commandlinefu_id: 9231
-translator:
-  weibo: tgic
-command: |-
-  xxd <file>
-summary: |-
-  使用hex dump文件

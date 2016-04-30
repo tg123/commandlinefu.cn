@@ -1,7 +1,0 @@
-commandlinefu_id: 13237
-translator:
-  weibo: gdqyn
-command: |-
-  ffmpeg -re -i localFile.mp4 -c copy -f flv rtmp://server/live/streamName
-summary: |-
-  将一个视频文件发布为视频流

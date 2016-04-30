@@ -1,8 +1,0 @@
-commandlinefu_id: 9817
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log -v -r{2009-11-1}:HEAD | awk '/^r[0-9]+ / {user=$3} /./{if (user=="george") {print}}' | grep -E "^   M|^   G|^   A|^   D|^   C|^   U" | awk '{print $2}' | sort | uniq
-summary: |-
-  gets all files committed to svn by a particular user since a particular date

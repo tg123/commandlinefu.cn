@@ -1,7 +1,0 @@
-commandlinefu_id: 7557
-translator:
-  weibo: codepiano
-command: |-
-  readlink -e /bin/ls
-summary: |-
-  获得文件的全路径

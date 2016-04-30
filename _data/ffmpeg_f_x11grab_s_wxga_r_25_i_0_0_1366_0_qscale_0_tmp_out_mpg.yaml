@@ -1,8 +1,0 @@
-commandlinefu_id: 12572
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -f x11grab -s wxga -r 25 -i :0.0+1366,0 -qscale 0 /tmp/out.mpg
-summary: |-
-  Capture video of a linux desktop

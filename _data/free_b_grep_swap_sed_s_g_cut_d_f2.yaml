@@ -1,7 +1,0 @@
-commandlinefu_id: 3279
-translator:
-  weibo: '猪了个去'
-command: |-
-  free -b | grep "Swap:" | sed 's/ * / /g' | cut -d ' ' -f2
-summary: |-
-  显示交换空间总量

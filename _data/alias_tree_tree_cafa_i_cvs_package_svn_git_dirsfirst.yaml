@@ -1,7 +1,0 @@
-commandlinefu_id: 1725
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  alias tree="tree -CAFa -I 'CVS|*.*.package|.svn|.git' --dirsfirst"
-summary: |-
-  既好用又好看的tree命令

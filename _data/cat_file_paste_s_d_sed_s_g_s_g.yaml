@@ -1,7 +1,0 @@
-commandlinefu_id: 12905
-translator:
-  weibo: tgic
-command: |-
-  cat file | paste -s -d'%' - | sed 's/\(^\|$\)/"/g;s/%/","/g'
-summary: |-
-  转换为csv 每行一列

@@ -1,7 +1,0 @@
-commandlinefu_id: 3637
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  apropos network |more
-summary: |-
-  列出Linux上跟网络有关的工具

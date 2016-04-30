@@ -1,8 +1,0 @@
-commandlinefu_id: 7008
-translator:
-  weibo: ''
-hide: true
-command: |-
-  parallel -j+0 lame {} -o {.}.mp3 ::: *.wav
-summary: |-
-  To convert **.wav to **.mp3 using LAME running one process per CPU core run:

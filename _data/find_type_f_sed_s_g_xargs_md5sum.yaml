@@ -1,8 +1,0 @@
-commandlinefu_id: 12511
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -type f | sed "s:[\ \',\"]:\\\&:g" | xargs md5sum
-summary: |-
-  md5sum for files with bad characters

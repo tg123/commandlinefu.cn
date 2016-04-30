@@ -1,7 +1,0 @@
-commandlinefu_id: 3805
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  seq -w 100 | sed 's/^/login/'
-summary: |-
-  创建1到100个login0xx序列

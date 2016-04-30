@@ -1,7 +1,0 @@
-commandlinefu_id: 10760
-translator:
-  weibo: gdqyn
-command: |-
-  iotop -a -p $(sed 's, , -p ,g' <<<`pgrep "_raid|_resync|jbd2"`)
-summary: |-
-  监测RAID IO使用率

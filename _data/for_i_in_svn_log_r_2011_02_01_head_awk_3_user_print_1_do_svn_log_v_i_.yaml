@@ -1,7 +1,0 @@
-commandlinefu_id: 8010
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in `svn log -r{2011-02-01}:HEAD | awk '$3 == "user" {print $1}'`; do svn log -v -$i;done
-summary: |-
-  按用户名列出某个时间范围内的svn提交信息

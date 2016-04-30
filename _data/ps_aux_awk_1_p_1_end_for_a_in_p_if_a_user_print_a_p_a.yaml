@@ -1,8 +1,0 @@
-commandlinefu_id: 5475
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux |awk '{$1}  {++P[$1]} END {for(a in P) if (a !="USER") print a,P[a]}'
-summary: |-
-  processes per user counter

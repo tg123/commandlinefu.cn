@@ -1,7 +1,0 @@
-commandlinefu_id: 7061
-translator:
-  weibo: tgic
-command: |-
-  deadlib() { lsof | grep 'DEL.*lib' | cut -f 1 -d ' ' | sort -u; }
-summary: |-
-  系统升级后查看哪些进程需要重启

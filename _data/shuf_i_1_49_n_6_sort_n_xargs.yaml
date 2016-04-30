@@ -1,7 +1,0 @@
-commandlinefu_id: 7578
-translator:
-  weibo: tgic
-command: |-
-  shuf -i 1-49 -n 6 | sort -n | xargs
-summary: |-
-  彩票 49 选6 

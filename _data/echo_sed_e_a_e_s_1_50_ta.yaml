@@ -1,7 +1,0 @@
-commandlinefu_id: 4500
-translator:
-  weibo: tgic
-command: |-
-  echo - | sed -e :a -e 's/^.\{1,50\}$/&-/;ta'
-summary: |-
-  打印50个-

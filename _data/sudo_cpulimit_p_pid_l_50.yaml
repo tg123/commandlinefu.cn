@@ -1,8 +1,0 @@
-commandlinefu_id: 9743
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sudo cpulimit -p pid -l 50
-summary: |-
-  限制进程cpu

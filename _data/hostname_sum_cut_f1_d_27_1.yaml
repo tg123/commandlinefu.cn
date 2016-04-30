@@ -1,8 +1,0 @@
-commandlinefu_id: 9882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $(($(hostname|sum|cut -f1 -d" ")%27+1))
-summary: |-
-  Command to generate an integer from the hostname, valid within the Days of Month

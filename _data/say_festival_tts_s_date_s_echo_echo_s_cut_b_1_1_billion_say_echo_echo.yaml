@@ -1,8 +1,0 @@
-commandlinefu_id: 5704
-translator:
-  weibo: ''
-hide: true
-command: |-
-  say='festival --tts'; S=$(date +%s); echo $(echo $S | cut -b 1-1)" billion" | $say ; echo $(echo $S | cut -b 2-4 | sed 's/0*//')" million"| $say; echo $(echo $S | cut -b 5-7 | sed 's/0*//')" thousand"| $say
-summary: |-
-  read unixtimestamp with festival

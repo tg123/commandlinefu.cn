@@ -1,7 +1,0 @@
-commandlinefu_id: 11504
-translator:
-  weibo: tgic
-command: |-
-  while true; do echo -ne "\e[s\e[0;$((COLUMNS-27))H$(date)\e[u"; sleep 1; done &
-summary: |-
-  在console的右上角放一个时钟

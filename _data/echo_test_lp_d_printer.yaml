@@ -1,8 +1,0 @@
-commandlinefu_id: 1519
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "test" | lp -d $PRINTER
-summary: |-
-  Send test prints to networked printer.

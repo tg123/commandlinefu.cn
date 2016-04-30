@@ -1,8 +1,0 @@
-commandlinefu_id: 13266
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !a[$0]++
-summary: |-
-  Remove duplicate lines using awk

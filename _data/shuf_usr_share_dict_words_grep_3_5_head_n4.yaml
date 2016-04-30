@@ -1,8 +1,0 @@
-commandlinefu_id: 9102
-translator:
-  weibo: '猪了个去'
-command: |-
-  shuf /usr/share/dict/words  |grep "^[^']\{3,5\}$" |head -n4
-summary: |-
-  生成XKCD #936那样的四个单词的密码
-

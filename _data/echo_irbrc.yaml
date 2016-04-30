@@ -1,7 +1,0 @@
-commandlinefu_id: 11352
-translator:
-  weibo: tgic
-command: |-
-  echo "$: << '.'" >> $IRBRC
-summary: |-
-  把当前目录加入ruby path

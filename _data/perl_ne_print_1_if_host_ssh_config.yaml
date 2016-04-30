@@ -1,8 +1,0 @@
-commandlinefu_id: 9086
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -ne 'print "$1 " if /^Host (.+)$/' ~/.ssh/config
-summary: |-
-  ssh autocomplete based on ~/.ssh/config

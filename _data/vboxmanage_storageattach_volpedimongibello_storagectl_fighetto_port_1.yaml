@@ -1,7 +1,0 @@
-commandlinefu_id: 10151
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  VBoxManage storageattach "volpedimongibello" --storagectl "fighetto" --port 1 --device 0 --type dvddrive --medium "/tanto/mipaghi/tutto.iso
-summary: |-
-  给VirtualBox添加一个控制器

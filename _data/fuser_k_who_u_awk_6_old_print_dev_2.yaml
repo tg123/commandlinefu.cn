@@ -1,8 +1,0 @@
-commandlinefu_id: 3374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -k `who -u | awk '$6 == "old" { print "/dev/"$2'}`
-summary: |-
-  Force logout after 24 hours idle

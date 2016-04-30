@@ -1,7 +1,0 @@
-commandlinefu_id: 13603
-translator:
-  weibo: tgic
-command: |-
-  awk -F: '{print $2}' access_log | sort | uniq -c
-summary: |-
-  每小时访问量

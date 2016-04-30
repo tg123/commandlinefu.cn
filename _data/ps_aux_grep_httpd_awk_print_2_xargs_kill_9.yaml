@@ -1,7 +1,0 @@
-commandlinefu_id: 1598
-translator:
-  weibo: codepiano
-command: |-
-  ps aux | grep 'httpd ' | awk {'print $2'} | xargs kill -9
-summary: |-
-  杀死指定程序的所有进程，比如：httpd

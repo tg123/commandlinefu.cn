@@ -1,8 +1,0 @@
-commandlinefu_id: 11075
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep_escape() {  echo "$1" |sed -re 's/([\\.*+?(|)^$[])/\\\1/g' -e 's/\{/[{]/g';  }
-summary: |-
-  Escape literal string for inclusion in an egrep regex

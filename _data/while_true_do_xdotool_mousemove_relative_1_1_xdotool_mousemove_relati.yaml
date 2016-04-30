@@ -1,8 +1,0 @@
-commandlinefu_id: 13232
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do xdotool mousemove_relative 1 1; xdotool mousemove_relative -- -1 -1; sleep $((60 * 4)); done
-summary: |-
-  Hold off any screensavers/timeouts

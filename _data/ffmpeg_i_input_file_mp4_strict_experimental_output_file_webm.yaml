@@ -1,8 +1,0 @@
-commandlinefu_id: 13384
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i input_file.mp4 -strict experimental output_file.webm
-summary: |-
-  Convert (almost) any video file into webm format for online html5 streaming

@@ -1,7 +1,0 @@
-commandlinefu_id: 2246
-translator:
-  weibo: tgic
-command: |-
-  find / -iname '*.pdf' -print -exec pdftotext '{}' - \; | grep --color -i "unix"
-summary: |-
-  在pdf中grep

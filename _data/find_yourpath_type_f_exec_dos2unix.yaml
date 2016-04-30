@@ -1,8 +1,0 @@
-commandlinefu_id: 12539
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find $(YourPATH) -type f -exec dos2unix '{}' \;
-summary: |-
-  change file format at one time

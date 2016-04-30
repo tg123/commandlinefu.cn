@@ -1,7 +1,0 @@
-commandlinefu_id: 13139
-translator:
-  weibo: tgic
-command: |-
-  any command | while read line; do echo "[`date -Iseconds`] $line"; done
-summary: |-
-  使stdout加上时间

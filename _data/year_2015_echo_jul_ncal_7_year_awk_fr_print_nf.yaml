@@ -1,8 +1,0 @@
-commandlinefu_id: 13637
-translator:
-  weibo: ''
-hide: true
-command: |-
-  YEAR=2015; echo Jul $(ncal 7 $YEAR | awk '/^Fr/{print $NF}')
-summary: |-
-  Sysadmin day date of any given year

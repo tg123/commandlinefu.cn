@@ -1,8 +1,0 @@
-commandlinefu_id: 4768
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkisofs -J -allow-lowercase -R -V "OpenCD8806" -iso-level 4 -o OpenCD.iso ~/OpenCD
-summary: |-
-  Make ISO image of a folder

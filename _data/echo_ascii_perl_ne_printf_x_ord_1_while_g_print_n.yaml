@@ -1,7 +1,0 @@
-commandlinefu_id: 5397
-translator:
-  weibo: tgic
-command: |-
-  echo $ascii | perl -ne 'printf ("%x", ord($1)) while(/(.)/g); print "\n";'
-summary: |-
-  转换ascii为hex

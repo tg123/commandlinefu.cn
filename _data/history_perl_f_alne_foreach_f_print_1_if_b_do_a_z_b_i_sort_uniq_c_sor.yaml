@@ -1,7 +1,0 @@
-commandlinefu_id: 5305
-translator:
-  weibo: tgic
-command: |-
-  history | perl -F"\||<\(|;|\`|\\$\(" -alne 'foreach (@F) { print $1 if /\b((?!do)[a-z]+)\b/i }' | sort | uniq -c | sort -nr | head
-summary: |-
-  使用最多的命令

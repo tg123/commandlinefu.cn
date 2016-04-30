@@ -1,7 +1,0 @@
-commandlinefu_id: 8371
-translator:
-  weibo: '猪了个去'
-command: |-
-  ls | sed 'p;s/foo/bar/' | xargs -n2 mv
-summary: |-
-  用sed一行程序批量重命名文件

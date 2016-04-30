@@ -1,8 +1,0 @@
-commandlinefu_id: 8374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in ./*foo*;do mv -- "$i" "${i//foo/bar}";done
-summary: |-
-  Rename all files which contain the sub-string 'foo', replacing it with 'bar'

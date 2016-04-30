@@ -1,7 +1,0 @@
-commandlinefu_id: 2736
-translator:
-  weibo: codepiano
-command: |-
-  sed -n 's/.*<foo>\([^<]*\)<\/foo>.*/\1/p'
-summary: |-
-  简单的使用sed提取xml标签

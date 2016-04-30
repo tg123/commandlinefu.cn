@@ -1,7 +1,0 @@
-commandlinefu_id: 4245
-translator:
-  weibo: tgic
-command: |-
-  apt-cache show Your_package
-summary: |-
-  查看包信息

@@ -1,8 +1,0 @@
-commandlinefu_id: 5400
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -v '^#\|^$' /etc/hdparm.conf
-summary: |-
-  Remove comments and empty lines from a file

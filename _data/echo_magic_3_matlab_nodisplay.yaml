@@ -1,7 +1,0 @@
-commandlinefu_id: 11986
-translator:
-  weibo: codepiano
-command: |-
-  echo 'magic(3)' | matlab -nodisplay
-summary: |-
-  在命令行中执行matlab命令

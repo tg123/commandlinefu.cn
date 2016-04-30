@@ -1,7 +1,0 @@
-commandlinefu_id: 7910
-translator:
-  weibo: tgic
-command: |-
-  ffmpeg -i input.flv -aq 2 output.mp3
-summary: |-
-  从flv中提取音频

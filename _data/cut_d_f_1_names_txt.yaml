@@ -1,7 +1,0 @@
-commandlinefu_id: 10921
-translator:
-  weibo: tgic
-command: |-
-  cut -d: -f 1 names.txt
-summary: |-
-  选择以冒号分割文件的第一列

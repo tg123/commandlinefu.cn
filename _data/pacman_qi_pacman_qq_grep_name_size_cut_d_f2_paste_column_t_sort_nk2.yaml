@@ -1,8 +1,0 @@
-commandlinefu_id: 8398
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pacman -Qi $(pacman -Qq)|grep 'Name\|Size'| cut -d: -f2 | paste - - | column -t | sort -nk2
-summary: |-
-  Arch Linux sort installed packages by size

@@ -1,7 +1,0 @@
-commandlinefu_id: 2633
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pkill -9 -f program
-summary: |-
-  向某进程传递SIGKILL信号来杀死它

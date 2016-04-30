@@ -1,8 +1,0 @@
-commandlinefu_id: 5429
-translator:
-  weibo: ''
-hide: true
-command: |-
-  LATEST=`readlink /boot/vmlinuz`; OLD=`readlink /boot/vmlinuz.old`; cat /boot/grub/grub.conf | sed -i -e 's/\(Latest \[[^-]*\).*\]/\1-'"${LATEST#*-}"]'/1' -e 's/\(Old \[[^-]*\).*\]/\1-'"${OLD#*-}"]'/1' /boot/grub/grub.conf
-summary: |-
-  Automagically update grub.conf labels after installing a new kernel

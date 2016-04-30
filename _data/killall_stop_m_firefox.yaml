@@ -1,8 +1,0 @@
-commandlinefu_id: 2202
-translator:
-  weibo: ''
-hide: true
-command: |-
-  killall -STOP -m firefox
-summary: |-
-  Manually Pause/Unpause Firefox Process with POSIX-Signals

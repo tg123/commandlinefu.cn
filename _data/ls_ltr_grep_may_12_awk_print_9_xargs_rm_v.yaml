@@ -1,7 +1,0 @@
-commandlinefu_id: 10834
-translator:
-  weibo: codepiano
-command: |-
-  ls -ltr |grep 'May 12'|awk '{print $9;}'|xargs rm -v
-summary: |-
-  通过日期过滤文件，然后删除

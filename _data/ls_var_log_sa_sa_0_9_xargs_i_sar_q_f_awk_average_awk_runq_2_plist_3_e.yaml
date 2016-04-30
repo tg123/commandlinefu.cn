@@ -1,8 +1,0 @@
-commandlinefu_id: 11423
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls /var/log/sa/sa[0-9]*|xargs -I '{}' sar -q -f {}| awk '/Average/'|awk '{runq+=$2;plist+=$3}END{print "average runq-sz:",runq/NR; print "average plist-sz: "plist/NR}'
-summary: |-
-  SAR - Get the monthly queue length average using sar -q for both the runq-sz and plist-sz.

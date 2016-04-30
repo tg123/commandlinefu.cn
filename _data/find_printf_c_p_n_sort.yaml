@@ -1,7 +1,0 @@
-commandlinefu_id: 12422
-translator:
-  weibo: codepiano
-command: |-
-  find -printf "%C@ %p\n"|sort
-summary: |-
-  查找文件并且按照修改时间进行排序

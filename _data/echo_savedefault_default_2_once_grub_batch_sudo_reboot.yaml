@@ -1,7 +1,0 @@
-commandlinefu_id: 6488
-translator:
-  weibo: tgic
-command: |-
-  echo "savedefault --default=2 --once" | grub --batch; sudo reboot
-summary: |-
-  调整grub启动的系统

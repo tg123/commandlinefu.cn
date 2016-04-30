@@ -1,8 +1,0 @@
-commandlinefu_id: 743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ${PATH//:/ } -executable -type f -printf "%f\n"
-summary: |-
-  List all execs in $PATH, usefull for grepping the resulting list

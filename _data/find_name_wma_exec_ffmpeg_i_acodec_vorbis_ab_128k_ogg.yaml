@@ -1,7 +1,0 @@
-commandlinefu_id: 1275
-translator:
-  weibo: tgic
-command: |-
-  find -name '*wma' -exec ffmpeg -i {} -acodec vorbis -ab 128k {}.ogg \;
-summary: |-
-  转化.wma为.ogg

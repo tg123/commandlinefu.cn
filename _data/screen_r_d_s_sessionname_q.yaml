@@ -1,8 +1,0 @@
-commandlinefu_id: 12355
-translator:
-  weibo: ''
-hide: true
-command: |-
-  screen -R -D -S sessionname -q
-summary: |-
-  Start screen, attach here an now to sessionname , be quiet

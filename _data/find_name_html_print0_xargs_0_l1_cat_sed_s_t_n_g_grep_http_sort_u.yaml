@@ -1,7 +1,0 @@
-commandlinefu_id: 2645
-translator:
-  weibo: codepiano
-command: |-
-  find . -name '*.html' -print0| xargs -0 -L1 cat |sed "s/[\"\<\>' \t\(\);]/\n/g" |grep "http://" |sort -u
-summary: |-
-  在列出的目录中的html文件中查找外部链接

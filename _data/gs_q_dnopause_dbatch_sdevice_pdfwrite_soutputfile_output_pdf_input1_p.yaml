@@ -1,8 +1,0 @@
-commandlinefu_id: 8856
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=output.pdf input1.pdf input2.pdf ...
-summary: |-
-  Merge PDFs into single file

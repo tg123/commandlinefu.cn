@@ -1,8 +1,0 @@
-commandlinefu_id: 8862
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk input1.pdf input2.pdf cat output output.pdf
-summary: |-
-  Merge PDFs into single file

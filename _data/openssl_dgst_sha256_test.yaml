@@ -1,7 +1,0 @@
-commandlinefu_id: 7229
-translator:
-  weibo: tgic
-command: |-
-  openssl dgst -sha256 <<<"test"
-summary: |-
-  生成字符串的hash

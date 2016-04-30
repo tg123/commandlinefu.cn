@@ -1,8 +1,0 @@
-commandlinefu_id: 156
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fsutil file createnew FILENAME filesize(inbytes)
-summary: |-
-  Create files of arbitrary size in Windows

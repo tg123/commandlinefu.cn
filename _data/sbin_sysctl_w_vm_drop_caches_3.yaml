@@ -1,7 +1,0 @@
-commandlinefu_id: 11085
-translator:
-  weibo: tgic
-command: |-
-  /sbin/sysctl -w vm.drop_caches=3
-summary: |-
-  释放cache

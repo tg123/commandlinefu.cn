@@ -1,7 +1,0 @@
-commandlinefu_id: 4384
-translator:
-  weibo: codepiano
-command: |-
-  echo -ne "\e[32m" ; while true ; do echo -ne "\e[$(($RANDOM % 2 + 1))m" ; tr -c "[:print:]" " " < /dev/urandom | dd count=1 bs=50 2> /dev/null ; done
-summary: |-
-  另一个《黑客帝国》效果的实现

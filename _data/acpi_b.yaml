@@ -1,7 +1,0 @@
-commandlinefu_id: 5818
-translator:
-  weibo: gdqyn
-command: |-
-  acpi -b
-summary: |-
-  检查笔记本是电池供电还是线缆供电

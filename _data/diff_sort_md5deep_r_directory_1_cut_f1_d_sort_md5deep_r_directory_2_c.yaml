@@ -1,7 +1,0 @@
-commandlinefu_id: 12626
-translator:
-  weibo: tgic
-command: |-
-  diff <(sort <(md5deep -r /directory/1/) |cut -f1 -d' ') <(sort <(md5deep -r /directory/2/) |cut -f1 -d' ')
-summary: |-
-  使用md5比较两个目录里边的文件

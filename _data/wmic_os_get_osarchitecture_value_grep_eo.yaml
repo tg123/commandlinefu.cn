@@ -1,7 +1,0 @@
-commandlinefu_id: 13264
-translator:
-  weibo: tgic
-command: |-
-  wmic OS get OSArchitecture /value | grep -Eo '[^=]*$'
-summary: |-
-  获取windows 架构 [cygwin]

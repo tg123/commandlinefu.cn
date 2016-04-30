@@ -1,7 +1,0 @@
-commandlinefu_id: 2523
-translator:
-  weibo: tgic
-command: |-
-  source ~/.bash_profile
-summary: |-
-  修改bash_profile 后刷新

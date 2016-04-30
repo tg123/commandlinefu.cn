@@ -1,7 +1,0 @@
-commandlinefu_id: 4048
-translator:
-  weibo: tgic
-command: |-
-  ls -a | egrep "^\.\w"
-summary: |-
-  列出所有隐藏文件

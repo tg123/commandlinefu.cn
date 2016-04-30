@@ -1,8 +1,0 @@
-commandlinefu_id: 5186
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i.backup '/patter/{n;s/foo/bar/g}' file
-summary: |-
-  SED - Substitute string in next line

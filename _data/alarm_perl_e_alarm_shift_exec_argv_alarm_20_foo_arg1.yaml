@@ -1,7 +1,0 @@
-commandlinefu_id: 12656
-translator:
-  weibo: tgic
-command: |-
-  alarm() { perl -e 'alarm shift; exec @ARGV' "$@"; }; alarm 20 foo arg1
-summary: |-
-  带有超时的执行命令

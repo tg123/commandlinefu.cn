@@ -1,8 +1,0 @@
-commandlinefu_id: 6517
-translator:
-  weibo: ''
-hide: true
-command: |-
-  useradd -m -p $(perl -e'print crypt("pass", "mb")') user
-summary: |-
-  Create new user with home directory and given password

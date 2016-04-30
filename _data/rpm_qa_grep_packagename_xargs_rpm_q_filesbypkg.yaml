@@ -1,8 +1,0 @@
-commandlinefu_id: 1235
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -qa | grep PACKAGENAME | xargs rpm -q --filesbypkg
-summary: |-
-  search installed files of package, that doesn't remember his name well. On rpm systems

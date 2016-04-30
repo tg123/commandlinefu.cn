@@ -1,8 +1,0 @@
-commandlinefu_id: 6430
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 's/^\s*//;s/\s*$//' -i file
-summary: |-
-  delete all leading and trailing whitespace from each line in file

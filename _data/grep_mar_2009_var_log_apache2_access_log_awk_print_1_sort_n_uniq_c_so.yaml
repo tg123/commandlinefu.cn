@@ -1,8 +1,0 @@
-commandlinefu_id: 1435
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep Mar/2009 /var/log/apache2/access.log |  awk '{ print $1 }' | sort -n | uniq -c | sort -rn | head
-summary: |-
-  grep apache access.log and list IP's by hits and date - sorted

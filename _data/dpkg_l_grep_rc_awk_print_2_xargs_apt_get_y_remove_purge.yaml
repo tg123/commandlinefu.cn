@@ -1,7 +1,0 @@
-commandlinefu_id: 11894
-translator:
-  weibo: tgic
-command: |-
-  dpkg -l | grep ^rc | awk '{ print $2}' | xargs apt-get -y remove --purge
-summary: |-
-  彻底清理包 deb

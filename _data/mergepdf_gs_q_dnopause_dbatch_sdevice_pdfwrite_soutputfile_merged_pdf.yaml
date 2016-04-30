@@ -1,8 +1,0 @@
-commandlinefu_id: 8929
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mergepdf() { gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=merged.pdf "$@" }
-summary: |-
-  Merge PDFs with Ghostscript wrapped in a function

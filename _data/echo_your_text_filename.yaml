@@ -1,7 +1,0 @@
-commandlinefu_id: 5768
-translator:
-  weibo: ''
-command: |-
-  echo "your text" > filename
-summary: |-
-  创建一个特定内容的文件 

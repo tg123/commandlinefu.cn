@@ -1,8 +1,0 @@
-commandlinefu_id: 7832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -q --whatprovides $filename
-summary: |-
-  find the rpm package name that provides a specific file

@@ -1,7 +1,0 @@
-commandlinefu_id: 10379
-translator:
-  weibo: tgic
-command: |-
-  tr a-zA-Z A-Za-z < input.txt
-summary: |-
-  大写转小写 小写转大写

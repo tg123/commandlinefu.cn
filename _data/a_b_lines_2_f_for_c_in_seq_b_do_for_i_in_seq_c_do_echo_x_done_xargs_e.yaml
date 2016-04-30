@@ -1,8 +1,0 @@
-commandlinefu_id: 14153
-translator:
-  weibo: ''
-hide: true
-command: |-
-  a=$(b=$(($LINES/2));f() { for c in $(seq $b); do for i in $(seq $c);do echo x;done|xargs echo;done };paste <(f) <(f|tac|tr 'x' '-') <(f|tac|tr 'x' '-') <(f)|tr '\t' ' ');(cat <<<"$a"|tac;cat <<<"$a")|tr '-' ' '
-summary: |-
-  draw rhomb

@@ -1,7 +1,0 @@
-commandlinefu_id: 1151
-translator:
-  weibo: codepiano
-command: |-
-  history -r
-summary: |-
-  清除当前会话的历史

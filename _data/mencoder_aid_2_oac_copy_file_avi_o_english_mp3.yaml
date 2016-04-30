@@ -1,8 +1,0 @@
-commandlinefu_id: 2227
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -aid 2 -oac copy file.avi -o english.mp3
-summary: |-
-  Extract an audio track from a multilingual video file, for a specific language.

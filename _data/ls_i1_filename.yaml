@@ -1,7 +1,0 @@
-commandlinefu_id: 9289
-translator:
-  weibo: tgic
-command: |-
-  ls -i1 filename
-summary: |-
-  用inode 来确认唯一性

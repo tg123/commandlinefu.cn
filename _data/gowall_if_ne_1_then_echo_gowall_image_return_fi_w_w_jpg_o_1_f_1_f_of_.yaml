@@ -1,8 +1,0 @@
-commandlinefu_id: 10993
-translator:
-  weibo: ''
-hide: true
-command: |-
-  goWall() { if [ $# -ne 1 ]; then echo 'goWall image';return;fi;w=w.jpg;o="$1";f="$1"-f;of="$1"-af;off="$1"-aff;convert "$1" -flop $f;montage -geometry +0+0 -tile 2x "$1" $f $of;convert $of -flip $off;montage -geometry +0+0 -tile 1x $of $off $w }
-summary: |-
-  Make a repeating patterned wallpaper from any image

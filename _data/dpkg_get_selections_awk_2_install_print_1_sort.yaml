@@ -1,8 +1,0 @@
-commandlinefu_id: 8102
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg --get-selections | awk '$2=="install" {print $1}' | sort
-summary: |-
-  Print sorted list of all installed packages (Debian)

@@ -1,7 +1,0 @@
-commandlinefu_id: 7332
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -depth -name .svn -type d -exec rm -fr {} \;
-summary: |-
-  跟.svn文件夹说永别

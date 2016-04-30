@@ -1,7 +1,0 @@
-commandlinefu_id: 4456
-translator:
-  weibo: tgic
-command: |-
-  mount -o loop -t iso9660 my.iso /mnt/something
-summary: |-
-  挂载iso

@@ -1,8 +1,0 @@
-commandlinefu_id: 11712
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finger `whoami` | awk -F: '{ print $3 }' | head -n1 | sed 's/^ //'
-summary: |-
-  Get user's full name in Mac OS X

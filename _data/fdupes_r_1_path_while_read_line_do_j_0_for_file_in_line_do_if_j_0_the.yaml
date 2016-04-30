@@ -1,8 +1,0 @@
-commandlinefu_id: 8722
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fdupes -r -1 path | while read line; do j="0"; for file in ${line[*]}; do if [ "$j" == "0" ]; then j="1"; else ln -f ${line// .*/} $file; fi; done; done
-summary: |-
-  Replace duplicate files by hardlinks

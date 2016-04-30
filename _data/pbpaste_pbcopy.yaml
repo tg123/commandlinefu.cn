@@ -1,7 +1,0 @@
-commandlinefu_id: 3564
-translator:
-  weibo: tgic
-command: |-
-  `pbpaste` | pbcopy
-summary: |-
-  执行剪切板内容 OSX

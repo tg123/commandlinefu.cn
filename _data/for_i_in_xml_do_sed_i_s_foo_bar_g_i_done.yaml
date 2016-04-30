@@ -1,7 +1,0 @@
-commandlinefu_id: 2698
-translator:
-  weibo: tgic
-command: |-
-  for i in *.xml; do sed -i 's/foo/bar/g' "$i"; done
-summary: |-
-  批量替换xml中关键字

@@ -1,8 +1,0 @@
-commandlinefu_id: 13212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(find . -regex '.*\/C.*\.cpp'); do svn mv `perl -e 'my $s=$ARGV[0]; $s=~m/(.*\/)C(.*)/; print "$s $1$2"' "$i"`; done
-summary: |-
-  Call `svn mv` recursively to rename the C prefix from class names

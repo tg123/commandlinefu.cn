@@ -1,8 +1,0 @@
-commandlinefu_id: 1344
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder "$1" -ofps 23.976 -ovc lavc -oac copy -o "$1".avi
-summary: |-
-  Convert video files to XviD

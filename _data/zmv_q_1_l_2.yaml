@@ -1,7 +1,0 @@
-commandlinefu_id: 12115
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  zmv -Q '(**/)(*)(.)' '$1${(L)2}'
-summary: |-
-  递归地将文件名从大写改成小写（或相反）

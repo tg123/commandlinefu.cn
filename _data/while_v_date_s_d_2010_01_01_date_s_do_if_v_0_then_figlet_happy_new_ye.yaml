@@ -1,8 +1,0 @@
-commandlinefu_id: 4455
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while V=$((`date +%s -d"2010-01-01"`-`date +%s`));do if [ $V == 0 ];then figlet 'Happy New Year!';break;else figlet $V;sleep 1;clear;fi;done
-summary: |-
-  climagic's New Year's Countdown clock

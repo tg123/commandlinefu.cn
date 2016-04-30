@@ -1,7 +1,0 @@
-commandlinefu_id: 2718
-translator:
-  weibo: tgic
-command: |-
-  for i in `git log --all --oneline --format=%h`; do git grep SOME_STRING $i; done
-summary: |-
-  在所有的版本中查找

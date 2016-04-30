@@ -1,8 +1,0 @@
-commandlinefu_id: 10296
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xe-toolstack-restart
-summary: |-
-  Restart Xen XAPI

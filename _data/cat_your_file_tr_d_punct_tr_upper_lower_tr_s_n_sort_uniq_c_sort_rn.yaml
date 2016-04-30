@@ -1,8 +1,0 @@
-commandlinefu_id: 7657
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat YOUR_FILE|tr -d '[:punct:]'|tr '[:upper:]' '[:lower:]'|tr -s ' ' '\n'|sort|uniq -c|sort -rn
-summary: |-
-  Count the frequency of every word for a given file

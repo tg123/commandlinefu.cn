@@ -1,7 +1,0 @@
-commandlinefu_id: 11660
-translator:
-  weibo: tgic
-command: |-
-  ps axu | grep [a]pache2
-summary: |-
-  查看进程时候避免自己被grep 到

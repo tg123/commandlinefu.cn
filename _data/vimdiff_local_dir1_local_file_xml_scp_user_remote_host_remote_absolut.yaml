@@ -1,7 +1,0 @@
-commandlinefu_id: 11553
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  vimdiff local_dir1/local_file.xml scp://user@remote_host//remote_absolute_location/remote_file.xml
-summary: |-
-  使用SCP/VIM/DIFF来比较本地文件和远程主机上的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 9074
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fileName(){ echo ${1##*/}; }
-summary: |-
-  Alternative for basename using grep to extract file name

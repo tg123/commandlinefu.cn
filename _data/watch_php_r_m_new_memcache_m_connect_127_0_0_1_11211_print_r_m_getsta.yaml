@@ -1,8 +1,0 @@
-commandlinefu_id: 12643
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch 'php -r '"'"'$m=new Memcache;$m->connect("127.0.0.1", 11211);print_r($m->getstats());'"'"
-summary: |-
-  php command show status memcache

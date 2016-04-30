@@ -1,8 +1,0 @@
-commandlinefu_id: 8559
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ $(date +%u) -lt 6 ];then AT="tomorrow"; else AT="next monday";fi;echo "beep" | at ${AT}
-summary: |-
-  Get the next weekday for an 'at' command

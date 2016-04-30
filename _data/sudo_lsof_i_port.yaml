@@ -1,7 +1,0 @@
-commandlinefu_id: 1445
-translator:
-  weibo: tgic
-command: |-
-  sudo lsof -i :<port>
-summary: |-
-  查看打开端口的进程

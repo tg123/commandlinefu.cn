@@ -1,7 +1,0 @@
-commandlinefu_id: 8719
-translator:
-  weibo: tgic
-command: |-
-  iptables -A OUTPUT www.baidu.com -p tcp -j REJECT --reject-with tcp-reset
-summary: |-
-  防止访问不良网站

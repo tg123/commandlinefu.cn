@@ -1,8 +1,0 @@
-commandlinefu_id: 3565
-translator:
-  weibo: tgic
-hide: false
-command: |
-  find . | xargs file | grep ".*: .* text" | sed "s;\(.*\): .* text.*;\1;"
-summary: |-
-  找出不是二进制文件的 文本文件

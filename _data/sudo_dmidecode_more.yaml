@@ -1,7 +1,0 @@
-commandlinefu_id: 737
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo dmidecode | more
-summary: |-
-  显示硬件配置信息

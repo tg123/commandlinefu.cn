@@ -1,8 +1,0 @@
-commandlinefu_id: 13363
-translator:
-  weibo: ''
-hide: true
-command: |-
-  csvcount() { for dir in $@; do echo -e "$(find $dir -name '*.csv' | wc -l)\t$dir"; done }
-summary: |-
-  Recursively count the number of CSV files in each given directory

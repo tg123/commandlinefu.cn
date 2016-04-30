@@ -1,7 +1,0 @@
-commandlinefu_id: 7309
-translator:
-  weibo: tgic
-command: |-
-  find . -name .svn -print0 | xargs -0 rm -rf
-summary: |-
-  删除所有.svn

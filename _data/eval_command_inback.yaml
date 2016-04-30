@@ -1,8 +1,0 @@
-commandlinefu_id: 10548
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eval <command> ${INBACK:-&}
-summary: |-
-  Launch command in backgroup or not

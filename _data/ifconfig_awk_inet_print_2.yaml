@@ -1,8 +1,0 @@
-commandlinefu_id: 1259
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | awk '/inet / {print $2}'
-summary: |-
-  Mac OS X - List all of my machine's IP addresses

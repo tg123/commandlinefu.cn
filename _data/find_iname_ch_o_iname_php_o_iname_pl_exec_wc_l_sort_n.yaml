@@ -1,7 +1,0 @@
-commandlinefu_id: 5518
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . \( -iname '*.[ch]' -o -iname '*.php' -o -iname '*.pl' \) -exec wc -l {} + | sort -n
-summary: |-
-  给定若干拓展名，计算相对应的文件的行数，并对结果从小到大排序

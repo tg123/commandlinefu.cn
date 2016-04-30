@@ -1,8 +1,0 @@
-commandlinefu_id: 12975
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdpyinfo | grep dimensions | awk '{print $2}'
-summary: |-
-  Gets the X11 Screen resolution

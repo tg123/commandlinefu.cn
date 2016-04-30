@@ -1,7 +1,0 @@
-commandlinefu_id: 9124
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -iname '*.conf' | xargs grep "search string" -sl
-summary: |-
-  在指定文件类型中递归查找到目标字符串

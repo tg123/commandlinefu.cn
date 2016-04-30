@@ -1,7 +1,0 @@
-commandlinefu_id: 10841
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  parted /dev/sda print
-summary: |-
-  以可读性良好的格式输出分区大小

@@ -1,8 +1,0 @@
-commandlinefu_id: 229
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '2^2^20' | time bc > /dev/null
-summary: |-
-  quick integer CPU benchmark

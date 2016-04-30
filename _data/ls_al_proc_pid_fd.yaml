@@ -1,7 +1,0 @@
-commandlinefu_id: 335
-translator:
-  weibo: tgic
-command: |-
-  ls -al /proc/<PID>/fd
-summary: |-
-  查看进程打开的文件描述符

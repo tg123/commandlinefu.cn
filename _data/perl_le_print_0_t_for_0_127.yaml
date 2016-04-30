@@ -1,8 +1,0 @@
-commandlinefu_id: 4561
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -le 'print $!+0, "\t", $!++ for 0..127'
-summary: |-
-  Print a list of standard error codes and descriptions.

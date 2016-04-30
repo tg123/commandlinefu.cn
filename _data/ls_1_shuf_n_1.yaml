@@ -1,7 +1,0 @@
-commandlinefu_id: 8090
-translator:
-  weibo: tgic
-command: |-
-  ls -1 | shuf -n 1
-summary: |-
-  随机选一个目录

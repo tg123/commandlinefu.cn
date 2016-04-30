@@ -1,7 +1,0 @@
-commandlinefu_id: 928
-translator:
-  weibo: tgic
-command: |-
-  echo "foo bar" | sudo tee -a /path/to/some/file
-summary: |-
-  如何echo到一个没有权限的文件里边

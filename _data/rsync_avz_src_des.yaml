@@ -1,8 +1,0 @@
-commandlinefu_id: 10829
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -avz ~/src ~/des/
-summary: |-
-  Synchronize directory copy

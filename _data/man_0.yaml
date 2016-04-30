@@ -1,7 +1,0 @@
-commandlinefu_id: 6332
-translator:
-  weibo: tgic
-command: |-
-  man !!:0
-summary: |-
-  查看刚才命令的man

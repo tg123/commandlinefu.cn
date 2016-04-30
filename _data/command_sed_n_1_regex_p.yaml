@@ -1,8 +1,0 @@
-commandlinefu_id: 4406
-translator:
-  weibo: ''
-hide: true
-command: |-
-  command | sed -n '1,/regex/p'
-summary: |-
-  Display the output of a command from the first line until the first instance of a regular expression.

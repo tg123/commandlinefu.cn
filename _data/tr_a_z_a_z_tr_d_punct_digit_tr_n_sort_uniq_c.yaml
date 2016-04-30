@@ -1,7 +1,0 @@
-commandlinefu_id: 6841
-translator:
-  weibo: '猪了个去'
-command: |-
-  tr A-Z a-z | tr -d "[[:punct:]][[:digit:]]" | tr ' /_' '\n' | sort | uniq -c
-summary: |-
-  文本文件单词频率计数

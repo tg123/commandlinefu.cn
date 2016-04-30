@@ -1,7 +1,0 @@
-commandlinefu_id: 6605
-translator:
-  weibo: tgic
-command: |-
-  gzip -cd file.gz | ssh user@host 'dd of=~/file'
-summary: |-
-  解压文件到远端

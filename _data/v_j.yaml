@@ -1,8 +1,0 @@
-commandlinefu_id: 3036
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :%v/./,/./-j
-summary: |-
-  Shrink more than one blank lines to one in VIM.

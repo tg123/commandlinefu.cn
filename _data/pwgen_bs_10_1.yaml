@@ -1,7 +1,0 @@
-commandlinefu_id: 4190
-translator:
-  weibo: tgic
-command: |-
-  pwgen -Bs 10 1
-summary: |-
-  生成密码

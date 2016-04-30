@@ -1,7 +1,0 @@
-commandlinefu_id: 7930
-translator:
-  weibo: tgic
-command: |-
-  fdupes -r .
-summary: |-
-  查找重复的文件

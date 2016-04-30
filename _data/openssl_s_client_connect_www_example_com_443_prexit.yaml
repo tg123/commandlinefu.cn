@@ -1,7 +1,0 @@
-commandlinefu_id: 4883
-translator:
-  weibo: tgic
-command: |-
-  openssl s_client -connect www.example.com:443 -prexit
-summary: |-
-  查看服务器接受的证书

@@ -1,7 +1,0 @@
-commandlinefu_id: 622
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  realpath ./somefile.c | xclip -selection c
-summary: |-
-  复制文件的完整路径到剪贴板中（需要安装realpath和xclip）

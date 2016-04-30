@@ -1,8 +1,0 @@
-commandlinefu_id: 7979
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 2~2d
-summary: |-
-  Print only the odd lines of a file (GNU sed)

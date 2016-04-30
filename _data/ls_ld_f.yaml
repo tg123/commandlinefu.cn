@@ -1,7 +1,0 @@
-commandlinefu_id: 993
-translator:
-  weibo: tgic
-command: |-
-  ls -ld **/*(/^F)
-summary: |-
-  列出空目录

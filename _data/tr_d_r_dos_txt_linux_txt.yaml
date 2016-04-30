@@ -1,8 +1,0 @@
-commandlinefu_id: 9224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -d "\r" < dos.txt > linux.txt
-summary: |-
-  Convert windows text file to linux text document

@@ -1,8 +1,0 @@
-commandlinefu_id: 12342
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -q ${SRC_HOST} "mysqldump --add-drop-database --create-options --databases wordpress | sed -r \"s/${OLD_URL}/${NEW_URL}/g\" | gzip -9" | ssh ${DST_HOST} "gunzip | mysql"
-summary: |-
-  Migrate wordpress db between two hosts changing the URL on the fly with encryption and compression

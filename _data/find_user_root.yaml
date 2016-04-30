@@ -1,8 +1,0 @@
-commandlinefu_id: 12821
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -user root
-summary: |-
-  list files by testing the ownership

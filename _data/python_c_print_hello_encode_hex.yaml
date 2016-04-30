@@ -1,7 +1,0 @@
-commandlinefu_id: 9884
-translator:
-  weibo: tgic
-command: |-
-  python -c 'print "hello".encode("hex")'
-summary: |-
-  转换ascii为hex

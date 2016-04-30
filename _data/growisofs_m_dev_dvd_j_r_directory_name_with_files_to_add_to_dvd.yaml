@@ -1,8 +1,0 @@
-commandlinefu_id: 2151
-translator:
-  weibo: ''
-hide: true
-command: |-
-  growisofs -M /dev/dvd -J -r "directory name with files to add to DVD"
-summary: |-
-  add files to existing growable DVD using growisofs

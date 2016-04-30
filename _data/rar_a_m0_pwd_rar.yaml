@@ -1,7 +1,0 @@
-commandlinefu_id: 603
-translator:
-  weibo: tgic
-command: |-
-  rar a -m0 "${PWD##*/}.rar" *
-summary: |-
-  自动命名创建rar的包 

@@ -1,7 +1,0 @@
-commandlinefu_id: 8365
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  $ echo "command"; `!#:0-$
-summary: |-
-  输出一行命令并在Bash中执行

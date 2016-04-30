@@ -1,7 +1,0 @@
-commandlinefu_id: 7036
-translator:
-  weibo: tgic
-command: |-
-  grep 'model\|MHz' /proc/cpuinfo  |tail -n 2
-summary: |-
-  查看cpu型号

@@ -1,8 +1,0 @@
-commandlinefu_id: 1454
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff <(nmap -sP 192.168.1.0/24 | grep ^Host | sed 's/.appears to be up.//g' | sed 's/Host //g') auth.hosts | sed 's/[0-9][a-z,A-Z][0-9]$//' | sed 's/</UNAUTHORIZED IP -/g'
-summary: |-
-  Scan your LAN for unauthorized IPs

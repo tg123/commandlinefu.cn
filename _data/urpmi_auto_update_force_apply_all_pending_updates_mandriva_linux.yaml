@@ -1,8 +1,0 @@
-commandlinefu_id: 1765
-translator:
-  weibo: ''
-hide: true
-command: |-
-  urpmi --auto-update --force    # apply all pending updates (Mandriva Linux)
-summary: |-
-  Apply all pending updates to Mandriva Linux system (2008.0 and newer).

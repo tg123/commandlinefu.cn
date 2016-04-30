@@ -1,7 +1,0 @@
-commandlinefu_id: 8539
-translator:
-  weibo: tgic
-command: |-
-  ls -t1 | head -n1
-summary: |-
-  查看最新的文件

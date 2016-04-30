@@ -1,7 +1,0 @@
-commandlinefu_id: 4355
-translator:
-  weibo: codepiano
-command: |-
-  tar -cvzf arch.tgz $(find /path/dir -not -type d)
-summary: |-
-  Tar - 不压缩目录，tar命令在解压时会创建必要的目录结构

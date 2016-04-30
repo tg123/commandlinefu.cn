@@ -1,8 +1,0 @@
-commandlinefu_id: 2882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl+j>stty sane<ctrl+j>
-summary: |-
-  Salvage a borked terminal

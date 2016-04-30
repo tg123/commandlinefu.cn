@@ -1,8 +1,0 @@
-commandlinefu_id: 12161
-translator:
-  weibo: ''
-hide: true
-command: |-
-  data:text/html, <html contenteditable>
-summary: |-
-  Notepad in a browser (type this in the URL bar)

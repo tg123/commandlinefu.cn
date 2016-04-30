@@ -1,7 +1,0 @@
-commandlinefu_id: 4379
-translator:
-  weibo: codepiano
-command: |-
-  tar -cf - . | pv -s $(du -sb . | awk '{print $1}') | gzip > out.tgz
-summary: |-
-  复制工作目录，在显示进度的同时进行压缩

@@ -1,8 +1,0 @@
-commandlinefu_id: 4143
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat | awk '/EST/{print $5}' | sort
-summary: |-
-  Sorted list of established destination connections

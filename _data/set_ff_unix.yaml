@@ -1,7 +1,0 @@
-commandlinefu_id: 6152
-translator:
-  weibo: tgic
-command: |-
-  :set ff=unix
-summary: |-
-  在vim中清除^M

@@ -1,7 +1,0 @@
-commandlinefu_id: 1754
-translator:
-  weibo: josephok
-command: |-
-  :1,$d
-summary: |-
-  清空文本文件

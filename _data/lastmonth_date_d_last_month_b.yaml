@@ -1,7 +1,0 @@
-commandlinefu_id: 6621
-translator:
-  weibo: tgic
-command: |-
-  LASTMONTH=`date -d "last month" +%B`
-summary: |-
-  上个月

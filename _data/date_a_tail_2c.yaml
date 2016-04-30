@@ -1,8 +1,0 @@
-commandlinefu_id: 5308
-translator:
-  weibo: ''
-hide: true
-command: |-
-  date +%A | tail -2c
-summary: |-
-  Find out what the day ends in

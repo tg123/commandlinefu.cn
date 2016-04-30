@@ -1,7 +1,0 @@
-commandlinefu_id: 7986
-translator:
-  weibo: tgic
-command: |-
-  xargs < [inputfile]
-summary: |-
-  清除换行

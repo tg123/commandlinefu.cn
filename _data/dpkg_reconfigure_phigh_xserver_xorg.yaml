@@ -1,8 +1,0 @@
-commandlinefu_id: 1247
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg-reconfigure -phigh xserver-xorg
-summary: |-
-  Creates a minimalist xorg.conf

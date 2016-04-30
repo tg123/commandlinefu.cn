@@ -1,8 +1,0 @@
-commandlinefu_id: 10735
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cloc --force-lang=yaml --match-f='\.url$' .
-summary: |-
-  count line of code

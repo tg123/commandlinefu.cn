@@ -1,8 +1,0 @@
-commandlinefu_id: 1800
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | sort +2n | tail -20
-summary: |-
-  Show the 20 most CPU/Memory hungry processes

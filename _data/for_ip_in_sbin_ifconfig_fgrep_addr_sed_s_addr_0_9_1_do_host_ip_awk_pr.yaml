@@ -1,8 +1,0 @@
-commandlinefu_id: 3438
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for IP in $(/sbin/ifconfig | fgrep addr: | sed 's/.*addr:\([[0-9.]*\) .*/\1/') ; do host $IP | awk '{print $5}'; done
-summary: |-
-  List hostnames of all IPs

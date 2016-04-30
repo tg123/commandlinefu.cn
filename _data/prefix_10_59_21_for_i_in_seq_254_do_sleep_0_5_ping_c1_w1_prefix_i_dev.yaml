@@ -1,8 +1,0 @@
-commandlinefu_id: 13304
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (prefix="10.59.21" && for i in `seq 254`; do (sleep 0.5 && ping -c1 -w1 $prefix.$i &> /dev/null && arp -n | awk ' /'$prefix'.'$i' / { print $1 " " $3 } ') & done; wait)
-summary: |-
-  Ping sweep without NMAP

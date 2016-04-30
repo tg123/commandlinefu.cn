@@ -1,7 +1,0 @@
-commandlinefu_id: 3441
-translator:
-  weibo: tgic
-command: |-
-  echo "vertical text" | grep -o '.'
-summary: |-
-  垂直输出

@@ -1,8 +1,0 @@
-commandlinefu_id: 13171
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name *.properties -exec /bin/echo {} \; -exec cat {} \; | grep -E 'listen|properties'
-summary: |-
-  find and output files content with filtering by filename and specific string

@@ -1,8 +1,0 @@
-commandlinefu_id: 942
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/local/bin/OFPW -mode 1
-summary: |-
-  set open firmware password command mode

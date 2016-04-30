@@ -1,7 +1,0 @@
-commandlinefu_id: 11471
-translator:
-  weibo: tgic
-command: |-
-  tidy -i -xml <inputfile>
-summary: |-
-  格式化xml

@@ -1,8 +1,0 @@
-commandlinefu_id: 5481
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f access_log | cut -c2-21 | uniq -c
-summary: |-
-  Realtime apache hits per second

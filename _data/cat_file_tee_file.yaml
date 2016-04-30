@@ -1,7 +1,0 @@
-commandlinefu_id: 2809
-translator:
-  weibo: tgic
-command: |-
-  cat file | tee >> file
-summary: |-
-  把文件内容贴到他自己的尾巴上(直接cat 不可以)

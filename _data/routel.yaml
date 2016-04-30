@@ -1,8 +1,0 @@
-commandlinefu_id: 2025
-translator:
-  weibo: ''
-hide: true
-command: |-
-  routel
-summary: |-
-  Display formatted routes

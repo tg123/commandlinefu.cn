@@ -1,8 +1,0 @@
-commandlinefu_id: 10645
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find $HOME -type d -perm 777 -exec chmod 755 {} \; -print
-summary: |-
-  Find directories under home directory with 777 permissions, change to 755, and list them on console

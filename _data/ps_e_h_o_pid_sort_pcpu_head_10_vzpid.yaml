@@ -1,8 +1,0 @@
-commandlinefu_id: 10783
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -e h -o pid --sort -pcpu | head -10 | vzpid -
-summary: |-
-  See OpenVZ Container id's of top 10 running processes by %cpu

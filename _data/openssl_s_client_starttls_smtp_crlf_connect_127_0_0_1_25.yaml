@@ -1,8 +1,0 @@
-commandlinefu_id: 3093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl s_client -starttls smtp -crlf -connect 127.0.0.1:25
-summary: |-
-  Connect to SMTP server using STARTTLS

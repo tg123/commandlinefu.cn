@@ -1,8 +1,0 @@
-commandlinefu_id: 12638
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hciconfig;hciconfig -a hci0;lsmod |grep bt;dmesg | grep tooth
-summary: |-
-  Bluetooth hardware info

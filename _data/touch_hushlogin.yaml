@@ -1,8 +1,0 @@
-commandlinefu_id: 11625
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch ~/.hushlogin
-summary: |-
-  shush MOTD

@@ -1,8 +1,0 @@
-commandlinefu_id: 3912
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 60 du /var/log/messages
-summary: |-
-  Monitor a file's size

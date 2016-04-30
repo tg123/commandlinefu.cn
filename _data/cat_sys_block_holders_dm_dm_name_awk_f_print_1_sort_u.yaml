@@ -1,8 +1,0 @@
-commandlinefu_id: 12124
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /sys/block/{*,*/*}/holders/dm*/dm/name | awk -F- '{print $1}' | sort -u
-summary: |-
-  List LVM Volume Groups as an unprivileged user

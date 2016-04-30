@@ -1,7 +1,0 @@
-commandlinefu_id: 9714
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tar xfz filename.tar.gz -C PathToDirectory
-summary: |-
-  将tar文件提取到指定文件夹

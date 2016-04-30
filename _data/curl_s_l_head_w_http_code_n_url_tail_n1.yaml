@@ -1,8 +1,0 @@
-commandlinefu_id: 5249
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s -L --head -w "%{http_code}\n" URL | tail -n1
-summary: |-
-  Get the state (HTTP code) of a resource from its URL

@@ -1,7 +1,0 @@
-commandlinefu_id: 6619
-translator:
-  weibo: tgic
-command: |-
-  openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'
-summary: |-
-  随机生成一个mac地址

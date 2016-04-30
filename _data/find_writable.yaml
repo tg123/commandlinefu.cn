@@ -1,7 +1,0 @@
-commandlinefu_id: 1893
-translator:
-  weibo: tgic
-command: |-
-  find -writable
-summary: |-
-  寻找可写的文件

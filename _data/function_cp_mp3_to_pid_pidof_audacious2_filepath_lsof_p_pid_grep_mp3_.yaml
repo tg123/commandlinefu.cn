@@ -1,8 +1,0 @@
-commandlinefu_id: 7233
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function cp_mp3_to { PID=`pidof audacious2`; FILEPATH=`lsof -p $PID| grep mp3| sed s/[^\/]*//`; cp "$FILEPATH" "$1"; }
-summary: |-
-  Copies currently played song in Audacious to selected directory

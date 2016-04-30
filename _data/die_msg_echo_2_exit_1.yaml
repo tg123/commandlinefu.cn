@@ -1,7 +1,0 @@
-commandlinefu_id: 10303
-translator:
-  weibo: tgic
-command: |-
-  die_msg() { echo $@ >&2; exit -1; }
-summary: |-
-  简单的出错并退出

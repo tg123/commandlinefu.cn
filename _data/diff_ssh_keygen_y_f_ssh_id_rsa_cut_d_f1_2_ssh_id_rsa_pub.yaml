@@ -1,7 +1,0 @@
-commandlinefu_id: 12670
-translator:
-  weibo: tgic
-command: |-
-  diff <(ssh-keygen -y -f ~/.ssh/id_rsa) <(cut -d' ' -f1,2 ~/.ssh/id_rsa.pub)
-summary: |-
-  检查 公钥和 私钥 是否匹配

@@ -1,8 +1,0 @@
-commandlinefu_id: 10360
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -9 -x chrome
-summary: |-
-  Kill google chrome process

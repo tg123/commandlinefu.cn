@@ -1,7 +1,0 @@
-commandlinefu_id: 8835
-translator:
-  weibo: tgic
-command: |-
-  find . \( -name "*.as[pc]x" -o -name "*.htm*" \) -exec grep -Hi "jquery-1" {} +
-summary: |-
-  检查jQuery的版本

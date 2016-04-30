@@ -1,8 +1,0 @@
-commandlinefu_id: 9192
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f | xargs grep -n "Old Text" | tee filesChanged.txt | sed 's/:.*$//' | xargs sed -i 's/Old Text/New Text/g
-summary: |-
-  Find/Replace in a bunch of files and keep a log of the changes

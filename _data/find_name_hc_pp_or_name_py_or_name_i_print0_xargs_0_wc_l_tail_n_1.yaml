@@ -1,8 +1,0 @@
-commandlinefu_id: 5161
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find * \( -name "*.[hc]pp" -or -name "*.py" -or -name "*.i" \) -print0 | xargs -0 wc -l | tail -n 1
-summary: |-
-  Find how much of your life you've wasted coding in the current directory

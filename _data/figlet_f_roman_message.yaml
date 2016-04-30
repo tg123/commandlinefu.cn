@@ -1,8 +1,0 @@
-commandlinefu_id: 12206
-translator:
-  weibo: ''
-hide: true
-command: |-
-  figlet -f roman message
-summary: |-
-  figlet

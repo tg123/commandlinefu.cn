@@ -1,7 +1,0 @@
-commandlinefu_id: 2786
-translator:
-  weibo: tgic
-command: |-
-  find . -iname '*filename*.doc' | { while read line; do antiword "$line"; done; } | grep -C4 search_term;
-summary: |-
-  搜索word文档中关键字 (antiword)

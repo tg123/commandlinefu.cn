@@ -1,8 +1,0 @@
-commandlinefu_id: 2581
-translator:
-  weibo: ''
-hide: true
-command: |-
-  l=500; x=500; y=200; d=-15;for i in `seq $x $d $y`; do beep -l $l -f $i;done
-summary: |-
-  Frequency Sweep

@@ -1,7 +1,0 @@
-commandlinefu_id: 8348
-translator:
-  weibo: tgic
-command: |-
-  ps -u `/usr/xpg4/bin/id -u`
-summary: |-
-  查看当前用户的 进程(Solaris)

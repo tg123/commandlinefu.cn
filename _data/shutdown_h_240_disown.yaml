@@ -1,8 +1,0 @@
-commandlinefu_id: 8391
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shutdown -h 240 & disown
-summary: |-
-  shutdown pc in 4 hours without needing to keep terminal open / user logged in.

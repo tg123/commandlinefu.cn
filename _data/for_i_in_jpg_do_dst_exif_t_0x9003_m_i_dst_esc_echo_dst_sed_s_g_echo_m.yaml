@@ -1,7 +1,0 @@
-commandlinefu_id: 10695
-translator:
-  weibo: ''
-command: |-
-  for i in *.jpg; do dst=$(exif -t 0x9003 -m $i ) && dst_esc=$(echo $dst | sed 's/ /-/g' ) && echo mv $i $dst_esc.jpg ; done
-summary: |-
-  按创建时间重命名 (基于 exif)

@@ -1,8 +1,0 @@
-commandlinefu_id: 705
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder "${file}" -of rawaudio -oac mp3lame -ovc copy -o audio/"${file/%avi/mp3}"
-summary: |-
-  Extract audio stream from an AVI file using mencoder

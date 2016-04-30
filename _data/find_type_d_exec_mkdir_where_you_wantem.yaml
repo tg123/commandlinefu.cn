@@ -1,7 +1,0 @@
-commandlinefu_id: 630
-translator:
-  weibo: tgic
-command: |-
-  find * -type d -exec mkdir /where/you/wantem/\{\} \;
-summary: |-
-  只复制目录结构

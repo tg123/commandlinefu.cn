@@ -1,8 +1,0 @@
-commandlinefu_id: 13944
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.py" -exec wc -l {} \;
-summary: |-
-  Get line count for any file ending with extension recursively rooted at the current directory.

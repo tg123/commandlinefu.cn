@@ -1,8 +1,0 @@
-commandlinefu_id: 12807
-translator:
-  weibo: ''
-hide: true
-command: |-
-  icedove --compose subject=$(polygen ~/.icedove/xxxxxxx.default/bofh.grm)
-summary: |-
-  Radom polygen subject for GnuPG mail (icedove + enigmail)

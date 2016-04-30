@@ -1,8 +1,0 @@
-commandlinefu_id: 7857
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -name "*.cpp" -exec grep -Hn --color=tty -d skip "main" {} \;
-summary: |-
-  寻找main文件 cpp

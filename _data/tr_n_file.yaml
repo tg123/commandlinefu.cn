@@ -1,7 +1,0 @@
-commandlinefu_id: 7248
-translator:
-  weibo: tgic
-command: |-
-  tr "\n" " " < file
-summary: |-
-  连接行

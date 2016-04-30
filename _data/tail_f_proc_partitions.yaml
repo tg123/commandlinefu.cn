@@ -1,7 +1,0 @@
-commandlinefu_id: 11154
-translator:
-  weibo: tgic
-command: |-
-  tail -f /proc/partitions
-summary: |-
-  发现分区

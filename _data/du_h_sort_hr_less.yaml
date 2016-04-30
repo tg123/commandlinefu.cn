@@ -1,8 +1,0 @@
-commandlinefu_id: 13834
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -h|sort -hr|less
-summary: |-
-  Disk Usage Sorted by Size

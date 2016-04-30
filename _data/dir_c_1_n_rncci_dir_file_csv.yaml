@@ -1,8 +1,0 @@
-commandlinefu_id: 9603
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dir -C -1 -N -RNCCI /dir/ > file.csv
-summary: |-
-  Print file list to CSV

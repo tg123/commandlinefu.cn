@@ -1,7 +1,0 @@
-commandlinefu_id: 9787
-translator:
-  weibo: josephok
-command: |-
-  [ $1 ] && my_dir=$1
-summary: |-
-  获取脚本的第一个参数

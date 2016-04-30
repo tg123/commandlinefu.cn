@@ -1,8 +1,0 @@
-commandlinefu_id: 6809
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  geoiplookup <ipadress>
-summary: |-
-  获取给定IP地址（只能定位到国，如果是国内IP，可以试下淘宝的IP接口：
-  http://ip.taobao.com/service/getIpInfo.php?qq-pf-to=pcqq.c2c&ip=111.222.222.222）

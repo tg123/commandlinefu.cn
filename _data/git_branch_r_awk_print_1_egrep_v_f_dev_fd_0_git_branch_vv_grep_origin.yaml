@@ -1,8 +1,0 @@
-commandlinefu_id: 12398
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d
-summary: |-
-  Remove git branches that do not have a remote tracking branch anymore

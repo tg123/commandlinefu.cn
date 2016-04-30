@@ -1,8 +1,0 @@
-commandlinefu_id: 6631
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fold -w 1 <file> | grep -c <character>
-summary: |-
-  counting a particular character in a file

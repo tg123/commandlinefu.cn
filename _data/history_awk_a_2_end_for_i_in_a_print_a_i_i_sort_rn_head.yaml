@@ -1,7 +1,0 @@
-commandlinefu_id: 604
-translator:
-  weibo: tgic
-command: |-
-  history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
-summary: |-
-  最常用的命令

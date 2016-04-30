@@ -1,7 +1,0 @@
-commandlinefu_id: 11978
-translator:
-  weibo: tgic
-command: |-
-  ifconfig eth0|awk '/HWaddr/{gsub(/:/,"",$5);print $5}'
-summary: |-
-  获取ip

@@ -1,7 +1,0 @@
-commandlinefu_id: 10152
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  VBoxManage closemedium dvd "/sicuramente/mipaghi/tutto.iso
-summary: |-
-  从VirtualBox的媒体数据库中移除一个ISO镜像

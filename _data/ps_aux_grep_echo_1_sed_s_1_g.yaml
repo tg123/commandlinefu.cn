@@ -1,8 +1,0 @@
-commandlinefu_id: 12505
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep $(echo $1 | sed "s/^\(.\)/[\1]/g")
-summary: |-
-  psgrepp

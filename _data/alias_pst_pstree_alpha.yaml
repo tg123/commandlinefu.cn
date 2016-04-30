@@ -1,7 +1,0 @@
-commandlinefu_id: 1547
-translator:
-  weibo: codepiano
-command: |-
-  alias pst='pstree -Alpha'
-summary: |-
-  一个别名，以友好方式展示进程树

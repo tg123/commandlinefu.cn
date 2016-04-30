@@ -1,7 +1,0 @@
-commandlinefu_id: 7640
-translator:
-  weibo: '猪了个去'
-command: |-
-  nmap -oG - -T4 -p22 -v 192.168.0.254 | grep ssh
-summary: |-
-  使用NMAP命令检查是否某个端口打开或者关闭

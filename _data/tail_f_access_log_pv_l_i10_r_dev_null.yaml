@@ -1,7 +1,0 @@
-commandlinefu_id: 5489
-translator:
-  weibo: tgic
-command: |-
-  tail -f access.log | pv -l -i10 -r >/dev/null
-summary: |-
-  实时分析日志每秒新增多少行 

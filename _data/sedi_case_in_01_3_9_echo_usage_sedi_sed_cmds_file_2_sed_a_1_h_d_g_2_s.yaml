@@ -1,8 +1,0 @@
-commandlinefu_id: 8917
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sedi(){ case $# in [01]|[3-9])echo usage: sedi sed-cmds file ;;2)sed -a ''"$1"';H;$!d;g;' $2 |sed -a '/^$/d;w '"$2"''  ;;esac;}
-summary: |-
-  sed edit-in-place using -a option instead of -i option (no tmp file created)

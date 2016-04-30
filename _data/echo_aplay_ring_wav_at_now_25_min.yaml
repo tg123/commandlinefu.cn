@@ -1,8 +1,0 @@
-commandlinefu_id: 12069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "aplay ring.wav" | at now + 25 min
-summary: |-
-  Poor man's pomodoro timer

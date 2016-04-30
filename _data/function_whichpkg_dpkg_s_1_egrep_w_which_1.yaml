@@ -1,7 +1,0 @@
-commandlinefu_id: 8776
-translator:
-  weibo: tgic
-command: |-
-  function whichpkg { dpkg -S $1 | egrep -w $(which $1)$; }
-summary: |-
-  寻找命令属于哪个包

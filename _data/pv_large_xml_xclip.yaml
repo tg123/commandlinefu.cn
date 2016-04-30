@@ -1,8 +1,0 @@
-commandlinefu_id: 2590
-translator:
-  weibo: tgic
-command: |-
-  pv large.xml | xclip
-summary: |-
-  cat large file to clipboard with speed-o-meter
-  把大文件送入剪切版 有进度调(大文件)

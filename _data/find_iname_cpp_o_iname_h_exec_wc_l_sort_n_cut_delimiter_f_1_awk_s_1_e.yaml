@@ -1,7 +1,0 @@
-commandlinefu_id: 11300
-translator:
-  weibo: codepiano
-command: |-
-  find . \( -iname '*.cpp' -o -iname '*.h' \) -exec wc -l {} \; | sort -n | cut --delimiter=.  -f 1 | awk '{s+=$1} END {print s}'
-summary: |-
-  统计代码行数，返回总和

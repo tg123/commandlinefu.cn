@@ -1,8 +1,0 @@
-commandlinefu_id: 13270
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Set-Mailbox -Identity John -DeliverToMailboxAndForward $false -ForwardingSMTPAddress manuel@contoso.com
-summary: |-
-  Forward messages to mailbox and do not keep in mailbox

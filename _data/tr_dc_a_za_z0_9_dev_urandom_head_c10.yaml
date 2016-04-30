@@ -1,7 +1,0 @@
-commandlinefu_id: 4189
-translator:
-  weibo: tgic
-command: |-
-  tr -dc 'a-zA-Z0-9' < /dev/urandom | head -c10
-summary: |-
-  生成密码

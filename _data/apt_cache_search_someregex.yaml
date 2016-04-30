@@ -1,7 +1,0 @@
-commandlinefu_id: 294
-translator:
-  weibo: ''
-command: |-
-  apt-cache search someregex
-summary: |-
-  查找需要的包 (apt)

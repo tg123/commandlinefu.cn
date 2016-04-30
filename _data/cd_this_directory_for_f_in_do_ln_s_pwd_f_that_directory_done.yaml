@@ -1,7 +1,0 @@
-commandlinefu_id: 84
-translator:
-  weibo: tgic
-command: |-
-  cd /this/directory; for f in *; do ln -s `pwd`/$f /that/directory; done
-summary: |-
-  软链接一个目录的所有文件到另外一个目录

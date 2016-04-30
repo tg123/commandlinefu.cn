@@ -1,7 +1,0 @@
-commandlinefu_id: 12068
-translator:
-  weibo: tgic
-command: |-
-  for f ([0-9].txt) zmv $f '${(l:1::0:)}'$f
-summary: |-
-  单数字转双数字

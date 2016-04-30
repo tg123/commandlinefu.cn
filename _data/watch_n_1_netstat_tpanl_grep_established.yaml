@@ -1,8 +1,0 @@
-commandlinefu_id: 1902
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 1 "netstat -tpanl | grep ESTABLISHED"
-summary: |-
-  Monitor TCP opened connections

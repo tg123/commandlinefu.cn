@@ -1,8 +1,0 @@
-commandlinefu_id: 7502
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -R 5497:127.0.0.1:22 -p 62220 user@public.ip
-summary: |-
-  back ssh from firewalled hosts

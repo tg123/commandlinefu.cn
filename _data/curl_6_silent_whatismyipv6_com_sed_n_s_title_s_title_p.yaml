@@ -1,8 +1,0 @@
-commandlinefu_id: 13932
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -6 --silent whatismyipv6.com | sed -n 's/.*<title>//;s/<\/title.*//p'
-summary: |-
-  Quickly get your ipv6 address

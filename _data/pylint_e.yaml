@@ -1,8 +1,0 @@
-commandlinefu_id: 5243
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :!pylint -e %
-summary: |-
-  check python syntax in vim

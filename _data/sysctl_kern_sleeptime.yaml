@@ -1,8 +1,0 @@
-commandlinefu_id: 12569
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sysctl kern.sleeptime
-summary: |-
-  Get last sleep time on a Mac

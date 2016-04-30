@@ -1,7 +1,0 @@
-commandlinefu_id: 822
-translator:
-  weibo: '猪了个去'
-command: |-
-  gpg --encrypt --recipient 'Foo Bar' foo.txt
-summary: |-
-  gpg命令加密一个文件

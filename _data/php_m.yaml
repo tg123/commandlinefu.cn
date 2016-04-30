@@ -1,7 +1,0 @@
-commandlinefu_id: 10802
-translator:
-  weibo: tgic
-command: |-
-  php -m
-summary: |-
-  查看php安装的模块

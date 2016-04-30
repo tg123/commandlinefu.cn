@@ -1,8 +1,0 @@
-commandlinefu_id: 13299
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl 'AudioStream' | ffmpeg -i - -acodec libvorbis file.ogg
-summary: |-
-  Conversion of media stream

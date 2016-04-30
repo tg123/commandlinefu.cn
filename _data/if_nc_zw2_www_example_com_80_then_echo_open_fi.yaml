@@ -1,7 +1,0 @@
-commandlinefu_id: 4257
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  if (nc -zw2 www.example.com 80); then echo open; fi
-summary: |-
-  判断tcp端口是否打开

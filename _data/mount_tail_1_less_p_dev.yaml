@@ -1,7 +1,0 @@
-commandlinefu_id: 9132
-translator:
-  weibo: tgic
-command: |-
-  mount |tail -1 | less -p "/dev/[^ ]*"
-summary: |-
-  刚mount 的设备

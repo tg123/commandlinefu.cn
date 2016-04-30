@@ -1,7 +1,0 @@
-commandlinefu_id: 1340
-translator:
-  weibo: codepiano
-command: |-
-  ping -c 10 hostname
-summary: |-
-  ping10次后退出

@@ -1,8 +1,0 @@
-commandlinefu_id: 4498
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i.bak 's/old/new/g' file
-summary: |-
-  Do a search-and-replace in a file after making a backup

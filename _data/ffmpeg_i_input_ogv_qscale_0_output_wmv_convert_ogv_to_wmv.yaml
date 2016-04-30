@@ -1,8 +1,0 @@
-commandlinefu_id: 13504
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i input.ogv -qscale 0 output.wmv # convert .ogv to .wmv
-summary: |-
-  Convert a .ogv recording (eg from recordmydesktop in Gnome/Linux) into a .wmv (eg for playback in Windows)

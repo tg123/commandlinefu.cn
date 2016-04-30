@@ -1,8 +1,0 @@
-commandlinefu_id: 3722
-translator:
-  weibo: tgic
-command: |-
-  env PS4=' ${BASH_SOURCE}:${LINENO}(${FUNCNAME[0]}) ' sh -x /etc/profile
-summary: |-
-  调试BASH
-  

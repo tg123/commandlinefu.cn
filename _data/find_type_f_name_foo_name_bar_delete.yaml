@@ -1,7 +1,0 @@
-commandlinefu_id: 6761
-translator:
-  weibo: tgic
-command: |-
-  find . -type f ! -name "*.foo" -name "*.bar" -delete
-summary: |-
-  删除除了某种特定扩展名

@@ -1,7 +1,0 @@
-commandlinefu_id: 2864
-translator:
-  weibo: tgic
-command: |-
-  rsync -a --delete --link-dest=../lastbackup $folder $dname/
-summary: |-
-  创建增量备份

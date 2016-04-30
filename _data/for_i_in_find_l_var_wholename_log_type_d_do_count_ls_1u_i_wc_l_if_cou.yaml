@@ -1,7 +1,0 @@
-commandlinefu_id: 12755
-translator:
-  weibo: '猪了个去'
-command: |-
-  for i in `find -L /var/ -wholename \*log\* -type d`; do COUNT=`ls -1U $i | wc -l`; if [ $COUNT -gt 10 ]; then echo $i $COUNT; fi; done
-summary: |-
-  寻找/var目录下的，在路径中包含log文件夹，并且有超过10个文件在其中的文件夹。最后打印文件夹和计数

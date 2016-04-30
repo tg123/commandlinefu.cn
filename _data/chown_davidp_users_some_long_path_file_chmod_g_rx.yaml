@@ -1,7 +1,0 @@
-commandlinefu_id: 10888
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  chown davidp:users /some/long/path/file && chmod g+rx $_
-summary: |-
-  使用$_特殊变量获得上一个命令的最后的参数

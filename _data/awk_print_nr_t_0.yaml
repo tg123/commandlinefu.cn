@@ -1,7 +1,0 @@
-commandlinefu_id: 11404
-translator:
-  weibo: tgic
-command: |-
-  awk '{print NR "\t" $0}'
-summary: |-
-  带有行号打印

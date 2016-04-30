@@ -1,8 +1,0 @@
-commandlinefu_id: 13477
-translator:
-  weibo: ''
-hide: true
-command: |-
-  youtube-dl -c -o "%(title)s" -f 18 https://www.youtube.com/watch?v=5qSCKUCjdKg
-summary: |-
-  Use youtube-dl to download video with output Youtube Title

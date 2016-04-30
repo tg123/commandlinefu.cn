@@ -1,8 +1,0 @@
-commandlinefu_id: 11493
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdf2jpg(){ convert -density 400 -bordercolor white -border 0 -resize 992x1403 -quality 85 $1 ${1/%pdf/jpg} ; }
-summary: |-
-  converts an A4 PDF file to accurate jpgs

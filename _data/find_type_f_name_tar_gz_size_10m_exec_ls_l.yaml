@@ -1,8 +1,0 @@
-commandlinefu_id: 5938
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find / -type f -name *.tar.gz -size +10M -exec ls -l {} \;
-summary: |-
-  如何找出大于10MB的tar.gz

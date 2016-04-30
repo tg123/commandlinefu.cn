@@ -1,8 +1,0 @@
-commandlinefu_id: 7609
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la | tee ~/log.txt
-summary: |-
-  Show files and subdirectories in Terminal and copy output into a file

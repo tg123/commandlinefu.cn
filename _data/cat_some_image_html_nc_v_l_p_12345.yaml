@@ -1,8 +1,0 @@
-commandlinefu_id: 13069
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat some-image.html | nc -v -l -p 12345
-summary: |-
-  You can access some-image.html where you include a image any other file than you can access it through http using a browser (e.g. http://xxx.xxx.xxx.xxx:12345 )

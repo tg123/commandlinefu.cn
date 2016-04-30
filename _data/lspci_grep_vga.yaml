@@ -1,8 +1,0 @@
-commandlinefu_id: 2016
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lspci |grep VGA
-summary: |-
-  Find your graphics chipset

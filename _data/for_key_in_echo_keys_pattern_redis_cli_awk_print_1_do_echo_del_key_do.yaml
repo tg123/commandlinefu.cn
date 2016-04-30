@@ -1,7 +1,0 @@
-commandlinefu_id: 12860
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for key in `echo 'KEYS pattern*' | redis-cli | awk '{print $1}'`; do echo DEL $key; done | redis-cli
-summary: |-
-  删除Redis中匹配的键

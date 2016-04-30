@@ -1,7 +1,0 @@
-commandlinefu_id: 3742
-translator:
-  weibo: tgic
-command: |-
-  for USER in `ls /var/spool/cron`; do echo "=== crontab for $USER ==="; echo $USER; done
-summary: |-
-  列出所有用户的cron

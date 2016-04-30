@@ -1,8 +1,0 @@
-commandlinefu_id: 8542
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -maxdepth 1 -printf '%A@\t%p\n' | sort -r | cut -f 2,2 | head -1
-summary: |-
-  get newest file in current directory

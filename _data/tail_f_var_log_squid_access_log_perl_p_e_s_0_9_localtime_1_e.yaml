@@ -1,8 +1,0 @@
-commandlinefu_id: 8784
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tail -f /var/log/squid/access.log | perl -p -e 's/^([0-9]*)/"[".localtime($1)."]"/e'
-summary: |-
-  用 人类友好的时间格式 显示squid log

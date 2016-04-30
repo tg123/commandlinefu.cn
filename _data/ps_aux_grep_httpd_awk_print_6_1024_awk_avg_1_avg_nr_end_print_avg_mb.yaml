@@ -1,8 +1,0 @@
-commandlinefu_id: 13399
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep 'httpd' | awk '{print $6/1024;}' | awk '{avg += ($1 - avg) / NR;} END {print avg " MB";}'
-summary: |-
-  If you want to calculate the average on-the-fly

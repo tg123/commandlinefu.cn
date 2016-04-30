@@ -1,8 +1,0 @@
-commandlinefu_id: 13635
-translator:
-  weibo: ''
-hide: true
-command: |-
-  YEAR=2015; ncal 7 $YEAR | sed -n 's/^Fr.* \([^ ]\+\) *$/Jul \1/p'
-summary: |-
-  Sysadmin day date of any given year

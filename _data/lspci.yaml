@@ -1,7 +1,0 @@
-commandlinefu_id: 3043
-translator:
-  weibo: tgic
-command: |-
-  lspci
-summary: |-
-  获取pci

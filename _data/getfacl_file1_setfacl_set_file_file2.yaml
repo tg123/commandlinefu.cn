@@ -1,7 +1,0 @@
-commandlinefu_id: 5234
-translator:
-  weibo: tgic
-command: |-
-  getfacl file1 | setfacl --set-file=- file2
-summary: |-
-  复制文件权限

@@ -1,7 +1,0 @@
-commandlinefu_id: 721
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero of=/dev/hda
-summary: |-
-  安全清理硬盘

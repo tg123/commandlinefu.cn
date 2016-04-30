@@ -1,7 +1,0 @@
-commandlinefu_id: 4932
-translator:
-  weibo: codepiano
-command: |-
-  lsof -c $processname | egrep 'w.+REG' | awk '{print $9}' | sort | uniq
-summary: |-
-  找到进程名打开的所有文件

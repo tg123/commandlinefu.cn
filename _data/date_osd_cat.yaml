@@ -1,8 +1,0 @@
-commandlinefu_id: 3694
-translator:
-  weibo: ''
-hide: true
-command: |-
-  date|osd_cat
-summary: |-
-  On screen display of a command.

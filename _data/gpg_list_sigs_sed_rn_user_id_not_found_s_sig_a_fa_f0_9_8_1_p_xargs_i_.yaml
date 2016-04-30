@@ -1,8 +1,0 @@
-commandlinefu_id: 8881
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg --list-sigs | sed -rn '/User ID not found/s/^sig.+([a-FA-F0-9]{8}).*/\1/p' | xargs -i_ gpg --keyserver-options no-auto-key-retrieve --recv-keys _
-summary: |-
-  Fetch all GPG keys that are currently missing in your keyring

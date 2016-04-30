@@ -1,8 +1,0 @@
-commandlinefu_id: 10769
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function rjust_file_nums() {for i in *.ogg; do; mv $i `ruby -e "print ARGV.first.gsub(/\d+/){|d| d.rjust($1,'0')}" $i`; done}
-summary: |-
-  convert single digit to double digits

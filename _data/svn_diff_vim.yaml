@@ -1,8 +1,0 @@
-commandlinefu_id: 5203
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn diff | vim -
-summary: |-
-  colorize your svn diff

@@ -1,7 +1,0 @@
-commandlinefu_id: 12300
-translator:
-  weibo: '猪了个去'
-command: |-
-  grep -A 3 -i "example" demo_text
-summary: |-
-  打印匹配项所在行以及随后的三行

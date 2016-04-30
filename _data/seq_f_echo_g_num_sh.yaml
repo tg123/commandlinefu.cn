@@ -1,7 +1,0 @@
-commandlinefu_id: 10544
-translator:
-  weibo: tgic
-command: |-
-  seq -f  'echo %g' $NUM | sh
-summary: |-
-  另一种循环的方法 

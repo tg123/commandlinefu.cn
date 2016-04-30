@@ -1,7 +1,0 @@
-commandlinefu_id: 8689
-translator:
-  weibo: tgic
-command: |-
-  lsb_release -ri
-summary: |-
-  查看linux版本

@@ -1,7 +1,0 @@
-commandlinefu_id: 11335
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find /path/to/search -xtype l
-summary: |-
-  查找断掉的符号链接

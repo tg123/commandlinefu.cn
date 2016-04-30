@@ -1,7 +1,0 @@
-commandlinefu_id: 6456
-translator:
-  weibo: tgic
-command: |-
-  svn pe svn:ignore .
-summary: |-
-  编辑svn ignore

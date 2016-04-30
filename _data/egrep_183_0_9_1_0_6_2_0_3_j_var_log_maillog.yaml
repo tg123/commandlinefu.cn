@@ -1,7 +1,0 @@
-commandlinefu_id: 6827
-translator:
-  weibo: tgic
-command: |-
-  egrep '183\.([0-9]|(1[0-6]|2[0-3]))' -J /var/log/maillog*
-summary: |-
-  过滤一段ip

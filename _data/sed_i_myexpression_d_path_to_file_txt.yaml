@@ -1,8 +1,0 @@
-commandlinefu_id: 4016
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -i '/myexpression/d' /path/to/file.txt
-summary: |-
-  从文件中 删除符合 特定格式的 行

@@ -1,7 +1,0 @@
-commandlinefu_id: 2621
-translator:
-  weibo: tgic
-command: |-
-  cat /dev/clipboard; $(somecommand) > /dev/clipboard
-summary: |-
-  在cygwin 使用剪切版

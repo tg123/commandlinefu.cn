@@ -1,8 +1,0 @@
-commandlinefu_id: 418
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn st | grep "^\?" | awk "{print \$2}" | xargs rm -rf
-summary: |-
-  delete unversioned files in a checkout from svn

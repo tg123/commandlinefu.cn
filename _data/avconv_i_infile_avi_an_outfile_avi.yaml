@@ -1,8 +1,0 @@
-commandlinefu_id: 10992
-translator:
-  weibo: ''
-hide: true
-command: |-
-  avconv -i infile.avi -an outfile.avi
-summary: |-
-  Remove audio stream from a media file

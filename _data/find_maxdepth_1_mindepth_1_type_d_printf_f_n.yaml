@@ -1,8 +1,0 @@
-commandlinefu_id: 8980
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -maxdepth 1 -mindepth 1 -type d -printf "%f\n"
-summary: |-
-  List only directories, one per line

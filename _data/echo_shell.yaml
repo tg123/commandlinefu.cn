@@ -1,8 +1,0 @@
-commandlinefu_id: 7964
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo $SHELL
-summary: |-
-  查看你运行的是哪一种shell

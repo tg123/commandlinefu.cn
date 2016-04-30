@@ -1,8 +1,0 @@
-commandlinefu_id: 329
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /path -type d -perm 777 -exec chmod 755 {} \;
-summary: |-
-  fix broken permissions

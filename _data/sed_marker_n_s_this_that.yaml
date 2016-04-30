@@ -1,7 +1,0 @@
-commandlinefu_id: 2407
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed '/MARKER/{N;s/THIS/THAT/}'
-summary: |-
-  仅对MARKER之后的行进行替换

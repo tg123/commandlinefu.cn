@@ -1,8 +1,0 @@
-commandlinefu_id: 5236
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ! python %
-summary: |-
-  From Vim, run current buffer in python

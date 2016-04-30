@@ -1,8 +1,0 @@
-commandlinefu_id: 7646
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/truss /usr/bin/date 2>&1 |  nawk -F= '/^time\(\)/ {gsub(/ /,"",$2);print $2}'
-summary: |-
-  Unix timestamp Solaris

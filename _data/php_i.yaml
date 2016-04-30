@@ -1,7 +1,0 @@
-commandlinefu_id: 6887
-translator:
-  weibo: tgic
-command: |-
-  php -i
-summary: |-
-  查看 php 配置信息

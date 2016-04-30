@@ -1,7 +1,0 @@
-commandlinefu_id: 9261
-translator:
-  weibo: tgic
-command: |-
-  zcat log.tar.gz | grep -a -i "string"
-summary: |-
-  不解压缩前提下 grep tgz

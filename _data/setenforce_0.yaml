@@ -1,7 +1,0 @@
-commandlinefu_id: 12130
-translator:
-  weibo: tgic
-command: |-
-  setenforce 0
-summary: |-
-  关闭 SE Linux

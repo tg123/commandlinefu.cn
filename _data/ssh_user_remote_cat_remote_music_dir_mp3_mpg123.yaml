@@ -1,7 +1,0 @@
-commandlinefu_id: 11901
-translator:
-  weibo: tgic
-command: |-
-  ssh user@remote "cat /remote/music/dir/*.mp3" | mpg123 -
-summary: |-
-  播放远程机器上的文件

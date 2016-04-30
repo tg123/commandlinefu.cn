@@ -1,8 +1,0 @@
-commandlinefu_id: 3011
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git show --relative --pretty=format:'' --name-only HASH
-summary: |-
-  Show (only) list of files changed by commit

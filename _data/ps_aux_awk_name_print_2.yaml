@@ -1,7 +1,0 @@
-commandlinefu_id: 1116
-translator:
-  weibo: tgic
-command: |-
-  ps aux | awk '/name/ {print $2}'
-summary: |-
-  通过名字找进程id

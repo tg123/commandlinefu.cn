@@ -1,8 +1,0 @@
-commandlinefu_id: 8139
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo pacman -Sc
-summary: |-
-  archlinux: clears package cache of uninstalled packages

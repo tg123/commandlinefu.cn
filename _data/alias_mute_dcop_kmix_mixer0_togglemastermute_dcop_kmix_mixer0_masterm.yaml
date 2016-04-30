@@ -1,8 +1,0 @@
-commandlinefu_id: 624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias mute="dcop kmix Mixer0 toggleMasterMute\(\) ; dcop kmix Mixer0 masterMute\(\) | sed -e 's/true/muted/' -e 's/false/unmuted/' "
-summary: |-
-  KDE Mixer Master Mute/Unmute

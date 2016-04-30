@@ -1,8 +1,0 @@
-commandlinefu_id: 2586
-translator:
-  weibo: ''
-hide: true
-command: |-
-  some command|xsel --clipboard
-summary: |-
-  pipe output of a command to your clipboard

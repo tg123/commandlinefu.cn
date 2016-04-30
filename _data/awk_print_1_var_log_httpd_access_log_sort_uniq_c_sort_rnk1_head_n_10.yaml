@@ -1,7 +1,0 @@
-commandlinefu_id: 3262
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{print $1}' /var/log/httpd/access_log | sort | uniq -c | sort -rnk1 | head -n 10
-summary: |-
-  TOP10的请求IP地址 

@@ -1,7 +1,0 @@
-commandlinefu_id: 10933
-translator:
-  weibo: tgic
-command: |-
-  cal | grep -E --color "\b`date +%e`\b|$"
-summary: |-
-  今天高亮的日历

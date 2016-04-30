@@ -1,7 +1,0 @@
-commandlinefu_id: 8356
-translator:
-  weibo: tgic
-command: |-
-  git log --oneline <REMOTE>..<LOCAL BRANCH>
-summary: |-
-  列出没有push的 commit

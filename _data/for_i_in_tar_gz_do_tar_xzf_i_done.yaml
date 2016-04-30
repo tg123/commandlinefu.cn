@@ -1,7 +1,0 @@
-commandlinefu_id: 2413
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in *.tar.gz; do tar -xzf $i; done
-summary: |-
-  解压目录下的多个tar.gz文件

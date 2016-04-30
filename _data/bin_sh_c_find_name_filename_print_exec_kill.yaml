@@ -1,8 +1,0 @@
-commandlinefu_id: 8872
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/sh -c 'find . -name FILENAME -print -exec kill $$ \;'
-summary: |-
-  Terminate a find after the first match is found.

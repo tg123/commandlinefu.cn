@@ -1,8 +1,0 @@
-commandlinefu_id: 9125
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "abcde" | sed 's/./& /g'
-summary: |-
-  Matched string reference in replacement text

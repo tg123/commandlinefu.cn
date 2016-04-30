@@ -1,7 +1,0 @@
-commandlinefu_id: 2014
-translator:
-  weibo: tgic
-command: |-
-  date -d '2 weeks ago'
-summary: |-
-  获取日期支持人类语言

@@ -1,8 +1,0 @@
-commandlinefu_id: 2570
-translator:
-  weibo: ''
-hide: true
-command: |-
-  # dd if=/dev/sda | gzip -c | ssh user@ip 'dd of=/mnt/backups/sda.dd'
-summary: |-
-  clone a hard drive to a remote directory via ssh tunnel, and compressing the image

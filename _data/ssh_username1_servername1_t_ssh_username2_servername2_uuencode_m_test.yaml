@@ -1,8 +1,0 @@
-commandlinefu_id: 11817
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh username1@servername1 -t ssh username2@servername2 uuencode -m testfile1.tar - | uudecode > testfile1.tar
-summary: |-
-  Copy a file over SSH without SCP

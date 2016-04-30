@@ -1,7 +1,0 @@
-commandlinefu_id: 12727
-translator:
-  weibo: tgic
-command: |-
-  tree
-summary: |-
-  打印树形子目录

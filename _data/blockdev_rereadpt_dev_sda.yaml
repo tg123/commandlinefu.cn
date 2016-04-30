@@ -1,8 +1,0 @@
-commandlinefu_id: 1212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  blockdev --rereadpt /dev/sda
-summary: |-
-  Re-read partition table on specified device without rebooting system (here /dev/sda).

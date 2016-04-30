@@ -1,8 +1,0 @@
-commandlinefu_id: 990
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gst-launch v4l2src ! aasink
-summary: |-
-  webcam player in ascii art

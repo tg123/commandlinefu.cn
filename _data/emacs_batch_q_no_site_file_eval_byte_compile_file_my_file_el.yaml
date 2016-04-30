@@ -1,8 +1,0 @@
-commandlinefu_id: 12813
-translator:
-  weibo: ''
-hide: true
-command: |-
-  emacs --batch -Q -no-site-file -eval '(byte-compile-file "my-file.el")'
-summary: |-
-  emacs: byte compile file

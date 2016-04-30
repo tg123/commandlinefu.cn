@@ -1,7 +1,0 @@
-commandlinefu_id: 10628
-translator:
-  weibo: tgic
-command: |-
-  ls -s|grep -E "^ *0"|sed "s/^ *0 //g"|xargs -i rm "{}"
-summary: |-
-  清理0长度的文件

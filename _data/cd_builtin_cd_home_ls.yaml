@@ -1,7 +1,0 @@
-commandlinefu_id: 1367
-translator:
-  weibo: '猪了个去'
-command: |-
-  cd() { builtin cd "${@:-$HOME}" && ls; }
-summary: |-
-  重定义cd 命令的行为

@@ -1,7 +1,0 @@
-commandlinefu_id: 3242
-translator:
-  weibo: tgic
-command: |-
-  while read server; do ssh -n user@$server "command"; done < servers.txt
-summary: |-
-  如何让远程服务器运行一组命令

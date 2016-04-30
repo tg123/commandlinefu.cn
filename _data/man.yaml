@@ -1,7 +1,0 @@
-commandlinefu_id: 6638
-translator:
-  weibo: codepiano
-command: |-
-  man !!
-summary: |-
-  打开上次使用命令的man文档

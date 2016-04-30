@@ -1,8 +1,0 @@
-commandlinefu_id: 5613
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm-but() { ls -Q | grep -v "$1" | xargs rm -r ; }
-summary: |-
-  Remove all but One

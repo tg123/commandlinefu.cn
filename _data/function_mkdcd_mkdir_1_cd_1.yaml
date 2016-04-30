@@ -1,7 +1,0 @@
-commandlinefu_id: 12669
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  function mkdcd () {     mkdir "$1" && cd "$1" }
-summary: |-
-  创建一个文件夹并接着切换进去

@@ -1,8 +1,0 @@
-commandlinefu_id: 13267
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `sudo /sbin/fdisk -l |grep Disk |grep dev |awk '{ print $2 }' |sed s/://g` ; do sudo /usr/bin/dd if=/dev/urandom of=$i bs=8M & done
-summary: |-
-  Destroy all disks on system simultaneously

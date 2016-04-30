@@ -1,7 +1,0 @@
-commandlinefu_id: 2460
-translator:
-  weibo: tgic
-command: |-
-  :r! echo %
-summary: |-
-  在vim中插入当前文件名

@@ -1,8 +1,0 @@
-commandlinefu_id: 14061
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lame -v 2 -b 192 --ti /path/to/file.jpg audio.mp3 new-audio.mp3
-summary: |-
-  Convert an mp3 and add to it a img

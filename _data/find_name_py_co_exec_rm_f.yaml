@@ -1,8 +1,0 @@
-commandlinefu_id: 936
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -name "*.py[co]" -exec rm -f {} \;
-summary: |-
-  清理python的编译文件

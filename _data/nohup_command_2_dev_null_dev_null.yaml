@@ -1,8 +1,0 @@
-commandlinefu_id: 1417
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nohup <command> 2> /dev/null > /dev/null &
-summary: |-
-  nohup  that doesn't generate nohup.out

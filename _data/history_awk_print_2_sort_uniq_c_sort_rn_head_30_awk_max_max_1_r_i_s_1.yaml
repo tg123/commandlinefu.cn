@@ -1,7 +1,0 @@
-commandlinefu_id: 13722
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  history|awk '{print $2}'|sort|uniq -c|sort -rn|head -30|awk '!max{max=$1;}{r="";i=s=100*$1/max;while(i-->0)r=r"#";printf "%50s %5d %s %s",$2,$1,r,"\n";}'
-summary: |-
-  形象地显示最常用的30个命令的使用频率

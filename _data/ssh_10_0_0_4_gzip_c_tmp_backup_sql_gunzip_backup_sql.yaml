@@ -1,8 +1,0 @@
-commandlinefu_id: 10009
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ssh 10.0.0.4 "gzip -c /tmp/backup.sql" |gunzip > backup.sql
-summary: |-
-  一个利用压缩加速读取网络文件速度的方法

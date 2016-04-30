@@ -1,8 +1,0 @@
-commandlinefu_id: 4370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -v -i <INTERFACE> -s 0 -w /tmp/sniff.pcap port <PORT> # On the remote side
-summary: |-
-  Sniffing network to generate a pcap file in CLI mode on a remote host and open it via local Wireshark ( GUI ).

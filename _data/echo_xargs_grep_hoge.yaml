@@ -1,7 +1,0 @@
-commandlinefu_id: 8276
-translator:
-  weibo: titikaka723 
-command: |-
-  echo **/* | xargs grep 'hoge'
-summary: |-
-  输出某个文件中包含hoge的行 

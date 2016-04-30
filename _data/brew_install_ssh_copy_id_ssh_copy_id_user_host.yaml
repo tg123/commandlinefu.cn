@@ -1,8 +1,0 @@
-commandlinefu_id: 12890
-translator:
-  weibo: ''
-hide: true
-command: |-
-  brew install ssh-copy-id; ssh-copy-id user@host
-summary: |-
-  Copy your ssh public key to a server from a machine that doesn't have ssh-copy-id

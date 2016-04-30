@@ -1,7 +1,0 @@
-commandlinefu_id: 1781
-translator:
-  weibo: codepiano
-command: |-
-  alias up="cd .."; alias upp="cd ../.."; alias uppp="cd ../../.."; alias upppp="cd ../../../.."; alias uppppp="cd ../../../../.."
-summary: |-
-  向目录树的顶层移动的注释

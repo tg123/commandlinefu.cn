@@ -1,8 +1,0 @@
-commandlinefu_id: 9590
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shopt -s histverify
-summary: |-
-  Verify/edit bash history command before executing it

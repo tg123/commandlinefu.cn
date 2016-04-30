@@ -1,8 +1,0 @@
-commandlinefu_id: 2642
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep <pattern> -R . --exclude-dir='.svn'
-summary: |-
-  Search through files, ignoring .svn

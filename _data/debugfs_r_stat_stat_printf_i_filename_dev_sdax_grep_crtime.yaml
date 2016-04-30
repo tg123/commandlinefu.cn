@@ -1,8 +1,0 @@
-commandlinefu_id: 14156
-translator:
-  weibo: ''
-hide: true
-command: |-
-  debugfs -R  "stat <$(stat --printf=%i filename)>" /dev/sdaX | grep crtime
-summary: |-
-  Get creation date of a file on ext2-3-4 fs

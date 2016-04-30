@@ -1,8 +1,0 @@
-commandlinefu_id: 10875
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . \( -name "*cpp" -o -name "*hpp" \) -exec grep -Hn -E "043[eE]|70[Dd]7" \{\} \;
-summary: |-
-  search in all cpp / hpp files using egrep

@@ -1,8 +1,0 @@
-commandlinefu_id: 11133
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps wwwwuax|awk '/command/ { printf("kill -9 %s\n",$2) }'|/bin/sh
-summary: |-
-  Kill all processes belonging to a user

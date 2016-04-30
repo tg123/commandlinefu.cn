@@ -1,7 +1,0 @@
-commandlinefu_id: 5396
-translator:
-  weibo: tgic
-command: |-
-  echo $hex | perl -pe 's/(..)/chr(hex($1))/ge'
-summary: |-
-  转换hex字符串为ascii

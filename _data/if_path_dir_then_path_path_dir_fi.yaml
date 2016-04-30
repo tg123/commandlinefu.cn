@@ -1,7 +1,0 @@
-commandlinefu_id: 12595
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  if [[ ":$PATH:" != *":$dir:"* ]]; then PATH=${PATH}:$dir; fi
-summary: |-
-  仅当文件夹路径原来不在$PATH中，才把它添加到$PATH

@@ -1,7 +1,0 @@
-commandlinefu_id: 2613
-translator:
-  weibo: tgic
-command: |-
-  /originalInstall/gem list | tr -d '(),' | xargs -L 1 sudo ./gemInst.sh
-summary: |-
-  迁移gems

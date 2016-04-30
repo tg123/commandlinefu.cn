@@ -1,8 +1,0 @@
-commandlinefu_id: 10953
-translator:
-  weibo: ''
-hide: true
-command: |-
-  update-alternatives --config x-www-browser
-summary: |-
-  change default Web browser

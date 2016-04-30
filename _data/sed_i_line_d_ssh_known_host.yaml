@@ -1,8 +1,0 @@
-commandlinefu_id: 10068
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i '${LINE}d' ~/.ssh/known_host
-summary: |-
-  Remove a line from a file using sed (useful for updating known SSH server keys when they change)

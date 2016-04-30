@@ -1,8 +1,0 @@
-commandlinefu_id: 13274
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -cvf - /path/to/tar/up | xz - > myTarArchive.tar.xz
-summary: |-
-  Create a tar archive using xz compression

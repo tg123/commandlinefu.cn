@@ -1,7 +1,0 @@
-commandlinefu_id: 11767
-translator:
-  weibo: codepiano
-command: |-
-  pmi action suspend
-summary: |-
-  挂起

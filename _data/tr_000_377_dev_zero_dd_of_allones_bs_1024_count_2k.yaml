@@ -1,8 +1,0 @@
-commandlinefu_id: 4268
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tr '\000' '\377' < /dev/zero | dd of=allones bs=1024 count=2k
-summary: |-
-  生成一个 用 0xff 填充的二进制文件

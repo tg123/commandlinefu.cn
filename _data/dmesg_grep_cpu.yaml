@@ -1,8 +1,0 @@
-commandlinefu_id: 1845
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dmesg | grep cpu
-summary: |-
-  get cpu info from dmesg

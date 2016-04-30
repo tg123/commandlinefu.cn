@@ -1,7 +1,0 @@
-commandlinefu_id: 3109
-translator:
-  weibo: tgic
-command: |-
-  :!>test.txt
-summary: |-
-  清空文本

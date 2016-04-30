@@ -1,8 +1,0 @@
-commandlinefu_id: 12658
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pulseaudio -k && pulseaudio --start >/dev/null 2>&1 &
-summary: |-
-  Fix Ubuntu's Broken Sound Server

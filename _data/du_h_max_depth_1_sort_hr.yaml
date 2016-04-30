@@ -1,7 +1,0 @@
-commandlinefu_id: 8254
-translator:
-  weibo: tgic
-command: |-
-  du -h --max-depth=1 | sort -hr
-summary: |-
-  显示所有子目录大小

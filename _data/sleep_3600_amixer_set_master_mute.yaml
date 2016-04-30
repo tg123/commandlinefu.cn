@@ -1,8 +1,0 @@
-commandlinefu_id: 7810
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 3600; amixer set Master mute
-summary: |-
-  Mute speakers after an hour

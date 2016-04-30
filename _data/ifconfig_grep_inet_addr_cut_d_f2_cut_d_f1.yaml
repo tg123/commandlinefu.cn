@@ -1,8 +1,0 @@
-commandlinefu_id: 2758
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | grep "inet addr" | cut -d: -f2 | cut -d' ' -f1
-summary: |-
-  Get all IPs via ifconfig

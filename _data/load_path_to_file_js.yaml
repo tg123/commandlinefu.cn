@@ -1,7 +1,0 @@
-commandlinefu_id: 11990
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  .load ./path/to/file.js
-summary: |-
-  在node的REPL环境中加载一个JS文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 4080
-translator:
-  weibo: tgic
-command: |-
-  while true; do echo -ne "$(date)\r"; sleep 1; done
-summary: |-
-  如何输出进度而不滚动 比如 百分比

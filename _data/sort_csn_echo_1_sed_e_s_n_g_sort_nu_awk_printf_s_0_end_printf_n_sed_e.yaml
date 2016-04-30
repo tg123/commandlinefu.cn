@@ -1,8 +1,0 @@
-commandlinefu_id: 7737
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort_csn () { echo "${1}" | sed -e "s/,/\n/g"| sort -nu | awk '{printf("%s,",$0)} END {printf("\n")}' | sed -e "s/,$//"; }
-summary: |-
-  sort a list of comma separated numbers: sort_csn

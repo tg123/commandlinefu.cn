@@ -1,7 +1,0 @@
-commandlinefu_id: 3528
-translator:
-  weibo: tgic
-command: |-
-  for i in {0..1}{0..9}; do echo $i; done
-summary: |-
-  显示00到19

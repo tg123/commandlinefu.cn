@@ -1,7 +1,0 @@
-commandlinefu_id: 8507
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  egrep -v "^$|^#" file
-summary: |-
-  输出一个脚本或配置文件的内容，除了其中的注释或空行

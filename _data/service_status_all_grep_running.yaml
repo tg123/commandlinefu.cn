@@ -1,8 +1,0 @@
-commandlinefu_id: 1746
-translator:
-  weibo: ''
-hide: true
-command: |-
-  service --status-all | grep running
-summary: |-
-  list services running (as root)

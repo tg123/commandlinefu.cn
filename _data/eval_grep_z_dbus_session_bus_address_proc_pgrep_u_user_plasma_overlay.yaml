@@ -1,7 +1,0 @@
-commandlinefu_id: 13672
-translator:
-  weibo: tgic
-command: |-
-  ( eval $(grep -z '^DBUS_SESSION_BUS_ADDRESS' /proc/$(pgrep -u $USER plasma-overlay)/environ); export DBUS_SESSION_BUS_ADDRESS; kquitapp plasma-overlay )
-summary: |-
-  通过ssh 解锁 kde4

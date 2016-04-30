@@ -1,8 +1,0 @@
-commandlinefu_id: 4545
-translator:
-  weibo: ''
-hide: true
-command: |-
-  port=8888;pid=$(lsof -Pan -i tcp -i udp | grep ":$port"|tr -s " " | cut -d" " -f2); ps -Afe|grep "$pid"|grep --invert-match grep | sed "s/^\([^ ]*[ ]*\)\{7\}\(.*\)$/\2/g"
-summary: |-
-  Show the command line of a process that use a specific port (ubuntu)

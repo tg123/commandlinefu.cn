@@ -1,8 +1,0 @@
-commandlinefu_id: 5291
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `find /home/ -maxdepth 1 -type d`; do  echo -n $i " ";find $i|wc -l; done
-summary: |-
-  count of files from each subfolder

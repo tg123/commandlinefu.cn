@@ -1,8 +1,0 @@
-commandlinefu_id: 5726
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr  | grep \*
-summary: |-
-  Get your X11 screen mode

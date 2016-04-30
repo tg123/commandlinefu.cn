@@ -1,8 +1,0 @@
-commandlinefu_id: 10550
-translator:
-  weibo: ''
-hide: true
-command: |-
-  java -jar ~/Downloads/schemaSpy_5.0.0.jar -dp ~/instantclient_10_2/ojdbc14.jar -t orathin -db DBNAME -host HOSTNAME -port 1521 -u USERNAME -p PASSWORD -o KSEMBEDDED-ks-1.3-merge
-summary: |-
-  Generate schema documentation for an Oracle database

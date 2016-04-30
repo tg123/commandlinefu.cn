@@ -1,8 +1,0 @@
-commandlinefu_id: 9668
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/snmpwalk -v 1 -c public 10.0.0.22 1.3.6.1.4.1.789.1.21.1.2.1.25.1| awk -F : '{print "netapp temp:" $4 }'
-summary: |-
-  pull only the temp sensor data off of a netapp

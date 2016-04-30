@@ -1,7 +1,0 @@
-commandlinefu_id: 2222
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed -i 'your sed stuff here' file
-summary: |-
-  等价于"sed 'your sed stuff here' file > file2 && mv file2 file"的简化版本

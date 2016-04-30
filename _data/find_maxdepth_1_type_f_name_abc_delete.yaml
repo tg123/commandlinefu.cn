@@ -1,8 +1,0 @@
-commandlinefu_id: 6119
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find * -maxdepth 1 -type f ! -name abc -delete
-summary: |-
-  删除所有 文件名不为 abc 的文件

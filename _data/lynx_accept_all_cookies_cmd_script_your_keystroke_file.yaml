@@ -1,8 +1,0 @@
-commandlinefu_id: 1506
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -accept_all_cookies -cmd_script=/your/keystroke-file
-summary: |-
-  Use lynx to run repeating website actions

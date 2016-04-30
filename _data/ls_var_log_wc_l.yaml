@@ -1,8 +1,0 @@
-commandlinefu_id: 7164
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls /var/log/ |wc -l
-summary: |-
-  Count files and folder

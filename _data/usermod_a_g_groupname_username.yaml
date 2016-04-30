@@ -1,7 +1,0 @@
-commandlinefu_id: 627
-translator:
-  weibo: tgic
-command: |-
-  usermod -a -G groupname username
-summary: |-
-  把用户加入组

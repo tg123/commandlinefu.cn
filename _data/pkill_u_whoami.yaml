@@ -1,8 +1,0 @@
-commandlinefu_id: 7047
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -u `whoami`
-summary: |-
-  kill all process that belongs to you

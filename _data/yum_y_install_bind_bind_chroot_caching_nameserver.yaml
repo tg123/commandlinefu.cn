@@ -1,7 +1,0 @@
-commandlinefu_id: 4886
-translator:
-  weibo: tgic
-command: |-
-  yum -y install bind bind-chroot caching-nameserver
-summary: |-
-  安装nameserver

@@ -1,8 +1,0 @@
-commandlinefu_id: 11293
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  rm **/*(-@)
-summary: |-
-  清理掉无效的符号link

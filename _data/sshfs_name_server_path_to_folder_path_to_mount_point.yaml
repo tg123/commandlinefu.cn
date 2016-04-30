@@ -1,7 +1,0 @@
-commandlinefu_id: 193
-translator:
-  weibo: tgic
-command: |-
-  sshfs name@server:/path/to/folder /path/to/mount/point
-summary: |-
-  把远程目录mount到本地

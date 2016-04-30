@@ -1,8 +1,0 @@
-commandlinefu_id: 1680
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -wholename './.snapshot' -prune -o -print
-summary: |-
-  Recursively lists all files in the current directory, except the ones in '.snapshot' directory

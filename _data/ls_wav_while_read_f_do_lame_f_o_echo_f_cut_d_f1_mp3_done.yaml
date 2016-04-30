@@ -1,8 +1,0 @@
-commandlinefu_id: 4912
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls *.wav | while read f; do lame "$f" -o "$(echo $f | cut -d'.' -f1)".mp3; done;
-summary: |-
-  Convert all .wav to .mp3

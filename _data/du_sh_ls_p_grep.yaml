@@ -1,7 +1,0 @@
-commandlinefu_id: 5328
-translator:
-  weibo: tgic
-command: |-
-  du -sh `ls -p | grep /`
-summary: |-
-  列出目录大小 不含隐藏文件

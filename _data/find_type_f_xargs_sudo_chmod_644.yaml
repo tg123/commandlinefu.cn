@@ -1,7 +1,0 @@
-commandlinefu_id: 11320
-translator:
-  weibo: tgic
-command: |-
-  find ./ -type f | xargs sudo chmod 644
-summary: |-
-  修改当前目录下所有文件的权限

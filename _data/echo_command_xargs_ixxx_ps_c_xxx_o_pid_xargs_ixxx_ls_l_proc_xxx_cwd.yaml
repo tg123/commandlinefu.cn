@@ -1,8 +1,0 @@
-commandlinefu_id: 1193
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo COMMAND | xargs -ixxx ps -C xxx -o pid= | xargs -ixxx ls -l /proc/xxx/cwd
-summary: |-
-  Find out current working directory of a process

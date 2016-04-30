@@ -1,7 +1,0 @@
-commandlinefu_id: 5373
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in emerg alert crit error warn ; do awk '$6 ~ /^\['$i'/ {print substr($0, index($0,$6)) }' error_log | sort | uniq -c | sort -n | tail -1;  done
-summary: |-
-  快速整理Apache错误日志

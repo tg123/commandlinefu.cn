@@ -1,7 +1,0 @@
-commandlinefu_id: 4642
-translator:
-  weibo: tgic
-command: |-
-  scp /home/svnlabs.txt root@target:/home/
-summary: |-
-  使用scp复制文件到远端

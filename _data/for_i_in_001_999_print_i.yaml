@@ -1,8 +1,0 @@
-commandlinefu_id: 846
-translator:
-  weibo: tgic
-command: |-
-  for i in {001..999}; do echo $i ;done
-summary: |-
-  有0填充的序列
-

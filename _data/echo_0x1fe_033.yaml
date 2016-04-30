@@ -1,7 +1,0 @@
-commandlinefu_id: 9822
-translator:
-  weibo: particle128
-command: |-
-  echo $((0x1fe)) $((033))
-summary: |-
-  从16进制或8进制转换成10进制

@@ -1,7 +1,0 @@
-commandlinefu_id: 8888
-translator:
-  weibo: tgic
-command: |-
-  export GREP_OPTIONS='--color=auto'
-summary: |-
-  给grep加上颜色

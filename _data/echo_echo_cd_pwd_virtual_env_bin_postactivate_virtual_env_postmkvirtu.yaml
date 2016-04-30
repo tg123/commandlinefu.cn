@@ -1,8 +1,0 @@
-commandlinefu_id: 11818
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'echo "cd `pwd`" >> $VIRTUAL_ENV/bin/postactivate' >> $VIRTUAL_ENV/../postmkvirtualenv
-summary: |-
-  When using mkvirtualenv, make the current directory your base and cd into that directory every time you workon that project

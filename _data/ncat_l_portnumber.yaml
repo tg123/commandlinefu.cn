@@ -1,7 +1,0 @@
-commandlinefu_id: 4928
-translator:
-  weibo: tgic
-command: |-
-  nc -l portnumber
-summary: |-
-  简单的socket服务器用户可以接受telnet数据

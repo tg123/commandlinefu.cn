@@ -1,7 +1,0 @@
-commandlinefu_id: 8509
-translator:
-  weibo: tgic
-command: |-
-  sqlite> select date('now', 'start of year', '+4 months', 'weekday 0', '+7 days');
-summary: |-
-  使用sqlite 获取母亲节

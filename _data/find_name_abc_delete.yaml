@@ -1,8 +1,0 @@
-commandlinefu_id: 6112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find * ! -name abc -delete
-summary: |-
-  Remove all the files except abc in the directory

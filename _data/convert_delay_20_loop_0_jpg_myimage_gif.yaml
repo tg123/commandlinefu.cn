@@ -1,8 +1,0 @@
-commandlinefu_id: 14029
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert -delay 20 -loop 0 *.jpg myimage.gif
-summary: |-
-  Create an animated gif from pictures

@@ -1,8 +1,0 @@
-commandlinefu_id: 4593
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "swap=me\n1=2"|sed 's/\(.*\)=\(.*\)/\2=\1/g'
-summary: |-
-  Sed can refference parts of the pattern in the replacement:

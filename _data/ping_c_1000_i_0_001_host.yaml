@@ -1,7 +1,0 @@
-commandlinefu_id: 11179
-translator:
-  weibo: tgic
-command: |-
-  ping -c 1000 -i 0.001 <host>
-summary: |-
-  发送1000个ping包 -i 表示等待时间

@@ -1,8 +1,0 @@
-commandlinefu_id: 1341
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ping -i 60 -a IP_address
-summary: |-
-  Set audible alarm when an IP address comes online

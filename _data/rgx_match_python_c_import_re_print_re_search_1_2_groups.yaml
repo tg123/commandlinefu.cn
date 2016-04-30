@@ -1,8 +1,0 @@
-commandlinefu_id: 738
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rgx_match() { python -c "import re; print re.search('$1','$2').groups()"; }
-summary: |-
-  Test python regular expressions

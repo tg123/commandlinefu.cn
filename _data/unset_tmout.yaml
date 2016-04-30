@@ -1,8 +1,0 @@
-commandlinefu_id: 2238
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unset TMOUT
-summary: |-
-  Prevent shell autologout

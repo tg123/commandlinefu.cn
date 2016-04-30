@@ -1,7 +1,0 @@
-commandlinefu_id: 6048
-translator:
-  weibo: tgic
-command: |-
-  sort -t $'\t' -k 2 input.txt
-summary: |-
-  使用tab 作为分隔符 排序

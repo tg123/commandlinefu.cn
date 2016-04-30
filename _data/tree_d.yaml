@@ -1,8 +1,0 @@
-commandlinefu_id: 3758
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tree -d
-summary: |-
-  目录树

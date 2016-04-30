@@ -1,8 +1,0 @@
-commandlinefu_id: 3259
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xev
-summary: |-
-  show all key and mouse events

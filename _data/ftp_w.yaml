@@ -1,8 +1,0 @@
-commandlinefu_id: 4164
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ftp>!w
-summary: |-
-  Run command in an ftp session

@@ -1,7 +1,0 @@
-commandlinefu_id: 12094
-translator:
-  weibo: tgic
-command: |-
-  axel --max-speed=x
-summary: |-
-  控制下载速度

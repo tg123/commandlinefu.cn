@@ -1,7 +1,0 @@
-commandlinefu_id: 8697
-translator:
-  weibo: tgic
-command: |-
-  var=host ;while ! nc -zw 1 $var 22;do sleep 1; done ; ssh user@$var
-summary: |-
-  当服务器起来后自动ssh

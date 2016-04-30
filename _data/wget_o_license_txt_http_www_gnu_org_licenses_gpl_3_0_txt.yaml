@@ -1,8 +1,0 @@
-commandlinefu_id: 7201
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  wget -O LICENSE.txt http://www.gnu.org/licenses/gpl-3.0.txt
-summary: |-
-  给你的工程添加一个 GPL license

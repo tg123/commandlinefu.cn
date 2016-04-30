@@ -1,7 +1,0 @@
-commandlinefu_id: 3404
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  screen -x
-summary: |-
-  共享你的终端会话（远程或别的方式）

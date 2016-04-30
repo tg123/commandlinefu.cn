@@ -1,7 +1,0 @@
-commandlinefu_id: 8272
-translator:
-  weibo: tgic
-command: |-
-  find /path/to/dir -type f |sed 's/^.*\.//' |sort -f |uniq -i
-summary: |-
-  列出所有扩展名

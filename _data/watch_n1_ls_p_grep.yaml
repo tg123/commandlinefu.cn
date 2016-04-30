@@ -1,8 +1,0 @@
-commandlinefu_id: 9580
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  watch -n1 "ls -p | grep '/$'"
-summary: |-
-  监控目录变化

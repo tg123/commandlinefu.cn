@@ -1,8 +1,0 @@
-commandlinefu_id: 3189
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "0t${currentEpoch}=Y" | /usr/bin/adb
-summary: |-
-  convert unixtime to human-readable

@@ -1,7 +1,0 @@
-commandlinefu_id: 5911
-translator:
-  weibo: gdqyn
-command: |-
-  dmidecode -t bios
-summary: |-
-  显示BIOS信息

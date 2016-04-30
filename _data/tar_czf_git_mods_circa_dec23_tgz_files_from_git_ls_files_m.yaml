@@ -1,8 +1,0 @@
-commandlinefu_id: 9944
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar czf git_mods_circa_dec23.tgz --files-from <(git ls-files -m)
-summary: |-
-  Create tarball of files modified in git

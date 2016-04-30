@@ -1,7 +1,0 @@
-commandlinefu_id: 3096
-translator:
-  weibo: tgic
-command: |-
-  uname -a
-summary: |-
-  获取内核版本

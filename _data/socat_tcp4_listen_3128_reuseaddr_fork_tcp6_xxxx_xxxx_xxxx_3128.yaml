@@ -1,8 +1,0 @@
-commandlinefu_id: 10848
-translator:
-  weibo: ''
-hide: true
-command: |-
-  socat TCP4-LISTEN:3128,reuseaddr,fork TCP6:[xxxx:xxxx::xxxx]:3128
-summary: |-
-  make a central proxy access from where it's high speed link available.

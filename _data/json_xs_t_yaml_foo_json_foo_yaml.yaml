@@ -1,8 +1,0 @@
-commandlinefu_id: 14016
-translator:
-  weibo: ''
-hide: true
-command: |-
-  json_xs -t yaml < foo.json > foo.yaml
-summary: |-
-  Convert JSON to YAML (unicode safe)

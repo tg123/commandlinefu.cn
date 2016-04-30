@@ -1,7 +1,0 @@
-commandlinefu_id: 6316
-translator:
-  weibo: tgic
-command: |-
-  alias foo="!!"
-summary: |-
-  上一条命令的快捷方式

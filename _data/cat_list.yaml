@@ -1,7 +1,0 @@
-commandlinefu_id: 3934
-translator:
-  weibo: tgic
-command: |-
-  cat > list -
-summary: |-
-  把stdin写到list

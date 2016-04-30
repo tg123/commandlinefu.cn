@@ -1,8 +1,0 @@
-commandlinefu_id: 11477
-translator:
-  weibo: ''
-hide: true
-command: |-
-  star -c -v -f myarchive.tar -no-dirslash list=list.txt
-summary: |-
-  Create a tar archive from a text list without trailing slash in directories

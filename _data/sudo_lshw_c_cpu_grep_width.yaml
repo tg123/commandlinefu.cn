@@ -1,8 +1,0 @@
-commandlinefu_id: 3603
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lshw -C cpu|grep width
-summary: |-
-  32 bits or 64 bits?

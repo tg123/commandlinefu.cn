@@ -1,7 +1,0 @@
-commandlinefu_id: 4449
-translator:
-  weibo: tgic
-command: |-
-  command | sed '/regex/q'
-summary: |-
-  显示命令的输出直到一个regex

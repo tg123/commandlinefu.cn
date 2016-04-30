@@ -1,8 +1,0 @@
-commandlinefu_id: 11659
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /dev/zero | pv -L 3m -Ss 100m > /dev/null
-summary: |-
-  Limit the transfer rate and size of data over a pipe

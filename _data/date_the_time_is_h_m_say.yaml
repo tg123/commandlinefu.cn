@@ -1,7 +1,0 @@
-commandlinefu_id: 1107
-translator:
-  weibo: codepiano
-command: |-
-  date "+The time is %H:%M" | say
-summary: |-
-  Mac OS X系统报时

@@ -1,8 +1,0 @@
-commandlinefu_id: 5933
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fib(){ case $1 in 0)echo 0;;1)echo 1;;[0-9]*)echo $[$(fib $[$1-2])+$(fib $[$1-1])];;*)exit 1;;esac;}
-summary: |-
-  Fibonacci With Case

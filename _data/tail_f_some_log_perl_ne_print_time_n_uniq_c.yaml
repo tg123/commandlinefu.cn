@@ -1,7 +1,0 @@
-commandlinefu_id: 12315
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tail -F some.log | perl -ne 'print time(), "\n";' | uniq -c
-summary: |-
-  监控一个日志文件每秒新增的行数

@@ -1,8 +1,0 @@
-commandlinefu_id: 5941
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in $(find /path/to/base -type f | grep -vw CVS); do grep -Hn PATTERN $f; done
-summary: |-
-  Search for a pattern across files in a code base (leaving out CVS directories)

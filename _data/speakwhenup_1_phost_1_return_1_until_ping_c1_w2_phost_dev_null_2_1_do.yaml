@@ -1,8 +1,0 @@
-commandlinefu_id: 13867
-translator:
-  weibo: ''
-hide: true
-command: |-
-  speakwhenup() { [ "$1" ] && PHOST="$1" || return 1; until ping -c1 -W2 $PHOST >/dev/null 2>&1; do sleep 5s; done; espeak "$PHOST is up" >/dev/null 2>&1; }
-summary: |-
-  ping a host until it responds, then play a sound, then exit

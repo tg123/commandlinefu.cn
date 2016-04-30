@@ -1,8 +1,0 @@
-commandlinefu_id: 4674
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
-summary: |-
-  kde4 锁屏命令

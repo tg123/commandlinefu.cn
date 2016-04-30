@@ -1,7 +1,0 @@
-commandlinefu_id: 5874
-translator:
-  weibo: particle128
-command: |-
-  pkill <process name>
-summary: |-
-  用进程的某个关键字来杀死进程

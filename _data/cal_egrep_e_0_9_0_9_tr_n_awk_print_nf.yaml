@@ -1,7 +1,0 @@
-commandlinefu_id: 10609
-translator:
-  weibo: gdqyn
-command: |-
-  cal | egrep -e '^ [0-9]|^[0-9]' | tr '\n' ' ' | awk '{print $NF}'
-summary: |-
-  打印当月最后一天

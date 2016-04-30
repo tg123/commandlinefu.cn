@@ -1,7 +1,0 @@
-commandlinefu_id: 1847
-translator:
-  weibo: titikaka723 
-command: |-
-  identify -ping imageName.png
-summary: |-
-  使用ImageMagick获得图像的特性 

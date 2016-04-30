@@ -1,7 +1,0 @@
-commandlinefu_id: 5211
-translator:
-  weibo: tgic
-command: |-
-  leapyear() { if [ $[$1 % 4] -eq 0 ] && [ $[$1 % 100] -ne 0 ] || [ $[$1 % 400] -eq 0 ]; then echo $1' is a leap year!'; else echo $1' is not a leap year.'; fi; }
-summary: |-
-  闰年判断

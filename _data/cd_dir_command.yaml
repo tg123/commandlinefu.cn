@@ -1,7 +1,0 @@
-commandlinefu_id: 8181
-translator:
-  weibo: codepiano
-command: |-
-  ( cd $DIR; command; )
-summary: |-
-  进入到另一个目录执行一个命令，然后返回到旧的目录

@@ -1,8 +1,0 @@
-commandlinefu_id: 1802
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rev <<< 'lorem ipsum' | tee /dev/stderr | rev
-summary: |-
-  Copy input sent to a command to stderr

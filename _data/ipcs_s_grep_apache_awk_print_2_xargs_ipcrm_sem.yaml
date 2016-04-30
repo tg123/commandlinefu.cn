@@ -1,8 +1,0 @@
-commandlinefu_id: 12599
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ipcs -s | grep apache | awk ' { print $2 } ' | xargs ipcrm sem
-summary: |-
-  Remove semaphores

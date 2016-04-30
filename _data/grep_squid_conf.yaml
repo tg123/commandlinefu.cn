@@ -1,7 +1,0 @@
-commandlinefu_id: 11928
-translator:
-  weibo: ''
-command: |-
-  grep '^[^#]' squid.conf
-summary: |-
-  清除文件注释

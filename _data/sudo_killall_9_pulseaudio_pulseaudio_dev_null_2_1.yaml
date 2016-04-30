@@ -1,8 +1,0 @@
-commandlinefu_id: 1890
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo killall -9 pulseaudio; pulseaudio >/dev/null 2>&1 &
-summary: |-
-  Fix Ubuntu's Broken Sound Server

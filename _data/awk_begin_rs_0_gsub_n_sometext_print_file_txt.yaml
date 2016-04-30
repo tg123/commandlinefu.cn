@@ -1,7 +1,0 @@
-commandlinefu_id: 7276
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'BEGIN{RS="\0"}{gsub(/\n/,"<SOMETEXT>");print}' file.txt
-summary: |-
-  连接所有行 

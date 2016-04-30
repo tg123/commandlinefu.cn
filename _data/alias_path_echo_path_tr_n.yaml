@@ -1,8 +1,0 @@
-commandlinefu_id: 1465
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias path='echo $PATH | tr ":" "\n"'
-summary: |-
-  Show amigable path

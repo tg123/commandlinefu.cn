@@ -1,8 +1,0 @@
-commandlinefu_id: 3926
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <alt+q>
-summary: |-
-  Postpone a command [zsh]

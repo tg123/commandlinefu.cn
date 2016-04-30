@@ -1,7 +1,0 @@
-commandlinefu_id: 10179
-translator:
-  weibo: '猪了个去'
-command: |-
-  grep -Ev '^( *$|#)' < conf.file
-summary: |-
-  移除配置文件中多余的行

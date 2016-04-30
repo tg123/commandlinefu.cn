@@ -1,7 +1,0 @@
-commandlinefu_id: 12178
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dd if=/dev/cdrom bs=1 skip=32808 count=32 conv=unblock cbs=32 2>/dev/null
-summary: |-
-  获取ISO9660标准的CD-ROM的的Volume ID（标签）

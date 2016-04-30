@@ -1,8 +1,0 @@
-commandlinefu_id: 8757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -type f -printf "%S\t%p\n" 2>/dev/null | gawk '{if ($1 < 1.0) print $1 $2}'
-summary: |-
-  find sparse files

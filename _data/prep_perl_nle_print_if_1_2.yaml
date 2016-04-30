@@ -1,8 +1,0 @@
-commandlinefu_id: 9009
-translator:
-  weibo: ''
-hide: true
-command: |-
-  prep () { perl -nle 'print if '"$1"';' $2 }
-summary: |-
-  Use Perl like grep

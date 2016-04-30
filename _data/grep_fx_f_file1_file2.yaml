@@ -1,8 +1,0 @@
-commandlinefu_id: 5710
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  grep -Fx -f file1 file2
-summary: |-
-  取两个文件的交集

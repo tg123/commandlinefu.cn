@@ -1,7 +1,0 @@
-commandlinefu_id: 10936
-translator:
-  weibo: tgic
-command: |-
-  echo http://www.TheWebSiteName.com privatekeyword | md5sum | awk '{print substr($0,0,10)}'
-summary: |-
-  为每个网站生成一个登录密码

@@ -1,7 +1,0 @@
-commandlinefu_id: 6346
-translator:
-  weibo: tgic
-command: |-
-  ls | sed 's,\(.*\),"\1",'
-summary: |-
-  给ls结果加上引号

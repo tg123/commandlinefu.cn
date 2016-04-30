@@ -1,7 +1,0 @@
-commandlinefu_id: 5796
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  wait $!
-summary: |-
-  在开始新的命令之前，等待一个已经启动的程序结束

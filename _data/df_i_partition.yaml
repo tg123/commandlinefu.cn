@@ -1,8 +1,0 @@
-commandlinefu_id: 7273
-translator:
-  weibo: ''
-hide: true
-command: |-
-  df -i  <partition>
-summary: |-
-  View the current number of free/used inodes in a file system

@@ -1,8 +1,0 @@
-commandlinefu_id: 5368
-translator:
-  weibo: ''
-hide: true
-command: |-
-  truecrypt volume.tc
-summary: |-
-  Mount/unmount your truecrypted file containers

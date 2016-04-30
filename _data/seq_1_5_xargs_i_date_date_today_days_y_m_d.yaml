@@ -1,7 +1,0 @@
-commandlinefu_id: 10779
-translator:
-  weibo: Spacewander__罗泽轩 
-command: |-
-  seq 1 5 | xargs -I"#" date --date="today -# days" +'%Y-%m-%d'
-summary: |-
-  以倒字典顺序列出最近的日子

@@ -1,7 +1,0 @@
-commandlinefu_id: 10266
-translator:
-  weibo: tgic
-command: |-
-  identify -format "%[fx:w]x%[fx:h]" logo:
-summary: |-
-  图片分辨率

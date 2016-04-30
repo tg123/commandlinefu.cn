@@ -1,8 +1,0 @@
-commandlinefu_id: 5179
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 1 "sudo asterisk -vvvvvrx 'core show channels' | grep call"
-summary: |-
-  Watch active calls on an Asterisk PBX

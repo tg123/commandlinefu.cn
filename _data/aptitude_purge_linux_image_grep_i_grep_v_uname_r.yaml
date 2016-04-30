@@ -1,8 +1,0 @@
-commandlinefu_id: 5827
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude purge linux-image | grep ^i | grep -v $(uname -r)
-summary: |-
-  Remove all unused kernels with apt-get

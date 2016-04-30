@@ -1,7 +1,0 @@
-commandlinefu_id: 10499
-translator:
-  weibo: tgic
-command: |-
-  find . -mount -type f -printf "%k %p\n" | sort -rg | cut -d \  -f 2- | xargs -I {} du -sh {} | less
-summary: |-
-  寻找最大的20个文件

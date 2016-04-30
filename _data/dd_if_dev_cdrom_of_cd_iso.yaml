@@ -1,7 +1,0 @@
-commandlinefu_id: 12405
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/cdrom of=cd.iso
-summary: |-
-  制作.iso

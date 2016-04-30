@@ -1,8 +1,0 @@
-commandlinefu_id: 13279
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while read i; do [ ${#i} -gt 72 ] && echo "$i"; done < /path/to/file
-summary: |-
-  find which lines in a file are longer than N characters

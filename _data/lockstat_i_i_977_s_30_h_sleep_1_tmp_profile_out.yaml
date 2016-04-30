@@ -1,8 +1,0 @@
-commandlinefu_id: 1483
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lockstat -I -i 977 -s 30 -h sleep 1 > /tmp/profile.out
-summary: |-
-  Display kernel profile of currently executing functions in Solaris.

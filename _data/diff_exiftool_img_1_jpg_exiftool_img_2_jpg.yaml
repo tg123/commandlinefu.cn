@@ -1,7 +1,0 @@
-commandlinefu_id: 10147
-translator:
-  weibo: tgic
-command: |-
-  diff <(exiftool img_1.jpg) <(exiftool img_2.jpg)
-summary: |-
-  查看两个图片的exif不同

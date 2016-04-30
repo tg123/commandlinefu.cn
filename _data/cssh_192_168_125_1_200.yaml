@@ -1,8 +1,0 @@
-commandlinefu_id: 6047
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cssh 192.168.125.{1..200}
-summary: |-
-  Combine cssh and shell expansion to execute commands on a large cluster

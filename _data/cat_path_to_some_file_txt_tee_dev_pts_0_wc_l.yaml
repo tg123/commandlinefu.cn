@@ -1,7 +1,0 @@
-commandlinefu_id: 4006
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat /path/to/some/file.txt | tee /dev/pts/0 | wc -l
-summary: |-
-  在没有保存到硬盘的情况下查看并用管道传输文件

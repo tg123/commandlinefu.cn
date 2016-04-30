@@ -1,7 +1,0 @@
-commandlinefu_id: 6792
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -name "*" -print0 | xargs -0 -I {} chmod 777 {}
-summary: |-
-  在当前目录下递归修改所有文件和目录的权限

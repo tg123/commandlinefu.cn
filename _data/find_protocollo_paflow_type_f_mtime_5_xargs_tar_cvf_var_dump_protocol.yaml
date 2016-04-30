@@ -1,7 +1,0 @@
-commandlinefu_id: 5939
-translator:
-  weibo: tgic
-command: |-
-  find /protocollo/paflow -type f -mtime +5 | xargs tar -cvf /var/dump-protocollo/`date '+%d%m%Y'_archive.tar`
-summary: |-
-  存档过去x天没有修改的文件

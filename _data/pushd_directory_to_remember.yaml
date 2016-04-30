@@ -1,8 +1,0 @@
-commandlinefu_id: 6955
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pushd /directory/to/remember
-summary: |-
-  Store dirs to later be changed to independant of the last directory you were in. Also with managment tools.

@@ -1,7 +1,0 @@
-commandlinefu_id: 2762
-translator:
-  weibo: '猪了个去'
-command: |-
-  svcadm disable gdm
-summary: |-
-  OpenSolaris操作系统:禁用图形登录界面

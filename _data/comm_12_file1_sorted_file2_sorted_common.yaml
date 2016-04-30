@@ -1,7 +1,0 @@
-commandlinefu_id: 8809
-translator:
-  weibo: tgic
-command: |-
-  comm -12 FILE1.sorted FILE2.sorted > common
-summary: |-
-  取两个文件的交集

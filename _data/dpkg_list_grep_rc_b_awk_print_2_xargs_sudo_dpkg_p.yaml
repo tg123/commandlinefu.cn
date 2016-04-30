@@ -1,8 +1,0 @@
-commandlinefu_id: 12027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg --list | grep '^rc\b' | awk '{ print $2 }' | xargs sudo dpkg -P
-summary: |-
-  Purge configuration file of all desinstalled package

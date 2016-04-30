@@ -1,8 +1,0 @@
-commandlinefu_id: 9390
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function quietly () { $* 2> /dev/null > /dev/null; };
-summary: |-
-  Suppress output of loud commands you don't want to hear from

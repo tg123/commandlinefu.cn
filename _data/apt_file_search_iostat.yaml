@@ -1,7 +1,0 @@
-commandlinefu_id: 8897
-translator:
-  weibo: tgic
-command: |-
-  apt-file search iostat
-summary: |-
-  查看命令属于那个包

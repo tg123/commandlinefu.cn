@@ -1,8 +1,0 @@
-commandlinefu_id: 10929
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -avz -e ssh user@host:/srcpath destpath
-summary: |-
-  rsync...

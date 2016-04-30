@@ -1,7 +1,0 @@
-commandlinefu_id: 9786
-translator:
-  weibo: codepiano
-command: |-
-  wget ifconfig.me/ip -q -O -
-summary: |-
-  获取你的外部ip地址

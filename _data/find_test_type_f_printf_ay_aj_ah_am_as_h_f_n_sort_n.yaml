@@ -1,8 +1,0 @@
-commandlinefu_id: 11421
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /test -type f -printf "%AY%Aj%AH%AM%AS---%h/%f\n" | sort -n
-summary: |-
-  Recursively sort files by modification time through multiple directories.

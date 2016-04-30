@@ -1,7 +1,0 @@
-commandlinefu_id: 12924
-translator:
-  weibo: tgic
-command: |-
-  netstat -lntp
-summary: |-
-  查看打开的端口

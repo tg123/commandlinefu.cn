@@ -1,8 +1,0 @@
-commandlinefu_id: 1878
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mtr --report --report-cycles 10 www.google.com > google_net_report.txt
-summary: |-
-  Use mtr to create a text file report

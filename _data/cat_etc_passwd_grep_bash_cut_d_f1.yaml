@@ -1,7 +1,0 @@
-commandlinefu_id: 9518
-translator:
-  weibo: tgic
-command: |-
-  cat /etc/passwd | grep "bash" | cut -d: -f1
-summary: |-
-  列出所有用户

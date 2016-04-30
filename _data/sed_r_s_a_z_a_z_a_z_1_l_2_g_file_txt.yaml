@@ -1,8 +1,0 @@
-commandlinefu_id: 2038
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -r 's/([a-z]+)([A-Z][a-z]+)/\1_\l\2/g' file.txt
-summary: |-
-  转换 camelCase 到下划线 (camel_case)

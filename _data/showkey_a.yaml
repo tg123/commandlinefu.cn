@@ -1,8 +1,0 @@
-commandlinefu_id: 10109
-translator:
-  weibo: ''
-hide: true
-command: |-
-  showkey -a
-summary: |-
-  Quick access to ASCII code of a key

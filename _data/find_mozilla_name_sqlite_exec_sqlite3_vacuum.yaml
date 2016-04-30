@@ -1,8 +1,0 @@
-commandlinefu_id: 10663
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ~/.mozilla -name '*.sqlite' -exec sqlite3 {} VACUUM \;
-summary: |-
-  shrink firefox database

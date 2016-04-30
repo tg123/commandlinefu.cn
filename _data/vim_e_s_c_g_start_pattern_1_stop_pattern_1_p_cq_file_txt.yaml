@@ -1,8 +1,0 @@
-commandlinefu_id: 3202
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim -e -s -c 'g/start_pattern/+1,/stop_pattern/-1 p' -cq file.txt
-summary: |-
-  Display a block of text with vim with offset, like with AWK

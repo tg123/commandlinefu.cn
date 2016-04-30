@@ -1,7 +1,0 @@
-commandlinefu_id: 6489
-translator:
-  weibo: tgic
-command: |-
-  mencoder input.flv -ovc lavc -oac mp3lame -o output.avi
-summary: |-
-  转换.flv 到.avi

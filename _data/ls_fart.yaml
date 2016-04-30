@@ -1,7 +1,0 @@
-commandlinefu_id: 9324
-translator:
-  weibo: tgic
-command: |-
-  ls -Fart
-summary: |-
-  显示目录中所有文件 按修改时间降序

@@ -1,8 +1,0 @@
-commandlinefu_id: 6064
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ( ( while [ 2000 -ge "$(free -m | awk '/buffers.cache:/ {print $4}')" ] || [ $(echo "$(uptime | awk '{print $10}' | sed -e 's/,$//' -e 's/,/./') >= $(grep -c ^processor /proc/cpuinfo)" | bc) -eq 1 ]; do sleep 10; done; my-command > output.txt ) & )
-summary: |-
-  delay execution of a command that needs lots of memory and CPU time until the resources are available

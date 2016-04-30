@@ -1,7 +1,0 @@
-commandlinefu_id: 11294
-translator:
-  weibo: tgic
-command: |-
-  rmdir --ignore-fail-on-non-empty -p **/*(/^F)
-summary: |-
-  递归清理空文件夹

@@ -1,7 +1,0 @@
-commandlinefu_id: 6870
-translator:
-  weibo: codepiano
-command: |-
-  grep xxxx messages | cut -d ' ' -f 1,2,3
-summary: |-
-  从系统日志中获取指定事件的日期

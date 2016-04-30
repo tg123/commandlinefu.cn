@@ -1,7 +1,0 @@
-commandlinefu_id: 4125
-translator:
-  weibo: tgic
-command: |-
-  rcconf
-summary: |-
-  在Debian配置Runlevel

@@ -1,8 +1,0 @@
-commandlinefu_id: 4294
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'use strict; use warnings; my $c; my $file = $ARGV[0]; open my $handle, "<", $file or die "$0: $file: $!\n"; while (<$handle>) { print $c++, " " x 5, $_; } close($handle);' <FILE>
-summary: |-
-  Joke : prints line numbers in a longest way

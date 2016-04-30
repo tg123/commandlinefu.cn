@@ -1,7 +1,0 @@
-commandlinefu_id: 12409
-translator:
-  weibo: tgic
-command: |-
-  stat -f -L -c %T YOUR_FILE_OR_DIRECTORY
-summary: |-
-  显示目录的的格式(ext3等)

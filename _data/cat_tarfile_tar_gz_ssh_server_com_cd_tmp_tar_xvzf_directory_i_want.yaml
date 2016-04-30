@@ -1,7 +1,0 @@
-commandlinefu_id: 7855
-translator:
-  weibo: tgic
-command: |-
-  cat tarfile.tar.gz | ssh server.com " cd /tmp; tar xvzf - directory/i/want"
-summary: |-
-  解压缩到远端目录

@@ -1,8 +1,0 @@
-commandlinefu_id: 8428
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo aptitude markauto $(apt-cache showsrc PACKAGE | grep Build-Depends | perl -p -e 's/(?:[\[(].+?[\])]|Build-Depends:|,|\|)//g')
-summary: |-
-  Mark packages installed with build-dep for autoremove (on Debian/Ubuntu)

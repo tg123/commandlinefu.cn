@@ -1,8 +1,0 @@
-commandlinefu_id: 6978
-translator:
-  weibo: ''
-hide: true
-command: |-
-  OFFS=30;LZ=6;FF=$(printf %%0%dd $LZ);for F in *.jpg;do NF="${F%.jpg}";NF="${NF/#+(0)/}";NF=$[NF+OFFS];NF="$(printf $FF $NF)".jpg;if [ "$F" != "$NF" ];then mv -iv "$F" "$NF";fi;done
-summary: |-
-  Give all those pictures the same name format, trailing zeros please for the right order, offset to merge different collections of pictures

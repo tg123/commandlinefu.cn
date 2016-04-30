@@ -1,8 +1,0 @@
-commandlinefu_id: 127
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  pidof httpd
-summary: |-
-  显示指定程序的 进程id

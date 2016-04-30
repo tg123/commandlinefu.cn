@@ -1,8 +1,0 @@
-commandlinefu_id: 13372
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find directory -type l -lname string
-summary: |-
-  List all symbolic links in a directory matching a string

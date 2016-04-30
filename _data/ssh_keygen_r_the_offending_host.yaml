@@ -1,8 +1,0 @@
-commandlinefu_id: 6057
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-keygen -R <the_offending_host>
-summary: |-
-  Remove a line in a text file. Useful to fix

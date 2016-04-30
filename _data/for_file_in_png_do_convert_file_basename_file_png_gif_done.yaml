@@ -1,7 +1,0 @@
-commandlinefu_id: 720
-translator:
-  weibo: particle128
-command: |-
-  for file in *.png; do convert "$file" "$(basename $file .png).gif"; done
-summary: |-
-  用convert工具把png文件转成gif

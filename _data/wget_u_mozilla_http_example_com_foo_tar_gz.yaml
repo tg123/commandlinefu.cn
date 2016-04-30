@@ -1,7 +1,0 @@
-commandlinefu_id: 10064
-translator:
-  weibo: tgic
-command: |-
-  wget -U Mozilla http://example.com/foo.tar.gz
-summary: |-
-  加UA的wget

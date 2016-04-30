@@ -1,8 +1,0 @@
-commandlinefu_id: 12901
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -k ~/* | awk '$1 > 50000' | sort -nr
-summary: |-
-  Find directories over 50MB in the home directory

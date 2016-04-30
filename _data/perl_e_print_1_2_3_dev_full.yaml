@@ -1,8 +1,0 @@
-commandlinefu_id: 1037
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'print 1, 2, 3' > /dev/full
-summary: |-
-  Use /dev/full to test language I/O-failsafety

@@ -1,8 +1,0 @@
-commandlinefu_id: 13542
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status | awk -F" " '{ for (i=2; i<=NF; i++) print "ls -ld \""$i"\""}' | sh
-summary: |-
-  find svn uncommitted files and list their properties

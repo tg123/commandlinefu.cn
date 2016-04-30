@@ -1,8 +1,0 @@
-commandlinefu_id: 5856
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -exec du -sk '{}' \; | awk '($1 < 2048) {print $2}'
-summary: |-
-  list folders containing less than 2 MB of data

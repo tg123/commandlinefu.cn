@@ -1,8 +1,0 @@
-commandlinefu_id: 11061
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkfifo foo ; nc -lk 2600 0<foo | /bin/bash 1>foo
-summary: |-
-  Emulating netcat -e (netcat-traditional or netcat-openbsd) with the gnu-netcat

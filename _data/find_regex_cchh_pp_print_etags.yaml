@@ -1,8 +1,0 @@
-commandlinefu_id: 126
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -regex ".*\.[cChH]\(pp\)?" -print | etags -
-summary: |-
-  Create etags file of .c, .cpp, and .h files in all subdirectories

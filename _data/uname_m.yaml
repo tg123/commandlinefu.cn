@@ -1,8 +1,0 @@
-commandlinefu_id: 7667
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uname -m
-summary: |-
-  check if your processor is 32 or 64 bit

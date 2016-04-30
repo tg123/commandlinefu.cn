@@ -1,8 +1,0 @@
-commandlinefu_id: 11949
-translator:
-  weibo: ''
-hide: true
-command: |-
-  prlimit --cpu=10 sort -u hugefile
-summary: |-
-  Limit the cpu usage of a process

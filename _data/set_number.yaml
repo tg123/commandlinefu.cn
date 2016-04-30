@@ -1,7 +1,0 @@
-commandlinefu_id: 12797
-translator:
-  weibo: tgic
-command: |-
-  :set number
-summary: |-
-  在vi中显示行号

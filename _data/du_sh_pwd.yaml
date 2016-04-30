@@ -1,7 +1,0 @@
-commandlinefu_id: 9601
-translator:
-  weibo: gdqyn
-command: |-
-  du -sh `pwd`
-summary: |-
-  显示当前目录占用的空间(MB)。

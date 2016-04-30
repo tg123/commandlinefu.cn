@@ -1,7 +1,0 @@
-commandlinefu_id: 9947
-translator:
-  weibo: tgic
-command: |-
-  help builtin
-summary: |-
-  显示内部命令

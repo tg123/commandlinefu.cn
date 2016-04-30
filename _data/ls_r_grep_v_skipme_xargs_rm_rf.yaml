@@ -1,7 +1,0 @@
-commandlinefu_id: 12836
-translator:
-  weibo: tgic
-command: |-
-  ls -R | grep -v skipme | xargs rm -Rf
-summary: |-
-  排除关键字后rm

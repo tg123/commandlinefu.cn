@@ -1,8 +1,0 @@
-commandlinefu_id: 3134
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mailq | grep DrWEB | awk {'print $1'} | sed s/*//g | postsuper -d -
-summary: |-
-  delete all DrWeb status, failure and other messages on a postfix server

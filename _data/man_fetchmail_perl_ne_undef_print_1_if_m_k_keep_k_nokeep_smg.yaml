@@ -1,7 +1,0 @@
-commandlinefu_id: 2503
-translator:
-  weibo: tgic
-command: |-
-  man fetchmail | perl -ne 'undef $/; print $1 if m/^.*?(-k \| --keep.*)-K \| --nokeep.*$/smg'
-summary: |-
-  使用 perl 提取文本

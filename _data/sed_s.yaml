@@ -1,7 +1,0 @@
-commandlinefu_id: 831
-translator:
-  weibo: tgic
-command: |-
-  sed 's/$//'
-summary: |-
-  将行转成空白

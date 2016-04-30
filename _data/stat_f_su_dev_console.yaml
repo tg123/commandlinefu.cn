@@ -1,8 +1,0 @@
-commandlinefu_id: 13591
-translator:
-  weibo: ''
-hide: true
-command: |-
-  stat -f%Su /dev/console
-summary: |-
-  Get current logged in users shortname

@@ -1,7 +1,0 @@
-commandlinefu_id: 1132
-translator:
-  weibo: tgic
-command: |-
-  mtr google.com
-summary: |-
-  混合ping和traceroute的工具

@@ -1,7 +1,0 @@
-commandlinefu_id: 2752
-translator:
-  weibo: tgic
-command: |-
-  date --date="$(openssl x509 -in xxxxxx.crt -noout -startdate | cut -d= -f 2)" --iso-8601
-summary: |-
-  查看证书日期

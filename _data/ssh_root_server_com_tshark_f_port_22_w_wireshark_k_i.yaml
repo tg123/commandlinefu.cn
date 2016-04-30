@@ -1,7 +1,0 @@
-commandlinefu_id: 4373
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ssh root@server.com 'tshark -f "port !22" -w -' | wireshark -k -i -
-summary: |-
-  通过ssh加wireshark来分析远程主机的流量

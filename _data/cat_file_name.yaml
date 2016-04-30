@@ -1,7 +1,0 @@
-commandlinefu_id: 10483
-translator:
-  weibo: titikaka723 
-command: |-
-  cat > file_name
-summary: |-
-   将显示出来的信息写入文件中 

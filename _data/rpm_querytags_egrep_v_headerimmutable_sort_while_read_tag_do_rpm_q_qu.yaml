@@ -1,8 +1,0 @@
-commandlinefu_id: 5152
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm --querytags | egrep -v HEADERIMMUTABLE | sort | while read tag ; do rpm -q --queryformat "$tag: [%{$tag} ]\n" -p $SomeRPMfile ; done
-summary: |-
-  Dump an rpm's package details (besides the files)

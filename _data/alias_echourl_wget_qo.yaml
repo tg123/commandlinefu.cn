@@ -1,8 +1,0 @@
-commandlinefu_id: 13485
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias echourl="wget -qO -"
-summary: |-
-  Echo the contents of a Url

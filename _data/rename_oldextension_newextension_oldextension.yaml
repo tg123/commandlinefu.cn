@@ -1,7 +1,0 @@
-commandlinefu_id: 415
-translator:
-  weibo: tgic
-command: |-
-  rename .oldextension .newextension *.oldextension
-summary: |-
-  只更换文件的扩展名

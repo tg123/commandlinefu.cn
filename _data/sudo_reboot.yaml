@@ -1,8 +1,0 @@
-commandlinefu_id: 12340
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo reboot
-summary: |-
-  Use this command to reboot the pc in linux

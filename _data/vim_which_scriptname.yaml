@@ -1,7 +1,0 @@
-commandlinefu_id: 2130
-translator:
-  weibo: tgic
-command: |-
-  vim `which <scriptname>`
-summary: |-
-  直接编辑 脚本命令

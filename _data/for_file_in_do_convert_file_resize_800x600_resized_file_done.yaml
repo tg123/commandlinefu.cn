@@ -1,7 +1,0 @@
-commandlinefu_id: 11912
-translator:
-  weibo: codepiano
-command: |-
-  for file in *; do convert $file -resize 800x600 resized-$file; done
-summary: |-
-  转换目录中所有图片的分辨率，将会产生一个新的文件

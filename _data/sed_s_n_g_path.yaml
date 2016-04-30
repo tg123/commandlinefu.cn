@@ -1,7 +1,0 @@
-commandlinefu_id: 3231
-translator:
-  weibo: tgic
-command: |-
-  sed 's/:/\n/g' <<<$PATH
-summary: |-
-  每行一个现实PATH内容

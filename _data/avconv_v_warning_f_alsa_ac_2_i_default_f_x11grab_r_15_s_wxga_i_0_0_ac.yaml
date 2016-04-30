@@ -1,8 +1,0 @@
-commandlinefu_id: 11657
-translator:
-  weibo: ''
-hide: true
-command: |-
-  avconv -v warning -f alsa -ac 2 -i default -f x11grab -r 15 -s wxga -i :0.0 -acodec libvorbis -ab 320k -vcodec libvpx -qmax 2 -qmin 1 -threads auto -y -metadata title="Title here" ~/Video/AVCONV_REG.webm
-summary: |-
-  Screencast of your PC Display with webm output

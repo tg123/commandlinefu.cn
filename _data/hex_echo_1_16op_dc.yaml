@@ -1,7 +1,0 @@
-commandlinefu_id: 9874
-translator:
-  weibo: tgic
-command: |-
-  hex() { echo $1 16op | dc; }
-summary: |-
-  转换10进制为16进制

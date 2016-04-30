@@ -1,8 +1,0 @@
-commandlinefu_id: 13657
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i input.mpg -deinterlace -pix_fmt yuv420p -vcodec libx264 -preset slow -vprofile high -trellis 2 -crf 20 -ac 2 -ab 192k -f mp4 -ss 5:00.000 -to 25:00.000  output.avi
-summary: |-
-  Crop video starting at 00:05:00 with duration of 20 mins, also convert to mpeg4 with good quality

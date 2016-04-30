@@ -1,8 +1,0 @@
-commandlinefu_id: 13488
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -type f -exec bash -c 'if ffmpeg -i "{}" 2>&1 | grep -qi h264 ; then echo "{}"; fi' \;
-summary: |-
-  Print names of all video files encoded with h264

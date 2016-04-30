@@ -1,7 +1,0 @@
-commandlinefu_id: 10371
-translator:
-  weibo: particle128
-command: |-
-  CTRL+s
-summary: |-
-  暂停和继续终端上的处理

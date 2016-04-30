@@ -1,8 +1,0 @@
-commandlinefu_id: 10066
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in /*part1.rar;do unrar e .$f.;done
-summary: |-
-  Unrar all multipart rar archives in directory

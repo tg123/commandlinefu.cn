@@ -1,8 +1,0 @@
-commandlinefu_id: 10790
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export LESS='-x4FRSXs'
-summary: |-
-  Pimp your less

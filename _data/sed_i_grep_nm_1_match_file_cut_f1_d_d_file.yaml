@@ -1,8 +1,0 @@
-commandlinefu_id: 8534
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i "$(grep -nm 1 match file|cut -f1 -d:)d" file
-summary: |-
-  Remove the first line containing 'match' from file

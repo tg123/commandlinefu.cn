@@ -1,8 +1,0 @@
-commandlinefu_id: 13741
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep -wi --color 'warning|error|critical'
-summary: |-
-  Use grep to get multiple patterns.

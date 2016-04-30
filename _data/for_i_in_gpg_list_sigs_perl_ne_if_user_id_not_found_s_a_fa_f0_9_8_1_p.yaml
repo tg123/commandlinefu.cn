@@ -1,8 +1,0 @@
-commandlinefu_id: 11992
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `gpg --list-sigs | perl -ne 'if(/User ID not found/){s/^.+([a-fA-F0-9]{8}).*/\1/; print}' | sort | uniq`; do gpg --keyserver-options no-auto-key-retrieve --recv-keys $i; done
-summary: |-
-  Fetch all GPG keys that are currently missing in your keyring

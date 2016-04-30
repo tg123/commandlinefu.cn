@@ -1,8 +1,0 @@
-commandlinefu_id: 38
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -e "[mysql]\npager=less -niSFX" >> ~/.my.cnf
-summary: |-
-  Changes standard mysql client output to 'less'.

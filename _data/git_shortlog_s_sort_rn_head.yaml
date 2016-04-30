@@ -1,7 +1,0 @@
-commandlinefu_id: 11031
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  git shortlog -s | sort -rn | head
-summary: |-
-  输出git repo中前十位最活跃的提交者

@@ -1,8 +1,0 @@
-commandlinefu_id: 1660
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  seq 0 0.1 20 | awk '{print $1, cos(0.5*$1)*sin(5*$1)}' | graph -T X
-summary: |-
-  画一个图像

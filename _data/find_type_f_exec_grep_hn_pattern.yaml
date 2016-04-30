@@ -1,8 +1,0 @@
-commandlinefu_id: 11247
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec grep -Hn <pattern> {} \;
-summary: |-
-  Search for a string inside all files below current directory

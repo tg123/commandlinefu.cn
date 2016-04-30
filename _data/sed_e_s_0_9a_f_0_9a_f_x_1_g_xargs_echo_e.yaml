@@ -1,7 +1,0 @@
-commandlinefu_id: 2285
-translator:
-  weibo: tgic
-command: |-
-  sed -e's/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g' | xargs echo -e
-summary: |-
-  urldecoding

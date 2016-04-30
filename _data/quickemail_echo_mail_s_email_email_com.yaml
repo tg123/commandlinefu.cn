@@ -1,8 +1,0 @@
-commandlinefu_id: 7950
-translator:
-  weibo: ''
-hide: true
-command: |-
-  quickemail() { echo "$*" | mail -s "$*" email@email.com; }
-summary: |-
-  Email yourself a short note

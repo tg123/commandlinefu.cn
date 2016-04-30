@@ -1,7 +1,0 @@
-commandlinefu_id: 9439
-translator:
-  weibo: tgic
-command: |-
-  grep -c '^$' /proc/cpuinfo
-summary: |-
-  计算cpu 数量

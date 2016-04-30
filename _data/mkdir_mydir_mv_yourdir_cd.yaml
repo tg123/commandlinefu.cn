@@ -1,7 +1,0 @@
-commandlinefu_id: 1545
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  $mkdir mydir -> mv !$ yourdir -> $cd !$
-summary: |-
-  用!$指代上个命令的最后一个字符串

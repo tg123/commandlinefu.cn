@@ -1,8 +1,0 @@
-commandlinefu_id: 9018
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsr() { find "${@:-.}" -print0 |sort -z |xargs -0 ls $LS_OPTIONS -dla; }
-summary: |-
-  Sorted, recursive long file listing

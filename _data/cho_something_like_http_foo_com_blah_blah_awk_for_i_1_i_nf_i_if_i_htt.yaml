@@ -1,7 +1,0 @@
-commandlinefu_id: 4172
-translator:
-  weibo: tgic
-command: |-
-  echo "(Something like http://foo.com/blah_blah)" | awk '{for(i=1;i<=NF;i++){if($i~/^(http|ftp):\/\//)print $i}}'
-summary: |-
-  匹配url

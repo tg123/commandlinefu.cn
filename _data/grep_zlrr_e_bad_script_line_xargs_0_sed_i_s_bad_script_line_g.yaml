@@ -1,8 +1,0 @@
-commandlinefu_id: 6477
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -ZlRr -e BAD_SCRIPT_LINE * |xargs -0 sed -i 's/BAD_SCRIPT_LINE//g'
-summary: |-
-  remove script from infected html files

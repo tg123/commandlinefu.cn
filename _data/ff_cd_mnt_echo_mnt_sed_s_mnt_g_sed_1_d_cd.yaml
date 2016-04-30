@@ -1,8 +1,0 @@
-commandlinefu_id: 9965
-translator:
-  weibo: ''
-hide: true
-command: |-
-  _ff(){ cd /mnt;echo /mnt/*/* |sed 's/ \/mnt\//\&/g' |sed '/'"$1"'/!d'; cd -;}
-summary: |-
-  glob /mnt

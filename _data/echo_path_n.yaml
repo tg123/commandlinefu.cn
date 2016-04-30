@@ -1,8 +1,0 @@
-commandlinefu_id: 3209
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo "${PATH//:/$'\n'}"
-summary: |-
-  按行显示PATH

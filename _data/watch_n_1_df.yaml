@@ -1,7 +1,0 @@
-commandlinefu_id: 983
-translator:
-  weibo: tgic
-command: |-
-  watch -n 1 df
-summary: |-
-  监控磁盘空间

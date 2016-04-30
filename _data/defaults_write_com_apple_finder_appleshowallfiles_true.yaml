@@ -1,8 +1,0 @@
-commandlinefu_id: 1411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  defaults write com.apple.Finder AppleShowAllFiles TRUE
-summary: |-
-  Show hidden files in OS X

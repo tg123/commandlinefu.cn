@@ -1,8 +1,0 @@
-commandlinefu_id: 1817
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man beep | sed -e '1,/Note/d; /BUGS/,$d' | awk '{print $2}' | xargs -IX sudo beep -f X -l 500
-summary: |-
-  Play musical notes from octave of middle C

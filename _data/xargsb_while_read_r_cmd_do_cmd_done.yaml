@@ -1,7 +1,0 @@
-commandlinefu_id: 6672
-translator:
-  weibo: tgic
-command: |-
-  xargsb() { while read -r cmd; do ${@//'{}'/$cmd}; done; }
-summary: |-
-  用内部命令实现xargs

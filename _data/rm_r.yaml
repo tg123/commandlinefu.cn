@@ -1,7 +1,0 @@
-commandlinefu_id: 8082
-translator:
-  weibo: tgic
-command: |-
-  rm -r .[!.]*
-summary: |-
-  删除当前目录下的所有隐藏文件

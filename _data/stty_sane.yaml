@@ -1,7 +1,0 @@
-commandlinefu_id: 4019
-translator:
-  weibo: tgic
-command: |-
-  stty sane
-summary: |-
-  重置因为二进制字符导致bug 的终端

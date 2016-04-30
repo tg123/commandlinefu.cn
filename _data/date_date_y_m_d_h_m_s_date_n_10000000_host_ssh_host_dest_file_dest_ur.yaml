@@ -1,8 +1,0 @@
-commandlinefu_id: 9004
-translator:
-  weibo: ''
-hide: true
-command: |-
-  DATE=$(date +%Y-%m-%d_%H-%M-%S)-$(($(date +%N)/10000000)); HOST=ssh_host; DEST=file_dest; URL=url/screenshot_$DATE.png; import -window root png:- | ssh $HOST "cat > $DEST/screenshot_$DATE.png"; echo $URL | xclip; notify-send -u low "Title" "Message"
-summary: |-
-  Screenshot pipe to remote host, adding URL to clipboard, notifying when done. (without saving locally)

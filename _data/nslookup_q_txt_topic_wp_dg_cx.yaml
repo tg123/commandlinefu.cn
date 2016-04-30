@@ -1,8 +1,0 @@
-commandlinefu_id: 5514
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  nslookup -q=txt <topic>.wp.dg.cx
-summary: |-
-  通过dns查看wikipedia

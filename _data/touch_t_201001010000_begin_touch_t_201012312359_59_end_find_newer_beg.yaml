@@ -1,8 +1,0 @@
-commandlinefu_id: 8696
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch -t 201001010000 begin; touch -t 201012312359.59 end; find . -newer begin -a ! -newer end
-summary: |-
-  find files in a date range

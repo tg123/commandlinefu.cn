@@ -1,7 +1,0 @@
-commandlinefu_id: 13383
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -name '*.phtml' | xargs perl -pi -e 's/(?!(<\?(php|xml|=)))<\?/<\?php/g;'
-summary: |-
-  替换掉PHP的short open tag（PHP代码开始标志的缩写形式<? ?>）

@@ -1,8 +1,0 @@
-commandlinefu_id: 1409
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch {1..10}.txt
-summary: |-
-  Create a bunch of dummy files for testing

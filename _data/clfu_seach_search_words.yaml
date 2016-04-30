@@ -1,7 +1,0 @@
-commandlinefu_id: 2173
-translator:
-  weibo: titikaka723 
-command: |-
-  clfu-seach <search words>
-summary: |-
-  在命令行中寻找命令 

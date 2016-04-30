@@ -1,8 +1,0 @@
-commandlinefu_id: 13551
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f *.log | grep --color=always '|==>.+<=='
-summary: |-
-  show filenames in tail output with color

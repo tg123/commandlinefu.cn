@@ -1,8 +1,0 @@
-commandlinefu_id: 10800
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sestatus -v
-summary: |-
-  Know SELinux status

@@ -1,8 +1,0 @@
-commandlinefu_id: 5833
-translator:
-  weibo: tgic
-hide: false
-command: |
-  !:1-3
-summary: |-
-  复制上次命令3个参数

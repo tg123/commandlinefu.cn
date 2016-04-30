@@ -1,8 +1,0 @@
-commandlinefu_id: 14073
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in /usr/share/cowsay/cows/*.cow; do cowsay -f $i "$i"; done
-summary: |-
-  Show all available cows

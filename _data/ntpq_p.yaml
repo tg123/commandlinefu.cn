@@ -1,7 +1,0 @@
-commandlinefu_id: 6582
-translator:
-  weibo: tgic
-command: |-
-  ntpq -p
-summary: |-
-  检查nptd是否正常

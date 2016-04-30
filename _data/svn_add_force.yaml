@@ -1,8 +1,0 @@
-commandlinefu_id: 4703
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn add . --force
-summary: |-
-  add all files not under version control to repository

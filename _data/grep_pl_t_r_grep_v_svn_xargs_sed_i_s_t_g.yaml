@@ -1,8 +1,0 @@
-commandlinefu_id: 2311
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -PL "\t" -r . |  grep -v ".svn" | xargs sed -i 's/\t/    /g'
-summary: |-
-  Replace all tabs with spaces in an application

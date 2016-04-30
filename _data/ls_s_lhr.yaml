@@ -1,8 +1,0 @@
-commandlinefu_id: 2013
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -S -lhr
-summary: |-
-  list and sort files by size in reverse order (file size in human readable output)

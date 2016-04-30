@@ -1,7 +1,0 @@
-commandlinefu_id: 10365
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -Rl dir1/ > /tmp/dir1.ls; ls -Rl dir2/ > /tmp/dir2.ls; meld /tmp/dir1.ls /tmp/dir2.ls
-summary: |-
-  快而粗暴的文件树比对方式

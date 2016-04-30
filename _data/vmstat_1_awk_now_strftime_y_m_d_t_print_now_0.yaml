@@ -1,7 +1,0 @@
-commandlinefu_id: 2682
-translator:
-  weibo: tgic
-command: |-
-  vmstat 1 | awk '{now=strftime("%Y-%m-%d %T "); print now $0}'
-summary: |-
-  带有时间的 vmstat

@@ -1,7 +1,0 @@
-commandlinefu_id: 8934
-translator:
-  weibo: tgic
-command: |-
-  lsof -nPi | txt2html  > ~/lsof.html | gnome-open lsof.html
-summary: |-
-  把网络使用情况打印到网页中

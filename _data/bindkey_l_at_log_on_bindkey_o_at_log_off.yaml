@@ -1,8 +1,0 @@
-commandlinefu_id: 6751
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bindkey ^l at "#" log on   bindkey ^o at "#" log off
-summary: |-
-  Screen enable/disable loggin in all windows

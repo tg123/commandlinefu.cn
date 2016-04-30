@@ -1,8 +1,0 @@
-commandlinefu_id: 7834
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -n '/^[^#]*<Virtual/{:l N; /<\/Virtual/!bl;}; /PATTERN/p' vhosts.conf
-summary: |-
-  在 apache配置里边寻找 虚拟机

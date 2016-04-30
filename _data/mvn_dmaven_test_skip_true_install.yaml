@@ -1,7 +1,0 @@
-commandlinefu_id: 2234
-translator:
-  weibo: tgic
-command: |-
-  mvn -Dmaven.test.skip=true install
-summary: |-
-  跳过maven测试

@@ -1,7 +1,0 @@
-commandlinefu_id: 3305
-translator:
-  weibo: tgic
-command: |-
-  grep -ir 'foo' * | awk '{print $1}' | sed -e 's/://' | xargs vim
-summary: |-
-  用 vim 编辑所有你grp 到的文件

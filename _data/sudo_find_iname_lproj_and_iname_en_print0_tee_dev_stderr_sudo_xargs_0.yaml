@@ -1,8 +1,0 @@
-commandlinefu_id: 1423
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo find / -iname "*.lproj" -and \! -iname "en*" -print0 | tee /dev/stderr | sudo xargs -0 rm -rfv
-summary: |-
-  Mac OS X: remove extra languages to save over 3 GB of space.

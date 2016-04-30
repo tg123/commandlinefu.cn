@@ -1,7 +1,0 @@
-commandlinefu_id: 1487
-translator:
-  weibo: tgic
-command: |-
-  sort file1.txt | uniq > file2.txt
-summary: |-
-  输出不重复的行

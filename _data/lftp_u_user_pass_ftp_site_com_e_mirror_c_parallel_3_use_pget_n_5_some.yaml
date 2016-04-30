@@ -1,8 +1,0 @@
-commandlinefu_id: 11571
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lftp -u user,pass ftp://site.com/ -e 'mirror -c --parallel=3 --use-pget-n=5 "Some folder"'
-summary: |-
-  Multi-segment directory downloading with lftp

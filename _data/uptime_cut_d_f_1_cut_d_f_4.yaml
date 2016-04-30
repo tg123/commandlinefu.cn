@@ -1,7 +1,0 @@
-commandlinefu_id: 9535
-translator:
-  weibo: titikaka723 
-command: |-
-  uptime | cut -d "," -f 1 | cut -d " " -f 4-
-summary: |-
-  只显示实际运行时间 

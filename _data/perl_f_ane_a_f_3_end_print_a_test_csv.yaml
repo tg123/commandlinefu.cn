@@ -1,8 +1,0 @@
-commandlinefu_id: 2973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -F',' -ane '$a += $F[3]; END { print $a }' test.csv
-summary: |-
-  Sum columns from CSV column $COL

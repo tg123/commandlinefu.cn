@@ -1,8 +1,0 @@
-commandlinefu_id: 13665
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -sSi <URL> | sed '/^\r$/q'
-summary: |-
-  Get HTTP headers using curl, but still perform a GET

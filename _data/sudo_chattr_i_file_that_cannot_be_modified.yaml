@@ -1,8 +1,0 @@
-commandlinefu_id: 5150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo chattr -i <file that cannot be modified>
-summary: |-
-  Change attributes of files so you can edit them

@@ -1,7 +1,0 @@
-commandlinefu_id: 12112
-translator:
-  weibo: Spacewander__罗泽轩 
-command: |-
-  watch "lsof -i -P |grep ESTABLISHED |awk '{printf \"%15.15s \\t%s\\n\", \$1, \$9}'"
-summary: |-
-  列出你的连接到网络的应用和它们连接的网络地址

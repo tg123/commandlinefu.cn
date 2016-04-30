@@ -1,7 +1,0 @@
-commandlinefu_id: 6810
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  jar -tf file.jar
-summary: |-
-  列出jar中的内容

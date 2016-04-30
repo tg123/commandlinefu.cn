@@ -1,8 +1,0 @@
-commandlinefu_id: 13210
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pacman -Qdt -q | xargs pacman --noconfirm -R
-summary: |-
-  Remove orphaned dependencies on Arch

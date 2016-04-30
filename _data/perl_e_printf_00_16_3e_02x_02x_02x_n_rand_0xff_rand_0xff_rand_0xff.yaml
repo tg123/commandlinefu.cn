@@ -1,7 +1,0 @@
-commandlinefu_id: 10943
-translator:
-  weibo: tgic
-command: |-
-  perl -e 'printf "%02X:%02X:%02X:%02X:%02X:%02X\n", rand 0xFF, rand 0xFF, rand 0xFF, , rand 0xFF, rand 0xFF, rand 0xFF'
-summary: |-
-  生成一个随机mac

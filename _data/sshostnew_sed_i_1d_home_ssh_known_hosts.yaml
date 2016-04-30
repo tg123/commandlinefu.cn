@@ -1,7 +1,0 @@
-commandlinefu_id: 9648
-translator:
-  weibo: tgic
-command: |-
-  sshostnew () {sed -i "$1d" $HOME/.ssh/known_hosts ; }
-summary: |-
-  清除指定的host

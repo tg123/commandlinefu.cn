@@ -1,7 +1,0 @@
-commandlinefu_id: 3862
-translator:
-  weibo: tgic
-command: |-
-  echo $(shuf -i 1-35 | head -n7 | sort -n)
-summary: |-
-  帮你卖双色球(35选7)

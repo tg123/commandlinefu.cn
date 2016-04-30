@@ -1,8 +1,0 @@
-commandlinefu_id: 13930
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name '*.php' | xargs wc -l
-summary: |-
-  count all the lines of code in a directory recursively

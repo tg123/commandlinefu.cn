@@ -1,7 +1,0 @@
-commandlinefu_id: 4682
-translator:
-  weibo: tgic
-command: |-
-  echo $(( $( cat count.txt | tr "\n" "+" | xargs -I{} echo {} 0  ) ))
-summary: |-
-  求和

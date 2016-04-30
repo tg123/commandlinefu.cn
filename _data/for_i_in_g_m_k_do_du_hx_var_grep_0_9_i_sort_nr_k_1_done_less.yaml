@@ -1,7 +1,0 @@
-commandlinefu_id: 10927
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in G M K; do du -hx /var/ | grep [0-9]$i | sort -nr -k 1; done | less
-summary: |-
-  在指定文件系统中使用du和sort查找最大的文件夹

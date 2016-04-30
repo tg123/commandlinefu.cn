@@ -1,7 +1,0 @@
-commandlinefu_id: 12818
-translator:
-  weibo: tgic
-command: |-
-  takeown.exe /F "FILE_or_DIR" /A /R /D O
-summary: |-
-  在windows上chown

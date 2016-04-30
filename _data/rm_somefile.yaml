@@ -1,8 +1,0 @@
-commandlinefu_id: 1034
-translator:
-  weibo: ''
-hide: true
-command: |-
-  \rm somefile
-summary: |-
-  use the real 'rm', distribution brain-damage notwithstanding

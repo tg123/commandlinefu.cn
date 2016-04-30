@@ -1,7 +1,0 @@
-commandlinefu_id: 5577
-translator:
-  weibo: tgic
-command: |-
-  passwd -d $USER
-summary: |-
-  允许空密码登录

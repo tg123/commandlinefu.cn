@@ -1,8 +1,0 @@
-commandlinefu_id: 7842
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn diff --diff-cmd="colordiff"
-summary: |-
-  svn diff colorized

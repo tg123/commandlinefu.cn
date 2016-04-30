@@ -1,7 +1,0 @@
-commandlinefu_id: 4346
-translator:
-  weibo: tgic
-command: |-
-  sudo ls -RFal / | gzip > all_files_list.txt.gz
-summary: |-
-  把机器上所有文件名单 写到一个 压缩文件里边

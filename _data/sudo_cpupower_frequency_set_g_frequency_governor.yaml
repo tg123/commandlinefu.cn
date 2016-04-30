@@ -1,8 +1,0 @@
-commandlinefu_id: 10121
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo cpupower frequency-set -g <frequency governor>
-summary: |-
-  CPU Frequency/Speed Set

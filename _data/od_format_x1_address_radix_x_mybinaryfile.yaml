@@ -1,8 +1,0 @@
-commandlinefu_id: 5958
-translator:
-  weibo: ''
-hide: true
-command: |-
-  od --format=x1  --address-radix=x mybinaryfile
-summary: |-
-  hexadecimal dump of a file as it is on disk with hexadecimal offsets

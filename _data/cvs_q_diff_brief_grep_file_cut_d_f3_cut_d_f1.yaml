@@ -1,8 +1,0 @@
-commandlinefu_id: 10389
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cvs -q diff --brief | grep file | cut -d/ -f3- | cut -d',' -f1
-summary: |-
-  List only locally modified files with CVS

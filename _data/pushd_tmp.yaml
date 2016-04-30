@@ -1,7 +1,0 @@
-commandlinefu_id: 799
-translator:
-  weibo: codepiano
-command: |-
-  pushd /tmp
-summary: |-
-  把路径压到目录栈

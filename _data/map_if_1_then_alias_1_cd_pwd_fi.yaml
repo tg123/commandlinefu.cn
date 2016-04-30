@@ -1,8 +1,0 @@
-commandlinefu_id: 8819
-translator:
-  weibo: ''
-hide: true
-command: |-
-  map() { if [ "$1" != "" ]; then alias $1="cd `pwd`"; fi }
-summary: |-
-  Quickly create an alias for changing into the current directory

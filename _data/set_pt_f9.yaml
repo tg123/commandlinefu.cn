@@ -1,7 +1,0 @@
-commandlinefu_id: 6122
-translator:
-  weibo: '猪了个去'
-command: |-
-  :set pt=<f9>
-summary: |-
-  vim的粘贴切换，按F9切换粘贴模式的开/关,插入模式和命令模式都有用

@@ -1,7 +1,0 @@
-commandlinefu_id: 8885
-translator:
-  weibo: codepiano
-command: |-
-  mkdir {1..10}
-summary: |-
-  以扩展序列为名建立目录

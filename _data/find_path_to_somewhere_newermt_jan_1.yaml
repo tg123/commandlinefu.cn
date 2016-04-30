@@ -1,8 +1,0 @@
-commandlinefu_id: 13121
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /path/to/somewhere -newermt "Jan 1"
-summary: |-
-  Find files modified since a specific date

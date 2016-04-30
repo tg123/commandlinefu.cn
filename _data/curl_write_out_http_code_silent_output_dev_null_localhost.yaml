@@ -1,7 +1,0 @@
-commandlinefu_id: 13816
-translator:
-  weibo: tgic
-command: |-
-  curl --write-out %{http_code} --silent --output /dev/null localhost
-summary: |-
-  获取http反回码

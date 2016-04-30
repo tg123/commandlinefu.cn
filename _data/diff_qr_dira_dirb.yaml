@@ -1,7 +1,0 @@
-commandlinefu_id: 13303
-translator:
-  weibo: tgic
-command: |-
-  diff -qr /dirA /dirB
-summary: |-
-  查看两个目录中不同的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 7689
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysql --pager="less -niSFX"
-summary: |-
-  Change MySQL Pager For Nicer Output

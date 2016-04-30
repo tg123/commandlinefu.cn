@@ -1,8 +1,0 @@
-commandlinefu_id: 2209
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uuencode archive.tar.gz archive.tar.gz | mail -s "Emailing: archive.tar.gz" user@example.com
-summary: |-
-  Send a binary file as an attachment to an email

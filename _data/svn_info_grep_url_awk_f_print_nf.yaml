@@ -1,8 +1,0 @@
-commandlinefu_id: 12344
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn info | grep ^URL | awk -F\/ '{print $NF}'
-summary: |-
-  Get the current svn branch/tag (Good for PS1/PROMPT_COMMAND cases)

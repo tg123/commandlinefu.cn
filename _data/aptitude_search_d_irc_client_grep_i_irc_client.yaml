@@ -1,8 +1,0 @@
-commandlinefu_id: 8820
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aptitude search ~d "irc client"|grep -i "irc client"
-summary: |-
-  repository search

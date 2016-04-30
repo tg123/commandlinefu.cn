@@ -1,7 +1,0 @@
-commandlinefu_id: 966
-translator:
-  weibo: tgic
-command: |-
-  vimdiff /path/to/file scp://remotehost//path/to/file
-summary: |-
-  比较本地和远程文件

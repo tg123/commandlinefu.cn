@@ -1,8 +1,0 @@
-commandlinefu_id: 8525
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ~ -name "*.ttf" -exec cp {} /usr/share/fonts/truetype \; & fc-cache -f
-summary: |-
-  Search and install true type fonts under user home directory

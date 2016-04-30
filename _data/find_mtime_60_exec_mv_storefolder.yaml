@@ -1,7 +1,0 @@
-commandlinefu_id: 6127
-translator:
-  weibo: codepiano
-command: |-
-  find ./* -mtime +60 -exec mv {} storeFolder \;
-summary: |-
-  移除目录中所有存在超过60天的文件

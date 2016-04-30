@@ -1,7 +1,0 @@
-commandlinefu_id: 5086
-translator:
-  weibo: tgic
-command: |-
-  split -b 4700000000 file.img.gz file.img.gz.
-summary: |-
-  分割大文件

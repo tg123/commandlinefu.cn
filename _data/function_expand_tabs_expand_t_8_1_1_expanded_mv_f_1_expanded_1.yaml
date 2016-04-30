@@ -1,8 +1,0 @@
-commandlinefu_id: 7750
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function expand-tabs() { expand -t 8 "$1" > "$1.expanded"; mv -f "$1.expanded" "$1"; }
-summary: |-
-  Expand tabs

@@ -1,8 +1,0 @@
-commandlinefu_id: 5019
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  lsof -p 1234 | grep -E "\.log$" | awk '{print $NF}'
-summary: |-
-  查看  pid 所有打开的 .log 文件

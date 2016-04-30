@@ -1,7 +1,0 @@
-commandlinefu_id: 4836
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed 's/pattern/^[[1m&^[[0m/g'
-summary: |-
-  加粗显示匹配的字符串

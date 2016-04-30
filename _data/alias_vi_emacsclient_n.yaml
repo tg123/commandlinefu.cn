@@ -1,8 +1,0 @@
-commandlinefu_id: 2788
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias vi='emacsclient -n'
-summary: |-
-  alias vi to emacs

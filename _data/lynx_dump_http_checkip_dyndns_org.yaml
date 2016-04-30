@@ -1,7 +1,0 @@
-commandlinefu_id: 3895
-translator:
-  weibo: codepiano
-command: |-
-  lynx --dump "http://checkip.dyndns.org"
-summary: |-
-  显示自己的ip

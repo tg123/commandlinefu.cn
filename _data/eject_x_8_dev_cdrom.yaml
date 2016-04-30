@@ -1,8 +1,0 @@
-commandlinefu_id: 3629
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eject -x 8 /dev/cdrom
-summary: |-
-  limit the cdrom driver to a specified speed

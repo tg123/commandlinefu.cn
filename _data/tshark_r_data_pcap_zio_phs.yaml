@@ -1,7 +1,0 @@
-commandlinefu_id: 9446
-translator:
-  weibo: titikaka723 
-command: |-
-  tshark -r data.pcap -zio,phs
-summary: |-
-  tshark分析data.pcap文件 

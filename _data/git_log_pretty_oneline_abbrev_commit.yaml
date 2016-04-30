@@ -1,8 +1,0 @@
-commandlinefu_id: 13021
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --pretty=oneline --abbrev-commit
-summary: |-
-  simple single-lined git log

@@ -1,7 +1,0 @@
-commandlinefu_id: 784
-translator:
-  weibo: tgic
-command: |-
-  LC_ALL=C svn info | grep Revision | awk '{print $2}'
-summary: |-
-  打印当前目录的svn 版本号

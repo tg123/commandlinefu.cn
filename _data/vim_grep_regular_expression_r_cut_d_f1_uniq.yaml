@@ -1,7 +1,0 @@
-commandlinefu_id: 11492
-translator:
-  weibo: tgic
-command: |-
-  vim $(grep [REGULAR_EXPRESSION] -R * | cut -d":" -f1 | uniq)
-summary: |-
-  用vim打开grep到的文件

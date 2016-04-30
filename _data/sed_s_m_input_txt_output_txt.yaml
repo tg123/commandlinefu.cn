@@ -1,7 +1,0 @@
-commandlinefu_id: 7874
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed 's/^M$//' input.txt > output.txt
-summary: |-
-  转换DOS换行符(CR/LF)为Unix格式

@@ -1,7 +1,0 @@
-commandlinefu_id: 12038
-translator:
-  weibo: tgic
-command: |-
-  cat -s
-summary: |-
-  压缩空行

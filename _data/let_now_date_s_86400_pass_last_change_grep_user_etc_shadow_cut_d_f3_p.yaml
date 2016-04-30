@@ -1,8 +1,0 @@
-commandlinefu_id: 6963
-translator:
-  weibo: ''
-hide: true
-command: |-
-  let NOW=`date +%s`/86400 ; PASS_LAST_CHANGE=`grep $USER /etc/shadow | cut -d: -f3` ; PASS_LIFE=`grep $USER /etc/shadow | cut -d: -f5`; DAYS_LEFT=$(( PASS_LAST_CHANGE + PASS_LIFE - NOW)) ; echo $DAYS_LEFT
-summary: |-
-  Days left before password expires

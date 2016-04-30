@@ -1,7 +1,0 @@
-commandlinefu_id: 6755
-translator:
-  weibo: titikaka723 
-command: |-
-  awk "BEGIN{ print $* }"
-summary: |-
-  输出某一行 

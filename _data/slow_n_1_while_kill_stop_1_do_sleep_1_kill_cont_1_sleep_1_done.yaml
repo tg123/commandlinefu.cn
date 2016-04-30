@@ -1,7 +1,0 @@
-commandlinefu_id: 10756
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  slow () { [ -n $1 ] && while kill -STOP $1; do sleep 1; kill -CONT $1; sleep 1; done }
-summary: |-
-  减慢给定的IO密集型进程

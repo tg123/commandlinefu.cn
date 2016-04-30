@@ -1,7 +1,0 @@
-commandlinefu_id: 10982
-translator:
-  weibo: tgic
-command: |-
-  sudo find / \( -nouser -o -nogroup \)
-summary: |-
-  查找无主文件

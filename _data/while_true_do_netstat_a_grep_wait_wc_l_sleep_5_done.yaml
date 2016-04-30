@@ -1,7 +1,0 @@
-commandlinefu_id: 12421
-translator:
-  weibo: codepiano
-command: |-
-  while true; do netstat -a|grep WAIT|wc -l; sleep 5; done
-summary: |-
-  当调试网络应用时，在一行命令中每隔5秒检查CLOSE_WAIT和TIME_WAIT连接

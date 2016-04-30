@@ -1,7 +1,0 @@
-commandlinefu_id: 3566
-translator:
-  weibo: tgic
-command: |-
-  netstat -an | grep -Ec '^tcp.+ESTABLISHED$'
-summary: |-
-  查看活动的链接

@@ -1,8 +1,0 @@
-commandlinefu_id: 694
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in *.pgp do `cat /file_with_the_passphrase.dat|(gpg --batch --no-tty --yes --passphrase-fd=0 --decrypt `basename $x`; ) > 'dump_content.dat'` done;
-summary: |-
-  It decripts all pgp files in a selection folder and move the output into a file.

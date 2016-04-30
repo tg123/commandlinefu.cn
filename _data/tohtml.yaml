@@ -1,8 +1,0 @@
-commandlinefu_id: 5177
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :TOhtml
-summary: |-
-  Create colorized html file from Vim or Vimdiff

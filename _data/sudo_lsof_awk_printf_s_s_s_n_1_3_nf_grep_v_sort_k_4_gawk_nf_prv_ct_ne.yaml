@@ -1,8 +1,0 @@
-commandlinefu_id: 95
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lsof | awk '{printf("%s %s %s\n", $1, $3, $NF)}' | grep -v "(" | sort -k 4 | gawk '$NF==prv{ct++;next} {printf("%d %s\n",ct,$0);ct=1;prv=$NF}' | uniq | sort -nr
-summary: |-
-  To find the count of each open file on a system (that supports losf)

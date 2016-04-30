@@ -1,7 +1,0 @@
-commandlinefu_id: 5046
-translator:
-  weibo: tgic
-command: |-
-  find . -name '*.[c|h]pp' -o -name '*.[ch]' -type f
-summary: |-
-  查找cpp源码

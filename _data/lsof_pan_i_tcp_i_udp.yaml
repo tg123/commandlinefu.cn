@@ -1,7 +1,0 @@
-commandlinefu_id: 5795
-translator:
-  weibo: tgic
-command: |-
-  lsof -Pan -i tcp -i udp
-summary: |-
-  查看打开端口的进程

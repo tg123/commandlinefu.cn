@@ -1,7 +1,0 @@
-commandlinefu_id: 815
-translator:
-  weibo: codepiano
-command: |-
-  df / | awk '{print $1}' | grep dev | xargs tune2fs -l | grep create
-summary: |-
-  检查文件系统的创建时间

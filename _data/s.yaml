@@ -1,8 +1,0 @@
-commandlinefu_id: 10907
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ~s
-summary: |-
-  SSH statistics

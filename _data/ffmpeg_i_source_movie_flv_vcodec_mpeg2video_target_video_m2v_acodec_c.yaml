@@ -1,7 +1,0 @@
-commandlinefu_id: 2283
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ffmpeg -i source_movie.flv -vcodec mpeg2video target_video.m2v -acodec copy target_audio.mp3
-summary: |-
-  从电影中提取音频和视频

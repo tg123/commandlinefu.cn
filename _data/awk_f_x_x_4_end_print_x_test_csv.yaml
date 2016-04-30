@@ -1,7 +1,0 @@
-commandlinefu_id: 2967
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  awk -F ',' '{ x = x + $4 } END { print x }' test.csv
-summary: |-
-  从CSV中计算列的总数

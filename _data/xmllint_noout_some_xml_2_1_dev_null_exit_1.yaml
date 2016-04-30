@@ -1,7 +1,0 @@
-commandlinefu_id: 4329
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  xmllint --noout some.xml 2>&1 >/dev/null || exit 1
-summary: |-
-  使用xmllint在命令行下验证XML的语法是否正确

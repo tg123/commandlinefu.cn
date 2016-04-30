@@ -1,8 +1,0 @@
-commandlinefu_id: 12535
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lp -dhp -P1-1 -o media=a4 *
-summary: |-
-  Print first pages from all files from a directory

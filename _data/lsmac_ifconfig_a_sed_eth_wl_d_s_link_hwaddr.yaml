@@ -1,7 +1,0 @@
-commandlinefu_id: 8125
-translator:
-  weibo: tgic
-command: |-
-  lsmac() { ifconfig -a | sed '/eth\|wl/!d;s/   Link.*HWaddr//' ; }
-summary: |-
-  列出mac地址

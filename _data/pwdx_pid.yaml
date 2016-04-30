@@ -1,8 +1,0 @@
-commandlinefu_id: 2999
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  pwdx pid
-summary: |-
-  显示进程的工作目录

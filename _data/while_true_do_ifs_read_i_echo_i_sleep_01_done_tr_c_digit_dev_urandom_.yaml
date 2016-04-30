@@ -1,8 +1,0 @@
-commandlinefu_id: 2720
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true ; do IFS="" read i; echo "$i"; sleep .01; done < <(tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]")
-summary: |-
-  Matrix Style

@@ -1,8 +1,0 @@
-commandlinefu_id: 25
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (cd /tmp && ls)
-summary: |-
-  Jump to a directory, execute a command and jump back to current dir

@@ -1,8 +1,0 @@
-commandlinefu_id: 8071
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Simplied Chinese:"; while read -r line; do echo "Traditional Chinese:"; echo $line | iconv -f utf8 -t gb2312 | iconv -f gb2312  -t big5 | iconv -f big5 -t utf8; done
-summary: |-
-  a simple interactive tool to convert Simplified Chinese (typed by pinyin) to Traditional Chinese &#31616;&#32321;&#20013;&#25991;&#36716;&#25442;

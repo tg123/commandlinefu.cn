@@ -1,7 +1,0 @@
-commandlinefu_id: 2950
-translator:
-  weibo: tgic
-command: |-
-  iconv --from-code=ISO-8859-1 --to-code=UTF-8 iso.txt > utf.txt
-summary: |-
-  转换文件编码

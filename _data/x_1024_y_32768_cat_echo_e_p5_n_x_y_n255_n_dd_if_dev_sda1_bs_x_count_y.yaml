@@ -1,8 +1,0 @@
-commandlinefu_id: 10377
-translator:
-  weibo: ''
-hide: true
-command: |-
-  x=1024; y=32768; cat <(echo -e "P5\n$x $y\n255\n") <(dd if=/dev/sda1 bs=$x count=$y) > sda1.pgm
-summary: |-
-  Look at your data as a greymap image.

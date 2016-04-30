@@ -1,7 +1,0 @@
-commandlinefu_id: 2316
-translator:
-  weibo: tgic
-command: |-
-  apropos keyword
-summary: |-
-  从manpage中找到想要的工具

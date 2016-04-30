@@ -1,8 +1,0 @@
-commandlinefu_id: 10378
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python3 -c 'import sys; print(sys.stdin.read().swapcase(), end="")' <input.txt
-summary: |-
-  switch case of a text file

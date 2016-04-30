@@ -1,8 +1,0 @@
-commandlinefu_id: 5045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias busy='my_file=$(find /usr/include -type f | sort -R | head -n 1); my_len=$(wc -l $my_file | awk "{print $1}"); let "r = $RANDOM % $my_len" 2>/dev/null; vim +$r $my_file'
-summary: |-
-  Makes you look busy

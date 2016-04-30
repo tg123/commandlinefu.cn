@@ -1,8 +1,0 @@
-commandlinefu_id: 1779
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  acpi -tc
-summary: |-
-  电池 热量 风扇信息……

@@ -1,7 +1,0 @@
-commandlinefu_id: 406
-translator:
-  weibo: tgic
-command: |-
-  find . -name "*.php" -exec php -l {} \; | sed -e "/^No syntax/d"
-summary: |-
-  运行php语法检查

@@ -1,7 +1,0 @@
-commandlinefu_id: 9561
-translator:
-  weibo: codepiano
-command: |-
-  alias calc='python -ic "from math import *; from random import *"'
-summary: |-
-  命令行计算器

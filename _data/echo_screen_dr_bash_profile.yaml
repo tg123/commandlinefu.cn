@@ -1,7 +1,0 @@
-commandlinefu_id: 2035
-translator:
-  weibo: tgic
-command: |-
-  echo "screen -DR" >> ~/.bash_profile
-summary: |-
-  登录时候恢复或者开启一个screen

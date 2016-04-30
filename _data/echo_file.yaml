@@ -1,7 +1,0 @@
-commandlinefu_id: 1554
-translator:
-  weibo: '猪了个去'
-command: |-
-  echo ${file##*/}
-summary: |-
-  basename命令的替代用法

@@ -1,7 +1,0 @@
-commandlinefu_id: 10294
-translator:
-  weibo: tgic
-command: |-
-  cat file.txt | putclip
-summary: |-
-  复制到剪切版 (cygwin)

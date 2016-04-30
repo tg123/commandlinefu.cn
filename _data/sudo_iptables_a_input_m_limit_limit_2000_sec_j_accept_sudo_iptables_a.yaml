@@ -1,8 +1,0 @@
-commandlinefu_id: 14091
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo iptables -A INPUT -m limit --limit 2000/sec -j ACCEPT && sudo iptables -A INPUT -j DROP
-summary: |-
-  Set blanket packet/second limit on network interface for Ubuntu VPS server

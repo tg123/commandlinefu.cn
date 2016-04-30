@@ -1,8 +1,0 @@
-commandlinefu_id: 11519
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mdadm --misc --detail /dev/md[012] | less
-summary: |-
-  Print a status report on connected software RAID arrays

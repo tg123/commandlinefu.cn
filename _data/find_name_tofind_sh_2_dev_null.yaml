@@ -1,8 +1,0 @@
-commandlinefu_id: 10521
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -name 'tofind.sh' 2>/dev/null
-summary: |-
-  find file(s) on disk

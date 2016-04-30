@@ -1,8 +1,0 @@
-commandlinefu_id: 9824
-translator:
-  weibo: ''
-hide: true
-command: |-
-  resolve(){ curl -Is $1 | egrep "Location" | sed "s/Location: \(.*\)/\1/g"; }
-summary: |-
-  resolve short urls

@@ -1,8 +1,0 @@
-commandlinefu_id: 14119
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function search() { cat ${@:1} | grep --color=always -E "$1|$" }
-summary: |-
-  search "<keyword>" <file>

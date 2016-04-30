@@ -1,8 +1,0 @@
-commandlinefu_id: 1963
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls /home | head -64 | barcode -t 4x16 | lpr
-summary: |-
-  printing barcodes

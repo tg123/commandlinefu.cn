@@ -1,8 +1,0 @@
-commandlinefu_id: 6743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  strace -e write=1,2 -p $PID 2>&1 | sed -un "/^ |/p" | sed -ue "s/^.\{9\}\(.\{50\}\).\+/\1/g" -e 's/ //g' | xxd -r -p
-summary: |-
-  intercept stdout/stderr of another process or disowned process

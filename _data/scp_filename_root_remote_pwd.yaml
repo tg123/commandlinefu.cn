@@ -1,8 +1,0 @@
-commandlinefu_id: 9600
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  scp filename root@remote:`pwd`
-summary: |-
-  scp时快速写入与本机相同的目录

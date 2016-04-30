@@ -1,8 +1,0 @@
-commandlinefu_id: 3922
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -eo user,pcpu,pmem | tail -n +2 | awk '{num[$1]++; cpu[$1] += $2; mem[$1] += $3} END{printf("NPROC\tUSER\tCPU\tMEM\n"); for (user in cpu) printf("%d\t%s\t%.2f\t%.2f\n",num[user], user, cpu[user], mem[user]) }'
-summary: |-
-  cpu and memory usage top 10 under Linux

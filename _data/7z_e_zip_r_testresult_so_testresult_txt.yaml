@@ -1,8 +1,0 @@
-commandlinefu_id: 7985
-translator:
-  weibo: ''
-hide: true
-command: |-
-  7z e *.zip -r testresult -so >> testresult.txt
-summary: |-
-  Unzip testresult file from all zip-files and merge them into one testresult file.

@@ -1,8 +1,0 @@
-commandlinefu_id: 12854
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr --fb 1920x1080 --output LVDS1 --scale 1.5x1.35 --output HDMI1 --mode 1920x1080
-summary: |-
-  highest resolution of your ouputs as screen resolution and scaled versions on other outputs

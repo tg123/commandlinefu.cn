@@ -1,8 +1,0 @@
-commandlinefu_id: 8821
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -n0 -f /var/log/messages | while read line; do notify-send "System Message" "$line"; done
-summary: |-
-  show each new entry in system messages as a popup

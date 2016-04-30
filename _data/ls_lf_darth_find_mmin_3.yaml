@@ -1,7 +1,0 @@
-commandlinefu_id: 13285
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -lF -darth `find . -mmin -3`
-summary: |-
-  在当前文件夹下查找最近一分钟内更新的文件，并以时间先后顺序排序输出，最新的在最底部

@@ -1,8 +1,0 @@
-commandlinefu_id: 5854
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "alias sudo=\"aplay annoyingsoundfile.ogg\"" >> .bash_aliases
-summary: |-
-  Rickroll your users who try to sudo

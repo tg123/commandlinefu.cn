@@ -1,8 +1,0 @@
-commandlinefu_id: 9973
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -d1 $PWD/*
-summary: |-
-  list with full path

@@ -1,8 +1,0 @@
-commandlinefu_id: 3844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for a in bzip2 lzma gzip;do echo -n>$a;for b in $(seq 0 256);do dd if=/dev/zero of=$b.zero bs=$b count=1;c=$(date +%s%N);$a $b.zero;d=$(date +%s%N);total=$(echo $d-$c|bc);echo $total>>$a;rm $b.zero *.bz2 *.lzma *.gz;done;done
-summary: |-
-  Compression formats Benchmark

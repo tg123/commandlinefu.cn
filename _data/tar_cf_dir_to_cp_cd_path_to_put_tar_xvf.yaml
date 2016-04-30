@@ -1,8 +1,0 @@
-commandlinefu_id: 2868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar cf - dir_to_cp/ | (cd path_to_put/ && tar xvf -)
-summary: |-
-  tar copy

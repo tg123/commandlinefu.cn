@@ -1,7 +1,0 @@
-commandlinefu_id: 9780
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -type f -exec awk '/linux/ { printf "%s %s: %s\n",FILENAME,NR,$0; }' {} \;
-summary: |-
-  在没有GNU egrep -r 功能的Solaris或AIX系统上递归地使用grep

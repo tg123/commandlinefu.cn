@@ -1,8 +1,0 @@
-commandlinefu_id: 10319
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -depth -name '* *' -execdir bash \-c 'a="{}";mv -f "$a" ${a// /_}' \;
-summary: |-
-  Remove spaces from filenames - through a whole directory tree.

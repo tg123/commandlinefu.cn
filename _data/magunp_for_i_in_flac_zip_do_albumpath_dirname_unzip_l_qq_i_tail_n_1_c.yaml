@@ -1,8 +1,0 @@
-commandlinefu_id: 13934
-translator:
-  weibo: ''
-hide: true
-command: |-
-  magunp() {for i in ./*-flac.zip ;do AlbumPath="$(dirname "$(unzip -l -qq "$i" |tail -n 1 |cut -c 31-)")" && unp "$i" && mv ./cover.jpg "$AlbumPath/" && mv ./artwork.pdf "$AlbumPath/" && ls "$AlbumPath/" ; rm "$i";done ;}
-summary: |-
-  Unpack magnatune flac album and move artwork into album dir

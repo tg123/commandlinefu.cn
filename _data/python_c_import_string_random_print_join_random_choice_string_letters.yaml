@@ -1,8 +1,0 @@
-commandlinefu_id: 9708
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c 'import string, random; print "".join(random.choice(string.letters+string.digits) for x in range(6))'
-summary: |-
-  generate random string

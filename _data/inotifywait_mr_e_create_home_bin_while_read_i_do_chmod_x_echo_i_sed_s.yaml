@@ -1,8 +1,0 @@
-commandlinefu_id: 13241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  inotifywait -mr -e CREATE $HOME/bin/ | while read i; do chmod +x $(echo "$i" | sed 's/ \S* //'); done
-summary: |-
-  Immediately put execute permission on any file saved/created in $HOME/bin

@@ -1,8 +1,0 @@
-commandlinefu_id: 8780
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo sh -c 'gunzip -c source.gz > destination'
-summary: |-
-  Extract a .gz file with privilege

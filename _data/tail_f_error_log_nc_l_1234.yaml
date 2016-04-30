@@ -1,8 +1,0 @@
-commandlinefu_id: 5581
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  tail -f error_log | nc -l 1234
-summary: |-
-  让tail 输出到网络上 (telnet IP 1234 看)

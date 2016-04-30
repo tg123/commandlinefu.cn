@@ -1,8 +1,0 @@
-commandlinefu_id: 2847
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /sbin/kexec -l /boot/$KERNEL --append="$KERNELPARAMTERS" --initrd=/boot/$INITRD; sync; /sbin/kexec -e
-summary: |-
-  Quickly (soft-)reboot skipping hardware checks

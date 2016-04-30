@@ -1,7 +1,0 @@
-commandlinefu_id: 3719
-translator:
-  weibo: tgic
-command: |-
-  date -ud "1970-01-01 + 1234567890 seconds"
-summary: |-
-  转换时间戳为可读日期

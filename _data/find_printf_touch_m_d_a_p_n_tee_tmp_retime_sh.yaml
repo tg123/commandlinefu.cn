@@ -1,8 +1,0 @@
-commandlinefu_id: 11478
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -printf "touch -m -d \"%a\" '%p'\n" | tee /tmp/retime.sh
-summary: |-
-  copy timestamps of files from one location to another - useful when file contents are already synced but timestamps are wrong.

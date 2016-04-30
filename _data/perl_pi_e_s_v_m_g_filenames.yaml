@@ -1,8 +1,0 @@
-commandlinefu_id: 835
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -pi -e 's:^V^M::g' <filenames>
-summary: |-
-  Stripping ^M at end of each line for files

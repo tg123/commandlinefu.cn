@@ -1,8 +1,0 @@
-commandlinefu_id: 11787
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias locate='if [ $((`date +%s`-`eval $(stat -s /var/db/locate.database); echo $st_mtime`)) -gt 3600 ]; then echo "locate: db is too old!">/dev/stderr; sudo /usr/libexec/locate.updatedb; fi; locate -i'
-summary: |-
-  Locate command for MAC OSX

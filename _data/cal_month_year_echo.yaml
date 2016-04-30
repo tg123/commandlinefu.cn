@@ -1,7 +1,0 @@
-commandlinefu_id: 13345
-translator:
-  weibo: tgic
-command: |-
-  : $(cal [$month $year]) ; echo $_
-summary: |-
-  获取指定月份的天数

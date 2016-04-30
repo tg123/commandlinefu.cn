@@ -1,7 +1,0 @@
-commandlinefu_id: 11261
-translator:
-  weibo: tgic
-command: |-
-  du -sh /home/*|sort -rh|head -n 10
-summary: |-
-  寻找10个占空间的用户

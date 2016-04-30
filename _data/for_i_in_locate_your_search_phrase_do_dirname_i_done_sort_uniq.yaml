@@ -1,7 +1,0 @@
-commandlinefu_id: 92
-translator:
-  weibo: particle128
-command: |-
-  for i in $(locate your_search_phrase); do dirname $i; done | sort | uniq
-summary: |-
-  搜索文件或目录，排序显示匹配项所在的目录(去掉重复)

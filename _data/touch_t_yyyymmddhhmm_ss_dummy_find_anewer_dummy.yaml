@@ -1,8 +1,0 @@
-commandlinefu_id: 4112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  touch -t "YYYYMMDDhhmm.ss" dummy ; find . -anewer dummy
-summary: |-
-  remove files and directories with acces time older than a given date

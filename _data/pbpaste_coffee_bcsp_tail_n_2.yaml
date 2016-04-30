@@ -1,7 +1,0 @@
-commandlinefu_id: 12716
-translator:
-  weibo: codepiano
-command: |-
-  pbpaste | coffee -bcsp | tail -n +2
-summary: |-
-  把Mac剪切板中的CoffeeScript编译为JavaScript并输出

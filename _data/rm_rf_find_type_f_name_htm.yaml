@@ -1,7 +1,0 @@
-commandlinefu_id: 7157
-translator:
-  weibo: tgic
-command: |-
-  rm -rf `find . -type f -name *.htm`
-summary: |-
-  递归删除所有的htm文件

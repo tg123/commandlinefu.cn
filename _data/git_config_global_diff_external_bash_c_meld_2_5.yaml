@@ -1,8 +1,0 @@
-commandlinefu_id: 12829
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git config --global diff.external 'bash -c "meld $2 $5"'
-summary: |-
-  git diff external without additional script

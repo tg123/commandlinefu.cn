@@ -1,7 +1,0 @@
-commandlinefu_id: 10877
-translator:
-  weibo: tgic
-command: |-
-  [ $V ] || : $((V++)) && echo $V
-summary: |-
-  变量++ (冒号的奇特用法)

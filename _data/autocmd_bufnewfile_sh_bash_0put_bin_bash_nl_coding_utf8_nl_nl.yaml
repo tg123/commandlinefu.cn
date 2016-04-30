@@ -1,8 +1,0 @@
-commandlinefu_id: 10187
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :autocmd BufNewFile *.sh,*.bash 0put =\"#!/bin/bash\<nl># -*- coding: UTF8 -*-\<nl>\<nl>\"|$
-summary: |-
-  before writing a new script

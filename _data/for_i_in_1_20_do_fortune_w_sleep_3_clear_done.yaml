@@ -1,8 +1,0 @@
-commandlinefu_id: 12613
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {1..20}; do fortune -w ; sleep 3; clear; done
-summary: |-
-  Waste time for about 3 minutes

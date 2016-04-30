@@ -1,7 +1,0 @@
-commandlinefu_id: 12936
-translator:
-  weibo: tgic
-command: |-
-  for file in `ls *.log`; do `:> $file`; done
-summary: |-
-  晴空*.log 文件

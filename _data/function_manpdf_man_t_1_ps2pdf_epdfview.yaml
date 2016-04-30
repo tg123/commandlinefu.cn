@@ -1,8 +1,0 @@
-commandlinefu_id: 4508
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function manpdf() {man -t $1 | ps2pdf - - | epdfview -}
-summary: |-
-  Pretty man pages under X

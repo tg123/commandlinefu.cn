@@ -1,8 +1,0 @@
-commandlinefu_id: 8923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dwdiff -c a.tex b.tex | less -R
-summary: |-
-  Show word-by-word differences between two latex files, in color

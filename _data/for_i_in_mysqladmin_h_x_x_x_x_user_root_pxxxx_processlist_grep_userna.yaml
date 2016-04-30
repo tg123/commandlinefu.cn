@@ -1,8 +1,0 @@
-commandlinefu_id: 4240
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `mysqladmin -h x.x.x.x --user=root -pXXXX processlist | grep <<username>>| grep <<Locked>>| awk {'print $2'}` do mysqladmin -h x.x.x.x --user=root -pXXX kill $i; done;
-summary: |-
-  Kill multiple Locked connection by a single user in MYSQL DB

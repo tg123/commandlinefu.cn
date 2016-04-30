@@ -1,7 +1,0 @@
-commandlinefu_id: 6640
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  file=orig.ps; for i in $(seq `grep "Pages:" $file | sed 's/%%Pages: //g'`); do psselect $i $file $i\_$file; done
-summary: |-
-  分割postscript文件

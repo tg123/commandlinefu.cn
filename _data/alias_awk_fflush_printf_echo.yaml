@@ -1,8 +1,0 @@
-commandlinefu_id: 13198
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias ...="awk '{fflush(); printf \".\"}' && echo \"\""
-summary: |-
-  Print one . instead of each line

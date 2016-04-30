@@ -1,8 +1,0 @@
-commandlinefu_id: 4286
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $rpl -R oldstring newstring folder
-summary: |-
-  recursive search and replace old with new string, inside files

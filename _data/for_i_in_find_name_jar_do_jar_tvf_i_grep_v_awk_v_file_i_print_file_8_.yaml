@@ -1,7 +1,0 @@
-commandlinefu_id: 12593
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in `find . -name "*.jar"`; do jar -tvf $i | grep -v /$ | awk -v file=$i '{print file ":" $8}'; done > all_jars.txt
-summary: |-
-  在一堆jar文件中查找一个class/properties/xml

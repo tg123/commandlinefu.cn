@@ -1,7 +1,0 @@
-commandlinefu_id: 8690
-translator:
-  weibo: tgic
-command: |-
-  if [ -x /etc/*-release ]; then cat /etc/*-release ; else cat /etc/*-version ; fi
-summary: |-
-  操作系统发行版

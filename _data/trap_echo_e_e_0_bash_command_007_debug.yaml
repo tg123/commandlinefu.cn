@@ -1,7 +1,0 @@
-commandlinefu_id: 3674
-translator:
-  weibo: tgic
-command: |-
-  trap 'echo -e "\e]0;$BASH_COMMAND\007"' DEBUG
-summary: |-
-  改变中断的标题

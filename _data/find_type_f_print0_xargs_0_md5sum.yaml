@@ -1,8 +1,0 @@
-commandlinefu_id: 6434
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -print0 | xargs -0 md5sum
-summary: |-
-  calculate md5 sums for every file in a directory tree

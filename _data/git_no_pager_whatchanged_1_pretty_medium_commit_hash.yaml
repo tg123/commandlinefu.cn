@@ -1,8 +1,0 @@
-commandlinefu_id: 2855
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git --no-pager whatchanged -1 --pretty=medium <commit_hash>
-summary: |-
-  Show log message including which files changed for a given commit in git.

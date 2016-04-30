@@ -1,8 +1,0 @@
-commandlinefu_id: 11848
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export BLOCKSIZE='sudo blockdev --getsize64 /dev/sdc' && sudo dd if=/dev/sdc bs=1MB | pv -s $BLOCKSIZE | gzip -9 > USB_SD_BACKUP.img.gz
-summary: |-
-  dd with progress bar and statistics to gzipped image

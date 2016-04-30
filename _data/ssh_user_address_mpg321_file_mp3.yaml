@@ -1,8 +1,0 @@
-commandlinefu_id: 6192
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh [user]@[address] "mpg321 -" < [file].mp3
-summary: |-
-  Stream audio over ssh

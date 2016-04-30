@@ -1,8 +1,0 @@
-commandlinefu_id: 5033
-translator:
-  weibo: ''
-hide: true
-command: |-
-  espeak "$USER" --stdout | sox - -t mp3 - reverse | mpg123 -
-summary: |-
-  Your name backwards

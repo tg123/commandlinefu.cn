@@ -1,8 +1,0 @@
-commandlinefu_id: 11038
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 3;import -window root output.png
-summary: |-
-  Capture screen with timer

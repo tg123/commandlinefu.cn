@@ -1,8 +1,0 @@
-commandlinefu_id: 11803
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl --resolve subdomain.example.com:80:10.100.0.1 subdomain.example.com -I -s
-summary: |-
-  Test load balancers

@@ -1,7 +1,0 @@
-commandlinefu_id: 8277
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  du --max-depth=1 -B M |sort -rn
-summary: |-
-  用du获取一级子目录的大小，以MB作为单位

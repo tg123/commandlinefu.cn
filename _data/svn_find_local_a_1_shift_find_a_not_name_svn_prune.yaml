@@ -1,7 +1,0 @@
-commandlinefu_id: 9043
-translator:
-  weibo: titikaka723 
-command: |-
-  svn_find () { local a=$1; shift; find $a -not \( -name .svn -prune \) $*; }
-summary: |-
-  查找自己目录下的SNV的bash函数 

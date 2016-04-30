@@ -1,7 +1,0 @@
-commandlinefu_id: 3194
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find ./ -size +10M -type f -print0 | xargs -0 ls -Ssh1 --color
-summary: |-
-  在当前文件夹下，列出比指定大小更大的文件，并以它的类型对应的颜色显示路径。

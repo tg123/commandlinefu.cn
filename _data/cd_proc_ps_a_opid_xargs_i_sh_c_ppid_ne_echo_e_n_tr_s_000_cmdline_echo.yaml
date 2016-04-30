@@ -1,8 +1,0 @@
-commandlinefu_id: 6871
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd /proc&&ps a -opid=|xargs -I+ sh -c '[[ $PPID -ne + ]]&&echo -e "\n[+]"&&tr -s "\000" " "<+/cmdline&&echo&&tr -s "\000\033" "\nE"<+/environ|sort'
-summary: |-
-  View All Processess Cmdlines and Environments

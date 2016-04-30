@@ -1,8 +1,0 @@
-commandlinefu_id: 11370
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e 'print map { -l and $_ .= "\n" } <libxml*>'
-summary: |-
-  List all symbolic links in current directory that matches regexp

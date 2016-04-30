@@ -1,7 +1,0 @@
-commandlinefu_id: 1727
-translator:
-  weibo: codepiano
-command: |-
-  eval "`dircolors -b`"
-summary: |-
-  给ls加一些色彩

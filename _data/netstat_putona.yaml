@@ -1,7 +1,0 @@
-commandlinefu_id: 819
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  netstat -putona
-summary: |-
-  输出正在占用UDP和TCP端口的所有程序连带计时器信息

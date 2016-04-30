@@ -1,8 +1,0 @@
-commandlinefu_id: 13228
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT COMMID_HASH | xargs tar -rf mytarfile.tar
-summary: |-
-  generate file list modified since last commit and export to tar file

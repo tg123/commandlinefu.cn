@@ -1,7 +1,0 @@
-commandlinefu_id: 8032
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  killall -r 'a regular expression'
-summary: |-
-  杀死给定正则表达式匹配的进程

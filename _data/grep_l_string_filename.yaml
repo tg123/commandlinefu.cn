@@ -1,7 +1,0 @@
-commandlinefu_id: 7628
-translator:
-  weibo: tgic
-command: |-
-  grep -L "string" filename*
-summary: |-
-  查找不包含 string 的文件

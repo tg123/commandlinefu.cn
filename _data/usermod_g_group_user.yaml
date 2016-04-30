@@ -1,7 +1,0 @@
-commandlinefu_id: 10782
-translator:
-  weibo: tgic
-command: |-
-  usermod -g group user
-summary: |-
-  修改用户组

@@ -1,8 +1,0 @@
-commandlinefu_id: 8165
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -depth -print -execdir rename -f 'y/A-Z/a-z/' '{}' \;
-summary: |-
-  递归的重命名文件为小写

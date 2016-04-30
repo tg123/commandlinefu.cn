@@ -1,7 +1,0 @@
-commandlinefu_id: 2079
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pi 66 | number
-summary: |-
-  获知圆周率前66位的（英文）读法

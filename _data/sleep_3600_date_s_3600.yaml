@@ -1,8 +1,0 @@
-commandlinefu_id: 11640
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep $((3600 - ($(date +%s) % 3600) ))
-summary: |-
-  sleep until X o'clock

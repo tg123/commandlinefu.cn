@@ -1,8 +1,0 @@
-commandlinefu_id: 13429
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <your command> | perl -ne '/(<your regex pattern>)/ && print "$1\n";'
-summary: |-
-  print only matched pattern

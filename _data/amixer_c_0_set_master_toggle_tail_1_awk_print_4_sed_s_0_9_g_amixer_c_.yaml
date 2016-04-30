@@ -1,8 +1,0 @@
-commandlinefu_id: 10926
-translator:
-  weibo: ''
-hide: true
-command: |-
-  amixer -c 0 set Master toggle | tail -1 | awk '{print $4}' | sed "s/[^0-9]//g" ; amixer -c 0 set Speaker toggle >/dev/null; amixer -c 0 set Front toggle >/dev/null
-summary: |-
-  Unmuting master channel, printing only percent value, while suppressing other outputs

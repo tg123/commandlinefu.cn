@@ -1,8 +1,0 @@
-commandlinefu_id: 13431
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for d in `ls -d *`; do svn status $d |  awk '{print $2}'; done | xargs ls -l {} \;
-summary: |-
-  find svn uncommitted files and list their properties

@@ -1,7 +1,0 @@
-commandlinefu_id: 1798
-translator:
-  weibo: tgic
-command: |-
-  man ascii
-summary: |-
-  打开ascii 表

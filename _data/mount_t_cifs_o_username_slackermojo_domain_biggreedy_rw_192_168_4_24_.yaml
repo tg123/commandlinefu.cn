@@ -1,8 +1,0 @@
-commandlinefu_id: 13578
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mount -t cifs -o username=SlackerMojo,domain=BIGGREEDY,rw //192.168.4.24/f /mnt/storage
-summary: |-
-  Mount Windows fileshare on a domain from bash

@@ -1,8 +1,0 @@
-commandlinefu_id: 2664
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dos2unix <filenames>
-summary: |-
-  Stripping ^M at end of each line for files

@@ -1,8 +1,0 @@
-commandlinefu_id: 12831
-translator:
-  weibo: ''
-hide: true
-command: |-
-  net group groupname username /add /domain
-summary: |-
-  Add member to domain group

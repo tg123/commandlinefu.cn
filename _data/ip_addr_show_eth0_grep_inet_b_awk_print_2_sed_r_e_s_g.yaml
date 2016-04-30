@@ -1,7 +1,0 @@
-commandlinefu_id: 5924
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ip addr show eth0 |grep 'inet\b' |awk '{print $2}' |sed  -r -e 's/\/.*?//g'
-summary: |-
-  用脚本获取获取eth0上的IPv4地址

@@ -1,7 +1,0 @@
-commandlinefu_id: 2844
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ssh -t user@host screen -x <screen name>
-summary: |-
-  在一行内启动ssh和screen

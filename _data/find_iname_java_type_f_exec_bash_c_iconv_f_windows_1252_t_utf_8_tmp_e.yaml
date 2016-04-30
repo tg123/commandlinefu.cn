@@ -1,7 +1,0 @@
-commandlinefu_id: 10035
-translator:
-  weibo: tgic
-command: |-
-  find . -iname *.java -type f -exec bash -c "iconv -f GBK -t UTF-8 {}  > {}.tmp " \; -exec mv {}.tmp {} \;
-summary: |-
-  批量编码转换

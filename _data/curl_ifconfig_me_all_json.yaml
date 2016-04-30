@@ -1,8 +1,0 @@
-commandlinefu_id: 5431
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl ifconfig.me/all/json
-summary: |-
-  Get your external IP address

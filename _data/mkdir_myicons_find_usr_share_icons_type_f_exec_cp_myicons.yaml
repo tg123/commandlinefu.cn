@@ -1,8 +1,0 @@
-commandlinefu_id: 4298
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mkdir myicons; find /usr/share/icons/ -type f -exec cp {} ./myicons/ \;
-summary: |-
-  Collect a lot of icons from /usr/share/icons (may overwrite some, and complain a bit)

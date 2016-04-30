@@ -1,8 +1,0 @@
-commandlinefu_id: 4316
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -p 1-65535 --open localhost
-summary: |-
-  list all opened ports on host

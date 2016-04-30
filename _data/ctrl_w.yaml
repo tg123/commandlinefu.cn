@@ -1,8 +1,0 @@
-commandlinefu_id: 4688
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  <CTRL+w>
-summary: |-
-  删除一个单词

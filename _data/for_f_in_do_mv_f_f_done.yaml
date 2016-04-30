@@ -1,7 +1,0 @@
-commandlinefu_id: 4733
-translator:
-  weibo: tgic
-command: |-
-  for f in *;do mv "$f" "${f// /_}";done
-summary: |-
-  替换文件名重的空格为下划线

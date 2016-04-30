@@ -1,8 +1,0 @@
-commandlinefu_id: 10001
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -ef | grep [j]ava | awk -F ' '  ' { print $1,"    ",$2,"\t",$(NF-2),"\t",$(NF-1),"\t",$NF } '  | sort -k4
-summary: |-
-  Show WebSphere AppServer uid|pid|cell|node|jvms

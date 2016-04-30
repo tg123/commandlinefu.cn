@@ -1,8 +1,0 @@
-commandlinefu_id: 7596
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -k <port>
-summary: |-
-  One liner to kill a process when knowing only the port where the process is running

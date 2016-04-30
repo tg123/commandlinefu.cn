@@ -1,8 +1,0 @@
-commandlinefu_id: 13994
-translator:
-  weibo: ''
-hide: true
-command: |-
-  multitail -D --follow-all -ev "cups" -ev "CUPS" -ev "AbusiveVMnameHere" -e "connect" -i /var/log/samba/yourUnifiedSambaLog -ev "cron" -i /var/log/auth.log -i /var/log/YourFTPlog
-summary: |-
-  quick and dirty log monitor one liner (requires multitail!)

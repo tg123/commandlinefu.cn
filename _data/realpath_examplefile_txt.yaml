@@ -1,8 +1,0 @@
-commandlinefu_id: 48
-translator:
-  weibo: ''
-hide: true
-command: |-
-  realpath examplefile.txt
-summary: |-
-  Get the full path to a file

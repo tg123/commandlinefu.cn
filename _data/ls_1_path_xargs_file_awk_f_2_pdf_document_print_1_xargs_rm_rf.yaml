@@ -1,7 +1,0 @@
-commandlinefu_id: 9622
-translator:
-  weibo: codepiano
-command: |-
-  ls -1 $PATH*/* | xargs file | awk -F":" '!($2~/PDF document/){print $1}' |xargs rm -rf
-summary: |-
-  删除指定目录中除PDF文件外的所有文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 13000
-translator:
-  weibo: tgic
-command: |-
-  awk 'NR%3==1{x="F"++i;}{print > x}' file3
-summary: |-
-  把文件切割成多个文件

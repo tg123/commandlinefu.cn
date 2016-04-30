@@ -1,7 +1,0 @@
-commandlinefu_id: 10583
-translator:
-  weibo: tgic
-command: |-
-  alias html2ascii='lynx -force_html -stdin -dump -nolist'
-summary: |-
-  利用lynx处理html

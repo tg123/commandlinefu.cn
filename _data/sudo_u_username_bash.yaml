@@ -1,7 +1,0 @@
-commandlinefu_id: 226
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo -u username bash
-summary: |-
-  切换到某个用户的nologin shell

@@ -1,8 +1,0 @@
-commandlinefu_id: 12607
-translator:
-  weibo: ''
-hide: true
-command: |-
-  output=$(ps -ef|grep -i java 2>/dev/null); for w in ${output[@]}; do if [[ $w =~ .*Xmx.* ]]; then result=$(grep -oP "[0-9]+" <<< $w); echo $result ;fi ; done| awk 'BEGIN {sum=0} {for(i=1; i<=NF; i++) sum+=$i } END  {print sum}'
-summary: |-
-  all java -Xmx values in a system, add them up

@@ -1,8 +1,0 @@
-commandlinefu_id: 5451
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -name *.h -exec egrep -cH "// | /\*" {} \; | awk -F':' '{print $2 ":" $1}' | sort -gr
-summary: |-
-  Iterate through current directory + all subs for C++ header files and rank by # of comments

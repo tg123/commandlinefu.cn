@@ -1,8 +1,0 @@
-commandlinefu_id: 9887
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function xzv() { THREADS=`grep processor /proc/cpuinfo | wc -l`; for file in $*; do pv -s `stat -c%s $file` < $file | pxz -q -T $THREADS > $file.xz ; done; }
-summary: |-
-  Parallel XZ with progress bar

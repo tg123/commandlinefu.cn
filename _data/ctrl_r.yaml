@@ -1,7 +1,0 @@
-commandlinefu_id: 2493
-translator:
-  weibo: tgic
-command: |-
-  ctrl + r
-summary: |-
-  查找历史命令

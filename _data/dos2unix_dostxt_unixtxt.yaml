@@ -1,8 +1,0 @@
-commandlinefu_id: 201
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dos2unix dostxt unixtxt
-summary: |-
-  Convert Windows/DOS Text Files to Unix

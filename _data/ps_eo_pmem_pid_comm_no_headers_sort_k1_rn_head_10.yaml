@@ -1,7 +1,0 @@
-commandlinefu_id: 8066
-translator:
-  weibo: tgic
-command: |-
-  ps -eo pmem,pid,comm --no-headers | sort -k1 -rn | head -10
-summary: |-
-  查看10个吃内存的进程

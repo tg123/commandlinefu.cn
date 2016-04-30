@@ -1,8 +1,0 @@
-commandlinefu_id: 1321
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :set ic
-summary: |-
-  vi case insensitive search

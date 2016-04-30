@@ -1,8 +1,0 @@
-commandlinefu_id: 4404
-translator:
-  weibo: ''
-hide: true
-command: |-
-  DIR=. ; FSTYPE=$(df -TP ${DIR} | grep -v Type | awk '{ print $2 }') ; echo "${FSTYPE}"
-summary: |-
-  Test file system type before further commands execution

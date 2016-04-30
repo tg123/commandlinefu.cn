@@ -1,7 +1,0 @@
-commandlinefu_id: 13698
-translator:
-  weibo: tgic
-command: |-
-  docker ps -a | grep 'Exit' | awk '{print $1}' | xargs docker rm
-summary: |-
-  删除所有停止的container

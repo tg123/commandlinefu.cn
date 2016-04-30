@@ -1,8 +1,0 @@
-commandlinefu_id: 1704
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scrot -e 'mv $f \$HOME/public_html/shots/; echo "http://\$HOSTNAME/~\$USER/shots/$f" | xsel -i; feh `xsel -o`'
-summary: |-
-  Easily create and share X screen shots (local webserver version)

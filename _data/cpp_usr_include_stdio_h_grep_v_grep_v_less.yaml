@@ -1,8 +1,0 @@
-commandlinefu_id: 2274
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  cpp /usr/include/stdio.h | grep -v '^#' | grep -v '^$' | less
-summary: |-
-  显示 .h 中的 typedefs, structs, unions and functions

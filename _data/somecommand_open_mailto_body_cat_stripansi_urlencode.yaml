@@ -1,7 +1,0 @@
-commandlinefu_id: 4945
-translator:
-  weibo: tgic
-command: |-
-  somecommand | open "mailto:?body=$(cat - | stripansi | urlencode)"
-summary: |-
-  把stdout 发送到 默认email 客户端

@@ -1,7 +1,0 @@
-commandlinefu_id: 3284
-translator:
-  weibo: '猪了个去'
-command: |-
-  bc -l <<< 3/5
-summary: |-
-  shell脚本中进行浮点计算

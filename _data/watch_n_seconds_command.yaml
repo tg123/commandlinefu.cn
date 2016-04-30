@@ -1,8 +1,0 @@
-commandlinefu_id: 3332
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n <seconds> <command>
-summary: |-
-  bash function to check for something every 5 seconds

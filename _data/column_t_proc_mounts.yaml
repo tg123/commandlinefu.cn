@@ -1,8 +1,0 @@
-commandlinefu_id: 2952
-translator:
-  weibo: ''
-hide: true
-command: |-
-  column -t /proc/mounts
-summary: |-
-  currently mounted filesystems in nice layout

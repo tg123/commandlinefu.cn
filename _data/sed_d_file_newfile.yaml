@@ -1,7 +1,0 @@
-commandlinefu_id: 3619
-translator:
-  weibo: tgic
-command: |-
-  sed '/^$/d' file >newfile
-summary: |-
-  清除文件中的空行

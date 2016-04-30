@@ -1,8 +1,0 @@
-commandlinefu_id: 9252
-translator:
-  weibo: ''
-hide: true
-command: |-
-  myreadlink() { [ ! -h "$1" ] && echo "$1" || (local link="$(expr "$(command ls -ld -- "$1")" : '.*-> \(.*\)$')"; cd $(dirname $1); myreadlink "$link"; }
-summary: |-
-  'readlink'  equivalent using shell commands, and following all links

@@ -1,8 +1,0 @@
-commandlinefu_id: 4840
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "$url" | perl -MURI::Escape -ne 'chomp;print uri_escape($_),"\n"'
-summary: |-
-  Url Encode

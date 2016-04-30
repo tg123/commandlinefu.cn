@@ -1,8 +1,0 @@
-commandlinefu_id: 14011
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n
-summary: |-
-  Sort by size all hardlinked files in the current directory (and subdirectories)

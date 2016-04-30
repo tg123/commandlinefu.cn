@@ -1,8 +1,0 @@
-commandlinefu_id: 12262
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lftp -c "pget -n 10 http://example.com/foo.bar"
-summary: |-
-  Use lftp to multi-threaded download files from websites

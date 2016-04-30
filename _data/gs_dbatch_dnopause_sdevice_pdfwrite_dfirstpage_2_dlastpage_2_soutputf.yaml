@@ -1,8 +1,0 @@
-commandlinefu_id: 4823
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dFirstPage=2 -dLastPage=2 -sOutputFile=page2.pdf multipageinputfile.pdf
-summary: |-
-  split a multi-page PDF into separate files

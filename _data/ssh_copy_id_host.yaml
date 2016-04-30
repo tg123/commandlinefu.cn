@@ -1,8 +1,0 @@
-commandlinefu_id: 11034
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-copy-id host
-summary: |-
-  copy public key

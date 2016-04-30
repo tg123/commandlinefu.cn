@@ -1,7 +1,0 @@
-commandlinefu_id: 12911
-translator:
-  weibo: tgic
-command: |-
-  sed -n '/jan\|Jan\|JAN\|JAn\|jAn\|jAN\|jaN/p' data.txt > jan-only-data.txt
-summary: |-
-  输出包含jan 的行到另外大文件

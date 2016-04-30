@@ -1,8 +1,0 @@
-commandlinefu_id: 13439
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
-summary: |-
-  HTML esacaping with sed

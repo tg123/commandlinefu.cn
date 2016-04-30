@@ -1,7 +1,0 @@
-commandlinefu_id: 1974
-translator:
-  weibo: particle128
-command: |-
-  ps -L -p <pid> | wc -l
-summary: |-
-  得到Solaris系统上某个进程的线程个数

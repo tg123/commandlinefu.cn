@@ -1,7 +1,0 @@
-commandlinefu_id: 5393
-translator:
-  weibo: codepiano
-command: |-
-  alias s='sudo'
-summary: |-
-  为sudo命令设置一个短注释

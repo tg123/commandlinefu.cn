@@ -1,8 +1,0 @@
-commandlinefu_id: 13182
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function b58encode () { local b58_lookup_table=({1..9} {A..H} {J..N} {P..Z} {a..k} {m..z}); bc<<<"obase=58;ibase=16;${1^^}"|(read -a s; for b58_index in "${s[@]}" ; do printf %s ${b58_lookup_table[ 10#"$b58_index" ]}; done); }
-summary: |-
-  Bitcoin Brainwallet Base58 Encoder

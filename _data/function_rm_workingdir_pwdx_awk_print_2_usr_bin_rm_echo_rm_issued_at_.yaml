@@ -1,8 +1,0 @@
-commandlinefu_id: 8691
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function rm {         workingdir=$( pwdx $$ | awk '{print $2}' )         /usr/bin/rm $*         echo "rm $* issued at $(date) by the user $(who am i| awk '{print $1} ') in the directory ${workingdir}"  >> /tmp/rm.out }
-summary: |-
-  log rm commands

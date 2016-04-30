@@ -1,7 +1,0 @@
-commandlinefu_id: 13662
-translator:
-  weibo: tgic
-command: |-
-  wget -qO- http://whatthecommit.com/index.txt | cowsay
-summary: |-
-  自动生成 git svn 等提交日志(送给按提数量交发工资的程序员)

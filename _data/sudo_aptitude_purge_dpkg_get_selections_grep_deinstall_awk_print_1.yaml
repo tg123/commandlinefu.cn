@@ -1,8 +1,0 @@
-commandlinefu_id: 2021
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo aptitude purge `dpkg --get-selections | grep deinstall | awk '{print $1}'`
-summary: |-
-  Purge configuration files of removed packages on  debian based systems

@@ -1,8 +1,0 @@
-commandlinefu_id: 11624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"'
-summary: |-
-  Set GIT_COMMITTER_DATE = GIT_AUTHOR_DATE for all the git commits

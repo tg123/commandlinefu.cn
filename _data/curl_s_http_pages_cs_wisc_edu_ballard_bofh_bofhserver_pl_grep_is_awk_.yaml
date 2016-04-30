@@ -1,8 +1,0 @@
-commandlinefu_id: 13747
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl -s http://pages.cs.wisc.edu/~ballard/bofh/bofhserver.pl |grep 'is:' |awk 'BEGIN { FS=">"; } { print $10; }'
-summary: |-
-  BOFH Excuse using curl

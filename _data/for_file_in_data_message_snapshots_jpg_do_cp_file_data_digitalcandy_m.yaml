@@ -1,7 +1,0 @@
-commandlinefu_id: 13486
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for file in ./data/message-snapshots/*.jpg; do cp "$file" /data/digitalcandy/ml/images/; done
-summary: |-
-  遍历文件夹下的某类文件，并复制到指定地点

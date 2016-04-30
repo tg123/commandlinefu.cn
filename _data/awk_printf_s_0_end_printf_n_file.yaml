@@ -1,7 +1,0 @@
-commandlinefu_id: 7783
-translator:
-  weibo: gdqyn
-command: |-
-  awk ' { printf ("%s ", $0)} END {printf ("\n") } ' FILE
-summary: |-
-  用awk将文件中的几行合并为一行

@@ -1,7 +1,0 @@
-commandlinefu_id: 10781
-translator:
-  weibo: codepiano
-command: |-
-  for foo in <list of directories>; do while find $foo -type d -empty 2>/dev/null| grep -q "."; do find $foo -type d -empty -print0 | xargs -0 rmdir; done; done
-summary: |-
-  递归的移除所有空目录

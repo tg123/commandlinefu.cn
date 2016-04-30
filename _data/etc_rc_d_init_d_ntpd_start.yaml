@@ -1,7 +1,0 @@
-commandlinefu_id: 13014
-translator:
-  weibo: tgic
-command: |-
-  /etc/rc.d/init.d/ntpd start
-summary: |-
-  启动时间同步服务

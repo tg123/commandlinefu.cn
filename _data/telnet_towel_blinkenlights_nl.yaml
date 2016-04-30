@@ -1,7 +1,0 @@
-commandlinefu_id: 7251
-translator:
-  weibo: tgic
-command: |-
-  telnet towel.blinkenlights.nl
-summary: |-
-  星球大战

@@ -1,7 +1,0 @@
-commandlinefu_id: 8886
-translator:
-  weibo: 'gdqyn'
-command: |-
-  find public_html/ -type f -exec chmod 664 {} \;
-summary: |-
-  对除目录外的文件chmod

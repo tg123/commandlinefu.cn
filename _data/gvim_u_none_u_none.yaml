@@ -1,7 +1,0 @@
-commandlinefu_id: 8625
-translator:
-  weibo: codepiano
-command: |-
-  gvim -u NONE -U NONE
-summary: |-
-  启动gvim的时候忽略~/.vimrc

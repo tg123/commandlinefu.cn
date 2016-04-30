@@ -1,8 +1,0 @@
-commandlinefu_id: 13594
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aria2c -x 4 http://my/url
-summary: |-
-  Download file with multiple simultaneous connections

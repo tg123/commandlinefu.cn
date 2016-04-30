@@ -1,7 +1,0 @@
-commandlinefu_id: 11627
-translator:
-  weibo: tgic
-command: |-
-  rpm -q --queryformat="%{NAME}: %{OPTFLAGS}\n" <rpm>
-summary: |-
-  查看rpm 编译参数

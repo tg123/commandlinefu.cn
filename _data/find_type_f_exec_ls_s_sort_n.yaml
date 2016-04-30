@@ -1,8 +1,0 @@
-commandlinefu_id: 5741
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec ls -s \{\} \; | sort -n
-summary: |-
-  Find size of the files in this directory tree. (sorted)

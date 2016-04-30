@@ -1,7 +1,0 @@
-commandlinefu_id: 10737
-translator:
-  weibo: tgic
-command: |-
-  cat urls.txt | wget -i- -T 10 -t 3 --waitretry 1
-summary: |-
-  下载一个列表中的url

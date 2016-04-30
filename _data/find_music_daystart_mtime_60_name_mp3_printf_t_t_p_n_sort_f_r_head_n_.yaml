@@ -1,7 +1,0 @@
-commandlinefu_id: 3717
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find ~/Music -daystart -mtime -60 -name *mp3 -printf "%T@\t%p\n" | sort -f -r | head -n 30 | cut -f 2
-summary: |-
-  输出30个最近修改的MP3文件，修改时间最近的列在最前面

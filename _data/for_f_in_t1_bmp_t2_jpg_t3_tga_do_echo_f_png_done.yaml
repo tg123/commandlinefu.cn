@@ -1,8 +1,0 @@
-commandlinefu_id: 6034
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in t1.bmp t2.jpg t3.tga; do echo ${f%.*}.png; done
-summary: |-
-  Replace multiple file extensions with a single extension

@@ -1,8 +1,0 @@
-commandlinefu_id: 11791
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -lhR | grep -e "total\|:$"
-summary: |-
-  List directories recursively showing its sizes using only ls and grep

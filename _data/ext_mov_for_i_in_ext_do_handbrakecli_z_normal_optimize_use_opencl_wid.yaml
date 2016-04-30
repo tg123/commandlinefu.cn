@@ -1,7 +1,0 @@
-commandlinefu_id: 13683
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  EXT=MOV; for i in *.$EXT; do HandBrakeCLI -Z Normal --optimize --use-opencl --width 1280 --height 720 -i "${i}" -o "${i//.$EXT}.mp4"; done
-summary: |-
-  将1080p的quicktime MOV文件降级到720p的MP4文件

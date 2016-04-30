@@ -1,7 +1,0 @@
-commandlinefu_id: 12003
-translator:
-  weibo: tgic
-command: |-
-  svn revert .
-summary: |-
-  撤销svn改动

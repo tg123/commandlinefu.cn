@@ -1,7 +1,0 @@
-commandlinefu_id: 12772
-translator:
-  weibo: tgic
-command: |-
-  ssh remoteUser@remoteHost "tail -f /var/log/scs/remoteLogName" | tee localLogName
-summary: |-
-  远程tail

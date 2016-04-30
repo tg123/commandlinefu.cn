@@ -1,8 +1,0 @@
-commandlinefu_id: 11068
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find path -name '*' -type f  | pax -wd > txtarchive.tar
-summary: |-
-  Create a tar archive with pax containing a set of files

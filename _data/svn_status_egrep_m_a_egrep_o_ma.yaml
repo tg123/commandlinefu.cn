@@ -1,8 +1,0 @@
-commandlinefu_id: 1726
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status | egrep '^(M|A)' | egrep -o '[^MA\ ].*$'
-summary: |-
-  Show the files that you've modified in an SVN tree

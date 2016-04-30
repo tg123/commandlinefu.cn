@@ -1,8 +1,0 @@
-commandlinefu_id: 5987
-translator:
-  weibo: ''
-hide: true
-command: |-
-  emerge -av1 $(for e in `qlist -I --nocolor | uniq`; do for f in `qlist -e $e`; do if test ! -e $f; then echo $e; echo $e: missing $f 1>&2; fi; done; done)
-summary: |-
-  Re-emerge all ebuilds with missing files (Gentoo Linux)

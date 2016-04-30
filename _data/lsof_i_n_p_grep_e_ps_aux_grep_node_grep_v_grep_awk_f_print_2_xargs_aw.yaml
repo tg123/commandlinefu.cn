@@ -1,8 +1,0 @@
-commandlinefu_id: 14049
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -i -n -P | grep -e "$(ps aux | grep node | grep -v grep | awk -F' ' '{print $2}' | xargs | awk -F' ' '{str = $1; for(i = 2; i < NF; i++) {str = str "\\|" $i} print str}')"
-summary: |-
-  dynamically list open files for a given process name

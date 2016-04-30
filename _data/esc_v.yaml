@@ -1,8 +1,0 @@
-commandlinefu_id: 8013
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ESC> v
-summary: |-
-  Rapidly invoke an editor to write a long, complex, or tricky command

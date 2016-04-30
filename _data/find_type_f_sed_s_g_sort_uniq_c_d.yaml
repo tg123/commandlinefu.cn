@@ -1,7 +1,0 @@
-commandlinefu_id: 4879
-translator:
-  weibo: tgic
-command: |-
-  find . -type f  |sed "s#.*/##g" |sort |uniq -c -d
-summary: |-
-  查看重名文件数量

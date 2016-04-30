@@ -1,7 +1,0 @@
-commandlinefu_id: 4318
-translator:
-  weibo: tgic
-command: |-
-  od -c <FILE> | grep --color '\\.'
-summary: |-
-  颜色显示无法打印的字符

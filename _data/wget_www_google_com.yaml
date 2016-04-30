@@ -1,7 +1,0 @@
-commandlinefu_id: 13529
-translator:
-  weibo: 玄文处幽
-command: |-
-  wget www.google.com
-summary: |-
-  下载google的首页到当前目录下

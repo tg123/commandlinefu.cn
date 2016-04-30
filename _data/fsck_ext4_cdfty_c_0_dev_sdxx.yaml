@@ -1,8 +1,0 @@
-commandlinefu_id: 8474
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fsck.ext4 -cDfty -C 0 /dev/sdxx
-summary: |-
-  Run a ext4 file system check and badblocks scan with progress info

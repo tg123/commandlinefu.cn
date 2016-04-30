@@ -1,8 +1,0 @@
-commandlinefu_id: 4935
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --reverse --pretty=oneline | cut -c41- | nl | sort -nr
-summary: |-
-  A nice way to show git commit history, with easy to read revision numbers instead of the default hash

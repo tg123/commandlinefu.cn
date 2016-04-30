@@ -1,7 +1,0 @@
-commandlinefu_id: 7277
-translator:
-  weibo: codepiano
-command: |-
-  :%!xxd
-summary: |-
-  在vim中查看文本的16进制

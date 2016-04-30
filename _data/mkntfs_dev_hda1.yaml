@@ -1,8 +1,0 @@
-commandlinefu_id: 8754
-translator:
-  weibo: dbalex
-command: |-
-  mkntfs /dev/hda1
-summary: |-
-  create an empty NTFS partition
-  创建一个NTFS分区

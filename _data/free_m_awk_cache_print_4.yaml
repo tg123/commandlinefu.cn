@@ -1,7 +1,0 @@
-commandlinefu_id: 10431
-translator:
-  weibo: 'codepiano'
-command: |-
-  free -m | awk '/cache:/ {print $4}'
-summary: |-
-  以MB为单位输出剩余内存

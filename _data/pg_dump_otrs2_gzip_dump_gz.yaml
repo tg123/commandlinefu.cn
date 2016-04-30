@@ -1,7 +1,0 @@
-commandlinefu_id: 2557
-translator:
-  weibo: tgic
-command: |-
-  pg_dump otrs2 | gzip > dump.gz
-summary: |-
-  备份pg数据库

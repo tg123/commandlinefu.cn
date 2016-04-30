@@ -1,8 +1,0 @@
-commandlinefu_id: 13263
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias oath='temp=$(pbpaste) && oathtool --base32 --totp "YOUR SEED HERE" | pbcopy && sleep 3 && echo -n $temp | pbcopy'
-summary: |-
-  Generate a one-time TOTP token, then restore the clipboard after 3 seconds

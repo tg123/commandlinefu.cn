@@ -1,8 +1,0 @@
-commandlinefu_id: 4824
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk in.pdf burst
-summary: |-
-  split a multi-page PDF into separate files

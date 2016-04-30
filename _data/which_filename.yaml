@@ -1,7 +1,0 @@
-commandlinefu_id: 3461
-translator:
-  weibo: '猪了个去'
-command: |-
-  which <filename>
-summary: |-
-  搜索PATH下的一个文件

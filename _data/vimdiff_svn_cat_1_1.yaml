@@ -1,8 +1,0 @@
-commandlinefu_id: 3340
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vimdiff <(svn cat "$1") "$1"
-summary: |-
-  get colorful side-by-side diffs of files in svn with vim

@@ -1,8 +1,0 @@
-commandlinefu_id: 13925
-translator:
-  weibo: ''
-hide: true
-command: |-
-  play() { mplayer -cache 4096 -cache-min 5 <(youtube-dl -f 140 -o - ytsearch:"$1"); }
-summary: |-
-  Play any song off of YouTube

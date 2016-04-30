@@ -1,8 +1,0 @@
-commandlinefu_id: 9848
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man -t man | ps2pdf - temp.pdf; evince temp.pdf &> /dev/null &; sleep 3; rm temp.pdf
-summary: |-
-  Render man page in *temporary* PDF (works in Gnome)

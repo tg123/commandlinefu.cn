@@ -1,8 +1,0 @@
-commandlinefu_id: 7658
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -name "*.pyc" -delete;
-summary: |-
-  Clean all .pyc files from current project. It cleans all the files recursively.

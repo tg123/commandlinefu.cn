@@ -1,7 +1,0 @@
-commandlinefu_id: 12401
-translator:
-  weibo: '猪了个去'
-command: |-
-  less -XF
-summary: |-
-  让less命令像cat命令一样工作，如果它的输入文本可以刚好打在一屏内

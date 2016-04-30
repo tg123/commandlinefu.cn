@@ -1,8 +1,0 @@
-commandlinefu_id: 212
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -U MYWIFE
-summary: |-
-  Kills MYWIFE.

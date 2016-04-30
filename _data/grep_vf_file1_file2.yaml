@@ -1,7 +1,0 @@
-commandlinefu_id: 5851
-translator:
-  weibo: tgic
-command: |-
-  grep -vf file1 file2
-summary: |-
-  查看两个文件的不同

@@ -1,7 +1,0 @@
-commandlinefu_id: 2691
-translator:
-  weibo: tgic
-command: |-
-  (cd /source/dir ; tar cv .)|(cd /dest/dir ; tar xv)
-summary: |-
-  使用tar 复制一个目录

@@ -1,7 +1,0 @@
-commandlinefu_id: 12373
-translator:
-  weibo: tgic
-command: |-
-  printf "\ec"
-summary: |-
-  清屏

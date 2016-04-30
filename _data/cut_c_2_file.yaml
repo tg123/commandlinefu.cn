@@ -1,8 +1,0 @@
-commandlinefu_id: 11636
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -c 2- < <file>
-summary: |-
-  Remove the first character of each line in a file

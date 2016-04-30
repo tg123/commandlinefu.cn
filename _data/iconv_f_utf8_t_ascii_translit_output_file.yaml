@@ -1,8 +1,0 @@
-commandlinefu_id: 12018
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iconv -f utf8 -t ascii//TRANSLIT <output-file>
-summary: |-
-  remove accented chars

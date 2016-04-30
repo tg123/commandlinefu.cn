@@ -1,8 +1,0 @@
-commandlinefu_id: 11904
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hexdump -v -e '"%u"' </dev/urandom|fold -60|head -n 30|sed 's/\(.\{2\}\)/\1 /g'
-summary: |-
-  generate 30 x 30 matrix

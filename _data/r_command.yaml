@@ -1,7 +1,0 @@
-commandlinefu_id: 1203
-translator:
-  weibo: tgic
-command: |-
-  :r !command
-summary: |-
-  在 vim 中读取 命令的输出到文本中

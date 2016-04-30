@@ -1,7 +1,0 @@
-commandlinefu_id: 11116
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  taskkill /pid 10728
-summary: |-
-  通过pid kill 一个进程

@@ -1,8 +1,0 @@
-commandlinefu_id: 5098
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n1 snmptable -v2c -c public localhost diskIOTable
-summary: |-
-  Show simple disk IO table using snmp

@@ -1,8 +1,0 @@
-commandlinefu_id: 10727
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname ".svn" | xargs rm -r $1
-summary: |-
-  Recursively remove .svn directories

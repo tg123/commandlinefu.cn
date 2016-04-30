@@ -1,8 +1,0 @@
-commandlinefu_id: 12984
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find <PATH> -maxdepth 1 -type f -name "server.log*" -exec tar czPf '{}'.tar.gz --transform='s|.*/||' '{}' --remove-files \;
-summary: |-
-  Tar (stripped paths) found files by regexp from <PATH>, then remove

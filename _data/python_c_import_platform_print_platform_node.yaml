@@ -1,7 +1,0 @@
-commandlinefu_id: 5138
-translator:
-  weibo: tgic
-command: |-
-  python -c "import platform; print platform.node()"
-summary: |-
-  现实hostname

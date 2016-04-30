@@ -1,8 +1,0 @@
-commandlinefu_id: 5024
-translator:
-  weibo: ''
-hide: true
-command: |-
-  2end () ( export LC_ALL=C; nl -n rz $1 > $1.tmp; ${EDITOR:-vi} $1.tmp; sort $1.tmp | sed -r 's/^.*[0-9]+\t+//' > $1; rm $1.tmp; )
-summary: |-
-  sort selected lines in a text file to the beginning or end of the file.

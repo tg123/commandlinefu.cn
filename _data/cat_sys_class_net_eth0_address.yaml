@@ -1,7 +1,0 @@
-commandlinefu_id: 8457
-translator:
-  weibo: tgic
-command: |-
-  cat /sys/class/net/eth0/address
-summary: |-
-  列出MAC地址

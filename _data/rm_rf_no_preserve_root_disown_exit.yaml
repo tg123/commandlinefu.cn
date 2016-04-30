@@ -1,8 +1,0 @@
-commandlinefu_id: 13156
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm -rf / --no-preserve-root & disown $! && exit
-summary: |-
-  Delete /

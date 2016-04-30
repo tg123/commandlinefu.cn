@@ -1,8 +1,0 @@
-commandlinefu_id: 6798
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function focus() { winID=`xprop -root |awk '/_NET_ACTIVE_WINDOW/ {print $5; exit;}'`; $@; wmctrl -i -a $winID; }
-summary: |-
-  Autofocus window after executing some command

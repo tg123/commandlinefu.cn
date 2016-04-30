@@ -1,8 +1,0 @@
-commandlinefu_id: 14074
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias gm="git merge"
-summary: |-
-  Alias for git merge

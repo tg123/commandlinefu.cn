@@ -1,8 +1,0 @@
-commandlinefu_id: 7465
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo <percentage> > /proc/acpi/video/VGA/LCD/brightness
-summary: |-
-  设置亮度

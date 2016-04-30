@@ -1,8 +1,0 @@
-commandlinefu_id: 3807
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -i -ne 'print uc $_' $1
-summary: |-
-  Transforms a file to all uppercase.

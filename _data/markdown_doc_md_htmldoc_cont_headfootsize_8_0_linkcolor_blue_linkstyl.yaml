@@ -1,8 +1,0 @@
-commandlinefu_id: 6930
-translator:
-  weibo: ''
-hide: true
-command: |-
-  markdown doc.md | htmldoc --cont --headfootsize 8.0 --linkcolor blue --linkstyle plain --format pdf14 - > doc.pdf
-summary: |-
-  convert markdown to PDF

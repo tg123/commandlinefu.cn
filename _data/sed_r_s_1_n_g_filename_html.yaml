@@ -1,7 +1,0 @@
-commandlinefu_id: 8080
-translator:
-  weibo: tgic
-command: |-
-  sed -r 's_(/[^>]*?>)_\1\n_g' filename.html
-summary: |-
-  格式化HTML

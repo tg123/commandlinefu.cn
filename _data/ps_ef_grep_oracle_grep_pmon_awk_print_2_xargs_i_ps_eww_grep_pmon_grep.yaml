@@ -1,8 +1,0 @@
-commandlinefu_id: 5132
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -ef |grep oracle |grep pmon |awk '{print $2}' |xargs -I {} ps eww {} |grep pmon |grep -v grep |awk '{print $5 " " $6 " " $0}' |sed 's/\(S*\) \(S*\) .*ORACLE_HOME/\1 \2/g' |cut -f1,2,3 -d" "
-summary: |-
-  the executable that started the currently running oracle databases and the ORACLE_HOME relative to each

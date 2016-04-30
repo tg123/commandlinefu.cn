@@ -1,8 +1,0 @@
-commandlinefu_id: 9508
-translator:
-  weibo: ''
-hide: true
-command: |-
-  < /etc/passwd sed -n "/^bin:/,/^lp:/p"
-summary: |-
-  display lines in /etc/passwd between line starting ...

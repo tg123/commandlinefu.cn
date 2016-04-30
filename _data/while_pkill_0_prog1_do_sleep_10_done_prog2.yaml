@@ -1,8 +1,0 @@
-commandlinefu_id: 7861
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while pkill -0 prog1; do sleep 10; done; prog2
-summary: |-
-  Wait the end of prog1 and launch prog2

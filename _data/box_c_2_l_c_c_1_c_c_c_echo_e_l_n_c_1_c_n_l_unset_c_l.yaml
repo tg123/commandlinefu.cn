@@ -1,8 +1,0 @@
-commandlinefu_id: 4964
-translator:
-  weibo: ''
-hide: true
-command: |-
-  box(){ c=${2-=}; l=$c$c${1//?/$c}$c$c; echo -e "$l\n$c $1 $c\n$l"; unset c l;}
-summary: |-
-  a function to create a box of '=' characters around a given string.

@@ -1,8 +1,0 @@
-commandlinefu_id: 13428
-translator:
-  weibo: ''
-hide: true
-command: |-
-  glance -m
-summary: |-
-  glance

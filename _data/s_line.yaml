@@ -1,7 +1,0 @@
-commandlinefu_id: 3054
-translator:
-  weibo: particle128
-command: |-
-  :%s/^/\=line('.').'  '
-summary: |-
-  在vim中插入行号

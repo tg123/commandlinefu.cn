@@ -1,7 +1,0 @@
-commandlinefu_id: 8483
-translator:
-  weibo: codepiano
-command: |-
-  sort -u < /sys/class/net/*/address
-summary: |-
-  列出你的物理地址

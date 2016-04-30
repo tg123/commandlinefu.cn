@@ -1,8 +1,0 @@
-commandlinefu_id: 8578
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat  /etc/passwd | wc -l
-summary: |-
-  How many lines does  the passwd file have?

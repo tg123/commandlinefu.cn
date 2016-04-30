@@ -1,7 +1,0 @@
-commandlinefu_id: 10840
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{ a[$2]++ } END { for (b in a) { print b } }' file
-summary: |-
-  显示这列唯一的值 

@@ -1,7 +1,0 @@
-commandlinefu_id: 8610
-translator:
-  weibo: tgic
-command: |-
-  wget -r -A .pdf -l 5 -nH --no-parent http://example.com
-summary: |-
-  获取所有web中的pdf

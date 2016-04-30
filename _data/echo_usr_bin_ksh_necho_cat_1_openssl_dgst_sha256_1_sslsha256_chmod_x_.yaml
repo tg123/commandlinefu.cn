@@ -1,8 +1,0 @@
-commandlinefu_id: 12734
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo '#! /usr/bin/ksh\necho `cat $1 | openssl dgst -sha256` $1' > sslsha256; chmod +x sslsha256; find directory -type f -exec ./sslsha256 \{\} \;
-summary: |-
-  Calculate the SHA256 hashes of a directory on IBM AIX without sha256sum

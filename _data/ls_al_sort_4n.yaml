@@ -1,7 +1,0 @@
-commandlinefu_id: 10918
-translator:
-  weibo: tgic
-command: |-
-  ls -al | sort +4n
-summary: |-
-  按大小排序

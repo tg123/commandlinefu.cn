@@ -1,8 +1,0 @@
-commandlinefu_id: 12078
-translator:
-  weibo: ''
-hide: true
-command: |-
-  print -rl **/*(.Lm+100)
-summary: |-
-  Find files with size over 100MB and output with better lay-out

@@ -1,7 +1,0 @@
-commandlinefu_id: 5982
-translator:
-  weibo: tgic
-command: |-
-  find . -iname '*.jpg' -exec echo '<img src="{}">' \; > gallery.html
-summary: |-
-  生成一个html相册

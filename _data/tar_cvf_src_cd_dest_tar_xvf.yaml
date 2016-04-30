@@ -1,7 +1,0 @@
-commandlinefu_id: 9337
-translator:
-  weibo: codepiano
-command: |-
-  tar cvf - /src | ( cd /dest ; tar xvf - )
-summary: |-
-  利用tar命令复制文件

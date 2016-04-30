@@ -1,7 +1,0 @@
-commandlinefu_id: 6719
-translator:
-  weibo: '猪了个去'
-command: |-
-  ffmpeg -f alsa -ac 2 -i hw:0,0 -f x11grab -r 30 -s $(xwininfo -root | grep 'geometry' | awk '{print $2;}') -i :0.0 -acodec pcm_s16le -vcodec libx264 -vpre lossless_ultrafast -threads 0 -y output.mkv
-summary: |-
-  使用ffmpeg x11grab截屏

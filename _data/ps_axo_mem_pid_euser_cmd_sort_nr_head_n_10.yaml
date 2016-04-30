@@ -1,7 +1,0 @@
-commandlinefu_id: 11369
-translator:
-  weibo: tgic
-command: |-
-  ps axo %mem,pid,euser,cmd | sort -nr | head -n 10
-summary: |-
-  按使用内存排序进程

@@ -1,7 +1,0 @@
-commandlinefu_id: 7909
-translator:
-  weibo: tgic
-command: |-
-  ssh -t -X -A user@sshproxy ssh -X -A user@sshhost
-summary: |-
-  使用ssh隧道跳转

@@ -1,8 +1,0 @@
-commandlinefu_id: 11914
-translator:
-  weibo: ''
-hide: true
-command: |-
-  socat -u FILE:/var/log/syslog,ignoreeof TCP4-LISTEN:12345,fork,reuseaddr
-summary: |-
-  Tail a log-file over the network

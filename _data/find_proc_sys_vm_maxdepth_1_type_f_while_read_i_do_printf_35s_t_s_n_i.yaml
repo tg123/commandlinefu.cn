@@ -1,8 +1,0 @@
-commandlinefu_id: 10787
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /proc/sys/vm -maxdepth 1 -type f | while read i ; do printf "%-35s\t%s\n" "$i" "$(<$i)" ; done | sort -t/ -k4
-summary: |-
-  Pretty print all of the Linux vm sysctls for your viewing pleasure

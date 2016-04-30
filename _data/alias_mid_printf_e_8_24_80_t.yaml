@@ -1,8 +1,0 @@
-commandlinefu_id: 9615
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias mid='printf "\e[8;24;80;t"'
-summary: |-
-  Resize participating terminals to classic 80x24 size.

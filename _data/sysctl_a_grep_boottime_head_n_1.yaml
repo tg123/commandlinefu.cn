@@ -1,8 +1,0 @@
-commandlinefu_id: 13089
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sysctl -a | grep boottime | head -n 1
-summary: |-
-  Find last reboot time

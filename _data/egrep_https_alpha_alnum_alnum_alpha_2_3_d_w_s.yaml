@@ -1,8 +1,0 @@
-commandlinefu_id: 4174
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep 'https?://([[:alpha:]]([-[:alnum:]]+[[:alnum:]])*\.)+[[:alpha:]]{2,3}(:\d+)?(/([-\w/_\.]*(\?\S+)?)?)?'
-summary: |-
-  Match a URL

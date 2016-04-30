@@ -1,7 +1,0 @@
-commandlinefu_id: 7946
-translator:
-  weibo: tgic
-command: |-
-  sudo arp-scan -l
-summary: |-
-  执行ARP Scan

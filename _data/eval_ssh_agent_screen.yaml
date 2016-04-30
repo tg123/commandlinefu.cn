@@ -1,8 +1,0 @@
-commandlinefu_id: 5030
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eval `ssh-agent`; screen
-summary: |-
-  Let's make screen and ssh-agent friends

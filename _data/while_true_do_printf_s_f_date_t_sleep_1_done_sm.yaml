@@ -1,8 +1,0 @@
-commandlinefu_id: 11762
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while(true); do printf "%s\f" $(date +%T); sleep 1; done  | sm -
-summary: |-
-  Print the current time on the whole screen, updated every second

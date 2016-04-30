@@ -1,7 +1,0 @@
-commandlinefu_id: 2362
-translator:
-  weibo: tgic
-command: |-
-  svn log -v -r{2009-05-21}:HEAD | awk '/^r[0-9]+ / {user=$3} /yms_web/ {if (user=="george") {print $2}}' | sort | uniq
-summary: |-
-  获取svn中某个用户的提交

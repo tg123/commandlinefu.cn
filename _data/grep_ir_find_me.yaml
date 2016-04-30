@@ -1,7 +1,0 @@
-commandlinefu_id: 956
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  grep -iR find_me ./
-summary: |-
-  递归查找字符串

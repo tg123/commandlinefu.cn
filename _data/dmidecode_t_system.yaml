@@ -1,7 +1,0 @@
-commandlinefu_id: 10791
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dmidecode -t system
-summary: |-
-  使用dmidecode查看你的设备的制造商、型号和序列号

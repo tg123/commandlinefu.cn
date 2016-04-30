@@ -1,7 +1,0 @@
-commandlinefu_id: 3953
-translator:
-  weibo: tgic
-command: |-
-  absolute_path () { readlink -f "$1"; };
-summary: |-
-  获取绝对路径

@@ -1,7 +1,0 @@
-commandlinefu_id: 11416
-translator:
-  weibo: tgic
-command: |-
-  echo 1268727836 | awk '{print strftime("%c",$1)}'
-summary: |-
-  使用awk转换unix时间

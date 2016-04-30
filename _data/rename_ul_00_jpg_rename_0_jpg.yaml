@@ -1,7 +1,0 @@
-commandlinefu_id: 9123
-translator:
-  weibo: tgic
-command: |-
-  rename.ul "" 00 ?.jpg; rename "" 0 ??.jpg;
-summary: |-
-  给数字文件名加上开头的0

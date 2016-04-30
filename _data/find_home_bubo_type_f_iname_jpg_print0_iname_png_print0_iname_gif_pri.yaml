@@ -1,7 +1,0 @@
-commandlinefu_id: 4424
-translator:
-  weibo: tgic
-command: |-
-  find /home/bubo/ -type f \( -iname \*.jpg  -print0 , -iname \*.png  -print0 , -iname \*gif -print0 \)  |  du -cm  --files0-from - | tail -1
-summary: |-
-  查找大图片

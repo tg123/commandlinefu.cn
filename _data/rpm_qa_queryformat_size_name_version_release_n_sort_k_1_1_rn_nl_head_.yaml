@@ -1,7 +1,0 @@
-commandlinefu_id: 12056
-translator:
-  weibo: codepiano
-command: |-
-  rpm -qa --queryformat '%{size} %{name}-%{version}-%{release}\n' | sort -k 1,1 -rn | nl | head -16
-summary: |-
-  显示安装的16个最大的RPM包

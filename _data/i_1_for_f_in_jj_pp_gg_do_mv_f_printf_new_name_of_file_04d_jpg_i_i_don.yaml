@@ -1,8 +1,0 @@
-commandlinefu_id: 12808
-translator:
-  weibo: ''
-hide: true
-command: |-
-  i=1; for f in *.[jJ][pP][gG]; do mv -- "$f" "$( printf "new_name_of_file-%04d.jpg" $i )"; ((i++)); done
-summary: |-
-  Batch rename files from the command line (in this case jpegs)

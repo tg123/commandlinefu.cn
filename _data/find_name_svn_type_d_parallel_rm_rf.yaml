@@ -1,7 +1,0 @@
-commandlinefu_id: 8768
-translator:
-  weibo: tgic
-command: |-
-  find . -name .svn -type d | parallel rm -rf
-summary: |-
-  清除.svn

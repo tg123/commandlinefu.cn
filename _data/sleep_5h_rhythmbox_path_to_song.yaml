@@ -1,7 +1,0 @@
-commandlinefu_id: 2501
-translator:
-  weibo: codepiano
-command: |-
-  sleep 5h && rhythmbox path/to/song
-summary: |-
-  为唤醒设置提醒

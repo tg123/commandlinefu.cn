@@ -1,7 +1,0 @@
-commandlinefu_id: 10055
-translator:
-  weibo: tgic
-command: |-
-  ssh-keygen -R <thehost>
-summary: |-
-  清除known_host 里边的host

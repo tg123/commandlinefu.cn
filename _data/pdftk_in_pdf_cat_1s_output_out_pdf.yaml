@@ -1,8 +1,0 @@
-commandlinefu_id: 7961
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk in.pdf cat 1S output out.pdf
-summary: |-
-  Rotate a single page PDF by 180 degrees

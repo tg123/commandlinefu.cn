@@ -1,7 +1,0 @@
-commandlinefu_id: 1606
-translator:
-  weibo: tgic
-command: |-
-  lsof -P | grep ':3000'
-summary: |-
-  检查打开3000端口的进程

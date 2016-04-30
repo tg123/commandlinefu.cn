@@ -1,8 +1,0 @@
-commandlinefu_id: 12106
-translator:
-  weibo: ''
-hide: true
-command: |-
-  amixer -c 0 set Master 100%
-summary: |-
-  Set audio card 0 master volumn to maximum

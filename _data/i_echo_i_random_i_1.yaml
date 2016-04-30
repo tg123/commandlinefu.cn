@@ -1,8 +1,0 @@
-commandlinefu_id: 2398
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ i=(*);echo ${i[RANDOM%(${#i[@]}+1)]]}
-summary: |-
-  Display or use a random file from current directory via a small bash one-liner

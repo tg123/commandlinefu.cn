@@ -1,7 +1,0 @@
-commandlinefu_id: 7556
-translator:
-  weibo: tgic
-command: |-
-  mytop
-summary: |-
-  监控mysql查询

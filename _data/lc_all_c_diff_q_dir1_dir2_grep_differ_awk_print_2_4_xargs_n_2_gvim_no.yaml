@@ -1,8 +1,0 @@
-commandlinefu_id: 9193
-translator:
-  weibo: ''
-hide: true
-command: |-
-  LC_ALL=C diff -q dir1 dir2 | grep differ | awk '{ print $2, $4 }' | xargs -n 2 gvim --nofork -d
-summary: |-
-  Edit all different files from 2 directories with gvim in difference mode (gvim -d)

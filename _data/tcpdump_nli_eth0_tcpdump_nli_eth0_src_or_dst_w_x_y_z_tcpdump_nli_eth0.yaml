@@ -1,7 +1,0 @@
-commandlinefu_id: 159
-translator:
-  weibo: tgic
-command: |-
-  tcpdump -nli eth0; tcpdump -nli eth0 src or dst w.x.y.z; tcpdump -nli eth0 port 80; tcpdump -nli eth0 proto udp
-summary: |-
-  尝试下tcpdump吧

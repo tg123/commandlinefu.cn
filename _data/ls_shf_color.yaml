@@ -1,8 +1,0 @@
-commandlinefu_id: 3295
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -shF --color
-summary: |-
-  Ultimate current directory usage command

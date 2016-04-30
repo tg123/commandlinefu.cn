@@ -1,8 +1,0 @@
-commandlinefu_id: 2692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  amixer sset Master toggle
-summary: |-
-  this toggles mute on the Master channel of an alsa soundcard

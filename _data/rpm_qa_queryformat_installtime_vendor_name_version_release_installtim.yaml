@@ -1,8 +1,0 @@
-commandlinefu_id: 1510
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -qa --queryformat '%{installtime}  \"%{vendor}\" %{name}-%{version}-%{release}  %{installtime:date}\n' | grep "Thu 05 Mar"
-summary: |-
-  Display a list of RPMs installed on a particular date

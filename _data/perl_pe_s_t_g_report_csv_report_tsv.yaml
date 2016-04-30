@@ -1,7 +1,0 @@
-commandlinefu_id: 2745
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  perl -pe 's/,/\t/g' < report.csv > report.tsv
-summary: |-
-  转换CSV文件成TSV文件

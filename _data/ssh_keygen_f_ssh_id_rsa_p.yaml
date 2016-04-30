@@ -1,7 +1,0 @@
-commandlinefu_id: 6126
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ssh-keygen -f ~/.ssh/id_rsa -p
-summary: |-
-  修改SSH的RSA密码短语

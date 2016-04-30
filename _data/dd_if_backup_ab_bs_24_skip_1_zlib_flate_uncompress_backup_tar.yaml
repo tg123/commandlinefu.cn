@@ -1,7 +1,0 @@
-commandlinefu_id: 13974
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dd if=backup.ab bs=24 skip=1 | zlib-flate -uncompress > backup.tar
-summary: |-
-  将Android的adb备份提取成tar格式（仅对非加密备份起效）

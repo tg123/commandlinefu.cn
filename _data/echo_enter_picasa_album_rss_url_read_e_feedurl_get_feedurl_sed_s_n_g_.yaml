@@ -1,8 +1,0 @@
-commandlinefu_id: 3567
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'Enter Picasa album RSS URL:"; read -e feedurl; GET "$feedurl" |sed 's/</\n</g' | grep media:content |sed 's/.*url='"'"'\([^'"'"']*\)'"'"'.*$/\1/' > wgetlist
-summary: |-
-  Go get those photos from a Picasa album

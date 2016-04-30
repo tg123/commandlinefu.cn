@@ -1,8 +1,0 @@
-commandlinefu_id: 6814
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  byobu
-summary: |-
-  byobu 是一个加强的gnu shell 程序 比如多屏 (通过screen 实现)

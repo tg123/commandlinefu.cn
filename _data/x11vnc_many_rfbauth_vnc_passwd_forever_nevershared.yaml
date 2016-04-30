@@ -1,8 +1,0 @@
-commandlinefu_id: 13474
-translator:
-  weibo: ''
-hide: true
-command: |-
-  x11vnc -many -rfbauth ~/.vnc_passwd -forever -nevershared
-summary: |-
-  Start x11vnc session

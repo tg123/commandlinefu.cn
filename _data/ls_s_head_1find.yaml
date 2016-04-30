@@ -1,8 +1,0 @@
-commandlinefu_id: 7665
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -S|head -1find
-summary: |-
-  find the biggest file in current folder

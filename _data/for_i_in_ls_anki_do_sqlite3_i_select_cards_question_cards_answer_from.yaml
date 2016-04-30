@@ -1,8 +1,0 @@
-commandlinefu_id: 10430
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `ls *.anki`; do sqlite3 $i "select (cards.question || '||' || cards.answer) from cards, facts where cards.factid=facts.id and facts.tags like '%mytag%';" >> mytag.csv; done
-summary: |-
-  Get tagged flashcards from Anki databases

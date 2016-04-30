@@ -1,7 +1,0 @@
-commandlinefu_id: 11838
-translator:
-  weibo: tgic
-command: |-
-  history -d $((HISTCMD-1)) && command_to_run
-summary: |-
-  匿名命令

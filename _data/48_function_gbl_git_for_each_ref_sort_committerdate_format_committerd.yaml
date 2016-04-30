@@ -1,7 +1,0 @@
-commandlinefu_id: 11653
-translator:
-  weibo: codepiano
-command: |-
-  function gbl() { git for-each-ref --sort=-committerdate --format='%(committerdate) %(authorname) %(refname)' refs/remotes/origin/|grep -e ".$@"|head -n 10; }
-summary: |-
-  按作者列出git远程分支

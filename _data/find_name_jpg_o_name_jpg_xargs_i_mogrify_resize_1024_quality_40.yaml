@@ -1,7 +1,0 @@
-commandlinefu_id: 12426
-translator:
-  weibo: tgic
-command: |-
-  find . -name '*.jpg' -o -name '*.JPG'  | xargs -I{} mogrify -resize 1024">" -quality 40 {}
-summary: |-
-  调整图片大小

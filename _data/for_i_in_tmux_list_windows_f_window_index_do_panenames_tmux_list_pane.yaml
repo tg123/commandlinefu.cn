@@ -1,7 +1,0 @@
-commandlinefu_id: 11077
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in $(tmux list-windows -F '#{window_index}'); do panenames=$(tmux list-panes -t $i -F '#{pane_title}' | sed -e 's/:.*$//' -e 's/^.*@//' | uniq); windowname=$(echo ${panenames} | sed -e 's/ /|/g'); tmux rename-window -t $i $windowname; done
-summary: |-
-  设置在tmux/byobu中的窗口名字为你所链接的服务器名字

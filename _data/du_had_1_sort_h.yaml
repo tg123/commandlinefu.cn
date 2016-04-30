@@ -1,7 +1,0 @@
-commandlinefu_id: 12322
-translator:
-  weibo: codepiano
-command: |-
-  du -had 1 | sort -h
-summary: |-
-  显示排序的，阅读友好的当前工作目录内的文件和目录大小列表

@@ -1,7 +1,0 @@
-commandlinefu_id: 11936
-translator:
-  weibo: tgic
-command: |-
-  find ./ -name "*.sh" -exec chmod +x {} \;
-summary: |-
-  递归给.sh加权限

@@ -1,7 +1,0 @@
-commandlinefu_id: 12454
-translator:
-  weibo: tgic
-command: |-
-  find . -empty -type d -print0 | xargs -0 rmdir -p
-summary: |-
-  递归清理空文件

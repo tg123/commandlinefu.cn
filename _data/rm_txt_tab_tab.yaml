@@ -1,7 +1,0 @@
-commandlinefu_id: 6952
-translator:
-  weibo: tgic
-command: |-
-  rm *.txt <TAB> <TAB>
-summary: |-
-  删除时候用多按下tab 防止误操作

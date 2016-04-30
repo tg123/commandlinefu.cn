@@ -1,8 +1,0 @@
-commandlinefu_id: 11344
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git log --after="yesterday" --pretty=format:%s |uniq
-summary: |-
-  Git log (commits titles) of today

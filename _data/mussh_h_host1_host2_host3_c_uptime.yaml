@@ -1,7 +1,0 @@
-commandlinefu_id: 6471
-translator:
-  weibo: '猪了个去'
-command: |-
-  mussh -h host1 host2 host3 -c uptime
-summary: |-
-  在一组节点上运行命令

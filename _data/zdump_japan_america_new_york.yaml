@@ -1,7 +1,0 @@
-commandlinefu_id: 11537
-translator:
-  weibo: '猪了个去'
-command: |-
-  zdump Japan America/New_York
-summary: |-
-  显示要求的时区的当前时间

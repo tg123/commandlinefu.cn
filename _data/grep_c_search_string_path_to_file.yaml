@@ -1,7 +1,0 @@
-commandlinefu_id: 12983
-translator:
-  weibo: ''
-command: |-
-  grep -c "search_string" /path/to/file
-summary: |-
-  计算匹配的数量

@@ -1,7 +1,0 @@
-commandlinefu_id: 13360
-translator:
-  weibo: tgic
-command: |-
-  ps -efa | grep httpd | grep -v grep | awk '{ print $2 }' |xargs
-summary: |-
-  获取pid的程序名

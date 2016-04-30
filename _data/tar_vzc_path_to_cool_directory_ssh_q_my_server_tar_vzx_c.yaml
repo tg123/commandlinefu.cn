@@ -1,8 +1,0 @@
-commandlinefu_id: 13608
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -vzc /path/to/cool/directory | ssh -q my_server 'tar -vzx -C /'
-summary: |-
-  oneliner to transfer a directory using ssh and tar

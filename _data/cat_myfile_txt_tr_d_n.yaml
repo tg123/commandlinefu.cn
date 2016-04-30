@@ -1,7 +1,0 @@
-commandlinefu_id: 2522
-translator:
-  weibo: particle128
-command: |-
-  cat myfile.txt | tr -d '\n'
-summary: |-
-  把文件中的换行符(\n)去掉

@@ -1,7 +1,0 @@
-commandlinefu_id: 11187
-translator:
-  weibo: tgic
-command: |-
-  dpkg-query -Wf '${Package} - ${Version}\n' | sort -n
-summary: |-
-  显示deb版本号

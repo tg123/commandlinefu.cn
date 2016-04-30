@@ -1,8 +1,0 @@
-commandlinefu_id: 12934
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dpkg -l | grep ^ri | awk '{print $2 " install"}' | sudo dpkg --set-selections
-summary: |-
-  dpkg - undo selection of installed packages for deinstall

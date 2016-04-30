@@ -1,8 +1,0 @@
-commandlinefu_id: 13251
-translator:
-  weibo: ''
-hide: true
-command: |-
-  num_errs=`grep ERROR /var/log/syslog | tee >(cat >&2) | wc -l`
-summary: |-
-  Save a result based on a command's output in a variable while printing the command output

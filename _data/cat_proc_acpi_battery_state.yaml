@@ -1,7 +1,0 @@
-commandlinefu_id: 5844
-translator:
-  weibo: tgic
-command: |-
-  cat /proc/acpi/battery/*/state
-summary: |-
-  查看电源还是电池

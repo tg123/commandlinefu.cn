@@ -1,8 +1,0 @@
-commandlinefu_id: 14155
-translator:
-  weibo: ''
-hide: true
-command: |-
-  runonchange () { local cmd=( "$@" ) ; while inotifywait --exclude '.*\.swp' -qqre close_write,move,create,delete $1 ; do "${cmd[@]:1}" ; done ; }
-summary: |-
-  Run a command if file/directory changes

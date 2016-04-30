@@ -1,7 +1,0 @@
-commandlinefu_id: 782
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -name "*" -mtime +10 -print -exec gzip {} \;
-summary: |-
-  压缩10天前的文件

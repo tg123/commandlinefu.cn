@@ -1,7 +1,0 @@
-commandlinefu_id: 11819
-translator:
-  weibo: tgic
-command: |-
-  sort file.txt | uniq -c | sort -k1nr -k2d
-summary: |-
-  按行内容分组并排序

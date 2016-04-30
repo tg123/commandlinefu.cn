@@ -1,8 +1,0 @@
-commandlinefu_id: 2587
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep --color=auto 'usb|' /var/log/messages
-summary: |-
-  Colorize matching string without skipping others

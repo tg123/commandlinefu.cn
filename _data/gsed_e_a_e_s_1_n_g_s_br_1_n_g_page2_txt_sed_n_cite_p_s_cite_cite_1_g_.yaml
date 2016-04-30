@@ -1,7 +1,0 @@
-commandlinefu_id: 266
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  gsed -e :a -e 's/\(<\/[^>]*>\)/\1\n/g;s/\(<br>\)/\1\n/g' page2.txt | sed -n '/<cite>/p;s/<cite>\(.*\)<\/cite>/\1/g' >> output
-summary: |-
-  从谷歌搜索结果页面提取出链接，并保存到一个文件中

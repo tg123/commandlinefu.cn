@@ -1,8 +1,0 @@
-commandlinefu_id: 894
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -lrt
-summary: |-
-  Sort files by date

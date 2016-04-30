@@ -1,8 +1,0 @@
-commandlinefu_id: 6727
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gksudo gedit /etc/passwd &
-summary: |-
-  sudo for launching gui apps in background

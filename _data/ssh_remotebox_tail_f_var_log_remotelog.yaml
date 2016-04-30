@@ -1,7 +1,0 @@
-commandlinefu_id: 9880
-translator:
-  weibo: tgic
-command: |-
-  ssh remotebox tail -f /var/log/remotelog
-summary: |-
-  使用ssh tail一个日志

@@ -1,7 +1,0 @@
-commandlinefu_id: 5317
-translator:
-  weibo: codepiano
-command: |-
-  inplace() { eval F=\"\$$#\"; "$@" > "$F".new && mv -f "$F".new "$F"; }
-summary: |-
-  通用的命令行函数，给命令增加修改原始文件的功能，类似于sed -i选项

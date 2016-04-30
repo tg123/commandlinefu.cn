@@ -1,8 +1,0 @@
-commandlinefu_id: 5442
-translator:
-  weibo: ''
-hide: true
-command: |-
-  G=$(stty -g);stty rows $((${LINES:-50}/2));top -n1; stty $G;unset G
-summary: |-
-  Run TOP in Color, split 4 ways for x seconds - the ultimate ps command. Great for init scripts

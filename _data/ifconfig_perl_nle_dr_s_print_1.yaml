@@ -1,8 +1,0 @@
-commandlinefu_id: 2738
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ifconfig | perl -nle'/dr:(\S+)/ && print $1'
-summary: |-
-  获取全部的ip

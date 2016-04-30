@@ -1,8 +1,0 @@
-commandlinefu_id: 2312
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -type f -exec sed -i 's/\t/  /g' {} \;
-summary: |-
-  find and replace tabs for spaces within files recursively

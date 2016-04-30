@@ -1,8 +1,0 @@
-commandlinefu_id: 2693
-translator:
-  weibo: ''
-hide: true
-command: |-
-  remind -z1 -k'echo %s |ssh <user>@<host> "growlnotify"' ~/.reminders &
-summary: |-
-  Send Reminders from your Linux Server to Growl on a Mac

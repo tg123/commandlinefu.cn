@@ -1,8 +1,0 @@
-commandlinefu_id: 14096
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias wgety='wget -c $(xsel)'
-summary: |-
-  Automatic wget

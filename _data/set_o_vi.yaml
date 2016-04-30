@@ -1,8 +1,0 @@
-commandlinefu_id: 4411
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set -o vi
-summary: |-
-  Search through your command line history

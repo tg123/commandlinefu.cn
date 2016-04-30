@@ -1,7 +1,0 @@
-commandlinefu_id: 4217
-translator:
-  weibo: tgic
-command: |-
-  ps -o thcount -p <process id>
-summary: |-
-  查看线程数量

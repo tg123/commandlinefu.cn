@@ -1,7 +1,0 @@
-commandlinefu_id: 7100
-translator:
-  weibo: tgic
-command: |-
-  echo "e("{1..8}");" | bc -l
-summary: |-
-  生成e的幂

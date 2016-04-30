@@ -1,8 +1,0 @@
-commandlinefu_id: 11847
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -name "*.txt" | while read; do (($(cat $THISFILE | wc -l) < 10)) && rm -vf "$THISFILE";  done
-summary: |-
-  remove recursively all txt files with number of lines less than 10

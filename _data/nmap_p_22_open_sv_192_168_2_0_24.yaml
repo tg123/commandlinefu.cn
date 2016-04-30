@@ -1,8 +1,0 @@
-commandlinefu_id: 6842
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -p 22 --open -sV 192.168.2.0/24
-summary: |-
-  Get a list of ssh servers on the local subnet

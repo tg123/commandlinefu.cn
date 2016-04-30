@@ -1,7 +1,0 @@
-commandlinefu_id: 9703
-translator:
-  weibo: tgic
-command: |-
-  rsync -rv --exclude .svn src/dir/ dest/dir/
-summary: |-
-  使用rsync同步目录 但忽略.svn

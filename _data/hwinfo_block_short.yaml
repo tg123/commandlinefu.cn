@@ -1,8 +1,0 @@
-commandlinefu_id: 1987
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hwinfo --block --short
-summary: |-
-  Show all detected mountable Drives/Partitions/BlockDevices

@@ -1,7 +1,0 @@
-commandlinefu_id: 8918
-translator:
-  weibo: tgic
-command: |-
-  netstat -nut | awk '$NF=="ESTABLISHED" {print $5}' | cut -d: -f1 | sort -u
-summary: |-
-  所有链接到本机的IP

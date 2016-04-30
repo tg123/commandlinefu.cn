@@ -1,8 +1,0 @@
-commandlinefu_id: 9433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  upper() { echo ${@^^}; }
-summary: |-
-  Convert text to uppercase

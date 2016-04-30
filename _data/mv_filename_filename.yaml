@@ -1,8 +1,0 @@
-commandlinefu_id: 7060
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv -- -filename filename
-summary: |-
-  Bash: escape '-' character in filename

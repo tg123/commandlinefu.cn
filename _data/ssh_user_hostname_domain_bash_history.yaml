@@ -1,7 +1,0 @@
-commandlinefu_id: 10954
-translator:
-  weibo: gdqyn
-command: |-
-  ssh user@hostname.domain "> ~/.bash_history"
-summary: |-
-  不在bash历史文件中保存历史命令(只对当前会话有效)

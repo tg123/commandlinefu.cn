@@ -1,7 +1,0 @@
-commandlinefu_id: 12099
-translator:
-  weibo: tgic
-command: |-
-  git log | grep Date | awk '{print " : "$4" "$3" "$6}' | uniq -c
-summary: |-
-  每日有多少个commit

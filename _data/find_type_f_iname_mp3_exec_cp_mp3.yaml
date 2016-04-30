@@ -1,8 +1,0 @@
-commandlinefu_id: 4282
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -iname '*.mp3' -exec cp {} ~/mp3/ \;
-summary: |-
-  Find and copy scattered mp3 files into one directory

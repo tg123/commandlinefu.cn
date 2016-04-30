@@ -1,8 +1,0 @@
-commandlinefu_id: 1392
-translator:
-  weibo: particle128
-hide: true
-command: |-
-  :3,9w new_file
-summary: |-
-  在vi中，把3~9行写入一个新文件

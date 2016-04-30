@@ -1,8 +1,0 @@
-commandlinefu_id: 14066
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '!NF || !seen[$0]++'
-summary: |-
-  Remove duplicate lines whilst keeping empty lines and order

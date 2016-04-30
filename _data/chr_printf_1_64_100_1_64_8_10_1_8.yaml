@@ -1,7 +1,0 @@
-commandlinefu_id: 3800
-translator:
-  weibo: tgic
-command: |-
-  chr () { printf \\$(($1/64*100+$1%64/8*10+$1%8)); }
-summary: |-
-  输出特定字符的ascii码

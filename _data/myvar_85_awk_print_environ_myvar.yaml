@@ -1,7 +1,0 @@
-commandlinefu_id: 8296
-translator:
-  weibo: tgic
-command: |-
-  MyVAR=85 awk '{ print ENVIRON["MyVAR"] }'
-summary: |-
-  传递shell变量到awk

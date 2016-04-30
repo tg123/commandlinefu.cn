@@ -1,8 +1,0 @@
-commandlinefu_id: 13717
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e "s/^127.0.1.1 $(hostname).novalocal/127.0.1.1/g" /etc/hosts
-summary: |-
-  Edit hosts file to remove "foo.novalocal" from it where foo is the hostname of a new VM

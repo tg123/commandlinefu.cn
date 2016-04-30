@@ -1,8 +1,0 @@
-commandlinefu_id: 10176
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo svn co svn+ ciccio_diverso://root@192.160.150.151/svn-repo/progettino
-summary: |-
-  Access to a SVN repository on a different port

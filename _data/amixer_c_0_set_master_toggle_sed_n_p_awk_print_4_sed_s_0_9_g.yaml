@@ -1,8 +1,0 @@
-commandlinefu_id: 10925
-translator:
-  weibo: ''
-hide: true
-command: |-
-  amixer -c 0 set Master toggle | sed -n "$ p" | awk '{print $4}' | sed "s/[^0-9]//g"
-summary: |-
-  Mute Master sound channel, printing only the percent volume

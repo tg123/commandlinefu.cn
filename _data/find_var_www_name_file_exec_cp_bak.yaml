@@ -1,7 +1,0 @@
-commandlinefu_id: 11811
-translator:
-  weibo: particle128
-command: |-
-  find /var/www/ -name file -exec cp {}{,.bak} \;
-summary: |-
-  递归备份文件

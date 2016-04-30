@@ -1,8 +1,0 @@
-commandlinefu_id: 13715
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sleep 10 & wait $!
-summary: |-
-  Stoppable sleep

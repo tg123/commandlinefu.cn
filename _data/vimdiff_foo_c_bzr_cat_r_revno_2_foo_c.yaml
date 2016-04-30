@@ -1,8 +1,0 @@
-commandlinefu_id: 1631
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vimdiff foo.c <(bzr cat -r revno:-2 foo.c)
-summary: |-
-  Compare a file with the output of a command or compare the output of two commands

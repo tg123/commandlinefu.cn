@@ -1,7 +1,0 @@
-commandlinefu_id: 9955
-translator:
-  weibo: tgic
-command: |-
-  for FILE in $(svn status | grep ? | grep .php); do svn add $FILE; done
-summary: |-
-  递归添加php文件到svn

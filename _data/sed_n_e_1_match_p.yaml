@@ -1,7 +1,0 @@
-commandlinefu_id: 2349
-translator:
-  weibo: tgic
-command: |-
-  sed -n -e '1,/match/p'
-summary: |-
-  删除从匹配出到尾巴

@@ -1,7 +1,0 @@
-commandlinefu_id: 11227
-translator:
-  weibo: tgic
-command: |-
-  apt-file --package-only search /lib/firmware
-summary: |-
-  查看所有可用的firmware

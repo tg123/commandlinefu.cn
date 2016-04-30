@@ -1,7 +1,0 @@
-commandlinefu_id: 1282
-translator:
-  weibo: tgic
-command: |-
-  join file1.txt file2.txt > file3.txt
-summary: |-
-  按一列内容连接两个文件(像 sql join )

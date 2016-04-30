@@ -1,7 +1,0 @@
-commandlinefu_id: 12303
-translator:
-  weibo: tgic
-command: |-
-  awk '!($0 in array) { array[$0]; print }' temp
-summary: |-
-  清除重复的行

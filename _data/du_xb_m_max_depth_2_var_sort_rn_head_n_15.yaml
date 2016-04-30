@@ -1,7 +1,0 @@
-commandlinefu_id: 12361
-translator:
-  weibo: tgic
-command: |-
-  du -xB M --max-depth=2 /var | sort -rn | head -n 15
-summary: |-
-  前15大的文件夹

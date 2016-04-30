@@ -1,8 +1,0 @@
-commandlinefu_id: 6083
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof +L1
-summary: |-
-  List open files that have no links to them on the filesystem

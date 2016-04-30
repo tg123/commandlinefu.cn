@@ -1,7 +1,0 @@
-commandlinefu_id: 1036
-translator:
-  weibo: tgic
-command: |-
-  echo "8000000/(20*6*86400)" | bc -l
-summary: |-
-  如何做浮点运算

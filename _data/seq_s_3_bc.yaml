@@ -1,7 +1,0 @@
-commandlinefu_id: 7871
-translator:
-  weibo: '猪了个去'
-command: |-
-  seq -s "+" 3 | bc
-summary: |-
-  计算N个数的和

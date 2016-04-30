@@ -1,8 +1,0 @@
-commandlinefu_id: 5314
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's|\("browser.startup.homepage",\) "\(.*\)"|\1 "http://sliceoflinux.com"|' .mozilla/firefox/*.default/prefs.js
-summary: |-
-  Change the homepage of Firefox

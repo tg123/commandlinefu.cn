@@ -1,8 +1,0 @@
-commandlinefu_id: 12114
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zmv -Q '(**/)* *(.)' '$f:gs/ /_'
-summary: |-
-  Remove spaces from filenames - through a whole directory tree.

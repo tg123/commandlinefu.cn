@@ -1,8 +1,0 @@
-commandlinefu_id: 3768
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shopt -s checkwinsize
-summary: |-
-  Stop long commands wrapping around and over-writing itself in the Bash shell

@@ -1,8 +1,0 @@
-commandlinefu_id: 8362
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -a -o -n | grep 8080
-summary: |-
-  How to Kill Process that is Running on Certain Port in Windows?

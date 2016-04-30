@@ -1,7 +1,0 @@
-commandlinefu_id: 5271
-translator:
-  weibo: tgic
-command: |-
-  vim 中 :1,$!sort
-summary: |-
-  在vim 中排序文本

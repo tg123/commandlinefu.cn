@@ -1,8 +1,0 @@
-commandlinefu_id: 10961
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for user in $(cut -f1 -d: /etc/passwd); do echo "### Crontabs for $user ####"; crontab -u $user -l; done
-summary: |-
-  Show crontabs for all users

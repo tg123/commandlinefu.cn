@@ -1,7 +1,0 @@
-commandlinefu_id: 886
-translator:
-  weibo: tgic
-command: |-
-  vncserver -nohttpd -name hidef-server -depth 24 -geometry 1440x900
-summary: |-
-  配置vnc的分辨率

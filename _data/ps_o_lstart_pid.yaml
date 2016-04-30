@@ -1,8 +1,0 @@
-commandlinefu_id: 6829
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -o lstart <pid>
-summary: |-
-  display date of last time a process was started in `date` format

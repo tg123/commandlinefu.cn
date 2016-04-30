@@ -1,8 +1,0 @@
-commandlinefu_id: 11128
-translator:
-  weibo: ''
-hide: true
-command: |-
-  !}sort -nut. -k 1,1 -k 2,2 -k 3,3 -k 4,4
-summary: |-
-  from within vi, sort  a block of IP addresses (ascending, removing duplicates)

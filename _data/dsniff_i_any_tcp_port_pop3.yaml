@@ -1,8 +1,0 @@
-commandlinefu_id: 7087
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dsniff -i any 'tcp port pop3'
-summary: |-
-  Sniff ONLY POP3 authentication by intercepting the USER command

@@ -1,7 +1,0 @@
-commandlinefu_id: 5513
-translator:
-  weibo: tgic
-command: |-
-  ubuntu-bug
-summary: |-
-  向ubuntu汇报bug

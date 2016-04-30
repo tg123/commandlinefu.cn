@@ -1,8 +1,0 @@
-commandlinefu_id: 7965
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk A=odd.pdf B=even.pdf shuffle A1-end Bend-1S output duplex.pdf
-summary: |-
-  PDF simplex to duplex merge

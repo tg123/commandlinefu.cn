@@ -1,7 +1,0 @@
-commandlinefu_id: 4400
-translator:
-  weibo: tgic
-command: |-
-  perl -e 'for(@ARGV){s/x/*/g;s/v/sqrt /g;s/\^/**/g};print eval(join("",@ARGV)),$/;'
-summary: |-
-  一行perl计算器

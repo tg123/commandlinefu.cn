@@ -1,8 +1,0 @@
-commandlinefu_id: 8029
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcp(){ tcpdump -nUs0 -w- -iinterface $1|tcpdump -n${2-A}r- ;} usage: tcp '[primitives]' [X|XX]
-summary: |-
-  unbuffered tcpdump

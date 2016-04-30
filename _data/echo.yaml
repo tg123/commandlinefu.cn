@@ -1,7 +1,0 @@
-commandlinefu_id: 8924
-translator:
-  weibo: tgic
-command: |-
-  echo $?
-summary: |-
-  显示上次执行的退出码

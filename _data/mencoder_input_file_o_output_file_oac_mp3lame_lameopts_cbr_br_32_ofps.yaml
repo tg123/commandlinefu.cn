@@ -1,8 +1,0 @@
-commandlinefu_id: 8492
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder input_file -o output_file -oac mp3lame -lameopts cbr:br=32 -ofps 30 -vf harddup -ovc xvid -xvidencopts fixed_quant=3
-summary: |-
-  mencoder convert video to xvid

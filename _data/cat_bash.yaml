@@ -1,7 +1,0 @@
-commandlinefu_id: 6359
-translator:
-  weibo: tgic
-command: |-
-  cat | bash
-summary: |-
-  让你的命令不被记录到history里边

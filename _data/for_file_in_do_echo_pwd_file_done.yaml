@@ -1,7 +1,0 @@
-commandlinefu_id: 9908
-translator:
-  weibo: titikaka723 
-command: |-
-  for file in * .*; do echo $PWD/$file; done
-summary: |-
-  根据全路径显示 

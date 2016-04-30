@@ -1,7 +1,0 @@
-commandlinefu_id: 11934
-translator:
-  weibo: tgic
-command: |-
-  ls -ltrhd */
-summary: |-
-  只ls出目录

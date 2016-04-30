@@ -1,8 +1,0 @@
-commandlinefu_id: 11874
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get <apt-get command and options> --print-uris -qq | sed -n "s/'\([^ ]\+\)' \([^ ]\+\) \([^ ]\+\) MD5Sum:\([^ ]\+\)/wget -c \1/p" > dowload_deb_list.txt
-summary: |-
-  Create a package list for offline download

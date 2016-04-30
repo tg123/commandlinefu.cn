@@ -1,7 +1,0 @@
-commandlinefu_id: 6784
-translator:
-  weibo: tgic
-command: |-
-  sqlite3 -line database.db
-summary: |-
-  显示sqlite文件内容

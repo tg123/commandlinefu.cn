@@ -1,8 +1,0 @@
-commandlinefu_id: 4279
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname '*.mp3' -type f -print0 | xargs -I{} -0 cp {} </path>
-summary: |-
-  Find and copy scattered mp3 files into one directory

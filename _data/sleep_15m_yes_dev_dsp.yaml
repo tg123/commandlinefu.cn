@@ -1,7 +1,0 @@
-commandlinefu_id: 8308
-translator:
-  weibo: tgic
-command: |-
-  sleep 15m; yes > /dev/dsp
-summary: |-
-  带有声音的计时器

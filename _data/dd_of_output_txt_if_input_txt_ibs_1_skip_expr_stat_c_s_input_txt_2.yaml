@@ -1,7 +1,0 @@
-commandlinefu_id: 8814
-translator:
-  weibo: tgic
-command: |-
-  dd of=output.txt if=input.txt ibs=1 skip=$(expr `stat -c%s input.txt` / 2)
-summary: |-
-  将文件切掉一半

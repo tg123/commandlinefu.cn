@@ -1,8 +1,0 @@
-commandlinefu_id: 278
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias scd='dirs -v; echo -n "select number: "; read newdir; cd -"$newdir"'
-summary: |-
-  change to the selected directory for zsh users

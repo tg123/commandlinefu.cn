@@ -1,8 +1,0 @@
-commandlinefu_id: 13154
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tmpIFS=IFS; IFS='\n'; users=`who | awk '{print $1}'`; for u in users; do; write $u < /dev/urandom &; done; IFS=tmpIFS
-summary: |-
-  Annoy everyone on your system

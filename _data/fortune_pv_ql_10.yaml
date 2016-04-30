@@ -1,7 +1,0 @@
-commandlinefu_id: 7558
-translator:
-  weibo: tgic
-command: |-
-  fortune | pv -qL 10
-summary: |-
-  动画效果的算命

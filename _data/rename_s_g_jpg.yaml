@@ -1,8 +1,0 @@
-commandlinefu_id: 4470
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  rename "s/ *//g" *.jpg
-summary: |-
-  清除文件名中的空白

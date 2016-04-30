@@ -1,7 +1,0 @@
-commandlinefu_id: 6116
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -exec md5sum {}\; > <filename>
-summary: |-
-  为所有文件做md5

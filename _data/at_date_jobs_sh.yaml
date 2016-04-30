@@ -1,8 +1,0 @@
-commandlinefu_id: 11215
-translator:
-  weibo: ''
-hide: true
-command: |-
-  at <date> < jobs.sh
-summary: |-
-  scheduled jobs

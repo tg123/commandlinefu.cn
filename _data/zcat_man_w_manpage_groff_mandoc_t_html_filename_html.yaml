@@ -1,7 +1,0 @@
-commandlinefu_id: 10838
-translator:
-  weibo: tgic
-command: |-
-  zcat `man -w manpage` | groff -mandoc -T html - > filename.html
-summary: |-
-  把man变成html

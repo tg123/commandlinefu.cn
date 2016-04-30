@@ -1,7 +1,0 @@
-commandlinefu_id: 12491
-translator:
-  weibo: tgic
-command: |-
-  while curl -dsL example.com 2>&1 | grep 503;do sleep 8;done;echo server up
-summary: |-
-  检查服务器是否返回 503

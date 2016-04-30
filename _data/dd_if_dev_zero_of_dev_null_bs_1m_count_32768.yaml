@@ -1,7 +1,0 @@
-commandlinefu_id: 772
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero of=/dev/null bs=1M count=32768
-summary: |-
-  内存和处理器的带宽

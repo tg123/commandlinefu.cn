@@ -1,7 +1,0 @@
-commandlinefu_id: 9731
-translator:
-  weibo: '猪了个去'
-command: |-
-  ^Z <...> %
-summary: |-
-  临时挂起和唤醒一个前台任务

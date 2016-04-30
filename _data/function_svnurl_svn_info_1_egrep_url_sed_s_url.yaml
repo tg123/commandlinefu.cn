@@ -1,8 +1,0 @@
-commandlinefu_id: 4837
-translator:
-  weibo: tgic
-hide: false
-command: |
-  function svnurl() { svn info $1 | egrep '^URL: (.*)' | sed s/URL\:\ //; }
-summary: |-
-  None

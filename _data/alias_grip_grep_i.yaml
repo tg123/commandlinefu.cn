@@ -1,7 +1,0 @@
-commandlinefu_id: 2713
-translator:
-  weibo: tgic
-command: |-
-  alias grip="grep -i"
-summary: |-
-  大小写不敏感的grep

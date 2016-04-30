@@ -1,8 +1,0 @@
-commandlinefu_id: 13254
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/lynx -dump -width 500 http://127.0.0.1/whm-server-status | awk 'BEGIN { FS = " " } ; { print $12 }' | sed '/^$/d' | sort | uniq -c | sort -n
-summary: |-
-  Number of connections to domains on a cPanel server

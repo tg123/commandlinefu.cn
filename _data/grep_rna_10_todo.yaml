@@ -1,7 +1,0 @@
-commandlinefu_id: 9370
-translator:
-  weibo: tgic
-command: |-
-  grep -rnA 10 TODO *
-summary: |-
-  显示所有TODO

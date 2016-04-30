@@ -1,8 +1,0 @@
-commandlinefu_id: 3495
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -f alsa -r 16000 -i hw:2,0 -f video4linux2 -s 800x600 -i /dev/video0 -r 30 -f avi -vcodec mpeg4 -vtag xvid -sameq -acodec libmp3lame -ab 96k output.avi
-summary: |-
-  Record audio and video from webcam using ffmpeg

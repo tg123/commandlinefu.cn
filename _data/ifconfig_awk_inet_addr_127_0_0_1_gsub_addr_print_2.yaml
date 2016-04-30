@@ -1,8 +1,0 @@
-commandlinefu_id: 5174
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | awk '/inet addr/ &&! /127.0.0.1/{ gsub(/addr:/,""); print $2 }'
-summary: |-
-  show your private/local ip address

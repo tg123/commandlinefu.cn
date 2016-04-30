@@ -1,7 +1,0 @@
-commandlinefu_id: 9616
-translator:
-  weibo: tgic
-command: |-
-  alias cls='printf %b '\''\033c'\'''
-summary: |-
-  清屏

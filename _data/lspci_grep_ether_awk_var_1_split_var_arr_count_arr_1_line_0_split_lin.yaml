@@ -1,8 +1,0 @@
-commandlinefu_id: 100
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lspci | grep Ether | awk '{ VAR=$1; split(VAR,ARR,"."); count[ARR[1]]++; LINE=$0; split(LINE,LINEARR,":"); LINECOUNT[ARR[1]]=LINEARR[3]; } END { for(i in count) { printf("PCI address: %s\nPorts: %d\nCard Type: %s\n", i, count[i], LINECOUNT[i]) } }'
-summary: |-
-  Show number of NIC's, ports per nic and PCI address

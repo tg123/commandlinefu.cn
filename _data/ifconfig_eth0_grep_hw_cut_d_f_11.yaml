@@ -1,8 +1,0 @@
-commandlinefu_id: 11614
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | grep HW | cut -d " " -f 11
-summary: |-
-  extraer la MAC del comando ifconfig

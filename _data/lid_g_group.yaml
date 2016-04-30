@@ -1,7 +1,0 @@
-commandlinefu_id: 10342
-translator:
-  weibo: tgic
-command: |-
-  lid -g <group>
-summary: |-
-  查看组内用户

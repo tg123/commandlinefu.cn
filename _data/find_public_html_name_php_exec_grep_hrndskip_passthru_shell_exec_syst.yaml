@@ -1,8 +1,0 @@
-commandlinefu_id: 12122
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./public_html/ -name \*.php -exec grep -HRnDskip "\(passthru\|shell_exec\|system\|phpinfo\|base64_decode\|chmod\|mkdir\|fopen\|fclose\|readfile\) *(" {} \;
-summary: |-
-  find potentially malicious PHP commands used in backdoors and aliked scripts

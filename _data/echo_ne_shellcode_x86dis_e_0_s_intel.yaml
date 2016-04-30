@@ -1,8 +1,0 @@
-commandlinefu_id: 5836
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo -ne "<shellcode>" | x86dis -e 0 -s intel
-summary: |-
-  Disassemble some shell code

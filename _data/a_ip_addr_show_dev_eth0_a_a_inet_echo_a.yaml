@@ -1,8 +1,0 @@
-commandlinefu_id: 12011
-translator:
-  weibo: ''
-hide: true
-command: |-
-  A=$(ip addr show dev eth0); A=${A##*inet }; echo ${A%%/*}
-summary: |-
-  Get eth0 ip

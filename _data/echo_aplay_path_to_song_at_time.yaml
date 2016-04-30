@@ -1,7 +1,0 @@
-commandlinefu_id: 2502
-translator:
-  weibo: tgic
-command: |-
-  echo "aplay path/to/song" |at [time]
-summary: |-
-  闹钟

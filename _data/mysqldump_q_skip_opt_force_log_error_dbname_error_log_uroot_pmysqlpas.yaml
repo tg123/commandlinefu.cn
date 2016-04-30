@@ -1,8 +1,0 @@
-commandlinefu_id: 5721
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqldump -q --skip-opt --force --log-error=dbname_error.log -uroot -pmysqlpassword dbname | ssh -C user@sshserver 'cd /path/to/backup/dir; cat > dbname.sql'
-summary: |-
-  backup with mysqldump a really big mysql database to a remote machine over ssh

@@ -1,8 +1,0 @@
-commandlinefu_id: 2194
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -ovc copy -nosound ./movie.mov -o ./movie_mute.mov
-summary: |-
-  remove audio trac from a video file

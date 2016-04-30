@@ -1,7 +1,0 @@
-commandlinefu_id: 5130
-translator:
-  weibo: tgic
-command: |-
-  ps uH p <PID_OF_U_PROCESS> | wc -l
-summary: |-
-  线程数量

@@ -1,8 +1,0 @@
-commandlinefu_id: 9588
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . ! -name \*.md5 -exec 'md5sum "{}" > "{}".md5' \;
-summary: |-
-  将缺少.md5的文件 自动补上.md5

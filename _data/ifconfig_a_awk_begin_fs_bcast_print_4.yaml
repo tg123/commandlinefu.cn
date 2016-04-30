@@ -1,8 +1,0 @@
-commandlinefu_id: 4225
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig -a| awk 'BEGIN{FS="[ :]+"} /Bcast/{print $4}'
-summary: |-
-  Return IP Address

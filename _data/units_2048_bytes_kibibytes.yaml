@@ -1,7 +1,0 @@
-commandlinefu_id: 129
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  units "2048 bytes" "kibibytes"
-summary: |-
-  轻松地转化单位

@@ -1,7 +1,0 @@
-commandlinefu_id: 3015
-translator:
-  weibo: tgic
-command: |-
-  host -t mx foo.org
-summary: |-
-  获取MX记录

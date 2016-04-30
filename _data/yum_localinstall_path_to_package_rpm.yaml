@@ -1,7 +1,0 @@
-commandlinefu_id: 1305
-translator:
-  weibo: tgic
-command: |-
-  yum localinstall /path/to/package.rpm
-summary: |-
-  安装本地包(使用yum解析依赖关系)

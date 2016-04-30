@@ -1,7 +1,0 @@
-commandlinefu_id: 163
-translator:
-  weibo: titikaka723 
-command: |-
-  egrep -ie "<*HREF=(.*?)>" index.html | awk -F\" '{print $2}' | grep ://
-summary: |-
-  从文件中获取URL原地址 

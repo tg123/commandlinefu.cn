@@ -1,8 +1,0 @@
-commandlinefu_id: 13736
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `cat hosts_list`;  do RES=`ssh myusername@${i} "ps -ef " |awk '/[p]rocessname/ {print $2}'`; test "x${RES}" = "x" && echo $i; done
-summary: |-
-  Print out which hosts are not running specific process

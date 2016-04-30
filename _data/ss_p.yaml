@@ -1,7 +1,0 @@
-commandlinefu_id: 3546
-translator:
-  weibo: tgic
-command: |-
-  ss -p
-summary: |-
-  显示目前使用网络的程序

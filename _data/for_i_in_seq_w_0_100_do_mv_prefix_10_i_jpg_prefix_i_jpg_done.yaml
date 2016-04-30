@@ -1,8 +1,0 @@
-commandlinefu_id: 11843
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(seq -w 0 100) ; do mv prefix$(( 10#$i )).jpg prefix${i}.jpg ; done
-summary: |-
-  Numeric zero padding file rename

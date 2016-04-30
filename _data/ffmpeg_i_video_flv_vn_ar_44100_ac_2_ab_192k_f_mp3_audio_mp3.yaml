@@ -1,7 +1,0 @@
-commandlinefu_id: 10044
-translator:
-  weibo: '猪了个去'
-command: |-
-  ffmpeg -i video.flv -vn -ar 44100 -ac 2 -ab 192k -f mp3 audio.mp3
-summary: |-
-  提取flash视频文件(*.flv)中的声音，转成mp3文件

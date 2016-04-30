@@ -1,8 +1,0 @@
-commandlinefu_id: 9430
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mailme(){ mailx -s "$@" $USER <<< "$@"; }
-summary: |-
-  Email yourself a quick message

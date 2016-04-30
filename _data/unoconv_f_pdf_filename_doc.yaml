@@ -1,7 +1,0 @@
-commandlinefu_id: 10555
-translator:
-  weibo: particle128
-command: |-
-  unoconv -f pdf filename.doc
-summary: |-
-  把doc文件转成pdf

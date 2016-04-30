@@ -1,8 +1,0 @@
-commandlinefu_id: 222
-translator:
-  weibo: ''
-hide: true
-command: |-
-  'ls -1 *<pattern>* | while read file; do scp $file user@host:/path/; if [[ $? -eq 0 ]]; then rm $file; fi; done'
-summary: |-
-  Search filenames with given pattern; each one is transfered via scp and if succesfull the file is locally deleted. Ideal for filesystem quick maintenance

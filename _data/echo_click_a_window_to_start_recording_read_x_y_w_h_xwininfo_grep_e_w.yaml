@@ -1,8 +1,0 @@
-commandlinefu_id: 10433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Click a window to start recording"; read x y W H <<< `xwininfo | grep -e Width -e Height -e Absolute | grep -oE "[[:digit:]]{1,}" | tr "\n" " "`; ffmpeg -f alsa -ac 1 -i pulse -f x11grab -s ${W}x${H} -r 25 -i :0.0+${x},${y} -sameq output.mkv
-summary: |-
-  Create a video screencast of any x11 window, with audio

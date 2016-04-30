@@ -1,7 +1,0 @@
-commandlinefu_id: 12294
-translator:
-  weibo: codepiano
-command: |-
-  svg2png(){ png="${1%.*}.png"; inkscape --export-png="$png" --without-gui "$1" && pngcrush -brute -rem alla -rem text "$png" "$png.new" && mv "$png.new" "$png";}
-summary: |-
-  改变一个SVG到png，并且压缩文件大小

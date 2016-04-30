@@ -1,8 +1,0 @@
-commandlinefu_id: 1879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in * ; do mv -- "$f" "${f/[0-9][0-9] \- /}" ; done
-summary: |-
-  Rename files that have number, space and hyphen

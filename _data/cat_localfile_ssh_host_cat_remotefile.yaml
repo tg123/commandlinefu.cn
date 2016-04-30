@@ -1,7 +1,0 @@
-commandlinefu_id: 7789
-translator:
-  weibo: tgic
-command: |-
-  cat LOCALFILE | ssh HOST "cat > REMOTEFILE"
-summary: |-
-  通过ssh复制文件

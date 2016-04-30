@@ -1,8 +1,0 @@
-commandlinefu_id: 13455
-translator:
-  weibo: ''
-hide: true
-command: |-
-  docker ps | sed -e 's/  /\+/g' -e 's/CONTAINER ID/CONTAINER_ID/' | tr -s '+' '\t' | q -t 'select c1,substr(c7, 0, 40),c2,c6 from -' | column -t
-summary: |-
-  human readable docker ps output

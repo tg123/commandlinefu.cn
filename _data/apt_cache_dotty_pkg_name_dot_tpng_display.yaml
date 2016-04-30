@@ -1,7 +1,0 @@
-commandlinefu_id: 4467
-translator:
-  weibo: codepiano
-command: |-
-  apt-cache dotty PKG-NAME | dot -Tpng | display
-summary: |-
-  建立包依赖图

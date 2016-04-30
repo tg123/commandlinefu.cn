@@ -1,7 +1,0 @@
-commandlinefu_id: 11551
-translator:
-  weibo: tgic
-command: |-
-  seq 10| shuf | head -n 5
-summary: |-
-  产生5个不重复的随机数

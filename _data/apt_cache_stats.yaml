@@ -1,8 +1,0 @@
-commandlinefu_id: 3316
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apt-cache stats
-summary: |-
-  How to know the total number of packages available

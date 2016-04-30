@@ -1,8 +1,0 @@
-commandlinefu_id: 4985
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -qf /lib/modules/*
-summary: |-
-  Lists installed kernels

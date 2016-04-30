@@ -1,7 +1,0 @@
-commandlinefu_id: 5980
-translator:
-  weibo: titikaka723 
-command: |-
-  /sbin/lspci (-v is verbose)
-summary: |-
-  寻找 PCI驱动

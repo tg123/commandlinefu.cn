@@ -1,7 +1,0 @@
-commandlinefu_id: 1323
-translator:
-  weibo: tgic
-command: |-
-  less +G <filename>
-summary: |-
-  在less之后先到文件尾部

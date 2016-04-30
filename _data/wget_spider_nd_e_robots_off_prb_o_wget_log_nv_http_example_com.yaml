@@ -1,8 +1,0 @@
-commandlinefu_id: 13966
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget --spider -nd -e robots=off -prb -o wget-log -nv http://example.com
-summary: |-
-  check broken links using wget as a spider

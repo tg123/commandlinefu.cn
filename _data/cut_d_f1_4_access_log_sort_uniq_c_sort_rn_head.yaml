@@ -1,7 +1,0 @@
-commandlinefu_id: 12745
-translator:
-  weibo: tgic
-command: |-
-  cut -d " " -f1,4 access_log  | sort | uniq -c | sort -rn | head
-summary: |-
-  从分析apache日志最繁忙的时段

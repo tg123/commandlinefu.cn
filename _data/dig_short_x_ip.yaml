@@ -1,7 +1,0 @@
-commandlinefu_id: 4397
-translator:
-  weibo: codepiano
-command: |-
-  dig +short -x {ip}
-summary: |-
-  反向域名解析

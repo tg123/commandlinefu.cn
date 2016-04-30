@@ -1,8 +1,0 @@
-commandlinefu_id: 7547
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -v -sP 192.168.10.0/24 | grep down | wc -l
-summary: |-
-  count of down available ips

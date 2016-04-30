@@ -1,7 +1,0 @@
-commandlinefu_id: 7360
-translator:
-  weibo: tgic
-command: |-
-  mencoder -idx a.ogg -ovc lavc -oac mp3lame -o b.avi
-summary: |-
-  转换ogg为avi

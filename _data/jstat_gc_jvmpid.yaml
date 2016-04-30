@@ -1,7 +1,0 @@
-commandlinefu_id: 204
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  jstat -gc [jvmpid]
-summary: |-
-  JVM垃圾回收的状态

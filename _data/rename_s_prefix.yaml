@@ -1,8 +1,0 @@
-commandlinefu_id: 3009
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rename 's/^/prefix/' *
-summary: |-
-  Add prefix onto filenames

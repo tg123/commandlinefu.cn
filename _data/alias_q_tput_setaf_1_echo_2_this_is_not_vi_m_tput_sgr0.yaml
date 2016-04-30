@@ -1,7 +1,0 @@
-commandlinefu_id: 4260
-translator:
-  weibo: tgic
-command: |-
-  alias :q='tput setaf 1; echo >&2 "this is NOT vi(m) :/"; tput sgr0'
-summary: |-
-  提示你已经不在vim里边了

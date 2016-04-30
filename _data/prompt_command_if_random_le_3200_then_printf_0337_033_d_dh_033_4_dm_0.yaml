@@ -1,8 +1,0 @@
-commandlinefu_id: 5240
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  PROMPT_COMMAND='if [ $RANDOM -le 3200 ]; then printf "\0337\033[%d;%dH\033[4%dm \033[m\0338" $((RANDOM%LINES+1)) $((RANDOM%COLUMNS+1)) $((RA
-summary: |-
-  愚人节快乐

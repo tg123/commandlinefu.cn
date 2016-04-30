@@ -1,7 +1,0 @@
-commandlinefu_id: 12564
-translator:
-  weibo: particle128
-command: |-
-  find . -type f -exec md5sum {} \;
-summary: |-
-  对所有文件执行md5校验

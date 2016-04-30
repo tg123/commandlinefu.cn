@@ -1,7 +1,0 @@
-commandlinefu_id: 12714
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  info foo |less
-summary: |-
-  在一个页面里打开GNU info

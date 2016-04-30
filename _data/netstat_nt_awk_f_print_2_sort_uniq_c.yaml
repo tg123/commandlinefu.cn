@@ -1,8 +1,0 @@
-commandlinefu_id: 8771
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  netstat -nt | awk -F":" '{print $2}' | sort | uniq -c
-summary: |-
-  按ip分组的 netstat

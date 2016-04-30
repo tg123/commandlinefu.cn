@@ -1,7 +1,0 @@
-commandlinefu_id: 3459
-translator:
-  weibo: tgic
-command: |-
-  ssh user@machine dd if=/dev/dvd0 > dvddump.iso
-summary: |-
-  从远端机器上拉下dvd的iso

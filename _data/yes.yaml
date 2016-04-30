@@ -1,7 +1,0 @@
-commandlinefu_id: 11351
-translator:
-  weibo: 玄文处幽
-command: |-
-  yes | !!
-summary: |-
-  执行最后的命令，并且所有提示项都选择'y'

@@ -1,8 +1,0 @@
-commandlinefu_id: 13071
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ 1 ] ;do ps aux|awk '{if ($8 ~ "D") print }'; sleep 1 ;done
-summary: |-
-  Find processes blocked on IO

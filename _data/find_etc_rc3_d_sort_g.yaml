@@ -1,7 +1,0 @@
-commandlinefu_id: 7230
-translator:
-  weibo: tgic
-command: |-
-  find /etc/rc3.d/ | sort -g
-summary: |-
-  列出服务(Redhat)

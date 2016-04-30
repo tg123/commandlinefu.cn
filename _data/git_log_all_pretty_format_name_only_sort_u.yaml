@@ -1,7 +1,0 @@
-commandlinefu_id: 5601
-translator:
-  weibo: '猪了个去'
-command: |-
-  git log --all --pretty=format:" " --name-only | sort -u
-summary: |-
-  列出所有曾经在git版本库下存在过的文件

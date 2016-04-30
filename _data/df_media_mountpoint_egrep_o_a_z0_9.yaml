@@ -1,7 +1,0 @@
-commandlinefu_id: 7715
-translator:
-  weibo: tgic
-command: |-
-  df /media/mountpoint |egrep -o '^[/a-z0-9]*'
-summary: |-
-  从挂载点获取设备信息

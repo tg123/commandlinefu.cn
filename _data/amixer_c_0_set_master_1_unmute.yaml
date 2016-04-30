@@ -1,8 +1,0 @@
-commandlinefu_id: 3034
-translator:
-  weibo: ''
-hide: true
-command: |-
-  amixer -c 0 set Master 1+ unmute
-summary: |-
-  amixer : raise volume and unmute if necessary

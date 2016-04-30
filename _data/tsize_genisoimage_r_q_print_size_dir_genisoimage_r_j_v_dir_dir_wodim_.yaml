@@ -1,8 +1,0 @@
-commandlinefu_id: 10524
-translator:
-  weibo: ''
-hide: true
-command: |-
-  TSIZE=`genisoimage -R -q -print-size DIR` && genisoimage -R -J -V "DIR" "DIR" | wodim -eject -tsize=${TSIZE}s -
-summary: |-
-  write cd/dvd with genisoimage and wodim

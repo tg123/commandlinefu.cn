@@ -1,7 +1,0 @@
-commandlinefu_id: 9751
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  man -t awk | ps2pdf - awk.pdf
-summary: |-
-  保存man页面为pdf文件

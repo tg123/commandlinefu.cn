@@ -1,7 +1,0 @@
-commandlinefu_id: 5119
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  export var1=`ps -A | grep '[u]nique' | cut -d '?' -f 1`; echo${var1/ /}; kill -9 $var1
-summary: |-
-  在无法使用pidof和pgrep的情况下，杀死PID未知的进程。

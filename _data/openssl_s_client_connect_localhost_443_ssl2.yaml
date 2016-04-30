@@ -1,7 +1,0 @@
-commandlinefu_id: 8219
-translator:
-  weibo: tgic
-command: |-
-  openssl s_client -connect localhost:443 -ssl2
-summary: |-
-  测试ssl链接

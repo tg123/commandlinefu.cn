@@ -1,7 +1,0 @@
-commandlinefu_id: 4010
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero of=/dev/hda bs=16M
-summary: |-
-  清空硬盘

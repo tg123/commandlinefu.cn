@@ -1,7 +1,0 @@
-commandlinefu_id: 6941
-translator:
-  weibo: codepiano
-command: |-
-  sudo chattr +i <file>
-summary: |-
-  使一个文件无法被root修改

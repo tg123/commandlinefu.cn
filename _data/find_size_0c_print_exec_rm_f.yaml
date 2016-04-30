@@ -1,7 +1,0 @@
-commandlinefu_id: 11595
-translator:
-  weibo: tgic
-command: |-
-  find . -size 0c -print -exec rm -f {} \;
-summary: |-
-  删除空文件

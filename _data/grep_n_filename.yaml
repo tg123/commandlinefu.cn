@@ -1,8 +1,0 @@
-commandlinefu_id: 4515
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -n "^" <filename>
-summary: |-
-  Prints line numbers

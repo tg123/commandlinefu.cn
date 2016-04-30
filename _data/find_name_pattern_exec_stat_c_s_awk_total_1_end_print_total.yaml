@@ -1,8 +1,0 @@
-commandlinefu_id: 13053
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "pattern" -exec stat -c%s {} \; | awk '{total += $1} END {print total}'
-summary: |-
-  Find files and calculate size of result in shell

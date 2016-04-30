@@ -1,7 +1,0 @@
-commandlinefu_id: 8833
-translator:
-  weibo: '猪了个去'
-command: |-
-  ln -nsf <TARGET> <LINK>
-summary: |-
-  重新指定一个已存在的软链接到新的位置

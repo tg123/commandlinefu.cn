@@ -1,8 +1,0 @@
-commandlinefu_id: 346
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp -pr directory-you-want-to-backup{,_`date +%Y%m%d`} # for bash
-summary: |-
-  backup directory. (for bash)

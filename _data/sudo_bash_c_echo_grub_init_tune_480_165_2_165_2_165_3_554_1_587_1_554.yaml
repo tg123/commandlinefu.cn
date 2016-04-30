@@ -1,8 +1,0 @@
-commandlinefu_id: 8387
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo bash -c 'echo "GRUB_INIT_TUNE=\"480 165 2 165 2 165 3 554 1 587 1 554 2 370 1 554 1 523 2 349 1 523 1 494 3 165 2 165 2 165 2\"" >> /etc/default/grub && update-grub'
-summary: |-
-  GRUB2: set Super Mario as startup tune

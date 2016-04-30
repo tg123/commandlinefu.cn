@@ -1,7 +1,0 @@
-commandlinefu_id: 11898
-translator:
-  weibo: tgic
-command: |-
-  mke2fs -t ext4 -O ^has_journal /dev/sdXN
-summary: |-
-  格式化成非日志ext4

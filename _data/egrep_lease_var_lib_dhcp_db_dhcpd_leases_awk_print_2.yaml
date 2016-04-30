@@ -1,8 +1,0 @@
-commandlinefu_id: 3013
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep "^lease" /var/lib/dhcp/db/dhcpd.leases |awk '{ print $2 }'
-summary: |-
-  get IPs with a DHCP lease

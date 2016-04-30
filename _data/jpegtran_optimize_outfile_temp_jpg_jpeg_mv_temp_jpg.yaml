@@ -1,7 +1,0 @@
-commandlinefu_id: 8896
-translator:
-  weibo: tgic
-command: |-
-  jpegtran -optimize -outfile temp.jpg <JPEG> && mv temp.jpg "$_"
-summary: |-
-  优化jpg文件大小

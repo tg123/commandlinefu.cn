@@ -1,7 +1,0 @@
-commandlinefu_id: 3041
-translator:
-  weibo: tgic
-command: |-
-  printf '%*s\n' 20 | tr ' ' '#'
-summary: |-
-  打印20个++++

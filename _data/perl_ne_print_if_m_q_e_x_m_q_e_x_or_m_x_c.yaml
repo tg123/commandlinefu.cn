@@ -1,8 +1,0 @@
-commandlinefu_id: 8824
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -ne 'print if m{\Q/*\E}x .. m{\Q*/\E}x or m{\/\/}x' *.c
-summary: |-
-  Find C/C++ source code comments

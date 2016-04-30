@@ -1,8 +1,0 @@
-commandlinefu_id: 3222
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dstat -afv
-summary: |-
-  dstat- this command is powerful one to monitor system activity . It has combined the power of vmstat,iostat,mpstat,df,free,sar .

@@ -1,7 +1,0 @@
-commandlinefu_id: 3837
-translator:
-  weibo: codepiano
-command: |-
-  uuencode -m $1 /dev/stdout | sed '1d' | sed '$d' | tr -d '\n' | xclip -selection clipboard
-summary: |-
-  将图片解码为base64并且复制到剪贴板

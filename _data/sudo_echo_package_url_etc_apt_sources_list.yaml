@@ -1,7 +1,0 @@
-commandlinefu_id: 10693
-translator:
-  weibo: tgic
-command: |-
-  sudo echo "package url" >> /etc/apt/sources.list
-summary: |-
-  加入指定的源地址 (deb)

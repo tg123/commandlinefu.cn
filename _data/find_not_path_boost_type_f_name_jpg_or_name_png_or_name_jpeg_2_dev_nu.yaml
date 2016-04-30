@@ -1,8 +1,0 @@
-commandlinefu_id: 13157
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . \( -not -path "./boost*" \) -type f \( -name "*.jpg" -or -name "*.png" -or -name "*.jpeg" \)  2>/dev/null
-summary: |-
-  Find pictures excepting a path

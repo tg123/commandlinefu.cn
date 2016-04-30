@@ -1,7 +1,0 @@
-commandlinefu_id: 1687
-translator:
-  weibo: tgic
-command: |-
-  perl -e 'print scalar localtime $ARGV[0],"\n" ' epoch
-summary: |-
-  使用perl转换unix时间

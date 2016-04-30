@@ -1,8 +1,0 @@
-commandlinefu_id: 12337
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mhwd --help
-summary: |-
-  mhwd ? Manjaro Hardware Detection

@@ -1,8 +1,0 @@
-commandlinefu_id: 13688
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp -p file.txt{,.bak}
-summary: |-
-  Create backup copy of file and keep modified date and time

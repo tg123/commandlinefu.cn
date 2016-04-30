@@ -1,8 +1,0 @@
-commandlinefu_id: 12888
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var/lib/cassandra/data -depth -type d -iwholename "*/snapshots/*" -mtime +30 -print0 | xargs -0 rm -rf
-summary: |-
-  Clear cassandra snapshots that are older than 30 days

@@ -1,7 +1,0 @@
-commandlinefu_id: 13193
-translator:
-  weibo: tgic
-command: |-
-  echo "select a, b, c from table where a = 3;"| python -c "import sys;import sqlparse;print sqlparse.format(sys.stdin.read(),  reindent=True, keyword_case='upper')"
-summary: |-
-  格式化SQL (python sqlparse)

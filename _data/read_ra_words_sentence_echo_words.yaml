@@ -1,8 +1,0 @@
-commandlinefu_id: 9233
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read -ra words <<< "<sentence>" && echo "${words[@]^}"
-summary: |-
-  Capitalize first letter of each word in a string

@@ -1,8 +1,0 @@
-commandlinefu_id: 2663
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim $(grep test *)
-summary: |-
-  Find files containing string and open in vim

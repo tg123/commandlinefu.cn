@@ -1,7 +1,0 @@
-commandlinefu_id: 8858
-translator:
-  weibo: tgic
-command: |-
-  apt-cache rdepends <packagename>
-summary: |-
-  查看包的依赖

@@ -1,7 +1,0 @@
-commandlinefu_id: 5502
-translator:
-  weibo: tgic
-command: |-
-  date +%s | sha256sum | base64 | head -c <length>; echo
-summary: |-
-  伪随机数

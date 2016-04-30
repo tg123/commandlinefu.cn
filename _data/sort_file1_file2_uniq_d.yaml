@@ -1,7 +1,0 @@
-commandlinefu_id: 5707
-translator:
-  weibo: tgic
-command: |-
-  sort file1 file2 | uniq -d
-summary: |-
-  求交集

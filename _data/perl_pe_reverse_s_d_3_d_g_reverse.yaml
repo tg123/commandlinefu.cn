@@ -1,7 +1,0 @@
-commandlinefu_id: 961
-translator:
-  weibo: tgic
-command: |-
-  perl -pe '$_=reverse;s/\d{3}(?=\d)(?!.*?\.)/$&,/g;$_=reverse'
-summary: |-
-  数字插入逗号方便读 123456 变成 123,456

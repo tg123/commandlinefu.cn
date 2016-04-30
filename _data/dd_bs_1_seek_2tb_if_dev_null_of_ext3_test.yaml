@@ -1,7 +1,0 @@
-commandlinefu_id: 3296
-translator:
-  weibo: tgic
-command: |-
-  dd bs=1 seek=2TB if=/dev/null of=ext3.test
-summary: |-
-  创建一个2T的文件

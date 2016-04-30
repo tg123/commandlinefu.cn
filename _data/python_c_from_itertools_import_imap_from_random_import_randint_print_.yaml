@@ -1,8 +1,0 @@
-commandlinefu_id: 7245
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c "from itertools import imap; from random import randint; print ':'.join(['%02x'%x for x in imap(lambda x:randint(0,255), range(6))])"
-summary: |-
-  Generate random valid mac addresses

@@ -1,7 +1,0 @@
-commandlinefu_id: 3004
-translator:
-  weibo: '猪了个去'
-command: |-
-  perl -F' ' -MDate::Format -pale 'substr($_, index($_, $F[1]), length($F[1]), time2str("%C", $F[1]))' file.log
-summary: |-
-  对于给定的列显示真实ISO标准时间

@@ -1,7 +1,0 @@
-commandlinefu_id: 707
-translator:
-  weibo: tgic
-command: |-
-  find . -maxdepth 1 -iname '*jpg' -exec convert -quality 60 {} lowQ/{} \;
-summary: |-
-  有损压缩图片

@@ -1,8 +1,0 @@
-commandlinefu_id: 3350
-translator:
-  weibo: ''
-hide: true
-command: |-
-  od -vt x1 /tmp/spaghettifile
-summary: |-
-  View the octal dump of a file

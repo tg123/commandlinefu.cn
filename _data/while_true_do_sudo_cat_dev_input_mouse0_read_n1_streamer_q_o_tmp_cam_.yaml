@@ -1,8 +1,0 @@
-commandlinefu_id: 10644
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do sudo cat /dev/input/mouse0|read -n1;streamer -q -o /tmp/cam.jpeg -s 640x480 > /dev/null 2>&1; sleep 10;done
-summary: |-
-  Take aWebcam Picture When the Mouse Moves

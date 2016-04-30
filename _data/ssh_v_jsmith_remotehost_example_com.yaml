@@ -1,8 +1,0 @@
-commandlinefu_id: 10905
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -v jsmith@remotehost.example.com
-summary: |-
-  SSH with debug to troubleshoot any connection issues

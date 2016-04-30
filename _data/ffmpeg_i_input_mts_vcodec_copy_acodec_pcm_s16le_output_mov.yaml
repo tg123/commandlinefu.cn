@@ -1,8 +1,0 @@
-commandlinefu_id: 13088
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i "input.mts" -vcodec copy -acodec pcm_s16le "output.mov"
-summary: |-
-  Rewrap an AVCHD (MTS/M2TS) video as MOV

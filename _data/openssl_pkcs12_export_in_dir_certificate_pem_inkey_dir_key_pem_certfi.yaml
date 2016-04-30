@@ -1,8 +1,0 @@
-commandlinefu_id: 1495
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl pkcs12 -export -in /dir/CERTIFICATE.pem -inkey /dir/KEY.pem -certfile /dir/CA-cert.pem -name "certName" -out /dir/certName.p12
-summary: |-
-  Create a P12 file, using OpenSSL

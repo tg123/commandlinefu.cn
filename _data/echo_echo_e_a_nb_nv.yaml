@@ -1,8 +1,0 @@
-commandlinefu_id: 13885
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo `echo -e "a\nb\nv"`
-summary: |-
-  Transpose column to row

@@ -1,7 +1,0 @@
-commandlinefu_id: 10253
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  rename 's/ /-/g' *.mp3
-summary: |-
-  将文件名中的空格转换成-

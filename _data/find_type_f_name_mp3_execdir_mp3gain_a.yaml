@@ -1,8 +1,0 @@
-commandlinefu_id: 5110
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -name '*.mp3' -execdir mp3gain -a '{}' +
-summary: |-
-  Normalize volume in your mp3 library

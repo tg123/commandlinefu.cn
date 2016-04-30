@@ -1,7 +1,0 @@
-commandlinefu_id: 7625
-translator:
-  weibo: codepiano
-command: |-
-  find . -size +100000k -exec du -h {} \;
-summary: |-
-  递归的查找大文件，显示大小和位置

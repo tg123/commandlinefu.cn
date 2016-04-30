@@ -1,8 +1,0 @@
-commandlinefu_id: 11106
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find Files/ -type d  | parallel  'mkdir -p /BKP/{}' && find Files/ -type f  | parallel 'rsync -a {} MKD/$(dirname {})'
-summary: |-
-  Parallel copy - Faster copy

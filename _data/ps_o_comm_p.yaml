@@ -1,7 +1,0 @@
-commandlinefu_id: 7804
-translator:
-  weibo: tgic
-command: |-
-  ps -o comm= -p $$
-summary: |-
-  查看你使用的shell

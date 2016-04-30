@@ -1,8 +1,0 @@
-commandlinefu_id: 11513
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mdfind 'kMDItemFSCreationDate >= $time.this_month'
-summary: |-
-  find recently added files on OS X

@@ -1,7 +1,0 @@
-commandlinefu_id: 10913
-translator:
-  weibo: tgic
-command: |-
-  grep -c "^$" filename
-summary: |-
-  计算空行

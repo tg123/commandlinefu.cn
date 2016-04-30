@@ -1,8 +1,0 @@
-commandlinefu_id: 8941
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/sda bs=1 count=4 skip=$((0x1b8)) 2>/dev/null | hexdump -n4 -e '"0x%x\n"'
-summary: |-
-  Extract the MBR ID of a device

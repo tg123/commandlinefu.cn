@@ -1,7 +1,0 @@
-commandlinefu_id: 10402
-translator:
-  weibo: tgic
-command: |-
-  aptitude -F "%p" search \!~M~i~T | xargs apt-mark markauto
-summary: |-
-  标记所有手动安装的deb为自动安装

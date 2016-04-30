@@ -1,7 +1,0 @@
-commandlinefu_id: 3452
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  function nowrap { export COLS=`tput cols` ; cut -c-$COLS ; unset COLS ; }
-summary: |-
-  设置终端不换行

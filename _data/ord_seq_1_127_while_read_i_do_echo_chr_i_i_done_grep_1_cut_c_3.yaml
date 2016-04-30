@@ -1,7 +1,0 @@
-commandlinefu_id: 3821
-translator:
-  weibo: tgic
-command: |-
-  ord () { seq 1 127 | while read i; do echo `chr $i` $i; done | grep "^$1 " | cut -c '3-' }
-summary: |-
-  获取ascii函数

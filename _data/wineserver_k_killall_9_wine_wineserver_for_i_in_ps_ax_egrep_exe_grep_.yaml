@@ -1,8 +1,0 @@
-commandlinefu_id: 9962
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wineserver -k; killall -9 wine wineserver; for i in `ps ax|egrep "*\.exe"|grep -v 'egrep'|awk '{print $1 }'`;do kill -9 $i;done
-summary: |-
-  kill all running instances of wine and programs runned by it (exe)

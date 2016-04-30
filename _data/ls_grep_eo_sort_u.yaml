@@ -1,8 +1,0 @@
-commandlinefu_id: 7876
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | grep -Eo "\..+" | sort -u
-summary: |-
-  list all file extensions in a directory

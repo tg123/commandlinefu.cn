@@ -1,8 +1,0 @@
-commandlinefu_id: 10690
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@host "ffmpeg -f x11grab -r 5 -s 1280x720 -i :0 -f avi -" | ffplay - &>/dev/null
-summary: |-
-  Live stream a remote desktop over ssh using only ffmpeg

@@ -1,7 +1,0 @@
-commandlinefu_id: 6156
-translator:
-  weibo: tgic
-command: |-
-  sudo dpkg-reconfigure -a
-summary: |-
-  清理 deb 包的配置

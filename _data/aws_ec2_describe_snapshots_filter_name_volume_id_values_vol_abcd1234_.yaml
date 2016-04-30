@@ -1,8 +1,0 @@
-commandlinefu_id: 13514
-translator:
-  weibo: ''
-hide: true
-command: |-
-  aws ec2 describe-snapshots --filter 'Name=volume-id,Values=vol-abcd1234' | jq '.[]|max_by(.StartTime)|.SnapshotId'
-summary: |-
-  Find the most recent snapshot for an AWS EBS volume

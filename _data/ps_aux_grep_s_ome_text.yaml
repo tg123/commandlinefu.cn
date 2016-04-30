@@ -1,8 +1,0 @@
-commandlinefu_id: 851
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | grep "[s]ome_text"
-summary: |-
-  Grep without having it show its own process in the results

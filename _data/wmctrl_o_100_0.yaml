@@ -1,8 +1,0 @@
-commandlinefu_id: 10070
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmctrl -o 100,0
-summary: |-
-  Switch workspace

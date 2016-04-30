@@ -1,8 +1,0 @@
-commandlinefu_id: 4103
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -amin +[n] -delete
-summary: |-
-  remove files and directories with acces time older than a given time

@@ -1,7 +1,0 @@
-commandlinefu_id: 3415
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero of=/dev/fd0 bs=512 count=1
-summary: |-
-  破坏启动盘

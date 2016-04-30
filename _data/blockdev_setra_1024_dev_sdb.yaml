@@ -1,8 +1,0 @@
-commandlinefu_id: 960
-translator:
-  weibo: ''
-hide: true
-command: |-
-  blockdev --setra 1024 /dev/sdb
-summary: |-
-  Double your disk read performance in a single command

@@ -1,7 +1,0 @@
-commandlinefu_id: 11468
-translator:
-  weibo: tgic
-command: |-
-  ssh-add ~/.ssh/KEY_PAIR_NAME.pem
-summary: |-
-  添加一个sshkey

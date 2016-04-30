@@ -1,8 +1,0 @@
-commandlinefu_id: 11975
-translator:
-  weibo: ''
-hide: true
-command: |-
-  machinfo | grep -i memory
-summary: |-
-  Amount of physical memory in HP-UX

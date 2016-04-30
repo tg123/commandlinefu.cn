@@ -1,8 +1,0 @@
-commandlinefu_id: 12622
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo tar -zcvf $(hostname)-etc-back-`date +%d`-`date +%m`-`date +%y`.tar.gz /etc && sudo chown $USER:$USER $(hostname)-etc-back*
-summary: |-
-  Backup /etc directory

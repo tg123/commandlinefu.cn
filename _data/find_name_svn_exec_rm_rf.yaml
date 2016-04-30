@@ -1,7 +1,0 @@
-commandlinefu_id: 902
-translator:
-  weibo: tgic
-command: |-
-  find . -name ".svn" -exec rm -rf {} \;
-summary: |-
-  清除.svn

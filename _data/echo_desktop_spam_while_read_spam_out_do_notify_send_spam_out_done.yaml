@@ -1,8 +1,0 @@
-commandlinefu_id: 4460
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo 'Desktop SPAM!!!' | while read SPAM_OUT; do notify-send "$SPAM_OUT"; done
-summary: |-
-  pipe output to notify-send

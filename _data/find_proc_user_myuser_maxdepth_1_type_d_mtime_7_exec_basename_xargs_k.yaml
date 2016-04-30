@@ -1,7 +1,0 @@
-commandlinefu_id: 3702
-translator:
-  weibo: tgic
-command: |-
-  find /proc -user myuser -maxdepth 1 -type d -mtime +7 -exec basename {} \; | xargs kill -9
-summary: |-
-  杀死运行超过1周的进程

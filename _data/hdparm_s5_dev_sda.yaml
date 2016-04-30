@@ -1,8 +1,0 @@
-commandlinefu_id: 13554
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hdparm -S5 /dev/sda
-summary: |-
-  Set the standby time of a hard drive

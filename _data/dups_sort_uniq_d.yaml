@@ -1,8 +1,0 @@
-commandlinefu_id: 9404
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dups() { sort "$@" | uniq -d; }
-summary: |-
-  shell function to find duplicate lines in a series of files or in stdin

@@ -1,7 +1,0 @@
-commandlinefu_id: 7215
-translator:
-  weibo: tgic
-command: |-
-  dd if=/path/inputfile | pv | dd of=/path/outpufile
-summary: |-
-  带有进度条的dd

@@ -1,8 +1,0 @@
-commandlinefu_id: 7849
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for((r=1;r<10;r++));do v=1;echo -n "$v ";for((c=1;c<$r;c++));do v2=$(($(echo "$v*($r-$c)/$c")));echo -n "$v2 ";v=$v2;done;echo;done
-summary: |-
-  Generate Pascal's Triangle

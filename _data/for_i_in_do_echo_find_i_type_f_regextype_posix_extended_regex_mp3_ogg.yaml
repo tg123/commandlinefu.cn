@@ -1,8 +1,0 @@
-commandlinefu_id: 13018
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in */; do echo $(find $i -type f -regextype posix-extended -regex ".*\.(mp3|ogg|wav|flac)" | wc -l) $i ; done
-summary: |-
-  Count music files in each directory

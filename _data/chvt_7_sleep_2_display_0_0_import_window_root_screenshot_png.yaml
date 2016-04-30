@@ -1,7 +1,0 @@
-commandlinefu_id: 6391
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  chvt 7 ; sleep 2 ; DISPLAY=:0.0 import -window root screenshot.png
-summary: |-
-  给登录界面拍张快照

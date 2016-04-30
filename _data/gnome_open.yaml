@@ -1,8 +1,0 @@
-commandlinefu_id: 14037
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gnome-open
-summary: |-
-  open the default program

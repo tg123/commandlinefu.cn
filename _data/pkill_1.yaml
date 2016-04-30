@@ -1,7 +1,0 @@
-commandlinefu_id: 2700
-translator:
-  weibo: tgic
-command: |-
-  pkill $1
-summary: |-
-  使用进程名称kill

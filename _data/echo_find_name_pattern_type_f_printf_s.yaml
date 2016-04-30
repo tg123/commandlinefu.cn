@@ -1,7 +1,0 @@
-commandlinefu_id: 13057
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo $(($(find . -name "pattern" -type f -printf "+%s")))
-summary: |-
-  在shell中查找文件并计算找到的文件的总大小

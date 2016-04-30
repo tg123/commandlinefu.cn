@@ -1,8 +1,0 @@
-commandlinefu_id: 1659
-translator:
-  weibo: ''
-hide: true
-command: |-
-  seq 6 | awk '{for(x=1; x<=5; x++) {printf ("%f ", rand())}; printf ("\n")}'
-summary: |-
-  Display rows and columns of random numbers with awk

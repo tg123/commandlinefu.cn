@@ -1,7 +1,0 @@
-commandlinefu_id: 3281
-translator:
-  weibo: tgic
-command: |-
-  cal -y
-summary: |-
-  全年日历高亮今天

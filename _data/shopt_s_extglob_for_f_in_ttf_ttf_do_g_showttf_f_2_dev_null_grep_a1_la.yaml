@@ -1,8 +1,0 @@
-commandlinefu_id: 5495
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shopt -s extglob; for f in *.ttf *.TTF; do g=$(showttf "$f" 2>/dev/null | grep -A1 "language=0.*FullName" | tail -1 | rev | cut -f1 | rev); g=${g##+( )}; mv -i "$f" "$g".ttf; done
-summary: |-
-  Give {Open,True}Type files reasonable names

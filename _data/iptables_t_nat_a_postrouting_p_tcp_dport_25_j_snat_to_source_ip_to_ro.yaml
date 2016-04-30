@@ -1,8 +1,0 @@
-commandlinefu_id: 3409
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -t nat -A POSTROUTING -p tcp --dport 25 -j SNAT --to-source IP_TO_ROUTE_THROUGH
-summary: |-
-  Route outbound SMTP connections through a addtional IP address rather than your primary

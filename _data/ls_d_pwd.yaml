@@ -1,8 +1,0 @@
-commandlinefu_id: 9913
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls -d $PWD/*
-summary: |-
-  ls时加上完整路径

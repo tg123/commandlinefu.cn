@@ -1,8 +1,0 @@
-commandlinefu_id: 7722
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iwlist wlan0 scan | sed -ne 's#^[[:space:]]*\(Quality=\|Encryption key:\|ESSID:\)#\1#p' -e 's#^[[:space:]]*\(Mode:.*\)$#\1\n#p'
-summary: |-
-  Cleanly list available wireless networks (using iwlist)

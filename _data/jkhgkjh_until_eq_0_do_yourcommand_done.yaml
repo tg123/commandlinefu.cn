@@ -1,7 +1,0 @@
-commandlinefu_id: 13319
-translator:
-  weibo: particle128
-command: |-
-  until [[ $? -eq 0 ]]; do YOURCOMMAND; done
-summary: |-
-  一直尝试一个命令直到成功

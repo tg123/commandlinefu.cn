@@ -1,7 +1,0 @@
-commandlinefu_id: 2426
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  (uuencode foo.txt foo.txt; uuencode /etc/passwd passwd.txt)|mailx -s "Pandaren!" someone@cmdfu.com
-summary: |-
-  使用mailx发送多个附件

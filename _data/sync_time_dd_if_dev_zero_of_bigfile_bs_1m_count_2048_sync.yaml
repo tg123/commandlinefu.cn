@@ -1,8 +1,0 @@
-commandlinefu_id: 4090
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sync; time `dd if=/dev/zero of=bigfile bs=1M count=2048 && sync`
-summary: |-
-  Testing writing speed with dd

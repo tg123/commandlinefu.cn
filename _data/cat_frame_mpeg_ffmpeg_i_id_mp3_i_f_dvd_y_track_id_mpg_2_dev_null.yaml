@@ -1,8 +1,0 @@
-commandlinefu_id: 2860
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat frame/*.mpeg | ffmpeg -i $ID.mp3 -i - -f dvd -y track/$ID.mpg 2>/dev/null
-summary: |-
-  concat multiple videos into one (and add an audio track)

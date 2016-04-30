@@ -1,8 +1,0 @@
-commandlinefu_id: 9462
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -MAcme::POE::Tree -e 'Acme::POE::Tree->new()->run()'
-summary: |-
-  Create a Christmas tree with perl

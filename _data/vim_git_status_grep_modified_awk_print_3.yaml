@@ -1,7 +1,0 @@
-commandlinefu_id: 11542
-translator:
-  weibo: codepiano
-command: |-
-  vim `git status | grep modified | awk '{print $3}'`
-summary: |-
-  在vim中打开git仓库中所有被修改的文件

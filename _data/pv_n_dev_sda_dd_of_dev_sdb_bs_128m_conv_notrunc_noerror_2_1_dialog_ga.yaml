@@ -1,8 +1,0 @@
-commandlinefu_id: 13821
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (pv -n /dev/sda | dd of=/dev/sdb bs=128M conv=notrunc,noerror) 2>&1 | dialog --gauge "Running dd command (cloning), please wait..." 10 70 0
-summary: |-
-  This command uses dd, pv, and dialog command to display an updated progress bar while using the dd command. This is useful to see the status of a dd in progress when creating very large dumps or coping hard disk devices using dd command.

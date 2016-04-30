@@ -1,8 +1,0 @@
-commandlinefu_id: 8468
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /proc/mounts | awk '{print $2}' | grep "^$MOUNTPOINT" | sort -r | xargs umount
-summary: |-
-  umount --rbind mount with submounts

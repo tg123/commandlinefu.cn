@@ -1,8 +1,0 @@
-commandlinefu_id: 9533
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert -size 1280x720 plasma:fractal background.png
-summary: |-
-  Create a 1280x720 color plasma image. Different each time.

@@ -1,7 +1,0 @@
-commandlinefu_id: 4271
-translator:
-  weibo: tgic
-command: |-
-  cat -n
-summary: |-
-  带有行号的cat

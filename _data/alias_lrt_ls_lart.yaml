@@ -1,8 +1,0 @@
-commandlinefu_id: 767
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias lrt='ls -lart'
-summary: |-
-  list files with last modified at the end

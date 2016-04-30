@@ -1,8 +1,0 @@
-commandlinefu_id: 2648
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git ls-files -z --deleted | xargs -0 git rm
-summary: |-
-  git remove files which have been deleted

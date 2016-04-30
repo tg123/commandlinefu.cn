@@ -1,8 +1,0 @@
-commandlinefu_id: 3591
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-keygen -R `host hostname | cut -d " " -f 4`
-summary: |-
-  Remove invalid key from the known_hosts file for the IP address of a host

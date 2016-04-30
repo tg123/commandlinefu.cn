@@ -1,8 +1,0 @@
-commandlinefu_id: 1835
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dstat -ta
-summary: |-
-  dstat - a mix of vmstat, iostat, netstat, ps, sar...

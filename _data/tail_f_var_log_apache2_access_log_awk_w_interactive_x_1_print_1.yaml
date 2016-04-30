@@ -1,7 +1,0 @@
-commandlinefu_id: 4556
-translator:
-  weibo: '猪了个去'
-command: |-
-  tail -f /var/log/apache2/access.log | awk -W interactive '!x[$1]++ {print $1}'
-summary: |-
-  从Apache访问日志文件末尾，打印用户访问时的独立IP地址

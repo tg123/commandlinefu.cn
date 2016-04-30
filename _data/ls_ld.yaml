@@ -1,7 +1,0 @@
-commandlinefu_id: 1251
-translator:
-  weibo: tgic
-command: |-
-  ls -ld **/*(/)
-summary: |-
-  显示所有子目录 (zsh)

@@ -1,7 +1,0 @@
-commandlinefu_id: 5135
-translator:
-  weibo: tgic
-command: |-
-  ssh user@host "cat /path/to/backup/backupfile.tar.bz2" |tar jpxf -
-summary: |-
-  从远程恢复一个tar备份

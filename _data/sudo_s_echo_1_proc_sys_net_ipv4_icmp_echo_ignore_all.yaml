@@ -1,8 +1,0 @@
-commandlinefu_id: 5898
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo -s "echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all"
-summary: |-
-  Disable the ping response

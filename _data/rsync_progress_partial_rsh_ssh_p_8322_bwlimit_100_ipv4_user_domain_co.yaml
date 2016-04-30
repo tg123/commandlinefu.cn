@@ -1,7 +1,0 @@
-commandlinefu_id: 7841
-translator:
-  weibo: tgic
-command: |-
-  rsync --progress --partial --rsh="ssh -p 8322" --bwlimit=100 --ipv4 user@domain.com:~/file.tgz .
-summary: |-
-  使用rsync代替scp

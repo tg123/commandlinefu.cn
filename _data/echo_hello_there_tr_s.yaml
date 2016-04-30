@@ -1,7 +1,0 @@
-commandlinefu_id: 6312
-translator:
-  weibo: tgic
-command: |-
-  echo "hello::::there" | tr -s ':'
-summary: |-
-  把分隔符变成一个

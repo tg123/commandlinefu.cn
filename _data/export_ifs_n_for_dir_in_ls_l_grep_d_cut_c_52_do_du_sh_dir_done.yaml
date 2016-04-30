@@ -1,7 +1,0 @@
-commandlinefu_id: 1274
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  export IFS=$'\n';for dir in $( ls -l | grep ^d | cut -c 52-);do du -sh $dir; done
-summary: |-
-  输出当前目录下所有目录的大小。在烧制CD或DVD时会有用。

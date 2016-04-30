@@ -1,8 +1,0 @@
-commandlinefu_id: 12513
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -a --append source-file destination
-summary: |-
-  Resume a partially copied file

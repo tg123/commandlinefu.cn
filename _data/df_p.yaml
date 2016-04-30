@@ -1,8 +1,0 @@
-commandlinefu_id: 976
-translator:
-  weibo: ''
-hide: true
-command: |-
-  df -P
-summary: |-
-  Convert df command to posix; uber GREPable

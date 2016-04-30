@@ -1,8 +1,0 @@
-commandlinefu_id: 70
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -tvjf backup.tar.bz2 | sort -nrk 3 | head
-summary: |-
-  Shows the largest files in your archives

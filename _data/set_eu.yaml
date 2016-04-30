@@ -1,8 +1,0 @@
-commandlinefu_id: 5296
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set -eu
-summary: |-
-  Robust expansion (i.e. crash) of bash variables with a typo

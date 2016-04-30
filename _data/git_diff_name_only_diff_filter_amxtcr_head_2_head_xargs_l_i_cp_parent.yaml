@@ -1,7 +1,0 @@
-commandlinefu_id: 11878
-translator:
-  weibo: particle128
-command: |-
-  git diff --name-only --diff-filter=AMXTCR HEAD~2 HEAD | xargs -l -I{}  cp --parents --verbose "{}" target_dir
-summary: |-
-  把两次提交的差异化文件拷贝出来

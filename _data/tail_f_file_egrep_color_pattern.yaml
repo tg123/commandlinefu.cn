@@ -1,8 +1,0 @@
-commandlinefu_id: 3813
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -F file | egrep --color 'pattern|$'
-summary: |-
-  tail, with specific pattern colored

@@ -1,8 +1,0 @@
-commandlinefu_id: 2837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  seq 1 12 | sed 1,5d ; seq 1 12 | head --lines=-5
-summary: |-
-  skipping five lines, at top, then at bottom

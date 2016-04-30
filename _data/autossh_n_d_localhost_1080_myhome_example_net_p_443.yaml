@@ -1,8 +1,0 @@
-commandlinefu_id: 5666
-translator:
-  weibo: ''
-hide: true
-command: |-
-  autossh -N -D localhost:1080 myhome.example.net -p 443
-summary: |-
-  Start a SOCKS proxy to avoid a restrictive firewall

@@ -1,7 +1,0 @@
-commandlinefu_id: 10901
-translator:
-  weibo: tgic
-command: |-
-  cp -rf srcdir/* destdir
-summary: |-
-  复制并覆盖目标目录

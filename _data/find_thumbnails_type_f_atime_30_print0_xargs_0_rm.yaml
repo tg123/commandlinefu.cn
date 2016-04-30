@@ -1,8 +1,0 @@
-commandlinefu_id: 1782
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find  ~/.thumbnails/ -type f -atime +30 -print0 | xargs -0 rm
-summary: |-
-  Delete more than one month old thumbnails from home directory

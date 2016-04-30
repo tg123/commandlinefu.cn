@@ -1,8 +1,0 @@
-commandlinefu_id: 8545
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -R 9000:localhost:9000 you@remote-php-web-server.com
-summary: |-
-  Debug a remote php application (behind firewall) using ssh tunnel for XDEBUG port 9000

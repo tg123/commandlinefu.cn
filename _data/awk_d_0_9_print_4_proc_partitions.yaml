@@ -1,7 +1,0 @@
-commandlinefu_id: 3283
-translator:
-  weibo: titikaka723
-command: |-
-  awk '/d.[0-9]/{print $4}' /proc/partitions
-summary: |-
-  显示所有硬盘的分区 

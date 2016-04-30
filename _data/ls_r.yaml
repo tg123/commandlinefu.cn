@@ -1,7 +1,0 @@
-commandlinefu_id: 5017
-translator:
-  weibo: tgic
-command: |-
-  ls -R .
-summary: |-
-  递归ls

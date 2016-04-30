@@ -1,7 +1,0 @@
-commandlinefu_id: 1239
-translator:
-  weibo: codepiano
-command: |-
-  time vmware-cmd -l | while read x; do printf "$x"; vmware-cmd "$x" removesnapshots; done
-summary: |-
-  从vmware esx中移除所有虚拟机的所有快照

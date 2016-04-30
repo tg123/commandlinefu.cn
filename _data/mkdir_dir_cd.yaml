@@ -1,8 +1,0 @@
-commandlinefu_id: 4568
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mkdir dir; cd $_
-summary: |-
-  创建并进入哪个目录

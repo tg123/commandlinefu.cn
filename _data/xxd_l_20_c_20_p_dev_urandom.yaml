@@ -1,8 +1,0 @@
-commandlinefu_id: 13291
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xxd -l 20 -c 20 -p /dev/urandom
-summary: |-
-  Generate a random password

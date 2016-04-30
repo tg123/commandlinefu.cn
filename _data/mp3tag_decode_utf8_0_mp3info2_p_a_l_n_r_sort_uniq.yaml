@@ -1,8 +1,0 @@
-commandlinefu_id: 11454
-translator:
-  weibo: ''
-hide: true
-command: |-
-  MP3TAG_DECODE_UTF8=0 mp3info2 -p "%a - %l\n" -R . | sort | uniq
-summary: |-
-  List MP3 albums (e.g. on iPod etc.)

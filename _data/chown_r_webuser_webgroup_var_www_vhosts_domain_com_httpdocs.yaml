@@ -1,7 +1,0 @@
-commandlinefu_id: 4430
-translator:
-  weibo: tgic
-command: |-
-  chown -R webuser:webgroup  /var/www/vhosts/domain.com/httpdocs
-summary: |-
-  批量修订一个目录的所有者

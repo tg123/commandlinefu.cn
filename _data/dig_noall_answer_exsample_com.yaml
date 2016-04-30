@@ -1,8 +1,0 @@
-commandlinefu_id: 9855
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dig +noall +answer exsample.com
-summary: |-
-  print only answer section.

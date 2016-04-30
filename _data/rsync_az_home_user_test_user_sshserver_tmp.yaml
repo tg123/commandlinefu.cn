@@ -1,8 +1,0 @@
-commandlinefu_id: 3185
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -az /home/user/test user@sshServer:/tmp/
-summary: |-
-  move a lot of files over ssh

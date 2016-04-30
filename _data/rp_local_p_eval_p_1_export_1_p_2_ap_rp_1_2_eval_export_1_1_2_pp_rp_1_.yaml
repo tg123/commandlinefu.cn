@@ -1,8 +1,0 @@
-commandlinefu_id: 6091
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rp() { local p; eval p=":\$$1:"; export $1=${p//:$2:/:}; }; ap() { rp "$1" "$2"; eval export $1=\$$1$2; }; pp() { rp "$1" "$2"; eval export $1=$2:\$$1; }
-summary: |-
-  path manipulation in bash

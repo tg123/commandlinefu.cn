@@ -1,7 +1,0 @@
-commandlinefu_id: 13151
-translator:
-  weibo: tgic
-command: |-
-  while ps -p $PID; do sleep 1; done; script2
-summary: |-
-  当一个进程结束后执行

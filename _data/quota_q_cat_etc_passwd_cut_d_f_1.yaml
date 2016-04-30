@@ -1,7 +1,0 @@
-commandlinefu_id: 8131
-translator:
-  weibo: tgic
-command: |-
-  quota -q $(cat /etc/passwd|cut -d ':' -f 1)
-summary: |-
-  报告quota信息

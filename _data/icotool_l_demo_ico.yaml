@@ -1,7 +1,0 @@
-commandlinefu_id: 10594
-translator:
-  weibo: tgic
-command: |-
-  icotool -l demo.ico
-summary: |-
-  查看ico里边全部的图像

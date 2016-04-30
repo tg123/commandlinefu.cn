@@ -1,7 +1,0 @@
-commandlinefu_id: 1440
-translator:
-  weibo: tgic
-command: |-
-  echo -n "string" | md5sum -
-summary: |-
-  生成md5

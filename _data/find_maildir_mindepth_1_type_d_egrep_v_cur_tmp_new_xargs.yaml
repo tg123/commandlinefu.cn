@@ -1,8 +1,0 @@
-commandlinefu_id: 3987
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ~/Maildir/ -mindepth 1 -type d | egrep -v '/cur$|/tmp$|/new$' | xargs
-summary: |-
-  Build an exhaustive list of maildir folders for mutt

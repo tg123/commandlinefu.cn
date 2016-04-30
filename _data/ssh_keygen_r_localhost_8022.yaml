@@ -1,8 +1,0 @@
-commandlinefu_id: 69
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh-keygen -R \[localhost\]:8022
-summary: |-
-  Remove invalid host keys from ~/.ssh/known_hosts

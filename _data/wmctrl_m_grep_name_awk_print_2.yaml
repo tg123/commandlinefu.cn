@@ -1,8 +1,0 @@
-commandlinefu_id: 14103
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmctrl -m | grep Name: | awk '{print $2}'
-summary: |-
-  Get name of running Window Manager

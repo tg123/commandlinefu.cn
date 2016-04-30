@@ -1,7 +1,0 @@
-commandlinefu_id: 9813
-translator:
-  weibo: '猪了个去'
-command: |-
-  c="cp -a";e="~";echo -e "\npaste\n";i=0;k="1"; while [[ "$k" != "" ]]; do read -a k;r[i]=$k;((i++));done;i=0;while :;do t=${r[i]};[ "$t" == "" ] && break; g=$(echo $c ${r[i]} $e);echo -e $g "\ny/n?";read y;[ "$y" != "n" ] && eval $g;((i++));done
-summary: |-
-  微框架:只需要粘贴然后执行

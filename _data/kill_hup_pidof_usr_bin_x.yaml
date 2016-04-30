@@ -1,8 +1,0 @@
-commandlinefu_id: 6094
-translator:
-  weibo: ''
-hide: true
-command: |-
-  kill HUP `pidof '/usr/bin/X'`
-summary: |-
-  Restart X11 with HUP signal

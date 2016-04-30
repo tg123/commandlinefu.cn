@@ -1,7 +1,0 @@
-commandlinefu_id: 6691
-translator:
-  weibo: tgic
-command: |-
-  time read x
-summary: |-
-  计时器

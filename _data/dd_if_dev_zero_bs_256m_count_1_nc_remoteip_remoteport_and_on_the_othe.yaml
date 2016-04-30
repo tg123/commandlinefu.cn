@@ -1,7 +1,0 @@
-commandlinefu_id: 2659
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero bs=256M count=1 | nc [remoteIP] [remotePort] 目标机器 nc -l port >/dev/null
-summary: |-
-  测试网络速度

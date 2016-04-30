@@ -1,7 +1,0 @@
-commandlinefu_id: 9892
-translator:
-  weibo: tgic
-command: |-
-  ssh user@host "tar -cf - /path/to/dir" | gzip > dir.tar.gz
-summary: |-
-  创建远程机器的备份

@@ -1,7 +1,0 @@
-commandlinefu_id: 5897
-translator:
-  weibo: tgic
-command: |-
-  screen -d -m command &
-summary: |-
-  在screen内运行命令

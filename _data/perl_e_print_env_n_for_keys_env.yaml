@@ -1,7 +1,0 @@
-commandlinefu_id: 11506
-translator:
-  weibo: codepiano
-command: |-
-  perl -e 'print "$_=$ENV{$_}\n" for keys %ENV'
-summary: |-
-  输出环境信息

@@ -1,8 +1,0 @@
-commandlinefu_id: 5947
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xdg-open [path]
-summary: |-
-  open path with your default program (on Linux/*BSD)

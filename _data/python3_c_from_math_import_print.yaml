@@ -1,8 +1,0 @@
-commandlinefu_id: 13782
-translator:
-  weibo: ''
-hide: true
-command: |-
-  =() {python3 -c "from math import *;print($*)"}
-summary: |-
-  calculator using python3

@@ -1,7 +1,0 @@
-commandlinefu_id: 11037
-translator:
-  weibo: titikaka723 
-command: |-
-  namei -m $(pwd)
-summary: |-
-  显示当前目录的权限和到根目录的权限 

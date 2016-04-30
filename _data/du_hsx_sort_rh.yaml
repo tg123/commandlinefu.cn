@@ -1,8 +1,0 @@
-commandlinefu_id: 14140
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -hsx * | sort -rh
-summary: |-
-  Human readable directory sizes for current directory, sorted descending

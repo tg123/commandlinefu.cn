@@ -1,8 +1,0 @@
-commandlinefu_id: 4476
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo find /etc/rc{1..5}.d -name S99myservice -type l -exec sh -c 'NEWFN=`echo {} | sed 's/S99/K99/'` ; mv -v {} $NEWFN' \;
-summary: |-
-  Manage "legacy" service run control links

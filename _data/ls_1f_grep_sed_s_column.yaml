@@ -1,7 +1,0 @@
-commandlinefu_id: 12517
-translator:
-  weibo: codepiano
-command: |-
-  ls -1F | grep @$ | sed 's/@//' | column
-summary: |-
-  显示当前目录中所有的符号链接

@@ -1,8 +1,0 @@
-commandlinefu_id: 13268
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Add-MailboxPermission -Identity "username_of_mailbox_owner" -User username_control_to -AccessRights Fullaccess -InheritanceType all
-summary: |-
-  Grant full access permissions to a mailbox

@@ -1,8 +1,0 @@
-commandlinefu_id: 1629
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -czf - * | ssh example.com "cat > files.tar.gz"
-summary: |-
-  Pack up some files into a tarball on a remote server without writing to the local filesystem

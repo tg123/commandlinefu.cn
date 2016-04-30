@@ -1,8 +1,0 @@
-commandlinefu_id: 9850
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for x in 8svx aif aifc aiff aiffc ... wv wve xa xi ; do echo $x ; play -q -t $x soundfile trim 0 3  ; done
-summary: |-
-  cycle through everything sox knows how to read, playing only the first three seconds

@@ -1,8 +1,0 @@
-commandlinefu_id: 2010
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log $url -r $revision -v  | egrep "   [RAMD] \/" | sed s/^.....//
-summary: |-
-  output list of modifications for an svn revision

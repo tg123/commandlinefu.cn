@@ -1,8 +1,0 @@
-commandlinefu_id: 14094
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sfdisk -d /dev/sda | sudo sfdisk /dev/sdb
-summary: |-
-  Copy the partition table from /dev/sda to /dev/sdb

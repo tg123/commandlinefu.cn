@@ -1,8 +1,0 @@
-commandlinefu_id: 10213
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r <searchterm> .
-summary: |-
-  grep directory and sub-directories

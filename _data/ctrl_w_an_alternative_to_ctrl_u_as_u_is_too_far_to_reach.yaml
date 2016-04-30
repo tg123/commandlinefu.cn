@@ -1,8 +1,0 @@
-commandlinefu_id: 11206
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <ctrl+w> #an alternative to <ctrl+u> as u is too far to reach
-summary: |-
-  backspace until reach a whitespace

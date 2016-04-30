@@ -1,8 +1,0 @@
-commandlinefu_id: 4786
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -sk ./* | sort -nr
-summary: |-
-  nice disk usage, sorted by size, see description for full command

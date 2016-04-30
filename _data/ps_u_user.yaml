@@ -1,7 +1,0 @@
-commandlinefu_id: 3506
-translator:
-  weibo: tgic
-command: |-
-  ps -u<user>
-summary: |-
-  获取用户进程

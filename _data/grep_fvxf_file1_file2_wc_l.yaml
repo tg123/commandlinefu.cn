@@ -1,8 +1,0 @@
-commandlinefu_id: 12097
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -Fvxf $(file1) $(file2) | wc -l
-summary: |-
-  calculate how many different lines between two files

@@ -1,8 +1,0 @@
-commandlinefu_id: 10488
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftk file.pdf dump_data output | grep -i Num
-summary: |-
-  pdfcount: get number of pages in a PDF file

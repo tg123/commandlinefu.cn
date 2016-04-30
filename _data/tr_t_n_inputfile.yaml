@@ -1,8 +1,0 @@
-commandlinefu_id: 5065
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr '\t' '\n' < inputfile
-summary: |-
-  converting horizontal line to vertical line

@@ -1,7 +1,0 @@
-commandlinefu_id: 9031
-translator:
-  weibo: tgic
-command: |-
-  strace -ff -e trace=file my_command 2>&1 | perl -ne 's/^[^"]+"(([^\\"]|\\[\\"nt])*)".*/$1/ && print'
-summary: |-
-  监控程序访问的文件

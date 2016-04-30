@@ -1,7 +1,0 @@
-commandlinefu_id: 12713
-translator:
-  weibo: tgic
-command: |-
-  rename 's/.xls/.ods/g' *.xls
-summary: |-
-  重命名多个文件

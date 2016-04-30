@@ -1,8 +1,0 @@
-commandlinefu_id: 11806
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xprop | awk '/PID/ {print $3}'
-summary: |-
-  pid of manually selecting window

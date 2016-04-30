@@ -1,7 +1,0 @@
-commandlinefu_id: 8989
-translator:
-  weibo: tgic
-command: |-
-  find . -type d -name 'CVS' | xargs rm -r
-summary: |-
-  删除所有的CVS目录

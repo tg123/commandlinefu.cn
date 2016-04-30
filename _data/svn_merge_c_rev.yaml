@@ -1,8 +1,0 @@
-commandlinefu_id: 5887
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn merge -c -REV
-summary: |-
-  revert a committed change in SVN

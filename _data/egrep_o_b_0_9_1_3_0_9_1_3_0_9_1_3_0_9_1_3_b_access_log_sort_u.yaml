@@ -1,7 +1,0 @@
-commandlinefu_id: 867
-translator:
-  weibo: tgic
-command: |-
-  egrep -o '\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\b' access.log | sort -u
-summary: |-
-  从 access.log 中过滤 访问ip

@@ -1,8 +1,0 @@
-commandlinefu_id: 9392
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -i
-summary: |-
-  check open ports (both ipv4 and ipv6)

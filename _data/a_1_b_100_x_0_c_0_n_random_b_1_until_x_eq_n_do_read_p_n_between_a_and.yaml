@@ -1,7 +1,0 @@
-commandlinefu_id: 4359
-translator:
-  weibo: codepiano
-command: |-
-  A=1;B=100;X=0;C=0;N=$[$RANDOM%$B+1];until [ $X -eq $N ];do read -p "N between $A and $B. Guess? " X;C=$(($C+1));A=$(($X<$N?$X:$A));B=$(($X>$N?$X:$B));done;echo "Took you $C tries, Einstein";
-summary: |-
-  猜数字游戏

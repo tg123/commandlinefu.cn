@@ -1,8 +1,0 @@
-commandlinefu_id: 8158
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for R in `svn log file:///path/repo | grep ^r | grep dude | cut -d' ' -f1 | cut -dr -f2`; do svn ps svn:log --revprop -r $R "`svn pg svn:log --revprop -r $R file:///path/repo; perl -e 'print ".\n";' | fromdos`" file:///path/repo; done
-summary: |-
-  Fix all the commit log messages from a user of a bad subversion client

@@ -1,7 +1,0 @@
-commandlinefu_id: 6951
-translator:
-  weibo: tgic
-command: |-
-  add-apt-repository [REPOSITORY]
-summary: |-
-  添加源

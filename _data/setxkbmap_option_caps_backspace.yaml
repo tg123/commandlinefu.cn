@@ -1,8 +1,0 @@
-commandlinefu_id: 13783
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setxkbmap -option caps:backspace
-summary: |-
-  Change caps lock to backspace (Works on Ubuntu 14.04)

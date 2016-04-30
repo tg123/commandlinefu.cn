@@ -1,7 +1,0 @@
-commandlinefu_id: 4387
-translator:
-  weibo: tgic
-command: |-
-  watch 'dmesg | tail -15'
-summary: |-
-  监控内核 Ring Buffer

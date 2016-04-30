@@ -1,8 +1,0 @@
-commandlinefu_id: 13709
-translator:
-  weibo: ''
-hide: true
-command: |-
-  zcat error.log.gz | sed 's^\[.*\]^^g' | sed 's^\, referer: [^\n]*^^g' | sort | uniq -c | sort -n
-summary: |-
-  Parse compressed apache error log file and show top errors

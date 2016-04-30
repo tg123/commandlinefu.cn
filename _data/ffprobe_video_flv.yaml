@@ -1,7 +1,0 @@
-commandlinefu_id: 9981
-translator:
-  weibo: Spacewander__罗泽轩 
-command: |-
-  ffprobe video.flv
-summary: |-
-  使用FFmpeg获取视频信息

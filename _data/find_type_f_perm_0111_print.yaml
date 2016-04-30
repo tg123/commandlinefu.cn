@@ -1,8 +1,0 @@
-commandlinefu_id: 810
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -perm +0111 -print
-summary: |-
-  Find files with at least one exec bit set

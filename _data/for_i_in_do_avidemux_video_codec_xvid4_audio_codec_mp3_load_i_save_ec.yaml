@@ -1,8 +1,0 @@
-commandlinefu_id: 3458
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *;do avidemux  --video-codec Xvid4 --audio-codec mp3 --load "${i}" --save "`echo "$i" | sed -e 's/\....$//'`.done.mp4" --quit; done
-summary: |-
-  Create multiple mp4 files using avidemux

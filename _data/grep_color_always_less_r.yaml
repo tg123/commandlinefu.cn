@@ -1,8 +1,0 @@
-commandlinefu_id: 2248
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep --color=always | less -R
-summary: |-
-  Colorized grep in less

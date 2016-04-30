@@ -1,8 +1,0 @@
-commandlinefu_id: 2050
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pinfo
-summary: |-
-  Nice info browser

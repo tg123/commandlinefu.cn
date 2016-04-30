@@ -1,8 +1,0 @@
-commandlinefu_id: 10481
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svnll(){svn log "$@"|( read; while true; do read h||break; read; m=""; while read l; do echo "$l" | grep -q '^[-]\+$'&&break; [ -z "$m" ] && m=$l; done; echo "$h % $m" | sed 's#\(.*\) | \(.*\) | \([-0-9 :]\{16\}\).* % \(.*\)#\1 \2 (\3) \4#'; done)}
-summary: |-
-  Short log format of Subversion history

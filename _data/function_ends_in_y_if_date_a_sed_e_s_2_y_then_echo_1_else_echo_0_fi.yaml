@@ -1,8 +1,0 @@
-commandlinefu_id: 5284
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  function ends_in_y() { if [ `date +%A | sed -e 's/\(^.*\)\(.$\)/\2/'` == "y" ]; then echo 1; else echo 0; fi }
-summary: |-
-  一个查看 今天的单词是不是以y 结尾 shell函数

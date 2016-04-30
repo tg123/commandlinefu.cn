@@ -1,7 +1,0 @@
-commandlinefu_id: 11835
-translator:
-  weibo: tgic
-command: |-
-  fatattr -h <file>
-summary: |-
-  在fat系统中设置隐藏属性

@@ -1,8 +1,0 @@
-commandlinefu_id: 8778
-translator:
-  weibo: ''
-hide: true
-command: |-
-  summpkg() { rpm -qfi "$@"; }
-summary: |-
-  A file's rpm-package details

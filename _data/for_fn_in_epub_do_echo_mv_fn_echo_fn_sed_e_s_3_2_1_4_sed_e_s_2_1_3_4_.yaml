@@ -1,8 +1,0 @@
-commandlinefu_id: 12957
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for fn in *.epub; do echo mv \"$fn\" \"`echo "$fn" | sed -E 's/\.*\/*(.*)( - )(.*)(\.[^\.]+)$/\3\2\1\4/' | sed -E 's/(.*) ([^ ]+)( - )(.*)/\2, \1\3\4/' `\";done | sh
-summary: |-
-  one liner to rename files with for and sed

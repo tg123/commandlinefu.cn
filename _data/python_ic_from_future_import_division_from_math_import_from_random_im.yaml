@@ -1,8 +1,0 @@
-commandlinefu_id: 9565
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -ic "from __future__ import division; from math import *; from random import *"
-summary: |-
-  Command line calculator

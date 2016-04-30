@@ -1,7 +1,0 @@
-commandlinefu_id: 9384
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  netstat -plnt
-summary: |-
-  显示当前激活的tcp连接（支持IPv4和IPv6）

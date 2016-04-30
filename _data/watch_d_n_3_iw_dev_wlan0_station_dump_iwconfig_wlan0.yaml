@@ -1,8 +1,0 @@
-commandlinefu_id: 2389
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -d -n 3 "iw dev wlan0 station dump; iwconfig wlan0"
-summary: |-
-  Monitoring wifi connection by watch command (refresh every 3s), displaying iw dump info and iwconfig on wireless interface "wlan0"

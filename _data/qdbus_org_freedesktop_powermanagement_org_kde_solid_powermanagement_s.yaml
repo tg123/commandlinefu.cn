@@ -1,8 +1,0 @@
-commandlinefu_id: 10424
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qdbus org.freedesktop.PowerManagement /org/kde/Solid/PowerManagement suspendToRam
-summary: |-
-  Suspend to RAM with KDE 4

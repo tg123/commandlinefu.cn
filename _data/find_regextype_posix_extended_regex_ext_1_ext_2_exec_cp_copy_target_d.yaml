@@ -1,8 +1,0 @@
-commandlinefu_id: 13136
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find * -regextype posix-extended -regex '.*\.(ext_1|ext_2)' -exec cp {} copy_target_directory \;
-summary: |-
-  Find files of two different extensions and copy them to a directory

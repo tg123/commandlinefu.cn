@@ -1,7 +1,0 @@
-commandlinefu_id: 7867
-translator:
-  weibo: '猪了个去'
-command: |-
-  seq -f"%g^2" -s "+" 10 | bc
-summary: |-
-  计算1………10的平方和

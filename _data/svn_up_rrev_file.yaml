@@ -1,8 +1,0 @@
-commandlinefu_id: 8180
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn up -rREV file
-summary: |-
-  Revert an SVN file to previous revision

@@ -1,7 +1,0 @@
-commandlinefu_id: 9151
-translator:
-  weibo: particle128
-command: |-
-  find . -type f | xargs grep -l "string"
-summary: |-
-  UNIX系统中egrep -r的替代方法

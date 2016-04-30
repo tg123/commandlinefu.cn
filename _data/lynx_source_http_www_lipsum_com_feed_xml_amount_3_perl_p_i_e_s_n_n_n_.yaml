@@ -1,7 +1,0 @@
-commandlinefu_id: 5459
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lynx -source http://www.lipsum.com/feed/xml?amount=3|perl -p -i -e 's/\n/\n\n/g'|sed -n '/<lipsum>/,/<\/lipsum>/p'|sed -e 's/<[^>]*>//g'
-summary: |-
-  从lorumipsum.com获取随机的Lorum Ipsum文本（Lorum Ipsum是前端用来填充页面内容的无意义文本）

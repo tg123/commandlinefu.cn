@@ -1,7 +1,0 @@
-commandlinefu_id: 10024
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lsof -nPi tcp:80
-summary: |-
-  在Linux显示正在监听80端口的进程的PID

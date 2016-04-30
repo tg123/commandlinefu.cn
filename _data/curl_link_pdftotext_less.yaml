@@ -1,8 +1,0 @@
-commandlinefu_id: 13498
-translator:
-  weibo: ''
-hide: true
-command: |-
-  curl 'LINK' | pdftotext - - | less
-summary: |-
-  View online pdf documents in cli

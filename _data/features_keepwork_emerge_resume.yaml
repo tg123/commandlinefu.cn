@@ -1,7 +1,0 @@
-commandlinefu_id: 2558
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  FEATURES=keepwork emerge --resume
-summary: |-
-  保留已编译出来的object文件，重新启动emerge

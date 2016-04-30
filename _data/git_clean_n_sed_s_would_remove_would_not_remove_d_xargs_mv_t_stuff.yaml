@@ -1,8 +1,0 @@
-commandlinefu_id: 4250
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git clean -n | sed 's/Would remove //; /Would not remove/d;' | xargs mv -t stuff/
-summary: |-
-  Move all files untracked by git into a directory

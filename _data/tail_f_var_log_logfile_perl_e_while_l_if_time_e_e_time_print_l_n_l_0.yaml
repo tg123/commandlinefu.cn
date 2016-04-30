@@ -1,8 +1,0 @@
-commandlinefu_id: 8679
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f  /var/log/logfile|perl -e 'while (<>) {$l++;if (time > $e) {$e=time;print "$l\n";$l=0}}'
-summary: |-
-  Realtime lines per second in a log file

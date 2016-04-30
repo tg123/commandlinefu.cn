@@ -1,8 +1,0 @@
-commandlinefu_id: 12994
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /path/to/dir -type f -exec cachedel '{}' \;
-summary: |-
-  clear not-used-again files from Linux page cache

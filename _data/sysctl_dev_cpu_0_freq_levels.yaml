@@ -1,8 +1,0 @@
-commandlinefu_id: 6599
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sysctl dev.cpu.0.freq_levels
-summary: |-
-  find available cpu frequencies on FreeBSD

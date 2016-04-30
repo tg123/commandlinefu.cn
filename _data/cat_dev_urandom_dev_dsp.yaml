@@ -1,7 +1,0 @@
-commandlinefu_id: 985
-translator:
-  weibo: tgic
-command: |-
-  cat /dev/urandom > /dev/dsp
-summary: |-
-  音药

@@ -1,8 +1,0 @@
-commandlinefu_id: 3770
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *.html; do head -n -1 $f > temp; cat temp > $f; rm temp; done
-summary: |-
-  remove the last line of all html files in a directory

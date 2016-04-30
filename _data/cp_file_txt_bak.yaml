@@ -1,7 +1,0 @@
-commandlinefu_id: 18
-translator:
-  weibo: '猪了个去'
-command: |-
-  cp file.txt{,.bak}
-summary: |-
-  快速创建一个文件的备份

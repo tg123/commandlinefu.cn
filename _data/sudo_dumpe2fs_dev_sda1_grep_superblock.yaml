@@ -1,8 +1,0 @@
-commandlinefu_id: 12443
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo dumpe2fs /dev/sda1 | grep superblock
-summary: |-
-  List partition superblocks

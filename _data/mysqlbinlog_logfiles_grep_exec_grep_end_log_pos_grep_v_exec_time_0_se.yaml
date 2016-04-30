@@ -1,8 +1,0 @@
-commandlinefu_id: 10811
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysqlbinlog <logfiles> | grep exec | grep end_log_pos | grep -v exec_time=0 | sed 's/^\(.*exec_time=\([0-9]\+\).*\)/\2 - \1 /' | sort -n
-summary: |-
-  mysqlbinlog headers sorted by event time

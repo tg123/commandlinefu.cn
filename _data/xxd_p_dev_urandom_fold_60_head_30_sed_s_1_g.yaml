@@ -1,7 +1,0 @@
-commandlinefu_id: 11920
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  xxd -p /dev/urandom |fold -60|head -30|sed 's/\(..\)/\1 /g'
-summary: |-
-  生成30 x 30的矩阵

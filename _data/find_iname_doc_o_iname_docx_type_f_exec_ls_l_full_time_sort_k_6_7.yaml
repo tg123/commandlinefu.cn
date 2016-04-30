@@ -1,8 +1,0 @@
-commandlinefu_id: 13246
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . \( -iname "*.doc" -o -iname "*.docx" \) -type f -exec ls -l --full-time {} +|sort -k 6,7
-summary: |-
-  Find multiple filename expressions and sort by date

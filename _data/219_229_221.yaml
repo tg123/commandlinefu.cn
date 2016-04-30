@@ -1,8 +1,0 @@
-commandlinefu_id: 2124
-translator:
-  weibo: tgic
-hide: false
-command: |
-  !219 ; !229 ; !221
-summary: |-
-  利用 ! 执行历史命令

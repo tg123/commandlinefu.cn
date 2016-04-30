@@ -1,8 +1,0 @@
-commandlinefu_id: 11994
-translator:
-  weibo: ''
-hide: true
-command: |-
-  puttygen my_ssh_key.ppk -O private-openssh -o my_openssh_key.ssh
-summary: |-
-  convert .ppk file to .ssh file

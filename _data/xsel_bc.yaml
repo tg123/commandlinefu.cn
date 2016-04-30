@@ -1,8 +1,0 @@
-commandlinefu_id: 14067
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xsel -bc
-summary: |-
-  clear the X clipboard

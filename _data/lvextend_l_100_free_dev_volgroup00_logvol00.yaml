@@ -1,8 +1,0 @@
-commandlinefu_id: 4818
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lvextend -l +100%FREE /dev/VolGroup00/LogVol00
-summary: |-
-  Extend a logical volume to use up all the free space in a volume group

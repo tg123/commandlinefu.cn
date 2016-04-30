@@ -1,8 +1,0 @@
-commandlinefu_id: 598
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff <(head -500 product-feed.xml) <(head -500 product-feed.xml.old)
-summary: |-
-  Generate diff of first 500 lines of two files

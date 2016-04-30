@@ -1,8 +1,0 @@
-commandlinefu_id: 12469
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nl FILE_NAME | tail -n 1
-summary: |-
-  Print the total lines number of a file

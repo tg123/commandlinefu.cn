@@ -1,8 +1,0 @@
-commandlinefu_id: 13820
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -sP 192.168.1.0/24
-summary: |-
-  Scan Subnet for IP and MAC addresses

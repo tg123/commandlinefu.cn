@@ -1,7 +1,0 @@
-commandlinefu_id: 1780
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lsusb
-summary: |-
-  列出连接中的USB设备

@@ -1,8 +1,0 @@
-commandlinefu_id: 4758
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -size +1100000k |xargs -I% du -sh %
-summary: |-
-  find large files

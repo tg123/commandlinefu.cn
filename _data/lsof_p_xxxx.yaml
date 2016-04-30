@@ -1,8 +1,0 @@
-commandlinefu_id: 1298
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof +p xxxx
-summary: |-
-  List the files any process is using

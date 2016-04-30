@@ -1,8 +1,0 @@
-commandlinefu_id: 2957
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jhead -n%Y%m%d-%H%M%S *.jpg
-summary: |-
-  Picture Renamer

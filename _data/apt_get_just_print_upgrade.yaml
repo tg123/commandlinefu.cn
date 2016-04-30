@@ -1,7 +1,0 @@
-commandlinefu_id: 4891
-translator:
-  weibo: tgic
-command: |-
-  apt-get --just-print upgrade
-summary: |-
-  不实际更新 (apt)

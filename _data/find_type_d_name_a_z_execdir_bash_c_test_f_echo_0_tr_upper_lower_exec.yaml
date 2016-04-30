@@ -1,7 +1,0 @@
-commandlinefu_id: 5238
-translator:
-  weibo: tgic
-command: |-
-  find . -type d -name '*[A-Z]*' -execdir bash -c '! test -f "$(echo "$0" | tr "[:upper:]" "[:lower:]")"' {} \; -execdir bash -c 'mv "$0" "$(echo "$0" | tr "[:upper:]" "[:lower:]")"' {} \;
-summary: |-
-  批量目录名字转化成小写

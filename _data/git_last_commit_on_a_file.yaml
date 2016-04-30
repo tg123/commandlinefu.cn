@@ -1,8 +1,0 @@
-commandlinefu_id: 7118
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git last commit on a file.
-summary: |-
-  git log -n 1 -p FILENAME| head -n 1 | awk -F " " '{print $2}'

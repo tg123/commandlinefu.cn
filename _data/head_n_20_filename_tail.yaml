@@ -1,7 +1,0 @@
-commandlinefu_id: 7044
-translator:
-  weibo: tgic
-command: |-
-  head -n 20 <filename> | tail
-summary: |-
-  输出文件的10到20行

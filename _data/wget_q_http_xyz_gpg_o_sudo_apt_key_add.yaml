@@ -1,7 +1,0 @@
-commandlinefu_id: 1676
-translator:
-  weibo: tgic
-command: |-
-  wget -q http://xyz.gpg -O- | sudo  apt-key add -
-summary: |-
-  Ubuntu 添加 pgp key的方法

@@ -1,8 +1,0 @@
-commandlinefu_id: 653
-translator:
-  weibo: dbalex
-command: |-
-  cat SomeFile.txt | pbcopy
-summary: |-
-  Copy text to the clipboard
-  将文本拷贝至剪切板

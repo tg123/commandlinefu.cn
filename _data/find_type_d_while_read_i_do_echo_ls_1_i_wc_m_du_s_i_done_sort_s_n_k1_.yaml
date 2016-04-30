@@ -1,8 +1,0 @@
-commandlinefu_id: 13207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find .  -type d| while read i; do echo $(ls -1 "$i"|wc -m) $(du -s "$i"); done|sort -s -n -k1,1 -k2,2 |awk -F'[ \t]+' '{ idx=$1$2; if (array[idx] == 1) {print} else if (array[idx]) {print array[idx]; print; array[idx]=1} else {array[idx]=$0}}'
-summary: |-
-  List all duplicate directories

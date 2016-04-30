@@ -1,7 +1,0 @@
-commandlinefu_id: 9742
-translator:
-  weibo: tgic
-command: |-
-  paste <(banner hello,\ ) <(banner world)
-summary: |-
-  巨大的hello world

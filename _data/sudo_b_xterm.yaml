@@ -1,8 +1,0 @@
-commandlinefu_id: 6739
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo -b xterm
-summary: |-
-  sudo for launching gui apps in background

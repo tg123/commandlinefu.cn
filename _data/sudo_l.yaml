@@ -1,7 +1,0 @@
-commandlinefu_id: 934
-translator:
-  weibo: tgic
-command: |-
-  sudo -l
-summary: |-
-  查看sudo的权限

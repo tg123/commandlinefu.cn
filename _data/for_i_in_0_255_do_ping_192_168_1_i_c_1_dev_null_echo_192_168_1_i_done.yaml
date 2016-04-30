@@ -1,8 +1,0 @@
-commandlinefu_id: 13092
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {0..255} ; do (ping 192.168.1.$i -c 1  > /dev/null && echo "192.168.1.$i" & ) ; done
-summary: |-
-  Ping all hosts on 192.168.1.0/24

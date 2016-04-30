@@ -1,8 +1,0 @@
-commandlinefu_id: 9407
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -exec `alias foo | cut -d"'" -f2` {} \;
-summary: |-
-  Trick find -exec option to execute alias

@@ -1,8 +1,0 @@
-commandlinefu_id: 925
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l !* | /usr/bin/grep '^d'
-summary: |-
-  LSD: List directory files in current directory

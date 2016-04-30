@@ -1,7 +1,0 @@
-commandlinefu_id: 3187
-translator:
-  weibo: tgic
-command: |-
-  echo "aBcDeFgH123" | tr a-z A-Z
-summary: |-
-  字符串大小写转换

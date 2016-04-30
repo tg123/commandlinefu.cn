@@ -1,7 +1,0 @@
-commandlinefu_id: 6014
-translator:
-  weibo: titikaka723 
-command: |-
-  ps -axgu | cut -f1 -d'' | sort -u
-summary: |-
-  显示你的UNIX系统下的用户和虚拟用户 

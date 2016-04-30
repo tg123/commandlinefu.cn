@@ -1,7 +1,0 @@
-commandlinefu_id: 287
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  date --date="1 fortnight ago"
-summary: |-
-  计算相隔一段时间的日期

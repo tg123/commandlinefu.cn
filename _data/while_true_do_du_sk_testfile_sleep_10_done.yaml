@@ -1,7 +1,0 @@
-commandlinefu_id: 3018
-translator:
-  weibo: tgic
-command: |-
-  while true ; do du -sk testfile ; sleep 10 ; done
-summary: |-
-  定时检查文件大小

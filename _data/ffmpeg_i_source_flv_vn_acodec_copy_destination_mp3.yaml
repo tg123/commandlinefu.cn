@@ -1,7 +1,0 @@
-commandlinefu_id: 2280
-translator:
-  weibo: tgic
-command: |-
-  ffmpeg -i source.flv -vn acodec copy destination.mp3
-summary: |-
-  提取声音

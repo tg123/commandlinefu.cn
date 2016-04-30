@@ -1,8 +1,0 @@
-commandlinefu_id: 13946
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i filename -vn -acodec libvorbis out.ogg
-summary: |-
-  Convert a videos audio track to ogg vorbis.

@@ -1,7 +1,0 @@
-commandlinefu_id: 870
-translator:
-  weibo: tgic
-command: |-
-  nc -v -l 80 < file.ext
-summary: |-
-  通过nc共享文件

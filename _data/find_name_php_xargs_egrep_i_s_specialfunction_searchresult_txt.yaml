@@ -1,7 +1,0 @@
-commandlinefu_id: 1169
-translator:
-  weibo: codepiano
-command: |-
-  find . -name "*.php" | xargs egrep -i -s 'specialFunction' > searchresult.txt
-summary: |-
-  在所有php文件中检索字符串并且把输出存入到文件中

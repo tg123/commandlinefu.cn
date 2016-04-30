@@ -1,8 +1,0 @@
-commandlinefu_id: 13931
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f access_log | awk '{print $1 , $12}'
-summary: |-
-  Watch who requests what page from apache logs

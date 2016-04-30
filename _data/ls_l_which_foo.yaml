@@ -1,8 +1,0 @@
-commandlinefu_id: 6035
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l `which foo`
-summary: |-
-  Tells you where a command is in your $PATH, but also wether it's a link and to what.

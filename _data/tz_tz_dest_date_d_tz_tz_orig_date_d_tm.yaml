@@ -1,7 +1,0 @@
-commandlinefu_id: 6707
-translator:
-  weibo: tgic
-command: |-
-  TZ="$tz_dest" date -d "$(TZ="$tz_orig" date -d "$tm")"
-summary: |-
-  转换时区

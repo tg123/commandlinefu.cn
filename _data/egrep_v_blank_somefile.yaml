@@ -1,8 +1,0 @@
-commandlinefu_id: 4033
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep -v "^[[:blank:]]*($|#|//|/\*| \*|\*/)"  somefile
-summary: |-
-  Show a script or config file without comments

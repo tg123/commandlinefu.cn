@@ -1,7 +1,0 @@
-commandlinefu_id: 12929
-translator:
-  weibo: tgic
-command: |-
-  find -type f -name '*.conf' -exec sed -Ei 's/foo/bar/' '{}' \;
-summary: |-
-  批量替换配置中的关键字

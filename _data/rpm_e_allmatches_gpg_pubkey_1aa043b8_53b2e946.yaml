@@ -1,8 +1,0 @@
-commandlinefu_id: 13898
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -e --allmatches gpg-pubkey-1aa043b8-53b2e946
-summary: |-
-  Remove a specific gpg-pubkey from rpm/yum

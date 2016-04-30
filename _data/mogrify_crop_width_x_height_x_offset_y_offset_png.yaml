@@ -1,7 +1,0 @@
-commandlinefu_id: 11801
-translator:
-  weibo: tgic
-command: |-
-  mogrify -crop <width>x<height>+<X-offset>+<Y-offset> *.png
-summary: |-
-  批量修订图片大小

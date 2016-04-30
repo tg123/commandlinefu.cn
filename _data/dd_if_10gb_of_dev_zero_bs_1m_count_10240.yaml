@@ -1,7 +1,0 @@
-commandlinefu_id: 952
-translator:
-  weibo: particle128
-command: |-
-  dd if=10gb of=/dev/zero bs=1M count=10240
-summary: |-
-  硬盘读性能测试

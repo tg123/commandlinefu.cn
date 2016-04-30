@@ -1,8 +1,0 @@
-commandlinefu_id: 5655
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ python -u script.py
-summary: |-
-  unbuffered python output

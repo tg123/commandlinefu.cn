@@ -1,8 +1,0 @@
-commandlinefu_id: 11845
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr --output LVDS1 --brightness 0.4
-summary: |-
-  Adjust brightness [software way]

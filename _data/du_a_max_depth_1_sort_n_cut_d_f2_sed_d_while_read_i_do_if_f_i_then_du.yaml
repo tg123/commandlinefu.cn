@@ -1,8 +1,0 @@
-commandlinefu_id: 3325
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  du -a --max-depth=1 | sort -n | cut -d/ -f2 | sed '$d' | while read i; do if [ -f $i ]; then du -h "$i"; else echo "$(du -h --max-depth=0 "$
-summary: |-
-  展示当前目录的全部使用量

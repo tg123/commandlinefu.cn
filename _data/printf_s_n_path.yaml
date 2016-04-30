@@ -1,7 +1,0 @@
-commandlinefu_id: 4108
-translator:
-  weibo: tgic
-command: |-
-  printf "%s\n" ${PATH//:/\/* }
-summary: |-
-  列出所有可用的命令

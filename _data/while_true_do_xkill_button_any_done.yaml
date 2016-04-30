@@ -1,8 +1,0 @@
-commandlinefu_id: 6566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do xkill -button any; done
-summary: |-
-  Killing processes with your mouse in an infinite loop

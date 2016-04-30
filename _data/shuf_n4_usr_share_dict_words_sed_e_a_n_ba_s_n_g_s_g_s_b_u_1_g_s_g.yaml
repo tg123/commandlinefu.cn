@@ -1,8 +1,0 @@
-commandlinefu_id: 8995
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shuf -n4 /usr/share/dict/words | sed -e ':a;N;$!ba;s/\n/ /g;s/'\''//g;s/\b\(.\)/\u\1/g;s/ //g'
-summary: |-
-  Alternative way to generate an XKCD #936 style 4 word password usig sed

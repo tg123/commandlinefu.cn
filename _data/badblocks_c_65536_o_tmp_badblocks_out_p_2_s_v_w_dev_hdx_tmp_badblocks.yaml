@@ -1,8 +1,0 @@
-commandlinefu_id: 4275
-translator:
-  weibo: ''
-hide: true
-command: |-
-  badblocks -c 65536 -o /tmp/badblocks.out -p 2 -s -v -w /dev/hdX > /tmp/badblocks.stdout 2> /tmp/badblocks.stderr
-summary: |-
-  Check your hard drive for bad blocks (destructive)

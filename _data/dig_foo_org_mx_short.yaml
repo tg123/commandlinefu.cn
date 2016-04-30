@@ -1,7 +1,0 @@
-commandlinefu_id: 206
-translator:
-  weibo: tgic
-command: |-
-  dig foo.org mx +short
-summary: |-
-  获取mx记录

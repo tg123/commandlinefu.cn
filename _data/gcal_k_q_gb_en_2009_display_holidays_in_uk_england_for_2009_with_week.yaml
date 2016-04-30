@@ -1,7 +1,0 @@
-commandlinefu_id: 1489
-translator:
-  weibo: tgic
-command: |-
-  gcal -K -q GB_EN 2009 
-summary: |-
-  显示指定国家的节日

@@ -1,7 +1,0 @@
-commandlinefu_id: 9956
-translator:
-  weibo: tgic
-command: |-
-  echo 'graph{node[shape=record];rankdir=LR;matrix[label="{1|2|3}|{4|5|6}|{7|8|9}",color=red]}' | dot -Tpng | display
-summary: |-
-  使用dot画一个matrix

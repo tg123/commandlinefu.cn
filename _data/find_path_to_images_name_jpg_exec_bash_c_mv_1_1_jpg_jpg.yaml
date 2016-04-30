@@ -1,8 +1,0 @@
-commandlinefu_id: 4517
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /path/to/images -name '*.JPG' -exec bash -c 'mv "$1" "${1/%.JPG/.jpg}"' -- {} \;
-summary: |-
-  Rename .JPG to .jpg recursively

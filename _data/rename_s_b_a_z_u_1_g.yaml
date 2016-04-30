@@ -1,7 +1,0 @@
-commandlinefu_id: 6404
-translator:
-  weibo: tgic
-command: |-
-  rename 's/\b([a-z])/\u$1/g' *
-summary: |-
-  首字母大写文件名

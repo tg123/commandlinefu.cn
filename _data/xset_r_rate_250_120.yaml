@@ -1,8 +1,0 @@
-commandlinefu_id: 4797
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xset r rate 250 120
-summary: |-
-  Speed up the keyboard repeat rate in X server

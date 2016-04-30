@@ -1,7 +1,0 @@
-commandlinefu_id: 4640
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for file in *.7z; do 7zr e "$file"; done
-summary: |-
-  解压缩当前文件夹下的所有7z文件，正确处理文件名中的空格

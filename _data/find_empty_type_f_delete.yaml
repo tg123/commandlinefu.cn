@@ -1,7 +1,0 @@
-commandlinefu_id: 7067
-translator:
-  weibo: particle128
-command: |-
-  find . -empty -type f -delete
-summary: |-
-  从当前目录递归删除所有0kb大小的文件

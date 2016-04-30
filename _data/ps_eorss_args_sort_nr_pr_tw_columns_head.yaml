@@ -1,8 +1,0 @@
-commandlinefu_id: 7139
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -eorss,args | sort -nr | pr -TW$COLUMNS | head
-summary: |-
-  Top ten memory hogs

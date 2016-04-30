@@ -1,7 +1,0 @@
-commandlinefu_id: 8840
-translator:
-  weibo: tgic
-command: |-
-  awk "/<xsd:annotation>/{h=1};!h;/<\/xsd:annotation>/{h=0}" annotatedSchema.xsd
-summary: |-
-  清理xml里边的注释

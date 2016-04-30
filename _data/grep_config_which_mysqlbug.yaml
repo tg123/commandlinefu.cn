@@ -1,8 +1,0 @@
-commandlinefu_id: 3595
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep CONFIG $(which mysqlbug)
-summary: |-
-  Determine configure options used for MySQL binary builds

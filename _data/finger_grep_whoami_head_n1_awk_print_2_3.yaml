@@ -1,8 +1,0 @@
-commandlinefu_id: 7612
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finger | grep $(whoami) | head -n1 | awk '{print $2 " " $3}'
-summary: |-
-  Prints out, what the users name, notifyed in the gecos field, is

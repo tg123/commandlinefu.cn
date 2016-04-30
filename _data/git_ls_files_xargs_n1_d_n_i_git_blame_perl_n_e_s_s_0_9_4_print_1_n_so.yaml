@@ -1,8 +1,0 @@
-commandlinefu_id: 3889
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git ls-files | xargs -n1 -d'\n' -i git-blame {} | perl -n -e '/\s\((.*?)\s[0-9]{4}/ && print "$1\n"' | sort -f | uniq -c -w3 | sort -r
-summary: |-
-  Prints per-line contribution per author for a GIT repository

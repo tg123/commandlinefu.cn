@@ -1,7 +1,0 @@
-commandlinefu_id: 1500
-translator:
-  weibo: codepiano
-command: |-
-  cp ./* .[!.]* ..?* /path/to/dir
-summary: |-
-  复制所有文件。所有普通，隐藏和以减号开头的文件

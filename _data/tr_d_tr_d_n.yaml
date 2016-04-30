@@ -1,7 +1,0 @@
-commandlinefu_id: 9466
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  tr -d '\\' | tr -d '\n'
-summary: |-
-  将用'\'分割开的行连接到一起

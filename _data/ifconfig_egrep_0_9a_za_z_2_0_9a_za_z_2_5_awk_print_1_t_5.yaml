@@ -1,7 +1,0 @@
-commandlinefu_id: 12568
-translator:
-  weibo: tgic
-command: |-
-  ifconfig | egrep [0-9A-Za-z]{2}\(:[0-9A-Za-z]{2}\){5} | awk '{print $1 ":\t" $5}'
-summary: |-
-  全部mac地址

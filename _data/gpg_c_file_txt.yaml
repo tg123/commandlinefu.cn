@@ -1,8 +1,0 @@
-commandlinefu_id: 9307
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gpg -c file.txt
-summary: |-
-  encrypt file.txt using a symmetric password

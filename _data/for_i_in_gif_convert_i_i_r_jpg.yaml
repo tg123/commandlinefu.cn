@@ -1,7 +1,0 @@
-commandlinefu_id: 992
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in **/*.gif; convert $i $i:r.jpg
-summary: |-
-  转换图片（foo.gif => fo.jpg）

@@ -1,7 +1,0 @@
-commandlinefu_id: 10738
-translator:
-  weibo: tgic
-command: |-
-  find . -name ._\* -exec rm -f {} \;
-summary: |-
-  清理 ._ 文件 (OS X)

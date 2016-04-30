@@ -1,7 +1,0 @@
-commandlinefu_id: 10762
-translator:
-  weibo: tgic
-command: |-
-  fdisk -l /dev/sda | grep -E sda[0-9]+ | sed s/*// |  awk '{printf ("%s %f ",$1,$2/512); if($2%512){ print "BAD" }else {print "Good"} }' | column -t
-summary: |-
-  检查分区对齐

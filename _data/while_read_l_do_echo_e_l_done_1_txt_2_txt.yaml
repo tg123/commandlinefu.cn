@@ -1,8 +1,0 @@
-commandlinefu_id: 10428
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while read l; do echo -e "$l"; done <1.txt >2.txt
-summary: |-
-  Remove all leading and trailing spaces or tabs from all lines of a text file

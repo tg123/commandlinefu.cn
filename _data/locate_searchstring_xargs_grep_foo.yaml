@@ -1,7 +1,0 @@
-commandlinefu_id: 1920
-translator:
-  weibo: tgic
-command: |-
-  locate searchstring | xargs grep foo
-summary: |-
-  查找foo

@@ -1,8 +1,0 @@
-commandlinefu_id: 4563
-translator:
-  weibo: tgic
-command: |-
-  dc3dd progress=on bs=512 count=2048 if=/dev/zero of=/dev/null
-summary: |-
-  一个dd的代替品 带进度的
-

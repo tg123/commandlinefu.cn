@@ -1,7 +1,0 @@
-commandlinefu_id: 2559
-translator:
-  weibo: tgic
-command: |-
-  echo 2+3 |bc
-summary: |-
-  计算器

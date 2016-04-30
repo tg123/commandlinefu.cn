@@ -1,7 +1,0 @@
-commandlinefu_id: 4738
-translator:
-  weibo: tgic
-command: |-
-  find . -type f | parallel -j+0 grep -i foobar
-summary: |-
-  并发的grep

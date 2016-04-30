@@ -1,8 +1,0 @@
-commandlinefu_id: 8531
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fsutil hardlink creat new_file exits_file
-summary: |-
-  hard link file for Windows

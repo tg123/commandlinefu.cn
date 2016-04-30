@@ -1,8 +1,0 @@
-commandlinefu_id: 3130
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat filename | tr '\n' '\0' | du -hsc ?files0-from=-
-summary: |-
-  Have a list of directories in a file, ending with newlines and need to run du on it?

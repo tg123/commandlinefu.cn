@@ -1,7 +1,0 @@
-commandlinefu_id: 356
-translator:
-  weibo: tgic
-command: |-
-  diff <(ssh node1 "rpm -qa") <(ssh node2 "rpm -qa")
-summary: |-
-  比较安装包的不同 

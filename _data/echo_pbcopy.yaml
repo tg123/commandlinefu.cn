@@ -1,7 +1,0 @@
-commandlinefu_id: 8949
-translator:
-  weibo: tgic
-command: |-
-  echo "!!" | pbcopy
-summary: |-
-  复制上一个命令

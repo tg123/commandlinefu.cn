@@ -1,7 +1,0 @@
-commandlinefu_id: 2638
-translator:
-  weibo: tgic
-command: |-
-  cat /dev/urandom|awk 'BEGIN{"tput cuu1" | getline CursorUp; "tput clear" | getline Clear; printf Clear}{num+=1;printf CursorUp; print num}'
-summary: |-
-  清屏时并查看清理的行数

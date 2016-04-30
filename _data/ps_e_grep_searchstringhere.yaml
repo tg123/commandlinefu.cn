@@ -1,7 +1,0 @@
-commandlinefu_id: 115
-translator:
-  weibo: titikaka723 
-command: |-
-  ps -e | grep SearchStringHere
-summary: |-
-  寻找带有“SearchStringHere”名字的进程 

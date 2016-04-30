@@ -1,7 +1,0 @@
-commandlinefu_id: 57
-translator:
-  weibo: tgic
-command: |-
-  alias cdc='cd `pwd -P`'
-summary: |-
-  进入到绝度目录

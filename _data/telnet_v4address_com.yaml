@@ -1,8 +1,0 @@
-commandlinefu_id: 11189
-translator:
-  weibo: ''
-hide: true
-command: |-
-  telnet v4address.com
-summary: |-
-  What is my ip?

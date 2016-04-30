@@ -1,8 +1,0 @@
-commandlinefu_id: 8267
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias df="df | awk 'NF == 1 {printf(\$1); next}; {print}'"
-summary: |-
-  df without line wrap on long FS name

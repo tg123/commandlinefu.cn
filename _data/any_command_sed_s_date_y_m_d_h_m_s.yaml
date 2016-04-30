@@ -1,7 +1,0 @@
-commandlinefu_id: 13145
-translator:
-  weibo: tgic
-command: |-
-  any command | sed "s/^/\[`date +"%Y%m%d%H%M%S"`]/"
-summary: |-
-  命令结果加个时间

@@ -1,7 +1,0 @@
-commandlinefu_id: 6076
-translator:
-  weibo: codepiano
-command: |-
-  find . -name '*.?pp' | xargs grep -H "string"
-summary: |-
-  递归的在当前目录中所有的c++文件中搜索

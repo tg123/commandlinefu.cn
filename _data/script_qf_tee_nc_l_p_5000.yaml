@@ -1,7 +1,0 @@
-commandlinefu_id: 12172
-translator:
-  weibo: tgic
-command: |-
-  script -qf | tee >(nc -l -p 5000)
-summary: |-
-  通过nc 广播你的shell

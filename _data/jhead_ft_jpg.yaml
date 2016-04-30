@@ -1,8 +1,0 @@
-commandlinefu_id: 13421
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jhead -ft *.jpg
-summary: |-
-  Update the file modification time of all JPEGs in a directory to match EXIF date/time

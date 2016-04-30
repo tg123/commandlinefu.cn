@@ -1,8 +1,0 @@
-commandlinefu_id: 3812
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gconftool -t str -s /desktop/gnome/background/picture_filename "`find /DIR_OF_JPGS -name '*.jpg' | shuf -n 1`"
-summary: |-
-  Set gnome wallpaper to a random jpg from the specified directory

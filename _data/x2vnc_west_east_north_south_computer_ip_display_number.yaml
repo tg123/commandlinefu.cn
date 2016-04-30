@@ -1,8 +1,0 @@
-commandlinefu_id: 2390
-translator:
-  weibo: ''
-hide: true
-command: |-
-  x2vnc {-west|-east|-north|-south} computer-ip:display-number
-summary: |-
-  Emulate a dual-screen using vnc

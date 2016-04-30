@@ -1,8 +1,0 @@
-commandlinefu_id: 1933
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat [ENTER]^V^O[ENTER]^D
-summary: |-
-  Reset scrambled screen

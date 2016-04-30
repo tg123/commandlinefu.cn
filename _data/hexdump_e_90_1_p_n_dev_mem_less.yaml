@@ -1,7 +1,0 @@
-commandlinefu_id: 2159
-translator:
-  weibo: tgic
-command: |-
-  hexdump -e '90/1 "%_p" "\n"' /dev/mem | less
-summary: |-
-  查看系统内存内容

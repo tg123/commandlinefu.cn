@@ -1,8 +1,0 @@
-commandlinefu_id: 2471
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  svn status | grep '!' | sed 's/!/ /' | xargs svn del --force
-summary: |-
-  清理掉svn在本地已经Missing 的文件

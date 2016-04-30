@@ -1,7 +1,0 @@
-commandlinefu_id: 11752
-translator:
-  weibo: tgic
-command: |-
-  module_exists(){ perl -e 'use '$1 2>/dev/null; }
-summary: |-
-  检查module是否存在 (perl)

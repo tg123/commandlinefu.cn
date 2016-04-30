@@ -1,8 +1,0 @@
-commandlinefu_id: 8935
-translator:
-  weibo: ''
-hide: true
-command: |-
-  eval $(date +"day=%d; month=%m; year=%y")
-summary: |-
-  Multiple variable assignments from command output in BASH

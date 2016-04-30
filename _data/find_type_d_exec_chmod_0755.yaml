@@ -1,8 +1,0 @@
-commandlinefu_id: 938
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -exec chmod 0755 {} \;
-summary: |-
-  "Reset" directories permissions

@@ -1,8 +1,0 @@
-commandlinefu_id: 4708
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -t1 | sed 1d | parallel -X rm
-summary: |-
-  Delete all but latest file in a directory

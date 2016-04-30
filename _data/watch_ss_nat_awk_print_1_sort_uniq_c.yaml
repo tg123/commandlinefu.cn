@@ -1,8 +1,0 @@
-commandlinefu_id: 11634
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch "ss -nat | awk '"'{print $1}'"' | sort | uniq -c"
-summary: |-
-  Monitoring TCP connections number

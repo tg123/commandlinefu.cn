@@ -1,8 +1,0 @@
-commandlinefu_id: 4878
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  diff -x "*CVS*" -r <path-1> <path-2> [<path-3>]
-summary: |-
-  递归diff 并忽略cvs文件

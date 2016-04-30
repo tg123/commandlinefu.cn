@@ -1,8 +1,0 @@
-commandlinefu_id: 1451
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -qa \*code\*
-summary: |-
-  Search through all installed packages names (on RPM systems)

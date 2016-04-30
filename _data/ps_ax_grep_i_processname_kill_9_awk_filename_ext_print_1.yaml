@@ -1,7 +1,0 @@
-commandlinefu_id: 8157
-translator:
-  weibo: tgic
-command: |-
-  ps ax | grep -i ProcessName| kill -9 `awk '/FileName.Ext/ {print $1}'`
-summary: |-
-  按文件名杀进程

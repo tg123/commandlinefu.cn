@@ -1,8 +1,0 @@
-commandlinefu_id: 13790
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -ns | grep REG | grep deleted | awk '{s+=$7/1024} END {print s}'
-summary: |-
-  Find size in kilobyte of files that are deleted but still in use and therefore consumes diskspace

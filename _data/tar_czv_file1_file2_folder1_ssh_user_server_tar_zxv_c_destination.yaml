@@ -1,7 +1,0 @@
-commandlinefu_id: 37
-translator:
-  weibo: tgic
-command: |-
-  tar czv file1 file2 folder1 | ssh user@server tar zxv -C /destination
-summary: |-
-  带有压缩的scp

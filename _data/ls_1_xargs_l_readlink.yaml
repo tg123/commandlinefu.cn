@@ -1,8 +1,0 @@
-commandlinefu_id: 4134
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  \ls -1 | xargs -l readlink
-summary: |-
-  显示全部的符号连接

@@ -1,7 +1,0 @@
-commandlinefu_id: 13574
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  subl $(pwd)
-summary: |-
-  在当前目录中打开sublime text

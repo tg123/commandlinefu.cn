@@ -1,8 +1,0 @@
-commandlinefu_id: 13886
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv -iv $FILENAME{,.$(stat -c %Z $FILENAME)}
-summary: |-
-  Rename file to same name plus datestamp of last modification.

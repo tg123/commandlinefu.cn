@@ -1,8 +1,0 @@
-commandlinefu_id: 7686
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp -i FILENAME{,.`date +%Y%m%d`}
-summary: |-
-  backs up at the date today

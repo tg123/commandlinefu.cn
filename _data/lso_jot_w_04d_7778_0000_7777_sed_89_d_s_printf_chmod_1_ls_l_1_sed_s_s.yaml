@@ -1,8 +1,0 @@
-commandlinefu_id: 10019
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lso(){ jot -w '%04d' 7778 0000 7777 |sed '/[89]/d;s,.*,printf '"'"'& '"'"';chmod & '"$1"';ls -l '"$1"'|sed s/-/./,' \ |sh \ |{ echo "lso(){";echo "ls \$@ \\";echo " |sed '";sed 's, ,@,2;s,@.*,,;s,\(.* \)\(.*\),s/\2/\1/,;s, ,,';echo \';echo };};}
-summary: |-
-  ls output with mode in octal

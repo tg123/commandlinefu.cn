@@ -1,7 +1,0 @@
-commandlinefu_id: 3142
-translator:
-  weibo: tgic
-command: |-
-  chage -l <user>
-summary: |-
-  显示账号过期信息

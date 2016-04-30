@@ -1,7 +1,0 @@
-commandlinefu_id: 13012
-translator:
-  weibo: tgic
-command: |-
-  echo "text to prepend" | cat - file
-summary: |-
-  加到文件头

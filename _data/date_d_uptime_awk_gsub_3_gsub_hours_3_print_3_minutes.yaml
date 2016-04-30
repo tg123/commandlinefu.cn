@@ -1,7 +1,0 @@
-commandlinefu_id: 9524
-translator:
-  weibo: tgic
-command: |-
-  date -d "$(uptime | awk '{gsub(/,/,"",$3);gsub(/:/," hours ",$3); print "- " $3 " minutes"}')"
-summary: |-
-  服务器启动时间

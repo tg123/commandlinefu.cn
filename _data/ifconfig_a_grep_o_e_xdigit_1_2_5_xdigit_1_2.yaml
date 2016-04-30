@@ -1,7 +1,0 @@
-commandlinefu_id: 4974
-translator:
-  weibo: tgic
-command: |-
-  ifconfig -a| grep -o -E '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'
-summary: |-
-  获取所有mac地址

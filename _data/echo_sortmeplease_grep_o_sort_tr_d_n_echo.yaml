@@ -1,7 +1,0 @@
-commandlinefu_id: 3289
-translator:
-  weibo: codepiano
-command: |-
-  echo sortmeplease | grep -o . | sort | tr -d '\n'; echo
-summary: |-
-  排序一个字符串

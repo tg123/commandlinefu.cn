@@ -1,7 +1,0 @@
-commandlinefu_id: 4422
-translator:
-  weibo: tgic
-command: |-
-  b(){ echo "scale=${2:-2}; $1" | bc -l; }
-summary: |-
-  用bash做浮点数计算

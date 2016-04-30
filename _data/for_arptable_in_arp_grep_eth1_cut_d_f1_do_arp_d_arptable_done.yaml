@@ -1,7 +1,0 @@
-commandlinefu_id: 7293
-translator:
-  weibo: tgic
-command: |-
-  for arptable in `arp | grep "eth1" | cut -d " " -f1`; do arp -d $arptable; done
-summary: |-
-  清除ARP

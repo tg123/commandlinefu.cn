@@ -1,7 +1,0 @@
-commandlinefu_id: 8077
-translator:
-  weibo: tgic
-command: |-
-  CLASSPATH=.; export CLASSPATH=$CLASSPATH$(find "$PWD" -name '*.jar' -type f -printf ':%p\n' | sort -u | tr -d '\n'); echo $CLASSPATH
-summary: |-
-  添加所有jar 到classpath

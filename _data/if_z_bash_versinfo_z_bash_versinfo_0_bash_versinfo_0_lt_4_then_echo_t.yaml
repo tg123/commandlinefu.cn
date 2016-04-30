@@ -1,8 +1,0 @@
-commandlinefu_id: 7962
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ -z "${BASH_VERSINFO}" ] || [ -z "${BASH_VERSINFO[0]}" ] || [ ${BASH_VERSINFO[0]} -lt 4 ]; then echo "This script requires Bash version >= 4"; exit 1; fi
-summary: |-
-  Make sure your script runs with a minimum Bash version

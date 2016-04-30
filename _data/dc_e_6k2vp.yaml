@@ -1,8 +1,0 @@
-commandlinefu_id: 10397
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dc -e '6k2vp'
-summary: |-
-  calculate sqrt(2) ==> 1.414213

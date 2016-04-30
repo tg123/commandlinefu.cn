@@ -1,7 +1,0 @@
-commandlinefu_id: 3157
-translator:
-  weibo: '猪了个去'
-command: |-
-  nautilus -q
-summary: |-
-  重启nautilus文件管理器

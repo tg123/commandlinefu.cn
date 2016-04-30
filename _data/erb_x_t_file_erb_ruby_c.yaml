@@ -1,8 +1,0 @@
-commandlinefu_id: 13444
-translator:
-  weibo: ''
-hide: true
-command: |-
-  erb -x -T  '-' file.erb  | ruby -c
-summary: |-
-  erb syntax check

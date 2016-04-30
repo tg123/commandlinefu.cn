@@ -1,8 +1,0 @@
-commandlinefu_id: 6608
-translator:
-  weibo: ''
-hide: true
-command: |-
-  package=$1; list=/var/lib/dpkg/info/${package}.list; inst=$(stat "$list" -c %X); cat $list | (while read file; do if [ -f "$file" ];then acc=$(stat "$file" -c %X); if [ $inst -lt $acc ]; then echo used $file; exit 0; fi; fi; done; exit 1)
-summary: |-
-  Check if the Debian package was used since its installation/upgrade.

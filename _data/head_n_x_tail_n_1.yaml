@@ -1,7 +1,0 @@
-commandlinefu_id: 6030
-translator:
-  weibo: tgic
-command: |-
-  head -n X | tail -n 1
-summary: |-
-  打印第X行

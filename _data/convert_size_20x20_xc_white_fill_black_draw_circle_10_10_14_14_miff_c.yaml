@@ -1,8 +1,0 @@
-commandlinefu_id: 9111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  convert -size 20x20 xc:white -fill black -draw "circle 10,10 14,14" miff:- | composite -tile - input.png -compose over miff:- | composite - input.png -compose copyopacity output.png
-summary: |-
-  drill holes on image

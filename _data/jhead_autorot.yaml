@@ -1,8 +1,0 @@
-commandlinefu_id: 8945
-translator:
-  weibo: ''
-hide: true
-command: |-
-  jhead -autorot *
-summary: |-
-  Autorotate a directory of JPEG images from a digital camera

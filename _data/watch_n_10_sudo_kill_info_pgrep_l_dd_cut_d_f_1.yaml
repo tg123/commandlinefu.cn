@@ -1,8 +1,0 @@
-commandlinefu_id: 13862
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch -n 10 sudo kill -INFO $(pgrep -l '^dd$' | cut -d ' ' -f 1)
-summary: |-
-  check the status of 'dd' in progress (OS X)

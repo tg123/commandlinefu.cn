@@ -1,8 +1,0 @@
-commandlinefu_id: 4145
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | grep -vi pattern
-summary: |-
-  List files that DO NOT match a pattern

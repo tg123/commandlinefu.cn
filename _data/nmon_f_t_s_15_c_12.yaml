@@ -1,8 +1,0 @@
-commandlinefu_id: 12518
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmon -f -T -^ -s 15 -c 12
-summary: |-
-  UNIX/ WAS related commands

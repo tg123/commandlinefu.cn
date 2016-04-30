@@ -1,8 +1,0 @@
-commandlinefu_id: 3846
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@server 'dd if=sda.img' | dd of=/dev/sda
-summary: |-
-  Restore a local drive from the image on remote host via ssh

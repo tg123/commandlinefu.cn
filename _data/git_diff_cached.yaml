@@ -1,8 +1,0 @@
-commandlinefu_id: 1242
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git diff --cached
-summary: |-
-  git diff of files that have been staged ie 'git add'ed

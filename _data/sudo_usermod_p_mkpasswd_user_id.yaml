@@ -1,7 +1,0 @@
-commandlinefu_id: 5574
-translator:
-  weibo: tgic
-command: |-
-  sudo usermod -p $(mkpasswd '') user_id
-summary: |-
-  免密码登录

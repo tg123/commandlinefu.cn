@@ -1,8 +1,0 @@
-commandlinefu_id: 14111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sh <(curl hashbang.sh)
-summary: |-
-  Get a free shell account on a community server

@@ -1,8 +1,0 @@
-commandlinefu_id: 13713
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd tmp ; find . |cpio -o -H newc| gzip > ../initrd.gz
-summary: |-
-  generate an initrd file

@@ -1,7 +1,0 @@
-commandlinefu_id: 10368
-translator:
-  weibo: '猪了个去'
-command: |-
-  alias sudo='sudo '
-summary: |-
-  保护现有的alias上sudo的命令

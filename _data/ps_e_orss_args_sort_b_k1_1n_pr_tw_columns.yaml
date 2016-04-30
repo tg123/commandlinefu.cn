@@ -1,8 +1,0 @@
-commandlinefu_id: 7065
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
-summary: |-
-  memory usage

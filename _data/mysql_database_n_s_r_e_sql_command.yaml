@@ -1,8 +1,0 @@
-commandlinefu_id: 1641
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mysql DATABASE -N -s -r -e 'SQL COMMAND'
-summary: |-
-  raw MySQL output to use in pipes

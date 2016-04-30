@@ -1,8 +1,0 @@
-commandlinefu_id: 6959
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qdbus org.kde.powerdevil /modules/powerdevil setProfile <Profilename>
-summary: |-
-  Set KDE4's Power Devil daemon power policy profiles

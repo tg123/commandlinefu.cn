@@ -1,8 +1,0 @@
-commandlinefu_id: 4684
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dmd () { ( if [ "$1"x != "x" ]; then cd $1; fi; mkdir `date +%Y%m%d` ) }
-summary: |-
-  Shell function to create a directory named with the current date, in the format YYYYMMDD.

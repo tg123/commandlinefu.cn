@@ -1,8 +1,0 @@
-commandlinefu_id: 9432
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lower() { echo ${@,,}; }
-summary: |-
-  Convert text to lowercase

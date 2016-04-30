@@ -1,8 +1,0 @@
-commandlinefu_id: 1618
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xvidcap --file filename.mpeg --fps 15 --cap_geometry 1680x1050+0+0 --rescale 25 --time 200.0 --start_no 0 --continue yes --gui no --auto
-summary: |-
-  Record your desktop

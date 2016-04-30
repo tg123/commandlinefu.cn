@@ -1,7 +1,0 @@
-commandlinefu_id: 10331
-translator:
-  weibo: tgic
-command: |-
-  git log --name-status --author="[The Author's Name]"
-summary: |-
-  显示某个作者的提交

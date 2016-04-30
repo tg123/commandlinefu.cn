@@ -1,8 +1,0 @@
-commandlinefu_id: 1916
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep -ci ^[aoeuidhtns-]+$ /usr/share/dict/words
-summary: |-
-  Show the power of the home row on the Dvorak Keyboard layout

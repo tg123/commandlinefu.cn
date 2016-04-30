@@ -1,7 +1,0 @@
-commandlinefu_id: 3089
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  script -f /dev/pts/3
-summary: |-
-  终端重定向

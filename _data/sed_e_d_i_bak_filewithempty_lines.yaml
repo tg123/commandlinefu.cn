@@ -1,8 +1,0 @@
-commandlinefu_id: 8156
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sed -e '/^$/d' -i.bak filewithempty.lines
-summary: |-
-  清除空行（带备份）

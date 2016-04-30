@@ -1,7 +1,0 @@
-commandlinefu_id: 13311
-translator:
-  weibo: 'gdqyn'
-command: |-
-  command_line 2>&1 | tee -a output_file
-summary: |-
-  重定向STDOUT和STDERR到STDOUT同时输出到一个文件

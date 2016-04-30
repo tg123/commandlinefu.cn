@@ -1,8 +1,0 @@
-commandlinefu_id: 7167
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '{if ($1~/Sun|Mon|Tue|Wed|Thu|Fri|Sat/)  {DATE=$2" "$3" "$4" "$5 } else {print DATE"|"$0}}' alterorcl.log
-summary: |-
-  Handling oracle alter log file

@@ -1,8 +1,0 @@
-commandlinefu_id: 12859
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -name .git -prune -o -type f -exec md5sum {} \; | sort -k2 | md5sum
-summary: |-
-  Create md5sum of a directory

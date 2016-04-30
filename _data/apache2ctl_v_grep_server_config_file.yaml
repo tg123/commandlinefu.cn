@@ -1,8 +1,0 @@
-commandlinefu_id: 8583
-translator:
-  weibo: ''
-hide: true
-command: |-
-  apache2ctl -V | grep SERVER_CONFIG_FILE
-summary: |-
-  Apache server config file

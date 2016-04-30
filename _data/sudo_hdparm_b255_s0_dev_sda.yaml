@@ -1,8 +1,0 @@
-commandlinefu_id: 14105
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo hdparm -B255 -S0 /dev/sda
-summary: |-
-  Prevent aggressive Hdd spindown in Laptop battery powered

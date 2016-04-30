@@ -1,8 +1,0 @@
-commandlinefu_id: 4853
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdftotext [file] - | grep 'YourPattern'
-summary: |-
-  GREP a PDF file.

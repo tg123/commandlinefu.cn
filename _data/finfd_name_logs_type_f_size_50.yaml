@@ -1,8 +1,0 @@
-commandlinefu_id: 13663
-translator:
-  weibo: ''
-hide: true
-command: |-
-  finfd./ -name logs -type f -size 50
-summary: |-
-  finf ./ -name logs -type f -size 50

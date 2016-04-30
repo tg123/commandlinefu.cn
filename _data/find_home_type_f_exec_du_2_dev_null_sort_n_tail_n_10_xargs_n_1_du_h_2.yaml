@@ -1,7 +1,0 @@
-commandlinefu_id: 6993
-translator:
-  weibo: 'codepiano'
-command: |-
-  find /home/ -type f -exec du {} \; 2>/dev/null | sort -n | tail -n 10 | xargs -n 1 du -h 2>/dev/null
-summary: |-
-  找出/home/目录下占用磁盘空间最大的10个文件

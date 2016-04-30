@@ -1,8 +1,0 @@
-commandlinefu_id: 13690
-translator:
-  weibo: ''
-hide: true
-command: |-
-  Show syscalls for parent and all child threads with execution time
-summary: |-
-  strace -T -f -p <PID>

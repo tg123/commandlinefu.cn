@@ -1,8 +1,0 @@
-commandlinefu_id: 1661
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '{sum+=$1; sumsq+=$1*$1} END {print sqrt(sumsq/NR - (sum/NR)**2)}' file.dat
-summary: |-
-  Display the standard deviation of a column of numbers with awk

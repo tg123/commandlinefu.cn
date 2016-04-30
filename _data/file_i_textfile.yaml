@@ -1,8 +1,0 @@
-commandlinefu_id: 3381
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  file -i <textfile>
-summary: |-
-  查看文件编码

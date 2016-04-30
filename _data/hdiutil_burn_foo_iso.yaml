@@ -1,8 +1,0 @@
-commandlinefu_id: 4923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hdiutil burn foo.iso
-summary: |-
-  Burn an ISO on command line with hdiutil on mac

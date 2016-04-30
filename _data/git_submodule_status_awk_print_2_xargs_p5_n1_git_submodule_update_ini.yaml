@@ -1,7 +1,0 @@
-commandlinefu_id: 10932
-translator:
-  weibo: tgic
-command: |-
-  git submodule status | awk '{print $2}' | xargs -P5 -n1 git submodule update --init
-summary: |-
-  并发更新git submodule 

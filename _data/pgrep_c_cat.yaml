@@ -1,8 +1,0 @@
-commandlinefu_id: 6644
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pgrep -c cat
-summary: |-
-  count how many cat processes are running

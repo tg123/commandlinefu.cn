@@ -1,7 +1,0 @@
-commandlinefu_id: 10702
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cal 04 2012 | awk 'NF <= 7 { print $7 }' | grep -v "^$" | tail -1
-summary: |-
-  获取给定月份的最后一个星期六的日期

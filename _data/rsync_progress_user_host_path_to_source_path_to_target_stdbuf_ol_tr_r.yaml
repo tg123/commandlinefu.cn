@@ -1,8 +1,0 @@
-commandlinefu_id: 12093
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync --progress user@host:/path/to/source /path/to/target/ | stdbuf -oL tr '\r' '\n' >> rsyncprogress.txt
-summary: |-
-  make rsync progress output suitable for shell script reading

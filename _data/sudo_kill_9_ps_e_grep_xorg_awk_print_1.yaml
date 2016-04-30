@@ -1,7 +1,0 @@
-commandlinefu_id: 13437
-translator:
-  weibo: particle128
-command: |-
-  pkill X
-summary: |-
-  杀死X Server

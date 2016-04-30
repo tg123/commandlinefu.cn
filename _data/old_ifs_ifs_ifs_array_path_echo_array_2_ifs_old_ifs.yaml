@@ -1,8 +1,0 @@
-commandlinefu_id: 1157
-translator:
-  weibo: ''
-hide: true
-command: |-
-  OLD_IFS="$IFS"; IFS=: ARRAY=($PATH); echo ${ARRAY[2]}; IFS="$OLD_IFS"
-summary: |-
-  split a string (3)

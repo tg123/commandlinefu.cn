@@ -1,7 +1,0 @@
-commandlinefu_id: 4942
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ffmpeg -r 24 -i %04d.png  -i INPUTSOUND -r 24 -aspect 16:9 -s 1920x1080 -vcodec libx264 -vpre hq -acodec ac3 -b 40000k -shortest -threads 0 OUTFILE.mp4
-summary: |-
-  将PNG文件编码成蓝光格式

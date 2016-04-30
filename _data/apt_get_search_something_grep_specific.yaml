@@ -1,7 +1,0 @@
-commandlinefu_id: 6662
-translator:
-  weibo: titikaka723 
-command: |-
-  apt-get search something | grep specific
-summary: |-
-  在命令库中搜索制定命令 

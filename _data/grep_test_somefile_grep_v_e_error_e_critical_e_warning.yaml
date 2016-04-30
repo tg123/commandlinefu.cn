@@ -1,7 +1,0 @@
-commandlinefu_id: 3881
-translator:
-  weibo: tgic
-command: |-
-  grep test somefile | grep -v -e error -e critical -e warning
-summary: |-
-  多个pattern的grep

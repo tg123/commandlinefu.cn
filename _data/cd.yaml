@@ -1,7 +1,0 @@
-commandlinefu_id: 8769
-translator:
-  weibo: tgic
-command: |-
-  cd -
-summary: |-
-  回到刚才的目录

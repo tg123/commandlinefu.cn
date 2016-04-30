@@ -1,8 +1,0 @@
-commandlinefu_id: 10073
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for HOSTTOREMOVE in $(dig +short host.domain.tld); do ssh-keygen -qR $HOSTTOREMOVE; done
-summary: |-
-  Remove invalid key from the known_hosts file for the IP address of a host

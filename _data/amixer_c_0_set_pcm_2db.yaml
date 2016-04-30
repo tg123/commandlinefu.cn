@@ -1,7 +1,0 @@
-commandlinefu_id: 1160
-translator:
-  weibo: tgic
-command: |-
-  amixer -c 0 set PCM 2dB+
-summary: |-
-  命令行调节音量

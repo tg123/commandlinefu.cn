@@ -1,8 +1,0 @@
-commandlinefu_id: 177
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -e '$b="bork"; while(<STDIN>){$l=`$_ 2>&1`; $l=~s/[A-Za-z]+/$b/g; print "$l$b\@$b:\$ ";}'
-summary: |-
-  Translate your terminal into Swedish Chef

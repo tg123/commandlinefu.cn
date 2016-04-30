@@ -1,8 +1,0 @@
-commandlinefu_id: 9802
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /usr/include/ -name '*.[c|h]pp' -o -name '*.[ch]' -exec cat {} \;|wc -l
-summary: |-
-  Counting the source code's line numbers C/C++ Java

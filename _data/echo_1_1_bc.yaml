@@ -1,8 +1,0 @@
-commandlinefu_id: 6275
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "1+1" | bc
-summary: |-
-  calculate in commandline with bc

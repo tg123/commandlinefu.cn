@@ -1,8 +1,0 @@
-commandlinefu_id: 7331
-translator:
-  weibo: ''
-hide: true
-command: |-
-  unhide (proc|sys|brute)
-summary: |-
-  Forensic tool to find hidden processes and ports

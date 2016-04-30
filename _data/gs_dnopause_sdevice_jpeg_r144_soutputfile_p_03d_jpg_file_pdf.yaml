@@ -1,7 +1,0 @@
-commandlinefu_id: 4466
-translator:
-  weibo: codepiano
-command: |-
-  gs -dNOPAUSE -sDEVICE=jpeg -r144 -sOutputFile=p%03d.jpg file.pdf
-summary: |-
-  使用Ghostscript转换PDF为JPEG

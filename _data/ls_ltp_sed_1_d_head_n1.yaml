@@ -1,7 +1,0 @@
-commandlinefu_id: 9499
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -ltp | sed '1 d' | head -n1
-summary: |-
-  显示该文件夹下修改时间最新的文件

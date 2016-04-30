@@ -1,8 +1,0 @@
-commandlinefu_id: 13049
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd ~/wallpapers; feh --bg-fill "$( ls | sort -R | head -n 1 )"
-summary: |-
-  Grabs a random image from "~/wallpapers" and sets as the background

@@ -1,7 +1,0 @@
-commandlinefu_id: 6023
-translator:
-  weibo: tgic
-command: |-
-  sed -n '/regex/,$p' filename
-summary: |-
-  打印从第一次 匹配 到文件结束的内容

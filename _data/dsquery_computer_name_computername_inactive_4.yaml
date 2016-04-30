@@ -1,8 +1,0 @@
-commandlinefu_id: 13038
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dsquery computer -name COMPUTERNAME -inactive 4
-summary: |-
-  List of computers not logged into in more than four weeks

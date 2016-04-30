@@ -1,8 +1,0 @@
-commandlinefu_id: 8882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias cd1='cd $( ls -1t | grep ^d | head -1)'
-summary: |-
-  cd into the latest directory

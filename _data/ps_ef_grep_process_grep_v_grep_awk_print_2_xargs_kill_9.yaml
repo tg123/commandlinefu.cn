@@ -1,8 +1,0 @@
-commandlinefu_id: 1138
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps -ef | grep PROCESS | grep -v grep | awk '{print $2}' | xargs kill -9
-summary: |-
-  ps -ef | grep PROCESS | grep -v grep | awk '{print $2}' | xargs kill -9

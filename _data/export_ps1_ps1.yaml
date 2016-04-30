@@ -1,7 +1,0 @@
-commandlinefu_id: 7125
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  export PS1="(\@) $PS1"
-summary: |-
-  在Bash提示符前添加时间

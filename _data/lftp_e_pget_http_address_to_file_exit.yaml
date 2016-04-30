@@ -1,8 +1,0 @@
-commandlinefu_id: 12142
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lftp -e 'pget http://address_to_file; exit; '
-summary: |-
-  Internet Speed Test

@@ -1,7 +1,0 @@
-commandlinefu_id: 13791
-translator:
-  weibo: tgic
-command: |-
-  find -type f -exec ffmpeg -i "{}" "{}".mp3 \;
-summary: |-
-  转换所有文件到mp3格式

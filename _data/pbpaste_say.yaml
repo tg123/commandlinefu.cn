@@ -1,8 +1,0 @@
-commandlinefu_id: 13986
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pbpaste | say
-summary: |-
-  In Mac OS X, read the copy area (CMD + V) and convert text to audible speech

@@ -1,8 +1,0 @@
-commandlinefu_id: 12999
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git status -s | grep -o ' \S*php$' | while read f; do php -l $f; done
-summary: |-
-  Lint Git unstaged PHP files

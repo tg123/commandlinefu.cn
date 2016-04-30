@@ -1,8 +1,0 @@
-commandlinefu_id: 3027
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv -vi file{,~}
-summary: |-
-  add a backup (or any other) suffix to a file

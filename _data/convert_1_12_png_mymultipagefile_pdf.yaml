@@ -1,7 +1,0 @@
-commandlinefu_id: 12089
-translator:
-  weibo: particle128
-command: |-
-  convert {1..12}.png MyMultiPageFile.pdf
-summary: |-
-  把多个图片转换成多页的PDF（以特定的页面顺序）

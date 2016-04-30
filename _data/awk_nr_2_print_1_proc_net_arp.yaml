@@ -1,7 +1,0 @@
-commandlinefu_id: 4231
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'NR==2 {print $1}' /proc/net/arp
-summary: |-
-  路由IP地址 

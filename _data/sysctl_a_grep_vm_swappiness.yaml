@@ -1,8 +1,0 @@
-commandlinefu_id: 4323
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sysctl -a | grep vm.swappiness
-summary: |-
-  Find the ratio between ram usage and swap usage.

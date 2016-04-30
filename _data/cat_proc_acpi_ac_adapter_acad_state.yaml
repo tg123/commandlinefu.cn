@@ -1,8 +1,0 @@
-commandlinefu_id: 5807
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /proc/acpi/ac_adapter/ACAD/state
-summary: |-
-  Check whether laptop is running on battery or cable

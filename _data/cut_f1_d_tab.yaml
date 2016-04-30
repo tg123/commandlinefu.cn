@@ -1,7 +1,0 @@
-commandlinefu_id: 8414
-translator:
-  weibo: '猪了个去'
-command: |-
-  cut -f1 -d"<TAB>"
-summary: |-
-  去掉tab或者其他的空格字符

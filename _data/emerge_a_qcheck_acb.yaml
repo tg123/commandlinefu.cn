@@ -1,8 +1,0 @@
-commandlinefu_id: 13602
-translator:
-  weibo: ''
-hide: true
-command: |-
-  emerge -a `qcheck -aCB`
-summary: |-
-  Re-emerge all ebuilds with missing files (Gentoo Linux)

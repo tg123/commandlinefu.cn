@@ -1,7 +1,0 @@
-commandlinefu_id: 5679
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'BEGIN{ORS=""}NR!=1&&FNR==1{print "\n"}{print}END{print "\n"}' *.txt
-summary: |-
-  将每行数据写入到一个文件中 

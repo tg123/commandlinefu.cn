@@ -1,7 +1,0 @@
-commandlinefu_id: 8950
-translator:
-  weibo: tgic
-command: |-
-  echo -e ${PATH//:/\\n}
-summary: |-
-  显示PATH中的目录

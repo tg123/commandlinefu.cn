@@ -1,7 +1,0 @@
-commandlinefu_id: 11164
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  mencoder YOUR_VIDEO.MTS -ovc xvid -xvidencopts bitrate=5000:pass=2 -demuxer lavf -sws 3  -mc 0 -fps 25 -ofps 50 -oac mp3lame -lameopts cbr:br=128 -o YOUR_VIDEO.avi
-summary: |-
-  将MTS视频文件格式转换成xvid/mp3编码的avi格式

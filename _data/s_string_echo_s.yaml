@@ -1,7 +1,0 @@
-commandlinefu_id: 6311
-translator:
-  weibo: tgic
-command: |-
-  s="StrinG"; echo ${s,,}
-summary: |-
-  转换大写字母为小写

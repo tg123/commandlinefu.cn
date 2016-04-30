@@ -1,7 +1,0 @@
-commandlinefu_id: 12047
-translator:
-  weibo: tgic
-command: |-
-  lsof -i -P +c 0 +M | grep -i "$1"
-summary: |-
-  查找活动网络链接

@@ -1,7 +1,0 @@
-commandlinefu_id: 11389
-translator:
-  weibo: tgic
-command: |-
-  alias pp='python -mjson.tool | pygmentize -l javascript'
-summary: |-
-  用python 格式化 JSON

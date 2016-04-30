@@ -1,8 +1,0 @@
-commandlinefu_id: 1243
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sort -nt . -k 1,1 -k 2,2 -k 3,3 -k 4,4
-summary: |-
-  Sort dotted quads

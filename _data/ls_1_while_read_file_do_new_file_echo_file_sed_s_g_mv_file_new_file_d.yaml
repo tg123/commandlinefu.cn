@@ -1,7 +1,0 @@
-commandlinefu_id: 12360
-translator:
-  weibo: tgic
-command: |-
-  ls -1 | while read file; do new_file=$(echo $file | sed s/\ /_/g); mv "$file" "$new_file"; done
-summary: |-
-  文件名空格转换成下划线

@@ -1,7 +1,0 @@
-commandlinefu_id: 2111
-translator:
-  weibo: tgic
-command: |-
-  for i in {1..5}; do cp test{,$i};done
-summary: |-
-  创建文件的记份拷贝

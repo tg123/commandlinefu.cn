@@ -1,8 +1,0 @@
-commandlinefu_id: 10589
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn stat | grep ^\! | awk '{print $2}' | xargs svn del
-summary: |-
-  Remove all missing SVN files from the repository

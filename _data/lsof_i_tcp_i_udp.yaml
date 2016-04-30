@@ -1,7 +1,0 @@
-commandlinefu_id: 3711
-translator:
-  weibo: tgic
-command: |-
-  lsof -i tcp -i udp
-summary: |-
-  查看开启的端口

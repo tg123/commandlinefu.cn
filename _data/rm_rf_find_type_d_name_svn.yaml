@@ -1,8 +1,0 @@
-commandlinefu_id: 763
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm -rf `find . -type d -name .svn`
-summary: |-
-  Remove all subversion files from a project recursively

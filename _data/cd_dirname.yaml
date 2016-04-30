@@ -1,7 +1,0 @@
-commandlinefu_id: 2919
-translator:
-  weibo: '猪了个去'
-command: |-
-  cd `dirname $_`
-summary: |-
-  前往上一条命令中包含的文件的父目录

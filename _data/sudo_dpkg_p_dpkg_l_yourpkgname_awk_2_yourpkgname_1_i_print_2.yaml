@@ -1,8 +1,0 @@
-commandlinefu_id: 13620
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo dpkg -P $(dpkg -l yourPkgName* | awk '$2 ~ /yourPkgName.*/ && $1 ~ /.i/ {print $2}')
-summary: |-
-  dpkg: purge all packages matching some name

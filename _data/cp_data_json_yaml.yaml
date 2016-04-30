@@ -1,8 +1,0 @@
-commandlinefu_id: 12230
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp data.{json,yaml}
-summary: |-
-  Convert JSON to YAML

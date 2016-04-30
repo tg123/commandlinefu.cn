@@ -1,8 +1,0 @@
-commandlinefu_id: 10777
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vbetool dpms [on|off|standby]
-summary: |-
-  Turn your monitor on or off or put into standby from the command line.

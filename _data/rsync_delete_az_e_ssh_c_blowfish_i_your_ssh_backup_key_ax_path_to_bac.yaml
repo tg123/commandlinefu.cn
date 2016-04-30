@@ -1,8 +1,0 @@
-commandlinefu_id: 5347
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync --delete -az -e 'ssh -c blowfish -i /your/.ssh/backup_key -ax' /path/to/backup remote-host:/dest/path/
-summary: |-
-  remote backups with rsync

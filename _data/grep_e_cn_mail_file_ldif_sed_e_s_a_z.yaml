@@ -1,8 +1,0 @@
-commandlinefu_id: 4689
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -E '^(cn|mail):' file.ldif | sed -e 's/^[a-z]*: //'
-summary: |-
-  Extract names and email addresses from LDIF files

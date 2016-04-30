@@ -1,8 +1,0 @@
-commandlinefu_id: 5021
-translator:
-  weibo: ''
-hide: true
-command: |-
-  flac -cd input.flac |lame -h - output.mp3
-summary: |-
-  convert flac to mp3

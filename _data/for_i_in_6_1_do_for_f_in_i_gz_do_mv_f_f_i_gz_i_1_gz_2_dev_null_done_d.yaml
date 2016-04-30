@@ -1,8 +1,0 @@
-commandlinefu_id: 8313
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {6..1} ; do for f in *.$i.gz ; do mv "$f" "${f/.$i.gz}".$((i+1)).gz 2> /dev/null ; done; done
-summary: |-
-  File rotation without rename command

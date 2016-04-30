@@ -1,8 +1,0 @@
-commandlinefu_id: 2631
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof |awk ' {if ( $0 ~ /home/) print substr($0, index($0,"/home") ) }'|cut -d / -f 1-4|sort|uniq -c|sort -bgr
-summary: |-
-  find out which directories in /home have the most files currently open

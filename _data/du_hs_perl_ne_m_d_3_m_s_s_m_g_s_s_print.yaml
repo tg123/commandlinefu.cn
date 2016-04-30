@@ -1,7 +1,0 @@
-commandlinefu_id: 1686
-translator:
-  weibo: tgic
-command: |-
-  du -hS / | perl -ne '(m/\d{3,}M\s+\S/ || m/G\s+\S/) && print'
-summary: |-
-  查找大于99M的 目录

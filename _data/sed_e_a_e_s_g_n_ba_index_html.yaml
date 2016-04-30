@@ -1,7 +1,0 @@
-commandlinefu_id: 3014
-translator:
-  weibo: titikaka723 
-command: |-
-  sed -e :a -e 's/<[^>]*>//g;/</N;//ba' index.html
-summary: |-
-  用正则表达式删除文件中的html元素 

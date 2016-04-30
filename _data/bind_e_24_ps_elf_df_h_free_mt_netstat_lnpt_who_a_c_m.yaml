@@ -1,8 +1,0 @@
-commandlinefu_id: 2477
-translator:
-  weibo: ''
-hide: true
-command: |-
-  bind '"\e[24~"':"\"ps -elF;df -h;free -mt;netstat -lnpt;who -a\C-m"""
-summary: |-
-  Create a system overview dashboard on F12 key

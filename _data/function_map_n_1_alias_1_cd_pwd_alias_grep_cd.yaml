@@ -1,8 +1,0 @@
-commandlinefu_id: 11750
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function map() { [ -n "$1" ] && alias $1="cd `pwd`" || alias | grep "'cd "; }
-summary: |-
-  Quickly create an alias for changing into the current directory

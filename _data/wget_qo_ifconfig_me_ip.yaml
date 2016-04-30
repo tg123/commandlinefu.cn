@@ -1,8 +1,0 @@
-commandlinefu_id: 6250
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -qO- ifconfig.me/ip
-summary: |-
-  What is my public IP-address?

@@ -1,8 +1,0 @@
-commandlinefu_id: 147
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dump 0f - / | bzip -c9 | ssh user@host "cat > /home/user/root.dump.bz2"
-summary: |-
-  Dump root ext3 fs over ssh

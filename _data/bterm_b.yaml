@@ -1,7 +1,0 @@
-commandlinefu_id: 1891
-translator:
-  weibo: codepiano
-command: |-
-  \bTERM\b
-summary: |-
-  在less中搜索单词

@@ -1,8 +1,0 @@
-commandlinefu_id: 10476
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | awk '$11!~/\[*\]/ {print $6/1024" Mb --> "$11,$12,$13,$14}' | sort -g
-summary: |-
-  "What the hell is running on?!" Easily snoop your system's RAM consumption

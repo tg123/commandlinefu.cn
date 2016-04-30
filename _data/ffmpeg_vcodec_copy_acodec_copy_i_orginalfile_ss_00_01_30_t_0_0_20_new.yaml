@@ -1,7 +1,0 @@
-commandlinefu_id: 1499
-translator:
-  weibo: codepiano
-command: |-
-  ffmpeg -vcodec copy -acodec copy -i orginalfile -ss 00:01:30 -t 0:0:20 newfile
-summary: |-
-  从电影文件中剪辑出片段，选择任意的长度和开始时间

@@ -1,8 +1,0 @@
-commandlinefu_id: 12648
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias timer='export ts=$(date +%s);p='\''$(date -u -d @"$(($(date +%s)-$ts))" +"%H.%M.%S")'\'';watch -n 1 -t banner $p;eval "echo $p"'
-summary: |-
-  A bash timer

@@ -1,8 +1,0 @@
-commandlinefu_id: 2183
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /sbin/dumpe2fs /dev/hda2 | grep 'Block size'
-summary: |-
-  How to Find the Block Size

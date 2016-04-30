@@ -1,7 +1,0 @@
-commandlinefu_id: 5794
-translator:
-  weibo: tgic
-command: |-
-  cowsay `fortune` | toilet --gay -f term
-summary: |-
-  更奇妙的 Cowsay/Fortune

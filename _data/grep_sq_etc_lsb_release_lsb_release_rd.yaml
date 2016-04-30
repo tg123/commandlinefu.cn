@@ -1,7 +1,0 @@
-commandlinefu_id: 853
-translator:
-  weibo: codepiano
-command: |-
-  grep -sq "" /etc/lsb-release && lsb_release -rd
-summary: |-
-  如果文件存在，执行一条命令

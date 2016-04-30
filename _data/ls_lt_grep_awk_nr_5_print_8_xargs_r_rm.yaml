@@ -1,8 +1,0 @@
-commandlinefu_id: 3509
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -lt|grep ^-|awk 'NR>5 { print $8 }'|xargs -r rm
-summary: |-
-  Delete all but the latest 5 files, ignoring directories

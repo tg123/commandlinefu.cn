@@ -1,7 +1,0 @@
-commandlinefu_id: 6137
-translator:
-  weibo: tgic
-command: |-
-  find . -name '*.txt' | grep -v '\.lzma$' | xargs -n 1 lzma -f -v -3
-summary: |-
-  用 lzma 重新压缩

@@ -1,8 +1,0 @@
-commandlinefu_id: 7805
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rmall_but() { declare -A keep;for arg;do keep[${arg%/}]=1;done;for file in *;do [[ ${keep[$file]} ]] || rm -rf "$file";done; }
-summary: |-
-  Using associative array to remove all files and directories under PWD except "$1", "$2", "$3",..."$n"

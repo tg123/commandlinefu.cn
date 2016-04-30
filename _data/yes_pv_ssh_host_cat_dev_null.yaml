@@ -1,8 +1,0 @@
-commandlinefu_id: 4434
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yes | pv | ssh $host "cat > /dev/null"
-summary: |-
-  live ssh network throughput test

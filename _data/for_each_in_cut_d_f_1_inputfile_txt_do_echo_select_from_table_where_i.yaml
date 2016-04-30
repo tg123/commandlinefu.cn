@@ -1,8 +1,0 @@
-commandlinefu_id: 3589
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for each in `cut -d " " -f 1 inputfile.txt`; do echo "select * from table where id = \"$each\";"; done
-summary: |-
-  create SQL-statements from textfile with awk

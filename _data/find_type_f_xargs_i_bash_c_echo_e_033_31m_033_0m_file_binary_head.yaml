@@ -1,7 +1,0 @@
-commandlinefu_id: 11209
-translator:
-  weibo: tgic
-command: |-
-  find . -type f | xargs -I% bash -c 'echo -e "\033[31m%\033[0m" && [[ ! `file %` =~ .*binary.* ]] && head "%"'
-summary: |-
-  预览目录

@@ -1,8 +1,0 @@
-commandlinefu_id: 8332
-translator:
-  weibo: ''
-hide: true
-command: |-
-  v () { ( IFS=$'\n'; suf="_versions"; mkdir -p "$1$suf"; nr=`ls "$1$suf" | wc -l`; nr=`printf "%02d" $(($nr + 1))`; cp "$1" "$1$suf/v${nr}_$1" ) }
-summary: |-
-  Quick and dirty version control for one file

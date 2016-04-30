@@ -1,7 +1,0 @@
-commandlinefu_id: 11664
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo dmidecode | grep Product
-summary: |-
-  测试你是在一台Linux虚拟机上还是在实体机上

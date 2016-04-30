@@ -1,7 +1,0 @@
-commandlinefu_id: 4499
-translator:
-  weibo: tgic
-command: |-
-  perl -le'print"-"x50'
-summary: |-
-  输出50个-

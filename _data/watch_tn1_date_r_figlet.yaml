@@ -1,7 +1,0 @@
-commandlinefu_id: 5893
-translator:
-  weibo: tgic
-command: |-
-  watch -tn1 'date +%r | figlet'
-summary: |-
-  时钟

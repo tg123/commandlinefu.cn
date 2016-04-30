@@ -1,7 +1,0 @@
-commandlinefu_id: 13252
-translator:
-  weibo: tgic
-command: |-
-  find . -name "*.txt" -exec WHATEVER_COMMAND {} \;
-summary: |-
-  解决通配符提示 Arguments too long 一种方法

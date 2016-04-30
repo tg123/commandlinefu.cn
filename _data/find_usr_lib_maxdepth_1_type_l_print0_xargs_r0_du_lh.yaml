@@ -1,8 +1,0 @@
-commandlinefu_id: 1383
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /usr/lib -maxdepth 1 -type l -print0  | xargs -r0 du -Lh
-summary: |-
-  Show the disk usage for files pointed by symbolic link in a directory

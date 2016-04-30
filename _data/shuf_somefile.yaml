@@ -1,8 +1,0 @@
-commandlinefu_id: 6591
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shuf SOMEFILE
-summary: |-
-  Randomize lines in a file

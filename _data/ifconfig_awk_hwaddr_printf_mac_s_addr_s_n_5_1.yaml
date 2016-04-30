@@ -1,8 +1,0 @@
-commandlinefu_id: 13693
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | awk '/HWaddr/ {printf "mac: %s addr: %s\n", $5, $1}'
-summary: |-
-  Print the IP address and the Mac address in the same line

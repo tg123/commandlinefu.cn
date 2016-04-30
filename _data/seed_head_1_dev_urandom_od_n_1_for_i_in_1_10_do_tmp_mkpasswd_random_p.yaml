@@ -1,8 +1,0 @@
-commandlinefu_id: 10950
-translator:
-  weibo: ''
-hide: true
-command: |-
-  SEED=$(head -1 /dev/urandom|od -N 1);for i in {1..10};do tmp=$(mkpasswd ${RANDOM});pass=${tmp:2:6};echo Pass $pass Crypt: $(mkpasswd $pass);done
-summary: |-
-  Show 10 6 characters pass and crypt(3) *if you like

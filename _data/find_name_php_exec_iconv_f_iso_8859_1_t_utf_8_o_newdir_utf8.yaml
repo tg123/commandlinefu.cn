@@ -1,8 +1,0 @@
-commandlinefu_id: 629
-translator:
-  weibo: 'dbalex'
-command: |-
-  find . -name "*.php" -exec iconv -f ISO-8859-1 -t UTF-8 {} -o ../newdir_utf8/{} \;
-summary: |-
-  Batch convert files to utf-8
-  批量修改文件编码，从ISO-8859-1修改为utf-8

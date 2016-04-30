@@ -1,8 +1,0 @@
-commandlinefu_id: 7228
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | sed -ne 's/^.*inet \(addr:\)*\([^ ]*\).*/\2/;te' -e 'd;:e' -e '/^127\./d;p'
-summary: |-
-  Get your local IP regardless of your network interface

@@ -1,8 +1,0 @@
-commandlinefu_id: 8193
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setxkbmap it
-summary: |-
-  Set keyboard layout in X

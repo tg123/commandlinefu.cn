@@ -1,7 +1,0 @@
-commandlinefu_id: 12385
-translator:
-  weibo: tgic
-command: |-
-  date --set="$(ssh user@server 'date -u')"
-summary: |-
-  使用ssh同步时间

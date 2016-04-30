@@ -1,8 +1,0 @@
-commandlinefu_id: 3662
-translator:
-  weibo: ''
-hide: true
-command: |-
-  # for i in $(seq 1 25); do dd if=/dev/urandom of=<your disk> bs=1M ; done
-summary: |-
-  Securely destroy data on given device

@@ -1,8 +1,0 @@
-commandlinefu_id: 9238
-translator:
-  weibo: ''
-hide: true
-command: |-
-  schtasks /create /sc onlogon /tn "Run prog" /tr prog.exe
-summary: |-
-  autorun program when logon Windows XP

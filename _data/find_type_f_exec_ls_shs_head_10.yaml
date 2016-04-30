@@ -1,8 +1,0 @@
-commandlinefu_id: 11058
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -exec ls -shS {} + | head -10
-summary: |-
-  Find biggest 10 files in current and subdirectories and sort by file size

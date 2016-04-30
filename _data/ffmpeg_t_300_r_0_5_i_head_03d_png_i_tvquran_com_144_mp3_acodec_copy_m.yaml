@@ -1,8 +1,0 @@
-commandlinefu_id: 6757
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -t 300 -r '0.5' -i head-%03d.png -i ../TvQuran.com__144.mp3 -acodec copy muxed.flv
-summary: |-
-  Add an audio soundtrack to a series of images to create an flv

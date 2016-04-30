@@ -1,7 +1,0 @@
-commandlinefu_id: 11952
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  grep . filename >filename1
-summary: |-
-  移除空行

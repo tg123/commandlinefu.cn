@@ -1,7 +1,0 @@
-commandlinefu_id: 4477
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  (bzcat BZIP2_FILES && cat TEXT_FILES) | grep -E "Invalid user|PAM" | grep -o -E "from .+" | awk '{print $2}' | sort | uniq >> /etc/hosts.deny
-summary: |-
-  屏蔽掉所有尝试通过暴力法SSH登录到计算机的IP地址和域名

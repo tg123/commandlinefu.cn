@@ -1,7 +1,0 @@
-commandlinefu_id: 7848
-translator:
-  weibo: tgic
-command: |-
-  pev winappfile.exe
-summary: |-
-  查看PE(.exe)版本 

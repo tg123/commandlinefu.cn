@@ -1,8 +1,0 @@
-commandlinefu_id: 4157
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -pe 's/%([0-9a-f]{2})/sprintf("%s", pack("H2",$1))/eig'
-summary: |-
-  urldecoding

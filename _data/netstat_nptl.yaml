@@ -1,8 +1,0 @@
-commandlinefu_id: 4322
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -nptl
-summary: |-
-  List all TCP opened ports on localhost in LISTEN mode

@@ -1,7 +1,0 @@
-commandlinefu_id: 5326
-translator:
-  weibo: tgic
-command: |-
-  du -sh * | grep -v '\.\/\.'
-summary: |-
-  统计目录大小 不算隐藏文件夹

@@ -1,8 +1,0 @@
-commandlinefu_id: 8536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  i=0;while :; do i=$(expr "$i" + 1); scrot "$i".png; sleep 2; done;
-summary: |-
-  Take a screenshot every 2 seconds

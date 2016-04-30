@@ -1,8 +1,0 @@
-commandlinefu_id: 1056
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -n -e '/postfix\/smtp\[.*status=sent/s/^.*to=<\([^>]*\).*$/\1/p' /var/log/mail.log | sort -u
-summary: |-
-  Display email addresses that have been sent to by a postfix server since the last mail log rollover

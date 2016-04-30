@@ -1,8 +1,0 @@
-commandlinefu_id: 1291
-translator:
-  weibo: ''
-hide: true
-command: |-
-  less -r <some file>
-summary: |-
-  Read almost everything (Changelog.gz, .tgz, .deb, .png, .pdf, etc, etc....)

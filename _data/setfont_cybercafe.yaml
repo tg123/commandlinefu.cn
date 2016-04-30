@@ -1,8 +1,0 @@
-commandlinefu_id: 2139
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setfont cybercafe
-summary: |-
-  Change framebuffer font

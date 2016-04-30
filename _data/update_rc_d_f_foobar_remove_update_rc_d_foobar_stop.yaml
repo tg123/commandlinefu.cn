@@ -1,8 +1,0 @@
-commandlinefu_id: 10857
-translator:
-  weibo: ''
-hide: true
-command: |-
-  update-rc.d -f foobar remove && update-rc.d foobar stop
-summary: |-
-  disable services without uninstalling them

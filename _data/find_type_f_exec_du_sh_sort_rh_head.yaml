@@ -1,7 +1,0 @@
-commandlinefu_id: 7552
-translator:
-  weibo: tgic
-command: |-
-  find -type f -exec du -sh {} +  | sort -rh | head
-summary: |-
-  查找大文件

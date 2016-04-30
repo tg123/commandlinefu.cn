@@ -1,7 +1,0 @@
-commandlinefu_id: 9979
-translator:
-  weibo: tgic
-command: |-
-  ck-list-sessions
-summary: |-
-  查看所有X的DISPLAY变量

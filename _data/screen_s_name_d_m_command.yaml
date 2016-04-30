@@ -1,7 +1,0 @@
-commandlinefu_id: 11117
-translator:
-  weibo: tgic
-command: |-
-  screen -S [name] -d -m [<command>]
-summary: |-
-  创建screen 时候带一个别名

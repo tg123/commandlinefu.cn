@@ -1,8 +1,0 @@
-commandlinefu_id: 818
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "<?php phpinfo(); ?>" | php > phpinfo.txt
-summary: |-
-  phpinfo from the command line

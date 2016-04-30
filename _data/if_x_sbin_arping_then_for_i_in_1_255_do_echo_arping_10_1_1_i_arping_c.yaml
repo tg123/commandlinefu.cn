@@ -1,8 +1,0 @@
-commandlinefu_id: 7942
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if [ -x  /sbin/arping ] ; then for i in {1..255} ; do echo arping 10.1.1.$i ; arping -c 1 10.1.1.$i | grep reply ;    done ; fi
-summary: |-
-  ARP Scan

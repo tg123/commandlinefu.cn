@@ -1,7 +1,0 @@
-commandlinefu_id: 13469
-translator:
-  weibo: tgic
-command: |-
-  du -a | sort -nr | head -10
-summary: |-
-  统计当前目录下的磁盘利用

@@ -1,8 +1,0 @@
-commandlinefu_id: 11585
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ncftpget -u Us3r -p Passw0rd ftp.backups.com . 'site.com.tar.gz'
-summary: |-
-  Internet file transfer program for scripts that can be easily used to get files from a ftp

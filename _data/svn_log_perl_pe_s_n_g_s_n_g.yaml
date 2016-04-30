@@ -1,8 +1,0 @@
-commandlinefu_id: 9522
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log | perl -pe 's/\n//g => s/^-.*/\n/g'
-summary: |-
-  one-line log format for svn

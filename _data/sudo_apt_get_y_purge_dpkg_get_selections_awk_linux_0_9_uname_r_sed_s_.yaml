@@ -1,8 +1,0 @@
-commandlinefu_id: 8962
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get -y purge $(dpkg --get-selections | awk '((/^linux-/) && (/[0-9]\./) && (!/'"`uname -r | sed "s/-generic//g"`"'/)) {print $1}')
-summary: |-
-  Remove old kernels and header data in Ubuntu/Debian

@@ -1,7 +1,0 @@
-commandlinefu_id: 9000
-translator:
-  weibo: particle128
-command: |-
-  mkdir /home/foo/doc/bar && cd $_
-summary: |-
-  创建目录并且进入刚创建的目录

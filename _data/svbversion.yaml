@@ -1,8 +1,0 @@
-commandlinefu_id: 11558
-translator:
-  weibo: dbalex
-command: |-
-  svbversion .
-summary: |-
-  get the revision number of your svn working copy
-  获取当前的svn修订号

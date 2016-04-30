@@ -1,7 +1,0 @@
-commandlinefu_id: 1524
-translator:
-  weibo: tgic
-command: |-
-  for file in `find . -type f`; do cat $file; done | wc -l
-summary: |-
-  查看目录的文件的行数的和

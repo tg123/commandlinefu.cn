@@ -1,8 +1,0 @@
-commandlinefu_id: 1297
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp /some/path/to/myfile{,.back}
-summary: |-
-  cp the file

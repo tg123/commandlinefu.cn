@@ -1,8 +1,0 @@
-commandlinefu_id: 14143
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo -u admin GOPATH=/tmp GOBIN=/usr/local/opt/go/bin  go get -u golang.org/x/tools/cmd/... &&  sudo -u admin GOPATH=/tmp GOBIN=/usr/local/opt/go/bin go get -u github.com/tools/godep
-summary: |-
-  Install the Go commands in a central place

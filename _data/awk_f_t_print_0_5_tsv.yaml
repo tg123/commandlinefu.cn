@@ -1,7 +1,0 @@
-commandlinefu_id: 10754
-translator:
-  weibo: tgic
-command: |-
-  awk -F'\t' '{print $0 >>$5.tsv}'
-summary: |-
-  按第5行切分文件

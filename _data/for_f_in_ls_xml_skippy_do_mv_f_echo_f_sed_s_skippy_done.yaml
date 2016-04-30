@@ -1,7 +1,0 @@
-commandlinefu_id: 4096
-translator:
-  weibo: '猪了个去'
-command: |-
-  for f in $(ls *.xml.skippy); do mv $f `echo $f | sed 's|.skippy||'`; done
-summary: |-
-  移除文件夹中所有文件的文件名中,一个非必要的后缀

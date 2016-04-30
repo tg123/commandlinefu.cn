@@ -1,7 +1,0 @@
-commandlinefu_id: 5758
-translator:
-  weibo: codepiano
-command: |-
-  cowsay `fortune` | toilet --metal -f term
-summary: |-
-  获得色彩斑斓的命运！

@@ -1,8 +1,0 @@
-commandlinefu_id: 7271
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -iTCP -sTCP:ESTABLISHED | awk '{print $1}' | sort -u
-summary: |-
-  show all established tcp connections on os x

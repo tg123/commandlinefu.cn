@@ -1,7 +1,0 @@
-commandlinefu_id: 3947
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  path+=( /sbin /usr/sbin /usr/local/sbin ); path=( ${(u)path} );
-summary: |-
-  假如sbin目录尚未被添加到zsh的PATH中，现在就添加进去。

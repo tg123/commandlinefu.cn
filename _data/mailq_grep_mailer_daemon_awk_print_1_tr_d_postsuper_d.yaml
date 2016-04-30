@@ -1,8 +1,0 @@
-commandlinefu_id: 7141
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mailq | grep MAILER-DAEMON | awk '{print $1}' | tr -d '*' | postsuper -d -
-summary: |-
-  Delete Mailer-Daemon messages

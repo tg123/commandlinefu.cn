@@ -1,8 +1,0 @@
-commandlinefu_id: 324
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias nsl 'netstat -f inet | grep -v CLOSE_WAIT | cut -c-6,21-94 | tail +2'
-summary: |-
-  show all programs connected or listening on a network port

@@ -1,7 +1,0 @@
-commandlinefu_id: 3776
-translator:
-  weibo: tgic
-command: |-
-  echo $RANDOM$RANDOM$RANDOM |cut -c3-12
-summary: |-
-  随即数

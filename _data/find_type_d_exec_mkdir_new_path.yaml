@@ -1,8 +1,0 @@
-commandlinefu_id: 8853
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -exec mkdir /new/path/{} \;
-summary: |-
-  copy selected folder found recursively under src retaining the structure

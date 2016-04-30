@@ -1,8 +1,0 @@
-commandlinefu_id: 13799
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/oldname/newname/' /etc/hosts /etc/hostname
-summary: |-
-  Change host name

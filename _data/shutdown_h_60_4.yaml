@@ -1,7 +1,0 @@
-commandlinefu_id: 8385
-translator:
-  weibo: tgic
-command: |-
-  shutdown -h $((60 * 4))
-summary: |-
-  在4小时候关机

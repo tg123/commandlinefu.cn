@@ -1,7 +1,0 @@
-commandlinefu_id: 12852
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dd bs=1M if=/dev/scd0 of=./filename.iso OR readom -v dev='D:' f='./filename.iso' speed=2 retries=8
-summary: |-
-  从磁盘中创建一个CD/DVD的ISO镜像

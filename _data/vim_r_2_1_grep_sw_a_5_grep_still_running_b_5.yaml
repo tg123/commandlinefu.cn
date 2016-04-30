@@ -1,8 +1,0 @@
-commandlinefu_id: 5398
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim -r 2>&1 | grep '\.sw.' -A 5 | grep 'still running' -B 5
-summary: |-
-  Find all files currently open in Vim and/or gVim

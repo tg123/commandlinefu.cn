@@ -1,7 +1,0 @@
-commandlinefu_id: 671
-translator:
-  weibo: '猪了个去'
-command: |-
-  date -R -d @1234567890
-summary: |-
-  本地的Unix格式时间

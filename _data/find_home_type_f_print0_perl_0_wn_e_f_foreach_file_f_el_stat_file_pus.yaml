@@ -1,8 +1,0 @@
-commandlinefu_id: 3563
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find $HOME -type f -print0 | perl -0 -wn -e '@f=<>; foreach $file (@f){ (@el)=(stat($file)); push @el, $file; push @files,[ @el ];} @o=sort{$a->[9]<=>$b->[9]} @files; for $i (0..$#o){print scalar localtime($o[$i][9]), "\t$o[$i][-1]\n";}'|tail
-summary: |-
-  Find and display most recent files using find and perl

@@ -1,8 +1,0 @@
-commandlinefu_id: 6377
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  taskkill /F /im notepad.exe
-summary: |-
-  Windows 上 的kill

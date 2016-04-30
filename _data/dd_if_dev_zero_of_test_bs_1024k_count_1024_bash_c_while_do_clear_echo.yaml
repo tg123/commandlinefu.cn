@@ -1,7 +1,0 @@
-commandlinefu_id: 9059
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero of=test bs=1024k count=1024 & bash -c "while :; do clear;echo STATS FOR DD:;kill -USR1 $!; sleep 1; done"
-summary: |-
-  显示dd的状态

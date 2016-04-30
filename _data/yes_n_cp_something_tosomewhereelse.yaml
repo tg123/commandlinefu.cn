@@ -1,7 +1,0 @@
-commandlinefu_id: 6645
-translator:
-  weibo: tgic
-command: |-
-  yes n | cp something toSomeWhereElse
-summary: |-
-  是否覆盖时候自动选择不覆盖

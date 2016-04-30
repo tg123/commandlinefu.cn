@@ -1,7 +1,0 @@
-commandlinefu_id: 9869
-translator:
-  weibo: tgic
-command: |-
-  cat /etc/debian_version
-summary: |-
-  显示 debian 版本

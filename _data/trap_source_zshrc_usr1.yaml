@@ -1,8 +1,0 @@
-commandlinefu_id: 11469
-translator:
-  weibo: ''
-hide: true
-command: |-
-  trap "source ~/.zshrc" USR1
-summary: |-
-  Source zshrc/bashrc in all open terminals

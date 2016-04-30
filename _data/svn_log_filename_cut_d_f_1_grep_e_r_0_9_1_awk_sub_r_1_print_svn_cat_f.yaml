@@ -1,8 +1,0 @@
-commandlinefu_id: 2298
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log fileName|cut -d" " -f 1|grep -e "^r[0-9]\{1,\}$"|awk {'sub(/^r/,"",$1);print "svn cat fileName@"$1" > /tmp/fileName.r"$1'}|sh
-summary: |-
-  fetch all revisions of a specific file in an SVN repository

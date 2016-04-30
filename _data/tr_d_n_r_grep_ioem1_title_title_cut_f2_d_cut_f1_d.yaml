@@ -1,8 +1,0 @@
-commandlinefu_id: 5418
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -d "\n\r" | grep -ioEm1 "<title[^>]*>[^<]*</title" | cut -f2 -d\> | cut -f1 -d\<
-summary: |-
-  Extract title from HTML files

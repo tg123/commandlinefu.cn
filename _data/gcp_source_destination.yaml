@@ -1,8 +1,0 @@
-commandlinefu_id: 12560
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gcp [source] [destination]
-summary: |-
-  Copy with progress

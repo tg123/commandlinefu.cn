@@ -1,7 +1,0 @@
-commandlinefu_id: 7319
-translator:
-  weibo: tgic
-command: |-
-  rm !(file_to_keep_undeleted)
-summary: |-
-  删除除了某个文件之外的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 5631
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo vconfig add eth0 [VID]
-summary: |-
-  Use tagged vlans

@@ -1,7 +1,0 @@
-commandlinefu_id: 3802
-translator:
-  weibo: tgic
-command: |-
-  sed -n 5p <file>
-summary: |-
-  打印第5行

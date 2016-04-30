@@ -1,8 +1,0 @@
-commandlinefu_id: 11244
-translator:
-  weibo: ''
-hide: true
-command: |-
-  s() { screen -d -RR -m -S "$1" -t "$USER"@"$1" ssh "$1"; }
-summary: |-
-  Easy Persistent SSH Connections Using Screen

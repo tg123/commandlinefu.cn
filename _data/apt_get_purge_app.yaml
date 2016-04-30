@@ -1,7 +1,0 @@
-commandlinefu_id: 11304
-translator:
-  weibo: tgic
-command: |-
-  apt-get purge <app>
-summary: |-
-  干净卸载应用(deb)

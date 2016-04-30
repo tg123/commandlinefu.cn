@@ -1,7 +1,0 @@
-commandlinefu_id: 8692
-translator:
-  weibo: codepiano
-command: |-
-  cat /etc/issue
-summary: |-
-  显示Linux发行版的名称和版本

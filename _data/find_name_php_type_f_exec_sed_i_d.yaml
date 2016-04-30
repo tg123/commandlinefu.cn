@@ -1,8 +1,0 @@
-commandlinefu_id: 7257
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.php" -type f -exec sed -i "\$d" '{}' \;
-summary: |-
-  Remove last line from files recursively

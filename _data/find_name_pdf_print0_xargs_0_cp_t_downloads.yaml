@@ -1,7 +1,0 @@
-commandlinefu_id: 1473
-translator:
-  weibo: '猪了个去'
-command: |-
-  find . -name "*.pdf" -print0 | xargs -0 cp -t downloads/
-summary: |-
-  拷贝find寻找到的文件到指定目录(-t参数)

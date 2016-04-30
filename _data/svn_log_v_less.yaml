@@ -1,8 +1,0 @@
-commandlinefu_id: 4951
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn log -v | less
-summary: |-
-  Find out who change what files in a SVN repository

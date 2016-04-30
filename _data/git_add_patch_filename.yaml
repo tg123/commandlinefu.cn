@@ -1,8 +1,0 @@
-commandlinefu_id: 2946
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git add --patch <filename>
-summary: |-
-  Stage only portions of the changes to a file.

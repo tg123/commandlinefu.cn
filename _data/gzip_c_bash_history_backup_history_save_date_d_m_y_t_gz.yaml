@@ -1,8 +1,0 @@
-commandlinefu_id: 11753
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gzip -c ~/.bash_history > ~/.backup/history-save-$(date +\%d-\%m-\%y-\%T).gz
-summary: |-
-  backup your history

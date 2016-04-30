@@ -1,7 +1,0 @@
-commandlinefu_id: 7346
-translator:
-  weibo: tgic
-command: |-
-  rm -rf !(@(file1|file2|...))
-summary: |-
-  删除除了某些文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 1394
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /dir_name -mtime +5 -exec rm {} \
-summary: |-
-  Delete files older than..

@@ -1,7 +1,0 @@
-commandlinefu_id: 11808
-translator:
-  weibo: tgic
-command: |-
-  diffprocess () { diff <($*) <(sleep  3; $*); }
-summary: |-
-  对输出做diff

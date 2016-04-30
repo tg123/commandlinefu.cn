@@ -1,7 +1,0 @@
-commandlinefu_id: 8419
-translator:
-  weibo: tgic
-command: |-
-  :33,61 !sort
-summary: |-
-  在vim中排序特定的行 33-61行

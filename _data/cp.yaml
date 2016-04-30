@@ -1,7 +1,0 @@
-commandlinefu_id: 1505
-translator:
-  weibo: tgic
-command: |-
-  :!cp % %-
-summary: |-
-  在使用vi时候创建一个备份

@@ -1,8 +1,0 @@
-commandlinefu_id: 11685
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type l -exec test ! -e {} \; -delete
-summary: |-
-  Find broken symlinks and delete them

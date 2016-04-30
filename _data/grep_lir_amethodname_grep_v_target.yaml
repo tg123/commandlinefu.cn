@@ -1,7 +1,0 @@
-commandlinefu_id: 11380
-translator:
-  weibo: tgic
-command: |-
-  grep -lir 'aMethodName' * | grep -v 'target'
-summary: |-
-  查找一个关键词同时排除一个关键词

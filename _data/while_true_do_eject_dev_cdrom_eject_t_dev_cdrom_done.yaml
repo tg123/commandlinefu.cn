@@ -1,7 +1,0 @@
-commandlinefu_id: 592
-translator:
-  weibo: tgic
-command: |-
-  while true; do eject /dev/cdrom && eject -t /dev/cdrom; done
-summary: |-
-  弹出cdrom

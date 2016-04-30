@@ -1,7 +1,0 @@
-commandlinefu_id: 3527
-translator:
-  weibo: tgic
-command: |-
-  git diff --numstat | awk '{if ($1 == "0" && $2 == "0") print $3}'  | xargs git checkout HEAD
-summary: |-
-  只回滚文件的 mode 但不影响内容

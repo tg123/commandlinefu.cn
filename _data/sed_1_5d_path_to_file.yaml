@@ -1,8 +1,0 @@
-commandlinefu_id: 12601
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed '1,5d'  /path/to/file
-summary: |-
-  Removes lines [range] from file

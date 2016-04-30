@@ -1,7 +1,0 @@
-commandlinefu_id: 11944
-translator:
-  weibo: tgic
-command: |-
-  nmap -sP 192.168.0.* | grep Host | tr "(" ")" | cut -d\) -f2
-summary: |-
-  搜索主机

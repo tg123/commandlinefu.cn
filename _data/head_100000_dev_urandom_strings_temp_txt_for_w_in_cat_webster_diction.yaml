@@ -1,7 +1,0 @@
-commandlinefu_id: 7373
-translator:
-  weibo: tgic
-command: |-
-  head -100000 /dev/urandom | strings > temp.txt && for w in $(cat webster-dictionary.txt); do if [ ${#w} -gt 3 ]; then grep -io $w temp.txt; fi; done
-summary: |-
-  从/dev/urandom寻找单词

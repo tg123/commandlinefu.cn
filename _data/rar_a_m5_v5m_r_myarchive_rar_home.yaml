@@ -1,8 +1,0 @@
-commandlinefu_id: 2305
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rar a -m5 -v5M -R myarchive.rar /home/
-summary: |-
-  Compress archive(s) or directory(ies) and split the output file

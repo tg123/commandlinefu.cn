@@ -1,8 +1,0 @@
-commandlinefu_id: 14083
-translator:
-  weibo: ''
-hide: true
-command: |-
-  top -p $(pgrep -f -d , foo)
-summary: |-
-  Use top to monitor only all processes with the same name fragment 'foo'

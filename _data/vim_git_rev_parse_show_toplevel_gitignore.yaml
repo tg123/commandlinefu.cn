@@ -1,7 +1,0 @@
-commandlinefu_id: 11546
-translator:
-  weibo: tgic
-command: |-
-  vim $(git rev-parse --show-toplevel)/.gitignore
-summary: |-
-  在任意目录编辑gitignore

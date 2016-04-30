@@ -1,7 +1,0 @@
-commandlinefu_id: 8098
-translator:
-  weibo: 'gdqyn'
-command: |-
-  perl -m'AptPkg::Cache' -le '$c=AptPkg::Cache->new; for (keys %$c){ push @a, $_ if $c->{$_}->{'CurrentState'} eq 'Installed';} print for sort @a;'
-summary: |-
-  按序打印Debian下所有安装的包。

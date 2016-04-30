@@ -1,8 +1,0 @@
-commandlinefu_id: 5343
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.html" -exec grep -l 'string' {} \;
-summary: |-
-  Find given string in all files with given name or extension

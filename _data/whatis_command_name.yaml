@@ -1,8 +1,0 @@
-commandlinefu_id: 1839
-translator:
-  weibo: ''
-hide: true
-command: |-
-  whatis [command-name]
-summary: |-
-  Show a Command's Short Description

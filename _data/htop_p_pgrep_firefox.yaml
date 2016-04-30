@@ -1,7 +1,0 @@
-commandlinefu_id: 13217
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  htop -p `pgrep firefox`
-summary: |-
-  firefox吃了多少内存？

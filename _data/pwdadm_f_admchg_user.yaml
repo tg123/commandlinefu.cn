@@ -1,8 +1,0 @@
-commandlinefu_id: 8361
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pwdadm -f ADMCHG [user]
-summary: |-
-  How to expire the password to force her change [AIX]

@@ -1,7 +1,0 @@
-commandlinefu_id: 55
-translator:
-  weibo: tgic
-command: |-
-  ssh -N -L2001:localhost:80 somemachine
-summary: |-
-  开启ssh隧道 80->2001

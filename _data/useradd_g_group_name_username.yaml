@@ -1,7 +1,0 @@
-commandlinefu_id: 12870
-translator:
-  weibo: tgic
-command: |-
-  useradd -G {group-name} username
-summary: |-
-  把用户加入到组

@@ -1,8 +1,0 @@
-commandlinefu_id: 9286
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f ~/.bash_history
-summary: |-
-  Watch end of files real time, especially log files

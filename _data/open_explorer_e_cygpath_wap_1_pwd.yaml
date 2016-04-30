@@ -1,7 +1,0 @@
-commandlinefu_id: 12589
-translator:
-  weibo: tgic
-command: |-
-  open() { explorer /e, $(cygpath -wap "${1:-$PWD}"); }
-summary: |-
-  在资源管理器中开打当前目录 (cygwin)

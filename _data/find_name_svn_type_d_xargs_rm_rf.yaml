@@ -1,8 +1,0 @@
-commandlinefu_id: 7328
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name .svn -type d |xargs rm -rf
-summary: |-
-  Remove all .svn folders

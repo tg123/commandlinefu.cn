@@ -1,7 +1,0 @@
-commandlinefu_id: 10871
-translator:
-  weibo: tgic
-command: |-
-  expac -S -H M "%m %n"|sort -n
-summary: |-
-  安装的包大小(arch)

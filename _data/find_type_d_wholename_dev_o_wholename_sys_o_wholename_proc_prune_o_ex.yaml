@@ -1,7 +1,0 @@
-commandlinefu_id: 11945
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find ~/ -type d \( -wholename '/dev/*' -o -wholename '/sys/*' -o -wholename '/proc/*' \) -prune -o -exec test -w {} \; -exec echo {} writable \; 2>/dev/null
-summary: |-
-  检查读/写权限

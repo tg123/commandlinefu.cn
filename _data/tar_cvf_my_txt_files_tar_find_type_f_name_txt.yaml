@@ -1,7 +1,0 @@
-commandlinefu_id: 13442
-translator:
-  weibo: tgic
-command: |-
-  tar cvf my_txt_files.tar `find . -type f -name ".txt"`
-summary: |-
-  从一个列表创建tar

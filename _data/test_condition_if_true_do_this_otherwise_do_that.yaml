@@ -1,8 +1,0 @@
-commandlinefu_id: 1117
-translator:
-  weibo: ''
-hide: true
-command: |-
-  [[ test_condition ]] && if_true_do_this || otherwise_do_that
-summary: |-
-  Instead of writing a multiline if/then/else/fi construct you can do that by one line

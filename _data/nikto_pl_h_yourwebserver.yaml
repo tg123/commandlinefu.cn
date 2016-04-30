@@ -1,8 +1,0 @@
-commandlinefu_id: 3241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nikto.pl -h yourwebserver
-summary: |-
-  How to check webserver by Nikto

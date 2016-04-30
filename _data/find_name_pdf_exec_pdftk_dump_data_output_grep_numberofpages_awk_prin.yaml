@@ -1,8 +1,0 @@
-commandlinefu_id: 13837
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.pdf" -exec pdftk {} dump_data output \; | grep NumberOfPages | awk '{print $1,$2}'
-summary: |-
-  Count the number of pages of all PDFs in current directory and all subdirs, recursively

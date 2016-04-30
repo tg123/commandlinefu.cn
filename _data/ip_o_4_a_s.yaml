@@ -1,7 +1,0 @@
-commandlinefu_id: 11298
-translator:
-  weibo: tgic
-command: |-
-  ip -o -4 a s
-summary: |-
-  显示所有ipv4

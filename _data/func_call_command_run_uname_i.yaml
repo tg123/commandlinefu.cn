@@ -1,8 +1,0 @@
-commandlinefu_id: 11033
-translator:
-  weibo: ''
-hide: true
-command: |-
-  func "*" call command run "uname -i"
-summary: |-
-  Run a command on all servers using func

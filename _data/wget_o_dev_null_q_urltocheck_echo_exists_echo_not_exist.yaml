@@ -1,8 +1,0 @@
-commandlinefu_id: 8256
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -O/dev/null -q URLtoCheck && echo exists || echo not exist
-summary: |-
-  use wget to check if a remote file exists

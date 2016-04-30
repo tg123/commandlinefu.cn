@@ -1,8 +1,0 @@
-commandlinefu_id: 9897
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -newer /tmp/foo -exec touch --date "2011-12-12" {} \;
-summary: |-
-  Modify all files newer than another file and touch them to a specific date.

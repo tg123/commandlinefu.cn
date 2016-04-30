@@ -1,7 +1,0 @@
-commandlinefu_id: 4392
-translator:
-  weibo: tgic
-command: |-
-  ps -ylC httpd --sort:rss | awk '{ SUM += $8 } END { print SUM/1024 }'
-summary: |-
-  用awk求和

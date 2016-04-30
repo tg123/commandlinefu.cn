@@ -1,7 +1,0 @@
-commandlinefu_id: 12842
-translator:
-  weibo: tgic
-command: |-
-  alias tasks='git grep -EI "TODO|FIXME"'
-summary: |-
-  在git里边寻找todo

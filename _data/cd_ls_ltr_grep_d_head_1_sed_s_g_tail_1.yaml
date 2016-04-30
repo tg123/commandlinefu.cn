@@ -1,7 +1,0 @@
-commandlinefu_id: 8986
-translator:
-  weibo: tgic
-command: |-
-  cd $(ls -ltr|grep ^d|head -1|sed 's:.*\ ::g'|tail -1)
-summary: |-
-  切换到ls后的第n个目录

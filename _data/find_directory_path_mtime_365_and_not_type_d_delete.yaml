@@ -1,7 +1,0 @@
-commandlinefu_id: 2314
-translator:
-  weibo: tgic
-command: |-
-  find <directory path> -mtime +365 -and -not -type d -delete
-summary: |-
-  列出并删除一岁的文件

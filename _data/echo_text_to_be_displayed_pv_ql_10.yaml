@@ -1,8 +1,0 @@
-commandlinefu_id: 6868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "text to be displayed" | pv -qL 10
-summary: |-
-  Display text as though it is being typed out in real time

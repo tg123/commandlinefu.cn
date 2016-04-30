@@ -1,8 +1,0 @@
-commandlinefu_id: 13999
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c 'import sys, yaml, json; yaml.safe_dump(json.load(sys.stdin), sys.stdout, allow_unicode=True)' < foo.json > foo.yaml
-summary: |-
-  Convert JSON to YAML (unicode safe)

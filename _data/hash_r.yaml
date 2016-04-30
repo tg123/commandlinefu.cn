@@ -1,8 +1,0 @@
-commandlinefu_id: 5869
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hash -r
-summary: |-
-  Forget remembered path locations of previously ran commands

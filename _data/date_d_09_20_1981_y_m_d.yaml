@@ -1,7 +1,0 @@
-commandlinefu_id: 384
-translator:
-  weibo: tgic
-command: |-
-  date -d 09/20/1981 +"%Y-%m-%d"
-summary: |-
-  转换日期格式

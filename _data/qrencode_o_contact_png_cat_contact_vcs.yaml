@@ -1,8 +1,0 @@
-commandlinefu_id: 10974
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qrencode -o contact.png ?`cat contact.vcs`?
-summary: |-
-  Generate Qr code from contact file (or any other ASCII file)

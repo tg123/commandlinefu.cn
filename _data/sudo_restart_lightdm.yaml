@@ -1,8 +1,0 @@
-commandlinefu_id: 13619
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo restart lightdm
-summary: |-
-  restart session

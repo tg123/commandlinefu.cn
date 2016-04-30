@@ -1,8 +1,0 @@
-commandlinefu_id: 13153
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /logdir -type f -mtime +7 -print0 | xargs -0 -n 1 nice -n 20 bzip2 -9
-summary: |-
-  bzip2 all files in a directory older than 1 week (nicely)

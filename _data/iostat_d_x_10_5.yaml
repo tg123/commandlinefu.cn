@@ -1,8 +1,0 @@
-commandlinefu_id: 12717
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iostat -d -x 10 5
-summary: |-
-  Check disk I/O

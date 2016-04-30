@@ -1,8 +1,0 @@
-commandlinefu_id: 1775
-translator:
-  weibo: ''
-hide: true
-command: |-
-  yelp info:foo
-summary: |-
-  View an info page on a nice interface

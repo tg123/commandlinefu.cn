@@ -1,7 +1,0 @@
-commandlinefu_id: 5282
-translator:
-  weibo: titikaka723 
-command: |-
-  printf "%`tput cols`s"|tr ' ' '#'
-summary: |-
-  命令行中显示一行# 

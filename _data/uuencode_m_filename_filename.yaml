@@ -1,8 +1,0 @@
-commandlinefu_id: 4408
-translator:
-  weibo: ''
-hide: true
-command: |-
-  uuencode -m <filename> <filename>
-summary: |-
-  Copy a file over SSH without SCP

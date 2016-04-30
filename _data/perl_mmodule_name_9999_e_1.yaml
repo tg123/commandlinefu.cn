@@ -1,7 +1,0 @@
-commandlinefu_id: 11771
-translator:
-  weibo: tgic
-command: |-
-  perl -MModule::Name\ 9999 -e 1
-summary: |-
-  查找那些模块安装了Perl（和版本） 

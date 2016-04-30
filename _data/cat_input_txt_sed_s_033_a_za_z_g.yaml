@@ -1,7 +1,0 @@
-commandlinefu_id: 8953
-translator:
-  weibo: tgic
-command: |-
-  cat input.txt | sed 's/\\\033[^a-zA-Z]*.//g'
-summary: |-
-  清理颜色编码

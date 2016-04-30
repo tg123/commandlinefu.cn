@@ -1,7 +1,0 @@
-commandlinefu_id: 3842
-translator:
-  weibo: tgic
-command: |-
-  sed -ne '/^Package: \(.*\)/{s//\1/;h;};/^Installed-Size:  \(.*\)/{s//\1/;G;s/\n/ /;p;}' /var/lib/dpkg/status | sort -rn
-summary: |-
-  找出最大的包

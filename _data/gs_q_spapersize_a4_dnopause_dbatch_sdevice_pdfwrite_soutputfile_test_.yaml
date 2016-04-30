@@ -1,8 +1,0 @@
-commandlinefu_id: 1630
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gs -q -sPAPERSIZE=a4 -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=test.pdf multipageproject.pdf
-summary: |-
-  Optimize Xsane PDFs

@@ -1,7 +1,0 @@
-commandlinefu_id: 10143
-translator:
-  weibo: tgic
-command: |-
-  sed 's!<[Aa] *href*=*"\([^"]*\)"*>\([^<>]*\)</[Aa]>!\1,\2!g' links.html
-summary: |-
-  清除html链接

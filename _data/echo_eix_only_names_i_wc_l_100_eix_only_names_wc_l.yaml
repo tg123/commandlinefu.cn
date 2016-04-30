@@ -1,7 +1,0 @@
-commandlinefu_id: 2845
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  echo $((`eix --only-names -I | wc -l` * 100 / `eix --only-names | wc -l`))%
-summary: |-
-  显示你的gentoo系统安装了的包占所有可安装的包的比率

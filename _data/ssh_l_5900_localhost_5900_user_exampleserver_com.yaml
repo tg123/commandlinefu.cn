@@ -1,7 +1,0 @@
-commandlinefu_id: 644
-translator:
-  weibo: tgic
-command: |-
-  ssh -L 5900:localhost:5900 user@exampleserver.com
-summary: |-
-  使用ssh 作端口隧道

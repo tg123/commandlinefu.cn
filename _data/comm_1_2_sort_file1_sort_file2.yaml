@@ -1,7 +1,0 @@
-commandlinefu_id: 1064
-translator:
-  weibo: codepiano
-command: |-
-  comm -1 -2 <(sort file1) <(sort file2)
-summary: |-
-  显示同时出现在文件1和文件2中的行

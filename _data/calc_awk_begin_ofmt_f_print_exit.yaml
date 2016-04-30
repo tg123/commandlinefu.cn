@@ -1,7 +1,0 @@
-commandlinefu_id: 4425
-translator:
-  weibo: tgic
-command: |-
-  calc() { awk 'BEGIN { OFMT="%f"; print '"$*"'; exit}'; }
-summary: |-
-  浮点计算器

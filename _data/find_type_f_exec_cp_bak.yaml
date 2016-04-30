@@ -1,7 +1,0 @@
-commandlinefu_id: 1310
-translator:
-  weibo: tgic
-command: |-
-  find -type -f -exec cp {} {}.bak \;
-summary: |-
-  批量制作目录的备份

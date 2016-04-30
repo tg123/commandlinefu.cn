@@ -1,8 +1,0 @@
-commandlinefu_id: 5112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo apt-get -o Acquire::http::Dl-Limit=30 upgrade
-summary: |-
-  Limit bandwidth usage by apt-get

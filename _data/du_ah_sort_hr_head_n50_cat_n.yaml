@@ -1,7 +1,0 @@
-commandlinefu_id: 12774
-translator:
-  weibo: tgic
-command: |-
-  du -ah | sort -hr | head -n50 | cat -n
-summary: |-
-  最大的50个文件

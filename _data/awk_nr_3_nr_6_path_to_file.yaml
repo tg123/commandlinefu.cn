@@ -1,7 +1,0 @@
-commandlinefu_id: 9889
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'NR >= 3 && NR <= 6' /path/to/file
-summary: |-
-  显示指定文件中，制定开头行和结尾行之间的行 

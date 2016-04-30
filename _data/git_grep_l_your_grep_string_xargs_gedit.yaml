@@ -1,8 +1,0 @@
-commandlinefu_id: 2313
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git grep -l "your grep string" | xargs gedit
-summary: |-
-  grep across a git repo and open matching files in gedit

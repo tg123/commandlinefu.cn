@@ -1,7 +1,0 @@
-commandlinefu_id: 7859
-translator:
-  weibo: tgic
-command: |-
-  equery belongs $( which mv )
-summary: |-
-  查看文件属于那一个包(gentoo)

@@ -1,7 +1,0 @@
-commandlinefu_id: 11195
-translator:
-  weibo: tgic
-command: |-
-  awk '!array[$1]++' file.txt
-summary: |-
-  第一列去重

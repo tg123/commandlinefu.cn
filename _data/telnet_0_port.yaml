@@ -1,7 +1,0 @@
-commandlinefu_id: 11533
-translator:
-  weibo: tgic
-command: |-
-  telnet 0 <port>
-summary: |-
-  检查本地端口 (0 可以代替 127 )

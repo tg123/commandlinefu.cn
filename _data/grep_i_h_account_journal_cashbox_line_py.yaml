@@ -1,8 +1,0 @@
-commandlinefu_id: 11794
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -i -h 'account.journal.cashbox.line' *.py
-summary: |-
-  Search in files

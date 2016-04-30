@@ -1,7 +1,0 @@
-commandlinefu_id: 12234
-translator:
-  weibo: particle128
-command: |-
-  rsync -avzhP <[[user@]host1:]directory1> <[[user@]host2:]directory2>
-summary: |-
-  用rsync备份整个目录

@@ -1,8 +1,0 @@
-commandlinefu_id: 6218
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cls(){ printf "\033c";} or, if no printf, cat > c ;<ctrl+v> <ctrl+[>c <enter><ctrl-d> c(){ cat c;} #usage: c
-summary: |-
-  reset hosed terminal

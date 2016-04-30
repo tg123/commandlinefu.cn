@@ -1,7 +1,0 @@
-commandlinefu_id: 12117
-translator:
-  weibo: tgic
-command: |-
-  lsof -i -n | grep ESTABLISHED
-summary: |-
-  查看连接状态的TCP链接

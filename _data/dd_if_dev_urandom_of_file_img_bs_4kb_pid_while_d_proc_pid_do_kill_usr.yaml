@@ -1,7 +1,0 @@
-commandlinefu_id: 8708
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/urandom of=file.img bs=4KB& pid=$!; while [[ -d /proc/$pid ]]; do kill -USR1 $pid && sleep 1 && clear; done
-summary: |-
-  监控dd的进度

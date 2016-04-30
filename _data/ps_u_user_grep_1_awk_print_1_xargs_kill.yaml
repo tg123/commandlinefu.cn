@@ -1,7 +1,0 @@
-commandlinefu_id: 2699
-translator:
-  weibo: tgic
-command: |-
-  ps -u $USER |grep $1 | awk '{ print $1}'| xargs kill
-summary: |-
-  另外一个版本的kill by name

@@ -1,7 +1,0 @@
-commandlinefu_id: 2213
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -type d -exec rmdir {} \;
-summary: |-
-  删除空目录

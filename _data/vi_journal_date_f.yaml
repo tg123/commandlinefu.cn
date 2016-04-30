@@ -1,8 +1,0 @@
-commandlinefu_id: 1536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vi ~/journal/$(date +%F)
-summary: |-
-  Update your journal

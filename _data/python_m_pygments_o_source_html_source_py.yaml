@@ -1,8 +1,0 @@
-commandlinefu_id: 245
-translator:
-  weibo: ''
-hide: true
-command: |-
-  $ python -m pygments -o source.html source.py
-summary: |-
-  Quick syntax highlighting with multiple output formats

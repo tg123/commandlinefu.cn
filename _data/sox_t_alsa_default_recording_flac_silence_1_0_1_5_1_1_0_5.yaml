@@ -1,8 +1,0 @@
-commandlinefu_id: 8045
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sox -t alsa default ./recording.flac silence 1 0.1 5% 1 1.0 5%
-summary: |-
-  SoX recording audio and trimming silence

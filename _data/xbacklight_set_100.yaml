@@ -1,7 +1,0 @@
-commandlinefu_id: 14041
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  xbacklight -set 100
-summary: |-
-  调整屏幕亮度

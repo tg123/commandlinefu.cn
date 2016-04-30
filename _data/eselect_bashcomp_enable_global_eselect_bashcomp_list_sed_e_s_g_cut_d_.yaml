@@ -1,7 +1,0 @@
-commandlinefu_id: 11027
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  eselect bashcomp enable --global  $(eselect bashcomp list | sed -e 's/ //g'| cut -d']' -f2 | sed -e 's/\*//'| xargs)
-summary: |-
-  在gentoo中启用所有的bash补全

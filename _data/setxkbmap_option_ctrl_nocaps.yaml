@@ -1,8 +1,0 @@
-commandlinefu_id: 8458
-translator:
-  weibo: ''
-hide: true
-command: |-
-  setxkbmap -option ctrl:nocaps
-summary: |-
-  Replace the Caps Lock key with Control

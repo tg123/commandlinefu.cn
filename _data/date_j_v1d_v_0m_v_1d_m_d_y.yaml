@@ -1,8 +1,0 @@
-commandlinefu_id: 5015
-translator:
-  weibo: ''
-hide: true
-command: |-
-  date  -j -v1d -v-0m -v-1d +'%m %d %Y'
-summary: |-
-  Calculate the the last day of a month +/- from current month

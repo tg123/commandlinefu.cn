@@ -1,7 +1,0 @@
-commandlinefu_id: 5005
-translator:
-  weibo: josephok
-command: |-
-  0 10 * * * rsync -rau /[VIPdirectory] X.X.X.X:/backup/[VIPdirectory]
-summary: |-
-  使用rsync进行简单备份

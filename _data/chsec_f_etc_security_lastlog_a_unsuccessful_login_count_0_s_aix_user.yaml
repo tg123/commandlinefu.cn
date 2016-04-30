@@ -1,8 +1,0 @@
-commandlinefu_id: 5053
-translator:
-  weibo: dbalex
-command: |-
-  chsec -f /etc/security/lastlog -a "unsuccessful_login_count=0" -s 'aix user'
-summary: |-
-  AIX : onliner to reset failed login count for user
-  AIX : 在线重置用户的失败登录计数

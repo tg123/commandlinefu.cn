@@ -1,8 +1,0 @@
-commandlinefu_id: 2575
-translator:
-  weibo: ''
-hide: true
-command: |-
-  egrep "(There were undefined references|Rerun to get (cross-references|the bars) right)" texfile.log
-summary: |-
-  Check if you need to run LaTeX more times to get the refefences right

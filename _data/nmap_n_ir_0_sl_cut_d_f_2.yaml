@@ -1,7 +1,0 @@
-commandlinefu_id: 2986
-translator:
-  weibo: tgic
-command: |-
-  nmap -n -iR 0 -sL | cut -d" " -f 2
-summary: |-
-  生成随机的 ip 地址

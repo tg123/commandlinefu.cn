@@ -1,8 +1,0 @@
-commandlinefu_id: 5566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat 1.tar.gz 2.tar.gz > 3.tar.gz; tar zxvfi 3.tar.gz
-summary: |-
-  Merge tarballs

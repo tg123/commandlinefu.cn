@@ -1,8 +1,0 @@
-commandlinefu_id: 3070
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (cd SRC; find . -type d -exec mkdir TARGET/{} ";"; find . -type f -exec mv {} TARGET/{} ";")
-summary: |-
-  Merge  ( directories [looking for improvement]

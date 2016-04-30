@@ -1,7 +1,0 @@
-commandlinefu_id: 3282
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  fdisk -l |grep -e '^/' |awk '{print $1}'|sed -e "s|/dev/||g"
-summary: |-
-  列出所有的hd分区

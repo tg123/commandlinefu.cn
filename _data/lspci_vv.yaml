@@ -1,8 +1,0 @@
-commandlinefu_id: 83
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lspci -vv
-summary: |-
-  list your device drivers

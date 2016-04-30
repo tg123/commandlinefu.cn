@@ -1,8 +1,0 @@
-commandlinefu_id: 5006
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for I in $(awk '/d[a-z]+$/{print $4}' /proc/partitions); do sudo hdparm -I '/dev/'$I; done | grep 'device size with M'
-summary: |-
-  Show the 1000*1000 and 1024*1024 size of HDs on system

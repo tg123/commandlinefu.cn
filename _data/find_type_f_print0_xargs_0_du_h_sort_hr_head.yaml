@@ -1,7 +1,0 @@
-commandlinefu_id: 10937
-translator:
-  weibo: particle128
-command: |-
-  find . -type f -print0 | xargs -0 du -h | sort -hr | head
-summary: |-
-  从当前目录和其子目录中找到最大的10个文件

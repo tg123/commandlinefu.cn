@@ -1,8 +1,0 @@
-commandlinefu_id: 6916
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -iname '*mp3' -exec mid3iconv {} \;
-summary: |-
-  Fix "broken" ID3 tags in the current directory and subdirectories

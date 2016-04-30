@@ -1,7 +1,0 @@
-commandlinefu_id: 4064
-translator:
-  weibo: tgic
-command: |-
-  slice="-rw-r--r--  "; ls -l | cut -c $(echo "$slice" | wc -c)-
-summary: |-
-  另类从结果中删除特定长度字符的方法

@@ -1,8 +1,0 @@
-commandlinefu_id: 10106
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vi +<lineNumber>d +wq <filename>
-summary: |-
-  Remove a line from a file using sed (useful for updating known SSH server keys when they change)

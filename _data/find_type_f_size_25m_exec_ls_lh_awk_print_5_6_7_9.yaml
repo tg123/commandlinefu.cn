@@ -1,8 +1,0 @@
-commandlinefu_id: 773
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -type f -size +25M -exec ls -lh {} \; | awk '{ print $5 " " $6$7 ": " $9 }'
-summary: |-
-  Finds all files from / on down over specified size.

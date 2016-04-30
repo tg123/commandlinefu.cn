@@ -1,8 +1,0 @@
-commandlinefu_id: 12309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps aux | sort -n -k2 | awk '{if ($2 < 300) print($0)}'
-summary: |-
-  Display the specified range of process information

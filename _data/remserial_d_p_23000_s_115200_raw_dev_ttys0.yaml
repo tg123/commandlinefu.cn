@@ -1,8 +1,0 @@
-commandlinefu_id: 11543
-translator:
-  weibo: ''
-hide: true
-command: |-
-  remserial -d -p 23000 -s "115200 raw" /dev/ttyS0 &
-summary: |-
-  Remote Serial connection redirected over network using SSH

@@ -1,7 +1,0 @@
-commandlinefu_id: 4238
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  pmap -d <<pid>>
-summary: |-
-  输出某个进程的内存分配情况

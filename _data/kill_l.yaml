@@ -1,7 +1,0 @@
-commandlinefu_id: 7075
-translator:
-  weibo: tgic
-command: |-
-  kill -l
-summary: |-
-  查看所有信号

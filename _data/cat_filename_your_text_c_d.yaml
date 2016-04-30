@@ -1,8 +1,0 @@
-commandlinefu_id: 5751
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat > {filename}  {your text}  [^C | ^D]
-summary: |-
-  Quickly create simple text file from command line w/o using vi/emacs

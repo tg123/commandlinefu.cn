@@ -1,8 +1,0 @@
-commandlinefu_id: 6749
-translator:
-  weibo: ''
-hide: true
-command: |-
-  calc() { python -c "from math import *; print $1"; }
-summary: |-
-  Command line calculator

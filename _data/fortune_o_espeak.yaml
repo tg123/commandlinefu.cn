@@ -1,7 +1,0 @@
-commandlinefu_id: 1098
-translator:
-  weibo: tgic
-command: |-
-  fortune -o | espeak
-summary: |-
-  科学算命的方法

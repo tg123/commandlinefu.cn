@@ -1,7 +1,0 @@
-commandlinefu_id: 1191
-translator:
-  weibo: tgic
-command: |-
-  cat /dev/tty > FILE
-summary: |-
-  输入内容直接进入文件

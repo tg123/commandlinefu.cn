@@ -1,8 +1,0 @@
-commandlinefu_id: 12832
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status | awk '$1!~"M" {print $0}'
-summary: |-
-  looking for files not subversioned

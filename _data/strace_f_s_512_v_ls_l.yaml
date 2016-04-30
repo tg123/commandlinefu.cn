@@ -1,8 +1,0 @@
-commandlinefu_id: 234
-translator:
-  weibo: ''
-hide: true
-command: |-
-  strace -f -s 512 -v ls -l
-summary: |-
-  trace the system calls made by a process (and its children)

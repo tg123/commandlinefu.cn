@@ -1,8 +1,0 @@
-commandlinefu_id: 12255
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat $HISTFILE | grep command
-summary: |-
-  Easily find an old command you run

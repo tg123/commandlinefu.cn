@@ -1,7 +1,0 @@
-commandlinefu_id: 7321
-translator:
-  weibo: tgic
-command: |-
-  bash -x script.sh
-summary: |-
-  调试脚本

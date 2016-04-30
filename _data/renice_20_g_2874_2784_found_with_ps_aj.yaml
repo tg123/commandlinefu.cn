@@ -1,7 +1,0 @@
-commandlinefu_id: 12280
-translator:
-  weibo: gdqyn
-command: |-
-  renice -20 -g 2874 (2784 found with ps -Aj)
-summary: |-
-  重新给一组线程指定优先级

@@ -1,7 +1,0 @@
-commandlinefu_id: 6501
-translator:
-  weibo: tgic
-command: |-
-  python -c $(echo -e 'import py_compile\npy_compile.compile("/path/to/script.py")');
-summary: |-
-  重新生成/path/to/script.pyc

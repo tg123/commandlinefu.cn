@@ -1,7 +1,0 @@
-commandlinefu_id: 3159
-translator:
-  weibo: tgic
-command: |-
-  structcp(){ ( mkdir -pv $2;f="$(realpath "$1")";t="$(realpath "$2")";cd "$f";find * -type d -exec mkdir -pv $t/{} \;);}
-summary: |-
-  目录结构复制

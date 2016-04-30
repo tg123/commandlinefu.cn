@@ -1,8 +1,0 @@
-commandlinefu_id: 4082
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wmctrl -o 1280,0
-summary: |-
-  rotate the compiz cube via command line

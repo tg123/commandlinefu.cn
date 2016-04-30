@@ -1,7 +1,0 @@
-commandlinefu_id: 9198
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cp --sparse=always <SRC> <DST>
-summary: |-
-  复制稀疏的文件

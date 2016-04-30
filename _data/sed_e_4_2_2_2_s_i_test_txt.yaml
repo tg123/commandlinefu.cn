@@ -1,7 +1,0 @@
-commandlinefu_id: 13749
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed -e '/4.2.2.2/ s/^;//' -i test.txt
-summary: |-
-  去除匹配的行注释

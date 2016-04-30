@@ -1,7 +1,0 @@
-commandlinefu_id: 250
-translator:
-  weibo: tgic
-command: |-
-  ps awwux|awk '{print $1}'|sort|uniq
-summary: |-
-  使用系统的用户

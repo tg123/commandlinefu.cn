@@ -1,8 +1,0 @@
-commandlinefu_id: 11402
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :shell
-summary: |-
-  Run bash on top of a vi session (saved or not saved), run multiple commands, instead of one at a time with :!(bashcommand), type exit and [enter] to get back to where you left off in vi.

@@ -1,8 +1,0 @@
-commandlinefu_id: 13112
-translator:
-  weibo: ''
-hide: true
-command: |-
-  debsums
-summary: |-
-  Find stock debian package config files that have been modified since installation

@@ -1,8 +1,0 @@
-commandlinefu_id: 11999
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git for-each-ref --sort=-committerdate --format="%1B[32m%(committerdate:iso8601) %1B[34m%(committerdate:relative)  %1B[0;m%(refname:short)" refs/heads/
-summary: |-
-  Show git branches by date - useful for showing active branches

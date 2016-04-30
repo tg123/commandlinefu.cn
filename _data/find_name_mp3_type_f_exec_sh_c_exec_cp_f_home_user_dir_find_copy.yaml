@@ -1,8 +1,0 @@
-commandlinefu_id: 4274
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name '*.mp3' -type f -exec sh -c 'exec cp -f "$@" /home/user/dir' find-copy {} +
-summary: |-
-  Find and copy scattered mp3 files into one directory

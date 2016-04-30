@@ -1,8 +1,0 @@
-commandlinefu_id: 13761
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find -not -empty -type f -printf "%-30s'\t\"%h/%f\"\n" | sort -rn -t$'\t' | uniq -w30 -D | cut -f 2 -d $'\t' | xargs md5sum | sort | uniq -w32 --all-repeated=separate
-summary: |-
-  Find Duplicate Files (based on size first, then MD5 hash)

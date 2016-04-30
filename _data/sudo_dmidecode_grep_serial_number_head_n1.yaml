@@ -1,7 +1,0 @@
-commandlinefu_id: 944
-translator:
-  weibo: tgic
-command: |-
-  sudo dmidecode | grep Serial\ Number | head -n1
-summary: |-
-  获取dell服务编号

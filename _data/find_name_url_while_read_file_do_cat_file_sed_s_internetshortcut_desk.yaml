@@ -1,8 +1,0 @@
-commandlinefu_id: 13105
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.URL" | while read file ; do cat "$file" | sed 's/InternetShortcut/Desktop Entry/' | sed '/^\(URL\|\[\)/!d' > "$file".desktop && echo "Type=Link" >> "$file".desktop ; done
-summary: |-
-  Converts all windows .URL shortcuts in a directory to linux (gnome) .desktop shortcuts

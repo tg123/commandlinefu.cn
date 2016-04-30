@@ -1,7 +1,0 @@
-commandlinefu_id: 4304
-translator:
-  weibo: tgic
-command: |-
-  $ unzip -p  some-jar-file.jar META-INF/MANIFEST.MF
-summary: |-
-  查看jar 的 manifest

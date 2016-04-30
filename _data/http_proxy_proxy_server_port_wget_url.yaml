@@ -1,7 +1,0 @@
-commandlinefu_id: 8188
-translator:
-  weibo: tgic
-command: |-
-  http_proxy=<proxy.server:port> wget <url>
-summary: |-
-  带有proxy 的weget

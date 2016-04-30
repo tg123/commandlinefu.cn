@@ -1,8 +1,0 @@
-commandlinefu_id: 11981
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -type f -name "*.php" | xargs grep -n "name" -r {}
-summary: |-
-  find str in  in a directory which file extension is .php

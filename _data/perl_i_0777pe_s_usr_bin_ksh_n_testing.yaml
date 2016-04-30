@@ -1,8 +1,0 @@
-commandlinefu_id: 4607
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -i~ -0777pe's/^/\!\#\/usr\/bin\/ksh\n/' testing
-summary: |-
-  perl insert character on the first line on  your file

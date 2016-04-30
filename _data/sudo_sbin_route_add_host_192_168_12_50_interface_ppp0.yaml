@@ -1,7 +1,0 @@
-commandlinefu_id: 13327
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo /sbin/route add -host 192.168.12.50 -interface ppp0
-summary: |-
-  针对一些ips（或域名）通过ppp0端口进行转发

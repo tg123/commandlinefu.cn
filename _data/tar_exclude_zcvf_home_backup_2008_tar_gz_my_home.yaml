@@ -1,7 +1,0 @@
-commandlinefu_id: 6555
-translator:
-  weibo: titikaka723 
-command: |-
-  tar --exclude=".??*" -zcvf ./home_backup_2008.tar.gz  my_home
-summary: |-
-  备份制定后缀的文件并且打包到根目录下 

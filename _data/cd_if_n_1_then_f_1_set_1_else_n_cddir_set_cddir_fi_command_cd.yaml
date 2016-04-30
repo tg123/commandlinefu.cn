@@ -1,8 +1,0 @@
-commandlinefu_id: 8701
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cd() { if [ -n "$1" ]; then [ -f "$1" ] && set -- "${1%/*}"; else [ -n "$CDDIR" ] && set -- "$CDDIR"; fi; command cd "$@"; }
-summary: |-
-  Power cd - Add a couple of useful features to 'cd'

@@ -1,7 +1,0 @@
-commandlinefu_id: 3631
-translator:
-  weibo: '猪了个去'
-command: |-
-  mysql -e 'show databases' | sed -n '2,$p' | xargs -I DB 'mysqldump DB > DB.sql'
-summary: |-
-  备份所有的MySQL数据库到单独的一个文件

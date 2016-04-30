@@ -1,8 +1,0 @@
-commandlinefu_id: 3928
-translator:
-  weibo: ''
-hide: true
-command: |-
-  > [filename].txt
-summary: |-
-  Empty a file

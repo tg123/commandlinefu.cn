@@ -1,7 +1,0 @@
-commandlinefu_id: 9559
-translator:
-  weibo: '猪了个去'
-command: |-
-  pv file | gzip > file.gz
-summary: |-
-  gzip压缩，并且显示进度条和剩余的时间

@@ -1,8 +1,0 @@
-commandlinefu_id: 5490
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -n0 -f access.log>/tmp/tmp.log & sleep 10; kill $! ; wc -l /tmp/tmp.log
-summary: |-
-  Lines per second in a log file

@@ -1,7 +1,0 @@
-commandlinefu_id: 6042
-translator:
-  weibo: tgic
-command: |-
-  variable="foo" && sed 's/bar/'$variable'/g' $variable.conf >> $variable.temp && sed '1,5d' $variable.temp && mv $variable.temp $variable.conf
-summary: |-
-  查找替换前5行

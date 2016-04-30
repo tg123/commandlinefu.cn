@@ -1,8 +1,0 @@
-commandlinefu_id: 13111
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -av -e "ssh -o MACs=hmac-ripemd160" --progress --partial user@remotehost://path/to/remote/stuff .
-summary: |-
-  Transfer with rsync a file using SSH with a forced HMAC integrity algorithm

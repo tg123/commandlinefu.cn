@@ -1,8 +1,0 @@
-commandlinefu_id: 9285
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vi +4 /etc/mtab
-summary: |-
-  Go to the Nth line of file [text editor]

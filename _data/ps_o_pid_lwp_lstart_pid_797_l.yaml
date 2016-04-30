@@ -1,7 +1,0 @@
-commandlinefu_id: 7148
-translator:
-  weibo: tgic
-command: |-
-  ps -o pid,lwp,lstart --pid 797 -L
-summary: |-
-  带有启动线程时间的ps 

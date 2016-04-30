@@ -1,8 +1,0 @@
-commandlinefu_id: 6504
-translator:
-  weibo: ''
-hide: true
-command: |-
-  /usr/bin/package-cleanup --oldkernels --count=3
-summary: |-
-  Remove old unused kernels from Red Hat Enterprise Linux 5 & Fedora 12/13

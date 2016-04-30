@@ -1,8 +1,0 @@
-commandlinefu_id: 7773
-translator:
-  weibo: ''
-hide: true
-command: |-
-  strace -e open zim 2>&1 1>/dev/null | fgrep ~ | fgrep -v "= -1" | cut -d'"' -f2
-summary: |-
-  Locate config files of the program

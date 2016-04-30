@@ -1,8 +1,0 @@
-commandlinefu_id: 3968
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git diff --stat `git log --author="XXXXX" --since="12 hours ago" --pretty=oneline | tail -n1 | cut -c1-40` HEAD
-summary: |-
-  Figure out your work output for the day

@@ -1,8 +1,0 @@
-commandlinefu_id: 3933
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nice -n19 dump -0af - /<filesystem> -z9|gpg -e -r <gpg key id>|cstream -v 1 -t 60k|ssh <user@host> "cat > backup.img"
-summary: |-
-  Backup a filesystem to a remote machine and use cstream to throttle bandwidth of the backup

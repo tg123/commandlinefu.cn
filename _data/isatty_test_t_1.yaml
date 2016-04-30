@@ -1,7 +1,0 @@
-commandlinefu_id: 4492
-translator:
-  weibo: tgic
-command: |-
-  isatty(){ test -t $1; }
-summary: |-
-  是否tty

@@ -1,7 +1,0 @@
-commandlinefu_id: 10652
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -user root | xargs sudo chown me:me
-summary: |-
-  查找root所有的文件，再转到你的名下

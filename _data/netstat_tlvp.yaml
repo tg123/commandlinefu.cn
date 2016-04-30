@@ -1,7 +1,0 @@
-commandlinefu_id: 6528
-translator:
-  weibo: tgic
-command: |-
-  netstat -tlvp
-summary: |-
-  查看哪些程序开那些端口

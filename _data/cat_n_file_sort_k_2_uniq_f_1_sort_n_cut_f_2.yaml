@@ -1,8 +1,0 @@
-commandlinefu_id: 4624
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat -n <file> | sort -k 2 | uniq -f 1 | sort -n | cut -f 2-
-summary: |-
-  delete duplicate lines from a file and keep the order of the other lines

@@ -1,7 +1,0 @@
-commandlinefu_id: 8698
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'END {print NR}' /etc/passwd
-summary: |-
-  passwd文件中一共有多少行 

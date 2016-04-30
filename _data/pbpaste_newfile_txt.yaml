@@ -1,7 +1,0 @@
-commandlinefu_id: 2439
-translator:
-  weibo: ''
-command: |-
-  pbpaste > newfile.txt
-summary: |-
-  将剪切板内容写入文件 OS X

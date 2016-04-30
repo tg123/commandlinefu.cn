@@ -1,7 +1,0 @@
-commandlinefu_id: 5014
-translator:
-  weibo: tgic
-command: |-
-  ip addr | awk '/inet / {sub(/\/.*/, "", $2); print $2}'
-summary: |-
-  获取 ip地址

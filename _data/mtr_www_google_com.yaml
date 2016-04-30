@@ -1,8 +1,0 @@
-commandlinefu_id: 13743
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mtr www.google.com
-summary: |-
-  Check your unread Gmail from the command line

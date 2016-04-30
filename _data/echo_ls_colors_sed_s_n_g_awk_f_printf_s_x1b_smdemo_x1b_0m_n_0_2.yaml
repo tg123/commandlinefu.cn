@@ -1,8 +1,0 @@
-commandlinefu_id: 4351
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo $LS_COLORS | sed 's/:/\n/g' | awk -F= '!/^$/{printf("%s \x1b[%smdemo\x1b[0m\n",$0,$2)}'
-summary: |-
-  show ls colors with demo

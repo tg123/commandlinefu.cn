@@ -1,8 +1,0 @@
-commandlinefu_id: 4664
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -vd --files-from=<(find .  -name entries -print ) .   ../target_directory
-summary: |-
-  Copy specific files recursively using the same tree organization.

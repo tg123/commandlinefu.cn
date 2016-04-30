@@ -1,8 +1,0 @@
-commandlinefu_id: 11016
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set -x && PS4='+\t '
-summary: |-
-  Tracing shell scripts with time stamps

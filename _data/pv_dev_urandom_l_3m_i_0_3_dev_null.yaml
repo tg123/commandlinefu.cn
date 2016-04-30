@@ -1,7 +1,0 @@
-commandlinefu_id: 11069
-translator:
-  weibo: tgic
-command: |-
-  pv /dev/urandom -L 3m -i 0.3 > /dev/null
-summary: |-
-  控制传输的速率

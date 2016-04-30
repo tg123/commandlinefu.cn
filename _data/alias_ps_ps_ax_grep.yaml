@@ -1,7 +1,0 @@
-commandlinefu_id: 88
-translator:
-  weibo: tgic
-command: |-
-  alias 'ps?'='ps ax | grep '
-summary: |-
-  给ps grep 加个alias

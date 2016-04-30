@@ -1,8 +1,0 @@
-commandlinefu_id: 11097
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ip link
-summary: |-
-  Network Interfaces

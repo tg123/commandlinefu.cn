@@ -1,8 +1,0 @@
-commandlinefu_id: 4092
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iozone -s 2g -r 64 -i 0 -i 1 -t 1
-summary: |-
-  Simple read and write test with Iozone

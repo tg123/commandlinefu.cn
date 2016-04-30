@@ -1,7 +1,0 @@
-commandlinefu_id: 2306
-translator:
-  weibo: tgic
-command: |-
-  find . -uid 0 -print0 | xargs -0 chown foo:foo
-summary: |-
-  查找并修改所有人

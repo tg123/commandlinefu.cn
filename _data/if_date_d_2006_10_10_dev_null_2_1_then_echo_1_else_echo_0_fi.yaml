@@ -1,8 +1,0 @@
-commandlinefu_id: 11745
-translator:
-  weibo: ''
-hide: true
-command: |-
-  if date -d 2006-10-10 >> /dev/null 2>&1; then echo 1; else echo 0; fi
-summary: |-
-  quick and easy way of validating a date format of yyyy-mm-dd and returning a boolean

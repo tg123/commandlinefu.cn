@@ -1,8 +1,0 @@
-commandlinefu_id: 7519
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -f2 -d`echo -e '\x01'` file
-summary: |-
-  strips the first field of each line where the delimiter is the first ascii character

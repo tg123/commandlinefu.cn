@@ -1,8 +1,0 @@
-commandlinefu_id: 2075
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gnuplot -persist <(echo "plot '<(sort -n listOfNumbers.txt)' with lines")
-summary: |-
-  Quickly graph a list of numbers

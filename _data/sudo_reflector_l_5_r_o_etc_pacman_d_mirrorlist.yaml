@@ -1,8 +1,0 @@
-commandlinefu_id: 8135
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo reflector -l 5 -r -o /etc/pacman.d/mirrorlist
-summary: |-
-  archlinux: updates repository mirrors according to most up to date mirrors, then speed

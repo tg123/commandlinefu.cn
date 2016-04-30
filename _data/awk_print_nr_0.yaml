@@ -1,7 +1,0 @@
-commandlinefu_id: 4522
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{print NR,$0}'
-summary: |-
-  显示行数 

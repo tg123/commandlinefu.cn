@@ -1,8 +1,0 @@
-commandlinefu_id: 4825
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exec bash
-summary: |-
-  Clean way of re-running bash startup scripts.

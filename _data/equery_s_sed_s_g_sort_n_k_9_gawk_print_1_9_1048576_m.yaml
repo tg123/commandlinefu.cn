@@ -1,7 +1,0 @@
-commandlinefu_id: 2807
-translator:
-  weibo: tgic
-command: |-
-  equery s | sed 's/(\|)/ /g' | sort -n -k 9 | gawk '{print $1" "$9/1048576"m"}'
-summary: |-
-  获取安装包的大小并排序(Gentoo)

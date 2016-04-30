@@ -1,7 +1,0 @@
-commandlinefu_id: 2087
-translator:
-  weibo: tgic
-command: |-
-  for file in <directory A>/*; do rm <directory B>/`basename $file`; done
-summary: |-
-  删除B目录中与A目录同名的文件

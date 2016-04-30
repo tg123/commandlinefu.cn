@@ -1,7 +1,0 @@
-commandlinefu_id: 12620
-translator:
-  weibo: tgic
-command: |-
-  function createdb () { mysqladmin -u root -p create $1 && mysql -u root -p -e "GRANT ALL ON $1.* TO '$2'@'localhost' IDENTIFIED BY '$3';" ; }
-summary: |-
-  创建db 并赋权限

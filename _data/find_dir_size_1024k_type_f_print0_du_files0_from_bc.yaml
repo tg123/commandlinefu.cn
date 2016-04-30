@@ -1,8 +1,0 @@
-commandlinefu_id: 4445
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find dir -size -1024k -type f -print0 | du --files0-from - -bc
-summary: |-
-  find out how much space are occuipied by files smaller than 1024K (sic) - improved

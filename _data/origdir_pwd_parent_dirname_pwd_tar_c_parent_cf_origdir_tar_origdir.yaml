@@ -1,8 +1,0 @@
-commandlinefu_id: 12875
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ORIGDIR=${PWD##*/}; PARENT=`dirname $PWD`; tar -C $PARENT -cf ../${ORIGDIR}.tar $ORIGDIR
-summary: |-
-  tar the current directory wihtout the absolute path

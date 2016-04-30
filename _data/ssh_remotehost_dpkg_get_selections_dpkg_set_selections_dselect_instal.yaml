@@ -1,8 +1,0 @@
-commandlinefu_id: 8453
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh remotehost 'dpkg --get-selections' | dpkg --set-selections && dselect install
-summary: |-
-  Tell local Debian machine to install packages used by remote Debian machine

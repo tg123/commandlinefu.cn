@@ -1,8 +1,0 @@
-commandlinefu_id: 7000
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pcregrep --color -M -N CRLF "owa_pattern\.\w+\W*\([^\)]*\)" source.sql
-summary: |-
-  Source multiline grep with pcregrep

@@ -1,8 +1,0 @@
-commandlinefu_id: 10410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls | grep -i mp3 | sort -R | sed -e 's/.*/"&"/' | xargs mpg123
-summary: |-
-  Shuffle mp3 files in current folder and play them.

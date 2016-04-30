@@ -1,8 +1,0 @@
-commandlinefu_id: 10844
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -f 3 | uniq
-summary: |-
-  Display unique values of a column

@@ -1,8 +1,0 @@
-commandlinefu_id: 2388
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  $command 3>&1 1>&2 2>&3
-summary: |-
-  交换stdout和 stderr

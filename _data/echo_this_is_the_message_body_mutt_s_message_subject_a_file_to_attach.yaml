@@ -1,7 +1,0 @@
-commandlinefu_id: 12763
-translator:
-  weibo: codepiano
-command: |-
-  echo "This is the message body" | mutt -s "Message subject" -a file_to_attach.zip fred@example.com
-summary: |-
-  给自己发送邮件并添加附件

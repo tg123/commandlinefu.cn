@@ -1,7 +1,0 @@
-commandlinefu_id: 4204
-translator:
-  weibo: tgic
-command: |-
-  openssl rand -base64 6
-summary: |-
-  生成密码

@@ -1,8 +1,0 @@
-commandlinefu_id: 3022
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  uuid
-summary: |-
-  生成 uuid 的命令

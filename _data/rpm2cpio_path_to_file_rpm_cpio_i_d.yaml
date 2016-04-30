@@ -1,8 +1,0 @@
-commandlinefu_id: 1441
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm2cpio /path/to/file.rpm | cpio -i -d
-summary: |-
-  Extract the contents of an RPM package to your current directory without installing them.

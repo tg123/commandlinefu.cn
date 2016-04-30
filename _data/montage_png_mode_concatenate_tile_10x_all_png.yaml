@@ -1,8 +1,0 @@
-commandlinefu_id: 9096
-translator:
-  weibo: ''
-hide: true
-command: |-
-  montage *.png -mode concatenate -tile 10x all.png
-summary: |-
-  create a image matrix

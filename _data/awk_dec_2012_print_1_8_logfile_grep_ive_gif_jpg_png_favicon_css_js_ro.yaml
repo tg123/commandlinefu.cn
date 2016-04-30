@@ -1,7 +1,0 @@
-commandlinefu_id: 12249
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '/Dec\/2012/ {print $1,$8}' logfile | grep -ivE '(.gif|.jpg|.png|favicon|.css|.js|robots.txt|wp-l|wp-term)' | sort | uniq -c | sort -rn | head -n 20
-summary: |-
-  在某个具体月中apache访问的top20信息 

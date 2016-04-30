@@ -1,8 +1,0 @@
-commandlinefu_id: 5671
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cut -d'/' -f3 file | sort | uniq -c
-summary: |-
-  Count accesses per domain

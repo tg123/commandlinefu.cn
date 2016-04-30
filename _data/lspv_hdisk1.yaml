@@ -1,8 +1,0 @@
-commandlinefu_id: 11271
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lspv hdisk1
-summary: |-
-  List information about a specific physical volume (eg-hdisk1)

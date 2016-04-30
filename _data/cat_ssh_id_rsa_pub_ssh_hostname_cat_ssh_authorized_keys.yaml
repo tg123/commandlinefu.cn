@@ -1,7 +1,0 @@
-commandlinefu_id: 610
-translator:
-  weibo: tgic
-command: |-
-  cat .ssh/id_rsa.pub | ssh hostname 'cat >> .ssh/authorized_keys'
-summary: |-
-  复制你的公钥到目标机器

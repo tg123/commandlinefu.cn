@@ -1,8 +1,0 @@
-commandlinefu_id: 6101
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git archive HEAD --format=zip > archive.zip
-summary: |-
-  bash script to zip a folder while ignoring git files and copying it to dropbox

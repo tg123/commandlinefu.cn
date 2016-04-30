@@ -1,8 +1,0 @@
-commandlinefu_id: 2566
-translator:
-  weibo: ''
-hide: true
-command: |-
-  man -Tps ls >> ls_manpage.ps && ps2pdf ls_manpage.ps
-summary: |-
-  Convert man page to PDF

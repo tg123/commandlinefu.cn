@@ -1,8 +1,0 @@
-commandlinefu_id: 4457
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xrandr --auto
-summary: |-
-  external projector for presentations

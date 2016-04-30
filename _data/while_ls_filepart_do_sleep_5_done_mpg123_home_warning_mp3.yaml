@@ -1,8 +1,0 @@
-commandlinefu_id: 4241
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while [ "$(ls $filePart)" != "" ]; do sleep 5; done; mpg123 /home/.../warning.mp3
-summary: |-
-  Audible warning when a downloading is finished

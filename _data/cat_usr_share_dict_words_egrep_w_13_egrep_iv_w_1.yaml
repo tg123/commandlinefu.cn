@@ -1,8 +1,0 @@
-commandlinefu_id: 13724
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /usr/share/dict/words | egrep '^\w{13,}$' | egrep -iv '(\w).*\1'
-summary: |-
-  Are there any words in the English language that use at least half of the alphabet without repeating any letters?

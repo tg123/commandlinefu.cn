@@ -1,7 +1,0 @@
-commandlinefu_id: 8699
-translator:
-  weibo: tgic
-command: |-
-  sed -i 's/\r\n//' file.txt
-summary: |-
-  清理文本中CR LF

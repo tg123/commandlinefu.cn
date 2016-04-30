@@ -1,8 +1,0 @@
-commandlinefu_id: 4169
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo echo 0 > /sys/block/sdb/queue/rotational
-summary: |-
-  set your ssd disk as a non-rotating medium

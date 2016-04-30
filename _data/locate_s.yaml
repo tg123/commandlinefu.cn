@@ -1,7 +1,0 @@
-commandlinefu_id: 5912
-translator:
-  weibo: tgic
-command: |-
-  locate -S
-summary: |-
-  查看有多少文件和目录

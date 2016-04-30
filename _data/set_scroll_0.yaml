@@ -1,8 +1,0 @@
-commandlinefu_id: 3755
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :set scroll=0
-summary: |-
-  VIM: when Ctrl-D and Ctrl-U only scroll one line, reset to default

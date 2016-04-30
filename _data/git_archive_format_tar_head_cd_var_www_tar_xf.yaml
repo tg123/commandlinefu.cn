@@ -1,8 +1,0 @@
-commandlinefu_id: 7379
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git archive --format=tar HEAD | (cd /var/www/ && tar xf -)
-summary: |-
-  update you web

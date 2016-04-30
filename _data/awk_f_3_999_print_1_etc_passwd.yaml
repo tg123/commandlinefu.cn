@@ -1,7 +1,0 @@
-commandlinefu_id: 9964
-translator:
-  weibo:  
-command: |-
-  awk -F: '$3 > 999 { print $1 }' /etc/passwd
-summary: |-
-  在etc/passwd里列出UID大于999的信息 

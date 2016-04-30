@@ -1,7 +1,0 @@
-commandlinefu_id: 1319
-translator:
-  weibo: titikaka723 
-command: |-
-  awk -F "=| "
-summary: |-
-  用=|做分隔符 

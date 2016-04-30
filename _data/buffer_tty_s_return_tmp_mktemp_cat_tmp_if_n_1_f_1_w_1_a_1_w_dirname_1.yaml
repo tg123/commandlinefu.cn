@@ -1,8 +1,0 @@
-commandlinefu_id: 2782
-translator:
-  weibo: ''
-hide: true
-command: |-
-  buffer () { tty -s && return; tmp=$(mktemp); cat > "${tmp}"; if [ -n "$1" ] && ( ( [ -f "$1" ] && [ -w "$1" ] ) || ( ! [ -a "$1" ] && [ -w "$(dirname "$1")" ] ) ); then mv -f "${tmp}" "$1"; else echo "Can't write in \"$1\""; rm -f "${tmp}"; fi }
-summary: |-
-  Buffer in order to avoir mistakes with redirections that empty your files

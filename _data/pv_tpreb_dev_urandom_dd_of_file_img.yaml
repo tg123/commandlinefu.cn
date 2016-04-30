@@ -1,7 +1,0 @@
-commandlinefu_id: 10579
-translator:
-  weibo: tgic
-command: |-
-  pv -tpreb /dev/urandom | dd of=file.img
-summary: |-
-  有进度的dd

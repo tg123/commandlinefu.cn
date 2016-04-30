@@ -1,8 +1,0 @@
-commandlinefu_id: 2204
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -i $PRIVATEKEY $HOST -C 'cd $SOURCE; tar -cz --numeric-owner .' | tee $DESTINATION/backup.tgz | tar -tz
-summary: |-
-  Backup with SSH in a archive

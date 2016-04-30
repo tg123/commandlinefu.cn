@@ -1,7 +1,0 @@
-commandlinefu_id: 3618
-translator:
-  weibo: tgic
-command: |-
-  random -f <file>
-summary: |-
-  随机文件的行 (也可以shuf)

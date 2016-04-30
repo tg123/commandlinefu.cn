@@ -1,8 +1,0 @@
-commandlinefu_id: 4889
-translator:
-  weibo: tgic
-hide: false
-command: |
-  function avg {     awk "/$2/{sum += \$$1; lc += 1;} END {printf \"Average over %d lines: %f\n\", lc, sum/lc}"; }
-summary: |-
-  求所有列的平均数

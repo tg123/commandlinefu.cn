@@ -1,8 +1,0 @@
-commandlinefu_id: 10096
-translator:
-  weibo: ''
-hide: true
-command: |-
-  shred --iterations=N /dev/sdaX
-summary: |-
-  Completly blank a disk

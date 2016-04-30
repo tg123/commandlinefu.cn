@@ -1,7 +1,0 @@
-commandlinefu_id: 2335
-translator:
-  weibo: '猪了个去'
-command: |-
-  postsuper -d ALL
-summary: |-
-  从Postfix邮件队列移除所有邮件

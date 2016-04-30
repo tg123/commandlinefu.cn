@@ -1,7 +1,0 @@
-commandlinefu_id: 3220
-translator:
-  weibo: tgic
-command: |-
-  ssh -t hostA ssh hostB
-summary: |-
-  使用hostA跳到hostB

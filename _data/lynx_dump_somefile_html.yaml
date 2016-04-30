@@ -1,8 +1,0 @@
-commandlinefu_id: 2696
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lynx -dump somefile.html
-summary: |-
-  Takes an html file and outputs plain text from it

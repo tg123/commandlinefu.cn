@@ -1,8 +1,0 @@
-commandlinefu_id: 4371
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -nnvvXSs 1514 -i <device> <filters>
-summary: |-
-  See entire packet payload using tcpdump.

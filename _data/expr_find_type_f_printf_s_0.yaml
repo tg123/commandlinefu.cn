@@ -1,7 +1,0 @@
-commandlinefu_id: 7869
-translator:
-  weibo: tgic
-command: |-
-  expr `find . -type f -printf "%s + "0`
-summary: |-
-  查找并求和文件大小

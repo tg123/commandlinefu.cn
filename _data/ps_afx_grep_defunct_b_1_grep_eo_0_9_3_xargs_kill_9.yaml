@@ -1,8 +1,0 @@
-commandlinefu_id: 10671
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ps afx | grep defunct -B 1 | grep -Eo "[0-9]{3,}" | xargs kill -9
-summary: |-
-  kill defunct processes by killing their parents

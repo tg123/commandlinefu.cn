@@ -1,8 +1,0 @@
-commandlinefu_id: 7584
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  dpkg -l python
-summary: |-
-  None

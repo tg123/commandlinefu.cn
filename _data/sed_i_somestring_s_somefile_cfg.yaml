@@ -1,7 +1,0 @@
-commandlinefu_id: 4712
-translator:
-  weibo: tgic
-command: |-
-  sed -i '/^somestring/ s/^/#/' somefile.cfg
-summary: |-
-  将xx开头的行加上#

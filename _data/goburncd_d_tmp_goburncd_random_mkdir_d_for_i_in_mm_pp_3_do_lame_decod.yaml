@@ -1,7 +1,0 @@
-commandlinefu_id: 6005
-translator:
-  weibo: codepiano
-command: |-
-  goburncd() { d=/tmp/goburncd_$RANDOM; mkdir $d && for i in *.[Mm][Pp]3; do lame --decode "$i" "$d/${i%%.*}.wav"; done; sudo cdrecord -pad $d/* && rm -r $d; eject }
-summary: |-
-  烧录一个音频CD

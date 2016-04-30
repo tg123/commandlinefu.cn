@@ -1,8 +1,0 @@
-commandlinefu_id: 7082
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar cfJ tarfile.tar.xz pathnames
-summary: |-
-  Create a tar file compressed with xz.

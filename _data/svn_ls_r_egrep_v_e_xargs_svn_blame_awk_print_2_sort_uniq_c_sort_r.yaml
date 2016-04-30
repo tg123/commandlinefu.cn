@@ -1,7 +1,0 @@
-commandlinefu_id: 2787
-translator:
-  weibo: tgic
-command: |-
-  svn ls -R | egrep -v -e "\/$" | xargs svn blame | awk '{print $2}' | sort | uniq -c | sort -r
-summary: |-
-  查看svn用户贡献

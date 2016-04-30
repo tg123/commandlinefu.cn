@@ -1,7 +1,0 @@
-commandlinefu_id: 917
-translator:
-  weibo: tgic
-command: |-
-  nmap -sS -P0 -sV -O <target>
-summary: |-
-  探测目标主机的os

@@ -1,8 +1,0 @@
-commandlinefu_id: 11102
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  php -e -c /path/to/php.ini -r 'echo "OK\n";';
-summary: |-
-  测试php.ini

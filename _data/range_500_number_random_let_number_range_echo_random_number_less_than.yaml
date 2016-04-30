@@ -1,7 +1,0 @@
-commandlinefu_id: 6263
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  RANGE=500;number=$RANDOM let "number %= $RANGE"; echo "Random number less than $RANGE  ---  $number"
-summary: |-
-  获得小于500的随机数

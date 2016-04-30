@@ -1,8 +1,0 @@
-commandlinefu_id: 2108
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name "*.[ch]" -exec grep -i -H "search pharse" {} \;
-summary: |-
-  Search recursively to find a word or phrase in certain file types, such as C code

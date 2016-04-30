@@ -1,7 +1,0 @@
-commandlinefu_id: 12681
-translator:
-  weibo: tgic
-command: |-
-  nslookup www.example.com | tail -2 | head -1 | awk '{print $2}'
-summary: |-
-  解析域名的IP

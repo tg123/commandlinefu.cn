@@ -1,7 +1,0 @@
-commandlinefu_id: 3845
-translator:
-  weibo: titikaka723 
-command: |-
-  dd if=/dev/sda | ssh user@server 'dd of=sda.img'
-summary: |-
-  一个本地驱动器的文件备份到远程主机上通过SSH 

@@ -1,7 +1,0 @@
-commandlinefu_id: 158
-translator:
-  weibo: tgic
-command: |-
-  alias emacs='rm -rf ~/'
-summary: |-
-  罪与罚

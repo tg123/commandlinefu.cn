@@ -1,7 +1,0 @@
-commandlinefu_id: 7442
-translator:
-  weibo: codepiano
-command: |-
-  touch /path/to/file.txt
-summary: |-
-  创建一个新文件

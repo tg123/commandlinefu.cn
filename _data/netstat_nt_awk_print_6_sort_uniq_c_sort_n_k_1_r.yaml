@@ -1,7 +1,0 @@
-commandlinefu_id: 8680
-translator:
-  weibo: tgic
-command: |-
-  netstat -nt | awk '{print $6}' | sort | uniq -c | sort -n -k 1 -r
-summary: |-
-  按状态统计tcp连接数量

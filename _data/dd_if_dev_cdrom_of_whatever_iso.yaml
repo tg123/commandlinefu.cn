@@ -1,7 +1,0 @@
-commandlinefu_id: 3352
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  dd if=/dev/cdrom of=whatever.iso
-summary: |-
-  以.iso格式复制CD/DVD到硬盘上

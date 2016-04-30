@@ -1,8 +1,0 @@
-commandlinefu_id: 12768
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /Applications -path '*Contents/_MASReceipt/receipt' -maxdepth 4 -print |sed 's#.app/Contents/_MASReceipt/receipt#.app#g; s#/Applications/##'
-summary: |-
-  Show me all of my Mac App Store apps

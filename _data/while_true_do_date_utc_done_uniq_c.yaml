@@ -1,7 +1,0 @@
-commandlinefu_id: 12022
-translator:
-  weibo: titikaka723 
-command: |-
-  while (true); do date --utc; done | uniq -c
-summary: |-
-  while判断，检验分支性能 

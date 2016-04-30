@@ -1,8 +1,0 @@
-commandlinefu_id: 12692
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for I in $(awk -v LIMIT=500 -F: '($3>=LIMIT) && ($3!=65534)' /etc/passwd | cut -f 1-1 -d ':' | xargs); do usermod -g YOURGROUP $I ; done
-summary: |-
-  Changes the initial login group for all users with GID > 500 (specified with LIMIT), to group YOURGROUP

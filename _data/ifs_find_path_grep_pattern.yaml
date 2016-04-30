@@ -1,7 +1,0 @@
-commandlinefu_id: 3021
-translator:
-  weibo: tgic
-command: |-
-  IFS=:; find $PATH | grep pattern
-summary: |-
-  查找$PATH里边的pattern

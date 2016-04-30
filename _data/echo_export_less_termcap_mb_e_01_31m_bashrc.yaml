@@ -1,7 +1,0 @@
-commandlinefu_id: 9530
-translator:
-  weibo: tgic
-command: |-
-  echo "export LESS_TERMCAP_mb=$'\E[01;31m'" >> ~/.bashrc
-summary: |-
-  有颜色的man

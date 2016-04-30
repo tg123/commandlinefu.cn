@@ -1,7 +1,0 @@
-commandlinefu_id: 10016
-translator:
-  weibo: tgic
-command: |-
-  history | sed -e 's/^sudo //' | awk '{print $2}' | sort | uniq -c | sort -rn | head
-summary: |-
-  你使用最多的10个命令

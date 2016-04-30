@@ -1,7 +1,0 @@
-commandlinefu_id: 5517
-translator:
-  weibo: tgic
-command: |-
-  kill -9 `pgrep firefox`
-summary: |-
-  杀所有进程

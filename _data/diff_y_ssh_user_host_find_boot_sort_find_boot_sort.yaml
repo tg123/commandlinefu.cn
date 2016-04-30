@@ -1,7 +1,0 @@
-commandlinefu_id: 10154
-translator:
-  weibo: codepiano
-command: |-
-  diff -y <(ssh user@host  find /boot|sort) <(find /boot|sort)
-summary: |-
-  比较本地和远程目录

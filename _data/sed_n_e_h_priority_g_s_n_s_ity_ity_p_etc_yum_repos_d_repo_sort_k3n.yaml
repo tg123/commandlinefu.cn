@@ -1,8 +1,0 @@
-commandlinefu_id: 11234
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -n -e "/^\[/h; /priority *=/{ G; s/\n/ /; s/ity=/ity = /; p }" /etc/yum.repos.d/*.repo | sort -k3n
-summary: |-
-  Easy way to display yum repo priorities

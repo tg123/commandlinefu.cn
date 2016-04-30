@@ -1,7 +1,0 @@
-commandlinefu_id: 4020
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/hda of=file.img
-summary: |-
-  镜像硬盘

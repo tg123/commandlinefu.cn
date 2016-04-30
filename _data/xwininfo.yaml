@@ -1,8 +1,0 @@
-commandlinefu_id: 3005
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xwininfo
-summary: |-
-  Find

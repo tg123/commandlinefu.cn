@@ -1,7 +1,0 @@
-commandlinefu_id: 4032
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -mmin -60 -not -path "*svn*" -print|more
-summary: |-
-  忽略SVN文件和文件夹，递归查找最近一小时内修改过的文件

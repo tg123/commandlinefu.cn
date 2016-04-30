@@ -1,8 +1,0 @@
-commandlinefu_id: 11108
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -maxdepth 1 -empty -type d -print
-summary: |-
-  List empty directories only in present level

@@ -1,8 +1,0 @@
-commandlinefu_id: 13440
-translator:
-  weibo: ''
-hide: true
-command: |-
-  openssl enc -aes-256-ctr -pass pass:"$(dd if=/dev/urandom bs=128 count=1 2>/dev/null | base64)" -nosalt < /dev/zero > randomfile.bin
-summary: |-
-  Securely destroy data on given device hugely faster than /dev/urandom

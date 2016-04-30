@@ -1,7 +1,0 @@
-commandlinefu_id: 9745
-translator:
-  weibo: '猪了个去'
-command: |-
-  tput setf 4
-summary: |-
-  改变终端前景色

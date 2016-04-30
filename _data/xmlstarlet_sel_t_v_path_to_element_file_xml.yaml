@@ -1,7 +1,0 @@
-commandlinefu_id: 9932
-translator:
-  weibo: tgic
-command: |-
-  xmlstarlet sel -t -v "/path/to/element" file.xml
-summary: |-
-  提取xml元素

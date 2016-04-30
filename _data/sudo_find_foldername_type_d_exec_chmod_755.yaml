@@ -1,7 +1,0 @@
-commandlinefu_id: 10458
-translator:
-  weibo: tgic
-command: |-
-  sudo find foldername -type d -exec chmod 755 {} ";"
-summary: |-
-  只改变文件夹权限(不影响文件)

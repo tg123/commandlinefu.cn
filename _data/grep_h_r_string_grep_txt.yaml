@@ -1,8 +1,0 @@
-commandlinefu_id: 11866
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -H -r "string" ./* >> grep.txt
-summary: |-
-  find files containing text

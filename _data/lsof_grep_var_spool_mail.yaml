@@ -1,8 +1,0 @@
-commandlinefu_id: 1022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof | grep "/var/spool/mail/"
-summary: |-
-  Show a listing of open mailbox files (or whatever you want to modify it to show)

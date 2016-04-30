@@ -1,8 +1,0 @@
-commandlinefu_id: 7175
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ( apache2ctl -t && service apache2 restart || (l=$(apache2ctl -t 2>&1|head -n1|sed 's/.*line\s\([0-9]*\).*/\1/'); vim +$l $(locate apache2.conf | head -n1)))
-summary: |-
-  Check apache config syntax and restart or edit the file

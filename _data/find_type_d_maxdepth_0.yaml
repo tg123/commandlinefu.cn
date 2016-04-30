@@ -1,8 +1,0 @@
-commandlinefu_id: 8973
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find * -type d -maxdepth 0
-summary: |-
-  只列出目录

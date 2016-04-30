@@ -1,7 +1,0 @@
-commandlinefu_id: 2441
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/zero of=testfile.txt bs=1M count=10
-summary: |-
-  创建特定大小的文件

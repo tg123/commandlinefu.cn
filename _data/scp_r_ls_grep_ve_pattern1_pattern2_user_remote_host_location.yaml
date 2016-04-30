@@ -1,8 +1,0 @@
-commandlinefu_id: 13912
-translator:
-  weibo: ''
-hide: true
-command: |-
-  scp -r `ls | grep -vE "(Pattern1|Pattern2)"` user@remote_host:/location
-summary: |-
-  Remote copy in batch, exclude specified pattern

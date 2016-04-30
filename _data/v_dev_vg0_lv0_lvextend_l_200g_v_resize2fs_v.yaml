@@ -1,8 +1,0 @@
-commandlinefu_id: 1266
-translator:
-  weibo: ''
-hide: true
-command: |-
-  v=/dev/vg0/lv0; lvextend -L+200G $v && resize2fs $v
-summary: |-
-  Resize A Mounted EXT3 File System

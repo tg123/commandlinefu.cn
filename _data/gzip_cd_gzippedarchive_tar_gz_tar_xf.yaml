@@ -1,8 +1,0 @@
-commandlinefu_id: 12735
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gzip -cd gzippedarchive.tar.gz | tar -xf -
-summary: |-
-  Extract a .tar.gz archive in one shot on IBM AIX

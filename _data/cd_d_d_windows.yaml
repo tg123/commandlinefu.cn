@@ -1,7 +1,0 @@
-commandlinefu_id: 659
-translator:
-  weibo: tgic
-command: |-
-  cd /d d:\Windows
-summary: |-
-  在windows上转移目录自动转移盘符

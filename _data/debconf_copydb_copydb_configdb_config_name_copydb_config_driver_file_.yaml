@@ -1,8 +1,0 @@
-commandlinefu_id: 9143
-translator:
-  weibo: ''
-hide: true
-command: |-
-  debconf-copydb copydb configdb --config="Name: copydb" --config ="Driver: File" --config="Filename: ~/copydebconf.dat"
-summary: |-
-  Import a debconf configuration (from a copydebconf.dat file)

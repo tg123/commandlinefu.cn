@@ -1,7 +1,0 @@
-commandlinefu_id: 1263
-translator:
-  weibo: tgic
-command: |-
-  sudo dd if=/dev/sda of=/media/disk/backup/sda.backup
-summary: |-
-  使用dd备份硬盘

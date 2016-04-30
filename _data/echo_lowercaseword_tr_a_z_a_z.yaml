@@ -1,8 +1,0 @@
-commandlinefu_id: 12316
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo lowercaseword  | tr  '[a-z]'   '[A-Z]'
-summary: |-
-  convert a string from lower case into uppercase

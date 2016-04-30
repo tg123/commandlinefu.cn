@@ -1,8 +1,0 @@
-commandlinefu_id: 6006
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ~ -maxdepth 20 -type f -size -16M -print > t; for ((i=$(wc -l < t); i>0; i--)) do a=$(sed -n ${i}p < t); mv "$a" /dev/shm/d; mv /dev/shm/d "$a"; echo $i; done; echo DONE; rm t
-summary: |-
-  defragment files

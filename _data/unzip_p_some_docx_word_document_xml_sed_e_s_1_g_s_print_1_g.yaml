@@ -1,7 +1,0 @@
-commandlinefu_id: 4311
-translator:
-  weibo: codepiano
-command: |-
-  unzip -p some.docx word/document.xml | sed -e 's/<[^>]\{1,\}>//g; s/[^[:print:]]\{1,\}//g'
-summary: |-
-  从微软Word文档中抽取文本

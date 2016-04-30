@@ -1,8 +1,0 @@
-commandlinefu_id: 6120
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dump -0Lauf - /dev/adXsYz | gzip > /path/to/adXsYz.dump.gz
-summary: |-
-  Dump snapshot of UFS2 filesystem, then gzip it

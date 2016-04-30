@@ -1,7 +1,0 @@
-commandlinefu_id: 4860
-translator:
-  weibo: codepiano
-command: |-
-  for domain in `cat list_of_domains.txt`; do echo $domain; whois $domain >> output.txt; done
-summary: |-
-  使用whois查询多个域名

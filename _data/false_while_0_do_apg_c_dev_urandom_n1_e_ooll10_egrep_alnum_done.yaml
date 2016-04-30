@@ -1,8 +1,0 @@
-commandlinefu_id: 10650
-translator:
-  weibo: ''
-hide: true
-command: |-
-  false; while [ $? != 0 ]; do apg -c /dev/urandom -n1 -E oOlL10 | egrep '^[[:alnum:]]+$'; done
-summary: |-
-  Generate random password, human readable with no special characters.

@@ -1,8 +1,0 @@
-commandlinefu_id: 2382
-translator:
-  weibo: ''
-hide: true
-command: |-
-  diff -urp /originaldirectory /modifieddirectory
-summary: |-
-  Recursively compare two directories and output their differences on a readable format

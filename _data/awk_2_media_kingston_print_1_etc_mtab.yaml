@@ -1,8 +1,0 @@
-commandlinefu_id: 13702
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '$2 == "/media/KINGSTON" {print $1}' /etc/mtab
-summary: |-
-  find the device when you only know the mount point

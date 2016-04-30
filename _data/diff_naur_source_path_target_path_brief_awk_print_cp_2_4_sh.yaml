@@ -1,7 +1,0 @@
-commandlinefu_id: 10588
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  diff -Naur /source/path /target/path --brief | awk '{print "cp " $2 " " $4}' | sh
-summary: |-
-  备份所有跟原备份不一样的文件

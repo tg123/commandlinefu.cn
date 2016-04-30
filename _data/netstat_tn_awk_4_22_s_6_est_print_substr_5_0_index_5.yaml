@@ -1,8 +1,0 @@
-commandlinefu_id: 11346
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -tn | awk '($4 ~ /:22\s*/) && ($6 ~ /^EST/) {print substr($5, 0, index($5,":"))}'
-summary: |-
-  list current ssh clients

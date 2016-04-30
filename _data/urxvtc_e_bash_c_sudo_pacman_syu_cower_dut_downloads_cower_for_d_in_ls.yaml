@@ -1,8 +1,0 @@
-commandlinefu_id: 12150
-translator:
-  weibo: ''
-hide: true
-command: |-
-  urxvtc -e bash -c 'sudo pacman -Syu ; cower -dut ~/Downloads/cower/ ; for D in `ls -d ~/Downloads/cower/*` ; do ( cd $D && makepkg -sci ) ; done ; read -p ":: All done. Press [Enter] key to continue..."'
-summary: |-
-  Updates Archlinux, downloads and builds AUR

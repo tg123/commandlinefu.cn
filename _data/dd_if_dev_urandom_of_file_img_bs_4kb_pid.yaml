@@ -1,8 +1,0 @@
-commandlinefu_id: 1868
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dd if=/dev/urandom of=file.img bs=4KB& pid=$!
-summary: |-
-  Watch the progress of 'dd'

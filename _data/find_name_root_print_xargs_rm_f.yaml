@@ -1,8 +1,0 @@
-commandlinefu_id: 413
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name Root -print | xargs rm -f
-summary: |-
-  Remove CVS root files under current directory

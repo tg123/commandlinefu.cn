@@ -1,8 +1,0 @@
-commandlinefu_id: 13016
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -L INPUT --line-numbers
-summary: |-
-  Remove specific entries from iptables

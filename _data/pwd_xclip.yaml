@@ -1,8 +1,0 @@
-commandlinefu_id: 10866
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pwd | xclip
-summary: |-
-  copy string to clipboard

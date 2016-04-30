@@ -1,7 +1,0 @@
-commandlinefu_id: 5511
-translator:
-  weibo: tgic
-command: |-
-  cat domainlist.txt  | while read line; do echo -ne $line; whois $line | grep Expiration ; done | sed 's:Expiration Date::'
-summary: |-
-  产生一个即将过期的域名列表

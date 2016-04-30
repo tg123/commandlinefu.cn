@@ -1,7 +1,0 @@
-commandlinefu_id: 4868
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  myinfo() { info --subnodes -o - $1 | less; }
-summary: |-
-  一个让GNU info像man一样显示的shell函数。

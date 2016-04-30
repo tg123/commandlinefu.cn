@@ -1,7 +1,0 @@
-commandlinefu_id: 2402
-translator:
-  weibo: tgic
-command: |-
-  ldapsearch -LLL -H ldap://activedirectory.example.com:389 -b 'dc=example,dc=com' -D 'DOMAIN\Joe.Bloggs' -w 'p@ssw0rd' '(sAMAccountName=joe.bloggs)'
-summary: |-
-  查询LDAP服务器

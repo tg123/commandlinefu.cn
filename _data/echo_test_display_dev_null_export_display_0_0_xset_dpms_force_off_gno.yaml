@@ -1,8 +1,0 @@
-commandlinefu_id: 14152
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo test $DISPLAY > /dev/null || export DISPLAY=:0.0; xset dpms force off;gnome-screensaver-command -l
-summary: |-
-  Turn monitor on or off if off or on, respectively

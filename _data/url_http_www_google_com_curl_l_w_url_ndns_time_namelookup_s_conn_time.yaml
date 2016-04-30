@@ -1,8 +1,0 @@
-commandlinefu_id: 3229
-translator:
-  weibo: ''
-hide: true
-command: |-
-  URL="http://www.google.com";curl -L --w "$URL\nDNS %{time_namelookup}s  conn %{time_connect}s  time %{time_total}s\nSpeed %{speed_download}bps Size %{size_download}bytes\n" -o/dev/null -s $URL
-summary: |-
-  How fast is the connexion to a URL, some stats from curl

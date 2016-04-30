@@ -1,8 +1,0 @@
-commandlinefu_id: 11514
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -cjf - $DIR | nc $HOST $PORT
-summary: |-
-  netcat - send tar archive remotely (sending side)

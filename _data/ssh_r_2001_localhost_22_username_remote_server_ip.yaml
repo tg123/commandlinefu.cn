@@ -1,8 +1,0 @@
-commandlinefu_id: 3763
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -R 2001:localhost:22 [username]@[remote server ip]
-summary: |-
-  Create an SSH connection (reverse tunnel) through your firewall.

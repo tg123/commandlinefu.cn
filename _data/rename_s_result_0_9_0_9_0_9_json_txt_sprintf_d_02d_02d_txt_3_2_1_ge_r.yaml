@@ -1,8 +1,0 @@
-commandlinefu_id: 13479
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rename 's/result_([0-9]+)_([0-9]+)_([0-9]+)\.json\.txt/sprintf("%d%02d%02d.txt",$3,$2,$1)/ge' result_*.txt
-summary: |-
-  Rename with regular expression and leading zeros

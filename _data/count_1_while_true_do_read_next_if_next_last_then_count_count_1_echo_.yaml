@@ -1,8 +1,0 @@
-commandlinefu_id: 5204
-translator:
-  weibo: ''
-hide: true
-command: |-
-  count="1" ; while true ; do read next ; if [[ "$next" = "$last" ]] ; then count=$(($count+1)) ; echo "$count" ; else count="1" ; echo $count ; fi ; last="$next" ; done
-summary: |-
-  Simple addicting bash game.

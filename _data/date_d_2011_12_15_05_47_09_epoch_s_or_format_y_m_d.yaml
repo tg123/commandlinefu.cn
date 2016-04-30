@@ -1,7 +1,0 @@
-commandlinefu_id: 9912
-translator:
-  weibo: '猪了个去'
-command: |-
-  date -d '2011-12-15 05:47:09' +"epoch: %s or format: %Y/%m/%d"
-summary: |-
-  使用date命令转换/格式化时间

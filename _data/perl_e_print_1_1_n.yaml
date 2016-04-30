@@ -1,7 +1,0 @@
-commandlinefu_id: 6277
-translator:
-  weibo: tgic
-command: |-
-  perl -e 'print 1+1 ."\n";'
-summary: |-
-  使用perl计算器

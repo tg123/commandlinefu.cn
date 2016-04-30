@@ -1,8 +1,0 @@
-commandlinefu_id: 10180
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 6,66d <filename>
-summary: |-
-  Remove a range of lines from a file

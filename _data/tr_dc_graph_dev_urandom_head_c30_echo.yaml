@@ -1,8 +1,0 @@
-commandlinefu_id: 11410
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tr -dc '[:graph:]' </dev/urandom  | head -c30; echo
-summary: |-
-  generate a randome 3 character password

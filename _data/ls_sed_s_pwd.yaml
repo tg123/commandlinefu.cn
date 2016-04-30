@@ -1,7 +1,0 @@
-commandlinefu_id: 6245
-translator:
-  weibo: '猪了个去'
-command: |-
-  ls | sed s#^#$(pwd)/#
-summary: |-
-  列出文件的绝对路径

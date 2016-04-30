@@ -1,8 +1,0 @@
-commandlinefu_id: 10770
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function have_here { find "${@:-.}" -type d \( -name .git -o -name .svn -o -name .bzr -o -name CVS -o -name .hg -o -name __pycache__ \) -prune -o -type f -print; }
-summary: |-
-  List files under current directory, ignoring repository copies.

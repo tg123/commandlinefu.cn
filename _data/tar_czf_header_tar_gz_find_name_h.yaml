@@ -1,8 +1,0 @@
-commandlinefu_id: 5932
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -czf ../header.tar.gz $(find . -name *.h)
-summary: |-
-  Tar files matching a certain wildcard

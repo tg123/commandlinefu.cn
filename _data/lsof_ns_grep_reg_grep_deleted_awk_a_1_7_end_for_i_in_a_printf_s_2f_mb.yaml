@@ -1,8 +1,0 @@
-commandlinefu_id: 14002
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lsof -ns | grep REG | grep deleted | awk '{a[$1]+=$7;}END{for(i in a){printf("%s %.2f MB\n", i, a[i]/1048576);}}'
-summary: |-
-  List pr. command in megabytes sum of deleted files that are still in use and therefore consumes diskspace

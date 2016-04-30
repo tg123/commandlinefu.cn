@@ -1,8 +1,0 @@
-commandlinefu_id: 8568
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find / -name core | xargs /bin/rm -f
-summary: |-
-  Find and remove files

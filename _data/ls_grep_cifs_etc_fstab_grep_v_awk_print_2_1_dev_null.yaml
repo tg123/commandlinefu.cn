@@ -1,7 +1,0 @@
-commandlinefu_id: 7264
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls $(grep cifs /etc/fstab | grep -v ^# |awk ' { print $2 } ') 1>/dev/null
-summary: |-
-  将fstab下的错误信息写入/dev/null内 

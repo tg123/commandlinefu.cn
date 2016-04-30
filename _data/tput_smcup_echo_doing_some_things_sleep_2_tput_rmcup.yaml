@@ -1,8 +1,0 @@
-commandlinefu_id: 3737
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tput smcup; echo "Doing some things..."; sleep 2; tput rmcup
-summary: |-
-  Using tput to save, clear and restore the terminal contents

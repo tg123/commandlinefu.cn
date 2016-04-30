@@ -1,7 +1,0 @@
-commandlinefu_id: 6675
-translator:
-  weibo: tgic
-command: |-
-  pwgen 30
-summary: |-
-  生成30位的密码

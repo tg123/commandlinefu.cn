@@ -1,8 +1,0 @@
-commandlinefu_id: 3854
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ffmpeg -i input.mov -b 4096k -vcodec msmpeg4v2 -acodec pcm_u8 output.avi
-summary: |-
-  Convert a MOV captured from a digital camera to a smaller AVI

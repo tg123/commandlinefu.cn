@@ -1,8 +1,0 @@
-commandlinefu_id: 3990
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig | awk '/HW/ {print $5}'
-summary: |-
-  Get ethX mac addresses

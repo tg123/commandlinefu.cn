@@ -1,8 +1,0 @@
-commandlinefu_id: 11798
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qq/<<<<<<^Md/^======^Mdd/>>>>>>^Mdd^M/<<<<<<q
-summary: |-
-  automatically ditch old versions in a conflict

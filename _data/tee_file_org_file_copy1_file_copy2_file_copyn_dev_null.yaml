@@ -1,8 +1,0 @@
-commandlinefu_id: 13733
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tee < file.org file.copy1 file.copy2 [file.copyn] > /dev/null
-summary: |-
-  Copy one file to multiple files

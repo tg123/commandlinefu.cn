@@ -1,7 +1,0 @@
-commandlinefu_id: 8678
-translator:
-  weibo: tgic
-command: |-
-  ls -d */* | wc -l
-summary: |-
-  计算子目录数量

@@ -1,7 +1,0 @@
-commandlinefu_id: 2135
-translator:
-  weibo: tgic
-command: |-
-  iptables -D fail2ban-SSH -s <ip_address_to_be_set_free> -j DROP
-summary: |-
-  释放一个fail2ban 的ip

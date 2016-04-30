@@ -1,8 +1,0 @@
-commandlinefu_id: 8059
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pdsh -R ssh -w se00[1-5] # a list of host names
-summary: |-
-  parrallel execution of a command on remote hosts by ssh or rsh or ...

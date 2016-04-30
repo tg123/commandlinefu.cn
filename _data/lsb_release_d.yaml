@@ -1,7 +1,0 @@
-commandlinefu_id: 2121
-translator:
-  weibo: codepiano
-command: |-
-  lsb_release -d
-summary: |-
-  显示Linux版本

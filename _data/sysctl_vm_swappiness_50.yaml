@@ -1,8 +1,0 @@
-commandlinefu_id: 4324
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  sysctl vm.swappiness=50
-summary: |-
-  修改swap率

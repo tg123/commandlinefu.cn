@@ -1,7 +1,0 @@
-commandlinefu_id: 890
-translator:
-  weibo: particle128
-command: |-
-  watch ifconfig eth0
-summary: |-
-  持续观察eth0上的数据变化

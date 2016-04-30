@@ -1,7 +1,0 @@
-commandlinefu_id: 12104
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed ?s/[sub_str]/[sub_str]\n/g? [text_file] | wc -l
-summary: |-
-  计算在一个大的文本文件中某个字符串被匹配的次数

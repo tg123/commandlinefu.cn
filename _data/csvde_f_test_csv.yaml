@@ -1,8 +1,0 @@
-commandlinefu_id: 8034
-translator:
-  weibo: ''
-hide: true
-command: |-
-  csvde -f test.csv
-summary: |-
-  Output the content of your Active Directory in a CSV file

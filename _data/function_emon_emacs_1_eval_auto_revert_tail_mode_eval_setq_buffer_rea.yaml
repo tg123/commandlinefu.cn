@@ -1,8 +1,0 @@
-commandlinefu_id: 11556
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function emon { emacs "$1" --eval '(auto-revert-tail-mode)' --eval '(setq buffer-read-only t)' --eval '(goto-char (point-max))' }
-summary: |-
-  Use emacs in place of tail -f

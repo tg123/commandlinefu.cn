@@ -1,8 +1,0 @@
-commandlinefu_id: 2994
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -r --include="*.[ch]" pattern .
-summary: |-
-  grep certain file types recursively

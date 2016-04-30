@@ -1,7 +1,0 @@
-commandlinefu_id: 12183
-translator:
-  weibo: tgic
-command: |-
-  sudo sed -i 's/raspberrypi/pita1/' /etc/hosts /etc/hostname; sudo reboot
-summary: |-
-  给你的 pi 重命名

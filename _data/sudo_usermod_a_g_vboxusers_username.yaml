@@ -1,7 +1,0 @@
-commandlinefu_id: 10574
-translator:
-  weibo: codepiano
-command: |-
-  sudo usermod -a -G vboxusers <username>
-summary: |-
-  修复VirtualBox错误

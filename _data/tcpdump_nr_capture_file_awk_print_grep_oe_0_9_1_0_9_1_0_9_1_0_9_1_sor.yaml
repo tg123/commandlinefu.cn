@@ -1,7 +1,0 @@
-commandlinefu_id: 8661
-translator:
-  weibo: codepiano
-command: |-
-  tcpdump -nr capture.file | awk '{print }' | grep -oE '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}.[0-9]{1,}' | sort | uniq -c | sort -n
-summary: |-
-  从tcpdump中获取有用的数据（按照ip地址排序）

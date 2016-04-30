@@ -1,8 +1,0 @@
-commandlinefu_id: 9754
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pkill -{signal} mpg321
-summary: |-
-  controls mpg321 play/pause/stop by signals

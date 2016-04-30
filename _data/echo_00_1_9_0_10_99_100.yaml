@@ -1,7 +1,0 @@
-commandlinefu_id: 2127
-translator:
-  weibo: codepiano
-command: |-
-  echo 00{1..9} 0{10..99} 100
-summary: |-
-  生成使用0补齐的数字

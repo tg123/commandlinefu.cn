@@ -1,7 +1,0 @@
-commandlinefu_id: 11521
-translator:
-  weibo: codepiano
-command: |-
-  awk '/^md/ {printf "%s: ", $1}; /blocks/ {print $NF}' </proc/mdstat
-summary: |-
-  打印RAID磁盘组健康状态的简要总结

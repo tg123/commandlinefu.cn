@@ -1,7 +1,0 @@
-commandlinefu_id: 12465
-translator:
-  weibo: tgic
-command: |-
-  convert *.jpeg output.pdf
-summary: |-
-  合并多个jpg到pdf

@@ -1,7 +1,0 @@
-commandlinefu_id: 9480
-translator:
-  weibo: tgic
-command: |-
-  convert -resize '1024x600^' image.jpg small-image.jpg
-summary: |-
-  缩放图片

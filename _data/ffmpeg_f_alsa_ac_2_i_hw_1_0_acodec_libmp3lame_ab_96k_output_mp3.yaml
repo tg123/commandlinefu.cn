@@ -1,7 +1,0 @@
-commandlinefu_id: 3513
-translator:
-  weibo: tgic
-command: |-
-  ffmpeg -f alsa -ac 2 -i hw:1,0 -acodec libmp3lame -ab 96k output.mp3
-summary: |-
-  录制mp3

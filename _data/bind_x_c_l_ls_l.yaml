@@ -1,7 +1,0 @@
-commandlinefu_id: 7384
-translator:
-  weibo: codepiano
-command: |-
-  bind -x '"\C-l":ls -l'
-summary: |-
-  给命令绑定快捷键

@@ -1,8 +1,0 @@
-commandlinefu_id: 4673
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mgc() { grep --exclude=cscope* --color=always -rni $1 . |perl -pi -e 's/:/ +/' |perl -pi -e 's/^(.+)$/vi $1/g' |perl -pi -e 's/:/  /'; }
-summary: |-
-  Recursively grep for string and format output for vi(m)

@@ -1,8 +1,0 @@
-commandlinefu_id: 5295
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -iname "*.djvu" -execdir perl -e '@s=`djvutxt \"$ARGV[0]\"\|grep -c Berlekamp`; chomp @s; print $s[0]; print " $ARGV[0]\n"' '{}' \;|sort -n
-summary: |-
-  Grep through the text of djvu files and format results

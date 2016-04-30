@@ -1,7 +1,0 @@
-commandlinefu_id: 5178
-translator:
-  weibo: tgic
-command: |-
-  say WORD
-summary: |-
-  读出单词 osx

@@ -1,7 +1,0 @@
-commandlinefu_id: 2446
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find directory -size +nnn
-summary: |-
-  查找超过指定大小的文件

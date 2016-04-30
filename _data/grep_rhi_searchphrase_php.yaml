@@ -1,8 +1,0 @@
-commandlinefu_id: 4585
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -rHi searchphrase *.php
-summary: |-
-  Find all files containing a word

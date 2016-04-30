@@ -1,8 +1,0 @@
-commandlinefu_id: 1143
-translator:
-  weibo: ''
-hide: true
-command: |-
-  FILE="`date +%m%d%H%M%S`.png"; URL="http://YOUR_HOST/YOUR/PATH/$FILE"; TMP="/tmp/$FILE"; import -frame $TMP; scp $TMP YOUR-USER@YOUR-HOST:/YOUR/PATH/; rm $TMP; firefox "$URL"
-summary: |-
-  create an screenshot, upload it to your server via scp and then open that screenshot in firefox

@@ -1,7 +1,0 @@
-commandlinefu_id: 6027
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'NR==4'
-summary: |-
-  显示文件中指定行的内容 

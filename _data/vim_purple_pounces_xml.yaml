@@ -1,8 +1,0 @@
-commandlinefu_id: 2028
-translator:
-  weibo: ''
-hide: true
-command: |-
-  vim ~/.purple/pounces.xml
-summary: |-
-  find/edit your forgotten buddy pounces for pidgin

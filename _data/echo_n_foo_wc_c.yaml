@@ -1,7 +1,0 @@
-commandlinefu_id: 12393
-translator:
-  weibo: tgic
-command: |-
-  echo -n "foo" | wc -c
-summary: |-
-  计算字符数

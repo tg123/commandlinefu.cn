@@ -1,7 +1,0 @@
-commandlinefu_id: 6939
-translator:
-  weibo: tgic
-command: |-
-  for i in $(file * | grep broken | cut -d : -f 1); do rm $i; done
-summary: |-
-  清理无效符号连接

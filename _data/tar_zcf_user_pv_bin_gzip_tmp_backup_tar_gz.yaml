@@ -1,8 +1,0 @@
-commandlinefu_id: 943
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar zcf - user | pv /bin/gzip > /tmp/backup.tar.gz
-summary: |-
-  Command line progress bar

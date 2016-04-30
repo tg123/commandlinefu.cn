@@ -1,8 +1,0 @@
-commandlinefu_id: 1768
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rpm -q kernel-2* | grep -v $(uname -r) | xargs yum erase -y
-summary: |-
-  Clean the /boot directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 11882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk '{for (i=9;i<=NF;i++) {printf "%s",$i; printf "%s", " ";}; printf "\n"}'
-summary: |-
-  Print data from field 9 till the end separated by a white space and new record separated by newline.

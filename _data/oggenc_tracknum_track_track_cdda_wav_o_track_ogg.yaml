@@ -1,8 +1,0 @@
-commandlinefu_id: 2790
-translator:
-  weibo: ''
-hide: true
-command: |-
-  oggenc --tracknum='track' track.cdda.wav -o 'track.ogg'
-summary: |-
-  Make ogg file from wav file

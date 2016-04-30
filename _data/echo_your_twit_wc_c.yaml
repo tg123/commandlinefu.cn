@@ -1,7 +1,0 @@
-commandlinefu_id: 6216
-translator:
-  weibo: tgic
-command: |-
-  echo "<your twit>" | wc -c -
-summary: |-
-  字数

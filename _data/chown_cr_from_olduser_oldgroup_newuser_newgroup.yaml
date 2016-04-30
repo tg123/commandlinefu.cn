@@ -1,7 +1,0 @@
-commandlinefu_id: 414
-translator:
-  weibo: tgic
-command: |-
-  chown -cR --from=olduser:oldgroup newuser:newgroup *
-summary: |-
-  递归更新文件所有者

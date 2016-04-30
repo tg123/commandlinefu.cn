@@ -1,8 +1,0 @@
-commandlinefu_id: 1403
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "Whatever you need" | sudo tee [-a] /etc/system-file.cfg
-summary: |-
-  Tweak system files without invoking a root shell

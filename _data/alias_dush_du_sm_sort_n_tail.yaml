@@ -1,8 +1,0 @@
-commandlinefu_id: 5175
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias dush="du -sm *|sort -n|tail"
-summary: |-
-  easily find megabyte eating files or directories

@@ -1,8 +1,0 @@
-commandlinefu_id: 12458
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in * ; do mv $i $[j++].mp3 ; done
-summary: |-
-  replace file name

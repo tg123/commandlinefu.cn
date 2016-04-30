@@ -1,7 +1,0 @@
-commandlinefu_id: 6024
-translator:
-  weibo: tgic
-command: |-
-  sed -n '1,/regex/p' filename
-summary: |-
-  打印第一行到匹配的行之间的内容

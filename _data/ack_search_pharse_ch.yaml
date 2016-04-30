@@ -1,8 +1,0 @@
-commandlinefu_id: 8741
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ack "search pharse" *.[ch]
-summary: |-
-  Search recursively to find a word or phrase in certain file types, such as C code

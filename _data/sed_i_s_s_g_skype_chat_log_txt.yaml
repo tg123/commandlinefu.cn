@@ -1,8 +1,0 @@
-commandlinefu_id: 13426
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i 's/^.*?].*?:\s//g' skype-chat-log.txt
-summary: |-
-  Regular expression search pattern to remove the Datetime and Name when you paste from skype chat into your text editor

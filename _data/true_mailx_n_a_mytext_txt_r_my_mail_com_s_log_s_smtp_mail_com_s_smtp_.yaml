@@ -1,8 +1,0 @@
-commandlinefu_id: 12002
-translator:
-  weibo: ''
-hide: true
-command: |-
-  true | mailx -n -a MYTEXT.txt -r my@mail.com -s log -S smtp=mail.com -S smtp-auth-user=MYUSER -S smtp-auth-password=MYPASSWORD FRIEND@mail.com
-summary: |-
-  mailx to send mails from console

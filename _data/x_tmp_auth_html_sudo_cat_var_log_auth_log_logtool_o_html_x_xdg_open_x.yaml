@@ -1,8 +1,0 @@
-commandlinefu_id: 10224
-translator:
-  weibo: ''
-hide: true
-command: |-
-  x="/tmp/auth.html";sudo cat /var/log/auth.log | logtool -o HTML >$x;xdg-open $x;rm $x
-summary: |-
-  Export log to html file

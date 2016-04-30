@@ -1,8 +1,0 @@
-commandlinefu_id: 1642
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch ethtool eth0
-summary: |-
-  How to know if your NIC receive link

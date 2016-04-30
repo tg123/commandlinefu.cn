@@ -1,7 +1,0 @@
-commandlinefu_id: 930
-translator:
-  weibo: gdqyn
-command: |-
-  sudo su
-summary: |-
-  以root身份启动一个shell

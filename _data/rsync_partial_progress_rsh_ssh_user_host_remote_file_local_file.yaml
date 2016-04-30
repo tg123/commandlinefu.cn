@@ -1,8 +1,0 @@
-commandlinefu_id: 3182
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync --partial --progress --rsh=ssh user@host:remote-file local-file
-summary: |-
-  resume scp-filetransfer with rsync

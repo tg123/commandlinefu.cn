@@ -1,8 +1,0 @@
-commandlinefu_id: 2226
-translator:
-  weibo: ''
-hide: true
-command: |-
-  notifyme -C `cat /etc/passwd | cut -d: -f1`
-summary: |-
-  Notify me when users log in

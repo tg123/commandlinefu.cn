@@ -1,8 +1,0 @@
-commandlinefu_id: 10865
-translator:
-  weibo: ''
-hide: true
-command: |-
-  git checkout -tb mybranch origin/mybranch
-summary: |-
-  git -  create a local branch that tracks with the remote branch

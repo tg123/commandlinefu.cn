@@ -1,7 +1,0 @@
-commandlinefu_id: 2132
-translator:
-  weibo: tgic
-command: |-
-  aptitude remove $(deborphan)
-summary: |-
-  清理无用的lib包

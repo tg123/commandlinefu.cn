@@ -1,7 +1,0 @@
-commandlinefu_id: 1915
-translator:
-  weibo: tgic
-command: |-
-  cat <filename> | perl -e '$/ = ""; $_ = <>; s/<!--.*?-->//gs; print;'
-summary: |-
-  清理xml中的注释

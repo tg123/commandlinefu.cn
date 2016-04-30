@@ -1,8 +1,0 @@
-commandlinefu_id: 6462
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mencoder -forceidx -of lavf -oac copy -ovc copy -o output.flv clip1.flv clip2.flv clip3.flv
-summary: |-
-  Join flv files

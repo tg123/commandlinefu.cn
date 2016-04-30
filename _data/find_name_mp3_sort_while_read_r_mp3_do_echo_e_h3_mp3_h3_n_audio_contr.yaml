@@ -1,8 +1,0 @@
-commandlinefu_id: 13288
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name '*.mp3' | sort | while read -r mp3; do echo -e "<h3>$mp3</h3>\n<audio controls src=\"$mp3\"></audio>"; done > index.html; python -m http.server
-summary: |-
-  MP3 player

@@ -1,8 +1,0 @@
-commandlinefu_id: 2596
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -ms * | sort -nk1
-summary: |-
-  Alternative size (human readable) of files and directories (biggest last)

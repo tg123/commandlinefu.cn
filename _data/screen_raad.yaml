@@ -1,7 +1,0 @@
-commandlinefu_id: 5346
-translator:
-  weibo: tgic
-command: |-
-  screen -raAd
-summary: |-
-  继续一个挂起的screen 并让他符合当前终端的大小

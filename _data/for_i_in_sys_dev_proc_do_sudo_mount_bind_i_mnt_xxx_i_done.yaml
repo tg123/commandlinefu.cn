@@ -1,7 +1,0 @@
-commandlinefu_id: 1958
-translator:
-  weibo: tgic
-command: |-
-  for i in sys dev proc; do sudo mount --bind /$i /mnt/xxx/$i; done
-summary: |-
-  在chroot里边mount

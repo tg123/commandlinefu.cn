@@ -1,7 +1,0 @@
-commandlinefu_id: 8173
-translator:
-  weibo: tgic
-command: |-
-  while cat /proc/net/dev; do sleep 1; done | awk '/eth0/ {o1=n1; o2=n2; n1=$2; n2=$10; printf "in: %9.2f\t\tout: %9.2f\r", (n1-o1)/1024, (n2-o2)/1024}'
-summary: |-
-  监控RX/TX

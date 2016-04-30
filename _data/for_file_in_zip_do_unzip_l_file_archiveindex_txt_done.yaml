@@ -1,8 +1,0 @@
-commandlinefu_id: 12258
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in *.zip; do unzip -l "$file" >> archiveindex.txt ; done;
-summary: |-
-  Write in a text file the contents of all the zip files in a directory.

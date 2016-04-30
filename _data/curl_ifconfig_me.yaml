@@ -1,7 +1,0 @@
-commandlinefu_id: 7997
-translator:
-  weibo: tgic
-command: |-
-  curl ifconfig.me
-summary: |-
-  获取公网IP

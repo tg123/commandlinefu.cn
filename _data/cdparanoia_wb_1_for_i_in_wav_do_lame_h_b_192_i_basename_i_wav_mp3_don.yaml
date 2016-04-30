@@ -1,8 +1,0 @@
-commandlinefu_id: 13148
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cdparanoia -wB 1-; for i in *.wav; do lame -h -b 192 "$i" "`basename "$i" .wav`".mp3; done
-summary: |-
-  rip all tracks of the cd then convert all *wav files in *mp3

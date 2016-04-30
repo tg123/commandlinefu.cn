@@ -1,7 +1,0 @@
-commandlinefu_id: 11323
-translator:
-  weibo: tgic
-command: |-
-  find . -type d -maxdepth 1 | xargs du -sh
-summary: |-
-  所有目录的大小

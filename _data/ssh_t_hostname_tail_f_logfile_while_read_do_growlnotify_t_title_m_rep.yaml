@@ -1,8 +1,0 @@
-commandlinefu_id: 11615
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -t HOSTNAME 'tail -f LOGFILE' | while read; do growlnotify -t "TITLE" -m "$REPLY"; done
-summary: |-
-  tail -f a log file over ssh into growl

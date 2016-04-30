@@ -1,8 +1,0 @@
-commandlinefu_id: 7077
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mv -i something.conf{,~} && sed "/regexp/s/^/#/" < something.conf~ > something.conf
-summary: |-
-  Comment out all lines in a configuration file matching a regexp, creating a backup.

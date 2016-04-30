@@ -1,7 +1,0 @@
-commandlinefu_id: 10339
-translator:
-  weibo: tgic
-command: |-
-  for i in $(ps x | grep chrome | cut -d"?" -f1 | grep -v chrome); do kill -9 $i ; done
-summary: |-
-  杀掉chrome

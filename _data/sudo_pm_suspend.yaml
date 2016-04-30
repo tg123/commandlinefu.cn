@@ -1,7 +1,0 @@
-commandlinefu_id: 6239
-translator:
-  weibo: tgic
-command: |-
-  sudo pm-suspend
-summary: |-
-  挂起

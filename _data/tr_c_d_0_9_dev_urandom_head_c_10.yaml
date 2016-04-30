@@ -1,7 +1,0 @@
-commandlinefu_id: 3745
-translator:
-  weibo: '猪了个去'
-command: |-
-  tr -c -d 0-9 < /dev/urandom | head -c 10
-summary: |-
-  输出随机的十位数字

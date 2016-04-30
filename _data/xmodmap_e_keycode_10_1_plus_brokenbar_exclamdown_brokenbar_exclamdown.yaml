@@ -1,8 +1,0 @@
-commandlinefu_id: 5718
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xmodmap -e 'keycode 10 = 1 plus brokenbar exclamdown brokenbar exclamdown' ;  xmodmap -e 'keycode 16 = 7 slash bar seveneighths bar seveneighths'
-summary: |-
-  reassign pipe key from AltGr-1 to AltGr-7 in X11

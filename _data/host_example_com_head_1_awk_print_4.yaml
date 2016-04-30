@@ -1,8 +1,0 @@
-commandlinefu_id: 12682
-translator:
-  weibo: tgic
-command: |-
-  host example.com | head -1 | awk '{print $4}'
-summary: |-
-  获取域名的ip地址
-  

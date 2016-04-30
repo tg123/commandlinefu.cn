@@ -1,8 +1,0 @@
-commandlinefu_id: 8095
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dumpe2fs -h /dev/sda1 2> /dev/null | awk -F ':' '{ if($1 == "Reserved block count") { rescnt=$2 } } { if($1 == "Block count") { blkcnt=$2 } } END { print "Reserved blocks: "(rescnt/blkcnt)*100"%" }'
-summary: |-
-  Check the reserved block percentage of an Ext2/3 filesystem

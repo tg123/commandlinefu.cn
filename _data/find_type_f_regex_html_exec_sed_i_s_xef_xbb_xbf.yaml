@@ -1,7 +1,0 @@
-commandlinefu_id: 11578
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -regex '.*html$' -exec sed -i 's/\xEF\xBB\xBF//' '{}' \;
-summary: |-
-  清除utf8 bom

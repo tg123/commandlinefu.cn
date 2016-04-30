@@ -1,7 +1,0 @@
-commandlinefu_id: 4916
-translator:
-  weibo: codepiano
-command: |-
-  ls -RAx | grep "svn:$" | sed -e "s/svn:/svn/" | xargs rm -fr
-summary: |-
-  递归的移除.svn目录

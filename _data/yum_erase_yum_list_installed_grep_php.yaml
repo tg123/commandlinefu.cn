@@ -1,7 +1,0 @@
-commandlinefu_id: 1898
-translator:
-  weibo: tgic
-command: |-
-  yum erase `yum list installed | grep 'php'`
-summary: |-
-  删除含有指定pattern的rpm

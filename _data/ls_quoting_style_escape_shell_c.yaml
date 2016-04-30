@@ -1,7 +1,0 @@
-commandlinefu_id: 6349
-translator:
-  weibo: titikaka723 
-command: |-
-  ls --quoting-style={escape,shell,c}
-summary: |-
- 列举包含引用和转译特殊字符的文件 

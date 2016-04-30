@@ -1,7 +1,0 @@
-commandlinefu_id: 6339
-translator:
-  weibo: tgic
-command: |-
-  vi2() {for i in $@; do [ -f "$i" ] && [ ! -w "$i" ] && sudo vim $@ && return; done; vim $@}
-summary: |-
-  没写权限自动sudo

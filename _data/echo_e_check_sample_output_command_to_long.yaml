@@ -1,7 +1,0 @@
-commandlinefu_id: 12116
-translator:
-  weibo: '猪了个去'
-command: |-
-  echo -e "CHECK=SAMPLE" output --command_to_long
-summary: |-
-  使反斜杠转义，组合命令矩阵

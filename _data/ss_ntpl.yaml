@@ -1,7 +1,0 @@
-commandlinefu_id: 13671
-translator:
-  weibo: tgic
-command: |-
-  ss -ntpl
-summary: |-
-  查看发送接收queue

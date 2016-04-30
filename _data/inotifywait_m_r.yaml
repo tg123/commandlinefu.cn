@@ -1,7 +1,0 @@
-commandlinefu_id: 12310
-translator:
-  weibo: tgic
-command: |-
-  inotifywait -m -r .
-summary: |-
-  现实进程如何访问当前目录的文件(调试)

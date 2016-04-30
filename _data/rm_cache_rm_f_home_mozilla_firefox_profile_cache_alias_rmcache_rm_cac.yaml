@@ -1,8 +1,0 @@
-commandlinefu_id: 2129
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rm_cache() { rm -f $HOME/.mozilla/firefox/<profile>/Cache/* }; alias rmcache='rm_cache'
-summary: |-
-  Clears Firefox` cache without clicking around

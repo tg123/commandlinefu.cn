@@ -1,8 +1,0 @@
-commandlinefu_id: 10316
-translator:
-  weibo: ''
-hide: true
-command: |-
-  :g/SEARCH/s//REPLACEMENT/g
-summary: |-
-  Global search and replace in vi

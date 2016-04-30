@@ -1,8 +1,0 @@
-commandlinefu_id: 13750
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat /etc/httpd/logs/access.log | awk '{ print $6}' | sed -e 's/\[//' | awk -F'/' '{print $1}' | sort | uniq -c
-summary: |-
-  Fetch the requested virtual domains and their hits from log file

@@ -1,7 +1,0 @@
-commandlinefu_id: 9206
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  while true; do xset dpms force off; sleep 0.3; xset dpms force on; xset s reset; sleep 0.3; done
-summary: |-
-  外星人入侵警报

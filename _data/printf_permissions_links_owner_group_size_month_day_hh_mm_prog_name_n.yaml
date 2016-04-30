@@ -1,8 +1,0 @@
-commandlinefu_id: 3731
-translator:
-  weibo: ''
-hide: true
-command: |-
-  (printf "PERMISSIONS LINKS OWNER GROUP SIZE MONTH DAY HH:MM PROG-NAME\n" \ ; ls -l | sed 1d) | column -t
-summary: |-
-  Using column to format a directory listing

@@ -1,8 +1,0 @@
-commandlinefu_id: 14082
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep --color='auto' -P -n '[^\x00-\x7F]' my_file.txt
-summary: |-
-  Grep all non-ascii character in file

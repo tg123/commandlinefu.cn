@@ -1,7 +1,0 @@
-commandlinefu_id: 5171
-translator:
-  weibo: tgic
-command: |-
-  printf ${PATH//:/\\n}
-summary: |-
-  显示PATH每行一个

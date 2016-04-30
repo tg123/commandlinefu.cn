@@ -1,8 +1,0 @@
-commandlinefu_id: 1734
-translator:
-  weibo: ''
-hide: true
-command: |-
-  netstat -an | grep -i listen
-summary: |-
-  See a list of ports running

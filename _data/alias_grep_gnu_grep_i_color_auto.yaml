@@ -1,7 +1,0 @@
-commandlinefu_id: 325
-translator:
-  weibo: codepiano
-command: |-
-  alias grep 'gnu grep -i --color=auto'
-summary: |-
-  高亮grep的结果

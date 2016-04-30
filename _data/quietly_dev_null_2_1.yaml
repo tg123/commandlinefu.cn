@@ -1,7 +1,0 @@
-commandlinefu_id: 9398
-translator:
-  weibo: codepiano
-command: |-
-  quietly() { "$@" > /dev/null 2>&1; }
-summary: |-
-  隐藏你不想看到的命令输出

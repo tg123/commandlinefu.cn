@@ -1,7 +1,0 @@
-commandlinefu_id: 1922
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  lsof -i tcp:80
-summary: |-
-  哪个程序占用了80端口？

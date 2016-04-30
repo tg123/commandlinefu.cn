@@ -1,7 +1,0 @@
-commandlinefu_id: 9290
-translator:
-  weibo: gdqyn
-command: |-
-  bash --rcfile /a/special/bashrc
-summary: |-
-  启动一个交互shell并指定aliases和functions配置文件

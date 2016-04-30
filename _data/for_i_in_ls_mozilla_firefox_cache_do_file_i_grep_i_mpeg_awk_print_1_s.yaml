@@ -1,8 +1,0 @@
-commandlinefu_id: 5335
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in `ls ~/.mozilla/firefox/*/Cache`; do file $i | grep -i mpeg | awk '{print $1}' | sed s/.$//; done
-summary: |-
-  Grab a list of MP3s out of Firefox's cache

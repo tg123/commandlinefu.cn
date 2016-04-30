@@ -1,7 +1,0 @@
-commandlinefu_id: 5125
-translator:
-  weibo: tgic
-command: |-
-  find . -type d | tac | xargs rmdir 2> /dev/null
-summary: |-
-  清理所有空目录

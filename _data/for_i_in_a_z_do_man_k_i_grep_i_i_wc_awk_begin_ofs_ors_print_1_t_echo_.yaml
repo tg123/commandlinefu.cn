@@ -1,8 +1,0 @@
-commandlinefu_id: 6090
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in {a..z} ; do  man -k $i |grep -i "^$i" |wc | awk 'BEGIN { OFS = ":"; ORS = "" }{print  $1, "\t"}' && echo $i  ;done
-summary: |-
-  Count the number of man pages per first character (a-z)

@@ -1,8 +1,0 @@
-commandlinefu_id: 12190
-translator:
-  weibo: ''
-hide: true
-command: |-
-  dmesg | grep -i sata | grep 'link up'
-summary: |-
-  Check SATA link speed.

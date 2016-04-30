@@ -1,8 +1,0 @@
-commandlinefu_id: 13374
-translator:
-  weibo: ''
-hide: true
-command: |-
-  stat -c '%n %U:%G-%a' *
-summary: |-
-  View Owner, Group & Permissions.

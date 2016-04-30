@@ -1,7 +1,0 @@
-commandlinefu_id: 1031
-translator:
-  weibo: tgic
-command: |-
-  sudo hdparm -Tt /dev/sda
-summary: |-
-  进行硬盘 Benchmark

@@ -1,7 +1,0 @@
-commandlinefu_id: 10984
-translator:
-  weibo: tgic
-command: |-
-  tar cvzf - /folder/ | ssh root@192.168.0.1 "dd of=/dest/folder/file.tar.gz"
-summary: |-
-  管道版SCP

@@ -1,8 +1,0 @@
-commandlinefu_id: 5026
-translator:
-  weibo: ''
-hide: true
-command: |-
-  libquery=/lib32/libgcc_s.so.1; if [ `nm -D $libquery | sed -n '/[0-9A-Fa-f]\{8,\}/ {p; q;}' | grep "[0-9A-Fa-f]\{16\}" | wc -l` == 1 ]; then echo "$libquery is a 64 bit library"; else echo "$libquery is a 32 bit library"; fi;
-summary: |-
-  determine if a shared library is compiled as 32bit or 64bit

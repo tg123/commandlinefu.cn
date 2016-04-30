@@ -1,8 +1,0 @@
-commandlinefu_id: 9078
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "notify-send TimeToQuit" | at 10:22
-summary: |-
-  Running a command at a specific time

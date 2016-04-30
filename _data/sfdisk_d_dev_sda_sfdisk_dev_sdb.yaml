@@ -1,8 +1,0 @@
-commandlinefu_id: 4780
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sfdisk -d /dev/sda | sfdisk /dev/sdb
-summary: |-
-  copy partition table from /dev/sda to /dev/sdb

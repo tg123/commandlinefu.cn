@@ -1,8 +1,0 @@
-commandlinefu_id: 1549
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias opened='p4 opened | awk -F# "{print \$1}"'
-summary: |-
-  Print the list of all files checked out by Perforce SCM

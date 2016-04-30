@@ -1,7 +1,0 @@
-commandlinefu_id: 8615
-translator:
-  weibo: tgic
-command: |-
-  ff() { local IFS='|'; grep -rinE "$*" . ; }
-summary: |-
-  内容搜索

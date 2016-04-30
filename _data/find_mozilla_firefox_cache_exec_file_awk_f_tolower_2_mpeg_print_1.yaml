@@ -1,7 +1,0 @@
-commandlinefu_id: 5402
-translator:
-  weibo: codepiano
-command: |-
-  find ~/.mozilla/firefox/*/Cache -exec file {} \; | awk -F ': ' 'tolower($2)~/mpeg/{print $1}'
-summary: |-
-  从火狐缓存中获取MP3音频文件

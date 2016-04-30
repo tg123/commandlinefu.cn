@@ -1,8 +1,0 @@
-commandlinefu_id: 2268
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  mvn -Declipse.workspace=<path-to-eclipse-workspace> eclipse:add-maven-repo
-summary: |-
-  maven使用指定workspace

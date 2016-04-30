@@ -1,7 +1,0 @@
-commandlinefu_id: 281
-translator:
-  weibo: tgic
-command: |-
-  convert -resize 50%x50% image{,_resize}.jpg
-summary: |-
-  使用imagemagick缩放图片

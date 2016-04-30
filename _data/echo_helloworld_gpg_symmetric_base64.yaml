@@ -1,7 +1,0 @@
-commandlinefu_id: 12478
-translator:
-  weibo: codepiano
-command: |-
-  echo 'HelloWorld!' | gpg --symmetric | base64
-summary: |-
-  在命令行中加密/解密字符串

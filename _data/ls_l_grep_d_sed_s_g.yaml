@@ -1,8 +1,0 @@
-commandlinefu_id: 8979
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l | grep ^d  | sed 's:.*\ ::g'
-summary: |-
-  List only directories, one per line

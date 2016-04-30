@@ -1,7 +1,0 @@
-commandlinefu_id: 12446
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo port selfupdate && sudo port upgrade outdated && sudo port clean --all installed && sudo port -f uninstall inactive
-summary: |-
-  在Mac上使用port更新和清除所有的包

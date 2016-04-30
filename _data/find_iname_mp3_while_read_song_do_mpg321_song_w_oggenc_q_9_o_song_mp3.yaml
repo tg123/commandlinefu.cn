@@ -1,7 +1,0 @@
-commandlinefu_id: 5062
-translator:
-  weibo: tgic
-command: |-
-  find . -iname '*.mp3' | while read song; do mpg321 ${song} -w - | oggenc -q 9 -o ${song%.mp3}.ogg -; done
-summary: |-
-  转换mp3为ogg

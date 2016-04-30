@@ -1,8 +1,0 @@
-commandlinefu_id: 9296
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f LOGFILE | awk '{system("say \"" $0 "\"");}'
-summary: |-
-  speak a chat log file while it's running

@@ -1,7 +1,0 @@
-commandlinefu_id: 704
-translator:
-  weibo: tgic
-command: |-
-  useradd -s /sbin/nologin nicdev
-summary: |-
-  创建一个不能登录的用户

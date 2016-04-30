@@ -1,8 +1,0 @@
-commandlinefu_id: 1938
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@server | tee logfilename
-summary: |-
-  Record output of any command using 'tee' at backend; mainly can be used to capture the output of ssh from client side while connecting to a server.

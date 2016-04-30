@@ -1,8 +1,0 @@
-commandlinefu_id: 13208
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tput rmam
-summary: |-
-  toggle line wrapping in your terminal

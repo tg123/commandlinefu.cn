@@ -1,7 +1,0 @@
-commandlinefu_id: 9453
-translator:
-  weibo: tgic
-command: |-
-  ping -qc 10 hostname | awk -F/ '/^rtt/ {print $5}'
-summary: |-
-  获取平均ping时间

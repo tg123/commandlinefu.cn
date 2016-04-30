@@ -1,7 +1,0 @@
-commandlinefu_id: 1099
-translator:
-  weibo: tgic
-command: |-
-  netstat -tap | grep mysql
-summary: |-
-  检查mysql是否在监听

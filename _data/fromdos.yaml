@@ -1,7 +1,0 @@
-commandlinefu_id: 5088
-translator:
-  weibo: tgic
-command: |-
-  fromdos *
-summary: |-
-  把文本文件转成unix格式(deb CRLF->LF)

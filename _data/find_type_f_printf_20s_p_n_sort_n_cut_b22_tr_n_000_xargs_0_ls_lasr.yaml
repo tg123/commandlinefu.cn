@@ -1,8 +1,0 @@
-commandlinefu_id: 3003
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -printf '%20s %p\n' | sort -n | cut -b22- | tr '\n' '\000' | xargs -0 ls -laSr
-summary: |-
-  find the biggest files recursively, no matter how many

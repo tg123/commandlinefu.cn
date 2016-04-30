@@ -1,8 +1,0 @@
-commandlinefu_id: 10328
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat z.log | cut -d ':' -f1 | sort | uniq  | xargs -l1 -iFF echo 'echo FF $(cat z.log | grep -e "^FF" | grep -e Timeout | wc -l )' | bash
-summary: |-
-  Report summary of string occurrence by time period (hour) - alternate

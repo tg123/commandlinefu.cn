@@ -1,7 +1,0 @@
-commandlinefu_id: 12067
-translator:
-  weibo: josephok
-command: |-
-  (($1 > 0)) && echo "var is a number"
-summary: |-
-  检查变量是否为数字

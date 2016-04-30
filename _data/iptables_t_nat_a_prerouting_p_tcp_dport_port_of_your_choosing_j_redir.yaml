@@ -1,8 +1,0 @@
-commandlinefu_id: 2453
-translator:
-  weibo: ''
-hide: true
-command: |-
-  iptables -t nat -A PREROUTING -p tcp --dport [port of your choosing] -j REDIRECT --to-ports 22
-summary: |-
-  Redirect incoming traffic to SSH, from a port of your choosing

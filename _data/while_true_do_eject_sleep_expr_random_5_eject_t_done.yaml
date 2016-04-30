@@ -1,8 +1,0 @@
-commandlinefu_id: 11746
-translator:
-  weibo: ''
-hide: true
-command: |-
-  while true; do eject && sleep `expr $RANDOM % 5` && eject -t; done;
-summary: |-
-  Open/Close your co-worker's cd player

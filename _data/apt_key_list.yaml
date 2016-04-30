@@ -1,7 +1,0 @@
-commandlinefu_id: 3317
-translator:
-  weibo: tgic
-command: |-
-  apt-key list
-summary: |-
-  检查apt key

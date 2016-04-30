@@ -1,7 +1,0 @@
-commandlinefu_id: 8079
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr
-summary: |-
-  提取shell命令历史中的最热关键字（需要没有开启shell history的时间戳功能）

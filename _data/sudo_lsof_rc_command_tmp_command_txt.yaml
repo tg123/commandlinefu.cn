@@ -1,8 +1,0 @@
-commandlinefu_id: 8960
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lsof -rc command >> /tmp/command.txt
-summary: |-
-  View files opened by a program on startup and shutdown

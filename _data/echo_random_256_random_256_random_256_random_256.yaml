@@ -1,7 +1,0 @@
-commandlinefu_id: 7676
-translator:
-  weibo: particle128
-command: |-
-  echo $((RANDOM%256)).$((RANDOM%256)).$((RANDOM%256)).$((RANDOM%256))
-summary: |-
-  产生一个随机的IP地址

@@ -1,8 +1,0 @@
-commandlinefu_id: 2422
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -e "s/\[{/\n/g" -e "s/}, {/\n/g"  sessionstore.js | grep url | awk -F"," '{ print $1 }'| sed -e "s/url:\"\([^\"]*\)\"/\1/g" -e "/^about:blank/d" > session_urls.txt
-summary: |-
-  extract all urls from firefox sessionstore

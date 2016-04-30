@@ -1,7 +1,0 @@
-commandlinefu_id: 5163
-translator:
-  weibo: tgic
-command: |-
-  sed -i 's/^M//' file
-summary: |-
-  转换为unix换行

@@ -1,7 +1,0 @@
-commandlinefu_id: 897
-translator:
-  weibo: codepiano
-command: |-
-  echo "^[]0;My_Title_Goes _Here^G"
-summary: |-
-  改变你的xterm的窗口标题

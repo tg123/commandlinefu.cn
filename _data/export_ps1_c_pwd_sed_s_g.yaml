@@ -1,7 +1,0 @@
-commandlinefu_id: 5201
-translator:
-  weibo: tgic
-command: |-
-  export PS1="C:\$( pwd | sed 's:/:\\\\\:g' )> "
-summary: |-
-  如何将linux 变成ms-dos

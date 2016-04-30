@@ -1,8 +1,0 @@
-commandlinefu_id: 11923
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sox -d -p | ffmpeg -i pipe:0 -f flv -preset ultrafast -tune zerolatency rtmp://localhost/live/livestream
-summary: |-
-  Stream system sounds over rtmp

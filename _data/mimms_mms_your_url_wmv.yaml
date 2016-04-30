@@ -1,8 +1,0 @@
-commandlinefu_id: 4261
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mimms  mms://Your_url.wmv
-summary: |-
-  Download streaming video in mms

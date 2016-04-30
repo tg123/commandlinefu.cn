@@ -1,7 +1,0 @@
-commandlinefu_id: 3361
-translator:
-  weibo: titikaka723 
-command: |-
-  awk 'BEGIN {a=1;b=1;for(i=0;i<'${NUM}';i++){print a;c=a+b;a=b;b=c}}'
-summary: |-
-  用awk输出Fibonacci 

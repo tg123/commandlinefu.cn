@@ -1,7 +1,0 @@
-commandlinefu_id: 1094
-translator:
-  weibo: particle128
-command: |-
-  ps -eo stat,pid,user,command | egrep "^STAT|^D|^R"
-summary: |-
-  查找处于特定状态（不可中断sleep或可运行）的进程信息

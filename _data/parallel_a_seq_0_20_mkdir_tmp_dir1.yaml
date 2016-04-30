@@ -1,7 +1,0 @@
-commandlinefu_id: 8732
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  parallel -a <(seq 0 20) mkdir /tmp/dir1/{}
-summary: |-
-  并行创建文件夹

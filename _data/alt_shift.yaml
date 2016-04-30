@@ -1,8 +1,0 @@
-commandlinefu_id: 9227
-translator:
-  weibo: ''
-hide: true
-command: |-
-  <Alt-Shift-#>
-summary: |-
-  comment current line(put # at the beginning)

@@ -1,7 +1,0 @@
-commandlinefu_id: 10972
-translator:
-  weibo: '猪了个去'
-command: |-
-  for i in /var/spool/cron/tabs/*; do echo ${i##*/}; sed 's/^/\t/' $i; echo; done
-summary: |-
-  显示所有用户的crontab定时任务

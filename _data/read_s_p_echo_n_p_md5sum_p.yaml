@@ -1,8 +1,0 @@
-commandlinefu_id: 10856
-translator:
-  weibo: ''
-hide: true
-command: |-
-  read -s p && echo -n $p | md5sum;p=
-summary: |-
-  create and md5 sum of your password

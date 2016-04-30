@@ -1,7 +1,0 @@
-commandlinefu_id: 5145
-translator:
-  weibo: tgic
-command: |-
-  sed -i 's/\t/  /g' yourfile
-summary: |-
-  转换tab为2个空格

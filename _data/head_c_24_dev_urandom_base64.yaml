@@ -1,7 +1,0 @@
-commandlinefu_id: 12769
-translator:
-  weibo: gdqyn
-command: |-
-  head -c 24 /dev/urandom | base64
-summary: |-
-  随机生成一个30字符长的密码

@@ -1,7 +1,0 @@
-commandlinefu_id: 3115
-translator:
-  weibo: tgic
-command: |-
-  ( ( sleep 2h; your-command your-args ) & )
-summary: |-
-  在后台2个小时后运行一个命令

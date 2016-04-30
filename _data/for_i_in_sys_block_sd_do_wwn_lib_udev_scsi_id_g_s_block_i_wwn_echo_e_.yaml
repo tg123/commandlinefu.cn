@@ -1,8 +1,0 @@
-commandlinefu_id: 11263
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in /sys/block/sd* ; do wwn=`/lib/udev/scsi_id -g -s /block/${i##*/}` ; [ "$wwn" != "" ] && echo -e ${i##*/}'\t'$wwn ;done
-summary: |-
-  Formatted list - WWNs of all LUNs

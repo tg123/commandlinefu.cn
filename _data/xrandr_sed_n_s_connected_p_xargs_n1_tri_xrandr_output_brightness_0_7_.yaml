@@ -1,7 +1,0 @@
-commandlinefu_id: 6881
-translator:
-  weibo: tgic
-command: |-
-  xrandr | sed -n 's/ connected.*//p' | xargs -n1 -tri xrandr --output {} --brightness 0.7 --gamma 2:3:4
-summary: |-
-  调节显示器gamma

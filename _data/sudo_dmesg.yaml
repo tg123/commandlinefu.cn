@@ -1,7 +1,0 @@
-commandlinefu_id: 3099
-translator:
-  weibo: tgic
-command: |-
-  sudo dmesg
-summary: |-
-  启动信息

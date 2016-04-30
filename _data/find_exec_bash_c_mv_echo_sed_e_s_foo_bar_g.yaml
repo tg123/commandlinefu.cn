@@ -1,8 +1,0 @@
-commandlinefu_id: 8423
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  find . -exec bash -c "mv '{}' '\`echo {} |sed -e 's/foo/bar/g'\`"' \;
-summary: |-
-  使用 find sed 批量重命名

@@ -1,8 +1,0 @@
-commandlinefu_id: 14068
-translator:
-  weibo: ''
-hide: true
-command: |-
-  truncate --size 1G bigfile.txt
-summary: |-
-  Create arbitrary big file full of zeroes but done in a second

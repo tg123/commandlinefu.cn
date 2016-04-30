@@ -1,7 +1,0 @@
-commandlinefu_id: 11144
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sudo showkey -k
-summary: |-
-  显示包括Fn键在内的所有键盘事件的编码

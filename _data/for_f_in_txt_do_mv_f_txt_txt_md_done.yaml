@@ -1,8 +1,0 @@
-commandlinefu_id: 7260
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *.txt;do mv ${f%txt}{txt,md}; done
-summary: |-
-  Batch rename extension of all files in a folder, in the example from .txt to .md

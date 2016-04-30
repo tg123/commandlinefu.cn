@@ -1,8 +1,0 @@
-commandlinefu_id: 5882
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /var/log/apache2 -name 'access.log*gz' -exec zcat {} \; -or -name 'access.log*' -exec cat {} \;
-summary: |-
-  concatenate compressed and uncompressed logs

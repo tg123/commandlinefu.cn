@@ -1,7 +1,0 @@
-commandlinefu_id: 5996
-translator:
-  weibo: tgic
-command: |-
-  vim !$
-summary: |-
-  用vim打开刚才命令使用的文件

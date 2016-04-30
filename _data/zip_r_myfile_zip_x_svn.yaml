@@ -1,7 +1,0 @@
-commandlinefu_id: 23
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  zip -r myfile.zip * -x \*.svn\*
-summary: |-
-  创建一个不包含svn目录的zip压缩包

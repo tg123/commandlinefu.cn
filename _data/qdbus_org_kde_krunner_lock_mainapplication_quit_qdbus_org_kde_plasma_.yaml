@@ -1,8 +1,0 @@
-commandlinefu_id: 4540
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qdbus org.kde.krunner_lock /MainApplication quit; qdbus org.kde.plasma-overlay /MainApplication quit
-summary: |-
-  Unlock your KDE4 session remotely (for boxes locked by KDE lock utility)

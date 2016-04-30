@@ -1,8 +1,0 @@
-commandlinefu_id: 3884
-translator:
-  weibo: ''
-hide: true
-command: |-
-  truncate -s0 file
-summary: |-
-  Empty a file

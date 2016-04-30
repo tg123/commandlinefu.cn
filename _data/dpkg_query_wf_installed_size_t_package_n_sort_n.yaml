@@ -1,7 +1,0 @@
-commandlinefu_id: 3890
-translator:
-  weibo: ''
-command: |-
-  dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
-summary: |-
-  按大小列出安装的deb

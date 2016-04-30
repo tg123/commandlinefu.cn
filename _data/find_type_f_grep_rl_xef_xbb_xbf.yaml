@@ -1,8 +1,0 @@
-commandlinefu_id: 3107
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f | grep -rl $'\xEF\xBB\xBF'
-summary: |-
-  Find UTF-8 text files misinterpreted as ISO 8859-1 due to Byte Order Mark (BOM) of the Unicode Standard.

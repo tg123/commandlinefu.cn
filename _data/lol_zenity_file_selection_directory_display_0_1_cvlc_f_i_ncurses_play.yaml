@@ -1,8 +1,0 @@
-commandlinefu_id: 6568
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lol=`zenity --file-selection --directory` && DISPLAY=:0.1 cvlc -f -I ncurses --play-and-stop "$lol"
-summary: |-
-  run zenity object on local machine for select all directory file to play on remote machine

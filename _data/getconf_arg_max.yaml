@@ -1,7 +1,0 @@
-commandlinefu_id: 2254
-translator:
-  weibo: tgic
-command: |-
-  getconf ARG_MAX
-summary: |-
-  最多参数个数

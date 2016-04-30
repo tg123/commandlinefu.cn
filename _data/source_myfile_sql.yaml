@@ -1,8 +1,0 @@
-commandlinefu_id: 11450
-translator:
-  weibo: ''
-hide: true
-command: |-
-  source MYFILE.sql
-summary: |-
-  import sql

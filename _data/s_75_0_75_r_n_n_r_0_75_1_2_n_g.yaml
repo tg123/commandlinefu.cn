@@ -1,8 +1,0 @@
-commandlinefu_id: 10314
-translator:
-  weibo: ''
-hide: true
-command: |-
-  s/(?=.{75,})(?:(.{0,75})(?:\r\n?|\n\r?)|(.{0,75}))[ ]/\1\2\n /g
-summary: |-
-  Regex to wrap lines to 75 characters.

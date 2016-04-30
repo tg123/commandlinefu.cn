@@ -1,7 +1,0 @@
-commandlinefu_id: 4902
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  scp -l10 pippo@serverciccio:/home/zutaniddu/* .
-summary: |-
-  限制scp所占用的带宽

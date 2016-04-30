@@ -1,8 +1,0 @@
-commandlinefu_id: 3547
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xev -id `xwininfo | grep 'Window id' | awk '{print $4}'`
-summary: |-
-  Track X Window events in chosen window

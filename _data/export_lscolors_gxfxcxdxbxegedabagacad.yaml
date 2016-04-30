@@ -1,8 +1,0 @@
-commandlinefu_id: 2081
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export LSCOLORS=gxfxcxdxbxegedabagacad
-summary: |-
-  Mac OS X: Change Color of the ls Command

@@ -1,8 +1,0 @@
-commandlinefu_id: 6862
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cp_p() { if [ `echo "$2" | grep ".*\/$"` ]; then pv "$1" > "$2""$1"; else pv "$1" > "$2"/"$1"; fi; }
-summary: |-
-  function for copy files with progress bar (using pv - pipe viewer)

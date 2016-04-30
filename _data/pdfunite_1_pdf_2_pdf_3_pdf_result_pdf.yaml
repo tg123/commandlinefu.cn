@@ -1,7 +1,0 @@
-commandlinefu_id: 12928
-translator:
-  weibo: tgic
-command: |-
-  pdfunite 1.pdf 2.pdf 3.pdf result.pdf
-summary: |-
-  合并多个pdf

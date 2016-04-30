@@ -1,8 +1,0 @@
-commandlinefu_id: 5405
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  echo $ascii | perl -ne 'printf "%x", ord for split //'
-summary: |-
-  把ascii字符串转化为16进制表示

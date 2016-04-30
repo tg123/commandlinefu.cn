@@ -1,8 +1,0 @@
-commandlinefu_id: 1700
-translator:
-  weibo: ''
-hide: true
-command: |-
-  % screen -r someuser/
-summary: |-
-  Share a terminal screen with others

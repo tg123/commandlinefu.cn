@@ -1,7 +1,0 @@
-commandlinefu_id: 1133
-translator:
-  weibo: tgic
-command: |-
-  find . -type f -mtime +7 -exec ls -l {} \;
-summary: |-
-  找出较老的文件

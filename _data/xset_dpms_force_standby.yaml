@@ -1,8 +1,0 @@
-commandlinefu_id: 1333
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xset dpms force standby
-summary: |-
-  shut of the screen.

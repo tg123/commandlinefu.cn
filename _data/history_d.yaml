@@ -1,7 +1,0 @@
-commandlinefu_id: 2011
-translator:
-  weibo: '猪了个去'
-command: |-
-  history -d
-summary: |-
-  从shell history中删除一行

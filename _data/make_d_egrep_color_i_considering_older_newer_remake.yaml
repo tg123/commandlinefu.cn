@@ -1,7 +1,0 @@
-commandlinefu_id: 8580
-translator:
-  weibo: tgic
-command: |-
-  make -d | egrep --color -i '(considering|older|newer|remake)'
-summary: |-
-  开启Makefile 的debug 模式

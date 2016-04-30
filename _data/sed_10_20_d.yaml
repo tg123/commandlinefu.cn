@@ -1,7 +1,0 @@
-commandlinefu_id: 8196
-translator:
-  weibo: tgic
-command: |-
-  sed '10,20!d'
-summary: |-
-  打印10-20行

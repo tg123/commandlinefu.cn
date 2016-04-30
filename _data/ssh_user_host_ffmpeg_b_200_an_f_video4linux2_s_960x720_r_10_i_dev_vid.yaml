@@ -1,8 +1,0 @@
-commandlinefu_id: 14078
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh user@host ffmpeg -b 200 -an -f video4linux2 \ -s 960x720 -r 10 -i /dev/video0 -b 200 -f ogg - \ | mplayer - -idle -demuxer ogg
-summary: |-
-  Live stream a remote video device over ssh using ffmpeg

@@ -1,8 +1,0 @@
-commandlinefu_id: 1949
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mount --bind /old/directory/path /new/directory/path
-summary: |-
-  Mount directories in different locations

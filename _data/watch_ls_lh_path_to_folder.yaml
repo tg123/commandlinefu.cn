@@ -1,7 +1,0 @@
-commandlinefu_id: 13294
-translator:
-  weibo: tgic
-command: |-
-  watch ls -lh /path/to/folder
-summary: |-
-  监控目录变化

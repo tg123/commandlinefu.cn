@@ -1,7 +1,0 @@
-commandlinefu_id: 7821
-translator:
-  weibo: tgic
-command: |-
-  sed i"+" file.txt | xargs echo 0 |bc
-summary: |-
-  对一个全是数的文件求和

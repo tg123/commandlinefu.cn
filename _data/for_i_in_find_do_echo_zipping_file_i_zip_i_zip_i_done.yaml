@@ -1,8 +1,0 @@
-commandlinefu_id: 1867
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $( find . ); do     echo zipping file: $i     zip $i.zip $i done
-summary: |-
-  zip all files in a directory, one file per zip

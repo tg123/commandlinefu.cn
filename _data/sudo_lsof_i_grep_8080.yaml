@@ -1,7 +1,0 @@
-commandlinefu_id: 13909
-translator:
-  weibo: tgic
-command: |-
-  sudo lsof -i | grep :8080
-summary: |-
-  查看使用8080的进程

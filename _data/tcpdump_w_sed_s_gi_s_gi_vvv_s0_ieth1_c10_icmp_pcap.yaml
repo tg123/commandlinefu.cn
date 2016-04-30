@@ -1,8 +1,0 @@
-commandlinefu_id: 8405
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tcpdump -w "$(sed 's/-//gi; s/ /_/gi'<<<"-vvv -s0 -ieth1 -c10 icmp").pcap"
-summary: |-
-  Make a quick network capture with tcpdump to a file - filename based on tcpdump arguments

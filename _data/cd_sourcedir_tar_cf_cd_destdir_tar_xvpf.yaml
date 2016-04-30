@@ -1,8 +1,0 @@
-commandlinefu_id: 2513
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ( cd SOURCEDIR && tar cf - . ) | (cd DESTDIR && tar xvpf - )
-summary: |-
-  Move files around local filesystem with tar without wasting space using an intermediate tarball.

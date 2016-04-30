@@ -1,8 +1,0 @@
-commandlinefu_id: 11109
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find ./ -maxdepth 1 -empty -type d -delete
-summary: |-
-  Delete empty directories only in present level

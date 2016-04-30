@@ -1,8 +1,0 @@
-commandlinefu_id: 864
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f|while read f; do mv $f `echo $f |tr '[:upper:]' '[ :lower:]'`; done
-summary: |-
-  recursively change file name from uppercase to lowercase (or viceversa)

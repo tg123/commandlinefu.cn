@@ -1,8 +1,0 @@
-commandlinefu_id: 6614
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in $(find . -iname '*.html'); do sed '/String/d' $i > $i-tmp; mv $i-tmp $i; done
-summary: |-
-  Remove lines with matched string

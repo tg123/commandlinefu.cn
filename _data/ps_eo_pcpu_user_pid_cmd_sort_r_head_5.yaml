@@ -1,8 +1,0 @@
-commandlinefu_id: 3960
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ps -eo pcpu,user,pid,cmd | sort -r | head -5
-summary: |-
-  列出消耗cpu 最多的5哥 进程

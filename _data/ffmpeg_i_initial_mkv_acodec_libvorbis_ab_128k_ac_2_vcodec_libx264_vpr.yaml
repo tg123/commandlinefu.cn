@@ -1,7 +1,0 @@
-commandlinefu_id: 6974
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ffmpeg -i initial.mkv  -acodec libvorbis -ab 128k -ac 2 -vcodec libx264 -vpre max -crf 22 -threads 0 final.mkv
-summary: |-
-  将mkv文件编码成ogg+h264+mkv格式

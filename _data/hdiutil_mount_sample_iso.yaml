@@ -1,7 +1,0 @@
-commandlinefu_id: 3444
-translator:
-  weibo: '猪了个去'
-command: |-
-  hdiutil mount sample.iso
-summary: |-
-  Mac OS X挂载ISO镜像

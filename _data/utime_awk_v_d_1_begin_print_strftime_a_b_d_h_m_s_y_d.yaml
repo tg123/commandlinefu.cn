@@ -1,7 +1,0 @@
-commandlinefu_id: 5618
-translator:
-  weibo: tgic
-command: |-
-  utime(){ awk -v d=$1 'BEGIN{print strftime("%a %b %d %H:%M:%S %Y", d)}'; }
-summary: |-
-  用awk解析unix时间

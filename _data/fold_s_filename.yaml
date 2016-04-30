@@ -1,7 +1,0 @@
-commandlinefu_id: 1227
-translator:
-  weibo: tgic
-command: |-
-  fold -s <filename>
-summary: |-
-  软换行一个文本

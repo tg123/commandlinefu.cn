@@ -1,7 +1,0 @@
-commandlinefu_id: 9744
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '{array[$1]++}END{ for (ip in array) print array[ip] " " ip}' <path/to/apache/*.log> | sort -n
-summary: |-
-  按照访问速度排序ip 

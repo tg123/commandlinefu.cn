@@ -1,8 +1,0 @@
-commandlinefu_id: 13787
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -name *.png | xargs optipng -nc -nb -o7 -full
-summary: |-
-  optimize all png images

@@ -1,8 +1,0 @@
-commandlinefu_id: 10145
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn diff <FILE>
-summary: |-
-  Compare latest changes in locally edited file with SVN copy of a file

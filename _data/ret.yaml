@@ -1,7 +1,0 @@
-commandlinefu_id: 7281
-translator:
-  weibo: tgic
-command: |-
-  [vim] :ret
-summary: |-
-  空格和TAB 的互相转换

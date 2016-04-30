@@ -1,8 +1,0 @@
-commandlinefu_id: 14031
-translator:
-  weibo: ''
-hide: true
-command: |-
-  pbpaste | awk ' !x[$0]++' | pbcopy
-summary: |-
-  Remove duplicate lines from the current copy buffer.

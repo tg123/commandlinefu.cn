@@ -1,7 +1,0 @@
-commandlinefu_id: 8351
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -maxdepth 1 -type f -not -iname '*.jpg' -ls |awk '{TOTAL+=$7} END {print int(TOTAL/(1024^2))"MB"}'
-summary: |-
-  估算当前文件夹下除了*.extension以外的文件占用的硬盘空间

@@ -1,8 +1,0 @@
-commandlinefu_id: 6015
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wcalc -q <<< '3/5'
-summary: |-
-  floating point operations in shell scripts

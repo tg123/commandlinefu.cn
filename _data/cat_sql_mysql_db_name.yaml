@@ -1,7 +1,0 @@
-commandlinefu_id: 3496
-translator:
-  weibo: tgic
-command: |-
-  cat *.sql | mysql <db_name>
-summary: |-
-  在目标 db 上执行所有的sql

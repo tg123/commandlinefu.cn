@@ -1,7 +1,0 @@
-commandlinefu_id: 2450
-translator:
-  weibo: tgic
-command: |-
-  shred -vzu /tmp/junk-file-to-be-shredded
-summary: |-
-  安全的重写一个文件

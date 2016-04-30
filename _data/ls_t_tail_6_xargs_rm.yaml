@@ -1,8 +1,0 @@
-commandlinefu_id: 3508
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls -t | tail -6 | xargs rm
-summary: |-
-  保留最新的5个文件

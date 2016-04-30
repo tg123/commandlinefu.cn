@@ -1,8 +1,0 @@
-commandlinefu_id: 1101
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed 's/[ \t]*$//' < emails.txt | tr 'A-Z' 'a-z' | sort | uniq > emails_sorted.txt
-summary: |-
-  Sort a one-per-line list of email address, weeding out duplicates

@@ -1,8 +1,0 @@
-commandlinefu_id: 12526
-translator:
-  weibo: '猪了个去'
-command: |-
-  ps -eLF | grep ^user
-summary: |-
-  以user开头的用户名下运行的进程和线程
-

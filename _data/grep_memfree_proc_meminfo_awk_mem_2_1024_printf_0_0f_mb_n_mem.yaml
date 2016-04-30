@@ -1,7 +1,0 @@
-commandlinefu_id: 5955
-translator:
-  weibo: tgic
-command: |-
-  grep '^MemFree:' /proc/meminfo | awk '{ mem=($2)/(1024) ; printf "%0.0f MB\n", mem }'
-summary: |-
-  查看可用内存

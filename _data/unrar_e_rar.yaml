@@ -1,7 +1,0 @@
-commandlinefu_id: 7249
-translator:
-  weibo: tgic
-command: |-
-  unrar e *.rar
-summary: |-
-  解压缩全部rar

@@ -1,8 +1,0 @@
-commandlinefu_id: 11581
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  xmllint --format --xmlout --nsclean <file>
-summary: |-
-  格式化xml

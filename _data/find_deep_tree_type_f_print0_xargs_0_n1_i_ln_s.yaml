@@ -1,8 +1,0 @@
-commandlinefu_id: 7364
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /deep/tree/ -type f -print0|xargs -0 -n1 -I{} ln -s '{}' .
-summary: |-
-  Link a deep tree of files all into on directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 2968
-translator:
-  weibo: ''
-hide: true
-command: |-
-  watch "ps auxw | grep 'defunct' | grep -v 'grep' | grep -v 'watch'"
-summary: |-
-  Get a regular updated list of zombies

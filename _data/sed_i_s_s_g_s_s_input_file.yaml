@@ -1,8 +1,0 @@
-commandlinefu_id: 9872
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sed -i "s/\s*/ /g;s/\s*$//" input_file
-summary: |-
-  Get rid of multiple spaces/tabs in a text file

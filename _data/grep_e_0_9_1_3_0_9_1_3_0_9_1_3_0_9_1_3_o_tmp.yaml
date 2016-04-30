@@ -1,8 +1,0 @@
-commandlinefu_id: 12036
-translator:
-  weibo: ''
-hide: true
-command: |-
-  grep -E '([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})' -o tmp
-summary: |-
-  Extract all IPs from a file

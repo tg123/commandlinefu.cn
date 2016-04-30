@@ -1,8 +1,0 @@
-commandlinefu_id: 5247
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar pcf - home | pv -s $(du -sb home | awk '{print $1}') --rate-limit 500k | gzip > /mnt/c/home.tar.gz
-summary: |-
-  tar directory and compress it with showing progress and Disk IO limits

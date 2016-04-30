@@ -1,7 +1,0 @@
-commandlinefu_id: 1815
-translator:
-  weibo: tgic
-command: |-
-  while true; do [ "$(ping -c1W1w1 server-or-ip.com | awk '/received/ {print $4}')" != 1 ] && beep; sleep 1; done
-summary: |-
-  用ping 监控服务器

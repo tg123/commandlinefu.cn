@@ -1,7 +1,0 @@
-commandlinefu_id: 12835
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ls -lR | less
-summary: |-
-  淡定自若地列出文件夹中各文件的情况

@@ -1,7 +1,0 @@
-commandlinefu_id: 2643
-translator:
-  weibo: tgic
-command: |-
-  tar cvfz changes.tar.gz --exclude-vcs `svn diff -rM:N --summarize . | grep . | awk '{print $2}' | grep -E -v '^\.$'`
-summary: |-
-  获取一个版本范围的变化然后 tar gz 变化

@@ -1,8 +1,0 @@
-commandlinefu_id: 13980
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar -cvj --exclude-vcs -f archive.tar.bz2 somedirectory
-summary: |-
-  Tar a directory excluding CVS, SVN, GIT and similar directories

@@ -1,7 +1,0 @@
-commandlinefu_id: 1961
-translator:
-  weibo: tgic
-command: |-
-  find . -maxdepth 1 -type f -name '*.sh' -o -name '*.txt'
-summary: |-
-  查找不同的文件类型

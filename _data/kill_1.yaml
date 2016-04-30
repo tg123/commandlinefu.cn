@@ -1,7 +1,0 @@
-commandlinefu_id: 1874
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  kill %1
-summary: |-
-  向一个后台作业发出信号（默认是SIGTERM，也即终止作业）

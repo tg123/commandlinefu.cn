@@ -1,7 +1,0 @@
-commandlinefu_id: 7347
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cd $srcdir && find -type d -exec mkdir -p $dstdir/{} \;
-summary: |-
-  复制源文件夹的目录结构

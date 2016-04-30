@@ -1,7 +1,0 @@
-commandlinefu_id: 5341
-translator:
-  weibo: tgic
-command: |-
-  find . -mtime +10
-summary: |-
-  使用find 查找比X旧的文件

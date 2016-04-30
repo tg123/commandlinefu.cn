@@ -1,8 +1,0 @@
-commandlinefu_id: 13762
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rename -fc *
-summary: |-
-  convert uppercase files to lowercase files

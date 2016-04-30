@@ -1,7 +1,0 @@
-commandlinefu_id: 11373
-translator:
-  weibo: tgic
-command: |-
-  . ~/.bashrc
-summary: |-
-  刷新配置 使修改后的配置生效

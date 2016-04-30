@@ -1,8 +1,0 @@
-commandlinefu_id: 3751
-translator:
-  weibo: ''
-hide: true
-command: |-
-  arping 192.168.1.2
-summary: |-
-  Determine MAC address of remote host when you know its IP address

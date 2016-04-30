@@ -1,7 +1,0 @@
-commandlinefu_id: 3989
-translator:
-  weibo: tgic
-command: |-
-  mount | awk '/:/ { print $3 } ' | xargs sudo umount
-summary: |-
-  将所有nfs unmount

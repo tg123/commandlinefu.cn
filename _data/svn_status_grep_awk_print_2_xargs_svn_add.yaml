@@ -1,8 +1,0 @@
-commandlinefu_id: 6333
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn status | grep "^\?" | awk '{print $2}' | xargs svn add
-summary: |-
-  Readd all files is missing from svn repo

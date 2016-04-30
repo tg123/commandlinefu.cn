@@ -1,7 +1,0 @@
-commandlinefu_id: 4074
-translator:
-  weibo: tgic
-command: |-
-  perl -p -i -e ?s/New/Old/g? *.html
-summary: |-
-  使用perl做替换

@@ -1,8 +1,0 @@
-commandlinefu_id: 6310
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /path/to/dir -type f -name '*.*' | sed 's@.*/.*\.@.@' | sort | uniq
-summary: |-
-  list all file extensions in a directory

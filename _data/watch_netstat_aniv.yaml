@@ -1,7 +1,0 @@
-commandlinefu_id: 2509
-translator:
-  weibo: tgic
-command: |-
-  watch 'netstat -aniv'
-summary: |-
-  监控RT/TX

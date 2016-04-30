@@ -1,8 +1,0 @@
-commandlinefu_id: 1769
-translator:
-  weibo: ''
-hide: true
-command: |-
-  < /path/to/file.txt grep foo
-summary: |-
-  Redirect STDIN

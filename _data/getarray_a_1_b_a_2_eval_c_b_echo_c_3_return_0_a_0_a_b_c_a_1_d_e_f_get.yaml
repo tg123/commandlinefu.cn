@@ -1,7 +1,0 @@
-commandlinefu_id: 7933
-translator:
-  weibo: tgic
-command: |-
-  getarray(){ a=$1;b="${a[$2]}";eval "c=$b";echo "${c[$3]}";return 0;};a[0]="( a b c )";a[1]="( d e f )";getarray a 1 2
-summary: |-
-  二维数组

@@ -1,7 +1,0 @@
-commandlinefu_id: 12673
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat /var/log/apache2/access_logs | cut -d ' ' -f 1 | uniq -c | sort -n
-summary: |-
-  基于是否使用中，在apache访问日志中过滤掉IP

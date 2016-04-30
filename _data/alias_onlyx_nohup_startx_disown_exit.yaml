@@ -1,7 +1,0 @@
-commandlinefu_id: 6164
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  alias onlyx='nohup startx & disown ; exit'
-summary: |-
-  一个别名，可以安全地从终端运行X窗口环境，然后关闭终端

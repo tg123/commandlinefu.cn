@@ -1,7 +1,0 @@
-commandlinefu_id: 12487
-translator:
-  weibo: tgic
-command: |-
-  pdfunite 1.pdf 2.pdf united.pdf
-summary: |-
-  合并pdf的工具

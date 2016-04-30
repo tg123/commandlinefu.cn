@@ -1,7 +1,0 @@
-commandlinefu_id: 7066
-translator:
-  weibo: codepiano
-command: |-
-  date +"%V"
-summary: |-
-  一行BASH代码获得当前星期数

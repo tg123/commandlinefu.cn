@@ -1,7 +1,0 @@
-commandlinefu_id: 8019
-translator:
-  weibo: tgic
-command: |-
-  fdupes DIRECTORY/ -r -d
-summary: |-
-  查找相同的文件

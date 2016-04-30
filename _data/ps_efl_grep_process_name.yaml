@@ -1,7 +1,0 @@
-commandlinefu_id: 13685
-translator:
-  weibo: tgic
-command: |-
-  ps -efL | grep <Process Name>
-summary: |-
-  显示子进程

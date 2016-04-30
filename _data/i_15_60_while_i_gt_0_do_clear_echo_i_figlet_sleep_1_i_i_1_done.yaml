@@ -1,7 +1,0 @@
-commandlinefu_id: 5896
-translator:
-  weibo: tgic
-command: |-
-  i=$((15*60)); while [ $i -gt 0 ]; do clear; echo $i | figlet; sleep 1; i=$(($i-1)); done;
-summary: |-
-  计时器

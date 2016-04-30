@@ -1,7 +1,0 @@
-commandlinefu_id: 2959
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  du -hd 1
-summary: |-
-  获得当前目录下的所有子目录的大小

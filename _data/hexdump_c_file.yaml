@@ -1,8 +1,0 @@
-commandlinefu_id: 9220
-translator:
-  weibo: ''
-hide: true
-command: |-
-  hexdump -c <file>
-summary: |-
-  print all characters of any file in human readble form using hexdump

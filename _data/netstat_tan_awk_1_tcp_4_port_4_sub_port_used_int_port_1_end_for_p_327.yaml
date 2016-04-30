@@ -1,7 +1,0 @@
-commandlinefu_id: 10112
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  netstat -tan | awk '$1 == "tcp" && $4 ~ /:/ { port=$4; sub(/^[^:]+:/, "", port); used[int(port)] = 1; } END { for (p = 32768; p <= 61000; ++p) if (! (p in used)) { print p; exit(0); }; exit(1); }'
-summary: |-
-  查找一个未被占用的动态TCP端口

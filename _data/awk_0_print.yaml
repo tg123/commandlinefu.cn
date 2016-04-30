@@ -1,7 +1,0 @@
-commandlinefu_id: 256
-translator:
-  weibo: titikaka723 
-command: |-
-  awk '!_[$0]++{print}'
-summary: |-
-  去重 

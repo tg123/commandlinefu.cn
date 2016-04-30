@@ -1,8 +1,0 @@
-commandlinefu_id: 5927
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ifconfig eth0 | grep 'inet addr' | cut -d ':' -f 2 | cut -d ' ' -f 1
-summary: |-
-  Get IPv4 of eth0 for use with scripts

@@ -1,7 +1,0 @@
-commandlinefu_id: 5421
-translator:
-  weibo: ''
-command: |-
-  more xx.m3u |grep -v "^#" |xargs -i cp {} target
-summary: |-
-  从播放列表中解析文件复制到指定目录

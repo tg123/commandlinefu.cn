@@ -1,8 +1,0 @@
-commandlinefu_id: 9722
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nmap -v -sT 192.168.0.0/24
-summary: |-
-  nmap port scanning

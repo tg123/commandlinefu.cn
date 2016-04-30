@@ -1,7 +1,0 @@
-commandlinefu_id: 6103
-translator:
-  weibo: codepiano
-command: |-
-  find -name 'foo*' | while read i; do echo "$i"; done
-summary: |-
-  使用find命令遍历文件（可以处理包含空格的文件名）

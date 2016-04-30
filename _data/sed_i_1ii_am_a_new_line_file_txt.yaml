@@ -1,7 +1,0 @@
-commandlinefu_id: 13195
-translator:
-  weibo: particle128
-command: |-
-  sed -i '1iI am a new line' file.txt
-summary: |-
-  用sed在文件首插入行

@@ -1,7 +1,0 @@
-commandlinefu_id: 13424
-translator:
-  weibo: tgic
-command: |-
-  sudo ntpdate serverip
-summary: |-
-  同步时间

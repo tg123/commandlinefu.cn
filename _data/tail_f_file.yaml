@@ -1,8 +1,0 @@
-commandlinefu_id: 2735
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -F file
-summary: |-
-  Follow tail by name (fix for rolling logs with tail -f)

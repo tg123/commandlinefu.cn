@@ -1,8 +1,0 @@
-commandlinefu_id: 889
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo find / -user root -perm -4000 -print
-summary: |-
-  Find files with root setuids settings

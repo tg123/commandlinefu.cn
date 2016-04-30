@@ -1,8 +1,0 @@
-commandlinefu_id: 2271
-translator:
-  weibo: ''
-hide: true
-command: |-
-  lame --mp3input -m m --resample 24 input.mp3
-summary: |-
-  reduce mp3 bitrate (and size, of course)

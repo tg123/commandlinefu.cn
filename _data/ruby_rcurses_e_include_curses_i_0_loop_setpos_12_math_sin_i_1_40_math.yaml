@@ -1,8 +1,0 @@
-commandlinefu_id: 5041
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ruby -rcurses -e"include Curses;i=0;loop{setpos 12*(Math.sin(i)+1),40*(Math.cos(i*0.2)+1);addstr'.';i+=0.01;refresh}"
-summary: |-
-  Display a Lissajous curve in text

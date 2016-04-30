@@ -1,8 +1,0 @@
-commandlinefu_id: 6816
-translator:
-  weibo: ''
-hide: true
-command: |-
-  set env DYLD_INSERT_LIBRARIES = /usr/lib/libgmalloc.dylib;b szone_error
-summary: |-
-  Setting gdb in memory allocation debugging mode under MAC OS X

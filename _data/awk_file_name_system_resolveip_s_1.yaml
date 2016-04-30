@@ -1,8 +1,0 @@
-commandlinefu_id: 3066
-translator:
-  weibo: ''
-hide: true
-command: |-
-  awk < file.name '{ system("resolveip -s " $1) }'
-summary: |-
-  Resolve a list of domain names to IP addresses

@@ -1,7 +1,0 @@
-commandlinefu_id: 8011
-translator:
-  weibo: tgic
-command: |-
-  find directory/ -mtime 0 -type f
-summary: |-
-  查看今天创建的文件

@@ -1,7 +1,0 @@
-commandlinefu_id: 3526
-translator:
-  weibo: tgic
-command: |-
-  echo 127.0.0.1 | egrep -e '^(([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-4])\.){3}([01]?[0-9]{1,2}|2[0-4][0-9]|25[0-4])$'
-summary: |-
-  匹配ip

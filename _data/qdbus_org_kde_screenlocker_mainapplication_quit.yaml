@@ -1,8 +1,0 @@
-commandlinefu_id: 3213
-translator:
-  weibo: ''
-hide: true
-command: |-
-  qdbus org.kde.screenlocker /MainApplication quit
-summary: |-
-  Unlock your KDE4.3 session remotely

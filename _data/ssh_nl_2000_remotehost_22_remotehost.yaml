@@ -1,8 +1,0 @@
-commandlinefu_id: 1433
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh -NL 2000:remotehost:22 remotehost
-summary: |-
-  Forwards connections to your port 2000 to the port 22 of a remote host via ssh tunnel

@@ -1,8 +1,0 @@
-commandlinefu_id: 11269
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo -s du -sm /Users/* | sort -nr | head -n 10
-summary: |-
-  Find the 10 users that take up the most disk space

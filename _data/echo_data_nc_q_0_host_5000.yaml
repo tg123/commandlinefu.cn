@@ -1,8 +1,0 @@
-commandlinefu_id: 5922
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo data | nc -q 0 host 5000
-summary: |-
-  Connect to TCP port 5000, transfer data and close connexion.

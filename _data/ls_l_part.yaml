@@ -1,8 +1,0 @@
-commandlinefu_id: 11635
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -l !(*.part)
-summary: |-
-  list files other than, those, where you know, part of the name (e.g. file extension)

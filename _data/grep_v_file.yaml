@@ -1,7 +1,0 @@
-commandlinefu_id: 1043
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  grep -v "^$" file
-summary: |-
-  从文件中移除所有空行

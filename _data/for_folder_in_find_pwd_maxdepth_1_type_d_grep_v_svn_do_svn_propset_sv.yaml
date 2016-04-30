@@ -1,8 +1,0 @@
-commandlinefu_id: 11080
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for folder in $( find $( pwd ) -maxdepth 1 -type d | grep -v .svn ); do svn propset svn:ignore -F ignorelist ${folder}; done
-summary: |-
-  Recursively set the files to ignore in all folders for svn

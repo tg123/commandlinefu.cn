@@ -1,8 +1,0 @@
-commandlinefu_id: 6205
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ssh [user]@[host] "ogg123 -" < [podcast].ogg
-summary: |-
-  Stream audio over ssh ogg version

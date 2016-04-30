@@ -1,7 +1,0 @@
-commandlinefu_id: 11695
-translator:
-  weibo: tgic
-command: |-
-  cp -p `ls -l | awk '/Apr 14/ {print $NF}'` /usr/users/backup_dir
-summary: |-
-  查找特定时间戳的文件

@@ -1,8 +1,0 @@
-commandlinefu_id: 3771
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for f in *.html; do sed '$d' -i "$f"; done
-summary: |-
-  remove the last of all html files in a directory

@@ -1,8 +1,0 @@
-commandlinefu_id: 2549
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for file in `find /var/log/ -type f -size +5000k`; do echo " " > $file; done
-summary: |-
-  Quickly clean log files (assuming you don't want them anymore)

@@ -1,8 +1,0 @@
-commandlinefu_id: 4320
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo lsof -P -i -n -sTCP:LISTEN
-summary: |-
-  list all opened ports on host

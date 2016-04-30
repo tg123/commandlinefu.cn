@@ -1,8 +1,0 @@
-commandlinefu_id: 1255
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  ls -1 | while read a; do mv "$a" `echo $a | sed -e 's/\ /\./g'`; done
-summary: |-
-  空格换成点

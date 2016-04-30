@@ -1,7 +1,0 @@
-commandlinefu_id: 3180
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  cat nicescript |ssh middlehost "cat | ssh -a root@securehost 'cat > nicescript'"
-summary: |-
-  利用主机B作为中转站，把主机A的一个脚本scp到没有公共访问权的主机C

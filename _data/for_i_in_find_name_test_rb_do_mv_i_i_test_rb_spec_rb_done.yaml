@@ -1,7 +1,0 @@
-commandlinefu_id: 11360
-translator:
-  weibo: tgic
-command: |-
-  for i in `find -name '*_test.rb'` ; do mv $i ${i%%_test.rb}_spec.rb ; done
-summary: |-
-  批量重命名

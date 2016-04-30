@@ -1,7 +1,0 @@
-commandlinefu_id: 10386
-translator:
-  weibo: '猪了个去'
-command: |-
-  GET http://www.ip.cn/getip.php?action=getip
-summary: |-
-  获取我的外网IP地址

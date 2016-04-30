@@ -1,7 +1,0 @@
-commandlinefu_id: 8233
-translator:
-  weibo: '猪了个去'
-command: |-
-  set colsep "{char}"
-summary: |-
-  Oracle: 设置列分割符

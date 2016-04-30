@@ -1,7 +1,0 @@
-commandlinefu_id: 5498
-translator:
-  weibo: tgic
-command: |-
-  find . \( -iname '*.[ch]' -o -iname '*.php' -o -iname '*.pl' \) | xargs wc -l | sort -n
-summary: |-
-  按文件类型统计行数 并排序

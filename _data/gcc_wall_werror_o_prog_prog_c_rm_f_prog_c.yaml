@@ -1,7 +1,0 @@
-commandlinefu_id: 151
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  gcc -Wall -Werror -o prog prog.c || rm -f prog.c
-summary: |-
-  你需要一个吹毛求疵的gcc

@@ -1,7 +1,0 @@
-commandlinefu_id: 2070
-translator:
-  weibo: tgic
-command: |-
-  tar cvzf - data1 data2 | uuencode data.tar.gz | mail -s 'data' you@host.com
-summary: |-
-  如何发送附件

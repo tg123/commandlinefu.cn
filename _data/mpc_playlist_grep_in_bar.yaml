@@ -1,8 +1,0 @@
-commandlinefu_id: 9282
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mpc playlist | grep -in bar
-summary: |-
-  Finds the track no of songs, to be played

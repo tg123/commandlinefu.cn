@@ -1,7 +1,0 @@
-commandlinefu_id: 3748
-translator:
-  weibo: tgic
-command: |-
-  head -c10 <(echo $RANDOM$RANDOM$RANDOM)
-summary: |-
-  输出一个 10位的随机数

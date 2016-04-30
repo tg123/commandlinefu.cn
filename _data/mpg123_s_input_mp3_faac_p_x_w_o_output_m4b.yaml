@@ -1,8 +1,0 @@
-commandlinefu_id: 5022
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mpg123 -s input.mp3 | faac -P -X -w -o output.m4b -
-summary: |-
-  conver mp3 to m4b

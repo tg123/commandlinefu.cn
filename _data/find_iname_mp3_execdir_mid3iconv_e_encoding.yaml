@@ -1,8 +1,0 @@
-commandlinefu_id: 9894
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -iname "*.mp3" -execdir mid3iconv -e <encoding> {} \;
-summary: |-
-  Fix MP3 tags encoding (to UTF-8). Batch fixes all MP3s in one directory.

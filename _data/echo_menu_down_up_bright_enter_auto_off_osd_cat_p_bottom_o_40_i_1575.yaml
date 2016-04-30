@@ -1,8 +1,0 @@
-commandlinefu_id: 11706
-translator:
-  weibo: ''
-hide: true
-command: |-
-  echo "|MENU|       |DOWN|    |UP/BRIGHT|  |ENTER|      |AUTO|      |OFF|"|osd_cat -p bottom -o -40 -i 1575
-summary: |-
-  Indicates the position of my monitor buttons

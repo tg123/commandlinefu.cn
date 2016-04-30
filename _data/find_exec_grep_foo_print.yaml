@@ -1,7 +1,0 @@
-commandlinefu_id: 4453
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  find . -exec grep $foo {} \; -print
-summary: |-
-  在当前目录和子目录内的文件中，查找并输出匹配的内容

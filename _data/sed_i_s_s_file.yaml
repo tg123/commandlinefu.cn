@@ -1,7 +1,0 @@
-commandlinefu_id: 6429
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed -i 's/\s\+$//' <file>
-summary: |-
-  删除文件中每行末尾的空格

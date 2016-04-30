@@ -1,8 +1,0 @@
-commandlinefu_id: 4259
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type d -exec sh -c "normalize-audio -b \"{}\"/*.mp3" \;
-summary: |-
-  Normalize volume in your mp3 library

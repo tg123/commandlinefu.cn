@@ -1,7 +1,0 @@
-commandlinefu_id: 2921
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  ab -n 9000 -c 900 localhost:8080/index.php
-summary: |-
-  使用ab给web服务器做压力测试

@@ -1,7 +1,0 @@
-commandlinefu_id: 4893
-translator:
-  weibo: codepiano
-command: |-
-  ps axo rss,comm | awk '{sum+=$1; print $1/1024, "MB - ", $2} END {print "\nTotal RAM Used: ", sum/1024, "MB\n"}'
-summary: |-
-  获取虚拟环境使用的内存容量

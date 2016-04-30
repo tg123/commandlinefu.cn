@@ -1,7 +1,0 @@
-commandlinefu_id: 99
-translator:
-  weibo: tgic
-command: |-
-  echo "SHOW PROCESSLIST\G" | mysql -u root -p | grep "Info:" | awk -F":" '{count[$NF]++}END{for(i in count){printf("%d: %s\n", count[i], i)}}' | sort -n
-summary: |-
-  查询mysql的查询数量

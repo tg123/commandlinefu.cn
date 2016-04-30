@@ -1,8 +1,0 @@
-commandlinefu_id: 3784
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -we 'my $regex = eval {qr/.*/}; die "$@" if $@;'
-summary: |-
-  validate the syntax of a perl-compatible regular expression

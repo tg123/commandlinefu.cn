@@ -1,8 +1,0 @@
-commandlinefu_id: 13601
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo bash -c "cd /PATH/TO/THE/DIRECTORY;bash"
-summary: |-
-  Change directories using sudo

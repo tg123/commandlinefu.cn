@@ -1,7 +1,0 @@
-commandlinefu_id: 3082
-translator:
-  weibo: tgic
-command: |-
-  say `cat /path/to/textfile.txt`
-summary: |-
-  读课文(OSX)

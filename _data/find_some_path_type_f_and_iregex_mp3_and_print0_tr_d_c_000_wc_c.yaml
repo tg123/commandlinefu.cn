@@ -1,8 +1,0 @@
-commandlinefu_id: 10503
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /some/path -type f -and -iregex '.*\.mp3$' -and -print0 | tr -d -c '\000' |wc -c
-summary: |-
-  count the number of specific characters in a file or text stream

@@ -1,7 +1,0 @@
-commandlinefu_id: 5262
-translator:
-  weibo: tgic
-command: |-
-  find . -name 'pattern'| xargs du -hc
-summary: |-
-  特定类型文件的大小总和

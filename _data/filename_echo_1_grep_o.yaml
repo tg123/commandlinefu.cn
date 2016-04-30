@@ -1,7 +1,0 @@
-commandlinefu_id: 9066
-translator:
-  weibo: tgic
-command: |-
-  fileName()  { echo "$1" | grep -o "[^/]*$"; }
-summary: |-
-  另一种basename 的实现

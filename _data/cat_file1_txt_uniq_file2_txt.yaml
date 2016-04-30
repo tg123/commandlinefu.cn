@@ -1,8 +1,0 @@
-commandlinefu_id: 1281
-translator:
-  weibo: ''
-hide: true
-command: |-
-  cat file1.txt | uniq > file2.txt
-summary: |-
-  Eliminate duplicate lines on a file

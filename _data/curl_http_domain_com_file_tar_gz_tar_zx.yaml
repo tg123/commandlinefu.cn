@@ -1,8 +1,0 @@
-commandlinefu_id: 1616
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  curl http://domain.com/file.tar.gz | tar zx
-summary: |-
-  下载同时解压缩

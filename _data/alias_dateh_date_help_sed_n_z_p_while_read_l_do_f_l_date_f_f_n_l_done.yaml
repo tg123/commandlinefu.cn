@@ -1,7 +1,0 @@
-commandlinefu_id: 5423
-translator:
-  weibo: tgic
-command: |-
-  date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t
-summary: |-
-  打印所有日期格式

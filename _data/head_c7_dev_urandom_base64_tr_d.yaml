@@ -1,7 +1,0 @@
-commandlinefu_id: 11395
-translator:
-  weibo: tgic
-command: |-
-  head -c7 /dev/urandom|base64|tr -d '='
-summary: |-
-  随机生成10个字符的密码

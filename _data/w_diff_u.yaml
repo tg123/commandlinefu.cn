@@ -1,7 +1,0 @@
-commandlinefu_id: 9737
-translator:
-  weibo: tgic
-command: |-
-  :w !diff -u % -
-summary: |-
-  在编辑中与原文件比较

@@ -1,8 +1,0 @@
-commandlinefu_id: 3838
-translator:
-  weibo: ''
-hide: true
-command: |-
-  rsync -rvtW --progress --include='*.wmv' --include='*.mpg' --exclude='*.*' <sourcedir> <destdir>
-summary: |-
-  Copy recursivelly files of specific filetypes

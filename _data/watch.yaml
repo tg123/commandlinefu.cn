@@ -1,7 +1,0 @@
-commandlinefu_id: 8773
-translator:
-  weibo: tgic
-command: |-
-  watch !!
-summary: |-
-  执行上一条命令 并加上监控

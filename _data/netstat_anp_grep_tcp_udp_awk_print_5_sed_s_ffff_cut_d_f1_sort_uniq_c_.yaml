@@ -1,7 +1,0 @@
-commandlinefu_id: 698
-translator:
-  weibo: particle128
-command: |-
-  netstat -anp |grep 'tcp\|udp' | awk '{print $5}' | sed s/::ffff:// | cut -d: -f1 | sort | uniq -c | sort -n
-summary: |-
-  统计每个IP的IPv4连接数

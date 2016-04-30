@@ -1,7 +1,0 @@
-commandlinefu_id: 9805
-translator:
-  weibo: tgic
-command: |-
-  dirname $(readlink -f ${BASH_SOURCE[0]})
-summary: |-
-  全路径(任意地方启动)

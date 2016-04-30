@@ -1,7 +1,0 @@
-commandlinefu_id: 10098
-translator:
-  weibo: tgic
-command: |-
-  dd if=/dev/urandom of=/dev/somedisk
-summary: |-
-  把硬盘送人前

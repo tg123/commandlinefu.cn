@@ -1,8 +1,0 @@
-commandlinefu_id: 12007
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tar zcf - foo | gpg -c --cipher-algo aes256 -o foo.tgz.gpg
-summary: |-
-  Encrypt directory with GnuPG and tar

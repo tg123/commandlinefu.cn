@@ -1,7 +1,0 @@
-commandlinefu_id: 3028
-translator:
-  weibo: '猪了个去'
-command: |-
-  $(while [ ! -z "$(pgrep rsync)" ]; do echo; done; echo "rsync done" | mailx user@example.com) > /dev/null &
-summary: |-
-  当所有rsync进程完成后，给一个邮箱发邮件

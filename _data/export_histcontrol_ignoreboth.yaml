@@ -1,8 +1,0 @@
-commandlinefu_id: 2668
-translator:
-  weibo: ''
-hide: true
-command: |-
-  export HISTCONTROL=ignoreboth
-summary: |-
-  A bit of privacy in .bash_history

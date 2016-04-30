@@ -1,8 +1,0 @@
-commandlinefu_id: 9495
-translator:
-  weibo: ''
-hide: true
-command: |-
-  python -c 'p="SeCuR3PwD";import hashlib as h;s=h.md5(p).hexdigest()[:2];pw=h.md5(s+p).hexdigest();print pw+":"+s;'
-summary: |-
-  Generate a ZenCart-style MD5 password hash.

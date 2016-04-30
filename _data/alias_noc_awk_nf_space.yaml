@@ -1,8 +1,0 @@
-commandlinefu_id: 13677
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias noc="awk 'NF && ! /^[[:space:]]*#/'"
-summary: |-
-  no # comments, blank lines, white space. # can start in any column

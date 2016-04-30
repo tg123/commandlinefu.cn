@@ -1,7 +1,0 @@
-commandlinefu_id: 5735
-translator:
-  weibo: tgic
-command: |-
-  fortune | cowsay -f tux
-summary: |-
-  电脑算命

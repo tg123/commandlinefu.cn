@@ -1,7 +1,0 @@
-commandlinefu_id: 6354
-translator:
-  weibo: tgic
-command: |-
-  find ./ -name Thumbs.db -exec rm -rf '{}' +
-summary: |-
-  清理掉 Thumbs.db

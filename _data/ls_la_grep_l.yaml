@@ -1,8 +1,0 @@
-commandlinefu_id: 13628
-translator:
-  weibo: ''
-hide: true
-command: |-
-  ls -la | grep ^l
-summary: |-
-  List all symbolic links in current directory

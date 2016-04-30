@@ -1,8 +1,0 @@
-commandlinefu_id: 5628
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find . -type f -not -regex ".*\/.svn\/.*" -exec sed -i 's/oldstring/newstring/g' {} +
-summary: |-
-  Find and replace recursivly a ignoring .svn

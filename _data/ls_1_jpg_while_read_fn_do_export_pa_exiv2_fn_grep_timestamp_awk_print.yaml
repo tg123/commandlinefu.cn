@@ -1,7 +1,0 @@
-commandlinefu_id: 2956
-translator:
-  weibo: tgic
-command: |-
-  ls -1 *.jpg | while read fn; do export pa=`exiv2 "$fn" | grep timestamp | awk '{ print $4 " " $5 ".jpg"}' | tr ":" "-"`; mv "$fn" "$pa"; done
-summary: |-
-  图片重命名工具

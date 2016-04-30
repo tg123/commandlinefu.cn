@@ -1,7 +1,0 @@
-commandlinefu_id: 12053
-translator:
-  weibo: tgic
-command: |-
-  alias clearscrollback='clear;printf %b "\033[3J"'
-summary: |-
-  创建一个清理屏幕快捷命令 (putty xterm)

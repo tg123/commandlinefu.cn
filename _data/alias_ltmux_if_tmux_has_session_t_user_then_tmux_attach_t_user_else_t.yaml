@@ -1,8 +1,0 @@
-commandlinefu_id: 12982
-translator:
-  weibo: ''
-hide: true
-command: |-
-  alias ltmux="if tmux has-session -t $USER; then tmux attach -t $USER; else tmux new -s $USER; fi"
-summary: |-
-  Alias for lazy tmux create/reattach

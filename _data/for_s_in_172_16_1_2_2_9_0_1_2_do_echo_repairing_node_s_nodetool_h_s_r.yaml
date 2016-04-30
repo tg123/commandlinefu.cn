@@ -1,8 +1,0 @@
-commandlinefu_id: 13033
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for s in 172.16.{1,2}2.9{0,1,2}; do echo "Repairing node $s..."; nodetool -h $s repair -pr; done
-summary: |-
-  Sequentially repair multiple cassandra nodes at once

@@ -1,8 +1,0 @@
-commandlinefu_id: 109
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for i in *.bak ; do nuname=`echo $i | sed 's/\.[^\.]*$//'`; echo renaming $i to $nuname;mv $i $nuname; done
-summary: |-
-  move all the .bak backup copies to their original names (rename files by stripping the extension)

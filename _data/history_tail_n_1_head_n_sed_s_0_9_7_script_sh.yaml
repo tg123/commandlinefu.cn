@@ -1,7 +1,0 @@
-commandlinefu_id: 8602
-translator:
-  weibo: particle128
-command: |-
-  history | tail -(n+1) | head -(n) | sed 's/^[0-9 ]\{7\}//' >> ~/script.sh
-summary: |-
-  用最后键入的n条命令创建脚本

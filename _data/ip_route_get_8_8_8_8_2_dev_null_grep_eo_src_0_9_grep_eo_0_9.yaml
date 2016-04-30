@@ -1,7 +1,0 @@
-commandlinefu_id: 11375
-translator:
-  weibo: tgic
-command: |-
-  ip route get 8.8.8.8 2>/dev/null|grep -Eo 'src [0-9.]+'|grep -Eo '[0-9.]+'
-summary: |-
-  获取ip

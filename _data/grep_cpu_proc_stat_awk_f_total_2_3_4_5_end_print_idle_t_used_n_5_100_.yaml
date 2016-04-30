@@ -1,7 +1,0 @@
-commandlinefu_id: 10083
-translator:
-  weibo: codepiano
-command: |-
-  grep "cpu " /proc/stat | awk -F ' ' '{total = $2 + $3 + $4 + $5} END {print "idle \t used\n" $5*100/total "% " $2*100/total "%"}'
-summary: |-
-  显示CPU空闲和使用时间

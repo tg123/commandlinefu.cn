@@ -1,8 +1,0 @@
-commandlinefu_id: 6536
-translator:
-  weibo: ''
-hide: true
-command: |-
-  LD_TRACE_LOADED_OBJECTS=1 name_of_executable
-summary: |-
-  print shared library dependencies

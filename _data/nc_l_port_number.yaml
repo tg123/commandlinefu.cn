@@ -1,7 +1,0 @@
-commandlinefu_id: 12057
-translator:
-  weibo: tgic
-command: |-
-  nc -l <port-number>
-summary: |-
-  监听一个端口(telnet 可以发送内容)

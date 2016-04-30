@@ -1,8 +1,0 @@
-commandlinefu_id: 10435
-translator:
-  weibo: ''
-hide: true
-command: |-
-  for a in $(cat sample.txt); do echo "$(wc -m<<<$a) $a";done|sort -n
-summary: |-
-  Print all words in a file sorted by length

@@ -1,7 +1,0 @@
-commandlinefu_id: 3678
-translator:
-  weibo: tgic
-command: |-
-  strings /boot/kernel-file | grep 2.6
-summary: |-
-  如何不用uname查看内核版本

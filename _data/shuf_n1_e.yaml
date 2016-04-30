@@ -1,8 +1,0 @@
-commandlinefu_id: 8151
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  shuf -n1 -e *
-summary: |-
-  从目录里边随机选择一个文件

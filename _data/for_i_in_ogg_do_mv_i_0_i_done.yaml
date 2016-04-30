@@ -1,7 +1,0 @@
-commandlinefu_id: 10741
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  for i in ?.ogg; do mv $i 0$i; done
-summary: |-
-  将个位数字转换成带0前缀的形式

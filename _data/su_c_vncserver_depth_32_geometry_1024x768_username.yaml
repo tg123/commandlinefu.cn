@@ -1,8 +1,0 @@
-commandlinefu_id: 6255
-translator:
-  weibo: ''
-hide: true
-command: |-
-  su -c "vncserver -depth 32 -geometry 1024x768" username
-summary: |-
-  start a VNC server for another user

@@ -1,7 +1,0 @@
-commandlinefu_id: 8234
-translator:
-  weibo: '猪了个去'
-command: |-
-  wget --spider  -o wget.log  -e robots=off --wait 1 -r -p http://www.example.com
-summary: |-
-  使用wget的爬虫模式检查损坏的链接

@@ -1,7 +1,0 @@
-commandlinefu_id: 8540
-translator:
-  weibo: tgic
-command: |-
-  tac $FILE
-summary: |-
-  把cat倒过来

@@ -1,8 +1,0 @@
-commandlinefu_id: 6162
-translator:
-  weibo: ''
-hide: true
-command: |-
-  sudo iptables -L -nv
-summary: |-
-  Print the detailed statistics of transferred bytes by the firewall rules

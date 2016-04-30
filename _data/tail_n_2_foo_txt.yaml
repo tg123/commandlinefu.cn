@@ -1,7 +1,0 @@
-commandlinefu_id: 11273
-translator:
-  weibo: tgic
-command: |-
-  tail -n +2 foo.txt
-summary: |-
-  忽略前2行

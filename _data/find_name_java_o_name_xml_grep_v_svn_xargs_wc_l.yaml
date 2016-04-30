@@ -1,7 +1,0 @@
-commandlinefu_id: 8746
-translator:
-  weibo: tgic
-command: |-
-  find . -name '*.java' -o -name '*.xml' | grep -v '\.svn' | xargs wc -l
-summary: |-
-  计算源代码行数 忽略svn

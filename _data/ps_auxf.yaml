@@ -1,7 +1,0 @@
-commandlinefu_id: 168
-translator:
-  weibo: 'gdqyn'
-command: |-
-  ps auxf
-summary: |-
-  带父子进程树的ps输出

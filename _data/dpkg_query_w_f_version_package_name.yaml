@@ -1,7 +1,0 @@
-commandlinefu_id: 5745
-translator:
-  weibo: tgic
-command: |-
-  dpkg-query -W -f='${Version}' package-name
-summary: |-
-  查看安装包版本

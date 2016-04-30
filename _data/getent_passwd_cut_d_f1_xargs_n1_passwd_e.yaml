@@ -1,7 +1,0 @@
-commandlinefu_id: 4084
-translator:
-  weibo: codepiano
-command: |-
-  getent passwd|cut -d: -f1|xargs -n1 passwd -e
-summary: |-
-  强制修改所有用户的密码

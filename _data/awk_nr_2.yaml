@@ -1,8 +1,0 @@
-commandlinefu_id: 7963
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  awk 'NR%2'
-summary: |-
-  只打印一个文件的奇数行

@@ -1,7 +1,0 @@
-commandlinefu_id: 1219
-translator:
-  weibo: codepiano
-command: |-
-  date --iso
-summary: |-
-  标准的日期格式

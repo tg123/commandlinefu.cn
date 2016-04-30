@@ -1,8 +1,0 @@
-commandlinefu_id: 13998
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nc 127.0.0.1 22 < /dev/null; echo $?
-summary: |-
-  check port open without telnet

@@ -1,8 +1,0 @@
-commandlinefu_id: 3945
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mpc play $(sed -n "s@^[ >]\([0-9]\+\)) $(mpc playlist|cut -d' ' -f3-|dmenu -i -p 'song name'||echo void)@\1@p" < <(mpc playlist))
-summary: |-
-  one-liner mpc track changer using dmenu

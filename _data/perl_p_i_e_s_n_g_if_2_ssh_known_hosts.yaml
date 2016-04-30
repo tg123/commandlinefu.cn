@@ -1,7 +1,0 @@
-commandlinefu_id: 10059
-translator:
-  weibo: tgic
-command: |-
-  perl -p -i -e 's/.*\n//g if $.==2' ~/.ssh/known_hosts
-summary: |-
-  使用perl删除 know_hosts 的一行

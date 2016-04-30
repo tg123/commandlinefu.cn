@@ -1,8 +1,0 @@
-commandlinefu_id: 8412
-translator:
-  weibo: ''
-hide: true
-command: |-
-  nohup cat  /dev/ttyS0 | tee -a llamadas.db&
-summary: |-
-  Dump /dev/ttyS0 on background automatically from startup

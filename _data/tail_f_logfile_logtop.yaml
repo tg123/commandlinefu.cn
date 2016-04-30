@@ -1,8 +1,0 @@
-commandlinefu_id: 10895
-translator:
-  weibo: ''
-hide: true
-command: |-
-  tail -f logfile | logtop
-summary: |-
-  Realtime lines per second in a log file

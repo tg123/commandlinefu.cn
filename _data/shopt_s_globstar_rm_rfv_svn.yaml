@@ -1,7 +1,0 @@
-commandlinefu_id: 7312
-translator:
-  weibo: tgic
-command: |-
-  shopt -s globstar; rm -rfv **/.svn
-summary: |-
-  清理所有的.svn

@@ -1,8 +1,0 @@
-commandlinefu_id: 7587
-translator:
-  weibo: ''
-hide: true
-command: |-
-  users | xargs -n1 echo | sort | uniq -c
-summary: |-
-  List and count the number of open sessions per user

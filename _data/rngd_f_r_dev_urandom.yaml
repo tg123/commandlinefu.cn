@@ -1,7 +1,0 @@
-commandlinefu_id: 12602
-translator:
-  weibo: tgic
-command: |-
-  rngd -f -r /dev/urandom
-summary: |-
-  熵

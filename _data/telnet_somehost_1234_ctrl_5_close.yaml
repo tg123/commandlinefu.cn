@@ -1,8 +1,0 @@
-commandlinefu_id: 5279
-translator:
-  weibo: ''
-hide: true
-command: |-
-  telnet somehost 1234, <ctrl+5> close
-summary: |-
-  Disconnect telnet

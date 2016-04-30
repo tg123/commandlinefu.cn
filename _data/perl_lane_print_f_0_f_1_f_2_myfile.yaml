@@ -1,8 +1,0 @@
-commandlinefu_id: 2141
-translator:
-  weibo: ''
-hide: true
-command: |-
-  perl -lane 'print "$F[0]:$F[1]:$F[2]"' myfile
-summary: |-
-  Rearrange words from a file

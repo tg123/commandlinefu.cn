@@ -1,8 +1,0 @@
-commandlinefu_id: 9683
-translator:
-  weibo: tgic
-hide: false
-command: |-
-  stat -c "%s" <file>
-summary: |-
-  查看文件大小

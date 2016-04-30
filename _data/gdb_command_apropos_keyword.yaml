@@ -1,8 +1,0 @@
-commandlinefu_id: 2071
-translator:
-  weibo: ''
-hide: true
-command: |-
-  gdb command: apropos <keyword>
-summary: |-
-  Search gdb help pages

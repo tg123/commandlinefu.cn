@@ -1,7 +1,0 @@
-commandlinefu_id: 101
-translator:
-  weibo: tgic
-command: |-
-  awk 'length($0)!=12 {print}' your_file_name
-summary: |-
-  输出不是特定长度的行

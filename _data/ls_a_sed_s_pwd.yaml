@@ -1,7 +1,0 @@
-commandlinefu_id: 9917
-translator:
-  weibo: tgic
-command: |-
-  ls -a | sed "s#^#${PWD}/#"
-summary: |-
-  全路径的ls

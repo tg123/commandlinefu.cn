@@ -1,8 +1,0 @@
-commandlinefu_id: 2963
-translator:
-  weibo: ''
-hide: true
-command: |-
-  exiv2 rename *.jpg
-summary: |-
-  Picture Renamer

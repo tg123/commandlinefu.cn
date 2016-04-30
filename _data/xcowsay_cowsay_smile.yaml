@@ -1,8 +1,0 @@
-commandlinefu_id: 13502
-translator:
-  weibo: ''
-hide: true
-command: |-
-  xcowsay "$(cowsay smile)"
-summary: |-
-  xcowsay think on other cow

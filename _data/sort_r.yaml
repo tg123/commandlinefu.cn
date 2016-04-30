@@ -1,7 +1,0 @@
-commandlinefu_id: 8847
-translator:
-  weibo: '猪了个去'
-command: |-
-  sort -R
-summary: |-
-  行随机乱序

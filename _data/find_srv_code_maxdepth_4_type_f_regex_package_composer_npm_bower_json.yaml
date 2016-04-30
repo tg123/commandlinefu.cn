@@ -1,8 +1,0 @@
-commandlinefu_id: 13879
-translator:
-  weibo: ''
-hide: true
-command: |-
-  find /srv/code -maxdepth 4 -type f -regex ".*\(\(package\|composer|npm\\|bower\)\.json\|Gemfile\|requirements\.txt\\|\.gitmodules\)"
-summary: |-
-  Find supported dependency manager manifests

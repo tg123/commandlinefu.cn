@@ -1,7 +1,0 @@
-commandlinefu_id: 931
-translator:
-  weibo: '猪了个去'
-command: |-
-  caff <keyid>
-summary: |-
-  接受、标记和发送一个GPG key id 

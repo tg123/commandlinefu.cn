@@ -1,8 +1,0 @@
-commandlinefu_id: 3256
-translator:
-  weibo: ''
-hide: true
-command: |-
-  mpg123 -s input.mp3 | faac -b 80 -P -X -w -o output.m4b -
-summary: |-
-  convert mp3 into mb4 (audiobook format)

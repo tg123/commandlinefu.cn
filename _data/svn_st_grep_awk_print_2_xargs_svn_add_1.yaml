@@ -1,8 +1,0 @@
-commandlinefu_id: 153
-translator:
-  weibo: ''
-hide: true
-command: |-
-  svn st | grep "^\?" | awk "{print \$2}" | xargs svn add $1
-summary: |-
-  Add all unversioned files to svn

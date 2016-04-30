@@ -1,7 +1,0 @@
-commandlinefu_id: 5447
-translator:
-  weibo: codepiano
-command: |-
-  VBoxManage createvm --name "vm-name" --ostype Ubuntu --register
-summary: |-
-  在VirtualBox中创建一个虚拟机

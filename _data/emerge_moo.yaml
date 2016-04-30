@@ -1,7 +1,0 @@
-commandlinefu_id: 12998
-translator:
-  weibo: codepiano
-command: |-
-  emerge --moo
-summary: |-
-  Gentoo portage的复活节彩蛋

@@ -1,7 +1,0 @@
-commandlinefu_id: 12665
-translator:
-  weibo: tgic
-command: |-
-  port=32768; while netstat -atn | grep -q :$port; do port=$(expr $port + 1); done; echo $port
-summary: |-
-  找一个可以用的端口

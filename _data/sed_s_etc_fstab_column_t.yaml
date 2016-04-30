@@ -1,7 +1,0 @@
-commandlinefu_id: 11159
-translator:
-  weibo: Spacewander__罗泽轩
-command: |-
-  sed 's/#.*//' /etc/fstab | column -t
-summary: |-
-  列出所有可用的磁盘和磁盘分区

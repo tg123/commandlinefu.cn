@@ -1,8 +1,0 @@
-commandlinefu_id: 1628
-translator:
-  weibo: ''
-hide: true
-command: |-
-  host google.com
-summary: |-
-  host - DNS lookup utility

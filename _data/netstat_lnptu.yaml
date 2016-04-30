@@ -1,7 +1,0 @@
-commandlinefu_id: 8489
-translator:
-  weibo: tgic
-command: |-
-  netstat -lnptu
-summary: |-
-  活动的链接

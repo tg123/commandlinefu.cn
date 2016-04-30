@@ -1,7 +1,0 @@
-commandlinefu_id: 5292
-translator:
-  weibo: '猪了个去'
-command: |-
-  hb(){ sed "s/\($*\)/`tput setaf 2;tput setab 0;tput blink`\1`tput sgr0`/gI"; }
-summary: |-
-  从I/O和文件中，带闪烁,色彩高亮的搜索,就像grep --color

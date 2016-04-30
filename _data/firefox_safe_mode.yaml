@@ -1,8 +1,0 @@
-commandlinefu_id: 3240
-translator:
-  weibo: ''
-hide: true
-command: |-
-  firefox --safe-mode
-summary: |-
-  how to run firefox in safe mode from command line

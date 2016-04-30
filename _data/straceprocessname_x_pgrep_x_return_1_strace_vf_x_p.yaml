@@ -1,8 +1,0 @@
-commandlinefu_id: 4207
-translator:
-  weibo: ''
-hide: true
-command: |-
-  straceprocessname(){ x=( $(pgrep "$@") ); [[ ${x[@]} ]] || return 1; strace -vf ${x[@]/#/-p }; }
-summary: |-
-  Strace all signals processes based on a name ( The processes already started... ) with bash built-in

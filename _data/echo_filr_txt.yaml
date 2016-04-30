@@ -1,7 +1,0 @@
-commandlinefu_id: 11194
-translator:
-  weibo: tgic
-command: |-
-  echo "" > filr.txt
-summary: |-
-  清空文件

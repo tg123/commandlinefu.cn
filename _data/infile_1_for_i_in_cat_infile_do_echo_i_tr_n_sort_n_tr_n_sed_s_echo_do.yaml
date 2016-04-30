@@ -1,8 +1,0 @@
-commandlinefu_id: 2635
-translator:
-  weibo: ''
-hide: true
-command: |-
-  infile=$1 for i in $(cat $infile) do     echo $i | tr "," "\n" | sort -n | tr "\n" "," | sed "s/,$//"    echo done
-summary: |-
-  Sorting by rows

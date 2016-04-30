@@ -1,8 +1,0 @@
-commandlinefu_id: 13880
-translator:
-  weibo: ''
-hide: true
-command: |-
-  wget -q -O- --header="Accept-Encoding: gzip" <url> | gzip -cdf > out.html
-summary: |-
-  Get gzip compressed web page using wget.

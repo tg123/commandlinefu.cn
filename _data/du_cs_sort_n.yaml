@@ -1,8 +1,0 @@
-commandlinefu_id: 1314
-translator:
-  weibo: ''
-hide: true
-command: |-
-  du -cs * .[^\.]* | sort -n
-summary: |-
-  Shows size of dirs and files, hidden or not, sorted.

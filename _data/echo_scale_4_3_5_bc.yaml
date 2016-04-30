@@ -1,7 +1,0 @@
-commandlinefu_id: 3131
-translator:
-  weibo: tgic
-command: |-
-  echo "scale=4; 3 / 5" | bc
-summary: |-
-  计算浮点除法

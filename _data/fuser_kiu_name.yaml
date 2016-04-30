@@ -1,8 +1,0 @@
-commandlinefu_id: 11208
-translator:
-  weibo: ''
-hide: true
-command: |-
-  fuser -kiu / name
-summary: |-
-  Kill all processes belonging to a user

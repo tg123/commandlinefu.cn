@@ -1,8 +1,0 @@
-commandlinefu_id: 5951
-translator:
-  weibo: ''
-hide: true
-command: |-
-  function countdown { case "$1" in -s) shift;; *) set $(($1 * 60));; esac; local S="          "; for i in $(seq "$1" -1 1); do echo -ne "$S\r $i\r"; sleep 1; done; echo -e "$S\rBOOM!"; }
-summary: |-
-  Countdown Clock

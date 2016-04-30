@@ -1,7 +1,0 @@
-commandlinefu_id: 11520
-translator:
-  weibo: tgic
-command: |-
-  ps aux --sort -rss | head
-summary: |-
-  按内存使用量排序

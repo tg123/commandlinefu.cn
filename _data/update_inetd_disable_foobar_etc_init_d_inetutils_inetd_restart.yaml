@@ -1,8 +1,0 @@
-commandlinefu_id: 10858
-translator:
-  weibo: ''
-hide: true
-command: |-
-  update-inetd --disable foobar && /etc/init.d/inetutils-inetd restart
-summary: |-
-  disable Internet services (i.e., those using inetd) without uninstalling
