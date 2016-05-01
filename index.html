@@ -24,46 +24,90 @@
 
         var END_POINT = 'https://commandlinefu.azurewebsites.net/api/';
 
-
         $('body').terminal(
         {
-            random: function() {
+            random: function(count) {
                 var term = this;
-                //count = count ? count : 1;
-                var count = 1;
 
-                term.echo('Loading commands...:\n');
+                term.echo('Loading commands...');
                 term.pause();
                 $.get(END_POINT + 'CommandData/Random', { count: count })
-                    .success(function (data) {
-                        term.echo('[[;cyan;]' + $.terminal.escape_brackets(data.Command) + ']');
-                        term.echo('[[;green;]' + $.terminal.escape_brackets(data.Summary) + ']');
+                    .success(function(cmds) {
+
+                        cmds.forEach(function(cmd) {
+                                term.echo('\n[[;cyan;]' + $.terminal.escape_brackets(cmd.Command) + ']');
+                                term.echo('[[;green;]' + $.terminal.escape_brackets(cmd.Summary) + ']');
+                            }
+                        );
+
                     }).always(function() {
-                        term.set_command('random')
+                        term.set_command('random');
                         term.resume();
-                    });;
+                    });
+            },
+
+            grep: function(str) {
+                var term = this;
+
+                if (!str) term.error('grep <str>');
+                term.echo('Loading commands...');
+                term.pause();
+                $.get(END_POINT + 'CommandData/Search', { str: str })
+                    .success(function(cmds) {
+
+                        term.echo('showing top ' + Math.min(10, cmds.length) + ' of records');
+
+                        cmds.forEach(function(cmd) {
+                                term.echo('\n[[;cyan;]' + $.terminal.escape_brackets(cmd.Command) + ']');
+                                term.echo('[[;green;]' + $.terminal.escape_brackets(cmd.Summary) + ']');
+                            }
+                        );
+
+                    }).always(function() {
+                        term.resume();
+                    });
             },
 
             help: function() {
                 var term = this;
 
-                term.echo('commands:\n');
-                term.echo('random: 随机显示一条命令和介绍');
-                term.echo('help: 显示本帮助');
-                term.echo('Github: http://github.com/tg123/commandlinefu.cn\n');
+                var helpcmd = function(cmd) {
+                    $(cmd).find('a').click(function() {
+                        var self = $(this);
+                        term.set_command(self.text() + ' ');
+                    });
+
+                };
+
+                var echohelp = function(cmd, text) {
+
+                    term.echo('<a href="javascript:;">' + cmd + '</a>' + $.terminal.encode(text), { raw: true, finalize: helpcmd });
+                };
+
+                term.echo('Commandlinefu.cn:');
+                term.echo('weibo: http://weibo.com/commandlinefu');
+                term.echo('github: http://github.com/tg123/commandlinefu.cn\n');
+                term.echo('Commands:\n');
+
+                echohelp('random', ' [count=1]: 随机显示[count]条命令和介绍');
+                echohelp('grep', ' <str>: 查找包含str的命令');
+                echohelp('help', ': 显示本帮助');
             }
 
         }, {
             greetings: false,
             onInit: function(term) {
+                term.exec('random 10');
                 term.exec('help');
                 term.set_command('random');
             },
+            checkArity: false,
             width: '100%',
             name: 'commandlinefu.cn',
             prompt: 'commandlinefu.cn>'
         });
     });
+
 
 </script>
 </body>
