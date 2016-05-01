@@ -1,0 +1,8 @@
+commandlinefu_id: 14681
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -d "\"" < infile.csv > noquotes.csv
+summary: |-
+  Remove all quotes from csv

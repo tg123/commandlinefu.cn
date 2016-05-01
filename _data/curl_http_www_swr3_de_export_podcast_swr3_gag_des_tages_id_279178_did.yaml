@@ -1,0 +1,8 @@
+commandlinefu_id: 14438
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://www.swr3.de/export/podcast/SWR3-Gag-des-Tages/-/id=279178/did=447024/dpsic8/index.xml |awk '/mp3/ {print $2}'| sed 's_url=__g'| tr -d \" > urllist_swr3 && wget -i urllist_swr3
+summary: |-
+  Download all current comedy mp3s from radio swr3 (German)

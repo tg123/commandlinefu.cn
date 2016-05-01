@@ -1,0 +1,8 @@
+commandlinefu_id: 14173
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff --word-diff --color-words  | aha > index.html && firefox index.html
+summary: |-
+  create html output from colored, word-level git diff

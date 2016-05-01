@@ -1,0 +1,8 @@
+commandlinefu_id: 15242
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo su <user>
+summary: |-
+  Start a new shell as another user without know the password.

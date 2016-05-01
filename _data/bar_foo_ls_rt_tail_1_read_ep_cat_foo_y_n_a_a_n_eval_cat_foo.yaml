@@ -1,0 +1,8 @@
+commandlinefu_id: 14905
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bar() { foo=$(ls -rt|tail -1) && read -ep "cat $foo? <y/n> " a && [[ $a != "n" ]] && eval "cat $foo" ;}
+summary: |-
+  do anything with the last created (touched, accessed) file in the current dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 14738
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker stop $(docker ps -a -q)
+summary: |-
+  stop all running Docker containers

@@ -1,0 +1,8 @@
+commandlinefu_id: 15514
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Datejust II
+summary: |-
+  Grep recursively your Python project with color highlighting the result and line numbers

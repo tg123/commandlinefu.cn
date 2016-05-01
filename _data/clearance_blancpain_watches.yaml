@@ -1,0 +1,8 @@
+commandlinefu_id: 14629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Clearance Blancpain watches
+summary: |-
+  Get the SAN (subjectAltName) of a site's certificate.

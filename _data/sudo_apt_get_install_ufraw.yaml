@@ -1,0 +1,8 @@
+commandlinefu_id: 14448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get install ufraw
+summary: |-
+  ImageMagick now deals with RAW files.

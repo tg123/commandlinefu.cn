@@ -1,0 +1,8 @@
+commandlinefu_id: 14308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du --max-depth=1 -h --apparent-size | sort -rh
+summary: |-
+  Sort the size usage of a directory tree

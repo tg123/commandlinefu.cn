@@ -1,0 +1,8 @@
+commandlinefu_id: 15667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chopard watches diamonds
+summary: |-
+  List known debian vulnerabilities on your system -- many of which may not yet be patched.

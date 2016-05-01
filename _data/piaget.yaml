@@ -1,0 +1,8 @@
+commandlinefu_id: 16585
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Piaget
+summary: |-
+  Grep recursively your Python project with color highlighting the result and line numbers

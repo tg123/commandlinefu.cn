@@ -1,0 +1,8 @@
+commandlinefu_id: 15777
+translator:
+  weibo: ''
+hide: true
+command: |-
+  replica patek phillipe watches
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

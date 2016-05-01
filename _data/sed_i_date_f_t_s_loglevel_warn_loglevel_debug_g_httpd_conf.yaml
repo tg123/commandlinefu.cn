@@ -1,0 +1,8 @@
+commandlinefu_id: 14384
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i.$(date +%F@%T) 's/^LogLevel warn/LogLevel debug/g' httpd.conf
+summary: |-
+  Search replace with Ansible style timestamps

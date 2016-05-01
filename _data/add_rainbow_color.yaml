@@ -1,0 +1,8 @@
+commandlinefu_id: 14315
+translator:
+  weibo: ''
+hide: true
+command: |-
+  add rainbow color.
+summary: |-
+  alias rainbow="toilet -f term --gay"

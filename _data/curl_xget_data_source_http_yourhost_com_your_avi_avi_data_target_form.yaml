@@ -1,0 +1,9 @@
+commandlinefu_id: 14378
+translator:
+  weibo: ''
+hide: true
+command: "curl -XGET --data 'source=http://yourhost.com/Your-Avi.avi' \\ \t--data
+  'target-format=mp4' \\ \t--data 'target=http://webdav.your.com/FILE.mp4' \\ \t--data
+  'target-method=PUT' \\ \thttp://ffmpeg.io/api/convert"
+summary: |-
+  easy encode a video with ffmpeg.io

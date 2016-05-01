@@ -1,0 +1,8 @@
+commandlinefu_id: 14265
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in `ls`; do sed -i '/MATCHING STRING/ { s/ORIGINAL/REPLACEMENT/; }' ${f} ; done
+summary: |-
+  Edit a single line in multiple files with sed

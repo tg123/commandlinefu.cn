@@ -1,0 +1,8 @@
+commandlinefu_id: 14387
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@router "sysupgrade -b -" > backup-router-$(date +%F-%R).tar.gz
+summary: |-
+  Backup your OpenWRT config (only the config, not the whole system)

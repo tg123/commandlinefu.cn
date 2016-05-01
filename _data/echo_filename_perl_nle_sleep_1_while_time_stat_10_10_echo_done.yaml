@@ -1,0 +1,8 @@
+commandlinefu_id: 14236
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo FileName | perl -nlE'sleep 1 while time-(stat)[10]<10' && echo DONE
+summary: |-
+  Wait for file to stop changing

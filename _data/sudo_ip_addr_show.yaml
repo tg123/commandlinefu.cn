@@ -1,0 +1,8 @@
+commandlinefu_id: 14764
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo ip addr show
+summary: |-
+  Network Interfaces

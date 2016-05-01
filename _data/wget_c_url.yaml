@@ -1,0 +1,8 @@
+commandlinefu_id: 14684
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -c [URL]
+summary: |-
+  Resume a download

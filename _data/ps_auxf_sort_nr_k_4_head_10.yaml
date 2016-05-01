@@ -1,0 +1,8 @@
+commandlinefu_id: 14317
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -auxf | sort -nr -k 4 | head -10
+summary: |-
+  Top 10 Memory Consuming Processes

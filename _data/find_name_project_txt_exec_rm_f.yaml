@@ -1,0 +1,8 @@
+commandlinefu_id: 15423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name project.txt -exec rm -f {} \;
+summary: |-
+  How to find a file and remove it using Find?

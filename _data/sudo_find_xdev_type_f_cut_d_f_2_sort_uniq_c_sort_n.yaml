@@ -1,0 +1,8 @@
+commandlinefu_id: 14171
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo find . -xdev -type f | cut -d "/" -f 2 | sort | uniq -c | sort -n
+summary: |-
+  View inodes

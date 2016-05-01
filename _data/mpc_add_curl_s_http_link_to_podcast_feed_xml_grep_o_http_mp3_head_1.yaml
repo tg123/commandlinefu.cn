@@ -1,0 +1,8 @@
+commandlinefu_id: 14878
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mpc add `curl -s http://link.to/podcast/feed.xml | grep  -o 'http://[^"]*mp3' | head -1`
+summary: |-
+  Extract the URL of the first mp3 out of a podcast xml feed and add it it to current mpd playlist

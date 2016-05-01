@@ -1,0 +1,8 @@
+commandlinefu_id: 14754
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f log.txt | egrep --line-buffered 'WARN|ERROR' | tee filtered_output.txt
+summary: |-
+  Not able to data in tee on using dual command like: tail and grep

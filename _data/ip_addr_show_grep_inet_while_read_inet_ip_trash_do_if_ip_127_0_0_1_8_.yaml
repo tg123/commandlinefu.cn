@@ -1,0 +1,8 @@
+commandlinefu_id: 16094
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip addr show | grep "inet " | while read INET IP TRASH; do if [ $IP != "127.0.0.1/8" ]; then echo $IP; exit 0; fi; done | sed s:/[1-9][1-9]:"":
+summary: |-
+  Get just LAN IP without all the extra stuff

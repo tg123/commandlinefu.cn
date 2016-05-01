@@ -1,0 +1,8 @@
+commandlinefu_id: 14750
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sh -c "aptitude update; aptitude -DrVWZ full-upgrade; aptitude autoclean; exit"
+summary: |-
+  Rolling upgrades via aptitude

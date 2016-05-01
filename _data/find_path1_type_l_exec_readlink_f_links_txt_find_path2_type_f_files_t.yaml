@@ -1,0 +1,8 @@
+commandlinefu_id: 15917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /path1 -type l -exec readlink -f {} \;  > links.txt && find /path2 -type f > files.txt && grep -Fxv -f links.txt files.txt
+summary: |-
+  Find all files in path2 that do not have a symbolic link in path1 or any of its subdirectories

@@ -1,0 +1,8 @@
+commandlinefu_id: 14259
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for p in $(pgrep -t $(cat /sys/class/tty/tty0/active)); do d=$(awk -v RS='\0' -F= '$1=="DISPLAY" {print $2}' /proc/$p/environ 2>/dev/null); [[ -n $d ]] && break; done; echo $d
+summary: |-
+  Find out the active XOrg Server DISPLAY number (from outside)

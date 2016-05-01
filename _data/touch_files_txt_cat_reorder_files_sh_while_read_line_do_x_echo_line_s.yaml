@@ -1,0 +1,8 @@
+commandlinefu_id: 16939
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch files.txt; cat reorder_files.sh | while read line; do x=`echo $line | sed 's/touch \([a-z0-9\.]\+.*.pdf\);.*/\1/'`; echo $x >> files.txt ; done;
+summary: |-
+  Get File Names from touch commands

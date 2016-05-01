@@ -1,0 +1,8 @@
+commandlinefu_id: 14249
+translator:
+  weibo: ''
+hide: true
+command: |-
+  col_look(){ column -nts$'\t' "$1" | less -SN#2 }
+summary: |-
+  display a tab separated file as columns

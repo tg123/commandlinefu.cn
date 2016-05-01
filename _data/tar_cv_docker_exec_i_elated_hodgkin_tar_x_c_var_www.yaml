@@ -1,0 +1,8 @@
+commandlinefu_id: 14436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -cv * | docker exec -i elated_hodgkin tar x -C /var/www
+summary: |-
+  Docker: Copy files from host to container

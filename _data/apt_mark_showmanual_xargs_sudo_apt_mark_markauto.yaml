@@ -1,0 +1,8 @@
+commandlinefu_id: 14422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-mark showmanual|xargs sudo apt-mark markauto
+summary: |-
+  Marks all manually installed deb packages as automatically installed.

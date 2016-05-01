@@ -1,0 +1,8 @@
+commandlinefu_id: 15028
+translator:
+  weibo: ''
+hide: true
+command: |-
+  read year month day hour minutes seconds epoch _ < <(date '+%Y %m %d %H %M %S %s')
+summary: |-
+  create 7 variables using output of date command

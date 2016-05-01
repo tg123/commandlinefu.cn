@@ -1,0 +1,8 @@
+commandlinefu_id: 14898
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo ${IP} | sed "s/[0-9\.]//g"
+summary: |-
+  Ensuring that the IP has no strange characters

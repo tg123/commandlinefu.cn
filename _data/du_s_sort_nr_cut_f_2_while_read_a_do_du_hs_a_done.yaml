@@ -1,0 +1,8 @@
+commandlinefu_id: 15015
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -s *|sort -nr|cut -f 2-|while read a;do du -hs $a;done
+summary: |-
+  Size dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 14316
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aria2c -s16 -j16 -x16 -k1M -d /dev -o null --file-allocation=none --allow-overwrite=true <url>
+summary: |-
+  aria2c to speedtest connection

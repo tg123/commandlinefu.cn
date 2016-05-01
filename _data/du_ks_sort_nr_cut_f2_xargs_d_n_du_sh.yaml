@@ -1,0 +1,8 @@
+commandlinefu_id: 17043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -ks * | sort -nr | cut -f2 | xargs -d '\n' du -sh
+summary: |-
+  list all directory sizes and sort by size

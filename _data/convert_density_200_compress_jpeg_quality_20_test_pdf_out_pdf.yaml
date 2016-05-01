@@ -1,0 +1,8 @@
+commandlinefu_id: 14322
+translator:
+  weibo: ''
+hide: true
+command: |-
+  convert -density 200 -compress jpeg -quality 20 test.pdf out.pdf
+summary: |-
+  Compress a PDF to reduce its size

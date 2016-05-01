@@ -1,0 +1,8 @@
+commandlinefu_id: 14761
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo aa-complain /etc/apparmor.d/usr.bin.chromium-browser
+summary: |-
+  Fix Chromium browser not starting

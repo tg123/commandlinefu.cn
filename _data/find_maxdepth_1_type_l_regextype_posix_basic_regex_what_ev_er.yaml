@@ -1,0 +1,8 @@
+commandlinefu_id: 14302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -maxdepth 1 -type l -regextype posix-basic -regex '.*what[ev]er?.*'
+summary: |-
+  List all symbolic links in current directory that matches regexp

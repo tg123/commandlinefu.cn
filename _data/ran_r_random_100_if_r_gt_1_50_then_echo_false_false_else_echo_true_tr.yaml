@@ -1,0 +1,8 @@
+commandlinefu_id: 14363
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ran() { R=$((RANDOM%100)); if [ $R -gt "${1:-50}" ]; then echo FALSE; false; else echo TRUE; true; fi; }
+summary: |-
+  Randomly succeeding command

@@ -1,0 +1,8 @@
+commandlinefu_id: 15295
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker-machine create -d virtualbox --virtualbox-disk-size "100000" default
+summary: |-
+  Create docker-machine VM with 100GB drive

@@ -1,0 +1,8 @@
+commandlinefu_id: 14238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -pE's/(\S+\s*){0,1}//'
+summary: |-
+  drop first column of output by piping to this

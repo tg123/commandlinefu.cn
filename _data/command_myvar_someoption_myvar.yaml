@@ -1,0 +1,8 @@
+commandlinefu_id: 15008
+translator:
+  weibo: ''
+hide: true
+command: |-
+  command ${MYVAR:+--someoption=$MYVAR}
+summary: |-
+  Use a var with more text only if it exists

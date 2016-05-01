@@ -1,0 +1,8 @@
+commandlinefu_id: 14869
+translator:
+  weibo: ''
+hide: true
+command: |-
+  adb shell screencap -p | sed 's/\r$//' > FILENAME.PNG
+summary: |-
+  Take screenshot of Android device using adb and save to filesystem

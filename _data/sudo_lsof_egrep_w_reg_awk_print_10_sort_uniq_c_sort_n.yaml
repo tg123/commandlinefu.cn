@@ -1,0 +1,8 @@
+commandlinefu_id: 14439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof | egrep 'w.+REG' | awk '{print $10}' | sort | uniq -c | sort -n
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

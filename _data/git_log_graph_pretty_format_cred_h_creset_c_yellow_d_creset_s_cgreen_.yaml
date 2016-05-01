@@ -1,0 +1,8 @@
+commandlinefu_id: 14426
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue - %cn %Creset' --abbrev-commit --date=relative
+summary: |-
+  Show git log beautifully

@@ -1,0 +1,8 @@
+commandlinefu_id: 14323
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -i "^c..ss.o..$" <(aspell dump master)
+summary: |-
+  Use grep and aspell to help find crossword answers

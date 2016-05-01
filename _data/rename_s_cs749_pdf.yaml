@@ -1,0 +1,8 @@
+commandlinefu_id: 16951
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename 's/^/CS749__/' *.pdf
+summary: |-
+  Adding Prefix to File name

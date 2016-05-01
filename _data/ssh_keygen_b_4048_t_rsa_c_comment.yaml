@@ -1,0 +1,8 @@
+commandlinefu_id: 15451
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -b 4048 -t rsa -C "comment"
+summary: |-
+  ssh-keygen -b 4048 -t rsa -C "comment"

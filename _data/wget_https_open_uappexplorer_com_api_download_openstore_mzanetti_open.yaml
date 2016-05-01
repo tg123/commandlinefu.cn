@@ -1,0 +1,8 @@
+commandlinefu_id: 15454
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget https://open.uappexplorer.com/api/download/openstore.mzanetti/openstore.mzanetti_*_armhf.click && pkcon install-local --allow-untrusted openstore.mzanetti_*_armhf.click
+summary: |-
+  Download and install the OpenStore on the Ubuntu Phone

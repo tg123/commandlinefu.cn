@@ -1,0 +1,8 @@
+commandlinefu_id: 15225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mindepth 1 -maxdepth 1 ! -name 'exclude_folder1' ! -name 'exclude_folder2' -type d -exec ls -tld {} \+ | tail +11 | xargs --no-run-if-empty -L 1 rm -rf
+summary: |-
+  Delete all folders except the 10 latest ones AND specific excluded ones

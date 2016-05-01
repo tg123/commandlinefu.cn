@@ -1,0 +1,8 @@
+commandlinefu_id: 14286
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk \   '$0 ~ /^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-2][0-9]:[0-5][0-9]:[0-5][0-9]/       {         if ($1" "$2 >= "2015-04-27 23:00:00")     p=1;         if ($1" "$2 >= "2015-04-28 05:30:00")  p=0;       }     p { print $0 }' debug.log >>abhishek.txt
+summary: |-
+  AWK command to extract log files between dates

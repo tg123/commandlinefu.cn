@@ -1,0 +1,8 @@
+commandlinefu_id: 15034
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <mydir> -type f -exec sed -i 's/<string1>/<string2>/g' {} \;
+summary: |-
+  Replace + Find

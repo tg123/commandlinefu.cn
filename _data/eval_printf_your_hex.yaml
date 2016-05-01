@@ -1,0 +1,8 @@
+commandlinefu_id: 15009
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eval $(printf "YOUR HEX")
+summary: |-
+  Run an obfuscated script (converted to hex).

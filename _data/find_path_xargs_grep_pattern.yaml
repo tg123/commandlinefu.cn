@@ -1,0 +1,8 @@
+commandlinefu_id: 14290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <path> |xargs grep <pattern>
+summary: |-
+  Grep only files matching certain pattern (Advanced)

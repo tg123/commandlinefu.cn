@@ -1,0 +1,8 @@
+commandlinefu_id: 16097
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo Which way up? | flip.pl | cowsay | tac | sed -e "s,/,+,g" -e "s,\\\,/,g" -e "s,+,\\\,g" -e "s,_,-,g" -e "s,\^,v,g"
+summary: |-
+  Inverted cowsay

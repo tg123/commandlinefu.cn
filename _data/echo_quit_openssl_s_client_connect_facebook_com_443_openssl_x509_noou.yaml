@@ -1,0 +1,8 @@
+commandlinefu_id: 14434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "quit" | openssl s_client -connect facebook.com:443 | openssl x509 -noout -text | grep "DNS:" | perl -pe "s/(, )?DNS:/\n/g"
+summary: |-
+  Get the SAN (subjectAltName) of a site's certificate.

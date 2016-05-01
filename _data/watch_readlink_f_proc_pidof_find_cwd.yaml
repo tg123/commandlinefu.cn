@@ -1,0 +1,8 @@
+commandlinefu_id: 14375
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch readlink -f /proc/$(pidof find)/cwd
+summary: |-
+  Show current folder that is searched by find command

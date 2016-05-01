@@ -1,0 +1,8 @@
+commandlinefu_id: 14210
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mysql -sNe 'show tables like "PREFIX_%"' DBNAME | xargs sudo mysqldump DBNAME > /tmp/dump.sql
+summary: |-
+  Export MySQL tables that begin with a string

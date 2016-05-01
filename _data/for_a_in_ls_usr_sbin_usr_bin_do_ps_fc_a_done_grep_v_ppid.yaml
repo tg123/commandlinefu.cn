@@ -1,0 +1,8 @@
+commandlinefu_id: 14193
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for a in  $(ls /usr/sbin /usr/bin); do ps -fC $a;done|grep -v PPID
+summary: |-
+  look what's running

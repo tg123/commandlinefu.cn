@@ -1,0 +1,8 @@
+commandlinefu_id: 14246
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fileinfo() { RPMQF=$(rpm -qf $1); RPMQL=$(rpm -ql $RPMQF);echo "man page:";whatis $(basename $1); echo "Services:"; echo -e "$RPMQL\n"|grep -P "\.service";echo "Config files:";rpm -qc $RPMQF;echo "Provided by:" $RPMQF; }
+summary: |-
+  Listing package man page, services, config files and related rpm of a file, in one alias

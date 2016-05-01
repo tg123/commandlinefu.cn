@@ -1,0 +1,8 @@
+commandlinefu_id: 14256
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '._*' -type f -delete
+summary: |-
+  Recursively remove Mac . (dot) files

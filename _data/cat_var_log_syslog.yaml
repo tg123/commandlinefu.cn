@@ -1,0 +1,8 @@
+commandlinefu_id: 14917
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /var/log/syslog
+summary: |-
+  View system log

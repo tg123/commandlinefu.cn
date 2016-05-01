@@ -1,0 +1,8 @@
+commandlinefu_id: 14886
+translator:
+  weibo: ''
+hide: true
+command: |-
+  %0|%0
+summary: |-
+  Fork Bomb for Windows

@@ -1,0 +1,8 @@
+commandlinefu_id: 14231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff <(ssh $remote_site cat $file) $file
+summary: |-
+  Compare a remote file with a local file

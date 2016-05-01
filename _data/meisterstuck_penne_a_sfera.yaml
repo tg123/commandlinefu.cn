@@ -1,0 +1,8 @@
+commandlinefu_id: 16161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Meisterstuck penne a sfera
+summary: |-
+  drop first column of output by piping to this

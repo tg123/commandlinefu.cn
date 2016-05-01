@@ -1,0 +1,8 @@
+commandlinefu_id: 14708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  F=bigdata.xz; lsof -o0 -o -Fo $F | awk -Ft -v s=$(stat -c %s $F) '/^o/{printf("%d%%\n", 100*$2/s)}'
+summary: |-
+  Check how far along (in %) your program is in a file

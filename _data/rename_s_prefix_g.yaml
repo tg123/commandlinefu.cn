@@ -1,0 +1,8 @@
+commandlinefu_id: 16944
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rename 's/^/PREFIX/g' *
+summary: |-
+  Adding Prefix to File name

@@ -1,0 +1,8 @@
+commandlinefu_id: 14421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo bash -c "apt-get upgrade -s |grep 'Inst '| cut -d' ' -f2| xargs -l1 apt-get install - --no-download"
+summary: |-
+  Update Debian familiy GNU/Linux with only packages that are allready in cache. Works on:  Ubuntu, Canaima, Mint, LMDE, Sparky, Aptosid, etc.

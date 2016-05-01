@@ -1,0 +1,8 @@
+commandlinefu_id: 15918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  transfer() { basefile=$(basename "$1" | sed -e 's/[^a-zA-Z0-9._-]/-/g');curl --progress-bar --upload-file "$1" "https://transfer.sh/$basefile"|xsel --clipboard;xsel --clipboard ; }
+summary: |-
+  Easy file sharing from the command line using transfer.sh

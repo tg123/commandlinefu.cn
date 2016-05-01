@@ -1,0 +1,8 @@
+commandlinefu_id: 14704
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ $(date +"%H") -lt 7 ] && echo you should probably be sleeping...
+summary: |-
+  Should I be sleeping?

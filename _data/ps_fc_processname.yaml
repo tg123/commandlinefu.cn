@@ -1,0 +1,8 @@
+commandlinefu_id: 14172
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -fC PROCESSNAME
+summary: |-
+  Search for a process by name

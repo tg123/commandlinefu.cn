@@ -1,0 +1,8 @@
+commandlinefu_id: 15000
+translator:
+  weibo: ''
+hide: true
+command: |-
+  I'm using functions, but most people prefer straightforward.Also regex is a moot point.
+summary: |-
+  IP="17.255.8.44"; for n in {0..255}; do echo $IP | grep -w $n; done | [[ $(wc -l) = 4 ]] && echo IP is ok || echo IP is not ok

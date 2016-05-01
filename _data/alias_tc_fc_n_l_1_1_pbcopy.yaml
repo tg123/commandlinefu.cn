@@ -1,0 +1,8 @@
+commandlinefu_id: 14417
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias "tc=fc -n -l -1 -1|pbcopy"
+summary: |-
+  creating command 'tc' which copies last given command to clipboard

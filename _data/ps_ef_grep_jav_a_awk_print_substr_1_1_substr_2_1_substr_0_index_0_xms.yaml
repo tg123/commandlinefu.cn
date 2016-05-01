@@ -1,0 +1,8 @@
+commandlinefu_id: 15625
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -ef | grep jav[a] | awk '{print substr($1,1),substr($2,1),substr($0,index($0,"-Xms"),7),substr($0,index($0,"-Xmx"),7)}'
+summary: |-
+  all java -Xmx values in a system, add them up

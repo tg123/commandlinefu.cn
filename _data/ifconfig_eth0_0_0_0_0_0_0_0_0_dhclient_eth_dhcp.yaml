@@ -1,0 +1,8 @@
+commandlinefu_id: 15618
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig eth0 0.0.0.0 0.0.0.0 && dhclient eth dhcp
+summary: |-
+  DHCP for *NIX

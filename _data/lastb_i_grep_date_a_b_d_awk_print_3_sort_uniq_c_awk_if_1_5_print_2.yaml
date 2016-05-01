@@ -1,0 +1,8 @@
+commandlinefu_id: 15056
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lastb -i | grep "$(date '+%a %b %d')" | awk '{ print $3 }' | sort | uniq -c | awk '{ if ($1 >= 5) print $2; }'
+summary: |-
+  display IP addresses with 5 or more unsuccessful login attempts today

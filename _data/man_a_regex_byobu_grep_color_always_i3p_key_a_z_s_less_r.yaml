@@ -1,0 +1,8 @@
+commandlinefu_id: 14894
+translator:
+  weibo: ''
+hide: true
+command: |-
+  man -a --regex "byobu" |grep --color=always -i3P 'key[a-z-]*?s' | less -R
+summary: |-
+  grep for all occurences of a (Perl-)regex in the complete, or part of man-database

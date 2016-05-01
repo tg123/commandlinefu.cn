@@ -1,0 +1,8 @@
+commandlinefu_id: 14891
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch .tardis; the command ; find . -newer .tardis; rm .tardis;
+summary: |-
+  List all files modified by a command

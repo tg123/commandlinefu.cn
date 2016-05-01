@@ -1,0 +1,8 @@
+commandlinefu_id: 14725
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp -r /path/to/source/ /path/to/destination
+summary: |-
+  copy a directory and it's contents

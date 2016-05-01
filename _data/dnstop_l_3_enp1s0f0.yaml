@@ -1,0 +1,8 @@
+commandlinefu_id: 14756
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dnstop -l 3 enp1s0f0
+summary: |-
+  Monitor all DNS queries seen by the local machine

@@ -1,0 +1,8 @@
+commandlinefu_id: 15630
+translator:
+  weibo: ''
+hide: true
+command: |-
+  php -S 127.0.0.1:8000 -t .
+summary: |-
+  serve current directory tree using php

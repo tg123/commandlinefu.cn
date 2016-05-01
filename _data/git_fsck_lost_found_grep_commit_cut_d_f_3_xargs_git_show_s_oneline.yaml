@@ -1,0 +1,8 @@
+commandlinefu_id: 15929
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git fsck --lost-found | grep commit | cut -d " " -f 3 | xargs git show -s --oneline
+summary: |-
+  Show hash and message of dangling git commits

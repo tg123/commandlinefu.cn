@@ -1,0 +1,8 @@
+commandlinefu_id: 15652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls --color PATH | less -R
+summary: |-
+  display colored list items in less pager

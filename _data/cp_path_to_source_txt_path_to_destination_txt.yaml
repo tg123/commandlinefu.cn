@@ -1,0 +1,8 @@
+commandlinefu_id: 14724
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cp /path/to/source.txt /path/to/destination.txt
+summary: |-
+  copy a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 14209
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e ''$_{1..80}'\b+'
+summary: |-
+  repeat any string or char n times without spaces between

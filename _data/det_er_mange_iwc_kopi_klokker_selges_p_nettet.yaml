@@ -1,0 +1,8 @@
+commandlinefu_id: 15861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Det er mange IWC kopi klokker selges på nettet
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

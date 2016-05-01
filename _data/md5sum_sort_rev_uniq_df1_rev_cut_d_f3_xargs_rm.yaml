@@ -1,0 +1,8 @@
+commandlinefu_id: 14419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  md5sum * | sort | rev | uniq -df1 | rev | cut -d" " -f3 | xargs rm
+summary: |-
+  Remove duplicate files from the current directory

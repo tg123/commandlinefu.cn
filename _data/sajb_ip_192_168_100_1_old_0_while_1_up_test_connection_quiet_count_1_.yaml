@@ -1,0 +1,8 @@
+commandlinefu_id: 15281
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sajb {$ip="192.168.100.1";$old=0;while(1){$up=test-connection -quiet -count 1 $ip;if($up-ne$old){$s=(date -u %s).split('.')[0]+' '+(date -f s).replace('T',' ')+' '+$ip+' '+$(if($up){'Up'}else{'Down'});echo $s|out-file -a $home\ping.txt;$old=$up}sleep 10}}
+summary: |-
+  Powershell Ping Logs Host Up/Down Events

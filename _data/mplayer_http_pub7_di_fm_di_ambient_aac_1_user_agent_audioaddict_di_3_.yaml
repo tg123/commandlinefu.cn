@@ -1,0 +1,8 @@
+commandlinefu_id: 17185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer http://pub7.di.fm/di_ambient_aac?1 -user-agent "AudioAddict-di/3.2.0.3240 Android/5.1"
+summary: |-
+  Listen Digitally Imported Radio from CLI (without premium!)

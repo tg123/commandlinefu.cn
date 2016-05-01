@@ -1,0 +1,8 @@
+commandlinefu_id: 15062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pdf2txt myfile.pdf | grep mypattern
+summary: |-
+  GREP a PDF file.

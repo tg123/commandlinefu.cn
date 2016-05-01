@@ -1,0 +1,8 @@
+commandlinefu_id: 15455
+translator:
+  weibo: ''
+hide: true
+command: |-
+  syncevolution --export /home/phablet/Documents/utcontact.vcf backend=evolution-contacts database=Personnel
+summary: |-
+  Save contacts on vcf file on ubuntu touch

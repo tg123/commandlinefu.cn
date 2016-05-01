@@ -1,0 +1,8 @@
+commandlinefu_id: 14324
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo {{a..z},{A..Z},{0..9}}{{a..z},{A..Z},{0..9}}{{a..z},{A..Z},{0..9}} | tr ' ' '\n'
+summary: |-
+  Generate all possible combinations between aaa 999

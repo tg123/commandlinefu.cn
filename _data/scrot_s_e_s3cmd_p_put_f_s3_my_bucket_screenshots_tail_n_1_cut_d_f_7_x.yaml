@@ -1,0 +1,8 @@
+commandlinefu_id: 14918
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scrot -s -e 's3cmd -P put $f s3://my-bucket-screenshots/ | tail -n 1 | cut -d " " -f 7 | xsel -i -v --primary'
+summary: |-
+  Screenshot a part of the screen, upload to S3 and copy URL to clipboard

@@ -1,0 +1,8 @@
+commandlinefu_id: 14225
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo launchctl config user umask nnn
+summary: |-
+  Umask for user applications (OS X Yosemite)

@@ -1,0 +1,8 @@
+commandlinefu_id: 15862
+translator:
+  weibo: ''
+hide: true
+command: |-
+  2015 Hermes Vesker, Picotan MM Vesker
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

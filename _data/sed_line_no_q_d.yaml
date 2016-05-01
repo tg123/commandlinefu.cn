@@ -1,0 +1,8 @@
+commandlinefu_id: 14371
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed "<line no>q;d"
+summary: |-
+  Display specific line in a text file

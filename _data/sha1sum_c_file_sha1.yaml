@@ -1,0 +1,8 @@
+commandlinefu_id: 14435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sha1sum -c file.sha1
+summary: |-
+  Verify sha1sum of a file

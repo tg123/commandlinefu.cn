@@ -1,0 +1,8 @@
+commandlinefu_id: 15253
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ADDR=127.0.0.1 ; for i in `seq 1300 1500`; do echo -ne "Pacote de tamanho $i bytes" ; ping -c1 -s $i $ADDR 2>&1 > /dev/null ||  break  ; echo -ne "\r\033[2K" ; done ; echo -ne "\r\033[2K" ; echo -e "MTU bem sucedido com `expr $i - 1`"
+summary: |-
+  Shell to discover MTU using ping

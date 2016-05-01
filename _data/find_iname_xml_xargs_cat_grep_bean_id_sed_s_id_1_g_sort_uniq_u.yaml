@@ -1,0 +1,8 @@
+commandlinefu_id: 15012
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname "*.xml" | xargs cat | grep '<bean[^>]\+id=' | sed 's/.*id="\([^"]\+\)".*/\1/g' | sort | uniq -u
+summary: |-
+  finds all bean ids in all xml files from the current folder

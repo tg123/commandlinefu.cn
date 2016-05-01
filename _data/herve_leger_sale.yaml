@@ -1,0 +1,8 @@
+commandlinefu_id: 14786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  herve leger sale
+summary: |-
+  Get the SAN (subjectAltName) of a site's certificate.

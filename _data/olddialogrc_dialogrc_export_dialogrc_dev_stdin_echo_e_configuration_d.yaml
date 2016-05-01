@@ -1,0 +1,8 @@
+commandlinefu_id: 15419
+translator:
+  weibo: ''
+hide: true
+command: |-
+  OLDDIALOGRC=$DIALOGRC; export DIALOGRC=/dev/stdin; echo -e "<configuration>" | dialog <options>; export DIALOGRC=$OLDDIALOGRC
+summary: |-
+  Dialog customization WITHOUT configuration file

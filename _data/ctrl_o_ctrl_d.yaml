@@ -1,0 +1,8 @@
+commandlinefu_id: 14445
+translator:
+  weibo: ''
+hide: true
+command: |-
+  <ctrl+o><ctrl+d>
+summary: |-
+  Exit mc with 2 keystrokes

@@ -1,0 +1,8 @@
+commandlinefu_id: 14441
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /proc/*/fd -xtype f -printf "%l\n" | grep -P '^/(?!dev|proc|sys)' | sort | uniq -c | sort -n
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

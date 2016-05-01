@@ -1,0 +1,8 @@
+commandlinefu_id: 14305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tree -a -L 1 --inodes /
+summary: |-
+  Display the inodes number of /

@@ -1,0 +1,8 @@
+commandlinefu_id: 15308
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -dc '[:print:]' < /dev/urandom | fold -w10 |head -n1 |sed 's/ //g'
+summary: |-
+  yet another random password generator.

@@ -1,0 +1,8 @@
+commandlinefu_id: 15612
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo system-image-cli --switch ubuntu-touch/rc-proposed/ubuntu --build 0
+summary: |-
+  Switch to rc-proposed channel on Ubuntu Phone - Nexus 4

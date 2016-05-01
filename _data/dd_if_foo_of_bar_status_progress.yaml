@@ -1,0 +1,8 @@
+commandlinefu_id: 16933
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=foo of=bar status=progress
+summary: |-
+  Copy a file using dd and watch its progress

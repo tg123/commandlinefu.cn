@@ -1,0 +1,8 @@
+commandlinefu_id: 14271
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -n 'Local clock: '; TZ=GMT date +'%a, %d %b %Y %H:%M:%S %Z'; echo -n 'Google time: '; curl -Is google.com | sed -n '/^Date: /s/Date: //p'
+summary: |-
+  Check/View my system date/time as compared to google.com

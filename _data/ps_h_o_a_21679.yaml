@@ -1,0 +1,8 @@
+commandlinefu_id: 14745
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps h -o %a 21679
+summary: |-
+  Show the command line for a PID with ps

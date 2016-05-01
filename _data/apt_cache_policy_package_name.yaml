@@ -1,0 +1,8 @@
+commandlinefu_id: 14273
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache policy <package-name>
+summary: |-
+  Get the version of any package in apt's repositories

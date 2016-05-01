@@ -1,0 +1,8 @@
+commandlinefu_id: 14872
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in {0..90}; do { echo $x $(find . -type f -mtime $x -exec du -cs {} \; |awk -F " " '{sum+=$1} END {sum/=1048576}END{print sum,"G"}'); }; done
+summary: |-
+  Current directory disk usage by day for last 90 days in GB

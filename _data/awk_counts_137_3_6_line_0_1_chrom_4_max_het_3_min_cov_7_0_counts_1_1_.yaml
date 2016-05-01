@@ -1,0 +1,8 @@
+commandlinefu_id: 15078
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{counts = 137 * $3 *$6; line = $0;}$1 == "CHROM" ||$4 < max_het && $3 > min_cov && $7 == "0" && counts > 1.1 {print line}' file.ltab |cut -f 1,2,9- > file.filtered.tab
+summary: |-
+  Filter ltab file based on minor allele count

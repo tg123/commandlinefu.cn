@@ -1,0 +1,8 @@
+commandlinefu_id: 15636
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl ip.dc414.org
+summary: |-
+  Get external IP address (supports IPv4 and IPv6)

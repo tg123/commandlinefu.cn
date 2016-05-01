@@ -1,0 +1,8 @@
+commandlinefu_id: 14871
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git submodule update --init --recursive
+summary: |-
+  Update all git submodules

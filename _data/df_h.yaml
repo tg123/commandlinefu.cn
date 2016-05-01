@@ -1,0 +1,8 @@
+commandlinefu_id: 14846
+translator:
+  weibo: ''
+hide: true
+command: |-
+  df -h
+summary: |-
+  display free space on all disk partitions

@@ -1,0 +1,8 @@
+commandlinefu_id: 14364
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ran() { [ $((RANDOM%100)) -lt ${1:-50} ]; }
+summary: |-
+  Randomly succeeding command

@@ -1,0 +1,8 @@
+commandlinefu_id: 15061
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /bin/pwd -P
+summary: |-
+  output absolute path of the present working directory

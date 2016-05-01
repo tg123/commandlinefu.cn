@@ -1,0 +1,8 @@
+commandlinefu_id: 14278
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aplay -c 2 -f S16_LE -r 44100 /dev/urandom
+summary: |-
+  aplay some whitenoise

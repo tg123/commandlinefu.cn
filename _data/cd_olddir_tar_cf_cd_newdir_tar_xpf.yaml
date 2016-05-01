@@ -1,0 +1,8 @@
+commandlinefu_id: 14276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  (cd olddir && tar -cf - .)|(cd newdir && tar -xpf -)
+summary: |-
+  Use a tar pipe to copy one directory to another, preserving file permissions.

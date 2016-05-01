@@ -1,0 +1,8 @@
+commandlinefu_id: 15429
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git status --porcelain -z | grep -zZ '^A[ MD] ' | sed -z 's/^...//' | xargs -0 --no-run-if-empty git reset HEAD --
+summary: |-
+  Git reset added new files

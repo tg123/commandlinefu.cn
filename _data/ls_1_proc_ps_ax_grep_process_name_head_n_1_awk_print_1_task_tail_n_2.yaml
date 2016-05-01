@@ -1,0 +1,8 @@
+commandlinefu_id: 14868
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 /proc/$(ps ax | grep <Process Name> | head -n 1 | awk '{print $1;}')/task | tail -n +2
+summary: |-
+  ps to show child thread PIDs

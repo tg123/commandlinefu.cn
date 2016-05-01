@@ -1,0 +1,8 @@
+commandlinefu_id: 14270
+translator:
+  weibo: ''
+hide: true
+command: |-
+  objdump -d $1 | grep -Po '\s\K[a-f0-9]{2}(?=\s)' | sed 's/^/\\x/g' | perl -pe 's/\r?\n//' | sed 's/$/\n/'
+summary: |-
+  Get all shellcode on binary file from objdump

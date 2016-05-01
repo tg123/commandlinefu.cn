@@ -1,0 +1,8 @@
+commandlinefu_id: 15042
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nm-online
+summary: |-
+  is the network up or down

@@ -1,0 +1,8 @@
+commandlinefu_id: 15450
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xinput set-button-map #inputnumber 3 2 1
+summary: |-
+  Left-Handed mouse

@@ -1,0 +1,8 @@
+commandlinefu_id: 15940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  2015
+summary: |-
+  get a random regex match from a file

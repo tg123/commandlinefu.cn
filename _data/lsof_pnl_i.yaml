@@ -1,0 +1,8 @@
+commandlinefu_id: 15018
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -Pnl -i
+summary: |-
+  List open ports on a local Linux system

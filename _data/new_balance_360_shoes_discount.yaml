@@ -1,0 +1,8 @@
+commandlinefu_id: 14545
+translator:
+  weibo: ''
+hide: true
+command: |-
+  new balance 360 shoes discount
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

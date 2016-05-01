@@ -1,0 +1,8 @@
+commandlinefu_id: 16543
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IWC Portoghese
+summary: |-
+  Virtualbox rsync copy (without defining any virtualbox configuration)

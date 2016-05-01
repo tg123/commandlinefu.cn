@@ -1,0 +1,8 @@
+commandlinefu_id: 15439
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -nqt -s 0 -A -i eth0 port 5060
+summary: |-
+  tcpdump -nqt -s 0 -A -i eth0 port 5060

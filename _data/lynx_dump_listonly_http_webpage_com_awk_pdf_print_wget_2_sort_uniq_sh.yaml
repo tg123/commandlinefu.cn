@@ -1,0 +1,8 @@
+commandlinefu_id: 14642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lynx -dump -listonly http://webpage.com | awk '/pdf$/ { print "wget " $2}'| sort | uniq | sh
+summary: |-
+  Download all pdf files off of a website using wget

@@ -1,0 +1,8 @@
+commandlinefu_id: 15285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wmic useraccount WHERE "LocalAccount=1" GET Name,Disabled,Lockout,PasswordChangeable,PasswordExpires,PasswordRequired,SID
+summary: |-
+  List local accounts, their SIDs and password metadata from the Windows command-prompt (CMD.exe)

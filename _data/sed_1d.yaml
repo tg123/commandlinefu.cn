@@ -1,0 +1,8 @@
+commandlinefu_id: 14284
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 1d
+summary: |-
+  drop first column of output by piping to this

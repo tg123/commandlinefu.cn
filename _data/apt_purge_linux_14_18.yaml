@@ -1,0 +1,8 @@
+commandlinefu_id: 16949
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt purge linux*{14..18}*
+summary: |-
+  Remove specific versions of old kernels (Ubuntu/Debian)

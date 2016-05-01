@@ -1,0 +1,8 @@
+commandlinefu_id: 15235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get remove $(dpkg -l \*-dev | grep ^ii | sed 's/\-dev.*/-dev/' | sed -r 's/.{4}//')
+summary: |-
+  remove all development packages in ubuntu

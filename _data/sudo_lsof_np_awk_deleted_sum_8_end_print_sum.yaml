@@ -1,0 +1,8 @@
+commandlinefu_id: 14696
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo lsof -nP | awk '/deleted/ { sum+=$8 } END { print sum }'
+summary: |-
+  Total space used by open but deleted files

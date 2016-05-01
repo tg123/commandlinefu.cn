@@ -1,0 +1,8 @@
+commandlinefu_id: 15038
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk 'BEGIN{srand()} match($0, /DELTA=([0-9]+);/, a) {w[i++]=a[1]} END {print w[int(rand()*i)]}' file.name
+summary: |-
+  get a random regex match from a file

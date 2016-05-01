@@ -1,0 +1,8 @@
+commandlinefu_id: 14431
+translator:
+  weibo: ''
+hide: true
+command: |-
+  loglevel() { sudo sed -Ei.bak "/LogLevel\s/s/alert|crit|debug|emerg|error|info|notice|warn/${1}/" /opt/rh/httpd24/root/etc/httpd/conf/httpd.conf }
+summary: |-
+  Set Apache 2.4 log level on RHEL6

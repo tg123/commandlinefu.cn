@@ -1,0 +1,8 @@
+commandlinefu_id: 14848
+translator:
+  weibo: ''
+hide: true
+command: |-
+  file file.txt
+summary: |-
+  guess the filetype for a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 15432
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo apt-get moo
+summary: |-
+  Super Cow Powers

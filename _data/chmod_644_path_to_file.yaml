@@ -1,0 +1,8 @@
+commandlinefu_id: 14850
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod 644 /path/to/file
+summary: |-
+  change file permission modes (octal notation)

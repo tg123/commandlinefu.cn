@@ -1,0 +1,8 @@
+commandlinefu_id: 16139
+translator:
+  weibo: ''
+hide: true
+command: |-
+  celebrities Style
+summary: |-
+  Print every Nth line (to a maximum)

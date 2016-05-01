@@ -1,0 +1,8 @@
+commandlinefu_id: 14258
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /dev/disk/by-id -type l -printf "%l\t%f\n" | cut -b7- | sort
+summary: |-
+  Show drive names next to their full serial number (and disk info)

@@ -1,0 +1,8 @@
+commandlinefu_id: 15418
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl whatsmyip.info 2>&1 | grep middle | cut -c 130-143
+summary: |-
+  Get your external IP address

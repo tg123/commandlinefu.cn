@@ -1,0 +1,8 @@
+commandlinefu_id: 15244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://logstash.server:9200/_cat/indices/|grep open|grep `date -d '7 days ago' +%Y\.%m\.%d`|awk '{print $3}'|xargs -n 1 -I {} curl -XPOST http://logstash.server:9200/{}/_close
+summary: |-
+  Close elasticsearch indices that are 7 days old.

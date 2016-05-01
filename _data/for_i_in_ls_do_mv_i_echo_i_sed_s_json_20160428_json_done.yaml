@@ -1,0 +1,8 @@
+commandlinefu_id: 17184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `ls`; do mv "$i" "`echo $i | sed s/.json/_20160428.json/`"; done
+summary: |-
+  Insert a date before the suffix of all the json files in a directory

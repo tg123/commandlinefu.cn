@@ -1,0 +1,8 @@
+commandlinefu_id: 14711
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo apt-get\ {update,-y\ upgrade}\ \&\& true | sudo bash
+summary: |-
+  Run a command multiple times with different subcommands

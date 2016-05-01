@@ -1,0 +1,8 @@
+commandlinefu_id: 15276
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune debian-hints | tr '\n' ' ' | perl -pe 's/Debian Hint #\d+: //' | cowsay -W $(($COLUMNS-4))
+summary: |-
+  Cow giving debian tips

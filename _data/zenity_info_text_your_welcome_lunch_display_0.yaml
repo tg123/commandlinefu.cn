@@ -1,0 +1,8 @@
+commandlinefu_id: 14208
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zenity --info --text "Your welcome! Lunch?" --display=:0
+summary: |-
+  Post a message to another users screen via SSH

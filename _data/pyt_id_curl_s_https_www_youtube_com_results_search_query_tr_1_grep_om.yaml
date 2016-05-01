@@ -1,0 +1,8 @@
+commandlinefu_id: 14376
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pyt() { id=$(curl -s 'https://www.youtube.com/results?search_query='$(tr \  + <<<"$1") | grep -om3 '"[[:alnum:]]\{11\}"' | awk NR==3 | tr -d \"); youtube-dl -q 'https://www.youtube.com/watch?v='"$id" -o - | mplayer -vo null /dev/fd/3 3<&0 </dev/tty; }
+summary: |-
+  Search and play youtube videos directly to terminal (no X needed)

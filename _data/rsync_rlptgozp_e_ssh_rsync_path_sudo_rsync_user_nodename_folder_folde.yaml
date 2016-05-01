@@ -1,0 +1,8 @@
+commandlinefu_id: 14870
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -rlptgozP -e "ssh" --rsync-path="sudo rsync" user@nodename:/folder/ /folder
+summary: |-
+  rsync over ssh as root

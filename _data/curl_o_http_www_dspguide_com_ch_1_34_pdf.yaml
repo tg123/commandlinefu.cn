@@ -1,0 +1,8 @@
+commandlinefu_id: 15072
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -O "http://www.dspguide.com/CH[1-34].PDF"
+summary: |-
+  Curl download multiple files using integer range

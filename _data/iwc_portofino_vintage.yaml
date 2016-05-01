@@ -1,0 +1,8 @@
+commandlinefu_id: 15689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  iwc portofino vintage
+summary: |-
+  remove all spaces from all files in current folder

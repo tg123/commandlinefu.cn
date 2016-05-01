@@ -1,0 +1,8 @@
+commandlinefu_id: 14385
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@router "uci export" > router.conf
+summary: |-
+  Backup your OpenWRT config (only the config, not the whole system)

@@ -1,0 +1,8 @@
+commandlinefu_id: 14685
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl $1 | grep -E "http.*\.mp3" | sed "s/.*\(http.*\.mp3\).*/\1/" | xargs wget
+summary: |-
+  Download files linked in a RSS feed

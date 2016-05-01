@@ -1,0 +1,8 @@
+commandlinefu_id: 16936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  A$ scp -oProxyCommand="ssh -W %h:%p B" thefile C:destination
+summary: |-
+  scp through host in the middle

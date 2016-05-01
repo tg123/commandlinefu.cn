@@ -1,0 +1,8 @@
+commandlinefu_id: 15279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parallel -0 'gzip -dc {} | bzip2 > {.}.bz2' ::: *.gz
+summary: |-
+  Recompress all files in current directory from gzip to bzip2

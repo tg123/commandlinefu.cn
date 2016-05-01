@@ -1,0 +1,8 @@
+commandlinefu_id: 15437
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo strace -e trace=network -p `pidof nginx | sed -e 's/ /,/g'`
+summary: |-
+  easily trace all Nginx processes

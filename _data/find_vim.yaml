@@ -1,0 +1,8 @@
+commandlinefu_id: 15643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find | vim -
+summary: |-
+  List recursively current directory files/directories in vim

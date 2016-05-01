@@ -1,0 +1,8 @@
+commandlinefu_id: 14895
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apt-cache search byo | sed "s/^\([[:alnum:]\.-]*\) - /\1=%%%=- /" | column -s '=%%%=' -t
+summary: |-
+  search APT's cache for a regex and let it display name and short description of matches

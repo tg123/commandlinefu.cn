@@ -1,0 +1,8 @@
+commandlinefu_id: 14413
+translator:
+  weibo: ''
+hide: true
+command: |-
+  klipperGetIdx(){ qdbus org.kde.klipper /klipper getClipboardHistoryItem $1; }
+summary: |-
+  Get Klipper history item by index

@@ -1,0 +1,8 @@
+commandlinefu_id: 15016
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'echo /etc/games/fortune > ~/mailsignature.txt' >> .bashrc
+summary: |-
+  Use /etc/fortune as signature in thunderbird

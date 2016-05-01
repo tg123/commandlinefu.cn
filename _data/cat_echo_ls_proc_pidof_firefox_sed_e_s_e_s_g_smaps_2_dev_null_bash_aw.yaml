@@ -1,0 +1,8 @@
+commandlinefu_id: 14763
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat $(echo "ls /proc/{`pidof firefox | sed -e 's/$/,/' -e 's/ /,/g'`}/smaps 2>/dev/null" | bash) | awk '/Rss/{sum += $2; } END{print sum, "KB"}'
+summary: |-
+  Monitor memory fine-grained usage (e.g. firefox)

@@ -1,0 +1,8 @@
+commandlinefu_id: 15143
+translator:
+  weibo: ''
+hide: true
+command: |-
+  omega, Replica Omega Seamaster
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

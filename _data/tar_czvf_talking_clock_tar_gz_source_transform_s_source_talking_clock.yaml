@@ -1,0 +1,8 @@
+commandlinefu_id: 15003
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -czvf talking-clock.tar.gz source/ --transform s/source/talking-clock/
+summary: |-
+  pack directory with different name

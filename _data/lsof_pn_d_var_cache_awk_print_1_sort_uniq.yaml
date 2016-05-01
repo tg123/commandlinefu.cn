@@ -1,0 +1,8 @@
+commandlinefu_id: 15033
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -Pn +D /var/cache/ | awk '{print $1}' | sort | uniq
+summary: |-
+  To see which software currently open in directory /var/cache

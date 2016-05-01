@@ -1,0 +1,8 @@
+commandlinefu_id: 14949
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Montblanc watches
+summary: |-
+  drop first column of output by piping to this

@@ -1,0 +1,8 @@
+commandlinefu_id: 14372
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -v -e '^$' -e '^[#\[]' -e '\/' some_file
+summary: |-
+  Grep for non-empty lines that do not start with # (comments) or <some-char> and does not include <some-char>

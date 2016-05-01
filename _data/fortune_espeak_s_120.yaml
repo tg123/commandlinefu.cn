@@ -1,0 +1,8 @@
+commandlinefu_id: 14653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune |espeak -s 120
+summary: |-
+  Fortune teller

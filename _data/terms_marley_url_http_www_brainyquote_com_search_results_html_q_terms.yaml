@@ -1,0 +1,8 @@
+commandlinefu_id: 15655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  terms="marley" && url="http://www.brainyquote.com/search_results.html?q=${terms}" && curl ${url} 2>/dev/null | grep -e 'class="bqQuoteLink"' -e 'class="bq-aut"' | sed -e 's/<[^>]*>//g' | sed G | recode html..ascii | more
+summary: |-
+  Search for quotes on brainyquote.com

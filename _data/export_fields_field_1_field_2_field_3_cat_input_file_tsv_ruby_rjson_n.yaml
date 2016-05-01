@@ -1,0 +1,8 @@
+commandlinefu_id: 14389
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export FIELDS=field_1,field_2,field_3; cat input_file.tsv| ruby -rjson -ne 'puts ENV["FIELDS"].split(",").zip($_.strip.split("\t")).inject({}){|h,x| h[x[0]]=x[1];h}.to_json' > output_file.json
+summary: |-
+  tsv file to json file

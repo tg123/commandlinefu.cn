@@ -1,0 +1,8 @@
+commandlinefu_id: 15224
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ss -s | sed -n '/.*estab \([0-9]*\).*/s//\1/p'
+summary: |-
+  show number of established TCP connections

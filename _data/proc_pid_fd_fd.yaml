@@ -1,0 +1,8 @@
+commandlinefu_id: 14909
+translator:
+  weibo: ''
+hide: true
+command: |-
+  : > "/proc/$pid/fd/$fd"
+summary: |-
+  truncate file descriptor

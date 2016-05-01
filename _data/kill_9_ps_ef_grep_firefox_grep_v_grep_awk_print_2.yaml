@@ -1,0 +1,8 @@
+commandlinefu_id: 14161
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9  `ps -ef | grep firefox | grep -v grep | awk '{print $2}'`
+summary: |-
+  firefox kill

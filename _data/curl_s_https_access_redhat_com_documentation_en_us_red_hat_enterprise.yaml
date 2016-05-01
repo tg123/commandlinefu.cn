@@ -1,0 +1,8 @@
+commandlinefu_id: 14242
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/ | grep -o '[^"]*Linux/7/pdf[^"]*' | xargs -I{} wget https://access.redhat.com{}
+summary: |-
+  Download all Red Hat Manuals - A better way by user Flatcap

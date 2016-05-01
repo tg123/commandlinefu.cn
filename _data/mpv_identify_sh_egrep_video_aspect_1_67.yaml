@@ -1,0 +1,8 @@
+commandlinefu_id: 14753
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ./mpv_identify.sh * | egrep '^video_aspect=1\.[67]'
+summary: |-
+  List widescreen wallpapers in current dir

@@ -1,0 +1,8 @@
+commandlinefu_id: 14858
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i orig_video.wmv audio_out.wav
+summary: |-
+  extract raw audio from video

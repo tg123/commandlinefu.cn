@@ -1,0 +1,8 @@
+commandlinefu_id: 14345
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cdb(){   range=$(eval "echo '{1..$1}'");   toPrint="'../%.0s' $range";   printfToEval=$(echo "printf $toPrint");   toCd=$(eval $printfToEval);   eval "cd $toCd"; }
+summary: |-
+  cd out n directories (To move n level out of current directory)

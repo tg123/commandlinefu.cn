@@ -1,0 +1,8 @@
+commandlinefu_id: 14885
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls src/**/*.php | entr sh -c 'notify-send "Unit tests" "$(phpunit 2>&1)"'
+summary: |-
+  Watch PHP files, run and send desktop notification

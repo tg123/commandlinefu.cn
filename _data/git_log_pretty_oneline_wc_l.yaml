@@ -1,0 +1,8 @@
+commandlinefu_id: 14741
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --pretty=oneline | wc -l
+summary: |-
+  Get the number of commits in a git repository

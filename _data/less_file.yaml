@@ -1,0 +1,8 @@
+commandlinefu_id: 14852
+translator:
+  weibo: ''
+hide: true
+command: |-
+  less file
+summary: |-
+  page (read) through a file

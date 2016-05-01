@@ -1,0 +1,8 @@
+commandlinefu_id: 15233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip link set docker0 down && brctl delbr docker0
+summary: |-
+  Bring down and delete a network bridge (eg: docker0)

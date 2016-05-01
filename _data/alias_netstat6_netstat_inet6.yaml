@@ -1,0 +1,8 @@
+commandlinefu_id: 14540
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias netstat6='netstat --inet6'
+summary: |-
+  An simple alias for providing an easier way to call netstat in ipv6 mode

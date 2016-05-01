@@ -1,0 +1,8 @@
+commandlinefu_id: 14266
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -lt --time=atime *.txt
+summary: |-
+  list txt files order by time

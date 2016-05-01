@@ -1,0 +1,8 @@
+commandlinefu_id: 14670
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr , + < input.csv | bc
+summary: |-
+  Sum columns on one line in a csv file.

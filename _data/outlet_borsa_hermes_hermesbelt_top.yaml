@@ -1,0 +1,8 @@
+commandlinefu_id: 16153
+translator:
+  weibo: ''
+hide: true
+command: |-
+  outlet borsa hermes, hermesbelt.top
+summary: |-
+  drop first column of output by piping to this

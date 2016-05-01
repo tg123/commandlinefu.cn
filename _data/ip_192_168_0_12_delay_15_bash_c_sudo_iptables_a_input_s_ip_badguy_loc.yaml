@@ -1,0 +1,8 @@
+commandlinefu_id: 16950
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IP=192.168.0.12 DELAY=15 bash -c 'sudo iptables -A INPUT -s ${IP:-badguy.localdomain} -j DROP && echo blocked "$IP" && sudo bash -c "sleep ${DELAY:-600}; iptables -D INPUT -s ${IP:-badguy.localdomain} -j DROP && echo unblocked $IP" 1>&1 & disown %1'
+summary: |-
+  Block an IP address

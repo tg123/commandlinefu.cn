@@ -1,0 +1,8 @@
+commandlinefu_id: 14751
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill imwheel && imwheel &
+summary: |-
+  Mouse wheel or thumb buttons borked? Try this.

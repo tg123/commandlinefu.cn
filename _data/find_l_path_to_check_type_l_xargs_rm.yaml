@@ -1,0 +1,8 @@
+commandlinefu_id: 15019
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -L /path/to/check -type l | xargs rm
+summary: |-
+  Find broken symlinks and delete them

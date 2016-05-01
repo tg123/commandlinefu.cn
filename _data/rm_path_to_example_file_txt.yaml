@@ -1,0 +1,8 @@
+commandlinefu_id: 14722
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rm /path/to/example-file.txt
+summary: |-
+  delete a file

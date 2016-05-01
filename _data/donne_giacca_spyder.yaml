@@ -1,0 +1,8 @@
+commandlinefu_id: 16230
+translator:
+  weibo: ''
+hide: true
+command: |-
+  donne giacca spyder
+summary: |-
+  Monitor memory fine-grained usage (e.g. firefox)

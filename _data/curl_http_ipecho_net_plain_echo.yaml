@@ -1,0 +1,8 @@
+commandlinefu_id: 15077
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://ipecho.net/plain; echo
+summary: |-
+  Get your external IP address

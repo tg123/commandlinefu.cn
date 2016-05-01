@@ -1,0 +1,8 @@
+commandlinefu_id: 16729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Ballpoint Pen
+summary: |-
+  Print every Nth line (to a maximum)

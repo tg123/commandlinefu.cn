@@ -1,0 +1,8 @@
+commandlinefu_id: 15883
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Longines flaggskip
+summary: |-
+  List known debian vulnerabilities on your system -- many of which may not yet be patched.

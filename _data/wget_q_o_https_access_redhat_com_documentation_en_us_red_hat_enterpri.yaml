@@ -1,0 +1,8 @@
+commandlinefu_id: 14216
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O- https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/ | grep Linux/7/pdf | cut -d \" -f 2 | awk '{print "https://access.redhat.com"$1}' | xargs wget
+summary: |-
+  Download all manuals RedHat 7 (CentOS/Fedora) with one command in Linux

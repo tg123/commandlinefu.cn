@@ -1,0 +1,8 @@
+commandlinefu_id: 14381
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -delete
+summary: |-
+  Delete a large amount of files

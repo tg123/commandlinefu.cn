@@ -1,0 +1,8 @@
+commandlinefu_id: 14882
+translator:
+  weibo: ''
+hide: true
+command: |-
+  BOLD=$(tput bold); NORM=$(tput sgr0)
+summary: |-
+  Bold & Normal Text Variables

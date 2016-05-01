@@ -1,0 +1,8 @@
+commandlinefu_id: 15312
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+summary: |-
+  Creates a new ssh key, using the provided email as a label

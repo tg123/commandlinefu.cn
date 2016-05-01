@@ -1,0 +1,8 @@
+commandlinefu_id: 14888
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unzip -j "myarchive.zip" "in/archive/file.txt" -d "/path/to/unzip/to"
+summary: |-
+  Extract only a specific file from a zipped archive to a given directory

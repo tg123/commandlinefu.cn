@@ -1,0 +1,8 @@
+commandlinefu_id: 14649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aws ec2 describe-instances --filters "Name=vpc-id,Values=<replace_with_id>" --query 'Reservations[].Instances[].[ [Tags[?Key==`Name`].Value][0][0],PrivateIpAddress,InstanceId,State.Name,Placement.AvailabilityZone ]' --output table
+summary: |-
+  Use aws cli exclusively to query useful information about instances in a VPC

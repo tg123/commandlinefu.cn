@@ -1,0 +1,8 @@
+commandlinefu_id: 14910
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /proc/*/fd -ls | grep  '(deleted)'
+summary: |-
+  find deleted files with open file descriptors(without lsof)

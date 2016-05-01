@@ -1,0 +1,8 @@
+commandlinefu_id: 14709
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while :; do a=$(fping -e google.de | grep -o '[0-9]+.[0-9]+'); [[ $a > 40 ]] && say "ping is $a"; sleep 3; done
+summary: |-
+  Alert on high ping to know if it's really laggy while playing

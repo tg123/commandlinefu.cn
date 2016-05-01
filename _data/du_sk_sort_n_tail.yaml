@@ -1,0 +1,8 @@
+commandlinefu_id: 14744
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sk * | sort -n | tail
+summary: |-
+  displays working directories 10 largest files in bytes and quickly

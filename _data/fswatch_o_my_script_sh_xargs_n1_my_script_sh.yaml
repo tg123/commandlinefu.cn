@@ -1,0 +1,8 @@
+commandlinefu_id: 15075
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fswatch -o my-script.sh  | xargs -n1 ./my-script.sh
+summary: |-
+  Run a script every time that script is saved (great for script development)

@@ -1,0 +1,8 @@
+commandlinefu_id: 14735
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -q -s http://www.hasthelhcdestroyedtheearth.com/ | sed -En '/span/s/.*>(.*)<.*/\1/p'
+summary: |-
+  Check if the LHC has destroyed the world

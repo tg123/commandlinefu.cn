@@ -1,0 +1,8 @@
+commandlinefu_id: 14285
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep "inet\ " | awk '{print $2}'
+summary: |-
+  Show me just the ip address

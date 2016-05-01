@@ -1,0 +1,8 @@
+commandlinefu_id: 14889
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unzip -l files.zip
+summary: |-
+  View files in ZIP archive

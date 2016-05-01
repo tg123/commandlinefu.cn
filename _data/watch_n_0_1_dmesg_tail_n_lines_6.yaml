@@ -1,0 +1,8 @@
+commandlinefu_id: 14310
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 0.1 \"dmesg | tail -n \$((LINES-6))\"
+summary: |-
+  Print dmesg periodically

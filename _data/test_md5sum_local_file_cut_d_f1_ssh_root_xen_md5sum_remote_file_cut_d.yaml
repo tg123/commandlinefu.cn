@@ -1,0 +1,8 @@
+commandlinefu_id: 14183
+translator:
+  weibo: ''
+hide: true
+command: |-
+  test "$(md5sum /local/file | cut -d' ' -f1)" == "$(ssh root@xen -- md5sum /remote/file | cut -d' ' -f1)" && echo "Match" || echo "Differ"
+summary: |-
+  Compare a remote file with a local file

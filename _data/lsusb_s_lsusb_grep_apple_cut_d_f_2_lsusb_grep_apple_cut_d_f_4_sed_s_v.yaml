@@ -1,0 +1,8 @@
+commandlinefu_id: 15421
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsusb -s `lsusb | grep "Apple" | cut -d ' ' -f 2`:`lsusb | grep "Apple" | cut -d ' ' -f 4 | sed 's/://'` -v | grep iSerial | awk '{print $3}'
+summary: |-
+  Show UDID of iPhone

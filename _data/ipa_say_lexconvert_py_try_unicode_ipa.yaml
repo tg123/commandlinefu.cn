@@ -1,0 +1,8 @@
+commandlinefu_id: 15653
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ipa_say() { lexconvert.py --try unicode-ipa "$@" ;}
+summary: |-
+  [offline] Pronounce IPA (International Phonetic Alphabet)

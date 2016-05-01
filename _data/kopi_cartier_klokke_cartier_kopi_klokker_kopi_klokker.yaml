@@ -1,0 +1,8 @@
+commandlinefu_id: 15860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kopi Cartier klokke, Cartier kopi klokker, kopi klokker
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

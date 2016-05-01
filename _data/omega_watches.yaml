@@ -1,0 +1,8 @@
+commandlinefu_id: 16790
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Omega watches
+summary: |-
+  If (and only if) the variable is not set, prompt users and give them a default option already filled in.

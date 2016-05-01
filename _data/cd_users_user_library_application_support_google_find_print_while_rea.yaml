@@ -1,0 +1,8 @@
+commandlinefu_id: 15933
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd "/Users/$USER/Library/Application Support/Google" && find . -print|while read line;do (file "$line"|grep SQLite) && (sqlite3 "$line" "VACUUM;";echo "Compress");done;
+summary: |-
+  Optimize Google Chrome database speedup sqlite3

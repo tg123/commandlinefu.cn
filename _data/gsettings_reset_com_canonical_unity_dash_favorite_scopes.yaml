@@ -1,0 +1,8 @@
+commandlinefu_id: 15610
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gsettings reset com.canonical.Unity.Dash favorite-scopes
+summary: |-
+  Reset the favorite-scopes on the Ubuntu Phone

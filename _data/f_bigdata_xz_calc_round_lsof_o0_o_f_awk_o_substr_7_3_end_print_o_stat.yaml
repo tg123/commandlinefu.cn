@@ -1,0 +1,8 @@
+commandlinefu_id: 14707
+translator:
+  weibo: ''
+hide: true
+command: |-
+  f=bigdata.xz; calc "round($(lsof -o0 -o "$f"|awk '{o=substr($7,3)}END{print o}')/$(stat -c %s "$f")*100)"
+summary: |-
+  Check how far along (in %) your program is in a file

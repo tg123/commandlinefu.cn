@@ -1,0 +1,8 @@
+commandlinefu_id: 15245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s http://xkcd.com/ | sed -n 's/Image URL.*: \(.*\)/\1/p' | xargs -L 1 curl -s | imgcat
+summary: |-
+  View the newest xkcd comic inline (iTerm2 only)

@@ -1,0 +1,8 @@
+commandlinefu_id: 14358
+translator:
+  weibo: ''
+hide: true
+command: |-
+  loggedInUser="$(stat -f '%u %Su' /dev/console | cut -d' ' -f2)" && chown -Rfv "$loggedInUser" /Users/"$loggedInUser"
+summary: |-
+  Recursively set ownership of the logged in user's home folder to the logged in user

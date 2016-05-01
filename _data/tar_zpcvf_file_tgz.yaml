@@ -1,0 +1,8 @@
+commandlinefu_id: 14755
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -zpcvf file.tgz ./
+summary: |-
+  Tar all files in a folder including hidden dot files

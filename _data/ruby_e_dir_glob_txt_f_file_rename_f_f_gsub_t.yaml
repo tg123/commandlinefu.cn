@@ -1,0 +1,8 @@
+commandlinefu_id: 15044
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -e 'Dir.glob("*.txt") { |f| File.rename(f,f.gsub("_t","")) }'
+summary: |-
+  Rename selected files in the directory using ruby

@@ -1,0 +1,8 @@
+commandlinefu_id: 15436
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pirate-get "search terms" -C "peerflix %s -l --vlc"
+summary: |-
+  search, get a torrent/magnet, stream it and play it

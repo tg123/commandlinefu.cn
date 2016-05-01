@@ -1,0 +1,8 @@
+commandlinefu_id: 16133
+translator:
+  weibo: ''
+hide: true
+command: |-
+  BCBG
+summary: |-
+  Print every Nth line

@@ -1,0 +1,8 @@
+commandlinefu_id: 14679
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo or cat something | grep -Po '(?<=text_before).*(?=text_after)'
+summary: |-
+  printing text between tags

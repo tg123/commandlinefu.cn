@@ -1,0 +1,8 @@
+commandlinefu_id: 14274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "exec(\"import socket, os\nwhile True:\n\tprint (socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)).recvfrom(65565)\")" | sudo python
+summary: |-
+  OneLiner ICMP sniffer in Python

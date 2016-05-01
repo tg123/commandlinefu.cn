@@ -1,0 +1,8 @@
+commandlinefu_id: 15291
+translator:
+  weibo: ''
+hide: true
+command: |-
+  amixer -D pulse sset Master $(zenity --scale --text="Select a number" --value=$(amixer -D pulse sget Master | grep -Eo '..[0-9]'% | tr -d '%[, ' | tail -n 1) --min-value="0" --max-value="100" --step="1")%
+summary: |-
+  Pulse Volume Control Using Zenity

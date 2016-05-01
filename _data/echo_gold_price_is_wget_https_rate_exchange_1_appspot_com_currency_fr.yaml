@@ -1,0 +1,8 @@
+commandlinefu_id: 15032
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Gold price is" $(wget https://rate-exchange-1.appspot.com/currency\?from=XAU\&to=USD -q -O - | jq ".rate") "USD"
+summary: |-
+  Get the current gold price

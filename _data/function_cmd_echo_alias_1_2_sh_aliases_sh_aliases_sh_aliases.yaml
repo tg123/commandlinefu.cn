@@ -1,0 +1,8 @@
+commandlinefu_id: 14333
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function cmd () {echo 'alias '$1'="'${@:2}'"' >> $SH_ALIASES; . $SH_ALIASES }; . $SH_ALIASES;
+summary: |-
+  function: permanent alias

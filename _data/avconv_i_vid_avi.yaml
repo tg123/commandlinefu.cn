@@ -1,0 +1,8 @@
+commandlinefu_id: 14893
+translator:
+  weibo: ''
+hide: true
+command: |-
+  avconv -i vid.avi
+summary: |-
+  Get video information with ffmpeg

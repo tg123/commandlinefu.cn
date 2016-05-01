@@ -1,0 +1,8 @@
+commandlinefu_id: 14734
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do (echo -n $(date  +"%F %T"):\ ; xwininfo -id $(xprop -root|grep "ACTIVE_WINDOW("|cut -d\  -f 5) | grep "Window id" | cut -d\" -f 2 ) >> logfile; sleep 60; done
+summary: |-
+  keep a log of the active windows

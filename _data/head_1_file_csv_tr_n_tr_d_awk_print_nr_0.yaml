@@ -1,0 +1,8 @@
+commandlinefu_id: 14643
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -1 file.csv | tr ',' '\n' | tr -d " " | awk '{print NR,$0}'
+summary: |-
+  Printout a list of field numbers (awk index) from a CSV file with headers as first line.

@@ -1,0 +1,8 @@
+commandlinefu_id: 14671
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pip install --user virtualenv; python -m virtualenv env
+summary: |-
+  Install a Python virtual env without

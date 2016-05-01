@@ -1,0 +1,8 @@
+commandlinefu_id: 14275
+translator:
+  weibo: ''
+hide: true
+command: |-
+  markdown doc.md >/tmp/md.$$.html && firefox -new-tab /tmp/md.$$.html >/dev/null 2>&1 && rm -f /tmp/md.$$.html
+summary: |-
+  Display a markdown file in a new tab in firefox

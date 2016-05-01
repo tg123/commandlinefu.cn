@@ -1,0 +1,8 @@
+commandlinefu_id: 15930
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /home/user/file.mp3 | ssh -C user@host mpg123 -
+summary: |-
+  output your mp3 file over SSH on a remote computer's speaker

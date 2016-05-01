@@ -1,0 +1,8 @@
+commandlinefu_id: 15425
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ -f /etc/passwd ] && echo "Yes" || echo "No"
+summary: |-
+  This command will check the file /etc/passwd existence

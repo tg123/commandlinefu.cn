@@ -1,0 +1,8 @@
+commandlinefu_id: 15407
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune | cowsay -f $(ls /usr/share/cowsay/cows/| sed 's/ /\n/g' | sed -e '/^$/d'| shuf -n1)
+summary: |-
+  Made it work. Parsing ls is bad idea.

@@ -1,0 +1,8 @@
+commandlinefu_id: 15921
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name "booyah" -exec rename booyah booyah.disabled {} \;
+summary: |-
+  Find and rename

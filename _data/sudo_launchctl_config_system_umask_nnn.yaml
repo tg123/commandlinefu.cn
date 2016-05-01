@@ -1,0 +1,8 @@
+commandlinefu_id: 14226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo launchctl config system umask nnn
+summary: |-
+  Umask for system processes (OS X Yosemite)

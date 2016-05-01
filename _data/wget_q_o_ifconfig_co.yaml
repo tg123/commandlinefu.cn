@@ -1,0 +1,8 @@
+commandlinefu_id: 14689
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O - ifconfig.co
+summary: |-
+  What is my ip?

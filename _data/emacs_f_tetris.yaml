@@ -1,0 +1,8 @@
+commandlinefu_id: 15005
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emacs -f tetris
+summary: |-
+  Play Lisp Tetris in Emacs

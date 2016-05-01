@@ -1,0 +1,8 @@
+commandlinefu_id: 15338
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Conjuntos de Pandora
+summary: |-
+  Virtualbox rsync copy (without defining any virtualbox configuration)

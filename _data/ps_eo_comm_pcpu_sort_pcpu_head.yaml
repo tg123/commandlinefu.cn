@@ -1,0 +1,8 @@
+commandlinefu_id: 15222
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo comm,pcpu --sort -pcpu | head
+summary: |-
+  Top 10 CPU consuming processes

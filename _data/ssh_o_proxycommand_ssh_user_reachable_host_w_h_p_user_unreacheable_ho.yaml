@@ -1,0 +1,8 @@
+commandlinefu_id: 14328
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -o "ProxyCommand ssh user@reachable_host -W %h:%p" user@unreacheable_host
+summary: |-
+  SSH connection through host in the middle; with key redirection

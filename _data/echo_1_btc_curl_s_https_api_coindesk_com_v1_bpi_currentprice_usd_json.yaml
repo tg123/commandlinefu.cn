@@ -1,0 +1,8 @@
+commandlinefu_id: 14692
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "1 BTC = $(curl -s https://api.coindesk.com/v1/bpi/currentprice/usd.json | grep -o 'rate":"[^"]*' | cut -d\" -f3) USD"
+summary: |-
+  Check the current price of Bitcoin in USD

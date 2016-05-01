@@ -1,0 +1,8 @@
+commandlinefu_id: 14429
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget http://rendezvousavecmrx.free.fr/audio/mr_x_{1997..2015}_{01..12}_{01..31}.mp3
+summary: |-
+  Sweep and download all mp3 (in French) of Rendez-vous avec X (Meet with Mr. X) of the French public radio

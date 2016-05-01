@@ -1,0 +1,8 @@
+commandlinefu_id: 14998
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sqlite3 -list places.sqlite 'SELECT item_id, content FROM moz_items_annos ;' | grep -A9 "string" ; sqlite3 places.sqlite 'SELECT title FROM moz_bookmarks WHERE .fk = <item_id number> ;'
+summary: |-
+  Find out the Firefox bookmarks that have "string" in their note (aka 'description')

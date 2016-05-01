@@ -1,0 +1,8 @@
+commandlinefu_id: 14194
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep 'word1.*word2' --color   /path/file.log |more
+summary: |-
+  grep for 2 words existing on the same line

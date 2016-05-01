@@ -1,0 +1,8 @@
+commandlinefu_id: 14158
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -anp | grep :80 | grep ESTABLISHED | wc -l
+summary: |-
+  Get number of established sessions on a given port

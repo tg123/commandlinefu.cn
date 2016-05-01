@@ -1,0 +1,8 @@
+commandlinefu_id: 15629
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget --quiet 'https://raw.githubusercontent.com/rahult/books/master/well_grounded_rubyist/threads/rps.rb' - | ruby -c
+summary: |-
+  Check syntax of remote ruby file

@@ -1,0 +1,8 @@
+commandlinefu_id: 15045
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*.csv' -exec cat {} + >> merged.csv
+summary: |-
+  Merge files in current directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 15836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Omega spesialiteter
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

@@ -1,0 +1,8 @@
+commandlinefu_id: 15433
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -loglevel 0 -y -i audio.mp3 -f sox - | sox -p -V -S -b32 -t alsa hw:0,0 gain -6 rate -vMas 1411200 rate -vMa 96k
+summary: |-
+  Non-disharmonic resampler for audiofils, realtime version

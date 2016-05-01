@@ -1,0 +1,8 @@
+commandlinefu_id: 14721
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mkdir -p path/to/directory
+summary: |-
+  create a directory

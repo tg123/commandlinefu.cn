@@ -1,0 +1,8 @@
+commandlinefu_id: 15649
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmf() { find . -type f -printf '%T@ ' -print0 -printf '\n' | sort -rn | head -"$1" |  cut -f2- -d" " | tr -d "\0" | tr "\n" "\0" | xargs -0 ls -Ulh; }
+summary: |-
+  Returns the N most recently modified files from anywhere 'below' (and including) the current working directory, in order, with details.

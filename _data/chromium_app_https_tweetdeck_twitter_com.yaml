@@ -1,0 +1,8 @@
+commandlinefu_id: 14309
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chromium --app=https://tweetdeck.twitter.com
+summary: |-
+  Open Chromium/Chrome in application mode

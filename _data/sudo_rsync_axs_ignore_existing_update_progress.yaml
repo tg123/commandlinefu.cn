@@ -1,0 +1,8 @@
+commandlinefu_id: 14214
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo rsync -aXS --ignore-existing --update --progress
+summary: |-
+  Make a directory of your choice look exactly like another by only changing whats needed

@@ -1,0 +1,8 @@
+commandlinefu_id: 15282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -r -h -o 'color: #.*' css/*|sort|uniq -c|sort -n|wc -l
+summary: |-
+  Count the number of unique colors there are in a websites css folder

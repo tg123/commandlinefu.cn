@@ -1,0 +1,8 @@
+commandlinefu_id: 14919
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo -E rpm -Uvh "http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm"
+summary: |-
+  Preserve user variables when running commands with sudo.

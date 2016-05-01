@@ -1,0 +1,8 @@
+commandlinefu_id: 14706
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl --write-out %{http_code} --connect-timeout 10 --max-time 20 -s -I -L http://google.com --output /dev/null
+summary: |-
+  Basic monitor for a website or API looking at HTTP response codes

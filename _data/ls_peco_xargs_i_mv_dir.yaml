@@ -1,0 +1,8 @@
+commandlinefu_id: 15237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls | peco | xargs -I{} mv {} dir
+summary: |-
+  Interactively select and move multiple files to a folder like a boss using peco (and when in it, ctrl-space to multiple select)

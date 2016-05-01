@@ -1,0 +1,8 @@
+commandlinefu_id: 14855
+translator:
+  weibo: ''
+hide: true
+command: |-
+  chmod rwxrw-r-- /path/to/file
+summary: |-
+  change file permission modes (symbolic notation)

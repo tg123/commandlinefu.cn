@@ -1,0 +1,8 @@
+commandlinefu_id: 14851
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat file
+summary: |-
+  display the contents of a file

@@ -1,0 +1,8 @@
+commandlinefu_id: 14205
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -path "*/any_depth/*" -exec grep "needle" {} +
+summary: |-
+  Grep only files matching certain pattern (Advanced)

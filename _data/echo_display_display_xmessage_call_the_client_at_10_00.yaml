@@ -1,0 +1,8 @@
+commandlinefu_id: 14202
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "DISPLAY=$DISPLAY xmessage call the client" | at 10:00
+summary: |-
+  Execute a command at a given time

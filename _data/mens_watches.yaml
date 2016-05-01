@@ -1,0 +1,8 @@
+commandlinefu_id: 14789
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mens watches
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

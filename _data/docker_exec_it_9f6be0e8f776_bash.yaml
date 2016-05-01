@@ -1,0 +1,8 @@
+commandlinefu_id: 14383
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker exec -it 9f6be0e8f776 bash
+summary: |-
+  Start new bash session on specified docker container

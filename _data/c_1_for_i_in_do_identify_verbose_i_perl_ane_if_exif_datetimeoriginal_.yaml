@@ -1,0 +1,8 @@
+commandlinefu_id: 14729
+translator:
+  weibo: ''
+hide: true
+command: |-
+  c=1; for i in *; do identify -verbose $i | perl -ane 'if(/exif:DateTimeOriginal:/){print "@F[1,2] "}'; ls -i $i; done | sort | perl -ane 'print "@F[2]\n"' | while read j; do find -inum $j | xargs -iX cp X NEW_`printf %02d $c`.jpg; cnt=`expr $c + 1`; done
+summary: |-
+  rename all images in folder with original date time from exif data

@@ -1,0 +1,8 @@
+commandlinefu_id: 14414
+translator:
+  weibo: ''
+hide: true
+command: |-
+  klipperSet(){ qdbus org.kde.klipper /klipper setClipboardContents "$*"; }
+summary: |-
+  Copy command output to Klipper history

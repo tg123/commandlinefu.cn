@@ -1,0 +1,8 @@
+commandlinefu_id: 15449
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $if [[ "$(sleep 1 | telnet -c <host> <port> 2>&1 | grep '^SSH')" == SSH* ]]; then <command when up>; else <command when down>; fi;
+summary: |-
+  Test remote SSH server status using telnet (no login required)

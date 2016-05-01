@@ -1,0 +1,8 @@
+commandlinefu_id: 14802
+translator:
+  weibo: ''
+hide: true
+command: |-
+  montblanc pens,mont blanc pen,discount montblanc pens ,montblanc pens sale for shopping?
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

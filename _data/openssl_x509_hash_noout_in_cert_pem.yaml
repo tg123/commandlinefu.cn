@@ -1,0 +1,8 @@
+commandlinefu_id: 15080
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl x509 -hash -noout in cert.pem
+summary: |-
+  Get the hash of a PEM cert file

@@ -1,0 +1,8 @@
+commandlinefu_id: 15057
+translator:
+  weibo: ''
+hide: true
+command: |-
+  YYYY=2014; MM=02; for DD in $(cal $MM $YYYY | grep "^ *[0-9]"); do [ ${#DD} = 1 ] && DD=0$DD; echo $YYYY$MM$DD; done
+summary: |-
+  Loop over the days of a month, in $YYYY$MM$DD format

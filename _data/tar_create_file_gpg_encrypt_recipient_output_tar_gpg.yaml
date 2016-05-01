@@ -1,0 +1,8 @@
+commandlinefu_id: 15412
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar --create --file - | gpg --encrypt --recipient --output .tar.gpg
+summary: |-
+  tar.gz with gpg-encryption on the fly

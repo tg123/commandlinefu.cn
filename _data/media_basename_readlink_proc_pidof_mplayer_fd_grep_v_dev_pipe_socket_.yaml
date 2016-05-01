@@ -1,0 +1,8 @@
+commandlinefu_id: 14301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  media="$(basename "$(readlink /proc/$(pidof mplayer)/fd/* | grep -v '\(/dev/\|pipe:\|socket:\)')")" && ((test -n "$media" && echo "now playing: $media") || echo "no track/video playing")
+summary: |-
+  get name of file that is currently playing in mplayer (if there)

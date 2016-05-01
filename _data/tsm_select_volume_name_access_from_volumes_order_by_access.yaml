@@ -1,0 +1,8 @@
+commandlinefu_id: 14401
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tsm> select Volume_Name, access from Volumes order by access
+summary: |-
+  tsm tape media listing as readonly or readwrite

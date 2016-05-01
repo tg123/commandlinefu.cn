@@ -1,0 +1,8 @@
+commandlinefu_id: 14693
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "awk '/Rss/{sum += \$2; } END{print sum, \"kB\"}' < /proc/$(pidof firefox)/smaps"
+summary: |-
+  Monitor memory fine-grained usage (e.g. firefox)

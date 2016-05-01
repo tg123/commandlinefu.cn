@@ -1,0 +1,8 @@
+commandlinefu_id: 14677
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mount -n -o remount /
+summary: |-
+  mount -n -o remount /

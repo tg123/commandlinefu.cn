@@ -1,0 +1,8 @@
+commandlinefu_id: 14678
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '(ARGIND==1) {tab[$3]=1} (ARGIND==2 && ! ($3 in tab) ) {print $0}' file1 file2
+summary: |-
+  Find non common lines between two files according to a given column

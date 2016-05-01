@@ -1,0 +1,8 @@
+commandlinefu_id: 14418
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff --name-only origin/master.. | grep _spec.rb | xargs rspec
+summary: |-
+  Rspec: run specs that were created/changed on my branch only

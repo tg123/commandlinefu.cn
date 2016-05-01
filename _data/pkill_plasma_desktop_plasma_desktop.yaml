@@ -1,0 +1,8 @@
+commandlinefu_id: 14749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkill plasma-desktop && plasma-desktop
+summary: |-
+  Restart Plasma without logging off from KDE

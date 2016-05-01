@@ -1,0 +1,8 @@
+commandlinefu_id: 14264
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lastcomm rsync
+summary: |-
+  find last command for user or command used

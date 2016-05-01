@@ -1,0 +1,8 @@
+commandlinefu_id: 14239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  locate -i /pattern/ | xargs -n1 dirname | sort -u
+summary: |-
+  show a sorted list of directory whose name matches the pattern

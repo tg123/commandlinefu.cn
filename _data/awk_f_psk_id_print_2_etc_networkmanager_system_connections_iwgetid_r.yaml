@@ -1,0 +1,8 @@
+commandlinefu_id: 15641
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F= '/^(psk|id)/{print $2}' /etc/NetworkManager/system-connections/"$(iwgetid -r)"
+summary: |-
+  Display the SSID and password of the WIFI network you are currently connected to.

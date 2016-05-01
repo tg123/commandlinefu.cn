@@ -1,0 +1,8 @@
+commandlinefu_id: 15617
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh -D localhost:8090 username@serve.com -f -N
+summary: |-
+  SSH socket

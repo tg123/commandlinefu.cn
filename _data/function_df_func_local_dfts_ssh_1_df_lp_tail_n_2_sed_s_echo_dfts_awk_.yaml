@@ -1,0 +1,8 @@
+commandlinefu_id: 15932
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function df_func {     local dfts=$(ssh $1 "df -lP | tail -n +2 | sed 's/%//'");     echo $dfts | awk '$5 > 90 {exit 1}' > /dev/null;     if [ $? == 1 ]; then         echo -n "$1 ";         echo $dfts | awk '$5 > 90 {printf "%s %d%%\n", $6, $5}';     fi }
+summary: |-
+  Reports file systems with disk usage exceeding 90% on the specified host

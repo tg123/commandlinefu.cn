@@ -1,0 +1,8 @@
+commandlinefu_id: 15435
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in $(git log --format='%ae' | sort -u); do echo $i; git log --author="$i" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' - done
+summary: |-
+  list lines changed per all authors of a git repository

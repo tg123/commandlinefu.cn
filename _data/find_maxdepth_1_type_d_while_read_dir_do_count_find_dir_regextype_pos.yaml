@@ -1,0 +1,8 @@
+commandlinefu_id: 14198
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -maxdepth 1 -type d | while read dir; do      count=$(find "$dir" -regextype posix-extended -iregex '.*\.(jpg|gif|png|jpeg)' | wc -l);     echo "$dir ; $count"; done
+summary: |-
+  Count total amount of image media in current Directory

@@ -1,0 +1,8 @@
+commandlinefu_id: 14341
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git ls-files | while read file; do echo $file; touch -t $(date -jf "%s" $(git log --date=local -1 --format="@%ct" "$file" | cut -b 2-) +%Y%m%d%H%M) "$file"; done
+summary: |-
+  Reset the last modified time for each file in a git repo to its last commit time

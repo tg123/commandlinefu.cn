@@ -1,0 +1,8 @@
+commandlinefu_id: 14212
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -r "word" >> "~/Desktop/filename.txt"
+summary: |-
+  Search for a key word in a large list of files and save the results to a file on the desktop

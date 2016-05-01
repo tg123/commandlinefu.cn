@@ -1,0 +1,8 @@
+commandlinefu_id: 14864
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep word file.txt
+summary: |-
+  search for a string/word in a file

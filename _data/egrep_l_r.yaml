@@ -1,0 +1,8 @@
+commandlinefu_id: 15047
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -l $'\r'\$ *
+summary: |-
+  Search for files with non-Unix line endings

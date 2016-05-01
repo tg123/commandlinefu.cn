@@ -1,0 +1,8 @@
+commandlinefu_id: 14876
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias ll='ls -la'
+summary: |-
+  Long listing of the files.

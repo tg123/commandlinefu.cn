@@ -1,0 +1,8 @@
+commandlinefu_id: 17187
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep "checksum error at logical" /var/log/messages |  egrep -o "[^ ]+$" | tr -d ')' | sort | uniq
+summary: |-
+  Btrfs: Find file names with checksum errors

@@ -1,0 +1,8 @@
+commandlinefu_id: 15635
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --all -- '*RestSessionController*''
+summary: |-
+  Git find branch for a file

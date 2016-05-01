@@ -1,0 +1,8 @@
+commandlinefu_id: 15070
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker inspect --format "{{ .Name }} # {{ .NetworkSettings.IPAddress }} # {{ .NetworkSettings.Ports }}" $(docker ps -q) | tr -s '#' '\t'
+summary: |-
+  List every docker's name, IP and port mapping

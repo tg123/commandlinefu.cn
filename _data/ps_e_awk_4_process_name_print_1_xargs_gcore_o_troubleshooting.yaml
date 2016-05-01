@@ -1,0 +1,8 @@
+commandlinefu_id: 14652
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -e | awk '$4~/<process name>/{print $1}' |xargs gcore -o ~/troubleshooting
+summary: |-
+  generate a core dump of a process

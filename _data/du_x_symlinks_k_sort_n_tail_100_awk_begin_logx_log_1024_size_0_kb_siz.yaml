@@ -1,0 +1,8 @@
+commandlinefu_id: 14650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -x ${SYMLINKS} -k "$@" | sort -n | tail -100 | awk 'BEGIN { logx = log(1024); size[0]= "KB"; size[1]= "MB"; size[2]= "GB"; size[3]= "TB" } { x = $1; $1 = ""; v = int(log(x)/logx); printf ("%8.3f %s\t%s\n",x/(1024^v), size[v], $0) }'
+summary: |-
+  Recursively find disk usage, sort, and make human readable (for systems without human-readable sort command)

@@ -1,0 +1,8 @@
+commandlinefu_id: 14405
+translator:
+  weibo: ''
+hide: true
+command: |-
+  phpcs --no-colors --standard=WordPress-Core -s -- $( find . -name '*.php' ) | ack -o '(?<=\()\w+(\.\w+)+(?=\)$)' | sort | uniq -c | sort -nr
+summary: |-
+  Gather list of PHPCS error messages sorted by frequency

@@ -1,0 +1,8 @@
+commandlinefu_id: 16095
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ss -t -o state established '( dport = :443 || dport = :80 )' | grep -Po '([0-9a-z:.]*)(?=:http[s])' | sort -u|netcat whois.cymru.com 43|grep -v "AS Name"|sort -t'|' -k3
+summary: |-
+  Lookup autonomous systems of all outgoing http/s traffic

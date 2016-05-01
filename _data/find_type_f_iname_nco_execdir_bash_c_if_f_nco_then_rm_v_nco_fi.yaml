@@ -1,0 +1,8 @@
+commandlinefu_id: 14332
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f ! -iname "*.nco" -execdir bash -c ' if [ -f "{}.nco" ]; then rm -v "{}.nco"; fi' \;
+summary: |-
+  Find and delete all archives like file.ext.nco only if file.ext exists

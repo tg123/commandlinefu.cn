@@ -1,0 +1,8 @@
+commandlinefu_id: 15293
+translator:
+  weibo: ''
+hide: true
+command: |-
+  $ nword() { grep -P "^.{$1}\$" /usr/share/dict/words | shuf -n1; }
+summary: |-
+  Find Words of Arbitrary Length

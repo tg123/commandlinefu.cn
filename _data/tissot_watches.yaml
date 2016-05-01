@@ -1,0 +1,8 @@
+commandlinefu_id: 15736
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Tissot watches
+summary: |-
+  If (and only if) the variable is not set, prompt users and give them a default option already filled in.

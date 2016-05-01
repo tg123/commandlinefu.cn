@@ -1,0 +1,8 @@
+commandlinefu_id: 15043
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep $(( $(date +"%s") - $(date --date "$(curl --silent -I http://www.example.com | grep Date: | cut -c 6-)" +"%s") ))
+summary: |-
+  Drift in seconds with remote http server

@@ -1,0 +1,8 @@
+commandlinefu_id: 15301
+translator:
+  weibo: ''
+hide: true
+command: |-
+  download all videos in a youtube playlist
+summary: |-
+  youtube-dl -f bestvideo+bestaudio/best https://youtubeplaylisturl

@@ -1,0 +1,8 @@
+commandlinefu_id: 14356
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat FILE.csv |sed -e '1i,,,,,' |sed -e 's/=sum/@sum/g' -e 's/=SUM/@SUM/g' |psc -k -d, |sed -e 's/\"@SUM(/@SUM(/' -e 's/)"/)/' -e '/@SUM/ { s/rightstring/let/; }' -e '/= "=/s/rightstring/let/' -e '/= "=/s/"//g' -e 's/= =/= /g' |sc
+summary: |-
+  Evaluate simple formulas in a .csv spreadsheet by converting and piping to the venerable sc.

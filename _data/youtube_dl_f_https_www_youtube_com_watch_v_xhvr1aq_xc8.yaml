@@ -1,0 +1,8 @@
+commandlinefu_id: 16948
+translator:
+  weibo: ''
+hide: true
+command: |-
+  youtube-dl -F "https://www.youtube.com/watch?v=xhVR1AQ-xc8"
+summary: |-
+  Download YouTube Videos using wget and youtube-dl and just using the video link

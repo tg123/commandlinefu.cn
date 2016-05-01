@@ -1,0 +1,8 @@
+commandlinefu_id: 15396
+translator:
+  weibo: ''
+hide: true
+command: |-
+  hublot watches for men
+summary: |-
+  s3cmd du s3://bucket-name | awk '{print $0/1024/1024/1024

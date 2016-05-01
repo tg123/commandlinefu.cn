@@ -1,0 +1,8 @@
+commandlinefu_id: 14314
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stat --format=%A foo.txt
+summary: |-
+  Get the read/write/execute permissions of a file

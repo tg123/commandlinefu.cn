@@ -1,0 +1,8 @@
+commandlinefu_id: 15805
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perler
+summary: |-
+  Search entire server for Q4 2015 obfuscated PHP malware of unknown origin.

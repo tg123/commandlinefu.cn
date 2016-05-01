@@ -1,0 +1,8 @@
+commandlinefu_id: 14299
+translator:
+  weibo: ''
+hide: true
+command: |-
+  >> "file_name";
+summary: |-
+  Create a new File without I/O

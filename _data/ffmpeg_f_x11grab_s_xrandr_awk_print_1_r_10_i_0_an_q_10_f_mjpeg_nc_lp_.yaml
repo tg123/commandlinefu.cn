@@ -1,0 +1,8 @@
+commandlinefu_id: 15266
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -f x11grab -s $(xrandr | awk '/*/ {print $1}') -r 10 -i :0 -an -q 10 -f mjpeg - | nc -lp <port>
+summary: |-
+  quick livestream screencast

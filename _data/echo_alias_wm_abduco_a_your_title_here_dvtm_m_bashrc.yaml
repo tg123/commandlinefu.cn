@@ -1,0 +1,8 @@
+commandlinefu_id: 15651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'alias wm="abduco -A your_title_here dvtm -M"' >> ~/.bashrc
+summary: |-
+  Shortcut to a lightweight detachable 'multi-windowed' terminal session

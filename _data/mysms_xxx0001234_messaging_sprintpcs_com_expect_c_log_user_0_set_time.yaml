@@ -1,0 +1,8 @@
+commandlinefu_id: 14204
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mysms='xxx0001234@messaging.sprintpcs.com' ; expect -c "log_user 0 ; set timeout -1 ; spawn usbmon -i usb0 ; expect -re \"C.*Ii.*-2:128\" { spawn sendmail $mysms ; send \"Smart Home Sensor Triggered\n.\n\" ; expect }"
+summary: |-
+  Convert A USB Cable Into A Smart Home Gadget

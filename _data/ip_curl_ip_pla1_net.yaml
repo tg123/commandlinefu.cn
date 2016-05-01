@@ -1,0 +1,8 @@
+commandlinefu_id: 15438
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip=$(curl ip.pla1.net)
+summary: |-
+  Put public IP address in a variable

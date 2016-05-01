@@ -1,0 +1,8 @@
+commandlinefu_id: 15427
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -print0 | xargs -0 md5sum | sort -d
+summary: |-
+  find . -type f -print0 | xargs -0 md5sum | sort -d

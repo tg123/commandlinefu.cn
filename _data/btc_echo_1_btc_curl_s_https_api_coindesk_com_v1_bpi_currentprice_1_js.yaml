@@ -1,0 +1,8 @@
+commandlinefu_id: 14697
+translator:
+  weibo: ''
+hide: true
+command: |-
+  btc() { echo "1 BTC = $(curl -s https://api.coindesk.com/v1/bpi/currentprice/$1.json | jq .bpi.\"$1\".rate | tr -d \"\"\") $1"; }
+summary: |-
+  Check the current price of Bitcoin (jq version, defines a function)

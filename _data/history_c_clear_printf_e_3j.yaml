@@ -1,0 +1,8 @@
+commandlinefu_id: 16947
+translator:
+  weibo: ''
+hide: true
+command: |-
+  history -c && clear && printf "\e[3J"
+summary: |-
+  Hide what you've done so far

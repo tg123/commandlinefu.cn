@@ -1,0 +1,8 @@
+commandlinefu_id: 15232
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
+summary: |-
+  Abbreviated docker ps as an alias

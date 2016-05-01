@@ -1,0 +1,8 @@
+commandlinefu_id: 15631
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo /etc/*_ver* /etc/*-rel*; cat /etc/*_ver* /etc/*-rel*
+summary: |-
+  Show all the available information about your current distribution, package management and base

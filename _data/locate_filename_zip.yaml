@@ -1,0 +1,8 @@
+commandlinefu_id: 14865
+translator:
+  weibo: ''
+hide: true
+command: |-
+  locate filename.zip
+summary: |-
+  search for files (using a premade file database)

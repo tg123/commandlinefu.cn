@@ -1,0 +1,8 @@
+commandlinefu_id: 14192
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*' -exec md5sum '{}' + > hashes.txt
+summary: |-
+  Recursively calculate and dump md5 sums of all files within a directory

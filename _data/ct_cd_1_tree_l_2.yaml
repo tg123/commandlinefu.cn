@@ -1,0 +1,8 @@
+commandlinefu_id: 14430
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ct() {cd $1; tree -L 2}
+summary: |-
+  opens folder and displays

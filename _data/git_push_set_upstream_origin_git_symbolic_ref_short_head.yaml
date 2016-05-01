@@ -1,0 +1,8 @@
+commandlinefu_id: 15307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git push --set-upstream origin `git symbolic-ref --short HEAD`
+summary: |-
+  git push set upstream with current branch

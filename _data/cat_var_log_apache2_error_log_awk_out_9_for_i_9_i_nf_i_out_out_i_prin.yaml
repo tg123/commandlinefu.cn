@@ -1,0 +1,8 @@
+commandlinefu_id: 14648
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat  /var/log/apache2/error.log | awk '{out=$9;for(i=9;i<=NF;i++){out=out" "$i}; print out}' | sed s/,\ referer.*// | sort | uniq -c | sort -nr
+summary: |-
+  Outputs unique error messages from the apache log and count, sorted by frequency

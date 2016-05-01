@@ -1,0 +1,8 @@
+commandlinefu_id: 14862
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar -zxvf archive.tar.gz
+summary: |-
+  unpack a tar.gz archive

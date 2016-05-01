@@ -1,0 +1,8 @@
+commandlinefu_id: 14676
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lftp -u user,pass -e "set ftp:ssl-allow false; mirror --exclude settings.php --exclude .htaccess serverdir devdir" serverhost
+summary: |-
+  lftp backup from server to dev for a drupal site

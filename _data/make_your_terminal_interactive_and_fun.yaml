@@ -1,0 +1,8 @@
+commandlinefu_id: 15925
+translator:
+  weibo: ''
+hide: true
+command: |-
+  make your terminal interactive and fun
+summary: |-
+  bash | lolcat -a -s 250

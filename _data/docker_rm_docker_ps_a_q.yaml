@@ -1,0 +1,8 @@
+commandlinefu_id: 15633
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker rm $(docker ps -a -q)
+summary: |-
+  Remove all stopped docker containers

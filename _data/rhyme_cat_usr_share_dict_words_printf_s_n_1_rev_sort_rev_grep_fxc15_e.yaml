@@ -1,0 +1,8 @@
+commandlinefu_id: 15292
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rhyme() { { cat /usr/share/dict/words; printf %s\\n "$1"; } | rev | sort | rev | grep -FxC15 -e "${1?}" | grep -Fxve "$1" | shuf -n1; }
+summary: |-
+  Find Rhyming Words

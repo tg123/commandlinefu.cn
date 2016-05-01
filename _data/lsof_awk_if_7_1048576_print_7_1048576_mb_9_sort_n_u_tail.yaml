@@ -1,0 +1,8 @@
+commandlinefu_id: 14866
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof / | awk '{ if($7 > 1048576) print $7/1048576 "MB "$9 }' | sort -n -u | tail
+summary: |-
+  display 10 biggest open files

@@ -1,0 +1,8 @@
+commandlinefu_id: 14625
+translator:
+  weibo: ''
+hide: true
+command: |-
+  timberland outlet
+summary: |-
+  Get the SAN (subjectAltName) of a site's certificate.

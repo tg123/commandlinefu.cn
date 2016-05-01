@@ -1,0 +1,8 @@
+commandlinefu_id: 15622
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dir c:\mydir -Recurse | Unblock-File
+summary: |-
+  unblock multiple files

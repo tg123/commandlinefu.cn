@@ -1,0 +1,8 @@
+commandlinefu_id: 16062
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Replica Omega De Ville
+summary: |-
+  Make less act like cat if its input's contents can fit on one screen

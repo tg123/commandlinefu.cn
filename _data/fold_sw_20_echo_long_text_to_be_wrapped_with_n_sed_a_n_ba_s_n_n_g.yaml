@@ -1,0 +1,8 @@
+commandlinefu_id: 14168
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fold -sw 20 <(echo "Long Text to be wrapped with \"\n\"") |sed ':a;N;$!ba;s/ *\n/\\n/g'
+summary: |-
+  Wordwrap long text string using "\n"

@@ -1,0 +1,8 @@
+commandlinefu_id: 14329
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find filename -execdir rm "{}" \;
+summary: |-
+  Find a file and delete it

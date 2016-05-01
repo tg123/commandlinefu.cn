@@ -1,0 +1,8 @@
+commandlinefu_id: 15050
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dockexecl() { docker exec -i -t $(docker ps -l -q) bash ;}
+summary: |-
+  attach to bash shell in the last container you started

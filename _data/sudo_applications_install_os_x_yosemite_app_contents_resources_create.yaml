@@ -1,0 +1,8 @@
+commandlinefu_id: 14272
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app/ --nointeraction
+summary: |-
+  Create OS X install USB via one step CLI

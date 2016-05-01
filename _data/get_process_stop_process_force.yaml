@@ -1,0 +1,8 @@
+commandlinefu_id: 15277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Get-Process | Stop-Process -force
+summary: |-
+  Windows BSOD

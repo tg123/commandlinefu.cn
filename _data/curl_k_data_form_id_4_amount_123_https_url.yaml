@@ -1,0 +1,8 @@
+commandlinefu_id: 14442
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -k --data "FORM_ID=4&AMOUNT=123" https://{url}
+summary: |-
+  Using curl to fire a post request with data

@@ -1,0 +1,8 @@
+commandlinefu_id: 14863
+translator:
+  weibo: ''
+hide: true
+command: |-
+  aunpack archive.7z
+summary: |-
+  extract any type of archive (zip, gz, bz, rar, bz2, 7z...)

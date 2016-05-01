@@ -1,0 +1,8 @@
+commandlinefu_id: 14656
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -s www.coindesk.com/price/ |grep bpiUSD|sed 's/<\/\?[^>]\+>//g'| tr -d " \t\r"
+summary: |-
+  Bitcoin price in USD

@@ -1,0 +1,8 @@
+commandlinefu_id: 16406
+translator:
+  weibo: ''
+hide: true
+command: |-
+  head -n1 | xargs -I {} aws sts get-session-token --serial-number $MFA_ID --duration-seconds 900 --token-code {} --output text --query [Credentials.AccessKeyId,Credentials.SecretAccessKey,Credentials.SessionToken]
+summary: |-
+  Get AWS temporary credentials ready to export based on a MFA virtual appliance

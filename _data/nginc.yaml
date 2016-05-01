@@ -1,0 +1,8 @@
+commandlinefu_id: 14334
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nginc
+summary: |-
+  Serve current directory tree at http://$HOSTNAME:8000/

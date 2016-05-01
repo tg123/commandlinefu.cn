@@ -1,0 +1,8 @@
+commandlinefu_id: 14743
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr '\0' ' ' </proc/21679/cmdline ; echo
+summary: |-
+  Show the command line for a PID, converting nulls to spaces and a newline

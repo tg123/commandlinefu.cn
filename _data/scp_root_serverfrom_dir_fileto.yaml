@@ -1,0 +1,8 @@
+commandlinefu_id: 15014
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scp root@<ServerFrom>:<dir> <fileTo>
+summary: |-
+  SCP

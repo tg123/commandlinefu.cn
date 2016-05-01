@@ -1,0 +1,8 @@
+commandlinefu_id: 15247
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in `git status | grep new | awk '{print $3}'`; do git reset HEAD $f ; done
+summary: |-
+  Git reset added new files

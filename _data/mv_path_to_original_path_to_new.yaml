@@ -1,0 +1,8 @@
+commandlinefu_id: 14726
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mv /path/to/original /path/to/new
+summary: |-
+  move or rename a file or directory

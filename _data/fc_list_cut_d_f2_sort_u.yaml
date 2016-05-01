@@ -1,0 +1,8 @@
+commandlinefu_id: 15283
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fc-list | cut -d':' -f2 | sort -u
+summary: |-
+  Which fonts are installed?

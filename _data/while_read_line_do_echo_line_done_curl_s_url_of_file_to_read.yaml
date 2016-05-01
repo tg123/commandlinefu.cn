@@ -1,0 +1,8 @@
+commandlinefu_id: 15456
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while read line; do echo $line;done < <(curl -s <URL of file to read>)
+summary: |-
+  Read curl output line by line in a while loop

@@ -1,0 +1,8 @@
+commandlinefu_id: 14720
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls path/to/directory
+summary: |-
+  list files in a directory

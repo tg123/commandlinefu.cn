@@ -1,0 +1,8 @@
+commandlinefu_id: 16404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jq -r 'keys | join("\t")' $(ls -f *.json | head -1) && jq -Sr 'to_entries | [ .[] | .value | tostring ] | join("\t")' *.json
+summary: |-
+  Convert json files to tsv text blob

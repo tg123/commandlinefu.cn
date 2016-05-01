@@ -1,0 +1,8 @@
+commandlinefu_id: 14215
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tail -f /var/squid/logs/access.log | perl -pe 's/(\d+)/localtime($1)/e'
+summary: |-
+  Read Squid logs with human-readable timestamp in Pfsense

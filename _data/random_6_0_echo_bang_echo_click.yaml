@@ -1,0 +1,8 @@
+commandlinefu_id: 15927
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ $[ $RANDOM % 6 ] == 0 ] && echo 'Bang!' || echo 'Click...'
+summary: |-
+  Safe Russian Roulette (only echo, don't delete files)

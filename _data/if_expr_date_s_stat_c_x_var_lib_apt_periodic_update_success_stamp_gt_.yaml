@@ -1,0 +1,8 @@
+commandlinefu_id: 14250
+translator:
+  weibo: ''
+hide: true
+command: |-
+  if [[ $(expr $(date +%s) - $(stat -c %X /var/lib/apt/periodic/update-success-stamp)) -gt 86400 ]]; then sudo apt-get update fi
+summary: |-
+  debian based OS update apt/dpkg only if it hasn't been updated in N time

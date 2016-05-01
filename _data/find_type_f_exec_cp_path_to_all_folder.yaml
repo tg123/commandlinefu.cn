@@ -1,0 +1,8 @@
+commandlinefu_id: 15250
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -exec cp '{}' /path/to/all/folder \;
+summary: |-
+  Copy all files in subfolders to one folder

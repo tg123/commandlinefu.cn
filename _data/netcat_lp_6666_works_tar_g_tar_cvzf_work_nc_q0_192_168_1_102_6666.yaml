@@ -1,0 +1,8 @@
+commandlinefu_id: 15238
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netcat -lp 6666 > works.tar.g             tar -cvzf - work | nc -q0 192.168.1.102 6666
+summary: |-
+  nc file transfer

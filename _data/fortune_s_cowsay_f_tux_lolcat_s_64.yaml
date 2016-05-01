@@ -1,0 +1,8 @@
+commandlinefu_id: 15926
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune -s | cowsay -f tux | lolcat -s 64
+summary: |-
+  A rainbow-colored Tux gives a fortune cookie for the day. Great

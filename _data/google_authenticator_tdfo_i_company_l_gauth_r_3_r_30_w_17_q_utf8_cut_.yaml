@@ -1,0 +1,8 @@
+commandlinefu_id: 15239
+translator:
+  weibo: ''
+hide: true
+command: |-
+  google-authenticator -tdfo -i "Company" -l "GAuth" -r 3 -R 30 -w 17 -Q UTF8 | cut -c 62- | sed -e's/%\([0-9A-F][0-9A-F]\)/\\\\\x\1/g' | xargs echo -e | qrencode -o qrcode.png | sendemail -t user@domain.com -f sender@domain.com -u "QR" -a qrcode.png
+summary: |-
+  Google Authenticator. Setup a user and email them a QR code.

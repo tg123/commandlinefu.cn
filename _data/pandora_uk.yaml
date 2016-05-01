@@ -1,0 +1,8 @@
+commandlinefu_id: 14805
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pandora uk
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

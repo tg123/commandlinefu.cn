@@ -1,0 +1,8 @@
+commandlinefu_id: 14541
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stat -c'%s %n' **/* | sort -n
+summary: |-
+  list files recursively by size

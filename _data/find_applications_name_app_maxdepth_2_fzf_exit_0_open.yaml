@@ -1,0 +1,8 @@
+commandlinefu_id: 14997
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /Applications -name "*.app" -maxdepth 2 | fzf --exit-0 | open
+summary: |-
+  OS X application launcher with fuzzy search

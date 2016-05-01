@@ -1,0 +1,8 @@
+commandlinefu_id: 16597
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Bell Ross
+summary: |-
+  Read Python logs with tracebacks in color

@@ -1,0 +1,8 @@
+commandlinefu_id: 14366
+translator:
+  weibo: ''
+hide: true
+command: |-
+  stat -c %s filename
+summary: |-
+  Filesize in bytes

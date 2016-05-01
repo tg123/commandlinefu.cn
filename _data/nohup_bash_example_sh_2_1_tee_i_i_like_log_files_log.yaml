@@ -1,0 +1,8 @@
+commandlinefu_id: 14663
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup bash example.sh 2>&1 | tee -i i-like-log-files.log &
+summary: |-
+  Making scripts runs on backgourd and logging output

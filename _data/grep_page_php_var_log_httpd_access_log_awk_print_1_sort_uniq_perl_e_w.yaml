@@ -1,0 +1,8 @@
+commandlinefu_id: 14251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep page.php /var/log/httpd/access_log|awk '{print $1}'|sort|uniq|perl -e 'while (<STDIN>){chomp; $cmd=`ipset add banned -! -q $_`; }'
+summary: |-
+  Grep ip addresses from access attempts to a page and add them to an ipset referenced by an iptables rule

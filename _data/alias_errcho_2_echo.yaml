@@ -1,0 +1,8 @@
+commandlinefu_id: 15650
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias errcho='>&2 echo'
+summary: |-
+  used like `echo`, but outputs to stderr instead of stdout

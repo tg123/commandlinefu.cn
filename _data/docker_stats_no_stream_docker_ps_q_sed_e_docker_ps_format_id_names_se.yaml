@@ -1,0 +1,8 @@
+commandlinefu_id: 16563
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker stats --no-stream $( docker ps -q ) | sed -e "$( docker ps --format "{{.ID}} {{.Names}}" | sed -e "s/\(.*\) \(.*\)/s\/\1\/\2\t\/g;/" )"
+summary: |-
+  Human readable docker stats output

@@ -1,0 +1,8 @@
+commandlinefu_id: 14331
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "display:data?" | nc "$scope_ip_address" 5555 | dd bs=1 skip=11 2>/dev/null | convert bmp:- out_file.png
+summary: |-
+  Create a PNG screenshot of Rigol Ultravision scopes attached per LAN

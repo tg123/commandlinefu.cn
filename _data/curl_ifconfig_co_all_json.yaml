@@ -1,0 +1,8 @@
+commandlinefu_id: 14665
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl ifconfig.co/all.json
+summary: |-
+  What is my ip?

@@ -1,0 +1,8 @@
+commandlinefu_id: 14443
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo ${(o)color}
+summary: |-
+  Return ZSH colors

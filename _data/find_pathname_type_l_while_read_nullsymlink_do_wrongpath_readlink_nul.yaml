@@ -1,0 +1,8 @@
+commandlinefu_id: 14163
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find /PATHNAME -type l | while read nullsymlink ; do wrongpath=$(readlink "$nullsymlink") ; right=$(echo "$wrongpath" | sed s'|OLD_STRING|NEW_STRING|') ; ln -fs "$right" "$nullsymlink" ; done
+summary: |-
+  RELINK a lot of broken symlinks - FIX broken symlinks after rsync site to new server

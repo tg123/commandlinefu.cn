@@ -1,0 +1,8 @@
+commandlinefu_id: 14307
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pm2 install pm2-webshell
+summary: |-
+  Expose a Webshell

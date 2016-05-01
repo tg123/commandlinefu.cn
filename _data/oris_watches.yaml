@@ -1,0 +1,8 @@
+commandlinefu_id: 15708
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Oris watches
+summary: |-
+  Search entire web server for preg_replace /e based php malware.

@@ -1,0 +1,8 @@
+commandlinefu_id: 14377
+translator:
+  weibo: ''
+hide: true
+command: |-
+  last | grep -i console | grep -iv 'root' | cut -f 1 -d ' ' | sort | uniq -c | sort -nr | awk '{print $2}' | head -1
+summary: |-
+  Get the user with the top number of logins

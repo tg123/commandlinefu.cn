@@ -1,0 +1,8 @@
+commandlinefu_id: 14747
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wallpaper -w 800 -x 16384 -a 1.7 -b 1.85 *
+summary: |-
+  List widescreen wallpapers in current dir

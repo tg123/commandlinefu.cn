@@ -1,0 +1,8 @@
+commandlinefu_id: 14667
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune -as | cowsay -f "$(cowsay -l | sed "1 d" | tr ' ' '\n' | shuf -n 1)"
+summary: |-
+  Have a random cow say a random thing (without knowing the cowfile directory)

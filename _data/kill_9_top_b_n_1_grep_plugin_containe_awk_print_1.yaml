@@ -1,0 +1,8 @@
+commandlinefu_id: 14674
+translator:
+  weibo: ''
+hide: true
+command: |-
+  kill -9 `top -b -n 1 | grep plugin-containe | awk '{print $1}'`
+summary: |-
+  Deletes cpu time consuming plugin-containe triggered by firefox

@@ -1,0 +1,8 @@
+commandlinefu_id: 16946
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl http://wttr.in/city_name
+summary: |-
+  Check the weather of your city, eg Paris

@@ -1,0 +1,8 @@
+commandlinefu_id: 15294
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -loop 1 -i image.jpg -i audio.m4a -c:v libx264 -c:a aac -strict experimental -b:a 192k -vf scale=720:-1 -shortest video-output.mp4
+summary: |-
+  Convert audio to video [m4a 2 mp4]

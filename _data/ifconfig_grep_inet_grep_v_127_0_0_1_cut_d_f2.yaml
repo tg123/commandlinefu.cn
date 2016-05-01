@@ -1,0 +1,8 @@
+commandlinefu_id: 14690
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\  -f2
+summary: |-
+  What is my ip?

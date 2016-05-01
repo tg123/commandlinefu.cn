@@ -1,0 +1,8 @@
+commandlinefu_id: 14340
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in `ls *.eml`; do touch -d "`grep Date: $f | head -n 1 | sed 's/.*, \(.*\) +.*/\1/'`" $f; done
+summary: |-
+  Fix timestamps for emails in the current directory

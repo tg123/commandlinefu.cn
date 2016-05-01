@@ -1,0 +1,8 @@
+commandlinefu_id: 15447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip="$(curl https://outboundip.com)"
+summary: |-
+  Put public IP address in a variable

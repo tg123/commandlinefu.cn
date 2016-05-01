@@ -1,0 +1,8 @@
+commandlinefu_id: 15059
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -n '1000000{p;q;}' < massive-log-file.log
+summary: |-
+  Efficiently print a line deep in a huge log file

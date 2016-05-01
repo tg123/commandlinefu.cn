@@ -1,0 +1,8 @@
+commandlinefu_id: 15240
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -mtime +1000 -type f
+summary: |-
+  Multi-thread any command

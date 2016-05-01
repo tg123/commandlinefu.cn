@@ -1,0 +1,8 @@
+commandlinefu_id: 15071
+translator:
+  weibo: ''
+hide: true
+command: |-
+  plink -C -L 8900:172.16.1.1:3389 -L 8901:172.16.1.2:80 username@remotehost -P 22 -N ?v
+summary: |-
+  using plink to create multiple ssh tunnels simultaneously

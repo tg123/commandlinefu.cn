@@ -1,0 +1,8 @@
+commandlinefu_id: 14252
+translator:
+  weibo: ''
+hide: true
+command: |-
+  showip() { nmcli connection show $1|grep ipv4.addresses|awk '{print $2}' ; }
+summary: |-
+  Show me just the ip address

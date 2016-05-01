@@ -1,0 +1,8 @@
+commandlinefu_id: 14196
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n10 -d sh -c 'sensors | awk '\''/:.*RPM/ { sub("[^:]*:","") ; print $1 }'\'
+summary: |-
+  Periodic Display of Fan Speed with Change Highlights

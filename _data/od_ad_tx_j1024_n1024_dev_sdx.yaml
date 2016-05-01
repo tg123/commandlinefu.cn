@@ -1,0 +1,8 @@
+commandlinefu_id: 15410
+translator:
+  weibo: ''
+hide: true
+command: |-
+  od -Ad -tx -j1024 -N1024 /dev/sdx
+summary: |-
+  Read the superblock

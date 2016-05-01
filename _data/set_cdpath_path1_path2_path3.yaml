@@ -1,0 +1,8 @@
+commandlinefu_id: 14288
+translator:
+  weibo: ''
+hide: true
+command: |-
+  set cdpath = ( path1 path2 path3 )
+summary: |-
+  Using cdpath for csh

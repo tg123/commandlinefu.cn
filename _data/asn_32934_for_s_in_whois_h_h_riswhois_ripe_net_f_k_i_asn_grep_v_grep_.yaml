@@ -1,0 +1,8 @@
+commandlinefu_id: 16096
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ASN=32934; for s in $(whois -H -h riswhois.ripe.net -- -F -K -i $ASN | grep -v "^$" | grep -v "^%" | awk '{ print $2 }' ); do echo "  blocking $s"; sudo iptables -A INPUT -s $s -j REJECT &> /dev/null || sudo ip6tables -A INPUT -s $s -j REJECT; done
+summary: |-
+  Block all FaceBook traffic

@@ -1,0 +1,8 @@
+commandlinefu_id: 14907
+translator:
+  weibo: ''
+hide: true
+command: |-
+  debsecan --format detail
+summary: |-
+  List known debian vulnerabilities on your system -- many of which may not yet be patched.

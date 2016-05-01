@@ -1,0 +1,8 @@
+commandlinefu_id: 15046
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in *.csv; do tail $i; done
+summary: |-
+  Run 'tail' on selected files in current directory

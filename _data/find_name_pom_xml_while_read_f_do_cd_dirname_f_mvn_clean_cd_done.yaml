@@ -1,0 +1,8 @@
+commandlinefu_id: 14167
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find -name pom.xml | while read f; do cd $(dirname "$f"); mvn clean; cd -; done;
+summary: |-
+  do mvn clean in subdirs to free disk space

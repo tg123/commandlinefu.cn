@@ -1,0 +1,8 @@
+commandlinefu_id: 14279
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type d -maxdepth 1 -mindepth 1 -exec tar czf {}.tar.gz {} \;
+summary: |-
+  Find and tar.gz all folders within a directory

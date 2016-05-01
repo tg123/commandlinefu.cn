@@ -1,0 +1,8 @@
+commandlinefu_id: 14645
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F, '{gsub(/ /,"");for(f=1;f<=NF;f++) print f,$f;exit}' file.csv
+summary: |-
+  Printout a list of field numbers (awk index) from a CSV file with headers as first line.

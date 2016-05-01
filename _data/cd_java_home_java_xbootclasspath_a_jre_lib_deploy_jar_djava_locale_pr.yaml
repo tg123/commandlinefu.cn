@@ -1,0 +1,8 @@
+commandlinefu_id: 14404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd $JAVA_HOME && java -Xbootclasspath/a:jre/lib/deploy.jar -Djava.locale.providers=HOST,JRE,SPI -Xdock:name="Java Control Panel" com.sun.deploy.panel.ControlPanel
+summary: |-
+  Start Java Control Panel from Command line (Mac OSX Yosemite)

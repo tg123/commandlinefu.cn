@@ -1,0 +1,8 @@
+commandlinefu_id: 14844
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'LidSwitchIgnoreInhibited=no' > /etc/systemd/logind.conf.d/respect-inhibit-lid.conf
+summary: |-
+  Force laptop "idle" mode action when laptop lid is closed

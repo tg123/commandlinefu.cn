@@ -1,0 +1,8 @@
+commandlinefu_id: 14235
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -E'say "#" x '$COLUMNS
+summary: |-
+  Print a row of characters across the terminal

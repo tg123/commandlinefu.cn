@@ -1,0 +1,8 @@
+commandlinefu_id: 14447
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo -e \\033c
+summary: |-
+  Salvage a borked terminal

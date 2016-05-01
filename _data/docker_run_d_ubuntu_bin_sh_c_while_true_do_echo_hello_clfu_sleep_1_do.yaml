@@ -1,0 +1,8 @@
+commandlinefu_id: 14740
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker run -d ubuntu /bin/sh -c "while true; do echo Hello CLFU; sleep 1; done"
+summary: |-
+  continuously run Docker process

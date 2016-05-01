@@ -1,0 +1,8 @@
+commandlinefu_id: 15646
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -avxHAXW --info=progress2 /old-disk /new-disk/
+summary: |-
+  Copy the contents of one partition to another

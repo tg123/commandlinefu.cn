@@ -1,0 +1,8 @@
+commandlinefu_id: 15640
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exa -glhrSuU -s size --group-directories-first -@ | less -R
+summary: |-
+  exa

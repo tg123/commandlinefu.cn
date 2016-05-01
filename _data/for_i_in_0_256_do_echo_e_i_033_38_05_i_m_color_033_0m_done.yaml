@@ -1,0 +1,8 @@
+commandlinefu_id: 15251
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in {0..256}; do echo -e "${i} \033[38;05;${i}m COLOR \033[0m"; done
+summary: |-
+  Print all 256 colors for testing TERM or for a quick reference

@@ -1,0 +1,8 @@
+commandlinefu_id: 14325
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du | awk '{if($1<1028)print;}' | cut -d $'\t' -f 2- | tr "\n" "\0" | xargs -0 rm -rf
+summary: |-
+  Recursively remove directories less than specified size

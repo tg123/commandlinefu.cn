@@ -1,0 +1,8 @@
+commandlinefu_id: 16942
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scriptName="reorder_files.sh"; echo -e '#!/bin/sh\n' > "${scriptName}"; cat files.txt | while read file; do echo "touch ${file}; sleep 0.5;" >> "${scriptName}"; done; chmod +x "${scriptName}";
+summary: |-
+  Create Bash script to change modification time of files

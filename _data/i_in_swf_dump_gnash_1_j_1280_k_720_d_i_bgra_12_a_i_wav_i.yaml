@@ -1,0 +1,8 @@
+commandlinefu_id: 14220
+translator:
+  weibo: ''
+hide: true
+command: |-
+  i=in.swf; dump-gnash -1 -j 1280 -k 720 -D "${i%.*}".bgra@12 -A "${i%.*}".wav "${i}"
+summary: |-
+  Convert SWF to video

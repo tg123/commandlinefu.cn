@@ -1,0 +1,8 @@
+commandlinefu_id: 14723
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rmdir /path/to/empty/directory
+summary: |-
+  delete an EMPTY directory

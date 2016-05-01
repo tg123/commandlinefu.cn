@@ -1,0 +1,8 @@
+commandlinefu_id: 15226
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grepodt () { W=$1;P=$2;ls *.odt > /dev/null 2>&1;if [[ $? -ne 0 ]];then exit 1;fi;if [[ ! "$P" ]];then P='*';fi;for i in $P.odt;do unzip -qq "$i" content.xml;grep -l $W content.xml>/dev/null;if [[ $? -eq 0 ]];then echo $i;fi;rm content.xml; done;}
+summary: |-
+  grep in .odt files

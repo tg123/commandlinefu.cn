@@ -1,0 +1,8 @@
+commandlinefu_id: 15411
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -i -E 's/mail\..*/localhost\"/g' *
+summary: |-
+  Bulk change of mail domains in Rainloop

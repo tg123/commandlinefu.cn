@@ -1,0 +1,8 @@
+commandlinefu_id: 14423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wireshark -k -i <(ssh -l root servername "dumpcap -P -w - -f 'not tcp port 22'")
+summary: |-
+  analyze traffic remotely over ssh w/ wireshark

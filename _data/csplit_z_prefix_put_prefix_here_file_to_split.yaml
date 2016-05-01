@@ -1,0 +1,8 @@
+commandlinefu_id: 14666
+translator:
+  weibo: ''
+hide: true
+command: |-
+  csplit -z --prefix=PUT_PREFIX_HERE FILE_TO_SPLIT '/>/' '{*}'
+summary: |-
+  split a multi fasta file into separate files

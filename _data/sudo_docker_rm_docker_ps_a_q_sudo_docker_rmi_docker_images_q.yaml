@@ -1,0 +1,8 @@
+commandlinefu_id: 14262
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo docker rm $(docker ps -a -q); sudo docker rmi $(docker images -q)
+summary: |-
+  Cleanup Docker

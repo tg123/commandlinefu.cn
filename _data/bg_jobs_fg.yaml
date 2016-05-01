@@ -1,0 +1,8 @@
+commandlinefu_id: 14884
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bg; jobs; fg
+summary: |-
+  Suspend, background, and foreground a process

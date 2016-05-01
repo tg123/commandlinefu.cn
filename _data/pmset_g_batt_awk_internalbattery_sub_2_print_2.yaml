@@ -1,0 +1,8 @@
+commandlinefu_id: 15434
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pmset -g batt | awk '/-InternalBattery-/ {sub(/;/, "", $2); print $2}'
+summary: |-
+  Get OSX Battery percentage

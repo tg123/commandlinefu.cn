@@ -1,0 +1,8 @@
+commandlinefu_id: 15936
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bash | lolcat -a -s 250
+summary: |-
+  bash | lolcat -a -s 250

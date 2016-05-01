@@ -1,0 +1,8 @@
+commandlinefu_id: 14896
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "obase=2;$((($(date +%s)-$(date +%s -d YYYY-MM-DD))/86400))" | bc
+summary: |-
+  Check if it's your binary birthday!

@@ -1,0 +1,8 @@
+commandlinefu_id: 16938
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{delta=$1; avg+=$1/NR;} END {print "stdev = " sqrt(((delta-avg)^2)/NR);}'
+summary: |-
+  Display the standard deviation of a column of numbers with awk

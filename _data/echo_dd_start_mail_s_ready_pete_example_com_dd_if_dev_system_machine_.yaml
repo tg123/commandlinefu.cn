@@ -1,0 +1,8 @@
+commandlinefu_id: 15644
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "dd start" | mail -s ready pete@example.com;  dd if=/dev/system/machine-disk  | ssh  -c blowfish root@destination.example.com dd of=/dev/system/machine-disk ; echo "dd ready" | mail -s ready pete@example.com
+summary: |-
+  transfer lvm image to another host

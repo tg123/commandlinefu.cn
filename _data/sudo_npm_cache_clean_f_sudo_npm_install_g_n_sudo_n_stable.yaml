@@ -1,0 +1,8 @@
+commandlinefu_id: 14186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo npm cache clean -f | sudo npm install -g n | sudo n stable
+summary: |-
+  Upgrade Node.js via NPM

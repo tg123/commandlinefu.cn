@@ -1,0 +1,8 @@
+commandlinefu_id: 14386
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gs -dNOPAUSE -dBATCH -sDEVICE=png16m -sOutputFile=blood%d.png -r700x600 out.pdf
+summary: |-
+  convert PDF manga to Image's

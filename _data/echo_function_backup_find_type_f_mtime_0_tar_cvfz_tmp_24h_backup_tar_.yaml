@@ -1,0 +1,8 @@
+commandlinefu_id: 14428
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "function backup() { find ~ -type f -mtime 0 | tar cvfz /tmp/24h-backup.tar.gz -T - ;}" >> ~/.bashrc
+summary: |-
+  Make .bashrc function to backup the data you changed last houres

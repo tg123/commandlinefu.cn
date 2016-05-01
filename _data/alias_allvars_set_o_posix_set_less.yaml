@@ -1,0 +1,8 @@
+commandlinefu_id: 15648
+translator:
+  weibo: ''
+hide: true
+command: |-
+  alias allvars=' ( set -o posix; set ) | less'
+summary: |-
+  displays an uncluttered list of the names of all variables and functions in the current environment, (without shell functions and definitions)

@@ -1,0 +1,8 @@
+commandlinefu_id: 14199
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl x509 -enddate -noout -in file.pem
+summary: |-
+  How to determine SSL cert expiration date from a PEM encoded

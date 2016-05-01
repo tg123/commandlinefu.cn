@@ -1,0 +1,8 @@
+commandlinefu_id: 15035
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nmap -n 10.0.0.50 | grep udp | cut -d":"-f3>> test02
+summary: |-
+  Using NMAP to check if a port is open or close

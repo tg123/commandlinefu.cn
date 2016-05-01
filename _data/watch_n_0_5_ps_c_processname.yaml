@@ -1,0 +1,8 @@
+commandlinefu_id: 14267
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 0.5 ps -C <processname>
+summary: |-
+  Watch for a process to start or stop

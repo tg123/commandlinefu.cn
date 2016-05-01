@@ -1,0 +1,8 @@
+commandlinefu_id: 15064
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log --oneline | nl -v0 | sed 's/^ \+/&HEAD~/'
+summary: |-
+  Show a git log with offsets relative to HEAD

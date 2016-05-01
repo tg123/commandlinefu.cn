@@ -1,0 +1,8 @@
+commandlinefu_id: 15627
+translator:
+  weibo: ''
+hide: true
+command: |-
+  blank=$(mktemp -d); rsync --delete "$blank/" "bigdir/"; rmdir "$blank"
+summary: |-
+  Recursively remove directory with many files quickly

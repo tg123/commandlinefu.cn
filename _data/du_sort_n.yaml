@@ -1,0 +1,8 @@
+commandlinefu_id: 15619
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du . | sort -n
+summary: |-
+  shows major directories in ascending order

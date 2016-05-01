@@ -1,0 +1,8 @@
+commandlinefu_id: 14170
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ruby -nr 'uri' -e 'puts URI.escape $_.chomp'
+summary: |-
+  Url Encode

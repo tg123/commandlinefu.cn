@@ -1,0 +1,8 @@
+commandlinefu_id: 16935
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pkg update -nv | sed -n '/entire/{N;p;}'
+summary: |-
+  Solaris 11, test which version your IPS pkg will update you to.

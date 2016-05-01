@@ -1,0 +1,8 @@
+commandlinefu_id: 14245
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qf2s() { rpm -ql $(rpm -qf $1)|grep -P "\.service"; }
+summary: |-
+  Which .service related this file?

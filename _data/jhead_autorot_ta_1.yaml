@@ -1,0 +1,8 @@
+commandlinefu_id: 14327
+translator:
+  weibo: ''
+hide: true
+command: |-
+  jhead -autorot -ta+1 *
+summary: |-
+  Rotate images and adjust timestamps by +1 hour

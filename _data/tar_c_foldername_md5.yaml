@@ -1,0 +1,8 @@
+commandlinefu_id: 14255
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tar c folderName | md5
+summary: |-
+  create one md5 for all files in folder

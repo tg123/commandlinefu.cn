@@ -1,0 +1,8 @@
+commandlinefu_id: 14355
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function sheet () { cat "$1" | sed '1s/^/a,b,c,d,e,f,g,h,j,k,l,m,n,o,p\n/' | column -s , -tn | nl -v 0 ; }
+summary: |-
+  Display a formated comma seperated spreadsheet .csv with letters and numbers for easy viewing and to check formula entry..

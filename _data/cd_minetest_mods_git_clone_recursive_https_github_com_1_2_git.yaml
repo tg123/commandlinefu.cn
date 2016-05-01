@@ -1,0 +1,8 @@
+commandlinefu_id: 14762
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ~/.minetest/mods && git clone --recursive https://github.com/$1/$2.git
+summary: |-
+  Install a Minetest mod from GitHub

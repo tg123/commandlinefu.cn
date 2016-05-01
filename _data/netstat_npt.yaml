@@ -1,0 +1,8 @@
+commandlinefu_id: 15029
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -npt
+summary: |-
+  Examine processes generating traffic on your website

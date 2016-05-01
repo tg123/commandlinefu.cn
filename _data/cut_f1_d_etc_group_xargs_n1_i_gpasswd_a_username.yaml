@@ -1,0 +1,8 @@
+commandlinefu_id: 15306
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cut -f1 -d: /etc/group|xargs -n1 -I{} gpasswd -a $USERNAME {}
+summary: |-
+  grant me all the groups

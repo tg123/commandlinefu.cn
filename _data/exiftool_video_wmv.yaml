@@ -1,0 +1,8 @@
+commandlinefu_id: 14339
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exiftool video.wmv
+summary: |-
+  Get video information with ffmpeg

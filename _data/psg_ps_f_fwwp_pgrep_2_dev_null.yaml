@@ -1,0 +1,8 @@
+commandlinefu_id: 15302
+translator:
+  weibo: ''
+hide: true
+command: |-
+  psg() { ps -f fwwp $(pgrep $*) 2>/dev/null }
+summary: |-
+  pgrep to search for processes with pretty formatting via ps

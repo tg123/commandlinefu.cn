@@ -1,0 +1,8 @@
+commandlinefu_id: 14406
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exec 5<>/dev/tcp/time.nist.gov/13; cat <&5 & cat >&5; exec 5>&-
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

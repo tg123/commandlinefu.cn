@@ -1,0 +1,8 @@
+commandlinefu_id: 14683
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sh * | sort -h
+summary: |-
+  List directories sorted by size

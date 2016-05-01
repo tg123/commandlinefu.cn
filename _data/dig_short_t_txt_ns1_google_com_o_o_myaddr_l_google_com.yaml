@@ -1,0 +1,8 @@
+commandlinefu_id: 15287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dig +short -t txt @ns1.google.com o-o.myaddr.l.google.com
+summary: |-
+  Get your external IP address

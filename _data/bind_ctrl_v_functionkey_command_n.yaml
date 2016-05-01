@@ -1,0 +1,8 @@
+commandlinefu_id: 14248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bind '"<ctrl+v><functionKey>":"command\n"'
+summary: |-
+  Assign function keys to your frequent commands

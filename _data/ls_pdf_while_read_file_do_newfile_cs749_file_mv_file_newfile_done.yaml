@@ -1,0 +1,8 @@
+commandlinefu_id: 16940
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *.pdf | while read file; do newfile="CS749__${file}"; mv "${file}" "${newfile}"; done;
+summary: |-
+  Adding Prefix to File name

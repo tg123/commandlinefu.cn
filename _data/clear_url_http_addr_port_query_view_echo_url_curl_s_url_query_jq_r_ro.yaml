@@ -1,0 +1,8 @@
+commandlinefu_id: 15409
+translator:
+  weibo: ''
+hide: true
+command: |-
+  clear; url="http://<addr>:<port>"; query="<view>"; echo "$url$(curl -s "$url$query" | jq -r '.rows[0].value')"
+summary: |-
+  CURL example to get records from CouchDB

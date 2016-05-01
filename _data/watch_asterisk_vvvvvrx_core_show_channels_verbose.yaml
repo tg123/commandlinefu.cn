@@ -1,0 +1,8 @@
+commandlinefu_id: 15420
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch "asterisk -vvvvvrx 'core show channels verbose'"
+summary: |-
+  Watch active calls on an Asterisk PBX

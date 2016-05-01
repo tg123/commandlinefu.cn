@@ -1,0 +1,8 @@
+commandlinefu_id: 14160
+translator:
+  weibo: ''
+hide: true
+command: |-
+  env DISPLAY=:0 /usr/bin/gedit  ~/df.txt  && wmctl -a gedit
+summary: |-
+  display text file within an editor on whatever workspace is in front of you

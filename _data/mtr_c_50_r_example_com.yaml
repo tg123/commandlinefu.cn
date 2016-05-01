@@ -1,0 +1,8 @@
+commandlinefu_id: 14412
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mtr -c 50 -r example.com
+summary: |-
+  display mean response time of intermediates to a specified host

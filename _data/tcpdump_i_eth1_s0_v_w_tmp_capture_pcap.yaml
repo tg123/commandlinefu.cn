@@ -1,0 +1,8 @@
+commandlinefu_id: 14901
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -i eth1 -s0 -v -w /tmp/capture.pcap
+summary: |-
+  tcpdump -i eth1 -s0 -v -w /tmp/capture.pcap

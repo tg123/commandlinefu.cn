@@ -1,0 +1,8 @@
+commandlinefu_id: 14702
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pidstat -t | sed 's/,/./4' | awk -v seuil='10.0' '{if (NR>3 && $8>seuil) print }'
+summary: |-
+  CLFUContest : Check which process consume more than 10% of the cpu (configurable)

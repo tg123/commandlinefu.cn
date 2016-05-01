@@ -1,0 +1,8 @@
+commandlinefu_id: 15298
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo httpd -S 2>&1 | grep 'port' | awk '{print $4,$2,$5}' | sort | column -t
+summary: |-
+  Get list of all apache virtual hosts

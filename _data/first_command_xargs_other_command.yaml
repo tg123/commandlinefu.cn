@@ -1,0 +1,8 @@
+commandlinefu_id: 14853
+translator:
+  weibo: ''
+hide: true
+command: |-
+  first_command | xargs other_command
+summary: |-
+  use a command's output as arguments for another

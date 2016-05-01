@@ -1,0 +1,8 @@
+commandlinefu_id: 15303
+translator:
+  weibo: ''
+hide: true
+command: |-
+  y=$(date +%Y); if [ "$(($y % 100))" -eq "0" ] && [ "$(($y % 4))" -eq "0" ]; then echo "$y is a leap year"; else echo "$y is not a leap year"; fi
+summary: |-
+  Find out if the current year is a leap year in BASH

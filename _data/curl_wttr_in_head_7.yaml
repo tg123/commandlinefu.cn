@@ -1,0 +1,8 @@
+commandlinefu_id: 15639
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl wttr.in | head -7
+summary: |-
+  Current weather in the terminal

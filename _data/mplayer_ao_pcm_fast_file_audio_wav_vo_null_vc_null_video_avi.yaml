@@ -1,0 +1,8 @@
+commandlinefu_id: 14860
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mplayer -ao pcm:fast:file=audio.wav -vo null -vc null video.avi
+summary: |-
+  extract audio from video files to WAV

@@ -1,0 +1,8 @@
+commandlinefu_id: 14651
+translator:
+  weibo: ''
+hide: true
+command: |-
+  : </dev/tcp/127.0.0.1/80
+summary: |-
+  Determine if a port is open with bash

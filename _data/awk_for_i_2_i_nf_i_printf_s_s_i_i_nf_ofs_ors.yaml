@@ -1,0 +1,8 @@
+commandlinefu_id: 14282
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk '{for(i=2;i<=NF;i++) printf("%s%s",$i,(i!=NF)?OFS:ORS)}'
+summary: |-
+  drop first column of output by piping to this

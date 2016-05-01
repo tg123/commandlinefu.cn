@@ -1,0 +1,8 @@
+commandlinefu_id: 14174
+translator:
+  weibo: ''
+hide: true
+command: |-
+  view + LOGFILE
+summary: |-
+  Look at logs startring at EOF

@@ -1,0 +1,8 @@
+commandlinefu_id: 14742
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "\"$(objdump -d BINARY | grep '[0-9a-f]:' | cut -d$'\t' -f2 | grep -v 'file' | tr -d " \n" | sed 's/../\\x&/g')\""
+summary: |-
+  Get all shellcode on binary file from objdump

@@ -1,0 +1,8 @@
+commandlinefu_id: 15007
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find <dir> -type f -exec grep -i -H <string> {} \;
+summary: |-
+  Find + grep

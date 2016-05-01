@@ -1,0 +1,8 @@
+commandlinefu_id: 15049
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker inspect --format "{{ .NetworkSettings.IPAddress }}" $(docker ps -q)
+summary: |-
+  get ip of all running docker containers

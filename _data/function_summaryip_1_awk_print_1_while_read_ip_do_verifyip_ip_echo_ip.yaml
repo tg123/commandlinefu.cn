@@ -1,0 +1,8 @@
+commandlinefu_id: 14203
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function summaryIP() { < $1 awk '{print $1}' | while  read ip ; do verifyIP ${ip} && echo ${ip}; done | awk '{ip_array[$1]++} END { for (ip in ip_array) printf("%5d\t%s\n", ip_array[ip], ip)}' | sort -rn; }
+summary: |-
+  summarize a list of IP addresses, verifying IP address and giving counts for each IP found

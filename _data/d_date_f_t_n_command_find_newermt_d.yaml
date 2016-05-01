@@ -1,0 +1,8 @@
+commandlinefu_id: 14892
+translator:
+  weibo: ''
+hide: true
+command: |-
+  D="$(date "+%F %T.%N")"; [COMMAND]; find . -newermt "$D"
+summary: |-
+  List all files modified by a command

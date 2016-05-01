@@ -1,0 +1,8 @@
+commandlinefu_id: 14233
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $(date +%m) past $(date +%H) | espeak
+summary: |-
+  talking clock

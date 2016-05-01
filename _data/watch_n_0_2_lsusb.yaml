@@ -1,0 +1,8 @@
+commandlinefu_id: 15654
+translator:
+  weibo: ''
+hide: true
+command: |-
+  watch -n 0,2 lsusb
+summary: |-
+  Find usb device in realtime

@@ -1,0 +1,8 @@
+commandlinefu_id: 14234
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while [ $(( $(date +%s) - $(stat -c %Y FILENAME) )) -lt 10 ]; do sleep 1; done; echo DONE
+summary: |-
+  Wait for file to stop changing

@@ -1,0 +1,8 @@
+commandlinefu_id: 15812
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Hublot Classic Fusion Series
+summary: |-
+  Preserve user variables when running commands with sudo.

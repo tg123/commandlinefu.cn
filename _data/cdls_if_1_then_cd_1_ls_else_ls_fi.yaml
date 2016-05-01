@@ -1,0 +1,8 @@
+commandlinefu_id: 14244
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cdls() { if [[ $1 != "" ]] ; then cd $1; ls; else ls; fi };
+summary: |-
+  Fast command-line directory browsing

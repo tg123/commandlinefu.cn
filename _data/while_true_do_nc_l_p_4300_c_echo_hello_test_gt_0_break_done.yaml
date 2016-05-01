@@ -1,0 +1,8 @@
+commandlinefu_id: 15924
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true ; do nc -l -p 4300 -c 'echo hello'; test $? -gt 0 && break; done
+summary: |-
+  Continuously listen on a port and respond with a fixed message with netcat (and respond to kill signals)

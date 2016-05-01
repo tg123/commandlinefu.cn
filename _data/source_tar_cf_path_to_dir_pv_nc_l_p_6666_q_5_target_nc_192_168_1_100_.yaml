@@ -1,0 +1,8 @@
+commandlinefu_id: 15289
+translator:
+  weibo: ''
+hide: true
+command: |-
+  #@source; tar -cf - /path/to/dir | pv | nc -l -p 6666 -q 5; #@target; nc 192.168.1.100 6666 | pv | tar -xf -
+summary: |-
+  Network Folder Copy with Monitoring ( tar + nc + pv )

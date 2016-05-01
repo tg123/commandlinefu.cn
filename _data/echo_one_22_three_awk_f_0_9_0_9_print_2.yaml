@@ -1,0 +1,8 @@
+commandlinefu_id: 15422
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo one 22 three | awk -F'[0-9][0-9]' '{print $2}'
+summary: |-
+  Use a regex as a field separator awk

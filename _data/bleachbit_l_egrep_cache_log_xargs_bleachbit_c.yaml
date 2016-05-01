@@ -1,0 +1,8 @@
+commandlinefu_id: 15642
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bleachbit -l | egrep 'cache|log' | xargs bleachbit -c
+summary: |-
+  Erase Logs / Cache

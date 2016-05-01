@@ -1,0 +1,8 @@
+commandlinefu_id: 14900
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ip a s
+summary: |-
+  Display ip info

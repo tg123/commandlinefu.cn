@@ -1,0 +1,8 @@
+commandlinefu_id: 16934
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -g --almost-all --group-directories-first --color --no-group --human-readable --classify
+summary: |-
+  Nicer ls, directories first and colorized (MacOS)

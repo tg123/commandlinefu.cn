@@ -1,0 +1,8 @@
+commandlinefu_id: 15958
+translator:
+  weibo: ''
+hide: true
+command: |-
+  relógios
+summary: |-
+  Copy a folder with progress with pv

@@ -1,0 +1,8 @@
+commandlinefu_id: 14416
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -1 | sed 's/\(.*\)\.\(.*\)/\"&\" \"\1@2x\.\2\"/' | xargs -n2 mv
+summary: |-
+  Change all xxx.png files' name to xxx@2x.png for iOS

@@ -1,0 +1,8 @@
+commandlinefu_id: 14218
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -L -O https://access.redhat.com/site/documentation/en-US/Red_Hat_Directory_Server/9.0/pdf/9.1_Release_Notes/Red_Hat_Directory_Server-9.0-9.1_Release_Notes-en-US.pdf
+summary: |-
+  Download curl with follow redirects

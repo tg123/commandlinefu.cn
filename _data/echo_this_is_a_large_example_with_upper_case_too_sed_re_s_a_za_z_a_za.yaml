@@ -1,0 +1,8 @@
+commandlinefu_id: 15444
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "this_is_a_large_example_With_Upper_case_too" | sed -re 's/(_([a-zA-Z]))+([a-zA-Z]+)+/\U\2\L\3/g;s/(^[a-z])/\U\1/')
+summary: |-
+  underscore to camelCase

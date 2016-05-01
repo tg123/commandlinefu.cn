@@ -1,0 +1,8 @@
+commandlinefu_id: 15027
+translator:
+  weibo: ''
+hide: true
+command: |-
+  readonly year month day hour minutes seconds epoch _ < <(date '+%Y %m %d %H %M %S %s')
+summary: |-
+  create 7 constants using output of date command

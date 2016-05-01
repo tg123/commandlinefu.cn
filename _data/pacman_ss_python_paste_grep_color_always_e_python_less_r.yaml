@@ -1,0 +1,8 @@
+commandlinefu_id: 15431
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pacman -Ss python |  paste - - | grep --color=always -e '/python' | less -R
+summary: |-
+  Ergo browsing 'pacman' queries (Arch)

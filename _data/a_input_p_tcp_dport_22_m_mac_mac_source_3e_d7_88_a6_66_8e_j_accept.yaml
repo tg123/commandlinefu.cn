@@ -1,0 +1,8 @@
+commandlinefu_id: 14686
+translator:
+  weibo: ''
+hide: true
+command: |-
+  -A INPUT -p tcp --dport 22 -m mac --mac-source 3E:D7:88:A6:66:8E -j ACCEPT
+summary: |-
+  iptables for mac

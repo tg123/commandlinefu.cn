@@ -1,0 +1,8 @@
+commandlinefu_id: 16937
+translator:
+  weibo: ''
+hide: true
+command: |-
+  B$ scp -3 A:file C:file
+summary: |-
+  scp through host in the middle

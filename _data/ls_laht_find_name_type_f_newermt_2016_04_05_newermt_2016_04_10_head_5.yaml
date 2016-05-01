@@ -1,0 +1,8 @@
+commandlinefu_id: 16943
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -laht `find / -name "*.*" -type f -newermt "2016-04-05" ! -newermt "2016-04-10"`|head -5
+summary: |-
+  List latest 5 modified files recursively

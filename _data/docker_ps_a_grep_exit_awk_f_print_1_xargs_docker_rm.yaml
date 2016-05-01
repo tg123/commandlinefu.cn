@@ -1,0 +1,8 @@
+commandlinefu_id: 14402
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker ps -a | grep Exit | awk -F " " '{ print $1 }' | xargs docker rm {}
+summary: |-
+  Docker: Remove all exited docker container

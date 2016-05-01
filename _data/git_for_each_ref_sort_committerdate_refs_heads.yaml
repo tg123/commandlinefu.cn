@@ -1,0 +1,8 @@
+commandlinefu_id: 14197
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git for-each-ref --sort=-committerdate refs/heads/
+summary: |-
+  Git branches sorted by last commit date

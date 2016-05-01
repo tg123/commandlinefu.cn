@@ -1,0 +1,8 @@
+commandlinefu_id: 14759
+translator:
+  weibo: ''
+hide: true
+command: |-
+  s=1G bs=16K; count=`units ${s}iB ${bs}iB -1 -t --out="%.f"`; openssl enc -aes-256-ctr -pass pass:`date +%s%N` -nosalt < /dev/zero 2>/dev/null | dd iflag=fullblock bs=$bs count=$count | tee $s | pv -s $s | md5sum | sed -e "s/-/$s/" > ${s}.md5
+summary: |-
+  Generate File and Checksum with pseudo-random Content and Size in Bash

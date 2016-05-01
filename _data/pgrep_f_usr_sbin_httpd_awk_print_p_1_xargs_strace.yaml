@@ -1,0 +1,8 @@
+commandlinefu_id: 14306
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pgrep -f /usr/sbin/httpd | awk '{print"-p " $1}' | xargs strace
+summary: |-
+  easily strace all your apache processes

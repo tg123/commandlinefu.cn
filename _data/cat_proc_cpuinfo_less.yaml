@@ -1,0 +1,8 @@
+commandlinefu_id: 14765
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /proc/cpuinfo | less
+summary: |-
+  Info cpu

@@ -1,0 +1,8 @@
+commandlinefu_id: 14241
+translator:
+  weibo: ''
+hide: true
+command: |-
+  uudeview +e .zip -i mail.eml
+summary: |-
+  Decode a MIME message

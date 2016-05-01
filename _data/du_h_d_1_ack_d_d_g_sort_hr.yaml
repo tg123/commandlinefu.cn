@@ -1,0 +1,8 @@
+commandlinefu_id: 14182
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h -d 1 | ack '\d+\.?\d+G' | sort -hr
+summary: |-
+  find directories on your machine that are taking up greater than 1G

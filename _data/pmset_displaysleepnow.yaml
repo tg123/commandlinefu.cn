@@ -1,0 +1,8 @@
+commandlinefu_id: 15637
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pmset displaysleepnow
+summary: |-
+  shut of the screen.

@@ -1,0 +1,8 @@
+commandlinefu_id: 14287
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tcpdump -A -s 10240 'tcp port 1344 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)' | egrep --line-buffered "^........(REQMOD |RESPMOD )|^[A-Za-z0-9-]+: " | sed -r 's/^........(REQMOD |RESPMOD )/\n\1/g'
+summary: |-
+  How to capture ICAP headers with tcpdump

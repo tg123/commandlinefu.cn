@@ -1,0 +1,8 @@
+commandlinefu_id: 14190
+translator:
+  weibo: ''
+hide: true
+command: |-
+  input=a.pdf ; pages=`pdftk $input dump_data | grep -i numberofpages | cut -d" " -f 2`; pdftk A=$input  shuffle A1-$[$pages/2] A$pages-$[$pages/2+1] output "${input%.*}.rearranged.${input##*.}"
+summary: |-
+  Duplex PDF from a simplex scanner

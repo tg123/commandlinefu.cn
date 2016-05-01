@@ -1,0 +1,8 @@
+commandlinefu_id: 14243
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for x in `ls -1`; do $SOMETHING; done
+summary: |-
+  for x in `ls -1`; do $SOMETHING; done

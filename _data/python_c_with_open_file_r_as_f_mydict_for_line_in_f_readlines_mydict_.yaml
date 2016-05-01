@@ -1,0 +1,8 @@
+commandlinefu_id: 14904
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "with open(file, 'r') as f:  mydict = {}   for line in f.readlines():     mydict[line] = None   for v in mydict.keys():     print v "
+summary: |-
+  Poor man's unsort (randomize lines)

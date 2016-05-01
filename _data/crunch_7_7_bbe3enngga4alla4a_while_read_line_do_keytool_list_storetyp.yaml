@@ -1,0 +1,8 @@
+commandlinefu_id: 14191
+translator:
+  weibo: ''
+hide: true
+command: |-
+  crunch 7 7 Bbe3EnNGga4AlLa4A | while read line; do keytool -list -storetype PKCS12 -keystore /path/to/file.pfx -storepass $line; if [ $? -eq 0 ]; then echo $line; break; fi; done;
+summary: |-
+  Bruteforce a P12 file

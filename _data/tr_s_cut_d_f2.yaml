@@ -1,0 +1,8 @@
+commandlinefu_id: 14224
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tr -s ' ' | cut -d' ' -f2-
+summary: |-
+  drop first column of output by piping to this

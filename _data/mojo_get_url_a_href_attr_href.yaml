@@ -1,0 +1,8 @@
+commandlinefu_id: 14390
+translator:
+  weibo: ''
+hide: true
+command: |-
+  mojo get <URL> 'a[href]' attr href
+summary: |-
+  pull list of links URLs from a given web page

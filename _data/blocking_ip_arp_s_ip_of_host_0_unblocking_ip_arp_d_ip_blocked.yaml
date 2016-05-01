@@ -1,0 +1,8 @@
+commandlinefu_id: 14177
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Blocking ip: arp -s ip_of_host 0, Unblocking ip: arp -d ip_blocked
+summary: |-
+  Using arp command to block hosts.

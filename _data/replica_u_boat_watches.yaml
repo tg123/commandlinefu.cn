@@ -1,0 +1,8 @@
+commandlinefu_id: 15524
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Replica U-Boat watches
+summary: |-
+  Read Python logs with tracebacks in color

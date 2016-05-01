@@ -1,0 +1,8 @@
+commandlinefu_id: 15002
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ~/irclogs/ -type f -printf "%T+\t%p\n" | sort | cut -f2 | xargs -I {} sed -n "/^\-\-\-/ {x; /searched phrase/ p;x;h}; /searched phrase/ {H;};" {}
+summary: |-
+  Search irssi logs for specific pattern and display time and matching lines

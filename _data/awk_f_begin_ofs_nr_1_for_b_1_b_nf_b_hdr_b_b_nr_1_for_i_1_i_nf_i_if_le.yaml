@@ -1,0 +1,8 @@
+commandlinefu_id: 14164
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F"|" 'BEGIN {OFS="|"} NR==1 {for (b=1;b<=NF;b++) {hdr[b]=$b} } NR > 1 {for (i=1;i<=NF;i++) {if(length($i) > max[i]) max[i] = length($i)} } END {for (i=1;i <= NF;i++) print hdr[i],max[i]+0}' pipe_delimited_file.psv
+summary: |-
+  Show max lengths of all fields in a pipe delimited file with header row

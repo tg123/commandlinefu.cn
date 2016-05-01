@@ -1,0 +1,8 @@
+commandlinefu_id: 15448
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl https://outboundip.com
+summary: |-
+  Get your external IP address

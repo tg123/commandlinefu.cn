@@ -1,0 +1,8 @@
+commandlinefu_id: 14922
+translator:
+  weibo: ''
+hide: true
+command: |-
+  wget -q -O- http://www.yourfeed.com/rss | grep -o "<link[ -~][^>]*" | grep -o "http://www.myfeed.com[ -~][^\"]*" | sed "s: :%20:g" | xargs wget -c
+summary: |-
+  Download files linked in a RSS feed

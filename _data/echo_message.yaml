@@ -1,0 +1,8 @@
+commandlinefu_id: 14854
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "Message"
+summary: |-
+  display a message

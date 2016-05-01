@@ -1,0 +1,8 @@
+commandlinefu_id: 14392
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/urandom bs=1k count=1 2>/dev/null|LC_CTYPE=C tr -dc 'abcdefghijklmnopqrstuvwxyz0123456789!@#%^&*(-_=+)'|head -c 20
+summary: |-
+  Generate a random string (for password, hash or whatever)

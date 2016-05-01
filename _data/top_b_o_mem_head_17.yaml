@@ -1,0 +1,8 @@
+commandlinefu_id: 15786
+translator:
+  weibo: ''
+hide: true
+command: |-
+  top -b -o +%MEM |head -17
+summary: |-
+  Display the top ten running processes - sorted by memory usage

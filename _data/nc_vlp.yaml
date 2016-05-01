@@ -1,0 +1,8 @@
+commandlinefu_id: 15040
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nc -vlp
+summary: |-
+  One command line web server on port 80 using nc (netcat)

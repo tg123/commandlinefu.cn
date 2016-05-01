@@ -1,0 +1,8 @@
+commandlinefu_id: 15647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ssh root@server.com "tcpdump -i INTERFACE_NAME -U -nnn -s0 -w - 'port 80'" | /cygdrive/c/Program\ Files/Wireshark/Wireshark.exe -N mnNtCd -k -i -
+summary: |-
+  analyze traffic remotely over ssh w/ wireshark

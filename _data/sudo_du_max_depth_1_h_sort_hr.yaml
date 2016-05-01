@@ -1,0 +1,8 @@
+commandlinefu_id: 14213
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo du --max-depth=1 -h | sort -hr
+summary: |-
+  list the file size of files in a directory and sort by size

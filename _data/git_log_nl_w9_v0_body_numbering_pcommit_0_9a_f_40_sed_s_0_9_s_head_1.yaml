@@ -1,0 +1,8 @@
+commandlinefu_id: 15065
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git log | nl -w9 -v0 --body-numbering='pcommit\ [0-9a-f]\{40\}' | sed 's/^ \+\([0-9]\+\)\s\+/HEAD~\1 /'
+summary: |-
+  Show a git log with offsets relative to HEAD

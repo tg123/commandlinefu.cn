@@ -1,0 +1,8 @@
+commandlinefu_id: 14260
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup StartMand.sh -e -b -d mandala.cfg GET_FILES SALES_TRX AGG_TRX &
+summary: |-
+  Start Mandala Integration

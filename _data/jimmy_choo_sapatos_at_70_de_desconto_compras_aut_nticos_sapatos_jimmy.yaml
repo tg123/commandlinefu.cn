@@ -1,0 +1,8 @@
+commandlinefu_id: 15402
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Jimmy Choo sapatos até 70% de desconto compras! Autênticos sapatos Jimmy Choo online!
+summary: |-
+  s3cmd du s3://bucket-name | awk '{print $0/1024/1024/1024

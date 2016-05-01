@@ -1,0 +1,8 @@
+commandlinefu_id: 14661
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nohup exemplo.sh &
+summary: |-
+  Making scripts runs on backgourd and logging output

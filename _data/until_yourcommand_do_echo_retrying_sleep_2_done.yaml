@@ -1,0 +1,8 @@
+commandlinefu_id: 14300
+translator:
+  weibo: ''
+hide: true
+command: |-
+  until YOURCOMMAND; do echo "Retrying"; sleep 2; done
+summary: |-
+  keep trying a command until it is successful

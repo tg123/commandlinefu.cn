@@ -1,0 +1,8 @@
+commandlinefu_id: 14857
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -MPOSIX=strftime -MFile::Path -e 'for(glob"*"){mkpath$d=strftime"%Y-%m-%d", localtime((stat)[9]);rename$_,"$d/$_"}'
+summary: |-
+  Sort your files

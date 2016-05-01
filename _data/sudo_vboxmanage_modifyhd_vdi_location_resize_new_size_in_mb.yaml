@@ -1,0 +1,8 @@
+commandlinefu_id: 14211
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo VBoxManage modifyhd "vdi location" --resize "new size in MB"
+summary: |-
+  Resize the size of a virtualbox harddrive

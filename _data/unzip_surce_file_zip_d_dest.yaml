@@ -1,0 +1,8 @@
+commandlinefu_id: 14887
+translator:
+  weibo: ''
+hide: true
+command: |-
+  unzip /surce/file.zip -d /dest/
+summary: |-
+  unzip to specific directory

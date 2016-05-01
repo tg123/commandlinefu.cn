@@ -1,0 +1,8 @@
+commandlinefu_id: 14655
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed -e "s/[^/]*\/\/\([^@]*@\)\?\([^:/]*\).*/\2/"
+summary: |-
+  Getting a domain from url, ex: very nice to get url from squid access.log

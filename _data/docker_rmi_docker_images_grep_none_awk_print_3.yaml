@@ -1,0 +1,8 @@
+commandlinefu_id: 15632
+translator:
+  weibo: ''
+hide: true
+command: |-
+  docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+summary: |-
+  Remove all untagged docker images

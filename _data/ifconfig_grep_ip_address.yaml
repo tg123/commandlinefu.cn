@@ -1,0 +1,8 @@
+commandlinefu_id: 14297
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ifconfig | grep <IP address>
+summary: |-
+  Confirm the IP of active terminal

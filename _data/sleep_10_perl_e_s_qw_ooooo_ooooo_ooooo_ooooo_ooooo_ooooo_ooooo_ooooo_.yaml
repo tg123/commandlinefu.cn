@@ -1,0 +1,8 @@
+commandlinefu_id: 14228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sleep 10 & perl -e '$|=@s=qw(-Ooooo \oOooo |ooOoo /oooOo -ooooO \oooOo |ooOoo /oOooo);while(kill 0,'$!'){ print "\r",$s[$t++%($#s+1)];select(undef,undef,undef,0.2);}'
+summary: |-
+  Display Spinner while waiting for some process to finish

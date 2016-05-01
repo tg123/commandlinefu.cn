@@ -1,0 +1,8 @@
+commandlinefu_id: 15227
+translator:
+  weibo: ''
+hide: true
+command: |-
+  qdel {18210..18285}
+summary: |-
+  qdel range of jobs

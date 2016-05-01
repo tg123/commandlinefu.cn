@@ -1,0 +1,8 @@
+commandlinefu_id: 14373
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -nri "pattern_to_search" folder_name/ | awk -F ":" '{print $1}' | uniq | awk 'BEGIN {f=""} {f = f" "$0} END {print f}'
+summary: |-
+  Grep for pattern & get uniq filenames

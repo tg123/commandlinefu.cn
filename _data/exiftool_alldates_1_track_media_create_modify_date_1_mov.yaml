@@ -1,0 +1,8 @@
+commandlinefu_id: 14326
+translator:
+  weibo: ''
+hide: true
+command: |-
+  exiftool -AllDates+=1 -{Track,Media}{Create,Modify}Date+=1 *.mov
+summary: |-
+  Adjust all EXIF timestamps in .mov by +1 hour

@@ -1,0 +1,8 @@
+commandlinefu_id: 16509
+translator:
+  weibo: ''
+hide: true
+command: |-
+  da tasca
+summary: |-
+  check remote port  without telnet

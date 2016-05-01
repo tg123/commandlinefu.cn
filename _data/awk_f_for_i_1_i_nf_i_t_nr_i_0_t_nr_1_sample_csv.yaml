@@ -1,0 +1,8 @@
+commandlinefu_id: 14669
+translator:
+  weibo: ''
+hide: true
+command: |-
+  awk -F , '{for(i=1;i<=NF;i++)t[NR]+=$i;$0=t[NR]}1' sample.csv
+summary: |-
+  Sum columns on one line in a csv file.

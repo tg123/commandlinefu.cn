@@ -1,0 +1,8 @@
+commandlinefu_id: 14714
+translator:
+  weibo: ''
+hide: true
+command: |-
+  apropos -a keywords
+summary: |-
+  find an installed program for a task

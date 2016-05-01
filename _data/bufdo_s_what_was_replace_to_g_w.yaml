@@ -1,0 +1,8 @@
+commandlinefu_id: 14176
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :bufdo :%s/<what-was>/replace-to/g | w!
+summary: |-
+  edit multiple files at once

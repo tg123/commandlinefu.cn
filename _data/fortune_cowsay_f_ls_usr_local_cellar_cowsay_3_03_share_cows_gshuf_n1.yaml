@@ -1,0 +1,8 @@
+commandlinefu_id: 14856
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune | cowsay -f $(ls /usr/local/Cellar/cowsay/3.03/share/cows | gshuf -n1)
+summary: |-
+  Have a random

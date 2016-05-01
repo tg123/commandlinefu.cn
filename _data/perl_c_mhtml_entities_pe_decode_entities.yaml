@@ -1,0 +1,8 @@
+commandlinefu_id: 15037
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -C -MHTML::Entities -pe 'decode_entities($_);'
+summary: |-
+  encode HTML entities

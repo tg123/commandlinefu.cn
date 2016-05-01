@@ -1,0 +1,8 @@
+commandlinefu_id: 14646
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd ~/.vim/bundle/ ; LS="$(ls -1)" ; for DIR in ${LS[@]} ; do cd $DIR ; git pull ; cd .. ; done
+summary: |-
+  Update git-based vim plugins in a command

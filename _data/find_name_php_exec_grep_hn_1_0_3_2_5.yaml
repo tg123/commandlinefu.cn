@@ -1,0 +1,8 @@
+commandlinefu_id: 14916
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find / -name \*.php -exec grep -Hn .1.=.......0.=.......3.=.......2.=.......5.= {} \;
+summary: |-
+  Search entire server for Q4 2015 obfuscated PHP malware of unknown origin.

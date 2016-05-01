@@ -1,0 +1,8 @@
+commandlinefu_id: 14335
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for file in $( git ls-files ); do echo $file; touch -t $(git --no-pager log --date=local -1 --format="%ct" $file | php -r 'echo @date( "YmdHi.s", trim( file_get_contents( "php://stdin" ) ) );') $file; done
+summary: |-
+  Reset the last modified time for each file in a git repo to its last commit time

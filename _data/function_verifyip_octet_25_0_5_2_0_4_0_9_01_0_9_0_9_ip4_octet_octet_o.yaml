@@ -1,0 +1,8 @@
+commandlinefu_id: 14201
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function verifyIP() { octet="(25[0-5]|2[0-4][0-9]|[01]?[0-9]?[0-9])"; ip4="^$octet\.$octet\.$octet\.$octet$"; [[ ${1} =~ $ip4 ]] && return 0 || return 1; }
+summary: |-
+  function to verify an IP address - can be used at the shell prompt or in a shell script

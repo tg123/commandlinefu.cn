@@ -1,0 +1,8 @@
+commandlinefu_id: 14730
+translator:
+  weibo: ''
+hide: true
+command: |-
+  telnet time.nist.gov 37 2>/dev/null |tail -1 | xxd | awk '{print $2 $3}'|tr -d '\n' | perl -nwe "print scalar(hex($1)-2208988800).\"\n\""
+summary: |-
+  Epoch from time protocol port 37

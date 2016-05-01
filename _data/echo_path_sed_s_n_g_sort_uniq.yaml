@@ -1,0 +1,8 @@
+commandlinefu_id: 14758
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $PATH | sed 's/:/\n/g' | sort | uniq
+summary: |-
+  pretty print environment variable  PATH

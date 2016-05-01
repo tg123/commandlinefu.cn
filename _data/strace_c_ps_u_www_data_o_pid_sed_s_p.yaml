@@ -1,0 +1,8 @@
+commandlinefu_id: 15069
+translator:
+  weibo: ''
+hide: true
+command: |-
+  strace -c $(ps -u www-data o pid= | sed 's/^/-p/')
+summary: |-
+  easily strace all your apache *child* processes

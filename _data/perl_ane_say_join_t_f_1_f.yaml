@@ -1,0 +1,8 @@
+commandlinefu_id: 14237
+translator:
+  weibo: ''
+hide: true
+command: |-
+  perl -anE'say join "\t",@F[1..$#F]'
+summary: |-
+  drop first column of output by piping to this

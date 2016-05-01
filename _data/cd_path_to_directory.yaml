@@ -1,0 +1,8 @@
+commandlinefu_id: 14715
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cd path/to/directory
+summary: |-
+  enter a directory

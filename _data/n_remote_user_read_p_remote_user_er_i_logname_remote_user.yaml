@@ -1,0 +1,8 @@
+commandlinefu_id: 14921
+translator:
+  weibo: ''
+hide: true
+command: |-
+  [ -n "$REMOTE_USER" ] || read -p "Remote User: " -er -i "$LOGNAME" REMOTE_USER
+summary: |-
+  If (and only if) the variable is not set, prompt users and give them a default option already filled in.

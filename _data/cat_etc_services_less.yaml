@@ -1,0 +1,8 @@
+commandlinefu_id: 15066
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/services |less
+summary: |-
+  network services

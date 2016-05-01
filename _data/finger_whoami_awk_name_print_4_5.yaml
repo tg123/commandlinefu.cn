@@ -1,0 +1,8 @@
+commandlinefu_id: 14360
+translator:
+  weibo: ''
+hide: true
+command: |-
+  finger $(whoami) | awk '/Name:/ {print $4" "$5}'
+summary: |-
+  Get user's full name in Mac OS X

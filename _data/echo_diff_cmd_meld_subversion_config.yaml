@@ -1,0 +1,8 @@
+commandlinefu_id: 14672
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo 'diff-cmd = meld' >> ~/.subversion/config
+summary: |-
+  Send your svn diff to meld

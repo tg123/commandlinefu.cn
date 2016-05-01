@@ -1,0 +1,8 @@
+commandlinefu_id: 14861
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lame -V0 -q0 --vbr-new audio.wav audio.mp3
+summary: |-
+  convert WAV audio to MP3

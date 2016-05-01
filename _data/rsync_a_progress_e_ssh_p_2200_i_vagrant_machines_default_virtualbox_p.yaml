@@ -1,0 +1,8 @@
+commandlinefu_id: 15248
+translator:
+  weibo: ''
+hide: true
+command: |-
+  rsync -a --progress -e 'ssh -p 2200 -i .vagrant/machines/default/virtualbox/private_key' vagrant@127.0.0.1:/vagrant/vm/old_timecapsule_backup /Volumes/2TB/
+summary: |-
+  Virtualbox rsync copy (without defining any virtualbox configuration)

@@ -1,0 +1,8 @@
+commandlinefu_id: 14411
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find ./ -type f -exec grep -H <string> {} \;
+summary: |-
+  Locate a string in any file

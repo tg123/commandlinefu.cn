@@ -1,0 +1,8 @@
+commandlinefu_id: 14748
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sh -c "rm /usr/share/mime/packages/kde.xml && update-mime-database /usr/share/mime"
+summary: |-
+  Fix "Unknown media type in type" warnings when installing packages

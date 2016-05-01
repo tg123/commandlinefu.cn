@@ -1,0 +1,8 @@
+commandlinefu_id: 14185
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo mtr -s 1472 -B 0 -oLDRSWNBAWVJMXI <ip address>
+summary: |-
+  MTR command line to show jitter and mimic network traffic

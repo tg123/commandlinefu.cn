@@ -1,0 +1,8 @@
+commandlinefu_id: 14873
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for d in */;{ echo $d; }
+summary: |-
+  List all directories only.

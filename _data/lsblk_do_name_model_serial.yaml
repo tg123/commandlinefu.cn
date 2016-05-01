@@ -1,0 +1,8 @@
+commandlinefu_id: 14352
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsblk -do name,model,serial
+summary: |-
+  Show drive names next to their full serial number (and disk info)

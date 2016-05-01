@@ -1,0 +1,8 @@
+commandlinefu_id: 15017
+translator:
+  weibo: ''
+hide: true
+command: |-
+  netstat -np | grep -v ^unix
+summary: |-
+  Examine processes generating traffic on your website

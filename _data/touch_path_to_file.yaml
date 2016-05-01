@@ -1,0 +1,8 @@
+commandlinefu_id: 14727
+translator:
+  weibo: ''
+hide: true
+command: |-
+  touch /path/to/file
+summary: |-
+  create an empty file

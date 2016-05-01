@@ -1,0 +1,8 @@
+commandlinefu_id: 14379
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dd if=/dev/urandom count=1 bs=1024 2>/dev/null | base64 | tr -dc 'a-zA-Z0-9' | fold -w 16 | head -n1
+summary: |-
+  Generate a random password 16 characters long

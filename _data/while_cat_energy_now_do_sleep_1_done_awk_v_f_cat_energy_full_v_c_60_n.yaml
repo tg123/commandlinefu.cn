@@ -1,0 +1,8 @@
+commandlinefu_id: 14705
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while cat energy_now; do sleep 1; done |awk -v F=$(cat energy_full) -v C=60 'NR==1{P=B=$1;p=100/F} {d=$1-P; if(d!=0&&d*D<=0){D=d;n=1;A[0]=B=P}; if(n>0){r=g=($1-B)/n;if(n>C){r=($1-A[n%C])/C}}; A[n++%C]=P=$1; printf "%3d %+09.5f %+09.5f\n", p*$1, p*g, p*r}'
+summary: |-
+  Monitors battery usage (rate of energy charge/discharge)

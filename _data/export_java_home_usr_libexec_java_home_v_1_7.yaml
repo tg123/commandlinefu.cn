@@ -1,0 +1,8 @@
+commandlinefu_id: 14403
+translator:
+  weibo: ''
+hide: true
+command: |-
+  export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+summary: |-
+  Set Java home directory based on version for Mac OSX Yosemite

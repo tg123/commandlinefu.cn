@@ -1,0 +1,8 @@
+commandlinefu_id: 16423
+translator:
+  weibo: ''
+hide: true
+command: |-
+  IWC Aquatimer
+summary: |-
+  Virtualbox rsync copy (without defining any virtualbox configuration)

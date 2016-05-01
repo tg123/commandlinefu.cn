@@ -1,0 +1,8 @@
+commandlinefu_id: 14699
+translator:
+  weibo: ''
+hide: true
+command: |-
+  followers() { curl -s https://twitter.com/$1 | grep -o '[0-9,]* Followers'; }
+summary: |-
+  Check Twitter followers

@@ -1,0 +1,8 @@
+commandlinefu_id: 14304
+translator:
+  weibo: ''
+hide: true
+command: |-
+  tmux new-session -A
+summary: |-
+  Alias for lazy tmux create/reattach

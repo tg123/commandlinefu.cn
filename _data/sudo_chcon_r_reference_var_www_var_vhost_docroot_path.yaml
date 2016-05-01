@@ -1,0 +1,8 @@
+commandlinefu_id: 14427
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo chcon -R -reference /var/www /var/vhost_docroot_path
+summary: |-
+  httpd don't work on SELinux? do this command.

@@ -1,0 +1,8 @@
+commandlinefu_id: 16155
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Breguet
+summary: |-
+  drop first column of output by piping to this

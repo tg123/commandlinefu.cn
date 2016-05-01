@@ -1,0 +1,8 @@
+commandlinefu_id: 15626
+translator:
+  weibo: ''
+hide: true
+command: |-
+  egrep -v '^\s*($|#)' $(git grep -l '#!/bin/.*sh' *) | wc -l
+summary: |-
+  Count relevant lines of shell code in a git repo

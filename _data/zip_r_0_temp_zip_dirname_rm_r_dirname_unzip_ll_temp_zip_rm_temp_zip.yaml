@@ -1,0 +1,8 @@
+commandlinefu_id: 14680
+translator:
+  weibo: ''
+hide: true
+command: |-
+  zip -r -0 temp.zip DIRNAME/* && rm -R DIRNAME && unzip -LL temp.zip && rm temp.zip
+summary: |-
+  recursively change file name from uppercase to lowercase

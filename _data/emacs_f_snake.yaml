@@ -1,0 +1,8 @@
+commandlinefu_id: 15004
+translator:
+  weibo: ''
+hide: true
+command: |-
+  emacs -f snake
+summary: |-
+  Play Lisp Snake in Emacs

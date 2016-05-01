@@ -1,0 +1,8 @@
+commandlinefu_id: 14539
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python -c "import requests; from bs4 import BeautifulSoup; print '\n'.join([cmd.text for cmd in BeautifulSoup(requests.get('http://www.commandlinefu.com/commands/by/${USER}').content, 'html.parser').find_all('div','command')])"
+summary: |-
+  Print all commands of a user on commandlinefu.com

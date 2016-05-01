@@ -1,0 +1,8 @@
+commandlinefu_id: 17186
+translator:
+  weibo: ''
+hide: true
+command: |-
+  systemctl --no-page -t service -a --state running --no-legend
+summary: |-
+  Show running services (using systemctl)

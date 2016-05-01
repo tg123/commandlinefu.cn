@@ -1,0 +1,8 @@
+commandlinefu_id: 15041
+translator:
+  weibo: ''
+hide: true
+command: |-
+  nm-tool
+summary: |-
+  provides  information  about  NetworkManager, device, and wireless networks.

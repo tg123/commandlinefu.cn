@@ -1,0 +1,8 @@
+commandlinefu_id: 14184
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -sc .[!.]* * |grep '^[0-9]{4}'
+summary: |-
+  list all files or directories consuming 1Mb or more

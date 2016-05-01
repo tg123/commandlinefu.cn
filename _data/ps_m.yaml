@@ -1,0 +1,8 @@
+commandlinefu_id: 15023
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps m
+summary: |-
+  Display thread information in ps

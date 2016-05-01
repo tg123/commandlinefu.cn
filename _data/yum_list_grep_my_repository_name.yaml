@@ -1,0 +1,8 @@
+commandlinefu_id: 16945
+translator:
+  weibo: ''
+hide: true
+command: |-
+  yum list | grep my_repository_name
+summary: |-
+  Listing only one repository with yum

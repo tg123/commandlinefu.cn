@@ -1,0 +1,8 @@
+commandlinefu_id: 14881
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat *.jpg | ffmpeg -f image2pipe -r 1 -vcodec mjpeg -i - -vcodec libx264 out.mp4
+summary: |-
+  Convert all JPEG images to MP4

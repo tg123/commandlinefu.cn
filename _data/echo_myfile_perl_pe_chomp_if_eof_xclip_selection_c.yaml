@@ -1,0 +1,8 @@
+commandlinefu_id: 14688
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo $MYFILE | perl -pe "chomp if eof" | xclip -selection c
+summary: |-
+  Pipe to X11 clipboard

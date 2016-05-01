@@ -1,0 +1,8 @@
+commandlinefu_id: 14380
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eval `cli53 list |grep Name | sed "s/\.$//g" | awk '{printf("echo %s; cli53 export %s > %s;\n", $2, $2, $2);}'`
+summary: |-
+  Export all domains in bind format from AWS Route53

@@ -1,0 +1,8 @@
+commandlinefu_id: 15428
+translator:
+  weibo: ''
+hide: true
+command: |-
+  copy con whatityped.bat
+summary: |-
+  Quickly create a batch file of your previously typed commands

@@ -1,0 +1,8 @@
+commandlinefu_id: 15613
+translator:
+  weibo: ''
+hide: true
+command: |-
+  adb shell "screencap -p | base64" | sed 's/\r$//' | base64 -d | display
+summary: |-
+  Takes and displays screenshot of Android phone over adb.

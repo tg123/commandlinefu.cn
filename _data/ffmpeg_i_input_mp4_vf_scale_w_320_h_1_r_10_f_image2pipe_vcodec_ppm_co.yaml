@@ -1,0 +1,8 @@
+commandlinefu_id: 15305
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i input.mp4 -vf scale=w=320:h=-1 -r 10 -f image2pipe -vcodec ppm - | convert -delay 5 -loop 0 - output.gif
+summary: |-
+  Convert video file to animated gif (high quality)

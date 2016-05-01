@@ -1,0 +1,8 @@
+commandlinefu_id: 14647
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sed 's/,/\n/g;q' file.csv | nl
+summary: |-
+  Printout a list of field numbers from a CSV file with headers as first line.

@@ -1,0 +1,8 @@
+commandlinefu_id: 15304
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while true; do pos=$(curl -s "http://api.open-notify.org/iss-now.json"); echo "lat=$(echo $pos | jq ".iss_position.latitude"), lon=$(echo $pos | jq ".iss_position.longitude")"; sleep 1; done
+summary: |-
+  Get current position of the International Space Station in pulses of 1 second

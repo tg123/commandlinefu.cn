@@ -1,0 +1,8 @@
+commandlinefu_id: 14739
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xargs -0a /proc/27288/cmdline echo
+summary: |-
+  Show the command line for a PID, converting nulls to spaces and a newline

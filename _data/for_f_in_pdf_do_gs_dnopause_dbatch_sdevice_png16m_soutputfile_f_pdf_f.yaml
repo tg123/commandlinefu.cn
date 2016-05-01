@@ -1,0 +1,8 @@
+commandlinefu_id: 14388
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in *.pdf;  do gs -dNOPAUSE -dBATCH -sDEVICE=png16m -sOutputFile="${f%.pdf}/${f%.pdf}%d.png" -r700x600 "$f" ;done
+summary: |-
+  Mass convert Manga PDF's to Images

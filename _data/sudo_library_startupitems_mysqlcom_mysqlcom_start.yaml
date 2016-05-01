@@ -1,0 +1,8 @@
+commandlinefu_id: 15413
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo /Library/StartupItems/MySQLCOM/MySQLCOM start
+summary: |-
+  Start mysql server on Mac

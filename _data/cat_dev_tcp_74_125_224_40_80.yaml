@@ -1,0 +1,8 @@
+commandlinefu_id: 15074
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat < /dev/tcp/74.125.224.40/80
+summary: |-
+  check remote port  without telnet

@@ -1,0 +1,8 @@
+commandlinefu_id: 14410
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -exec grep -H "<expression>" {} \;
+summary: |-
+  Find a expression inside any readable archive from the folder I'm and their subfolders

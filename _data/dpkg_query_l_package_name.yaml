@@ -1,0 +1,8 @@
+commandlinefu_id: 15228
+translator:
+  weibo: ''
+hide: true
+command: |-
+  dpkg-query -L <package-name>
+summary: |-
+  List, what does a package do

@@ -1,0 +1,8 @@
+commandlinefu_id: 15063
+translator:
+  weibo: ''
+hide: true
+command: |-
+  o=0; git log --oneline | while read l; do printf "%+9s %s\n" "HEAD~${o}" "$l"; o=$(($o+1)); done | less
+summary: |-
+  list offsets from HEAD with git log.

@@ -1,0 +1,8 @@
+commandlinefu_id: 14179
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -fwwp $(pgrep process_name)
+summary: |-
+  Search for a process by name

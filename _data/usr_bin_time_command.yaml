@@ -1,0 +1,8 @@
+commandlinefu_id: 15024
+translator:
+  weibo: ''
+hide: true
+command: |-
+  /usr/bin/time command
+summary: |-
+  time with extensive statistics

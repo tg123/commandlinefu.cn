@@ -1,0 +1,8 @@
+commandlinefu_id: 14319
+translator:
+  weibo: ''
+hide: true
+command: |-
+  diff a.txt b.txt | grep -E '^(<|>)' | sed 's:^< \(.*\):<del style="color\:red; text-decoration\: none">- \1</del><br>:' | sed 's:^> \(.*\):<ins style="color\:green; text-decoration\: none">+ \1</ins><br>:'
+summary: |-
+  Convert diff output to HTML ins/del

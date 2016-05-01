@@ -1,0 +1,8 @@
+commandlinefu_id: 14359
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.js' | xargs du -bc -h | sort -k1,1 -h
+summary: |-
+  Show disk size of files matching a pattern, sorted in increasing size

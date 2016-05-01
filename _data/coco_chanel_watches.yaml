@@ -1,0 +1,8 @@
+commandlinefu_id: 14516
+translator:
+  weibo: ''
+hide: true
+command: |-
+  coco chanel watches
+summary: |-
+  Print all open regular files sorted by the number of file handles open to each.

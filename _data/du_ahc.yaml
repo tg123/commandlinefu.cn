@@ -1,0 +1,8 @@
+commandlinefu_id: 14847
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -ahc
+summary: |-
+  count files and directories disk space usage

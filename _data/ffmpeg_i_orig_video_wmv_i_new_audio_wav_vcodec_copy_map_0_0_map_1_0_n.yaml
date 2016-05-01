@@ -1,0 +1,8 @@
+commandlinefu_id: 14859
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ffmpeg -i orig_video.wmv -i new_audio.wav -vcodec copy -map 0.0 -map 1.0 new_video.wmv
+summary: |-
+  replace audio track in a video file

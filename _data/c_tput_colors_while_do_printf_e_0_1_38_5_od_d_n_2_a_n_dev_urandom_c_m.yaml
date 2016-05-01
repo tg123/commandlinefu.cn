@@ -1,0 +1,8 @@
+commandlinefu_id: 15300
+translator:
+  weibo: ''
+hide: true
+command: |-
+  c=`tput colors`;while :;do printf "\e[0;1;38;5;$((`od -d -N 2 -A n /dev/urandom`%$c))m\u2022";done
+summary: |-
+  Disco lights in the terminal

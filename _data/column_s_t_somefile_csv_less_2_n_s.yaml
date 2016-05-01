@@ -1,0 +1,8 @@
+commandlinefu_id: 15079
+translator:
+  weibo: ''
+hide: true
+command: |-
+  column -s, -t < somefile.csv | less -#2 -N -S
+summary: |-
+  Pretty Print a simple csv in the command line

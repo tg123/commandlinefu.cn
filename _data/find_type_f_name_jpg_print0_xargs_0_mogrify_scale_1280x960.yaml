@@ -1,0 +1,8 @@
+commandlinefu_id: 14408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -type f -name '*.jpg' -print0 | xargs -0 mogrify -scale 1280x960
+summary: |-
+  Resize jpg images in the current directory using imagemagick

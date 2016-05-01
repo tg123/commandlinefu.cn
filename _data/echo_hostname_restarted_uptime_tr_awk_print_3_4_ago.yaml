@@ -1,0 +1,8 @@
+commandlinefu_id: 15058
+translator:
+  weibo: ''
+hide: true
+command: |-
+  echo "$HOSTNAME restarted $(uptime | tr , ' ' | awk '{print $3" "$4}') ago"
+summary: |-
+  displays the uptime in a friendly way

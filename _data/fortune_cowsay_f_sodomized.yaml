@@ -1,0 +1,8 @@
+commandlinefu_id: 15614
+translator:
+  weibo: ''
+hide: true
+command: |-
+  fortune | cowsay -f sodomized
+summary: |-
+  Funny way to use cowsay to offend people

@@ -1,0 +1,8 @@
+commandlinefu_id: 17013
+translator:
+  weibo: ''
+hide: true
+command: |-
+  eplica iwc watches
+summary: |-
+  Git reset added new files

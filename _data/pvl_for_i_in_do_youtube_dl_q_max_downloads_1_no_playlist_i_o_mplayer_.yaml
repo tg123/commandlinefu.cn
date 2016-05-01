@@ -1,0 +1,8 @@
+commandlinefu_id: 14361
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pvl() { (for i in "$@"; do youtube-dl -q --max-downloads 1 --no-playlist "$i" -o - | mplayer -vo null /dev/fd/3 3<&0 </dev/tty; sleep .5; done); }
+summary: |-
+  Play online music videos in terminal

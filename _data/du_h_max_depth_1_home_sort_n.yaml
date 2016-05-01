@@ -1,0 +1,8 @@
+commandlinefu_id: 14687
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -h --max-depth=1 /home/ | sort -n
+summary: |-
+  centos list directories sorted by size

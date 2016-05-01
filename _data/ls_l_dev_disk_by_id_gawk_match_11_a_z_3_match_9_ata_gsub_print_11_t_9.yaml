@@ -1,0 +1,8 @@
+commandlinefu_id: 14257
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls -l /dev/disk/by-id |gawk 'match($11, /[a-z]{3}$/) && match($9, /^ata-/) { gsub("../", ""); print $11,"\t",$9 }' |sort
+summary: |-
+  Show drive names next to their full serial number (and disk info)

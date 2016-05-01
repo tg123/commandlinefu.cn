@@ -1,0 +1,8 @@
+commandlinefu_id: 14311
+translator:
+  weibo: ''
+hide: true
+command: |-
+  imgur <file>
+summary: |-
+  upload an image to imgur

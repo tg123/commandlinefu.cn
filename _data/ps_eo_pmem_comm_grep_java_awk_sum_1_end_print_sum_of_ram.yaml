@@ -1,0 +1,8 @@
+commandlinefu_id: 15620
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -eo pmem,comm | grep java | awk '{sum+=$1} END {print sum " % of RAM"}'
+summary: |-
+  total percentage of memory use for all processes with a given name

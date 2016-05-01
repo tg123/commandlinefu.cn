@@ -1,0 +1,8 @@
+commandlinefu_id: 15408
+translator:
+  weibo: ''
+hide: true
+command: |-
+  gs -sDEVICE=pdfwrite -o output.pdf /usr/share/ghostscript/9.16/lib/viewjpeg.ps -c "<</PageSize [first_x first_y]>> setpagedevice (first.jpg) viewJPEG showpage <</PageSize [second_x second_y]>> setpagedevice (second.jpg) viewJPEG showpage"
+summary: |-
+  Combine multiple JPEG's into a single PDF.

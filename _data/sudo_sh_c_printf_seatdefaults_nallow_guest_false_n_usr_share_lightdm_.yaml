@@ -1,0 +1,8 @@
+commandlinefu_id: 14660
+translator:
+  weibo: ''
+hide: true
+command: |-
+  sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" >/usr/share/lightdm/lightdm.conf.d/50-no-guest.conf'; sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" >/usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf'
+summary: |-
+  how to Disable a guest user from the login panel Xubuntu

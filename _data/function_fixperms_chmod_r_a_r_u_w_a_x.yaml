@@ -1,0 +1,8 @@
+commandlinefu_id: 15275
+translator:
+  weibo: ''
+hide: true
+command: |-
+  function fixperms() { chmod -R a=r,u+w,a+X . }
+summary: |-
+  Recursively chmod all dirs to 755 and all files to 644

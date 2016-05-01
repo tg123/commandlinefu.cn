@@ -1,0 +1,8 @@
+commandlinefu_id: 14277
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ps -auxh | sed -r "s/\s+/ /g" | cut -d ' ' -f 1 | sort | uniq -c | sort -gr
+summary: |-
+  Show the number of processes by user in descending order

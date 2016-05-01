@@ -1,0 +1,8 @@
+commandlinefu_id: 17189
+translator:
+  weibo: ''
+hide: true
+command: |-
+  bashrc-reload() { builtin exec bash ; }
+summary: |-
+  Make changes in .bashrc immediately available

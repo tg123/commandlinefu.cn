@@ -1,0 +1,8 @@
+commandlinefu_id: 14391
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ir() { perl -pne 's/(.)(.*)/\[\1]\2/' <<< "$@"  ;}
+summary: |-
+  shell function to create an 'invisible regex' that won't show up when grepping the output from 'ps'

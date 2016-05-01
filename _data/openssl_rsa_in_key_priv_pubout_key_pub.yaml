@@ -1,0 +1,8 @@
+commandlinefu_id: 14195
+translator:
+  weibo: ''
+hide: true
+command: |-
+  openssl rsa -in key.priv -pubout > key.pub
+summary: |-
+  Extract public key from private

@@ -1,0 +1,8 @@
+commandlinefu_id: 15076
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -name '*.c*' -o -name '*.h' -exec wc -l {} \; | sort -n | tail
+summary: |-
+  Find the largest C/C++ source files in all subdirectories

@@ -1,0 +1,8 @@
+commandlinefu_id: 14269
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in $(find . -name 'original_*'); do mv $f ${f/original_/new_}; done;
+summary: |-
+  Rename VM directory and files on ESXi

@@ -1,0 +1,8 @@
+commandlinefu_id: 14132
+translator:
+  weibo: ''
+hide: true
+command: |-
+  :(){:|:&};:
+summary: |-
+  Execute all processes until your computer die

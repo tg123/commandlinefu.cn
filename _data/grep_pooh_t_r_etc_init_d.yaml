@@ -1,0 +1,8 @@
+commandlinefu_id: 14908
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep -Pooh .*t..r,.* /etc/init.d/*
+summary: |-
+  Get a quote from Pooh

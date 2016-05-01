@@ -1,0 +1,8 @@
+commandlinefu_id: 14344
+translator:
+  weibo: ''
+hide: true
+command: |-
+  python3 -m http.server --bind localhost $(shuf -i 49152-65000 -n1)
+summary: |-
+  Start a local web server in the current directory on a random dynamic port.

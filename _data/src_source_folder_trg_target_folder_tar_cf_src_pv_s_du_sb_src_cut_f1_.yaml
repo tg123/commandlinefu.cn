@@ -1,0 +1,8 @@
+commandlinefu_id: 15060
+translator:
+  weibo: ''
+hide: true
+command: |-
+  SRC="/source/folder"; TRG="/target/folder/"; tar cf - "$SRC" | pv -s $(du -sb "$SRC" | cut -f1) | tar xf - -C "$TRG"
+summary: |-
+  Copy a folder with progress with pv

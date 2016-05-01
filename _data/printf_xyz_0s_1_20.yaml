@@ -1,0 +1,8 @@
+commandlinefu_id: 15935
+translator:
+  weibo: ''
+hide: true
+command: |-
+  printf -- 'xyz%.0s' {1..20}
+summary: |-
+  repeat any string or char n times without spaces between

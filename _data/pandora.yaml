@@ -1,0 +1,8 @@
+commandlinefu_id: 14836
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pandora
+summary: |-
+  ImageMagick now deals with RAW files.

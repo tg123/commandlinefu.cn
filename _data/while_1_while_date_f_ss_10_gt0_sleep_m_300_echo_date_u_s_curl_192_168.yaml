@@ -1,0 +1,8 @@
+commandlinefu_id: 15274
+translator:
+  weibo: ''
+hide: true
+command: |-
+  while(1){while((date -f ss)%10-gt0){sleep -m 300} echo "$(date -u %s) $((curl 192.168.100.1/cmSignalData.htm).parsedhtml.body.childnodes.item(1).firstchild.firstchild.childnodes.item(5).outertext|%{$_ -replace '\D+\n',''})">>modemlog.txt;sleep 1;echo .}
+summary: |-
+  Powershell Curl Logs Signal Strength of Cable Modem

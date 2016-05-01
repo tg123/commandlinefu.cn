@@ -1,0 +1,8 @@
+commandlinefu_id: 16265
+translator:
+  weibo: ''
+hide: true
+command: |-
+  Datejust
+summary: |-
+  List every docker's name, IP and port mapping

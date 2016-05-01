@@ -1,0 +1,8 @@
+commandlinefu_id: 14700
+translator:
+  weibo: ''
+hide: true
+command: |-
+  curl -sL http://goo.gl/3sA3iW | head -16 | tail -14
+summary: |-
+  Grab the top 5 CLFUContest one-liners

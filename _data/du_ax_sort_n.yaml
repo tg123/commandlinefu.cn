@@ -1,0 +1,8 @@
+commandlinefu_id: 15231
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -ax | sort -n
+summary: |-
+  Show what's taking space in a partition

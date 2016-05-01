@@ -1,0 +1,8 @@
+commandlinefu_id: 14342
+translator:
+  weibo: ''
+hide: true
+command: |-
+  date -r 1436241882
+summary: |-
+  Convert unix timestamp to date

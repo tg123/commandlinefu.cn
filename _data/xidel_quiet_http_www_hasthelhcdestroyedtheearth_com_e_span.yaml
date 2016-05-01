@@ -1,0 +1,8 @@
+commandlinefu_id: 14732
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xidel --quiet http://www.hasthelhcdestroyedtheearth.com/ -e //span
+summary: |-
+  Check if the LHC has destroyed the world

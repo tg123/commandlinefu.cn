@@ -1,0 +1,8 @@
+commandlinefu_id: 15290
+translator:
+  weibo: ''
+hide: true
+command: |-
+  scrot -s -q 100 foo.png ; xclip -selection c -t image/png < foo.png
+summary: |-
+  Screenshot Directly To Clipboard

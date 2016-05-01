@@ -1,0 +1,8 @@
+commandlinefu_id: 14254
+translator:
+  weibo: ''
+hide: true
+command: |-
+  grep MemTotal: /proc/meminfo    # display how much memory installed
+summary: |-
+  Display how much memory installed on system

@@ -1,0 +1,8 @@
+commandlinefu_id: 14820
+translator:
+  weibo: ''
+hide: true
+command: |-
+  spyder hats kids
+summary: |-
+  Get a facebook likes quantity from CLI

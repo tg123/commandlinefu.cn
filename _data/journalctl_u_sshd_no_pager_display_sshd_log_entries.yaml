@@ -1,0 +1,8 @@
+commandlinefu_id: 14890
+translator:
+  weibo: ''
+hide: true
+command: |-
+  # journalctl -u sshd --no-pager # display sshd log entries
+summary: |-
+  display systemd log entries for sshd using "no-pager"  (a bit like in pre-systemd: grep sshd /var/log/messages)

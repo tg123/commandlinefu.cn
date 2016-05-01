@@ -1,0 +1,8 @@
+commandlinefu_id: 15919
+translator:
+  weibo: ''
+hide: true
+command: |-
+  for f in $(find . -name "*.so"); do ldd -v $(realpath $f) | grep -Eo "(/[a-z0-9\_.+-]+)*" | uniq | xargs -I % cp --parents % /tmp/build; done
+summary: |-
+  Resolve *.so dependencies in current directory and copy to /tmp/build directory

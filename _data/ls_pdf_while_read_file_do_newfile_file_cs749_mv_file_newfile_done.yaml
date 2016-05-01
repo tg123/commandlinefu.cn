@@ -1,0 +1,8 @@
+commandlinefu_id: 16941
+translator:
+  weibo: ''
+hide: true
+command: |-
+  ls *.pdf | while read file; do newfile="${file##CS749__}"; mv "${file}" "${newfile}"; done;
+summary: |-
+  Removing Prefix from File name

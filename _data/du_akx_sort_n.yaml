@@ -1,0 +1,8 @@
+commandlinefu_id: 15230
+translator:
+  weibo: ''
+hide: true
+command: |-
+  du -akx ./ | sort -n
+summary: |-
+  Sort contents of a directory by size

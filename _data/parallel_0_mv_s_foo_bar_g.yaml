@@ -1,0 +1,8 @@
+commandlinefu_id: 15278
+translator:
+  weibo: ''
+hide: true
+command: |-
+  parallel -0 mv {} {=s/foo/bar/g=} ::: *
+summary: |-
+  bulk rename files with GNU Parallel

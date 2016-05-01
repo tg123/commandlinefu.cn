@@ -1,0 +1,8 @@
+commandlinefu_id: 15022
+translator:
+  weibo: ''
+hide: true
+command: |-
+  lsof -p PID
+summary: |-
+  list the open files for a particular process ID

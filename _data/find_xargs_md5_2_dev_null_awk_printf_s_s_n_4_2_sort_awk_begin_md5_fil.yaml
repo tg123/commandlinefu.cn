@@ -1,0 +1,8 @@
+commandlinefu_id: 15404
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . | xargs  md5 2>/dev/null | awk '{printf("%s %s\n", $4, $2)}' | sort | awk 'BEGIN{md5="";file=""}{if(md5==$1){printf("%s %s\t%s\n", $1, $2, file)}md5=$1;file=$2}'
+summary: |-
+  Find Duplicate Files (based on size first, then MD5 hash)

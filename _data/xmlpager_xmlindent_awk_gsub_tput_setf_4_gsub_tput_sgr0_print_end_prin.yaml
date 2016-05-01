@@ -1,0 +1,8 @@
+commandlinefu_id: 14351
+translator:
+  weibo: ''
+hide: true
+command: |-
+  xmlpager() { xmlindent "$@" | awk '{gsub(">",">'`tput setf 4`'"); gsub("<","'`tput sgr0`'<"); print;} END {print "'`tput sgr0`'"}' | less -r; }
+summary: |-
+  Highlight the plain text in XML (or HTML, SGML, etc)

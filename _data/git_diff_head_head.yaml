@@ -1,0 +1,8 @@
+commandlinefu_id: 14346
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git diff HEAD^ HEAD
+summary: |-
+  Git diff last two commits

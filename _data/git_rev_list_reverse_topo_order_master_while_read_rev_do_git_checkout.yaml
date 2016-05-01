@@ -1,0 +1,8 @@
+commandlinefu_id: 14180
+translator:
+  weibo: ''
+hide: true
+command: |-
+  git rev-list --reverse --topo-order master... | while read rev; do git checkout preview; git cherry-pick $rev || break; done
+summary: |-
+  Cherry-pick range of commits, starting from the tip of 'master', into 'preview' branch

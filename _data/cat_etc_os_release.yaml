@@ -1,0 +1,8 @@
+commandlinefu_id: 14906
+translator:
+  weibo: ''
+hide: true
+command: |-
+  cat /etc/os-release
+summary: |-
+  Operating system identification data

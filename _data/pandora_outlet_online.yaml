@@ -1,0 +1,8 @@
+commandlinefu_id: 15749
+translator:
+  weibo: ''
+hide: true
+command: |-
+  pandora outlet online
+summary: |-
+  Read and write to TCP or UDP sockets with common bash tools

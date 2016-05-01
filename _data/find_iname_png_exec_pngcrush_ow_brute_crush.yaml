@@ -1,0 +1,8 @@
+commandlinefu_id: 14712
+translator:
+  weibo: ''
+hide: true
+command: |-
+  find . -iname '*png' -exec pngcrush -ow -brute  {} {}.crush \;
+summary: |-
+  pngcrush all .png files in the directory
