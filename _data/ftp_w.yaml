@@ -1,7 +1,6 @@
 commandlinefu_id: 4164
 translator:
   weibo: 'fw8899'
-hide: true
 command: |-
   ftp>!w
 summary: |-
