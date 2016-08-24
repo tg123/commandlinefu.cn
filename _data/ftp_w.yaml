@@ -1,8 +1,8 @@
 commandlinefu_id: 4164
 translator:
-  weibo: ''
+  weibo: 'fw8899'
 hide: true
 command: |-
   ftp>!w
 summary: |-
-  Run command in an ftp session
+  在ftp session中执行命令

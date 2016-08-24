@@ -1,8 +1,7 @@
 commandlinefu_id: 10168
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   sed -r 's/(\[|])//g' | awk ' { $1=strftime("%D %T",$1); print }'
 summary: |-
-  Change time format in log, UNIX Timestamp to Human readable
+  格式化日志、UNIX时间戳为容易阅读的时间格式

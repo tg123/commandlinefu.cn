@@ -1,8 +1,7 @@
 commandlinefu_id: 10786
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   lsof +c 15 | awk '{print $1}' | sort | uniq -c | sort -rn | head
 summary: |-
-  Top 15 processes with the largest number of open files
+  打开文件数量最多的15个进程

@@ -1,8 +1,7 @@
 commandlinefu_id: 3562
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   $ awk '{printf "select * from table where id = %c%s%c;\n",39,$1,39; }' inputfile.txt
 summary: |-
-  create SQL-statements from textfile with awk
+  使用awk从文本文件创建SQL语句

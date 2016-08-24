@@ -1,8 +1,7 @@
 commandlinefu_id: 17043
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   du -ks * | sort -nr | cut -f2 | xargs -d '\n' du -sh
 summary: |-
-  list all directory sizes and sort by size
+  列出所有目录及文件的大小并按大小排序

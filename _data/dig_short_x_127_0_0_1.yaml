@@ -1,8 +1,7 @@
 commandlinefu_id: 13625
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   dig +short -x 127.0.0.1
 summary: |-
-  Perform a reverse DNS lookup
+  执行反向DNS查找
