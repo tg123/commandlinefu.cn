@@ -1,8 +1,7 @@
 commandlinefu_id: 14109
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   npm list -g --depth 0
 summary: |-
-  List all NPM global packages installed
+  列出所有全局安装的NPM包
