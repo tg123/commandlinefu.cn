@@ -1,8 +1,7 @@
 commandlinefu_id: 3707
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   find . -type f -exec sha1sum {} >> SHA1SUMS \;
 summary: |-
-  Generate SHA1 hash for each file in a list
+  为列表中的每个文件生成SHA1哈希

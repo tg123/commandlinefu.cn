@@ -1,8 +1,7 @@
 commandlinefu_id: 4900
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   dmidecode -t 17 | awk -F":" '/Speed/ { print $2 }'
 summary: |-
-  See your current RAM frequency
+  查看当前内存频率

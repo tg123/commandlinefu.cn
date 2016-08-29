@@ -1,8 +1,7 @@
 commandlinefu_id: 13617
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   hl() { while read -r; do printf '%s\n' "$(perl -p -e 's/('"$1"')/\a\e[7m$1\e[0m/g' <<< "$REPLY")"; done; }
 summary: |-
-  Highlight and beep on regular expression match
+  当正则表达式匹配时高亮显示并响铃

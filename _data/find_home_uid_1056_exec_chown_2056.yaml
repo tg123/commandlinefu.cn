@@ -1,8 +1,7 @@
 commandlinefu_id: 892
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   find /home -uid 1056 -exec chown 2056 {} \;
 summary: |-
-  Change the ownership of all files owned by one user.
+  改变某个用户所有文件的拥有权
