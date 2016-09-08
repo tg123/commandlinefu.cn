@@ -1,8 +1,7 @@
 commandlinefu_id: 11473
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   if [ -n "$SSH_CONNECTION" ]; then export TMOUT=300; fi
 summary: |-
-  Logout ssh user automatically after specified time
+  指定时间后自动登出ssh用户

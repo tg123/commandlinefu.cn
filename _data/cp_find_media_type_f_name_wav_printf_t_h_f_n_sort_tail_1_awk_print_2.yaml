@@ -1,8 +1,7 @@
 commandlinefu_id: 10828
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   cp $(find /media/ -type f -name "*.wav" -printf "%T@ %h/%f\n" | sort | tail -1 | awk '{ print $2 }') .
 summary: |-
-  Copy the most recent wav file from /media/ to the current folder
+  从/media/复制最新的wav文件到当前目录

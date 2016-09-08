@@ -1,8 +1,7 @@
 commandlinefu_id: 15048
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   find <mydir> -type f -exec rename 's/<string1>/<string2>/g' {} \;
 summary: |-
-  Replace + Find
+  查找并替换

@@ -1,8 +1,7 @@
 commandlinefu_id: 11299
 translator:
-  weibo: ''
-hide: true
+  weibo: 'fw8899'
 command: |-
   find . -type f -size -80k -print0|xargs -0 rm
 summary: |-
-  find and delete files smaller than specific size
+  查找并删除小于指定大小的文件
