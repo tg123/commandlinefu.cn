@@ -27,11 +27,11 @@
   <ItemGroup>
     <ProjectReference Include="..\CommandData\CommandData.csproj" />
   </ItemGroup>
-  <Target Name="CopyData" AfterTargets="Build">
+  <Target Name="CopyData" AfterTargets="PrepareForPublish">
     <ItemGroup>
       <CommandData Include="..\_data\*.yaml" />
     </ItemGroup>
-    <Copy SourceFiles="@(CommandData)" DestinationFolder="$(OutputPath)\_data" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(CommandData)" DestinationFolder="$(PublishDir)\_data" SkipUnchangedFiles="true" />
   </Target>
 
 </Project>

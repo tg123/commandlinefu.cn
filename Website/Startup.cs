@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using Commandlinefu.CommandData;
 using Commandlinefu.CommandData.Yaml;
 using Microsoft.AspNetCore.Builder;
@@ -27,7 +28,15 @@ namespace Commandlinefu.Website
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<ICommandInfoProvider>(new YamlCommandInfoProvider(Path.Combine(AppContext.BaseDirectory, "_data")));
+            services.AddSingleton<ICommandInfoProvider>(new YamlCommandInfoProvider(
+                new[]
+                {
+                    @"..\_data",
+                    @"_data",
+                    Path.Combine(AppContext.BaseDirectory, "_data")
+                }.First(Directory.Exists)
+                )
+            );
             services.AddSingleton<DataHolder>();
             // Add framework services.
             services.AddMvc();
