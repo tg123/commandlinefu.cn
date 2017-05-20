@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{EC20103E-5EC1-42D2-AD27-AB5475F40652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandData", "CommandData\CommandData.csproj", "{5595EF5B-EB8A-4B2B-80A4-856A8BE8685C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC20103E-5EC1-42D2-AD27-AB5475F40652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC20103E-5EC1-42D2-AD27-AB5475F40652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC20103E-5EC1-42D2-AD27-AB5475F40652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC20103E-5EC1-42D2-AD27-AB5475F40652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5595EF5B-EB8A-4B2B-80A4-856A8BE8685C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5595EF5B-EB8A-4B2B-80A4-856A8BE8685C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5595EF5B-EB8A-4B2B-80A4-856A8BE8685C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5595EF5B-EB8A-4B2B-80A4-856A8BE8685C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

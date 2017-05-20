@@ -1,0 +1,12 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.2.3",
+    "jquery.terminal": "0.11.23"
+  },
+  "resolutions": {
+    "jquery": "2.2.3",
+    "jquery.terminal": "0.11.23"
+  }
+}
