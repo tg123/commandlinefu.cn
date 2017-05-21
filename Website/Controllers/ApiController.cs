@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Linq;
+using System.Text.RegularExpressions;
 using Commandlinefu.CommandData;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,7 +31,8 @@ namespace Commandlinefu.Website.Controllers
         [HttpGet]
         public IActionResult Search(string str)
         {
-            return Ok(_data.Values.Where(info => info.Command.Contains(str)).Take(10));
+            var regex = new Regex(str);
+            return Ok(_data.Values.Where(info => info.Command.Contains(str) || regex.Match(info.Command).Success).Take(10));
         }
 
         [HttpGet]
@@ -54,7 +55,7 @@ namespace Commandlinefu.Website.Controllers
                 yield break;
             }
 
-            for(;;)
+            for (;;)
             {
                 yield return values[rand.Next(size)];
             }
